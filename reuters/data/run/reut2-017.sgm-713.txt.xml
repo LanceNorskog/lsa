@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-713.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">102</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">70</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">president</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shearson</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lehman</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">brothers</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">panic</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">On May 5, COMEX eliminated price limits on the two contracts following each spot delivery in gold, silver, copper and aluminum futures after a review of its clearing operations, which were severely tested by a volatile market in silver futures at the end of April.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">265</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Paul Cain, a vice president at Shearson Lehman Brothers, said the elimination of price limits will cut back on panic buying or selling and contribute to more orderly markets.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.862245710634953</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">During the last week of April, silver futures often traded at the daily allowable limit amid concerns about inflation, the dollar, and other factors.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.8354707676920397</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">On May 5, &lt;em&gt;COMEX eliminated price limits&lt;/em&gt; on the two &lt;em&gt;contracts following&lt;/em&gt; each spot &lt;em&gt;delivery&lt;/em&gt; in gold, &lt;em&gt;silver, copper&lt;/em&gt; and &lt;em&gt;aluminum futures after&lt;/em&gt; a &lt;em&gt;review&lt;/em&gt; of its &lt;em&gt;clearing operations, which&lt;/em&gt; were &lt;em&gt;severely tested&lt;/em&gt; by a &lt;em&gt;volatile market&lt;/em&gt; in &lt;em&gt;silver futures&lt;/em&gt; at the end of &lt;em&gt;April&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Paul Cain, a vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; said the &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;price limits&lt;/em&gt; will cut back on &lt;em&gt;panic buying&lt;/em&gt; or &lt;em&gt;selling&lt;/em&gt; and &lt;em&gt;contribute&lt;/em&gt; to more &lt;em&gt;orderly markets&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;During&lt;/em&gt; the last week of &lt;em&gt;April, silver futures often traded&lt;/em&gt; at the &lt;em&gt;daily allowable limit&lt;/em&gt; amid &lt;em&gt;concerns about inflation,&lt;/em&gt; the &lt;em&gt;dollar,&lt;/em&gt; and &lt;em&gt;other factors&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-330.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">84</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">retain</str>
+        <double name="strength">0.8946854259757124</double>
+      </lst>
+      <lst name="term">
+        <str name="text">british</str>
+        <double name="strength">0.8945398563005358</double>
+      </lst>
+      <lst name="term">
+        <str name="text">subsidiary</str>
+        <double name="strength">0.8944606070232773</double>
+      </lst>
+      <lst name="term">
+        <str name="text">these</str>
+        <double name="strength">0.8944459956278461</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Lacy said that RMJ employed some 300 people, with 200 in the brokerage business and about 70 in its &lt;SMS&gt; unit, which provided computer software for the financial services community.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">B and C managing director Peter Goldie said RMJ would be bought at about the same multiple as Exco, suggesting net income of around 16 mln dlrs.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">145</int>
+        <double name="strength">0.9460675091019803</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It is also involved in broking notes, obligations and other instruments sponsored by U.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">88</int>
+        <double name="strength">0.8571428571428565</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Lacy said that RMJ &lt;em&gt;employed&lt;/em&gt; some 300 &lt;em&gt;people,&lt;/em&gt; with 200 in the &lt;em&gt;brokerage business&lt;/em&gt; and &lt;em&gt;about 70&lt;/em&gt; in its &lt;SMS&gt; unit, &lt;em&gt;which provided computer software&lt;/em&gt; for the &lt;em&gt;financial services community&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">B and C &lt;em&gt;managing director Peter Goldie&lt;/em&gt; said RMJ &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;bought&lt;/em&gt; at &lt;em&gt;about&lt;/em&gt; the same &lt;em&gt;multiple&lt;/em&gt; as Exco, &lt;em&gt;suggesting&lt;/em&gt; net &lt;em&gt;income&lt;/em&gt; of &lt;em&gt;around 16&lt;/em&gt; mln dlrs.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It is also &lt;em&gt;involved&lt;/em&gt; in &lt;em&gt;broking notes, obligations&lt;/em&gt; and &lt;em&gt;other instruments sponsored&lt;/em&gt; by U.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

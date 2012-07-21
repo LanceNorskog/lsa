@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-016.sgm-712.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">25</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">103</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">64</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">traded</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">issue</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">exchange</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">under</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shares</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"This thing has opened them up to a possible acquisition," said Alan Edgar of Prudential Bache Capital Funding in Dallas.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">122</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Texaco yesterday filed Chapter 11 bankrupcty to protect itself from the 10.3 billion dlr judgement awarded to Pennzoil for Texaco's illegal takeover of Getty Oil Co.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.9723682430026207</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Texaco was the most actively traded issue on the New York Stock Exchange with just under 13 mln shares changing hands.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">119</int>
+        <double name="strength">0.8560446834131992</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">"This &lt;em&gt;thing&lt;/em&gt; has &lt;em&gt;opened&lt;/em&gt; them up to a &lt;em&gt;possible acquisition,"&lt;/em&gt; said Alan &lt;em&gt;Edgar&lt;/em&gt; of &lt;em&gt;Prudential Bache Capital Funding&lt;/em&gt; in &lt;em&gt;Dallas&lt;/em&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Texaco yesterday filed Chapter 11 bankrupcty&lt;/em&gt; to &lt;em&gt;protect itself&lt;/em&gt; from the 10.3 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;judgement awarded&lt;/em&gt; to &lt;em&gt;Pennzoil&lt;/em&gt; for &lt;em&gt;Texaco&lt;/em&gt;'s &lt;em&gt;illegal takeover&lt;/em&gt; of &lt;em&gt;Getty&lt;/em&gt; Oil Co.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Texaco&lt;/em&gt; was the most &lt;em&gt;actively traded issue&lt;/em&gt; on the New York &lt;em&gt;Stock Exchange&lt;/em&gt; with just &lt;em&gt;under 13&lt;/em&gt; mln &lt;em&gt;shares changing hands&lt;/em&gt;.</str>
+        <int name="index">20</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

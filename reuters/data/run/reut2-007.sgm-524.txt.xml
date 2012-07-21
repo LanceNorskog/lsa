@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-524.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">129</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">83</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">george</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">secretary</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">about</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">again</str>
+        <double name="strength">0.5590169943749478</double>
+      </lst>
+      <lst name="term">
+        <str name="text">would</str>
+        <double name="strength">0.5590169943749478</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">At the last minute, a reporter asked whether Vice President George Bush had opposed the arms sales as Secretary of State George Shultz and Defense Secretary Caspar Weinberger had done.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"No, that is not true," he said before a televised news conference when asked about reports that he had been told about the money diversion by his former National Security Adviser, John Poindexter.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.9376904349248413</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Reagan was giving his first formal White House press conference in four months since the Iran arms affair burst into scandal with the disclosure profits from weapons sales had been diverted, possibly illegally, to the contras.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">227</int>
+        <double name="strength">0.9372607122490493</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">At the last &lt;em&gt;minute,&lt;/em&gt; a &lt;em&gt;reporter asked whether&lt;/em&gt; Vice &lt;em&gt;President George&lt;/em&gt; Bush had &lt;em&gt;opposed&lt;/em&gt; the arms &lt;em&gt;sales&lt;/em&gt; as &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;State George Shultz&lt;/em&gt; and &lt;em&gt;Defense Secretary Caspar Weinberger&lt;/em&gt; had done.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"No, that is not true," he said &lt;em&gt;before&lt;/em&gt; a &lt;em&gt;televised&lt;/em&gt; news &lt;em&gt;conference&lt;/em&gt; when &lt;em&gt;asked about reports&lt;/em&gt; that he had been told &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;money diversion&lt;/em&gt; by his &lt;em&gt;former National Security Adviser,&lt;/em&gt; John &lt;em&gt;Poindexter&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Reagan&lt;/em&gt; was &lt;em&gt;giving&lt;/em&gt; his &lt;em&gt;first formal White House press conference&lt;/em&gt; in four &lt;em&gt;months since&lt;/em&gt; the Iran arms &lt;em&gt;affair burst&lt;/em&gt; into &lt;em&gt;scandal&lt;/em&gt; with the &lt;em&gt;disclosure profits&lt;/em&gt; from &lt;em&gt;weapons sales&lt;/em&gt; had been &lt;em&gt;diverted, possibly illegally,&lt;/em&gt; to the &lt;em&gt;contras&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-883.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">30</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">157</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">100</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">party</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">since</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">nation</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">month</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">risen</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Recent opinion polls showing Britain's ruling conservative party ahead of opposition parties in popularity have also supported the pound.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Since the six-nation accord last month, sterling has risen sharply, adding almost five pct on its trade-weighted index.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">120</int>
+        <double name="strength">0.8886597533394012</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sterling was also supported by signs of a weakening in the West German and Japanese economies, where growth for 1987 is trailing behind the three pct forecast for the U.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.7850263534085002</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Recent opinion polls showing Britain&lt;/em&gt;'s &lt;em&gt;ruling conservative party ahead&lt;/em&gt; of &lt;em&gt;opposition parties&lt;/em&gt; in &lt;em&gt;popularity&lt;/em&gt; have also &lt;em&gt;supported&lt;/em&gt; the &lt;em&gt;pound&lt;/em&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Since&lt;/em&gt; the six-&lt;em&gt;nation accord&lt;/em&gt; last &lt;em&gt;month, sterling&lt;/em&gt; has &lt;em&gt;risen sharply, adding almost&lt;/em&gt; five pct on its &lt;em&gt;trade-weighted index&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sterling&lt;/em&gt; was also &lt;em&gt;supported&lt;/em&gt; by &lt;em&gt;signs&lt;/em&gt; of a &lt;em&gt;weakening&lt;/em&gt; in the West &lt;em&gt;German&lt;/em&gt; and &lt;em&gt;Japanese economies, where growth&lt;/em&gt; for 1987 is &lt;em&gt;trailing behind&lt;/em&gt; the &lt;em&gt;three&lt;/em&gt; pct &lt;em&gt;forecast&lt;/em&gt; for the U.</str>
+        <int name="index">15</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-015.sgm-852.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">33</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">26</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">18</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">usage</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">thousand</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">short</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">wheat</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agriculture</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S. Agriculture Department supply/demand projections for the 1986/87 seasons, in mln bushels, with comparisons, unless noted --</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">126</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Soybean Cake/Meal -- thousand short tons - Stocks, Sept 30, 1987, at 270, vs 315 last month.</str>
+        <int name="index">28</int>
+        <int name="start">1</int>
+        <int name="end">93</int>
+        <double name="strength">0.5313801423874447</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cotton -- in mln 480 lb bales - Stocks, July 31, 1987, at 5.40, vs 5.49 last month.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">84</int>
+        <double name="strength">0.5232988002029868</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Agriculture Department supply/demand projections&lt;/em&gt; for the 1986/87 &lt;em&gt;seasons,&lt;/em&gt; in mln &lt;em&gt;bushels,&lt;/em&gt; with &lt;em&gt;comparisons, unless noted -&lt;/em&gt;-</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Soybean&lt;/em&gt; Cake/Meal -- &lt;em&gt;thousand short&lt;/em&gt; tons - &lt;em&gt;Stocks,&lt;/em&gt; Sept 30, 1987, at 270, vs 315 last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">28</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Cotton --&lt;/em&gt; in mln 480 lb &lt;em&gt;bales - Stocks,&lt;/em&gt; July 31, 1987, at 5.40, vs 5.49 last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

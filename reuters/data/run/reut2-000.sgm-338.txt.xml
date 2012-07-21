@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-338.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">119</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">71</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">profits</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cassette</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">philips</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">netherlands</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">launch</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">They use a cassette half the size of the standard audio cassette and unlike conventional analogue machines, they can make copies an infinite number of times with almost no loss of sound quality.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">194</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But Japanese hardware makers, hard pressed for profits in the era of the high yen and growing competition, are eager to carve out a profitable niche.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
+        <double name="strength">0.9229582069908976</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">DAT players have been kept off Western markets and some countries are considering banning them or imposing heavy duties unless tougher anti-piracy circuitry is added.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.8795629922644638</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">They use a &lt;em&gt;cassette&lt;/em&gt; half the size of the &lt;em&gt;standard audio cassette&lt;/em&gt; and &lt;em&gt;unlike conventional analogue machines,&lt;/em&gt; they can make &lt;em&gt;copies&lt;/em&gt; an &lt;em&gt;infinite number&lt;/em&gt; of &lt;em&gt;times&lt;/em&gt; with &lt;em&gt;almost&lt;/em&gt; no loss of &lt;em&gt;sound quality&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;Japanese hardware makers,&lt;/em&gt; hard &lt;em&gt;pressed&lt;/em&gt; for &lt;em&gt;profits&lt;/em&gt; in the era of the high yen and &lt;em&gt;growing competition,&lt;/em&gt; are &lt;em&gt;eager&lt;/em&gt; to &lt;em&gt;carve&lt;/em&gt; out a &lt;em&gt;profitable niche&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">DAT &lt;em&gt;players&lt;/em&gt; have been kept off &lt;em&gt;Western markets&lt;/em&gt; and some &lt;em&gt;countries&lt;/em&gt; are &lt;em&gt;considering banning&lt;/em&gt; them or &lt;em&gt;imposing heavy duties unless tougher&lt;/em&gt; anti-&lt;em&gt;piracy circuitry&lt;/em&gt; is &lt;em&gt;added&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

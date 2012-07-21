@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-021.sgm-5.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">27</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">136</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">83</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">registered</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">weinberger</str>
+        <double name="strength">0.9999986299949156</double>
+      </lst>
+      <lst name="term">
+        <str name="text">destroyed</str>
+        <double name="strength">0.9999985495504154</double>
+      </lst>
+      <lst name="term">
+        <str name="text">orchestrated</str>
+        <double name="strength">0.9999981793666501</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strike</str>
+        <double name="strength">0.9999981238939617</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Iranian Prime Minister Mir-Hossein Mousavi is currently in Damascus, and diplomats said he would seek Syrian help in preventing a total Arab breach with Tehran.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Diplomats noted, however, Iran was also seeking to avoid ostracism by Arab states due to meet at a summit in Amman on November 8 and discuss the Iran-Iraq war.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.8863890909128669</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A senior Arab banker in the area said after the news broke: "This was a good, measured response without risking a flare-up ...</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">127</int>
+        <double name="strength">0.8765934047568331</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Iranian Prime Minister&lt;/em&gt; Mir-&lt;em&gt;Hossein Mousavi&lt;/em&gt; is &lt;em&gt;currently&lt;/em&gt; in &lt;em&gt;Damascus,&lt;/em&gt; and &lt;em&gt;diplomats&lt;/em&gt; said he &lt;em&gt;would&lt;/em&gt; seek &lt;em&gt;Syrian&lt;/em&gt; help in &lt;em&gt;preventing&lt;/em&gt; a &lt;em&gt;total&lt;/em&gt; Arab &lt;em&gt;breach&lt;/em&gt; with &lt;em&gt;Tehran&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Diplomats noted, however,&lt;/em&gt; Iran was also &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;avoid ostracism&lt;/em&gt; by Arab &lt;em&gt;states&lt;/em&gt; due to meet at a &lt;em&gt;summit&lt;/em&gt; in &lt;em&gt;Amman&lt;/em&gt; on &lt;em&gt;November 8&lt;/em&gt; and &lt;em&gt;discuss&lt;/em&gt; the Iran-Iraq war.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;senior&lt;/em&gt; Arab &lt;em&gt;banker&lt;/em&gt; in the area said &lt;em&gt;after&lt;/em&gt; the news &lt;em&gt;broke: &lt;/em&gt;"This was a good, &lt;em&gt;measured response without risking&lt;/em&gt; a &lt;em&gt;flare-up ..&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-990.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">91</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">development</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">african</str>
+        <double name="strength">0.5590169943749476</double>
+      </lst>
+      <lst name="term">
+        <str name="text">votes</str>
+        <double name="strength">0.5590169943749473</double>
+      </lst>
+      <lst name="term">
+        <str name="text">december</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">committee</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Secretary-General of the African Development Bank expressed confidence in the institution's ability to handle potential problems with repayment of development financing loans.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">179</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The agenda will include the approval of the bank's annual report and accounts, but there will be no debate on the capital increase which is currently being voted on by the ADB governors.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">187</int>
+        <double name="strength">0.8391370230160426</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some commercial banks have recently taken extraordinary measures to deal with third world lending strategies.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">110</int>
+        <double name="strength">0.8292352062314209</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Secretary-General&lt;/em&gt; of the &lt;em&gt;African Development&lt;/em&gt; Bank &lt;em&gt;expressed confidence&lt;/em&gt; in the &lt;em&gt;institution&lt;/em&gt;'s &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;handle potential problems&lt;/em&gt; with &lt;em&gt;repayment&lt;/em&gt; of &lt;em&gt;development financing loans&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;agenda&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;approval&lt;/em&gt; of the bank's &lt;em&gt;annual report&lt;/em&gt; and &lt;em&gt;accounts,&lt;/em&gt; but &lt;em&gt;there&lt;/em&gt; will be no &lt;em&gt;debate&lt;/em&gt; on the &lt;em&gt;capital increase which&lt;/em&gt; is &lt;em&gt;currently being voted&lt;/em&gt; on by the ADB &lt;em&gt;governors&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some &lt;em&gt;commercial banks&lt;/em&gt; have &lt;em&gt;recently taken extraordinary measures&lt;/em&gt; to deal with &lt;em&gt;third world lending strategies&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

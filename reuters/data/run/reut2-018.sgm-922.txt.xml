@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-922.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">123</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">75</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">article</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">toronto</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">researcher</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">children</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">gastric</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"Anything that raises the possiblity of an entirely new therapy for ulcers would attack the core of Glaxo's worldwide business, which is Zantac," said David MacCallum, an analyst who follows Glaxo for Hambrecht and Quist.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ulcers happen when the stomach's protective lining erodes and is exposed to underlying inflamed tissue, but it is unknown what actually causes the process.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">156</int>
+        <double name="strength">0.9649881987705882</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an editorial in the same issue of the medical journal, Richard Hornick of the University of Rochester School of Medicine, reviewed studies using antibiotics to treat ulcers.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.8812203875347615</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Anything&lt;/em&gt; that &lt;em&gt;raises&lt;/em&gt; the &lt;em&gt;possiblity&lt;/em&gt; of an &lt;em&gt;entirely&lt;/em&gt; new &lt;em&gt;therapy&lt;/em&gt; for &lt;em&gt;ulcers would attack&lt;/em&gt; the core of &lt;em&gt;Glaxo&lt;/em&gt;'s &lt;em&gt;worldwide business, which&lt;/em&gt; is &lt;em&gt;Zantac,"&lt;/em&gt; said &lt;em&gt;David MacCallum,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; who &lt;em&gt;follows Glaxo&lt;/em&gt; for &lt;em&gt;Hambrecht&lt;/em&gt; and &lt;em&gt;Quist&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Ulcers happen&lt;/em&gt; when the &lt;em&gt;stomach&lt;/em&gt;'s &lt;em&gt;protective lining erodes&lt;/em&gt; and is &lt;em&gt;exposed&lt;/em&gt; to &lt;em&gt;underlying inflamed tissue,&lt;/em&gt; but it is &lt;em&gt;unknown&lt;/em&gt; what &lt;em&gt;actually causes&lt;/em&gt; the &lt;em&gt;process&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an &lt;em&gt;editorial&lt;/em&gt; in the same &lt;em&gt;issue&lt;/em&gt; of the &lt;em&gt;medical journal, Richard Hornick&lt;/em&gt; of the &lt;em&gt;University&lt;/em&gt; of &lt;em&gt;Rochester School&lt;/em&gt; of &lt;em&gt;Medicine, reviewed studies using antibiotics&lt;/em&gt; to &lt;em&gt;treat ulcers&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

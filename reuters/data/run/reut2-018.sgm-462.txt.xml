@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-462.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">33</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">22</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">total</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">month</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">march</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">december</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">homes</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The rate at which permits were issued for future construction fell in May by 7.6 pct to a seasonally adjusted 1,477,000 units after falling 7.0 pct to 1,598,000 units in April.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The permits total was the lowest for any month since March 1983, when 1,475,000 permits were issued.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">100</int>
+        <double name="strength">0.9269990651180623</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The department said May housing starts were at the lowest annual rate since December 1984, when starts were at a seasonally adjusted 1,612,000 units.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.6297690805440723</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The rate at &lt;em&gt;which permits&lt;/em&gt; were &lt;em&gt;issued&lt;/em&gt; for &lt;em&gt;future construction&lt;/em&gt; fell in May by 7.6 pct to a &lt;em&gt;seasonally adjusted 1,477,000 units after falling 7.0&lt;/em&gt; pct to 1,598,000 &lt;em&gt;units&lt;/em&gt; in &lt;em&gt;April&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;permits total&lt;/em&gt; was the &lt;em&gt;lowest&lt;/em&gt; for any &lt;em&gt;month since March 1983,&lt;/em&gt; when 1,475,000 &lt;em&gt;permits&lt;/em&gt; were &lt;em&gt;issued&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;department&lt;/em&gt; said May &lt;em&gt;housing starts&lt;/em&gt; were at the &lt;em&gt;lowest annual&lt;/em&gt; rate &lt;em&gt;since December 1984,&lt;/em&gt; when &lt;em&gt;starts&lt;/em&gt; were at a &lt;em&gt;seasonally adjusted 1,612,000 units&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

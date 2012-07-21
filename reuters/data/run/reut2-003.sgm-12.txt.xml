@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-12.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">92</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">59</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">without</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">consent</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">department</str>
+        <double name="strength">0.5590169943749482</double>
+      </lst>
+      <lst name="term">
+        <str name="text">application</str>
+        <double name="strength">0.5590169943749482</double>
+      </lst>
+      <lst name="term">
+        <str name="text">grounds</str>
+        <double name="strength">0.5000000000000012</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The company said its merger agreement with Piedmont provides that the offer is not to be amended without Piedmont's prior written consent in any way that would be adverse to Piedmont shareholders, but it said it could cut the number of shares to be bought without Piedmont's consent.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">284</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Transportation Department on Friday rejected TWA's application to acquire USAir on the grounds that the application failed to comply with department regulations by omitting necessary information.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">0.761001610016919</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The offer and withdrawal rights are to expire April Three unless extended, and the bid is to be followed by a merger at the same price.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.737802333568751</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said its &lt;em&gt;merger agreement&lt;/em&gt; with &lt;em&gt;Piedmont provides&lt;/em&gt; that the &lt;em&gt;offer&lt;/em&gt; is not to be &lt;em&gt;amended without Piedmont&lt;/em&gt;'s &lt;em&gt;prior written consent&lt;/em&gt; in any way that &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;adverse&lt;/em&gt; to &lt;em&gt;Piedmont shareholders,&lt;/em&gt; but it said it &lt;em&gt;could&lt;/em&gt; cut the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; to be &lt;em&gt;bought without Piedmont&lt;/em&gt;'s &lt;em&gt;consent&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Transportation Department&lt;/em&gt; on &lt;em&gt;Friday rejected&lt;/em&gt; TWA's &lt;em&gt;application&lt;/em&gt; to &lt;em&gt;acquire USAir&lt;/em&gt; on the &lt;em&gt;grounds&lt;/em&gt; that the &lt;em&gt;application failed&lt;/em&gt; to &lt;em&gt;comply&lt;/em&gt; with &lt;em&gt;department regulations&lt;/em&gt; by &lt;em&gt;omitting necessary information&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;offer&lt;/em&gt; and &lt;em&gt;withdrawal rights&lt;/em&gt; are to &lt;em&gt;expire April Three unless extended,&lt;/em&gt; and the bid is to be &lt;em&gt;followed&lt;/em&gt; by a &lt;em&gt;merger&lt;/em&gt; at the same &lt;em&gt;price&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

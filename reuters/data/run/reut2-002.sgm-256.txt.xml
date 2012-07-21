@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-256.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">119</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">76</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">foreign</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">first</str>
+        <double name="strength">0.8944271909999166</double>
+      </lst>
+      <lst name="term">
+        <str name="text">dealing</str>
+        <double name="strength">0.8944271909999166</double>
+      </lst>
+      <lst name="term">
+        <str name="text">outside</str>
+        <double name="strength">0.8944271909999166</double>
+      </lst>
+      <lst name="term">
+        <str name="text">paris</str>
+        <double name="strength">0.8944271909999166</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The government's banking adviser for the operation was &lt;Banque Privee de Gestion Financiere&gt;, BPGF, owned by French financier Pierre Moussa's &lt;Pallas&gt; group, assisted by Britain's &lt;Hambros Bank Ltd&gt;.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">SOGENAL is the only French bank in Austria, it set up the first foreign exchange dealing room outside Paris at its Strasbourg headquarters in 1985, and is the only foreign banking subsidiary to be a broker on the Zurich Bourse.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">228</int>
+        <double name="strength">0.9555591013182103</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Geronimus said the bank's future aim would be to reinforce its existing strong points, with no major projects planned apart from the opening soon of a Basle branch.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.9395691383868624</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;banking adviser&lt;/em&gt; for the &lt;em&gt;operation&lt;/em&gt; was &lt;&lt;em&gt;Banque Privee&lt;/em&gt; de &lt;em&gt;Gestion Financiere&gt;,&lt;/em&gt; BPGF, &lt;em&gt;owned&lt;/em&gt; by &lt;em&gt;French financier Pierre Moussa&lt;/em&gt;'s &lt;&lt;em&gt;Pallas&gt; group, assisted&lt;/em&gt; by &lt;em&gt;Britain&lt;/em&gt;'s &lt;&lt;em&gt;Hambros&lt;/em&gt; Bank Ltd&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;SOGENAL&lt;/em&gt; is the only &lt;em&gt;French&lt;/em&gt; bank in &lt;em&gt;Austria,&lt;/em&gt; it set up the &lt;em&gt;first foreign exchange dealing&lt;/em&gt; room &lt;em&gt;outside Paris&lt;/em&gt; at its &lt;em&gt;Strasbourg headquarters&lt;/em&gt; in 1985, and is the only &lt;em&gt;foreign banking subsidiary&lt;/em&gt; to be a &lt;em&gt;broker&lt;/em&gt; on the &lt;em&gt;Zurich Bourse&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Geronimus&lt;/em&gt; said the bank's &lt;em&gt;future&lt;/em&gt; aim &lt;em&gt;would&lt;/em&gt; be to &lt;em&gt;reinforce&lt;/em&gt; its &lt;em&gt;existing strong points,&lt;/em&gt; with no &lt;em&gt;major projects planned apart&lt;/em&gt; from the &lt;em&gt;opening&lt;/em&gt; soon of a &lt;em&gt;Basle branch&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

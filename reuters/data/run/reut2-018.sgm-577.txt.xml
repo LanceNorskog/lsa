@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-577.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">33</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">119</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">83</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">bankers</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trust</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">citicorp</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">forms</str>
+        <double name="strength">0.5590369986611411</double>
+      </lst>
+      <lst name="term">
+        <str name="text">coupon</str>
+        <double name="strength">0.5123658149952162</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Indeed, Bankers Trust Co and Citicorp Investment Bank, which are affiliates of Bankers Trust New York Corp and Citicorp respectively, were co-managers of the PEFCO offering.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. banks formed investment banking affiliates and applied to the Federal Reserve Board for authorization to offer commercial paper and underwrite and trade municipal revenue bonds and some forms of mortgage-backed securities.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">225</int>
+        <double name="strength">0.8441857250695036</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">We are endeavoring to prove that there is nothing mysterious about this business," the spokesman said.</str>
+        <int name="index">21</int>
+        <int name="start">0</int>
+        <int name="end">102</int>
+        <double name="strength">0.6781458736598438</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Indeed, Bankers Trust&lt;/em&gt; Co and &lt;em&gt;Citicorp Investment&lt;/em&gt; Bank, &lt;em&gt;which&lt;/em&gt; are &lt;em&gt;affiliates&lt;/em&gt; of &lt;em&gt;Bankers Trust&lt;/em&gt; New York Corp and &lt;em&gt;Citicorp respectively,&lt;/em&gt; were co-&lt;em&gt;managers&lt;/em&gt; of the &lt;em&gt;PEFCO offering&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;banks formed investment banking affiliates&lt;/em&gt; and &lt;em&gt;applied&lt;/em&gt; to the &lt;em&gt;Federal Reserve Board&lt;/em&gt; for &lt;em&gt;authorization&lt;/em&gt; to &lt;em&gt;offer commercial paper&lt;/em&gt; and &lt;em&gt;underwrite&lt;/em&gt; and &lt;em&gt;trade municipal revenue bonds&lt;/em&gt; and some &lt;em&gt;forms&lt;/em&gt; of &lt;em&gt;mortgage-backed securities&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">We are &lt;em&gt;endeavoring&lt;/em&gt; to &lt;em&gt;prove&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; is &lt;em&gt;nothing mysterious about&lt;/em&gt; this &lt;em&gt;business,"&lt;/em&gt; the &lt;em&gt;spokesman said&lt;/em&gt;.</str>
+        <int name="index">21</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

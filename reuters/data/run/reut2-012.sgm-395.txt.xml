@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-395.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">99</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">61</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">world</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">recession</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">unlikely</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fiscal</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Herrhausen said he was confident private consumption would support economic growth in West Germany this year, with net income increases turning into purchasing power as long as inflation did not revive.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">203</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A world recession is unlikely this year as fiscal and monetary policy in most industrialized countries is supporting the economy, Deutsche Bank AG &lt;DBKG.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">153</int>
+        <double name="strength">0.9127520889835127</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. were however rising, as evidenced by the latest prime rate moves, but this rise would be moderate.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">101</int>
+        <double name="strength">0.8576045421042576</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Herrhausen&lt;/em&gt; said he was &lt;em&gt;confident private consumption would support economic growth&lt;/em&gt; in West &lt;em&gt;Germany&lt;/em&gt; this year, with net &lt;em&gt;income increases turning&lt;/em&gt; into &lt;em&gt;purchasing power&lt;/em&gt; as long as &lt;em&gt;inflation&lt;/em&gt; did not &lt;em&gt;revive&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;world recession&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; this year as &lt;em&gt;fiscal&lt;/em&gt; and &lt;em&gt;monetary policy&lt;/em&gt; in most &lt;em&gt;industrialized countries&lt;/em&gt; is &lt;em&gt;supporting&lt;/em&gt; the &lt;em&gt;economy, Deutsche&lt;/em&gt; Bank AG &lt;DBKG.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. were &lt;em&gt;however rising,&lt;/em&gt; as &lt;em&gt;evidenced&lt;/em&gt; by the &lt;em&gt;latest prime&lt;/em&gt; rate &lt;em&gt;moves,&lt;/em&gt; but this rise &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;moderate&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

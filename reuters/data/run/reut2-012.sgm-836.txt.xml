@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-836.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">42</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">165</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">102</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">capital</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">market</str>
+        <double name="strength">0.5590169943749466</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offices</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">british</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">taking</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Bankers said this role could be undermined by a five pct capital adequacy ratio that goes into effect next year, requiring many DTC's to increase their capital.</str>
+        <int name="index">36</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We will open one more branch in (Hong Kong's district of) Kowloon soon, to better serve our clients on the other side of the harbour," said Mitsubishi Bank general manager Takeshi Tange.</str>
+        <int name="index">30</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
+        <double name="strength">0.9409951455420069</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But Mitsubishi, not content with its single-branch licence and a 25 pct stake in the small Liu Chong Hing Bank, bought Mercantile Bank Ltd's multi-branch licence early this year.</str>
+        <int name="index">29</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.9324581059033539</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; said this role &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;undermined&lt;/em&gt; by a five pct &lt;em&gt;capital adequacy ratio&lt;/em&gt; that goes into &lt;em&gt;effect&lt;/em&gt; next year, &lt;em&gt;requiring&lt;/em&gt; many DTC's to &lt;em&gt;increase their capital&lt;/em&gt;.</str>
+        <int name="index">36</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We will open one more &lt;em&gt;branch&lt;/em&gt; in (Hong Kong's &lt;em&gt;district&lt;/em&gt; of) &lt;em&gt;Kowloon&lt;/em&gt; soon, to &lt;em&gt;better serve&lt;/em&gt; our &lt;em&gt;clients&lt;/em&gt; on the &lt;em&gt;other&lt;/em&gt; side of the &lt;em&gt;harbour,"&lt;/em&gt; said &lt;em&gt;Mitsubishi&lt;/em&gt; Bank &lt;em&gt;general manager Takeshi Tange&lt;/em&gt;.</str>
+        <int name="index">30</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;Mitsubishi,&lt;/em&gt; not &lt;em&gt;content&lt;/em&gt; with its &lt;em&gt;single-branch licence&lt;/em&gt; and a 25 pct &lt;em&gt;stake&lt;/em&gt; in the &lt;em&gt;small&lt;/em&gt; Liu &lt;em&gt;Chong&lt;/em&gt; Hing Bank, &lt;em&gt;bought Mercantile&lt;/em&gt; Bank Ltd's &lt;em&gt;multi-branch licence early&lt;/em&gt; this year.</str>
+        <int name="index">29</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

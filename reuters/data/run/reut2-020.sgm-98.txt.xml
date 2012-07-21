@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-020.sgm-98.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">86</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">54</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">small</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">volatile</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">damage</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">confidence</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Announcing the suspension until next Monday, stock exchange chairman Ronald Li said earlier today "This will protect investors and allow brokers to settle a backlog of orders."</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Stockbrokers and legislators welcomed the suspension of trading on the local market after Monday's record fall, but some said the suspension was too long and could harm the territory's reputation as a financial centre.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">218</int>
+        <double name="strength">0.9303008447759596</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said some were paying interest on loans to purchase stock and a long suspension increased their losses.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">106</int>
+        <double name="strength">0.8346856919895764</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Announcing&lt;/em&gt; the &lt;em&gt;suspension until&lt;/em&gt; next &lt;em&gt;Monday, stock exchange chairman Ronald&lt;/em&gt; Li said &lt;em&gt;earlier today &lt;/em&gt;"This will &lt;em&gt;protect investors&lt;/em&gt; and &lt;em&gt;allow brokers&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; a &lt;em&gt;backlog&lt;/em&gt; of &lt;em&gt;orders.&lt;/em&gt;"</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Stockbrokers&lt;/em&gt; and &lt;em&gt;legislators welcomed&lt;/em&gt; the &lt;em&gt;suspension&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt; on the &lt;em&gt;local market after Monday&lt;/em&gt;'s &lt;em&gt;record&lt;/em&gt; fall, but some said the &lt;em&gt;suspension&lt;/em&gt; was too long and &lt;em&gt;could&lt;/em&gt; harm the &lt;em&gt;territory&lt;/em&gt;'s &lt;em&gt;reputation&lt;/em&gt; as a &lt;em&gt;financial centre&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said some were &lt;em&gt;paying interest&lt;/em&gt; on &lt;em&gt;loans&lt;/em&gt; to &lt;em&gt;purchase stock&lt;/em&gt; and a long &lt;em&gt;suspension increased their losses&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-890.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">27</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">77</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">43</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">telling</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">representatives</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">associations</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">saturday</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">could</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Textiles are Taiwan's second-largest export earner, after electrical and electronic products.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">94</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He quoted Chang as telling representatives of 19 textile associations last Saturday the government could not fix the Taiwan dollar exchange rate at 35 to one U.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.9138608437822048</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Chang was quoted as saying this would depend on Taiwan's ability to reduce its trade surplus with the U.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">105</int>
+        <double name="strength">0.9113247496944826</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Textiles&lt;/em&gt; are &lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;second-largest export earner, after electrical&lt;/em&gt; and &lt;em&gt;electronic products&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He &lt;em&gt;quoted Chang&lt;/em&gt; as &lt;em&gt;telling representatives&lt;/em&gt; of 19 &lt;em&gt;textile associations&lt;/em&gt; last &lt;em&gt;Saturday&lt;/em&gt; the &lt;em&gt;government could&lt;/em&gt; not fix the &lt;em&gt;Taiwan dollar exchange&lt;/em&gt; rate at 35 to one U.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chang&lt;/em&gt; was &lt;em&gt;quoted&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; this &lt;em&gt;would depend&lt;/em&gt; on &lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;trade surplus&lt;/em&gt; with the U.</str>
+        <int name="index">13</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

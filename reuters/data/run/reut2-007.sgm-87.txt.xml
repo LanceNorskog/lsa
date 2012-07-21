@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-87.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">37</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">189</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">123</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">credit</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">suisse</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">investment</str>
+        <double name="strength">0.9999999999999973</double>
+      </lst>
+      <lst name="term">
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999969</double>
+      </lst>
+      <lst name="term">
+        <str name="text">understand</str>
+        <double name="strength">0.9999999999999964</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Citicorp (Switzerland) pioneered warrants with a series of equity-linked covered issues based on Japanese company shares over the past two years, and last autumn, Swiss banks launched covered warrants in Swiss registered shares in a bid to give foreign investors a chance to play in a market otherwise closed to all but Swiss citizens, and to play it with higher leverage.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">373</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">And Credit Suisse and Credit Suisse-First Boston each issued Swiss franc bonds with warrants for gold which have a similar character, though they are aimed at a less professional market.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">187</int>
+        <double name="strength">0.9041942983955075</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The issues are being marketed not on the basis of simple premiums, but on implicit volatility models devised to provide scientific comparisons between titles in the options market.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.7063270882485018</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Citicorp (Switzerland) pioneered warrants&lt;/em&gt; with a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;equity-linked covered issues based&lt;/em&gt; on &lt;em&gt;Japanese company shares&lt;/em&gt; over the past two &lt;em&gt;years,&lt;/em&gt; and last &lt;em&gt;autumn, Swiss banks launched covered warrants&lt;/em&gt; in &lt;em&gt;Swiss registered shares&lt;/em&gt; in a bid to give &lt;em&gt;foreign investors&lt;/em&gt; a &lt;em&gt;chance&lt;/em&gt; to play in a &lt;em&gt;market otherwise closed&lt;/em&gt; to all but &lt;em&gt;Swiss citizens,&lt;/em&gt; and to play it with &lt;em&gt;higher leverage&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">And &lt;em&gt;Credit Suisse&lt;/em&gt; and &lt;em&gt;Credit Suisse-First Boston&lt;/em&gt; each &lt;em&gt;issued Swiss franc bonds&lt;/em&gt; with &lt;em&gt;warrants&lt;/em&gt; for gold &lt;em&gt;which&lt;/em&gt; have a &lt;em&gt;similar character, though&lt;/em&gt; they are &lt;em&gt;aimed&lt;/em&gt; at a less &lt;em&gt;professional market&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;issues&lt;/em&gt; are &lt;em&gt;being marketed&lt;/em&gt; not on the &lt;em&gt;basis&lt;/em&gt; of &lt;em&gt;simple premiums,&lt;/em&gt; but on &lt;em&gt;implicit volatility models devised&lt;/em&gt; to &lt;em&gt;provide scientific comparisons between titles&lt;/em&gt; in the &lt;em&gt;options market&lt;/em&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

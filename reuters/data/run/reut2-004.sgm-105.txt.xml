@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-105.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">87</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">should</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">likely</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+      <lst name="term">
+        <str name="text">wholly</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">subsidiary</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Group turnover should rise about seven pct from the 15.7 mln reported for this year, while group investments should total around 1.8 billion francs, somewhat above the 1.3 billion annual average of the past three years, he added.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">230</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Wholly-owned subsidiary Lyonnaise de Developpement Touristique would carry out the construction work and financial planning of the development which would be leased to Club Med as operator of the complex, he said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">0.7576428004092887</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">PA&gt;, Club Med, of a 200 hectare pleasure park at Puisaye in the Yonne department of Eastern Central France, he said.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">116</int>
+        <double name="strength">0.6546814443989953</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Group turnover should&lt;/em&gt; rise &lt;em&gt;about seven&lt;/em&gt; pct from the 15.7 mln &lt;em&gt;reported&lt;/em&gt; for this year, &lt;em&gt;while group investments should total around 1.8 billion francs, somewhat above&lt;/em&gt; the 1.3 &lt;em&gt;billion annual average&lt;/em&gt; of the past &lt;em&gt;three years,&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wholly-owned subsidiary Lyonnaise&lt;/em&gt; de &lt;em&gt;Developpement Touristique would carry&lt;/em&gt; out the &lt;em&gt;construction&lt;/em&gt; work and &lt;em&gt;financial planning&lt;/em&gt; of the &lt;em&gt;development which would&lt;/em&gt; be &lt;em&gt;leased&lt;/em&gt; to Club Med as &lt;em&gt;operator&lt;/em&gt; of the &lt;em&gt;complex,&lt;/em&gt; he said.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">PA&gt;, Club Med, of a 200 &lt;em&gt;hectare pleasure&lt;/em&gt; park at &lt;em&gt;Puisaye&lt;/em&gt; in the &lt;em&gt;Yonne department&lt;/em&gt; of &lt;em&gt;Eastern Central France,&lt;/em&gt; he said.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

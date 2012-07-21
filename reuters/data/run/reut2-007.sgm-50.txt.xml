@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-50.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">140</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">105</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">marks</str>
+        <double name="strength">0.6666666666666659</double>
+      </lst>
+      <lst name="term">
+        <str name="text">increased</str>
+        <double name="strength">0.6666666666666657</double>
+      </lst>
+      <lst name="term">
+        <str name="text">deutsche</str>
+        <double name="strength">0.3726779962499651</double>
+      </lst>
+      <lst name="term">
+        <str name="text">interest</str>
+        <double name="strength">0.3726779962499648</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The volume of zero coupon bonds and floating rate notes, the most widely used financial innovations in Germany, stands at four billion and 16 billion marks, respectively, a tiny proportion of the 1,000 billion marks of bonds in circulation.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">241</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The liberalization of West German capital markets in May 1985 led to a flood of financial innovations but the lack of a secondary market for these has diminished their acceptance, Deutsche Girozentrale - Deutsche Kommunalbank management board member Wiegand Hennicke said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">272</int>
+        <double name="strength">0.833303581522928</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">West German Finance Minister Gerhard Stoltenberg said this week he believed the tax could still be removed, even if its abolition was not decided during recent coalition discussions.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.773535861729995</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;volume&lt;/em&gt; of zero &lt;em&gt;coupon bonds&lt;/em&gt; and &lt;em&gt;floating&lt;/em&gt; rate &lt;em&gt;notes,&lt;/em&gt; the most &lt;em&gt;widely&lt;/em&gt; used &lt;em&gt;financial innovations&lt;/em&gt; in &lt;em&gt;Germany, stands&lt;/em&gt; at four &lt;em&gt;billion&lt;/em&gt; and 16 &lt;em&gt;billion marks, respectively,&lt;/em&gt; a tiny &lt;em&gt;proportion&lt;/em&gt; of the 1,000 &lt;em&gt;billion marks&lt;/em&gt; of &lt;em&gt;bonds&lt;/em&gt; in &lt;em&gt;circulation&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;liberalization&lt;/em&gt; of West &lt;em&gt;German capital markets&lt;/em&gt; in May 1985 led to a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;financial innovations&lt;/em&gt; but the lack of a &lt;em&gt;secondary market&lt;/em&gt; for &lt;em&gt;these&lt;/em&gt; has &lt;em&gt;diminished their acceptance, Deutsche Girozentrale - Deutsche Kommunalbank management board member Wiegand Hennicke said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">West &lt;em&gt;German Finance Minister Gerhard Stoltenberg&lt;/em&gt; said this week he &lt;em&gt;believed&lt;/em&gt; the tax &lt;em&gt;could still&lt;/em&gt; be &lt;em&gt;removed,&lt;/em&gt; even if its &lt;em&gt;abolition&lt;/em&gt; was not &lt;em&gt;decided during recent coalition discussions&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

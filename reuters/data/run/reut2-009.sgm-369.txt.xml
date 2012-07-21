@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-369.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">93</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">questions</str>
+        <double name="strength">0.6666666666666684</double>
+      </lst>
+      <lst name="term">
+        <str name="text">capital</str>
+        <double name="strength">0.6666666666666665</double>
+      </lst>
+      <lst name="term">
+        <str name="text">response</str>
+        <double name="strength">0.3333333333333342</double>
+      </lst>
+      <lst name="term">
+        <str name="text">raised</str>
+        <double name="strength">0.3333333333333342</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">We have capital of 1.9 billion dlrs, the fourth largest on Wall Street, equity of 1.3 billion dlrs, and excess net capital of one billion dlrs."</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">144</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In response to questions, a Drexel spokesman said, "Any questions raised about our credit conditions are ridiculous as those few competitors who have instituted restrictions for whatever their motives well know."</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
+        <double name="strength">0.8891794700110566</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Rumors circulated in financial and commodity markets yesterday that units of &lt;Shearson Lehman Brothers Inc&gt;, Salomon Inc &lt;SB&gt; and &lt;Goldman, Sachs and Co&gt; had restricted commodities business with Drexel because of its involvement in the government's insider trading probe.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">272</int>
+        <double name="strength">0.8803614400658653</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">We have &lt;em&gt;capital&lt;/em&gt; of 1.9 &lt;em&gt;billion&lt;/em&gt; dlrs, the &lt;em&gt;fourth largest&lt;/em&gt; on Wall &lt;em&gt;Street, equity&lt;/em&gt; of 1.3 &lt;em&gt;billion&lt;/em&gt; dlrs, and &lt;em&gt;excess&lt;/em&gt; net &lt;em&gt;capital&lt;/em&gt; of one &lt;em&gt;billion dlrs.&lt;/em&gt;"</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;questions,&lt;/em&gt; a &lt;em&gt;Drexel spokesman&lt;/em&gt; said, "Any &lt;em&gt;questions raised about&lt;/em&gt; our &lt;em&gt;credit conditions&lt;/em&gt; are &lt;em&gt;ridiculous&lt;/em&gt; as &lt;em&gt;those&lt;/em&gt; few &lt;em&gt;competitors&lt;/em&gt; who have &lt;em&gt;instituted restrictions&lt;/em&gt; for &lt;em&gt;whatever their motives&lt;/em&gt; well know."</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Rumors circulated&lt;/em&gt; in &lt;em&gt;financial&lt;/em&gt; and &lt;em&gt;commodity markets yesterday&lt;/em&gt; that &lt;em&gt;units&lt;/em&gt; of &lt;&lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; Inc&gt;, &lt;em&gt;Salomon&lt;/em&gt; Inc &lt;SB&gt; and &lt;&lt;em&gt;Goldman, Sachs&lt;/em&gt; and Co&gt; had &lt;em&gt;restricted commodities business&lt;/em&gt; with &lt;em&gt;Drexel because&lt;/em&gt; of its &lt;em&gt;involvement&lt;/em&gt; in the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;insider trading probe&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

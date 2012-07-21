@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-141.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">99</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">64</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">first</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fujian</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">corporation</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agricultural</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">parent</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Chinese partners are Industrial and Commercial Bank of China, Fujian branch, whose share rose to 23.5 pct from 15, Fujian Investment and Enterprise Corporation 17.5 pct (15) and Xiamen Construction and Development Corporation 10 pct (10).</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">243</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Apart from Xiamen International Bank and the International Agricultural Development Bank planned by the World Bank and the state-owned Agricultural Bank of China, Xiamen has eight foreign bank branches or representative offices, mostly of Hong Kong or overseas Chinese banks.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">276</int>
+        <double name="strength">0.9955873567091152</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">General manager Liu Shuxun declined to give a 1987 profit forecast, saying targets were under study.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">101</int>
+        <double name="strength">0.7519445197271306</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Chinese partners&lt;/em&gt; are &lt;em&gt;Industrial&lt;/em&gt; and &lt;em&gt;Commercial&lt;/em&gt; Bank of &lt;em&gt;China, Fujian branch, whose share&lt;/em&gt; rose to 23.5 pct from 15, &lt;em&gt;Fujian Investment&lt;/em&gt; and &lt;em&gt;Enterprise Corporation 17.5&lt;/em&gt; pct (15) and &lt;em&gt;Xiamen Construction&lt;/em&gt; and &lt;em&gt;Development Corporation 10 pct (10)&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Apart&lt;/em&gt; from &lt;em&gt;Xiamen International&lt;/em&gt; Bank and the &lt;em&gt;International Agricultural Development&lt;/em&gt; Bank &lt;em&gt;planned&lt;/em&gt; by the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;state-owned Agricultural&lt;/em&gt; Bank of &lt;em&gt;China, Xiamen&lt;/em&gt; has &lt;em&gt;eight foreign&lt;/em&gt; bank &lt;em&gt;branches&lt;/em&gt; or &lt;em&gt;representative offices, mostly&lt;/em&gt; of Hong Kong or &lt;em&gt;overseas Chinese banks&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;General manager&lt;/em&gt; Liu &lt;em&gt;Shuxun declined&lt;/em&gt; to give a 1987 &lt;em&gt;profit forecast, saying targets&lt;/em&gt; were &lt;em&gt;under study&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

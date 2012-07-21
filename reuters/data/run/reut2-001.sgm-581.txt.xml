@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-581.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">89</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">55</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">according</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">throughout</str>
+        <double name="strength">0.894427190999917</double>
+      </lst>
+      <lst name="term">
+        <str name="text">torrential</str>
+        <double name="strength">0.8944271909999167</double>
+      </lst>
+      <lst name="term">
+        <str name="text">producing</str>
+        <double name="strength">0.8944271909999165</double>
+      </lst>
+      <lst name="term">
+        <str name="text">areas</str>
+        <double name="strength">0.8944271909999165</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Rainfall measured between 15 and 270 mm in Buenos Aires, with the heaviest rains in the province's western sectors, between 15 and 100 mm in Cordoba, 15 and 120 mm in La Pampa, 10 and 75 mm in Santa Fe, 10 and 60 mm in Entre Rios, five and 40 mm in Misiones, and five and 50 mm in San Luis.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">291</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Torrential rains throughout Argentina's grain-producing areas virtually paralysed coarse grain harvesting in the week to yesterday, trade sources said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">151</int>
+        <double name="strength">0.9316553526695014</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rains did no damage to maize, sunflower and sorghum crops though fresh rains in similar volume could reduce yields and cut the total volume of this year's harvest.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.7587283503614742</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Rainfall measured between 15&lt;/em&gt; and 270 mm in &lt;em&gt;Buenos Aires,&lt;/em&gt; with the &lt;em&gt;heaviest rains&lt;/em&gt; in the &lt;em&gt;province&lt;/em&gt;'s &lt;em&gt;western sectors, between 15&lt;/em&gt; and 100 mm in &lt;em&gt;Cordoba, 15&lt;/em&gt; and 120 mm in La &lt;em&gt;Pampa, 10&lt;/em&gt; and 75 mm in &lt;em&gt;Santa&lt;/em&gt; Fe, 10 and 60 mm in &lt;em&gt;Entre&lt;/em&gt; Rios, five and 40 mm in &lt;em&gt;Misiones,&lt;/em&gt; and five and 50 mm in San Luis.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Torrential rains throughout Argentina&lt;/em&gt;'s &lt;em&gt;grain-producing areas virtually paralysed coarse grain harvesting&lt;/em&gt; in the week to &lt;em&gt;yesterday, trade sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;rains&lt;/em&gt; did no &lt;em&gt;damage&lt;/em&gt; to &lt;em&gt;maize, sunflower&lt;/em&gt; and &lt;em&gt;sorghum crops though fresh rains&lt;/em&gt; in &lt;em&gt;similar volume could reduce yields&lt;/em&gt; and cut the &lt;em&gt;total volume&lt;/em&gt; of this year's &lt;em&gt;harvest&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

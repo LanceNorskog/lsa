@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-357.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">93</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">60</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">should</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">significant</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">enough</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">dampen</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prospects</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Robert Bretz, chairman of the NAPM's business survey committee and director of materials management at Pitney Bowes Inc &lt;PBI&gt; said "the economy continued to expand in February, but at a more subdued rate than in January.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">221</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The slowing of new orders should not be significant enough to dampen prospects for a respectable first quarter."</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">112</int>
+        <double name="strength">0.9112325869865558</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, production remained vigorous as more than three times as many members reported it better rather than worse.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">117</int>
+        <double name="strength">0.8602325267042608</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Robert Bretz, chairman&lt;/em&gt; of the NAPM's &lt;em&gt;business survey committee&lt;/em&gt; and &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;materials management&lt;/em&gt; at &lt;em&gt;Pitney Bowes&lt;/em&gt; Inc &lt;PBI&gt; said "the &lt;em&gt;economy continued&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; but at a more &lt;em&gt;subdued&lt;/em&gt; rate than in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;slowing&lt;/em&gt; of new &lt;em&gt;orders should&lt;/em&gt; not be &lt;em&gt;significant enough&lt;/em&gt; to &lt;em&gt;dampen prospects&lt;/em&gt; for a &lt;em&gt;respectable first quarter.&lt;/em&gt;"</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;However, production remained vigorous&lt;/em&gt; as more than &lt;em&gt;three times&lt;/em&gt; as many &lt;em&gt;members reported&lt;/em&gt; it &lt;em&gt;better rather&lt;/em&gt; than &lt;em&gt;worse&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

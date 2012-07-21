@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-020.sgm-743.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">22</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">93</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">consulting</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">portion</str>
+        <double name="strength">0.9999999999999962</double>
+      </lst>
+      <lst name="term">
+        <str name="text">worth</str>
+        <double name="strength">0.9999999999999962</double>
+      </lst>
+      <lst name="term">
+        <str name="text">because</str>
+        <double name="strength">0.9999999999999957</double>
+      </lst>
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">0.9999999999999957</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">At that time, the stock purchase portion was worth close to 80 dlrs per share, but now that portion is worth 53 dlrs per share for a net price of 68 dlrs, one analyst said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Bank takeovers are less likely because banks can't use their own stock to make acquisitions because their share price is too depressed," Alpert said.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">151</int>
+        <double name="strength">0.9840119856031255</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">According to the prospectus offer, shareholders may tender for all cash or all shares on a first come, first serve basis.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">122</int>
+        <double name="strength">0.9496517242253769</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">At that time, the &lt;em&gt;stock purchase portion&lt;/em&gt; was &lt;em&gt;worth close&lt;/em&gt; to 80 dlrs per &lt;em&gt;share,&lt;/em&gt; but now that &lt;em&gt;portion&lt;/em&gt; is &lt;em&gt;worth 53&lt;/em&gt; dlrs per &lt;em&gt;share&lt;/em&gt; for a net &lt;em&gt;price&lt;/em&gt; of 68 dlrs, one &lt;em&gt;analyst said&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Bank &lt;em&gt;takeovers&lt;/em&gt; are less &lt;em&gt;likely because banks&lt;/em&gt; can't use &lt;em&gt;their&lt;/em&gt; own &lt;em&gt;stock&lt;/em&gt; to make &lt;em&gt;acquisitions because their share price&lt;/em&gt; is too &lt;em&gt;depressed," Alpert said&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;According&lt;/em&gt; to the &lt;em&gt;prospectus offer, shareholders&lt;/em&gt; may &lt;em&gt;tender&lt;/em&gt; for all cash or all &lt;em&gt;shares&lt;/em&gt; on a &lt;em&gt;first&lt;/em&gt; come, &lt;em&gt;first serve basis&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

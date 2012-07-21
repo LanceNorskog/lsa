@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-645.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">26</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">131</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">78</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">futures</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">dakota</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">precipitation</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">feedlots</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">already</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Talk among futures traders that cattle had died from the cold and blowing snow accounted for some of the strength in Live Cattle futures at the Chicago Mercantile Exchange today.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Roy Gallant, from Accu Weather Services, said that although the worst of the storm is over, there are still some strong gusty winds which will not diminish until tonight.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">0.8273482419984179</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Paul Johnston of the Nebraska Livestock Feeders Association said, "There's no question that baby calves coming in that kind of blizzard are probably not going to make it."</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.7669334135423758</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Talk &lt;em&gt;among futures traders&lt;/em&gt; that &lt;em&gt;cattle&lt;/em&gt; had died from the cold and &lt;em&gt;blowing&lt;/em&gt; snow &lt;em&gt;accounted&lt;/em&gt; for some of the &lt;em&gt;strength&lt;/em&gt; in Live &lt;em&gt;Cattle futures&lt;/em&gt; at the &lt;em&gt;Chicago Mercantile Exchange today&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Roy &lt;em&gt;Gallant,&lt;/em&gt; from Accu &lt;em&gt;Weather Services,&lt;/em&gt; said that &lt;em&gt;although&lt;/em&gt; the &lt;em&gt;worst&lt;/em&gt; of the &lt;em&gt;storm&lt;/em&gt; is over, &lt;em&gt;there&lt;/em&gt; are &lt;em&gt;still&lt;/em&gt; some &lt;em&gt;strong gusty winds which&lt;/em&gt; will not &lt;em&gt;diminish until tonight&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Paul &lt;em&gt;Johnston&lt;/em&gt; of the &lt;em&gt;Nebraska Livestock Feeders Association&lt;/em&gt; said, "&lt;em&gt;There&lt;/em&gt;'s no &lt;em&gt;question&lt;/em&gt; that baby &lt;em&gt;calves coming&lt;/em&gt; in that kind of &lt;em&gt;blizzard&lt;/em&gt; are &lt;em&gt;probably&lt;/em&gt; not &lt;em&gt;going&lt;/em&gt; to make it."</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

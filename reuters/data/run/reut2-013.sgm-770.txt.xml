@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-770.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">23</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">108</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">75</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">month</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">auction</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reserve</str>
+        <double name="strength">0.790569415042098</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bills</str>
+        <double name="strength">0.5590169943749479</double>
+      </lst>
+      <lst name="term">
+        <str name="text">impetus</str>
+        <double name="strength">0.5000000000000029</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Three-month bills were unchanged from yesterday's auction price at 5.53 pct bid, while six-month bills rose six basis points from their auction price to 5.69 pct bid.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The impetus for the opening declines came from overseas trading, where a lack of retail buying led to profit-taking that erased yesterday's moderate gains, dealers said.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.8660105942071537</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I can't imagine that anything of much substance could comoe out of these meetings other than a reiteration of previous statements," a dealer said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">148</int>
+        <double name="strength">0.8550418966152807</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Three-month bills&lt;/em&gt; were &lt;em&gt;unchanged&lt;/em&gt; from &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;auction price&lt;/em&gt; at 5.53 pct bid, &lt;em&gt;while&lt;/em&gt; six-&lt;em&gt;month bills&lt;/em&gt; rose six &lt;em&gt;basis points&lt;/em&gt; from &lt;em&gt;their auction price&lt;/em&gt; to 5.69 pct bid.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;impetus&lt;/em&gt; for the &lt;em&gt;opening declines&lt;/em&gt; came from &lt;em&gt;overseas trading, where&lt;/em&gt; a lack of &lt;em&gt;retail buying&lt;/em&gt; led to &lt;em&gt;profit-taking&lt;/em&gt; that &lt;em&gt;erased yesterday&lt;/em&gt;'s &lt;em&gt;moderate gains, dealers said&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I can't &lt;em&gt;imagine&lt;/em&gt; that &lt;em&gt;anything&lt;/em&gt; of much &lt;em&gt;substance could comoe&lt;/em&gt; out of &lt;em&gt;these meetings other&lt;/em&gt; than a &lt;em&gt;reiteration&lt;/em&gt; of &lt;em&gt;previous statements,"&lt;/em&gt; a &lt;em&gt;dealer said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

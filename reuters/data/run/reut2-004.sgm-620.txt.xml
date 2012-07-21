@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-620.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">86</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">56</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">performed</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">underwritten</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">morgan</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">grenfell</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">mccaughan</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Wholly-owned and joint venture companies also did well apart from timber, building supplies and real estate, which returned below-budget profits due to the housing downturn.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Adsteam said its diverse industrial interests generally performed well and its results, as the ultimate holding company and beneficiary, reflected this solid performance.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">0.9572426856978513</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The issue will be underwritten by &lt;Morgan Grenfell Australia Ltd&gt; and &lt;McCaughan Dyson Ltd&gt; apart from the shares to be taken up by Adsteam's associate and largest shareholder, department store retailer &lt;David Jones Ltd&gt;.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">0.8861802539896767</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wholly-owned&lt;/em&gt; and &lt;em&gt;joint venture companies&lt;/em&gt; also did well &lt;em&gt;apart&lt;/em&gt; from &lt;em&gt;timber, building supplies&lt;/em&gt; and real &lt;em&gt;estate, which returned below-budget profits&lt;/em&gt; due to the &lt;em&gt;housing downturn&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Adsteam&lt;/em&gt; said its &lt;em&gt;diverse industrial interests generally performed&lt;/em&gt; well and its &lt;em&gt;results,&lt;/em&gt; as the &lt;em&gt;ultimate holding company&lt;/em&gt; and &lt;em&gt;beneficiary, reflected&lt;/em&gt; this &lt;em&gt;solid performance&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;issue&lt;/em&gt; will be &lt;em&gt;underwritten&lt;/em&gt; by &lt;&lt;em&gt;Morgan Grenfell Australia&lt;/em&gt; Ltd&gt; and &lt;&lt;em&gt;McCaughan Dyson&lt;/em&gt; Ltd&gt; &lt;em&gt;apart&lt;/em&gt; from the &lt;em&gt;shares&lt;/em&gt; to be &lt;em&gt;taken&lt;/em&gt; up by &lt;em&gt;Adsteam&lt;/em&gt;'s &lt;em&gt;associate&lt;/em&gt; and &lt;em&gt;largest shareholder, department store retailer &lt;David Jones Ltd&gt;&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-330.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">61</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">48</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">revised</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">within</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">major</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">industry</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">categories</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The February gain followed a revised orders drop in January of 5.3 pct, the largest drop on record since the department revised the statistics in 1982.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Within major industry categories, orders increases were widespread.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">68</int>
+        <double name="strength">0.8232785937623867</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These figures compared with a January decline of 9.8 pct in durables orders and no change in nondurables orders in January.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
+        <double name="strength">0.7680250772471061</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;February&lt;/em&gt; gain &lt;em&gt;followed&lt;/em&gt; a &lt;em&gt;revised orders&lt;/em&gt; drop in &lt;em&gt;January&lt;/em&gt; of 5.3 pct, the &lt;em&gt;largest&lt;/em&gt; drop on &lt;em&gt;record since&lt;/em&gt; the &lt;em&gt;department revised&lt;/em&gt; the &lt;em&gt;statistics in 1982&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Within major industry categories, orders increases&lt;/em&gt; were &lt;em&gt;widespread&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;These figures compared&lt;/em&gt; with a &lt;em&gt;January decline&lt;/em&gt; of 9.8 pct in &lt;em&gt;durables orders&lt;/em&gt; and no &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;nondurables orders&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

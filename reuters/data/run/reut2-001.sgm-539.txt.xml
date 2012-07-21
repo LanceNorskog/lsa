@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-539.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">132</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">86</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">matter</str>
+        <double name="strength">0.6666666666666662</double>
+      </lst>
+      <lst name="term">
+        <str name="text">longer</str>
+        <double name="strength">0.6666666666666659</double>
+      </lst>
+      <lst name="term">
+        <str name="text">tuesday</str>
+        <double name="strength">0.37267799624996434</double>
+      </lst>
+      <lst name="term">
+        <str name="text">planning</str>
+        <double name="strength">0.33333333333333337</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Bundesbank President Karl Otto Poehl said last December that security repurchase pacts had proved a much greater success since their introduction in their present form two years ago, and praised their flexibility.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The change to come into force next month will allow the Bundesbank access to these accounts to select the bonds itself, in a process legally comparable to direct debiting.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.7137812103947794</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But sometimes public holidays result in longer pacts or longer tender periods being necessary.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">94</int>
+        <double name="strength">0.6730966948244276</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bundesbank President&lt;/em&gt; Karl Otto &lt;em&gt;Poehl&lt;/em&gt; said last &lt;em&gt;December&lt;/em&gt; that &lt;em&gt;security repurchase pacts&lt;/em&gt; had &lt;em&gt;proved&lt;/em&gt; a much &lt;em&gt;greater success since their introduction&lt;/em&gt; in &lt;em&gt;their present&lt;/em&gt; form two &lt;em&gt;years&lt;/em&gt; ago, and &lt;em&gt;praised their flexibility&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;change&lt;/em&gt; to come into &lt;em&gt;force&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; will &lt;em&gt;allow&lt;/em&gt; the &lt;em&gt;Bundesbank access&lt;/em&gt; to &lt;em&gt;these accounts&lt;/em&gt; to &lt;em&gt;select&lt;/em&gt; the &lt;em&gt;bonds itself,&lt;/em&gt; in a &lt;em&gt;process legally comparable&lt;/em&gt; to &lt;em&gt;direct debiting&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;sometimes public holidays result&lt;/em&gt; in &lt;em&gt;longer pacts&lt;/em&gt; or &lt;em&gt;longer tender periods being necessary&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

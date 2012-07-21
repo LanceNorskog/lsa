@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-988.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">85</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">48</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">intermediary</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">making</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">industrial</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fluid</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cleaners</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">A study completed in 1974 after an outbreak of respiratory cancer among employees linked the disease to exposure to a carcinogen, bischloromethyl ether, which is made at the plant.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Potential causes and incidence of pancreatic, colon/rectal, prostate and bladder cancer will be studied further, a company spokesman said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">139</int>
+        <double name="strength">0.9865551590952905</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The production of the chemical, an intermediary used in making industrial fluid cleaners, was isolated in 1971 so workers were no longer exposed to it, the spokesman said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.8956094808767434</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;study completed&lt;/em&gt; in 1974 &lt;em&gt;after&lt;/em&gt; an &lt;em&gt;outbreak&lt;/em&gt; of &lt;em&gt;respiratory cancer among employees linked&lt;/em&gt; the &lt;em&gt;disease&lt;/em&gt; to &lt;em&gt;exposure&lt;/em&gt; to a &lt;em&gt;carcinogen, bischloromethyl ether, which&lt;/em&gt; is made at the &lt;em&gt;plant&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Potential causes&lt;/em&gt; and &lt;em&gt;incidence&lt;/em&gt; of &lt;em&gt;pancreatic, colon/rectal, prostate&lt;/em&gt; and &lt;em&gt;bladder cancer&lt;/em&gt; will be &lt;em&gt;studied further,&lt;/em&gt; a &lt;em&gt;company spokesman said&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;production&lt;/em&gt; of the &lt;em&gt;chemical,&lt;/em&gt; an &lt;em&gt;intermediary&lt;/em&gt; used in &lt;em&gt;making industrial fluid cleaners,&lt;/em&gt; was &lt;em&gt;isolated&lt;/em&gt; in 1971 so &lt;em&gt;workers&lt;/em&gt; were no &lt;em&gt;longer exposed&lt;/em&gt; to it, the &lt;em&gt;spokesman said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-005.sgm-553.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">84</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">necessary</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">0.7905694150420957</double>
+      </lst>
+      <lst name="term">
+        <str name="text">crowns</str>
+        <double name="strength">0.5590169943749478</double>
+      </lst>
+      <lst name="term">
+        <str name="text">defines</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">category</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"Standard &amp; Poor's has noted that in 1986 there was a series of austerity measures designed particularly to cut lending and encourage saving.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Standard and Poor's said weaker international competitiveness in the face of rising labour costs would mean a deteriorating current account balance and a rise in external debt.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
+        <double name="strength">0.9980395805905239</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If and when it becomes necessary, the government will be ready to take any necessary economic and political initiatives as it has in the past," Simonsen said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9963454330617557</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Standard &amp;&lt;/em&gt; Poor's has &lt;em&gt;noted&lt;/em&gt; that in 1986 &lt;em&gt;there&lt;/em&gt; was a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;austerity measures designed particularly&lt;/em&gt; to cut &lt;em&gt;lending&lt;/em&gt; and &lt;em&gt;encourage saving&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Standard&lt;/em&gt; and Poor's said &lt;em&gt;weaker international competitiveness&lt;/em&gt; in the face of &lt;em&gt;rising labour costs would&lt;/em&gt; mean a &lt;em&gt;deteriorating current account balance&lt;/em&gt; and a rise in &lt;em&gt;external debt&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If and when it &lt;em&gt;becomes necessary,&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; will be &lt;em&gt;ready&lt;/em&gt; to take any &lt;em&gt;necessary economic&lt;/em&gt; and &lt;em&gt;political initiatives&lt;/em&gt; as it has in the past," &lt;em&gt;Simonsen said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

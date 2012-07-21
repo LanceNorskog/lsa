@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">22</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-726.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">38</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">209</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">150</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">dislike</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">share</str>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">level</str>
+        <double name="strength">0.9999999999999967</double>
+      </lst>
+      <lst name="term">
+        <str name="text">saying</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Sprinkel told a symposium sponsored by New York University that spending could be cut by avoiding decisions based on the desire to influence votes and by shifting the responsibility for local projects to state governments.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">223</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sprinkel said that, compared with fiscal 1978, the 1986 federal expenditure share of GNP is 2.7 percentage points higher and the revenue share of GNP is virtually the same.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.9339979350827449</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"But their dislike of taxes exceeded their general dislike of spending programs.</str>
+        <int name="index">27</int>
+        <int name="start">1</int>
+        <int name="end">81</int>
+        <double name="strength">0.9296858365072115</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sprinkel&lt;/em&gt; told a &lt;em&gt;symposium sponsored&lt;/em&gt; by New York &lt;em&gt;University&lt;/em&gt; that &lt;em&gt;spending could&lt;/em&gt; be cut by &lt;em&gt;avoiding decisions based&lt;/em&gt; on the &lt;em&gt;desire&lt;/em&gt; to &lt;em&gt;influence votes&lt;/em&gt; and by &lt;em&gt;shifting&lt;/em&gt; the &lt;em&gt;responsibility&lt;/em&gt; for &lt;em&gt;local projects&lt;/em&gt; to &lt;em&gt;state governments&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sprinkel&lt;/em&gt; said that, &lt;em&gt;compared&lt;/em&gt; with &lt;em&gt;fiscal 1978,&lt;/em&gt; the 1986 &lt;em&gt;federal expenditure share&lt;/em&gt; of GNP is 2.7 &lt;em&gt;percentage points higher&lt;/em&gt; and the &lt;em&gt;revenue share&lt;/em&gt; of GNP is &lt;em&gt;virtually&lt;/em&gt; the same.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"But &lt;em&gt;their dislike&lt;/em&gt; of &lt;em&gt;taxes exceeded their general dislike&lt;/em&gt; of &lt;em&gt;spending programs&lt;/em&gt;.</str>
+        <int name="index">27</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

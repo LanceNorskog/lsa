@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-950.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">110</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">72</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">earnings</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">restructure</str>
+        <double name="strength">0.5590169943749481</double>
+      </lst>
+      <lst name="term">
+        <str name="text">overall</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+      <lst name="term">
+        <str name="text">slightly</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+      <lst name="term">
+        <str name="text">below</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Yesterday the company said that it will restructure its Mobil Exploration and Producing Services Inc, MEPSI, to enhance the development and transfer of technology supporting critical areas of exploration, drilling, resevoir management and computer systems.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">257</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Overall capital and exploration expenditures will fall slightly below the level for 1986 although we'll be ready to increase spending whenever the outlook becomes more promising," Murray said.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">194</int>
+        <double name="strength">0.9299194283462153</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This probably also means a shift toward emphasis in the foreign area since selective overseas exploration offers greater potential."</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">132</int>
+        <double name="strength">0.8496565505683399</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Yesterday&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; said that it will &lt;em&gt;restructure&lt;/em&gt; its &lt;em&gt;Mobil Exploration&lt;/em&gt; and &lt;em&gt;Producing Services&lt;/em&gt; Inc, &lt;em&gt;MEPSI,&lt;/em&gt; to &lt;em&gt;enhance&lt;/em&gt; the &lt;em&gt;development&lt;/em&gt; and &lt;em&gt;transfer&lt;/em&gt; of &lt;em&gt;technology supporting critical areas&lt;/em&gt; of &lt;em&gt;exploration, drilling, resevoir management&lt;/em&gt; and &lt;em&gt;computer systems&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Overall capital&lt;/em&gt; and &lt;em&gt;exploration expenditures&lt;/em&gt; will fall &lt;em&gt;slightly below&lt;/em&gt; the &lt;em&gt;level&lt;/em&gt; for 1986 &lt;em&gt;although&lt;/em&gt; we'll be &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;increase spending whenever&lt;/em&gt; the &lt;em&gt;outlook becomes&lt;/em&gt; more &lt;em&gt;promising," Murray said&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This &lt;em&gt;probably&lt;/em&gt; also &lt;em&gt;means&lt;/em&gt; a &lt;em&gt;shift toward emphasis&lt;/em&gt; in the &lt;em&gt;foreign&lt;/em&gt; area &lt;em&gt;since selective overseas exploration offers greater potential.&lt;/em&gt;"</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

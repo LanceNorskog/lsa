@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-268.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">53</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">159</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">92</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">johnson</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">expected</str>
+        <double name="strength">0.559016994374948</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quarter</str>
+        <double name="strength">0.5000000000000028</double>
+      </lst>
+      <lst name="term">
+        <str name="text">later</str>
+        <double name="strength">0.5000000000000027</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strength</str>
+        <double name="strength">0.5000000000000027</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"February is not a big month seasonally but these numbers suggest a fairly good trend for consumer spending," said Drexel Burnham Lambert analyst Jeff Edelman.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"My feeling is that it (February) borrowed some of the business we normally see later in the quarter and the real strength of general merchandise sales will be in the second half of 1987," said Bear Stearns and Co analyst Monroe Greenstein.</str>
+        <int name="index">1</int>
+        <int name="start">2</int>
+        <int name="end">242</int>
+        <double name="strength">0.9426945429059936</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. retailers posted stronger than expected sales in February, but not enough to prompt analysts to change their expectations of sluggish sales growth for the first half of 1987.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">179</int>
+        <double name="strength">0.9062582894011636</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"February&lt;/em&gt; is not a big &lt;em&gt;month seasonally&lt;/em&gt; but &lt;em&gt;these numbers suggest&lt;/em&gt; a &lt;em&gt;fairly&lt;/em&gt; good &lt;em&gt;trend&lt;/em&gt; for &lt;em&gt;consumer spending,"&lt;/em&gt; said &lt;em&gt;Drexel Burnham Lambert analyst&lt;/em&gt; Jeff &lt;em&gt;Edelman&lt;/em&gt;.</str>
+        <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"My &lt;em&gt;feeling&lt;/em&gt; is that it (&lt;em&gt;February) borrowed&lt;/em&gt; some of the &lt;em&gt;business&lt;/em&gt; we &lt;em&gt;normally&lt;/em&gt; see &lt;em&gt;later&lt;/em&gt; in the &lt;em&gt;quarter&lt;/em&gt; and the real &lt;em&gt;strength&lt;/em&gt; of &lt;em&gt;general merchandise sales&lt;/em&gt; will be in the &lt;em&gt;second&lt;/em&gt; half of 1987," said Bear &lt;em&gt;Stearns&lt;/em&gt; and Co &lt;em&gt;analyst Monroe Greenstein&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;retailers posted stronger&lt;/em&gt; than &lt;em&gt;expected sales&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; but not &lt;em&gt;enough&lt;/em&gt; to &lt;em&gt;prompt analysts&lt;/em&gt; to &lt;em&gt;change their expectations&lt;/em&gt; of &lt;em&gt;sluggish sales growth&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; half of 1987.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

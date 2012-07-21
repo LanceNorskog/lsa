@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-142.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">32</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">158</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">110</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">visit</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">period</str>
+        <double name="strength">0.9941126952133453</double>
+      </lst>
+      <lst name="term">
+        <str name="text">department</str>
+        <double name="strength">0.6589141311268869</double>
+      </lst>
+      <lst name="term">
+        <str name="text">comments</str>
+        <double name="strength">0.5558138691082116</double>
+      </lst>
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">0.555723724435292</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Semiconductors - tiny silicon memory chips - are integral components of modern electronic goods ranging from television sets and personal computers to guidance systems on aircraft.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">180</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The tariffs are to be imposed after a period of public comment, but Commerce Secretary Malcolm Baldrige and other officials have said neither the comment period or the U.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">0.9866123885625702</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">White House spokesman Marlin Fitzwater said that while he hoped something could be done to hold off the sanctions, "it probably is not likely."</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9341445215881978</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Semiconductors -&lt;/em&gt; tiny &lt;em&gt;silicon memory chips -&lt;/em&gt; are &lt;em&gt;integral components&lt;/em&gt; of &lt;em&gt;modern electronic goods ranging&lt;/em&gt; from &lt;em&gt;television&lt;/em&gt; sets and &lt;em&gt;personal computers&lt;/em&gt; to &lt;em&gt;guidance systems&lt;/em&gt; on &lt;em&gt;aircraft&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;tariffs&lt;/em&gt; are to be &lt;em&gt;imposed after&lt;/em&gt; a &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;public comment,&lt;/em&gt; but &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt; and &lt;em&gt;other officials&lt;/em&gt; have said &lt;em&gt;neither&lt;/em&gt; the &lt;em&gt;comment period&lt;/em&gt; or the U.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;White House spokesman Marlin Fitzwater&lt;/em&gt; said that &lt;em&gt;while&lt;/em&gt; he &lt;em&gt;hoped something could&lt;/em&gt; be done to hold off the &lt;em&gt;sanctions, &lt;/em&gt;"it &lt;em&gt;probably&lt;/em&gt; is not &lt;em&gt;likely.&lt;/em&gt;"</str>
+        <int name="index">20</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

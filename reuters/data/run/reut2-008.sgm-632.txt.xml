@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-632.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">38</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">133</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">73</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">these</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">include</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offshore</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">handled</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">through</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Indonesia's September devaluation helped bank profits to rise by 28.6 pct in calendar 1986, but despite higher world oil prices, banks are likely to see profits stabilise or fall in 1987, the head of Indonesia's Association of Private Banks told Reuters.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">254</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These profits do not include offshore loans, which are handled through other centres but which account for most of the foreign banks' business.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9544175867593305</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">N&gt; local unit Citibank, previously listed as the largest foreign bank, slipped to second place behind Bank of Tokyo.</str>
+        <int name="index">31</int>
+        <int name="start">0</int>
+        <int name="end">116</int>
+        <double name="strength">0.8934289361483781</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Indonesia&lt;/em&gt;'s &lt;em&gt;September devaluation helped&lt;/em&gt; bank &lt;em&gt;profits&lt;/em&gt; to rise by 28.6 pct in &lt;em&gt;calendar 1986,&lt;/em&gt; but &lt;em&gt;despite higher world&lt;/em&gt; oil &lt;em&gt;prices, banks&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to see &lt;em&gt;profits stabilise&lt;/em&gt; or fall in 1987, the head of &lt;em&gt;Indonesia&lt;/em&gt;'s &lt;em&gt;Association&lt;/em&gt; of &lt;em&gt;Private Banks&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;These profits&lt;/em&gt; do not &lt;em&gt;include offshore loans, which&lt;/em&gt; are &lt;em&gt;handled through other centres&lt;/em&gt; but &lt;em&gt;which account&lt;/em&gt; for most of the &lt;em&gt;foreign banks' business&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">N&gt; &lt;em&gt;local&lt;/em&gt; unit &lt;em&gt;Citibank, previously listed&lt;/em&gt; as the &lt;em&gt;largest foreign&lt;/em&gt; bank, &lt;em&gt;slipped&lt;/em&gt; to &lt;em&gt;second place behind&lt;/em&gt; Bank of &lt;em&gt;Tokyo&lt;/em&gt;.</str>
+        <int name="index">31</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

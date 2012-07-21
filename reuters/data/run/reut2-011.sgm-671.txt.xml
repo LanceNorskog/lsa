@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-671.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">87</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">60</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">participating</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">vendors</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">subcontrators</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">generate</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The company said the defense system uses digital electronics with a mulifunction phased array radar to locate targets and control firing.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company said the agreement will generate cost savings thorugh volume purchase discounts and efficient manufacturing.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">121</int>
+        <double name="strength">0.938272084829273</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Army said that the multi-year contract would result in savings in excess of 12 pct over the continued award of annual contracts.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.7801071774261452</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;defense system&lt;/em&gt; uses &lt;em&gt;digital electronics&lt;/em&gt; with a &lt;em&gt;mulifunction phased array radar&lt;/em&gt; to &lt;em&gt;locate targets&lt;/em&gt; and &lt;em&gt;control firing&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;agreement&lt;/em&gt; will &lt;em&gt;generate&lt;/em&gt; cost &lt;em&gt;savings thorugh volume purchase discounts&lt;/em&gt; and &lt;em&gt;efficient manufacturing&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Army said that the &lt;em&gt;multi&lt;/em&gt;-year &lt;em&gt;contract would result&lt;/em&gt; in &lt;em&gt;savings&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of 12 pct over the &lt;em&gt;continued award&lt;/em&gt; of &lt;em&gt;annual contracts&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

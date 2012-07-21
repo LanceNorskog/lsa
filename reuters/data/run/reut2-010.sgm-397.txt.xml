@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-397.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">27</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">82</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">49</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">business</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">denominated</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">finance</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">director</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">heinz</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In a speech to the annual meeting, Schutz said third-party orders placed with Porsche's engineering research centre in Weissach were rising and should top 100 mln marks this year for the first time.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">199</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time Porsche has hedged its dollar-denominated business for the 1986/87 business year, finance director Heinz Branitzki.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">132</int>
+        <double name="strength">0.8585240389483906</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">When the dollar was strong against the mark, many Porsches had been bought locally in West Germany for illegal export to the U.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">127</int>
+        <double name="strength">0.7401008470322655</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">In a &lt;em&gt;speech&lt;/em&gt; to the &lt;em&gt;annual meeting, Schutz&lt;/em&gt; said &lt;em&gt;third-party orders placed&lt;/em&gt; with &lt;em&gt;Porsche&lt;/em&gt;'s &lt;em&gt;engineering research centre&lt;/em&gt; in &lt;em&gt;Weissach&lt;/em&gt; were &lt;em&gt;rising&lt;/em&gt; and &lt;em&gt;should&lt;/em&gt; top 100 mln &lt;em&gt;marks&lt;/em&gt; this year for the &lt;em&gt;first time&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time &lt;em&gt;Porsche&lt;/em&gt; has &lt;em&gt;hedged&lt;/em&gt; its &lt;em&gt;dollar-denominated business&lt;/em&gt; for the 1986/87 &lt;em&gt;business&lt;/em&gt; year, &lt;em&gt;finance director Heinz Branitzki&lt;/em&gt;.</str>
+        <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">When the &lt;em&gt;dollar&lt;/em&gt; was &lt;em&gt;strong against&lt;/em&gt; the mark, many &lt;em&gt;Porsches&lt;/em&gt; had been &lt;em&gt;bought locally&lt;/em&gt; in West &lt;em&gt;Germany&lt;/em&gt; for &lt;em&gt;illegal export&lt;/em&gt; to the U.</str>
+        <int name="index">15</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-015.sgm-794.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">116</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">69</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">issue</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">popularity</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">dropped</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sharply</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">since</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Members of prime minister Yasuhiro Nakasone's ruling Liberal Democratic Party (LDP) have shunned his support in their campaigns for upcoming local elections.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">157</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Nakasone's popularity has dropped sharply since he led his party to its greatest-ever election victory last July, and analysts said the proposed tax was one reason for the decline.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.8844854470183244</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But Kenzo Uchida, professor of political science at Hosei University, said, "Nakasone can afford to get fairly tough if the LDP loses only in Hokkaido."</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
+        <double name="strength">0.8658077381785737</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Members&lt;/em&gt; of &lt;em&gt;prime minister Yasuhiro Nakasone&lt;/em&gt;'s &lt;em&gt;ruling Liberal Democratic Party &lt;/em&gt;(LDP) have &lt;em&gt;shunned&lt;/em&gt; his &lt;em&gt;support&lt;/em&gt; in &lt;em&gt;their campaigns&lt;/em&gt; for &lt;em&gt;upcoming local elections&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Nakasone&lt;/em&gt;'s &lt;em&gt;popularity&lt;/em&gt; has &lt;em&gt;dropped sharply since&lt;/em&gt; he led his &lt;em&gt;party&lt;/em&gt; to its &lt;em&gt;greatest&lt;/em&gt;-ever &lt;em&gt;election victory&lt;/em&gt; last July, and &lt;em&gt;analysts&lt;/em&gt; said the &lt;em&gt;proposed&lt;/em&gt; tax was one &lt;em&gt;reason&lt;/em&gt; for the &lt;em&gt;decline&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;Kenzo Uchida, professor&lt;/em&gt; of &lt;em&gt;political science&lt;/em&gt; at &lt;em&gt;Hosei University,&lt;/em&gt; said, "&lt;em&gt;Nakasone&lt;/em&gt; can &lt;em&gt;afford&lt;/em&gt; to get &lt;em&gt;fairly tough&lt;/em&gt; if the LDP &lt;em&gt;loses&lt;/em&gt; only in &lt;em&gt;Hokkaido.&lt;/em&gt;"</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

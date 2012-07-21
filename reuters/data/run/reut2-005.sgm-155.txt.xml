@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-005.sgm-155.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">12</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">94</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">63</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">employed</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">troops</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">about</str>
+        <double name="strength">0.5590169943749478</double>
+      </lst>
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">0.5590169943749475</double>
+      </lst>
+      <lst name="term">
+        <str name="text">compounding</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Wilson Gomes de Moura, president of the national confederation which groups the bank employees' 152 unions representing 700,000 workers, told Reuters the indefinite stoppage would affect all banks.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The government ordered thousands of troops into the refineries on Tuesday to forestall any occupation, but the troops were removed yesterday.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">0.8693544413333556</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Brazilian bank workers voted to launch a nationwide strike this month, compounding labour unrest arising from the failure of the government's anti-inflation plan.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">162</int>
+        <double name="strength">0.8338554869356877</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wilson Gomes&lt;/em&gt; de &lt;em&gt;Moura, president&lt;/em&gt; of the &lt;em&gt;national confederation which groups&lt;/em&gt; the bank &lt;em&gt;employees' 152 unions representing 700,000 workers,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; the &lt;em&gt;indefinite stoppage would affect&lt;/em&gt; all &lt;em&gt;banks&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;government ordered thousands&lt;/em&gt; of &lt;em&gt;troops&lt;/em&gt; into the &lt;em&gt;refineries&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; to &lt;em&gt;forestall&lt;/em&gt; any &lt;em&gt;occupation,&lt;/em&gt; but the &lt;em&gt;troops&lt;/em&gt; were &lt;em&gt;removed yesterday&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Brazilian&lt;/em&gt; bank &lt;em&gt;workers voted&lt;/em&gt; to &lt;em&gt;launch&lt;/em&gt; a &lt;em&gt;nationwide strike&lt;/em&gt; this &lt;em&gt;month, compounding labour unrest arising&lt;/em&gt; from the &lt;em&gt;failure&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s anti-&lt;em&gt;inflation plan&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-505.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">100</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">67</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">signals</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">equipment</str>
+        <double name="strength">0.6666666666666664</double>
+      </lst>
+      <lst name="term">
+        <str name="text">monitor</str>
+        <double name="strength">0.6666666666666664</double>
+      </lst>
+      <lst name="term">
+        <str name="text">makes</str>
+        <double name="strength">0.3333333333333332</double>
+      </lst>
+      <lst name="term">
+        <str name="text">analyze</str>
+        <double name="strength">0.3333333333333332</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">ARGOSystems makes equipment to monitor and analyze military communications signals, electronic warfare equipment to monitor and jam radar signals and signal processing systems.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This association will expand our overall activities and significantly enhance our ability to compete in the defense electronics area," Boeing president Frank Shrontz said in a statement.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">186</int>
+        <double name="strength">0.6803141210399063</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The tender offer and merger are subject to customary conditions and expiration of the Hart-Scott-Rodino notification waiting period, they said.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.5533184103332928</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;ARGOSystems makes equipment&lt;/em&gt; to &lt;em&gt;monitor&lt;/em&gt; and &lt;em&gt;analyze military communications signals, electronic warfare equipment&lt;/em&gt; to &lt;em&gt;monitor&lt;/em&gt; and jam &lt;em&gt;radar signals&lt;/em&gt; and &lt;em&gt;signal processing systems&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This &lt;em&gt;association&lt;/em&gt; will &lt;em&gt;expand&lt;/em&gt; our &lt;em&gt;overall activities&lt;/em&gt; and &lt;em&gt;significantly enhance&lt;/em&gt; our &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; in the &lt;em&gt;defense electronics&lt;/em&gt; area," &lt;em&gt;Boeing president Frank Shrontz&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;tender offer&lt;/em&gt; and &lt;em&gt;merger&lt;/em&gt; are &lt;em&gt;subject&lt;/em&gt; to &lt;em&gt;customary conditions&lt;/em&gt; and &lt;em&gt;expiration&lt;/em&gt; of the Hart-&lt;em&gt;Scott-Rodino notification waiting period,&lt;/em&gt; they said.</str>
+        <int name="index">19</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

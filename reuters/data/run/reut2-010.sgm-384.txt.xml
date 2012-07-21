@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-384.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">70</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">51</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">consumer</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">medical</str>
+        <double name="strength">0.6666666666666685</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prescription</str>
+        <double name="strength">0.6666666666666685</double>
+      </lst>
+      <lst name="term">
+        <str name="text">smaller</str>
+        <double name="strength">0.3333333333333343</double>
+      </lst>
+      <lst name="term">
+        <str name="text">rises</str>
+        <double name="strength">0.3333333333333343</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">U.S. consumer prices, as measured by the Consumer Price Index for all urban consumers (CPI-U), rose a seasonally adjusted 0.4 pct in February after a 0.7 pct January gain, the Labor Department said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">198</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Medical care rose 0.3 pct in February to a level 7.1 pct above one year ago, because of higher costs for prescription and non-prescription drugs and medical supplies, the department said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
+        <double name="strength">0.9983993243340099</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Smaller price rises for motor fuels and declines in new car prices and finance charges were responsible for the moderation.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">123</int>
+        <double name="strength">0.7849029998780204</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;consumer prices,&lt;/em&gt; as &lt;em&gt;measured&lt;/em&gt; by the &lt;em&gt;Consumer Price Index&lt;/em&gt; for all &lt;em&gt;urban consumers &lt;/em&gt;(CPI-U), rose a &lt;em&gt;seasonally adjusted 0.4&lt;/em&gt; pct in &lt;em&gt;February after&lt;/em&gt; a 0.7 pct &lt;em&gt;January&lt;/em&gt; gain, the &lt;em&gt;Labor Department said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Medical&lt;/em&gt; care rose 0.3 pct in &lt;em&gt;February&lt;/em&gt; to a &lt;em&gt;level 7.1&lt;/em&gt; pct &lt;em&gt;above&lt;/em&gt; one year ago, &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;higher costs&lt;/em&gt; for &lt;em&gt;prescription&lt;/em&gt; and non-&lt;em&gt;prescription drugs&lt;/em&gt; and &lt;em&gt;medical supplies,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Smaller price rises&lt;/em&gt; for &lt;em&gt;motor fuels&lt;/em&gt; and &lt;em&gt;declines&lt;/em&gt; in new car &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;finance charges&lt;/em&gt; were &lt;em&gt;responsible&lt;/em&gt; for the &lt;em&gt;moderation&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

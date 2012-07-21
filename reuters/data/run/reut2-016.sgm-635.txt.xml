@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-016.sgm-635.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">35</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">141</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">95</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">morgan</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">whether</str>
+        <double name="strength">0.9999999999999976</double>
+      </lst>
+      <lst name="term">
+        <str name="text">crude</str>
+        <double name="strength">0.999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">guaranty</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trust</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">It said that Sonatrach, the Algerian national oil company, canceled future deliveries of crude oil and natural gas, Occidental Petroleum Co &lt;OXY&gt; demanded cash for crude, and Atlantic Richfield Co &lt;ARC&gt; asked for special safeguards.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But other officials at Texaco were not immediately available to say whether discussions were being held with its banks, or whether credit lines had been reestablished.</str>
+        <int name="index">33</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.8017149984723475</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">P. Morgan Co's &lt;JPM&gt; Morgan Guaranty Trust Co asked for deposits to cover transactions, it said.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">96</int>
+        <double name="strength">0.7820694681812057</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">It said that &lt;em&gt;Sonatrach,&lt;/em&gt; the &lt;em&gt;Algerian national&lt;/em&gt; oil &lt;em&gt;company, canceled future deliveries&lt;/em&gt; of &lt;em&gt;crude&lt;/em&gt; oil and &lt;em&gt;natural&lt;/em&gt; gas, &lt;em&gt;Occidental Petroleum&lt;/em&gt; Co &lt;OXY&gt; &lt;em&gt;demanded&lt;/em&gt; cash for &lt;em&gt;crude,&lt;/em&gt; and &lt;em&gt;Atlantic Richfield&lt;/em&gt; Co &lt;ARC&gt; &lt;em&gt;asked&lt;/em&gt; for &lt;em&gt;special safeguards&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;other officials&lt;/em&gt; at &lt;em&gt;Texaco&lt;/em&gt; were not &lt;em&gt;immediately available&lt;/em&gt; to say &lt;em&gt;whether discussions&lt;/em&gt; were &lt;em&gt;being&lt;/em&gt; held with its &lt;em&gt;banks,&lt;/em&gt; or &lt;em&gt;whether credit lines&lt;/em&gt; had been &lt;em&gt;reestablished&lt;/em&gt;.</str>
+        <int name="index">33</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">P. &lt;em&gt;Morgan&lt;/em&gt; Co's &lt;JPM&gt; &lt;em&gt;Morgan Guaranty Trust&lt;/em&gt; Co &lt;em&gt;asked&lt;/em&gt; for &lt;em&gt;deposits&lt;/em&gt; to &lt;em&gt;cover transactions,&lt;/em&gt; it said.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

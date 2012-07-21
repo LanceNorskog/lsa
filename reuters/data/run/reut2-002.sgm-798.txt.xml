@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-798.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">81</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">46</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">application</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">airline</str>
+        <double name="strength">0.5527707983925664</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trading</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">heavy</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">volume</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">A TWA spokesman said the company has filed an application for approval on its offer to buy USAir with the Department of Transportation, and later today it will file a response to USAir's motion with the DOT to dismiss the TWA application.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">239</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">While analysts and arbitragers have speculated that Icahn may have made the offer for USAir in order to trigger the acquisition of his own airline, Wall Street today began to take Icahn's effort more seriously.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.951219272423561</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">TWA said it may acquire additional shares in the open market, in private transactions, through a tender offer or otherwise, subject to Department of Transportation approval.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.9337127455050497</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">A TWA &lt;em&gt;spokesman&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; has &lt;em&gt;filed&lt;/em&gt; an &lt;em&gt;application&lt;/em&gt; for &lt;em&gt;approval&lt;/em&gt; on its &lt;em&gt;offer&lt;/em&gt; to buy &lt;em&gt;USAir&lt;/em&gt; with the &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Transportation,&lt;/em&gt; and &lt;em&gt;later today&lt;/em&gt; it will file a &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;USAir&lt;/em&gt;'s &lt;em&gt;motion&lt;/em&gt; with the DOT to &lt;em&gt;dismiss&lt;/em&gt; the TWA &lt;em&gt;application&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;While analysts&lt;/em&gt; and &lt;em&gt;arbitragers&lt;/em&gt; have &lt;em&gt;speculated&lt;/em&gt; that &lt;em&gt;Icahn&lt;/em&gt; may have made the &lt;em&gt;offer&lt;/em&gt; for &lt;em&gt;USAir&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;trigger&lt;/em&gt; the &lt;em&gt;acquisition&lt;/em&gt; of his own &lt;em&gt;airline,&lt;/em&gt; Wall &lt;em&gt;Street today began&lt;/em&gt; to take &lt;em&gt;Icahn&lt;/em&gt;'s &lt;em&gt;effort&lt;/em&gt; more &lt;em&gt;seriously&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">TWA said it may &lt;em&gt;acquire additional shares&lt;/em&gt; in the open &lt;em&gt;market,&lt;/em&gt; in &lt;em&gt;private transactions, through&lt;/em&gt; a &lt;em&gt;tender offer&lt;/em&gt; or &lt;em&gt;otherwise, subject&lt;/em&gt; to &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Transportation approval&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

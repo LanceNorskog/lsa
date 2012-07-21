@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-330.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">28</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">107</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">60</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">encouraged</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">street</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">stronger</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">local</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">currency</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Investors, encouraged by the record gain on Wall Street, a stronger local currency and easier interest rates, snapped up leading industrials.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">141</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"But overseas people may disregard it tonight and see it as a small buying opportunity," one broker said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">106</int>
+        <double name="strength">0.8595444949604064</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Investors sought out lower priced issues after recent strong rises in the sector.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">81</int>
+        <double name="strength">0.8282354894436873</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Investors, encouraged&lt;/em&gt; by the &lt;em&gt;record&lt;/em&gt; gain on Wall &lt;em&gt;Street,&lt;/em&gt; a &lt;em&gt;stronger local currency&lt;/em&gt; and &lt;em&gt;easier interest rates, snapped&lt;/em&gt; up &lt;em&gt;leading industrials&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"But &lt;em&gt;overseas people&lt;/em&gt; may &lt;em&gt;disregard&lt;/em&gt; it &lt;em&gt;tonight&lt;/em&gt; and see it as a &lt;em&gt;small buying opportunity,"&lt;/em&gt; one &lt;em&gt;broker said&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Investors sought&lt;/em&gt; out &lt;em&gt;lower priced issues after recent strong rises&lt;/em&gt; in the &lt;em&gt;sector&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

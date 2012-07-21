@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-552.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">23</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">133</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">89</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">regulators</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">unanimously</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">federal</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">formula</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">voted</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Federal Reserve Board voted unanimously to propose a formula for calculating the risk of interest rate and currency swaps as part of its ongoing effort to come up with a new capital standard for U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">201</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Board officials said the new gauge could increase the capital required of the largest money center banks, which are the principal participants in these types of activities.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.9927056307491101</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, the staff concluded, "The credit risks inherent in such contracts now constitute a significant element of the risk profiles of some banking organizations."</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.9785469656472685</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Federal Reserve Board voted unanimously&lt;/em&gt; to &lt;em&gt;propose&lt;/em&gt; a &lt;em&gt;formula&lt;/em&gt; for &lt;em&gt;calculating&lt;/em&gt; the risk of &lt;em&gt;interest&lt;/em&gt; rate and &lt;em&gt;currency swaps&lt;/em&gt; as part of its &lt;em&gt;ongoing effort&lt;/em&gt; to come up with a new &lt;em&gt;capital standard&lt;/em&gt; for U.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Board officials&lt;/em&gt; said the new &lt;em&gt;gauge could increase&lt;/em&gt; the &lt;em&gt;capital required&lt;/em&gt; of the &lt;em&gt;largest money center banks, which&lt;/em&gt; are the &lt;em&gt;principal participants&lt;/em&gt; in &lt;em&gt;these types&lt;/em&gt; of &lt;em&gt;activities&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;However,&lt;/em&gt; the &lt;em&gt;staff concluded, &lt;/em&gt;"The &lt;em&gt;credit risks inherent&lt;/em&gt; in such &lt;em&gt;contracts&lt;/em&gt; now &lt;em&gt;constitute&lt;/em&gt; a &lt;em&gt;significant element&lt;/em&gt; of the risk &lt;em&gt;profiles&lt;/em&gt; of some &lt;em&gt;banking organizations.&lt;/em&gt;"</str>
+        <int name="index">17</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

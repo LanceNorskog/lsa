@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-538.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">24</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">103</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">65</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">motors</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">using</str>
+        <double name="strength">0.8944271909999184</double>
+      </lst>
+      <lst name="term">
+        <str name="text">average</str>
+        <double name="strength">0.8944271909999184</double>
+      </lst>
+      <lst name="term">
+        <str name="text">projected</str>
+        <double name="strength">0.8944271909999184</double>
+      </lst>
+      <lst name="term">
+        <str name="text">figure</str>
+        <double name="strength">0.8944271909999184</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"We prefer to export to Europe rather than manufacture here because it will allow us to take full competitive advantage of the favorable exchange rates due to the declining value of the dollar."</str>
+        <int name="index">22</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">James Fry of GM overseas distribution system said GM hoped for a five-fold rise this year in sales of North American-made vehicles in Europe, selling between 7,000 and 8,000 (North American-made) units in Europe for the year to August 1987.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">241</int>
+        <double name="strength">0.8613530576732668</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Using an average price of 13,000 dlrs per car, his projected sales figure would translate into between 91 million and 104 mln dlrs in turnover, Fry added.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">155</int>
+        <double name="strength">0.8332817142490905</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">"We &lt;em&gt;prefer&lt;/em&gt; to &lt;em&gt;export&lt;/em&gt; to &lt;em&gt;Europe rather&lt;/em&gt; than &lt;em&gt;manufacture&lt;/em&gt; here &lt;em&gt;because&lt;/em&gt; it will &lt;em&gt;allow&lt;/em&gt; us to take full &lt;em&gt;competitive advantage&lt;/em&gt; of the &lt;em&gt;favorable exchange rates&lt;/em&gt; due to the &lt;em&gt;declining value&lt;/em&gt; of the &lt;em&gt;dollar.&lt;/em&gt;"</str>
+        <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;James&lt;/em&gt; Fry of GM &lt;em&gt;overseas distribution system&lt;/em&gt; said GM &lt;em&gt;hoped&lt;/em&gt; for a five-fold rise this year in &lt;em&gt;sales&lt;/em&gt; of &lt;em&gt;North American&lt;/em&gt;-made &lt;em&gt;vehicles&lt;/em&gt; in &lt;em&gt;Europe, selling between 7,000&lt;/em&gt; and 8,000 (&lt;em&gt;North American&lt;/em&gt;-made) &lt;em&gt;units&lt;/em&gt; in &lt;em&gt;Europe&lt;/em&gt; for the year to &lt;em&gt;August 1987&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Using&lt;/em&gt; an &lt;em&gt;average price&lt;/em&gt; of 13,000 dlrs per car, his &lt;em&gt;projected sales figure would translate&lt;/em&gt; into &lt;em&gt;between 91 million&lt;/em&gt; and 104 mln dlrs in &lt;em&gt;turnover,&lt;/em&gt; Fry &lt;em&gt;added&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

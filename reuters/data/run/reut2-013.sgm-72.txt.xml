@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-72.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">35</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">175</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">114</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">thing</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">there</str>
+        <double name="strength">0.9999999999999973</double>
+      </lst>
+      <lst name="term">
+        <str name="text">schedule</str>
+        <double name="strength">0.9999999999999971</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">0.5590169943749467</double>
+      </lst>
+      <lst name="term">
+        <str name="text">their</str>
+        <double name="strength">0.5590169943749459</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Sunday's prime-time shows include a situation comedy, "Married ... with Children," which Kellner describes as an alternative to the suger coated family shows on the networks.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company, built around Murdoch's two billion dlr acquisition of seven television stations last year, marks the first network startup since 1948, when ABC, now owned by Capital Cities/ABC Inc &lt;CCB&gt;, hit the airwaves.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">219</int>
+        <double name="strength">0.9872027675020283</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But James Mandelbaum, a Los Angeles-based entertainment attorney said, "If they have enough money, they have a good chance of making it work."</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.9700184255695876</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sunday&lt;/em&gt;'s &lt;em&gt;prime&lt;/em&gt;-time &lt;em&gt;shows include&lt;/em&gt; a &lt;em&gt;situation comedy, "Married ...&lt;/em&gt; with &lt;em&gt;Children," which Kellner describes&lt;/em&gt; as an &lt;em&gt;alternative&lt;/em&gt; to the &lt;em&gt;suger coated family shows&lt;/em&gt; on the &lt;em&gt;networks&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company, built around Murdoch&lt;/em&gt;'s two &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;acquisition&lt;/em&gt; of &lt;em&gt;seven television stations&lt;/em&gt; last year, &lt;em&gt;marks&lt;/em&gt; the &lt;em&gt;first network startup since 1948,&lt;/em&gt; when ABC, now &lt;em&gt;owned&lt;/em&gt; by &lt;em&gt;Capital Cities&lt;/em&gt;/ABC Inc &lt;CCB&gt;, hit the &lt;em&gt;airwaves&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;James Mandelbaum,&lt;/em&gt; a Los &lt;em&gt;Angeles-based entertainment attorney&lt;/em&gt; said, "If they have &lt;em&gt;enough money,&lt;/em&gt; they have a good &lt;em&gt;chance&lt;/em&gt; of &lt;em&gt;making&lt;/em&gt; it work."</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

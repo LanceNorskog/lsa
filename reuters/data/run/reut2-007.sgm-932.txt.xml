@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-932.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">123</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">85</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">getting</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">foreign</str>
+        <double name="strength">0.559016994374948</double>
+      </lst>
+      <lst name="term">
+        <str name="text">office</str>
+        <double name="strength">0.5590169943749471</double>
+      </lst>
+      <lst name="term">
+        <str name="text">first</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">A senior executive has been fired and several other people suspended, while a prosecutor is looking into the matter.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">117</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">According to Platow Brief, some traders apparently were getting round the regulation by getting VW to buy or sell currencies and hold them temporarily so that their books were squared.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">0.9807696281671227</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW said this month that it had had to make provision for possible losses up to 480 mln marks in the possible currency fraud.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">125</int>
+        <double name="strength">0.9376850414594506</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;senior executive&lt;/em&gt; has been &lt;em&gt;fired&lt;/em&gt; and &lt;em&gt;several other people suspended, while&lt;/em&gt; a &lt;em&gt;prosecutor&lt;/em&gt; is &lt;em&gt;looking&lt;/em&gt; into the &lt;em&gt;matter&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;According&lt;/em&gt; to &lt;em&gt;Platow Brief,&lt;/em&gt; some &lt;em&gt;traders apparently&lt;/em&gt; were &lt;em&gt;getting round&lt;/em&gt; the &lt;em&gt;regulation&lt;/em&gt; by &lt;em&gt;getting&lt;/em&gt; VW to buy or sell &lt;em&gt;currencies&lt;/em&gt; and hold them &lt;em&gt;temporarily&lt;/em&gt; so that &lt;em&gt;their books&lt;/em&gt; were &lt;em&gt;squared&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW said this &lt;em&gt;month&lt;/em&gt; that it had had to make &lt;em&gt;provision&lt;/em&gt; for &lt;em&gt;possible losses&lt;/em&gt; up to 480 mln &lt;em&gt;marks&lt;/em&gt; in the &lt;em&gt;possible currency fraud&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

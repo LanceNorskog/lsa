@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-924.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">35</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">161</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">105</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">received</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">settled</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">consumate</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">charges</str>
+        <double name="strength">0.5590169943749476</double>
+      </lst>
+      <lst name="term">
+        <str name="text">founder</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Jefferies and co was allegedly compensated for the loss from those trading activities after sending a fake invoice to another unnamed person, the government charged.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Jefferies also settled charges with the Securities and Exchange Commission of market manipulation and another scheme with Ivan Boesky, who has settled SEC charges of insider trading.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.962804652361727</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">American Express said neither company is aware of any unlawful conduct with respect to the matters and a thorough investigation is continuing.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">142</int>
+        <double name="strength">0.9574703344080255</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Jefferies&lt;/em&gt; and co was &lt;em&gt;allegedly compensated&lt;/em&gt; for the loss from &lt;em&gt;those trading activities after sending&lt;/em&gt; a fake &lt;em&gt;invoice&lt;/em&gt; to &lt;em&gt;another unnamed person,&lt;/em&gt; the &lt;em&gt;government charged&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Jefferies&lt;/em&gt; also &lt;em&gt;settled charges&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; of &lt;em&gt;market manipulation&lt;/em&gt; and &lt;em&gt;another scheme&lt;/em&gt; with Ivan &lt;em&gt;Boesky,&lt;/em&gt; who has &lt;em&gt;settled&lt;/em&gt; SEC &lt;em&gt;charges&lt;/em&gt; of &lt;em&gt;insider trading&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;American Express&lt;/em&gt; said &lt;em&gt;neither company&lt;/em&gt; is &lt;em&gt;aware&lt;/em&gt; of any &lt;em&gt;unlawful conduct&lt;/em&gt; with &lt;em&gt;respect&lt;/em&gt; to the &lt;em&gt;matters&lt;/em&gt; and a &lt;em&gt;thorough investigation&lt;/em&gt; is &lt;em&gt;continuing&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

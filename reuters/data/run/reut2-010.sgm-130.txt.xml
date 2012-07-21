@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-130.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">34</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">101</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">shipments</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sales</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">decision</str>
+        <double name="strength">0.9999999999999978</double>
+      </lst>
+      <lst name="term">
+        <str name="text">legend</str>
+        <double name="strength">0.5527707983925654</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prove</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Sales of the Integra through February have outpaced the Legend--35,768 against 29,824--but the spokesman said Honda expects sales to "lean more heavily toward Legend" this year because a two-door Legend has been added to the line.</str>
+        <int name="index">32</int>
+        <int name="start">1</int>
+        <int name="end">231</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The shipment to Taiwan was part of planned shipments to San-Yan Industries of Taiwan of about 2,000 Accords a year.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">116</int>
+        <double name="strength">0.7287926184805599</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, he said that decision has not yet been made, and would follow the decision to build the cars in the United States.</str>
+        <int name="index">29</int>
+        <int name="start">0</int>
+        <int name="end">123</int>
+        <double name="strength">0.6701379552058611</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sales&lt;/em&gt; of the &lt;em&gt;Integra through February&lt;/em&gt; have &lt;em&gt;outpaced&lt;/em&gt; the &lt;em&gt;Legend--35,768 against 29,824-&lt;/em&gt;-but the &lt;em&gt;spokesman&lt;/em&gt; said &lt;em&gt;Honda expects sales&lt;/em&gt; to "lean more &lt;em&gt;heavily toward Legend"&lt;/em&gt; this year &lt;em&gt;because&lt;/em&gt; a two-door &lt;em&gt;Legend&lt;/em&gt; has been &lt;em&gt;added&lt;/em&gt; to the line.</str>
+        <int name="index">32</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;shipment&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt; was part of &lt;em&gt;planned shipments&lt;/em&gt; to San-Yan &lt;em&gt;Industries&lt;/em&gt; of &lt;em&gt;Taiwan&lt;/em&gt; of &lt;em&gt;about 2,000 Accords&lt;/em&gt; a year.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;However,&lt;/em&gt; he said that &lt;em&gt;decision&lt;/em&gt; has not yet been made, and &lt;em&gt;would follow&lt;/em&gt; the &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; the cars in the &lt;em&gt;United States&lt;/em&gt;.</str>
+        <int name="index">29</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

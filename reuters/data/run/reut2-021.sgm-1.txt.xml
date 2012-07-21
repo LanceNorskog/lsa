@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-021.sgm-1.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">29</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">144</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">90</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">helicopter</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">should</str>
+        <double name="strength">0.5590169943749472</double>
+      </lst>
+      <lst name="term">
+        <str name="text">appraoch</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">america</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">would</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">U.S. helicopters destroyed three Iranian gunboats after an American helicopter came under fire earlier this month and U.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">121</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Iraq blames Iran for the outbreak of hostilities, which have entailed World War I-style infantry attacks resulting in horrific casualties.</str>
+        <int name="index">26</int>
+        <int name="start">0</int>
+        <int name="end">138</int>
+        <double name="strength">0.9197343801605256</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ullman said Washington should join Moscow in a diplomatic initiative to end the war and the superpowers should impose an arms embargo against Tehran if it refused to negotiate.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.8919453472399821</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;helicopters destroyed three Iranian gunboats after&lt;/em&gt; an &lt;em&gt;American helicopter&lt;/em&gt; came &lt;em&gt;under&lt;/em&gt; fire &lt;em&gt;earlier&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; and U.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Iraq &lt;em&gt;blames&lt;/em&gt; Iran for the &lt;em&gt;outbreak&lt;/em&gt; of &lt;em&gt;hostilities, which&lt;/em&gt; have &lt;em&gt;entailed World&lt;/em&gt; War I-&lt;em&gt;style infantry attacks resulting&lt;/em&gt; in &lt;em&gt;horrific casualties&lt;/em&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Ullman&lt;/em&gt; said &lt;em&gt;Washington should&lt;/em&gt; join &lt;em&gt;Moscow&lt;/em&gt; in a &lt;em&gt;diplomatic initiative&lt;/em&gt; to end the war and the &lt;em&gt;superpowers should impose&lt;/em&gt; an arms &lt;em&gt;embargo against Tehran&lt;/em&gt; if it &lt;em&gt;refused&lt;/em&gt; to &lt;em&gt;negotiate&lt;/em&gt;.</str>
+        <int name="index">23</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

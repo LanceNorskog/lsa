@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-872.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">78</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">46</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">cents</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">extension</str>
+        <double name="strength">0.6666666666666669</double>
+      </lst>
+      <lst name="term">
+        <str name="text">happens</str>
+        <double name="strength">0.6666666666666666</double>
+      </lst>
+      <lst name="term">
+        <str name="text">would</str>
+        <double name="strength">0.666666666666666</double>
+      </lst>
+      <lst name="term">
+        <str name="text">heart</str>
+        <double name="strength">0.33333333333333376</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Cotton for December delivery was 1.35 cents higher at 70.95 cents a lb at midsession after peaking this morning at 71.25 cents.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">127</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"There might have been some isolated storms, but certainly nothing damaging," said Charles Stichler, an extension agronomist with the Agricultural Extension Service in far West Texas.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">0.901058921044826</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"What happened is that the storm hit Lubbock airport, and when that happens, everybody sees it," said Dale Mohler, a senior meteorologist with Accu-Weather Inc.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.7661476823233571</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Cotton&lt;/em&gt; for &lt;em&gt;December delivery&lt;/em&gt; was 1.35 &lt;em&gt;cents higher&lt;/em&gt; at 70.95 &lt;em&gt;cents&lt;/em&gt; a lb at &lt;em&gt;midsession after peaking&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; at 71.25 &lt;em&gt;cents&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"There might&lt;/em&gt; have been some &lt;em&gt;isolated storms,&lt;/em&gt; but &lt;em&gt;certainly nothing damaging,"&lt;/em&gt; said &lt;em&gt;Charles Stichler,&lt;/em&gt; an &lt;em&gt;extension agronomist&lt;/em&gt; with the &lt;em&gt;Agricultural Extension Service&lt;/em&gt; in far West &lt;em&gt;Texas&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"What &lt;em&gt;happened&lt;/em&gt; is that the &lt;em&gt;storm&lt;/em&gt; hit &lt;em&gt;Lubbock airport,&lt;/em&gt; and when that &lt;em&gt;happens, everybody&lt;/em&gt; sees it," said Dale &lt;em&gt;Mohler,&lt;/em&gt; a &lt;em&gt;senior meteorologist&lt;/em&gt; with Accu-&lt;em&gt;Weather Inc&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

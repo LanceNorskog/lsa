@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-431.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">47</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">26</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">three</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">while</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">persons</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">seasonally</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">inflation</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Productivity in the non-farm business sector fell at a seasonally adjusted, revised annual rate of 2.2 pct in the fourth quarter last year, the Labor department said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">166</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Business productivity, including farms, fell 2.8 pct in the fourth quarter after a 0.4 pct third-quarter decline but was 0.7 pct higher overall in 1986 than in 1985.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.8934773785239362</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">For all of 1986, productivity increased 0.7 pct from 1985, reflecting rises of 4.3 pct in the first quarter and 0.5 pct in the second quarter.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.8597871579231251</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Productivity&lt;/em&gt; in the non-farm &lt;em&gt;business sector&lt;/em&gt; fell at a &lt;em&gt;seasonally adjusted, revised annual&lt;/em&gt; rate of 2.2 pct in the &lt;em&gt;fourth quarter&lt;/em&gt; last year, the &lt;em&gt;Labor department said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Business productivity, including farms,&lt;/em&gt; fell 2.8 pct in the &lt;em&gt;fourth quarter after&lt;/em&gt; a 0.4 pct &lt;em&gt;third-quarter decline&lt;/em&gt; but was 0.7 pct &lt;em&gt;higher overall&lt;/em&gt; in 1986 than in 1985.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">For all of 1986, &lt;em&gt;productivity increased 0.7&lt;/em&gt; pct from 1985, &lt;em&gt;reflecting rises&lt;/em&gt; of 4.3 pct in the &lt;em&gt;first quarter&lt;/em&gt; and 0.5 pct in the &lt;em&gt;second quarter&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

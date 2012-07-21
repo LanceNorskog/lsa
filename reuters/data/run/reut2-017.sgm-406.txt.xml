@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-406.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">77</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">50</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">dollar</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">volume</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">other</str>
+        <double name="strength">0.559016994374948</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commission</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">decided</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The 25 securities had an average dollar volume last year of 2.4 billion dlrs and made up 18 pct of the dollar volume of all the securities quoted on the NASD's National Market System.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Before it would approve the Midwest Exchange request for the unlisted trading privileges, the SEC had insisted that it and the National Association of Securities Dealers, NASD, come up with a way of reporting and combining information on stock prices and transactions.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">269</int>
+        <double name="strength">0.756602921231578</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Securities Exchange Commission decided to allow the Midwest Stock exchange to trade 25 stocks currently listed on the National Securities Dealers Association Automated Quotation, NASDAQ, system.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">198</int>
+        <double name="strength">0.7419039878852444</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The 25 &lt;em&gt;securities&lt;/em&gt; had an &lt;em&gt;average dollar volume&lt;/em&gt; last year of 2.4 &lt;em&gt;billion&lt;/em&gt; dlrs and made up 18 pct of the &lt;em&gt;dollar volume&lt;/em&gt; of all the &lt;em&gt;securities quoted&lt;/em&gt; on the NASD's &lt;em&gt;National Market System&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Before&lt;/em&gt; it &lt;em&gt;would approve&lt;/em&gt; the &lt;em&gt;Midwest Exchange request&lt;/em&gt; for the &lt;em&gt;unlisted trading privileges,&lt;/em&gt; the SEC had &lt;em&gt;insisted&lt;/em&gt; that it and the &lt;em&gt;National Association&lt;/em&gt; of &lt;em&gt;Securities Dealers,&lt;/em&gt; NASD, come up with a way of &lt;em&gt;reporting&lt;/em&gt; and &lt;em&gt;combining information&lt;/em&gt; on &lt;em&gt;stock prices&lt;/em&gt; and &lt;em&gt;transactions&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Securities Exchange Commission decided&lt;/em&gt; to &lt;em&gt;allow&lt;/em&gt; the &lt;em&gt;Midwest Stock exchange&lt;/em&gt; to &lt;em&gt;trade 25 stocks currently listed&lt;/em&gt; on the &lt;em&gt;National Securities Dealers Association Automated Quotation, NASDAQ, system&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

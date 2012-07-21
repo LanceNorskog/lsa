@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-99.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">71</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">41</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">outside</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cooper</str>
+        <double name="strength">0.5590169943749477</double>
+      </lst>
+      <lst name="term">
+        <str name="text">company</str>
+        <double name="strength">0.5590169943749471</double>
+      </lst>
+      <lst name="term">
+        <str name="text">field</str>
+        <double name="strength">0.5590169943749467</double>
+      </lst>
+      <lst name="term">
+        <str name="text">producer</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">TMOC held interests outside the Cooper Basin region of South Australia and Queensland and the acquisition would further the Santos objective of developing as a broadly based oil and gas company with interests outside its existing base in the Cooper Basin, the company said in a statement.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">289</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S., Along with gold and base metal production through its associate &lt;Paringa Mining and Exploration Co Plc&gt;, Santos said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">121</int>
+        <double name="strength">0.585892016315177</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Output from the Naccowlah block, 40 pct owned by Santos, provides the bulk of the throughput of both pipelines.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">111</int>
+        <double name="strength">0.5274297360284929</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">TMOC held &lt;em&gt;interests outside&lt;/em&gt; the &lt;em&gt;Cooper Basin region&lt;/em&gt; of &lt;em&gt;South Australia&lt;/em&gt; and &lt;em&gt;Queensland&lt;/em&gt; and the &lt;em&gt;acquisition would further&lt;/em&gt; the &lt;em&gt;Santos objective&lt;/em&gt; of &lt;em&gt;developing&lt;/em&gt; as a &lt;em&gt;broadly based&lt;/em&gt; oil and gas &lt;em&gt;company&lt;/em&gt; with &lt;em&gt;interests outside&lt;/em&gt; its &lt;em&gt;existing&lt;/em&gt; base in the &lt;em&gt;Cooper Basin,&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S., &lt;em&gt;Along&lt;/em&gt; with gold and base &lt;em&gt;metal production through&lt;/em&gt; its &lt;em&gt;associate &lt;Paringa Mining&lt;/em&gt; and &lt;em&gt;Exploration&lt;/em&gt; Co Plc&gt;, &lt;em&gt;Santos said&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Output&lt;/em&gt; from the &lt;em&gt;Naccowlah block, 40&lt;/em&gt; pct &lt;em&gt;owned&lt;/em&gt; by &lt;em&gt;Santos, provides&lt;/em&gt; the bulk of the &lt;em&gt;throughput&lt;/em&gt; of both &lt;em&gt;pipelines&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

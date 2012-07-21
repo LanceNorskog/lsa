@@ -1,4 +1,3 @@
-lsa
-===
-
-lsa research and source
+research
+========
+LSA library.

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-191.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">77</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">45</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">there</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">unfair</str>
+        <double name="strength">0.9999999999999979</double>
+      </lst>
+      <lst name="term">
+        <str name="text">higher</str>
+        <double name="strength">0.5590169943749472</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Cash in hand was now about 50 pct of the next three years' anticipated net requirement and comprised 25 pct of outstanding debt and 66 pct of its debt maturing within five years.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Of a total of 74.5 billion dlrs debt outstanding, only some eight billion had been swapped into another currency.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">114</int>
+        <double name="strength">0.9385906354489053</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The weight of opinion is (that in a year from now) there is a higher probability there will be one pct higher than one pct lower interest rates," he said.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.9347070389577944</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Cash in hand was now &lt;em&gt;about 50&lt;/em&gt; pct of the next &lt;em&gt;three years' anticipated&lt;/em&gt; net &lt;em&gt;requirement&lt;/em&gt; and &lt;em&gt;comprised 25&lt;/em&gt; pct of &lt;em&gt;outstanding&lt;/em&gt; debt and 66 pct of its debt &lt;em&gt;maturing within&lt;/em&gt; five &lt;em&gt;years&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Of a &lt;em&gt;total&lt;/em&gt; of 74.5 &lt;em&gt;billion&lt;/em&gt; dlrs debt &lt;em&gt;outstanding,&lt;/em&gt; only some &lt;em&gt;eight billion&lt;/em&gt; had been &lt;em&gt;swapped&lt;/em&gt; into &lt;em&gt;another currency&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;weight&lt;/em&gt; of &lt;em&gt;opinion&lt;/em&gt; is (that in a year from now) &lt;em&gt;there&lt;/em&gt; is a &lt;em&gt;higher probability there&lt;/em&gt; will be one pct &lt;em&gt;higher&lt;/em&gt; than one pct &lt;em&gt;lower interest rates,"&lt;/em&gt; he said.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

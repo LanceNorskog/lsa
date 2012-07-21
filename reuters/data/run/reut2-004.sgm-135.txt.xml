@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-135.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">106</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">prices</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">worried</str>
+        <double name="strength">0.5000000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">slump</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commodity</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">hampered</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Deutsch-Suedamerikanische Bank welcomed Mexico joining the General Agreement on Tariffs and Trade (GATT) in mid 1986, which it saw as an effort to integrate the country to a larger extent into the world economy.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">212</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But the slump in oil prices and the decline in commodity prices hampered these efforts, he said.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">96</int>
+        <double name="strength">0.8849117374454848</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Board member Herbert Mittendorf told a news conference that Brazil's example was unlikely to be followed by other Latin American countries.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.8481851150650946</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Deutsch-Suedamerikanische&lt;/em&gt; Bank &lt;em&gt;welcomed Mexico joining&lt;/em&gt; the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT) in mid 1986, &lt;em&gt;which&lt;/em&gt; it saw as an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;integrate&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt; to a &lt;em&gt;larger extent&lt;/em&gt; into the &lt;em&gt;world economy&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But the &lt;em&gt;slump&lt;/em&gt; in oil &lt;em&gt;prices&lt;/em&gt; and the &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;commodity prices hampered these efforts,&lt;/em&gt; he said.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Board member Herbert Mittendorf&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; that &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;example&lt;/em&gt; was &lt;em&gt;unlikely&lt;/em&gt; to be &lt;em&gt;followed&lt;/em&gt; by &lt;em&gt;other Latin American countries&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

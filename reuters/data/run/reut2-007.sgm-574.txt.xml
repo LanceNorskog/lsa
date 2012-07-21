@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-574.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">22</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">57</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">28</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">nordic</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">investment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">danish</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">crown</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">societe</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Morgan Guaranty Trust Co of New York's 100 mln Canadian dlrs of 8-1/2 pct receipts for Government of Canada bonds due 1994.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The World Bank's one billion Luxembourg francs of seven pct eurobonds due 1997.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">80</int>
+        <double name="strength">0.8007808689023485</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Societe Generale's 19 billion yen zero coupon notes due 1992.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">62</int>
+        <double name="strength">0.799785646061505</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Morgan Guaranty Trust&lt;/em&gt; Co of New York's 100 mln &lt;em&gt;Canadian&lt;/em&gt; dlrs of 8-1/2 pct &lt;em&gt;receipts&lt;/em&gt; for &lt;em&gt;Government&lt;/em&gt; of &lt;em&gt;Canada bonds due 1994&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank's one &lt;em&gt;billion Luxembourg francs&lt;/em&gt; of &lt;em&gt;seven&lt;/em&gt; pct &lt;em&gt;eurobonds due 1997&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Societe Generale&lt;/em&gt;'s 19 &lt;em&gt;billion&lt;/em&gt; yen zero &lt;em&gt;coupon notes due 1992&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

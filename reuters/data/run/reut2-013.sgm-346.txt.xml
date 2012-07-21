@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-346.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">24</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">125</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">83</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">party</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">guidelines</str>
+        <double name="strength">0.8944271909999161</double>
+      </lst>
+      <lst name="term">
+        <str name="text">liberal</str>
+        <double name="strength">0.8944271909999161</double>
+      </lst>
+      <lst name="term">
+        <str name="text">democratic</str>
+        <double name="strength">0.8944271909999161</double>
+      </lst>
+      <lst name="term">
+        <str name="text">package</str>
+        <double name="strength">0.8944271909999161</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The firm tone of the pound is expected to remain for the time being due to bullish sentiment, mainly on speculation the ruling Conservative Party would retain power in expected general elections, although the Bank of England may intervene in the market, some dealers said.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">273</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. The guidelines of the ruling Liberal Democratic Party's economic package to stimulate domestic demand, a senior party official said.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.9066121604771799</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Treasury Secretary James Baker and Japanese Finance Minister Kiichi Miyazawa later today ahead of the G-7 meeting, dealers said.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">131</int>
+        <double name="strength">0.8957625669655287</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The firm tone of the &lt;em&gt;pound&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;remain&lt;/em&gt; for the time &lt;em&gt;being&lt;/em&gt; due to &lt;em&gt;bullish sentiment, mainly&lt;/em&gt; on &lt;em&gt;speculation&lt;/em&gt; the &lt;em&gt;ruling Conservative Party would retain power&lt;/em&gt; in &lt;em&gt;expected general elections, although&lt;/em&gt; the Bank of &lt;em&gt;England&lt;/em&gt; may &lt;em&gt;intervene&lt;/em&gt; in the &lt;em&gt;market,&lt;/em&gt; some &lt;em&gt;dealers said&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. The &lt;em&gt;guidelines&lt;/em&gt; of the &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt;'s &lt;em&gt;economic package&lt;/em&gt; to &lt;em&gt;stimulate domestic demand,&lt;/em&gt; a &lt;em&gt;senior party official said&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt; and &lt;em&gt;Japanese Finance Minister Kiichi Miyazawa later today ahead&lt;/em&gt; of the G-7 &lt;em&gt;meeting, dealers said&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

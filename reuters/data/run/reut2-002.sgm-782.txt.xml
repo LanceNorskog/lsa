@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-782.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">75</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">51</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">international</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">wants</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">purchase</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">interest</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">communications</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Explaining its request for the amendment, Siemens informed Telecom it had recently become aware of information causing concern with respect to certain accounting and other matters.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Telecom Plus International Inc said &lt;Siemens AG&gt;'s Siemens Information Systems wants to amend its agreement to purchase Telecom's 65 pct interest in Tel Plus Communications to delay payment of 25 mln dlrs for 11 months.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">219</int>
+        <double name="strength">0.8238467806499451</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Telecom said the proposed amendment would also permit Siemens to defer repayment of up to an additional 50 pct of certain intercompany debt until completion of the review.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.819846737780537</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Explaining&lt;/em&gt; its &lt;em&gt;request&lt;/em&gt; for the &lt;em&gt;amendment, Siemens informed Telecom&lt;/em&gt; it had &lt;em&gt;recently become aware&lt;/em&gt; of &lt;em&gt;information causing concern&lt;/em&gt; with &lt;em&gt;respect&lt;/em&gt; to &lt;em&gt;certain accounting&lt;/em&gt; and &lt;em&gt;other matters&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Telecom&lt;/em&gt; Plus &lt;em&gt;International&lt;/em&gt; Inc said &lt;&lt;em&gt;Siemens&lt;/em&gt; AG&gt;'s &lt;em&gt;Siemens Information Systems wants&lt;/em&gt; to &lt;em&gt;amend&lt;/em&gt; its &lt;em&gt;agreement&lt;/em&gt; to &lt;em&gt;purchase Telecom&lt;/em&gt;'s 65 pct &lt;em&gt;interest&lt;/em&gt; in Tel Plus &lt;em&gt;Communications&lt;/em&gt; to &lt;em&gt;delay payment&lt;/em&gt; of 25 mln dlrs for 11 &lt;em&gt;months&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Telecom&lt;/em&gt; said the &lt;em&gt;proposed amendment would&lt;/em&gt; also &lt;em&gt;permit Siemens&lt;/em&gt; to &lt;em&gt;defer repayment&lt;/em&gt; of up to an &lt;em&gt;additional 50&lt;/em&gt; pct of &lt;em&gt;certain intercompany&lt;/em&gt; debt &lt;em&gt;until completion&lt;/em&gt; of the &lt;em&gt;review&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

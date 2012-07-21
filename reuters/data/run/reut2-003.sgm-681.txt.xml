@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-681.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">23</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">124</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">77</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">british</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">israeli</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">citizen</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">corporation</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lynch</str>
+        <double name="strength">0.5590169943749477</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Besides Vaskevitch, who is a British and Israeli citizen who lives in London, others named as defendants in the suit were David Sofer, an Israeli citizen living in Jerusalem, and two corporations, &lt;Plenmeer Ltd&gt;, a British company, and &lt;Meda Establishment&gt;, a Lichtenstein corporation.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">286</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although the SEC recently signed an accord with Britain aimed at improving cooperation between the two countries in investigating securities law violations, the SEC official said it did not need to rely on U.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">0.6750133428446327</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An SEC official in Washington said the Vaskevitch case is unrelated to the agency's widening investigation into Wall Street's insider trading scandal involving Ivan Boesky and Dennis Levine.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">191</int>
+        <double name="strength">0.6207125498418663</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Besides Vaskevitch,&lt;/em&gt; who is a &lt;em&gt;British&lt;/em&gt; and &lt;em&gt;Israeli citizen&lt;/em&gt; who &lt;em&gt;lives&lt;/em&gt; in &lt;em&gt;London, others named&lt;/em&gt; as &lt;em&gt;defendants&lt;/em&gt; in the suit were &lt;em&gt;David Sofer,&lt;/em&gt; an &lt;em&gt;Israeli citizen living&lt;/em&gt; in &lt;em&gt;Jerusalem,&lt;/em&gt; and two &lt;em&gt;corporations, &lt;Plenmeer&lt;/em&gt; Ltd&gt;, a &lt;em&gt;British company,&lt;/em&gt; and &lt;Meda &lt;em&gt;Establishment&gt;,&lt;/em&gt; a &lt;em&gt;Lichtenstein corporation&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Although&lt;/em&gt; the SEC &lt;em&gt;recently signed&lt;/em&gt; an &lt;em&gt;accord&lt;/em&gt; with &lt;em&gt;Britain aimed&lt;/em&gt; at &lt;em&gt;improving cooperation between&lt;/em&gt; the two &lt;em&gt;countries&lt;/em&gt; in &lt;em&gt;investigating securities&lt;/em&gt; law &lt;em&gt;violations,&lt;/em&gt; the SEC &lt;em&gt;official&lt;/em&gt; said it did not need to rely on U.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An SEC &lt;em&gt;official&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; said the &lt;em&gt;Vaskevitch&lt;/em&gt; case is &lt;em&gt;unrelated&lt;/em&gt; to the &lt;em&gt;agency&lt;/em&gt;'s &lt;em&gt;widening investigation&lt;/em&gt; into Wall &lt;em&gt;Street&lt;/em&gt;'s &lt;em&gt;insider trading scandal involving&lt;/em&gt; Ivan &lt;em&gt;Boesky&lt;/em&gt; and &lt;em&gt;Dennis Levine&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

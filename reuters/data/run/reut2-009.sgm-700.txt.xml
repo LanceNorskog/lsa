@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-700.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">96</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">64</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">germany</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agreed</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">paris</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">month</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">together</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">He told Japanese business leaders the Bank of Japan will continue to take adequate measures, including market intervention, to stabilize exchange rates if necessary, in close cooperation with other major industrialized nations.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">228</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The market undertook speculative dollar selling by reacting to overseas comments by monetary authorities and trade tension, he said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.8717661247693755</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sumita repeated that the Japanese economy may gradually recover in the latter half of the 1987/88 fiscal year ending April 1, 1988, provided exchange rates stabilize.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.8548638126494098</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">He told &lt;em&gt;Japanese business leaders&lt;/em&gt; the Bank of &lt;em&gt;Japan&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to take &lt;em&gt;adequate measures, including market intervention,&lt;/em&gt; to &lt;em&gt;stabilize exchange rates&lt;/em&gt; if &lt;em&gt;necessary,&lt;/em&gt; in &lt;em&gt;close cooperation&lt;/em&gt; with &lt;em&gt;other major industrialized nations&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;market undertook speculative dollar selling&lt;/em&gt; by &lt;em&gt;reacting&lt;/em&gt; to &lt;em&gt;overseas comments&lt;/em&gt; by &lt;em&gt;monetary authorities&lt;/em&gt; and &lt;em&gt;trade tension,&lt;/em&gt; he said.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sumita repeated&lt;/em&gt; that the &lt;em&gt;Japanese economy&lt;/em&gt; may &lt;em&gt;gradually recover&lt;/em&gt; in the &lt;em&gt;latter&lt;/em&gt; half of the 1987/88 &lt;em&gt;fiscal&lt;/em&gt; year &lt;em&gt;ending April 1, 1988, provided exchange rates stabilize&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

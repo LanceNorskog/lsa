@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-575.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">27</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">161</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">96</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">membership</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">party</str>
+        <double name="strength">0.7071067811865475</double>
+      </lst>
+      <lst name="term">
+        <str name="text">latest</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">polls</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strengthened</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Yesterday the Japanese finance ministry said it will help expand the Tokyo Stock Exchange membership to facilitate foreign membership.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">134</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The latest opinion polls strengthened the market's conviction that the Conservatives will win the next general election, but the uncertainty over the date continues to provide an unsettling factor.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">0.9945920084686243</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An opinion poll published in the Times newspaper today, which measured party support in 73 key marginal seats, gave the Conservative party a lead of six points over Labour.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">172</int>
+        <double name="strength">0.9245003270420474</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Yesterday&lt;/em&gt; the &lt;em&gt;Japanese finance ministry&lt;/em&gt; said it will help &lt;em&gt;expand&lt;/em&gt; the &lt;em&gt;Tokyo Stock Exchange membership&lt;/em&gt; to &lt;em&gt;facilitate foreign membership&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;latest opinion polls strengthened&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;conviction&lt;/em&gt; that the &lt;em&gt;Conservatives&lt;/em&gt; will win the next &lt;em&gt;general election,&lt;/em&gt; but the &lt;em&gt;uncertainty&lt;/em&gt; over the date &lt;em&gt;continues&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; an &lt;em&gt;unsettling factor&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An &lt;em&gt;opinion&lt;/em&gt; poll &lt;em&gt;published&lt;/em&gt; in the &lt;em&gt;Times newspaper today, which measured party support&lt;/em&gt; in 73 key &lt;em&gt;marginal seats,&lt;/em&gt; gave the &lt;em&gt;Conservative party&lt;/em&gt; a lead of six &lt;em&gt;points&lt;/em&gt; over &lt;em&gt;Labour&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

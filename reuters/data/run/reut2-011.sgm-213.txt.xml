@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-213.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">36</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">155</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">102</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">major</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shift</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">policy</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">liang</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">chairman</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Taiwan is planning to significantly relax foreign exchange controls within the next few months, but there is little prospect of a sudden outflow of capital, bankers and economists polled by Reuters said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Mounting reserves are also seen as giving Washington leverage in its efforts to force Taiwan to boost the value of its currency to reduce the trade imbalance.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.9765294665771188</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Yu's statement surprised most local and foreign bankers, who regard the former central bank governor as a fiscal arch-conservative.</str>
+        <int name="index">30</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.9534746290043514</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Taiwan&lt;/em&gt; is &lt;em&gt;planning&lt;/em&gt; to &lt;em&gt;significantly relax foreign exchange controls within&lt;/em&gt; the next few &lt;em&gt;months,&lt;/em&gt; but &lt;em&gt;there&lt;/em&gt; is &lt;em&gt;little prospect&lt;/em&gt; of a &lt;em&gt;sudden outflow&lt;/em&gt; of &lt;em&gt;capital, bankers&lt;/em&gt; and &lt;em&gt;economists polled&lt;/em&gt; by &lt;em&gt;Reuters said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Mounting reserves&lt;/em&gt; are also seen as &lt;em&gt;giving Washington leverage&lt;/em&gt; in its &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;force Taiwan&lt;/em&gt; to &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;value&lt;/em&gt; of its &lt;em&gt;currency&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;trade imbalance&lt;/em&gt;.</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Yu's &lt;em&gt;statement surprised&lt;/em&gt; most &lt;em&gt;local&lt;/em&gt; and &lt;em&gt;foreign bankers,&lt;/em&gt; who &lt;em&gt;regard&lt;/em&gt; the &lt;em&gt;former central&lt;/em&gt; bank &lt;em&gt;governor&lt;/em&gt; as a &lt;em&gt;fiscal&lt;/em&gt; arch-&lt;em&gt;conservative&lt;/em&gt;.</str>
+        <int name="index">30</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

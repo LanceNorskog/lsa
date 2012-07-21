@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-718.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">81</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">46</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">investment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">financed</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">doesn</str>
+        <double name="strength">0.9999999999999979</double>
+      </lst>
+      <lst name="term">
+        <str name="text">futjitsu</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+      <lst name="term">
+        <str name="text">withdrew</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Brooks said management is pleased by a number of investment proposals bought to them, but he added, "the investors must be willing to invest in the future growth of the company and not just selling off assets."</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fairchild Semiconductor Corp president Donald Brooks said he intends to take a management buyout proposal to the company's parent at some point in the future and substantial funding is available for such a purchase.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">215</int>
+        <double name="strength">0.8475235557614593</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I am not aware of any direct contact between Washington and Fujitsu, but that doesn't mean it doesn't exist," Brooks said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
+        <double name="strength">0.8187769748274776</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Brooks&lt;/em&gt; said &lt;em&gt;management&lt;/em&gt; is &lt;em&gt;pleased&lt;/em&gt; by a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;investment proposals bought&lt;/em&gt; to them, but he &lt;em&gt;added, &lt;/em&gt;"the &lt;em&gt;investors&lt;/em&gt; must be &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;invest&lt;/em&gt; in the &lt;em&gt;future growth&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt; and not just &lt;em&gt;selling&lt;/em&gt; off &lt;em&gt;assets.&lt;/em&gt;"</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Fairchild Semiconductor&lt;/em&gt; Corp &lt;em&gt;president Donald Brooks&lt;/em&gt; said he &lt;em&gt;intends&lt;/em&gt; to take a &lt;em&gt;management buyout proposal&lt;/em&gt; to the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;parent&lt;/em&gt; at some &lt;em&gt;point&lt;/em&gt; in the &lt;em&gt;future&lt;/em&gt; and &lt;em&gt;substantial funding&lt;/em&gt; is &lt;em&gt;available&lt;/em&gt; for such a &lt;em&gt;purchase&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I am not &lt;em&gt;aware&lt;/em&gt; of any &lt;em&gt;direct contact between Washington&lt;/em&gt; and &lt;em&gt;Fujitsu,&lt;/em&gt; but that &lt;em&gt;doesn&lt;/em&gt;'t mean it &lt;em&gt;doesn&lt;/em&gt;'t &lt;em&gt;exist," Brooks said&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

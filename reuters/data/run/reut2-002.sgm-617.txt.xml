@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">24</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-617.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">57</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">182</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">115</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">spending</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">going</str>
+        <double name="strength">0.666666666666665</double>
+      </lst>
+      <lst name="term">
+        <str name="text">official</str>
+        <double name="strength">0.3333333333333352</double>
+      </lst>
+      <lst name="term">
+        <str name="text">statistics</str>
+        <double name="strength">0.3333333333333352</double>
+      </lst>
+      <lst name="term">
+        <str name="text">evidence</str>
+        <double name="strength">0.3333333333333352</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Consumer spending, capital spending, goverment spending, and net exports data show very weak first quarter GNP growth of one pct," he said.</str>
+        <int name="index">34</int>
+        <int name="start">0</int>
+        <int name="end">139</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This means the jobless rate has stayed at 6.7 pct for three consecutive months, the lowest reading since March 1980, the Commerce Department noted.</str>
+        <int name="index">51</int>
+        <int name="start">0</int>
+        <int name="end">147</int>
+        <double name="strength">0.8793645162688241</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Even if you look at January and February together, this is still a much stronger report than the consensus expectation in the market," said Allan Leslie of Discount Corporation.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.8773134991437559</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Consumer spending, capital spending, goverment spending,&lt;/em&gt; and net &lt;em&gt;exports&lt;/em&gt; data show very weak &lt;em&gt;first quarter&lt;/em&gt; GNP &lt;em&gt;growth&lt;/em&gt; of one pct," he said.</str>
+        <int name="index">34</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This &lt;em&gt;means&lt;/em&gt; the &lt;em&gt;jobless&lt;/em&gt; rate has &lt;em&gt;stayed&lt;/em&gt; at 6.7 pct for &lt;em&gt;three consecutive months,&lt;/em&gt; the &lt;em&gt;lowest reading since March 1980,&lt;/em&gt; the &lt;em&gt;Commerce Department noted&lt;/em&gt;.</str>
+        <int name="index">51</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Even if you look at &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;February together,&lt;/em&gt; this is &lt;em&gt;still&lt;/em&gt; a much &lt;em&gt;stronger report&lt;/em&gt; than the &lt;em&gt;consensus expectation&lt;/em&gt; in the &lt;em&gt;market,"&lt;/em&gt; said &lt;em&gt;Allan Leslie&lt;/em&gt; of &lt;em&gt;Discount Corporation&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

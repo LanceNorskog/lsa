@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-337.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">30</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">177</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">104</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">okubo</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">hotels</str>
+        <double name="strength">0.5590169943749471</double>
+      </lst>
+      <lst name="term">
+        <str name="text">companies</str>
+        <double name="strength">0.5000000000000053</double>
+      </lst>
+      <lst name="term">
+        <str name="text">otherwise</str>
+        <double name="strength">0.5000000000000053</double>
+      </lst>
+      <lst name="term">
+        <str name="text">little</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"For lunch I buy the teishoku (daily special) which comes with soba (buckwheat noodles) or pork cutlet, pickles, miso soup, rice and tea," although she takes only coffee for breakfast and a sandwich for dinner.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It gives budget-saving tips on finding medium-priced business hotels and Japanese-style inns, cheap sushi and public baths while getting a "revealing glimpse of Japanese in their daily lives."</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">193</int>
+        <double name="strength">0.9452165590140433</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">While the businessmen have little choice but to come here, many tourists, especially those from Europe, are opting to visit sunnier and cheaper climes in Southeast Asia.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.8516175933202244</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">"For &lt;em&gt;lunch&lt;/em&gt; I buy the &lt;em&gt;teishoku (daily special) which comes&lt;/em&gt; with soba (&lt;em&gt;buckwheat noodles)&lt;/em&gt; or pork &lt;em&gt;cutlet, pickles,&lt;/em&gt; miso soup, rice and tea," &lt;em&gt;although&lt;/em&gt; she &lt;em&gt;takes&lt;/em&gt; only &lt;em&gt;coffee&lt;/em&gt; for &lt;em&gt;breakfast&lt;/em&gt; and a &lt;em&gt;sandwich&lt;/em&gt; for &lt;em&gt;dinner&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It &lt;em&gt;gives budget-saving&lt;/em&gt; tips on &lt;em&gt;finding medium-priced business hotels&lt;/em&gt; and &lt;em&gt;Japanese-style&lt;/em&gt; inns, &lt;em&gt;cheap sushi&lt;/em&gt; and &lt;em&gt;public baths while getting&lt;/em&gt; a "&lt;em&gt;revealing glimpse&lt;/em&gt; of &lt;em&gt;Japanese&lt;/em&gt; in &lt;em&gt;their daily lives.&lt;/em&gt;"</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;While&lt;/em&gt; the &lt;em&gt;businessmen&lt;/em&gt; have &lt;em&gt;little choice&lt;/em&gt; but to come here, many &lt;em&gt;tourists, especially those&lt;/em&gt; from &lt;em&gt;Europe,&lt;/em&gt; are &lt;em&gt;opting&lt;/em&gt; to &lt;em&gt;visit sunnier&lt;/em&gt; and &lt;em&gt;cheaper climes&lt;/em&gt; in &lt;em&gt;Southeast Asia&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

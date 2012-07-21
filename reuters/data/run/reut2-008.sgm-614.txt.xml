@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-614.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">68</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">40</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">corporate</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cents</str>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">today</str>
+        <double name="strength">0.5590169943749463</double>
+      </lst>
+      <lst name="term">
+        <str name="text">advice</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">services</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">TMOC shares today closed five cents up at 4.15 dlrs on turnover of 182,000 shares while Santos, due to release its profit result today, rose eight cents to 4.50 dlrs on volume of 245,000 shares.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S&gt; 4.00 dlr a share takeover bid pending advice from Macquarie Hill Samuel Corporate Services, its corporate advisor.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">117</int>
+        <double name="strength">0.8488921563755781</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">TMOC has oil and gas interests and pipelines which complement the operations of Santos, the major Cooper Basin oil and gas producer.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.7548456068311769</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">TMOC &lt;em&gt;shares today closed&lt;/em&gt; five &lt;em&gt;cents&lt;/em&gt; up at 4.15 dlrs on &lt;em&gt;turnover&lt;/em&gt; of 182,000 &lt;em&gt;shares while Santos,&lt;/em&gt; due to &lt;em&gt;release&lt;/em&gt; its &lt;em&gt;profit result today,&lt;/em&gt; rose &lt;em&gt;eight cents&lt;/em&gt; to 4.50 dlrs on &lt;em&gt;volume&lt;/em&gt; of 245,000 &lt;em&gt;shares&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S&gt; 4.00 dlr a &lt;em&gt;share takeover&lt;/em&gt; bid &lt;em&gt;pending advice&lt;/em&gt; from &lt;em&gt;Macquarie&lt;/em&gt; Hill &lt;em&gt;Samuel Corporate Services,&lt;/em&gt; its &lt;em&gt;corporate advisor&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">TMOC has oil and gas &lt;em&gt;interests&lt;/em&gt; and &lt;em&gt;pipelines which complement&lt;/em&gt; the &lt;em&gt;operations&lt;/em&gt; of &lt;em&gt;Santos,&lt;/em&gt; the &lt;em&gt;major Cooper Basin&lt;/em&gt; oil and gas &lt;em&gt;producer&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

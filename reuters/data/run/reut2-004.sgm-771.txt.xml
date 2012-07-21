@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-771.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">71</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">43</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">condition</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">financial</str>
+        <double name="strength">0.2795084971874736</double>
+      </lst>
+      <lst name="term">
+        <str name="text">explore</str>
+        <double name="strength">0.2500000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">variety</str>
+        <double name="strength">0.2500000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">alternative</str>
+        <double name="strength">0.2500000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The company said other factors it considered in rejecting the offer were its financial condition, future prospects, current market conditions and the numerous conditions on which Sosnoff's bid was conditioned.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">210</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Caesars said its financial advisor, Drexel Burnham Lambert Inc, had determined that Sosnoff's offer was financially inadequate for shareholders other than Sosnoff.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.5202792887020493</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Caesars World Inc said its board unanimously rejected a 28 dlr a share takeover offer by New York investor Martin T.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">116</int>
+        <double name="strength">0.5013598505125584</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said &lt;em&gt;other factors&lt;/em&gt; it &lt;em&gt;considered&lt;/em&gt; in &lt;em&gt;rejecting&lt;/em&gt; the &lt;em&gt;offer&lt;/em&gt; were its &lt;em&gt;financial condition, future prospects, current market conditions&lt;/em&gt; and the &lt;em&gt;numerous conditions&lt;/em&gt; on &lt;em&gt;which Sosnoff&lt;/em&gt;'s bid was &lt;em&gt;conditioned&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Caesars&lt;/em&gt; said its &lt;em&gt;financial advisor, Drexel Burnham Lambert&lt;/em&gt; Inc, had &lt;em&gt;determined&lt;/em&gt; that &lt;em&gt;Sosnoff&lt;/em&gt;'s &lt;em&gt;offer&lt;/em&gt; was &lt;em&gt;financially inadequate&lt;/em&gt; for &lt;em&gt;shareholders other&lt;/em&gt; than &lt;em&gt;Sosnoff&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Caesars World&lt;/em&gt; Inc said its &lt;em&gt;board unanimously rejected&lt;/em&gt; a 28 dlr a &lt;em&gt;share takeover offer&lt;/em&gt; by New York &lt;em&gt;investor Martin T&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-978.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">12</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">68</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">39</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">securities</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">filed</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">international</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">mobile</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">machines</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">International Mobile Machines Corp &lt;IMMC&gt; - Offering of one mln shars of cumulative convertible preferred stock through Drexel Burnham Lambert Inc and Butcher and Singer Inc.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The following proposed securities offerings were filed recently with the Securities and Exchange Commission:</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">108</int>
+        <double name="strength">0.9449346011301123</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AmVestors Financial Corp &lt;AVFC&gt; - Offering of 2.5 mln shares of common stock through Smith Barney, Harris Upham and Co Inc and Morgan Keegan and Co Inc.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
+        <double name="strength">0.8870734703518621</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;International Mobile Machines&lt;/em&gt; Corp &lt;IMMC&gt; - &lt;em&gt;Offering&lt;/em&gt; of one mln &lt;em&gt;shars&lt;/em&gt; of &lt;em&gt;cumulative convertible preferred stock through Drexel Burnham Lambert&lt;/em&gt; Inc and &lt;em&gt;Butcher&lt;/em&gt; and &lt;em&gt;Singer Inc&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;following proposed securities offerings&lt;/em&gt; were &lt;em&gt;filed recently&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt;:</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;AmVestors Financial&lt;/em&gt; Corp &lt;AVFC&gt; - &lt;em&gt;Offering&lt;/em&gt; of 2.5 mln &lt;em&gt;shares&lt;/em&gt; of &lt;em&gt;common stock through Smith Barney, Harris Upham&lt;/em&gt; and Co Inc and &lt;em&gt;Morgan Keegan&lt;/em&gt; and Co Inc.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

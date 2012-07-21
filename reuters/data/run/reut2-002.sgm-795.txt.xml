@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-795.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">113</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">71</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">government</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">former</str>
+        <double name="strength">0.5590169943749473</double>
+      </lst>
+      <lst name="term">
+        <str name="text">several</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">legislators</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">confirmed</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Reagan, Vice President George Bush, (fired National Security Council aide) Lt Col Oliver North, (former National Security Adviser) Adm John Poindexter, (former White House Chief of Staff) Donald Regan and other key figures in the Iran-contra arms scandal."</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">256</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Several legislators said the tapes, if it is confirmed that they exist, could prove invaluable to the special House and Senate committees that were created in January to investigate Reagan's most damaging political crisis.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">223</int>
+        <double name="strength">0.9059228624520994</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The article in Progressive magazine also said the government had secretly monitored the home telephone of former National Security adviser Robert McFarlane after he had left government service in late 1985.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">207</int>
+        <double name="strength">0.7745351029202623</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Reagan,&lt;/em&gt; Vice &lt;em&gt;President George&lt;/em&gt; Bush, (&lt;em&gt;fired National Security Council&lt;/em&gt; aide) Lt Col &lt;em&gt;Oliver North, (former National Security Adviser)&lt;/em&gt; Adm John &lt;em&gt;Poindexter, (former White House Chief&lt;/em&gt; of &lt;em&gt;Staff) Donald Regan&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; key &lt;em&gt;figures&lt;/em&gt; in the Iran-&lt;em&gt;contra&lt;/em&gt; arms &lt;em&gt;scandal.&lt;/em&gt;"</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Several legislators&lt;/em&gt; said the &lt;em&gt;tapes,&lt;/em&gt; if it is &lt;em&gt;confirmed&lt;/em&gt; that they &lt;em&gt;exist, could prove invaluable&lt;/em&gt; to the &lt;em&gt;special House&lt;/em&gt; and &lt;em&gt;Senate committees&lt;/em&gt; that were &lt;em&gt;created&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; to &lt;em&gt;investigate Reagan&lt;/em&gt;'s most &lt;em&gt;damaging political crisis&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;article&lt;/em&gt; in &lt;em&gt;Progressive magazine&lt;/em&gt; also said the &lt;em&gt;government&lt;/em&gt; had &lt;em&gt;secretly monitored&lt;/em&gt; the home &lt;em&gt;telephone&lt;/em&gt; of &lt;em&gt;former National Security adviser Robert McFarlane after&lt;/em&gt; he had left &lt;em&gt;government service&lt;/em&gt; in late 1985.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

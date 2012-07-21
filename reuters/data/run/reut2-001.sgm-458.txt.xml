@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-458.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">51</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">38</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">inventories</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">second</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">finished</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">adjusted</str>
+        <double name="strength">0.999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commerce</str>
+        <double name="strength">0.999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Within major industry categories, orders declines were widespread, the department said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">88</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Factory inventories in January rose 0.5 pct, or 1.5 billion dlrs, to 277.0 billion dlrs, only the second rise since July and concentrated in finished goods.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.8229031024147219</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New orders for manufactured goods fell 8.2 billion dlrs, or 4.0 pct, in January to a seasonally adjusted 194.5 billion dlrs, the Commerce Department said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.7997790764289843</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Within major industry categories, orders declines&lt;/em&gt; were &lt;em&gt;widespread,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Factory inventories&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; rose 0.5 pct, or 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs, to 277.0 &lt;em&gt;billion&lt;/em&gt; dlrs, only the &lt;em&gt;second&lt;/em&gt; rise &lt;em&gt;since&lt;/em&gt; July and &lt;em&gt;concentrated&lt;/em&gt; in &lt;em&gt;finished goods&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;manufactured goods&lt;/em&gt; fell 8.2 &lt;em&gt;billion&lt;/em&gt; dlrs, or 4.0 pct, in &lt;em&gt;January&lt;/em&gt; to a &lt;em&gt;seasonally adjusted 194.5 billion&lt;/em&gt; dlrs, the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

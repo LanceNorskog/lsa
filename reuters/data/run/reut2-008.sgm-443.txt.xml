@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-443.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">35</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">178</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">119</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">suspended</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">other</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">officials</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fired</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">former</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Management board chief Carl Hahn told a ceremony today marking VW's 50 millionth vehicle that personnel changes did not mean any of those involved was guilty.</str>
+        <int name="index">33</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"This strict banking supervision aims to protect special interests -- creditors and depositors," the Bundesbank spokesman said, adding company shareholders were not covered.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.9521218134841908</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW has suspended six other officials and fired its former foreign exchange chief, Burkhard "Bobby" Junger.</str>
+        <int name="index">32</int>
+        <int name="start">0</int>
+        <int name="end">106</int>
+        <double name="strength">0.8947858465744508</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Management board chief&lt;/em&gt; Carl Hahn told a &lt;em&gt;ceremony today marking&lt;/em&gt; VW's 50 &lt;em&gt;millionth vehicle&lt;/em&gt; that &lt;em&gt;personnel changes&lt;/em&gt; did not mean any of &lt;em&gt;those involved&lt;/em&gt; was &lt;em&gt;guilty&lt;/em&gt;.</str>
+        <int name="index">33</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"This &lt;em&gt;strict banking supervision&lt;/em&gt; aims to &lt;em&gt;protect special interests -- creditors&lt;/em&gt; and &lt;em&gt;depositors,"&lt;/em&gt; the &lt;em&gt;Bundesbank spokesman&lt;/em&gt; said, &lt;em&gt;adding company shareholders&lt;/em&gt; were not &lt;em&gt;covered&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW has &lt;em&gt;suspended&lt;/em&gt; six &lt;em&gt;other officials&lt;/em&gt; and &lt;em&gt;fired&lt;/em&gt; its &lt;em&gt;former foreign exchange chief, Burkhard "Bobby" Junger&lt;/em&gt;.</str>
+        <int name="index">32</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

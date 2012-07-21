@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-720.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">42</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">183</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">116</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">results</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">conservative</str>
+        <double name="strength">0.5590169943749479</double>
+      </lst>
+      <lst name="term">
+        <str name="text">equals</str>
+        <double name="strength">0.5000000000000063</double>
+      </lst>
+      <lst name="term">
+        <str name="text">ordinary</str>
+        <double name="strength">0.5000000000000063</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shares</str>
+        <double name="strength">0.5000000000000063</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Julius Maldutis at Salomon Brothers said he likes British Airways because it can quickly redeploy jets to strong markets or away from weak ones, as it did last year in response to the severe downturn in North Atlantic traffic after the Chernobyl nuclear disaster and terrorist actions.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">286</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He also said that British Airways' first-half results might mislead an investor into gauging full-year results because its fiscal year begins April one.</str>
+        <int name="index">38</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
+        <double name="strength">0.7623072599403992</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K.-bound travelers are expected to switch to a European carrier to complete the trip, according to British Airways' chief executive officer, Colin Marshall.</str>
+        <int name="index">35</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">0.7610230220298403</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Julius Maldutis&lt;/em&gt; at &lt;em&gt;Salomon Brothers&lt;/em&gt; said he &lt;em&gt;likes British Airways because&lt;/em&gt; it can &lt;em&gt;quickly redeploy&lt;/em&gt; jets to &lt;em&gt;strong markets&lt;/em&gt; or away from weak ones, as it did last year in &lt;em&gt;response&lt;/em&gt; to the &lt;em&gt;severe downturn&lt;/em&gt; in &lt;em&gt;North Atlantic traffic after&lt;/em&gt; the &lt;em&gt;Chernobyl nuclear disaster&lt;/em&gt; and &lt;em&gt;terrorist actions&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He also said that &lt;em&gt;British Airways' first&lt;/em&gt;-half &lt;em&gt;results might mislead&lt;/em&gt; an &lt;em&gt;investor&lt;/em&gt; into &lt;em&gt;gauging&lt;/em&gt; full-year &lt;em&gt;results because&lt;/em&gt; its &lt;em&gt;fiscal&lt;/em&gt; year &lt;em&gt;begins April one&lt;/em&gt;.</str>
+        <int name="index">38</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K.-&lt;em&gt;bound travelers&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;switch&lt;/em&gt; to a &lt;em&gt;European carrier&lt;/em&gt; to &lt;em&gt;complete&lt;/em&gt; the trip, &lt;em&gt;according&lt;/em&gt; to &lt;em&gt;British Airways' chief executive officer, Colin Marshall&lt;/em&gt;.</str>
+        <int name="index">35</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

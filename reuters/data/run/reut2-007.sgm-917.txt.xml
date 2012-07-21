@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-917.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">95</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">55</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">thought</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">vulnerable</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">attempts</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">replied</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">certainly</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Holden-Brown said Allied-Lyons' share price to corporate earnings ratio is now comparable with other leading companies in the food and beverage industry.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Asked by securities analysts if Allied-Lyons plans a share issue in Canada after acquiring a 51 pct interest in Hiram Walker, Holden-Brown responded: "Plan might be too strong a word.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">0.9335484955282216</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We knew when we did it that it could be misconstrued, and that people almost inevitably would say (the acquisition was) defensive, but it never was," Holden-Brown told reporters.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.9305846783735671</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Holden-Brown&lt;/em&gt; said &lt;em&gt;Allied-Lyons' share price&lt;/em&gt; to &lt;em&gt;corporate earnings ratio&lt;/em&gt; is now &lt;em&gt;comparable&lt;/em&gt; with &lt;em&gt;other leading companies&lt;/em&gt; in the food and &lt;em&gt;beverage industry&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Asked&lt;/em&gt; by &lt;em&gt;securities analysts&lt;/em&gt; if &lt;em&gt;Allied-Lyons plans&lt;/em&gt; a &lt;em&gt;share issue&lt;/em&gt; in &lt;em&gt;Canada after acquiring&lt;/em&gt; a 51 pct &lt;em&gt;interest&lt;/em&gt; in &lt;em&gt;Hiram Walker, Holden-Brown responded: &lt;/em&gt;"Plan &lt;em&gt;might&lt;/em&gt; be too &lt;em&gt;strong&lt;/em&gt; a word.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We knew when we did it that it &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;misconstrued,&lt;/em&gt; and that &lt;em&gt;people almost inevitably would&lt;/em&gt; say (the &lt;em&gt;acquisition&lt;/em&gt; was) &lt;em&gt;defensive,&lt;/em&gt; but it &lt;em&gt;never&lt;/em&gt; was," &lt;em&gt;Holden-Brown&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

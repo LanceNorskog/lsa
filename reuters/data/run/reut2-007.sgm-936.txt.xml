@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-936.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">130</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">89</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">because</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">which</str>
+        <double name="strength">0.5590169943749466</double>
+      </lst>
+      <lst name="term">
+        <str name="text">finance</str>
+        <double name="strength">0.5590169943749462</double>
+      </lst>
+      <lst name="term">
+        <str name="text">accumulating</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+      <lst name="term">
+        <str name="text">coming</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Money has been coming back to Mexico because of improved investor confidence and because a tight monetray policy has forced credit-starved industries to repatriate capital.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sixteen governments signed the Paris Club umbrella agreement last September, which restructured 1.8 billion dlrs of official debt, and Petricioli said he hopes to finalize pacts with the remaining eight countries in the next few weeks.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">236</int>
+        <double name="strength">0.7733864962706131</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Mexico is also due to make the third drawing from its International Monetary Fund standby credit in the next few days based on a successful review of end-1986 economic results.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.7358538038875693</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Money&lt;/em&gt; has been &lt;em&gt;coming&lt;/em&gt; back to &lt;em&gt;Mexico because&lt;/em&gt; of &lt;em&gt;improved investor confidence&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; a &lt;em&gt;tight monetray policy&lt;/em&gt; has &lt;em&gt;forced credit-starved industries&lt;/em&gt; to &lt;em&gt;repatriate capital&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sixteen governments signed&lt;/em&gt; the &lt;em&gt;Paris&lt;/em&gt; Club &lt;em&gt;umbrella agreement&lt;/em&gt; last &lt;em&gt;September, which restructured 1.8 billion&lt;/em&gt; dlrs of &lt;em&gt;official&lt;/em&gt; debt, and &lt;em&gt;Petricioli&lt;/em&gt; said he &lt;em&gt;hopes&lt;/em&gt; to &lt;em&gt;finalize pacts&lt;/em&gt; with the &lt;em&gt;remaining eight countries&lt;/em&gt; in the next few &lt;em&gt;weeks&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Mexico&lt;/em&gt; is also due to make the &lt;em&gt;third drawing&lt;/em&gt; from its &lt;em&gt;International Monetary&lt;/em&gt; Fund &lt;em&gt;standby credit&lt;/em&gt; in the next few days &lt;em&gt;based&lt;/em&gt; on a &lt;em&gt;successful review&lt;/em&gt; of end-1986 &lt;em&gt;economic results&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

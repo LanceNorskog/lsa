@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-131.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">62</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">37</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">production</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">motor</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">0.5773502691896256</double>
+      </lst>
+      <lst name="term">
+        <str name="text">truck</str>
+        <double name="strength">0.5590169943749476</double>
+      </lst>
+      <lst name="term">
+        <str name="text">attributed</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Ford Motor Co of Canada Ltd, 90 pct owned by Ford Motor Co &lt;F&gt;, said the earlier reported decline in full year net profit was mainly due to changeoover costs at its Essex, Ontario engine plant.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">193</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ford Canada said sales were boosted by its Ford Tempo car and Ford light truck, both manufactured in Oakville, which were Canada's best selling car and truck nameplates in 1986.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.8371844967893333</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ford Canada also said sharply improved fourth quarter results were due to improved cost recovery and lower product program costs, partially offset by lower engine production.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.8303224937215927</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Ford &lt;em&gt;Motor&lt;/em&gt; Co of &lt;em&gt;Canada&lt;/em&gt; Ltd, 90 pct &lt;em&gt;owned&lt;/em&gt; by Ford &lt;em&gt;Motor&lt;/em&gt; Co &lt;F&gt;, said the &lt;em&gt;earlier reported decline&lt;/em&gt; in full year net &lt;em&gt;profit&lt;/em&gt; was &lt;em&gt;mainly&lt;/em&gt; due to &lt;em&gt;changeoover costs&lt;/em&gt; at its &lt;em&gt;Essex, Ontario engine plant&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ford &lt;em&gt;Canada&lt;/em&gt; said &lt;em&gt;sales&lt;/em&gt; were &lt;em&gt;boosted&lt;/em&gt; by its Ford &lt;em&gt;Tempo&lt;/em&gt; car and Ford &lt;em&gt;light truck,&lt;/em&gt; both &lt;em&gt;manufactured&lt;/em&gt; in &lt;em&gt;Oakville, which&lt;/em&gt; were &lt;em&gt;Canada&lt;/em&gt;'s best &lt;em&gt;selling&lt;/em&gt; car and &lt;em&gt;truck nameplates in 1986&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ford &lt;em&gt;Canada&lt;/em&gt; also said &lt;em&gt;sharply improved fourth quarter results&lt;/em&gt; were due to &lt;em&gt;improved&lt;/em&gt; cost &lt;em&gt;recovery&lt;/em&gt; and &lt;em&gt;lower product program costs, partially offset&lt;/em&gt; by &lt;em&gt;lower engine production&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

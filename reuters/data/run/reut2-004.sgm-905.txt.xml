@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-905.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">12</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">69</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">49</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">reduce</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">interest</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strong</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">marketable</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">improves</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Mobil has moved to reduce debt at high interest rates, which may reduce interest payments.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">91</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Murray said that as a result of lower debt and more efficient operations "the company is now is a position to seize opportunities that may become available and use this strength in whatever way best builds shareholder value."</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">226</int>
+        <double name="strength">0.9614183104834612</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Mobil's Murray said in his remarks to shareholders that the company was continuing to dispose of assets which did not fit the company's long range plans and had realized some 1.1 billion dlrs from the sale of its Container Corp subsidiary.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">240</int>
+        <double name="strength">0.9388379826596833</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Mobil&lt;/em&gt; has &lt;em&gt;moved&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; debt at high &lt;em&gt;interest rates, which&lt;/em&gt; may &lt;em&gt;reduce interest payments&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Murray&lt;/em&gt; said that as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;lower&lt;/em&gt; debt and more &lt;em&gt;efficient operations &lt;/em&gt;"the &lt;em&gt;company&lt;/em&gt; is now is a &lt;em&gt;position&lt;/em&gt; to &lt;em&gt;seize opportunities&lt;/em&gt; that may &lt;em&gt;become available&lt;/em&gt; and use this &lt;em&gt;strength&lt;/em&gt; in &lt;em&gt;whatever&lt;/em&gt; way best &lt;em&gt;builds shareholder value.&lt;/em&gt;"</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Mobil&lt;/em&gt;'s &lt;em&gt;Murray&lt;/em&gt; said in his &lt;em&gt;remarks&lt;/em&gt; to &lt;em&gt;shareholders&lt;/em&gt; that the &lt;em&gt;company&lt;/em&gt; was &lt;em&gt;continuing&lt;/em&gt; to &lt;em&gt;dispose&lt;/em&gt; of &lt;em&gt;assets which&lt;/em&gt; did not fit the &lt;em&gt;company&lt;/em&gt;'s long &lt;em&gt;range plans&lt;/em&gt; and had &lt;em&gt;realized&lt;/em&gt; some 1.1 &lt;em&gt;billion&lt;/em&gt; dlrs from the sale of its &lt;em&gt;Container&lt;/em&gt; Corp &lt;em&gt;subsidiary&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

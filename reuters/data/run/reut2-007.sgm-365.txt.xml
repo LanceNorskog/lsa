@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-365.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">31</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">165</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">111</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">barrel</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">acquired</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">failed</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">montgomery</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">county</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Texas Commerce will retain its name as a separate subsidiary of Chemical and plans to aggressively expand its holdings throughout Texas, offering additional products to build up its consumer banking business, Love said.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">220</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In January, Texas Commerce acquired a failed bank in Montgomery County, adjacent to the Houston metropolitan area, and earlier this month opened a new bank in San Antonio.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.9593417268860518</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The combination of former archrivals RepublicBank and InterFirst, giving the two banks a virtual lock on the Dallas banking market, has not changed Texas Commerce's expansion plans for the state's second-largest city, Love said.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">229</int>
+        <double name="strength">0.9237789886228164</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Texas Commerce&lt;/em&gt; will &lt;em&gt;retain&lt;/em&gt; its name as a &lt;em&gt;separate subsidiary&lt;/em&gt; of &lt;em&gt;Chemical&lt;/em&gt; and &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;aggressively expand&lt;/em&gt; its &lt;em&gt;holdings throughout Texas, offering additional products&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; up its &lt;em&gt;consumer banking business,&lt;/em&gt; Love said.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;January, Texas Commerce acquired&lt;/em&gt; a &lt;em&gt;failed&lt;/em&gt; bank in &lt;em&gt;Montgomery County, adjacent&lt;/em&gt; to the &lt;em&gt;Houston metropolitan&lt;/em&gt; area, and &lt;em&gt;earlier&lt;/em&gt; this &lt;em&gt;month opened&lt;/em&gt; a new bank in San &lt;em&gt;Antonio&lt;/em&gt;.</str>
+        <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;former archrivals RepublicBank&lt;/em&gt; and &lt;em&gt;InterFirst, giving&lt;/em&gt; the two &lt;em&gt;banks&lt;/em&gt; a &lt;em&gt;virtual&lt;/em&gt; lock on the &lt;em&gt;Dallas banking market,&lt;/em&gt; has not &lt;em&gt;changed Texas Commerce&lt;/em&gt;'s &lt;em&gt;expansion plans&lt;/em&gt; for the &lt;em&gt;state&lt;/em&gt;'s &lt;em&gt;second-largest&lt;/em&gt; city, Love said.</str>
+        <int name="index">24</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

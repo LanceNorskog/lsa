@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-021.sgm-437.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">12</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">76</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">55</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">current</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">first</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">features</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">months</str>
+        <double name="strength">0.5590169943749475</double>
+      </lst>
+      <lst name="term">
+        <str name="text">vittorio</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">ATT said the version of UNIX used by the new computer will incorporate po;ular features of the Berkeley 4.2 system, a dirative of the UNIX system used widely in scientific and engineering markets, as well as features of SunOs, a variant of the Berkely system sold by Sun.</str>
+        <int name="index">2</int>
+        <int name="start">2</int>
+        <int name="end">273</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">American Telephone and Telegraph Co said it plans to build a new computer that incorrates a unified version of its UNIX System IV operating system and Sun Microsystems Inc's recently annouced SPARC micropocessor.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">212</int>
+        <double name="strength">0.8917161196491599</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Vittorio Cassoni, president of ATT's newly-formed Data Systems Group, said the company will not offer the new machines until the merged version of UNIX is completed.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.8461677863072682</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">ATT said the &lt;em&gt;version&lt;/em&gt; of UNIX used by the new &lt;em&gt;computer&lt;/em&gt; will &lt;em&gt;incorporate&lt;/em&gt; po;ular &lt;em&gt;features&lt;/em&gt; of the &lt;em&gt;Berkeley 4.2 system,&lt;/em&gt; a &lt;em&gt;dirative&lt;/em&gt; of the UNIX &lt;em&gt;system&lt;/em&gt; used &lt;em&gt;widely&lt;/em&gt; in &lt;em&gt;scientific&lt;/em&gt; and &lt;em&gt;engineering markets,&lt;/em&gt; as well as &lt;em&gt;features&lt;/em&gt; of &lt;em&gt;SunOs,&lt;/em&gt; a &lt;em&gt;variant&lt;/em&gt; of the &lt;em&gt;Berkely system&lt;/em&gt; sold by Sun.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;American Telephone&lt;/em&gt; and &lt;em&gt;Telegraph&lt;/em&gt; Co said it &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; a new &lt;em&gt;computer&lt;/em&gt; that &lt;em&gt;incorrates&lt;/em&gt; a &lt;em&gt;unified version&lt;/em&gt; of its UNIX &lt;em&gt;System&lt;/em&gt; IV &lt;em&gt;operating system&lt;/em&gt; and Sun &lt;em&gt;Microsystems&lt;/em&gt; Inc's &lt;em&gt;recently annouced SPARC micropocessor&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Vittorio Cassoni, president&lt;/em&gt; of ATT's &lt;em&gt;newly-formed&lt;/em&gt; Data &lt;em&gt;Systems Group,&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; will not &lt;em&gt;offer&lt;/em&gt; the new &lt;em&gt;machines until&lt;/em&gt; the &lt;em&gt;merged version&lt;/em&gt; of UNIX is &lt;em&gt;completed&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

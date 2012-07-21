@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-185.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">97</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">become</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">tafaro</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">serve</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">space</str>
+        <double name="strength">0.5590169943749476</double>
+      </lst>
+      <lst name="term">
+        <str name="text">representative</str>
+        <double name="strength">0.5590169943749475</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">John Tafaro, owner of Tafaro Brokerage, was reelected as floor broker representative on the board, and George Gero, a vice president of Prudential-Bache Securities, was reelected as futures commission merchant representative.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">226</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He will serve a two-year term and succeeds Michel Marks, who decided not to seek reelection after serving as chairman since 1978.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">129</int>
+        <double name="strength">0.7924058156930592</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The election of Bradt, and of local trader Vincent Viola as an at-large member, increases representation of locals on the 15 member board to five members from four, according to a NYMEX spokesman.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
+        <double name="strength">0.7702004833619026</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">John &lt;em&gt;Tafaro, owner&lt;/em&gt; of &lt;em&gt;Tafaro Brokerage,&lt;/em&gt; was &lt;em&gt;reelected&lt;/em&gt; as &lt;em&gt;floor broker representative&lt;/em&gt; on the &lt;em&gt;board,&lt;/em&gt; and &lt;em&gt;George&lt;/em&gt; Gero, a vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Prudential-Bache Securities,&lt;/em&gt; was &lt;em&gt;reelected&lt;/em&gt; as &lt;em&gt;futures commission merchant representative&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He will &lt;em&gt;serve&lt;/em&gt; a two-year term and &lt;em&gt;succeeds Michel Marks,&lt;/em&gt; who &lt;em&gt;decided&lt;/em&gt; not to seek &lt;em&gt;reelection after serving&lt;/em&gt; as &lt;em&gt;chairman since 1978&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;election&lt;/em&gt; of &lt;em&gt;Bradt,&lt;/em&gt; and of &lt;em&gt;local trader Vincent Viola&lt;/em&gt; as an at-&lt;em&gt;large member, increases representation&lt;/em&gt; of &lt;em&gt;locals&lt;/em&gt; on the 15 &lt;em&gt;member board&lt;/em&gt; to five &lt;em&gt;members&lt;/em&gt; from four, &lt;em&gt;according&lt;/em&gt; to a &lt;em&gt;NYMEX spokesman&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

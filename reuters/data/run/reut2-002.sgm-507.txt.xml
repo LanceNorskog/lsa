@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-507.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">122</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">70</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">agreement</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">follows</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">vocal</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">criticism</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">influential</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">However, several Congressional sources said they expect a broader 0/92 provision to emerge again when the House Agriculture committee is faced next month with the need to make spending cuts in the agriculture budget for fiscal 1988 as part of an overall deficit reduction package.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">281</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The agreement to limit 0/92 to a wheat pilot program follows vocal criticism of the proposal by some influential farm groups who are concerned about the major impact of 0/92, and by members of Congress wary of reopening the farm bill.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">235</int>
+        <double name="strength">0.882380041161874</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A broader 0/92 might be resurrected later because both the Congressional Budget Office and the Reagan administration estimate it would result in significant budget savings.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.8234179484430038</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;However, several Congressional sources&lt;/em&gt; said they &lt;em&gt;expect&lt;/em&gt; a &lt;em&gt;broader 0/92 provision&lt;/em&gt; to &lt;em&gt;emerge again&lt;/em&gt; when the &lt;em&gt;House Agriculture committee&lt;/em&gt; is &lt;em&gt;faced&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; with the need to make &lt;em&gt;spending&lt;/em&gt; cuts in the &lt;em&gt;agriculture budget&lt;/em&gt; for &lt;em&gt;fiscal 1988&lt;/em&gt; as part of an &lt;em&gt;overall deficit reduction package&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;agreement&lt;/em&gt; to &lt;em&gt;limit 0/92&lt;/em&gt; to a &lt;em&gt;wheat pilot program follows vocal criticism&lt;/em&gt; of the &lt;em&gt;proposal&lt;/em&gt; by some &lt;em&gt;influential&lt;/em&gt; farm &lt;em&gt;groups&lt;/em&gt; who are &lt;em&gt;concerned about&lt;/em&gt; the &lt;em&gt;major impact&lt;/em&gt; of 0/92, and by &lt;em&gt;members&lt;/em&gt; of &lt;em&gt;Congress&lt;/em&gt; wary of &lt;em&gt;reopening&lt;/em&gt; the farm bill.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;broader 0/92 might&lt;/em&gt; be &lt;em&gt;resurrected later because&lt;/em&gt; both the &lt;em&gt;Congressional Budget Office&lt;/em&gt; and the &lt;em&gt;Reagan administration estimate&lt;/em&gt; it &lt;em&gt;would result&lt;/em&gt; in &lt;em&gt;significant budget savings&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

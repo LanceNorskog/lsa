@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-830.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">91</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">59</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">convertible</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">respectively</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">announcement</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">carrying</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">abolished</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">A stockbroker said investors may be less enthusiastic now to buy convertible and non-convertible debentures because the Finance Ministry has reduced the annual interest rate to 12.5 pct and 14 pct respectively from 13.5 and 15 pct respectively.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">245</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Indian Finance Ministry's announcement in Parliament yesterday, changing the nation's interest rate structure, will benefit industry and agriculture by providing loans at lower interest, bankers and brokers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">216</int>
+        <double name="strength">0.9674362496177032</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Tata Steel, a trend setter on the Bombay Stock Exchange, opened today higher at 1,040 rupees against yesterday's closing of 1,012.50</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.8997514779765713</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;stockbroker&lt;/em&gt; said &lt;em&gt;investors&lt;/em&gt; may be less &lt;em&gt;enthusiastic&lt;/em&gt; now to buy &lt;em&gt;convertible&lt;/em&gt; and non-&lt;em&gt;convertible debentures because&lt;/em&gt; the &lt;em&gt;Finance Ministry&lt;/em&gt; has &lt;em&gt;reduced&lt;/em&gt; the &lt;em&gt;annual interest&lt;/em&gt; rate to 12.5 pct and 14 pct &lt;em&gt;respectively&lt;/em&gt; from 13.5 and 15 pct &lt;em&gt;respectively&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Indian Finance Ministry&lt;/em&gt;'s &lt;em&gt;announcement&lt;/em&gt; in &lt;em&gt;Parliament yesterday, changing&lt;/em&gt; the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;structure,&lt;/em&gt; will &lt;em&gt;benefit industry&lt;/em&gt; and &lt;em&gt;agriculture&lt;/em&gt; by &lt;em&gt;providing loans&lt;/em&gt; at &lt;em&gt;lower interest, bankers&lt;/em&gt; and &lt;em&gt;brokers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Tata &lt;em&gt;Steel,&lt;/em&gt; a &lt;em&gt;trend setter&lt;/em&gt; on the &lt;em&gt;Bombay Stock Exchange, opened today higher&lt;/em&gt; at 1,040 &lt;em&gt;rupees against yesterday&lt;/em&gt;'s &lt;em&gt;closing of 1,012.5&lt;/em&gt;0</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

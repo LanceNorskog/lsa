@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-014.sgm-219.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">25</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">98</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">67</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">concerned</str>
+        <double name="strength">0.5000000000000012</double>
+      </lst>
+      <lst name="term">
+        <str name="text">large</str>
+        <double name="strength">0.5000000000000012</double>
+      </lst>
+      <lst name="term">
+        <str name="text">external</str>
+        <double name="strength">0.5000000000000012</double>
+      </lst>
+      <lst name="term">
+        <str name="text">remain</str>
+        <double name="strength">0.5000000000000012</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The official made no direct comment on the content or schedule of forthcoming Group of Five and Group of Seven discussions.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Leading industrial nations will be reviewing the Paris agreement to stabilize exchange rates, foster increased worldwide growth and reduce trade imbalances but the U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">166</int>
+        <double name="strength">0.9725703146867277</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said that industrial countries are concerned that the large external imbalances remain a threat to the international monetary system.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">136</int>
+        <double name="strength">0.873039432893869</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;official&lt;/em&gt; made no &lt;em&gt;direct comment&lt;/em&gt; on the &lt;em&gt;content&lt;/em&gt; or &lt;em&gt;schedule&lt;/em&gt; of &lt;em&gt;forthcoming Group&lt;/em&gt; of Five and &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven discussions&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Leading industrial nations&lt;/em&gt; will be &lt;em&gt;reviewing&lt;/em&gt; the &lt;em&gt;Paris agreement&lt;/em&gt; to &lt;em&gt;stabilize exchange rates, foster increased worldwide growth&lt;/em&gt; and &lt;em&gt;reduce trade imbalances&lt;/em&gt; but the U.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said that &lt;em&gt;industrial countries&lt;/em&gt; are &lt;em&gt;concerned&lt;/em&gt; that the &lt;em&gt;large external imbalances remain&lt;/em&gt; a &lt;em&gt;threat&lt;/em&gt; to the &lt;em&gt;international monetary system&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

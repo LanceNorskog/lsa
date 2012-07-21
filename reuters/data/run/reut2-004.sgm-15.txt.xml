@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-15.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">23</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">94</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">60</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">trillion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">figure</str>
+        <double name="strength">0.4999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">proved</str>
+        <double name="strength">0.4472135954999584</double>
+      </lst>
+      <lst name="term">
+        <str name="text">again</str>
+        <double name="strength">0.4472135954999582</double>
+      </lst>
+      <lst name="term">
+        <str name="text">excluding</str>
+        <double name="strength">0.4472135954999582</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">About 24 pct of total sales came from USX's USS steel unit and 16 pct from diversified businesses, which include oilfield services, raw materials, minerals, chemicals and real estate.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">USX also said it expects to record a gain of 150 mln dlrs in 1988, representing 50 pct of previously existing investment tax credits allowable under the new tax law.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.8934163481179074</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The 1986 audited figure is eight mln dlrs higher than the unaudited figure the company reported on Jan 27.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">106</int>
+        <double name="strength">0.7589823560976034</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;About 24&lt;/em&gt; pct of &lt;em&gt;total sales&lt;/em&gt; came from USX's USS &lt;em&gt;steel&lt;/em&gt; unit and 16 pct from &lt;em&gt;diversified businesses, which include oilfield services,&lt;/em&gt; raw &lt;em&gt;materials, minerals, chemicals&lt;/em&gt; and real &lt;em&gt;estate&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">USX also said it &lt;em&gt;expects&lt;/em&gt; to &lt;em&gt;record&lt;/em&gt; a gain of 150 mln dlrs in 1988, &lt;em&gt;representing 50&lt;/em&gt; pct of &lt;em&gt;previously existing investment&lt;/em&gt; tax &lt;em&gt;credits allowable under&lt;/em&gt; the new tax law.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The 1986 &lt;em&gt;audited figure&lt;/em&gt; is &lt;em&gt;eight&lt;/em&gt; mln dlrs &lt;em&gt;higher&lt;/em&gt; than the &lt;em&gt;unaudited figure&lt;/em&gt; the &lt;em&gt;company reported&lt;/em&gt; on Jan 27.</str>
+        <int name="index">12</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

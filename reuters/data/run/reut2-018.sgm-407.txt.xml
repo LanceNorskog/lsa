@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-407.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">24</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">120</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">71</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">concerned</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">about</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">normal</str>
+        <double name="strength">0.559016994374946</double>
+      </lst>
+      <lst name="term">
+        <str name="text">contend</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+      <lst name="term">
+        <str name="text">however</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Abnormally hot, dry weather in midwestern crop areas sparked a sharp rally in Chicago futures today, causing new crop soybeans to advance the 30 cent daily limit to 6.14 dlrs per bushel and September corn to go up 12 cents to 2.81 dlrs.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">237</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Weatherwise, if the market is truly concerned about corn or soybeans, it should be more concerned about corn.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">111</int>
+        <double name="strength">0.9644787287218753</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some analysts contend, however, that in certain growing areas the crop has not been receiving enough moisture to ensure that there will not be problems later.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.8228104564374007</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Abnormally&lt;/em&gt; hot, dry &lt;em&gt;weather&lt;/em&gt; in &lt;em&gt;midwestern&lt;/em&gt; crop &lt;em&gt;areas sparked&lt;/em&gt; a &lt;em&gt;sharp rally&lt;/em&gt; in &lt;em&gt;Chicago futures today, causing&lt;/em&gt; new crop &lt;em&gt;soybeans&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; the 30 cent &lt;em&gt;daily limit&lt;/em&gt; to 6.14 dlrs per &lt;em&gt;bushel&lt;/em&gt; and &lt;em&gt;September&lt;/em&gt; corn to go up 12 &lt;em&gt;cents&lt;/em&gt; to 2.81 dlrs.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Weatherwise,&lt;/em&gt; if the &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;truly concerned about&lt;/em&gt; corn or &lt;em&gt;soybeans,&lt;/em&gt; it &lt;em&gt;should&lt;/em&gt; be more &lt;em&gt;concerned about corn&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some &lt;em&gt;analysts contend, however,&lt;/em&gt; that in &lt;em&gt;certain growing areas&lt;/em&gt; the crop has not been &lt;em&gt;receiving enough moisture&lt;/em&gt; to &lt;em&gt;ensure&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; will not be &lt;em&gt;problems later&lt;/em&gt;.</str>
+        <int name="index">20</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

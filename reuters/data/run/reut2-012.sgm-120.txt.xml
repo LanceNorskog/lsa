@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-120.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">63</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">43</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">nations</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">economic</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">development</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">council</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">recent</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">He told the National Economic Development Council that the recent Paris meeting of major industrialised nations had agreed on the need for exchange rate stability.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.K. Chancellor of the Exchequer Nigel Lawson said he wanted sterling to stay roughly where it was, specifying a rate of around 2.90 marks and 1.60 dlrs.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">153</int>
+        <double name="strength">0.7283383213416608</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">That meant around 2.90 marks, which is the single most important rate to concentrate on, and 1.60 dlrs, Lawson said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">117</int>
+        <double name="strength">0.5656589778740848</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">He told the &lt;em&gt;National Economic Development Council&lt;/em&gt; that the &lt;em&gt;recent Paris meeting&lt;/em&gt; of &lt;em&gt;major industrialised nations&lt;/em&gt; had &lt;em&gt;agreed&lt;/em&gt; on the need for &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;stability&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.K. &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; said he &lt;em&gt;wanted sterling&lt;/em&gt; to stay &lt;em&gt;roughly where&lt;/em&gt; it was, &lt;em&gt;specifying&lt;/em&gt; a rate of &lt;em&gt;around 2.90 marks&lt;/em&gt; and 1.60 dlrs.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">That &lt;em&gt;meant around 2.90 marks, which&lt;/em&gt; is the &lt;em&gt;single&lt;/em&gt; most &lt;em&gt;important&lt;/em&gt; rate to &lt;em&gt;concentrate&lt;/em&gt; on, and 1.60 dlrs, &lt;em&gt;Lawson said&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

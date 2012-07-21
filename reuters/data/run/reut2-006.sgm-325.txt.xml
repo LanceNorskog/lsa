@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-325.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">112</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">74</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">there</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">national</str>
+        <double name="strength">0.7071067811865479</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cooperative</str>
+        <double name="strength">0.7071067811865479</double>
+      </lst>
+      <lst name="term">
+        <str name="text">secretary</str>
+        <double name="strength">0.707106781186547</double>
+      </lst>
+      <lst name="term">
+        <str name="text">another</str>
+        <double name="strength">0.6324555320336767</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">U.S. Agriculture Secretary Richard Lyng told representatives of several of the largest grain exporting firms and two farm organizations that he was not in a position to comment on their request that the Reagan administration offer subsidized wheat to the Soviet Union, according to participants in today's meeting.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">314</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Participants in the meeting included Cargill Inc, Continental Grain Co, Louis Dreyfus Corp, Union Equity Cooperative Exchange, the National Association of Wheat Growers, the National Council of Farmer Cooperatives, among others, participants said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">248</int>
+        <double name="strength">0.9788537582509805</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But Hofer said other important matters at the White House, rather than an absence of political pressure, might have restrained Lyng.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.8365294800963695</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng told &lt;em&gt;representatives&lt;/em&gt; of &lt;em&gt;several&lt;/em&gt; of the &lt;em&gt;largest grain exporting firms&lt;/em&gt; and two farm &lt;em&gt;organizations&lt;/em&gt; that he was not in a &lt;em&gt;position&lt;/em&gt; to &lt;em&gt;comment&lt;/em&gt; on &lt;em&gt;their request&lt;/em&gt; that the &lt;em&gt;Reagan administration offer subsidized wheat&lt;/em&gt; to the &lt;em&gt;Soviet Union, according&lt;/em&gt; to &lt;em&gt;participants&lt;/em&gt; in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Participants&lt;/em&gt; in the &lt;em&gt;meeting included Cargill&lt;/em&gt; Inc, &lt;em&gt;Continental Grain&lt;/em&gt; Co, &lt;em&gt;Louis Dreyfus&lt;/em&gt; Corp, &lt;em&gt;Union Equity Cooperative Exchange,&lt;/em&gt; the &lt;em&gt;National Association&lt;/em&gt; of &lt;em&gt;Wheat Growers,&lt;/em&gt; the &lt;em&gt;National Council&lt;/em&gt; of &lt;em&gt;Farmer Cooperatives, among others, participants said&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;Hofer&lt;/em&gt; said &lt;em&gt;other important matters&lt;/em&gt; at the &lt;em&gt;White House, rather&lt;/em&gt; than an &lt;em&gt;absence&lt;/em&gt; of &lt;em&gt;political pressure, might&lt;/em&gt; have &lt;em&gt;restrained Lyng&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

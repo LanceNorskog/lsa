@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">28</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-21.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">47</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">203</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">124</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">tokyo</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cannot</str>
+        <double name="strength">0.5000000000000048</double>
+      </lst>
+      <lst name="term">
+        <str name="text">because</str>
+        <double name="strength">0.5000000000000048</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strength</str>
+        <double name="strength">0.5000000000000048</double>
+      </lst>
+      <lst name="term">
+        <str name="text">protectionism</str>
+        <double name="strength">0.5000000000000048</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S., Japan, West Germany, Britain, France and Canada under which the nations agreed to cooperate to foster exchange rate stability around prevailing levels.</str>
+        <int name="index">19</int>
+        <int name="start">0</int>
+        <int name="end">155</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although the intervention was widespread, dealers perceive that the six major industrial nations have differing levels of commitment to their recent accord to stabilize currencies.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.9116314580612548</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. cannot intervene on its own account because of the strength of protectionism here," said Albert Soria of Swiss Bank Corp.</str>
+        <int name="index">33</int>
+        <int name="start">0</int>
+        <int name="end">124</int>
+        <double name="strength">0.8806911505761686</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">S., &lt;em&gt;Japan,&lt;/em&gt; West &lt;em&gt;Germany, Britain, France&lt;/em&gt; and &lt;em&gt;Canada under which&lt;/em&gt; the &lt;em&gt;nations agreed&lt;/em&gt; to &lt;em&gt;cooperate&lt;/em&gt; to &lt;em&gt;foster exchange&lt;/em&gt; rate &lt;em&gt;stability around prevailing levels&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;intervention&lt;/em&gt; was &lt;em&gt;widespread, dealers perceive&lt;/em&gt; that the six &lt;em&gt;major industrial nations&lt;/em&gt; have &lt;em&gt;differing levels&lt;/em&gt; of &lt;em&gt;commitment&lt;/em&gt; to &lt;em&gt;their recent accord&lt;/em&gt; to &lt;em&gt;stabilize currencies&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;cannot intervene&lt;/em&gt; on its own &lt;em&gt;account because&lt;/em&gt; of the &lt;em&gt;strength&lt;/em&gt; of &lt;em&gt;protectionism&lt;/em&gt; here," said &lt;em&gt;Albert Soria&lt;/em&gt; of &lt;em&gt;Swiss&lt;/em&gt; Bank Corp.</str>
+        <int name="index">33</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

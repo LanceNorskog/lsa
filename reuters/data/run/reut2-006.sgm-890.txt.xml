@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-890.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">104</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">74</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">industry</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">association</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">minimum</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">denomination</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offered</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Fed noted the Securities Industry Association, a trade association of the investment banking industry, had opposed Chase Manhattan's application for more powers.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But it added a bill adopted by the Senate Banking Committee last week could affect Chase Manhattan if it becomes law and might force it eventually to cease commercial paper underwriting activities.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">0.8944764092036462</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In addition, Chase Manhattan will be able to place commercial paper as agents for issuers and advise them on rates and maturities of proposed issues just as Bankers Trust was given authority to do.</str>
+        <int name="index">7</int>
+        <int name="start">2</int>
+        <int name="end">199</int>
+        <double name="strength">0.8747391280176136</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The Fed &lt;em&gt;noted&lt;/em&gt; the &lt;em&gt;Securities Industry Association,&lt;/em&gt; a &lt;em&gt;trade association&lt;/em&gt; of the &lt;em&gt;investment banking industry,&lt;/em&gt; had &lt;em&gt;opposed Chase Manhattan&lt;/em&gt;'s &lt;em&gt;application&lt;/em&gt; for more &lt;em&gt;powers&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But it &lt;em&gt;added&lt;/em&gt; a bill &lt;em&gt;adopted&lt;/em&gt; by the &lt;em&gt;Senate Banking Committee&lt;/em&gt; last week &lt;em&gt;could affect Chase Manhattan&lt;/em&gt; if it &lt;em&gt;becomes&lt;/em&gt; law and &lt;em&gt;might force&lt;/em&gt; it &lt;em&gt;eventually&lt;/em&gt; to &lt;em&gt;cease commercial paper underwriting activities&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;addition, Chase Manhattan&lt;/em&gt; will be able to &lt;em&gt;place commercial paper&lt;/em&gt; as &lt;em&gt;agents&lt;/em&gt; for &lt;em&gt;issuers&lt;/em&gt; and &lt;em&gt;advise&lt;/em&gt; them on &lt;em&gt;rates&lt;/em&gt; and &lt;em&gt;maturities&lt;/em&gt; of &lt;em&gt;proposed issues&lt;/em&gt; just as &lt;em&gt;Bankers Trust&lt;/em&gt; was &lt;em&gt;given authority&lt;/em&gt; to do.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

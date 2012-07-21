@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-768.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">79</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">42</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">ringgit</str>
+        <double name="strength">0.5590169943749475</double>
+      </lst>
+      <lst name="term">
+        <str name="text">annual</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">national</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">between</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">It said that a turnaround in investor confidence since last November had been spurred by a moderate improvement in oil and commodity prices and a rise in manufacturing exports.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Growth in 1987 is expected to come from the anticipated rise in export earnings if the industrialised countries sustain their average GNP growth at 2.5 to three pct, it added.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.9251476224497355</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"In 1987, income will be higher, private consumer spending is likely to recover and expand...</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">94</int>
+        <double name="strength">0.8787024311258543</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">It said that a &lt;em&gt;turnaround&lt;/em&gt; in &lt;em&gt;investor confidence since&lt;/em&gt; last &lt;em&gt;November&lt;/em&gt; had been &lt;em&gt;spurred&lt;/em&gt; by a &lt;em&gt;moderate improvement&lt;/em&gt; in oil and &lt;em&gt;commodity prices&lt;/em&gt; and a rise in &lt;em&gt;manufacturing exports&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Growth&lt;/em&gt; in 1987 is &lt;em&gt;expected&lt;/em&gt; to come from the &lt;em&gt;anticipated&lt;/em&gt; rise in &lt;em&gt;export earnings&lt;/em&gt; if the &lt;em&gt;industrialised countries sustain their average&lt;/em&gt; GNP &lt;em&gt;growth&lt;/em&gt; at 2.5 to &lt;em&gt;three&lt;/em&gt; pct, it &lt;em&gt;added&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"In 1987, &lt;em&gt;income&lt;/em&gt; will be &lt;em&gt;higher, private consumer spending&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;recover&lt;/em&gt; and &lt;em&gt;expand..&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

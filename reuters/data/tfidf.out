@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">73</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/reut2-000.sgm-0.txt</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">23</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">76</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">48</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">shipment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">times</str>
+        <double name="strength">0.7264831572567763</double>
+      </lst>
+      <lst name="term">
+        <str name="text">february</str>
+        <double name="strength">0.5590169943749467</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reluctant</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offer</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Showers continued throughout the week in the Bahia cocoa zone, alleviating the drought since early January and improving prospects for the coming temporao, although normal humidity levels have not been restored, Comissaria Smith said in its weekly review.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">255</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bean shippers were reluctant to offer nearby shipment and only limited sales were booked for March shipment at 1,750 to 1,780 dlrs per tonne to ports to be named.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">163</int>
+        <double name="strength">0.47567659918755156</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Final figures for the period to February 28 are expected to be published by the Brazilian Cocoa Trade Commission after carnival which ends midday on February 27.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.136452906221606</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">With total Bahia crop estimates around 6.4 mln bags and sales standing at almost 6.2 mln there are a few hundred thousand bags still in the hands of farmers, middlemen, exporters and processors.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">194</int>
+        <double name="strength">0.607074053565467</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Arrivals for the week ended February 22 were 155,221 bags of 60 kilos making a cumulative total for the season of 5.93 mln against 5.81 at the same stage last year.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.8499507215366076</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Showers&lt;/em&gt; continued throughout the week in the &lt;em&gt;Bahia cocoa&lt;/em&gt; zone, alleviating the &lt;em&gt;drought&lt;/em&gt; since &lt;em&gt;early January&lt;/em&gt; and improving &lt;em&gt;prospects&lt;/em&gt; for the coming &lt;em&gt;temporao,&lt;/em&gt; although &lt;em&gt;normal humidity levels&lt;/em&gt; have not been restored, &lt;em&gt;Comissaria Smith&lt;/em&gt; said in its &lt;em&gt;weekly review&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bean &lt;em&gt;shippers&lt;/em&gt; were &lt;em&gt;reluctant&lt;/em&gt; to &lt;em&gt;offer nearby shipment&lt;/em&gt; and only &lt;em&gt;limited sales&lt;/em&gt; were &lt;em&gt;booked&lt;/em&gt; for &lt;em&gt;March shipment&lt;/em&gt; at 1,750 to 1,780 dlrs per &lt;em&gt;tonne&lt;/em&gt; to &lt;em&gt;ports&lt;/em&gt; to be named.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Final figures&lt;/em&gt; for the &lt;em&gt;period&lt;/em&gt; to &lt;em&gt;February 28&lt;/em&gt; are expected to be published by the &lt;em&gt;Brazilian Cocoa Trade Commission&lt;/em&gt; after &lt;em&gt;carnival&lt;/em&gt; which ends &lt;em&gt;midday&lt;/em&gt; on &lt;em&gt;February 27&lt;/em&gt;.</str>
+        <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">With &lt;em&gt;total Bahia&lt;/em&gt; crop estimates around 6.4 mln bags and &lt;em&gt;sales&lt;/em&gt; standing at almost 6.2 mln there are a few &lt;em&gt;hundred thousand&lt;/em&gt; bags still in the &lt;em&gt;hands&lt;/em&gt; of &lt;em&gt;farmers, middlemen, exporters&lt;/em&gt; and &lt;em&gt;processors&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Arrivals&lt;/em&gt; for the week ended &lt;em&gt;February 22&lt;/em&gt; were 155,221 bags of 60 &lt;em&gt;kilos&lt;/em&gt; making a &lt;em&gt;cumulative total&lt;/em&gt; for the &lt;em&gt;season&lt;/em&gt; of 5.93 mln against 5.81 at the same &lt;em&gt;stage&lt;/em&gt; last year.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

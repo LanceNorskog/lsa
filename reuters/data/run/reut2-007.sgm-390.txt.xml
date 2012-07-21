@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-007.sgm-390.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">46</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">160</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">104</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">perrin</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lipper</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">analytical</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">depressed</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">American Express said options under study range from expanding Shearson's capacity to meet international competition to broadening its access to capital.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Perrin Long of Lipper analytical said the brokerage stocks, depressed somewhat by the dark cloud of the U.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">107</int>
+        <double name="strength">0.9481785633703479</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Hutton Group &lt;EFH&gt; rose 1-1/4 to 41-1/8, and PaineWebber Group &lt;PWJ&gt; climbed 7/8 to 37-3/4.</str>
+        <int name="index">43</int>
+        <int name="start">5</int>
+        <int name="end">96</int>
+        <double name="strength">0.9010583728300664</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;American Express&lt;/em&gt; said &lt;em&gt;options under study range&lt;/em&gt; from &lt;em&gt;expanding Shearson&lt;/em&gt;'s &lt;em&gt;capacity&lt;/em&gt; to meet &lt;em&gt;international competition&lt;/em&gt; to &lt;em&gt;broadening&lt;/em&gt; its &lt;em&gt;access&lt;/em&gt; to &lt;em&gt;capital&lt;/em&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Perrin&lt;/em&gt; Long of &lt;em&gt;Lipper analytical&lt;/em&gt; said the &lt;em&gt;brokerage stocks, depressed somewhat&lt;/em&gt; by the dark &lt;em&gt;cloud&lt;/em&gt; of the U.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Hutton Group &lt;/em&gt;&lt;EFH&gt; rose 1-1/4 to 41-1/8, and &lt;em&gt;PaineWebber Group &lt;/em&gt;&lt;PWJ&gt; &lt;em&gt;climbed 7/8 to 37-3/4&lt;/em&gt;.</str>
+        <int name="index">43</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

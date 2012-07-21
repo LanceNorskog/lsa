@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-615.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">80</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">38</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">national</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">service</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">centered</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">produce</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">michigan</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">A flood watch covers much of the rest of Massachusetts, eastern interior Connecticut and coastal Rhode Island, along with the southern half of Vermont, the White mountains of New Hampshire and much of southern Maine.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">217</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The National Weather Service said a storm, centered off the east of Massachusetts early this morning, continued to produce rain across New England, and as far west as Michigan, Ohio and west Virginia.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">200</int>
+        <double name="strength">0.8409838797565421</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A flood warning remains in effect for small rivers in southern New Hampshire and extreme southwestern Maine.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">109</int>
+        <double name="strength">0.7112165742894632</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;flood watch covers&lt;/em&gt; much of the rest of &lt;em&gt;Massachusetts, eastern interior Connecticut&lt;/em&gt; and &lt;em&gt;coastal Rhode Island, along&lt;/em&gt; with the &lt;em&gt;southern&lt;/em&gt; half of &lt;em&gt;Vermont,&lt;/em&gt; the &lt;em&gt;White mountains&lt;/em&gt; of New &lt;em&gt;Hampshire&lt;/em&gt; and much of &lt;em&gt;southern Maine&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;National Weather Service&lt;/em&gt; said a &lt;em&gt;storm, centered&lt;/em&gt; off the east of &lt;em&gt;Massachusetts early&lt;/em&gt; this &lt;em&gt;morning, continued&lt;/em&gt; to &lt;em&gt;produce&lt;/em&gt; rain &lt;em&gt;across&lt;/em&gt; New &lt;em&gt;England,&lt;/em&gt; and as far west as &lt;em&gt;Michigan,&lt;/em&gt; Ohio and west &lt;em&gt;Virginia&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;flood warning remains&lt;/em&gt; in &lt;em&gt;effect&lt;/em&gt; for &lt;em&gt;small rivers&lt;/em&gt; in &lt;em&gt;southern&lt;/em&gt; New &lt;em&gt;Hampshire&lt;/em&gt; and &lt;em&gt;extreme southwestern Maine&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

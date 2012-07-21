@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-703.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">110</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">78</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">exceptional</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">simultaneous</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">resell</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">higher</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">price</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The circular, released officially to Reuters, said current arrangements for providing liquidity aid will no longer be valid except "in quite exceptional circumstances."</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">169</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The agency considers that it is now appropriate to replace these operations with short-term assistance based on Government of Bahrain treasury bills," the circular to banks states.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">182</int>
+        <double name="strength">0.861085758999619</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Banking sources said more than half of the 20 banks hold treasury bills, although the need by others to take up paper could increase demand at weekly tenders and push down allotted yields slightly.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.842486615501015</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;circular, released officially&lt;/em&gt; to &lt;em&gt;Reuters,&lt;/em&gt; said &lt;em&gt;current arrangements&lt;/em&gt; for &lt;em&gt;providing liquidity&lt;/em&gt; aid will no &lt;em&gt;longer&lt;/em&gt; be &lt;em&gt;valid except &lt;/em&gt;"in &lt;em&gt;quite exceptional circumstances.&lt;/em&gt;"</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;agency considers&lt;/em&gt; that it is now &lt;em&gt;appropriate&lt;/em&gt; to &lt;em&gt;replace these operations&lt;/em&gt; with &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;assistance based&lt;/em&gt; on &lt;em&gt;Government&lt;/em&gt; of &lt;em&gt;Bahrain treasury bills,"&lt;/em&gt; the &lt;em&gt;circular&lt;/em&gt; to &lt;em&gt;banks states&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Banking sources&lt;/em&gt; said more than half of the 20 &lt;em&gt;banks&lt;/em&gt; hold &lt;em&gt;treasury bills, although&lt;/em&gt; the need by &lt;em&gt;others&lt;/em&gt; to take up &lt;em&gt;paper could increase demand&lt;/em&gt; at &lt;em&gt;weekly tenders&lt;/em&gt; and push down &lt;em&gt;allotted yields slightly&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

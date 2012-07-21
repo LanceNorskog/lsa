@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">25</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-895.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">39</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">204</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">128</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">investment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">resources</str>
+        <double name="strength">0.9999999999999958</double>
+      </lst>
+      <lst name="term">
+        <str name="text">national</str>
+        <double name="strength">0.9999999999999909</double>
+      </lst>
+      <lst name="term">
+        <str name="text">product</str>
+        <double name="strength">0.9999999999999909</double>
+      </lst>
+      <lst name="term">
+        <str name="text">gross</str>
+        <double name="strength">0.9999999999999907</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The National Economic Development Authority (NEDA) announced yesterday gross domestic product (GDP) grew 5.78 pct and gross national product (GNP) 5.53 pct in the first quarter from a year earlier.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">On the proposed Omnibus Investment Code, he said he was opposed to a clause which would allow the unrestricted repatriation abroad of investments made during the first two years after the imposition of the Code.</str>
+        <int name="index">31</int>
+        <int name="start">1</int>
+        <int name="end">212</int>
+        <double name="strength">0.9535359297010174</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Certainly I do not see any shortage in external resources and if GNP growth continues at this level I would assume that domestic resources on the fiscal side would be generated and would not be a stumbling block," Fernandez said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">231</int>
+        <double name="strength">0.8710415649119901</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;National Economic Development Authority &lt;/em&gt;(NEDA) &lt;em&gt;announced yesterday gross domestic product &lt;/em&gt;(GDP) grew 5.78 pct and &lt;em&gt;gross national product &lt;/em&gt;(GNP) 5.53 pct in the &lt;em&gt;first quarter&lt;/em&gt; from a year &lt;em&gt;earlier&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">On the &lt;em&gt;proposed Omnibus Investment&lt;/em&gt; Code, he said he was &lt;em&gt;opposed&lt;/em&gt; to a &lt;em&gt;clause which would allow&lt;/em&gt; the &lt;em&gt;unrestricted repatriation abroad&lt;/em&gt; of &lt;em&gt;investments&lt;/em&gt; made &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;first&lt;/em&gt; two &lt;em&gt;years after&lt;/em&gt; the &lt;em&gt;imposition&lt;/em&gt; of the Code.</str>
+        <int name="index">31</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Certainly&lt;/em&gt; I do not see any &lt;em&gt;shortage&lt;/em&gt; in &lt;em&gt;external resources&lt;/em&gt; and if GNP &lt;em&gt;growth continues&lt;/em&gt; at this &lt;em&gt;level&lt;/em&gt; I &lt;em&gt;would assume&lt;/em&gt; that &lt;em&gt;domestic resources&lt;/em&gt; on the &lt;em&gt;fiscal&lt;/em&gt; side &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;generated&lt;/em&gt; and &lt;em&gt;would&lt;/em&gt; not be a &lt;em&gt;stumbling block," Fernandez said&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

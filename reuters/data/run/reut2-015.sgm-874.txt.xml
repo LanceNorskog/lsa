@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">100</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-015.sgm-874.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">607</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">84</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">59</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">census</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bureau</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">revising</str>
+        <double name="strength">0.9999999999999964</double>
+      </lst>
+      <lst name="term">
+        <str name="text">definition</str>
+        <double name="strength">0.9999999999999964</double>
+      </lst>
+      <lst name="term">
+        <str name="text">tables</str>
+        <double name="strength">0.9999999999999964</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">-- Rice, long grain, and medium/short grain rice average price for 1985/86 estimates and 1986/87 projections are market prices and exclude cash retained under the marketing loan since April, 1986.</str>
+        <int name="index">605</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Agriculture Department made the following supply/demand projections for the 1986/87 seasons, in mln bushels, with comparisons, unless noted --</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">145</int>
+        <double name="strength">0.9782518481830993</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">X  51.7-X   56.50   56.50  X - 1986/87 price is weighted average for first five months of marketing year, not a projection for 1986/87.</str>
+        <int name="index">309</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.7416222392100776</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">-- Rice, long &lt;em&gt;grain,&lt;/em&gt; and &lt;em&gt;medium/short grain&lt;/em&gt; rice &lt;em&gt;average price&lt;/em&gt; for 1985/86 &lt;em&gt;estimates&lt;/em&gt; and 1986/87 &lt;em&gt;projections&lt;/em&gt; are &lt;em&gt;market prices&lt;/em&gt; and &lt;em&gt;exclude&lt;/em&gt; cash &lt;em&gt;retained under&lt;/em&gt; the &lt;em&gt;marketing&lt;/em&gt; loan &lt;em&gt;since April, 1986&lt;/em&gt;.</str>
+        <int name="index">605</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; made the &lt;em&gt;following supply/demand projections&lt;/em&gt; for the 1986/87 &lt;em&gt;seasons,&lt;/em&gt; in mln &lt;em&gt;bushels,&lt;/em&gt; with &lt;em&gt;comparisons, unless noted -&lt;/em&gt;-</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">X  51.7-X   56.50   56.50  X - 1986/87 &lt;em&gt;price&lt;/em&gt; is &lt;em&gt;weighted average&lt;/em&gt; for &lt;em&gt;first&lt;/em&gt; five &lt;em&gt;months&lt;/em&gt; of &lt;em&gt;marketing&lt;/em&gt; year, not a &lt;em&gt;projection for 1986/87&lt;/em&gt;.</str>
+        <int name="index">309</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

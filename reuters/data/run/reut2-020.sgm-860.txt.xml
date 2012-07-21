@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-020.sgm-860.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">29</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">96</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">60</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">deficit</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">local</str>
+        <double name="strength">0.9999999999999973</double>
+      </lst>
+      <lst name="term">
+        <str name="text">opens</str>
+        <double name="strength">0.5590169943749472</double>
+      </lst>
+      <lst name="term">
+        <str name="text">selling</str>
+        <double name="strength">0.5590169943749461</double>
+      </lst>
+      <lst name="term">
+        <str name="text">polled</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Stock market analysts polled before Tokyo's market opened on Tuesday said Wall Street's dramatic fall on Monday was overdone and although Tokyo would fall drastically at the opening it might stabilise later.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">207</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Dow Jones Industrial Average fell 508 points (or 22.5 pct) to 1,738 on Monday, its biggest ever one day decline in both absolute and percentage terms.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">155</int>
+        <double name="strength">0.8881916354811811</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S.) budget deficit, trade deficit and slow economic growth, do not exist in Japan," Smithson said.</str>
+        <int name="index">19</int>
+        <int name="start">0</int>
+        <int name="end">98</int>
+        <double name="strength">0.8748611403388048</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Stock market analysts polled before Tokyo&lt;/em&gt;'s &lt;em&gt;market opened&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; said Wall &lt;em&gt;Street&lt;/em&gt;'s &lt;em&gt;dramatic&lt;/em&gt; fall on &lt;em&gt;Monday&lt;/em&gt; was &lt;em&gt;overdone&lt;/em&gt; and &lt;em&gt;although Tokyo would&lt;/em&gt; fall &lt;em&gt;drastically&lt;/em&gt; at the &lt;em&gt;opening&lt;/em&gt; it &lt;em&gt;might stabilise later&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Dow &lt;em&gt;Jones Industrial Average&lt;/em&gt; fell 508 &lt;em&gt;points &lt;/em&gt;(or 22.5 pct) to 1,738 on &lt;em&gt;Monday,&lt;/em&gt; its &lt;em&gt;biggest&lt;/em&gt; ever one day &lt;em&gt;decline&lt;/em&gt; in both &lt;em&gt;absolute&lt;/em&gt; and &lt;em&gt;percentage terms&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S.) &lt;em&gt;budget deficit, trade deficit&lt;/em&gt; and slow &lt;em&gt;economic growth,&lt;/em&gt; do not &lt;em&gt;exist&lt;/em&gt; in &lt;em&gt;Japan," Smithson said&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

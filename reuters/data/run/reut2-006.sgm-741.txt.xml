@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-741.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">115</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">76</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">shares</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">hydro</str>
+        <double name="strength">0.9999999999999981</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offer</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">common</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">foreseeable</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The company said it does not plan to offer common shares this year or in the foreseeable future, but expects to raise about 40 mln dlrs in equity through the sale of stock under its dividend reinvestment plan and employee share plans.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">235</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He explained that fluidized bed technology is available in modular units, adding that Huntington was referring to the traditional coal-fired plant which burns pulverized coal.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.7607044949724747</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The utility said these totals exclude spending on New England Hydro-Transmission being built to import electricity from Quebec Hydro.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">134</int>
+        <double name="strength">0.7563040864574894</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it does not plan to &lt;em&gt;offer common shares&lt;/em&gt; this year or in the &lt;em&gt;foreseeable future,&lt;/em&gt; but &lt;em&gt;expects&lt;/em&gt; to &lt;em&gt;raise about 40&lt;/em&gt; mln dlrs in &lt;em&gt;equity through&lt;/em&gt; the sale of &lt;em&gt;stock under&lt;/em&gt; its &lt;em&gt;dividend reinvestment&lt;/em&gt; plan and &lt;em&gt;employee share plans&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He &lt;em&gt;explained&lt;/em&gt; that &lt;em&gt;fluidized&lt;/em&gt; bed &lt;em&gt;technology&lt;/em&gt; is &lt;em&gt;available&lt;/em&gt; in &lt;em&gt;modular units, adding&lt;/em&gt; that &lt;em&gt;Huntington&lt;/em&gt; was &lt;em&gt;referring&lt;/em&gt; to the &lt;em&gt;traditional&lt;/em&gt; coal-&lt;em&gt;fired plant which burns pulverized coal&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;utility&lt;/em&gt; said &lt;em&gt;these totals exclude spending&lt;/em&gt; on New &lt;em&gt;England Hydro-Transmission being built&lt;/em&gt; to &lt;em&gt;import electricity&lt;/em&gt; from &lt;em&gt;Quebec Hydro&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

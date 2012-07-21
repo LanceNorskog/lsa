@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-005.sgm-56.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">102</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">74</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">within</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">years</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">january</str>
+        <double name="strength">0.9999999999999981</double>
+      </lst>
+      <lst name="term">
+        <str name="text">authority</str>
+        <double name="strength">0.5590169943749459</double>
+      </lst>
+      <lst name="term">
+        <str name="text">extends</str>
+        <double name="strength">0.5590169943749459</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Presently, to qualify for the refund the sugar must be processed within three years after import and exported within five years.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">129</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">President Reagan's authority to negotiate a new GATT agreement would be extended through January 1993 and authority to negotiate a free trade zone with Canada would be extended through January 3, 1991.</str>
+        <int name="index">12</int>
+        <int name="start">2</int>
+        <int name="end">203</int>
+        <double name="strength">0.8439901100268103</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It would seek fair trade in agriculture, seek to discipline restrictive or trade distorting import and export practices, to eliminate tariffs, subsidies, quotas and non-tariff barriers.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">185</int>
+        <double name="strength">0.8081516376652134</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Presently,&lt;/em&gt; to &lt;em&gt;qualify&lt;/em&gt; for the &lt;em&gt;refund&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; must be &lt;em&gt;processed within three years after import&lt;/em&gt; and &lt;em&gt;exported within&lt;/em&gt; five &lt;em&gt;years&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;authority&lt;/em&gt; to &lt;em&gt;negotiate&lt;/em&gt; a new GATT &lt;em&gt;agreement would&lt;/em&gt; be &lt;em&gt;extended through January 1993&lt;/em&gt; and &lt;em&gt;authority&lt;/em&gt; to &lt;em&gt;negotiate&lt;/em&gt; a free &lt;em&gt;trade&lt;/em&gt; zone with &lt;em&gt;Canada would&lt;/em&gt; be &lt;em&gt;extended through January 3, 1991&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It &lt;em&gt;would&lt;/em&gt; seek fair &lt;em&gt;trade&lt;/em&gt; in &lt;em&gt;agriculture,&lt;/em&gt; seek to &lt;em&gt;discipline restrictive&lt;/em&gt; or &lt;em&gt;trade distorting import&lt;/em&gt; and &lt;em&gt;export practices,&lt;/em&gt; to &lt;em&gt;eliminate tariffs, subsidies, quotas&lt;/em&gt; and non-&lt;em&gt;tariff barriers&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

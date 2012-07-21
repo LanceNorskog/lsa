@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-213.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">25</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">108</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">politics</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">approved</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">thirds</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">board</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">governors</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Although the ADB said political ideology is not a critiera for membership, several delegates said politics would play a large role in any decision to allow Moscow to join.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Moscow's application would have to be approved by two-thirds of the board of governors representing three-quarters of the total voting power of member countries.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.9616258134335056</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"No specific plans exist for applying for membership," Yurij Ponomarev, international managing director of the State Bank, told Reuters.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">137</int>
+        <double name="strength">0.816761462226155</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Although&lt;/em&gt; the ADB said &lt;em&gt;political ideology&lt;/em&gt; is not a &lt;em&gt;critiera&lt;/em&gt; for &lt;em&gt;membership, several delegates&lt;/em&gt; said &lt;em&gt;politics would&lt;/em&gt; play a &lt;em&gt;large&lt;/em&gt; role in any &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;allow Moscow&lt;/em&gt; to join.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Moscow&lt;/em&gt;'s &lt;em&gt;application would&lt;/em&gt; have to be &lt;em&gt;approved&lt;/em&gt; by two-&lt;em&gt;thirds&lt;/em&gt; of the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;governors representing three-quarters&lt;/em&gt; of the &lt;em&gt;total voting power&lt;/em&gt; of &lt;em&gt;member countries&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"No &lt;em&gt;specific plans exist&lt;/em&gt; for &lt;em&gt;applying&lt;/em&gt; for &lt;em&gt;membership," Yurij Ponomarev, international managing director&lt;/em&gt; of the &lt;em&gt;State&lt;/em&gt; Bank, told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">24</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-875.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">46</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">230</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">159</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">swiss</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">equity</str>
+        <double name="strength">0.5527707983925683</double>
+      </lst>
+      <lst name="term">
+        <str name="text">particularly</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+      <lst name="term">
+        <str name="text">optimistic</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+      <lst name="term">
+        <str name="text">continental</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">But, as deregulation erodes brokers' profits and the global share-buying spree is predicted to subside, only those securities traders with first-class financial muscle will survive, the sources said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The firm, 50 pct owned by &lt;Swiss Bank Corp&gt;, gave guests gifts of Swiss chocolates and Swatch watches.</str>
+        <int name="index">34</int>
+        <int name="start">0</int>
+        <int name="end">102</int>
+        <double name="strength">0.9080882086575837</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I am not particularly optimistic for the prospects in the Japanese equity market for continental European banks who have little experience in equities outside their domestic equity market," he said.</str>
+        <int name="index">41</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">0.906826097959184</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">But, as &lt;em&gt;deregulation erodes brokers' profits&lt;/em&gt; and the &lt;em&gt;global share-buying spree&lt;/em&gt; is &lt;em&gt;predicted&lt;/em&gt; to &lt;em&gt;subside,&lt;/em&gt; only &lt;em&gt;those securities traders&lt;/em&gt; with &lt;em&gt;first-class financial muscle&lt;/em&gt; will &lt;em&gt;survive,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The firm, 50 pct &lt;em&gt;owned&lt;/em&gt; by &lt;&lt;em&gt;Swiss&lt;/em&gt; Bank Corp&gt;, gave &lt;em&gt;guests gifts&lt;/em&gt; of &lt;em&gt;Swiss chocolates&lt;/em&gt; and &lt;em&gt;Swatch watches&lt;/em&gt;.</str>
+        <int name="index">34</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I am not &lt;em&gt;particularly optimistic&lt;/em&gt; for the &lt;em&gt;prospects&lt;/em&gt; in the &lt;em&gt;Japanese equity market&lt;/em&gt; for &lt;em&gt;continental European banks&lt;/em&gt; who have &lt;em&gt;little experience&lt;/em&gt; in &lt;em&gt;equities outside their domestic equity market,"&lt;/em&gt; he said.</str>
+        <int name="index">41</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

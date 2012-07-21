@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-705.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">43</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">35</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">statistics</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">originally</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">having</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fallen</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">increase</str>
+        <double name="strength">0.5000000000000003</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Commerce Department on Monday revised orders statistics for 1982 to 1986 to reflect more current inventory valuation methods, and the February orders statistics are consistent with the revisions, officials said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">216</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Durables excluding defense were reported originally as having fallen 9.9 pct in January.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">88</int>
+        <double name="strength">0.5359105749016978</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The February order increase was led by transportation equipment, up 11.1 pct after an 18.0 pct decline in January.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">0.49403828711432135</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Commerce Department&lt;/em&gt; on &lt;em&gt;Monday revised orders statistics&lt;/em&gt; for 1982 to 1986 to &lt;em&gt;reflect&lt;/em&gt; more &lt;em&gt;current inventory valuation methods,&lt;/em&gt; and the &lt;em&gt;February orders statistics&lt;/em&gt; are &lt;em&gt;consistent&lt;/em&gt; with the &lt;em&gt;revisions, officials said&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Durables excluding defense&lt;/em&gt; were &lt;em&gt;reported originally&lt;/em&gt; as &lt;em&gt;having fallen 9.9&lt;/em&gt; pct in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;February order increase&lt;/em&gt; was led by &lt;em&gt;transportation equipment,&lt;/em&gt; up 11.1 pct &lt;em&gt;after&lt;/em&gt; an 18.0 pct &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

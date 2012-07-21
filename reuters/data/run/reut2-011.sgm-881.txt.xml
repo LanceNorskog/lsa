@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-881.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">22</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">126</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">85</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">deliveries</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">crops</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+      <lst name="term">
+        <str name="text">conference</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">estimated</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">previous</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"High aggregate demand arising from low inflation, trade liberalisation and disciplined financial management are expected to increase output in the manufacturing sector," he said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Agriculture would expand significantly if favourable weather continued and farmers responded to producer price rises announced in February, the minister added.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9479923305013925</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This was owing to higher agricultural production and the Kenyan shilling's relative strength against other major currencies, the report said.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">0.918316308961593</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">"High &lt;em&gt;aggregate demand arising&lt;/em&gt; from low &lt;em&gt;inflation, trade liberalisation&lt;/em&gt; and &lt;em&gt;disciplined financial management&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;increase output&lt;/em&gt; in the &lt;em&gt;manufacturing sector,"&lt;/em&gt; he said.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Agriculture would expand significantly&lt;/em&gt; if &lt;em&gt;favourable weather continued&lt;/em&gt; and &lt;em&gt;farmers responded&lt;/em&gt; to &lt;em&gt;producer price rises announced&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; the &lt;em&gt;minister added&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This was &lt;em&gt;owing&lt;/em&gt; to &lt;em&gt;higher agricultural production&lt;/em&gt; and the &lt;em&gt;Kenyan shilling&lt;/em&gt;'s &lt;em&gt;relative strength against other major currencies,&lt;/em&gt; the &lt;em&gt;report said&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

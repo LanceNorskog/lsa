@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-512.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">125</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">86</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">under</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">chief</str>
+        <double name="strength">0.5590169943749458</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prosecutors</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">defer</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">pretrial</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Wiggins was among five Paradyine executives who were charged along with three former officers in a 1985 federal indictment stemming from a 115 mln contract awarded to Paradyne in 1981 to build a computer network for the Social Security Administration.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">252</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Under the settlement announced today, federal prosecutors agreed to defer all charges against Wiggins and three other defendants under a one-year pretrial agreement.</str>
+        <int name="index">17</int>
+        <int name="start">2</int>
+        <int name="end">167</int>
+        <double name="strength">0.8917145021755987</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Paradyne also said it named Jerry Kendall as president and chief executive officer, succeeding Robert Wiggins who resigned as chairman and chief executive officer as part of the settlement of the indictment.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">208</int>
+        <double name="strength">0.88232329532008</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wiggins&lt;/em&gt; was &lt;em&gt;among&lt;/em&gt; five &lt;em&gt;Paradyine executives&lt;/em&gt; who were &lt;em&gt;charged along&lt;/em&gt; with &lt;em&gt;three former officers&lt;/em&gt; in a 1985 &lt;em&gt;federal indictment stemming&lt;/em&gt; from a 115 mln &lt;em&gt;contract awarded&lt;/em&gt; to &lt;em&gt;Paradyne&lt;/em&gt; in 1981 to &lt;em&gt;build&lt;/em&gt; a &lt;em&gt;computer network&lt;/em&gt; for the &lt;em&gt;Social Security Administration&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Under&lt;/em&gt; the &lt;em&gt;settlement announced today, federal prosecutors agreed&lt;/em&gt; to &lt;em&gt;defer&lt;/em&gt; all &lt;em&gt;charges against Wiggins&lt;/em&gt; and &lt;em&gt;three other defendants under&lt;/em&gt; a one-year &lt;em&gt;pretrial agreement&lt;/em&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Paradyne&lt;/em&gt; also said it &lt;em&gt;named Jerry Kendall&lt;/em&gt; as &lt;em&gt;president&lt;/em&gt; and &lt;em&gt;chief executive officer, succeeding Robert Wiggins&lt;/em&gt; who &lt;em&gt;resigned&lt;/em&gt; as &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt; as part of the &lt;em&gt;settlement&lt;/em&gt; of the &lt;em&gt;indictment&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

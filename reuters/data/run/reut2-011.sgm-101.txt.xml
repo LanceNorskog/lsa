@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-101.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">110</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">75</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">airports</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">angeles</str>
+        <double name="strength">0.666666666666667</double>
+      </lst>
+      <lst name="term">
+        <str name="text">passenger</str>
+        <double name="strength">0.6666666666666663</double>
+      </lst>
+      <lst name="term">
+        <str name="text">provide</str>
+        <double name="strength">0.3726779962499652</double>
+      </lst>
+      <lst name="term">
+        <str name="text">terminal</str>
+        <double name="strength">0.37267799624996517</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Concerning the 14th, "While entry may not be possible at the Orange County Airport in the near future, DOT found that the service provided at other airports in the Los Angeles area, especially at the Los Angeles International Airport, will provide effective competition for Orange County travelers in long-haul markets," the DOT said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">335</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The merger would give American control of 37 pct of the authorized takeoff and landing slots at the Orange County terminal, where environmental concerns and a small terminal building limit future opportunities for expansion.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">225</int>
+        <double name="strength">0.7539159644865312</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. airline in terms of revenue passenger miles while AirCal--a relatively small carrier that primarily serves West Coast cities--is the nation's 17th largest passenger carrier.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
+        <double name="strength">0.738675796059635</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Concerning&lt;/em&gt; the 14th, "&lt;em&gt;While entry&lt;/em&gt; may not be &lt;em&gt;possible&lt;/em&gt; at the &lt;em&gt;Orange County Airport&lt;/em&gt; in the near &lt;em&gt;future,&lt;/em&gt; DOT &lt;em&gt;found&lt;/em&gt; that the &lt;em&gt;service provided&lt;/em&gt; at &lt;em&gt;other airports&lt;/em&gt; in the Los &lt;em&gt;Angeles&lt;/em&gt; area, &lt;em&gt;especially&lt;/em&gt; at the Los &lt;em&gt;Angeles International Airport,&lt;/em&gt; will &lt;em&gt;provide effective competition&lt;/em&gt; for &lt;em&gt;Orange County travelers&lt;/em&gt; in long-haul &lt;em&gt;markets,"&lt;/em&gt; the DOT said.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;merger would&lt;/em&gt; give &lt;em&gt;American control&lt;/em&gt; of 37 pct of the &lt;em&gt;authorized takeoff&lt;/em&gt; and &lt;em&gt;landing slots&lt;/em&gt; at the &lt;em&gt;Orange County terminal, where environmental concerns&lt;/em&gt; and a &lt;em&gt;small terminal building limit future opportunities&lt;/em&gt; for &lt;em&gt;expansion&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;airline&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of &lt;em&gt;revenue passenger miles while AirCal-&lt;/em&gt;-a &lt;em&gt;relatively small carrier&lt;/em&gt; that &lt;em&gt;primarily serves&lt;/em&gt; West &lt;em&gt;Coast cities-&lt;/em&gt;-is the &lt;em&gt;nation&lt;/em&gt;'s 17th &lt;em&gt;largest passenger carrier&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

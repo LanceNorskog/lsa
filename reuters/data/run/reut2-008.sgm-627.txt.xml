@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-627.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">28</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">143</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">86</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">historically</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">banks</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">savings</str>
+        <double name="strength">0.5590169943749471</double>
+      </lst>
+      <lst name="term">
+        <str name="text">happened</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">manufacturing</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The agreement between the two companies calls for a 50-50 joint venture in London focussing on investment advisory asset management, market research, and consulting on financing.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It's part of a trend towards growing capital participation by Japanese insurance firms in foreign financial institutions," said Simon Smithson, an analyst with Kleinwort Benson International Inc in Tokyo.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">204</int>
+        <double name="strength">0.9328630142897479</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Smithson said Japanese banks started buying smaller and problem-plagued banks in 1984.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">87</int>
+        <double name="strength">0.9280414618456646</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;agreement between&lt;/em&gt; the two &lt;em&gt;companies calls&lt;/em&gt; for a 50-50 &lt;em&gt;joint venture&lt;/em&gt; in &lt;em&gt;London focussing&lt;/em&gt; on &lt;em&gt;investment advisory asset management, market research,&lt;/em&gt; and &lt;em&gt;consulting&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It's part of a &lt;em&gt;trend towards growing capital participation&lt;/em&gt; by &lt;em&gt;Japanese insurance firms&lt;/em&gt; in &lt;em&gt;foreign financial institutions,"&lt;/em&gt; said &lt;em&gt;Simon Smithson,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Kleinwort Benson International&lt;/em&gt; Inc in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Smithson&lt;/em&gt; said &lt;em&gt;Japanese banks started buying smaller&lt;/em&gt; and &lt;em&gt;problem-plagued banks in 1984&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-184.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">83</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">58</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">small</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cutback</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">meant</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quarter</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">polled</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The business climate in West German manufacturing industry worsened slightly last month after deteriorating markedly in January, the IFO economic research institute said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">170</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The business climate in the capital goods industry was unchanged in February compared with January, but IFO said this was due entirely to positive reports from makers of commercial vehicles.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">191</int>
+        <double name="strength">0.9515483429296251</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Carmakers were again positive about current business but forecast a slight worsening of business conditions in the near future.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">127</int>
+        <double name="strength">0.9453432786946835</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;business climate&lt;/em&gt; in West &lt;em&gt;German manufacturing industry worsened slightly&lt;/em&gt; last &lt;em&gt;month after deteriorating markedly&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; the IFO &lt;em&gt;economic research institute said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;business climate&lt;/em&gt; in the &lt;em&gt;capital goods industry&lt;/em&gt; was &lt;em&gt;unchanged&lt;/em&gt; in &lt;em&gt;February compared&lt;/em&gt; with &lt;em&gt;January,&lt;/em&gt; but IFO said this was due &lt;em&gt;entirely&lt;/em&gt; to &lt;em&gt;positive reports&lt;/em&gt; from &lt;em&gt;makers&lt;/em&gt; of &lt;em&gt;commercial vehicles&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Carmakers&lt;/em&gt; were &lt;em&gt;again positive about current business&lt;/em&gt; but &lt;em&gt;forecast&lt;/em&gt; a &lt;em&gt;slight worsening&lt;/em&gt; of &lt;em&gt;business conditions&lt;/em&gt; in the near &lt;em&gt;future&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

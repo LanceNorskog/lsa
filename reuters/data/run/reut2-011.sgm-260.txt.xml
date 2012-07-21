@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">14</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-011.sgm-260.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">65</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">52</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">business</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">besides</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">manufacturers</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">consumer</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">goods</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">They were change in sensitive materials prices, money supply, vendor performance, average weekly initial claims for state unemployment insurance, and contracts and orders for plant and equipment.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">195</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The department said it has suspended net business formation from the leading indicators index because it has deteriorated as a measure of change in the business population.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.8726715393684692</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Besides stock prices, they were manufacturers' new orders for consumer goods and materials, average work week and building permits.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.7443681113600418</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">They were &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;sensitive materials prices, money supply, vendor performance, average weekly initial claims&lt;/em&gt; for &lt;em&gt;state unemployment insurance,&lt;/em&gt; and &lt;em&gt;contracts&lt;/em&gt; and &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;plant&lt;/em&gt; and &lt;em&gt;equipment&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;department&lt;/em&gt; said it has &lt;em&gt;suspended&lt;/em&gt; net &lt;em&gt;business formation&lt;/em&gt; from the &lt;em&gt;leading indicators index because&lt;/em&gt; it has &lt;em&gt;deteriorated&lt;/em&gt; as a &lt;em&gt;measure&lt;/em&gt; of &lt;em&gt;change&lt;/em&gt; in the &lt;em&gt;business population&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Besides stock prices,&lt;/em&gt; they were &lt;em&gt;manufacturers'&lt;/em&gt; new &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;consumer goods&lt;/em&gt; and &lt;em&gt;materials, average&lt;/em&gt; work week and &lt;em&gt;building permits&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

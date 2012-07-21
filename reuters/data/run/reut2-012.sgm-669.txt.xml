@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-669.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">68</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">49</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">expire</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">closely</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">strike</str>
+        <double name="strength">0.5590169943749473</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quoted</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">minimum</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"From our experience in crude, we fully expect heating oil options to offer significant new trading opportunities to current market participants and also draw additional users into this marketplace," he said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Expiration will be on the second Friday of the month preceding delivery of the underlying futures contract, it said, meaning that the September options contract would expire August 14.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">0.9191712768507342</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The middle strike price will correspond closely to the settlement price of the previous day's futures close, it said.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">117</int>
+        <double name="strength">0.8418147855327106</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">"From our &lt;em&gt;experience&lt;/em&gt; in &lt;em&gt;crude,&lt;/em&gt; we &lt;em&gt;fully expect heating&lt;/em&gt; oil &lt;em&gt;options&lt;/em&gt; to &lt;em&gt;offer significant&lt;/em&gt; new &lt;em&gt;trading opportunities&lt;/em&gt; to &lt;em&gt;current market participants&lt;/em&gt; and also draw &lt;em&gt;additional users&lt;/em&gt; into this &lt;em&gt;marketplace,"&lt;/em&gt; he said.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Expiration&lt;/em&gt; will be on the &lt;em&gt;second Friday&lt;/em&gt; of the &lt;em&gt;month preceding delivery&lt;/em&gt; of the &lt;em&gt;underlying futures contract,&lt;/em&gt; it said, &lt;em&gt;meaning&lt;/em&gt; that the &lt;em&gt;September options contract would expire August 14&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;middle strike price&lt;/em&gt; will &lt;em&gt;correspond closely&lt;/em&gt; to the &lt;em&gt;settlement price&lt;/em&gt; of the &lt;em&gt;previous&lt;/em&gt; day's &lt;em&gt;futures close,&lt;/em&gt; it said.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

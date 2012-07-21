@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-013.sgm-656.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">26</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">187</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">104</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">strategy</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">balance</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">0.5590169943749466</double>
+      </lst>
+      <lst name="term">
+        <str name="text">tough</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">brands</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Washington wants other major nations to establish specific policy goals for economic growth, inflation, current account balance of payments, trade balances, budget performance, monetary conditions and currencies.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Treasury Secretary is expected to see Japanese Finance Minister Kiichi Miyazawa, West German Finance Minister Gerhard Stoltenberg and British Chancellor of the Exchequer Nigel Lawson.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
+        <double name="strength">0.8622888215608117</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Monetary sources said the so-called Group of 24 developing nations are preparing a very tough communique which brands the western strategy for shoring up the debt strategy as a failure.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">186</int>
+        <double name="strength">0.8524963399518602</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Washington wants other major nations&lt;/em&gt; to &lt;em&gt;establish specific policy goals&lt;/em&gt; for &lt;em&gt;economic growth, inflation, current account balance&lt;/em&gt; of &lt;em&gt;payments, trade balances, budget performance, monetary conditions&lt;/em&gt; and &lt;em&gt;currencies&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Treasury Secretary&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to see &lt;em&gt;Japanese Finance Minister Kiichi Miyazawa,&lt;/em&gt; West &lt;em&gt;German Finance Minister Gerhard Stoltenberg&lt;/em&gt; and &lt;em&gt;British Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Monetary sources&lt;/em&gt; said the so-&lt;em&gt;called Group&lt;/em&gt; of 24 &lt;em&gt;developing nations&lt;/em&gt; are &lt;em&gt;preparing&lt;/em&gt; a very &lt;em&gt;tough communique which brands&lt;/em&gt; the &lt;em&gt;western strategy&lt;/em&gt; for &lt;em&gt;shoring&lt;/em&gt; up the debt &lt;em&gt;strategy&lt;/em&gt; as a &lt;em&gt;failure&lt;/em&gt;.</str>
+        <int name="index">23</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

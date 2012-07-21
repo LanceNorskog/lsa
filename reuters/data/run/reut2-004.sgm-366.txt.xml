@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-366.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">84</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">59</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">owned</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">would</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">distribution</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">systems</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">currently</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The partnership will acquire the refining and distribution systems currently owned and operated by Champlin Petroleum, a wholly owned subsidiary of Union Pacific.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">163</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"This will provide a stable, long-term supply to the refinery at competitive costs, thereby assuring the economic viability of the plant," a statement issued by Union Pacific said.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.985009359737591</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Union Pacific said employees of the refinery would be transfered to the new company and would retain the same benefits as in the past.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">134</int>
+        <double name="strength">0.8721546575198533</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;partnership&lt;/em&gt; will &lt;em&gt;acquire&lt;/em&gt; the &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;distribution systems currently owned&lt;/em&gt; and &lt;em&gt;operated&lt;/em&gt; by &lt;em&gt;Champlin Petroleum,&lt;/em&gt; a &lt;em&gt;wholly owned subsidiary&lt;/em&gt; of &lt;em&gt;Union Pacific&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"This will &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;stable,&lt;/em&gt; long-term &lt;em&gt;supply&lt;/em&gt; to the &lt;em&gt;refinery&lt;/em&gt; at &lt;em&gt;competitive costs, thereby assuring&lt;/em&gt; the &lt;em&gt;economic viability&lt;/em&gt; of the &lt;em&gt;plant,"&lt;/em&gt; a &lt;em&gt;statement issued&lt;/em&gt; by &lt;em&gt;Union Pacific said&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Union Pacific&lt;/em&gt; said &lt;em&gt;employees&lt;/em&gt; of the &lt;em&gt;refinery would&lt;/em&gt; be &lt;em&gt;transfered&lt;/em&gt; to the new &lt;em&gt;company&lt;/em&gt; and &lt;em&gt;would retain&lt;/em&gt; the same &lt;em&gt;benefits&lt;/em&gt; as in the past.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

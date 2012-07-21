@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-669.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">25</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">147</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">91</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">japan</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">extended</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">yasuhiro</str>
+        <double name="strength">0.8944271909999183</double>
+      </lst>
+      <lst name="term">
+        <str name="text">aides</str>
+        <double name="strength">0.8944271909999183</double>
+      </lst>
+      <lst name="term">
+        <str name="text">system</str>
+        <double name="strength">0.8944271909999181</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Nakasone vowed yesterday to press on with his plan despite Sunday's unexpected Upper House by-election defeat of the ruling Liberal Democratic Party (LDP) in a conservative stronghold.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The aide, who declined to be identified, said at a private meeting, "Nakasone's power in office does not necessarily terminate at the end of his term in October.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.8285452406592394</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If I were Nakasone, I would close the current regular parliamentary session on May 27 as scheduled, attend the Venice summit of industrial democracies in June and open an extraordinary session to discuss the tax plans," the aide said.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">235</int>
+        <double name="strength">0.8247123199940588</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Nakasone vowed yesterday&lt;/em&gt; to &lt;em&gt;press&lt;/em&gt; on with his plan &lt;em&gt;despite Sunday&lt;/em&gt;'s &lt;em&gt;unexpected Upper House&lt;/em&gt; by-&lt;em&gt;election defeat&lt;/em&gt; of the &lt;em&gt;ruling Liberal Democratic Party &lt;/em&gt;(LDP) in a &lt;em&gt;conservative stronghold&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The aide, who &lt;em&gt;declined&lt;/em&gt; to be &lt;em&gt;identified,&lt;/em&gt; said at a &lt;em&gt;private meeting, "Nakasone&lt;/em&gt;'s &lt;em&gt;power&lt;/em&gt; in &lt;em&gt;office&lt;/em&gt; does not &lt;em&gt;necessarily terminate&lt;/em&gt; at the end of his term in &lt;em&gt;October&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If I were &lt;em&gt;Nakasone,&lt;/em&gt; I &lt;em&gt;would close&lt;/em&gt; the &lt;em&gt;current regular parliamentary session&lt;/em&gt; on May 27 as &lt;em&gt;scheduled, attend&lt;/em&gt; the &lt;em&gt;Venice summit&lt;/em&gt; of &lt;em&gt;industrial democracies&lt;/em&gt; in June and open an &lt;em&gt;extraordinary session&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; the tax &lt;em&gt;plans,"&lt;/em&gt; the aide said.</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-241.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">89</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">49</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">share</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">ballan</str>
+        <double name="strength">0.7905694150420949</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reported</str>
+        <double name="strength">0.7905694150420945</double>
+      </lst>
+      <lst name="term">
+        <str name="text">gundie</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+      <lst name="term">
+        <str name="text">center</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Last year, Dart Group, owner of Auto Trak INc and Crown Books, competed against Kohlberg, Kravis to acquire Safeway Stores INc.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">128</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company later reached an accord under which it would buy 20 pct of the company after Kohlberg Kravis completed its leveraged buyout of the company.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">0.9796737123544245</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Jerry Ballan, analyst with Conner Ballan division of Edward Viner and Co, said, "They &lt;Dart&gt; has been rumored to be buying some other supermarkets as well, such as Stop and Shop."</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.9787946001373067</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Last year, Dart &lt;em&gt;Group, owner&lt;/em&gt; of Auto Trak INc and &lt;em&gt;Crown Books, competed against Kohlberg, Kravis&lt;/em&gt; to &lt;em&gt;acquire Safeway Stores INc&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company later reached&lt;/em&gt; an &lt;em&gt;accord under which&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; buy 20 pct of the &lt;em&gt;company after Kohlberg Kravis completed&lt;/em&gt; its &lt;em&gt;leveraged buyout&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Jerry Ballan, analyst&lt;/em&gt; with &lt;em&gt;Conner Ballan division&lt;/em&gt; of &lt;em&gt;Edward Viner&lt;/em&gt; and Co, said, "They &lt;Dart&gt; has been &lt;em&gt;rumored&lt;/em&gt; to be &lt;em&gt;buying&lt;/em&gt; some &lt;em&gt;other supermarkets&lt;/em&gt; as well, such as Stop and Shop."</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

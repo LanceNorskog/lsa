@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-161.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">94</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">66</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">initiated</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+      <lst name="term">
+        <str name="text">policy</str>
+        <double name="strength">0.5000000000000013</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cause</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">during</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Results for the first month of the new year were encouraging after a period of uncertain consumer confidence and difficult trading conditions, it said in a statement.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S&gt; said policy, management and financial changes initiated during the 1986/87 business year should cause profits to reach more acceptable levels in 1987/88 end-February 1.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">171</int>
+        <double name="strength">0.9705878715121748</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Big W discount store division and New South Wales supermarkets produced very disappointing results, it added.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">114</int>
+        <double name="strength">0.8261595987094037</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Results&lt;/em&gt; for the &lt;em&gt;first month&lt;/em&gt; of the new year were &lt;em&gt;encouraging after&lt;/em&gt; a &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;uncertain consumer confidence&lt;/em&gt; and &lt;em&gt;difficult trading conditions,&lt;/em&gt; it said in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S&gt; said &lt;em&gt;policy, management&lt;/em&gt; and &lt;em&gt;financial changes initiated during&lt;/em&gt; the 1986/87 &lt;em&gt;business&lt;/em&gt; year &lt;em&gt;should cause profits&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; more &lt;em&gt;acceptable levels&lt;/em&gt; in 1987/88 end-&lt;em&gt;February 1&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Big W &lt;em&gt;discount store division&lt;/em&gt; and New &lt;em&gt;South Wales supermarkets produced&lt;/em&gt; very &lt;em&gt;disappointing results,&lt;/em&gt; it &lt;em&gt;added&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

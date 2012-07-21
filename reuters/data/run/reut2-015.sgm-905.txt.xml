@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">19</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-015.sgm-905.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">153</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">45</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">32</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">coarse</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">produc</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bales</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">countries</str>
+        <double name="strength">0.999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S. Agriculture Department made the following 1986/87 projections in its world Supply/Demand report, with comparisons, in mln tonnes, except where noted --</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">342.34  X-Based on export estimate.</str>
+        <int name="index">23</int>
+        <int name="start">0</int>
+        <int name="end">35</int>
+        <double name="strength">0.4579406021895812</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Rice (Milled Basis)</str>
+        <int name="index">137</int>
+        <int name="start">1</int>
+        <int name="end">20</int>
+        <double name="strength">0.45749404859513454</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; made the &lt;em&gt;following 1986/87 projections&lt;/em&gt; in its &lt;em&gt;world Supply/Demand report,&lt;/em&gt; with &lt;em&gt;comparisons,&lt;/em&gt; in mln &lt;em&gt;tonnes, except where noted -&lt;/em&gt;-</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">342.34  X-&lt;em&gt;Based&lt;/em&gt; on &lt;em&gt;export estimate&lt;/em&gt;.</str>
+        <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Rice (&lt;em&gt;Milled Basis&lt;/em&gt;)</str>
+        <int name="index">137</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

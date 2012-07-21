@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-019.sgm-483.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">106</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">70</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">which</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">called</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">employees</str>
+        <double name="strength">0.559016994374948</double>
+      </lst>
+      <lst name="term">
+        <str name="text">other</str>
+        <double name="strength">0.5590169943749476</double>
+      </lst>
+      <lst name="term">
+        <str name="text">blood</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">CUPW President Jean-Claude Parrot called for the resignation of Andre Harvie, minister responsible for Canada Post, for condoning the use of the so-called strikebreakers.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Canadian Union of Postal Workers (CUPW), which represents postal employees who are not letter carriers and which is not on strike, said one of its workers was stabbed and is now in the hospital after a scuffle broke out with a replacement worker in Toronto early today.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">274</int>
+        <double name="strength">0.9868566891554725</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">There have been several arrests, property damage, and sometimes violent clashes between strikers and replacement workers whom the corporation hired to try and keep the mail moving.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.9605254688661408</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">CUPW &lt;em&gt;President&lt;/em&gt; Jean-&lt;em&gt;Claude Parrot called&lt;/em&gt; for the &lt;em&gt;resignation&lt;/em&gt; of &lt;em&gt;Andre Harvie, minister responsible&lt;/em&gt; for &lt;em&gt;Canada&lt;/em&gt; Post, for &lt;em&gt;condoning&lt;/em&gt; the use of the so-&lt;em&gt;called strikebreakers&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Canadian Union&lt;/em&gt; of &lt;em&gt;Postal Workers &lt;/em&gt;(CUPW), &lt;em&gt;which represents postal employees&lt;/em&gt; who are not &lt;em&gt;letter carriers&lt;/em&gt; and &lt;em&gt;which&lt;/em&gt; is not on &lt;em&gt;strike,&lt;/em&gt; said one of its &lt;em&gt;workers&lt;/em&gt; was &lt;em&gt;stabbed&lt;/em&gt; and is now in the &lt;em&gt;hospital after&lt;/em&gt; a &lt;em&gt;scuffle broke&lt;/em&gt; out with a &lt;em&gt;replacement worker&lt;/em&gt; in &lt;em&gt;Toronto early today&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;There&lt;/em&gt; have been &lt;em&gt;several arrests, property damage,&lt;/em&gt; and &lt;em&gt;sometimes violent clashes between strikers&lt;/em&gt; and &lt;em&gt;replacement workers&lt;/em&gt; whom the &lt;em&gt;corporation hired&lt;/em&gt; to try and keep the mail &lt;em&gt;moving&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-455.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">110</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">68</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">future</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">account</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shareholders</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shares</str>
+        <double name="strength">0.5590169943749466</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Sufficient funds should be available to pay full amount of the March 31, 1987 dividend to exchangeable preferred shareholders, with payment expected in early April to shareholders of record March 31, the company said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">218</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If future dividends are not declared after the April exchangeable preferred quarterly payout, future payment will depend on the amount of dividends received from Westcoast Transmission Co &lt;WTC&gt;, B.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.9005543579213692</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company said its increased fourth quarter and full year operating losses primarily resulted from lower oil prices and a four month labor shutdown at its Balmer coal mine in British Columbia.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.887633252603543</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sufficient funds should&lt;/em&gt; be &lt;em&gt;available&lt;/em&gt; to pay full &lt;em&gt;amount&lt;/em&gt; of the &lt;em&gt;March 31, 1987 dividend&lt;/em&gt; to &lt;em&gt;exchangeable preferred shareholders,&lt;/em&gt; with &lt;em&gt;payment expected&lt;/em&gt; in &lt;em&gt;early April&lt;/em&gt; to &lt;em&gt;shareholders&lt;/em&gt; of &lt;em&gt;record March 31,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If &lt;em&gt;future dividends&lt;/em&gt; are not &lt;em&gt;declared after&lt;/em&gt; the &lt;em&gt;April exchangeable preferred quarterly payout, future payment&lt;/em&gt; will &lt;em&gt;depend&lt;/em&gt; on the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;dividends received&lt;/em&gt; from &lt;em&gt;Westcoast Transmission&lt;/em&gt; Co &lt;WTC&gt;, B.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said its &lt;em&gt;increased fourth quarter&lt;/em&gt; and full year &lt;em&gt;operating losses primarily resulted&lt;/em&gt; from &lt;em&gt;lower&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; and a four &lt;em&gt;month labor shutdown&lt;/em&gt; at its &lt;em&gt;Balmer&lt;/em&gt; coal mine in &lt;em&gt;British Columbia&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

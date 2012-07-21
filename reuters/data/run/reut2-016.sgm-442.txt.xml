@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-016.sgm-442.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">14</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">77</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">51</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reached</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">settlement</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">plaintiff</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+      <lst name="term">
+        <str name="text">pending</str>
+        <double name="strength">0.500000000000001</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">&lt;MacAndrews and Forbes Group&gt; and Revlon Group Inc &lt;REV&gt; said that they have entered into a definitive mergewr agreement where MacAndrews will acquire Revlon at 20.10 dlrs per common share in cash.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">MacAndrews and Revlon also said they have reached a settlement with the plaintiff in the pending litigation challenging acquisition of the shares by MacAnrews.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.90058909153589</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Since the offer was made over a dozen shareholder lawsuits were brought against Revlon alleging the original offer was too low.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">128</int>
+        <double name="strength">0.8573645946901856</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;&lt;MacAndrews&lt;/em&gt; and &lt;em&gt;Forbes Group&gt;&lt;/em&gt; and &lt;em&gt;Revlon Group&lt;/em&gt; Inc &lt;REV&gt; said that they have &lt;em&gt;entered&lt;/em&gt; into a &lt;em&gt;definitive mergewr agreement where MacAndrews&lt;/em&gt; will &lt;em&gt;acquire Revlon&lt;/em&gt; at 20.10 dlrs per &lt;em&gt;common share&lt;/em&gt; in cash.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;MacAndrews&lt;/em&gt; and &lt;em&gt;Revlon&lt;/em&gt; also said they have &lt;em&gt;reached&lt;/em&gt; a &lt;em&gt;settlement&lt;/em&gt; with the &lt;em&gt;plaintiff&lt;/em&gt; in the &lt;em&gt;pending litigation challenging acquisition&lt;/em&gt; of the &lt;em&gt;shares&lt;/em&gt; by &lt;em&gt;MacAnrews&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Since&lt;/em&gt; the &lt;em&gt;offer&lt;/em&gt; was made over a &lt;em&gt;dozen shareholder lawsuits&lt;/em&gt; were &lt;em&gt;brought against Revlon alleging&lt;/em&gt; the &lt;em&gt;original offer&lt;/em&gt; was too low.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

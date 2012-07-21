@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-020.sgm-781.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">24</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">124</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">79</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">record</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sellers</str>
+        <double name="strength">0.5000000000000023</double>
+      </lst>
+      <lst name="term">
+        <str name="text">still</str>
+        <double name="strength">0.5000000000000023</double>
+      </lst>
+      <lst name="term">
+        <str name="text">predominated</str>
+        <double name="strength">0.5000000000000023</double>
+      </lst>
+      <lst name="term">
+        <str name="text">people</str>
+        <double name="strength">0.5000000000000023</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Pacific Stock Exchange Chairman Maurice Mann said the exchange may have reached record volume again today, following yesterday's record 17.6 mln shares.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">While sellers still predominated, Melton added, "people were bottom fishing a little bit in the blue chips...but its very nervous."</str>
+        <int name="index">22</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.9551378952036185</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the options had to be halted because price information on the underlying stocks was not being disseminated on the floor quickly enough.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.8578457853052965</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Pacific Stock Exchange Chairman Maurice&lt;/em&gt; Mann said the &lt;em&gt;exchange&lt;/em&gt; may have &lt;em&gt;reached record volume again today, following yesterday&lt;/em&gt;'s &lt;em&gt;record 17.6&lt;/em&gt; mln &lt;em&gt;shares&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;While sellers still predominated, Melton added, "people&lt;/em&gt; were &lt;em&gt;bottom fishing&lt;/em&gt; a &lt;em&gt;little&lt;/em&gt; bit in the blue &lt;em&gt;chips..&lt;/em&gt;.but its very &lt;em&gt;nervous.&lt;/em&gt;"</str>
+        <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the &lt;em&gt;options&lt;/em&gt; had to be &lt;em&gt;halted because price information&lt;/em&gt; on the &lt;em&gt;underlying stocks&lt;/em&gt; was not &lt;em&gt;being disseminated&lt;/em&gt; on the &lt;em&gt;floor quickly enough&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

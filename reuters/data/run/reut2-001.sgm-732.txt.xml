@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-732.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">67</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">43</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">spend</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">assembly</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bring</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">manufacturing</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Modernization of the 22-year-old facility is part of Chrysler's five-year, 12.5 billion dlr company-wide program to bring its manufacturing operations up to current standards.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rest of the money will be spent developing Chrysler's New York and Dodge Dynasty four-door sedans to be built at the plant.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">128</int>
+        <double name="strength">0.9560864306236769</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The State of Illinois has committeed 10 mln dlrs in training funds to the project.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">82</int>
+        <double name="strength">0.9340808009434924</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Modernization&lt;/em&gt; of the 22-year-old &lt;em&gt;facility&lt;/em&gt; is part of &lt;em&gt;Chrysler&lt;/em&gt;'s five-year, 12.5 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;company&lt;/em&gt;-wide &lt;em&gt;program&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; its &lt;em&gt;manufacturing operations&lt;/em&gt; up to &lt;em&gt;current standards&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rest of the &lt;em&gt;money&lt;/em&gt; will be &lt;em&gt;spent developing Chrysler&lt;/em&gt;'s New York and &lt;em&gt;Dodge Dynasty&lt;/em&gt; four-door &lt;em&gt;sedans&lt;/em&gt; to be &lt;em&gt;built&lt;/em&gt; at the &lt;em&gt;plant&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;State&lt;/em&gt; of &lt;em&gt;Illinois&lt;/em&gt; has &lt;em&gt;committeed 10&lt;/em&gt; mln dlrs in &lt;em&gt;training funds&lt;/em&gt; to the &lt;em&gt;project&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

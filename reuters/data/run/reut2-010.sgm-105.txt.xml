@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-105.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">29</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">117</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">66</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">however</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">warned</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">european</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">resist</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">equipment</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">USX said in December the company had held formal discussions with BP about the potential sale of some of its overseas oil assets and USX had received expressions of interest from a half dozen other oil companies.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We want to maintain our production in the Yates Field during these difficult times," Roderick added.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">102</int>
+        <double name="strength">0.9447517781189351</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some economic discomfort must be transferred from the United States to our friends, trading partners and allies."</str>
+        <int name="index">27</int>
+        <int name="start">0</int>
+        <int name="end">113</int>
+        <double name="strength">0.9306656831867086</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">USX said in &lt;em&gt;December&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; had held &lt;em&gt;formal discussions&lt;/em&gt; with BP &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;potential&lt;/em&gt; sale of some of its &lt;em&gt;overseas&lt;/em&gt; oil &lt;em&gt;assets&lt;/em&gt; and USX had &lt;em&gt;received expressions&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; from a half &lt;em&gt;dozen other&lt;/em&gt; oil &lt;em&gt;companies&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We want to &lt;em&gt;maintain&lt;/em&gt; our &lt;em&gt;production&lt;/em&gt; in the &lt;em&gt;Yates Field during these difficult times," Roderick added&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some &lt;em&gt;economic discomfort&lt;/em&gt; must be &lt;em&gt;transferred&lt;/em&gt; from the &lt;em&gt;United States&lt;/em&gt; to our &lt;em&gt;friends, trading partners&lt;/em&gt; and &lt;em&gt;allies.&lt;/em&gt;"</str>
+        <int name="index">27</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

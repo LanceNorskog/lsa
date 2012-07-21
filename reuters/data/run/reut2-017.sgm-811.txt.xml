@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-811.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">85</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">56</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">price</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">second</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quarter</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">exceed</str>
+        <double name="strength">0.5000000000000009</double>
+      </lst>
+      <lst name="term">
+        <str name="text">wednesday</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">USPCI vice president of finance Larry Shelton said he could not comment on the adequacy of the offer or on when the board would meet to consider it.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The transportation and energy company would both gain entry into a profitable business and win cost-control benefits, he said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">126</int>
+        <double name="strength">0.9260301077370923</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At that price, USPCI could maintain a stock price in the low 40s, Augenthaler said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">84</int>
+        <double name="strength">0.9102162643640715</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;USPCI&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;finance Larry Shelton&lt;/em&gt; said he &lt;em&gt;could&lt;/em&gt; not &lt;em&gt;comment&lt;/em&gt; on the &lt;em&gt;adequacy&lt;/em&gt; of the &lt;em&gt;offer&lt;/em&gt; or on when the &lt;em&gt;board would&lt;/em&gt; meet to &lt;em&gt;consider it&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;transportation&lt;/em&gt; and &lt;em&gt;energy company would&lt;/em&gt; both gain &lt;em&gt;entry&lt;/em&gt; into a &lt;em&gt;profitable business&lt;/em&gt; and win cost-&lt;em&gt;control benefits,&lt;/em&gt; he said.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At that &lt;em&gt;price, USPCI could maintain&lt;/em&gt; a &lt;em&gt;stock price&lt;/em&gt; in the low 40s, &lt;em&gt;Augenthaler said&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

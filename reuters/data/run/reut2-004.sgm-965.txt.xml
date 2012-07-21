@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-965.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">69</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">51</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">mbank</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bancshares</str>
+        <double name="strength">0.5590169943749478</double>
+      </lst>
+      <lst name="term">
+        <str name="text">problems</str>
+        <double name="strength">0.5590169943749471</double>
+      </lst>
+      <lst name="term">
+        <str name="text">securities</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">banks</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Also, the agency cut to BBB-minus and A-3 from BBB-plus and A-2, respectively, CDs and issues supported by letters of credit from the units MBank Dallas and MBank Houston.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">While problem energy loans appear to be abating, real estate problems are mounting, S and P said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">98</int>
+        <double name="strength">0.9224414364027741</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rating agency also said it expects earnings to remain under pressure for the remainder of this year.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">104</int>
+        <double name="strength">0.8115106700047786</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Also, the &lt;em&gt;agency&lt;/em&gt; cut to BBB-&lt;em&gt;minus&lt;/em&gt; and A-3 from BBB-plus and A-2, &lt;em&gt;respectively,&lt;/em&gt; CDs and &lt;em&gt;issues supported&lt;/em&gt; by &lt;em&gt;letters&lt;/em&gt; of &lt;em&gt;credit&lt;/em&gt; from the &lt;em&gt;units MBank Dallas&lt;/em&gt; and &lt;em&gt;MBank Houston&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;While problem energy loans appear&lt;/em&gt; to be &lt;em&gt;abating,&lt;/em&gt; real &lt;em&gt;estate problems&lt;/em&gt; are &lt;em&gt;mounting,&lt;/em&gt; S and P said.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;rating agency&lt;/em&gt; also said it &lt;em&gt;expects earnings&lt;/em&gt; to &lt;em&gt;remain under pressure&lt;/em&gt; for the &lt;em&gt;remainder&lt;/em&gt; of this year.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

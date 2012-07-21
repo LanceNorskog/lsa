@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-901.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">73</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">40</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">markets</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">moment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">thought</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">about</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">normally</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S. of textiles and apparel and electronic goods, such as television sets, video cassette records and personal computers.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said in an interview with Reuter that after a few years it was likely South Korea would drop barriers to foreign goods and move toward a more balanced trade position.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.9736546316264064</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Its purchases from the United States include electronic testing equipment, grains and cotton.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">94</int>
+        <double name="strength">0.9498713802919568</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">S. of &lt;em&gt;textiles&lt;/em&gt; and &lt;em&gt;apparel&lt;/em&gt; and &lt;em&gt;electronic goods,&lt;/em&gt; such as &lt;em&gt;television&lt;/em&gt; sets, &lt;em&gt;video cassette records&lt;/em&gt; and &lt;em&gt;personal computers&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said in an &lt;em&gt;interview&lt;/em&gt; with &lt;em&gt;Reuter&lt;/em&gt; that &lt;em&gt;after&lt;/em&gt; a few &lt;em&gt;years&lt;/em&gt; it was &lt;em&gt;likely South Korea would&lt;/em&gt; drop &lt;em&gt;barriers&lt;/em&gt; to &lt;em&gt;foreign goods&lt;/em&gt; and move &lt;em&gt;toward&lt;/em&gt; a more &lt;em&gt;balanced trade position&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Its &lt;em&gt;purchases&lt;/em&gt; from the &lt;em&gt;United States include electronic testing equipment, grains&lt;/em&gt; and &lt;em&gt;cotton&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-451.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">28</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">122</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">76</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">realty</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">would</str>
+        <double name="strength">0.559016994374945</double>
+      </lst>
+      <lst name="term">
+        <str name="text">including</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trust</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">crawford</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">If the rules of settlement cannot be implemented, the three firms must present alternative methods to guarantee reasonable price differentials between the "A" and "B" shares.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Hong Kong Stock Exchange is considering new rules governing different classes of shares following a spate of new "B" share issues by leading local firms, exchange chairman Ronald Li said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">191</int>
+        <double name="strength">0.982517908903919</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">HK&gt;, including &lt;Hong Kong Realty and Trust Co Ltd&gt;, &lt;Lane Crawford Holdings Ltd&gt; and &lt;Realty Development Corp Ltd&gt;.</str>
+        <int name="index">26</int>
+        <int name="start">0</int>
+        <int name="end">115</int>
+        <double name="strength">0.9346599193212249</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">If the &lt;em&gt;rules&lt;/em&gt; of &lt;em&gt;settlement cannot&lt;/em&gt; be &lt;em&gt;implemented,&lt;/em&gt; the &lt;em&gt;three firms&lt;/em&gt; must &lt;em&gt;present alternative methods&lt;/em&gt; to &lt;em&gt;guarantee reasonable price differentials between&lt;/em&gt; the "A" and "B" &lt;em&gt;shares&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Hong Kong &lt;em&gt;Stock Exchange&lt;/em&gt; is &lt;em&gt;considering&lt;/em&gt; new &lt;em&gt;rules governing different classes&lt;/em&gt; of &lt;em&gt;shares following&lt;/em&gt; a &lt;em&gt;spate&lt;/em&gt; of new "B" &lt;em&gt;share issues&lt;/em&gt; by &lt;em&gt;leading local firms, exchange chairman Ronald&lt;/em&gt; Li said.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">HK&gt;, &lt;em&gt;including &lt;/em&gt;&lt;Hong Kong &lt;em&gt;Realty&lt;/em&gt; and &lt;em&gt;Trust&lt;/em&gt; Co Ltd&gt;, &lt;Lane &lt;em&gt;Crawford Holdings&lt;/em&gt; Ltd&gt; and &lt;&lt;em&gt;Realty Development&lt;/em&gt; Corp Ltd&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

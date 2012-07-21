@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">23</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-24.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">45</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">209</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">141</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">access</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">telephone</str>
+        <double name="strength">0.5590169943749513</double>
+      </lst>
+      <lst name="term">
+        <str name="text">machine</str>
+        <double name="strength">0.500000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sends</str>
+        <double name="strength">0.500000000000004</double>
+      </lst>
+      <lst name="term">
+        <str name="text">printed</str>
+        <double name="strength">0.500000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">T&gt;, the Japanese electronics group which plans to enter Britain's liberalised telecommunications equipment market, risks becoming the first casualty in the current war of words over trade between Japan and the U.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">212</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The minister will seek a clear timetable from Japan for easier access for British institutions to Japanese financial markets, reciprocating the easy access Japanese securities houses and banks have to the City of London.</str>
+        <int name="index">36</int>
+        <int name="start">1</int>
+        <int name="end">221</int>
+        <double name="strength">0.9897596445404745</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A facsimile machine sends printed data over telephone lines, while a key telephone system is used for switching calls within a business, industry sources said.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">159</int>
+        <double name="strength">0.9457735479802349</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">T&gt;, the &lt;em&gt;Japanese electronics group which plans&lt;/em&gt; to &lt;em&gt;enter Britain&lt;/em&gt;'s &lt;em&gt;liberalised telecommunications equipment market, risks becoming&lt;/em&gt; the &lt;em&gt;first casualty&lt;/em&gt; in the &lt;em&gt;current&lt;/em&gt; war of &lt;em&gt;words&lt;/em&gt; over &lt;em&gt;trade between Japan&lt;/em&gt; and the U.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;minister&lt;/em&gt; will seek a &lt;em&gt;clear timetable&lt;/em&gt; from &lt;em&gt;Japan&lt;/em&gt; for &lt;em&gt;easier access&lt;/em&gt; for &lt;em&gt;British institutions&lt;/em&gt; to &lt;em&gt;Japanese financial markets, reciprocating&lt;/em&gt; the easy &lt;em&gt;access Japanese securities houses&lt;/em&gt; and &lt;em&gt;banks&lt;/em&gt; have to the City of &lt;em&gt;London&lt;/em&gt;.</str>
+        <int name="index">36</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;facsimile machine sends printed&lt;/em&gt; data over &lt;em&gt;telephone lines, while&lt;/em&gt; a key &lt;em&gt;telephone system&lt;/em&gt; is used for &lt;em&gt;switching calls within&lt;/em&gt; a &lt;em&gt;business, industry sources said&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

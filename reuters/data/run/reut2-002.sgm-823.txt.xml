@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-002.sgm-823.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">19</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">147</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">96</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">going</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lower</str>
+        <double name="strength">0.5590169943749487</double>
+      </lst>
+      <lst name="term">
+        <str name="text">terms</str>
+        <double name="strength">0.5590169943749479</double>
+      </lst>
+      <lst name="term">
+        <str name="text">although</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+      <lst name="term">
+        <str name="text">amount</str>
+        <double name="strength">0.5000000000000018</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Said David Gluskin, vice-president of Nesbitt Thomson Bongard Inc, "When interest rates finally seem to have stopped going down, there is going to be a flood of people trying to lock in the long end and not everyone will be able to get in the door."</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">250</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of Canada, Ottawa's fiscal agent in the marketplace, revealed this week that sharply reduced borrowing needs has allowed the shift toward shorter bond terms and heavier emphasis on the weekly treasury bill auction, issued in terms of up to one year.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">259</int>
+        <double name="strength">0.9541151340618891</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although the amount of money saved from moving away from the long bonds was not disclosed, bond experts believe it was considerable because of the much lower interest premiums paid on short term debt.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">201</int>
+        <double name="strength">0.8603968186321775</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Said &lt;em&gt;David Gluskin,&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Nesbitt Thomson Bongard&lt;/em&gt; Inc, "When &lt;em&gt;interest rates finally&lt;/em&gt; seem to have &lt;em&gt;stopped going&lt;/em&gt; down, &lt;em&gt;there&lt;/em&gt; is &lt;em&gt;going&lt;/em&gt; to be a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;people trying&lt;/em&gt; to lock in the long end and not &lt;em&gt;everyone&lt;/em&gt; will be able to get in the door."</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of &lt;em&gt;Canada, Ottawa&lt;/em&gt;'s &lt;em&gt;fiscal agent&lt;/em&gt; in the &lt;em&gt;marketplace, revealed&lt;/em&gt; this week that &lt;em&gt;sharply reduced borrowing needs&lt;/em&gt; has &lt;em&gt;allowed&lt;/em&gt; the &lt;em&gt;shift toward shorter&lt;/em&gt; bond &lt;em&gt;terms&lt;/em&gt; and &lt;em&gt;heavier emphasis&lt;/em&gt; on the &lt;em&gt;weekly treasury&lt;/em&gt; bill &lt;em&gt;auction, issued&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of up to one year.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;money saved&lt;/em&gt; from &lt;em&gt;moving&lt;/em&gt; away from the long &lt;em&gt;bonds&lt;/em&gt; was not &lt;em&gt;disclosed,&lt;/em&gt; bond &lt;em&gt;experts believe&lt;/em&gt; it was &lt;em&gt;considerable because&lt;/em&gt; of the much &lt;em&gt;lower interest premiums&lt;/em&gt; paid on &lt;em&gt;short&lt;/em&gt; term debt.</str>
+        <int name="index">8</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

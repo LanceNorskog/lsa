@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-185.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">82</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">54</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">point</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lining</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">adding</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">timing</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">depend</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Dan Stevens, manager of public and government affairs at Texaco Inc &lt;TX&gt;, operator of the pipeline through its subsidiary Texaco Pipeline Co, said the company hopes repairs will begin in about five days and expects it to take several more days to complete.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">257</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The pipeline was shut down from Cushing, Okla, to Witchita Falls, Kan, on Saturday due to an undetermined leak at the Red River crossing, near the Oklahoma/Texas border, because of severe rains, a spokesman for Texaco said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">224</int>
+        <double name="strength">0.9134746104363111</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"At this point we are lining up what we know we need, to get the job done," Stevens said, adding that the timing for repairs will depend on the damage to the pipeline which is difficult to assess because of flooding on the Red River.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">234</int>
+        <double name="strength">0.8717917746006433</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Dan &lt;em&gt;Stevens, manager&lt;/em&gt; of &lt;em&gt;public&lt;/em&gt; and &lt;em&gt;government affairs&lt;/em&gt; at &lt;em&gt;Texaco&lt;/em&gt; Inc &lt;TX&gt;, &lt;em&gt;operator&lt;/em&gt; of the &lt;em&gt;pipeline through&lt;/em&gt; its &lt;em&gt;subsidiary Texaco Pipeline&lt;/em&gt; Co, said the &lt;em&gt;company hopes repairs&lt;/em&gt; will &lt;em&gt;begin&lt;/em&gt; in &lt;em&gt;about&lt;/em&gt; five days and &lt;em&gt;expects&lt;/em&gt; it to take &lt;em&gt;several&lt;/em&gt; more days to &lt;em&gt;complete&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;pipeline&lt;/em&gt; was shut down from &lt;em&gt;Cushing,&lt;/em&gt; Okla, to &lt;em&gt;Witchita Falls,&lt;/em&gt; Kan, on &lt;em&gt;Saturday&lt;/em&gt; due to an &lt;em&gt;undetermined&lt;/em&gt; leak at the Red &lt;em&gt;River crossing,&lt;/em&gt; near the &lt;em&gt;Oklahoma/Texas border, because&lt;/em&gt; of &lt;em&gt;severe rains,&lt;/em&gt; a &lt;em&gt;spokesman&lt;/em&gt; for &lt;em&gt;Texaco said&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"At this &lt;em&gt;point&lt;/em&gt; we are &lt;em&gt;lining&lt;/em&gt; up what we know we need, to get the job done," &lt;em&gt;Stevens&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that the &lt;em&gt;timing&lt;/em&gt; for &lt;em&gt;repairs&lt;/em&gt; will &lt;em&gt;depend&lt;/em&gt; on the &lt;em&gt;damage&lt;/em&gt; to the &lt;em&gt;pipeline which&lt;/em&gt; is &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;assess because&lt;/em&gt; of &lt;em&gt;flooding&lt;/em&gt; on the Red &lt;em&gt;River&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

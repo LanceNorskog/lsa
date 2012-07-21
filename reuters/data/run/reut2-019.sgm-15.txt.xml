@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-019.sgm-15.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">21</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">117</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">83</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">arbitrary</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">capricious</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">deparment</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">drawback</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">complex</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Canada will broaden a federal sales tax levied on manufacturers before scrapping the system in favor of a broad based, multi-staged sales tax, finance minister Michael Wilson said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">180</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The existing federal sales tax system hurts the Canadian economy by putting more tax on Canadian produced goods than imported goods and adding a hidden tax on Canadian exports that makes them less competitive, Wilson said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">223</int>
+        <double name="strength">0.9692636985320642</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The finance deparment said the main drawback of a value added tax is that it would be more complex and costly to implement than the other two proposals.</str>
+        <int name="index">19</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.8961332740437654</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Canada&lt;/em&gt; will &lt;em&gt;broaden&lt;/em&gt; a &lt;em&gt;federal sales&lt;/em&gt; tax &lt;em&gt;levied&lt;/em&gt; on &lt;em&gt;manufacturers before scrapping&lt;/em&gt; the &lt;em&gt;system&lt;/em&gt; in &lt;em&gt;favor&lt;/em&gt; of a &lt;em&gt;broad based, multi-staged sales&lt;/em&gt; tax, &lt;em&gt;finance minister Michael Wilson said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;existing federal sales&lt;/em&gt; tax &lt;em&gt;system hurts&lt;/em&gt; the &lt;em&gt;Canadian economy&lt;/em&gt; by &lt;em&gt;putting&lt;/em&gt; more tax on &lt;em&gt;Canadian produced goods&lt;/em&gt; than &lt;em&gt;imported goods&lt;/em&gt; and &lt;em&gt;adding&lt;/em&gt; a &lt;em&gt;hidden&lt;/em&gt; tax on &lt;em&gt;Canadian exports&lt;/em&gt; that &lt;em&gt;makes&lt;/em&gt; them less &lt;em&gt;competitive, Wilson said&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;finance deparment&lt;/em&gt; said the main &lt;em&gt;drawback&lt;/em&gt; of a &lt;em&gt;value added&lt;/em&gt; tax is that it &lt;em&gt;would&lt;/em&gt; be more &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;costly&lt;/em&gt; to &lt;em&gt;implement&lt;/em&gt; than the &lt;em&gt;other&lt;/em&gt; two &lt;em&gt;proposals&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

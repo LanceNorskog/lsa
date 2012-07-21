@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-012.sgm-43.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">66</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">44</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">offered</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">return</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">boone</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">pickens</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">share</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Boone Pickens offered 15 dlrs a share for Diamond Shamrock, and management countered with an offer at 17 dlrs and a decision to split off the refining and marketing operation to its shareholders.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">195</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The executives were in New york for meetings with institutional investors aimed at increasing interest in the company's stock.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">127</int>
+        <double name="strength">0.7422950424163883</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Our advisors convinced us the market would give higher multiples for pure plays," Blackburn said.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">99</int>
+        <double name="strength">0.7345346076612269</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Boone Pickens offered 15&lt;/em&gt; dlrs a &lt;em&gt;share&lt;/em&gt; for &lt;em&gt;Diamond Shamrock,&lt;/em&gt; and &lt;em&gt;management countered&lt;/em&gt; with an &lt;em&gt;offer&lt;/em&gt; at 17 dlrs and a &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;split&lt;/em&gt; off the &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;marketing operation&lt;/em&gt; to its &lt;em&gt;shareholders&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;executives&lt;/em&gt; were in New york for &lt;em&gt;meetings&lt;/em&gt; with &lt;em&gt;institutional investors aimed&lt;/em&gt; at &lt;em&gt;increasing interest&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;stock&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Our &lt;em&gt;advisors convinced&lt;/em&gt; us the &lt;em&gt;market would&lt;/em&gt; give &lt;em&gt;higher multiples&lt;/em&gt; for pure &lt;em&gt;plays," Blackburn said&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

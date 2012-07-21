@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-016.sgm-722.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">24</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">113</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">75</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">market</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">pennzoil</str>
+        <double name="strength">0.7071067811865464</double>
+      </lst>
+      <lst name="term">
+        <str name="text">uncertainty</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">already</str>
+        <double name="strength">0.5</double>
+      </lst>
+      <lst name="term">
+        <str name="text">skittish</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">U.S. oil traders said Texaco Inc's filing for protection under the Chapter 11 bankruptcy code is adding uncertainty to an already skittish oil market, but opinions are divided on the impact to the market.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">204</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New York Mercantile Exchange President Rosemary McFadden declined to comment on Texaco's futures trading, saying that is is proprietary information.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.9113868645797448</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">McFadden did say, however, that as a matter of procedure, it is possible the exchange can lower allowable position limits or increase margin requirements for companies that are in financial trouble.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">198</int>
+        <double name="strength">0.9093056768202571</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">U.S. oil &lt;em&gt;traders&lt;/em&gt; said &lt;em&gt;Texaco&lt;/em&gt; Inc's &lt;em&gt;filing&lt;/em&gt; for &lt;em&gt;protection under&lt;/em&gt; the &lt;em&gt;Chapter 11 bankruptcy&lt;/em&gt; code is &lt;em&gt;adding uncertainty&lt;/em&gt; to an &lt;em&gt;already skittish&lt;/em&gt; oil &lt;em&gt;market,&lt;/em&gt; but &lt;em&gt;opinions&lt;/em&gt; are &lt;em&gt;divided&lt;/em&gt; on the &lt;em&gt;impact&lt;/em&gt; to the &lt;em&gt;market&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New York &lt;em&gt;Mercantile Exchange President Rosemary McFadden declined&lt;/em&gt; to &lt;em&gt;comment&lt;/em&gt; on &lt;em&gt;Texaco&lt;/em&gt;'s &lt;em&gt;futures trading, saying&lt;/em&gt; that is is &lt;em&gt;proprietary information&lt;/em&gt;.</str>
+        <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;McFadden&lt;/em&gt; did say, &lt;em&gt;however,&lt;/em&gt; that as a &lt;em&gt;matter&lt;/em&gt; of &lt;em&gt;procedure,&lt;/em&gt; it is &lt;em&gt;possible&lt;/em&gt; the &lt;em&gt;exchange&lt;/em&gt; can &lt;em&gt;lower allowable position limits&lt;/em&gt; or &lt;em&gt;increase margin requirements&lt;/em&gt; for &lt;em&gt;companies&lt;/em&gt; that are in &lt;em&gt;financial trouble&lt;/em&gt;.</str>
+        <int name="index">22</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-132.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">15</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">98</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">62</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">managers</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">extremely</str>
+        <double name="strength">0.6666666666666666</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commercial</str>
+        <double name="strength">0.33333333333333337</double>
+      </lst>
+      <lst name="term">
+        <str name="text">paper</str>
+        <double name="strength">0.33333333333333337</double>
+      </lst>
+      <lst name="term">
+        <str name="text">program</str>
+        <double name="strength">0.33333333333333337</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Earlier today a Morgan Guaranty official, while declining to reveal the pricing on the facility said that banks would be "compensated fairly" since this is a special purpose facility which must be completed quickly, with the signing expected in about 10 days.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">260</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bankers noted that the terms on the new facility compare extremely favourably to those on other short-term facilities for which pricing has turned extremely fine due to competition for the mandates.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">199</int>
+        <double name="strength">0.9592152287567642</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lead managers are being recruited at the 200 mln dlr level, co-lead managers at 125 mln and managers at 75 mln.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">111</int>
+        <double name="strength">0.8577780439002134</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Earlier today&lt;/em&gt; a &lt;em&gt;Morgan Guaranty official, while declining&lt;/em&gt; to &lt;em&gt;reveal&lt;/em&gt; the &lt;em&gt;pricing&lt;/em&gt; on the &lt;em&gt;facility&lt;/em&gt; said that &lt;em&gt;banks would&lt;/em&gt; be "&lt;em&gt;compensated fairly" since&lt;/em&gt; this is a &lt;em&gt;special purpose facility which&lt;/em&gt; must be &lt;em&gt;completed quickly,&lt;/em&gt; with the &lt;em&gt;signing expected&lt;/em&gt; in &lt;em&gt;about 10 days&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bankers noted&lt;/em&gt; that the &lt;em&gt;terms&lt;/em&gt; on the new &lt;em&gt;facility compare extremely favourably&lt;/em&gt; to &lt;em&gt;those&lt;/em&gt; on &lt;em&gt;other short&lt;/em&gt;-term &lt;em&gt;facilities&lt;/em&gt; for &lt;em&gt;which pricing&lt;/em&gt; has &lt;em&gt;turned extremely&lt;/em&gt; fine due to &lt;em&gt;competition&lt;/em&gt; for the &lt;em&gt;mandates&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lead &lt;em&gt;managers&lt;/em&gt; are &lt;em&gt;being recruited&lt;/em&gt; at the 200 mln dlr &lt;em&gt;level,&lt;/em&gt; co-lead &lt;em&gt;managers&lt;/em&gt; at 125 mln and &lt;em&gt;managers&lt;/em&gt; at 75 mln.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

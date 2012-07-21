@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-020.sgm-499.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">29</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">179</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">107</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">offered</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">giles</str>
+        <double name="strength">0.8944271909999179</double>
+      </lst>
+      <lst name="term">
+        <str name="text">credit</str>
+        <double name="strength">0.8944271909999179</double>
+      </lst>
+      <lst name="term">
+        <str name="text">suisse</str>
+        <double name="strength">0.8944271909999179</double>
+      </lst>
+      <lst name="term">
+        <str name="text">first</str>
+        <double name="strength">0.8944271909999179</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Over the weekend, criticism by Baker of earlier tightening of West German monetary policy led to a sharp dollar fall and fuelled speculation that the Louvre accord was no longer valid.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Giles Keating, economist with Credit Suisse First Boston Ltd in London said "The cautious Bundesbank has beaten a retreat and Baker has won a battle...</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">0.9975631331178071</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Treasury Secretary James Baker reaffirmed their commitment to currency stability at a secret meeting yesterday in Frankfurt, according to official statements released late Monday.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">182</int>
+        <double name="strength">0.9737875176204205</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Over the &lt;em&gt;weekend, criticism&lt;/em&gt; by &lt;em&gt;Baker&lt;/em&gt; of &lt;em&gt;earlier tightening&lt;/em&gt; of West &lt;em&gt;German monetary policy&lt;/em&gt; led to a &lt;em&gt;sharp dollar&lt;/em&gt; fall and &lt;em&gt;fuelled speculation&lt;/em&gt; that the &lt;em&gt;Louvre accord&lt;/em&gt; was no &lt;em&gt;longer valid&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Giles Keating, economist&lt;/em&gt; with &lt;em&gt;Credit Suisse First Boston&lt;/em&gt; Ltd in &lt;em&gt;London&lt;/em&gt; said "The &lt;em&gt;cautious Bundesbank&lt;/em&gt; has &lt;em&gt;beaten&lt;/em&gt; a &lt;em&gt;retreat&lt;/em&gt; and &lt;em&gt;Baker&lt;/em&gt; has won a &lt;em&gt;battle..&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker reaffirmed their commitment&lt;/em&gt; to &lt;em&gt;currency stability&lt;/em&gt; at a &lt;em&gt;secret meeting yesterday&lt;/em&gt; in &lt;em&gt;Frankfurt, according&lt;/em&gt; to &lt;em&gt;official statements released&lt;/em&gt; late &lt;em&gt;Monday&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

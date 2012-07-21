@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">25</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-745.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">50</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">221</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">152</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">slowed</str>
+        <double name="strength">0.559016994374947</double>
+      </lst>
+      <lst name="term">
+        <str name="text">others</str>
+        <double name="strength">0.5000000000000054</double>
+      </lst>
+      <lst name="term">
+        <str name="text">attributed</str>
+        <double name="strength">0.5000000000000029</double>
+      </lst>
+      <lst name="term">
+        <str name="text">rebuilding</str>
+        <double name="strength">0.5000000000000029</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S. economy provided them with a giant market for their goods giving them a way to earn income badly needed to service their foreign debt.</str>
+        <int name="index">30</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">There were indications of improvement in the huge imbalance between the volume of goods imported to the United States and those shipped abroad.</str>
+        <int name="index">33</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9030354315024783</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Commerce Department reported today that new orders for durable goods in February jumped by 5.7 billion dlrs, a six pct rise, to 101.2 billion dlrs.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">0.8928359239900993</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;economy provided&lt;/em&gt; them with a &lt;em&gt;giant market&lt;/em&gt; for &lt;em&gt;their goods giving&lt;/em&gt; them a way to earn &lt;em&gt;income badly needed&lt;/em&gt; to &lt;em&gt;service their foreign debt&lt;/em&gt;.</str>
+        <int name="index">30</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;There&lt;/em&gt; were &lt;em&gt;indications&lt;/em&gt; of &lt;em&gt;improvement&lt;/em&gt; in the huge &lt;em&gt;imbalance between&lt;/em&gt; the &lt;em&gt;volume&lt;/em&gt; of &lt;em&gt;goods imported&lt;/em&gt; to the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;those shipped abroad&lt;/em&gt;.</str>
+        <int name="index">33</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Commerce Department reported today&lt;/em&gt; that new &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;durable goods&lt;/em&gt; in &lt;em&gt;February jumped&lt;/em&gt; by 5.7 &lt;em&gt;billion&lt;/em&gt; dlrs, a six pct rise, to 101.2 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

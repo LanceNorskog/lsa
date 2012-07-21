@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-005.sgm-621.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">16</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">87</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">66</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">options</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">chicago</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commission</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">since</str>
+        <double name="strength">0.9999999999999988</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agreed</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Chicago Mercantile Exchange, CME, and the Chicago Board Options Exchange, CBOE, announced today that they will trade futures and options, respectively, on an index of international securities compiled by Morgan Stanley Group Inc.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">233</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The officials said the exchanges have not yet submitted the EAFE index to the Securities and Exchange Commission and the Commodities Futures Trading Commission for approval.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.7232583545792244</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The EAFE is the only instrument by which world markets are measured," CME special counsel Leo Melamed said at a news conference announcing the agreement.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">155</int>
+        <double name="strength">0.718671427377972</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Chicago Mercantile Exchange,&lt;/em&gt; CME, and the &lt;em&gt;Chicago Board Options Exchange,&lt;/em&gt; CBOE, &lt;em&gt;announced today&lt;/em&gt; that they will &lt;em&gt;trade futures&lt;/em&gt; and &lt;em&gt;options, respectively,&lt;/em&gt; on an &lt;em&gt;index&lt;/em&gt; of &lt;em&gt;international securities compiled&lt;/em&gt; by &lt;em&gt;Morgan Stanley Group Inc&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;officials&lt;/em&gt; said the &lt;em&gt;exchanges&lt;/em&gt; have not yet &lt;em&gt;submitted&lt;/em&gt; the EAFE &lt;em&gt;index&lt;/em&gt; to the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; and the &lt;em&gt;Commodities Futures Trading Commission&lt;/em&gt; for &lt;em&gt;approval&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The EAFE is the only &lt;em&gt;instrument&lt;/em&gt; by &lt;em&gt;which world markets&lt;/em&gt; are &lt;em&gt;measured,"&lt;/em&gt; CME &lt;em&gt;special counsel&lt;/em&gt; Leo &lt;em&gt;Melamed&lt;/em&gt; said at a news &lt;em&gt;conference announcing&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

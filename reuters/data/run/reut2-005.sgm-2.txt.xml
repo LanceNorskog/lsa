@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-005.sgm-2.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">13</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">63</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">46</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">based</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">biggest</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+      <lst name="term">
+        <str name="text">during</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+      <lst name="term">
+        <str name="text">texas</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+      <lst name="term">
+        <str name="text">approximately</str>
+        <double name="strength">0.5000000000000011</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The corn bonus, to be paid in generic comodity certificates, amounts to two dlrs per bushel, based on the ASCS program payment yield for corn, for each acre of corn based accepted into the reserve.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The state showing the biggest enrollment in the conservation program during this signup was Texas with approximately 1.225 mln acres, followed by Iowa with 1.030 mln acres, Minnesota with 890,000 acres, Montana 875,000 acres, and Kansas with 842,000 acres.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">257</int>
+        <double name="strength">0.9267086199727916</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Land entered into the Conservation Reserve Program will be ineligible for farming for ten years and must be planted with permanent vegetative cover.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.8367226016081358</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The corn &lt;em&gt;bonus,&lt;/em&gt; to be paid in &lt;em&gt;generic comodity certificates, amounts&lt;/em&gt; to two dlrs per &lt;em&gt;bushel, based&lt;/em&gt; on the ASCS &lt;em&gt;program payment yield&lt;/em&gt; for corn, for each acre of corn &lt;em&gt;based accepted&lt;/em&gt; into the &lt;em&gt;reserve&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;state showing&lt;/em&gt; the &lt;em&gt;biggest enrollment&lt;/em&gt; in the &lt;em&gt;conservation program during&lt;/em&gt; this &lt;em&gt;signup&lt;/em&gt; was &lt;em&gt;Texas&lt;/em&gt; with &lt;em&gt;approximately 1.225&lt;/em&gt; mln &lt;em&gt;acres, followed&lt;/em&gt; by Iowa with 1.030 mln &lt;em&gt;acres, Minnesota&lt;/em&gt; with 890,000 &lt;em&gt;acres, Montana 875,000 acres,&lt;/em&gt; and &lt;em&gt;Kansas&lt;/em&gt; with 842,000 &lt;em&gt;acres&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Land &lt;em&gt;entered&lt;/em&gt; into the &lt;em&gt;Conservation Reserve Program&lt;/em&gt; will be &lt;em&gt;ineligible&lt;/em&gt; for &lt;em&gt;farming&lt;/em&gt; for ten &lt;em&gt;years&lt;/em&gt; and must be &lt;em&gt;planted&lt;/em&gt; with &lt;em&gt;permanent vegetative cover&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-937.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">70</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">47</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">state</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">object</str>
+        <double name="strength">0.894427190999916</double>
+      </lst>
+      <lst name="term">
+        <str name="text">secretary</str>
+        <double name="strength">0.894427190999916</double>
+      </lst>
+      <lst name="term">
+        <str name="text">george</str>
+        <double name="strength">0.894427190999916</double>
+      </lst>
+      <lst name="term">
+        <str name="text">indicated</str>
+        <double name="strength">0.894427190999916</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The Commerce Department said it intends to approve export licenses for two firms to sell computers and related equipment to the Islamic Republic of Iran News Agency and the Iran Power Generation Transmission, spokesman B.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cooper said the State Department did not object to the sales, but Secretary of State George Shultz indicated he may weigh in against the deal.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.8853288527858298</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cooper said the technology in the Iranian sales was available elsewhere and that foreign companies would get the Iran business if the U.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">137</int>
+        <double name="strength">0.8164897853689446</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Commerce Department&lt;/em&gt; said it &lt;em&gt;intends&lt;/em&gt; to &lt;em&gt;approve export licenses&lt;/em&gt; for two &lt;em&gt;firms&lt;/em&gt; to sell &lt;em&gt;computers&lt;/em&gt; and &lt;em&gt;related equipment&lt;/em&gt; to the &lt;em&gt;Islamic Republic&lt;/em&gt; of Iran News &lt;em&gt;Agency&lt;/em&gt; and the Iran &lt;em&gt;Power Generation Transmission, spokesman B&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Cooper&lt;/em&gt; said the &lt;em&gt;State Department&lt;/em&gt; did not &lt;em&gt;object&lt;/em&gt; to the &lt;em&gt;sales,&lt;/em&gt; but &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;State George Shultz indicated&lt;/em&gt; he may &lt;em&gt;weigh&lt;/em&gt; in &lt;em&gt;against&lt;/em&gt; the deal.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Cooper&lt;/em&gt; said the &lt;em&gt;technology&lt;/em&gt; in the &lt;em&gt;Iranian sales&lt;/em&gt; was &lt;em&gt;available elsewhere&lt;/em&gt; and that &lt;em&gt;foreign companies would&lt;/em&gt; get the Iran &lt;em&gt;business&lt;/em&gt; if the U.</str>
+        <int name="index">17</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

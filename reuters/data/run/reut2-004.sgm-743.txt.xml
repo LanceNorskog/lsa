@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-004.sgm-743.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">27</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">80</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">48</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">primarily</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">slower</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">responsible</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">though</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">again</str>
+        <double name="strength">0.9999999999999969</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The durable manufacturing materials index edged down 0.1 pct last month after jumping 1.0 pct in January as prices for steel, precious metals and copper stabilized.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Price rises accellerated for logs and timber and tobacco, but fell for cotton, metal ores and copper and aluminum scrap.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">121</int>
+        <double name="strength">0.9749846309949972</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Higher energy prices were primarily responsible for the increase in February, though they rose at a slower pace than they had in January, the department said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.7428696527511277</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;durable manufacturing materials index edged&lt;/em&gt; down 0.1 pct last &lt;em&gt;month after jumping 1.0&lt;/em&gt; pct in &lt;em&gt;January&lt;/em&gt; as &lt;em&gt;prices&lt;/em&gt; for &lt;em&gt;steel, precious metals&lt;/em&gt; and &lt;em&gt;copper stabilized&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Price rises accellerated&lt;/em&gt; for logs and &lt;em&gt;timber&lt;/em&gt; and &lt;em&gt;tobacco,&lt;/em&gt; but fell for &lt;em&gt;cotton, metal&lt;/em&gt; ores and &lt;em&gt;copper&lt;/em&gt; and &lt;em&gt;aluminum scrap&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Higher energy prices&lt;/em&gt; were &lt;em&gt;primarily responsible&lt;/em&gt; for the &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;February, though&lt;/em&gt; they rose at a &lt;em&gt;slower&lt;/em&gt; pace than they had in &lt;em&gt;January,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

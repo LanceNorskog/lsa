@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-536.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">40</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">149</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">96</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">announced</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">average</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offered</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">gearing</str>
+        <double name="strength">0.5000000000000006</double>
+      </lst>
+      <lst name="term">
+        <str name="text">coming</str>
+        <double name="strength">0.5000000000000004</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Anything the USDA is announcing now is based on information they gathered before their cotton program was announced (on March 20)," one analyst cautioned.</str>
+        <int name="index">30</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Soybeans are dirt cheap," said Lisbeth Keefe of Cargill Investor Services, whose comments were echoed by other cotton market specialists.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">0.9831722480186355</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The cotton program stipulates a mandatory set-aside of 25 pct of a farmer's base acreage," noted Judy Weissman of Shearson Lehman Brothers.</str>
+        <int name="index">18</int>
+        <int name="start">0</int>
+        <int name="end">139</int>
+        <double name="strength">0.923659388519709</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Anything&lt;/em&gt; the USDA is &lt;em&gt;announcing&lt;/em&gt; now is &lt;em&gt;based&lt;/em&gt; on &lt;em&gt;information&lt;/em&gt; they &lt;em&gt;gathered before their cotton program&lt;/em&gt; was &lt;em&gt;announced &lt;/em&gt;(on &lt;em&gt;March 20),"&lt;/em&gt; one &lt;em&gt;analyst cautioned&lt;/em&gt;.</str>
+        <int name="index">30</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Soybeans&lt;/em&gt; are dirt &lt;em&gt;cheap,"&lt;/em&gt; said &lt;em&gt;Lisbeth Keefe&lt;/em&gt; of &lt;em&gt;Cargill Investor Services, whose comments&lt;/em&gt; were &lt;em&gt;echoed&lt;/em&gt; by &lt;em&gt;other cotton market specialists&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;cotton program stipulates&lt;/em&gt; a &lt;em&gt;mandatory&lt;/em&gt; set-&lt;em&gt;aside&lt;/em&gt; of 25 pct of a &lt;em&gt;farmer&lt;/em&gt;'s base &lt;em&gt;acreage," noted&lt;/em&gt; Judy &lt;em&gt;Weissman&lt;/em&gt; of &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

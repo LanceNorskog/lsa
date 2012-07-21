@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-003.sgm-860.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">30</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">114</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">80</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">traders</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">noted</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">occurred</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">against</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">backdrop</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"Sixty pct were utilities, 20 pct were issued by foreign governments or corporations, and 20 pct were financial institutions," he detailed.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Corporate bond traders noted that Chrysler's sale occurred against the backdrop of a slightly weak secondary market.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">117</int>
+        <double name="strength">0.9485480149280221</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Phase two (the second sale) will be in a month or so," the Chrysler executive said, adding that proceeds will be invested exclusively in the equities market.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.9075965461712121</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Sixty&lt;/em&gt; pct were &lt;em&gt;utilities, 20&lt;/em&gt; pct were &lt;em&gt;issued&lt;/em&gt; by &lt;em&gt;foreign governments&lt;/em&gt; or &lt;em&gt;corporations,&lt;/em&gt; and 20 pct were &lt;em&gt;financial institutions,"&lt;/em&gt; he &lt;em&gt;detailed&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Corporate&lt;/em&gt; bond &lt;em&gt;traders noted&lt;/em&gt; that &lt;em&gt;Chrysler&lt;/em&gt;'s sale &lt;em&gt;occurred against&lt;/em&gt; the &lt;em&gt;backdrop&lt;/em&gt; of a &lt;em&gt;slightly&lt;/em&gt; weak &lt;em&gt;secondary market&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Phase&lt;/em&gt; two (the &lt;em&gt;second&lt;/em&gt; sale) will be in a &lt;em&gt;month&lt;/em&gt; or so," the &lt;em&gt;Chrysler executive&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;proceeds&lt;/em&gt; will be &lt;em&gt;invested exclusively&lt;/em&gt; in the &lt;em&gt;equities market&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-433.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">82</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">55</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">businessmen</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">opposed</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">saying</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">those</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">third</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The measures were taken in response to a request from the Venezuelan confederation CTV for an increase to offset the loss in the purchasing power of workers' salaries.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Venezuelan president Jaime Lusinchi approved a general wage increase in the form of bonuses ranging from 20 to 30 pct and a 120-day price freeze on a basket of basic consumer goods.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">181</int>
+        <double name="strength">0.9303489813042376</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They will be announced to the nation by Lusinchi in a televised address tonight but the text of the decrees was released this afternoon.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">136</int>
+        <double name="strength">0.9153602891264612</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;measures&lt;/em&gt; were &lt;em&gt;taken&lt;/em&gt; in &lt;em&gt;response&lt;/em&gt; to a &lt;em&gt;request&lt;/em&gt; from the &lt;em&gt;Venezuelan confederation&lt;/em&gt; CTV for an &lt;em&gt;increase&lt;/em&gt; to &lt;em&gt;offset&lt;/em&gt; the loss in the &lt;em&gt;purchasing power&lt;/em&gt; of &lt;em&gt;workers' salaries&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Venezuelan president Jaime Lusinchi approved&lt;/em&gt; a &lt;em&gt;general&lt;/em&gt; wage &lt;em&gt;increase&lt;/em&gt; in the form of &lt;em&gt;bonuses ranging&lt;/em&gt; from 20 to 30 pct and a 120-day &lt;em&gt;price freeze&lt;/em&gt; on a &lt;em&gt;basket&lt;/em&gt; of &lt;em&gt;basic consumer goods&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They will be &lt;em&gt;announced&lt;/em&gt; to the &lt;em&gt;nation&lt;/em&gt; by &lt;em&gt;Lusinchi&lt;/em&gt; in a &lt;em&gt;televised address tonight&lt;/em&gt; but the text of the &lt;em&gt;decrees&lt;/em&gt; was &lt;em&gt;released&lt;/em&gt; this &lt;em&gt;afternoon&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">21</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-008.sgm-23.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">37</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">186</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">126</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">comes</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">involved</str>
+        <double name="strength">0.9999999999999976</double>
+      </lst>
+      <lst name="term">
+        <str name="text">positions</str>
+        <double name="strength">0.5590169943749462</double>
+      </lst>
+      <lst name="term">
+        <str name="text">witter</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reynolds</str>
+        <double name="strength">0.5000000000000008</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">He expects a "follow-through" Monday and Tuesday to the advance which lifted the Dow Jones Industrial Average 34 points for the day and 75 points for the entire week.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Creber, whose firm was one of the first to get involved in arbitrage activity involving index futures and options, said the general trend of the market has been upward for months.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.9992672048417902</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ron Feinstein, an analyst with Dean Witter Reynolds Inc, said reports of heavy Japanese buying, just prior to the end of the fiscal year in Japan, fueled bullish sentiment.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.9958275200493897</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">He &lt;em&gt;expects&lt;/em&gt; a "&lt;em&gt;follow-through" Monday&lt;/em&gt; and &lt;em&gt;Tuesday&lt;/em&gt; to the &lt;em&gt;advance which lifted&lt;/em&gt; the Dow &lt;em&gt;Jones Industrial Average 34 points&lt;/em&gt; for the day and 75 &lt;em&gt;points&lt;/em&gt; for the &lt;em&gt;entire week&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Creber, whose&lt;/em&gt; firm was one of the &lt;em&gt;first&lt;/em&gt; to get &lt;em&gt;involved&lt;/em&gt; in &lt;em&gt;arbitrage activity involving index futures&lt;/em&gt; and &lt;em&gt;options,&lt;/em&gt; said the &lt;em&gt;general trend&lt;/em&gt; of the &lt;em&gt;market&lt;/em&gt; has been &lt;em&gt;upward&lt;/em&gt; for &lt;em&gt;months&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ron &lt;em&gt;Feinstein,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; with Dean &lt;em&gt;Witter Reynolds&lt;/em&gt; Inc, said &lt;em&gt;reports&lt;/em&gt; of &lt;em&gt;heavy Japanese buying,&lt;/em&gt; just &lt;em&gt;prior&lt;/em&gt; to the end of the &lt;em&gt;fiscal&lt;/em&gt; year in &lt;em&gt;Japan, fueled bullish sentiment&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

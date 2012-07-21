@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-017.sgm-184.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">20</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">109</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">61</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">markets</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">wages</str>
+        <double name="strength">0.5590169943749477</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sector</str>
+        <double name="strength">0.5590169943749475</double>
+      </lst>
+      <lst name="term">
+        <str name="text">external</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+      <lst name="term">
+        <str name="text">factors</str>
+        <double name="strength">0.5000000000000016</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Because of high labour costs Swedish industry, which largely relies upon export markets, was losing market share.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">114</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But this growth depended largely on external factors, particularly lower oil prices, the OECD secretariat said in its latest annual report on Sweden.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
+        <double name="strength">0.9171233070584653</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">High labour costs and slower corporate investment could hinder Sweden's economic growth after 1987, the Organisation for Economic Cooperation and Development, OECD, said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">170</int>
+        <double name="strength">0.8563048624717194</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Because&lt;/em&gt; of high &lt;em&gt;labour costs Swedish industry, which largely relies&lt;/em&gt; upon &lt;em&gt;export markets,&lt;/em&gt; was &lt;em&gt;losing market share&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But this &lt;em&gt;growth depended largely&lt;/em&gt; on &lt;em&gt;external factors, particularly lower&lt;/em&gt; oil &lt;em&gt;prices,&lt;/em&gt; the OECD &lt;em&gt;secretariat&lt;/em&gt; said in its &lt;em&gt;latest annual report&lt;/em&gt; on &lt;em&gt;Sweden&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">High &lt;em&gt;labour costs&lt;/em&gt; and &lt;em&gt;slower corporate investment could hinder Sweden&lt;/em&gt;'s &lt;em&gt;economic growth after 1987,&lt;/em&gt; the &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development,&lt;/em&gt; OECD, said.</str>
+        <int name="index">0</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

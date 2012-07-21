@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">22</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-949.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">28</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">151</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">95</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">special</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">offered</str>
+        <double name="strength">0.5000000000000014</double>
+      </lst>
+      <lst name="term">
+        <str name="text">qualified</str>
+        <double name="strength">0.5000000000000014</double>
+      </lst>
+      <lst name="term">
+        <str name="text">change</str>
+        <double name="strength">0.5000000000000014</double>
+      </lst>
+      <lst name="term">
+        <str name="text">structure</str>
+        <double name="strength">0.5000000000000014</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The sources, speaking ahead of a meeting later today between Brazilian Finance Minister Dilson Funaro and his West german counterpart Gerhard Stoltenberg, also believed Brazil should come up with a convincing economic recovery program.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">236</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Diplomatic sources in Bonn said Funaro would leave early tomorrow morning for Zurich after meeting Stoltenberg this evening.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">125</int>
+        <double name="strength">0.7760325855985611</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But he added: "There must be an understanding that special requests from special regions be taken into account."</str>
+        <int name="index">18</int>
+        <int name="start">0</int>
+        <int name="end">112</int>
+        <double name="strength">0.7684799306998145</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;sources, speaking ahead&lt;/em&gt; of a &lt;em&gt;meeting later today between Brazilian Finance Minister Dilson Funaro&lt;/em&gt; and his West &lt;em&gt;german counterpart Gerhard Stoltenberg,&lt;/em&gt; also &lt;em&gt;believed Brazil should&lt;/em&gt; come up with a &lt;em&gt;convincing economic recovery program&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Diplomatic sources&lt;/em&gt; in Bonn said &lt;em&gt;Funaro would leave early tomorrow morning&lt;/em&gt; for &lt;em&gt;Zurich after meeting Stoltenberg&lt;/em&gt; this &lt;em&gt;evening&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But he &lt;em&gt;added: "There&lt;/em&gt; must be an &lt;em&gt;understanding&lt;/em&gt; that &lt;em&gt;special requests&lt;/em&gt; from &lt;em&gt;special regions&lt;/em&gt; be &lt;em&gt;taken&lt;/em&gt; into &lt;em&gt;account.&lt;/em&gt;"</str>
+        <int name="index">18</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

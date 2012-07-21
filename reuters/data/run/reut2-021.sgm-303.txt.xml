@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-021.sgm-303.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">66</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">45</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">introduce</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">laboratories</str>
+        <double name="strength">0.5000000000000007</double>
+      </lst>
+      <lst name="term">
+        <str name="text">conference</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">eight</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+      <lst name="term">
+        <str name="text">medium</str>
+        <double name="strength">0.5000000000000002</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Bob Ano, Wang's senior vice president of corporate marketing, said that before the end of the company's fiscal year on June 30 it will introduce an entry level computer that will have four times the power of the 5E introduced today.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Minicomputers are medium sized machines usually used within a department or work group of a larger company and typically cost between 10,000 and 500,000 dlrs.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.8813930887258971</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. operations, said the new models are lower priced than comparable computers from Digital Equipment Corp &lt;DEC&gt;, the world's largest maker of minicomputers.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">0.8659253719731002</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Bob Ano, Wang's &lt;em&gt;senior&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;corporate marketing,&lt;/em&gt; said that &lt;em&gt;before&lt;/em&gt; the end of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;fiscal&lt;/em&gt; year on June 30 it will &lt;em&gt;introduce&lt;/em&gt; an &lt;em&gt;entry level computer&lt;/em&gt; that will have four &lt;em&gt;times&lt;/em&gt; the &lt;em&gt;power&lt;/em&gt; of the 5E &lt;em&gt;introduced today&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Minicomputers&lt;/em&gt; are &lt;em&gt;medium sized machines usually&lt;/em&gt; used &lt;em&gt;within&lt;/em&gt; a &lt;em&gt;department&lt;/em&gt; or work &lt;em&gt;group&lt;/em&gt; of a &lt;em&gt;larger company&lt;/em&gt; and &lt;em&gt;typically&lt;/em&gt; cost &lt;em&gt;between 10,000&lt;/em&gt; and 500,000 dlrs.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;operations,&lt;/em&gt; said the new &lt;em&gt;models&lt;/em&gt; are &lt;em&gt;lower priced&lt;/em&gt; than &lt;em&gt;comparable computers&lt;/em&gt; from &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt;, the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;largest maker&lt;/em&gt; of &lt;em&gt;minicomputers&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

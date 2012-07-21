@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-000.sgm-381.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">30</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">129</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">88</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">payments</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">months</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">lease</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">volvo</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Upcoming asset-backed issues include 200 mln dlrs of notes backed by the car leases of Volvo 1986 Lease Finance Corp, a unit of Volvo Finance North America Inc, via First Boston, and 450 mln dlrs of notes secured by sales contracts of Mack Trucks Receivables Corp, a unit of Mack Trucks Inc &lt;MACK&gt;, via Shearson Lehmand Brothers Inc.</str>
+        <int name="index">27</int>
+        <int name="start">1</int>
+        <int name="end">334</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Investors receive interest only payments for the first 18 months and then interest and principal payments for the remaining five to seven months," Dub detailed.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.7069937578569041</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The First Boston executive attributed this to the deal's top-flight rating by both agencies, unlike many of last year's cars deals, which were rated by S and P alone.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.5280837116151302</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Upcoming asset-backed issues include 200&lt;/em&gt; mln dlrs of &lt;em&gt;notes backed&lt;/em&gt; by the car &lt;em&gt;leases&lt;/em&gt; of &lt;em&gt;Volvo 1986 Lease Finance&lt;/em&gt; Corp, a unit of &lt;em&gt;Volvo Finance North America&lt;/em&gt; Inc, via &lt;em&gt;First Boston,&lt;/em&gt; and 450 mln dlrs of &lt;em&gt;notes secured&lt;/em&gt; by &lt;em&gt;sales contracts&lt;/em&gt; of Mack &lt;em&gt;Trucks Receivables&lt;/em&gt; Corp, a unit of Mack &lt;em&gt;Trucks&lt;/em&gt; Inc &lt;MACK&gt;, via &lt;em&gt;Shearson Lehmand Brothers Inc&lt;/em&gt;.</str>
+        <int name="index">27</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Investors receive interest&lt;/em&gt; only &lt;em&gt;payments&lt;/em&gt; for the &lt;em&gt;first 18 months&lt;/em&gt; and then &lt;em&gt;interest&lt;/em&gt; and &lt;em&gt;principal payments&lt;/em&gt; for the &lt;em&gt;remaining&lt;/em&gt; five to &lt;em&gt;seven months,"&lt;/em&gt; Dub &lt;em&gt;detailed&lt;/em&gt;.</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;First Boston executive attributed&lt;/em&gt; this to the deal's top-&lt;em&gt;flight rating&lt;/em&gt; by both &lt;em&gt;agencies, unlike&lt;/em&gt; many of last year's cars &lt;em&gt;deals, which&lt;/em&gt; were &lt;em&gt;rated&lt;/em&gt; by S and P &lt;em&gt;alone&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

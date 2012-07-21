@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">18</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-010.sgm-696.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">35</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">159</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">106</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">underwriting</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">nikko</str>
+        <double name="strength">0.9999999999999969</double>
+      </lst>
+      <lst name="term">
+        <str name="text">electric</str>
+        <double name="strength">0.9999999999999961</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commercial</str>
+        <double name="strength">0.5590169943749462</double>
+      </lst>
+      <lst name="term">
+        <str name="text">separate</str>
+        <double name="strength">0.5</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Names may include Sanyo Electric Co Ltd and Nishimatsu Construction Co Ltd, which both count Yamaichi Securities Co Ltd as their house bank, or Hokkaido Electric Power Co Inc, which recently gave a presentation here with the Industrial Bank of Japan's unit here.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">263</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Separate management and underwriting fees common here may also be eroded, which now make German underwriting business profitable compared with other centres.</str>
+        <int name="index">28</int>
+        <int name="start">0</int>
+        <int name="end">157</int>
+        <double name="strength">0.7974188058002415</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Success may depend on whether Japanese parents allow German subsidiaries independence to operate without interference.</str>
+        <int name="index">25</int>
+        <int name="start">0</int>
+        <int name="end">118</int>
+        <double name="strength">0.6866942570853821</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Names&lt;/em&gt; may &lt;em&gt;include Sanyo Electric&lt;/em&gt; Co Ltd and &lt;em&gt;Nishimatsu Construction&lt;/em&gt; Co Ltd, &lt;em&gt;which&lt;/em&gt; both &lt;em&gt;count Yamaichi Securities&lt;/em&gt; Co Ltd as &lt;em&gt;their house&lt;/em&gt; bank, or &lt;em&gt;Hokkaido Electric Power&lt;/em&gt; Co Inc, &lt;em&gt;which recently&lt;/em&gt; gave a &lt;em&gt;presentation&lt;/em&gt; here with the &lt;em&gt;Industrial&lt;/em&gt; Bank of &lt;em&gt;Japan&lt;/em&gt;'s unit here.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Separate management&lt;/em&gt; and &lt;em&gt;underwriting&lt;/em&gt; fees &lt;em&gt;common&lt;/em&gt; here may also be &lt;em&gt;eroded, which&lt;/em&gt; now make &lt;em&gt;German underwriting business profitable compared&lt;/em&gt; with &lt;em&gt;other centres&lt;/em&gt;.</str>
+        <int name="index">28</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Success&lt;/em&gt; may &lt;em&gt;depend&lt;/em&gt; on &lt;em&gt;whether Japanese parents allow German subsidiaries independence&lt;/em&gt; to &lt;em&gt;operate without interference&lt;/em&gt;.</str>
+        <int name="index">25</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

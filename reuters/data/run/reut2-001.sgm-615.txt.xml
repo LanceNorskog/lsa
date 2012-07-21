@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">17</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-001.sgm-615.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">25</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">123</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">74</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">barrels</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quarter</str>
+        <double name="strength">0.89442719099992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">available</str>
+        <double name="strength">0.89442719099992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">onshore</str>
+        <double name="strength">0.89442719099992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">munger</str>
+        <double name="strength">0.89442719099992</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Many stripper wells along the southern California coast produce eight times as much water as crude oil, and inland wells frequently require the use of steam injection to spur extraction of the thick, heavy oil, he said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">220</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Only 33 rigs, about one-quarter of the total available, were drilling for oil onshore in California last week, compared to about 70 last year, said Bill Bolster of Munger Oil Information Services, which tracks California drilling activity.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">240</int>
+        <double name="strength">0.8697547275875431</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">While an Organization of Petroleum Exporting Countries pact to curb production boosted oil prices early this year, prices eventually fell.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">139</int>
+        <double name="strength">0.855699792003593</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">Many &lt;em&gt;stripper wells along&lt;/em&gt; the &lt;em&gt;southern California coast produce eight times&lt;/em&gt; as much &lt;em&gt;water&lt;/em&gt; as &lt;em&gt;crude&lt;/em&gt; oil, and &lt;em&gt;inland wells frequently require&lt;/em&gt; the use of &lt;em&gt;steam injection&lt;/em&gt; to spur &lt;em&gt;extraction&lt;/em&gt; of the &lt;em&gt;thick, heavy&lt;/em&gt; oil, he said.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Only 33 rigs, &lt;em&gt;about&lt;/em&gt; one-&lt;em&gt;quarter&lt;/em&gt; of the &lt;em&gt;total available,&lt;/em&gt; were &lt;em&gt;drilling&lt;/em&gt; for oil &lt;em&gt;onshore&lt;/em&gt; in &lt;em&gt;California&lt;/em&gt; last week, &lt;em&gt;compared&lt;/em&gt; to &lt;em&gt;about 70&lt;/em&gt; last year, said Bill &lt;em&gt;Bolster&lt;/em&gt; of &lt;em&gt;Munger&lt;/em&gt; Oil &lt;em&gt;Information Services, which tracks California drilling activity&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;While&lt;/em&gt; an &lt;em&gt;Organization&lt;/em&gt; of &lt;em&gt;Petroleum Exporting Countries&lt;/em&gt; pact to curb &lt;em&gt;production boosted&lt;/em&gt; oil &lt;em&gt;prices early&lt;/em&gt; this year, &lt;em&gt;prices eventually fell&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-009.sgm-162.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">18</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">66</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">43</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">tonne</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">arrangements</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+      <lst name="term">
+        <str name="text">being</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+      <lst name="term">
+        <str name="text">state</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+      <lst name="term">
+        <str name="text">holders</str>
+        <double name="strength">0.707106781186548</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The CWE is a semi-government body and the official said arrangements are being made for state cooperatives and holders of food subsidy stamps to draw their sugar from it, starting April 1.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">189</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They said the decision was taken after the Sugar Importers Association asked that the sugar trade be further liberalised.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">122</int>
+        <double name="strength">0.8721749910772654</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ministry officials said the CWE can either import sugar or buy it from a local bonded warehousing scheme run by E.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">0.7926639664663445</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">The CWE is a semi-&lt;em&gt;government&lt;/em&gt; body and the &lt;em&gt;official&lt;/em&gt; said &lt;em&gt;arrangements&lt;/em&gt; are &lt;em&gt;being&lt;/em&gt; made for &lt;em&gt;state cooperatives&lt;/em&gt; and &lt;em&gt;holders&lt;/em&gt; of food &lt;em&gt;subsidy stamps&lt;/em&gt; to draw &lt;em&gt;their sugar&lt;/em&gt; from it, &lt;em&gt;starting April 1&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They said the &lt;em&gt;decision&lt;/em&gt; was &lt;em&gt;taken after&lt;/em&gt; the &lt;em&gt;Sugar Importers Association asked&lt;/em&gt; that the &lt;em&gt;sugar trade&lt;/em&gt; be &lt;em&gt;further liberalised&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Ministry officials&lt;/em&gt; said the CWE can &lt;em&gt;either import sugar&lt;/em&gt; or buy it from a &lt;em&gt;local bonded warehousing scheme&lt;/em&gt; run by E.</str>
+        <int name="index">14</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

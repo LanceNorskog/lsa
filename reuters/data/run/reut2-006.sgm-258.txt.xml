@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-006.sgm-258.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">84</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">52</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">export</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">volume</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">frist</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">seven</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">years</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">From April through December 1986, the Commodity Credit Corporation (CCC) issued 3.85 billion dlrs worth of generic certificates and about 1.8 billion had not been exchanged by January 1, 1987, the U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These certificates will provide ample free supplies of corn and wheat for the remainder of the crop year, the department said in a summary of its Agricultural Outlook report.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.9646134708685203</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If current policy remains in force, annual farm program spending by 1992 will be down from last year's record by more than eight billion dlrs, it said.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">151</int>
+        <double name="strength">0.8413383632914263</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">From &lt;em&gt;April through December 1986,&lt;/em&gt; the &lt;em&gt;Commodity Credit Corporation &lt;/em&gt;(CCC) &lt;em&gt;issued 3.85 billion&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;generic certificates&lt;/em&gt; and &lt;em&gt;about 1.8 billion&lt;/em&gt; had not been &lt;em&gt;exchanged&lt;/em&gt; by &lt;em&gt;January 1, 1987,&lt;/em&gt; the U.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;These certificates&lt;/em&gt; will &lt;em&gt;provide ample&lt;/em&gt; free &lt;em&gt;supplies&lt;/em&gt; of corn and &lt;em&gt;wheat&lt;/em&gt; for the &lt;em&gt;remainder&lt;/em&gt; of the crop year, the &lt;em&gt;department&lt;/em&gt; said in a &lt;em&gt;summary&lt;/em&gt; of its &lt;em&gt;Agricultural Outlook report&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If &lt;em&gt;current policy remains&lt;/em&gt; in &lt;em&gt;force, annual&lt;/em&gt; farm &lt;em&gt;program spending&lt;/em&gt; by 1992 will be down from last year's &lt;em&gt;record&lt;/em&gt; by more than &lt;em&gt;eight billion&lt;/em&gt; dlrs, it said.</str>
+        <int name="index">11</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

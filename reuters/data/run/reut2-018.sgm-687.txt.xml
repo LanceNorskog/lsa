@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">15</int>
+  <lst name="params">
+    <str name="echoParams">explicit</str>
+    <str name="indent">true</str>
+    <str name="file">data-lines/./reut2-018.sgm-687.txt</str>
+    <str name="usePOS">false</str>
+    <str name="sentences">3</str>
+    <str name="wt">xml</str>
+    <str name="formula">tfidf</str>
+  </lst>
+</lst>
+<lst name="analysis">
+  <lst name="summary">
+    <lst name="stats">
+      <lst name="sentences">
+        <int name="count">17</int>
+      </lst>
+      <lst name="terms">
+        <int name="count">81</int>
+      </lst>
+      <lst name="stems">
+        <int name="count">53</int>
+      </lst>
+    </lst>
+    <lst name="terms">
+      <lst name="term">
+        <str name="text">smaller</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">somewhat</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">disappointing</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">george</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">smith</str>
+        <double name="strength">1.0</double>
+      </lst>
+    </lst>
+    <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Pzena said he thought the company was selling the stake because chemical margins had peaked, and he speculated the company would use the proceeds to pay down debt.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Based on a multiple of 17 times earnings--which Pzena says chemical companies now sell for--the entire unit is worth about three billion dlrs, putting the 20 pct interest at around 500 to 600 mln dlrs.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">202</int>
+        <double name="strength">0.98463014997376</double>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It was a smaller deal than expected and somewhat disappointing," said analyst George Baker at Smith Barney.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">109</int>
+        <double name="strength">0.8709610093953577</double>
+      </lst>
+    </lst>
+    <lst name="highlighted">
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Pzena&lt;/em&gt; said he &lt;em&gt;thought&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; was &lt;em&gt;selling&lt;/em&gt; the &lt;em&gt;stake because chemical margins&lt;/em&gt; had &lt;em&gt;peaked,&lt;/em&gt; and he &lt;em&gt;speculated&lt;/em&gt; the &lt;em&gt;company would&lt;/em&gt; use the &lt;em&gt;proceeds&lt;/em&gt; to pay down debt.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Based&lt;/em&gt; on a &lt;em&gt;multiple&lt;/em&gt; of 17 &lt;em&gt;times earnings--which Pzena&lt;/em&gt; says &lt;em&gt;chemical companies&lt;/em&gt; now sell for--the &lt;em&gt;entire&lt;/em&gt; unit is &lt;em&gt;worth about three billion&lt;/em&gt; dlrs, &lt;em&gt;putting&lt;/em&gt; the 20 pct &lt;em&gt;interest&lt;/em&gt; at &lt;em&gt;around 500&lt;/em&gt; to 600 mln dlrs.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It was a &lt;em&gt;smaller&lt;/em&gt; deal than &lt;em&gt;expected&lt;/em&gt; and &lt;em&gt;somewhat disappointing,"&lt;/em&gt; said &lt;em&gt;analyst George Baker&lt;/em&gt; at &lt;em&gt;Smith Barney&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>
