@@ -1,6 +1,12 @@
-# name,time,formula,pos,sentences,terms,sentence0,sentence1,...,strength1,strength2,...
+#!/usr/bin/env
+
 # usage: rootname xmlfile
-# hardcoded to 3 sentences
+
+#
+# Extract sentence lsa results from one article XML output from LSA analyzer
+# name,time,formula,pos,sentences,terms,sentence0,sentence1,...,strength1,strength2,...
+#
+
 if [ $# == 0 ]
 then
 	echo "name,time,formula,pos,sentences,terms,se1,se2,se3,str1,str2,str3"
