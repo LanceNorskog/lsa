@@ -4,6 +4,9 @@ import java.util.Arrays;
 /**
  * Given sentences decomposed into term vectors, run SVD.
  *
+TODO try normal with DF
+try binary normal
+try normalizing row to avoid bias for longer sentences.
  */
 
 public class SVDSentences {
@@ -137,7 +140,8 @@ public class SVDSentences {
 
   /**
    * Column cell is the mean of all counts in that column.
-   * Except we forgot to divide by df
+   * Except we forgot to divide by df!
+TODO divide by df
    */
   private Matrix normalCounts(Matrix mat) {
     double[] norms = new double[mat.numColumns()];
