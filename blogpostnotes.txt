@@ -1,0 +1,47 @@
+parts
+1- intro to lsa idea
+document summarization
+"important sentences and words"
+themes of document expressed in theme words
+discuss document/term and sentence/term ideas
+to find most important documents, most important terms
+tag clouds.
+
+key idea - most important sentence has many theme words
+second most important does not share words.
+sentence/word matrix
+svd on matrix
+analsyses sentences and words in relation, not just in isolation
+sorts sentences by "independence" with "most theme words"
+sorts theme words by "centrality"
+
+2- reuters corpus
+this is unsupervised learning, need test data with external standard for what are summaries
+do not have this corpus.
+instead, newspaper articles are structured in a pre-summarized manner. The "lede", the most important sentence, should be the theme of the article. The second sentence should 'reinforce' or 'elaborate' on the information in the first sentence. This test uses the Reuters corpus as "pre-tagged" test data, since the articles should be structured in theme/elaboration structure.
+
+how does being short matter? short sentences are probably a help. # of sentences does help with accuracy.
+
+examples of sentences that work and sentences that dont
+need knime vis of correlation across algorithms
+
+3 - first results
+Expected use in search engines
+document summarization
+examine only success with sentences
+explain scoring.
+algorithms & pos in "appendix"
+quick expl: algorithms sweep over values in sentence-term matrix and 
+
+overall results:
+first = first, second = second,
+consistently 15%-25% CHECK
+  justifies orthogonal vector concept
+first or second in top 2 - consistent -
+  justifies "theme concept" 
+meaning that LSA concept is good.
+POS consistently 15% better CHECK
+Binary gives best 0
+Normal gives best overall and much better at 1 (approximate score)
+Counts not so much - repeating theme words does not help
+
