@@ -33,6 +33,9 @@ public class SVDSentences {
     svd = new SingularValueDecomposition(termmat);
   }
   
+  /**
+   * Got this off the back of a Crackerjack box. Am sure it's bogus.
+   */
   private Matrix logEntropy(Matrix mat) {
     double[] logsum = new double[mat.numColumns()];
     Arrays.fill(logsum, 1.0);
@@ -55,6 +58,9 @@ public class SVDSentences {
     return m;
   }
 
+  /**
+   * Inverse Document Frequency
+   */
   private Matrix idf(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
     for(int c = 0; c < mat.numColumns(); c++) {
@@ -79,6 +85,9 @@ public class SVDSentences {
 
   }
 
+  /**
+   * Global Frequency / Document Frequency
+   */
   private Matrix gfidf(Matrix mat, double counts[]) {
     double[] dfs = new double[mat.numColumns()];
     for(int c = 0; c < mat.numColumns(); c++) {
@@ -101,6 +110,9 @@ public class SVDSentences {
     return m;
   }
 
+  /**
+   * Term Frequency / Document Frequency
+   */
   private Matrix tfidf(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
     for(int c = 0; c < mat.numColumns(); c++) {
@@ -123,6 +135,10 @@ public class SVDSentences {
     return m;
   }
 
+  /**
+   * Column cell is the mean of all counts in that column.
+   * Except we forgot to divide by df
+   */
   private Matrix normalCounts(Matrix mat) {
     double[] norms = new double[mat.numColumns()];
     for(int c = 0; c < mat.numColumns(); c++) {
@@ -134,6 +150,7 @@ public class SVDSentences {
           df++;
         }
       }
+      // should this be /df ?
       norms[c] = Math.sqrt(norms[c]);
     }
     Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
@@ -146,6 +163,9 @@ public class SVDSentences {
     return m;
   }
 
+  /**
+   * Cells are binary-ized
+   */
   private Matrix binaryCounts(Matrix mat) {
     Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
     for (int r = 0; r < mat.numRows(); r++) {
