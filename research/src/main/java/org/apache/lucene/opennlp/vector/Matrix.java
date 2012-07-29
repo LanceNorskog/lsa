@@ -96,6 +96,16 @@ class Matrix {
     }
     return new Matrix(values);
   }
+
+  public Matrix timesColumn(double[] columnVector) {
+    double[][] values = new double[numRows()][numColumns()];
+    for(int r = 0; r < numRows(); r++) {
+      for(int c = 0; c < numColumns(); c++) {
+        values[c][r] = m[r][c] * columnVector[c];
+      }
+    }
+    return new Matrix(values);
+  }
 }
 
 class Vector {

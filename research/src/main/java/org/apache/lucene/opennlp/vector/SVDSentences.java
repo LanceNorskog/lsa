@@ -18,15 +18,14 @@ public class SVDSentences {
   public Matrix createMatrix(Matrix mat, double[] gfs, Formula local, Formula global) {
     Matrix localMat = null;
     Matrix globalMat = null;
+    double[] globalFactors = null;
     
     if (local == Formula.tf || local == null) {
-      localMat = mat.copy();
+      ;
     } else if (local == Formula.binary) {
       localMat = binary(mat);
-    } else if (local == Formula.normal) {
-      localMat = normalTerm(mat);
-    } else if (local == Formula.length) {
-      localMat = normalDoc(mat);
+    } else if (global == Formula.log) {
+      localMat = log(mat);    
     } else if (local == Formula.augNorm) {
       localMat = augNorm(mat);
     } else {
@@ -35,21 +34,36 @@ public class SVDSentences {
     if (global == null) {
       ;
     } else if (global == Formula.gfidf) {
-      globalMat = gfidf(mat, gfs);
-    } else if (global == Formula.tfidf) {
-      globalMat = tfidf(mat);
+      globalFactors = gfidf(mat, gfs);
     } else if (global == Formula.idf) {
-      globalMat = idf(mat);
-    } else if (global == Formula.log) {
-      globalMat = log(mat);    
+      globalFactors = idf(mat);
     } else if (global == Formula.entropy) {
-      globalMat = entropy(mat, gfs);
+      globalFactors = entropy(mat, gfs);
+    } else if (local == Formula.normal) {
+      globalMat = normalTerm(mat);
+    } else if (local == Formula.length) {
+      globalMat = normalDoc(mat);
     } else {
       throw new IllegalStateException("Unknown global calculation formula: " + global.toString());
     }
-    mat = null;
-    Matrix docTermMatrix = global == null ? localMat : localMat.timesCell(globalMat);
-    return docTermMatrix;
+    if (localMat != null ) {
+      mat = null;
+      if (globalMat != null) {
+        return globalMat.timesCell(localMat);
+      } else if (globalFactors != null) {
+        return localMat.timesColumn(globalFactors);
+      } else {
+        return localMat;
+      }
+    } else {
+      if (globalMat != null) {
+        return globalMat;
+      } else if (globalFactors != null) {
+        return mat.copy().timesColumn(globalFactors);
+      } else {
+        return mat.copy();
+      }
+    }
   }
   
   public void doSVD(Matrix docTermMatrix) {
@@ -109,29 +123,26 @@ public class SVDSentences {
   /**
    * ???
    */
-  private Matrix entropy(Matrix mat, double gfs[]) {
-    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int doc = 0; doc < mat.numRows(); doc++) {
+  private double[] entropy(Matrix mat, double gfs[]) {
+    double[] globalFactors = new double[mat.numRows()];
+    double logDocs = Math.log(mat.numRows());
+    for(int term = 0; term < mat.numColumns(); term++) {
       double sum = 0;
-      for(int term = 0; term < mat.numColumns(); term++) {
+      for (int doc = 0; doc < mat.numRows(); doc++) {
         if (mat.m[doc][term] > 0) {
           double p = mat.m[doc][term] / gfs[term];
-          sum += (p *  Math.log(p)) / mat.numRows();
+          sum += (p *  Math.log(p)) / logDocs;
         }
       }
-      for(int term = 0; term < mat.numColumns(); term++) {
-        if (mat.m[doc][term] > 0) {
-          globalMat.m[doc][term] = mat.m[doc][term] * (1 + sum);
-        }
-      }
+      globalFactors[term] = (1 + sum);
     }
-    return globalMat;
+    return globalFactors;
   }
   
   /**
    * Inverse Document Frequency
    */
-  private Matrix idf(Matrix mat) {
+  private double[] idf(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
     for(int term = 0; term < mat.numColumns(); term++) {
       int df = 0;
@@ -143,22 +154,20 @@ public class SVDSentences {
       }
       dfs[term] = df;
     }
-    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int doc = 0; doc < mat.numRows(); doc++) {
-      for(int term = 0; term < mat.numColumns(); term++) {
-        if (mat.m[doc][term] > 0) {
-          globalMat.m[doc][term] = 1 + Math.log(mat.numRows() / dfs[term]);
-        }
-      }
+    double[] globalFactors = new double[mat.numRows()];
+    for(int term = 0; term < mat.numColumns(); term++) {
+      globalFactors[term] = Math.log(mat.numRows() / (1 + dfs[term]));
     }
-    return globalMat;
+    return globalFactors;
     
   }
   
   /**
    * Global Frequency / Document Frequency
+   * 
+   * Suggest using with binary local formula
    */
-  private Matrix gfidf(Matrix mat, double gfs[]) {
+  private double[] gfidf(Matrix mat, double gfs[]) {
     double[] dfs = new double[mat.numColumns()];
     for(int term = 0; term < mat.numColumns(); term++) {
       int df = 0;
@@ -170,60 +179,31 @@ public class SVDSentences {
       }
       dfs[term] = df;
     }
-    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int doc = 0; doc < mat.numRows(); doc++) {
-      for(int term = 0; term < mat.numColumns(); term++) {
-        double tf = mat.m[doc][term];
-        if (tf > 0)
-          globalMat.m[doc][term] = gfs[term] / dfs[term];
-      }
-    }
-    return globalMat;
-  }
-  
-  /**
-   * Term Frequency / Document Frequency
-   */
-  private Matrix tfidf(Matrix mat) {
-    double[] dfs = new double[mat.numColumns()];
+    double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
-      int df = 0;
-      for(int doc = 0; doc < mat.numRows(); doc++) {
-        double tf = mat.m[doc][term];
-        if (tf > 0) {
-          df++;
-        }
-      }
-      dfs[term] = df;
+      globalFactors[term] = gfs[term] / dfs[term];
     }
-    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int doc = 0; doc < mat.numRows(); doc++) {
-      for(int term = 0; term < mat.numColumns(); term++) {
-        if (mat.m[doc][term] > 0)
-          globalMat.m[doc][term] = mat.m[doc][term] * Math.log(1 / dfs[term]);
-      }
-    }
-    return globalMat;
+    return globalFactors;
   }
   
   /**
-   * Normalize (L2) length of document vector.
+   * Normal (L2) of document vector.
    * Prevent dominance by longer documents.
    */
   private Matrix normalDoc(Matrix mat) {
     Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
     for(int doc = 0; doc < mat.numRows(); doc++) {
-      double norm = 0;
+      double docNorm = 0;
       for(int term = 0; term < mat.numColumns(); term++) {
         double tf = mat.m[doc][term];
         if (tf > 0) {
-          norm += tf * tf;
+          docNorm += tf * tf;
         }
       }
-      norm = Math.sqrt(norm);
+      docNorm = Math.sqrt(docNorm);
       for(int term = 0; term < mat.numColumns(); term++) {
         if (mat.m[doc][term] > 0) {
-          globalMat.m[doc][term] = mat.m[doc][term] / norm;
+          globalMat.m[doc][term] = docNorm;
         }
       }
     }
