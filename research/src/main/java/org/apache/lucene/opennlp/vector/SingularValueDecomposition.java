@@ -23,6 +23,13 @@
  */
 package org.apache.lucene.opennlp.vector;
 
+/*
+ * Singular Value Decomposition code stolen from Mahout
+ * Stripped-down Matrix implementation.
+ * 
+ * This file as no imports.
+ */
+
 public class SingularValueDecomposition {
   
   /** Arrays for internal storage of U and V. */

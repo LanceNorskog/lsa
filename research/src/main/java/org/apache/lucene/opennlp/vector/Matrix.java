@@ -27,6 +27,7 @@ class Matrix {
     m[r][c] = value;
   }
 
+  /* standard matrix multiplication */
   public Matrix times(Matrix other) {
     int columns = m[0].length;
     if (columns != other.m.length) {
@@ -42,6 +43,25 @@ class Matrix {
           sum += m[row][k] * other.m[k][col];
         }
         result[row][col] = sum;
+      }
+    }
+    return new Matrix(result);
+  }
+  
+  /* multiple individual cells */
+  public Matrix timesCell(Matrix other) {
+    int rows = m.length;
+    if (rows != other.m.length) {
+      throw new IllegalArgumentException();
+    }
+    int columns = m[0].length;
+    if (columns != other.m[0].length) {
+      throw new IllegalArgumentException();
+    }
+    double[][] result = new double[rows][columns];
+    for (int r = 0; r < rows; r++) {
+      for (int c = 0; c < columns; c++) {
+          result[r][c] = m[r][c] * other.m[r][c];
       }
     }
     return new Matrix(result);
@@ -67,6 +87,15 @@ class Matrix {
     return mat;
   }
 
+  public Matrix transpose() {
+    double[][] values = new double[numRows()][numColumns()];
+    for(int r = 0; r < numRows(); r++) {
+      for(int c = 0; c < numColumns(); c++) {
+        values[c][r] = m[r][c];
+      }
+    }
+    return new Matrix(values);
+  }
 }
 
 class Vector {

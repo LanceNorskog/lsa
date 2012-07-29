@@ -18,7 +18,9 @@ public class TestSVD extends TestCase {
   
   public void testOne() {
     Matrix vectorMat = getMatrix(DOC_TERMS);
-    SVDSentences svd = new SVDSentences(vectorMat, null, Formula.count);
+    SVDSentences svd = new SVDSentences();
+    Matrix docTermMatrix = svd.createMatrix(vectorMat, null, Formula.tf, null);
+    svd.doSVD(docTermMatrix);
     Matrix u = svd.getSingularU(true);
     u.hashCode();
     checkMatrix(u, DOC_U);
@@ -30,9 +32,8 @@ public class TestSVD extends TestCase {
         assertEquals(expect[r][c], m.m[r][c], EPSILON);
       }
     }
-    
   }
-
+  
   private Matrix getMatrix(String[][] dOC_TERMS2) {
     LSAVectorizer lsav = new LSAVectorizer();
     for(String[] sentence: DOC_TERMS) {

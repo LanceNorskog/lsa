@@ -1,186 +1,247 @@
 package org.apache.lucene.opennlp.vector;
-import java.util.Arrays;
 
 /**
  * Given sentences decomposed into term vectors, run SVD.
- *
-TODO try normal with DF
-try binary normal
-try normalizing row to avoid bias for longer sentences.
+ * Matrix regularization methods from:
+ * http://en.wikipedia.org/wiki/Latent_semantic_indexing
+ * http://www.amazon.com/Understanding-Search-Engines-Mathematical-Environments/dp/0898715814
+ *  Section 3.2.1 Term Weighting
+ *  page 34
+ *  
+ *  This file has no imports.
  */
 
 public class SVDSentences {
-  public enum Formula {count, binary, normal, gfidf, tfidf, idf, logEntropy};
-  private final SingularValueDecomposition svd;
+  public enum Formula {tf, binary, augNorm, log, normal, length, gfidf, tfidf, idf, entropy};
+  private SingularValueDecomposition svd;
+  
+  public Matrix createMatrix(Matrix mat, double[] gfs, Formula local, Formula global) {
+    Matrix localMat = null;
+    Matrix globalMat = null;
     
-  public SVDSentences(Matrix mat, double[] counts, Formula formula) {
-    Matrix termmat = null;
-    if (formula == Formula.count) {
-      termmat = mat.copy();
-    } else if (formula == Formula.binary) {
-      termmat = binaryCounts(mat);
-    } else if (formula == Formula.normal) {
-      termmat = normalCounts(mat);
-    } else if (formula == Formula.gfidf) {
-      termmat = gfidf(mat, counts);
-    } else if (formula == Formula.tfidf) {
-      termmat = tfidf(mat);
-    } else if (formula == Formula.idf) {
-      termmat = idf(mat);
-    } else if (formula == Formula.logEntropy) {
-      termmat = logEntropy(mat);
+    if (local == Formula.tf || local == null) {
+      localMat = mat.copy();
+    } else if (local == Formula.binary) {
+      localMat = binary(mat);
+    } else if (local == Formula.normal) {
+      localMat = normalTerm(mat);
+    } else if (local == Formula.length) {
+      localMat = normalDoc(mat);
+    } else if (local == Formula.augNorm) {
+      localMat = augNorm(mat);
     } else {
-      throw new IllegalStateException("Unknown calculation formula: " + formula.toString());
+      throw new IllegalStateException("Unknown local calculation formula: " + local.toString());
     }
-     
-    svd = new SingularValueDecomposition(termmat);
+    if (global == null) {
+      ;
+    } else if (global == Formula.gfidf) {
+      globalMat = gfidf(mat, gfs);
+    } else if (global == Formula.tfidf) {
+      globalMat = tfidf(mat);
+    } else if (global == Formula.idf) {
+      globalMat = idf(mat);
+    } else if (global == Formula.log) {
+      globalMat = log(mat);    
+    } else if (global == Formula.entropy) {
+      globalMat = entropy(mat, gfs);
+    } else {
+      throw new IllegalStateException("Unknown global calculation formula: " + global.toString());
+    }
+    mat = null;
+    Matrix docTermMatrix = global == null ? localMat : localMat.timesCell(globalMat);
+    return docTermMatrix;
+  }
+  
+  public void doSVD(Matrix docTermMatrix) {
+    svd = new SingularValueDecomposition(docTermMatrix);
+  }
+  
+  /* Local transforms */
+  /**
+   * Cells are binary-ized
+   */
+  private Matrix binary(Matrix mat) {
+    Matrix localMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0)
+          localMat.m[doc][term] = 1;
+      }
+    }
+    return localMat;
   }
   
   /**
-   * Got this off the back of a Crackerjack box. Am sure it's bogus.
+   * log of count
    */
-  private Matrix logEntropy(Matrix mat) {
-    double[] logsum = new double[mat.numColumns()];
-    Arrays.fill(logsum, 1.0);
-    for(int c = 0; c < mat.numColumns(); c++) {
-      for(int r = 0; r < mat.numRows(); r++) {
-        double tf = mat.m[r][c];
-        if (tf > 0) {
-          logsum[c] += (tf * Math.log(tf)) / mat.numRows();
-        }
+  private Matrix log(Matrix mat) {
+    Matrix localMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0)
+          localMat.m[doc][term] = Math.log(mat.m[doc][term] + 1);
       }
     }
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0) {
-          m.m[r][c] = logsum[c] * Math.log(mat.m[r][c] + 1);
-        }
-      }
-    }
-    return m;
+    return localMat;
   }
-
+  
+  /**
+   * function of maximum count in a row
+   */
+  private Matrix augNorm(Matrix mat) {
+    Matrix localMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for(int doc = 0; doc < mat.numRows(); doc++) {
+      double maxTf = 0;
+      for(int term = 0; term < mat.numColumns(); term++) {
+        double tf = mat.m[doc][term];
+        maxTf = Math.max(maxTf, tf);
+      }
+      for(int term = 0; term < mat.numColumns(); term++) {
+        double tf = mat.m[doc][term];
+        if (tf > 0)
+          localMat.m[doc][term] = (tf / maxTf + 1) / 2;
+      }
+    }
+    return localMat;
+  }
+  
+  /* Global transforms */
+  /**
+   * ???
+   */
+  private Matrix entropy(Matrix mat, double gfs[]) {
+    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      double sum = 0;
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0) {
+          double p = mat.m[doc][term] / gfs[term];
+          sum += (p *  Math.log(p)) / mat.numRows();
+        }
+      }
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0) {
+          globalMat.m[doc][term] = mat.m[doc][term] * (1 + sum);
+        }
+      }
+    }
+    return globalMat;
+  }
+  
   /**
    * Inverse Document Frequency
    */
   private Matrix idf(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
-    for(int c = 0; c < mat.numColumns(); c++) {
+    for(int term = 0; term < mat.numColumns(); term++) {
       int df = 0;
-      for(int r = 0; r < mat.numRows(); r++) {
-        double tf = mat.m[r][c];
+      for(int doc = 0; doc < mat.numRows(); doc++) {
+        double tf = mat.m[doc][term];
         if (tf > 0) {
           df++;
         }
       }
-      dfs[c] = df;
+      dfs[term] = df;
     }
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0) {
-          m.m[r][c] = 1 + Math.log(mat.numRows() / dfs[c]);
+    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0) {
+          globalMat.m[doc][term] = 1 + Math.log(mat.numRows() / dfs[term]);
         }
       }
     }
-    return m;
-
+    return globalMat;
+    
   }
-
+  
   /**
    * Global Frequency / Document Frequency
    */
-  private Matrix gfidf(Matrix mat, double counts[]) {
+  private Matrix gfidf(Matrix mat, double gfs[]) {
     double[] dfs = new double[mat.numColumns()];
-    for(int c = 0; c < mat.numColumns(); c++) {
+    for(int term = 0; term < mat.numColumns(); term++) {
       int df = 0;
-      for(int r = 0; r < mat.numRows(); r++) {
-        double tf = mat.m[r][c];
+      for(int doc = 0; doc < mat.numRows(); doc++) {
+        double tf = mat.m[doc][term];
         if (tf > 0) {
           df++;
         }
       }
-      dfs[c] = df;
+      dfs[term] = df;
     }
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0)
-          m.m[r][c] = counts[c] / dfs[c];
+    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      for(int term = 0; term < mat.numColumns(); term++) {
+        double tf = mat.m[doc][term];
+        if (tf > 0)
+          globalMat.m[doc][term] = gfs[term] / dfs[term];
       }
     }
-    return m;
+    return globalMat;
   }
-
+  
   /**
    * Term Frequency / Document Frequency
    */
   private Matrix tfidf(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
-    for(int c = 0; c < mat.numColumns(); c++) {
+    for(int term = 0; term < mat.numColumns(); term++) {
       int df = 0;
-      for(int r = 0; r < mat.numRows(); r++) {
-        double tf = mat.m[r][c];
+      for(int doc = 0; doc < mat.numRows(); doc++) {
+        double tf = mat.m[doc][term];
         if (tf > 0) {
           df++;
         }
       }
-      dfs[c] = df;
+      dfs[term] = df;
     }
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0)
-          m.m[r][c] = mat.m[r][c] / dfs[c];
+    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for (int doc = 0; doc < mat.numRows(); doc++) {
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0)
+          globalMat.m[doc][term] = mat.m[doc][term] * Math.log(1 / dfs[term]);
       }
     }
-    return m;
+    return globalMat;
   }
-
+  
   /**
-   * Column cell is the mean of all counts in that column.
-   * Except we forgot to divide by df!
-TODO divide by df
+   * Normalize (L2) length of document vector.
+   * Prevent dominance by longer documents.
    */
-  private Matrix normalCounts(Matrix mat) {
-    double[] norms = new double[mat.numColumns()];
-    for(int c = 0; c < mat.numColumns(); c++) {
-      int df = 0;
-      for(int r = 0; r < mat.numRows(); r++) {
-        double tf = mat.m[r][c];
+  private Matrix normalDoc(Matrix mat) {
+    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
+    for(int doc = 0; doc < mat.numRows(); doc++) {
+      double norm = 0;
+      for(int term = 0; term < mat.numColumns(); term++) {
+        double tf = mat.m[doc][term];
         if (tf > 0) {
-          norms[c] += tf * tf;
-          df++;
+          norm += tf * tf;
         }
       }
-      // should this be /df ?
-      norms[c] = Math.sqrt(norms[c]);
-    }
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0)
-          m.m[r][c] = norms[c];
+      norm = Math.sqrt(norm);
+      for(int term = 0; term < mat.numColumns(); term++) {
+        if (mat.m[doc][term] > 0) {
+          globalMat.m[doc][term] = mat.m[doc][term] / norm;
+        }
       }
     }
-    return m;
+    return globalMat;
   }
-
+  
   /**
-   * Cells are binary-ized
+   * Normalize (L2) length of term vector.
+   * Prevent dominance by popular terms.
    */
-  private Matrix binaryCounts(Matrix mat) {
-    Matrix m = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for (int r = 0; r < mat.numRows(); r++) {
-      for(int c = 0; c < mat.numColumns(); c++) {
-        if (mat.m[r][c] > 0)
-          m.m[r][c] = 1;
-      }
-    }
-    return m;
+  
+  private Matrix normalTerm(Matrix mat) {
+    Matrix globalMat = normalDoc(mat).transpose();
+    return globalMat;
   }
-
+  
+  /* U is document matrix, V is term matrix */
+  
   public Matrix getSingularU(boolean useSingular) {
     Matrix u = svd.getU();
     double[] svalues = svd.getSingularValues();
@@ -220,5 +281,5 @@ TODO divide by df
     }
     return strengths;
   }
-
+  
 }
