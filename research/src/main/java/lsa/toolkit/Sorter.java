@@ -1,4 +1,4 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -13,7 +13,7 @@ public class Sorter {
   public List<Integer> getSentenceList(SVDSentences svds, List<Double> fvec) {
     List<DIPair> dipairs = new ArrayList<DIPair>();
     
-    Matrix u = svds.getU();
+    Matrix u = svds.getSingularU(true);
     int rows = u.numRows();
     
     double rowFV[] = new double[rows];
@@ -51,7 +51,7 @@ public class Sorter {
   public List<Integer> getTermList(SVDSentences svds, List<Double> fvec) {
     List<DIPair> dipairs = new ArrayList<DIPair>();
     
-    Matrix v = svds.getV();
+    Matrix v = svds.getSingularV(true);
     int rows = v.numRows();
     
     double rowFV[] = new double[rows];
@@ -107,7 +107,6 @@ class DIPair implements Comparable<DIPair> {
     this.sign = reverse ? -1 : 1;
   }
   
-  @Override
   public int compareTo(DIPair other) {
     int compare = d.compareTo(other.d);
     return compare * sign;
@@ -115,15 +114,12 @@ class DIPair implements Comparable<DIPair> {
   
   @Override
   public boolean equals(Object obj) {
-    // TODO Auto-generated method stub
-    return d == ((DIPair) obj).d;
+    return d == ((DIPair) obj).d && i == ((DIPair) obj).i;
   }
   
   @Override
   public int hashCode() {
-    // TODO Auto-generated method stub
-    return d.hashCode();
+    return d.hashCode() ^ new Integer(i).hashCode();
   }
-  
 }
 

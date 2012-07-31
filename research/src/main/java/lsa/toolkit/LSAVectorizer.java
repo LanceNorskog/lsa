@@ -1,8 +1,9 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+
 
 /**
  * One term at a time, build term vectors for documents or sentences

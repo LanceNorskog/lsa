@@ -1,6 +1,7 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
 
 import junit.framework.TestCase;
+import lsa.toolkit.LSAVectorizer;
 
 
 public class TestTermVectorizer extends TestCase {

@@ -1,4 +1,4 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
 
 import java.util.List;
 

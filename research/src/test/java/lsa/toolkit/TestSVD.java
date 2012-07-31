@@ -1,8 +1,10 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
 
-import org.apache.lucene.opennlp.vector.SVDSentences.Formula;
+
 
 import junit.framework.TestCase;
+import lsa.toolkit.SVDSentences;
+import lsa.toolkit.SVDSentences.Formula;
 
 
 public class TestSVD extends TestCase {

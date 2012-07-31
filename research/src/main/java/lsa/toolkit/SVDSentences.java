@@ -1,4 +1,5 @@
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
+
 
 /**
  * Given sentences decomposed into term vectors, run SVD.
@@ -12,7 +13,7 @@ package org.apache.lucene.opennlp.vector;
  */
 
 public class SVDSentences {
-  public enum Formula {tf, binary, augNorm, log, normal, length, gfidf, tfidf, idf, entropy};
+  public enum Formula {tf, binary, augNorm, log, normal, length, gfidf, tfidf, idf, entropy, inverse};
   private SingularValueDecomposition svd;
   
   public Matrix createMatrix(Matrix mat, double[] gfs, Formula local, Formula global) {
@@ -39,10 +40,12 @@ public class SVDSentences {
       globalFactors = idf(mat);
     } else if (global == Formula.entropy) {
       globalFactors = entropy(mat, gfs);
-    } else if (local == Formula.normal) {
+    } else if (global == Formula.normal) {
       globalMat = normalTerm(mat);
-    } else if (local == Formula.length) {
-      globalMat = normalDoc(mat);
+    } else if (global == Formula.length) {
+      globalMat = normalDoc(mat);   
+    } else if (global == Formula.inverse) {
+        globalFactors = probInverse(mat);
     } else {
       throw new IllegalStateException("Unknown global calculation formula: " + global.toString());
     }
@@ -143,23 +146,12 @@ public class SVDSentences {
    * Inverse Document Frequency
    */
   private double[] idf(Matrix mat) {
-    double[] dfs = new double[mat.numColumns()];
-    for(int term = 0; term < mat.numColumns(); term++) {
-      int df = 0;
-      for(int doc = 0; doc < mat.numRows(); doc++) {
-        double tf = mat.m[doc][term];
-        if (tf > 0) {
-          df++;
-        }
-      }
-      dfs[term] = df;
-    }
+    double[] dfs = getDocFrequencies(mat);
     double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
       globalFactors[term] = Math.log(mat.numRows() / (1 + dfs[term]));
     }
     return globalFactors;
-    
   }
   
   /**
@@ -168,17 +160,7 @@ public class SVDSentences {
    * Suggest using with binary local formula
    */
   private double[] gfidf(Matrix mat, double gfs[]) {
-    double[] dfs = new double[mat.numColumns()];
-    for(int term = 0; term < mat.numColumns(); term++) {
-      int df = 0;
-      for(int doc = 0; doc < mat.numRows(); doc++) {
-        double tf = mat.m[doc][term];
-        if (tf > 0) {
-          df++;
-        }
-      }
-      dfs[term] = df;
-    }
+    double[] dfs = getDocFrequencies(mat);
     double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
       globalFactors[term] = gfs[term] / dfs[term];
@@ -218,6 +200,34 @@ public class SVDSentences {
   private Matrix normalTerm(Matrix mat) {
     Matrix globalMat = normalDoc(mat).transpose();
     return globalMat;
+  }
+  
+  
+  /**
+   * Probabilistic Inverse
+   */
+  private double[] probInverse(Matrix mat) {
+    double[] dfs = getDocFrequencies(mat);
+    double[] globalFactors = new double[mat.numRows()];
+    for(int term = 0; term < mat.numColumns(); term++) {
+      globalFactors[term] = Math.log((mat.numRows() - dfs[term]) / dfs[term]);
+    }
+    return globalFactors;
+  }
+
+  private double[] getDocFrequencies(Matrix mat) {
+    double[] dfs = new double[mat.numColumns()];
+    for(int term = 0; term < mat.numColumns(); term++) {
+      int df = 0;
+      for(int doc = 0; doc < mat.numRows(); doc++) {
+        double tf = mat.m[doc][term];
+        if (tf > 0) {
+          df++;
+        }
+      }
+      dfs[term] = df;
+    }
+    return dfs;
   }
   
   /* U is document matrix, V is term matrix */

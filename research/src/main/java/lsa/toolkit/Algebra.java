@@ -15,7 +15,9 @@
  * limitations under the License.
  */
 
-package org.apache.lucene.opennlp.vector;
+package lsa.toolkit;
+
+
 public final class Algebra {
 
   private Algebra() {
