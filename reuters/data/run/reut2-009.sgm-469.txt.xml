@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">36</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-469.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">179</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">perhaps</str>
+        <str name="text">refiner</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">fails</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">voluntarily</str>
+        <str name="text">growers</str>
         <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">state</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">sweetener</str>
+        <double name="strength">0.9921182764277391</double>
+      </lst>
+      <lst name="term">
+        <str name="text">expand</str>
+        <double name="strength">0.9883990800936807</double>
+      </lst>
+      <lst name="term">
+        <str name="text">imports</str>
+        <double name="strength">0.9883990800936789</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Instead of seeking to slash the domestic sugar program, Huckaby said the Reagan administration should file a complaint with the General Agreement on Tariffs and Trade against the European Community's sugar policy.</str>
-        <int name="index">38</int>
+        <str name="text">Huckaby said the campaign to urge a halt to domestic sweetener output increases is an effort to forestall further cuts in the sugar import quota, now at one mln short tons.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">214</int>
+        <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. farm-state Congressman, Jerry Huckaby, D-La., warned he will press next year for legislation to control domestic production of sweeteners, perhaps including corn sweeteners, if the industry fails to voluntarily halt output increases this year.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">246</int>
-        <double name="strength">0.9321029207986599</double>
+        <str name="text">Huckaby also said he would be seeking guidance from the Justice Department to determine if it would be legal to ask corn refiners to limit production.</str>
+        <int name="index">28</int>
+        <int name="start">1</int>
+        <int name="end">151</int>
+        <double name="strength">0.9302136365510885</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. cane and beet farmers have expanded production, because high sugar price support means returns from sugar are higher than competing crops such as soybeans and grain.</str>
-        <int name="index">32</int>
+        <str name="text">Huckaby, chairman of the House agriculture subcommittee dealing with sugar issues, told Reuters in an interview.</str>
+        <int name="index">4</int>
         <int name="start">0</int>
-        <int name="end">168</int>
-        <double name="strength">0.923564277271116</double>
+        <int name="end">112</int>
+        <double name="strength">0.9191934102418723</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Instead&lt;/em&gt; of &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;slash&lt;/em&gt; the &lt;em&gt;domestic sugar program, Huckaby&lt;/em&gt; said the &lt;em&gt;Reagan administration should&lt;/em&gt; file a &lt;em&gt;complaint&lt;/em&gt; with the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade against&lt;/em&gt; the &lt;em&gt;European Community&lt;/em&gt;'s &lt;em&gt;sugar policy&lt;/em&gt;.</str>
-        <int name="index">38</int>
+        <str name="text">&lt;em&gt;Huckaby&lt;/em&gt; said the &lt;em&gt;campaign&lt;/em&gt; to urge a halt to &lt;em&gt;domestic sweetener output increases&lt;/em&gt; is an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;forestall further&lt;/em&gt; cuts in the &lt;em&gt;sugar import quota,&lt;/em&gt; now at one mln &lt;em&gt;short tons&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. farm-&lt;em&gt;state Congressman, Jerry Huckaby,&lt;/em&gt; D-La., &lt;em&gt;warned&lt;/em&gt; he will &lt;em&gt;press&lt;/em&gt; next year for &lt;em&gt;legislation&lt;/em&gt; to &lt;em&gt;control domestic production&lt;/em&gt; of &lt;em&gt;sweeteners, perhaps including&lt;/em&gt; corn &lt;em&gt;sweeteners,&lt;/em&gt; if the &lt;em&gt;industry fails&lt;/em&gt; to &lt;em&gt;voluntarily&lt;/em&gt; halt &lt;em&gt;output increases&lt;/em&gt; this year.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Huckaby&lt;/em&gt; also said he would be seeking &lt;em&gt;guidance&lt;/em&gt; from the &lt;em&gt;Justice Department&lt;/em&gt; to &lt;em&gt;determine&lt;/em&gt; if it would be &lt;em&gt;legal&lt;/em&gt; to ask corn &lt;em&gt;refiners&lt;/em&gt; to &lt;em&gt;limit production&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. cane and beet &lt;em&gt;farmers&lt;/em&gt; have &lt;em&gt;expanded production, because&lt;/em&gt; high &lt;em&gt;sugar price support means returns&lt;/em&gt; from &lt;em&gt;sugar&lt;/em&gt; are &lt;em&gt;higher&lt;/em&gt; than &lt;em&gt;competing crops&lt;/em&gt; such as &lt;em&gt;soybeans&lt;/em&gt; and &lt;em&gt;grain&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">&lt;em&gt;Huckaby, chairman&lt;/em&gt; of the &lt;em&gt;House agriculture subcommittee&lt;/em&gt; dealing with &lt;em&gt;sugar issues,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-114.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">press</str>
+        <str name="text">cause</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">1.0</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">reconsider</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9580049845271327</double>
       </lst>
       <lst name="term">
-        <str name="text">figure</str>
-        <double name="strength">1.0</double>
+        <str name="text">registrations</str>
+        <double name="strength">0.958004984527132</double>
       </lst>
       <lst name="term">
-        <str name="text">itself</str>
-        <double name="strength">1.0</double>
+        <str name="text">reports</str>
+        <double name="strength">0.95501788917566</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">183</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He told a press conference Brazil now had to reconsider its export plans and that the 15.5 mln bag export figure which it had proposed for itself earlier should no longer be taken as the country's export target to ICO-member countries.</str>
-        <int name="index">1</int>
+        <str name="text">He also said Brazil currently had no plans to return to a system of roaster buying contracts, although "no hypothesis has been abandoned."</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">236</int>
-        <double name="strength">0.8762137838989623</double>
+        <int name="end">139</int>
+        <double name="strength">0.7495717194733583</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The consumer proposal to base quotas on a six-year moving average of exportable production surpluses would lead to overproduction as countries boosted output to win higher quotas, he said.</str>
-        <int name="index">10</int>
+        <str name="text">The 15.5 mln bag offer had been made on the assumption an agreement would bring stability to world markets, he added.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">189</int>
-        <double name="strength">0.8164173787245478</double>
+        <int name="end">118</int>
+        <double name="strength">0.7399310671795795</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Close links would continue&lt;/em&gt; with &lt;em&gt;these producers, particularly Colombia, Mexico&lt;/em&gt; and &lt;em&gt;Francophone African countries,&lt;/em&gt; but &lt;em&gt;Dauster&lt;/em&gt; said no &lt;em&gt;joint marketing action&lt;/em&gt; was &lt;em&gt;envisaged&lt;/em&gt; at &lt;em&gt;present&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Close links&lt;/em&gt; would &lt;em&gt;continue&lt;/em&gt; with these &lt;em&gt;producers,&lt;/em&gt; particularly Colombia, &lt;em&gt;Mexico&lt;/em&gt; and &lt;em&gt;Francophone African countries,&lt;/em&gt; but &lt;em&gt;Dauster&lt;/em&gt; said no &lt;em&gt;joint marketing action&lt;/em&gt; was envisaged at &lt;em&gt;present&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He told a &lt;em&gt;press conference Brazil&lt;/em&gt; now had to &lt;em&gt;reconsider&lt;/em&gt; its &lt;em&gt;export plans&lt;/em&gt; and that the 15.5 mln bag &lt;em&gt;export figure which&lt;/em&gt; it had &lt;em&gt;proposed&lt;/em&gt; for &lt;em&gt;itself earlier should&lt;/em&gt; no &lt;em&gt;longer&lt;/em&gt; be &lt;em&gt;taken&lt;/em&gt; as the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;export target&lt;/em&gt; to ICO-&lt;em&gt;member countries&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">He also said &lt;em&gt;Brazil&lt;/em&gt; currently had no &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;return&lt;/em&gt; to a &lt;em&gt;system&lt;/em&gt; of &lt;em&gt;roaster&lt;/em&gt; buying &lt;em&gt;contracts,&lt;/em&gt; although "no &lt;em&gt;hypothesis&lt;/em&gt; has been abandoned."</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;consumer proposal&lt;/em&gt; to base &lt;em&gt;quotas&lt;/em&gt; on a six-year &lt;em&gt;moving average&lt;/em&gt; of &lt;em&gt;exportable production surpluses would&lt;/em&gt; lead to &lt;em&gt;overproduction&lt;/em&gt; as &lt;em&gt;countries boosted output&lt;/em&gt; to win &lt;em&gt;higher quotas,&lt;/em&gt; he said.</str>
-        <int name="index">10</int>
+        <str name="text">The 15.5 mln bag &lt;em&gt;offer&lt;/em&gt; had been made on the &lt;em&gt;assumption&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; would &lt;em&gt;bring stability&lt;/em&gt; to &lt;em&gt;world markets,&lt;/em&gt; he added.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

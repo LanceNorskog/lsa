@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-933.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">spring</str>
+        <str name="text">pessimistic</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">livestock</str>
-        <double name="strength">0.9999780399003556</double>
+        <str name="text">outlook</str>
+        <double name="strength">0.9874451345486246</double>
       </lst>
       <lst name="term">
-        <str name="text">publication</str>
-        <double name="strength">0.6006088280726337</double>
+        <str name="text">damage</str>
+        <double name="strength">0.9640657811804083</double>
       </lst>
       <lst name="term">
-        <str name="text">conditions</str>
-        <double name="strength">0.5590188257938894</double>
+        <str name="text">majority</str>
+        <double name="strength">0.9435359754549502</double>
       </lst>
       <lst name="term">
-        <str name="text">hutton</str>
-        <double name="strength">0.5213883338664134</double>
+        <str name="text">areas</str>
+        <double name="strength">0.9431285124621284</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Last fall's dry weather may limit livestock grazing on moisture-depleted pastures, while the cold winter weather necessitated supplemental feeding to keep livestock healthy.</str>
-        <int name="index">13</int>
+        <str name="text">She cited a number of reasons besides possible crop problems that might point to additional Soviet import demand.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">174</int>
+        <int name="end">114</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The USSR has already bought 20 to 21 mln tonnes of grains in the July 1986/June 1987 marketing year, primarily from Canada, the European Community, Argentina and Australia, Martell said.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">187</int>
-        <double name="strength">0.7839963618770514</double>
+        <double name="strength">0.9703788963325851</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Martell was also skeptical of a Soviet claim for a 1986 grain harvest of 210 mln tonnes, and said the Chernobyl accident may have contaminated more grain than originally thought and have to be made up with imports.</str>
-        <int name="index">14</int>
+        <str name="text">However, she noted that most of the southern grain belt had ample snow cover, which should have well-insulated the majority of crop areas from severe frost damage.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">215</int>
-        <double name="strength">0.7744173061209405</double>
+        <int name="end">164</int>
+        <double name="strength">0.9433100619282241</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last fall's dry &lt;em&gt;weather&lt;/em&gt; may &lt;em&gt;limit livestock grazing&lt;/em&gt; on &lt;em&gt;moisture-depleted pastures, while&lt;/em&gt; the cold &lt;em&gt;winter weather necessitated supplemental feeding&lt;/em&gt; to keep &lt;em&gt;livestock healthy&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">She cited a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;reasons&lt;/em&gt; besides &lt;em&gt;possible&lt;/em&gt; crop &lt;em&gt;problems&lt;/em&gt; that might &lt;em&gt;point&lt;/em&gt; to &lt;em&gt;additional Soviet import demand&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The USSR has &lt;em&gt;already bought 20&lt;/em&gt; to 21 mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;grains&lt;/em&gt; in the July 1986/June 1987 &lt;em&gt;marketing&lt;/em&gt; year, &lt;em&gt;primarily&lt;/em&gt; from &lt;em&gt;Canada,&lt;/em&gt; the &lt;em&gt;European Community, Argentina&lt;/em&gt; and &lt;em&gt;Australia, Martell said&lt;/em&gt;.</str>
+        <str name="text">The USSR has already bought 20 to 21 mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;grains&lt;/em&gt; in the July 1986/June 1987 &lt;em&gt;marketing&lt;/em&gt; year, primarily from &lt;em&gt;Canada,&lt;/em&gt; the &lt;em&gt;European Community, Argentina&lt;/em&gt; and &lt;em&gt;Australia, Martell said&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Martell&lt;/em&gt; was also &lt;em&gt;skeptical&lt;/em&gt; of a &lt;em&gt;Soviet claim&lt;/em&gt; for a 1986 &lt;em&gt;grain harvest&lt;/em&gt; of 210 mln &lt;em&gt;tonnes,&lt;/em&gt; and said the &lt;em&gt;Chernobyl accident&lt;/em&gt; may have &lt;em&gt;contaminated&lt;/em&gt; more &lt;em&gt;grain&lt;/em&gt; than &lt;em&gt;originally thought&lt;/em&gt; and have to be made up with &lt;em&gt;imports&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">However, she noted that most of the &lt;em&gt;southern grain&lt;/em&gt; belt had &lt;em&gt;ample&lt;/em&gt; snow &lt;em&gt;cover,&lt;/em&gt; which should have well-insulated the &lt;em&gt;majority&lt;/em&gt; of crop &lt;em&gt;areas&lt;/em&gt; from &lt;em&gt;severe frost damage&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

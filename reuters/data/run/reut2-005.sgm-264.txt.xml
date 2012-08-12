@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-264.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">millions</str>
+        <str name="text">wealth</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">achieve</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">elections</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">controlled</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">street</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">certificates</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">similar</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">brokers</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Ramon Diaz, Chairman of the Presidential Commission on Good Government (PCGG) told Reuters in an interview: "There is every reason to believe that the cronies and President Marcos and his family were able to hide millions and millions of pesos before they fled.</str>
-        <int name="index">1</int>
+        <str name="text">He said a decision by the PCGG last week to probe street certificates held by brokers at Manila's two stock exchanges was prompted by suspicion that illegal funds were in circulation.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">262</int>
+        <int name="end">184</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The government last week announced that businessman Antonio Floirendo, an associate of Marcos known as the "banana king," had turned over 70 mln pesos in cash to the PCGG and promised to surrender titles to property in New York and Hawaii worth another 180 mln pesos.</str>
-        <int name="index">10</int>
+        <str name="text">Street certificates describe securities held in the name of a broker or another nominee instead of a customer so as to permit easy trading or transfer.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">268</int>
-        <double name="strength">0.8398651119037374</double>
+        <int name="end">152</int>
+        <double name="strength">0.9975224902698282</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Benedicto had surrendered control of several newspapers and radio and television stations and agreed to PCGG control of the boards of a bank and a hotel he owned in the Philippines.</str>
-        <int name="index">13</int>
+        <str name="text">The head of a Philippine panel charged with recovering illegal wealth accumulated by former President Ferdinand Marcos and his associates said they still controlled large funds circulating in the country's economy.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">189</int>
-        <double name="strength">0.8395939690034008</double>
+        <int name="end">214</int>
+        <double name="strength">0.9122481886006422</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ramon&lt;/em&gt; Diaz, &lt;em&gt;Chairman&lt;/em&gt; of the &lt;em&gt;Presidential Commission&lt;/em&gt; on Good &lt;em&gt;Government &lt;/em&gt;(PCGG) told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview: "There&lt;/em&gt; is &lt;em&gt;every reason&lt;/em&gt; to &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;cronies&lt;/em&gt; and &lt;em&gt;President Marcos&lt;/em&gt; and his &lt;em&gt;family&lt;/em&gt; were able to hide &lt;em&gt;millions&lt;/em&gt; and &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;pesos before&lt;/em&gt; they fled.</str>
-        <int name="index">1</int>
+        <str name="text">He said a &lt;em&gt;decision&lt;/em&gt; by the PCGG last week to &lt;em&gt;probe street certificates&lt;/em&gt; held by &lt;em&gt;brokers&lt;/em&gt; at &lt;em&gt;Manila&lt;/em&gt;'s two &lt;em&gt;stock exchanges&lt;/em&gt; was prompted by &lt;em&gt;suspicion&lt;/em&gt; that &lt;em&gt;illegal funds&lt;/em&gt; were in &lt;em&gt;circulation&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; last week &lt;em&gt;announced&lt;/em&gt; that &lt;em&gt;businessman Antonio Floirendo,&lt;/em&gt; an &lt;em&gt;associate&lt;/em&gt; of &lt;em&gt;Marcos known&lt;/em&gt; as the "&lt;em&gt;banana&lt;/em&gt; king," had &lt;em&gt;turned&lt;/em&gt; over 70 mln &lt;em&gt;pesos&lt;/em&gt; in cash to the PCGG and &lt;em&gt;promised&lt;/em&gt; to &lt;em&gt;surrender titles&lt;/em&gt; to &lt;em&gt;property&lt;/em&gt; in New York and &lt;em&gt;Hawaii worth another 180&lt;/em&gt; mln &lt;em&gt;pesos&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Street certificates describe securities&lt;/em&gt; held in the name of a &lt;em&gt;broker&lt;/em&gt; or another &lt;em&gt;nominee&lt;/em&gt; instead of a &lt;em&gt;customer&lt;/em&gt; so as to &lt;em&gt;permit&lt;/em&gt; easy &lt;em&gt;trading&lt;/em&gt; or &lt;em&gt;transfer&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Benedicto&lt;/em&gt; had &lt;em&gt;surrendered control&lt;/em&gt; of &lt;em&gt;several newspapers&lt;/em&gt; and &lt;em&gt;radio&lt;/em&gt; and &lt;em&gt;television stations&lt;/em&gt; and &lt;em&gt;agreed&lt;/em&gt; to PCGG &lt;em&gt;control&lt;/em&gt; of the &lt;em&gt;boards&lt;/em&gt; of a bank and a &lt;em&gt;hotel&lt;/em&gt; he &lt;em&gt;owned&lt;/em&gt; in the &lt;em&gt;Philippines&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">The head of a &lt;em&gt;Philippine panel&lt;/em&gt; charged with recovering &lt;em&gt;illegal wealth&lt;/em&gt; accumulated by &lt;em&gt;former President&lt;/em&gt; Ferdinand &lt;em&gt;Marcos&lt;/em&gt; and his &lt;em&gt;associates&lt;/em&gt; said they still controlled &lt;em&gt;large funds&lt;/em&gt; circulating in the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

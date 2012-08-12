@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-148.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">53</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">difficult</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">dollars</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">production</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prospect</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">revelations</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">interests</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">tower</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">ebinger</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"Although in the short run it is difficult to see a direct link between Arab anger and threats to oil supplies, in the current environment it will be increasingly difficult for moderate Arab leaders to be seen as friendly to U.</str>
-        <int name="index">5</int>
+        <str name="text">"The prospect of rising dependence on oil imports from the Gulf, and the recent revelations of the Tower Commission report, mandate more than ever before the need for a fundamental reassessment of U.</str>
+        <int name="index">2</int>
         <int name="start">2</int>
-        <int name="end">229</int>
+        <int name="end">201</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. should reassess its Mideast policy in light of its rising dependence on imported oil, according to Charles Ebinger of the Center for Strategic and International Studies.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">172</int>
-        <double name="strength">0.8885233166386406</double>
+        <double name="strength">0.9711637549035056</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The prospect of rising dependence on oil imports from the Gulf, and the recent revelations of the Tower Commission report, mandate more than ever before the need for a fundamental reassessment of U.</str>
-        <int name="index">2</int>
+        <str name="text">He remarks were made in an address to the National Petroleum Refiners Association meeting.</str>
+        <int name="index">4</int>
         <int name="start">2</int>
-        <int name="end">201</int>
-        <double name="strength">0.8086075400626421</double>
+        <int name="end">92</int>
+        <double name="strength">0.7810520124411602</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Although&lt;/em&gt; in the &lt;em&gt;short&lt;/em&gt; run it is &lt;em&gt;difficult&lt;/em&gt; to see a &lt;em&gt;direct&lt;/em&gt; link &lt;em&gt;between&lt;/em&gt; Arab &lt;em&gt;anger&lt;/em&gt; and &lt;em&gt;threats&lt;/em&gt; to oil &lt;em&gt;supplies,&lt;/em&gt; in the &lt;em&gt;current environment&lt;/em&gt; it will be &lt;em&gt;increasingly difficult&lt;/em&gt; for &lt;em&gt;moderate&lt;/em&gt; Arab &lt;em&gt;leaders&lt;/em&gt; to be seen as &lt;em&gt;friendly&lt;/em&gt; to U.</str>
-        <int name="index">5</int>
+        <str name="text">"The &lt;em&gt;prospect&lt;/em&gt; of rising &lt;em&gt;dependence&lt;/em&gt; on oil &lt;em&gt;imports&lt;/em&gt; from the Gulf, and the &lt;em&gt;recent revelations&lt;/em&gt; of the &lt;em&gt;Tower Commission report, mandate&lt;/em&gt; more than ever before the need for a &lt;em&gt;fundamental reassessment&lt;/em&gt; of U.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;should reassess&lt;/em&gt; its &lt;em&gt;Mideast policy&lt;/em&gt; in &lt;em&gt;light&lt;/em&gt; of its &lt;em&gt;rising dependence&lt;/em&gt; on &lt;em&gt;imported&lt;/em&gt; oil, &lt;em&gt;according&lt;/em&gt; to &lt;em&gt;Charles Ebinger&lt;/em&gt; of the &lt;em&gt;Center&lt;/em&gt; for &lt;em&gt;Strategic&lt;/em&gt; and &lt;em&gt;International Studies&lt;/em&gt;.</str>
+        <str name="text">S. should &lt;em&gt;reassess&lt;/em&gt; its &lt;em&gt;Mideast policy&lt;/em&gt; in &lt;em&gt;light&lt;/em&gt; of its rising &lt;em&gt;dependence&lt;/em&gt; on imported oil, according to &lt;em&gt;Charles&lt;/em&gt; Ebinger of the &lt;em&gt;Center&lt;/em&gt; for &lt;em&gt;Strategic&lt;/em&gt; and &lt;em&gt;International Studies&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;prospect&lt;/em&gt; of &lt;em&gt;rising dependence&lt;/em&gt; on oil &lt;em&gt;imports&lt;/em&gt; from the Gulf, and the &lt;em&gt;recent revelations&lt;/em&gt; of the &lt;em&gt;Tower Commission report, mandate&lt;/em&gt; more than ever &lt;em&gt;before&lt;/em&gt; the need for a &lt;em&gt;fundamental reassessment&lt;/em&gt; of U.</str>
-        <int name="index">2</int>
+        <str name="text">He &lt;em&gt;remarks&lt;/em&gt; were made in an &lt;em&gt;address&lt;/em&gt; to the &lt;em&gt;National Petroleum Refiners Association meeting&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

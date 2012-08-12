@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-633.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">banks</str>
+        <str name="text">borrows</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">swiss</str>
-        <double name="strength">0.559016994374949</double>
-      </lst>
-      <lst name="term">
         <str name="text">francs</str>
-        <double name="strength">0.559016994374949</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">borrows</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">levels</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">240</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The bond redemptions are the first in the public market and may be followed by similar moves in other capital markets if the Bank considers the exercise financially beneficial and consistent with its overall funding strategy.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.8443170536763532</double>
+        <double name="strength">0.9642958253853025</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rotberg was responding to a question following news the Bank would exercise its option to prepay early some 196 mln Swiss francs of existing bonds in the Swiss franc market.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">174</int>
-        <double name="strength">0.7357282987713345</double>
+        <str name="text">However, given the current level of interest rates, it would not be wise to take short-term money on to the liability side of the Bank's balance sheet, he said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">160</int>
+        <double name="strength">0.96327547041246</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said that the yen &lt;em&gt;loans, which&lt;/em&gt; were the &lt;em&gt;equivalent&lt;/em&gt; of some &lt;em&gt;three billion&lt;/em&gt; dlrs &lt;em&gt;principal amount,&lt;/em&gt; had been from the &lt;em&gt;Japanese&lt;/em&gt; long-term &lt;em&gt;credit banks, trust banks&lt;/em&gt; and &lt;em&gt;insurance companies&lt;/em&gt; and had &lt;em&gt;interest rates&lt;/em&gt; of &lt;em&gt;between seven&lt;/em&gt; and nine pct.</str>
+        <str name="text">He said that the yen &lt;em&gt;loans,&lt;/em&gt; which were the &lt;em&gt;equivalent&lt;/em&gt; of some &lt;em&gt;three billion&lt;/em&gt; dlrs &lt;em&gt;principal amount,&lt;/em&gt; had been from the &lt;em&gt;Japanese&lt;/em&gt; long-term &lt;em&gt;credit banks, trust banks&lt;/em&gt; and &lt;em&gt;insurance companies&lt;/em&gt; and had &lt;em&gt;interest rates&lt;/em&gt; of between &lt;em&gt;seven&lt;/em&gt; and nine pct.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The bond &lt;em&gt;redemptions&lt;/em&gt; are the &lt;em&gt;first&lt;/em&gt; in the &lt;em&gt;public market&lt;/em&gt; and may be &lt;em&gt;followed&lt;/em&gt; by &lt;em&gt;similar moves&lt;/em&gt; in &lt;em&gt;other capital markets&lt;/em&gt; if the Bank &lt;em&gt;considers&lt;/em&gt; the &lt;em&gt;exercise financially beneficial&lt;/em&gt; and &lt;em&gt;consistent&lt;/em&gt; with its &lt;em&gt;overall funding strategy&lt;/em&gt;.</str>
+        <str name="text">The bond &lt;em&gt;redemptions&lt;/em&gt; are the &lt;em&gt;first&lt;/em&gt; in the &lt;em&gt;public market&lt;/em&gt; and may be followed by &lt;em&gt;similar moves&lt;/em&gt; in &lt;em&gt;other capital markets&lt;/em&gt; if the Bank considers the &lt;em&gt;exercise&lt;/em&gt; financially &lt;em&gt;beneficial&lt;/em&gt; and &lt;em&gt;consistent&lt;/em&gt; with its &lt;em&gt;overall funding strategy&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rotberg&lt;/em&gt; was &lt;em&gt;responding&lt;/em&gt; to a &lt;em&gt;question following&lt;/em&gt; news the Bank &lt;em&gt;would exercise&lt;/em&gt; its &lt;em&gt;option&lt;/em&gt; to &lt;em&gt;prepay early&lt;/em&gt; some 196 mln &lt;em&gt;Swiss francs&lt;/em&gt; of &lt;em&gt;existing bonds&lt;/em&gt; in the &lt;em&gt;Swiss franc market&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">However, given the &lt;em&gt;current level&lt;/em&gt; of &lt;em&gt;interest rates,&lt;/em&gt; it would not be wise to take &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;money&lt;/em&gt; on to the &lt;em&gt;liability&lt;/em&gt; side of the Bank's &lt;em&gt;balance sheet,&lt;/em&gt; he said.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

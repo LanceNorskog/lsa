@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-28.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">exports</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">acted</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">reuter</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">urgent</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">bought</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">dispute</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"This rash of countervailing actions, where we acted on corn and you acted on soft wood and we both said they were quasijudicial -- the dispute resolution mechanisims in place now are not working adequately in either of our interests," he said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">245</int>
+        <str name="text">Some interpreted the move as a goodwill gesture in advance of his annual meeting, on April 5-6 in Ottawa, with Prime Minister Brian Mulroney.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">141</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In his prepared remarks, Clark said that the United States has tended to take Canada for granted, although it exports to its northern neighbor more than twice what it exports to Japan.</str>
-        <int name="index">17</int>
+        <str name="text">In a question-and-answer session with the public affairs group, Clark said that the two countries must find better mechanisms for resolving their trade disputes.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9076180318852644</double>
+        <int name="end">162</int>
+        <double name="strength">0.8393002740683855</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"There are a number of Canadian companies that, in order to secure substantial contracts in the United States, have had to move their head offices out of our country into your country because you have national procurement requirements," he said.</str>
-        <int name="index">13</int>
+        <str name="text">He listed environmental questions, particularly acid rain, and defense as the second and third most important bilateral issues facing Ottawa and Washington.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">246</int>
-        <double name="strength">0.827850817672236</double>
+        <int name="end">157</int>
+        <double name="strength">0.8383775700337384</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"This rash of &lt;em&gt;countervailing actions, where&lt;/em&gt; we &lt;em&gt;acted&lt;/em&gt; on corn and you &lt;em&gt;acted&lt;/em&gt; on soft wood and we both said they were &lt;em&gt;quasijudicial --&lt;/em&gt; the &lt;em&gt;dispute resolution mechanisims&lt;/em&gt; in &lt;em&gt;place&lt;/em&gt; now are not &lt;em&gt;working adequately&lt;/em&gt; in &lt;em&gt;either&lt;/em&gt; of our &lt;em&gt;interests,"&lt;/em&gt; he said.</str>
-        <int name="index">11</int>
+        <str name="text">Some interpreted the move as a &lt;em&gt;goodwill gesture&lt;/em&gt; in &lt;em&gt;advance&lt;/em&gt; of his &lt;em&gt;annual meeting,&lt;/em&gt; on &lt;em&gt;April 5-6&lt;/em&gt; in &lt;em&gt;Ottawa,&lt;/em&gt; with &lt;em&gt;Prime Minister Brian Mulroney&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In his &lt;em&gt;prepared remarks, Clark&lt;/em&gt; said that the &lt;em&gt;United States&lt;/em&gt; has &lt;em&gt;tended&lt;/em&gt; to take &lt;em&gt;Canada&lt;/em&gt; for &lt;em&gt;granted, although&lt;/em&gt; it &lt;em&gt;exports&lt;/em&gt; to its &lt;em&gt;northern neighbor&lt;/em&gt; more than &lt;em&gt;twice&lt;/em&gt; what it &lt;em&gt;exports&lt;/em&gt; to &lt;em&gt;Japan&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">In a &lt;em&gt;question&lt;/em&gt;-and-&lt;em&gt;answer session&lt;/em&gt; with the &lt;em&gt;public affairs group, Clark&lt;/em&gt; said that the two &lt;em&gt;countries&lt;/em&gt; must find better &lt;em&gt;mechanisms&lt;/em&gt; for resolving their &lt;em&gt;trade disputes&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; are a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;Canadian companies&lt;/em&gt; that, in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;secure substantial contracts&lt;/em&gt; in the &lt;em&gt;United States,&lt;/em&gt; have had to move &lt;em&gt;their&lt;/em&gt; head &lt;em&gt;offices&lt;/em&gt; out of our &lt;em&gt;country&lt;/em&gt; into your &lt;em&gt;country because&lt;/em&gt; you have &lt;em&gt;national procurement requirements,"&lt;/em&gt; he said.</str>
-        <int name="index">13</int>
+        <str name="text">He listed &lt;em&gt;environmental questions,&lt;/em&gt; particularly acid rain, and &lt;em&gt;defense&lt;/em&gt; as the &lt;em&gt;second&lt;/em&gt; and &lt;em&gt;third&lt;/em&gt; most &lt;em&gt;important bilateral issues&lt;/em&gt; facing &lt;em&gt;Ottawa&lt;/em&gt; and Washington.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

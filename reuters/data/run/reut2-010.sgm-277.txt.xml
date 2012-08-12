@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-277.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">200</int>
+        <int name="count">144</int>
       </lst>
       <lst name="stems">
-        <int name="count">131</int>
+        <int name="count">96</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">compatible</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">growing</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">biggest</str>
-        <double name="strength">0.8944271909999176</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9902130691945663</double>
       </lst>
       <lst name="term">
-        <str name="text">change</str>
-        <double name="strength">0.8944271909999176</double>
+        <str name="text">strengths</str>
+        <double name="strength">0.9902130691945654</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.8944271909999176</double>
+        <str name="text">machines</str>
+        <double name="strength">0.9902130691945654</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"This is where the market is going to be for a long time -- in products that combine personal computers, video display and telecommunications networks," said Salomon Brothers (Asia) Ltd analyst Carole Ryavec.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">NEC wants to follow its corporate slogan "C and C" (Computers and Communications) to create high level home electronics that go beyond mere televisions and video tape recorders, Sekimoto said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9636365081182947</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, the world's largest manufacturer of microchips, the tiny silicon wafers which are the brains of most high technology products, knows it must keep looking ahead if it is to survive.</str>
-        <int name="index">5</int>
+        <str name="text">In fact, NEC, which has over half of Japan's personal computer market, may go to court to stop competitors selling cheaper machines which can run NEC software but infringe copyright on its operating system, an NEC spokesman said.</str>
+        <int name="index">29</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.9940770991845115</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But after two years of cutbacks in capital investment in the sector, Sekimoto thinks the time has come to boost spending again, if only slightly.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.9882283484706277</double>
+        <int name="end">230</int>
+        <double name="strength">0.9338905460915178</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">NEC &lt;em&gt;wants&lt;/em&gt; to &lt;em&gt;follow&lt;/em&gt; its &lt;em&gt;corporate slogan &lt;/em&gt;"C and C" (&lt;em&gt;Computers&lt;/em&gt; and &lt;em&gt;Communications)&lt;/em&gt; to &lt;em&gt;create&lt;/em&gt; high &lt;em&gt;level&lt;/em&gt; home &lt;em&gt;electronics&lt;/em&gt; that go &lt;em&gt;beyond&lt;/em&gt; mere &lt;em&gt;televisions&lt;/em&gt; and &lt;em&gt;video&lt;/em&gt; tape &lt;em&gt;recorders, Sekimoto said&lt;/em&gt;.</str>
+        <str name="text">"This is where the &lt;em&gt;market&lt;/em&gt; is going to be for a long time -- in &lt;em&gt;products&lt;/em&gt; that &lt;em&gt;combine personal computers, video display&lt;/em&gt; and &lt;em&gt;telecommunications networks,"&lt;/em&gt; said &lt;em&gt;Salomon Brothers &lt;/em&gt;(Asia) Ltd &lt;em&gt;analyst Carole Ryavec&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">NEC wants to &lt;em&gt;follow&lt;/em&gt; its &lt;em&gt;corporate slogan &lt;/em&gt;"C and C" (&lt;em&gt;Computers&lt;/em&gt; and &lt;em&gt;Communications)&lt;/em&gt; to &lt;em&gt;create&lt;/em&gt; high &lt;em&gt;level&lt;/em&gt; home &lt;em&gt;electronics&lt;/em&gt; that go beyond mere &lt;em&gt;televisions&lt;/em&gt; and &lt;em&gt;video&lt;/em&gt; tape &lt;em&gt;recorders, Sekimoto said&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;largest manufacturer&lt;/em&gt; of &lt;em&gt;microchips,&lt;/em&gt; the tiny &lt;em&gt;silicon wafers which&lt;/em&gt; are the &lt;em&gt;brains&lt;/em&gt; of most high &lt;em&gt;technology products, knows&lt;/em&gt; it must keep &lt;em&gt;looking ahead&lt;/em&gt; if it is to &lt;em&gt;survive&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But &lt;em&gt;after&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; of &lt;em&gt;cutbacks&lt;/em&gt; in &lt;em&gt;capital investment&lt;/em&gt; in the &lt;em&gt;sector, Sekimoto thinks&lt;/em&gt; the time has come to &lt;em&gt;boost spending again,&lt;/em&gt; if only &lt;em&gt;slightly&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">In fact, NEC, which has over half of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;personal computer market,&lt;/em&gt; may go to &lt;em&gt;court&lt;/em&gt; to stop &lt;em&gt;competitors&lt;/em&gt; selling cheaper &lt;em&gt;machines&lt;/em&gt; which can run NEC &lt;em&gt;software&lt;/em&gt; but &lt;em&gt;infringe copyright&lt;/em&gt; on its &lt;em&gt;operating system,&lt;/em&gt; an NEC &lt;em&gt;spokesman said&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
     </lst>
   </lst>

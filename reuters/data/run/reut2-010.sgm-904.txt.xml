@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-904.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">167</int>
+        <int name="count">135</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">96</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">compete</str>
+        <str name="text">congress</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">terms</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">problems</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">difficulties</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.99343275937566</double>
       </lst>
       <lst name="term">
-        <str name="text">virginia</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9934327593756599</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"I'm tired of going into companies and having managers say to me, 'We're not over competing in Japan because we can't compete in the marketplace.'</str>
-        <int name="index">29</int>
-        <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Byrd and House Speaker Jim Wright, a Texas Democrat, have made trade legislation a priority this year and a wide-ranging bill is being readied for probable House approval next month.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.9784405815193818</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"Japan has come to symbolize what we fear most in trade: the challenge to our high technology industries, the threat of government nutured competition, and the multitude of barriers to our exports," Senate Democratic Leader Robert Byrd said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">242</int>
-        <double name="strength">0.9450007433196811</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Congress also has been been angered by the administration's lack of success with Japan on a host of other trade issues including beef, citrus, automobile parts, telecommunications goods, and financial services.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.879355976373765</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. semiconductor industry, President Reagan Friday announced he intended to raise tariffs as much as 300 mln dlrs on Japanese electronic goods in retaliation for Japan's failure to abide by a 1986 U.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
+        <double name="strength">0.8629336764073359</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"I'm &lt;em&gt;tired&lt;/em&gt; of &lt;em&gt;going&lt;/em&gt; into &lt;em&gt;companies&lt;/em&gt; and &lt;em&gt;having managers&lt;/em&gt; say to me, 'We're not over &lt;em&gt;competing&lt;/em&gt; in &lt;em&gt;Japan because&lt;/em&gt; we can't &lt;em&gt;compete&lt;/em&gt; in the &lt;em&gt;marketplace.&lt;/em&gt;'</str>
-        <int name="index">29</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Byrd and &lt;em&gt;House Speaker&lt;/em&gt; Jim &lt;em&gt;Wright,&lt;/em&gt; a &lt;em&gt;Texas Democrat,&lt;/em&gt; have made &lt;em&gt;trade legislation&lt;/em&gt; a &lt;em&gt;priority&lt;/em&gt; this year and a wide-&lt;em&gt;ranging&lt;/em&gt; bill is &lt;em&gt;being readied&lt;/em&gt; for &lt;em&gt;probable House approval&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
         <str name="text">&lt;em&gt;"Japan&lt;/em&gt; has come to &lt;em&gt;symbolize&lt;/em&gt; what we fear most in &lt;em&gt;trade:&lt;/em&gt; the &lt;em&gt;challenge&lt;/em&gt; to our high &lt;em&gt;technology industries,&lt;/em&gt; the &lt;em&gt;threat&lt;/em&gt; of &lt;em&gt;government nutured competition,&lt;/em&gt; and the &lt;em&gt;multitude&lt;/em&gt; of &lt;em&gt;barriers&lt;/em&gt; to our &lt;em&gt;exports," Senate Democratic Leader Robert&lt;/em&gt; Byrd said.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Congress&lt;/em&gt; also has been been angered by the &lt;em&gt;administration&lt;/em&gt;'s lack of &lt;em&gt;success&lt;/em&gt; with &lt;em&gt;Japan&lt;/em&gt; on a host of &lt;em&gt;other trade issues&lt;/em&gt; including beef, &lt;em&gt;citrus, automobile parts, telecommunications goods,&lt;/em&gt; and &lt;em&gt;financial services&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;semiconductor industry, President&lt;/em&gt; Reagan &lt;em&gt;Friday&lt;/em&gt; announced he intended to &lt;em&gt;raise tariffs&lt;/em&gt; as much as 300 mln dlrs on &lt;em&gt;Japanese electronic goods&lt;/em&gt; in &lt;em&gt;retaliation&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;abide&lt;/em&gt; by a 1986 U.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

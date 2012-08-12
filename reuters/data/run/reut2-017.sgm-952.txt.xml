@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">31</int>
+  <int name="QTime">47</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-952.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">50</int>
       </lst>
       <lst name="terms">
-        <int name="count">290</int>
+        <int name="count">225</int>
       </lst>
       <lst name="stems">
-        <int name="count">191</int>
+        <int name="count">142</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">supported</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">previous</str>
-        <double name="strength">0.7550966383821685</double>
+        <str name="text">dollars</str>
+        <double name="strength">0.8617464715732964</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.5602968695817336</double>
+        <str name="text">medium</str>
+        <double name="strength">0.8613793828052415</double>
       </lst>
       <lst name="term">
-        <str name="text">fight</str>
-        <double name="strength">0.5262383320064878</double>
+        <str name="text">commitment</str>
+        <double name="strength">0.8608277472007386</double>
       </lst>
       <lst name="term">
-        <str name="text">relations</str>
-        <double name="strength">0.5193964132210438</double>
+        <str name="text">european</str>
+        <double name="strength">0.8592212325894526</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. Intends to table specific proposals on the issue at GATT, the world trade body, immediately after the summit to signal that it wants negotiations on farm trade to take precedence over the other trade issues included in the new GATT round of talks launched last year in Punta del Este, Uruguay.</str>
-        <int name="index">44</int>
-        <int name="start">0</int>
-        <int name="end">296</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Officials said there was also scope for agreement on a Franco-British plan aimed at alleviating the burden for the world's poorest debtor countries through concessional rescheduling of their sovereign debt at the Paris Club.</str>
-        <int name="index">36</int>
+        <str name="text">The main goal at the summit would be to strengthen existing agreements to secure steady medium term growth and avoid "the danger of a further devaluation of the dollar" via close co-operation on economic and financial policies, Kohl added.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9710271688615283</double>
+        <int name="end">240</int>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">S., Japan, Germany, Britain, France, Italy, Canada and the European Community - to go much beyond restating policy goals enshrined in the February Louvre agreement of Group of Seven finance ministers and central bankers.</str>
         <int name="index">13</int>
         <int name="start">0</int>
         <int name="end">220</int>
-        <double name="strength">0.9552857419326692</double>
+        <double name="strength">0.9938080096433325</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The talks would also include plans to dismantle runaway farm subsidies all summit nations pay to guarantee the income of their farmers and secure a share of world markets, they said.</str>
+        <int name="index">37</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.9935710133518205</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Intends&lt;/em&gt; to &lt;em&gt;table specific proposals&lt;/em&gt; on the &lt;em&gt;issue&lt;/em&gt; at GATT, the &lt;em&gt;world trade&lt;/em&gt; body, &lt;em&gt;immediately after&lt;/em&gt; the &lt;em&gt;summit&lt;/em&gt; to &lt;em&gt;signal&lt;/em&gt; that it &lt;em&gt;wants negotiations&lt;/em&gt; on farm &lt;em&gt;trade&lt;/em&gt; to take &lt;em&gt;precedence&lt;/em&gt; over the &lt;em&gt;other trade issues included&lt;/em&gt; in the new GATT &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;talks launched&lt;/em&gt; last year in &lt;em&gt;Punta&lt;/em&gt; del Este, &lt;em&gt;Uruguay&lt;/em&gt;.</str>
-        <int name="index">44</int>
+        <str name="text">The main goal at the &lt;em&gt;summit&lt;/em&gt; would be to &lt;em&gt;strengthen&lt;/em&gt; existing &lt;em&gt;agreements&lt;/em&gt; to &lt;em&gt;secure steady medium&lt;/em&gt; term &lt;em&gt;growth&lt;/em&gt; and &lt;em&gt;avoid &lt;/em&gt;"the &lt;em&gt;danger&lt;/em&gt; of a &lt;em&gt;further devaluation&lt;/em&gt; of the &lt;em&gt;dollar"&lt;/em&gt; via &lt;em&gt;close&lt;/em&gt; co-&lt;em&gt;operation&lt;/em&gt; on &lt;em&gt;economic&lt;/em&gt; and &lt;em&gt;financial policies,&lt;/em&gt; Kohl added.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Officials&lt;/em&gt; said &lt;em&gt;there&lt;/em&gt; was also &lt;em&gt;scope&lt;/em&gt; for &lt;em&gt;agreement&lt;/em&gt; on a &lt;em&gt;Franco-British&lt;/em&gt; plan &lt;em&gt;aimed&lt;/em&gt; at &lt;em&gt;alleviating&lt;/em&gt; the &lt;em&gt;burden&lt;/em&gt; for the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;poorest debtor countries through concessional rescheduling&lt;/em&gt; of &lt;em&gt;their sovereign&lt;/em&gt; debt at the &lt;em&gt;Paris Club&lt;/em&gt;.</str>
-        <int name="index">36</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S., &lt;em&gt;Japan, Germany, Britain, France, Italy, Canada&lt;/em&gt; and the &lt;em&gt;European Community -&lt;/em&gt; to go much &lt;em&gt;beyond restating policy goals enshrined&lt;/em&gt; in the &lt;em&gt;February Louvre agreement&lt;/em&gt; of &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven finance ministers&lt;/em&gt; and &lt;em&gt;central bankers&lt;/em&gt;.</str>
+        <str name="text">S., Japan, &lt;em&gt;Germany, Britain, France,&lt;/em&gt; Italy, &lt;em&gt;Canada&lt;/em&gt; and the &lt;em&gt;European Community -&lt;/em&gt; to go much beyond restating &lt;em&gt;policy goals&lt;/em&gt; enshrined in the &lt;em&gt;February Louvre agreement&lt;/em&gt; of &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven finance ministers&lt;/em&gt; and &lt;em&gt;central bankers&lt;/em&gt;.</str>
         <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;talks&lt;/em&gt; would also &lt;em&gt;include plans&lt;/em&gt; to &lt;em&gt;dismantle runaway&lt;/em&gt; farm &lt;em&gt;subsidies&lt;/em&gt; all &lt;em&gt;summit nations&lt;/em&gt; pay to &lt;em&gt;guarantee&lt;/em&gt; the &lt;em&gt;income&lt;/em&gt; of their &lt;em&gt;farmers&lt;/em&gt; and &lt;em&gt;secure&lt;/em&gt; a &lt;em&gt;share&lt;/em&gt; of &lt;em&gt;world markets,&lt;/em&gt; they said.</str>
+        <int name="index">37</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-248.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">flight</str>
+        <str name="text">spokesman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">recorder</str>
-        <double name="strength">0.6666666666666674</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">police</str>
-        <double name="strength">0.6666666666666669</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9580049845271345</double>
       </lst>
       <lst name="term">
-        <str name="text">bulkhead</str>
-        <double name="strength">0.3726779962499657</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9580049845271341</double>
       </lst>
       <lst name="term">
-        <str name="text">revealed</str>
-        <double name="strength">0.33333333333333415</double>
+        <str name="text">ministry</str>
+        <double name="strength">0.9580049845271341</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">289</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The Boeing examination of the bulkhead at the site of the crash has revealed that a relatively small section of the bulkhead splice, approximately 17 per cent, was not correctly assembled during repairs which Boeing made after a 1978 landing accident," the statement said.</str>
-        <int name="index">13</int>
+        <str name="text">The repairs were required after a 1978 landing accident at Osaka airport, in western Japan, in which the plane's tail scraped the runway.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">274</int>
-        <double name="strength">0.65217047739291</double>
+        <int name="end">138</int>
+        <double name="strength">0.8914907668749387</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Police had investigated four inspectors, including one man who two weeks ago killed himself by drinking insecticide after four days of police questioning.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.6375355777548607</double>
+        <str name="text">Under an international convention, the draft must be submitted for final comments to the pertinent authorities.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">111</int>
+        <double name="strength">0.863402082139125</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Boeing statement after&lt;/em&gt; the &lt;em&gt;crash&lt;/em&gt; said: "&lt;em&gt;Examination&lt;/em&gt; of the &lt;em&gt;wreckage,&lt;/em&gt; the &lt;em&gt;flight&lt;/em&gt; data &lt;em&gt;recorder readout,&lt;/em&gt; the &lt;em&gt;cockpit voice recorder,&lt;/em&gt; and &lt;em&gt;interviews&lt;/em&gt; with the &lt;em&gt;surviving&lt;/em&gt; off-duty &lt;em&gt;flight attendant indicate&lt;/em&gt; that &lt;em&gt;decompression occurred&lt;/em&gt; in &lt;em&gt;flight&lt;/em&gt; due to a &lt;em&gt;rupture&lt;/em&gt; of the aft &lt;em&gt;pressure bulkhead&lt;/em&gt;.</str>
+        <str name="text">The Boeing &lt;em&gt;statement&lt;/em&gt; after the &lt;em&gt;crash&lt;/em&gt; said: "&lt;em&gt;Examination&lt;/em&gt; of the &lt;em&gt;wreckage,&lt;/em&gt; the &lt;em&gt;flight&lt;/em&gt; data &lt;em&gt;recorder readout,&lt;/em&gt; the &lt;em&gt;cockpit voice recorder,&lt;/em&gt; and &lt;em&gt;interviews&lt;/em&gt; with the surviving off-duty &lt;em&gt;flight attendant indicate&lt;/em&gt; that &lt;em&gt;decompression&lt;/em&gt; occurred in &lt;em&gt;flight&lt;/em&gt; due to a &lt;em&gt;rupture&lt;/em&gt; of the aft &lt;em&gt;pressure bulkhead&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;Boeing examination&lt;/em&gt; of the &lt;em&gt;bulkhead&lt;/em&gt; at the site of the &lt;em&gt;crash&lt;/em&gt; has &lt;em&gt;revealed&lt;/em&gt; that a &lt;em&gt;relatively small section&lt;/em&gt; of the &lt;em&gt;bulkhead splice, approximately 17&lt;/em&gt; per cent, was not &lt;em&gt;correctly assembled during repairs which Boeing&lt;/em&gt; made &lt;em&gt;after&lt;/em&gt; a 1978 &lt;em&gt;landing accident,"&lt;/em&gt; the &lt;em&gt;statement said&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">The &lt;em&gt;repairs&lt;/em&gt; were required after a 1978 &lt;em&gt;landing accident&lt;/em&gt; at &lt;em&gt;Osaka airport,&lt;/em&gt; in &lt;em&gt;western Japan,&lt;/em&gt; in which the &lt;em&gt;plane&lt;/em&gt;'s tail scraped the &lt;em&gt;runway&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Police&lt;/em&gt; had &lt;em&gt;investigated&lt;/em&gt; four &lt;em&gt;inspectors, including&lt;/em&gt; one man who two &lt;em&gt;weeks&lt;/em&gt; ago &lt;em&gt;killed himself&lt;/em&gt; by &lt;em&gt;drinking insecticide after&lt;/em&gt; four days of &lt;em&gt;police questioning&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Under an &lt;em&gt;international convention,&lt;/em&gt; the &lt;em&gt;draft&lt;/em&gt; must be submitted for &lt;em&gt;final comments&lt;/em&gt; to the &lt;em&gt;pertinent authorities&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

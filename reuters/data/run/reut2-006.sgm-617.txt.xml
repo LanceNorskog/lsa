@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-617.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">agency</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">development</str>
+        <str name="text">fiscal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">budget</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">beshir</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">deficit</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">parliament</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">difficult</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. Agency for International Development, the World Bank and its soft loan affiliate, the International Development Agency.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">122</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Sudanese officials said Prime Minister Sadeq al-Mahdi's government would shortly announce a four-year economic plan aimed at starting the country's recovery.</str>
-        <int name="index">16</int>
+        <str name="text">Sudan, its Treasury depleted by nearly four years of civil war in the south and the aftermath of the devastating 1984-85 drought, has a budget deficit of 2.86 billion pounds this fiscal year.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">158</int>
-        <double name="strength">0.9987365756167896</double>
+        <int name="end">192</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The sources said Sudan, hit by a slump in export earnings and remittances from expatriate workers, had an annual debt liability of nearly 900 mln dlrs but set aside only some 200 mln dlrs to service debts in the fiscal year ending next June 30.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">245</int>
-        <double name="strength">0.9490998097499415</double>
+        <double name="strength">0.9784288788186073</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A Bank of Sudan (Central Bank) spokesman said last month Khartoum was negotiating a freeze on interest payments with commercial banks, owed about two billion dlrs.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.9112245031380246</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Agency&lt;/em&gt; for &lt;em&gt;International Development,&lt;/em&gt; the &lt;em&gt;World&lt;/em&gt; Bank and its soft loan &lt;em&gt;affiliate,&lt;/em&gt; the &lt;em&gt;International Development Agency&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Sudan,&lt;/em&gt; its &lt;em&gt;Treasury&lt;/em&gt; depleted by nearly four &lt;em&gt;years&lt;/em&gt; of &lt;em&gt;civil&lt;/em&gt; war in the &lt;em&gt;south&lt;/em&gt; and the &lt;em&gt;aftermath&lt;/em&gt; of the &lt;em&gt;devastating 1984-85 drought,&lt;/em&gt; has a &lt;em&gt;budget deficit&lt;/em&gt; of 2.86 &lt;em&gt;billion pounds&lt;/em&gt; this &lt;em&gt;fiscal year&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sudanese officials&lt;/em&gt; said &lt;em&gt;Prime Minister Sadeq&lt;/em&gt; al-&lt;em&gt;Mahdi&lt;/em&gt;'s &lt;em&gt;government would shortly announce&lt;/em&gt; a four-year &lt;em&gt;economic&lt;/em&gt; plan &lt;em&gt;aimed&lt;/em&gt; at &lt;em&gt;starting&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;recovery&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said &lt;em&gt;Sudan,&lt;/em&gt; hit by a &lt;em&gt;slump&lt;/em&gt; in &lt;em&gt;export earnings&lt;/em&gt; and &lt;em&gt;remittances&lt;/em&gt; from &lt;em&gt;expatriate workers,&lt;/em&gt; had an &lt;em&gt;annual&lt;/em&gt; debt &lt;em&gt;liability&lt;/em&gt; of &lt;em&gt;nearly 900&lt;/em&gt; mln dlrs but set &lt;em&gt;aside&lt;/em&gt; only some 200 mln dlrs to &lt;em&gt;service debts&lt;/em&gt; in the &lt;em&gt;fiscal&lt;/em&gt; year &lt;em&gt;ending&lt;/em&gt; next June 30.</str>
+        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said &lt;em&gt;Sudan,&lt;/em&gt; hit by a &lt;em&gt;slump&lt;/em&gt; in &lt;em&gt;export earnings&lt;/em&gt; and &lt;em&gt;remittances&lt;/em&gt; from &lt;em&gt;expatriate workers,&lt;/em&gt; had an &lt;em&gt;annual&lt;/em&gt; debt &lt;em&gt;liability&lt;/em&gt; of nearly 900 mln dlrs but set aside only some 200 mln dlrs to &lt;em&gt;service debts&lt;/em&gt; in the &lt;em&gt;fiscal&lt;/em&gt; year ending next June 30.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A Bank of &lt;em&gt;Sudan (Central&lt;/em&gt; Bank) &lt;em&gt;spokesman&lt;/em&gt; said last &lt;em&gt;month Khartoum&lt;/em&gt; was negotiating a &lt;em&gt;freeze&lt;/em&gt; on &lt;em&gt;interest payments&lt;/em&gt; with &lt;em&gt;commercial banks,&lt;/em&gt; owed about two &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

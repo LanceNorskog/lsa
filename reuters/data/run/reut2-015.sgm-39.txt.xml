@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-39.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">promise</str>
+        <str name="text">article</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">principal</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">reflect</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">significant</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">seems</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">harshness</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">possible</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">rectal</str>
+        <double name="strength">0.9634242309653832</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">0</int>
         <int name="end">288</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">"On the other hand, if they reflect, as seems possible, a successful manipulation of the cellular immune system, then we may be near the end of our search for a meaningful direction in the immunuotherapy of cancer," the editorial concluded.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">241</int>
-        <double name="strength">0.9607508416755388</double>
+        <double name="strength">0.9849041111144432</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"These observations reported by Rosenberg and West surely did not describe successful practical approaches ready for widespread applications in the therapy of cancer patients," the editorial said.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.9176311145148633</double>
+        <double name="strength">0.9050778767658983</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Promising&lt;/em&gt; new &lt;em&gt;findings&lt;/em&gt; in the use of a &lt;em&gt;controversial experimental&lt;/em&gt; drug &lt;em&gt;called Interleukin-2&lt;/em&gt; as a cure for &lt;em&gt;cancer&lt;/em&gt; will be &lt;em&gt;published&lt;/em&gt; in the &lt;em&gt;April 9 issue&lt;/em&gt; of the &lt;em&gt;prestigious&lt;/em&gt; New &lt;em&gt;England Journal&lt;/em&gt; of &lt;em&gt;Medicine, according&lt;/em&gt; to a Wall &lt;em&gt;Street analyst&lt;/em&gt; who has &lt;em&gt;obtained&lt;/em&gt; an &lt;em&gt;advance&lt;/em&gt; copy of the &lt;em&gt;magazine&lt;/em&gt;.</str>
+        <str name="text">Promising new &lt;em&gt;findings&lt;/em&gt; in the use of a &lt;em&gt;controversial experimental&lt;/em&gt; drug called &lt;em&gt;Interleukin-2&lt;/em&gt; as a cure for &lt;em&gt;cancer&lt;/em&gt; will be published in the &lt;em&gt;April 9 issue&lt;/em&gt; of the &lt;em&gt;prestigious&lt;/em&gt; New &lt;em&gt;England Journal&lt;/em&gt; of &lt;em&gt;Medicine,&lt;/em&gt; according to a Wall &lt;em&gt;Street analyst&lt;/em&gt; who has obtained an &lt;em&gt;advance&lt;/em&gt; copy of the &lt;em&gt;magazine&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"On the &lt;em&gt;other&lt;/em&gt; hand, if they &lt;em&gt;reflect,&lt;/em&gt; as &lt;em&gt;seems possible,&lt;/em&gt; a &lt;em&gt;successful manipulation&lt;/em&gt; of the &lt;em&gt;cellular immune system,&lt;/em&gt; then we may be near the end of our &lt;em&gt;search&lt;/em&gt; for a &lt;em&gt;meaningful direction&lt;/em&gt; in the &lt;em&gt;immunuotherapy&lt;/em&gt; of &lt;em&gt;cancer,"&lt;/em&gt; the &lt;em&gt;editorial concluded&lt;/em&gt;.</str>
+        <str name="text">"On the &lt;em&gt;other&lt;/em&gt; hand, if they &lt;em&gt;reflect,&lt;/em&gt; as seems &lt;em&gt;possible,&lt;/em&gt; a &lt;em&gt;successful manipulation&lt;/em&gt; of the &lt;em&gt;cellular immune system,&lt;/em&gt; then we may be near the end of our &lt;em&gt;search&lt;/em&gt; for a &lt;em&gt;meaningful direction&lt;/em&gt; in the &lt;em&gt;immunuotherapy&lt;/em&gt; of &lt;em&gt;cancer,"&lt;/em&gt; the &lt;em&gt;editorial concluded&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"These observations reported&lt;/em&gt; by &lt;em&gt;Rosenberg&lt;/em&gt; and West &lt;em&gt;surely&lt;/em&gt; did not &lt;em&gt;describe successful practical approaches ready&lt;/em&gt; for &lt;em&gt;widespread applications&lt;/em&gt; in the &lt;em&gt;therapy&lt;/em&gt; of &lt;em&gt;cancer patients,"&lt;/em&gt; the &lt;em&gt;editorial said&lt;/em&gt;.</str>
+        <str name="text">"These &lt;em&gt;observations&lt;/em&gt; reported by &lt;em&gt;Rosenberg&lt;/em&gt; and West surely did not &lt;em&gt;describe successful practical approaches ready&lt;/em&gt; for &lt;em&gt;widespread applications&lt;/em&gt; in the &lt;em&gt;therapy&lt;/em&gt; of &lt;em&gt;cancer patients,"&lt;/em&gt; the &lt;em&gt;editorial said&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
     </lst>

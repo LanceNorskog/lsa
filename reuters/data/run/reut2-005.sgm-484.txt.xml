@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-484.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">44</int>
+        <int name="count">33</int>
       </lst>
       <lst name="stems">
-        <int name="count">36</int>
+        <int name="count">27</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">decline</str>
+        <str name="text">january</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">materials</str>
-        <double name="strength">0.7905694150420949</double>
-      </lst>
-      <lst name="term">
         <str name="text">surge</str>
-        <double name="strength">0.5000000000000014</double>
+        <double name="strength">0.6074236302259761</double>
       </lst>
       <lst name="term">
         <str name="text">automobile</str>
-        <double name="strength">0.5000000000000014</double>
+        <double name="strength">0.6074236302259761</double>
       </lst>
       <lst name="term">
         <str name="text">assemblies</str>
-        <double name="strength">0.5000000000000014</double>
+        <double name="strength">0.6074236302259761</double>
+      </lst>
+      <lst name="term">
+        <str name="text">raise</str>
+        <double name="strength">0.6074236302259761</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Fed said the decline in energy materials use and durables goods materials were the reason for the decline over the past year for producers of industrial materials.</str>
-        <int name="index">12</int>
+        <str name="text">A surge in automobile assemblies in February and a gain in primary metals production helped raise manufacturing to 80.1 pct capacity from 79.9 pct in January.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">168</int>
+        <int name="end">159</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">U.S. factories, mines and utilities operated at 79.8 pct of capacity in February, compared with a revised 79.6 pct in January and December, the Federal reserve Board said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">171</int>
-        <double name="strength">0.8240688592767869</double>
+        <double name="strength">0.9384538152222128</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Fabricated metals increased to 81.4 pct in February from 81.2 pct in January, while motor vehicles and parts jumped to 83.6 pct from 80.0 in January.</str>
-        <int name="index">6</int>
+        <str name="text">The Fed said the decline in energy materials use and durables goods materials were the reason for the decline over the past year for producers of industrial materials.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">150</int>
-        <double name="strength">0.8009105521602335</double>
+        <int name="end">168</int>
+        <double name="strength">0.7246641655613288</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Fed said the &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;energy materials&lt;/em&gt; use and &lt;em&gt;durables goods materials&lt;/em&gt; were the &lt;em&gt;reason&lt;/em&gt; for the &lt;em&gt;decline&lt;/em&gt; over the past year for &lt;em&gt;producers&lt;/em&gt; of &lt;em&gt;industrial materials&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">A &lt;em&gt;surge&lt;/em&gt; in &lt;em&gt;automobile assemblies&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; and a gain in &lt;em&gt;primary metals production&lt;/em&gt; helped &lt;em&gt;raise manufacturing&lt;/em&gt; to 80.1 pct &lt;em&gt;capacity&lt;/em&gt; from 79.9 pct in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;factories, mines&lt;/em&gt; and &lt;em&gt;utilities operated&lt;/em&gt; at 79.8 pct of &lt;em&gt;capacity&lt;/em&gt; in &lt;em&gt;February, compared&lt;/em&gt; with a &lt;em&gt;revised 79.6&lt;/em&gt; pct in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;December,&lt;/em&gt; the &lt;em&gt;Federal reserve Board said&lt;/em&gt;.</str>
+        <str name="text">U.S. &lt;em&gt;factories, mines&lt;/em&gt; and &lt;em&gt;utilities&lt;/em&gt; operated at 79.8 pct of &lt;em&gt;capacity&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; compared with a revised 79.6 pct in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;December,&lt;/em&gt; the &lt;em&gt;Federal reserve Board said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fabricated metals increased&lt;/em&gt; to 81.4 pct in &lt;em&gt;February&lt;/em&gt; from 81.2 pct in &lt;em&gt;January, while motor vehicles&lt;/em&gt; and &lt;em&gt;parts jumped&lt;/em&gt; to 83.6 pct from 80.0 in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The Fed said the &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;energy materials&lt;/em&gt; use and &lt;em&gt;durables goods materials&lt;/em&gt; were the &lt;em&gt;reason&lt;/em&gt; for the &lt;em&gt;decline&lt;/em&gt; over the past year for &lt;em&gt;producers&lt;/em&gt; of &lt;em&gt;industrial materials&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

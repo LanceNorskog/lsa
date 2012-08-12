@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-692.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">around</str>
+        <str name="text">foreign</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">badly</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">inflation</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">steep</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">plunge</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">prices</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">crude</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">154</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But Prawiro was quoted by Indonesian newspapers as telling President Suharto that inflation was kept to around nine pct in the financial year ending tomorrow, against around 4.3 pct the previous year.</str>
-        <int name="index">2</int>
+        <str name="text">"About 50 pct of our foreign debt obligations fall due within the next three to five years and will steadily increase the debt servicing burden," the paper said.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.979502791140834</double>
+        <int name="end">162</int>
+        <double name="strength">0.8537486235647349</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The English-language daily said bigger export earnings were needed to finance not only imports but also the country's growing foreign debt, estimated at around 37 billion dlrs.</str>
-        <int name="index">8</int>
+        <str name="text">A 4.7 pct coupon and volume of 1,400 billion yen for the April 10-year bond proposed by the Finance Ministry this afternoon were taken favourably by the market.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.9529375045827773</double>
+        <int name="end">161</int>
+        <double name="strength">0.8037508167444922</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;depressed economy forms&lt;/em&gt; the main &lt;em&gt;backdrop&lt;/em&gt; to &lt;em&gt;general elections&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; in &lt;em&gt;Indonesia,&lt;/em&gt; a &lt;em&gt;major producer&lt;/em&gt; of &lt;em&gt;rubber,&lt;/em&gt; palm oil, tin, &lt;em&gt;timber&lt;/em&gt; and &lt;em&gt;coffee&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;depressed economy&lt;/em&gt; forms the main &lt;em&gt;backdrop&lt;/em&gt; to &lt;em&gt;general elections&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; in &lt;em&gt;Indonesia,&lt;/em&gt; a &lt;em&gt;major producer&lt;/em&gt; of &lt;em&gt;rubber,&lt;/em&gt; palm oil, tin, &lt;em&gt;timber&lt;/em&gt; and &lt;em&gt;coffee&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;Prawiro&lt;/em&gt; was &lt;em&gt;quoted&lt;/em&gt; by &lt;em&gt;Indonesian newspapers&lt;/em&gt; as &lt;em&gt;telling President Suharto&lt;/em&gt; that &lt;em&gt;inflation&lt;/em&gt; was kept to &lt;em&gt;around&lt;/em&gt; nine pct in the &lt;em&gt;financial&lt;/em&gt; year &lt;em&gt;ending tomorrow, against around 4.3&lt;/em&gt; pct the &lt;em&gt;previous year&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"About 50 pct of our &lt;em&gt;foreign&lt;/em&gt; debt &lt;em&gt;obligations&lt;/em&gt; fall due within the next &lt;em&gt;three&lt;/em&gt; to five &lt;em&gt;years&lt;/em&gt; and will steadily &lt;em&gt;increase&lt;/em&gt; the debt &lt;em&gt;servicing burden,"&lt;/em&gt; the &lt;em&gt;paper said&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;English-language daily&lt;/em&gt; said &lt;em&gt;bigger export earnings&lt;/em&gt; were &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; not only &lt;em&gt;imports&lt;/em&gt; but also the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;growing foreign&lt;/em&gt; debt, &lt;em&gt;estimated&lt;/em&gt; at &lt;em&gt;around 37 billion dlrs&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">A 4.7 pct &lt;em&gt;coupon&lt;/em&gt; and &lt;em&gt;volume&lt;/em&gt; of 1,400 &lt;em&gt;billion&lt;/em&gt; yen for the &lt;em&gt;April 10&lt;/em&gt;-year bond proposed by the &lt;em&gt;Finance Ministry&lt;/em&gt; this &lt;em&gt;afternoon&lt;/em&gt; were taken favourably by the &lt;em&gt;market&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

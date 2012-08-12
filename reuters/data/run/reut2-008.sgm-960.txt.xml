@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-960.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">160</int>
+        <int name="count">115</int>
       </lst>
       <lst name="stems">
-        <int name="count">106</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">origins</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">tonnes</str>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">presented</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">origins</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">working</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">underlying</str>
+        <double name="strength">0.9295398822652533</double>
       </lst>
       <lst name="term">
-        <str name="text">afternoon</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">ideas</str>
+        <double name="strength">0.9295398822652533</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The package, based on negotiating principles informally agreed by delegates, has been forged bit by bit during fortnight-long meetings by ICCO Executive Director Kobena Erbynn and a small group of other delegates.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Though the current semi-annual council meeting is not the last chance for delegates to cement buffer stock rules, producers are keen to get the wheels of the market-stabilizing mechanism turning to stem the decline in world prices, delegates said.</str>
-        <int name="index">21</int>
-        <int name="start">2</int>
-        <int name="end">249</int>
-        <double name="strength">0.9580929138104423</double>
-      </lst>
       <lst name="sentence">
         <str name="text">One of the underlying ideas of the rules package is "transparency," meaning virtually all the buffer stock manager's market activities will be public and he will have as little discretion as possible, delegates said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">217</int>
-        <double name="strength">0.9207854888720028</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Standard price differentials would be fixed for each origin, similar to golf handicaps, to determine the relative competitiveness of offers of various cocoas from different origins, they said.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">192</int>
+        <double name="strength">0.8130819834966191</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He would alert the market via news agencies as to when he wanted to buy cocoa and include shipment details and tonnage desired, delegates said.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">143</int>
+        <double name="strength">0.808611814249091</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;package, based&lt;/em&gt; on &lt;em&gt;negotiating principles informally agreed&lt;/em&gt; by &lt;em&gt;delegates,&lt;/em&gt; has been &lt;em&gt;forged&lt;/em&gt; bit by bit &lt;em&gt;during fortnight&lt;/em&gt;-long &lt;em&gt;meetings&lt;/em&gt; by ICCO &lt;em&gt;Executive Director Kobena Erbynn&lt;/em&gt; and a &lt;em&gt;small group&lt;/em&gt; of &lt;em&gt;other delegates&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Though&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; semi-&lt;em&gt;annual council meeting&lt;/em&gt; is not the last &lt;em&gt;chance&lt;/em&gt; for &lt;em&gt;delegates&lt;/em&gt; to &lt;em&gt;cement buffer stock rules, producers&lt;/em&gt; are keen to get the &lt;em&gt;wheels&lt;/em&gt; of the &lt;em&gt;market-stabilizing mechanism turning&lt;/em&gt; to stem the &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;world prices, delegates said&lt;/em&gt;.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">One of the &lt;em&gt;underlying ideas&lt;/em&gt; of the &lt;em&gt;rules package&lt;/em&gt; is "&lt;em&gt;transparency," meaning virtually&lt;/em&gt; all the &lt;em&gt;buffer stock manager&lt;/em&gt;'s &lt;em&gt;market activities&lt;/em&gt; will be &lt;em&gt;public&lt;/em&gt; and he will have as &lt;em&gt;little discretion&lt;/em&gt; as &lt;em&gt;possible, delegates said&lt;/em&gt;.</str>
+        <str name="text">One of the &lt;em&gt;underlying ideas&lt;/em&gt; of the &lt;em&gt;rules package&lt;/em&gt; is "&lt;em&gt;transparency,"&lt;/em&gt; meaning virtually all the &lt;em&gt;buffer stock manager&lt;/em&gt;'s &lt;em&gt;market activities&lt;/em&gt; will be &lt;em&gt;public&lt;/em&gt; and he will have as &lt;em&gt;little discretion&lt;/em&gt; as &lt;em&gt;possible, delegates said&lt;/em&gt;.</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Standard price differentials&lt;/em&gt; would be fixed for each &lt;em&gt;origin, similar&lt;/em&gt; to golf &lt;em&gt;handicaps,&lt;/em&gt; to &lt;em&gt;determine&lt;/em&gt; the &lt;em&gt;relative competitiveness&lt;/em&gt; of &lt;em&gt;offers&lt;/em&gt; of &lt;em&gt;various cocoas&lt;/em&gt; from &lt;em&gt;different origins,&lt;/em&gt; they said.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He would &lt;em&gt;alert&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; via news &lt;em&gt;agencies&lt;/em&gt; as to when he wanted to buy &lt;em&gt;cocoa&lt;/em&gt; and &lt;em&gt;include shipment details&lt;/em&gt; and &lt;em&gt;tonnage&lt;/em&gt; desired, &lt;em&gt;delegates said&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

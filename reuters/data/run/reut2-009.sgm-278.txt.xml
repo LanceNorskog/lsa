@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-278.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">south</str>
+        <str name="text">norwegian</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deminex</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">phase</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">tract</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">petroleum</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">central</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">eleventh</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">smoerbukk</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">subsidiary</str>
+        <double name="strength">0.9962467211771698</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Statoil has been offered the operatorship on a new block in the relatively unexplored Moere South exploration area south of Haltenbanken, with A/S Norske Shell, Texas Eastern and &lt;Petroleo Brasileiro SA&gt; (Petrobras) also offered stakes in the block.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">250</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">PA&gt;, which were expected to receive operatorships following France's agreement last autumn to purchase gas from Norway's Troll field, were not offered operatorships in this round, industry sources said.</str>
-        <int name="index">5</int>
-        <int name="start">0</int>
-        <int name="end">202</int>
-        <double name="strength">0.9811088193098851</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Norway has offered 10 new offshore blocks to foreign and domestic applicants in the first phase of the country's eleventh concession round, government officials said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">166</int>
-        <double name="strength">0.8009478414744358</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Three eleventh round blocks were awarded in the Haltenbanken exploration tract off central Norway, including the Smoerbukk West field where Den Norske Stats Oljeselskap A/S &lt;STAT.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.9363277085449581</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Statoil has been offered the operatorship on a new block in the relatively unexplored Moere South exploration area south of Haltenbanken, with A/S Norske Shell, Texas Eastern and &lt;Petroleo Brasileiro SA&gt; (Petrobras) also offered stakes in the block.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">250</int>
+        <double name="strength">0.7833581785104504</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Statoil&lt;/em&gt; has been &lt;em&gt;offered&lt;/em&gt; the &lt;em&gt;operatorship&lt;/em&gt; on a new &lt;em&gt;block&lt;/em&gt; in the &lt;em&gt;relatively unexplored Moere South exploration&lt;/em&gt; area &lt;em&gt;south&lt;/em&gt; of &lt;em&gt;Haltenbanken,&lt;/em&gt; with A/S &lt;em&gt;Norske Shell, Texas Eastern&lt;/em&gt; and &lt;&lt;em&gt;Petroleo Brasileiro&lt;/em&gt; SA&gt; (&lt;em&gt;Petrobras)&lt;/em&gt; also &lt;em&gt;offered stakes&lt;/em&gt; in the &lt;em&gt;block&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">PA&gt;, &lt;em&gt;which&lt;/em&gt; were &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;receive operatorships following France&lt;/em&gt;'s &lt;em&gt;agreement&lt;/em&gt; last &lt;em&gt;autumn&lt;/em&gt; to &lt;em&gt;purchase&lt;/em&gt; gas from &lt;em&gt;Norway&lt;/em&gt;'s &lt;em&gt;Troll field,&lt;/em&gt; were not &lt;em&gt;offered operatorships&lt;/em&gt; in this &lt;em&gt;round, industry sources said&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Norway&lt;/em&gt; has &lt;em&gt;offered 10&lt;/em&gt; new &lt;em&gt;offshore blocks&lt;/em&gt; to &lt;em&gt;foreign&lt;/em&gt; and &lt;em&gt;domestic applicants&lt;/em&gt; in the &lt;em&gt;first phase&lt;/em&gt; of the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;eleventh concession round, government officials said&lt;/em&gt;.</str>
+        <str name="text">Norway has offered 10 new &lt;em&gt;offshore blocks&lt;/em&gt; to &lt;em&gt;foreign&lt;/em&gt; and &lt;em&gt;domestic applicants&lt;/em&gt; in the &lt;em&gt;first phase&lt;/em&gt; of the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;eleventh concession round, government officials said&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Three eleventh round blocks&lt;/em&gt; were awarded in the &lt;em&gt;Haltenbanken exploration tract&lt;/em&gt; off &lt;em&gt;central Norway,&lt;/em&gt; including the &lt;em&gt;Smoerbukk&lt;/em&gt; West &lt;em&gt;field&lt;/em&gt; where Den &lt;em&gt;Norske Stats Oljeselskap&lt;/em&gt; A/S &lt;STAT.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Statoil&lt;/em&gt; has been offered the &lt;em&gt;operatorship&lt;/em&gt; on a new &lt;em&gt;block&lt;/em&gt; in the relatively &lt;em&gt;unexplored Moere South exploration&lt;/em&gt; area south of &lt;em&gt;Haltenbanken,&lt;/em&gt; with A/S &lt;em&gt;Norske Shell, Texas Eastern&lt;/em&gt; and &lt;&lt;em&gt;Petroleo Brasileiro&lt;/em&gt; SA&gt; (&lt;em&gt;Petrobras)&lt;/em&gt; also offered &lt;em&gt;stakes&lt;/em&gt; in the &lt;em&gt;block&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

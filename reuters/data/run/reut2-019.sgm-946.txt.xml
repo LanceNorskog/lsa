@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-946.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">corporations</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">credit</str>
-        <double name="strength">0.6666666666666667</double>
+        <str name="text">remittances</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.3333333333333336</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">quality</str>
-        <double name="strength">0.3333333333333336</double>
+        <str name="text">fiscal</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">produced</str>
-        <double name="strength">0.3333333333333336</double>
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">200</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Commerce and Planning Minister Mahbubul Haq said in a televised speech the government had also decided to allow duty-free import of cotton yarn to make the textile industry more competitive, and to link bulk tea imports to the export of Pakistani products.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">257</int>
-        <double name="strength">0.9779821736455098</double>
+        <str name="text">However, the remittances have begun to fall after the drop in oil prices in recent years leading to the spectre of a balance of payments crisis for Pakistan.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">157</int>
+        <double name="strength">0.8482684873992385</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Pakistan's 1986/87 exports at 3.6 billion dlrs, 18.2 per cent more than in the previous year, and imports at 5.23 billion dlrs compared to 5.63 billion dlrs in 1985/86.</str>
-        <int name="index">8</int>
+        <str name="text">"It has been observed that due to restrictions on imports, specially on raw materials and intermediate goods, local industry has been suffering for want of necessary inputs," he said.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.9683398708264696</double>
+        <int name="end">184</int>
+        <double name="strength">0.7688088098950674</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It was a &lt;em&gt;departure&lt;/em&gt; from the &lt;em&gt;previous practice&lt;/em&gt; of &lt;em&gt;announcing trade policies&lt;/em&gt; for a &lt;em&gt;single fiscal&lt;/em&gt; year, and Haq said it &lt;em&gt;would enable&lt;/em&gt; the &lt;em&gt;businessmen&lt;/em&gt; to plan &lt;em&gt;their market strategies&lt;/em&gt; over a &lt;em&gt;longer period&lt;/em&gt;.</str>
+        <str name="text">It was a &lt;em&gt;departure&lt;/em&gt; from the &lt;em&gt;previous practice&lt;/em&gt; of announcing &lt;em&gt;trade policies&lt;/em&gt; for a &lt;em&gt;single fiscal&lt;/em&gt; year, and Haq said it would &lt;em&gt;enable&lt;/em&gt; the &lt;em&gt;businessmen&lt;/em&gt; to plan their &lt;em&gt;market strategies&lt;/em&gt; over a longer &lt;em&gt;period&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commerce&lt;/em&gt; and &lt;em&gt;Planning Minister Mahbubul&lt;/em&gt; Haq said in a &lt;em&gt;televised speech&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; had also &lt;em&gt;decided&lt;/em&gt; to &lt;em&gt;allow&lt;/em&gt; duty-free &lt;em&gt;import&lt;/em&gt; of &lt;em&gt;cotton&lt;/em&gt; yarn to make the &lt;em&gt;textile industry&lt;/em&gt; more &lt;em&gt;competitive,&lt;/em&gt; and to link bulk tea &lt;em&gt;imports&lt;/em&gt; to the &lt;em&gt;export&lt;/em&gt; of &lt;em&gt;Pakistani products&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">However, the &lt;em&gt;remittances&lt;/em&gt; have begun to fall after the drop in oil &lt;em&gt;prices&lt;/em&gt; in &lt;em&gt;recent years&lt;/em&gt; leading to the &lt;em&gt;spectre&lt;/em&gt; of a &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments crisis&lt;/em&gt; for &lt;em&gt;Pakistan&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pakistan&lt;/em&gt;'s 1986/87 &lt;em&gt;exports&lt;/em&gt; at 3.6 &lt;em&gt;billion&lt;/em&gt; dlrs, 18.2 per cent more than in the &lt;em&gt;previous&lt;/em&gt; year, and &lt;em&gt;imports&lt;/em&gt; at 5.23 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;compared&lt;/em&gt; to 5.63 &lt;em&gt;billion&lt;/em&gt; dlrs in 1985/86.</str>
-        <int name="index">8</int>
+        <str name="text">"It has been observed that due to &lt;em&gt;restrictions&lt;/em&gt; on &lt;em&gt;imports,&lt;/em&gt; specially on raw &lt;em&gt;materials&lt;/em&gt; and &lt;em&gt;intermediate goods, local industry&lt;/em&gt; has been suffering for want of &lt;em&gt;necessary inputs,"&lt;/em&gt; he said.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

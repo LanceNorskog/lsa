@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-671.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">participating</str>
+        <str name="text">weapons</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">vendors</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">subcontrators</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">defend</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">agreement</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">subcontractors</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">generate</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">netherlands</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">138</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The company said the agreement will generate cost savings thorugh volume purchase discounts and efficient manufacturing.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">121</int>
-        <double name="strength">0.938272084829273</double>
+        <double name="strength">0.8352046896088966</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Army said that the multi-year contract would result in savings in excess of 12 pct over the continued award of annual contracts.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.7801071774261452</double>
+        <str name="text">Raytheon Co has been awarded a 3.53 billion dlr military procurement contract for Patriot air-defense missiles, the Army said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">126</int>
+        <double name="strength">0.6624818821661711</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;defense system&lt;/em&gt; uses &lt;em&gt;digital electronics&lt;/em&gt; with a &lt;em&gt;mulifunction phased array radar&lt;/em&gt; to &lt;em&gt;locate targets&lt;/em&gt; and &lt;em&gt;control firing&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;defense system&lt;/em&gt; uses &lt;em&gt;digital electronics&lt;/em&gt; with a &lt;em&gt;mulifunction&lt;/em&gt; phased &lt;em&gt;array radar&lt;/em&gt; to &lt;em&gt;locate targets&lt;/em&gt; and &lt;em&gt;control firing&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;agreement&lt;/em&gt; will &lt;em&gt;generate&lt;/em&gt; cost &lt;em&gt;savings thorugh volume purchase discounts&lt;/em&gt; and &lt;em&gt;efficient manufacturing&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said the &lt;em&gt;agreement&lt;/em&gt; will &lt;em&gt;generate&lt;/em&gt; cost &lt;em&gt;savings&lt;/em&gt; thorugh &lt;em&gt;volume purchase discounts&lt;/em&gt; and &lt;em&gt;efficient manufacturing&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Army said that the &lt;em&gt;multi&lt;/em&gt;-year &lt;em&gt;contract would result&lt;/em&gt; in &lt;em&gt;savings&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of 12 pct over the &lt;em&gt;continued award&lt;/em&gt; of &lt;em&gt;annual contracts&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Raytheon&lt;/em&gt; Co has been awarded a 3.53 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;military procurement contract&lt;/em&gt; for &lt;em&gt;Patriot&lt;/em&gt; air-&lt;em&gt;defense missiles,&lt;/em&gt; the Army said.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

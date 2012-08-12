@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-248.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">45</int>
       </lst>
       <lst name="terms">
-        <int name="count">212</int>
+        <int name="count">141</int>
       </lst>
       <lst name="stems">
-        <int name="count">146</int>
+        <int name="count">97</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">seeking</str>
+        <str name="text">filing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">required</str>
-        <double name="strength">0.5590169943749487</double>
+        <str name="text">ilacqua</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">stock</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">supreme</str>
+        <double name="strength">0.9820446799306272</double>
       </lst>
       <lst name="term">
-        <str name="text">protection</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">think</str>
+        <double name="strength">0.9820446799306259</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9542670970061473</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Although a Texas appeals court hearing was scheduled Monday (April 13) on Texaco's motion to reduce the amount of the bond required under state law, Texaco elected not to risk losing the important court ruling that could have required it to post more than 10 billion dlrs in collateral.</str>
-        <int name="index">19</int>
+        <str name="text">But unlike most Chapter 11 cases, the Texaco proceeding should not result in a major reorganization of the company or affect its daily business operations, several experts said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">287</int>
+        <int name="end">178</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The two companies have been locked in an acrimonious struggle since a Texas state court jury in November 1985 ordered Texaco to pay Pennzoil 10.53 billion dlrs for improperly interfering with Pennzoil's planned acquisition of Getty Oil Co.</str>
-        <int name="index">16</int>
+        <str name="text">Margoshes said he did not anticipate any significant changes in Texaco's oil exploration and production business because the bankruptcy filing affects only about four pct of the giant oil company's 32.6 billion dlrs in annual revenues.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">240</int>
-        <double name="strength">0.8850167228150264</double>
+        <int name="end">236</int>
+        <double name="strength">0.9919451445384371</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I think it makes it much more difficult to settle," said Baine Kerr, Pennzoil's retired president who has acted as the company's chief negotiator in the Texaco litigation.</str>
-        <int name="index">28</int>
+        <str name="text">"This is another piece of financial history," Sanford Margoshes, an analyst with Shearson Lehman Brothers, said of the bankruptcy filing.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.8778152578386164</double>
+        <int name="end">138</int>
+        <double name="strength">0.8350405390922434</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; a &lt;em&gt;Texas appeals court hearing&lt;/em&gt; was &lt;em&gt;scheduled Monday (April 13)&lt;/em&gt; on &lt;em&gt;Texaco&lt;/em&gt;'s &lt;em&gt;motion&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of the bond &lt;em&gt;required under state&lt;/em&gt; law, &lt;em&gt;Texaco elected&lt;/em&gt; not to risk &lt;em&gt;losing&lt;/em&gt; the &lt;em&gt;important court ruling&lt;/em&gt; that &lt;em&gt;could&lt;/em&gt; have &lt;em&gt;required&lt;/em&gt; it to post more than 10 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;collateral&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">But unlike most &lt;em&gt;Chapter 11 cases,&lt;/em&gt; the &lt;em&gt;Texaco proceeding&lt;/em&gt; should not &lt;em&gt;result&lt;/em&gt; in a &lt;em&gt;major reorganization&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt; or &lt;em&gt;affect&lt;/em&gt; its &lt;em&gt;daily business operations, several experts said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The two &lt;em&gt;companies&lt;/em&gt; have been &lt;em&gt;locked&lt;/em&gt; in an &lt;em&gt;acrimonious struggle since&lt;/em&gt; a &lt;em&gt;Texas state court&lt;/em&gt; jury in &lt;em&gt;November 1985 ordered Texaco&lt;/em&gt; to pay &lt;em&gt;Pennzoil 10.53 billion&lt;/em&gt; dlrs for &lt;em&gt;improperly interfering&lt;/em&gt; with &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;planned acquisition&lt;/em&gt; of &lt;em&gt;Getty&lt;/em&gt; Oil Co.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Margoshes&lt;/em&gt; said he did not &lt;em&gt;anticipate&lt;/em&gt; any &lt;em&gt;significant changes&lt;/em&gt; in &lt;em&gt;Texaco&lt;/em&gt;'s oil &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;production business&lt;/em&gt; because the &lt;em&gt;bankruptcy filing&lt;/em&gt; affects only about four pct of the &lt;em&gt;giant&lt;/em&gt; oil &lt;em&gt;company&lt;/em&gt;'s 32.6 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;annual revenues&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I &lt;em&gt;think&lt;/em&gt; it &lt;em&gt;makes&lt;/em&gt; it much more &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;settle,"&lt;/em&gt; said &lt;em&gt;Baine&lt;/em&gt; Kerr, &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;retired president&lt;/em&gt; who has &lt;em&gt;acted&lt;/em&gt; as the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;chief negotiator&lt;/em&gt; in the &lt;em&gt;Texaco litigation&lt;/em&gt;.</str>
-        <int name="index">28</int>
+        <str name="text">"This is another &lt;em&gt;piece&lt;/em&gt; of &lt;em&gt;financial history," Sanford&lt;/em&gt; Margoshes, an &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; said of the &lt;em&gt;bankruptcy filing&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

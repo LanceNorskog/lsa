@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-29.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">profits</str>
+        <str name="text">goods</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">increase</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">investment</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">spending</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">particularly</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">mimics</str>
-        <double name="strength">0.5</double>
+        <str name="text">institute</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Inventories, which are generally low, are a positive factor in the industry's outlook this year," he said, citing market pulp stocks, which are currently at 21 days supply, at the low end of the industry's long term average.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"A pro-growth trade policy, continued attention to currency management, a fairly low interest rate climate and no major tax increases are the essential ingredients in this outlook," Red Cavaney, American Paper Institute president said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">236</int>
-        <double name="strength">0.9362327017674466</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"For manufacturers, the removal of the investment tax credit creates an impediment to future investment," he said.</str>
-        <int name="index">15</int>
+        <str name="text">"Adjustments to this loss will require time and careful evaluation and will adversely affect the capital spending decisions of individual companies," Cavaney said.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">115</int>
-        <double name="strength">0.8646754023342331</double>
+        <int name="end">164</int>
+        <double name="strength">0.8387869856213631</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In addition, Cavaney said low mortgage rates should support high levels of housing starts in 1987, increasing demand for many kinds of packaged goods.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">151</int>
+        <double name="strength">0.8376445439378694</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Inventories, which&lt;/em&gt; are &lt;em&gt;generally&lt;/em&gt; low, are a &lt;em&gt;positive factor&lt;/em&gt; in the &lt;em&gt;industry&lt;/em&gt;'s &lt;em&gt;outlook&lt;/em&gt; this year," he said, &lt;em&gt;citing market&lt;/em&gt; pulp &lt;em&gt;stocks, which&lt;/em&gt; are &lt;em&gt;currently&lt;/em&gt; at 21 days &lt;em&gt;supply,&lt;/em&gt; at the low end of the &lt;em&gt;industry&lt;/em&gt;'s long term &lt;em&gt;average&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"A pro-&lt;em&gt;growth trade policy, continued attention&lt;/em&gt; to &lt;em&gt;currency management,&lt;/em&gt; a &lt;em&gt;fairly&lt;/em&gt; low &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;climate&lt;/em&gt; and no &lt;em&gt;major&lt;/em&gt; tax &lt;em&gt;increases&lt;/em&gt; are the &lt;em&gt;essential ingredients&lt;/em&gt; in this &lt;em&gt;outlook,"&lt;/em&gt; Red &lt;em&gt;Cavaney, American Paper Institute president said&lt;/em&gt;.</str>
+        <str name="text">"A pro-&lt;em&gt;growth trade policy,&lt;/em&gt; continued &lt;em&gt;attention&lt;/em&gt; to &lt;em&gt;currency management,&lt;/em&gt; a fairly low &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;climate&lt;/em&gt; and no &lt;em&gt;major&lt;/em&gt; tax &lt;em&gt;increases&lt;/em&gt; are the &lt;em&gt;essential ingredients&lt;/em&gt; in this &lt;em&gt;outlook,"&lt;/em&gt; Red &lt;em&gt;Cavaney,&lt;/em&gt; American &lt;em&gt;Paper Institute president said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"For &lt;em&gt;manufacturers,&lt;/em&gt; the &lt;em&gt;removal&lt;/em&gt; of the &lt;em&gt;investment&lt;/em&gt; tax &lt;em&gt;credit creates&lt;/em&gt; an &lt;em&gt;impediment&lt;/em&gt; to &lt;em&gt;future investment,"&lt;/em&gt; he said.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;"Adjustments&lt;/em&gt; to this loss will &lt;em&gt;require&lt;/em&gt; time and &lt;em&gt;careful evaluation&lt;/em&gt; and will adversely &lt;em&gt;affect&lt;/em&gt; the &lt;em&gt;capital spending decisions&lt;/em&gt; of &lt;em&gt;individual companies,"&lt;/em&gt; Cavaney said.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;addition, Cavaney&lt;/em&gt; said low &lt;em&gt;mortgage rates&lt;/em&gt; should &lt;em&gt;support&lt;/em&gt; high &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;housing starts&lt;/em&gt; in 1987, increasing &lt;em&gt;demand&lt;/em&gt; for many &lt;em&gt;kinds&lt;/em&gt; of packaged &lt;em&gt;goods&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

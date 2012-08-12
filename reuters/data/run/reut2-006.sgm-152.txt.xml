@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-152.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">commerce</str>
+        <str name="text">trend</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">departments</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">except</str>
+        <str name="text">eastern</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">european</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">algeria</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">moisture</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">adequate</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">137</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dry weather covered most European crop areas in the week ended March 14, except for those in southwestern France, southern Italy, and Greece, the Joint Agricultural Weather Facility of the U.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">191</int>
-        <double name="strength">0.9531493008671789</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Light to moderate rain spread from northern Thailand to Northern Vietnam as dry weather prevailed elsewhere in Southeast Asia.</str>
-        <int name="index">14</int>
+        <str name="text">In the Philippines, most rainfall was restricted to the central islands, continuing February's drying trend in Luzon and southern Mindanao.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">127</int>
-        <double name="strength">0.9446882541007366</double>
+        <int name="end">140</int>
+        <double name="strength">0.829622063207013</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dry weather covered winter grain areas in western and central Algeria, but soil moisture was likely adequate to meet crop demands, it said.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.8184621027481539</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Timely rains&lt;/em&gt; will be &lt;em&gt;needed&lt;/em&gt; in the next &lt;em&gt;several weeks&lt;/em&gt; as &lt;em&gt;winter grains advance through&lt;/em&gt; the &lt;em&gt;critical reproductive phase,&lt;/em&gt; the &lt;em&gt;agency said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Timely rains&lt;/em&gt; will be needed in the next &lt;em&gt;several weeks&lt;/em&gt; as &lt;em&gt;winter grains advance&lt;/em&gt; through the &lt;em&gt;critical reproductive phase,&lt;/em&gt; the &lt;em&gt;agency said&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dry &lt;em&gt;weather covered&lt;/em&gt; most &lt;em&gt;European&lt;/em&gt; crop &lt;em&gt;areas&lt;/em&gt; in the week &lt;em&gt;ended March 14, except&lt;/em&gt; for &lt;em&gt;those&lt;/em&gt; in &lt;em&gt;southwestern France, southern Italy,&lt;/em&gt; and &lt;em&gt;Greece,&lt;/em&gt; the &lt;em&gt;Joint Agricultural Weather Facility&lt;/em&gt; of the U.</str>
-        <int name="index">0</int>
+        <str name="text">In the &lt;em&gt;Philippines,&lt;/em&gt; most &lt;em&gt;rainfall&lt;/em&gt; was restricted to the &lt;em&gt;central islands,&lt;/em&gt; continuing &lt;em&gt;February&lt;/em&gt;'s drying &lt;em&gt;trend&lt;/em&gt; in &lt;em&gt;Luzon&lt;/em&gt; and &lt;em&gt;southern Mindanao&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Light&lt;/em&gt; to &lt;em&gt;moderate&lt;/em&gt; rain &lt;em&gt;spread&lt;/em&gt; from &lt;em&gt;northern Thailand&lt;/em&gt; to &lt;em&gt;Northern Vietnam&lt;/em&gt; as dry &lt;em&gt;weather prevailed elsewhere&lt;/em&gt; in &lt;em&gt;Southeast Asia&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Dry &lt;em&gt;weather&lt;/em&gt; covered &lt;em&gt;winter grain areas&lt;/em&gt; in &lt;em&gt;western&lt;/em&gt; and &lt;em&gt;central Algeria,&lt;/em&gt; but soil &lt;em&gt;moisture&lt;/em&gt; was &lt;em&gt;likely adequate&lt;/em&gt; to meet crop &lt;em&gt;demands,&lt;/em&gt; it said.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

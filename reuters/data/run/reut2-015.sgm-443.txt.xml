@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-443.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">april</str>
+        <str name="text">hopes</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">allow</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">central</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">adjustment</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">bankers</str>
+        <double name="strength">0.996951150468248</double>
       </lst>
       <lst name="term">
-        <str name="text">present</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">operators</str>
+        <double name="strength">0.9969511504682479</double>
       </lst>
       <lst name="term">
-        <str name="text">average</str>
-        <double name="strength">0.5</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9969511504682479</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">303</int>
         <double name="strength">1.0</double>
+        <int name="terms">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Holdings of average daily reserves over the first seven days of April stood at 59.6 billion marks, still above the estimated 51 billion required for all of April.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">163</int>
-        <double name="strength">0.7830819364829628</double>
+        <str name="text">Remarks by central bankers raised some hopes the Bundesbank will cut rates on securities repurchase pacts, but operators remained divided on the likelihood of a move in the near term, money market dealers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">210</int>
+        <double name="strength">0.5811097972724096</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bundesbank officials have already said they favour more discreet rate adjustments through repurchase pacts, rather than the more public adjustment of leading rates.</str>
-        <int name="index">7</int>
+        <str name="text">Dealers expect volume of the tender to be lower than the 15.2 billion marks flowing out, to offset other incoming funds.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">165</int>
-        <double name="strength">0.7602774333492078</double>
+        <int name="end">121</int>
+        <double name="strength">0.541240173668057</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Comments&lt;/em&gt; by &lt;em&gt;Bundesbank board member Claus Koehler yesterday&lt;/em&gt; that rate cuts were &lt;em&gt;needed&lt;/em&gt; to curb &lt;em&gt;money supply growth&lt;/em&gt; from &lt;em&gt;speculative capital inflows,&lt;/em&gt; and by West &lt;em&gt;Berlin state central&lt;/em&gt; bank &lt;em&gt;president Dieter&lt;/em&gt; Hiss that &lt;em&gt;there&lt;/em&gt; was no &lt;em&gt;natural lower limit&lt;/em&gt; to the &lt;em&gt;discount&lt;/em&gt; rate had, &lt;em&gt;however,&lt;/em&gt; no &lt;em&gt;immediate impact&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Comments&lt;/em&gt; by &lt;em&gt;Bundesbank board member Claus Koehler yesterday&lt;/em&gt; that rate cuts were needed to curb &lt;em&gt;money supply growth&lt;/em&gt; from &lt;em&gt;speculative capital inflows,&lt;/em&gt; and by West &lt;em&gt;Berlin state central&lt;/em&gt; bank &lt;em&gt;president Dieter&lt;/em&gt; Hiss that there was no &lt;em&gt;natural&lt;/em&gt; lower &lt;em&gt;limit&lt;/em&gt; to the &lt;em&gt;discount&lt;/em&gt; rate had, however, no &lt;em&gt;immediate impact&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Holdings&lt;/em&gt; of &lt;em&gt;average daily reserves&lt;/em&gt; over the &lt;em&gt;first seven&lt;/em&gt; days of &lt;em&gt;April stood&lt;/em&gt; at 59.6 &lt;em&gt;billion marks, still above&lt;/em&gt; the &lt;em&gt;estimated 51 billion required&lt;/em&gt; for all of &lt;em&gt;April&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Remarks&lt;/em&gt; by &lt;em&gt;central bankers&lt;/em&gt; raised some &lt;em&gt;hopes&lt;/em&gt; the &lt;em&gt;Bundesbank&lt;/em&gt; will cut &lt;em&gt;rates&lt;/em&gt; on &lt;em&gt;securities&lt;/em&gt; repurchase &lt;em&gt;pacts,&lt;/em&gt; but &lt;em&gt;operators&lt;/em&gt; remained divided on the &lt;em&gt;likelihood&lt;/em&gt; of a move in the near term, &lt;em&gt;money market dealers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bundesbank officials&lt;/em&gt; have &lt;em&gt;already&lt;/em&gt; said they &lt;em&gt;favour&lt;/em&gt; more &lt;em&gt;discreet&lt;/em&gt; rate &lt;em&gt;adjustments through repurchase pacts, rather&lt;/em&gt; than the more &lt;em&gt;public adjustment&lt;/em&gt; of &lt;em&gt;leading rates&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Dealers expect volume&lt;/em&gt; of the &lt;em&gt;tender&lt;/em&gt; to be lower than the 15.2 &lt;em&gt;billion marks&lt;/em&gt; flowing out, to &lt;em&gt;offset other incoming funds&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

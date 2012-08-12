@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-409.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">receipt</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">fully</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">diluted</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
         <str name="text">station</str>
-        <double name="strength">0.5590169943749478</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">partnership</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">license</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">directors</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">shareholder</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">siegler</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">General Partners said the offer is conditioned on receipt of sufficient financing to buy all shares on a fully diluted basis and receipt of enough shares to give General Partners at least 51 pct voting power, again fully diluted.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The partnership said the offer is further conditioned on GenCorp management withdrawing its proposals to amend the company's articles of incorporation and code of regulations to provide for an increase in authorized common shares, a classified board of directors and the elimination of cumulative voting.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">305</int>
-        <double name="strength">0.8866053437910631</double>
+        <double name="strength">1.0</double>
+        <int name="terms">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the offer is also conditioned on GenCorp redeeming the defensive rights or General Partners being satisfied that the rights have been invalidated and General Partners obtaining from the Federal Communications Commission a special temporary authorization allowing completion of the acquisition of GenCorp shares.</str>
-        <int name="index">4</int>
+        <str name="text">The company faces challenges to its two television and 12 radio station licenses, partly becuase it failed to inform the FCC about allegedly improper foreign payments and political contributions.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">195</int>
+        <double name="strength">0.8182266943194997</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">General Partners said it would set up voting trust arrangements pending review of its long-form application for FCC approval of its acquisition of control of GenCorp's broadcasting subsidiary.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">320</int>
-        <double name="strength">0.8337054552349957</double>
+        <int name="end">193</int>
+        <double name="strength">0.70011513491984</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Partners&lt;/em&gt; said the &lt;em&gt;offer&lt;/em&gt; is &lt;em&gt;conditioned&lt;/em&gt; on &lt;em&gt;receipt&lt;/em&gt; of &lt;em&gt;sufficient financing&lt;/em&gt; to buy all &lt;em&gt;shares&lt;/em&gt; on a &lt;em&gt;fully diluted basis&lt;/em&gt; and &lt;em&gt;receipt&lt;/em&gt; of &lt;em&gt;enough shares&lt;/em&gt; to give &lt;em&gt;General Partners&lt;/em&gt; at &lt;em&gt;least 51&lt;/em&gt; pct &lt;em&gt;voting power, again fully diluted&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;partnership&lt;/em&gt; said the &lt;em&gt;offer&lt;/em&gt; is &lt;em&gt;further conditioned&lt;/em&gt; on &lt;em&gt;GenCorp management withdrawing&lt;/em&gt; its &lt;em&gt;proposals&lt;/em&gt; to &lt;em&gt;amend&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;articles&lt;/em&gt; of &lt;em&gt;incorporation&lt;/em&gt; and code of &lt;em&gt;regulations&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; for an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;authorized common shares,&lt;/em&gt; a &lt;em&gt;classified board&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; and the &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;cumulative voting&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;partnership&lt;/em&gt; said the &lt;em&gt;offer&lt;/em&gt; is &lt;em&gt;further&lt;/em&gt; conditioned on &lt;em&gt;GenCorp management&lt;/em&gt; withdrawing its &lt;em&gt;proposals&lt;/em&gt; to &lt;em&gt;amend&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;articles&lt;/em&gt; of &lt;em&gt;incorporation&lt;/em&gt; and code of &lt;em&gt;regulations&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; for an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;authorized common shares,&lt;/em&gt; a &lt;em&gt;classified board&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; and the &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;cumulative voting&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the &lt;em&gt;offer&lt;/em&gt; is also &lt;em&gt;conditioned&lt;/em&gt; on &lt;em&gt;GenCorp redeeming&lt;/em&gt; the &lt;em&gt;defensive rights&lt;/em&gt; or &lt;em&gt;General Partners being satisfied&lt;/em&gt; that the &lt;em&gt;rights&lt;/em&gt; have been &lt;em&gt;invalidated&lt;/em&gt; and &lt;em&gt;General Partners obtaining&lt;/em&gt; from the &lt;em&gt;Federal Communications Commission&lt;/em&gt; a &lt;em&gt;special temporary authorization allowing completion&lt;/em&gt; of the &lt;em&gt;acquisition&lt;/em&gt; of &lt;em&gt;GenCorp shares&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; faces &lt;em&gt;challenges&lt;/em&gt; to its two &lt;em&gt;television&lt;/em&gt; and 12 &lt;em&gt;radio station licenses,&lt;/em&gt; partly &lt;em&gt;becuase&lt;/em&gt; it failed to &lt;em&gt;inform&lt;/em&gt; the FCC about allegedly &lt;em&gt;improper foreign payments&lt;/em&gt; and &lt;em&gt;political contributions&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;General Partners&lt;/em&gt; said it would set up &lt;em&gt;voting trust arrangements&lt;/em&gt; pending &lt;em&gt;review&lt;/em&gt; of its long-form &lt;em&gt;application&lt;/em&gt; for FCC &lt;em&gt;approval&lt;/em&gt; of its &lt;em&gt;acquisition&lt;/em&gt; of &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;GenCorp&lt;/em&gt;'s broadcasting &lt;em&gt;subsidiary&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

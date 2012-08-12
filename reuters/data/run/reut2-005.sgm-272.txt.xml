@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-272.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">156</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">conditions</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">adhere</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">interview</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">being</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">shared</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">continue</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">agency</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Nazer, in his first interview since succeeding Ahmed Zaki Yamani last October, said: "I do not foresee any need for new measures before the 25th of June when our (next OPEC) meeting will take place as scheduled."</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">These were programmes they thought were necessary to stabilise market conditions and to help themselves attain better pricing conditions," Nazer said.</str>
-        <int name="index">24</int>
-        <int name="start">0</int>
-        <int name="end">150</int>
-        <double name="strength">0.9945637206846726</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Oil analysts say the OPEC pact could come under strain when demand for petroleum products generally falls in the northern hemisphere spring and summer.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">152</int>
-        <double name="strength">0.9895417620831678</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">King Fahd of Saudi Arabia, in an interview with Reuters and Visnews on March 11, said the kingdom wanted oil price stability and called on non-OPEC producers to avoid harmful competition with OPEC.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.984873593420676</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Saudi Arabian Oil Minister Hisham Nazer said OPEC's December agreement to stabilize oil prices at 18 dlrs a barrel was being implemented satisfactorily and there was no immediate need to change it.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">0.9725357236839838</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nazer,&lt;/em&gt; in his &lt;em&gt;first interview since succeeding Ahmed&lt;/em&gt; Zaki &lt;em&gt;Yamani&lt;/em&gt; last &lt;em&gt;October,&lt;/em&gt; said: "I do not &lt;em&gt;foresee&lt;/em&gt; any need for new &lt;em&gt;measures before&lt;/em&gt; the 25th of June when our (next OPEC) &lt;em&gt;meeting&lt;/em&gt; will take &lt;em&gt;place&lt;/em&gt; as &lt;em&gt;scheduled.&lt;/em&gt;"</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;These&lt;/em&gt; were &lt;em&gt;programmes&lt;/em&gt; they &lt;em&gt;thought&lt;/em&gt; were &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;stabilise market conditions&lt;/em&gt; and to help &lt;em&gt;themselves attain better pricing conditions," Nazer said&lt;/em&gt;.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Oil &lt;em&gt;analysts&lt;/em&gt; say the OPEC pact &lt;em&gt;could&lt;/em&gt; come &lt;em&gt;under strain&lt;/em&gt; when &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;petroleum products generally falls&lt;/em&gt; in the &lt;em&gt;northern hemisphere spring&lt;/em&gt; and &lt;em&gt;summer&lt;/em&gt;.</str>
+        <str name="text">Oil &lt;em&gt;analysts&lt;/em&gt; say the OPEC pact could come under &lt;em&gt;strain&lt;/em&gt; when &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;petroleum products&lt;/em&gt; generally falls in the &lt;em&gt;northern hemisphere spring&lt;/em&gt; and &lt;em&gt;summer&lt;/em&gt;.</str>
         <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">King Fahd of &lt;em&gt;Saudi Arabia,&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt; with &lt;em&gt;Reuters&lt;/em&gt; and &lt;em&gt;Visnews&lt;/em&gt; on &lt;em&gt;March 11,&lt;/em&gt; said the &lt;em&gt;kingdom&lt;/em&gt; wanted oil &lt;em&gt;price stability&lt;/em&gt; and called on non-OPEC &lt;em&gt;producers&lt;/em&gt; to &lt;em&gt;avoid harmful competition&lt;/em&gt; with OPEC.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Saudi Arabian&lt;/em&gt; Oil &lt;em&gt;Minister Hisham Nazer&lt;/em&gt; said OPEC's &lt;em&gt;December agreement&lt;/em&gt; to &lt;em&gt;stabilize&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; at 18 dlrs a &lt;em&gt;barrel&lt;/em&gt; was being implemented satisfactorily and there was no &lt;em&gt;immediate&lt;/em&gt; need to &lt;em&gt;change it&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

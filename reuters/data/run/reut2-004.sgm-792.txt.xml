@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-792.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">mercantile</str>
+        <str name="text">directors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">right</str>
+        <str name="text">letter</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">direction</str>
-        <double name="strength">1.0</double>
+        <str name="text">futures</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">stock</str>
-        <double name="strength">1.0</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">1.0</double>
+        <str name="text">marcus</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">117</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The board will also set as yet unspecified percentage limits on the trades brokers can conduct among "broker groups," otherwise known as "trading rings."</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">154</int>
-        <double name="strength">0.9882024679422017</double>
+        <str name="text">The Chicago Mercantile Exchange's (CME) board of directors issued a letter to its members that sets limits, but does not ban, dual trading in the S and P 500 futures and options pit.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">182</int>
+        <double name="strength">0.8460084814349483</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Brokers who engage in dual trading in other areas of the pit must record to the nearest minute those personal trades.</str>
-        <int name="index">2</int>
+        <str name="text">The spokesman for the CME said the tenor of the board of directors' letter to members appears to leave open the possibility of additional limits on dual trading.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">118</int>
-        <double name="strength">0.9212275130058546</double>
+        <int name="end">162</int>
+        <double name="strength">0.8084928783498645</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It's a step in the &lt;em&gt;right direction,"&lt;/em&gt; said &lt;em&gt;stock futures analysts William Marcus&lt;/em&gt; of &lt;em&gt;Donaldson, Lufkin, Jenrette Inc&lt;/em&gt;.</str>
+        <str name="text">"It's a step in the &lt;em&gt;right direction,"&lt;/em&gt; said &lt;em&gt;stock futures analysts&lt;/em&gt; William &lt;em&gt;Marcus&lt;/em&gt; of &lt;em&gt;Donaldson, Lufkin, Jenrette Inc&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;board&lt;/em&gt; will also set as yet &lt;em&gt;unspecified percentage limits&lt;/em&gt; on the &lt;em&gt;trades brokers&lt;/em&gt; can &lt;em&gt;conduct among "broker groups," otherwise known&lt;/em&gt; as "&lt;em&gt;trading rings.&lt;/em&gt;"</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;Chicago Mercantile Exchange&lt;/em&gt;'s (CME) &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; issued a &lt;em&gt;letter&lt;/em&gt; to its &lt;em&gt;members&lt;/em&gt; that sets &lt;em&gt;limits,&lt;/em&gt; but does not ban, dual &lt;em&gt;trading&lt;/em&gt; in the S and P 500 &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options pit&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; who &lt;em&gt;engage&lt;/em&gt; in dual &lt;em&gt;trading&lt;/em&gt; in &lt;em&gt;other areas&lt;/em&gt; of the pit must &lt;em&gt;record&lt;/em&gt; to the &lt;em&gt;nearest minute those personal trades&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; for the CME said the &lt;em&gt;tenor&lt;/em&gt; of the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors' letter&lt;/em&gt; to &lt;em&gt;members&lt;/em&gt; appears to &lt;em&gt;leave&lt;/em&gt; open the &lt;em&gt;possibility&lt;/em&gt; of &lt;em&gt;additional limits&lt;/em&gt; on dual &lt;em&gt;trading&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

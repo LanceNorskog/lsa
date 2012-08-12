@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-215.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">148</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">gluck</str>
+        <str name="text">merger</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shareholders</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">negligible</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">special</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">response</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">margin</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">commitments</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">facility</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">acquisition</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said Marine Midland Banks Inc &lt;MM&gt;, which leads a syndicate that has provided commitments for a 500 mln dlr margin facility, believes it will be able to arrange for further commitments under the margin facility to advance up to an additional 25 mln dlrs that may be needed to permit the purchase of shares under the offer.</str>
-        <int name="index">15</int>
+        <str name="text">Sosnoff said PaineWebber Group Inc &lt;PWJ&gt; has now delivered to him commitments to purchase up to 475 mln dlrs of increasing dividend cumulative exchangeable preferred stock of MTS Holding Corp, an indirect parent corporation of MTS Acquisition.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">326</int>
+        <int name="end">244</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a letter to Caesars' chairman Henry Gluck included in the statement, Sosnoff said Gluck had again refused, on April 8, to meet with him, even though he had said he was willing to increase the price of his offer.</str>
-        <int name="index">12</int>
+        <str name="text">Sosnoff said in the newspaper advertisement that the amended offer is conditioned on receipt of enough shares to give him a majority interest on a fully diluted basis and on the arrangement of financing, as well as to approvals by New Jersey and Nevada gaming authorities.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">215</int>
-        <double name="strength">0.8431456656614137</double>
+        <int name="end">273</int>
+        <double name="strength">0.9497744482660438</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week, Caesars' board approved a recapitalization plan as an alternative to the Sosnoff offer under which shareholders would receive a special dividend of 25 dlrs per share, subject to approval by shareholders at a special meeting to be held in June.</str>
-        <int name="index">6</int>
+        <str name="text">Sosnoff said under the merger that would follow his tender, each of the 2,750,000 Caesars shares not covered by the offer, or 7.6 pct on a fully diluted basis, would be converted into Series A preferred stock valued at 32 dlrs per shareby an independent investment baking firm.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">255</int>
-        <double name="strength">0.7777074386899543</double>
+        <int name="end">278</int>
+        <double name="strength">0.9206999491458372</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Marine Midland Banks&lt;/em&gt; Inc &lt;MM&gt;, &lt;em&gt;which leads&lt;/em&gt; a &lt;em&gt;syndicate&lt;/em&gt; that has &lt;em&gt;provided commitments&lt;/em&gt; for a 500 mln dlr &lt;em&gt;margin facility, believes&lt;/em&gt; it will be able to &lt;em&gt;arrange&lt;/em&gt; for &lt;em&gt;further commitments under&lt;/em&gt; the &lt;em&gt;margin facility&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; up to an &lt;em&gt;additional 25&lt;/em&gt; mln dlrs that may be &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;permit&lt;/em&gt; the &lt;em&gt;purchase&lt;/em&gt; of &lt;em&gt;shares under&lt;/em&gt; the &lt;em&gt;offer&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Sosnoff&lt;/em&gt; said &lt;em&gt;PaineWebber Group&lt;/em&gt; Inc &lt;PWJ&gt; has now delivered to him &lt;em&gt;commitments&lt;/em&gt; to &lt;em&gt;purchase&lt;/em&gt; up to 475 mln dlrs of increasing &lt;em&gt;dividend cumulative exchangeable&lt;/em&gt; preferred &lt;em&gt;stock&lt;/em&gt; of MTS Holding Corp, an &lt;em&gt;indirect parent corporation&lt;/em&gt; of MTS &lt;em&gt;Acquisition&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;letter&lt;/em&gt; to &lt;em&gt;Caesars' chairman Henry Gluck included&lt;/em&gt; in the &lt;em&gt;statement, Sosnoff&lt;/em&gt; said &lt;em&gt;Gluck&lt;/em&gt; had &lt;em&gt;again refused,&lt;/em&gt; on &lt;em&gt;April 8,&lt;/em&gt; to meet with him, even &lt;em&gt;though&lt;/em&gt; he had said he was &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; of his &lt;em&gt;offer&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Sosnoff&lt;/em&gt; said in the &lt;em&gt;newspaper advertisement&lt;/em&gt; that the amended &lt;em&gt;offer&lt;/em&gt; is conditioned on &lt;em&gt;receipt&lt;/em&gt; of &lt;em&gt;enough shares&lt;/em&gt; to give him a &lt;em&gt;majority interest&lt;/em&gt; on a fully diluted &lt;em&gt;basis&lt;/em&gt; and on the &lt;em&gt;arrangement&lt;/em&gt; of &lt;em&gt;financing,&lt;/em&gt; as well as to &lt;em&gt;approvals&lt;/em&gt; by New &lt;em&gt;Jersey&lt;/em&gt; and &lt;em&gt;Nevada gaming authorities&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week, &lt;em&gt;Caesars' board approved&lt;/em&gt; a &lt;em&gt;recapitalization&lt;/em&gt; plan as an &lt;em&gt;alternative&lt;/em&gt; to the &lt;em&gt;Sosnoff offer under which shareholders would receive&lt;/em&gt; a &lt;em&gt;special dividend&lt;/em&gt; of 25 dlrs per &lt;em&gt;share, subject&lt;/em&gt; to &lt;em&gt;approval&lt;/em&gt; by &lt;em&gt;shareholders&lt;/em&gt; at a &lt;em&gt;special meeting&lt;/em&gt; to be held in June.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Sosnoff&lt;/em&gt; said under the &lt;em&gt;merger&lt;/em&gt; that would &lt;em&gt;follow&lt;/em&gt; his &lt;em&gt;tender,&lt;/em&gt; each of the 2,750,000 &lt;em&gt;Caesars shares&lt;/em&gt; not covered by the &lt;em&gt;offer,&lt;/em&gt; or 7.6 pct on a fully diluted &lt;em&gt;basis,&lt;/em&gt; would be converted into &lt;em&gt;Series&lt;/em&gt; A &lt;em&gt;preferred stock&lt;/em&gt; valued at 32 dlrs per &lt;em&gt;shareby&lt;/em&gt; an &lt;em&gt;independent investment baking firm&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

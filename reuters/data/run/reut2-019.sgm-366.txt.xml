@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-366.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">commissioner</str>
+        <str name="text">money</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commission</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">accord</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">commodity</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">promised</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">malaysian</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">218</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Lim, who will sign and ratify the agreement on Malaysia's behalf when he visits New York during his current tour, said it was important there should not be a long "interregnum" between the old agreement lapsing in October and the new one coming into force.</str>
-        <int name="index">12</int>
+        <str name="text">Lim, in Brussels on a tour of Europe and America, said he had instructed Malaysia's representatives on the executive committee of the Association of Tin Producing Countries, ATPC, to draw up a paper on the matter.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">257</int>
-        <double name="strength">0.994001221522507</double>
+        <int name="end">214</int>
+        <double name="strength">0.9132899254691474</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Narjes told him there appeared no fundamental barriers to EC states quickly ratifying the new International Rubber Agreement, INRA, although translations of the accord into some EC languages are still being awaited.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">0.9769355544940485</double>
+        <str name="text">Malaysia is to urge fellow tin producing countries to contribute more money towards research into new uses for the metal, Malaysian primary industries minister Lim Keng Yaik told Reuters in an interview.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
+        <double name="strength">0.9071401958996376</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;described&lt;/em&gt; the &lt;em&gt;present accord&lt;/em&gt; as a &lt;em&gt;model&lt;/em&gt; for &lt;em&gt;commodity agreements&lt;/em&gt; due to its &lt;em&gt;being signed&lt;/em&gt; by &lt;em&gt;nearly&lt;/em&gt; all &lt;em&gt;producing&lt;/em&gt; and &lt;em&gt;consuming countries&lt;/em&gt; and by &lt;em&gt;virtue&lt;/em&gt; of its &lt;em&gt;review systems&lt;/em&gt; and &lt;em&gt;control&lt;/em&gt; over &lt;em&gt;buffer stock management&lt;/em&gt;.</str>
+        <str name="text">He described the &lt;em&gt;present accord&lt;/em&gt; as a &lt;em&gt;model&lt;/em&gt; for &lt;em&gt;commodity agreements&lt;/em&gt; due to its being signed by nearly all producing and consuming &lt;em&gt;countries&lt;/em&gt; and by &lt;em&gt;virtue&lt;/em&gt; of its &lt;em&gt;review systems&lt;/em&gt; and &lt;em&gt;control&lt;/em&gt; over &lt;em&gt;buffer stock management&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Lim, who will sign and &lt;em&gt;ratify&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt; on &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;behalf&lt;/em&gt; when he &lt;em&gt;visits&lt;/em&gt; New York &lt;em&gt;during&lt;/em&gt; his &lt;em&gt;current&lt;/em&gt; tour, said it was &lt;em&gt;important there should&lt;/em&gt; not be a long "&lt;em&gt;interregnum" between&lt;/em&gt; the old &lt;em&gt;agreement lapsing&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt; and the new one &lt;em&gt;coming&lt;/em&gt; into &lt;em&gt;force&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">Lim, in &lt;em&gt;Brussels&lt;/em&gt; on a tour of &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;America,&lt;/em&gt; said he had instructed &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;representatives&lt;/em&gt; on the &lt;em&gt;executive committee&lt;/em&gt; of the &lt;em&gt;Association&lt;/em&gt; of Tin Producing &lt;em&gt;Countries,&lt;/em&gt; ATPC, to draw up a &lt;em&gt;paper&lt;/em&gt; on the &lt;em&gt;matter&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Narjes&lt;/em&gt; told him &lt;em&gt;there appeared&lt;/em&gt; no &lt;em&gt;fundamental barriers&lt;/em&gt; to EC &lt;em&gt;states quickly ratifying&lt;/em&gt; the new &lt;em&gt;International Rubber Agreement,&lt;/em&gt; INRA, &lt;em&gt;although translations&lt;/em&gt; of the &lt;em&gt;accord&lt;/em&gt; into some EC &lt;em&gt;languages&lt;/em&gt; are &lt;em&gt;still being awaited&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt; is to urge &lt;em&gt;fellow&lt;/em&gt; tin producing &lt;em&gt;countries&lt;/em&gt; to &lt;em&gt;contribute&lt;/em&gt; more &lt;em&gt;money&lt;/em&gt; towards &lt;em&gt;research&lt;/em&gt; into new uses for the &lt;em&gt;metal, Malaysian primary industries minister&lt;/em&gt; Lim Keng Yaik told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-832.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">divest</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">producer</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
         <str name="text">energy</str>
-        <double name="strength">0.5590169943749477</double>
-      </lst>
-      <lst name="term">
-        <str name="text">actually</str>
-        <double name="strength">0.5000000000000017</double>
-      </lst>
-      <lst name="term">
-        <str name="text">going</str>
-        <double name="strength">0.5000000000000017</double>
-      </lst>
-      <lst name="term">
-        <str name="text">farther</str>
-        <double name="strength">0.5000000000000017</double>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Another stumbling block would be Encor's 225 mln dlr joint liability in loans to Dome Petroleum advanced by Arctic Petroleum Corp of Japan for Beaufort Sea exploration.</str>
-        <int name="index">19</int>
+        <str name="text">Dome, now negotiating a plan to restructure more than 6.10 billion dlrs in debt, sees Encor as a strategic investment that it does not intend to sell, spokesman David Annesley said.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">169</int>
+        <int name="end">182</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, analysts said Dome will resist any moves to divest Encor in favor of retaining the operating assets since sale proceeds would likely go directly to pay down Dome's debt to Commerce Bank.</str>
-        <int name="index">15</int>
+        <str name="text">Recent strength in the price of Encor shares may also prompt Commerce Bank to press Dome to divest its holding in the Canadian oil and gas producer, analysts said.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">0.9266080364256344</double>
+        <int name="end">164</int>
+        <double name="strength">0.9211809975971381</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">At current market prices, Dome's stake in Encor would be valued at about 308 mln dlrs, while its 20.9 mln Dome Mines shares would be worth about 319 mln dlrs.</str>
-        <int name="index">7</int>
+        <str name="text">Presumably, a potential buyer of the Dome Mines shares would seek some type of relief on the company's debt obligations connected with Dome Petroleum, Gobert said.</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.9081744559391389</double>
+        <int name="end">164</int>
+        <double name="strength">0.8992189105814499</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Another stumbling block would&lt;/em&gt; be &lt;em&gt;Encor&lt;/em&gt;'s 225 mln dlr &lt;em&gt;joint liability&lt;/em&gt; in &lt;em&gt;loans&lt;/em&gt; to Dome &lt;em&gt;Petroleum advanced&lt;/em&gt; by &lt;em&gt;Arctic Petroleum&lt;/em&gt; Corp of &lt;em&gt;Japan&lt;/em&gt; for &lt;em&gt;Beaufort&lt;/em&gt; Sea &lt;em&gt;exploration&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">Dome, now negotiating a plan to &lt;em&gt;restructure&lt;/em&gt; more than 6.10 &lt;em&gt;billion&lt;/em&gt; dlrs in debt, sees Encor as a &lt;em&gt;strategic investment&lt;/em&gt; that it does not &lt;em&gt;intend&lt;/em&gt; to sell, &lt;em&gt;spokesman David Annesley said&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, analysts&lt;/em&gt; said Dome will &lt;em&gt;resist&lt;/em&gt; any &lt;em&gt;moves&lt;/em&gt; to &lt;em&gt;divest Encor&lt;/em&gt; in &lt;em&gt;favor&lt;/em&gt; of &lt;em&gt;retaining&lt;/em&gt; the &lt;em&gt;operating assets since&lt;/em&gt; sale &lt;em&gt;proceeds would likely&lt;/em&gt; go &lt;em&gt;directly&lt;/em&gt; to pay down Dome's debt to &lt;em&gt;Commerce Bank&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Recent strength&lt;/em&gt; in the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;Encor shares&lt;/em&gt; may also &lt;em&gt;prompt Commerce&lt;/em&gt; Bank to &lt;em&gt;press&lt;/em&gt; Dome to &lt;em&gt;divest&lt;/em&gt; its &lt;em&gt;holding&lt;/em&gt; in the &lt;em&gt;Canadian&lt;/em&gt; oil and gas &lt;em&gt;producer, analysts said&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">At &lt;em&gt;current market prices,&lt;/em&gt; Dome's &lt;em&gt;stake&lt;/em&gt; in &lt;em&gt;Encor would&lt;/em&gt; be &lt;em&gt;valued&lt;/em&gt; at &lt;em&gt;about 308&lt;/em&gt; mln dlrs, &lt;em&gt;while&lt;/em&gt; its 20.9 mln Dome &lt;em&gt;Mines shares would&lt;/em&gt; be &lt;em&gt;worth about 319&lt;/em&gt; mln dlrs.</str>
-        <int name="index">7</int>
+        <str name="text">Presumably, a &lt;em&gt;potential buyer&lt;/em&gt; of the Dome &lt;em&gt;Mines shares&lt;/em&gt; would seek some type of &lt;em&gt;relief&lt;/em&gt; on the &lt;em&gt;company&lt;/em&gt;'s debt &lt;em&gt;obligations connected&lt;/em&gt; with Dome &lt;em&gt;Petroleum, Gobert said&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
     </lst>
   </lst>

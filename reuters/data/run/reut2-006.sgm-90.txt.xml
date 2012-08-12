@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-90.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">described</str>
+        <str name="text">chief</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">chancellor</str>
+        <str name="text">early</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exchequer</str>
-        <double name="strength">1.0</double>
+        <str name="text">lloyds</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">nigel</str>
-        <double name="strength">1.0</double>
+        <str name="text">lending</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">cautious</str>
-        <double name="strength">1.0</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">160</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bootle said the money markets had almost entirely discounted such a one point cut, with the key three month interbank rate down to 9-11/16 pct from 9-13/16 last night, and it would be rather conservative for banks to go for a half-point cut now.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">246</int>
-        <double name="strength">0.8815146028385261</double>
+        <str name="text">K. Retail data released yesterday, he said Lawson had done well to resist pressures for a sharp cut in income tax rates at the expense of a lower borrowing target.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">163</int>
+        <double name="strength">0.9185999252418225</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Kern said the budget would have to be analysed carefully, in particular to see how exactly Lawson planned to achieve the sharper than expected borrowing target cut, before a one-point base rate cut could be implemented.</str>
-        <int name="index">15</int>
+        <str name="text">U.K. Base rates were cut last week to 10-1/2 pct from 11 pct after sustained pressure from the foreign exchange, money and government bonds (gilts) markets.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.8420648316835163</double>
+        <int name="end">157</int>
+        <double name="strength">0.8409452925134534</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;analysts described Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;budget&lt;/em&gt; as &lt;em&gt;cautious,&lt;/em&gt; a &lt;em&gt;quality which currency&lt;/em&gt; and &lt;em&gt;money markets&lt;/em&gt; had &lt;em&gt;already started&lt;/em&gt; to &lt;em&gt;reward&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;analysts&lt;/em&gt; described &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;budget&lt;/em&gt; as &lt;em&gt;cautious,&lt;/em&gt; a &lt;em&gt;quality&lt;/em&gt; which &lt;em&gt;currency&lt;/em&gt; and &lt;em&gt;money markets&lt;/em&gt; had already started to &lt;em&gt;reward&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bootle&lt;/em&gt; said the &lt;em&gt;money markets&lt;/em&gt; had &lt;em&gt;almost entirely discounted&lt;/em&gt; such a one &lt;em&gt;point&lt;/em&gt; cut, with the key &lt;em&gt;three month interbank&lt;/em&gt; rate down to 9-11/16 pct from 9-13/16 last &lt;em&gt;night,&lt;/em&gt; and it &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;rather conservative&lt;/em&gt; for &lt;em&gt;banks&lt;/em&gt; to go for a half-&lt;em&gt;point&lt;/em&gt; cut now.</str>
-        <int name="index">6</int>
+        <str name="text">K. &lt;em&gt;Retail&lt;/em&gt; data released &lt;em&gt;yesterday,&lt;/em&gt; he said &lt;em&gt;Lawson&lt;/em&gt; had done well to &lt;em&gt;resist pressures&lt;/em&gt; for a &lt;em&gt;sharp&lt;/em&gt; cut in &lt;em&gt;income&lt;/em&gt; tax &lt;em&gt;rates&lt;/em&gt; at the &lt;em&gt;expense&lt;/em&gt; of a lower &lt;em&gt;borrowing target&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Kern said the &lt;em&gt;budget would&lt;/em&gt; have to be &lt;em&gt;analysed carefully,&lt;/em&gt; in &lt;em&gt;particular&lt;/em&gt; to see how &lt;em&gt;exactly Lawson planned&lt;/em&gt; to &lt;em&gt;achieve&lt;/em&gt; the &lt;em&gt;sharper&lt;/em&gt; than &lt;em&gt;expected borrowing target&lt;/em&gt; cut, &lt;em&gt;before&lt;/em&gt; a one-&lt;em&gt;point&lt;/em&gt; base rate cut &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;implemented&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">U.K. Base &lt;em&gt;rates&lt;/em&gt; were cut last week to 10-1/2 pct from 11 pct after &lt;em&gt;sustained pressure&lt;/em&gt; from the &lt;em&gt;foreign exchange, money&lt;/em&gt; and &lt;em&gt;government bonds (gilts) markets&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

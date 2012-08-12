@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-402.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">political</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.790569415042095</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.7905694150420947</double>
+        <str name="text">parliament</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">apparently</str>
-        <double name="strength">0.7071067811865478</double>
+        <str name="text">opposition</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">designed</str>
-        <double name="strength">0.7071067811865478</double>
+        <str name="text">tomorrow</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Commission, facing a five billion European Currency Units (5.73 billion dlrs) budget deficit by the end of the year, has threatened to start phasing out payment of some subsidies and premiums from August, unless EC member states take urgent measures to provide fresh funds.</str>
-        <int name="index">7</int>
+        <str name="text">The draft legislation, which the ruling centre-right coalition will present to parliament tomorrow, would provide temporary credits for farm subsidies usually paid by Brussels.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">278</int>
+        <int name="end">177</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">According to a copy of the draft bill obtained by Reuters, government authorities will have over two billion marks (1.1 billion dlrs) available to pay farmers advance subsidies and premiums for grains and other crops harvested this summer.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">240</int>
-        <double name="strength">0.9003116656376932</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The new measures are apparently designed to shield West German farmers from the consequences of the looming EC budget crisis and give Bonn scope to keep up its opposition to the EC executive commission's farm policy reform plans, political sources said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">254</int>
-        <double name="strength">0.8899566236748819</double>
+        <double name="strength">0.9272109063391019</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">West German Agriculture Minister Ignaz Kiechle gave the new legislation top priority after last month's failure to agree to a farm price package for 1986/87.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.9087658344171504</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Commission, facing&lt;/em&gt; a five &lt;em&gt;billion European Currency Units (5.73 billion&lt;/em&gt; dlrs) &lt;em&gt;budget deficit&lt;/em&gt; by the end of the year, has &lt;em&gt;threatened&lt;/em&gt; to &lt;em&gt;start phasing&lt;/em&gt; out &lt;em&gt;payment&lt;/em&gt; of some &lt;em&gt;subsidies&lt;/em&gt; and &lt;em&gt;premiums&lt;/em&gt; from &lt;em&gt;August, unless&lt;/em&gt; EC &lt;em&gt;member states&lt;/em&gt; take &lt;em&gt;urgent measures&lt;/em&gt; to &lt;em&gt;provide fresh funds&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The &lt;em&gt;draft legislation,&lt;/em&gt; which the &lt;em&gt;ruling centre-right coalition&lt;/em&gt; will &lt;em&gt;present&lt;/em&gt; to &lt;em&gt;parliament tomorrow,&lt;/em&gt; would &lt;em&gt;provide temporary credits&lt;/em&gt; for farm &lt;em&gt;subsidies&lt;/em&gt; usually paid by &lt;em&gt;Brussels&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to a copy of the &lt;em&gt;draft&lt;/em&gt; bill &lt;em&gt;obtained&lt;/em&gt; by &lt;em&gt;Reuters, government authorities&lt;/em&gt; will have over two &lt;em&gt;billion marks (1.1 billion&lt;/em&gt; dlrs) &lt;em&gt;available&lt;/em&gt; to pay &lt;em&gt;farmers advance subsidies&lt;/em&gt; and &lt;em&gt;premiums&lt;/em&gt; for &lt;em&gt;grains&lt;/em&gt; and &lt;em&gt;other crops harvested&lt;/em&gt; this &lt;em&gt;summer&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The new &lt;em&gt;measures&lt;/em&gt; are &lt;em&gt;apparently designed&lt;/em&gt; to &lt;em&gt;shield&lt;/em&gt; West &lt;em&gt;German farmers&lt;/em&gt; from the &lt;em&gt;consequences&lt;/em&gt; of the &lt;em&gt;looming&lt;/em&gt; EC &lt;em&gt;budget crisis&lt;/em&gt; and give Bonn &lt;em&gt;scope&lt;/em&gt; to keep up its &lt;em&gt;opposition&lt;/em&gt; to the EC &lt;em&gt;executive commission&lt;/em&gt;'s farm &lt;em&gt;policy reform plans, political sources said&lt;/em&gt;.</str>
+        <str name="text">The new &lt;em&gt;measures&lt;/em&gt; are apparently designed to &lt;em&gt;shield&lt;/em&gt; West &lt;em&gt;German farmers&lt;/em&gt; from the &lt;em&gt;consequences&lt;/em&gt; of the looming EC &lt;em&gt;budget crisis&lt;/em&gt; and give Bonn &lt;em&gt;scope&lt;/em&gt; to keep up its &lt;em&gt;opposition&lt;/em&gt; to the EC &lt;em&gt;executive commission&lt;/em&gt;'s farm &lt;em&gt;policy reform&lt;/em&gt; plans, &lt;em&gt;political sources said&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">West &lt;em&gt;German Agriculture Minister Ignaz Kiechle&lt;/em&gt; gave the new &lt;em&gt;legislation&lt;/em&gt; top &lt;em&gt;priority&lt;/em&gt; after last &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;agree&lt;/em&gt; to a farm &lt;em&gt;price package for 1986/87&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

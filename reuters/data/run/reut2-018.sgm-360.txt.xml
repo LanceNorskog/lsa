@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-360.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">reserves</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reporters</str>
-        <double name="strength">0.8944271909999155</double>
+        <str name="text">receive</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">decided</str>
-        <double name="strength">0.8944271909999155</double>
+        <str name="text">holdings</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">paying</str>
-        <double name="strength">0.8944271909999155</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">scheduled</str>
-        <double name="strength">0.8944271909999155</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">2</int>
         <int name="end">150</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Neyra said since late 1986 Peru had sought an accomodation with the World Bank under which it would receive more credits than it would remit in repayments.</str>
-        <int name="index">4</int>
-        <int name="start">2</int>
-        <int name="end">157</int>
-        <double name="strength">0.903922575994103</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The country had recently increased its capital suscription in the institution by about three mln dollars.</str>
-        <int name="index">6</int>
+        <str name="text">The World Bank has suspended loans to Peru because the country has over two months of payment arrears with the lending agency, central bank general manager Hector Neyra said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">105</int>
-        <double name="strength">0.8802578038106744</double>
+        <int name="end">174</int>
+        <double name="strength">0.9833913595238413</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Central bank president Leonel Figueroa said Peru had enough hard currency, gold and silver on hand to cover 10 or 11 months' worth of imports.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.9370427849107967</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;measure&lt;/em&gt; was the &lt;em&gt;latest&lt;/em&gt; hard-line debt &lt;em&gt;stance adopted&lt;/em&gt; by the &lt;em&gt;government&lt;/em&gt; of &lt;em&gt;President&lt;/em&gt; Alan &lt;em&gt;Garcia,&lt;/em&gt; one of &lt;em&gt;Latin America&lt;/em&gt;'s most &lt;em&gt;delinquent debtors&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;measure&lt;/em&gt; was the latest hard-line debt &lt;em&gt;stance&lt;/em&gt; adopted by the &lt;em&gt;government&lt;/em&gt; of &lt;em&gt;President&lt;/em&gt; Alan &lt;em&gt;Garcia,&lt;/em&gt; one of &lt;em&gt;Latin America&lt;/em&gt;'s most &lt;em&gt;delinquent debtors&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Neyra&lt;/em&gt; said &lt;em&gt;since&lt;/em&gt; late 1986 Peru had &lt;em&gt;sought&lt;/em&gt; an &lt;em&gt;accomodation&lt;/em&gt; with the &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;under which&lt;/em&gt; it &lt;em&gt;would receive&lt;/em&gt; more &lt;em&gt;credits&lt;/em&gt; than it &lt;em&gt;would remit&lt;/em&gt; in &lt;em&gt;repayments&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank has suspended &lt;em&gt;loans&lt;/em&gt; to Peru because the &lt;em&gt;country&lt;/em&gt; has over two &lt;em&gt;months&lt;/em&gt; of &lt;em&gt;payment arrears&lt;/em&gt; with the &lt;em&gt;lending agency, central&lt;/em&gt; bank &lt;em&gt;general manager Hector Neyra said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;country&lt;/em&gt; had &lt;em&gt;recently increased&lt;/em&gt; its &lt;em&gt;capital suscription&lt;/em&gt; in the &lt;em&gt;institution&lt;/em&gt; by &lt;em&gt;about three&lt;/em&gt; mln &lt;em&gt;dollars&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Central&lt;/em&gt; bank &lt;em&gt;president Leonel Figueroa&lt;/em&gt; said Peru had enough hard &lt;em&gt;currency,&lt;/em&gt; gold and &lt;em&gt;silver&lt;/em&gt; on hand to &lt;em&gt;cover 10&lt;/em&gt; or 11 &lt;em&gt;months' worth&lt;/em&gt; of &lt;em&gt;imports&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

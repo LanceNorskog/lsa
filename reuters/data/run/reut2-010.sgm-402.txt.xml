@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-402.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">different</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
         <str name="text">purchases</str>
-        <double name="strength">0.5590169943749476</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">before</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">discuss</str>
+        <double name="strength">0.9840539975201804</double>
       </lst>
       <lst name="term">
-        <str name="text">narrowed</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">agree</str>
+        <double name="strength">0.9840539975201804</double>
+      </lst>
+      <lst name="term">
+        <str name="text">parties</str>
+        <double name="strength">0.9840539975201804</double>
+      </lst>
+      <lst name="term">
+        <str name="text">range</str>
+        <double name="strength">0.9840539975201795</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">But the adjustments may prove significant enough to appease some countries that were not satisfied with the original proposed differentials assigned to them, delegates said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Another problem area, delegates said, was the question of price differentials for different origins of cocoa bought into the buffer stock, by which the buffer stock manager could fairly compare relative prices of different cocoas offered to him.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">246</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999544787095644</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A final compromise proposal on cocoa buffer stock rules presented by International Cocoa Organization, ICCO, council chairman Denis Bra Kanon is swiftly gaining acceptance by consumer and producer members, delegates said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">221</int>
-        <double name="strength">0.7331679039984405</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We are close, nearer than ever to accepting it, but we still have some work to do," producer spokesman Mama Mohammed of Ghana told Reuters after a producers' meeting.</str>
-        <int name="index">1</int>
+        <str name="text">The compromise also stated buffer stock purchases on any day would be limited to 40 pct each in nearby, intermediate or forward positions, delegates said.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">168</int>
-        <double name="strength">0.6492070090764616</double>
+        <int name="end">155</int>
+        <double name="strength">0.9519251094925321</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Another problem&lt;/em&gt; area, &lt;em&gt;delegates&lt;/em&gt; said, was the &lt;em&gt;question&lt;/em&gt; of &lt;em&gt;price differentials&lt;/em&gt; for &lt;em&gt;different origins&lt;/em&gt; of &lt;em&gt;cocoa bought&lt;/em&gt; into the &lt;em&gt;buffer stock,&lt;/em&gt; by &lt;em&gt;which&lt;/em&gt; the &lt;em&gt;buffer stock manager could fairly compare relative prices&lt;/em&gt; of &lt;em&gt;different cocoas offered&lt;/em&gt; to him.</str>
+        <str name="text">But the &lt;em&gt;adjustments&lt;/em&gt; may &lt;em&gt;prove significant&lt;/em&gt; enough to &lt;em&gt;appease&lt;/em&gt; some &lt;em&gt;countries&lt;/em&gt; that were not satisfied with the &lt;em&gt;original&lt;/em&gt; proposed &lt;em&gt;differentials&lt;/em&gt; assigned to them, &lt;em&gt;delegates said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Another &lt;em&gt;problem&lt;/em&gt; area, &lt;em&gt;delegates&lt;/em&gt; said, was the &lt;em&gt;question&lt;/em&gt; of &lt;em&gt;price differentials&lt;/em&gt; for &lt;em&gt;different origins&lt;/em&gt; of &lt;em&gt;cocoa&lt;/em&gt; bought into the &lt;em&gt;buffer stock,&lt;/em&gt; by which the &lt;em&gt;buffer stock manager&lt;/em&gt; could fairly &lt;em&gt;compare relative prices&lt;/em&gt; of &lt;em&gt;different cocoas&lt;/em&gt; offered to him.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;final compromise proposal&lt;/em&gt; on &lt;em&gt;cocoa buffer stock rules presented&lt;/em&gt; by &lt;em&gt;International Cocoa Organization,&lt;/em&gt; ICCO, &lt;em&gt;council chairman Denis&lt;/em&gt; Bra &lt;em&gt;Kanon&lt;/em&gt; is &lt;em&gt;swiftly gaining acceptance&lt;/em&gt; by &lt;em&gt;consumer&lt;/em&gt; and &lt;em&gt;producer members, delegates said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We are &lt;em&gt;close, nearer&lt;/em&gt; than ever to &lt;em&gt;accepting&lt;/em&gt; it, but we &lt;em&gt;still&lt;/em&gt; have some work to do," &lt;em&gt;producer spokesman&lt;/em&gt; Mama &lt;em&gt;Mohammed&lt;/em&gt; of &lt;em&gt;Ghana&lt;/em&gt; told &lt;em&gt;Reuters after&lt;/em&gt; a &lt;em&gt;producers' meeting&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;compromise&lt;/em&gt; also stated &lt;em&gt;buffer stock purchases&lt;/em&gt; on any day would be limited to 40 pct each in &lt;em&gt;nearby, intermediate&lt;/em&gt; or &lt;em&gt;forward positions, delegates said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

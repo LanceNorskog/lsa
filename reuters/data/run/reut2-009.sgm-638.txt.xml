@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-638.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">68</int>
+        <int name="count">47</int>
       </lst>
       <lst name="stems">
-        <int name="count">44</int>
+        <int name="count">32</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">sales</str>
+        <str name="text">imports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">hartley</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">intends</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">increase</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">capital</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">average</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">condensate</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Without decisive action in Washington, this nation will once again become a hostage to OPEC's plans and policies," Hartley said.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">130</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The company said in its annual report that it would increase spending for exploration and development of petroleum resources by about three pct to 614 mln dlrs from 1986's 595 mln dlrs, assuming oil prices hold around current levels.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">234</int>
-        <double name="strength">0.9892551394833157</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Unocal said its average sales prices for crude oil was 12.67 dlrs a barrel worldwide in 1986 compared to 23.81 dlrs in 1985, and its average sales price for natural gas was 2.03 dlrs per thousand cubic feet in 1986 against 2.24 dlrs in 1985.</str>
-        <int name="index">8</int>
+        <str name="text">"Without decisive action in Washington, this nation will once again become a hostage to OPEC's plans and policies," Hartley said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.8643097064408171</double>
+        <int name="end">130</int>
+        <double name="strength">0.924112725835261</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Unocal Corp said it intends to increase its spending for capital projects to 929 mln dlrs in 1987, eight pct more than the 862 mln spent in 1986.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">145</int>
+        <double name="strength">0.6829013139906228</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Without decisive action&lt;/em&gt; in &lt;em&gt;Washington,&lt;/em&gt; this &lt;em&gt;nation&lt;/em&gt; will once &lt;em&gt;again become&lt;/em&gt; a &lt;em&gt;hostage&lt;/em&gt; to OPEC's &lt;em&gt;plans&lt;/em&gt; and &lt;em&gt;policies," Hartley said&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said in its &lt;em&gt;annual report&lt;/em&gt; that it &lt;em&gt;would increase spending&lt;/em&gt; for &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;petroleum resources&lt;/em&gt; by &lt;em&gt;about three&lt;/em&gt; pct to 614 mln dlrs from 1986's 595 mln dlrs, &lt;em&gt;assuming&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; hold &lt;em&gt;around current levels&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said in its &lt;em&gt;annual report&lt;/em&gt; that it would &lt;em&gt;increase spending&lt;/em&gt; for &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;petroleum resources&lt;/em&gt; by about &lt;em&gt;three&lt;/em&gt; pct to 614 mln dlrs from 1986's 595 mln dlrs, assuming oil &lt;em&gt;prices&lt;/em&gt; hold around &lt;em&gt;current levels&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Unocal&lt;/em&gt; said its &lt;em&gt;average sales prices&lt;/em&gt; for &lt;em&gt;crude&lt;/em&gt; oil was 12.67 dlrs a &lt;em&gt;barrel worldwide&lt;/em&gt; in 1986 &lt;em&gt;compared&lt;/em&gt; to 23.81 dlrs in 1985, and its &lt;em&gt;average sales price&lt;/em&gt; for &lt;em&gt;natural&lt;/em&gt; gas was 2.03 dlrs per &lt;em&gt;thousand cubic&lt;/em&gt; feet in 1986 &lt;em&gt;against 2.24&lt;/em&gt; dlrs in 1985.</str>
-        <int name="index">8</int>
+        <str name="text">"Without &lt;em&gt;decisive action&lt;/em&gt; in Washington, this &lt;em&gt;nation&lt;/em&gt; will once again &lt;em&gt;become&lt;/em&gt; a &lt;em&gt;hostage&lt;/em&gt; to OPEC's &lt;em&gt;plans&lt;/em&gt; and &lt;em&gt;policies," Hartley said&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Unocal&lt;/em&gt; Corp said it intends to &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;spending&lt;/em&gt; for &lt;em&gt;capital projects&lt;/em&gt; to 929 mln dlrs in 1987, &lt;em&gt;eight&lt;/em&gt; pct more than the 862 mln spent in 1986.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

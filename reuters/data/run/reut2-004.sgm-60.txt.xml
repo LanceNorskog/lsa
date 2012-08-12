@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-60.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">113</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">since</str>
+        <str name="text">seamen</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">1.0</double>
+        <str name="text">shipowners</str>
+        <double name="strength">0.4938845266944508</double>
       </lst>
       <lst name="term">
-        <str name="text">office</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">janeiro</str>
+        <double name="strength">0.49388452669445043</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">country</str>
+        <double name="strength">0.49388452669445</double>
       </lst>
       <lst name="term">
-        <str name="text">talks</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">ports</str>
+        <double name="strength">0.4938845266944495</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">According to officical pay lists available in the union's office, the basic pay for ordinary seamen is 1,977 cruzados a month, while various allowances can bring their total pay up to 4,000 cruzados a month.</str>
-        <int name="index">11</int>
-        <int name="start">0</int>
-        <int name="end">207</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said the seamen had not received a pay increase since February 1986, and prices have doubled since then with the collapse of the government's Cruzado Plan price freeze.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">171</int>
-        <double name="strength">0.9789860263216904</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Talks in Rio de Janeiro Wednesday involving Labour Minister Almir Pazzionotto, seamen and employers failed to resolve the dispute.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">131</int>
-        <double name="strength">0.837147190659302</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The strike by 40,000 seamen comes as Brazil faces a serious debt crisis brought on by a sharp deterioration in its trade balance.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">130</int>
+        <double name="strength">0.9934752917488088</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An advertisement placed in the newspapers by the Shipowners Association read, "The seamen's strike is illegal, irrational and unpatriotic."</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.9419469429134333</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to &lt;em&gt;officical&lt;/em&gt; pay &lt;em&gt;lists available&lt;/em&gt; in the &lt;em&gt;union&lt;/em&gt;'s &lt;em&gt;office,&lt;/em&gt; the &lt;em&gt;basic&lt;/em&gt; pay for &lt;em&gt;ordinary seamen&lt;/em&gt; is 1,977 &lt;em&gt;cruzados&lt;/em&gt; a &lt;em&gt;month, while various allowances&lt;/em&gt; can &lt;em&gt;bring their total&lt;/em&gt; pay up to 4,000 &lt;em&gt;cruzados&lt;/em&gt; a &lt;em&gt;month&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;seamen&lt;/em&gt; had not &lt;em&gt;received&lt;/em&gt; a pay &lt;em&gt;increase since February 1986,&lt;/em&gt; and &lt;em&gt;prices&lt;/em&gt; have &lt;em&gt;doubled since&lt;/em&gt; then with the &lt;em&gt;collapse&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;Cruzado&lt;/em&gt; Plan &lt;em&gt;price freeze&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Talks&lt;/em&gt; in Rio de &lt;em&gt;Janeiro Wednesday involving Labour Minister Almir Pazzionotto, seamen&lt;/em&gt; and &lt;em&gt;employers failed&lt;/em&gt; to &lt;em&gt;resolve&lt;/em&gt; the &lt;em&gt;dispute&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Talks&lt;/em&gt; in Rio de &lt;em&gt;Janeiro&lt;/em&gt; Wednesday involving &lt;em&gt;Labour Minister&lt;/em&gt; Almir &lt;em&gt;Pazzionotto, seamen&lt;/em&gt; and &lt;em&gt;employers&lt;/em&gt; failed to &lt;em&gt;resolve&lt;/em&gt; the &lt;em&gt;dispute&lt;/em&gt;.</str>
         <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;strike&lt;/em&gt; by 40,000 &lt;em&gt;seamen&lt;/em&gt; comes as &lt;em&gt;Brazil faces&lt;/em&gt; a &lt;em&gt;serious&lt;/em&gt; debt &lt;em&gt;crisis&lt;/em&gt; brought on by a &lt;em&gt;sharp deterioration&lt;/em&gt; in its &lt;em&gt;trade balance&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An &lt;em&gt;advertisement&lt;/em&gt; placed in the &lt;em&gt;newspapers&lt;/em&gt; by the &lt;em&gt;Shipowners Association&lt;/em&gt; read, "The &lt;em&gt;seamen&lt;/em&gt;'s &lt;em&gt;strike&lt;/em&gt; is &lt;em&gt;illegal, irrational&lt;/em&gt; and &lt;em&gt;unpatriotic.&lt;/em&gt;"</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

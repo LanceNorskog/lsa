@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-436.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">170</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">overseas</str>
+        <str name="text">reuters</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">earlier</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">services</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">united</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">prices</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">others</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">britain</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">value</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">204</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">Japan, which has been accused of dumping everything from steel to computer microchips on world markets, is now under attack for alleged cut-throat selling of a product of a different sort -- banking services.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">208</int>
-        <double name="strength">0.9873434325328551</double>
+        <double name="strength">0.9963319832906403</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Earlier this year, the United States and Britain agreed to adopt common regulations requiring banks to put up capital equivalent to at least six pct of total assets.</str>
-        <int name="index">9</int>
+        <str name="text">Finance Ministry officials defended their stance by saying that studies of the stock market over the last 30 years show that prices have rarely fallen below the 70 pct value level.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.8899911392290972</double>
+        <int name="end">181</int>
+        <double name="strength">0.7792582547939212</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;technical banking talks coincided&lt;/em&gt; with, but were &lt;em&gt;separate&lt;/em&gt; from, &lt;em&gt;discussions between Japanese officials&lt;/em&gt; and &lt;em&gt;British corporate affairs minister Michael Howard,&lt;/em&gt; who left &lt;em&gt;Tokyo yesterday&lt;/em&gt; for &lt;em&gt;South Korea&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;technical banking talks&lt;/em&gt; coincided with, but were &lt;em&gt;separate&lt;/em&gt; from, &lt;em&gt;discussions&lt;/em&gt; between &lt;em&gt;Japanese officials&lt;/em&gt; and &lt;em&gt;British corporate affairs minister Michael&lt;/em&gt; Howard, who left &lt;em&gt;Tokyo yesterday&lt;/em&gt; for &lt;em&gt;South Korea&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japan, which&lt;/em&gt; has been &lt;em&gt;accused&lt;/em&gt; of &lt;em&gt;dumping everything&lt;/em&gt; from &lt;em&gt;steel&lt;/em&gt; to &lt;em&gt;computer microchips&lt;/em&gt; on &lt;em&gt;world markets,&lt;/em&gt; is now &lt;em&gt;under attack&lt;/em&gt; for &lt;em&gt;alleged&lt;/em&gt; cut-&lt;em&gt;throat selling&lt;/em&gt; of a &lt;em&gt;product&lt;/em&gt; of a &lt;em&gt;different&lt;/em&gt; sort -- &lt;em&gt;banking services&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Japan,&lt;/em&gt; which has been accused of dumping &lt;em&gt;everything&lt;/em&gt; from &lt;em&gt;steel&lt;/em&gt; to &lt;em&gt;computer microchips&lt;/em&gt; on &lt;em&gt;world markets,&lt;/em&gt; is now under &lt;em&gt;attack&lt;/em&gt; for &lt;em&gt;alleged&lt;/em&gt; cut-&lt;em&gt;throat selling&lt;/em&gt; of a &lt;em&gt;product&lt;/em&gt; of a &lt;em&gt;different&lt;/em&gt; sort -- &lt;em&gt;banking services&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earlier&lt;/em&gt; this year, the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Britain agreed&lt;/em&gt; to &lt;em&gt;adopt common regulations requiring banks&lt;/em&gt; to put up &lt;em&gt;capital equivalent&lt;/em&gt; to at &lt;em&gt;least&lt;/em&gt; six pct of &lt;em&gt;total assets&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Finance Ministry officials&lt;/em&gt; defended their &lt;em&gt;stance&lt;/em&gt; by saying that &lt;em&gt;studies&lt;/em&gt; of the &lt;em&gt;stock market&lt;/em&gt; over the last 30 &lt;em&gt;years&lt;/em&gt; show that &lt;em&gt;prices&lt;/em&gt; have rarely fallen below the 70 pct &lt;em&gt;value level&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

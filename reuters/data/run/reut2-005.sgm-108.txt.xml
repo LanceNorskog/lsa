@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-108.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">128</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">state</str>
+        <str name="text">certificates</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">higher</str>
-        <double name="strength">0.7905694150420964</double>
+        <str name="text">bonus</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.7905694150420964</double>
+        <str name="text">payment</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">certificates</str>
-        <double name="strength">0.7905694150420953</double>
+        <str name="text">hackmann</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">march</str>
-        <double name="strength">0.7071067811865506</double>
+        <str name="text">yielding</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">262</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. Agriculture Department (USDA) figures for highly-erodible land enrolled into the Conservation Reserve Program were regarded by most grain analysts as neutral to bearish, although some said a full state-by-state breakdown would be needed to assess the full price impact.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">274</int>
-        <double name="strength">0.9301625611269699</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Katharina Zimmer, analyst for Merrill Lynch Futures, said the conservation sign-up was slightly higher than she had expected, although she noted that some trade expectations were considerably higher than the actual figures.</str>
-        <int name="index">14</int>
+        <str name="text">Richard Loewy, analyst with Prudential Bache Securities, said there was not enough information to completely assess the conservation figures.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">0.8402114712423985</double>
+        <int name="end">142</int>
+        <double name="strength">0.8804488868792847</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Susan Hackmann of AgriAnalysis said there was some confusion over whether trade ideas of an enrollment figure between 15 and 18 mln acres referred to the total sign-up or the latest addition.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
+        <double name="strength">0.7976236775013329</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">New crop corn &lt;em&gt;prices&lt;/em&gt; at the &lt;em&gt;Chicago Board&lt;/em&gt; of &lt;em&gt;Trade firmed earlier&lt;/em&gt; this week on &lt;em&gt;ideas&lt;/em&gt; of a &lt;em&gt;large&lt;/em&gt; sign-up in the &lt;em&gt;program, despite&lt;/em&gt; the fact that &lt;em&gt;acres enrolled&lt;/em&gt; are &lt;em&gt;generally&lt;/em&gt; poor &lt;em&gt;yielding&lt;/em&gt; and not &lt;em&gt;likely&lt;/em&gt; to make a &lt;em&gt;substantial difference&lt;/em&gt; to &lt;em&gt;final production figures&lt;/em&gt;.</str>
+        <str name="text">New crop corn &lt;em&gt;prices&lt;/em&gt; at the &lt;em&gt;Chicago Board&lt;/em&gt; of &lt;em&gt;Trade&lt;/em&gt; firmed earlier this week on &lt;em&gt;ideas&lt;/em&gt; of a &lt;em&gt;large&lt;/em&gt; sign-up in the &lt;em&gt;program,&lt;/em&gt; despite the fact that &lt;em&gt;acres&lt;/em&gt; enrolled are generally poor &lt;em&gt;yielding&lt;/em&gt; and not &lt;em&gt;likely&lt;/em&gt; to make a &lt;em&gt;substantial difference&lt;/em&gt; to &lt;em&gt;final production figures&lt;/em&gt;.</str>
         <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Agriculture Department &lt;/em&gt;(USDA) &lt;em&gt;figures&lt;/em&gt; for &lt;em&gt;highly-erodible&lt;/em&gt; land &lt;em&gt;enrolled&lt;/em&gt; into the &lt;em&gt;Conservation Reserve Program&lt;/em&gt; were &lt;em&gt;regarded&lt;/em&gt; by most &lt;em&gt;grain analysts&lt;/em&gt; as &lt;em&gt;neutral&lt;/em&gt; to &lt;em&gt;bearish, although&lt;/em&gt; some said a full &lt;em&gt;state&lt;/em&gt;-by-&lt;em&gt;state breakdown would&lt;/em&gt; be &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;assess&lt;/em&gt; the full &lt;em&gt;price impact&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Richard Loewy, analyst&lt;/em&gt; with &lt;em&gt;Prudential Bache Securities,&lt;/em&gt; said there was not &lt;em&gt;enough information&lt;/em&gt; to completely &lt;em&gt;assess&lt;/em&gt; the &lt;em&gt;conservation figures&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Katharina Zimmer, analyst&lt;/em&gt; for &lt;em&gt;Merrill Lynch Futures,&lt;/em&gt; said the &lt;em&gt;conservation&lt;/em&gt; sign-up was &lt;em&gt;slightly higher&lt;/em&gt; than she had &lt;em&gt;expected, although&lt;/em&gt; she &lt;em&gt;noted&lt;/em&gt; that some &lt;em&gt;trade expectations&lt;/em&gt; were &lt;em&gt;considerably higher&lt;/em&gt; than the &lt;em&gt;actual figures&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Susan Hackmann&lt;/em&gt; of &lt;em&gt;AgriAnalysis&lt;/em&gt; said there was some &lt;em&gt;confusion&lt;/em&gt; over whether &lt;em&gt;trade ideas&lt;/em&gt; of an &lt;em&gt;enrollment figure&lt;/em&gt; between 15 and 18 mln &lt;em&gt;acres&lt;/em&gt; referred to the &lt;em&gt;total&lt;/em&gt; sign-up or the latest &lt;em&gt;addition&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

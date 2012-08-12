@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-60.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">122</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">minister</str>
+        <str name="text">takeshita</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">countries</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">action</str>
+        <double name="strength">0.8459065173929179</double>
       </lst>
       <lst name="term">
-        <str name="text">patient</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">reforms</str>
+        <double name="strength">0.8459065173929171</double>
       </lst>
       <lst name="term">
-        <str name="text">widely</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">major</str>
+        <double name="strength">0.8459065173929169</double>
       </lst>
       <lst name="term">
-        <str name="text">known</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">trade</str>
+        <double name="strength">0.8459065173929169</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, expectations are high among major industries for new initiatives by Takeshita for immediate and effective measures to solve economic problems such as trade friction with the U.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">186</int>
+        <double name="strength">0.8843043177972788</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Behind those calls on Takeshita for prompt action are doubts about his capability in handling international issues due to his lack of experience in diplomacy, economists said.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.8126752371415819</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Former Finance Minister Noboru Takeshita, chosen on Monday to be Japan's next prime minister, will face a tough test in managing Japan's economy from the very start of his two-year term, economists and businessmen said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">219</int>
-        <double name="strength">0.7744332156226265</double>
+        <double name="strength">0.8365092308424321</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Eishiro Saito, chairman&lt;/em&gt; of the &lt;em&gt;Federation&lt;/em&gt; of &lt;em&gt;Economic Organisations (Keidanren), urged Takeshita&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt; in &lt;em&gt;unifying&lt;/em&gt; the &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; as soon as &lt;em&gt;possible&lt;/em&gt; to &lt;em&gt;tackle difficult tasks&lt;/em&gt;.</str>
+        <str name="text">Eishiro Saito, &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;Federation&lt;/em&gt; of &lt;em&gt;Economic Organisations &lt;/em&gt;(Keidanren), urged &lt;em&gt;Takeshita&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt; in unifying the &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; as soon as &lt;em&gt;possible&lt;/em&gt; to &lt;em&gt;tackle difficult tasks&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Behind those calls&lt;/em&gt; on &lt;em&gt;Takeshita&lt;/em&gt; for &lt;em&gt;prompt action&lt;/em&gt; are &lt;em&gt;doubts about&lt;/em&gt; his &lt;em&gt;capability&lt;/em&gt; in &lt;em&gt;handling international issues&lt;/em&gt; due to his lack of &lt;em&gt;experience&lt;/em&gt; in &lt;em&gt;diplomacy, economists said&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">However, &lt;em&gt;expectations&lt;/em&gt; are high among &lt;em&gt;major industries&lt;/em&gt; for new &lt;em&gt;initiatives&lt;/em&gt; by &lt;em&gt;Takeshita&lt;/em&gt; for &lt;em&gt;immediate&lt;/em&gt; and &lt;em&gt;effective measures&lt;/em&gt; to &lt;em&gt;solve economic problems&lt;/em&gt; such as &lt;em&gt;trade friction&lt;/em&gt; with the U.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Former Finance Minister Noboru Takeshita, chosen&lt;/em&gt; on &lt;em&gt;Monday&lt;/em&gt; to be &lt;em&gt;Japan&lt;/em&gt;'s next &lt;em&gt;prime minister,&lt;/em&gt; will face a &lt;em&gt;tough&lt;/em&gt; test in &lt;em&gt;managing Japan&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt; from the very &lt;em&gt;start&lt;/em&gt; of his two-year term, &lt;em&gt;economists&lt;/em&gt; and &lt;em&gt;businessmen said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">Behind those &lt;em&gt;calls&lt;/em&gt; on &lt;em&gt;Takeshita&lt;/em&gt; for &lt;em&gt;prompt action&lt;/em&gt; are &lt;em&gt;doubts&lt;/em&gt; about his &lt;em&gt;capability&lt;/em&gt; in handling &lt;em&gt;international issues&lt;/em&gt; due to his lack of &lt;em&gt;experience&lt;/em&gt; in &lt;em&gt;diplomacy, economists said&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

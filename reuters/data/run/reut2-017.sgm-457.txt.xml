@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-457.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">debts</str>
+        <str name="text">plans</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">little</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">issue</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">detrimental</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">sector</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">intention</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">asked</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">aluminium</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">199</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Banking sources said one option was to privately place the bonds through the Caracas-based Banco de Venezuela, which would underwrite the issue, but Marcano said no decision has yet been made.</str>
-        <int name="index">19</int>
+        <str name="text">In Caracas there have recently been calls to invoke the agreement's contingency clause which the government used last year to amend the original terms after a 40 pct drop in oil income.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">193</int>
-        <double name="strength">0.9950851851655346</double>
+        <int name="end">186</int>
+        <double name="strength">0.9328126913270122</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said Venezuela now obtains trade credit lines without a government guarantee, something that Argentina and others are just starting to try to negotiate in their restructuring packages.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.9933502436149728</double>
+        <double name="strength">0.9218314423744639</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; here &lt;em&gt;after&lt;/em&gt; a &lt;em&gt;meeting&lt;/em&gt; of the 11-&lt;em&gt;nation Cartagena group, Marcano&lt;/em&gt; said he was &lt;em&gt;aware&lt;/em&gt; of &lt;em&gt;political pressure&lt;/em&gt; at home to &lt;em&gt;reduce&lt;/em&gt; debt &lt;em&gt;payments&lt;/em&gt; but did not &lt;em&gt;think&lt;/em&gt; such a move &lt;em&gt;would benefit Venezuela&lt;/em&gt;.</str>
+        <str name="text">Speaking here after a &lt;em&gt;meeting&lt;/em&gt; of the 11-&lt;em&gt;nation Cartagena group, Marcano&lt;/em&gt; said he was &lt;em&gt;aware&lt;/em&gt; of &lt;em&gt;political pressure&lt;/em&gt; at home to &lt;em&gt;reduce&lt;/em&gt; debt &lt;em&gt;payments&lt;/em&gt; but did not &lt;em&gt;think&lt;/em&gt; such a move would &lt;em&gt;benefit Venezuela&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Banking sources&lt;/em&gt; said one &lt;em&gt;option&lt;/em&gt; was to &lt;em&gt;privately place&lt;/em&gt; the &lt;em&gt;bonds through&lt;/em&gt; the &lt;em&gt;Caracas-based Banco&lt;/em&gt; de &lt;em&gt;Venezuela, which would underwrite&lt;/em&gt; the &lt;em&gt;issue,&lt;/em&gt; but &lt;em&gt;Marcano&lt;/em&gt; said no &lt;em&gt;decision&lt;/em&gt; has yet been made.</str>
-        <int name="index">19</int>
+        <str name="text">In &lt;em&gt;Caracas&lt;/em&gt; there have recently been &lt;em&gt;calls&lt;/em&gt; to &lt;em&gt;invoke&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt;'s &lt;em&gt;contingency clause&lt;/em&gt; which the &lt;em&gt;government&lt;/em&gt; used last year to &lt;em&gt;amend&lt;/em&gt; the &lt;em&gt;original terms&lt;/em&gt; after a 40 pct drop in oil &lt;em&gt;income&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Venezuela&lt;/em&gt; now &lt;em&gt;obtains trade credit lines without&lt;/em&gt; a &lt;em&gt;government guarantee, something&lt;/em&gt; that &lt;em&gt;Argentina&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; are just &lt;em&gt;starting&lt;/em&gt; to try to &lt;em&gt;negotiate&lt;/em&gt; in &lt;em&gt;their restructuring packages&lt;/em&gt;.</str>
+        <str name="text">He said Venezuela now obtains &lt;em&gt;trade credit lines&lt;/em&gt; without a &lt;em&gt;government guarantee, something&lt;/em&gt; that &lt;em&gt;Argentina&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; are just starting to try to &lt;em&gt;negotiate&lt;/em&gt; in their &lt;em&gt;restructuring packages&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
     </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-454.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">78</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">capital</str>
+        <str name="text">chief</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">april</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">consumer</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">japanese</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">housing</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">stronger</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">remain</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">furuta</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Private capital spending in the quarter looked strong but this was primarily because utility companies brought forward their 1987/88 capital investment plans into the final quarter of 1986/87 in line with the government's economic stimulation package announced last fall, he said.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">281</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">However, given the yen's recent stability, stepped-up domestic demand should work as a driving force to push the economy onto a path of sustainable growth, they said.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.7315117858189945</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Domestic demand as a whole is not strong enough, except for housing, said Johsen Takahashi, chief economist at Mitsubishi Research Institute.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">142</int>
-        <double name="strength">0.7213932797179003</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dai-Ichi Kangyo Bank chief economist Kosaku Furuta said he was unable to say the economy has bottomed out, but added he expects increasing signs of recovery in the coming months.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.9724909920030738</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Housing is expected to remain buoyant, backed up by lower interest rates as well as government policies to stimulate the sector, he said.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">0.9178551254354012</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Private capital spending&lt;/em&gt; in the &lt;em&gt;quarter looked strong&lt;/em&gt; but this was &lt;em&gt;primarily because utility companies brought forward their 1987/88 capital investment plans&lt;/em&gt; into the &lt;em&gt;final quarter&lt;/em&gt; of 1986/87 in line with the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;economic stimulation package announced&lt;/em&gt; last fall, he said.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;However, given&lt;/em&gt; the yen's &lt;em&gt;recent stability, stepped&lt;/em&gt;-up &lt;em&gt;domestic demand should&lt;/em&gt; work as a &lt;em&gt;driving force&lt;/em&gt; to push the &lt;em&gt;economy&lt;/em&gt; onto a path of &lt;em&gt;sustainable growth,&lt;/em&gt; they said.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Domestic demand&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; is not &lt;em&gt;strong enough, except&lt;/em&gt; for &lt;em&gt;housing,&lt;/em&gt; said &lt;em&gt;Johsen Takahashi, chief economist&lt;/em&gt; at &lt;em&gt;Mitsubishi Research Institute&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Domestic demand&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; is not &lt;em&gt;strong&lt;/em&gt; enough, except for &lt;em&gt;housing,&lt;/em&gt; said &lt;em&gt;Johsen&lt;/em&gt; Takahashi, &lt;em&gt;chief economist&lt;/em&gt; at &lt;em&gt;Mitsubishi Research Institute&lt;/em&gt;.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dai-Ichi &lt;em&gt;Kangyo&lt;/em&gt; Bank &lt;em&gt;chief economist Kosaku Furuta&lt;/em&gt; said he was &lt;em&gt;unable&lt;/em&gt; to say the &lt;em&gt;economy&lt;/em&gt; has bottomed out, but added he expects increasing &lt;em&gt;signs&lt;/em&gt; of &lt;em&gt;recovery&lt;/em&gt; in the &lt;em&gt;coming months&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Housing&lt;/em&gt; is expected to &lt;em&gt;remain buoyant,&lt;/em&gt; backed up by lower &lt;em&gt;interest rates&lt;/em&gt; as well as &lt;em&gt;government policies&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;sector,&lt;/em&gt; he said.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

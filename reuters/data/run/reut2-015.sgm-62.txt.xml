@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-62.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">46</int>
       </lst>
       <lst name="terms">
-        <int name="count">243</int>
+        <int name="count">168</int>
       </lst>
       <lst name="stems">
-        <int name="count">157</int>
+        <int name="count">101</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">added</str>
+        <str name="text">products</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">marketer</str>
+        <double name="strength">0.999524655775041</double>
       </lst>
       <lst name="term">
-        <str name="text">poised</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">dosher</str>
+        <double name="strength">0.999524655775041</double>
       </lst>
       <lst name="term">
-        <str name="text">threshold</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9995246557750405</double>
       </lst>
       <lst name="term">
-        <str name="text">golden</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">billion</str>
+        <double name="strength">0.980180687714832</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">But some experts worry that the chemical industry may be headed for trouble if companies continue turning their back on the manufacturing of staple petrochemical commodities, such as ethylene, in favor of more profitable specialty chemicals that are custom-designed for a small group of buyers.</str>
-        <int name="index">29</int>
+        <str name="text">Also helping to bring supply and demand into balance has been the gradual market absorption of the extra chemical manufacturing capacity created by Middle Eastern oil producers in the early 1980s.</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">295</int>
+        <int name="end">197</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Houston-based Cain Chemical, created this month by the Sterling investment banking group, believes it can generate 700 mln dlrs in annual sales by bucking the industry trend.</str>
+        <int name="index">38</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.9252223312336059</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Chairman Gordon Cain, who previously led a leveraged buyout of Dupont's Conoco Inc's chemical business, has spent 1.1 billion dlrs since January to buy seven petrochemical plants along the Texas Gulf Coast.</str>
         <int name="index">39</int>
         <int name="start">1</int>
         <int name="end">207</int>
-        <double name="strength">0.9782365733575695</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I see us poised at the threshold of a golden period," said Paul Oreffice, chairman of giant Dow Chemical Co &lt;DOW&gt;, adding, "There's no major plant capacity being added around the world now.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">191</int>
-        <double name="strength">0.9222045806038305</double>
+        <double name="strength">0.9212743765539804</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But some &lt;em&gt;experts worry&lt;/em&gt; that the &lt;em&gt;chemical industry&lt;/em&gt; may be &lt;em&gt;headed&lt;/em&gt; for &lt;em&gt;trouble&lt;/em&gt; if &lt;em&gt;companies continue turning their&lt;/em&gt; back on the &lt;em&gt;manufacturing&lt;/em&gt; of &lt;em&gt;staple petrochemical commodities,&lt;/em&gt; such as &lt;em&gt;ethylene,&lt;/em&gt; in &lt;em&gt;favor&lt;/em&gt; of more &lt;em&gt;profitable specialty chemicals&lt;/em&gt; that are &lt;em&gt;custom-designed&lt;/em&gt; for a &lt;em&gt;small group&lt;/em&gt; of &lt;em&gt;buyers&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">Also helping to &lt;em&gt;bring supply&lt;/em&gt; and &lt;em&gt;demand&lt;/em&gt; into &lt;em&gt;balance&lt;/em&gt; has been the &lt;em&gt;gradual market absorption&lt;/em&gt; of the &lt;em&gt;extra chemical manufacturing capacity&lt;/em&gt; created by &lt;em&gt;Middle Eastern&lt;/em&gt; oil &lt;em&gt;producers&lt;/em&gt; in the &lt;em&gt;early 1980s&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chairman Gordon&lt;/em&gt; Cain, who &lt;em&gt;previously&lt;/em&gt; led a &lt;em&gt;leveraged buyout&lt;/em&gt; of &lt;em&gt;Dupont&lt;/em&gt;'s &lt;em&gt;Conoco&lt;/em&gt; Inc's &lt;em&gt;chemical business,&lt;/em&gt; has &lt;em&gt;spent 1.1 billion&lt;/em&gt; dlrs &lt;em&gt;since January&lt;/em&gt; to buy &lt;em&gt;seven petrochemical plants along&lt;/em&gt; the &lt;em&gt;Texas&lt;/em&gt; Gulf &lt;em&gt;Coast&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Houston&lt;/em&gt;-based Cain &lt;em&gt;Chemical,&lt;/em&gt; created this &lt;em&gt;month&lt;/em&gt; by the &lt;em&gt;Sterling investment banking group,&lt;/em&gt; believes it can &lt;em&gt;generate 700&lt;/em&gt; mln dlrs in &lt;em&gt;annual sales&lt;/em&gt; by bucking the &lt;em&gt;industry trend&lt;/em&gt;.</str>
+        <int name="index">38</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chairman&lt;/em&gt; Gordon Cain, who previously led a &lt;em&gt;leveraged buyout&lt;/em&gt; of &lt;em&gt;Dupont&lt;/em&gt;'s &lt;em&gt;Conoco&lt;/em&gt; Inc's &lt;em&gt;chemical business,&lt;/em&gt; has spent 1.1 &lt;em&gt;billion&lt;/em&gt; dlrs since &lt;em&gt;January&lt;/em&gt; to buy &lt;em&gt;seven petrochemical plants&lt;/em&gt; along the &lt;em&gt;Texas&lt;/em&gt; Gulf &lt;em&gt;Coast&lt;/em&gt;.</str>
         <int name="index">39</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I see us &lt;em&gt;poised&lt;/em&gt; at the &lt;em&gt;threshold&lt;/em&gt; of a &lt;em&gt;golden period,"&lt;/em&gt; said Paul &lt;em&gt;Oreffice, chairman&lt;/em&gt; of &lt;em&gt;giant&lt;/em&gt; Dow &lt;em&gt;Chemical&lt;/em&gt; Co &lt;DOW&gt;, &lt;em&gt;adding, "There&lt;/em&gt;'s no &lt;em&gt;major plant capacity being added around&lt;/em&gt; the &lt;em&gt;world now&lt;/em&gt;.</str>
-        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

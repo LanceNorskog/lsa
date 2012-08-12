@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-36.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">76</int>
+        <int name="count">57</int>
       </lst>
       <lst name="stems">
-        <int name="count">53</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">wayne</str>
+        <str name="text">issue</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">1.0</double>
+        <str name="text">association</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">1.0</double>
+        <str name="text">agriculture</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">1.0</double>
+        <str name="text">producers</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">europeans</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">american</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Bennett said West Germany, Britain, the Netherlands, Denmark and Portugal oppose the tax, but Italy and Belgium seem to have taken a hardline view on the issue.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"Europeans in favour of the tax say it would be to their advantage economically, but that is not correct because we would hit back," NSPA chairman Jack Reed said.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">163</int>
-        <double name="strength">0.9264888034348716</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The ASA and National Soybean Processors Association (NSPA) delegations will meet top West German government officials today and tomorrow to lobby for support.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">159</int>
-        <double name="strength">0.9066867843172168</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bennett said West Germany, Britain, the Netherlands, Denmark and Portugal oppose the tax, but Italy and Belgium seem to have taken a hardline view on the issue.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.9183605537289055</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Administration and the soybean industry view the EC proposal as violating the General Agreement on Tariffs and Trade.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">0.827372296400762</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bennett&lt;/em&gt; said West &lt;em&gt;Germany, Britain,&lt;/em&gt; the &lt;em&gt;Netherlands, Denmark&lt;/em&gt; and &lt;em&gt;Portugal oppose&lt;/em&gt; the tax, but &lt;em&gt;Italy&lt;/em&gt; and &lt;em&gt;Belgium&lt;/em&gt; seem to have &lt;em&gt;taken&lt;/em&gt; a &lt;em&gt;hardline&lt;/em&gt; view on the &lt;em&gt;issue&lt;/em&gt;.</str>
+        <str name="text">The ASA and &lt;em&gt;National Soybean Processors Association &lt;/em&gt;(NSPA) &lt;em&gt;delegations&lt;/em&gt; will meet top West &lt;em&gt;German government officials today&lt;/em&gt; and &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;lobby&lt;/em&gt; for &lt;em&gt;support&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bennett&lt;/em&gt; said West &lt;em&gt;Germany,&lt;/em&gt; Britain, the &lt;em&gt;Netherlands, Denmark&lt;/em&gt; and &lt;em&gt;Portugal oppose&lt;/em&gt; the tax, but Italy and &lt;em&gt;Belgium&lt;/em&gt; seem to have taken a &lt;em&gt;hardline&lt;/em&gt; view on the &lt;em&gt;issue&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Europeans&lt;/em&gt; in &lt;em&gt;favour&lt;/em&gt; of the tax say it &lt;em&gt;would&lt;/em&gt; be to &lt;em&gt;their advantage economically,&lt;/em&gt; but that is not &lt;em&gt;correct because&lt;/em&gt; we &lt;em&gt;would&lt;/em&gt; hit back," NSPA &lt;em&gt;chairman&lt;/em&gt; Jack Reed said.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The ASA and &lt;em&gt;National Soybean Processors Association &lt;/em&gt;(NSPA) &lt;em&gt;delegations&lt;/em&gt; will meet top West &lt;em&gt;German government officials today&lt;/em&gt; and &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;lobby&lt;/em&gt; for &lt;em&gt;support&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">S. &lt;em&gt;Administration&lt;/em&gt; and the &lt;em&gt;soybean industry&lt;/em&gt; view the EC &lt;em&gt;proposal&lt;/em&gt; as violating the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

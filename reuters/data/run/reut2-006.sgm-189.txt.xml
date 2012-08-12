@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-189.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">180</int>
+        <int name="count">131</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">things</str>
+        <str name="text">liberal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">0.9999999999999979</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">0.5590169943749487</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">success</str>
-        <double name="strength">0.5590169943749485</double>
+        <str name="text">sound</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">party</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Steel said "the cunning thing in this seductive budget is that all the good things will come in the pre-election period - the fall in interest rates, the fall in mortgage rates, the lower income tax, relatively cheaper whisky, beer, cigarettes and petrol."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">257</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The budget presented by Chancellor of the Exchequer Nigel Lawson was described by MPs and analysts as being politically astute, combining tax cuts and fiscal prudence which promised to boost the Conservative government's standing with both voters and financial markets.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">269</int>
-        <double name="strength">0.9520370163733959</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Chancellor had six billion stg to give back - he has chosen to give half of that to reducing the PSBR, whereas we in the SDP/Liberal Aliance think it would have been wiser to use those revenues to reduce unemployment and alleviate poverty."</str>
-        <int name="index">7</int>
+        <str name="text">Roy Hattersley, the Labour Party's Treasury spokesman, said "the Tories should have used available resources to invest in industry, in health and in education."</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">245</int>
-        <double name="strength">0.9248972837632612</double>
+        <int name="end">161</int>
+        <double name="strength">0.9894385155677602</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">David Owen, the leader of the Social Democratic Party (SDP) which with the Liberals make up the centrist Alliance grouping, said "this is a good attempt at an electioneering budget but it has failed in its objective.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">217</int>
+        <double name="strength">0.9807191033405082</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Steel&lt;/em&gt; said "the &lt;em&gt;cunning thing&lt;/em&gt; in this &lt;em&gt;seductive budget&lt;/em&gt; is that all the good &lt;em&gt;things&lt;/em&gt; will come in the pre-&lt;em&gt;election period -&lt;/em&gt; the fall in &lt;em&gt;interest rates,&lt;/em&gt; the fall in &lt;em&gt;mortgage rates,&lt;/em&gt; the &lt;em&gt;lower income&lt;/em&gt; tax, &lt;em&gt;relatively cheaper whisky,&lt;/em&gt; beer, &lt;em&gt;cigarettes&lt;/em&gt; and &lt;em&gt;petrol.&lt;/em&gt;"</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;budget presented&lt;/em&gt; by &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; was &lt;em&gt;described&lt;/em&gt; by MPs and &lt;em&gt;analysts&lt;/em&gt; as &lt;em&gt;being politically astute, combining&lt;/em&gt; tax cuts and &lt;em&gt;fiscal prudence which promised&lt;/em&gt; to &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;Conservative government&lt;/em&gt;'s &lt;em&gt;standing&lt;/em&gt; with both &lt;em&gt;voters&lt;/em&gt; and &lt;em&gt;financial markets&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;budget&lt;/em&gt; presented by &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; was described by MPs and &lt;em&gt;analysts&lt;/em&gt; as being politically &lt;em&gt;astute,&lt;/em&gt; combining tax cuts and &lt;em&gt;fiscal prudence&lt;/em&gt; which promised to &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;Conservative government&lt;/em&gt;'s standing with both &lt;em&gt;voters&lt;/em&gt; and &lt;em&gt;financial markets&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Chancellor&lt;/em&gt; had six &lt;em&gt;billion&lt;/em&gt; stg to give back - he has &lt;em&gt;chosen&lt;/em&gt; to give half of that to &lt;em&gt;reducing&lt;/em&gt; the PSBR, &lt;em&gt;whereas&lt;/em&gt; we in the SDP/&lt;em&gt;Liberal Aliance think&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; have been &lt;em&gt;wiser&lt;/em&gt; to use &lt;em&gt;those revenues&lt;/em&gt; to &lt;em&gt;reduce unemployment&lt;/em&gt; and &lt;em&gt;alleviate poverty.&lt;/em&gt;"</str>
-        <int name="index">7</int>
+        <str name="text">Roy &lt;em&gt;Hattersley,&lt;/em&gt; the &lt;em&gt;Labour Party&lt;/em&gt;'s &lt;em&gt;Treasury spokesman,&lt;/em&gt; said "the &lt;em&gt;Tories&lt;/em&gt; should have used &lt;em&gt;available resources&lt;/em&gt; to &lt;em&gt;invest&lt;/em&gt; in &lt;em&gt;industry,&lt;/em&gt; in &lt;em&gt;health&lt;/em&gt; and in &lt;em&gt;education.&lt;/em&gt;"</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;David&lt;/em&gt; Owen, the &lt;em&gt;leader&lt;/em&gt; of the &lt;em&gt;Social Democratic Party &lt;/em&gt;(SDP) which with the &lt;em&gt;Liberals&lt;/em&gt; make up the &lt;em&gt;centrist Alliance grouping,&lt;/em&gt; said "this is a good &lt;em&gt;attempt&lt;/em&gt; at an &lt;em&gt;electioneering budget&lt;/em&gt; but it has failed in its &lt;em&gt;objective&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

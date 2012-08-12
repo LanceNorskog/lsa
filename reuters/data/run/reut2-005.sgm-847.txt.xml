@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-847.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">49</int>
+        <int name="count">30</int>
       </lst>
       <lst name="stems">
-        <int name="count">32</int>
+        <int name="count">23</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">higher</str>
+        <str name="text">natural</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">goods</str>
-        <double name="strength">0.5590169943749483</double>
+        <str name="text">quarter</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">within</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">metals</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">decline</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">engineering</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">central</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">U.K. Industrial production rose a provisional 0.4 pct in January after a 0.6 pct decline in December 1986, figures from the Central Statistical Office show.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">In the latest three months, the energy index, which comprises oil, natural gas and coal production, was down 3.5 pct on the previous quarter and 0.5 pct below the same period a year earlier.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">191</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.832145129403358</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Within manufacturing, output of the metals industry rose by six pct and that of engineering and allied industries by one pct between the two latest three month periods.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8864144993497785</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Office said output of the investment goods industries rose 0.1 pct while consumer goods output increased 0.6 pct.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">118</int>
-        <double name="strength">0.8709407356564254</double>
+        <str name="text">Output of chemicals and textiles fell by one pct and minerals by two pct.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">73</int>
+        <double name="strength">0.811455615343075</double>
+        <int name="terms">4</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In the &lt;em&gt;latest three months,&lt;/em&gt; the &lt;em&gt;energy index, which comprises&lt;/em&gt; oil, &lt;em&gt;natural&lt;/em&gt; gas and coal &lt;em&gt;production,&lt;/em&gt; was down 3.5 pct on the &lt;em&gt;previous quarter&lt;/em&gt; and 0.5 pct &lt;em&gt;below&lt;/em&gt; the same &lt;em&gt;period&lt;/em&gt; a year &lt;em&gt;earlier&lt;/em&gt;.</str>
+        <str name="text">U.K. &lt;em&gt;Industrial production&lt;/em&gt; rose a &lt;em&gt;provisional 0.4&lt;/em&gt; pct in &lt;em&gt;January&lt;/em&gt; after a 0.6 pct &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;December 1986, figures&lt;/em&gt; from the &lt;em&gt;Central Statistical Office show&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In the latest &lt;em&gt;three months,&lt;/em&gt; the &lt;em&gt;energy index,&lt;/em&gt; which comprises oil, &lt;em&gt;natural&lt;/em&gt; gas and coal &lt;em&gt;production,&lt;/em&gt; was down 3.5 pct on the &lt;em&gt;previous quarter&lt;/em&gt; and 0.5 pct below the same &lt;em&gt;period&lt;/em&gt; a year earlier.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Within manufacturing, output&lt;/em&gt; of the &lt;em&gt;metals industry&lt;/em&gt; rose by six pct and that of &lt;em&gt;engineering&lt;/em&gt; and &lt;em&gt;allied industries&lt;/em&gt; by one pct &lt;em&gt;between&lt;/em&gt; the two &lt;em&gt;latest three month periods&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Office&lt;/em&gt; said &lt;em&gt;output&lt;/em&gt; of the &lt;em&gt;investment goods industries&lt;/em&gt; rose 0.1 pct &lt;em&gt;while consumer goods output increased 0.6 pct&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Output&lt;/em&gt; of &lt;em&gt;chemicals&lt;/em&gt; and &lt;em&gt;textiles&lt;/em&gt; fell by one pct and &lt;em&gt;minerals&lt;/em&gt; by two pct.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

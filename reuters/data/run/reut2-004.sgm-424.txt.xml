@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-424.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">products</str>
+        <str name="text">current</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">garrone</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">netbacks</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">sentiment</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">sources</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">total</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Garrone's refinery at San Quirico (capacity 130,000 bpd) is due to shutdown on March 14th for three weeks, and the jointly-owned ISAB/Garrone refinery at Mellili, capacity 220,000 bpd, is due to start up around March 20-25th following its closure for maintenance a month ago, a company spokesman said.</str>
-        <int name="index">5</int>
+        <str name="text">In France, the distillation unit at Societe Francaise de BP's Lavera refinery has been closed for maintenance since March 2, and is due to restart early April.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">302</int>
+        <int name="end">160</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Tighter availabilities of products as a result of the  shutdowns in the Med is helping to keep products markets bullish, particularly for March deliveries, oil traders said.</str>
-        <int name="index">4</int>
-        <int name="start">2</int>
-        <int name="end">175</int>
-        <double name="strength">0.9340389750125101</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Despite current bullish sentiment in the Med, however, traders noted that crude netbacks are beginning to look more attractive, and most maintenance shutdowns should be finished in two to three weeks.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.8707901508423649</double>
+        <double name="strength">0.9541428496935472</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Garrone's refinery at San Quirico (capacity 130,000 bpd) is due to shutdown on March 14th for three weeks, and the jointly-owned ISAB/Garrone refinery at Mellili, capacity 220,000 bpd, is due to start up around March 20-25th following its closure for maintenance a month ago, a company spokesman said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">302</int>
+        <double name="strength">0.8642148950425661</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Garrone&lt;/em&gt;'s &lt;em&gt;refinery&lt;/em&gt; at San &lt;em&gt;Quirico (capacity 130,000&lt;/em&gt; bpd) is due to &lt;em&gt;shutdown&lt;/em&gt; on &lt;em&gt;March 1&lt;/em&gt;4th for &lt;em&gt;three weeks,&lt;/em&gt; and the &lt;em&gt;jointly-owned&lt;/em&gt; ISAB/&lt;em&gt;Garrone refinery&lt;/em&gt; at &lt;em&gt;Mellili, capacity 220,000&lt;/em&gt; bpd, is due to &lt;em&gt;start&lt;/em&gt; up &lt;em&gt;around March 20-2&lt;/em&gt;5th &lt;em&gt;following&lt;/em&gt; its &lt;em&gt;closure&lt;/em&gt; for &lt;em&gt;maintenance&lt;/em&gt; a &lt;em&gt;month&lt;/em&gt; ago, a &lt;em&gt;company spokesman said&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">In &lt;em&gt;France,&lt;/em&gt; the &lt;em&gt;distillation&lt;/em&gt; unit at &lt;em&gt;Societe Francaise&lt;/em&gt; de BP's &lt;em&gt;Lavera refinery&lt;/em&gt; has been closed for &lt;em&gt;maintenance&lt;/em&gt; since &lt;em&gt;March 2,&lt;/em&gt; and is due to &lt;em&gt;restart early April&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tighter availabilities&lt;/em&gt; of &lt;em&gt;products&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the  &lt;em&gt;shutdowns&lt;/em&gt; in the Med is &lt;em&gt;helping&lt;/em&gt; to keep &lt;em&gt;products markets bullish, particularly&lt;/em&gt; for &lt;em&gt;March deliveries,&lt;/em&gt; oil &lt;em&gt;traders said&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite current bullish sentiment&lt;/em&gt; in the Med, &lt;em&gt;however, traders noted&lt;/em&gt; that &lt;em&gt;crude netbacks&lt;/em&gt; are &lt;em&gt;beginning&lt;/em&gt; to look more &lt;em&gt;attractive,&lt;/em&gt; and most &lt;em&gt;maintenance shutdowns should&lt;/em&gt; be &lt;em&gt;finished&lt;/em&gt; in two to &lt;em&gt;three weeks&lt;/em&gt;.</str>
+        <str name="text">Despite &lt;em&gt;current bullish sentiment&lt;/em&gt; in the Med, however, &lt;em&gt;traders&lt;/em&gt; noted that &lt;em&gt;crude netbacks&lt;/em&gt; are beginning to look more &lt;em&gt;attractive,&lt;/em&gt; and most &lt;em&gt;maintenance shutdowns&lt;/em&gt; should be finished in two to &lt;em&gt;three weeks&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Garrone&lt;/em&gt;'s &lt;em&gt;refinery&lt;/em&gt; at San &lt;em&gt;Quirico (capacity 130,000&lt;/em&gt; bpd) is due to &lt;em&gt;shutdown&lt;/em&gt; on &lt;em&gt;March 1&lt;/em&gt;4th for &lt;em&gt;three weeks,&lt;/em&gt; and the jointly-owned ISAB/&lt;em&gt;Garrone refinery&lt;/em&gt; at &lt;em&gt;Mellili, capacity 220,000&lt;/em&gt; bpd, is due to &lt;em&gt;start&lt;/em&gt; up around &lt;em&gt;March 20-2&lt;/em&gt;5th following its &lt;em&gt;closure&lt;/em&gt; for &lt;em&gt;maintenance&lt;/em&gt; a &lt;em&gt;month&lt;/em&gt; ago, a &lt;em&gt;company spokesman said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

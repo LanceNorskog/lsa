@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-90.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,31 +21,31 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">announcement</str>
+        <str name="text">three</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">likely</str>
+        <str name="text">question</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">appear</str>
+        <str name="text">germany</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">official</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">journal</str>
+        <str name="text">aspects</str>
         <double name="strength">1.0</double>
       </lst>
     </lst>
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">290</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Commission spokesman said an announcement is likely to appear in the EC's Official Journal within a few days giving notice of the Commission's intention to take emergency measures from July 1 should ministers fail to reach an accord.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.8380817098475281</double>
+        <str name="text">Will take the measures which are necessary, not only for the temporary management of the markets, but also for a healthy finance policy."</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">0.6990473482854395</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, Commission sources said this notice would not detail the measures to be taken, which, they said, might be considered by the Commission at its regular weekly meeting next Wednesday.</str>
-        <int name="index">5</int>
+        <str name="text">"This means that the protective measures we are going to apply will necessarily have, in the context of our own powers, a dynamic character," he said.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.7079209516130446</double>
+        <int name="end">151</int>
+        <double name="strength">0.6745189585787273</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;ministers ended their three&lt;/em&gt;-day &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Luxembourg still split&lt;/em&gt; on the &lt;em&gt;question&lt;/em&gt; of an oils and fats tax and with West &lt;em&gt;Germany saying&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; use its veto on two &lt;em&gt;other&lt;/em&gt; key &lt;em&gt;aspects&lt;/em&gt; of EC &lt;em&gt;Commission proposals,&lt;/em&gt; the &lt;em&gt;actual common price changes&lt;/em&gt; and a &lt;em&gt;revision&lt;/em&gt; of the "&lt;em&gt;green money" system&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;ministers&lt;/em&gt; ended their &lt;em&gt;three&lt;/em&gt;-day &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Luxembourg&lt;/em&gt; still split on the &lt;em&gt;question&lt;/em&gt; of an oils and fats tax and with West &lt;em&gt;Germany&lt;/em&gt; saying it would use its veto on two &lt;em&gt;other&lt;/em&gt; key &lt;em&gt;aspects&lt;/em&gt; of EC &lt;em&gt;Commission proposals,&lt;/em&gt; the &lt;em&gt;actual common price changes&lt;/em&gt; and a &lt;em&gt;revision&lt;/em&gt; of the "&lt;em&gt;green money" system&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Commission spokesman&lt;/em&gt; said an &lt;em&gt;announcement&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;appear&lt;/em&gt; in the EC's &lt;em&gt;Official Journal within&lt;/em&gt; a few days &lt;em&gt;giving notice&lt;/em&gt; of the &lt;em&gt;Commission&lt;/em&gt;'s &lt;em&gt;intention&lt;/em&gt; to take &lt;em&gt;emergency measures&lt;/em&gt; from July 1 &lt;em&gt;should ministers&lt;/em&gt; fail to &lt;em&gt;reach&lt;/em&gt; an &lt;em&gt;accord&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Will take the &lt;em&gt;measures&lt;/em&gt; which are &lt;em&gt;necessary,&lt;/em&gt; not only for the &lt;em&gt;temporary management&lt;/em&gt; of the &lt;em&gt;markets,&lt;/em&gt; but also for a &lt;em&gt;healthy finance policy.&lt;/em&gt;"</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, Commission sources&lt;/em&gt; said this &lt;em&gt;notice would&lt;/em&gt; not &lt;em&gt;detail&lt;/em&gt; the &lt;em&gt;measures&lt;/em&gt; to be &lt;em&gt;taken, which,&lt;/em&gt; they said, &lt;em&gt;might&lt;/em&gt; be &lt;em&gt;considered&lt;/em&gt; by the &lt;em&gt;Commission&lt;/em&gt; at its &lt;em&gt;regular weekly meeting&lt;/em&gt; next &lt;em&gt;Wednesday&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">"This means that the &lt;em&gt;protective measures&lt;/em&gt; we are going to &lt;em&gt;apply&lt;/em&gt; will necessarily have, in the &lt;em&gt;context&lt;/em&gt; of our own &lt;em&gt;powers,&lt;/em&gt; a &lt;em&gt;dynamic character,"&lt;/em&gt; he said.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

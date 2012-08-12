@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-602.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">161</int>
+        <int name="count">113</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reintegro</str>
+        <str name="text">london</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">ruled</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">future</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">higher</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">mentioned</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">producers</str>
+        <double name="strength">0.9580049845271331</double>
       </lst>
       <lst name="term">
-        <str name="text">circles</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">talks</str>
+        <double name="strength">0.9580049845271329</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">211</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said Brazil's current quota "reflects the reality of the market, allows for an orderly supply and satisfies demand," but added more clarity was needed to assess the criteria that determined it.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.9198710655288921</double>
+        <double name="strength">0.884518410905385</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Cardenas said lows registered immediately after the failure of the London talks were triggered by a widespread fear among dealers of an imminent price war and the belief that producers would go out and sell their coffee as quickly as possible, which did not happen.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">266</int>
-        <double name="strength">0.9167605538848586</double>
+        <double name="strength">0.8509609536721496</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked&lt;/em&gt; to &lt;em&gt;comment&lt;/em&gt; on a &lt;em&gt;Reuter report&lt;/em&gt; from &lt;em&gt;Jakarta saying Indonesia hoped Colombia could&lt;/em&gt; use its &lt;em&gt;contacts&lt;/em&gt; with &lt;em&gt;Brazil&lt;/em&gt; to &lt;em&gt;suggest&lt;/em&gt; a &lt;em&gt;compromise&lt;/em&gt; on the &lt;em&gt;quota issue, Cardenas&lt;/em&gt; said the &lt;em&gt;Brazilian stand&lt;/em&gt; was &lt;em&gt;quite clear&lt;/em&gt;.</str>
+        <str name="text">Asked to &lt;em&gt;comment&lt;/em&gt; on a &lt;em&gt;Reuter report&lt;/em&gt; from &lt;em&gt;Jakarta&lt;/em&gt; saying &lt;em&gt;Indonesia&lt;/em&gt; hoped &lt;em&gt;Colombia&lt;/em&gt; could use its &lt;em&gt;contacts&lt;/em&gt; with &lt;em&gt;Brazil&lt;/em&gt; to &lt;em&gt;suggest&lt;/em&gt; a &lt;em&gt;compromise&lt;/em&gt; on the &lt;em&gt;quota issue, Cardenas&lt;/em&gt; said the &lt;em&gt;Brazilian stand&lt;/em&gt; was quite &lt;em&gt;clear&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;current quota "reflects&lt;/em&gt; the &lt;em&gt;reality&lt;/em&gt; of the &lt;em&gt;market, allows&lt;/em&gt; for an &lt;em&gt;orderly supply&lt;/em&gt; and &lt;em&gt;satisfies demand,"&lt;/em&gt; but &lt;em&gt;added&lt;/em&gt; more &lt;em&gt;clarity&lt;/em&gt; was &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;assess&lt;/em&gt; the &lt;em&gt;criteria&lt;/em&gt; that &lt;em&gt;determined it&lt;/em&gt;.</str>
+        <str name="text">He said Brazil's &lt;em&gt;current quota &lt;/em&gt;"reflects the &lt;em&gt;reality&lt;/em&gt; of the &lt;em&gt;market,&lt;/em&gt; allows for an &lt;em&gt;orderly supply&lt;/em&gt; and &lt;em&gt;satisfies demand,"&lt;/em&gt; but added more &lt;em&gt;clarity&lt;/em&gt; was needed to &lt;em&gt;assess&lt;/em&gt; the &lt;em&gt;criteria&lt;/em&gt; that determined it.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Cardenas&lt;/em&gt; said lows &lt;em&gt;registered immediately after&lt;/em&gt; the &lt;em&gt;failure&lt;/em&gt; of the &lt;em&gt;London talks&lt;/em&gt; were &lt;em&gt;triggered&lt;/em&gt; by a &lt;em&gt;widespread&lt;/em&gt; fear &lt;em&gt;among dealers&lt;/em&gt; of an &lt;em&gt;imminent price&lt;/em&gt; war and the &lt;em&gt;belief&lt;/em&gt; that &lt;em&gt;producers would&lt;/em&gt; go out and sell &lt;em&gt;their coffee&lt;/em&gt; as &lt;em&gt;quickly&lt;/em&gt; as &lt;em&gt;possible, which&lt;/em&gt; did not &lt;em&gt;happen&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Cardenas&lt;/em&gt; said lows registered immediately after the &lt;em&gt;failure&lt;/em&gt; of the &lt;em&gt;London talks&lt;/em&gt; were triggered by a &lt;em&gt;widespread&lt;/em&gt; fear among &lt;em&gt;dealers&lt;/em&gt; of an &lt;em&gt;imminent price&lt;/em&gt; war and the &lt;em&gt;belief&lt;/em&gt; that &lt;em&gt;producers&lt;/em&gt; would go out and sell their &lt;em&gt;coffee&lt;/em&gt; as quickly as &lt;em&gt;possible,&lt;/em&gt; which did not &lt;em&gt;happen&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
     </lst>

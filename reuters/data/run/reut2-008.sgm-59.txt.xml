@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-59.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">producers</str>
+        <str name="text">tonnes</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.7071067811865486</double>
-      </lst>
-      <lst name="term">
-        <str name="text">intervention</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">percentage</str>
+        <double name="strength">0.9806832258882879</double>
       </lst>
       <lst name="term">
         <str name="text">levels</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">0.9806832258882874</double>
       </lst>
       <lst name="term">
-        <str name="text">asked</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">production</str>
+        <double name="strength">0.9806832258882866</double>
+      </lst>
+      <lst name="term">
+        <str name="text">world</str>
+        <double name="strength">0.9806832258882853</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">At last Friday's session, Ahmed Farouk, speaking for producers, said producing nations considered that the 1979 pact had served the purpose for which it had been created.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Malaysian/Singapore cts per kilo, will be maintained -- unless between now and October 22, when the 1979 INRA expires, the average of the daily market indicator price remains above the upper intervention ("may sell") price (231 cts) or below the lower intervention ("may buy") price (171 cts) for six months.</str>
-        <int name="index">4</int>
-        <int name="start">0</int>
-        <int name="end">308</int>
-        <double name="strength">0.8276501104734382</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The new INRA was adopted yesterday at a session held under the auspices of the United Nations Conference on Trade and Development (UNCTAD).</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">140</int>
-        <double name="strength">0.8184154944578126</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The new International Natural Rubber Agreement (INRA), like the 1979 pact, will use a buffer stock as the sole instrument for market intervention -- excluding export quotas or production controls.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">196</int>
+        <double name="strength">0.966270520613842</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Similarly, if buffer stock purchases or sales amounting to 300,000 tonnes have been made since the last revision, the reference price will be lowered or raised by three pct unless the Council decides on a higher percentage.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">224</int>
+        <double name="strength">0.9119635720591789</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">At last &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;session, Ahmed Farouk, speaking&lt;/em&gt; for &lt;em&gt;producers,&lt;/em&gt; said &lt;em&gt;producing nations considered&lt;/em&gt; that the 1979 pact had &lt;em&gt;served&lt;/em&gt; the &lt;em&gt;purpose&lt;/em&gt; for &lt;em&gt;which&lt;/em&gt; it had been &lt;em&gt;created&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysian/Singapore&lt;/em&gt; cts per kilo, will be &lt;em&gt;maintained -- unless between&lt;/em&gt; now and &lt;em&gt;October 22,&lt;/em&gt; when the 1979 INRA &lt;em&gt;expires,&lt;/em&gt; the &lt;em&gt;average&lt;/em&gt; of the &lt;em&gt;daily market indicator price remains above&lt;/em&gt; the &lt;em&gt;upper intervention (&lt;/em&gt;"may sell") &lt;em&gt;price (231&lt;/em&gt; cts) or &lt;em&gt;below&lt;/em&gt; the &lt;em&gt;lower intervention (&lt;/em&gt;"may buy") &lt;em&gt;price (171&lt;/em&gt; cts) for six &lt;em&gt;months&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The new INRA was &lt;em&gt;adopted yesterday&lt;/em&gt; at a &lt;em&gt;session&lt;/em&gt; held &lt;em&gt;under&lt;/em&gt; the &lt;em&gt;auspices&lt;/em&gt; of the &lt;em&gt;United Nations Conference&lt;/em&gt; on &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Development (UNCTAD)&lt;/em&gt;.</str>
+        <str name="text">The new INRA was adopted &lt;em&gt;yesterday&lt;/em&gt; at a &lt;em&gt;session&lt;/em&gt; held under the &lt;em&gt;auspices&lt;/em&gt; of the United &lt;em&gt;Nations Conference&lt;/em&gt; on &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Development (UNCTAD)&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The new &lt;em&gt;International Natural Rubber Agreement &lt;/em&gt;(INRA), like the 1979 pact, will use a &lt;em&gt;buffer stock&lt;/em&gt; as the sole &lt;em&gt;instrument&lt;/em&gt; for &lt;em&gt;market intervention --&lt;/em&gt; excluding &lt;em&gt;export quotas&lt;/em&gt; or &lt;em&gt;production controls&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Similarly, if &lt;em&gt;buffer stock purchases&lt;/em&gt; or &lt;em&gt;sales amounting&lt;/em&gt; to 300,000 &lt;em&gt;tonnes&lt;/em&gt; have been made since the last &lt;em&gt;revision,&lt;/em&gt; the &lt;em&gt;reference price&lt;/em&gt; will be lowered or raised by &lt;em&gt;three&lt;/em&gt; pct unless the &lt;em&gt;Council&lt;/em&gt; decides on a higher &lt;em&gt;percentage&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

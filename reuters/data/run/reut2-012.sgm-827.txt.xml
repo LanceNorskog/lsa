@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-827.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">today</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">unilateral</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">mistake</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
         <str name="text">conference</str>
-        <double name="strength">0.9999999999999991</double>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">important</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agenda</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">mobilise</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">214</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said flows from commercial banks had decreased markedly and that the refusal of some highly indebted countries to fulfil their commitments to private creditors or with the IMF was one reason for this.</str>
-        <int name="index">8</int>
+        <str name="text">But British Chancellor of the Exchequer Nigel Lawson rebuffed Funaro's bid and said commercial bank loans were a matter for banks and not governments.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.8735545543397645</double>
+        <int name="end">151</int>
+        <double name="strength">0.839496202353076</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Many debtor countries had realised that it was not possible to mobilise capital flows, and especially direct investments, without such policies, Stoltenberg said.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">162</int>
-        <double name="strength">0.825310469885633</double>
+        <str name="text">He also said that when debtor countries came up with good, confidence-inspiring policies, commercial banks should react with more flexibility in interest structures, maturities and rescheduling.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.8237102067392407</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After Brazil imposed&lt;/em&gt; a &lt;em&gt;moratorium&lt;/em&gt; on &lt;em&gt;interest payments&lt;/em&gt; on 68 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of debt in &lt;em&gt;February, Brazilian Finance Minister Dilson Funaro sought&lt;/em&gt; to &lt;em&gt;involve foreign governments&lt;/em&gt; in &lt;em&gt;rescheduling talks&lt;/em&gt; with &lt;em&gt;banks&lt;/em&gt;.</str>
+        <str name="text">After &lt;em&gt;Brazil&lt;/em&gt; imposed a &lt;em&gt;moratorium&lt;/em&gt; on &lt;em&gt;interest payments&lt;/em&gt; on 68 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of debt in &lt;em&gt;February, Brazilian Finance Minister Dilson Funaro&lt;/em&gt; sought to &lt;em&gt;involve foreign governments&lt;/em&gt; in rescheduling &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;banks&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;flows&lt;/em&gt; from &lt;em&gt;commercial banks&lt;/em&gt; had &lt;em&gt;decreased markedly&lt;/em&gt; and that the &lt;em&gt;refusal&lt;/em&gt; of some &lt;em&gt;highly indebted countries&lt;/em&gt; to &lt;em&gt;fulfil their commitments&lt;/em&gt; to &lt;em&gt;private creditors&lt;/em&gt; or with the IMF was one &lt;em&gt;reason&lt;/em&gt; for this.</str>
-        <int name="index">8</int>
+        <str name="text">But &lt;em&gt;British Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; rebuffed &lt;em&gt;Funaro&lt;/em&gt;'s bid and said &lt;em&gt;commercial&lt;/em&gt; bank &lt;em&gt;loans&lt;/em&gt; were a &lt;em&gt;matter&lt;/em&gt; for &lt;em&gt;banks&lt;/em&gt; and not &lt;em&gt;governments&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Many &lt;em&gt;debtor countries&lt;/em&gt; had &lt;em&gt;realised&lt;/em&gt; that it was not &lt;em&gt;possible&lt;/em&gt; to &lt;em&gt;mobilise capital flows,&lt;/em&gt; and &lt;em&gt;especially direct investments, without&lt;/em&gt; such &lt;em&gt;policies, Stoltenberg said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">He also said that when &lt;em&gt;debtor countries&lt;/em&gt; came up with good, &lt;em&gt;confidence-inspiring policies, commercial banks&lt;/em&gt; should &lt;em&gt;react&lt;/em&gt; with more &lt;em&gt;flexibility&lt;/em&gt; in &lt;em&gt;interest structures, maturities&lt;/em&gt; and rescheduling.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

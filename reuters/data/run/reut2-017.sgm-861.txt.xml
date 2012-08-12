@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-861.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">108</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">market</str>
+        <str name="text">aircraft</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">developing</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">systems</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.9999999999999964</double>
+        <str name="text">planes</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">canada</str>
+        <double name="strength">0.9840716504496502</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Although he would not divulge how much is being sought, Woodard said it would be in excess of the 10 mln Canadian dlrs already spent on replacing the plant's outmoded ventilation system.</str>
-        <int name="index">15</int>
+        <str name="text">"These are very complex, deep problems that you don't change overnight," Woodard told Reuters in an interview as he outlined his vision of transforming de Havilland into a diversified manufacturer and an important cog in Boeing's worldwide operations.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">187</int>
+        <int name="end">252</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Canada's Liberal government, interested in developing de Havilland's STOL (Short Take Off and Landing) technology, acquired the firm in 1974 and poured 830 mln Canadian dlrs into it over a dozen years, helping to develop the 50-seat Dash 7 and 39-seat Dash 8 commuter aircraft.</str>
-        <int name="index">10</int>
+        <str name="text">"We found to our shock, to our surprise, last August we had very serious health and safety regulation violations," said Woodard.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">278</int>
-        <double name="strength">0.9797500720312822</double>
+        <int name="end">129</int>
+        <double name="strength">0.8899505397963763</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Woodard said that while de Havilland has a commanding grip on the North American commuter market, which has been booming under airline deregulation, the company has only a 30 pct market share worldwide.</str>
-        <int name="index">22</int>
+        <str name="text">Yet Woodard, a former Boeing executive, believes the makeover is absolutely essential to revitalize the historic company Boeing bought from the Canadian government a year ago.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">203</int>
-        <double name="strength">0.8830532215800039</double>
+        <int name="end">176</int>
+        <double name="strength">0.8898528254332165</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; he &lt;em&gt;would&lt;/em&gt; not &lt;em&gt;divulge&lt;/em&gt; how much is &lt;em&gt;being sought, Woodard&lt;/em&gt; said it &lt;em&gt;would&lt;/em&gt; be in &lt;em&gt;excess&lt;/em&gt; of the 10 mln &lt;em&gt;Canadian&lt;/em&gt; dlrs &lt;em&gt;already spent&lt;/em&gt; on &lt;em&gt;replacing&lt;/em&gt; the &lt;em&gt;plant&lt;/em&gt;'s &lt;em&gt;outmoded ventilation system&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">"These are very &lt;em&gt;complex,&lt;/em&gt; deep &lt;em&gt;problems&lt;/em&gt; that you don't &lt;em&gt;change&lt;/em&gt; overnight," &lt;em&gt;Woodard&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt; as he outlined his &lt;em&gt;vision&lt;/em&gt; of transforming de Havilland into a &lt;em&gt;diversified manufacturer&lt;/em&gt; and an &lt;em&gt;important&lt;/em&gt; cog in Boeing's &lt;em&gt;worldwide operations&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;Liberal government, interested&lt;/em&gt; in &lt;em&gt;developing&lt;/em&gt; de &lt;em&gt;Havilland&lt;/em&gt;'s STOL (&lt;em&gt;Short&lt;/em&gt; Take Off and &lt;em&gt;Landing) technology, acquired&lt;/em&gt; the firm in 1974 and &lt;em&gt;poured 830&lt;/em&gt; mln &lt;em&gt;Canadian&lt;/em&gt; dlrs into it over a &lt;em&gt;dozen years, helping&lt;/em&gt; to &lt;em&gt;develop&lt;/em&gt; the 50-seat Dash 7 and 39-seat Dash 8 &lt;em&gt;commuter aircraft&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">"We found to our &lt;em&gt;shock,&lt;/em&gt; to our &lt;em&gt;surprise,&lt;/em&gt; last August we had very &lt;em&gt;serious health&lt;/em&gt; and &lt;em&gt;safety regulation violations,"&lt;/em&gt; said &lt;em&gt;Woodard&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Woodard&lt;/em&gt; said that &lt;em&gt;while&lt;/em&gt; de &lt;em&gt;Havilland&lt;/em&gt; has a &lt;em&gt;commanding&lt;/em&gt; grip on the &lt;em&gt;North American commuter market, which&lt;/em&gt; has been &lt;em&gt;booming under airline deregulation,&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; has only a 30 pct &lt;em&gt;market share worldwide&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">Yet Woodard, a &lt;em&gt;former Boeing executive,&lt;/em&gt; believes the &lt;em&gt;makeover&lt;/em&gt; is absolutely &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;revitalize&lt;/em&gt; the &lt;em&gt;historic company&lt;/em&gt; Boeing bought from the &lt;em&gt;Canadian government&lt;/em&gt; a year ago.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

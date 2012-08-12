@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-763.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">245</int>
+        <int name="count">168</int>
       </lst>
       <lst name="stems">
-        <int name="count">149</int>
+        <int name="count">96</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">there</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">growing</str>
-        <double name="strength">0.5000000000000059</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">nigel</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">monday</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">british</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">official</str>
+        <double name="strength">0.9963408654530966</double>
       </lst>
       <lst name="term">
-        <str name="text">chancellor</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">international</str>
+        <double name="strength">0.9963408654530964</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">323</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Nigel Lawson, British Chancellor of the Exchequer, was among those who said the treasury secretary's statements helped spur a wave of stock sales by making already jittery investors think that a clash between the two major economic powers would damage the world economy.</str>
-        <int name="index">2</int>
+        <str name="text">"On the surface Baker may look responsible for this, but if you go back to see what caused it (unsettling of financial markets), it was West German policy," said Robert Brusca of Nikko Securities International in New York.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">271</int>
-        <double name="strength">0.8731828558455711</double>
+        <int name="end">223</int>
+        <double name="strength">0.8363039564329886</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Moreover, Baker, the consummate politician, was worried that the Republican party might face next year's presidential election with its main showpiece -- a vibrant economy -- badly tarnished.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.761848309643564</double>
+        <str name="text">Treasury sources said that Baker, already unhappy about Bonn's refusal to stimulate its economy in order to keep the global recovery moving, was angered by a Bundesbank interest rate boost that seemed destined to do just the opposite.</str>
+        <int name="index">20</int>
+        <int name="start">0</int>
+        <int name="end">234</int>
+        <double name="strength">0.8191733517734203</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt;'s no &lt;em&gt;doubt&lt;/em&gt; that it can have an &lt;em&gt;adverse effect&lt;/em&gt; on the &lt;em&gt;economy,&lt;/em&gt; and it's &lt;em&gt;important&lt;/em&gt; that the &lt;em&gt;psychology&lt;/em&gt; turn &lt;em&gt;around quickly,&lt;/em&gt; or else &lt;em&gt;obviously&lt;/em&gt; the &lt;em&gt;panic&lt;/em&gt; will feed on &lt;em&gt;itself,&lt;/em&gt; and &lt;em&gt;eventually there&lt;/em&gt;'ll be a &lt;em&gt;serious price&lt;/em&gt; to pay &lt;em&gt;economically," former deputy Treasury Secretary Richard Darman&lt;/em&gt; said in a &lt;em&gt;television interview&lt;/em&gt;.</str>
+        <str name="text">"There's no &lt;em&gt;doubt&lt;/em&gt; that it can have an &lt;em&gt;adverse effect&lt;/em&gt; on the &lt;em&gt;economy,&lt;/em&gt; and it's &lt;em&gt;important&lt;/em&gt; that the &lt;em&gt;psychology&lt;/em&gt; turn around quickly, or else obviously the &lt;em&gt;panic&lt;/em&gt; will feed on itself, and eventually there'll be a &lt;em&gt;serious price&lt;/em&gt; to pay economically," &lt;em&gt;former deputy Treasury Secretary Richard Darman&lt;/em&gt; said in a &lt;em&gt;television interview&lt;/em&gt;.</str>
         <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nigel Lawson, British Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer,&lt;/em&gt; was &lt;em&gt;among those&lt;/em&gt; who said the &lt;em&gt;treasury secretary&lt;/em&gt;'s &lt;em&gt;statements helped&lt;/em&gt; spur a wave of &lt;em&gt;stock sales&lt;/em&gt; by &lt;em&gt;making already jittery investors think&lt;/em&gt; that a &lt;em&gt;clash between&lt;/em&gt; the two &lt;em&gt;major economic powers would damage&lt;/em&gt; the &lt;em&gt;world economy&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"On the &lt;em&gt;surface Baker&lt;/em&gt; may look &lt;em&gt;responsible&lt;/em&gt; for this, but if you go back to see what caused it (&lt;em&gt;unsettling&lt;/em&gt; of &lt;em&gt;financial markets),&lt;/em&gt; it was West &lt;em&gt;German policy,"&lt;/em&gt; said &lt;em&gt;Robert Brusca&lt;/em&gt; of &lt;em&gt;Nikko Securities International&lt;/em&gt; in New York.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Moreover, Baker,&lt;/em&gt; the &lt;em&gt;consummate politician,&lt;/em&gt; was &lt;em&gt;worried&lt;/em&gt; that the &lt;em&gt;Republican party might&lt;/em&gt; face next year's &lt;em&gt;presidential election&lt;/em&gt; with its main &lt;em&gt;showpiece --&lt;/em&gt; a &lt;em&gt;vibrant economy -- badly tarnished&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;Treasury sources&lt;/em&gt; said that &lt;em&gt;Baker,&lt;/em&gt; already &lt;em&gt;unhappy&lt;/em&gt; about Bonn's &lt;em&gt;refusal&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to keep the &lt;em&gt;global recovery&lt;/em&gt; moving, was angered by a &lt;em&gt;Bundesbank interest&lt;/em&gt; rate &lt;em&gt;boost&lt;/em&gt; that seemed destined to do just the &lt;em&gt;opposite&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

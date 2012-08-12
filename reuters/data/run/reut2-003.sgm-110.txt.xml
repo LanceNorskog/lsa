@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-110.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">thereby</str>
+        <str name="text">available</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">preserving</str>
-        <double name="strength">1.0</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">impact</str>
-        <double name="strength">1.0</double>
+        <str name="text">payable</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">chancellor</str>
-        <double name="strength">1.0</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">exchequer</str>
-        <double name="strength">1.0</double>
+        <str name="text">result</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">However, they noted that although sterling had edged down from its highs following the base rate cut, it had still closed on a trade-weighted basis at 72.4, well ahead of Friday's final 71.8 and only just beneath the peak of 72.5 touched at 1300 GMT.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">251</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">K. Budget on March 17, thereby preserving the full impact of Chancellor of the Exchequer Nigel Lawson's package of measures.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">124</int>
-        <double name="strength">0.8699176724016819</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Today's one billion stg tap issue was viewed by the market as a move by the Bank to eradicate hopes for a further early rate cut which might arise as a result of strong sterling.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.9581312088641533</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">To the surprise of most participants, the issue was sold out within hours of becoming available for trading and the market pushed on to register further sharp gains.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">166</int>
-        <double name="strength">0.8363723955811849</double>
+        <double name="strength">0.9479325779149879</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; they &lt;em&gt;noted&lt;/em&gt; that &lt;em&gt;although sterling&lt;/em&gt; had &lt;em&gt;edged&lt;/em&gt; down from its &lt;em&gt;highs following&lt;/em&gt; the base rate cut, it had &lt;em&gt;still closed&lt;/em&gt; on a &lt;em&gt;trade-weighted basis&lt;/em&gt; at 72.4, well &lt;em&gt;ahead&lt;/em&gt; of &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;final 71.8&lt;/em&gt; and only just &lt;em&gt;beneath&lt;/em&gt; the peak of 72.5 &lt;em&gt;touched&lt;/em&gt; at 1300 GMT.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Budget&lt;/em&gt; on &lt;em&gt;March 17, thereby preserving&lt;/em&gt; the full &lt;em&gt;impact&lt;/em&gt; of &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;package&lt;/em&gt; of &lt;em&gt;measures&lt;/em&gt;.</str>
+        <str name="text">K. &lt;em&gt;Budget&lt;/em&gt; on &lt;em&gt;March 17,&lt;/em&gt; thereby preserving the full &lt;em&gt;impact&lt;/em&gt; of &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;package&lt;/em&gt; of &lt;em&gt;measures&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">To the &lt;em&gt;surprise&lt;/em&gt; of most &lt;em&gt;participants,&lt;/em&gt; the &lt;em&gt;issue&lt;/em&gt; was sold out &lt;em&gt;within hours&lt;/em&gt; of &lt;em&gt;becoming available&lt;/em&gt; for &lt;em&gt;trading&lt;/em&gt; and the &lt;em&gt;market pushed&lt;/em&gt; on to &lt;em&gt;register further sharp gains&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Today&lt;/em&gt;'s one &lt;em&gt;billion&lt;/em&gt; stg tap &lt;em&gt;issue&lt;/em&gt; was viewed by the &lt;em&gt;market&lt;/em&gt; as a move by the Bank to &lt;em&gt;eradicate hopes&lt;/em&gt; for a &lt;em&gt;further early&lt;/em&gt; rate cut which might &lt;em&gt;arise&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;strong sterling&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To the &lt;em&gt;surprise&lt;/em&gt; of most &lt;em&gt;participants,&lt;/em&gt; the &lt;em&gt;issue&lt;/em&gt; was sold out within &lt;em&gt;hours&lt;/em&gt; of becoming &lt;em&gt;available&lt;/em&gt; for &lt;em&gt;trading&lt;/em&gt; and the &lt;em&gt;market&lt;/em&gt; pushed on to &lt;em&gt;register&lt;/em&gt; further &lt;em&gt;sharp gains&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
     </lst>

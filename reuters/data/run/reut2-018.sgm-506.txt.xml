@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-506.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">158</int>
+        <int name="count">113</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">reform</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">roughly</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">started</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9917320401144657</double>
       </lst>
       <lst name="term">
-        <str name="text">attention</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">introduce</str>
+        <double name="strength">0.9917320401144654</double>
       </lst>
       <lst name="term">
-        <str name="text">putting</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">sales</str>
+        <double name="strength">0.991732040114465</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">156</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Economic Planning Minister Tetsuo Kondo said recently the policy would be suspended in 1988/89, pending a recommendation from the government's administrative reform council.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">0.9319364337494561</double>
+        <double name="strength">0.8865527624748826</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It will also contain a controversial plan to phase out tax breaks on savings, although it may not take effect in October as originally planned, they said.</str>
-        <int name="index">15</int>
+        <str name="text">The ruling Liberal Democratic Party said in April that budget request guidelines for invesment expenditures would be reviewed.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.8615257860564126</double>
+        <int name="end">127</int>
+        <double name="strength">0.8732399805682232</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;account would&lt;/em&gt; also &lt;em&gt;extend interest&lt;/em&gt;-free &lt;em&gt;loans&lt;/em&gt; to &lt;em&gt;profitable public works projects developed&lt;/em&gt; in &lt;em&gt;conjunction&lt;/em&gt; with the &lt;em&gt;private sector,&lt;/em&gt; the &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;account&lt;/em&gt; would also &lt;em&gt;extend interest&lt;/em&gt;-free &lt;em&gt;loans&lt;/em&gt; to &lt;em&gt;profitable public works projects&lt;/em&gt; developed in &lt;em&gt;conjunction&lt;/em&gt; with the &lt;em&gt;private sector,&lt;/em&gt; the &lt;em&gt;officials said&lt;/em&gt;.</str>
         <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economic Planning Minister Tetsuo Kondo&lt;/em&gt; said &lt;em&gt;recently&lt;/em&gt; the &lt;em&gt;policy would&lt;/em&gt; be &lt;em&gt;suspended&lt;/em&gt; in 1988/89, &lt;em&gt;pending&lt;/em&gt; a &lt;em&gt;recommendation&lt;/em&gt; from the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;administrative reform council&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Economic Planning Minister Tetsuo Kondo&lt;/em&gt; said recently the &lt;em&gt;policy&lt;/em&gt; would be suspended in 1988/89, pending a &lt;em&gt;recommendation&lt;/em&gt; from the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;administrative reform council&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It will also &lt;em&gt;contain&lt;/em&gt; a &lt;em&gt;controversial&lt;/em&gt; plan to &lt;em&gt;phase&lt;/em&gt; out tax &lt;em&gt;breaks&lt;/em&gt; on &lt;em&gt;savings, although&lt;/em&gt; it may not take &lt;em&gt;effect&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt; as &lt;em&gt;originally planned,&lt;/em&gt; they said.</str>
-        <int name="index">15</int>
+        <str name="text">The &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; said in &lt;em&gt;April&lt;/em&gt; that &lt;em&gt;budget request guidelines&lt;/em&gt; for &lt;em&gt;invesment expenditures&lt;/em&gt; would be reviewed.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

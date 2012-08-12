@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-021.sgm-458.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">47</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">removal</str>
+        <str name="text">interfere</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">contribute</str>
+        <str name="text">source</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">significantly</str>
+        <str name="text">potential</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">safety</str>
+        <str name="text">convoys</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">flagged</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Weinberger was asked why the United States had chosen to attack an oil platform rather than Iranian Silkworm missile platforms blamed by Washington for Friday's attack.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"We do not seek further confrontation with Iran but we will be prepared to meet any escalation of military actions by Iran with stronger countermeasures," Weinberger said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">172</int>
-        <double name="strength">0.9529467299916625</double>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. warships attacked and destroyed an Iranian oil platform on Monday in retaliation for Friday's Iranian attack damaging a U.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">127</int>
-        <double name="strength">0.7963569148223525</double>
+        <str name="text">"We chose a platform used by the Iranians to interfere with and be a source of potential attack on convoys...,"</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">112</int>
+        <double name="strength">0.8619816001048286</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We know it has been used indeed, to not only launch small boat attacks on shipping but to fire on U.</str>
+        <int name="index">11</int>
+        <int name="start">2</int>
+        <int name="end">103</int>
+        <double name="strength">0.73248325880069</double>
+        <int name="terms">4</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Weinberger&lt;/em&gt; was &lt;em&gt;asked&lt;/em&gt; why the &lt;em&gt;United States&lt;/em&gt; had &lt;em&gt;chosen&lt;/em&gt; to &lt;em&gt;attack&lt;/em&gt; an oil &lt;em&gt;platform rather&lt;/em&gt; than &lt;em&gt;Iranian Silkworm missile platforms blamed&lt;/em&gt; by &lt;em&gt;Washington&lt;/em&gt; for &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;attack&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We do not seek &lt;em&gt;further confrontation&lt;/em&gt; with Iran but we will be &lt;em&gt;prepared&lt;/em&gt; to meet any &lt;em&gt;escalation&lt;/em&gt; of &lt;em&gt;military actions&lt;/em&gt; by Iran with &lt;em&gt;stronger countermeasures," Weinberger said&lt;/em&gt;.</str>
+        <str name="text">"We do not seek &lt;em&gt;further confrontation&lt;/em&gt; with Iran but we will be prepared to meet any &lt;em&gt;escalation&lt;/em&gt; of &lt;em&gt;military actions&lt;/em&gt; by Iran with stronger &lt;em&gt;countermeasures," Weinberger said&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;warships attacked&lt;/em&gt; and &lt;em&gt;destroyed&lt;/em&gt; an &lt;em&gt;Iranian&lt;/em&gt; oil &lt;em&gt;platform&lt;/em&gt; on &lt;em&gt;Monday&lt;/em&gt; in &lt;em&gt;retaliation&lt;/em&gt; for &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;Iranian attack damaging&lt;/em&gt; a U.</str>
-        <int name="index">0</int>
+        <str name="text">"We chose a &lt;em&gt;platform&lt;/em&gt; used by the &lt;em&gt;Iranians&lt;/em&gt; to &lt;em&gt;interfere&lt;/em&gt; with and be a &lt;em&gt;source&lt;/em&gt; of &lt;em&gt;potential attack&lt;/em&gt; on &lt;em&gt;convoys...,&lt;/em&gt;"</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We know it has been used indeed, to not only &lt;em&gt;launch small&lt;/em&gt; boat &lt;em&gt;attacks&lt;/em&gt; on &lt;em&gt;shipping&lt;/em&gt; but to fire on U.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

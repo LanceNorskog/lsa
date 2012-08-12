@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-966.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">using</str>
+        <str name="text">steady</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">edouard</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">february</str>
-        <double name="strength">0.5590169943749463</double>
+        <str name="text">balladur</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">steady</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">happy</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">begun</str>
-        <double name="strength">0.5</double>
+        <str name="text">first</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">257</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">Sources close to Finance Minister Edouard Balladur said that he would be happy to see an interest rate cut, and dealers said any fall in the intervention rate was most likely to come when the Bank of France buys first category paper next Monday, although an earlier cut could not be excluded.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">293</int>
-        <double name="strength">0.8898823079754118</double>
+        <double name="strength">0.8685369822988396</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">M-3 money supply, the government's key aggregate, finished 1986 within the government's three to five pct growth target, rising 4.6 pct compared with seven pct in 1985.</str>
-        <int name="index">12</int>
+        <str name="text">They said recent high interest rates have encouraged an acceleration in foreign funds returning to France, discouraging the authorities from making a hasty rate cut.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8222082192506632</double>
+        <int name="end">166</int>
+        <double name="strength">0.7003313894302218</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The call &lt;em&gt;money&lt;/em&gt; rate &lt;em&gt;peaked&lt;/em&gt; at just &lt;em&gt;above&lt;/em&gt; nine pct &lt;em&gt;ahead&lt;/em&gt; of the &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;finance ministers&lt;/em&gt; from the &lt;em&gt;Group&lt;/em&gt; of Five &lt;em&gt;industrial countries&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt; on &lt;em&gt;February 22, which restored considerable stability&lt;/em&gt; to &lt;em&gt;foreign exchanges after several weeks&lt;/em&gt; of &lt;em&gt;turbulence&lt;/em&gt;.</str>
+        <str name="text">The call &lt;em&gt;money&lt;/em&gt; rate peaked at just above nine pct ahead of the &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;finance ministers&lt;/em&gt; from the &lt;em&gt;Group&lt;/em&gt; of Five &lt;em&gt;industrial countries&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt; on &lt;em&gt;February 22,&lt;/em&gt; which restored &lt;em&gt;considerable stability&lt;/em&gt; to &lt;em&gt;foreign exchanges&lt;/em&gt; after &lt;em&gt;several weeks&lt;/em&gt; of &lt;em&gt;turbulence&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sources close&lt;/em&gt; to &lt;em&gt;Finance Minister Edouard Balladur&lt;/em&gt; said that he &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;happy&lt;/em&gt; to see an &lt;em&gt;interest&lt;/em&gt; rate cut, and &lt;em&gt;dealers&lt;/em&gt; said any fall in the &lt;em&gt;intervention&lt;/em&gt; rate was most &lt;em&gt;likely&lt;/em&gt; to come when the Bank of &lt;em&gt;France&lt;/em&gt; buys &lt;em&gt;first category paper&lt;/em&gt; next &lt;em&gt;Monday, although&lt;/em&gt; an &lt;em&gt;earlier&lt;/em&gt; cut &lt;em&gt;could&lt;/em&gt; not be &lt;em&gt;excluded&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sources&lt;/em&gt; close to &lt;em&gt;Finance Minister Edouard Balladur&lt;/em&gt; said that he would be &lt;em&gt;happy&lt;/em&gt; to see an &lt;em&gt;interest&lt;/em&gt; rate cut, and &lt;em&gt;dealers&lt;/em&gt; said any fall in the &lt;em&gt;intervention&lt;/em&gt; rate was most &lt;em&gt;likely&lt;/em&gt; to come when the Bank of &lt;em&gt;France&lt;/em&gt; buys &lt;em&gt;first category paper&lt;/em&gt; next &lt;em&gt;Monday,&lt;/em&gt; although an earlier cut could not be excluded.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">M-3 &lt;em&gt;money supply,&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s key &lt;em&gt;aggregate, finished 1986 within&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;three&lt;/em&gt; to five pct &lt;em&gt;growth target, rising 4.6&lt;/em&gt; pct &lt;em&gt;compared&lt;/em&gt; with &lt;em&gt;seven&lt;/em&gt; pct in 1985.</str>
-        <int name="index">12</int>
+        <str name="text">They said &lt;em&gt;recent&lt;/em&gt; high &lt;em&gt;interest rates&lt;/em&gt; have encouraged an &lt;em&gt;acceleration&lt;/em&gt; in &lt;em&gt;foreign funds&lt;/em&gt; returning to &lt;em&gt;France,&lt;/em&gt; discouraging the &lt;em&gt;authorities&lt;/em&gt; from making a &lt;em&gt;hasty&lt;/em&gt; rate cut.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

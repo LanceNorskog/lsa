@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-408.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">further</str>
+        <str name="text">rival</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">groups</str>
+        <double name="strength">0.9746224270072532</double>
       </lst>
       <lst name="term">
-        <str name="text">against</str>
-        <double name="strength">0.9999999999999967</double>
+        <str name="text">telecommunications</str>
+        <double name="strength">0.8147398539373297</double>
       </lst>
       <lst name="term">
-        <str name="text">attacked</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">wireless</str>
+        <double name="strength">0.7806707854895061</double>
       </lst>
       <lst name="term">
-        <str name="text">saying</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">japan</str>
+        <double name="strength">0.774926994136587</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">206</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">However, the plan, unveiled by senior Federation of Economic Organizations official Fumio Watanabe, does not specify what stake Cable and Wireless would have.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.7898780555613278</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The proposed merger has sparked an international row, with British government sources threatening retaliatory action against Japan for what they see as discriminatory practices against foreign firms.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">200</int>
-        <double name="strength">0.7691195088005137</double>
+        <double name="strength">0.8683460884530686</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The sources said last Friday that one option for Britain would be to revoke licenses of Japanese banks and securities companies operating in London.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.8452636531471674</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Watanabe&lt;/em&gt; has &lt;em&gt;acted&lt;/em&gt; as &lt;em&gt;mediator between&lt;/em&gt; two &lt;em&gt;rival groups,&lt;/em&gt; one of &lt;em&gt;which included&lt;/em&gt; C and W, &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;compete against &lt;Kokusai Denshin Denwa&lt;/em&gt; Co Ltd&gt;, &lt;em&gt;which&lt;/em&gt; now &lt;em&gt;monopolizes Japan&lt;/em&gt;'s &lt;em&gt;overseas telephone business&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Watanabe&lt;/em&gt; has acted as &lt;em&gt;mediator&lt;/em&gt; between two &lt;em&gt;rival groups,&lt;/em&gt; one of which included C and W, seeking to &lt;em&gt;compete&lt;/em&gt; against &lt;&lt;em&gt;Kokusai Denshin Denwa&lt;/em&gt; Co Ltd&gt;, which now monopolizes &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;overseas telephone business&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the plan, &lt;em&gt;unveiled&lt;/em&gt; by &lt;em&gt;senior Federation&lt;/em&gt; of &lt;em&gt;Economic Organizations official Fumio Watanabe,&lt;/em&gt; does not &lt;em&gt;specify&lt;/em&gt; what &lt;em&gt;stake Cable&lt;/em&gt; and &lt;em&gt;Wireless would have&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The proposed &lt;em&gt;merger&lt;/em&gt; has sparked an &lt;em&gt;international&lt;/em&gt; row, with &lt;em&gt;British government sources&lt;/em&gt; threatening &lt;em&gt;retaliatory action&lt;/em&gt; against &lt;em&gt;Japan&lt;/em&gt; for what they see as &lt;em&gt;discriminatory practices&lt;/em&gt; against &lt;em&gt;foreign firms&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposed merger&lt;/em&gt; has &lt;em&gt;sparked&lt;/em&gt; an &lt;em&gt;international&lt;/em&gt; row, with &lt;em&gt;British government sources threatening retaliatory action against Japan&lt;/em&gt; for what they see as &lt;em&gt;discriminatory practices against foreign firms&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said last &lt;em&gt;Friday&lt;/em&gt; that one &lt;em&gt;option&lt;/em&gt; for &lt;em&gt;Britain&lt;/em&gt; would be to &lt;em&gt;revoke licenses&lt;/em&gt; of &lt;em&gt;Japanese banks&lt;/em&gt; and &lt;em&gt;securities companies&lt;/em&gt; operating in London.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-93.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">78</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">46</int>
+        <int name="count">29</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">motors</str>
+        <str name="text">britain</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">heavy</str>
-        <double name="strength">0.9999999999999992</double>
+        <str name="text">manufacture</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">proposals</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">izuzu</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">doubling</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">marketing</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">output</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">motors</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">A Bedford spokesman said financial details of the deal had not yet been finalised although it was anticipated that the venture would start without debt.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">153</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The proposals would involve doubling output at the loss making plant at Luton in southern England to around 40,000 vans a year by 1990.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">0.9716816325043611</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">General Motors Corp's &lt;GM&gt; Bedford Trucks subsidiary has signed a memorandum of understanding with its affiliate Isuzu Motors Ltd &lt;ISUM.</str>
-        <int name="index">0</int>
+        <str name="text">K. Truck manufacturers to restructure operations and cope with heavy losses and low demand that have hit the market over the past few years.</str>
+        <int name="index">12</int>
         <int name="start">0</int>
-        <int name="end">136</int>
-        <double name="strength">0.8969449574854593</double>
+        <int name="end">140</int>
+        <double name="strength">0.9232816950809686</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">MI&gt; 's &lt;Iveco BV&gt; for the supply and marketing of small commercial vehicles in Britain.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">87</int>
+        <double name="strength">0.8023859426547107</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Bedford spokesman&lt;/em&gt; said &lt;em&gt;financial details&lt;/em&gt; of the deal had not yet been &lt;em&gt;finalised although&lt;/em&gt; it was &lt;em&gt;anticipated&lt;/em&gt; that the &lt;em&gt;venture would start without debt&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposals would involve doubling output&lt;/em&gt; at the loss &lt;em&gt;making plant&lt;/em&gt; at &lt;em&gt;Luton&lt;/em&gt; in &lt;em&gt;southern England&lt;/em&gt; to &lt;em&gt;around 40,000&lt;/em&gt; vans a year by 1990.</str>
+        <str name="text">The &lt;em&gt;proposals&lt;/em&gt; would &lt;em&gt;involve&lt;/em&gt; doubling &lt;em&gt;output&lt;/em&gt; at the loss &lt;em&gt;making plant&lt;/em&gt; at &lt;em&gt;Luton&lt;/em&gt; in &lt;em&gt;southern England&lt;/em&gt; to around 40,000 vans a year by 1990.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Motors&lt;/em&gt; Corp's &lt;GM&gt; &lt;em&gt;Bedford Trucks subsidiary&lt;/em&gt; has &lt;em&gt;signed&lt;/em&gt; a &lt;em&gt;memorandum&lt;/em&gt; of &lt;em&gt;understanding&lt;/em&gt; with its &lt;em&gt;affiliate Isuzu Motors&lt;/em&gt; Ltd &lt;ISUM.</str>
-        <int name="index">0</int>
+        <str name="text">K. &lt;em&gt;Truck manufacturers&lt;/em&gt; to &lt;em&gt;restructure operations&lt;/em&gt; and cope with &lt;em&gt;heavy losses&lt;/em&gt; and low &lt;em&gt;demand&lt;/em&gt; that have hit the &lt;em&gt;market&lt;/em&gt; over the past few &lt;em&gt;years&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">MI&gt; 's &lt;Iveco BV&gt; for the &lt;em&gt;supply&lt;/em&gt; and &lt;em&gt;marketing&lt;/em&gt; of &lt;em&gt;small commercial vehicles&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

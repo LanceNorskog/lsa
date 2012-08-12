@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-404.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tonnes</str>
+        <str name="text">issues</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">circumstances</str>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">accord</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">current</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">producers</str>
         <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">rubber</str>
-        <double name="strength">0.5590169943749468</double>
-      </lst>
-      <lst name="term">
-        <str name="text">highly</str>
-        <double name="strength">0.5000000000000002</double>
-      </lst>
-      <lst name="term">
-        <str name="text">unlikely</str>
-        <double name="strength">0.5000000000000002</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The conference, which began Monday, is seen as the last effort to adopt an accord to replace the current one which expires in October.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">135</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">There has been slight progress towards reaching a rubber pact, the chairman of a United Nations conference on a new International Natural Rubber Agreeement, INRA, Manaspas Xuto of Thailand, said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">195</int>
-        <double name="strength">0.9501239720741869</double>
-      </lst>
       <lst name="sentence">
         <str name="text">At the beginning of the conference, the fourth such meeting in nearly two years, Xuto said it was imperative to settle those issues this week so that technical drafting work can be done next week.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.9082532753357153</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Conference sources said it is highly unlikely that producers will accept a pact that will provide for any possible downward adjustment of the floor price, as proposed by consumers under certain circumstances.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">0.9963370623755886</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The conference, which began Monday, is seen as the last effort to adopt an accord to replace the current one which expires in October.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">135</int>
+        <double name="strength">0.8815733745753553</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;conference, which began Monday,&lt;/em&gt; is seen as the last &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; an &lt;em&gt;accord&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; one &lt;em&gt;which expires&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; has been &lt;em&gt;slight progress towards reaching&lt;/em&gt; a &lt;em&gt;rubber&lt;/em&gt; pact, the &lt;em&gt;chairman&lt;/em&gt; of a &lt;em&gt;United Nations conference&lt;/em&gt; on a new &lt;em&gt;International Natural Rubber Agreeement,&lt;/em&gt; INRA, &lt;em&gt;Manaspas&lt;/em&gt; Xuto of &lt;em&gt;Thailand, said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">At the &lt;em&gt;beginning&lt;/em&gt; of the &lt;em&gt;conference,&lt;/em&gt; the &lt;em&gt;fourth&lt;/em&gt; such &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;nearly&lt;/em&gt; two &lt;em&gt;years,&lt;/em&gt; Xuto said it was &lt;em&gt;imperative&lt;/em&gt; to &lt;em&gt;settle those issues&lt;/em&gt; this week so that &lt;em&gt;technical drafting&lt;/em&gt; work can be done next week.</str>
+        <str name="text">At the &lt;em&gt;beginning&lt;/em&gt; of the &lt;em&gt;conference,&lt;/em&gt; the &lt;em&gt;fourth&lt;/em&gt; such &lt;em&gt;meeting&lt;/em&gt; in nearly two &lt;em&gt;years,&lt;/em&gt; Xuto said it was &lt;em&gt;imperative&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; those &lt;em&gt;issues&lt;/em&gt; this week so that &lt;em&gt;technical drafting&lt;/em&gt; work can be done next week.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Conference sources&lt;/em&gt; said it is highly &lt;em&gt;unlikely&lt;/em&gt; that &lt;em&gt;producers&lt;/em&gt; will &lt;em&gt;accept&lt;/em&gt; a pact that will &lt;em&gt;provide&lt;/em&gt; for any &lt;em&gt;possible downward adjustment&lt;/em&gt; of the &lt;em&gt;floor price,&lt;/em&gt; as proposed by &lt;em&gt;consumers&lt;/em&gt; under &lt;em&gt;certain circumstances&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;conference,&lt;/em&gt; which began &lt;em&gt;Monday,&lt;/em&gt; is seen as the last &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; an &lt;em&gt;accord&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; one which expires in &lt;em&gt;October&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

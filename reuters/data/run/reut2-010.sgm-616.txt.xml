@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-616.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">85</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">exchange</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">banks</str>
-        <double name="strength">0.27638539919628385</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">formal</str>
-        <double name="strength">0.25000000000000056</double>
+        <str name="text">current</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">discussions</str>
-        <double name="strength">0.25000000000000056</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.25000000000000056</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said the deficit might fall to 145 billion dlrs this year from 165 billion in 1986 and further improve to 120 billion in 1988 but by 1990, it would be back around 160 billion dlrs.</str>
-        <int name="index">13</int>
+        <str name="text">The Paris accord also brought a pause to the continued slide of the dollar engineered by a meeting in New York in September 1985 when industrial nations agreed to depress the value of the currency to help redress global trade imbalances.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">184</int>
+        <int name="end">238</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Formal discussions, which end today, have also centred on the role of Arab banks in world financial markets, with bankers urging them to adapt to a new global trend towards securitisation of  business.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">202</int>
-        <double name="strength">0.8039777798454926</double>
+        <double name="strength">0.9151181672575769</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Speaking at the 14th annual congress of the Interarab Cambist Association, Viermetz said an agreement reached last month among major industrial nations to steady the dollar around current levels left many questions unanswered.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">227</int>
-        <double name="strength">0.7859973973073466</double>
+        <double name="strength">0.904971461900825</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;deficit might&lt;/em&gt; fall to 145 &lt;em&gt;billion&lt;/em&gt; dlrs this year from 165 &lt;em&gt;billion&lt;/em&gt; in 1986 and &lt;em&gt;further improve&lt;/em&gt; to 120 &lt;em&gt;billion&lt;/em&gt; in 1988 but by 1990, it &lt;em&gt;would&lt;/em&gt; be back &lt;em&gt;around 160 billion dlrs&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">The &lt;em&gt;Paris accord&lt;/em&gt; also brought a &lt;em&gt;pause&lt;/em&gt; to the &lt;em&gt;continued slide&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; engineered by a &lt;em&gt;meeting&lt;/em&gt; in New York in &lt;em&gt;September 1985&lt;/em&gt; when &lt;em&gt;industrial nations&lt;/em&gt; agreed to &lt;em&gt;depress&lt;/em&gt; the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;currency&lt;/em&gt; to help &lt;em&gt;redress global trade imbalances&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Formal discussions, which&lt;/em&gt; end &lt;em&gt;today,&lt;/em&gt; have also &lt;em&gt;centred&lt;/em&gt; on the role of Arab &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;world financial markets,&lt;/em&gt; with &lt;em&gt;bankers urging&lt;/em&gt; them to &lt;em&gt;adapt&lt;/em&gt; to a new &lt;em&gt;global trend towards securitisation&lt;/em&gt; of  &lt;em&gt;business&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Formal discussions,&lt;/em&gt; which end &lt;em&gt;today,&lt;/em&gt; have also centred on the role of Arab &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;world financial markets,&lt;/em&gt; with &lt;em&gt;bankers&lt;/em&gt; urging them to &lt;em&gt;adapt&lt;/em&gt; to a new &lt;em&gt;global trend&lt;/em&gt; towards &lt;em&gt;securitisation&lt;/em&gt; of  &lt;em&gt;business&lt;/em&gt;.</str>
         <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; at the 14th &lt;em&gt;annual congress&lt;/em&gt; of the &lt;em&gt;Interarab Cambist Association, Viermetz&lt;/em&gt; said an &lt;em&gt;agreement reached&lt;/em&gt; last &lt;em&gt;month among major industrial nations&lt;/em&gt; to &lt;em&gt;steady&lt;/em&gt; the &lt;em&gt;dollar around current levels&lt;/em&gt; left many &lt;em&gt;questions unanswered&lt;/em&gt;.</str>
+        <str name="text">Speaking at the 14th &lt;em&gt;annual congress&lt;/em&gt; of the &lt;em&gt;Interarab Cambist Association, Viermetz&lt;/em&gt; said an &lt;em&gt;agreement&lt;/em&gt; reached last &lt;em&gt;month&lt;/em&gt; among &lt;em&gt;major industrial nations&lt;/em&gt; to &lt;em&gt;steady&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; around &lt;em&gt;current levels&lt;/em&gt; left many &lt;em&gt;questions unanswered&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

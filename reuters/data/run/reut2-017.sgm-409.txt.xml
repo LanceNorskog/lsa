@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-409.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tough</str>
+        <str name="text">consumers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">industry</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">things</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">pipeline</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">clearly</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">hesse</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">towards</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">canada</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">An uncertain regulatory environment, disputes over Canadian pricing policies and unusually warm winters are working against a quick recovery in the sector, a number of corporate and government speakers told an energy conference here.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">234</int>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Besides the extra-territorial effect, there is the potential that Conadian producers and consumers may end up subsidizing the cost of transportation services originally incurred on behalf of U.</str>
         <int name="index">18</int>
         <int name="start">0</int>
         <int name="end">193</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8780450737614354</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Better times for the hard hit natural gas industry remains two to three years away as a seemingly intractable supply bubble continues to depress sales and prices, industry officials said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">187</int>
-        <double name="strength">0.9637596168749449</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We see a tough, tough short-term market, both as to price and volume," said Michael Phelps, vice president of &lt;Westcoast Transmission Co Ltd&gt;, a major Canadian natural gas carrier.</str>
-        <int name="index">2</int>
+        <str name="text">But FERC Chairman Martha Hesse told the conference the ruling was really intended "to assure equal, fair and open competition in the pricing of natural gas sold within our country -- whatever the source of the gas."</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">182</int>
-        <double name="strength">0.96053071132852</double>
+        <int name="end">216</int>
+        <double name="strength">0.8266649346487409</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Besides&lt;/em&gt; the &lt;em&gt;extra-territorial effect, there&lt;/em&gt; is the &lt;em&gt;potential&lt;/em&gt; that &lt;em&gt;Conadian producers&lt;/em&gt; and &lt;em&gt;consumers&lt;/em&gt; may end up &lt;em&gt;subsidizing&lt;/em&gt; the cost of &lt;em&gt;transportation services originally incurred&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of U.</str>
+        <str name="text">An &lt;em&gt;uncertain regulatory environment,&lt;/em&gt; disputes over &lt;em&gt;Canadian pricing policies&lt;/em&gt; and unusually warm &lt;em&gt;winters&lt;/em&gt; are working against a &lt;em&gt;quick recovery&lt;/em&gt; in the &lt;em&gt;sector,&lt;/em&gt; a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;corporate&lt;/em&gt; and &lt;em&gt;government speakers&lt;/em&gt; told an &lt;em&gt;energy conference here&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Besides the &lt;em&gt;extra-territorial effect,&lt;/em&gt; there is the &lt;em&gt;potential&lt;/em&gt; that &lt;em&gt;Conadian producers&lt;/em&gt; and &lt;em&gt;consumers&lt;/em&gt; may end up subsidizing the cost of &lt;em&gt;transportation services&lt;/em&gt; originally incurred on &lt;em&gt;behalf&lt;/em&gt; of U.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Better times&lt;/em&gt; for the hard hit &lt;em&gt;natural&lt;/em&gt; gas &lt;em&gt;industry remains&lt;/em&gt; two to &lt;em&gt;three years&lt;/em&gt; away as a &lt;em&gt;seemingly intractable supply bubble continues&lt;/em&gt; to &lt;em&gt;depress sales&lt;/em&gt; and &lt;em&gt;prices, industry officials said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We see a &lt;em&gt;tough, tough short&lt;/em&gt;-term &lt;em&gt;market,&lt;/em&gt; both as to &lt;em&gt;price&lt;/em&gt; and &lt;em&gt;volume,"&lt;/em&gt; said &lt;em&gt;Michael Phelps,&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;&lt;em&gt;Westcoast Transmission&lt;/em&gt; Co Ltd&gt;, a &lt;em&gt;major Canadian natural&lt;/em&gt; gas &lt;em&gt;carrier&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">But FERC &lt;em&gt;Chairman Martha Hesse&lt;/em&gt; told the &lt;em&gt;conference&lt;/em&gt; the &lt;em&gt;ruling&lt;/em&gt; was really intended "to &lt;em&gt;assure equal,&lt;/em&gt; fair and open &lt;em&gt;competition&lt;/em&gt; in the &lt;em&gt;pricing&lt;/em&gt; of &lt;em&gt;natural&lt;/em&gt; gas sold within our &lt;em&gt;country --&lt;/em&gt; whatever the &lt;em&gt;source&lt;/em&gt; of the gas."</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

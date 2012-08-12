@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-485.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">191</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">122</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">think</str>
+        <str name="text">trials</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">people</str>
-        <double name="strength">1.0</double>
+        <str name="text">stern</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">heart</str>
-        <double name="strength">0.7905694150420947</double>
+        <str name="text">marketing</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">outside</str>
-        <double name="strength">0.5590169943749485</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">united</str>
-        <double name="strength">0.5000000000000029</double>
+        <str name="text">clinical</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The experts urged the FDA to require a warning in the drug's packaging that patients be monitored for heart effects while taking the drug, such as irregular heart beats, changes in heart rate, palpitations and fluid retention in the body.</str>
-        <int name="index">5</int>
+        <str name="text">The panel recommended that the FDA approve Rogaine for marketing in the United States, so long as accompanying packaging and promotional materials disclose that the product has only limited effect on male pattern baldness.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">239</int>
+        <int name="end">223</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I think this is a drug that has some application for some people, and I think some people will find it worth the expense," he said.</str>
-        <int name="index">28</int>
-        <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.9660072204918629</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Stewart Ehrreich, a former FDA official who conducted a safety review of Rogaine before leaving the agency, said researchers had found a number of cases of patients who had exagerrated erections as a result of the drug.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">220</int>
-        <double name="strength">0.9593337470577402</double>
+        <double name="strength">0.9221974072161687</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The consultant, Ohio State University Professor of Medicine Carl Leier, said Rogaine's side effects were minimal, based on a study of 10,000 individuals who have been getting the drug in Canada, where it was approved for marketing last year.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">242</int>
+        <double name="strength">0.8866873055268484</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;experts urged&lt;/em&gt; the FDA to &lt;em&gt;require&lt;/em&gt; a &lt;em&gt;warning&lt;/em&gt; in the drug's &lt;em&gt;packaging&lt;/em&gt; that &lt;em&gt;patients&lt;/em&gt; be &lt;em&gt;monitored&lt;/em&gt; for &lt;em&gt;heart effects while taking&lt;/em&gt; the drug, such as &lt;em&gt;irregular heart beats, changes&lt;/em&gt; in &lt;em&gt;heart&lt;/em&gt; rate, &lt;em&gt;palpitations&lt;/em&gt; and &lt;em&gt;fluid retention&lt;/em&gt; in the body.</str>
-        <int name="index">5</int>
+        <str name="text">The &lt;em&gt;panel&lt;/em&gt; recommended that the FDA &lt;em&gt;approve Rogaine&lt;/em&gt; for &lt;em&gt;marketing&lt;/em&gt; in the United &lt;em&gt;States,&lt;/em&gt; so long as &lt;em&gt;accompanying packaging&lt;/em&gt; and &lt;em&gt;promotional materials disclose&lt;/em&gt; that the &lt;em&gt;product&lt;/em&gt; has only &lt;em&gt;limited effect&lt;/em&gt; on male &lt;em&gt;pattern baldness&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I &lt;em&gt;think&lt;/em&gt; this is a drug that has some &lt;em&gt;application&lt;/em&gt; for some &lt;em&gt;people,&lt;/em&gt; and I &lt;em&gt;think&lt;/em&gt; some &lt;em&gt;people&lt;/em&gt; will find it &lt;em&gt;worth&lt;/em&gt; the &lt;em&gt;expense,"&lt;/em&gt; he said.</str>
-        <int name="index">28</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Stewart Ehrreich,&lt;/em&gt; a &lt;em&gt;former&lt;/em&gt; FDA &lt;em&gt;official&lt;/em&gt; who &lt;em&gt;conducted&lt;/em&gt; a &lt;em&gt;safety review&lt;/em&gt; of &lt;em&gt;Rogaine before leaving&lt;/em&gt; the &lt;em&gt;agency,&lt;/em&gt; said &lt;em&gt;researchers&lt;/em&gt; had &lt;em&gt;found&lt;/em&gt; a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;cases&lt;/em&gt; of &lt;em&gt;patients&lt;/em&gt; who had &lt;em&gt;exagerrated erections&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the drug.</str>
+        <str name="text">&lt;em&gt;Stewart&lt;/em&gt; Ehrreich, a &lt;em&gt;former&lt;/em&gt; FDA &lt;em&gt;official&lt;/em&gt; who conducted a &lt;em&gt;safety review&lt;/em&gt; of &lt;em&gt;Rogaine&lt;/em&gt; before leaving the &lt;em&gt;agency,&lt;/em&gt; said &lt;em&gt;researchers&lt;/em&gt; had found a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;cases&lt;/em&gt; of &lt;em&gt;patients&lt;/em&gt; who had exagerrated erections as a &lt;em&gt;result&lt;/em&gt; of the drug.</str>
         <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;consultant,&lt;/em&gt; Ohio &lt;em&gt;State University Professor&lt;/em&gt; of &lt;em&gt;Medicine&lt;/em&gt; Carl &lt;em&gt;Leier,&lt;/em&gt; said &lt;em&gt;Rogaine&lt;/em&gt;'s side &lt;em&gt;effects&lt;/em&gt; were &lt;em&gt;minimal,&lt;/em&gt; based on a &lt;em&gt;study&lt;/em&gt; of 10,000 &lt;em&gt;individuals&lt;/em&gt; who have been getting the drug in &lt;em&gt;Canada,&lt;/em&gt; where it was approved for &lt;em&gt;marketing&lt;/em&gt; last year.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

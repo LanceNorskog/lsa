@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-547.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">149</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">value</str>
+        <str name="text">single</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">greater</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">negative</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">discussed</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">country</str>
-        <double name="strength">0.559016994374946</double>
+        <str name="text">traditional</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">2</int>
         <int name="end">260</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Discussing the status of other parts of Bolivia's four billion dlr foreign debt, 2.5 billion of which is owed to governments and the rest to international agencies, Nogales said negotiators had achieved considerable success in recent discussions with the Paris Club.</str>
-        <int name="index">15</int>
+        <str name="text">Bolivia has frozen payments on medium and long term loans to commercial banks since March, 1984, and Nogales said there would be no money available to restart traditional debt servicing to them for some time.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">267</int>
-        <double name="strength">0.9559885435701294</double>
+        <int name="end">209</int>
+        <double name="strength">0.9618236313462714</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the offer would be based on the value of Bolivian paper on the international secondary debt market, where it now trades at between 10 and 15 pct of its face value.</str>
-        <int name="index">2</int>
-        <int name="start">2</int>
-        <int name="end">173</int>
-        <double name="strength">0.8546959783061107</double>
+        <str name="text">Nogales said that Bolivia's net international reserves now stood at around 250 mln dlrs, compared to one mln dlrs in disposable funds when the government of Victor Paz Estenssoro took office in August, 1985.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">208</int>
+        <double name="strength">0.9511079664928651</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Several Latin American countries&lt;/em&gt; have &lt;em&gt;initiated schemes&lt;/em&gt; to &lt;em&gt;cancel foreign&lt;/em&gt; debt by &lt;em&gt;equity swaps&lt;/em&gt; or &lt;em&gt;third party&lt;/em&gt; buy-&lt;em&gt;backs,&lt;/em&gt; but &lt;em&gt;Bolivia would&lt;/em&gt; be the &lt;em&gt;first country&lt;/em&gt; in the &lt;em&gt;region&lt;/em&gt; to make a &lt;em&gt;formal offer&lt;/em&gt; to buy back all its &lt;em&gt;commercial&lt;/em&gt; bank debt at &lt;em&gt;discounted rates&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Several Latin American countries&lt;/em&gt; have initiated &lt;em&gt;schemes&lt;/em&gt; to &lt;em&gt;cancel foreign&lt;/em&gt; debt by &lt;em&gt;equity swaps&lt;/em&gt; or &lt;em&gt;third party&lt;/em&gt; buy-&lt;em&gt;backs,&lt;/em&gt; but &lt;em&gt;Bolivia&lt;/em&gt; would be the &lt;em&gt;first country&lt;/em&gt; in the &lt;em&gt;region&lt;/em&gt; to make a &lt;em&gt;formal offer&lt;/em&gt; to buy back all its &lt;em&gt;commercial&lt;/em&gt; bank debt at discounted &lt;em&gt;rates&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Discussing&lt;/em&gt; the &lt;em&gt;status&lt;/em&gt; of &lt;em&gt;other parts&lt;/em&gt; of &lt;em&gt;Bolivia&lt;/em&gt;'s four &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt, 2.5 &lt;em&gt;billion&lt;/em&gt; of &lt;em&gt;which&lt;/em&gt; is owed to &lt;em&gt;governments&lt;/em&gt; and the rest to &lt;em&gt;international agencies, Nogales&lt;/em&gt; said &lt;em&gt;negotiators&lt;/em&gt; had &lt;em&gt;achieved considerable success&lt;/em&gt; in &lt;em&gt;recent discussions&lt;/em&gt; with the &lt;em&gt;Paris Club&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Bolivia&lt;/em&gt; has frozen &lt;em&gt;payments&lt;/em&gt; on &lt;em&gt;medium&lt;/em&gt; and long term &lt;em&gt;loans&lt;/em&gt; to &lt;em&gt;commercial banks&lt;/em&gt; since &lt;em&gt;March, 1984,&lt;/em&gt; and &lt;em&gt;Nogales&lt;/em&gt; said there would be no &lt;em&gt;money available&lt;/em&gt; to &lt;em&gt;restart traditional&lt;/em&gt; debt &lt;em&gt;servicing&lt;/em&gt; to them for some time.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;offer would&lt;/em&gt; be &lt;em&gt;based&lt;/em&gt; on the &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;Bolivian paper&lt;/em&gt; on the &lt;em&gt;international secondary&lt;/em&gt; debt &lt;em&gt;market, where&lt;/em&gt; it now &lt;em&gt;trades&lt;/em&gt; at &lt;em&gt;between 10&lt;/em&gt; and 15 pct of its face &lt;em&gt;value&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Nogales&lt;/em&gt; said that &lt;em&gt;Bolivia&lt;/em&gt;'s net &lt;em&gt;international reserves&lt;/em&gt; now stood at around 250 mln dlrs, compared to one mln dlrs in &lt;em&gt;disposable funds&lt;/em&gt; when the &lt;em&gt;government&lt;/em&gt; of &lt;em&gt;Victor&lt;/em&gt; Paz &lt;em&gt;Estenssoro&lt;/em&gt; took &lt;em&gt;office&lt;/em&gt; in &lt;em&gt;August, 1985&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-52.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">113</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">press</str>
+        <str name="text">mccarthy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">repurchase</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">merrill</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">staged</str>
-        <double name="strength">0.5000000000000024</double>
+        <str name="text">lynch</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">precipitous</str>
-        <double name="strength">0.5000000000000024</double>
+        <str name="text">weeks</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">began</str>
-        <double name="strength">0.5000000000000024</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Citing the view shared by the other two economists, Leuzzi said the Fed cannot really afford to seriously lift interest rates to help the dollar because that would harm already weak economies in the United States and abroad and add to the financial stress of developing countries and their lenders.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">299</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said the dollar staged a precipitous drop as a new statement period began today on disappointment yesterday's Washington meetings of international monetary officials failed to produce anything that would offer substantive dollar aid.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">0.8955020724757449</double>
-      </lst>
       <lst name="sentence">
         <str name="text">In fact, currency dealers said there was nothing in Wednesday's G-7 communique to alter the prevailing view that the yen needs to rise further to redress the huge trade imbalance between the United States and Japan.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">216</int>
-        <double name="strength">0.8208313418711515</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Citing the view shared by the other two economists, Leuzzi said the Fed cannot really afford to seriously lift interest rates to help the dollar because that would harm already weak economies in the United States and abroad and add to the financial stress of developing countries and their lenders.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">299</int>
+        <double name="strength">0.9683453744928705</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Some might argue that the Fed was firming policy, but it looks like it tried to play catchup with reserve provisions late in the statement period and didn't quite make it," said Ward McCarthy of Merrill Lynch Capital Markets.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">227</int>
+        <double name="strength">0.7978244761723209</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Citing&lt;/em&gt; the view &lt;em&gt;shared&lt;/em&gt; by the &lt;em&gt;other&lt;/em&gt; two &lt;em&gt;economists, Leuzzi&lt;/em&gt; said the Fed &lt;em&gt;cannot really afford&lt;/em&gt; to &lt;em&gt;seriously&lt;/em&gt; lift &lt;em&gt;interest rates&lt;/em&gt; to help the &lt;em&gt;dollar because&lt;/em&gt; that &lt;em&gt;would&lt;/em&gt; harm &lt;em&gt;already&lt;/em&gt; weak &lt;em&gt;economies&lt;/em&gt; in the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;abroad&lt;/em&gt; and add to the &lt;em&gt;financial stress&lt;/em&gt; of &lt;em&gt;developing countries&lt;/em&gt; and &lt;em&gt;their lenders&lt;/em&gt;.</str>
+        <str name="text">In fact, &lt;em&gt;currency dealers&lt;/em&gt; said there was &lt;em&gt;nothing&lt;/em&gt; in &lt;em&gt;Wednesday&lt;/em&gt;'s G-7 &lt;em&gt;communique&lt;/em&gt; to &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;prevailing&lt;/em&gt; view that the yen needs to rise further to &lt;em&gt;redress&lt;/em&gt; the huge &lt;em&gt;trade imbalance&lt;/em&gt; between the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Citing the view shared by the &lt;em&gt;other&lt;/em&gt; two &lt;em&gt;economists, Leuzzi&lt;/em&gt; said the Fed cannot really &lt;em&gt;afford&lt;/em&gt; to seriously lift &lt;em&gt;interest rates&lt;/em&gt; to help the &lt;em&gt;dollar&lt;/em&gt; because that would harm already weak &lt;em&gt;economies&lt;/em&gt; in the United &lt;em&gt;States&lt;/em&gt; and abroad and add to the &lt;em&gt;financial stress&lt;/em&gt; of developing &lt;em&gt;countries&lt;/em&gt; and their &lt;em&gt;lenders&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;dollar staged&lt;/em&gt; a &lt;em&gt;precipitous&lt;/em&gt; drop as a new &lt;em&gt;statement period began today&lt;/em&gt; on &lt;em&gt;disappointment yesterday&lt;/em&gt;'s &lt;em&gt;Washington meetings&lt;/em&gt; of &lt;em&gt;international monetary officials failed&lt;/em&gt; to &lt;em&gt;produce anything&lt;/em&gt; that &lt;em&gt;would offer substantive dollar aid&lt;/em&gt;.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In fact, &lt;em&gt;currency dealers&lt;/em&gt; said &lt;em&gt;there&lt;/em&gt; was &lt;em&gt;nothing&lt;/em&gt; in &lt;em&gt;Wednesday&lt;/em&gt;'s G-7 &lt;em&gt;communique&lt;/em&gt; to &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;prevailing&lt;/em&gt; view that the yen &lt;em&gt;needs&lt;/em&gt; to rise &lt;em&gt;further&lt;/em&gt; to &lt;em&gt;redress&lt;/em&gt; the huge &lt;em&gt;trade imbalance between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">"Some might &lt;em&gt;argue&lt;/em&gt; that the Fed was &lt;em&gt;firming policy,&lt;/em&gt; but it looks like it tried to play &lt;em&gt;catchup&lt;/em&gt; with &lt;em&gt;reserve provisions&lt;/em&gt; late in the &lt;em&gt;statement period&lt;/em&gt; and didn't quite make it," said Ward &lt;em&gt;McCarthy&lt;/em&gt; of &lt;em&gt;Merrill Lynch Capital Markets&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-45.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">197</int>
+        <int name="count">138</int>
       </lst>
       <lst name="stems">
-        <int name="count">129</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">believe</str>
+        <str name="text">majority</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">problem</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">lending</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">africa</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">initiative</str>
+        <double name="strength">0.9877415447956254</double>
       </lst>
       <lst name="term">
-        <str name="text">nations</str>
-        <double name="strength">0.5590169943749465</double>
+        <str name="text">global</str>
+        <double name="strength">0.9877415447956247</double>
       </lst>
       <lst name="term">
-        <str name="text">personal</str>
-        <double name="strength">0.5590169943749465</double>
+        <str name="text">agency</str>
+        <double name="strength">0.9877415447956247</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">On the development needs of sub-Sahara Africa, Conable said that the Bank was constantly reviewing new ways for assisting the region, noting that half of the recently agreed financing of 12.4 billion dlrs for Bank's International Development Association was earmarked for Africa.</str>
-        <int name="index">25</int>
+        <str name="text">Conable added that cooperation between the Bank and its sister agency, the International Monetary Fund, was good and that he talked often with IMF Managing Director Michel Camdessus on a variety of issues.</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">280</int>
+        <int name="end">206</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank has increased these loans, in part because of the debt crisis that has found countries desperately in need of new funds for balance of payments adjustment and economic reforms aimed at opening their markets, encouraging foreign investment and reducing government's role in the economy.</str>
-        <int name="index">9</int>
+        <str name="text">But in an interview with Reuters, Conable said the action by the United States to slap tariffs on certain electronic goods from Japan did not mean the countries were heading for a full-scale trade war.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">295</int>
-        <double name="strength">0.9614971827905183</double>
+        <int name="end">202</int>
+        <double name="strength">0.9440958350912791</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">World Bank President Barber Conable expressed concern that trade protectionism, at the heart of a new showdown between the United States and Japan, might spread throughout the industrial world.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">193</int>
-        <double name="strength">0.8940192702319151</double>
+        <str name="text">Referring to Brazil's recent interest payments moratorium, Conable also said the global debt situation was very serious and must be closely watched.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.884100444498547</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">On the &lt;em&gt;development needs&lt;/em&gt; of sub-&lt;em&gt;Sahara Africa, Conable&lt;/em&gt; said that the Bank was &lt;em&gt;constantly reviewing&lt;/em&gt; new ways for &lt;em&gt;assisting&lt;/em&gt; the &lt;em&gt;region, noting&lt;/em&gt; that half of the &lt;em&gt;recently agreed financing&lt;/em&gt; of 12.4 &lt;em&gt;billion&lt;/em&gt; dlrs for Bank's &lt;em&gt;International Development Association&lt;/em&gt; was &lt;em&gt;earmarked&lt;/em&gt; for &lt;em&gt;Africa&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;Conable&lt;/em&gt; added that &lt;em&gt;cooperation&lt;/em&gt; between the Bank and its &lt;em&gt;sister agency,&lt;/em&gt; the &lt;em&gt;International Monetary&lt;/em&gt; Fund, was good and that he talked often with IMF &lt;em&gt;Managing Director Michel Camdessus&lt;/em&gt; on a &lt;em&gt;variety&lt;/em&gt; of &lt;em&gt;issues&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank has &lt;em&gt;increased these loans,&lt;/em&gt; in part &lt;em&gt;because&lt;/em&gt; of the debt &lt;em&gt;crisis&lt;/em&gt; that has &lt;em&gt;found countries desperately&lt;/em&gt; in need of new &lt;em&gt;funds&lt;/em&gt; for &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments adjustment&lt;/em&gt; and &lt;em&gt;economic reforms aimed&lt;/em&gt; at &lt;em&gt;opening their markets, encouraging foreign investment&lt;/em&gt; and &lt;em&gt;reducing government&lt;/em&gt;'s role in the &lt;em&gt;economy&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">But in an &lt;em&gt;interview&lt;/em&gt; with &lt;em&gt;Reuters,&lt;/em&gt; Conable said the &lt;em&gt;action&lt;/em&gt; by the United &lt;em&gt;States&lt;/em&gt; to slap &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;certain electronic goods&lt;/em&gt; from &lt;em&gt;Japan&lt;/em&gt; did not mean the &lt;em&gt;countries&lt;/em&gt; were heading for a full-&lt;em&gt;scale trade war&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable expressed concern&lt;/em&gt; that &lt;em&gt;trade protectionism,&lt;/em&gt; at the &lt;em&gt;heart&lt;/em&gt; of a new &lt;em&gt;showdown between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan, might spread throughout&lt;/em&gt; the &lt;em&gt;industrial world&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">Referring to &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;recent interest payments moratorium, Conable&lt;/em&gt; also said the &lt;em&gt;global&lt;/em&gt; debt &lt;em&gt;situation&lt;/em&gt; was very &lt;em&gt;serious&lt;/em&gt; and must be closely watched.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

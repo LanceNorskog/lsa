@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-365.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">165</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">111</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">barrel</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">acquired</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">failed</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">nonperforming</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">montgomery</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">loans</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">county</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">houston</str>
+        <double name="strength">0.9775433528668048</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Texas Commerce will retain its name as a separate subsidiary of Chemical and plans to aggressively expand its holdings throughout Texas, offering additional products to build up its consumer banking business, Love said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
+        <str name="text">Absorption of empty office buildings in Houston, which has a current vacancy rate of about 30 pct, will be a gradual process that could take up to four years, he said.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">167</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">In January, Texas Commerce acquired a failed bank in Montgomery County, adjacent to the Houston metropolitan area, and earlier this month opened a new bank in San Antonio.</str>
         <int name="index">21</int>
         <int name="start">1</int>
         <int name="end">172</int>
-        <double name="strength">0.9593417268860518</double>
+        <double name="strength">0.8398730921710367</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The combination of former archrivals RepublicBank and InterFirst, giving the two banks a virtual lock on the Dallas banking market, has not changed Texas Commerce's expansion plans for the state's second-largest city, Love said.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">0.9237789886228164</double>
+        <str name="text">Allied Bancshares Inc &lt;ALBN&gt; lost 17.6 mln dlrs, MCorp &lt;M&gt; lost 82.1 mln dlrs, InterFirst lost 326.5 mln dlrs and First City Bancorporation &lt;FBT&gt;, which is actively seeking a merger or other form of new capital, lost 402.0 mln dlrs.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">232</int>
+        <double name="strength">0.816466172383502</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Texas Commerce&lt;/em&gt; will &lt;em&gt;retain&lt;/em&gt; its name as a &lt;em&gt;separate subsidiary&lt;/em&gt; of &lt;em&gt;Chemical&lt;/em&gt; and &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;aggressively expand&lt;/em&gt; its &lt;em&gt;holdings throughout Texas, offering additional products&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; up its &lt;em&gt;consumer banking business,&lt;/em&gt; Love said.</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;Absorption&lt;/em&gt; of &lt;em&gt;empty office buildings&lt;/em&gt; in &lt;em&gt;Houston,&lt;/em&gt; which has a &lt;em&gt;current vacancy&lt;/em&gt; rate of about 30 pct, will be a &lt;em&gt;gradual process&lt;/em&gt; that could take up to four &lt;em&gt;years,&lt;/em&gt; he said.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;January, Texas Commerce acquired&lt;/em&gt; a &lt;em&gt;failed&lt;/em&gt; bank in &lt;em&gt;Montgomery County, adjacent&lt;/em&gt; to the &lt;em&gt;Houston metropolitan&lt;/em&gt; area, and &lt;em&gt;earlier&lt;/em&gt; this &lt;em&gt;month opened&lt;/em&gt; a new bank in San &lt;em&gt;Antonio&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;January, Texas Commerce&lt;/em&gt; acquired a failed bank in &lt;em&gt;Montgomery County, adjacent&lt;/em&gt; to the &lt;em&gt;Houston metropolitan&lt;/em&gt; area, and earlier this &lt;em&gt;month&lt;/em&gt; opened a new bank in San Antonio.</str>
         <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;former archrivals RepublicBank&lt;/em&gt; and &lt;em&gt;InterFirst, giving&lt;/em&gt; the two &lt;em&gt;banks&lt;/em&gt; a &lt;em&gt;virtual&lt;/em&gt; lock on the &lt;em&gt;Dallas banking market,&lt;/em&gt; has not &lt;em&gt;changed Texas Commerce&lt;/em&gt;'s &lt;em&gt;expansion plans&lt;/em&gt; for the &lt;em&gt;state&lt;/em&gt;'s &lt;em&gt;second-largest&lt;/em&gt; city, Love said.</str>
-        <int name="index">24</int>
+        <str name="text">Allied &lt;em&gt;Bancshares&lt;/em&gt; Inc &lt;ALBN&gt; lost 17.6 mln dlrs, &lt;em&gt;MCorp &lt;/em&gt;&lt;M&gt; lost 82.1 mln dlrs, &lt;em&gt;InterFirst&lt;/em&gt; lost 326.5 mln dlrs and &lt;em&gt;First&lt;/em&gt; City &lt;em&gt;Bancorporation &lt;/em&gt;&lt;FBT&gt;, which is actively seeking a &lt;em&gt;merger&lt;/em&gt; or &lt;em&gt;other&lt;/em&gt; form of new &lt;em&gt;capital,&lt;/em&gt; lost 402.0 mln dlrs.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

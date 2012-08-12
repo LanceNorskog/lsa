@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-435.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">estimated</str>
+        <str name="text">house</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tract</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">white</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.7071067811865467</double>
+        <str name="text">energy</str>
+        <double name="strength">0.9999999999999939</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9999999999999918</double>
       </lst>
       <lst name="term">
-        <str name="text">understood</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">reagan</str>
+        <double name="strength">0.9840716504496444</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">266</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He has said since in speeches and at news conferences that any plan he would back to spur lagging domestic oil production would have to meet three criteria--increase production, not cause economic dislocation, and be low cost to the taxpayer.</str>
-        <int name="index">8</int>
+        <str name="text">Another move Herrington said he will press anew, even though it had been rejected earlier by the White House, is to raise the fill-rate for the Strategic Petroleum Reserve to 100,000 barrels a day from its planned 1988 rate of 35,000.</str>
+        <int name="index">26</int>
         <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">0.881708615566457</double>
+        <int name="end">235</int>
+        <double name="strength">0.9069579878013896</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He also called again for Congressional approval to explore off the continental shelf, which may hold more than 12 billion barrels of oil, and the Arctic National Wildlife Refuge, which may hold nine billion barrels.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.8457167709622754</double>
+        <str name="text">S. oil production, but he said all would cost the Treasury money and will come under close White House scrutiny before action is taken.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.7993293027193716</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Herrington&lt;/em&gt; said he &lt;em&gt;understood&lt;/em&gt; the &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;reluctance&lt;/em&gt; to  &lt;em&gt;amend&lt;/em&gt; the &lt;em&gt;newly enacted&lt;/em&gt; tax code to fund some of &lt;em&gt;these proposals,&lt;/em&gt; but &lt;em&gt;added&lt;/em&gt; he &lt;em&gt;hoped&lt;/em&gt; his &lt;em&gt;department&lt;/em&gt;'s &lt;em&gt;energy/security study would&lt;/em&gt; make a &lt;em&gt;strong&lt;/em&gt; case for the need to help the &lt;em&gt;struggling domestic&lt;/em&gt; oil &lt;em&gt;industry&lt;/em&gt;.</str>
+        <str name="text">Herrington said he understood the &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;reluctance&lt;/em&gt; to  &lt;em&gt;amend&lt;/em&gt; the newly enacted tax code to fund some of these &lt;em&gt;proposals,&lt;/em&gt; but added he hoped his &lt;em&gt;department&lt;/em&gt;'s &lt;em&gt;energy/security study&lt;/em&gt; would make a &lt;em&gt;strong&lt;/em&gt; case for the need to help the struggling &lt;em&gt;domestic&lt;/em&gt; oil &lt;em&gt;industry&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He has said &lt;em&gt;since&lt;/em&gt; in &lt;em&gt;speeches&lt;/em&gt; and at news &lt;em&gt;conferences&lt;/em&gt; that any plan he &lt;em&gt;would&lt;/em&gt; back to spur &lt;em&gt;lagging domestic&lt;/em&gt; oil &lt;em&gt;production would&lt;/em&gt; have to meet &lt;em&gt;three criteria--increase production,&lt;/em&gt; not &lt;em&gt;cause economic dislocation,&lt;/em&gt; and be low cost to the &lt;em&gt;taxpayer&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">Another move Herrington said he will &lt;em&gt;press&lt;/em&gt; anew, even though it had been rejected earlier by the &lt;em&gt;White House,&lt;/em&gt; is to &lt;em&gt;raise&lt;/em&gt; the fill-rate for the &lt;em&gt;Strategic Petroleum Reserve&lt;/em&gt; to 100,000 &lt;em&gt;barrels&lt;/em&gt; a day from its &lt;em&gt;planned 1988&lt;/em&gt; rate of 35,000.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He also &lt;em&gt;called again&lt;/em&gt; for &lt;em&gt;Congressional approval&lt;/em&gt; to &lt;em&gt;explore&lt;/em&gt; off the &lt;em&gt;continental shelf, which&lt;/em&gt; may hold more than 12 &lt;em&gt;billion barrels&lt;/em&gt; of oil, and the &lt;em&gt;Arctic National Wildlife Refuge, which&lt;/em&gt; may hold nine &lt;em&gt;billion barrels&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">S. oil &lt;em&gt;production,&lt;/em&gt; but he said all would cost the &lt;em&gt;Treasury money&lt;/em&gt; and will come under close &lt;em&gt;White House scrutiny&lt;/em&gt; before &lt;em&gt;action&lt;/em&gt; is taken.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

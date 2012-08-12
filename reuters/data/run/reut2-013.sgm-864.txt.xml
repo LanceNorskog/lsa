@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-864.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">65</int>
+        <int name="count">48</int>
       </lst>
       <lst name="stems">
-        <int name="count">47</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">array</str>
+        <str name="text">vmemodule</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">systems</str>
-        <double name="strength">0.6959705453537524</double>
+        <str name="text">integrator</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">computer</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">companion</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">departmental</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">lists</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">several</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">263</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Motorola said the MVME134, a VME module 32-bit microcomputer, provides a cost effective engine for UNIX applications and is priced at 2,250 dlrs for June delivery.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.9906617041450267</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Motorola said the boards are the first products on the market using Motorola's new MVSB2400 gate array, a low power, user-programmable, bipolar gate array.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">156</int>
-        <double name="strength">0.7459345555523696</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Motorola said the Model 2616 is a 32-bit system containing a 12-slot VME-bus chassis with open-system flexibility for unlimited end-user application options.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">158</int>
-        <double name="strength">0.5741586133434047</double>
+        <double name="strength">0.9584344267850115</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the VME &lt;em&gt;Delta Series systems&lt;/em&gt; are &lt;em&gt;packaged systems built around&lt;/em&gt; open &lt;em&gt;systems architecture, industry standard processors&lt;/em&gt; and &lt;em&gt;software including VMEbus,&lt;/em&gt; MC68020 &lt;em&gt;microprocessors&lt;/em&gt; and &lt;em&gt;American Telephone&lt;/em&gt; and &lt;em&gt;Telegraph&lt;/em&gt;'s &lt;T&gt; Unix &lt;em&gt;System&lt;/em&gt; V &lt;em&gt;operating system&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the VME &lt;em&gt;Delta Series systems&lt;/em&gt; are packaged &lt;em&gt;systems&lt;/em&gt; built around open &lt;em&gt;systems architecture, industry standard processors&lt;/em&gt; and &lt;em&gt;software&lt;/em&gt; including &lt;em&gt;VMEbus,&lt;/em&gt; MC68020 &lt;em&gt;microprocessors&lt;/em&gt; and &lt;em&gt;American Telephone&lt;/em&gt; and &lt;em&gt;Telegraph&lt;/em&gt;'s &lt;T&gt; Unix &lt;em&gt;System&lt;/em&gt; V operating &lt;em&gt;system&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the &lt;em&gt;boards&lt;/em&gt; are the &lt;em&gt;first products&lt;/em&gt; on the &lt;em&gt;market using Motorola&lt;/em&gt;'s new MVSB2400 gate &lt;em&gt;array,&lt;/em&gt; a low &lt;em&gt;power,&lt;/em&gt; user-&lt;em&gt;programmable, bipolar&lt;/em&gt; gate &lt;em&gt;array&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the MVME134, a VME &lt;em&gt;module 32&lt;/em&gt;-bit &lt;em&gt;microcomputer,&lt;/em&gt; provides a cost &lt;em&gt;effective engine&lt;/em&gt; for UNIX &lt;em&gt;applications&lt;/em&gt; and is priced at 2,250 dlrs for June &lt;em&gt;delivery&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the &lt;em&gt;Model 2616&lt;/em&gt; is a 32-bit &lt;em&gt;system containing&lt;/em&gt; a 12-slot VME-bus &lt;em&gt;chassis&lt;/em&gt; with open-&lt;em&gt;system flexibility&lt;/em&gt; for &lt;em&gt;unlimited&lt;/em&gt; end-user &lt;em&gt;application options&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Motorola&lt;/em&gt; said the &lt;em&gt;boards&lt;/em&gt; are the &lt;em&gt;first products&lt;/em&gt; on the &lt;em&gt;market&lt;/em&gt; using &lt;em&gt;Motorola&lt;/em&gt;'s new MVSB2400 gate &lt;em&gt;array,&lt;/em&gt; a low &lt;em&gt;power,&lt;/em&gt; user-&lt;em&gt;programmable, bipolar&lt;/em&gt; gate &lt;em&gt;array&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

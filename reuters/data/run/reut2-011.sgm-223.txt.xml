@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">44</int>
+  <int name="QTime">63</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-223.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">62</int>
       </lst>
       <lst name="terms">
-        <int name="count">358</int>
+        <int name="count">259</int>
       </lst>
       <lst name="stems">
-        <int name="count">232</int>
+        <int name="count">164</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">avoid</str>
+        <str name="text">international</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">between</str>
-        <double name="strength">0.559016994374945</double>
+        <str name="text">buffer</str>
+        <double name="strength">0.9872236248773807</double>
       </lst>
       <lst name="term">
-        <str name="text">shares</str>
-        <double name="strength">0.5590169943749436</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9797926784964373</double>
       </lst>
       <lst name="term">
-        <str name="text">soviet</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">official</str>
+        <double name="strength">0.9753916592266354</double>
       </lst>
       <lst name="term">
-        <str name="text">union</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">minister</str>
+        <double name="strength">0.970004469171928</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">UNCTAD spokesman Graham Shanley said consuming countries realise steady export earnings enhance developing countries' ability to service debt and mean greater demand for industrialised nations' capital goods.</str>
-        <int name="index">60</int>
-        <int name="start">0</int>
-        <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Analysts said differences between sugar exporting countries have held up any progress towards an accord with economic teeth, while sheer competition between major exporters amid a world grain glut militate against any pact with economic provisions for wheat.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">258</int>
-        <double name="strength">0.9619191575200636</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The talks broke down and, although an ICO executive board meeting starts in London today, delegates and trade sources see chances of any near term negotiations on export quota distribution as remote.</str>
         <int name="index">16</int>
         <int name="start">0</int>
         <int name="end">199</int>
-        <double name="strength">0.9468805840577345</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">UNCTAD spokesman Graham Shanley said consuming countries realise steady export earnings enhance developing countries' ability to service debt and mean greater demand for industrialised nations' capital goods.</str>
+        <int name="index">60</int>
+        <int name="start">0</int>
+        <int name="end">208</int>
+        <double name="strength">0.8520381942138424</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Importing and exporting countries agreed several changes to make the reference price more responsive to market trends and they eliminated provisions under which the buffer stock could borrow from banks to finance operations.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">224</int>
+        <double name="strength">0.8359882427763936</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;UNCTAD spokesman Graham Shanley&lt;/em&gt; said &lt;em&gt;consuming countries realise steady export earnings enhance developing countries' ability&lt;/em&gt; to &lt;em&gt;service&lt;/em&gt; debt and mean &lt;em&gt;greater demand&lt;/em&gt; for &lt;em&gt;industrialised nations' capital goods&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;talks&lt;/em&gt; broke down and, although an ICO &lt;em&gt;executive board meeting&lt;/em&gt; starts in London &lt;em&gt;today, delegates&lt;/em&gt; and &lt;em&gt;trade sources&lt;/em&gt; see &lt;em&gt;chances&lt;/em&gt; of any near term &lt;em&gt;negotiations&lt;/em&gt; on &lt;em&gt;export quota distribution&lt;/em&gt; as &lt;em&gt;remote&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;UNCTAD spokesman Graham Shanley&lt;/em&gt; said consuming &lt;em&gt;countries realise steady export earnings enhance&lt;/em&gt; developing &lt;em&gt;countries' ability&lt;/em&gt; to &lt;em&gt;service&lt;/em&gt; debt and mean greater &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;industrialised nations' capital goods&lt;/em&gt;.</str>
         <int name="index">60</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said &lt;em&gt;differences between sugar exporting countries&lt;/em&gt; have held up any &lt;em&gt;progress towards&lt;/em&gt; an &lt;em&gt;accord&lt;/em&gt; with &lt;em&gt;economic teeth, while sheer competition between major exporters&lt;/em&gt; amid a &lt;em&gt;world grain&lt;/em&gt; glut &lt;em&gt;militate against&lt;/em&gt; any pact with &lt;em&gt;economic provisions&lt;/em&gt; for &lt;em&gt;wheat&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;talks broke&lt;/em&gt; down and, &lt;em&gt;although&lt;/em&gt; an ICO &lt;em&gt;executive board meeting starts&lt;/em&gt; in &lt;em&gt;London today, delegates&lt;/em&gt; and &lt;em&gt;trade sources&lt;/em&gt; see &lt;em&gt;chances&lt;/em&gt; of any near term &lt;em&gt;negotiations&lt;/em&gt; on &lt;em&gt;export quota distribution&lt;/em&gt; as &lt;em&gt;remote&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Importing and exporting &lt;em&gt;countries&lt;/em&gt; agreed &lt;em&gt;several changes&lt;/em&gt; to make the &lt;em&gt;reference price&lt;/em&gt; more &lt;em&gt;responsive&lt;/em&gt; to &lt;em&gt;market trends&lt;/em&gt; and they eliminated &lt;em&gt;provisions&lt;/em&gt; under which the &lt;em&gt;buffer stock&lt;/em&gt; could &lt;em&gt;borrow&lt;/em&gt; from &lt;em&gt;banks&lt;/em&gt; to &lt;em&gt;finance operations&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

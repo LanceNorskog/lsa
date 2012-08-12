@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-118.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">account</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">deficit</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">favoured</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">federal</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">states</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">279</int>
         <double name="strength">1.0</double>
+        <int name="terms">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a paper prepared ahead of his trip, Bangemann said Bonn's trading partners had been asking whether West German growth was slowing and whether the Federal Republic should not in the future pursue more strongly expansionary policies.</str>
-        <int name="index">2</int>
+        <str name="text">He welcomed the February "Louvre Agreement" of six industrial nations to stabilise currencies and said, "(We) expect all parties to hold by the accords struck there."</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.8905277057976966</double>
+        <int name="end">167</int>
+        <double name="strength">0.7152045942782238</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">While West Germany did not seek exchange rates which unilaterally favoured its exports, it favoured more stability and realistic rates, which corresponded to "fundamentals."</str>
-        <int name="index">8</int>
+        <str name="text">Bangemann said it was clear the high mark, as well as uncertainty about further currency developments, was making companies here cautious about production plans and investments.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">174</int>
-        <double name="strength">0.812629732659911</double>
+        <int name="end">178</int>
+        <double name="strength">0.6989151510185754</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;During&lt;/em&gt; his trip to &lt;em&gt;Washington, which&lt;/em&gt; runs from &lt;em&gt;April 26&lt;/em&gt; to 29, &lt;em&gt;Bangemann&lt;/em&gt; will meet &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;State George Shultz, trade envoy Clayton Yeutter, World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable,&lt;/em&gt; IMF &lt;em&gt;Managing Director Michel Camdessus&lt;/em&gt; and Paul &lt;em&gt;Volcker, Chairman&lt;/em&gt; of the &lt;em&gt;Federal Reserve Board&lt;/em&gt;.</str>
+        <str name="text">During his trip to Washington, which runs from &lt;em&gt;April 26&lt;/em&gt; to 29, &lt;em&gt;Bangemann&lt;/em&gt; will meet &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;State George Shultz, trade envoy Clayton&lt;/em&gt; Yeutter, &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable,&lt;/em&gt; IMF Managing &lt;em&gt;Director Michel Camdessus&lt;/em&gt; and Paul &lt;em&gt;Volcker, Chairman&lt;/em&gt; of the &lt;em&gt;Federal Reserve Board&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;paper prepared ahead&lt;/em&gt; of his trip, &lt;em&gt;Bangemann&lt;/em&gt; said Bonn's &lt;em&gt;trading partners&lt;/em&gt; had been &lt;em&gt;asking whether&lt;/em&gt; West &lt;em&gt;German growth&lt;/em&gt; was &lt;em&gt;slowing&lt;/em&gt; and &lt;em&gt;whether&lt;/em&gt; the &lt;em&gt;Federal Republic should&lt;/em&gt; not in the &lt;em&gt;future pursue&lt;/em&gt; more &lt;em&gt;strongly expansionary policies&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">He welcomed the &lt;em&gt;February "Louvre Agreement"&lt;/em&gt; of six &lt;em&gt;industrial nations&lt;/em&gt; to &lt;em&gt;stabilise currencies&lt;/em&gt; and said, "(We) &lt;em&gt;expect&lt;/em&gt; all &lt;em&gt;parties&lt;/em&gt; to hold by the &lt;em&gt;accords&lt;/em&gt; struck there."</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;While&lt;/em&gt; West &lt;em&gt;Germany&lt;/em&gt; did not seek &lt;em&gt;exchange rates which unilaterally favoured&lt;/em&gt; its &lt;em&gt;exports,&lt;/em&gt; it &lt;em&gt;favoured&lt;/em&gt; more &lt;em&gt;stability&lt;/em&gt; and &lt;em&gt;realistic rates, which corresponded&lt;/em&gt; to "&lt;em&gt;fundamentals.&lt;/em&gt;"</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Bangemann&lt;/em&gt; said it was &lt;em&gt;clear&lt;/em&gt; the high mark, as well as &lt;em&gt;uncertainty&lt;/em&gt; about &lt;em&gt;further currency developments,&lt;/em&gt; was making &lt;em&gt;companies&lt;/em&gt; here &lt;em&gt;cautious&lt;/em&gt; about &lt;em&gt;production plans&lt;/em&gt; and &lt;em&gt;investments&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

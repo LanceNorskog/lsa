@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-807.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">122</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">channels</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sumner</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">channels</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">predicted</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">bankamerica</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">acquisition</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">exclusive</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.8944271909999176</double>
+        <str name="text">cable</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">But Redstone turned the situation into a spirited bidding contest which was capped by the announcement this morning that Viacom's independent directors on behalf of Viacom entered into a defintive merger agreement with National.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Redstone said he was weary after talks dragged on through the night but also excited at the prospect of running a leading electronic media company.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">148</int>
-        <double name="strength">0.9137044427049232</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Viacom has been seeking approvals for transfer of its broadcast licenses and cable systems since September when its management group first advanced a buyout plan.</str>
         <int name="index">4</int>
         <int name="start">0</int>
         <int name="end">162</int>
-        <double name="strength">0.8519334450468807</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sumner Redstone, president of National Amusements, Inc, predicted he can win regulatory approvals to wrap up the 3.4 billion dlr acquisition of Viacom International Inc in 60 to 90 days.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">186</int>
+        <double name="strength">0.9870685246418113</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We've had counsel working for some time in every region where Viacom has cable televison systems" Redstone told Reuters in a telephone interview.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.9612238065227626</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;Redstone turned&lt;/em&gt; the &lt;em&gt;situation&lt;/em&gt; into a &lt;em&gt;spirited bidding contest which&lt;/em&gt; was &lt;em&gt;capped&lt;/em&gt; by the &lt;em&gt;announcement&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; that &lt;em&gt;Viacom&lt;/em&gt;'s &lt;em&gt;independent directors&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of &lt;em&gt;Viacom entered&lt;/em&gt; into a &lt;em&gt;defintive merger agreement&lt;/em&gt; with &lt;em&gt;National&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Redstone&lt;/em&gt; said he was &lt;em&gt;weary after talks dragged&lt;/em&gt; on &lt;em&gt;through&lt;/em&gt; the &lt;em&gt;night&lt;/em&gt; but also &lt;em&gt;excited&lt;/em&gt; at the &lt;em&gt;prospect&lt;/em&gt; of &lt;em&gt;running&lt;/em&gt; a &lt;em&gt;leading electronic media company&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Viacom&lt;/em&gt; has been &lt;em&gt;seeking approvals&lt;/em&gt; for &lt;em&gt;transfer&lt;/em&gt; of its &lt;em&gt;broadcast licenses&lt;/em&gt; and &lt;em&gt;cable systems since September&lt;/em&gt; when its &lt;em&gt;management group first advanced&lt;/em&gt; a &lt;em&gt;buyout plan&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Viacom&lt;/em&gt; has been seeking &lt;em&gt;approvals&lt;/em&gt; for &lt;em&gt;transfer&lt;/em&gt; of its &lt;em&gt;broadcast licenses&lt;/em&gt; and &lt;em&gt;cable systems&lt;/em&gt; since &lt;em&gt;September&lt;/em&gt; when its &lt;em&gt;management group&lt;/em&gt; first advanced a &lt;em&gt;buyout plan&lt;/em&gt;.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sumner Redstone, president&lt;/em&gt; of &lt;em&gt;National Amusements,&lt;/em&gt; Inc, predicted he can win &lt;em&gt;regulatory approvals&lt;/em&gt; to wrap up the 3.4 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;acquisition&lt;/em&gt; of Viacom &lt;em&gt;International&lt;/em&gt; Inc in 60 to 90 days.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We've had &lt;em&gt;counsel&lt;/em&gt; working for some time in every &lt;em&gt;region&lt;/em&gt; where &lt;em&gt;Viacom&lt;/em&gt; has &lt;em&gt;cable televison systems" Redstone&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in a &lt;em&gt;telephone interview&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-732.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">94</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">fifths</str>
+        <str name="text">request</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">value</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">insert</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">legal</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">statutes</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">excluded</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">ensure</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">interministerial</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">privileged</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">220</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The value of credits given cannot exceed either one-fifth of the combined capital and reserves of the bank itself or two-fifths of the value of the stake owned in the bank by the group or individual concerned.</str>
-        <int name="index">5</int>
+        <str name="text">The Bank of Italy will request banks to insert rules in their statutes to ensure that companies or individuals holding five pct or more of the bank's capital are not given privileged treatment with regard to credit allocation and terms.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">0.8551771488824788</double>
+        <int name="end">237</int>
+        <double name="strength">0.8774206766928407</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">With regard to bank holdings in companies, the Bank of Italy can exercise supervisory controls when information on a bank's consolidated activities show single shareholdings in a company or another bank of 25 pct or more, owned directly or indirectly.</str>
-        <int name="index">9</int>
+        <str name="text">These limits are set at 15 billion lire or two pct of the total assets of the parent company of the shareholding bank.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">252</int>
-        <double name="strength">0.7990829464709128</double>
+        <int name="end">119</int>
+        <double name="strength">0.6424490109556906</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Interministerial Committee&lt;/em&gt; on &lt;em&gt;Credit&lt;/em&gt; and &lt;em&gt;Savings, headed&lt;/em&gt; by &lt;em&gt;Treasury Minister Giovanni Goria,&lt;/em&gt; said its &lt;em&gt;decision reflected&lt;/em&gt; the "need to &lt;em&gt;safeguard&lt;/em&gt; the &lt;em&gt;principle&lt;/em&gt; of &lt;em&gt;separation between banks&lt;/em&gt; and non-&lt;em&gt;financial concerns.&lt;/em&gt;"</str>
+        <str name="text">The &lt;em&gt;Interministerial Committee&lt;/em&gt; on &lt;em&gt;Credit&lt;/em&gt; and &lt;em&gt;Savings,&lt;/em&gt; headed by &lt;em&gt;Treasury Minister Giovanni Goria,&lt;/em&gt; said its &lt;em&gt;decision&lt;/em&gt; reflected the "need to &lt;em&gt;safeguard&lt;/em&gt; the &lt;em&gt;principle&lt;/em&gt; of &lt;em&gt;separation&lt;/em&gt; between &lt;em&gt;banks&lt;/em&gt; and non-&lt;em&gt;financial concerns.&lt;/em&gt;"</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;credits given cannot exceed either&lt;/em&gt; one-&lt;em&gt;fifth&lt;/em&gt; of the &lt;em&gt;combined capital&lt;/em&gt; and &lt;em&gt;reserves&lt;/em&gt; of the bank &lt;em&gt;itself&lt;/em&gt; or two-&lt;em&gt;fifths&lt;/em&gt; of the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;stake owned&lt;/em&gt; in the bank by the &lt;em&gt;group&lt;/em&gt; or &lt;em&gt;individual concerned&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">The Bank of Italy will &lt;em&gt;request banks&lt;/em&gt; to &lt;em&gt;insert rules&lt;/em&gt; in their &lt;em&gt;statutes&lt;/em&gt; to &lt;em&gt;ensure&lt;/em&gt; that &lt;em&gt;companies&lt;/em&gt; or &lt;em&gt;individuals&lt;/em&gt; holding five pct or more of the bank's &lt;em&gt;capital&lt;/em&gt; are not given &lt;em&gt;privileged treatment&lt;/em&gt; with &lt;em&gt;regard&lt;/em&gt; to &lt;em&gt;credit allocation&lt;/em&gt; and &lt;em&gt;terms&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">With &lt;em&gt;regard&lt;/em&gt; to bank &lt;em&gt;holdings&lt;/em&gt; in &lt;em&gt;companies,&lt;/em&gt; the Bank of &lt;em&gt;Italy&lt;/em&gt; can &lt;em&gt;exercise supervisory controls&lt;/em&gt; when &lt;em&gt;information&lt;/em&gt; on a bank's &lt;em&gt;consolidated activities&lt;/em&gt; show &lt;em&gt;single shareholdings&lt;/em&gt; in a &lt;em&gt;company&lt;/em&gt; or &lt;em&gt;another&lt;/em&gt; bank of 25 pct or more, &lt;em&gt;owned directly&lt;/em&gt; or &lt;em&gt;indirectly&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">These &lt;em&gt;limits&lt;/em&gt; are set at 15 &lt;em&gt;billion&lt;/em&gt; lire or two pct of the &lt;em&gt;total assets&lt;/em&gt; of the &lt;em&gt;parent company&lt;/em&gt; of the &lt;em&gt;shareholding bank&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

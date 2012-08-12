@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-31.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">79</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">excludes</str>
+        <str name="text">earnings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">fourth</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
       <lst name="term">
-        <str name="text">filed</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">company</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
       <lst name="term">
-        <str name="text">confirmation</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Charter said its two creditors, an equity committee in its bankruptcy proceedings and &lt;American Financial Corp&gt;, which will own 50.5 pct of its common after the reorganization, have waived the requirement that Charter resolve all dioxin-related claims against it prior to completing its reorganization.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">303</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">It said that on that date, it will deposit with an escrow agent 288.8 mln dlrs in cash, 66.7 mln dlrs in notes and 31 mln shares of its common for distribution.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">161</int>
-        <double name="strength">0.8397423990786502</double>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Charter Co, the huge petrochemical concern in bankruptcy proceedings stemming from hundreds of dioxin-related claims, said it and all of its subsidiaries, except the Independent Petrochemical Corp, will complete their reorganization on March 31.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">245</int>
-        <double name="strength">0.7779782937071056</double>
+        <str name="text">Charter said its two creditors, an equity committee in its bankruptcy proceedings and &lt;American Financial Corp&gt;, which will own 50.5 pct of its common after the reorganization, have waived the requirement that Charter resolve all dioxin-related claims against it prior to completing its reorganization.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">303</int>
+        <double name="strength">0.8573232557496402</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Company officials were not immediately available for comment.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">62</int>
+        <double name="strength">0.7842797830024562</double>
+        <int name="terms">4</int>
       </lst>
     </lst>
     <lst name="highlighted">
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Charter&lt;/em&gt; said its two &lt;em&gt;creditors,&lt;/em&gt; an &lt;em&gt;equity committee&lt;/em&gt; in its &lt;em&gt;bankruptcy proceedings&lt;/em&gt; and &lt;&lt;em&gt;American Financial&lt;/em&gt; Corp&gt;, &lt;em&gt;which&lt;/em&gt; will own 50.5 pct of its &lt;em&gt;common after&lt;/em&gt; the &lt;em&gt;reorganization,&lt;/em&gt; have &lt;em&gt;waived&lt;/em&gt; the &lt;em&gt;requirement&lt;/em&gt; that &lt;em&gt;Charter resolve&lt;/em&gt; all &lt;em&gt;dioxin-related claims against&lt;/em&gt; it &lt;em&gt;prior&lt;/em&gt; to &lt;em&gt;completing&lt;/em&gt; its &lt;em&gt;reorganization&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
       <lst name="sentence">
         <str name="text">It said that on that date, it will &lt;em&gt;deposit&lt;/em&gt; with an &lt;em&gt;escrow agent 288.8&lt;/em&gt; mln dlrs in cash, 66.7 mln dlrs in &lt;em&gt;notes&lt;/em&gt; and 31 mln &lt;em&gt;shares&lt;/em&gt; of its &lt;em&gt;common&lt;/em&gt; for &lt;em&gt;distribution&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Charter&lt;/em&gt; Co, the huge &lt;em&gt;petrochemical concern&lt;/em&gt; in &lt;em&gt;bankruptcy proceedings stemming&lt;/em&gt; from &lt;em&gt;hundreds&lt;/em&gt; of &lt;em&gt;dioxin-related claims,&lt;/em&gt; said it and all of its &lt;em&gt;subsidiaries, except&lt;/em&gt; the &lt;em&gt;Independent Petrochemical&lt;/em&gt; Corp, will &lt;em&gt;complete their reorganization&lt;/em&gt; on &lt;em&gt;March 31&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Charter&lt;/em&gt; said its two &lt;em&gt;creditors,&lt;/em&gt; an &lt;em&gt;equity committee&lt;/em&gt; in its &lt;em&gt;bankruptcy proceedings&lt;/em&gt; and &lt;&lt;em&gt;American Financial&lt;/em&gt; Corp&gt;, which will own 50.5 pct of its &lt;em&gt;common&lt;/em&gt; after the &lt;em&gt;reorganization,&lt;/em&gt; have waived the &lt;em&gt;requirement&lt;/em&gt; that &lt;em&gt;Charter resolve&lt;/em&gt; all &lt;em&gt;dioxin&lt;/em&gt;-related &lt;em&gt;claims&lt;/em&gt; against it &lt;em&gt;prior&lt;/em&gt; to completing its &lt;em&gt;reorganization&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Company officials&lt;/em&gt; were not immediately &lt;em&gt;available&lt;/em&gt; for &lt;em&gt;comment&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

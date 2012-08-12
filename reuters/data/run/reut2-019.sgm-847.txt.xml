@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-847.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">209</int>
+        <int name="count">146</int>
       </lst>
       <lst name="stems">
-        <int name="count">143</int>
+        <int name="count">95</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">funds</str>
+        <str name="text">investment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">nikko</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9823223996326211</double>
       </lst>
       <lst name="term">
-        <str name="text">capital</str>
-        <double name="strength">0.5590169943749463</double>
+        <str name="text">chicago</str>
+        <double name="strength">0.95884311503655</double>
       </lst>
       <lst name="term">
-        <str name="text">superior</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">president</str>
+        <double name="strength">0.9552415181275635</double>
       </lst>
       <lst name="term">
-        <str name="text">firms</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">nomura</str>
+        <double name="strength">0.955241518127563</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">219</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S., Nikko Securities Co International Inc is preparing to become a clearing member of the Chicago Boad of Trade (CBT)in anticipation of growing Japanese demand for futures products, Akira Tokutomi of Nikko said.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">211</int>
-        <double name="strength">0.9773034545611173</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The evening session of CBT, inaugurated recently to coincide with early Tokyo business hours, has increased Japanese participation to some extent, but the brokerage issue is still a hurdle, the Japanese sources said.</str>
-        <int name="index">23</int>
+        <str name="text">Japan allowed local financial institutions last month to start using overseas futures in currencies, bonds and stocks to help them manage their bulging foreign portfolios.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.8919484270304271</double>
+        <int name="end">172</int>
+        <double name="strength">0.9563501934346267</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Japanese are in the process of selecting brokers and establishing channels to pay fees and margins, but harmonizing clerical procedures and bridging the time gap between Tokyo and Chicago are proving to be a burden, the sources said.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">238</int>
+        <double name="strength">0.8378057777754809</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;While&lt;/em&gt; the &lt;em&gt;Japanese&lt;/em&gt; are out of the &lt;em&gt;business,&lt;/em&gt; the &lt;em&gt;Americans&lt;/em&gt; have &lt;em&gt;moved&lt;/em&gt; in, with &lt;em&gt;First Boston&lt;/em&gt; Corp, &lt;em&gt;Salomon Brothers&lt;/em&gt; Inc, &lt;em&gt;Goldman, Sachs&lt;/em&gt; and Co, &lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc and &lt;em&gt;PainWebber&lt;/em&gt; Inc &lt;em&gt;leading&lt;/em&gt; the &lt;em&gt;charge,&lt;/em&gt; they said.</str>
+        <str name="text">While the &lt;em&gt;Japanese&lt;/em&gt; are out of the &lt;em&gt;business,&lt;/em&gt; the Americans have moved in, with &lt;em&gt;First Boston&lt;/em&gt; Corp, &lt;em&gt;Salomon Brothers&lt;/em&gt; Inc, &lt;em&gt;Goldman, Sachs&lt;/em&gt; and Co, &lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc and &lt;em&gt;PainWebber&lt;/em&gt; Inc leading the &lt;em&gt;charge,&lt;/em&gt; they said.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S., &lt;em&gt;Nikko Securities&lt;/em&gt; Co &lt;em&gt;International&lt;/em&gt; Inc is &lt;em&gt;preparing&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; a &lt;em&gt;clearing member&lt;/em&gt; of the &lt;em&gt;Chicago&lt;/em&gt; Boad of &lt;em&gt;Trade &lt;/em&gt;(CBT)in &lt;em&gt;anticipation&lt;/em&gt; of &lt;em&gt;growing Japanese demand&lt;/em&gt; for &lt;em&gt;futures products, Akira Tokutomi&lt;/em&gt; of &lt;em&gt;Nikko said&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt; allowed &lt;em&gt;local financial institutions&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;start&lt;/em&gt; using &lt;em&gt;overseas futures&lt;/em&gt; in &lt;em&gt;currencies, bonds&lt;/em&gt; and &lt;em&gt;stocks&lt;/em&gt; to help them &lt;em&gt;manage&lt;/em&gt; their bulging &lt;em&gt;foreign portfolios&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;evening session&lt;/em&gt; of CBT, &lt;em&gt;inaugurated recently&lt;/em&gt; to &lt;em&gt;coincide&lt;/em&gt; with &lt;em&gt;early Tokyo business hours,&lt;/em&gt; has &lt;em&gt;increased Japanese participation&lt;/em&gt; to some &lt;em&gt;extent,&lt;/em&gt; but the &lt;em&gt;brokerage issue&lt;/em&gt; is &lt;em&gt;still&lt;/em&gt; a &lt;em&gt;hurdle,&lt;/em&gt; the &lt;em&gt;Japanese sources said&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">The &lt;em&gt;Japanese&lt;/em&gt; are in the &lt;em&gt;process&lt;/em&gt; of selecting &lt;em&gt;brokers&lt;/em&gt; and establishing &lt;em&gt;channels&lt;/em&gt; to pay fees and &lt;em&gt;margins,&lt;/em&gt; but harmonizing &lt;em&gt;clerical procedures&lt;/em&gt; and bridging the time gap between &lt;em&gt;Tokyo&lt;/em&gt; and &lt;em&gt;Chicago&lt;/em&gt; are proving to be a &lt;em&gt;burden,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

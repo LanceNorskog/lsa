@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-447.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">noted</str>
+        <str name="text">successful</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">number</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">unfavourable</str>
+        <str name="text">circumstances</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">conditions</str>
+        <str name="text">international</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">permitted</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">paper</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">239</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The finance ministry described today's tender as successful and said the amount raised reflected a change in market circumstances since the last loan issue together with international demand for guilder-denominated paper.</str>
         <int name="index">6</int>
         <int name="start">0</int>
         <int name="end">221</int>
-        <double name="strength">0.778790974339494</double>
+        <double name="strength">0.7923715732358046</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Because of projected early redemptions to the state of loans by building corporations, analysts predict the state has to raise 32 billion guilders on the capital markets this year, of which it has found 4.5 billion guilders on the private placement market.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">257</int>
-        <double name="strength">0.7728315873655655</double>
+        <double name="strength">0.6899925915157172</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bullet loans&lt;/em&gt; have &lt;em&gt;attracted considerable foreign demand&lt;/em&gt; but have also &lt;em&gt;given&lt;/em&gt; rise to &lt;em&gt;worries their fixed repayment&lt;/em&gt; date &lt;em&gt;might interfere&lt;/em&gt; with &lt;em&gt;intricate redemption schemes built&lt;/em&gt; up &lt;em&gt;around previously issued split maturity bonds, dealers said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Bullet loans&lt;/em&gt; have attracted &lt;em&gt;considerable foreign demand&lt;/em&gt; but have also given rise to &lt;em&gt;worries&lt;/em&gt; their fixed &lt;em&gt;repayment&lt;/em&gt; date might &lt;em&gt;interfere&lt;/em&gt; with &lt;em&gt;intricate redemption schemes&lt;/em&gt; built up around previously issued split &lt;em&gt;maturity bonds, dealers said&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;finance ministry described today&lt;/em&gt;'s &lt;em&gt;tender&lt;/em&gt; as &lt;em&gt;successful&lt;/em&gt; and said the &lt;em&gt;amount raised reflected&lt;/em&gt; a &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;market circumstances since&lt;/em&gt; the last loan &lt;em&gt;issue together&lt;/em&gt; with &lt;em&gt;international demand&lt;/em&gt; for &lt;em&gt;guilder-denominated paper&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;finance ministry&lt;/em&gt; described today's &lt;em&gt;tender&lt;/em&gt; as &lt;em&gt;successful&lt;/em&gt; and said the &lt;em&gt;amount&lt;/em&gt; raised reflected a &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;market circumstances&lt;/em&gt; since the last loan &lt;em&gt;issue&lt;/em&gt; together with &lt;em&gt;international demand&lt;/em&gt; for &lt;em&gt;guilder&lt;/em&gt;-denominated &lt;em&gt;paper&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Because&lt;/em&gt; of &lt;em&gt;projected early redemptions&lt;/em&gt; to the &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;loans&lt;/em&gt; by &lt;em&gt;building corporations, analysts predict&lt;/em&gt; the &lt;em&gt;state&lt;/em&gt; has to &lt;em&gt;raise 32 billion guilders&lt;/em&gt; on the &lt;em&gt;capital markets&lt;/em&gt; this year, of &lt;em&gt;which&lt;/em&gt; it has &lt;em&gt;found 4.5 billion guilders&lt;/em&gt; on the &lt;em&gt;private placement market&lt;/em&gt;.</str>
+        <str name="text">Because of projected &lt;em&gt;early redemptions&lt;/em&gt; to the &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;loans&lt;/em&gt; by building &lt;em&gt;corporations, analysts predict&lt;/em&gt; the &lt;em&gt;state&lt;/em&gt; has to &lt;em&gt;raise 32 billion guilders&lt;/em&gt; on the &lt;em&gt;capital markets&lt;/em&gt; this year, of which it has found 4.5 &lt;em&gt;billion guilders&lt;/em&gt; on the &lt;em&gt;private placement market&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-240.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">83</int>
+        <int name="count">55</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">european</str>
+        <str name="text">securities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">replace</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">daily</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">facility</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">average</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">offset</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">allocate</str>
-        <double name="strength">0.5000000000000009</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The move came as call money extended a rise begun Friday after the Bundesbank took up some six billion marks owed to it by other European central banks after currency interventions in the framework of European Monetary System in January.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Rates could ease further in trading today but dealers expect them to rise later in the week as banks begin paying out funds for tax payments on behalf of clients.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">163</int>
-        <double name="strength">0.8071397220005331</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, a new securities repurchase pact likely to be added next week to replace a facility expiring then could somewhat offset the drain.</str>
-        <int name="index">13</int>
+        <str name="text">The move came as call money extended a rise begun Friday after the Bundesbank took up some six billion marks owed to it by other European central banks after currency interventions in the framework of European Monetary System in January.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">140</int>
-        <double name="strength">0.7491430910492616</double>
+        <int name="end">238</int>
+        <double name="strength">0.8597310336553046</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">With the heavy tax drain in March, banks are likely to remain cautious about taking more liquidity out of reserves than is absolutely necessary.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">145</int>
+        <double name="strength">0.8471033161486138</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The move came as call &lt;em&gt;money extended&lt;/em&gt; a rise &lt;em&gt;begun Friday after&lt;/em&gt; the &lt;em&gt;Bundesbank&lt;/em&gt; took up some six &lt;em&gt;billion marks&lt;/em&gt; owed to it by &lt;em&gt;other European central banks after currency interventions&lt;/em&gt; in the &lt;em&gt;framework&lt;/em&gt; of &lt;em&gt;European Monetary System&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Rates could&lt;/em&gt; ease &lt;em&gt;further&lt;/em&gt; in &lt;em&gt;trading today&lt;/em&gt; but &lt;em&gt;dealers expect&lt;/em&gt; them to rise &lt;em&gt;later&lt;/em&gt; in the week as &lt;em&gt;banks begin paying&lt;/em&gt; out &lt;em&gt;funds&lt;/em&gt; for tax &lt;em&gt;payments&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of &lt;em&gt;clients&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Rates&lt;/em&gt; could ease further in &lt;em&gt;trading today&lt;/em&gt; but &lt;em&gt;dealers expect&lt;/em&gt; them to rise later in the week as &lt;em&gt;banks begin&lt;/em&gt; paying out &lt;em&gt;funds&lt;/em&gt; for tax &lt;em&gt;payments&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of &lt;em&gt;clients&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; a new &lt;em&gt;securities repurchase&lt;/em&gt; pact &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;added&lt;/em&gt; next week to &lt;em&gt;replace&lt;/em&gt; a &lt;em&gt;facility expiring&lt;/em&gt; then &lt;em&gt;could somewhat offset&lt;/em&gt; the &lt;em&gt;drain&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">The move came as call &lt;em&gt;money&lt;/em&gt; extended a rise begun &lt;em&gt;Friday&lt;/em&gt; after the &lt;em&gt;Bundesbank&lt;/em&gt; took up some six &lt;em&gt;billion marks&lt;/em&gt; owed to it by &lt;em&gt;other European central banks&lt;/em&gt; after &lt;em&gt;currency interventions&lt;/em&gt; in the &lt;em&gt;framework&lt;/em&gt; of &lt;em&gt;European Monetary System&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">With the &lt;em&gt;heavy&lt;/em&gt; tax &lt;em&gt;drain&lt;/em&gt; in &lt;em&gt;March, banks&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;remain cautious&lt;/em&gt; about taking more &lt;em&gt;liquidity&lt;/em&gt; out of &lt;em&gt;reserves&lt;/em&gt; than is absolutely &lt;em&gt;necessary&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

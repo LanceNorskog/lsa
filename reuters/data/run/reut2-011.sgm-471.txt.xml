@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-471.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">country</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.666666666666667</double>
+        <str name="text">income</str>
+        <double name="strength">0.9817951047906769</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.37267799624996467</double>
+        <str name="text">returns</str>
+        <double name="strength">0.9817951047906759</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">overseas</str>
+        <double name="strength">0.9349502295220482</double>
       </lst>
       <lst name="term">
-        <str name="text">fulfill</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">investments</str>
+        <double name="strength">0.9349502295220482</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"If our taxpayers in another country are expected to fulfill their tax-paying responsibilities in that country, then foreigners in our country can be expected to do the same thing," Woodard said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The IRS looked at the electronics industry first, but Woodard denied it was because of the trade dispute over semiconductors between the United States and Japan.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">162</int>
-        <double name="strength">0.6553989587650166</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Internal Revenue Service (IRS) said it was stepping up compliance efforts by its international staff to recover some of the billions of dollars lost each year in unpaid taxes.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">179</int>
-        <double name="strength">0.6118145237862335</double>
+        <str name="text">Percy Woodard, assistant IRS commissioner, international, denied that the agency was picking on foreign companies, but he said fewer of them pay taxes than comparable U.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.8843049143695847</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The IRS will study entire industries to spot trends or practices by foreign-owned companies in their compliance with tax laws, Woodard said.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.8521936430857159</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"If our &lt;em&gt;taxpayers&lt;/em&gt; in &lt;em&gt;another country&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;fulfill their&lt;/em&gt; tax-&lt;em&gt;paying responsibilities&lt;/em&gt; in that &lt;em&gt;country,&lt;/em&gt; then &lt;em&gt;foreigners&lt;/em&gt; in our &lt;em&gt;country&lt;/em&gt; can be &lt;em&gt;expected&lt;/em&gt; to do the same &lt;em&gt;thing," Woodard said&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The IRS &lt;em&gt;looked&lt;/em&gt; at the &lt;em&gt;electronics industry first,&lt;/em&gt; but &lt;em&gt;Woodard denied&lt;/em&gt; it was &lt;em&gt;because&lt;/em&gt; of the &lt;em&gt;trade dispute&lt;/em&gt; over &lt;em&gt;semiconductors between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <str name="text">The IRS looked at the &lt;em&gt;electronics industry first,&lt;/em&gt; but &lt;em&gt;Woodard&lt;/em&gt; denied it was because of the &lt;em&gt;trade dispute&lt;/em&gt; over &lt;em&gt;semiconductors&lt;/em&gt; between the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Internal Revenue Service &lt;/em&gt;(IRS) said it was &lt;em&gt;stepping&lt;/em&gt; up &lt;em&gt;compliance efforts&lt;/em&gt; by its &lt;em&gt;international staff&lt;/em&gt; to &lt;em&gt;recover&lt;/em&gt; some of the &lt;em&gt;billions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; lost each year in &lt;em&gt;unpaid taxes&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Percy Woodard, assistant&lt;/em&gt; IRS &lt;em&gt;commissioner, international,&lt;/em&gt; denied that the &lt;em&gt;agency&lt;/em&gt; was picking on &lt;em&gt;foreign companies,&lt;/em&gt; but he said fewer of them pay &lt;em&gt;taxes&lt;/em&gt; than &lt;em&gt;comparable U&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The IRS will &lt;em&gt;study entire industries&lt;/em&gt; to spot &lt;em&gt;trends&lt;/em&gt; or &lt;em&gt;practices&lt;/em&gt; by &lt;em&gt;foreign&lt;/em&gt;-owned &lt;em&gt;companies&lt;/em&gt; in their &lt;em&gt;compliance&lt;/em&gt; with tax laws, &lt;em&gt;Woodard said&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

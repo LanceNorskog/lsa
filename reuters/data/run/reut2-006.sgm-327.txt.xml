@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-327.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">majority</str>
+        <str name="text">markets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">willingly</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">practice</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">proposal</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">listed</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">calls</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">association</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">emphasize</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">registerd</str>
+        <double name="strength">0.9730077661055213</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In a letter to the Securities and Exchange Commission, NASD President Gordon Macklin said the group would be happy to be the first exchange to adopt a uniform rule but with certain exceptions.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">193</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The NYSE rule would allow companies to have a dual class of stock only if a majority of publicly held shares and a majority of independent directors on the board approve the move.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">180</int>
-        <double name="strength">0.9875899493636445</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The NASD proposal calls for all stock markets to have a uniform rule which would emphasize the principle of equal voting rights, but allow for legitimate variations.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">166</int>
-        <double name="strength">0.957468782049168</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">-- shares in a registerd public offering where all facts connected with the company's capital structure are clearly spelled out in the prospectus.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.9667226994049328</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If a voluntary private sector resolution is not practical, then the commission should adopt the rule to apply to all markets," the NASD said.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">141</int>
+        <double name="strength">0.9570504144078962</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;letter&lt;/em&gt; to the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission,&lt;/em&gt; NASD &lt;em&gt;President Gordon Macklin&lt;/em&gt; said the &lt;em&gt;group would&lt;/em&gt; be &lt;em&gt;happy&lt;/em&gt; to be the &lt;em&gt;first exchange&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; a &lt;em&gt;uniform&lt;/em&gt; rule but with &lt;em&gt;certain exceptions&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The NYSE rule &lt;em&gt;would allow companies&lt;/em&gt; to have a dual &lt;em&gt;class&lt;/em&gt; of &lt;em&gt;stock&lt;/em&gt; only if a &lt;em&gt;majority&lt;/em&gt; of &lt;em&gt;publicly&lt;/em&gt; held &lt;em&gt;shares&lt;/em&gt; and a &lt;em&gt;majority&lt;/em&gt; of &lt;em&gt;independent directors&lt;/em&gt; on the &lt;em&gt;board approve&lt;/em&gt; the move.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The NASD &lt;em&gt;proposal calls&lt;/em&gt; for all &lt;em&gt;stock markets&lt;/em&gt; to have a &lt;em&gt;uniform&lt;/em&gt; rule &lt;em&gt;which would emphasize&lt;/em&gt; the &lt;em&gt;principle&lt;/em&gt; of &lt;em&gt;equal voting rights,&lt;/em&gt; but &lt;em&gt;allow&lt;/em&gt; for &lt;em&gt;legitimate variations&lt;/em&gt;.</str>
+        <str name="text">The NASD &lt;em&gt;proposal&lt;/em&gt; calls for all &lt;em&gt;stock markets&lt;/em&gt; to have a &lt;em&gt;uniform&lt;/em&gt; rule which would &lt;em&gt;emphasize&lt;/em&gt; the &lt;em&gt;principle&lt;/em&gt; of &lt;em&gt;equal voting rights,&lt;/em&gt; but &lt;em&gt;allow&lt;/em&gt; for &lt;em&gt;legitimate variations&lt;/em&gt;.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;-- shares&lt;/em&gt; in a &lt;em&gt;registerd public offering&lt;/em&gt; where all &lt;em&gt;facts&lt;/em&gt; connected with the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;capital structure&lt;/em&gt; are clearly spelled out in the &lt;em&gt;prospectus&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If a &lt;em&gt;voluntary private sector resolution&lt;/em&gt; is not &lt;em&gt;practical,&lt;/em&gt; then the &lt;em&gt;commission&lt;/em&gt; should &lt;em&gt;adopt&lt;/em&gt; the rule to &lt;em&gt;apply&lt;/em&gt; to all &lt;em&gt;markets,"&lt;/em&gt; the NASD said.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

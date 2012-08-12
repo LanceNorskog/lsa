@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-393.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">183</int>
+        <int name="count">123</int>
       </lst>
       <lst name="stems">
-        <int name="count">121</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">committee</str>
+        <str name="text">decision</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">germany</str>
-        <double name="strength">0.5590169943749461</double>
+        <str name="text">common</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">meanwhile</str>
-        <double name="strength">0.5</double>
+        <str name="text">change</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">realignment</str>
-        <double name="strength">0.5</double>
+        <str name="text">technical</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.5</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">But economists say members such as West Germany have so far blocked a second stage of development envisaged by the system's founding fathers, ex-West German Chancellor Helmut Schmidt and former French President Valery Giscard d'Estaing.</str>
-        <int name="index">4</int>
+        <str name="text">Economists say the system's fortunes now will depend largely on the success of an agreement last month among major industrial nations to stabilise exchange rates.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">237</int>
+        <int name="end">163</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Meanwhile, the system's last realignment, the 11th since it was set up, prompted European finance ministers to ask the EC's highly-secretive Monetary Committee and Committee of Central Bank Governors to come up with suggestions for reinforcing it.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">248</int>
-        <double name="strength">0.9157668539893423</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The European Monetary System marks its eighth anniversary still vulnerable to turmoil in world money markets despite creating an island of currency rate stability in Europe, economists say.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">189</int>
-        <double name="strength">0.8163090343186215</double>
+        <double name="strength">0.995572952411426</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Under this phase, originally due to have started two years after the EMS was set up, decision-making was to have been transferred from national governments and central banks to an autonomous European Monetary Fund.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.9049811631943102</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;economists&lt;/em&gt; say &lt;em&gt;members&lt;/em&gt; such as West &lt;em&gt;Germany&lt;/em&gt; have so far &lt;em&gt;blocked&lt;/em&gt; a &lt;em&gt;second stage&lt;/em&gt; of &lt;em&gt;development envisaged&lt;/em&gt; by the &lt;em&gt;system&lt;/em&gt;'s &lt;em&gt;founding fathers,&lt;/em&gt; ex-West &lt;em&gt;German Chancellor Helmut Schmidt&lt;/em&gt; and &lt;em&gt;former French President Valery Giscard&lt;/em&gt; d'&lt;em&gt;Estaing&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Economists&lt;/em&gt; say the &lt;em&gt;system&lt;/em&gt;'s &lt;em&gt;fortunes&lt;/em&gt; now will &lt;em&gt;depend&lt;/em&gt; largely on the &lt;em&gt;success&lt;/em&gt; of an &lt;em&gt;agreement&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; among &lt;em&gt;major industrial nations&lt;/em&gt; to &lt;em&gt;stabilise exchange rates&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile,&lt;/em&gt; the &lt;em&gt;system&lt;/em&gt;'s last &lt;em&gt;realignment,&lt;/em&gt; the 11th &lt;em&gt;since&lt;/em&gt; it was set up, &lt;em&gt;prompted European finance ministers&lt;/em&gt; to ask the EC's &lt;em&gt;highly-secretive Monetary Committee&lt;/em&gt; and &lt;em&gt;Committee&lt;/em&gt; of &lt;em&gt;Central&lt;/em&gt; Bank &lt;em&gt;Governors&lt;/em&gt; to come up with &lt;em&gt;suggestions&lt;/em&gt; for &lt;em&gt;reinforcing it&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;European Monetary System marks&lt;/em&gt; its &lt;em&gt;eighth anniversary still vulnerable&lt;/em&gt; to &lt;em&gt;turmoil&lt;/em&gt; in &lt;em&gt;world money markets despite creating&lt;/em&gt; an &lt;em&gt;island&lt;/em&gt; of &lt;em&gt;currency&lt;/em&gt; rate &lt;em&gt;stability&lt;/em&gt; in &lt;em&gt;Europe, economists say&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;European Monetary System&lt;/em&gt; marks its &lt;em&gt;eighth anniversary&lt;/em&gt; still &lt;em&gt;vulnerable&lt;/em&gt; to &lt;em&gt;turmoil&lt;/em&gt; in &lt;em&gt;world money markets&lt;/em&gt; despite creating an &lt;em&gt;island&lt;/em&gt; of &lt;em&gt;currency&lt;/em&gt; rate &lt;em&gt;stability&lt;/em&gt; in &lt;em&gt;Europe, economists say&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Under this &lt;em&gt;phase,&lt;/em&gt; originally due to have started two &lt;em&gt;years&lt;/em&gt; after the EMS was set up, &lt;em&gt;decision-making&lt;/em&gt; was to have been transferred from &lt;em&gt;national governments&lt;/em&gt; and &lt;em&gt;central banks&lt;/em&gt; to an &lt;em&gt;autonomous European Monetary Fund&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

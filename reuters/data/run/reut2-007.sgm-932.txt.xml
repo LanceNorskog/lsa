@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-932.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">123</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">getting</str>
+        <str name="text">suspected</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">possible</str>
+        <str name="text">swindle</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">operations</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">value</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prosecutor</str>
         <double name="strength">0.9999999999999992</double>
-      </lst>
-      <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">0.559016994374948</double>
-      </lst>
-      <lst name="term">
-        <str name="text">office</str>
-        <double name="strength">0.5590169943749471</double>
-      </lst>
-      <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5000000000000011</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">A senior executive has been fired and several other people suspended, while a prosecutor is looking into the matter.</str>
-        <int name="index">16</int>
+        <str name="text">Breaches of the Banking Law in this way can be punished by a fine for the dealers involved, and in extreme cases by removal of the managers, if their active involvement is proved.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">117</int>
+        <int name="end">180</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">According to Platow Brief, some traders apparently were getting round the regulation by getting VW to buy or sell currencies and hold them temporarily so that their books were squared.</str>
-        <int name="index">9</int>
+        <str name="text">Some traders who take a view on how currencies will move may prefer to leave certain positions open, a speculative situation that the German regulations are designed to limit.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9807696281671227</double>
+        <int name="end">176</int>
+        <double name="strength">0.9589176305800157</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">VW said this month that it had had to make provision for possible losses up to 480 mln marks in the possible currency fraud.</str>
-        <int name="index">3</int>
+        <str name="text">VW had no immediate comment and there was nothing in the report by the newsletter, the Platow Brief, to link its new allegations with a suspected currency swindle at VW which is now being investigated by a prosecutor.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">125</int>
-        <double name="strength">0.9376850414594506</double>
+        <int name="end">218</int>
+        <double name="strength">0.9420875777119488</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;senior executive&lt;/em&gt; has been &lt;em&gt;fired&lt;/em&gt; and &lt;em&gt;several other people suspended, while&lt;/em&gt; a &lt;em&gt;prosecutor&lt;/em&gt; is &lt;em&gt;looking&lt;/em&gt; into the &lt;em&gt;matter&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Breaches&lt;/em&gt; of the &lt;em&gt;Banking&lt;/em&gt; Law in this way can be punished by a fine for the &lt;em&gt;dealers&lt;/em&gt; involved, and in &lt;em&gt;extreme cases&lt;/em&gt; by &lt;em&gt;removal&lt;/em&gt; of the &lt;em&gt;managers,&lt;/em&gt; if their &lt;em&gt;active involvement&lt;/em&gt; is proved.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to &lt;em&gt;Platow Brief,&lt;/em&gt; some &lt;em&gt;traders apparently&lt;/em&gt; were &lt;em&gt;getting round&lt;/em&gt; the &lt;em&gt;regulation&lt;/em&gt; by &lt;em&gt;getting&lt;/em&gt; VW to buy or sell &lt;em&gt;currencies&lt;/em&gt; and hold them &lt;em&gt;temporarily&lt;/em&gt; so that &lt;em&gt;their books&lt;/em&gt; were &lt;em&gt;squared&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">Some &lt;em&gt;traders&lt;/em&gt; who take a view on how &lt;em&gt;currencies&lt;/em&gt; will move may &lt;em&gt;prefer&lt;/em&gt; to &lt;em&gt;leave certain positions&lt;/em&gt; open, a &lt;em&gt;speculative situation&lt;/em&gt; that the &lt;em&gt;German regulations&lt;/em&gt; are designed to &lt;em&gt;limit&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">VW said this &lt;em&gt;month&lt;/em&gt; that it had had to make &lt;em&gt;provision&lt;/em&gt; for &lt;em&gt;possible losses&lt;/em&gt; up to 480 mln &lt;em&gt;marks&lt;/em&gt; in the &lt;em&gt;possible currency fraud&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">VW had no &lt;em&gt;immediate comment&lt;/em&gt; and there was &lt;em&gt;nothing&lt;/em&gt; in the &lt;em&gt;report&lt;/em&gt; by the &lt;em&gt;newsletter,&lt;/em&gt; the &lt;em&gt;Platow Brief,&lt;/em&gt; to link its new &lt;em&gt;allegations&lt;/em&gt; with a &lt;em&gt;suspected currency swindle&lt;/em&gt; at VW which is now being investigated by a &lt;em&gt;prosecutor&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

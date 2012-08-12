@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">45</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-27.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">43</int>
       </lst>
       <lst name="terms">
-        <int name="count">156</int>
+        <int name="count">123</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">taking</str>
+        <str name="text">markets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">measures</str>
-        <double name="strength">1.0</double>
+        <str name="text">others</str>
+        <double name="strength">0.9999999999999959</double>
       </lst>
       <lst name="term">
-        <str name="text">stimulate</str>
-        <double name="strength">1.0</double>
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999959</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">1.0</double>
+        <str name="text">recession</str>
+        <double name="strength">0.9957279453415482</double>
       </lst>
       <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">1.0</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9850565994738653</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">230</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Japan is taking strong measures to stimulate domestic demand, so while there could be some impact from the reduction of assets value, it would not be a major impact," said the Bank of Tokyo's Honda.</str>
-        <int name="index">16</int>
+        <str name="text">Some economists suggested that should markets continue to slump, the major industrial nations may have to discuss possible joint lowering of official discount rates.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.9022037918903949</double>
+        <int name="end">166</int>
+        <double name="strength">0.9154735704899641</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"If the low levels hold, those who were keeping consumption high because of unrealised gains could curb consumption," said Salomon Brothers (Asia) Ltd economist Ron Napier.</str>
-        <int name="index">33</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.830959686226813</double>
+        <str name="text">S. Economy is strong, so there should be no direct impact from the collapse of share prices," said Toshiaki Kakimoto, Sumitomo Bank Ltd chief economist.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.8842685200936679</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, "previously,&lt;/em&gt; the &lt;em&gt;stocks correction&lt;/em&gt; was due to &lt;em&gt;fears&lt;/em&gt; of &lt;em&gt;higher interest rates,&lt;/em&gt; a &lt;em&gt;possible resurgence&lt;/em&gt; of &lt;em&gt;inflation&lt;/em&gt; and the &lt;em&gt;depreciation&lt;/em&gt; of the &lt;em&gt;dollar,"&lt;/em&gt; said &lt;em&gt;Nobuyuki&lt;/em&gt; Ueda, &lt;em&gt;senior economist&lt;/em&gt; at the Long-Term &lt;em&gt;Credit&lt;/em&gt; Bank Ltd.</str>
+        <str name="text">However, "previously, the &lt;em&gt;stocks correction&lt;/em&gt; was due to &lt;em&gt;fears&lt;/em&gt; of higher &lt;em&gt;interest rates,&lt;/em&gt; a &lt;em&gt;possible resurgence&lt;/em&gt; of &lt;em&gt;inflation&lt;/em&gt; and the &lt;em&gt;depreciation&lt;/em&gt; of the &lt;em&gt;dollar,"&lt;/em&gt; said &lt;em&gt;Nobuyuki&lt;/em&gt; Ueda, &lt;em&gt;senior economist&lt;/em&gt; at the Long-Term &lt;em&gt;Credit&lt;/em&gt; Bank Ltd.</str>
         <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Japan&lt;/em&gt; is &lt;em&gt;taking strong measures&lt;/em&gt; to &lt;em&gt;stimulate domestic demand,&lt;/em&gt; so &lt;em&gt;while there could&lt;/em&gt; be some &lt;em&gt;impact&lt;/em&gt; from the &lt;em&gt;reduction&lt;/em&gt; of &lt;em&gt;assets value,&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; not be a &lt;em&gt;major impact,"&lt;/em&gt; said the Bank of &lt;em&gt;Tokyo&lt;/em&gt;'s &lt;em&gt;Honda&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Some &lt;em&gt;economists&lt;/em&gt; suggested that should &lt;em&gt;markets continue&lt;/em&gt; to &lt;em&gt;slump,&lt;/em&gt; the &lt;em&gt;major industrial nations&lt;/em&gt; may have to &lt;em&gt;discuss possible joint&lt;/em&gt; lowering of &lt;em&gt;official discount rates&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"If the low &lt;em&gt;levels&lt;/em&gt; hold, &lt;em&gt;those&lt;/em&gt; who were &lt;em&gt;keeping consumption&lt;/em&gt; high &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;unrealised gains could&lt;/em&gt; curb &lt;em&gt;consumption,"&lt;/em&gt; said &lt;em&gt;Salomon Brothers &lt;/em&gt;(Asia) Ltd &lt;em&gt;economist&lt;/em&gt; Ron &lt;em&gt;Napier&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">S. &lt;em&gt;Economy&lt;/em&gt; is &lt;em&gt;strong,&lt;/em&gt; so there should be no &lt;em&gt;direct impact&lt;/em&gt; from the &lt;em&gt;collapse&lt;/em&gt; of &lt;em&gt;share prices,"&lt;/em&gt; said &lt;em&gt;Toshiaki&lt;/em&gt; Kakimoto, &lt;em&gt;Sumitomo&lt;/em&gt; Bank Ltd &lt;em&gt;chief economist&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-200.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">186</int>
+        <int name="count">148</int>
       </lst>
       <lst name="stems">
-        <int name="count">129</int>
+        <int name="count">103</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">market</str>
+        <str name="text">credit</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">japan</str>
-        <double name="strength">0.8944271909999341</double>
+        <str name="text">british</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">favour</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">transaction</str>
+        <double name="strength">0.9746241332961258</double>
       </lst>
       <lst name="term">
-        <str name="text">reinterpreting</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">complicated</str>
+        <double name="strength">0.9746241332961253</double>
       </lst>
       <lst name="term">
-        <str name="text">present</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">order</str>
+        <double name="strength">0.9746241332961251</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">229</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But lending ratios do not extend to several newer instruments such as spot and forward currency contracts, currency and interest swaps, commercial paper programs, currency options, interest rate futures in foreign currencies and various innovative types of interest rate hedges.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">279</int>
-        <double name="strength">0.9213958416607405</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">But as their equity capital is fairly small, tight lending ratios will severely hamper foreign banks' freedom of movement, particularly in the growing business of currency swaps, if they are required to include more transactions in the balance sheet, the sources added.</str>
         <int name="index">30</int>
         <int name="start">1</int>
         <int name="end">270</int>
-        <double name="strength">0.8940457801106294</double>
+        <double name="strength">0.9371657308584973</double>
+        <int name="terms">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Authorities favour reinterpreting the credit law to fit present circumstances in order to avoid the long parliamentary political process of changing it, banking sources said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.837282888966603</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S.-&lt;em&gt;British proposals include&lt;/em&gt; a &lt;em&gt;complicated series&lt;/em&gt; of &lt;em&gt;formulae&lt;/em&gt; for &lt;em&gt;assessing&lt;/em&gt; the &lt;em&gt;stream&lt;/em&gt; of &lt;em&gt;payments involved&lt;/em&gt; in &lt;em&gt;swaps, whose ultimate&lt;/em&gt; risk is &lt;em&gt;borne&lt;/em&gt; by the &lt;em&gt;financial intermediary, especially&lt;/em&gt; when &lt;em&gt;counterparties remain anonymous&lt;/em&gt;.</str>
+        <str name="text">U.S.-&lt;em&gt;British proposals include&lt;/em&gt; a &lt;em&gt;complicated series&lt;/em&gt; of &lt;em&gt;formulae&lt;/em&gt; for assessing the &lt;em&gt;stream&lt;/em&gt; of &lt;em&gt;payments&lt;/em&gt; involved in &lt;em&gt;swaps,&lt;/em&gt; whose &lt;em&gt;ultimate&lt;/em&gt; risk is borne by the &lt;em&gt;financial intermediary,&lt;/em&gt; especially when &lt;em&gt;counterparties remain anonymous&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;lending ratios&lt;/em&gt; do not &lt;em&gt;extend&lt;/em&gt; to &lt;em&gt;several newer instruments&lt;/em&gt; such as spot and &lt;em&gt;forward currency contracts, currency&lt;/em&gt; and &lt;em&gt;interest swaps, commercial paper programs, currency options, interest&lt;/em&gt; rate &lt;em&gt;futures&lt;/em&gt; in &lt;em&gt;foreign currencies&lt;/em&gt; and &lt;em&gt;various innovative types&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;hedges&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">But as their &lt;em&gt;equity capital&lt;/em&gt; is fairly &lt;em&gt;small, tight lending ratios&lt;/em&gt; will severely &lt;em&gt;hamper foreign banks' freedom&lt;/em&gt; of &lt;em&gt;movement,&lt;/em&gt; particularly in the growing &lt;em&gt;business&lt;/em&gt; of &lt;em&gt;currency swaps,&lt;/em&gt; if they are required to &lt;em&gt;include&lt;/em&gt; more &lt;em&gt;transactions&lt;/em&gt; in the &lt;em&gt;balance sheet,&lt;/em&gt; the &lt;em&gt;sources added&lt;/em&gt;.</str>
+        <int name="index">30</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But as &lt;em&gt;their equity capital&lt;/em&gt; is &lt;em&gt;fairly small, tight lending ratios&lt;/em&gt; will &lt;em&gt;severely hamper foreign banks' freedom&lt;/em&gt; of &lt;em&gt;movement, particularly&lt;/em&gt; in the &lt;em&gt;growing business&lt;/em&gt; of &lt;em&gt;currency swaps,&lt;/em&gt; if they are &lt;em&gt;required&lt;/em&gt; to &lt;em&gt;include&lt;/em&gt; more &lt;em&gt;transactions&lt;/em&gt; in the &lt;em&gt;balance sheet,&lt;/em&gt; the &lt;em&gt;sources added&lt;/em&gt;.</str>
-        <int name="index">30</int>
+        <str name="text">&lt;em&gt;Authorities favour&lt;/em&gt; reinterpreting the &lt;em&gt;credit&lt;/em&gt; law to fit &lt;em&gt;present circumstances&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;avoid&lt;/em&gt; the long &lt;em&gt;parliamentary political process&lt;/em&gt; of changing it, &lt;em&gt;banking sources said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

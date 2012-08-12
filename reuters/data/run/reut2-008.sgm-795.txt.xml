@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-795.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">144</int>
+        <int name="count">108</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">imports</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">western</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
+        <str name="text">paris</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">consumer</str>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">billion</str>
         <double name="strength">0.9999999999999978</double>
-      </lst>
-      <lst name="term">
-        <str name="text">burdened</str>
-        <double name="strength">0.5000000000000008</double>
-      </lst>
-      <lst name="term">
-        <str name="text">declared</str>
-        <double name="strength">0.5000000000000008</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">With stringent import regulations and the government increasingly short of foreign currency, black market dollars are used to finance smuggled imports from neighbouring countries, mainly Egypt, Kenya, Ethiopia and Zaire.</str>
-        <int name="index">9</int>
+        <str name="text">SUNA, monitored by the British Broadcasting Corporation, said Omer made the remarks after a meeting in Khartoum yesterday with IMF envoy Abdel-Shakour Shaalan.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">221</int>
+        <int name="end">160</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This, they said, could provide Sudan with a clean bill of health from the IMF that it could take to Western government creditors, grouped informally in the so-called Paris Club, to reschedule debt payments.</str>
-        <int name="index">12</int>
+        <str name="text">Western diplomats in Khartoum say the meetings between IMF and Sudanese government officials do not amount to formal talks, but rather an effort by the IMF to monitor Sudan's economic performance.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.8910643568824624</double>
+        <int name="end">197</int>
+        <double name="strength">0.9851083520729002</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The diplomats said Sudan hoped a planned four-year economic recovery program would be acceptable to the IMF as a serious attempt to tackle the country's economic troubles and persuade its Gulf Arab creditors to pay the IMF arrears.</str>
-        <int name="index">11</int>
+        <str name="text">Since then, it has resisted pressure from main creditors for more currency adjustments, arguing that past devaluations had failed to boost exports but raised local consumer prices.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.8301885806313561</double>
+        <int name="end">181</int>
+        <double name="strength">0.8650619197675756</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">With &lt;em&gt;stringent import regulations&lt;/em&gt; and the &lt;em&gt;government increasingly short&lt;/em&gt; of &lt;em&gt;foreign currency, black market dollars&lt;/em&gt; are used to &lt;em&gt;finance smuggled imports&lt;/em&gt; from &lt;em&gt;neighbouring countries, mainly Egypt, Kenya, Ethiopia&lt;/em&gt; and &lt;em&gt;Zaire&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">SUNA, monitored by the &lt;em&gt;British Broadcasting Corporation,&lt;/em&gt; said Omer made the &lt;em&gt;remarks&lt;/em&gt; after a &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Khartoum yesterday&lt;/em&gt; with IMF &lt;em&gt;envoy Abdel-Shakour Shaalan&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This, they said, &lt;em&gt;could provide Sudan&lt;/em&gt; with a &lt;em&gt;clean&lt;/em&gt; bill of &lt;em&gt;health&lt;/em&gt; from the IMF that it &lt;em&gt;could&lt;/em&gt; take to &lt;em&gt;Western government creditors, grouped informally&lt;/em&gt; in the so-&lt;em&gt;called Paris&lt;/em&gt; Club, to &lt;em&gt;reschedule&lt;/em&gt; debt &lt;em&gt;payments&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Western diplomats&lt;/em&gt; in &lt;em&gt;Khartoum&lt;/em&gt; say the &lt;em&gt;meetings&lt;/em&gt; between IMF and &lt;em&gt;Sudanese government officials&lt;/em&gt; do not &lt;em&gt;amount&lt;/em&gt; to &lt;em&gt;formal talks,&lt;/em&gt; but rather an &lt;em&gt;effort&lt;/em&gt; by the IMF to &lt;em&gt;monitor Sudan&lt;/em&gt;'s &lt;em&gt;economic performance&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;diplomats&lt;/em&gt; said &lt;em&gt;Sudan hoped&lt;/em&gt; a &lt;em&gt;planned&lt;/em&gt; four-year &lt;em&gt;economic recovery program would&lt;/em&gt; be &lt;em&gt;acceptable&lt;/em&gt; to the IMF as a &lt;em&gt;serious attempt&lt;/em&gt; to &lt;em&gt;tackle&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economic troubles&lt;/em&gt; and &lt;em&gt;persuade&lt;/em&gt; its Gulf Arab &lt;em&gt;creditors&lt;/em&gt; to pay the IMF &lt;em&gt;arrears&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Since then, it has resisted &lt;em&gt;pressure&lt;/em&gt; from main &lt;em&gt;creditors&lt;/em&gt; for more &lt;em&gt;currency adjustments,&lt;/em&gt; arguing that past &lt;em&gt;devaluations&lt;/em&gt; had failed to &lt;em&gt;boost exports&lt;/em&gt; but raised &lt;em&gt;local consumer prices&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

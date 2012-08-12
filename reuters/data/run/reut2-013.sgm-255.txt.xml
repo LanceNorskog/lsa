@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-255.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">fuels</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">energy</str>
-        <double name="strength">1.0</double>
+        <str name="text">february</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">happens</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">western</str>
+        <double name="strength">0.9960900316910972</double>
       </lst>
       <lst name="term">
-        <str name="text">natural</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">transport</str>
+        <double name="strength">0.9960900316910967</double>
       </lst>
       <lst name="term">
-        <str name="text">regain</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">likely</str>
+        <double name="strength">0.9960900316910966</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">159</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Growth in oil consumption in the Western industrialised countries is likely to slow to around one pct this year compared with 2.3 pct in 1986, the International Energy Agency (IEA) said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">186</int>
+        <double name="strength">0.9595231965617668</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The agency said this flat trend is explained by the projected seasonal consumption decline in the second quarter of the year which offset a reduction in stocks.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">161</int>
-        <double name="strength">0.9943560779756891</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A drop in Saudi Arabian output to a tentatively forecast 3.3 mln bpd in March from 3.6 mln bpd in February was the largest factor behind the OPEC production decline, the IEA said.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">180</int>
-        <double name="strength">0.9883980940780526</double>
+        <double name="strength">0.9504703731697781</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">If that &lt;em&gt;happens, natural&lt;/em&gt; gas will also &lt;em&gt;regain&lt;/em&gt; some of the &lt;em&gt;market share&lt;/em&gt; it lost to &lt;em&gt;heavy&lt;/em&gt; fuel in 1986, and &lt;em&gt;there&lt;/em&gt; may be &lt;em&gt;slightly&lt;/em&gt; less &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;transport fuels&lt;/em&gt;.</str>
+        <str name="text">If that happens, &lt;em&gt;natural&lt;/em&gt; gas will also &lt;em&gt;regain&lt;/em&gt; some of the &lt;em&gt;market share&lt;/em&gt; it lost to &lt;em&gt;heavy&lt;/em&gt; fuel in 1986, and there may be slightly less &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;transport fuels&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;agency&lt;/em&gt; said this flat &lt;em&gt;trend&lt;/em&gt; is &lt;em&gt;explained&lt;/em&gt; by the &lt;em&gt;projected seasonal consumption decline&lt;/em&gt; in the &lt;em&gt;second quarter&lt;/em&gt; of the year &lt;em&gt;which offset&lt;/em&gt; a &lt;em&gt;reduction&lt;/em&gt; in &lt;em&gt;stocks&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Growth&lt;/em&gt; in oil &lt;em&gt;consumption&lt;/em&gt; in the &lt;em&gt;Western industrialised countries&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to slow to around one pct this year compared with 2.3 pct in 1986, the &lt;em&gt;International Energy Agency &lt;/em&gt;(IEA) said.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A drop in &lt;em&gt;Saudi Arabian output&lt;/em&gt; to a &lt;em&gt;tentatively forecast 3.3&lt;/em&gt; mln bpd in &lt;em&gt;March&lt;/em&gt; from 3.6 mln bpd in &lt;em&gt;February&lt;/em&gt; was the &lt;em&gt;largest factor behind&lt;/em&gt; the OPEC &lt;em&gt;production decline,&lt;/em&gt; the IEA said.</str>
-        <int name="index">23</int>
+        <str name="text">The &lt;em&gt;agency&lt;/em&gt; said this flat &lt;em&gt;trend&lt;/em&gt; is explained by the projected &lt;em&gt;seasonal consumption decline&lt;/em&gt; in the &lt;em&gt;second quarter&lt;/em&gt; of the year which &lt;em&gt;offset&lt;/em&gt; a &lt;em&gt;reduction&lt;/em&gt; in &lt;em&gt;stocks&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

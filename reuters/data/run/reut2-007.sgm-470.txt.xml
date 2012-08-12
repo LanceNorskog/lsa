@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-470.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commodity</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">world</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">elements</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">summer</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">notably</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">competitive</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">undersecretary</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">tonne</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In an official statement clarifying Shultz's remarks yesterday to leaders of the National Association of Wheat Growers, the State Department said, "Secretary Shultz expressed his belief that whenever possible, U.</str>
-        <int name="index">6</int>
+        <str name="text">Government and commodity sources also said there are elements in the USDA, most notably undersecretary Daniel Amstutz, who remain opposed to a wheat subsidy to the Soviets.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">213</int>
+        <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Agriculture Department is in the best position to determine whether consideration should be given at this time to extending to the Soviets a subsidy under the Export Enhancement Program."</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">192</int>
-        <double name="strength">0.8843743688966934</double>
+        <double name="strength">0.9893979397587065</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Everyone in the government agrees that if there is a subsidy to be offered, we would not offer it unless we had a firm commitment from the Soviets that they would buy."</str>
-        <int name="index">10</int>
+        <str name="text">In an official statement clarifying Shultz's remarks yesterday to leaders of the National Association of Wheat Growers, the State Department said, "Secretary Shultz expressed his belief that whenever possible, U.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.8218852578537285</double>
+        <int name="end">213</int>
+        <double name="strength">0.9200806852501993</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In an &lt;em&gt;official statement clarifying Shultz&lt;/em&gt;'s &lt;em&gt;remarks yesterday&lt;/em&gt; to &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;National Association&lt;/em&gt; of &lt;em&gt;Wheat Growers,&lt;/em&gt; the &lt;em&gt;State Department&lt;/em&gt; said, "&lt;em&gt;Secretary Shultz expressed&lt;/em&gt; his &lt;em&gt;belief&lt;/em&gt; that &lt;em&gt;whenever possible, U&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Government&lt;/em&gt; and &lt;em&gt;commodity sources&lt;/em&gt; also said there are &lt;em&gt;elements&lt;/em&gt; in the USDA, most notably &lt;em&gt;undersecretary Daniel Amstutz,&lt;/em&gt; who &lt;em&gt;remain&lt;/em&gt; opposed to a &lt;em&gt;wheat subsidy&lt;/em&gt; to the &lt;em&gt;Soviets&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Agriculture Department&lt;/em&gt; is in the best &lt;em&gt;position&lt;/em&gt; to &lt;em&gt;determine whether consideration should&lt;/em&gt; be &lt;em&gt;given&lt;/em&gt; at this time to &lt;em&gt;extending&lt;/em&gt; to the &lt;em&gt;Soviets&lt;/em&gt; a &lt;em&gt;subsidy under&lt;/em&gt; the &lt;em&gt;Export Enhancement Program.&lt;/em&gt;"</str>
+        <str name="text">The &lt;em&gt;Agriculture Department&lt;/em&gt; is in the best &lt;em&gt;position&lt;/em&gt; to &lt;em&gt;determine&lt;/em&gt; whether &lt;em&gt;consideration&lt;/em&gt; should be given at this time to extending to the &lt;em&gt;Soviets&lt;/em&gt; a &lt;em&gt;subsidy&lt;/em&gt; under the &lt;em&gt;Export Enhancement Program.&lt;/em&gt;"</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Everyone&lt;/em&gt; in the &lt;em&gt;government agrees&lt;/em&gt; that if &lt;em&gt;there&lt;/em&gt; is a &lt;em&gt;subsidy&lt;/em&gt; to be &lt;em&gt;offered,&lt;/em&gt; we &lt;em&gt;would&lt;/em&gt; not &lt;em&gt;offer&lt;/em&gt; it &lt;em&gt;unless&lt;/em&gt; we had a firm &lt;em&gt;commitment&lt;/em&gt; from the &lt;em&gt;Soviets&lt;/em&gt; that they &lt;em&gt;would buy.&lt;/em&gt;"</str>
-        <int name="index">10</int>
+        <str name="text">In an &lt;em&gt;official statement&lt;/em&gt; clarifying &lt;em&gt;Shultz&lt;/em&gt;'s &lt;em&gt;remarks yesterday&lt;/em&gt; to &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;National Association&lt;/em&gt; of &lt;em&gt;Wheat Growers,&lt;/em&gt; the &lt;em&gt;State Department&lt;/em&gt; said, "&lt;em&gt;Secretary Shultz&lt;/em&gt; expressed his &lt;em&gt;belief&lt;/em&gt; that whenever &lt;em&gt;possible, U&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

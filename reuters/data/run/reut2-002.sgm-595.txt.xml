@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-595.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">46</int>
       </lst>
       <lst name="stems">
-        <int name="count">40</int>
+        <int name="count">25</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">encor</str>
+        <str name="text">attractive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">premium</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">might</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">right</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">opportunity</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">180</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">There might be an opportunity to pick up a premium on that because it would be virtually a control block in Dome Mines," he said.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">129</int>
-        <double name="strength">0.9152759072304791</double>
+        <str name="text">Dome spokesman Annesley said in answer to a question that he was not aware of any negotiations now under way toward the sale of Dome Petroleum's 20.9 mln Dome Mines shares.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.8041799675583792</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Dome Petroleum Ltd's 23.2 pct stake of gold producer Dome Mines Ltd continues to be for sale "at the right price," spokesman David Annesley said in response to an inquiry.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">171</int>
-        <double name="strength">0.805610396865095</double>
+        <double name="strength">0.7925913241360198</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; is now &lt;em&gt;negotiating&lt;/em&gt; a plan to &lt;em&gt;restructure&lt;/em&gt; debt of more than 6.1 &lt;em&gt;billion Canadian&lt;/em&gt; dlrs with a &lt;em&gt;group&lt;/em&gt; of 56 &lt;em&gt;major creditors, which includes&lt;/em&gt; Dome &lt;em&gt;Mines&lt;/em&gt; and &lt;em&gt;Encor Energy&lt;/em&gt;.</str>
+        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; is now negotiating a plan to &lt;em&gt;restructure&lt;/em&gt; debt of more than 6.1 &lt;em&gt;billion Canadian&lt;/em&gt; dlrs with a &lt;em&gt;group&lt;/em&gt; of 56 &lt;em&gt;major creditors,&lt;/em&gt; which includes Dome &lt;em&gt;Mines&lt;/em&gt; and &lt;em&gt;Encor Energy&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There might&lt;/em&gt; be an &lt;em&gt;opportunity&lt;/em&gt; to pick up a &lt;em&gt;premium&lt;/em&gt; on that &lt;em&gt;because&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;virtually&lt;/em&gt; a &lt;em&gt;control block&lt;/em&gt; in Dome &lt;em&gt;Mines,"&lt;/em&gt; he said.</str>
-        <int name="index">10</int>
+        <str name="text">Dome &lt;em&gt;spokesman&lt;/em&gt; Annesley said in &lt;em&gt;answer&lt;/em&gt; to a &lt;em&gt;question&lt;/em&gt; that he was not &lt;em&gt;aware&lt;/em&gt; of any &lt;em&gt;negotiations&lt;/em&gt; now under way toward the sale of Dome &lt;em&gt;Petroleum&lt;/em&gt;'s 20.9 mln Dome &lt;em&gt;Mines shares&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; Ltd's 23.2 pct &lt;em&gt;stake&lt;/em&gt; of gold &lt;em&gt;producer&lt;/em&gt; Dome &lt;em&gt;Mines&lt;/em&gt; Ltd &lt;em&gt;continues&lt;/em&gt; to be for sale "at the &lt;em&gt;right price," spokesman David Annesley&lt;/em&gt; said in &lt;em&gt;response&lt;/em&gt; to an &lt;em&gt;inquiry&lt;/em&gt;.</str>
+        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; Ltd's 23.2 pct &lt;em&gt;stake&lt;/em&gt; of gold &lt;em&gt;producer&lt;/em&gt; Dome &lt;em&gt;Mines&lt;/em&gt; Ltd continues to be for sale "at the &lt;em&gt;right price," spokesman&lt;/em&gt; David &lt;em&gt;Annesley&lt;/em&gt; said in &lt;em&gt;response&lt;/em&gt; to an &lt;em&gt;inquiry&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

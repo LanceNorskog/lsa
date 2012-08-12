@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-863.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">charles</str>
+        <str name="text">amendment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stenholm</str>
-        <double name="strength">1.0</double>
+        <str name="text">stangeland</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">1.0</double>
+        <str name="text">include</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">further</str>
-        <double name="strength">1.0</double>
+        <str name="text">sources</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">reduction</str>
-        <double name="strength">1.0</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Opponents to a 0/92 feedgrains program argue it is premature to make major changes in the farm bill and that the House Agriculture Committee needs to study more closely the impacts of such a program.</str>
-        <int name="index">17</int>
+        <str name="text">Agricultural aides to English said the congressman's first choice is to make the option available to all 1987 wheat farmers.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">200</int>
+        <int name="end">125</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, if the political reality is that disaster aid for winter wheat farmers would be unavailable because of controversy over spring wheat, then English might consider an even greater cutback in the bill, they said.</str>
-        <int name="index">10</int>
+        <str name="text">Advocates of a 0/92 plan for feedgrains will likely delay offering their proposals if a disaster aid bill before the House Agriculture Committee is scaled back to include only 1987 winter wheat, congressional sources said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">218</int>
-        <double name="strength">0.946441468836436</double>
+        <int name="end">222</int>
+        <double name="strength">0.9797014032507099</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Under a 0/92 plan, farmers could forego planting and still receive 92 pct of deficiency payments.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">98</int>
-        <double name="strength">0.8053539851036394</double>
+        <str name="text">Charles Stenholm (R-Tex) to narrow the bill to 1987 wheat only, but whether he would also back a further reduction is unclear.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">126</int>
+        <double name="strength">0.9582836938069669</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Opponents&lt;/em&gt; to a 0/92 &lt;em&gt;feedgrains program argue&lt;/em&gt; it is &lt;em&gt;premature&lt;/em&gt; to make &lt;em&gt;major changes&lt;/em&gt; in the farm bill and that the &lt;em&gt;House Agriculture Committee needs&lt;/em&gt; to &lt;em&gt;study&lt;/em&gt; more &lt;em&gt;closely&lt;/em&gt; the &lt;em&gt;impacts&lt;/em&gt; of such a &lt;em&gt;program&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Agricultural aides&lt;/em&gt; to &lt;em&gt;English&lt;/em&gt; said the &lt;em&gt;congressman&lt;/em&gt;'s &lt;em&gt;first choice&lt;/em&gt; is to make the &lt;em&gt;option available&lt;/em&gt; to all 1987 &lt;em&gt;wheat farmers&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; if the &lt;em&gt;political reality&lt;/em&gt; is that &lt;em&gt;disaster&lt;/em&gt; aid for &lt;em&gt;winter wheat farmers would&lt;/em&gt; be &lt;em&gt;unavailable because&lt;/em&gt; of &lt;em&gt;controversy&lt;/em&gt; over &lt;em&gt;spring wheat,&lt;/em&gt; then &lt;em&gt;English might consider&lt;/em&gt; an even &lt;em&gt;greater cutback&lt;/em&gt; in the bill, they said.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Advocates&lt;/em&gt; of a 0/92 plan for &lt;em&gt;feedgrains&lt;/em&gt; will likely &lt;em&gt;delay&lt;/em&gt; offering their &lt;em&gt;proposals&lt;/em&gt; if a &lt;em&gt;disaster&lt;/em&gt; aid bill before the &lt;em&gt;House Agriculture Committee&lt;/em&gt; is scaled back to &lt;em&gt;include&lt;/em&gt; only 1987 &lt;em&gt;winter wheat, congressional sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; a 0/92 plan, &lt;em&gt;farmers could forego planting&lt;/em&gt; and &lt;em&gt;still receive 92&lt;/em&gt; pct of &lt;em&gt;deficiency payments&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Charles Stenholm &lt;/em&gt;(R-Tex) to &lt;em&gt;narrow&lt;/em&gt; the bill to 1987 &lt;em&gt;wheat&lt;/em&gt; only, but whether he would also back a &lt;em&gt;further reduction&lt;/em&gt; is &lt;em&gt;unclear&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

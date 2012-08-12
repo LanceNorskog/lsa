@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-67.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">55</int>
+        <int name="count">35</int>
       </lst>
       <lst name="stems">
-        <int name="count">33</int>
+        <int name="count">19</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">marks</str>
+        <str name="text">record</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surpised</str>
-        <double name="strength">1.0</double>
+        <str name="text">central</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">sharp</str>
-        <double name="strength">1.0</double>
+        <str name="text">institutional</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">1.0</double>
+        <str name="text">investors</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">happen</str>
-        <double name="strength">1.0</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">168</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. Currency steadied well above 143.00 yen after Bank of Japan intervention and scattered short-covering, they said.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">116</int>
-        <double name="strength">0.7550100757454911</double>
+        <double name="strength">0.6380619559447588</double>
+        <int name="terms">5</int>
       </lst>
       <lst name="sentence">
         <str name="text">The central bank bought dollars through Tokyo brokers just before and after the market opening, the dealers said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">114</int>
-        <double name="strength">0.711634451451935</double>
+        <double name="strength">0.5833634722419052</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Selling pressure&lt;/em&gt; was &lt;em&gt;strong&lt;/em&gt; from &lt;em&gt;securities houses&lt;/em&gt; and &lt;em&gt;institutional investors&lt;/em&gt; in &lt;em&gt;hectic&lt;/em&gt; and &lt;em&gt;nervous trading&lt;/em&gt; on &lt;em&gt;underlying bearish sentiment&lt;/em&gt; for the &lt;em&gt;dollar,&lt;/em&gt; they said.</str>
+        <str name="text">Selling &lt;em&gt;pressure&lt;/em&gt; was &lt;em&gt;strong&lt;/em&gt; from &lt;em&gt;securities houses&lt;/em&gt; and &lt;em&gt;institutional investors&lt;/em&gt; in &lt;em&gt;hectic&lt;/em&gt; and &lt;em&gt;nervous&lt;/em&gt; trading on underlying &lt;em&gt;bearish sentiment&lt;/em&gt; for the &lt;em&gt;dollar,&lt;/em&gt; they said.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Currency steadied&lt;/em&gt; well &lt;em&gt;above 143.00&lt;/em&gt; yen &lt;em&gt;after&lt;/em&gt; Bank of &lt;em&gt;Japan intervention&lt;/em&gt; and &lt;em&gt;scattered short-covering,&lt;/em&gt; they said.</str>
+        <str name="text">S. &lt;em&gt;Currency&lt;/em&gt; steadied well above 143.00 yen after Bank of &lt;em&gt;Japan intervention&lt;/em&gt; and scattered &lt;em&gt;short-covering,&lt;/em&gt; they said.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;bought dollars through Tokyo brokers&lt;/em&gt; just &lt;em&gt;before&lt;/em&gt; and &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;market opening,&lt;/em&gt; the &lt;em&gt;dealers said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;central&lt;/em&gt; bank bought &lt;em&gt;dollars&lt;/em&gt; through &lt;em&gt;Tokyo brokers&lt;/em&gt; just before and after the &lt;em&gt;market&lt;/em&gt; opening, the &lt;em&gt;dealers said&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
     </lst>

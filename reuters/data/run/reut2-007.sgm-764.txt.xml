@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-764.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">executive</str>
+        <str name="text">attempts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">force</str>
-        <double name="strength">0.999163442407754</double>
+        <str name="text">states</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">those</str>
-        <double name="strength">0.9991523245520996</double>
+        <str name="text">telecommunications</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">political</str>
-        <double name="strength">0.9991451645638199</double>
+        <str name="text">plans</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">overseas</str>
-        <double name="strength">0.9991178907366585</double>
+        <str name="text">senior</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">289</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. Senate committee, Commerce Secretary Malcolm Baldrige and Trade Representative Clayton Yeutter have also expressed opposition to the merger, he said.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">152</int>
-        <double name="strength">0.8268832766273624</double>
+        <double name="strength">0.8721836970396606</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">L&gt; is resisting attempts to merge two Japan-based telecommunications firms in the hope that overseas political pressure will force a change in those plans, a company executive said.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">181</int>
-        <double name="strength">0.8166476581019146</double>
+        <str name="text">Cable and Wireless, which holds a 20 pct stake in one of the two Japanese firms, is opposed to plans to reduce its share to three pct in the merged firm, director of corporate strategy Jonathan Solomon told reporters.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">218</int>
+        <double name="strength">0.8369341298155547</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">That plan, put &lt;em&gt;forward&lt;/em&gt; by a &lt;em&gt;senior member&lt;/em&gt; of the &lt;em&gt;powerful business organization Keidanren&lt;/em&gt; with the &lt;em&gt;tacit backing&lt;/em&gt; of the Post and &lt;em&gt;Telecommunications Ministry,&lt;/em&gt; has &lt;em&gt;caused&lt;/em&gt; a &lt;em&gt;storm&lt;/em&gt; of &lt;em&gt;protest&lt;/em&gt; from &lt;em&gt;abroad&lt;/em&gt; that &lt;em&gt;Japan&lt;/em&gt; is &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;exclude foreign firms&lt;/em&gt; from a &lt;em&gt;meaningful position&lt;/em&gt; in the &lt;em&gt;market&lt;/em&gt;.</str>
+        <str name="text">That plan, put forward by a &lt;em&gt;senior member&lt;/em&gt; of the &lt;em&gt;powerful business organization&lt;/em&gt; Keidanren with the &lt;em&gt;tacit backing&lt;/em&gt; of the Post and &lt;em&gt;Telecommunications Ministry,&lt;/em&gt; has caused a &lt;em&gt;storm&lt;/em&gt; of &lt;em&gt;protest&lt;/em&gt; from abroad that &lt;em&gt;Japan&lt;/em&gt; is seeking to &lt;em&gt;exclude foreign firms&lt;/em&gt; from a &lt;em&gt;meaningful position&lt;/em&gt; in the &lt;em&gt;market&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Senate committee, Commerce Secretary Malcolm Baldrige&lt;/em&gt; and &lt;em&gt;Trade Representative Clayton Yeutter&lt;/em&gt; have also &lt;em&gt;expressed opposition&lt;/em&gt; to the &lt;em&gt;merger,&lt;/em&gt; he said.</str>
+        <str name="text">S. &lt;em&gt;Senate committee, Commerce Secretary Malcolm Baldrige&lt;/em&gt; and &lt;em&gt;Trade Representative Clayton Yeutter&lt;/em&gt; have also expressed &lt;em&gt;opposition&lt;/em&gt; to the &lt;em&gt;merger,&lt;/em&gt; he said.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">L&gt; is &lt;em&gt;resisting attempts&lt;/em&gt; to &lt;em&gt;merge&lt;/em&gt; two &lt;em&gt;Japan-based telecommunications firms&lt;/em&gt; in the hope that &lt;em&gt;overseas political pressure&lt;/em&gt; will &lt;em&gt;force&lt;/em&gt; a &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;those plans,&lt;/em&gt; a &lt;em&gt;company executive said&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Cable&lt;/em&gt; and Wireless, which holds a 20 pct &lt;em&gt;stake&lt;/em&gt; in one of the two &lt;em&gt;Japanese firms,&lt;/em&gt; is opposed to &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;share&lt;/em&gt; to &lt;em&gt;three&lt;/em&gt; pct in the &lt;em&gt;merged&lt;/em&gt; firm, &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;corporate strategy&lt;/em&gt; Jonathan &lt;em&gt;Solomon&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

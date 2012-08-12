@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-489.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">166</int>
+        <int name="count">112</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">month</str>
+        <str name="text">securities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">attention</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">focus</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">figure</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">cheaper</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">investors</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">known</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">exporters</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">And as the yen/dollar rate is supposed to reflect the balance of trade between the United States and Japan, a lower dollar would bring more pressure on Japan to expand its demand for American imports by stimulating its local economy, brokers said.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">248</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The government said on Friday that department store and supermarket sales rose 7.5 pct in May from a year earlier, while orders received by Japan's 50 major construction firms in the same month were up 7.6 pct year on year.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.9430720544546453</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Prospects for Tokyo stocks are mixed this week with investors trying to figure out the future of the yen/dollar exchange rate and digest the implications of OPEC's latest accord on crude output and pricing, brokers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">220</int>
+        <double name="strength">0.9400955539880458</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Although investors are not unduly worried about inflation, which erodes the real value of stock holdings, they say rising prices arouse concern that interest rates may climb.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.8612573688881708</double>
+        <double name="strength">0.870425967965236</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">And as the yen/&lt;em&gt;dollar&lt;/em&gt; rate is &lt;em&gt;supposed&lt;/em&gt; to &lt;em&gt;reflect&lt;/em&gt; the &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;trade between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan,&lt;/em&gt; a &lt;em&gt;lower dollar would bring&lt;/em&gt; more &lt;em&gt;pressure&lt;/em&gt; on &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; its &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;American imports&lt;/em&gt; by &lt;em&gt;stimulating&lt;/em&gt; its &lt;em&gt;local economy, brokers said&lt;/em&gt;.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; said on &lt;em&gt;Friday&lt;/em&gt; that &lt;em&gt;department store&lt;/em&gt; and &lt;em&gt;supermarket sales&lt;/em&gt; rose 7.5 pct in May from a year &lt;em&gt;earlier, while orders received&lt;/em&gt; by &lt;em&gt;Japan&lt;/em&gt;'s 50 &lt;em&gt;major construction firms&lt;/em&gt; in the same &lt;em&gt;month&lt;/em&gt; were up 7.6 pct year on year.</str>
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; said on &lt;em&gt;Friday&lt;/em&gt; that &lt;em&gt;department store&lt;/em&gt; and &lt;em&gt;supermarket sales&lt;/em&gt; rose 7.5 pct in May from a year earlier, while &lt;em&gt;orders&lt;/em&gt; received by &lt;em&gt;Japan&lt;/em&gt;'s 50 &lt;em&gt;major construction firms&lt;/em&gt; in the same &lt;em&gt;month&lt;/em&gt; were up 7.6 pct year on year.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although investors&lt;/em&gt; are not &lt;em&gt;unduly worried about inflation, which erodes&lt;/em&gt; the real &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;stock holdings,&lt;/em&gt; they say &lt;em&gt;rising prices arouse concern&lt;/em&gt; that &lt;em&gt;interest rates&lt;/em&gt; may &lt;em&gt;climb&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Prospects&lt;/em&gt; for &lt;em&gt;Tokyo stocks&lt;/em&gt; are mixed this week with &lt;em&gt;investors&lt;/em&gt; trying to &lt;em&gt;figure&lt;/em&gt; out the &lt;em&gt;future&lt;/em&gt; of the yen/&lt;em&gt;dollar exchange&lt;/em&gt; rate and &lt;em&gt;digest&lt;/em&gt; the &lt;em&gt;implications&lt;/em&gt; of OPEC's latest &lt;em&gt;accord&lt;/em&gt; on &lt;em&gt;crude output&lt;/em&gt; and &lt;em&gt;pricing, brokers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although &lt;em&gt;investors&lt;/em&gt; are not unduly &lt;em&gt;worried&lt;/em&gt; about &lt;em&gt;inflation,&lt;/em&gt; which erodes the real &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;stock holdings,&lt;/em&gt; they say rising &lt;em&gt;prices&lt;/em&gt; arouse &lt;em&gt;concern&lt;/em&gt; that &lt;em&gt;interest rates&lt;/em&gt; may &lt;em&gt;climb&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
     </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-13.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">55</int>
+        <int name="count">42</int>
       </lst>
       <lst name="stems">
-        <int name="count">35</int>
+        <int name="count">27</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">contracted</str>
+        <str name="text">measure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">expansion</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">compared</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">provisional</str>
+        <double name="strength">0.9999999999999972</double>
       </lst>
       <lst name="term">
-        <str name="text">average</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">narrow</str>
+        <double name="strength">0.9730077661055203</double>
       </lst>
       <lst name="term">
-        <str name="text">preceding</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">basis</str>
+        <double name="strength">0.9730077661055201</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The public sector borrowing requirement (PSBR) contracted by 300 mln stg after a contraction of 3.7 billion stg in January.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">124</int>
+        <str name="text">Of this, central government debt sales to the public sector were expansionary by 400 mln stg after a 1.3 billion expansion in January, the Bank said.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said seasonally adjusted bank lending, at about 2.9 billion stg in February, compared with an average of about 2.6 billion stg a month over the preceding six months.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8715147843579256</double>
+        <str name="text">K. Broad money, sterling M3, grew a provisional, seasonally adjusted 2-1/4 pct in February after a rise of 1.1 pct in January, the Bank of England said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.9184071705399266</double>
+        <int name="terms">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Combined with a net PSBR repayment of about 300 mln stg, the public sector contribution to the growth in sterling M3 was therefore about flat, the Bank said.</str>
-        <int name="index">14</int>
+        <str name="text">The Bank said it would publish full, final figures on March 30.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">158</int>
-        <double name="strength">0.8669375474513116</double>
+        <int name="end">64</int>
+        <double name="strength">0.8852452608918168</double>
+        <int name="terms">4</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;public sector borrowing requirement &lt;/em&gt;(PSBR) &lt;em&gt;contracted&lt;/em&gt; by 300 mln stg &lt;em&gt;after&lt;/em&gt; a &lt;em&gt;contraction&lt;/em&gt; of 3.7 &lt;em&gt;billion&lt;/em&gt; stg in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">Of this, &lt;em&gt;central government&lt;/em&gt; debt &lt;em&gt;sales&lt;/em&gt; to the &lt;em&gt;public sector&lt;/em&gt; were &lt;em&gt;expansionary&lt;/em&gt; by 400 mln stg after a 1.3 &lt;em&gt;billion expansion&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; the Bank said.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said &lt;em&gt;seasonally adjusted&lt;/em&gt; bank &lt;em&gt;lending,&lt;/em&gt; at &lt;em&gt;about 2.9 billion&lt;/em&gt; stg in &lt;em&gt;February, compared&lt;/em&gt; with an &lt;em&gt;average&lt;/em&gt; of &lt;em&gt;about 2.6 billion&lt;/em&gt; stg a &lt;em&gt;month&lt;/em&gt; over the &lt;em&gt;preceding&lt;/em&gt; six &lt;em&gt;months&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">K. &lt;em&gt;Broad money, sterling&lt;/em&gt; M3, grew a &lt;em&gt;provisional,&lt;/em&gt; seasonally adjusted 2-1/4 pct in &lt;em&gt;February&lt;/em&gt; after a rise of 1.1 pct in January, the Bank of &lt;em&gt;England said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Combined&lt;/em&gt; with a net PSBR &lt;em&gt;repayment&lt;/em&gt; of &lt;em&gt;about 300&lt;/em&gt; mln stg, the &lt;em&gt;public sector contribution&lt;/em&gt; to the &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;sterling&lt;/em&gt; M3 was &lt;em&gt;therefore about&lt;/em&gt; flat, the Bank said.</str>
-        <int name="index">14</int>
+        <str name="text">The Bank said it would &lt;em&gt;publish&lt;/em&gt; full, &lt;em&gt;final figures&lt;/em&gt; on &lt;em&gt;March 30&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-175.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">192</int>
+        <int name="count">135</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">politically</str>
+        <str name="text">comments</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">better</str>
-        <double name="strength">1.0</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">private</str>
-        <double name="strength">0.9999999999999923</double>
+        <str name="text">month</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.9999999999999913</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">monetary</str>
-        <double name="strength">0.5590169943749429</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">On February 22, the United States, Japan, West Germany, France, Britain and Canada agreed that major currencies were within ranges broadly reflecting underlying economic conditions, given commitments by Washington to cut its budget deficit and by Toyko and Bonn to boost economic growth.</str>
-        <int name="index">9</int>
+        <str name="text">The narrow currency movements of recent weeks strongly suggests the six leading industrial countries have tamed the normally unruly financial markets and next month's talks seem likely to build on that stability.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">288</int>
+        <int name="end">213</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I think these changes will strengthen the President's hand politically and the stronger he is politically the better off we are with the Congress and the better off we are in international fora," said the official, an Administration economic policymaker.</str>
-        <int name="index">12</int>
+        <str name="text">Monetary analysts said stability has been helped in part by the decision of industrial nations to bury the hatchet and cease to quarrel over short-term policy objectives.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">256</int>
-        <double name="strength">0.903478365803914</double>
+        <int name="end">171</int>
+        <double name="strength">0.9615594099514436</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week, dealers said the Federal Reserve intervened to stop the dollar rising against the mark, which had breached 1.86 to the dollar.</str>
-        <int name="index">16</int>
+        <str name="text">But he said in an interview that financial markets also understood, "That all six countries concluded that the measures to be taken over a period of time in the future should foster stability of exchange rates around current levels.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">138</int>
-        <double name="strength">0.8056024157078506</double>
+        <int name="end">233</int>
+        <double name="strength">0.9320758942163107</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">On &lt;em&gt;February 22,&lt;/em&gt; the &lt;em&gt;United States, Japan,&lt;/em&gt; West &lt;em&gt;Germany, France, Britain&lt;/em&gt; and &lt;em&gt;Canada agreed&lt;/em&gt; that &lt;em&gt;major currencies&lt;/em&gt; were &lt;em&gt;within ranges broadly reflecting underlying economic conditions, given commitments&lt;/em&gt; by &lt;em&gt;Washington&lt;/em&gt; to cut its &lt;em&gt;budget deficit&lt;/em&gt; and by &lt;em&gt;Toyko&lt;/em&gt; and Bonn to &lt;em&gt;boost economic growth&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;narrow currency movements&lt;/em&gt; of &lt;em&gt;recent weeks&lt;/em&gt; strongly suggests the six leading &lt;em&gt;industrial countries&lt;/em&gt; have tamed the normally &lt;em&gt;unruly financial markets&lt;/em&gt; and next &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;talks&lt;/em&gt; seem &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; on that &lt;em&gt;stability&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I &lt;em&gt;think these changes&lt;/em&gt; will &lt;em&gt;strengthen&lt;/em&gt; the &lt;em&gt;President&lt;/em&gt;'s hand &lt;em&gt;politically&lt;/em&gt; and the &lt;em&gt;stronger&lt;/em&gt; he is &lt;em&gt;politically&lt;/em&gt; the &lt;em&gt;better&lt;/em&gt; off we are with the &lt;em&gt;Congress&lt;/em&gt; and the &lt;em&gt;better&lt;/em&gt; off we are in &lt;em&gt;international&lt;/em&gt; fora," said the &lt;em&gt;official,&lt;/em&gt; an &lt;em&gt;Administration economic policymaker&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Monetary analysts&lt;/em&gt; said &lt;em&gt;stability&lt;/em&gt; has been helped in part by the &lt;em&gt;decision&lt;/em&gt; of &lt;em&gt;industrial nations&lt;/em&gt; to bury the &lt;em&gt;hatchet&lt;/em&gt; and &lt;em&gt;cease&lt;/em&gt; to &lt;em&gt;quarrel&lt;/em&gt; over &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;policy objectives&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week, &lt;em&gt;dealers&lt;/em&gt; said the &lt;em&gt;Federal Reserve intervened&lt;/em&gt; to stop the &lt;em&gt;dollar rising against&lt;/em&gt; the mark, &lt;em&gt;which&lt;/em&gt; had &lt;em&gt;breached 1.86&lt;/em&gt; to the &lt;em&gt;dollar&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">But he said in an &lt;em&gt;interview&lt;/em&gt; that &lt;em&gt;financial markets&lt;/em&gt; also understood, "That all six &lt;em&gt;countries&lt;/em&gt; concluded that the &lt;em&gt;measures&lt;/em&gt; to be taken over a &lt;em&gt;period&lt;/em&gt; of time in the &lt;em&gt;future&lt;/em&gt; should &lt;em&gt;foster stability&lt;/em&gt; of &lt;em&gt;exchange rates&lt;/em&gt; around &lt;em&gt;current levels&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

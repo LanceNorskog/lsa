@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-265.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">97</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">costs</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">inflation</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">strike</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">feared</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">coming</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">telecommunications</str>
+        <double name="strength">0.9999999999999961</double>
       </lst>
       <lst name="term">
-        <str name="text">expand</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">balance</str>
+        <double name="strength">0.9634242309653815</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Augar noted that a government-imposed formula linking charges to inflation meant that the company's scope for raising prices was limited as long as inflation remains low.</str>
-        <int name="index">16</int>
+        <str name="text">But on balance Odgers said that group's financial strength, economies of scale and the fact that it operates in a growth industry will help produce annual profit increases for the forseeable future.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">171</int>
+        <int name="end">199</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Speaking at a news conference on the third quarter results which were released earlier today, Odgers said the company faced heavy costs for installing new digital telephone systems in Britain for three to five years.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.9243495729302567</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">British Telecom will also seek to expand into manufacturing, he said, adding that research and development expenditure will rise both in terms of value and compared with the current proportion of two pct of overall turnover.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">225</int>
-        <double name="strength">0.8934787789448659</double>
+        <double name="strength">0.9761123637056117</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Speaking at a news conference on the third quarter results which were released earlier today, Odgers said the company faced heavy costs for installing new digital telephone systems in Britain for three to five years.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">217</int>
+        <double name="strength">0.8947189813151453</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Augar noted&lt;/em&gt; that a &lt;em&gt;government-imposed formula linking charges&lt;/em&gt; to &lt;em&gt;inflation meant&lt;/em&gt; that the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;scope&lt;/em&gt; for &lt;em&gt;raising prices&lt;/em&gt; was &lt;em&gt;limited&lt;/em&gt; as long as &lt;em&gt;inflation remains low&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">But on &lt;em&gt;balance Odgers&lt;/em&gt; said that &lt;em&gt;group&lt;/em&gt;'s &lt;em&gt;financial strength, economies&lt;/em&gt; of &lt;em&gt;scale&lt;/em&gt; and the fact that it operates in a &lt;em&gt;growth industry&lt;/em&gt; will help &lt;em&gt;produce annual profit increases&lt;/em&gt; for the &lt;em&gt;forseeable future&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; at a news &lt;em&gt;conference&lt;/em&gt; on the &lt;em&gt;third quarter results which&lt;/em&gt; were &lt;em&gt;released earlier today, Odgers&lt;/em&gt; said the &lt;em&gt;company faced heavy costs&lt;/em&gt; for &lt;em&gt;installing&lt;/em&gt; new &lt;em&gt;digital telephone systems&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt; for &lt;em&gt;three&lt;/em&gt; to five &lt;em&gt;years&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;British Telecom&lt;/em&gt; will also seek to &lt;em&gt;expand&lt;/em&gt; into &lt;em&gt;manufacturing,&lt;/em&gt; he said, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;research&lt;/em&gt; and &lt;em&gt;development expenditure&lt;/em&gt; will rise both in &lt;em&gt;terms&lt;/em&gt; of &lt;em&gt;value&lt;/em&gt; and &lt;em&gt;compared&lt;/em&gt; with the &lt;em&gt;current proportion&lt;/em&gt; of two pct of &lt;em&gt;overall turnover&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;British Telecom&lt;/em&gt; will also seek to &lt;em&gt;expand&lt;/em&gt; into &lt;em&gt;manufacturing,&lt;/em&gt; he said, adding that &lt;em&gt;research&lt;/em&gt; and &lt;em&gt;development expenditure&lt;/em&gt; will rise both in &lt;em&gt;terms&lt;/em&gt; of &lt;em&gt;value&lt;/em&gt; and compared with the &lt;em&gt;current proportion&lt;/em&gt; of two pct of &lt;em&gt;overall turnover&lt;/em&gt;.</str>
         <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Speaking at a news &lt;em&gt;conference&lt;/em&gt; on the &lt;em&gt;third quarter results&lt;/em&gt; which were released earlier &lt;em&gt;today, Odgers&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; faced &lt;em&gt;heavy costs&lt;/em&gt; for installing new &lt;em&gt;digital telephone systems&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt; for &lt;em&gt;three&lt;/em&gt; to five &lt;em&gt;years&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

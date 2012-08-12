@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-32.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">mostly</str>
+        <str name="text">central</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">japanese</str>
-        <double name="strength">1.0</double>
+        <str name="text">deposit</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">1.0</double>
+        <str name="text">companies</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">1.0</double>
+        <str name="text">england</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">special</str>
-        <double name="strength">1.0</double>
+        <str name="text">securitisation</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Some banks, mostly Japanese, want a lower capital ratio because of the special nature of their business, mainly offshore banking operations.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">141</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Fell said the Commission is reviewing the three-tier structure in light of the possible changes in capital ratio and the growing trend towards securitisation of debt.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.8993926243814936</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Federal Reserve Board on risk-based capital ratios, following an agreement on such standards between the two central banks early this year.</str>
-        <int name="index">2</int>
-        <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.8938634653996714</double>
+        <str name="text">Other planned guidelines relate to securitisation of debt and business that banks and deposit taking companies can conduct.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
+        <double name="strength">0.9468352638037284</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of England and the Fed are trying to persuade the Bank of Japan and European central banks to accept their standards.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">127</int>
+        <double name="strength">0.9221464223651044</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;banks, mostly Japanese,&lt;/em&gt; want a &lt;em&gt;lower capital ratio because&lt;/em&gt; of the &lt;em&gt;special nature&lt;/em&gt; of &lt;em&gt;their business, mainly offshore banking operations&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Fell said the &lt;em&gt;Commission&lt;/em&gt; is &lt;em&gt;reviewing&lt;/em&gt; the &lt;em&gt;three&lt;/em&gt;-tier &lt;em&gt;structure&lt;/em&gt; in &lt;em&gt;light&lt;/em&gt; of the &lt;em&gt;possible changes&lt;/em&gt; in &lt;em&gt;capital ratio&lt;/em&gt; and the &lt;em&gt;growing trend towards securitisation&lt;/em&gt; of debt.</str>
+        <str name="text">Fell said the &lt;em&gt;Commission&lt;/em&gt; is reviewing the &lt;em&gt;three&lt;/em&gt;-tier &lt;em&gt;structure&lt;/em&gt; in &lt;em&gt;light&lt;/em&gt; of the &lt;em&gt;possible changes&lt;/em&gt; in &lt;em&gt;capital ratio&lt;/em&gt; and the growing &lt;em&gt;trend&lt;/em&gt; towards &lt;em&gt;securitisation&lt;/em&gt; of debt.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Federal Reserve Board&lt;/em&gt; on risk-&lt;em&gt;based capital ratios, following&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; on such &lt;em&gt;standards between&lt;/em&gt; the two &lt;em&gt;central banks early&lt;/em&gt; this year.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Other&lt;/em&gt; planned &lt;em&gt;guidelines relate&lt;/em&gt; to &lt;em&gt;securitisation&lt;/em&gt; of debt and &lt;em&gt;business&lt;/em&gt; that &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;deposit&lt;/em&gt; taking &lt;em&gt;companies&lt;/em&gt; can &lt;em&gt;conduct&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of &lt;em&gt;England&lt;/em&gt; and the Fed are trying to &lt;em&gt;persuade&lt;/em&gt; the Bank of &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;European central banks&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; their &lt;em&gt;standards&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

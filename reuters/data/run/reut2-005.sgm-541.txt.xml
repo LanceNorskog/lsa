@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-541.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">figure</str>
+        <str name="text">foreign</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">crowns</str>
-        <double name="strength">1.0</double>
+        <str name="text">parliament</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">industry</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">legislation</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">final</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">stricter</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">shipowners</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The latest trade figures show Norwegian imports from South Africa dropped 36 pct to 160 mln crowns during the first eight months of 1986, while exports plunged 52 pct to 265 mln crowns from the year-ago figure.</str>
-        <int name="index">10</int>
+        <str name="text">"The legislation discussed today must not be seen as an isolated measure, but as a step in an international process," Norway's foreign minister Thorvald Stoltenberg told parliament.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">211</int>
+        <int name="end">182</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The unilateral boycott, proposed by Norway's minority Labour government, gives domestic companies until late September to cut remaining trade ties with South Africa and Namibia.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.8603060291964406</double>
+        <double name="strength">0.967974992332083</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Many would say that the law has already had its effect because of the dramatic drop in trade between South African and Norway," Foreign Ministry spokesman Per Paust told Reuters.</str>
-        <int name="index">11</int>
+        <str name="text">Government officials said they hope the move will intensify international pressure against the Pretoria regime's apartheid policies.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">180</int>
-        <double name="strength">0.7960157283097195</double>
+        <int name="end">133</int>
+        <double name="strength">0.9229525729322365</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;latest trade figures&lt;/em&gt; show &lt;em&gt;Norwegian imports&lt;/em&gt; from &lt;em&gt;South Africa dropped 36&lt;/em&gt; pct to 160 mln &lt;em&gt;crowns during&lt;/em&gt; the &lt;em&gt;first eight months&lt;/em&gt; of 1986, &lt;em&gt;while exports plunged 52&lt;/em&gt; pct to 265 mln &lt;em&gt;crowns&lt;/em&gt; from the year-ago &lt;em&gt;figure&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">"The &lt;em&gt;legislation&lt;/em&gt; discussed &lt;em&gt;today&lt;/em&gt; must not be seen as an &lt;em&gt;isolated measure,&lt;/em&gt; but as a step in an &lt;em&gt;international process,"&lt;/em&gt; Norway's &lt;em&gt;foreign minister Thorvald&lt;/em&gt; Stoltenberg told &lt;em&gt;parliament&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;unilateral boycott, proposed&lt;/em&gt; by &lt;em&gt;Norway&lt;/em&gt;'s &lt;em&gt;minority Labour government, gives domestic companies until&lt;/em&gt; late &lt;em&gt;September&lt;/em&gt; to cut &lt;em&gt;remaining trade&lt;/em&gt; ties with &lt;em&gt;South Africa&lt;/em&gt; and &lt;em&gt;Namibia&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;unilateral boycott,&lt;/em&gt; proposed by Norway's &lt;em&gt;minority Labour government,&lt;/em&gt; gives &lt;em&gt;domestic companies&lt;/em&gt; until late &lt;em&gt;September&lt;/em&gt; to cut remaining &lt;em&gt;trade&lt;/em&gt; ties with &lt;em&gt;South Africa&lt;/em&gt; and &lt;em&gt;Namibia&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Many &lt;em&gt;would&lt;/em&gt; say that the law has &lt;em&gt;already&lt;/em&gt; had its &lt;em&gt;effect because&lt;/em&gt; of the &lt;em&gt;dramatic&lt;/em&gt; drop in &lt;em&gt;trade between South African&lt;/em&gt; and &lt;em&gt;Norway," Foreign Ministry spokesman&lt;/em&gt; Per &lt;em&gt;Paust&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Government officials&lt;/em&gt; said they hope the move will &lt;em&gt;intensify international pressure&lt;/em&gt; against the &lt;em&gt;Pretoria regime&lt;/em&gt;'s &lt;em&gt;apartheid policies&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

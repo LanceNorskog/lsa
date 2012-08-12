@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-513.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">121</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">might</str>
+        <str name="text">surplus</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">produce</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">lawmakers</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">state</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">proposal</str>
+        <double name="strength">0.9246147017368632</double>
       </lst>
       <lst name="term">
-        <str name="text">turned</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">reagan</str>
+        <double name="strength">0.9246147017368632</double>
       </lst>
       <lst name="term">
-        <str name="text">nothing</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">administration</str>
+        <double name="strength">0.9246147017368632</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Farmers and others in agribusiness can now achieve the benefits of price stability by trading in option markets," the paper, written by Clemson University professor Kandice Kahl, said.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">184</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Interest in promoting understanding of options trading among farmers also has been stirred in Congress by a proposed change in agricultural policy that would have the effect of exposing participants in federal farm programs to fluctuations in income subsidies.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">261</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999417240867386</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An aide to Boschwitz said the senator might offer legislation linking options and decoupling, but that it might have to await the results of a pilot project on futures and options trading mandated by the 1985 farm bill.</str>
-        <int name="index">20</int>
+        <str name="text">The proposal -- supported by the Reagan administration and a cross-section of lawmakers -- would allow farmers to receive at least 92 pct of their income subsidies regardless of how much they planted.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.9985069253812269</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The program, only recently launched, was designed to encourage producers to participate in futures and options markets and to ensure that producers' net returns would not fall below the county loan level for the crops in question.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.8822140008761545</double>
+        <int name="end">201</int>
+        <double name="strength">0.9035842225712861</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Interest&lt;/em&gt; in &lt;em&gt;promoting understanding&lt;/em&gt; of &lt;em&gt;options trading among farmers&lt;/em&gt; also has been &lt;em&gt;stirred&lt;/em&gt; in &lt;em&gt;Congress&lt;/em&gt; by a &lt;em&gt;proposed change&lt;/em&gt; in &lt;em&gt;agricultural policy&lt;/em&gt; that &lt;em&gt;would&lt;/em&gt; have the &lt;em&gt;effect&lt;/em&gt; of &lt;em&gt;exposing participants&lt;/em&gt; in &lt;em&gt;federal&lt;/em&gt; farm &lt;em&gt;programs&lt;/em&gt; to &lt;em&gt;fluctuations&lt;/em&gt; in &lt;em&gt;income subsidies&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Farmers&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; in &lt;em&gt;agribusiness&lt;/em&gt; can now &lt;em&gt;achieve&lt;/em&gt; the &lt;em&gt;benefits&lt;/em&gt; of &lt;em&gt;price stability&lt;/em&gt; by &lt;em&gt;trading&lt;/em&gt; in &lt;em&gt;option markets,"&lt;/em&gt; the &lt;em&gt;paper,&lt;/em&gt; written by &lt;em&gt;Clemson University professor Kandice&lt;/em&gt; Kahl, said.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Interest&lt;/em&gt; in promoting &lt;em&gt;understanding&lt;/em&gt; of &lt;em&gt;options trading&lt;/em&gt; among &lt;em&gt;farmers&lt;/em&gt; also has been stirred in &lt;em&gt;Congress&lt;/em&gt; by a proposed &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;agricultural policy&lt;/em&gt; that would have the &lt;em&gt;effect&lt;/em&gt; of exposing &lt;em&gt;participants&lt;/em&gt; in &lt;em&gt;federal&lt;/em&gt; farm &lt;em&gt;programs&lt;/em&gt; to &lt;em&gt;fluctuations&lt;/em&gt; in &lt;em&gt;income subsidies&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An aide to &lt;em&gt;Boschwitz&lt;/em&gt; said the &lt;em&gt;senator might offer legislation linking options&lt;/em&gt; and &lt;em&gt;decoupling,&lt;/em&gt; but that it &lt;em&gt;might&lt;/em&gt; have to &lt;em&gt;await&lt;/em&gt; the &lt;em&gt;results&lt;/em&gt; of a &lt;em&gt;pilot project&lt;/em&gt; on &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options trading mandated&lt;/em&gt; by the 1985 farm bill.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;program,&lt;/em&gt; only &lt;em&gt;recently launched,&lt;/em&gt; was &lt;em&gt;designed&lt;/em&gt; to &lt;em&gt;encourage producers&lt;/em&gt; to &lt;em&gt;participate&lt;/em&gt; in &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options markets&lt;/em&gt; and to &lt;em&gt;ensure&lt;/em&gt; that &lt;em&gt;producers'&lt;/em&gt; net &lt;em&gt;returns would&lt;/em&gt; not fall &lt;em&gt;below&lt;/em&gt; the &lt;em&gt;county&lt;/em&gt; loan &lt;em&gt;level&lt;/em&gt; for the &lt;em&gt;crops&lt;/em&gt; in &lt;em&gt;question&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">The &lt;em&gt;proposal --&lt;/em&gt; supported by the &lt;em&gt;Reagan administration&lt;/em&gt; and a &lt;em&gt;cross-section&lt;/em&gt; of &lt;em&gt;lawmakers --&lt;/em&gt; would &lt;em&gt;allow farmers&lt;/em&gt; to &lt;em&gt;receive&lt;/em&gt; at least 92 pct of their &lt;em&gt;income subsidies&lt;/em&gt; regardless of how much they planted.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

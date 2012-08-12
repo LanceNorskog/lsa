@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-696.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">101</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">credit</str>
+        <str name="text">difficulty</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foncier</str>
+        <str name="text">competition</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">surge</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">investments</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">money</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">paris</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">These will include an expected four to five billion franc issue for Electricite de France, to be followed by a bond of around one billion francs for Auxiliaire du Credit Foncier, a subsidiary of the banking group Credit Foncier de France, and a new issue by tender from the mortgage agency Caisse de Refinancement Hypothecaire.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">328</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Bank of France is generally expected to give a signal to the market, possibly at the beginning of next week, by announcing a quarter point cut in its intervention rate, which has stood at eight pct since January 2, or in its seven-day repurchase rate, set at 8-3/4 pct since January 5.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">290</int>
-        <double name="strength">0.7593337697395657</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Dealers pointed to the recent Caisse d'Aide a l'Equipement des Collectivites Locales (CAECL) 8.90 pct two billion franc bond with warrants exchangeable for floating-rate bonds issued over 13 years and 80 days at 97.04 pct with payment date March 9, which was today quoted at -0.90 to -1.10 pct.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">295</int>
-        <double name="strength">0.7457645042193011</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dealers said there was no difficulty in placing liquidity in the primary market at the moment despite competition from the surge in investments on the Paris stock exchange.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.9130465500683839</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">There has been a flood of large bond issues, but with formulas well adapted to market conditions and investor demand - with warrants or a mix of fixed and floating-rates - which have been snapped up, and with generally broadly negative fees.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">242</int>
+        <double name="strength">0.8556683105879112</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; an &lt;em&gt;expected&lt;/em&gt; four to five &lt;em&gt;billion franc issue&lt;/em&gt; for &lt;em&gt;Electricite&lt;/em&gt; de &lt;em&gt;France,&lt;/em&gt; to be &lt;em&gt;followed&lt;/em&gt; by a bond of &lt;em&gt;around&lt;/em&gt; one &lt;em&gt;billion francs&lt;/em&gt; for &lt;em&gt;Auxiliaire&lt;/em&gt; du &lt;em&gt;Credit Foncier,&lt;/em&gt; a &lt;em&gt;subsidiary&lt;/em&gt; of the &lt;em&gt;banking group Credit Foncier&lt;/em&gt; de &lt;em&gt;France,&lt;/em&gt; and a new &lt;em&gt;issue&lt;/em&gt; by &lt;em&gt;tender&lt;/em&gt; from the &lt;em&gt;mortgage agency Caisse&lt;/em&gt; de &lt;em&gt;Refinancement Hypothecaire&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Bank of &lt;em&gt;France&lt;/em&gt; is &lt;em&gt;generally expected&lt;/em&gt; to give a &lt;em&gt;signal&lt;/em&gt; to the &lt;em&gt;market, possibly&lt;/em&gt; at the &lt;em&gt;beginning&lt;/em&gt; of next week, by &lt;em&gt;announcing&lt;/em&gt; a &lt;em&gt;quarter point&lt;/em&gt; cut in its &lt;em&gt;intervention&lt;/em&gt; rate, &lt;em&gt;which&lt;/em&gt; has &lt;em&gt;stood&lt;/em&gt; at &lt;em&gt;eight&lt;/em&gt; pct &lt;em&gt;since January 2,&lt;/em&gt; or in its &lt;em&gt;seven&lt;/em&gt;-day &lt;em&gt;repurchase&lt;/em&gt; rate, set at 8-3/4 pct &lt;em&gt;since January 5&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers pointed&lt;/em&gt; to the &lt;em&gt;recent Caisse&lt;/em&gt; d'Aide a l'&lt;em&gt;Equipement&lt;/em&gt; des &lt;em&gt;Collectivites Locales (CAECL) 8.90&lt;/em&gt; pct two &lt;em&gt;billion franc&lt;/em&gt; bond with &lt;em&gt;warrants exchangeable&lt;/em&gt; for &lt;em&gt;floating&lt;/em&gt;-rate &lt;em&gt;bonds issued&lt;/em&gt; over 13 &lt;em&gt;years&lt;/em&gt; and 80 days at 97.04 pct with &lt;em&gt;payment&lt;/em&gt; date &lt;em&gt;March 9, which&lt;/em&gt; was &lt;em&gt;today quoted&lt;/em&gt; at -0.90 to -1.10 pct.</str>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; pointed to the &lt;em&gt;recent Caisse&lt;/em&gt; d'Aide a l'&lt;em&gt;Equipement&lt;/em&gt; des Collectivites &lt;em&gt;Locales &lt;/em&gt;(CAECL) 8.90 pct two &lt;em&gt;billion franc&lt;/em&gt; bond with &lt;em&gt;warrants exchangeable&lt;/em&gt; for floating-rate &lt;em&gt;bonds&lt;/em&gt; issued over 13 &lt;em&gt;years&lt;/em&gt; and 80 days at 97.04 pct with &lt;em&gt;payment&lt;/em&gt; date &lt;em&gt;March 9,&lt;/em&gt; which was &lt;em&gt;today&lt;/em&gt; quoted at -0.90 to -1.10 pct.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said there was no &lt;em&gt;difficulty&lt;/em&gt; in placing &lt;em&gt;liquidity&lt;/em&gt; in the &lt;em&gt;primary market&lt;/em&gt; at the &lt;em&gt;moment&lt;/em&gt; despite &lt;em&gt;competition&lt;/em&gt; from the &lt;em&gt;surge&lt;/em&gt; in &lt;em&gt;investments&lt;/em&gt; on the &lt;em&gt;Paris stock exchange&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">There has been a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;large&lt;/em&gt; bond &lt;em&gt;issues,&lt;/em&gt; but with formulas well adapted to &lt;em&gt;market conditions&lt;/em&gt; and &lt;em&gt;investor demand -&lt;/em&gt; with &lt;em&gt;warrants&lt;/em&gt; or a mix of fixed and floating-&lt;em&gt;rates -&lt;/em&gt; which have been snapped up, and with generally broadly &lt;em&gt;negative fees&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

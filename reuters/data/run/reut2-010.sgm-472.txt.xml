@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-472.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">federal</str>
+        <str name="text">honeywell</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">accounted</str>
-        <double name="strength">1.0</double>
+        <str name="text">worldwide</str>
+        <double name="strength">0.6785402189273232</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">buildings</str>
+        <double name="strength">0.6785402189273232</double>
       </lst>
       <lst name="term">
-        <str name="text">executive</str>
-        <double name="strength">0.5527707983925665</double>
+        <str name="text">management</str>
+        <double name="strength">0.6785402189273232</double>
       </lst>
       <lst name="term">
-        <str name="text">leading</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">aerospace</str>
+        <double name="strength">0.678540218927323</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">It added that Jacques Stern, Bull's chairman and chief executive officer, will serve as Honeywell Bull's chairman of the board, while Jerome Meyer, formerly executive vice president of Honeywell Information Systems, was named president and chief executive officer.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">265</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Honeywell said it accounted for HIS as a discontinued operation in 1986, and will account for its future interest on a cost basis, recording any dividends as received.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">168</int>
-        <double name="strength">0.8885734912017301</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"As the leading worldwide supplier of of automation and controls for buildings, industry, aerospace and defense, Honeywell is now focusing its management, technical and financial resources on high market share business," Spencer said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">235</int>
-        <double name="strength">0.8830739371571471</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Honeywell Bull said it will continue to develop its product line and build its business in integrated systems for networking, database management and transaction processing.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.8108314751870734</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Honeywell said it will use much of the money to reduce short-term debt incurred last December when the company purchased the Sperry Aerospace Group.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.7324604597468722</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;added&lt;/em&gt; that &lt;em&gt;Jacques Stern,&lt;/em&gt; Bull's &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer,&lt;/em&gt; will &lt;em&gt;serve&lt;/em&gt; as &lt;em&gt;Honeywell&lt;/em&gt; Bull's &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;board, while Jerome Meyer, formerly executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Honeywell Information Systems,&lt;/em&gt; was &lt;em&gt;named president&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Honeywell&lt;/em&gt; said it &lt;em&gt;accounted&lt;/em&gt; for HIS as a &lt;em&gt;discontinued operation&lt;/em&gt; in 1986, and will &lt;em&gt;account&lt;/em&gt; for its &lt;em&gt;future interest&lt;/em&gt; on a cost &lt;em&gt;basis, recording&lt;/em&gt; any &lt;em&gt;dividends&lt;/em&gt; as &lt;em&gt;received&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"As the &lt;em&gt;leading worldwide supplier&lt;/em&gt; of of &lt;em&gt;automation&lt;/em&gt; and &lt;em&gt;controls&lt;/em&gt; for &lt;em&gt;buildings, industry, aerospace&lt;/em&gt; and &lt;em&gt;defense, Honeywell&lt;/em&gt; is now &lt;em&gt;focusing&lt;/em&gt; its &lt;em&gt;management, technical&lt;/em&gt; and &lt;em&gt;financial resources&lt;/em&gt; on high &lt;em&gt;market share business," Spencer said&lt;/em&gt;.</str>
+        <str name="text">"As the leading &lt;em&gt;worldwide supplier&lt;/em&gt; of of &lt;em&gt;automation&lt;/em&gt; and &lt;em&gt;controls&lt;/em&gt; for &lt;em&gt;buildings, industry, aerospace&lt;/em&gt; and &lt;em&gt;defense, Honeywell&lt;/em&gt; is now focusing its &lt;em&gt;management, technical&lt;/em&gt; and &lt;em&gt;financial resources&lt;/em&gt; on high &lt;em&gt;market share business," Spencer said&lt;/em&gt;.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Honeywell&lt;/em&gt; Bull said it will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;develop&lt;/em&gt; its &lt;em&gt;product&lt;/em&gt; line and &lt;em&gt;build&lt;/em&gt; its &lt;em&gt;business&lt;/em&gt; in &lt;em&gt;integrated systems&lt;/em&gt; for networking, &lt;em&gt;database management&lt;/em&gt; and &lt;em&gt;transaction processing&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Honeywell&lt;/em&gt; said it will use much of the &lt;em&gt;money&lt;/em&gt; to &lt;em&gt;reduce short&lt;/em&gt;-term debt incurred last &lt;em&gt;December&lt;/em&gt; when the &lt;em&gt;company&lt;/em&gt; purchased the &lt;em&gt;Sperry Aerospace Group&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

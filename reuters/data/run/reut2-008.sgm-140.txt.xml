@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-140.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">japan</str>
+        <str name="text">great</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">protectionist</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">potential</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">pressures</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">grave</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">difficulties</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">strong</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">ministers</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Japanese trade representative Tsomu Hata told an informal General Agreement on Tariffs and Trade (GATT) meeting that, in addition to demand boosting measures adopted last September, a comprehensive economic program will be prepared after the 1987/88 budget is approved.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">270</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">As part of its contribution, Japan plans in April to fundamentally improve its generalised system of preferences for industrial and mining products to make Japan's domestic market more open to developing countries, he said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">0.8476162048426976</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Hata said protectionist pressures in the international economy are as strong as ever, reflecting financial deficits, payment imbalances and serious unemployment in many countries.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.7941581128383409</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The basis for the talks is the GATT ministerial declaration last September in Punta del Este, Uruguay, and the subsequent trade negotiating plan agreed in Geneva.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">163</int>
+        <double name="strength">0.9018649888434553</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Japanese trade representative Tsomu Hata told an informal General Agreement on Tariffs and Trade (GATT) meeting that, in addition to demand boosting measures adopted last September, a comprehensive economic program will be prepared after the 1987/88 budget is approved.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">270</int>
+        <double name="strength">0.8418913624358192</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese trade representative Tsomu&lt;/em&gt; Hata told an &lt;em&gt;informal General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT) &lt;em&gt;meeting&lt;/em&gt; that, in &lt;em&gt;addition&lt;/em&gt; to &lt;em&gt;demand boosting measures adopted&lt;/em&gt; last &lt;em&gt;September,&lt;/em&gt; a &lt;em&gt;comprehensive economic program&lt;/em&gt; will be &lt;em&gt;prepared after&lt;/em&gt; the 1987/88 &lt;em&gt;budget&lt;/em&gt; is &lt;em&gt;approved&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">As part of its &lt;em&gt;contribution, Japan plans&lt;/em&gt; in &lt;em&gt;April&lt;/em&gt; to &lt;em&gt;fundamentally improve&lt;/em&gt; its &lt;em&gt;generalised system&lt;/em&gt; of &lt;em&gt;preferences&lt;/em&gt; for &lt;em&gt;industrial&lt;/em&gt; and &lt;em&gt;mining products&lt;/em&gt; to make &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;domestic market&lt;/em&gt; more open to &lt;em&gt;developing countries,&lt;/em&gt; he said.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Hata said &lt;em&gt;protectionist pressures&lt;/em&gt; in the &lt;em&gt;international economy&lt;/em&gt; are as &lt;em&gt;strong&lt;/em&gt; as ever, &lt;em&gt;reflecting financial deficits, payment imbalances&lt;/em&gt; and &lt;em&gt;serious unemployment&lt;/em&gt; in many &lt;em&gt;countries&lt;/em&gt;.</str>
+        <str name="text">Hata said &lt;em&gt;protectionist pressures&lt;/em&gt; in the &lt;em&gt;international economy&lt;/em&gt; are as &lt;em&gt;strong&lt;/em&gt; as ever, reflecting &lt;em&gt;financial deficits, payment imbalances&lt;/em&gt; and &lt;em&gt;serious unemployment&lt;/em&gt; in many &lt;em&gt;countries&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;basis&lt;/em&gt; for the &lt;em&gt;talks&lt;/em&gt; is the GATT &lt;em&gt;ministerial declaration&lt;/em&gt; last &lt;em&gt;September&lt;/em&gt; in &lt;em&gt;Punta&lt;/em&gt; del Este, &lt;em&gt;Uruguay,&lt;/em&gt; and the &lt;em&gt;subsequent trade&lt;/em&gt; negotiating plan agreed in &lt;em&gt;Geneva&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Japanese trade representative Tsomu&lt;/em&gt; Hata told an &lt;em&gt;informal General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT) &lt;em&gt;meeting&lt;/em&gt; that, in &lt;em&gt;addition&lt;/em&gt; to &lt;em&gt;demand&lt;/em&gt; boosting &lt;em&gt;measures&lt;/em&gt; adopted last &lt;em&gt;September,&lt;/em&gt; a &lt;em&gt;comprehensive economic program&lt;/em&gt; will be prepared after the 1987/88 &lt;em&gt;budget&lt;/em&gt; is approved.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

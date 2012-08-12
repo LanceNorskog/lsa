@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-560.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">185</int>
+        <int name="count">127</int>
       </lst>
       <lst name="stems">
-        <int name="count">122</int>
+        <int name="count">81</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">endorse</str>
+        <str name="text">american</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">cornerstone</str>
-        <double name="strength">0.6072828583161859</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9535362084294198</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">0.5590233964190053</double>
+        <str name="text">textile</str>
+        <double name="strength">0.8409397705309561</double>
       </lst>
       <lst name="term">
-        <str name="text">products</str>
-        <double name="strength">0.5590167845156854</double>
+        <str name="text">rostenkowski</str>
+        <double name="strength">0.8400089088472094</double>
       </lst>
       <lst name="term">
-        <str name="text">april</str>
-        <double name="strength">0.5086688528780821</double>
+        <str name="text">write</str>
+        <double name="strength">0.8400062609003313</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">House Speaker Jim Wright of Texas, one of the most influential proponents of aid for specific industries beset by low-priced foreign competition, last week renewed his call for import relief for the domestic oil industry and announced his support for a Senate plan to trigger a temporary oil import tariff when imports reach half of domestic consumption.</str>
-        <int name="index">33</int>
+        <str name="text">The bill will be the cornerstone of congressional efforts to restore competitiveness of American industries and turn around last year's record 169 billion dlrs trade deficit.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">355</int>
+        <int name="end">175</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bill Frenzel, R-MI., said the subcommittee's bill was not one "that a free trader like me could endorse in all respects," but he emphasized there was a consensus among lawmakers to work toward a bill Reagan and Republicans would ultimately endorse.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">249</int>
-        <double name="strength">0.9936814996633675</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">White House spokesman Marlin Fitzwater told reporters late last week that the administration still did not like some of the bill's provisions, but he added, "Generally we feel very good about the bipartisan consideration of the trade legislation.</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">247</int>
-        <double name="strength">0.8226531982508962</double>
+        <double name="strength">0.9766282857312558</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Richard Gephardt, D-MO., to force countries like Japan, South Korea and Taiwan to cut their trade surpluses with the U.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">119</int>
+        <double name="strength">0.9141137827635649</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;House Speaker&lt;/em&gt; Jim &lt;em&gt;Wright&lt;/em&gt; of &lt;em&gt;Texas,&lt;/em&gt; one of the most &lt;em&gt;influential proponents&lt;/em&gt; of aid for &lt;em&gt;specific industries beset&lt;/em&gt; by low-&lt;em&gt;priced foreign competition,&lt;/em&gt; last week &lt;em&gt;renewed&lt;/em&gt; his call for &lt;em&gt;import relief&lt;/em&gt; for the &lt;em&gt;domestic&lt;/em&gt; oil &lt;em&gt;industry&lt;/em&gt; and &lt;em&gt;announced&lt;/em&gt; his &lt;em&gt;support&lt;/em&gt; for a &lt;em&gt;Senate&lt;/em&gt; plan to &lt;em&gt;trigger&lt;/em&gt; a &lt;em&gt;temporary&lt;/em&gt; oil &lt;em&gt;import tariff&lt;/em&gt; when &lt;em&gt;imports reach&lt;/em&gt; half of &lt;em&gt;domestic consumption&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">The bill will be the &lt;em&gt;cornerstone&lt;/em&gt; of &lt;em&gt;congressional efforts&lt;/em&gt; to &lt;em&gt;restore competitiveness&lt;/em&gt; of &lt;em&gt;American industries&lt;/em&gt; and turn around last year's &lt;em&gt;record 169 billion&lt;/em&gt; dlrs &lt;em&gt;trade deficit&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bill &lt;em&gt;Frenzel,&lt;/em&gt; R-MI., said the &lt;em&gt;subcommittee&lt;/em&gt;'s bill was not one "that a free &lt;em&gt;trader&lt;/em&gt; like me &lt;em&gt;could endorse&lt;/em&gt; in all &lt;em&gt;respects,"&lt;/em&gt; but he &lt;em&gt;emphasized there&lt;/em&gt; was a &lt;em&gt;consensus among lawmakers&lt;/em&gt; to work &lt;em&gt;toward&lt;/em&gt; a bill &lt;em&gt;Reagan&lt;/em&gt; and &lt;em&gt;Republicans would ultimately endorse&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;White House spokesman Marlin Fitzwater&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; late last week that the &lt;em&gt;administration still&lt;/em&gt; did not like some of the bill's &lt;em&gt;provisions,&lt;/em&gt; but he &lt;em&gt;added, "Generally&lt;/em&gt; we feel very good &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;bipartisan consideration&lt;/em&gt; of the &lt;em&gt;trade legislation&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;White House spokesman Marlin Fitzwater&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; late last week that the &lt;em&gt;administration&lt;/em&gt; still did not like some of the bill's &lt;em&gt;provisions,&lt;/em&gt; but he added, "Generally we feel very good about the &lt;em&gt;bipartisan consideration&lt;/em&gt; of the &lt;em&gt;trade legislation&lt;/em&gt;.</str>
         <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Richard Gephardt,&lt;/em&gt; D-MO., to &lt;em&gt;force countries&lt;/em&gt; like &lt;em&gt;Japan,&lt;/em&gt; South &lt;em&gt;Korea&lt;/em&gt; and &lt;em&gt;Taiwan&lt;/em&gt; to cut their &lt;em&gt;trade surpluses&lt;/em&gt; with the U.</str>
+        <int name="index">22</int>
       </lst>
     </lst>
   </lst>

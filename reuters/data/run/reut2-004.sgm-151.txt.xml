@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-151.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">54</int>
+        <int name="count">37</int>
       </lst>
       <lst name="stems">
-        <int name="count">40</int>
+        <int name="count">28</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">expiration</str>
+        <str name="text">sales</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deduction</str>
-        <double name="strength">1.0</double>
+        <str name="text">january</str>
+        <double name="strength">0.5611901006626913</double>
       </lst>
       <lst name="term">
-        <str name="text">under</str>
-        <double name="strength">1.0</double>
+        <str name="text">increase</str>
+        <double name="strength">0.37628834735343913</double>
       </lst>
       <lst name="term">
-        <str name="text">reason</str>
-        <double name="strength">1.0</double>
+        <str name="text">durable</str>
+        <double name="strength">0.37628834735343863</double>
       </lst>
       <lst name="term">
-        <str name="text">apparel</str>
-        <double name="strength">0.9999999999999956</double>
+        <str name="text">goods</str>
+        <double name="strength">0.37628834735343863</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Department spokesmen said the major cause for the revision downward in January sales was a weaker January auto dealer sales figure than originally estimated.</str>
-        <int name="index">4</int>
+        <str name="text">Gasoline service station sales rose 2.0 pct in February after a 1.9 pct January increase.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">158</int>
+        <int name="end">90</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Apparel store sales were up 0.8 pct last month after falling 3.0 pct in January, while sales at eating and drinking places increased 1.5 pct after rising 0.5 pct in January.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">0.9138407439148445</double>
+        <double name="strength">0.9320344487941893</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The expiration of the sales tax deduction under new tax laws on January 1 was the main reason for the drop in January sales, department spokesmen said.</str>
-        <int name="index">7</int>
+        <str name="text">Department spokesmen said the major cause for the revision downward in January sales was a weaker January auto dealer sales figure than originally estimated.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.789085375793664</double>
+        <int name="end">158</int>
+        <double name="strength">0.9151467106421832</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Department spokesmen&lt;/em&gt; said the &lt;em&gt;major cause&lt;/em&gt; for the &lt;em&gt;revision downward&lt;/em&gt; in &lt;em&gt;January sales&lt;/em&gt; was a &lt;em&gt;weaker January&lt;/em&gt; auto &lt;em&gt;dealer sales figure&lt;/em&gt; than &lt;em&gt;originally estimated&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Gasoline service station sales&lt;/em&gt; rose 2.0 pct in &lt;em&gt;February&lt;/em&gt; after a 1.9 pct &lt;em&gt;January increase&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Apparel store sales&lt;/em&gt; were up 0.8 pct last &lt;em&gt;month after falling 3.0&lt;/em&gt; pct in &lt;em&gt;January, while sales&lt;/em&gt; at &lt;em&gt;eating&lt;/em&gt; and &lt;em&gt;drinking places increased 1.5&lt;/em&gt; pct &lt;em&gt;after rising 0.5&lt;/em&gt; pct in &lt;em&gt;January&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Apparel store sales&lt;/em&gt; were up 0.8 pct last &lt;em&gt;month&lt;/em&gt; after falling 3.0 pct in &lt;em&gt;January,&lt;/em&gt; while &lt;em&gt;sales&lt;/em&gt; at &lt;em&gt;eating&lt;/em&gt; and &lt;em&gt;drinking places&lt;/em&gt; increased 1.5 pct after rising 0.5 pct in &lt;em&gt;January&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;expiration&lt;/em&gt; of the &lt;em&gt;sales&lt;/em&gt; tax &lt;em&gt;deduction under&lt;/em&gt; new tax laws on &lt;em&gt;January 1&lt;/em&gt; was the main &lt;em&gt;reason&lt;/em&gt; for the drop in &lt;em&gt;January sales, department spokesmen said&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Department spokesmen&lt;/em&gt; said the &lt;em&gt;major cause&lt;/em&gt; for the &lt;em&gt;revision&lt;/em&gt; downward in &lt;em&gt;January sales&lt;/em&gt; was a weaker &lt;em&gt;January&lt;/em&gt; auto &lt;em&gt;dealer sales figure&lt;/em&gt; than originally estimated.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

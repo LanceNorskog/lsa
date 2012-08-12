@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-288.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">aircraft</str>
+        <str name="text">writeoffs</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fighter</str>
-        <double name="strength">0.37267799624996667</double>
+        <str name="text">pentagon</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">weapons</str>
-        <double name="strength">0.3726779962499657</double>
+        <str name="text">prototype</str>
+        <double name="strength">0.9941728092057424</double>
       </lst>
       <lst name="term">
-        <str name="text">douglas</str>
-        <double name="strength">0.3685138655950444</double>
+        <str name="text">second</str>
+        <double name="strength">0.9941728092057424</double>
       </lst>
       <lst name="term">
-        <str name="text">prone</str>
-        <double name="strength">0.33333333333333476</double>
+        <str name="text">company</str>
+        <double name="strength">0.9941728092057422</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">McDonnell Douglas's Douglas Aircraft Co is working on two test planes, and a production award for up to 210 of the aircraft should be made by late 1989, a Douglas Aircraft spokesman said.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">187</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"It's a case of companies paying for things that in a different environment the Defense Department would have paid for," said Howard Mager of Donaldson Lufkin Jenrette Securities Corp.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">185</int>
-        <double name="strength">0.8908896152083998</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said that some small defense electronics firms believe the Pentagon will begin re-evaluating procurement policy and perhaps start paying more development money.</str>
+        <int name="index">29</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.9894938281814676</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Singer Co &lt;SMF&gt; and Northrop Corp &lt;NOC&gt; recently announced planned second quarter writeoffs related to costs of major defense programs under fixed-price government contracts.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.8520292136646839</double>
+        <double name="strength">0.9569867471986204</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;McDonnell Douglas&lt;/em&gt;'s &lt;em&gt;Douglas Aircraft&lt;/em&gt; Co is &lt;em&gt;working&lt;/em&gt; on two test &lt;em&gt;planes,&lt;/em&gt; and a &lt;em&gt;production award&lt;/em&gt; for up to 210 of the &lt;em&gt;aircraft should&lt;/em&gt; be made by late 1989, a &lt;em&gt;Douglas Aircraft spokesman said&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"It's a case of &lt;em&gt;companies paying&lt;/em&gt; for &lt;em&gt;things&lt;/em&gt; that in a &lt;em&gt;different environment&lt;/em&gt; the &lt;em&gt;Defense Department would&lt;/em&gt; have paid for," said &lt;em&gt;Howard Mager&lt;/em&gt; of &lt;em&gt;Donaldson Lufkin Jenrette Securities Corp&lt;/em&gt;.</str>
+        <str name="text">"It's a case of &lt;em&gt;companies&lt;/em&gt; paying for &lt;em&gt;things&lt;/em&gt; that in a &lt;em&gt;different environment&lt;/em&gt; the &lt;em&gt;Defense Department&lt;/em&gt; would have paid for," said Howard &lt;em&gt;Mager&lt;/em&gt; of &lt;em&gt;Donaldson Lufkin Jenrette Securities Corp&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Singer&lt;/em&gt; Co &lt;SMF&gt; and &lt;em&gt;Northrop&lt;/em&gt; Corp &lt;NOC&gt; &lt;em&gt;recently announced planned second quarter writeoffs related&lt;/em&gt; to &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;major defense programs under fixed-price government contracts&lt;/em&gt;.</str>
+        <str name="text">He said that some &lt;em&gt;small defense electronics firms believe&lt;/em&gt; the &lt;em&gt;Pentagon&lt;/em&gt; will &lt;em&gt;begin&lt;/em&gt; re-evaluating &lt;em&gt;procurement policy&lt;/em&gt; and perhaps &lt;em&gt;start&lt;/em&gt; paying more &lt;em&gt;development money&lt;/em&gt;.</str>
+        <int name="index">29</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Singer&lt;/em&gt; Co &lt;SMF&gt; and &lt;em&gt;Northrop&lt;/em&gt; Corp &lt;NOC&gt; recently announced &lt;em&gt;planned second quarter writeoffs&lt;/em&gt; related to &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;major defense programs&lt;/em&gt; under fixed-&lt;em&gt;price government contracts&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-976.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">76</int>
+        <int name="count">49</int>
       </lst>
       <lst name="stems">
-        <int name="count">44</int>
+        <int name="count">25</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">based</str>
+        <str name="text">today</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5590169943749482</double>
+        <str name="text">securities</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">totaling</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">exchange</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">acquire</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">commisssion</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">audio</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">K.-based firm would receive "break-up fees" or expenses from Cyclops or could buy Cyclops common stock from the Pittsburgh-based company.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">137</int>
+        <str name="text">Earlier today, however, the Securities and Exchange Commisssion ordered Dixons to extended its tender offer until March 24.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">124</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The group, Cyacq Acquisition Corp, also said it extended the offer until April three, from March 20.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">101</int>
+        <double name="strength">0.9047831417236744</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">The group said it added several conditions to its offer, including receipt of all non-public information about Cyclops that was provided to &lt;Dixons Group PLC&gt; in connection with Dixon's competing tender offer for Cyclops.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">222</int>
-        <double name="strength">0.9480261723844172</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The SEC's order came after Cyacq filed suit to block Dixons from taking control of Cyclops and to force an extension of Dixons' tender offer.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">142</int>
-        <double name="strength">0.7812751224175931</double>
+        <double name="strength">0.9017526346582747</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K.-&lt;em&gt;based&lt;/em&gt; firm &lt;em&gt;would receive "break&lt;/em&gt;-up fees" or &lt;em&gt;expenses&lt;/em&gt; from &lt;em&gt;Cyclops&lt;/em&gt; or &lt;em&gt;could&lt;/em&gt; buy &lt;em&gt;Cyclops common stock&lt;/em&gt; from the &lt;em&gt;Pittsburgh-based company&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">Earlier &lt;em&gt;today,&lt;/em&gt; however, the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commisssion&lt;/em&gt; ordered &lt;em&gt;Dixons&lt;/em&gt; to extended its &lt;em&gt;tender offer&lt;/em&gt; until &lt;em&gt;March 24&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;group&lt;/em&gt; said it &lt;em&gt;added several conditions&lt;/em&gt; to its &lt;em&gt;offer, including receipt&lt;/em&gt; of all non-&lt;em&gt;public information about Cyclops&lt;/em&gt; that was &lt;em&gt;provided&lt;/em&gt; to &lt;&lt;em&gt;Dixons Group&lt;/em&gt; PLC&gt; in &lt;em&gt;connection&lt;/em&gt; with &lt;em&gt;Dixon&lt;/em&gt;'s &lt;em&gt;competing tender offer&lt;/em&gt; for &lt;em&gt;Cyclops&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;group, Cyacq Acquisition&lt;/em&gt; Corp, also said it extended the &lt;em&gt;offer&lt;/em&gt; until &lt;em&gt;April three,&lt;/em&gt; from &lt;em&gt;March 20&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;group&lt;/em&gt; said it added &lt;em&gt;several conditions&lt;/em&gt; to its &lt;em&gt;offer,&lt;/em&gt; including &lt;em&gt;receipt&lt;/em&gt; of all non-&lt;em&gt;public information&lt;/em&gt; about &lt;em&gt;Cyclops&lt;/em&gt; that was provided to &lt;&lt;em&gt;Dixons Group&lt;/em&gt; PLC&gt; in &lt;em&gt;connection&lt;/em&gt; with &lt;em&gt;Dixon&lt;/em&gt;'s competing &lt;em&gt;tender offer&lt;/em&gt; for &lt;em&gt;Cyclops&lt;/em&gt;.</str>
         <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The SEC's &lt;em&gt;order&lt;/em&gt; came &lt;em&gt;after Cyacq filed&lt;/em&gt; suit to &lt;em&gt;block Dixons&lt;/em&gt; from &lt;em&gt;taking control&lt;/em&gt; of &lt;em&gt;Cyclops&lt;/em&gt; and to &lt;em&gt;force&lt;/em&gt; an &lt;em&gt;extension&lt;/em&gt; of &lt;em&gt;Dixons' tender offer&lt;/em&gt;.</str>
-        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

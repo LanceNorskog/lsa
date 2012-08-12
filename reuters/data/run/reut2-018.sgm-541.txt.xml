@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-541.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">177</int>
+        <int name="count">133</int>
       </lst>
       <lst name="stems">
-        <int name="count">120</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">leases</str>
+        <str name="text">members</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">0.5590169943749502</double>
+        <str name="text">managing</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">effects</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">jayewardene</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">tourism</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9934327593756591</double>
       </lst>
       <lst name="term">
-        <str name="text">tamil</str>
-        <double name="strength">0.5000000000000031</double>
+        <str name="text">aircraft</str>
+        <double name="strength">0.9719017617259383</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">It also proposed negotiations for the return of two Lockheed Tristar L1011-500s now leased to British Airways before the leases expire next March.</str>
-        <int name="index">31</int>
-        <int name="start">0</int>
-        <int name="end">146</int>
+        <str name="text">"Air Lanka is thus indebted to overseas lenders to the value of one billion rupees without any productive assets or collateral to provide for its repayment," the commission said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The report said the airline's dangerously critical financial condition was due to uncontrolled spending -- particularly the way in which the airline expanded its fleet -- poor marketing, and extreme laxity in cost controls.</str>
-        <int name="index">15</int>
+        <str name="text">To finance deficits, it had also used up a treasury loan of 800 mln rupees and part of foreign currency loans obtained for aircraft purchases and infrastructure needs, it said.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">0.9616476398363611</double>
+        <int name="end">177</int>
+        <double name="strength">0.9216582786156767</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The panel recommended equity involvement of one or more foreign airlines in Air Lanka and the granting of maximum concessions to make the carrier attractive to foreign and local investment.</str>
-        <int name="index">26</int>
+        <str name="text">The three-man commission recommended its findings be passed to state law officers to decide whether penal action was necessary against any members of the former board or Air Lanka's management.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.8854575075331754</double>
+        <int name="end">194</int>
+        <double name="strength">0.907729309285485</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It also &lt;em&gt;proposed negotiations&lt;/em&gt; for the &lt;em&gt;return&lt;/em&gt; of two &lt;em&gt;Lockheed Tristar&lt;/em&gt; L1011-500s now &lt;em&gt;leased&lt;/em&gt; to &lt;em&gt;British Airways before&lt;/em&gt; the &lt;em&gt;leases expire&lt;/em&gt; next &lt;em&gt;March&lt;/em&gt;.</str>
-        <int name="index">31</int>
+        <str name="text">"Air &lt;em&gt;Lanka&lt;/em&gt; is thus &lt;em&gt;indebted&lt;/em&gt; to &lt;em&gt;overseas lenders&lt;/em&gt; to the &lt;em&gt;value&lt;/em&gt; of one &lt;em&gt;billion rupees&lt;/em&gt; without any &lt;em&gt;productive assets&lt;/em&gt; or &lt;em&gt;collateral&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; for its &lt;em&gt;repayment,"&lt;/em&gt; the &lt;em&gt;commission said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;report&lt;/em&gt; said the &lt;em&gt;airline&lt;/em&gt;'s &lt;em&gt;dangerously critical financial condition&lt;/em&gt; was due to &lt;em&gt;uncontrolled spending -- particularly&lt;/em&gt; the way in &lt;em&gt;which&lt;/em&gt; the &lt;em&gt;airline expanded&lt;/em&gt; its &lt;em&gt;fleet --&lt;/em&gt; poor &lt;em&gt;marketing,&lt;/em&gt; and &lt;em&gt;extreme laxity&lt;/em&gt; in cost &lt;em&gt;controls&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">To &lt;em&gt;finance deficits,&lt;/em&gt; it had also used up a &lt;em&gt;treasury&lt;/em&gt; loan of 800 mln &lt;em&gt;rupees&lt;/em&gt; and part of &lt;em&gt;foreign currency loans&lt;/em&gt; obtained for &lt;em&gt;aircraft purchases&lt;/em&gt; and &lt;em&gt;infrastructure needs,&lt;/em&gt; it said.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;panel recommended equity involvement&lt;/em&gt; of one or more &lt;em&gt;foreign airlines&lt;/em&gt; in Air &lt;em&gt;Lanka&lt;/em&gt; and the &lt;em&gt;granting&lt;/em&gt; of &lt;em&gt;maximum concessions&lt;/em&gt; to make the &lt;em&gt;carrier attractive&lt;/em&gt; to &lt;em&gt;foreign&lt;/em&gt; and &lt;em&gt;local investment&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The &lt;em&gt;three&lt;/em&gt;-man &lt;em&gt;commission&lt;/em&gt; recommended its &lt;em&gt;findings&lt;/em&gt; be passed to &lt;em&gt;state&lt;/em&gt; law &lt;em&gt;officers&lt;/em&gt; to &lt;em&gt;decide&lt;/em&gt; whether &lt;em&gt;penal action&lt;/em&gt; was &lt;em&gt;necessary&lt;/em&gt; against any &lt;em&gt;members&lt;/em&gt; of the &lt;em&gt;former board&lt;/em&gt; or Air &lt;em&gt;Lanka&lt;/em&gt;'s &lt;em&gt;management&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

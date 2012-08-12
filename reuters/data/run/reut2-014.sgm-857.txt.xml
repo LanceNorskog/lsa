@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-857.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">protected</str>
+        <str name="text">suppliers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">feedgrain</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">juice</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">ministry</str>
+        <double name="strength">0.9963408654530972</double>
       </lst>
       <lst name="term">
-        <str name="text">declined</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">products</str>
+        <double name="strength">0.9835045322131512</double>
       </lst>
       <lst name="term">
-        <str name="text">drives</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">boosts</str>
+        <double name="strength">0.9590887080466238</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">274</int>
         <double name="strength">1.0</double>
+        <int name="terms">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Insists Japan open its protected rice market it will also open its wheat market, where volume and origin are regulated to protect local farmers.</str>
-        <int name="index">11</int>
-        <int name="start">0</int>
-        <int name="end">147</int>
-        <double name="strength">0.7034028513054986</double>
+        <str name="text">But Agriculture Minister Kato has ruled out any emotional reaction, and the senior ministry official said the farm issue should not become a scapegoat for trade pressure in the industrial sector.</str>
+        <int name="index">33</int>
+        <int name="start">1</int>
+        <int name="end">196</int>
+        <double name="strength">0.986410033418328</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Corn have fallen due to increased sales from China and South America, while Japanese soybean imports from Brazil are expected to rise sharply this year, although the U.</str>
-        <int name="index">22</int>
+        <str name="text">S. Position came last December when Under Secretary of Agriculture Daniel Amstutz said Japan has the potential to provide one of the largest boosts to U.</str>
+        <int name="index">27</int>
         <int name="start">0</int>
-        <int name="end">171</int>
-        <double name="strength">0.6990766620988322</double>
+        <int name="end">153</int>
+        <double name="strength">0.8454729099808889</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. Has also &lt;em&gt;asked&lt;/em&gt; the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade&lt;/em&gt; to &lt;em&gt;investigate&lt;/em&gt; the &lt;em&gt;legality&lt;/em&gt; of &lt;em&gt;Japanese import controls&lt;/em&gt; on 12 &lt;em&gt;other&lt;/em&gt; farm &lt;em&gt;products, including fruit juices, purees&lt;/em&gt; and pulp, &lt;em&gt;tomato juice, ketchup&lt;/em&gt; and &lt;em&gt;sauce, peanuts, prepared&lt;/em&gt; beef &lt;em&gt;products&lt;/em&gt; and &lt;em&gt;miscellaneous beans&lt;/em&gt;.</str>
+        <str name="text">S. Has also asked the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade&lt;/em&gt; to &lt;em&gt;investigate&lt;/em&gt; the &lt;em&gt;legality&lt;/em&gt; of &lt;em&gt;Japanese import controls&lt;/em&gt; on 12 &lt;em&gt;other&lt;/em&gt; farm &lt;em&gt;products,&lt;/em&gt; including &lt;em&gt;fruit juices, purees&lt;/em&gt; and pulp, &lt;em&gt;tomato juice, ketchup&lt;/em&gt; and &lt;em&gt;sauce, peanuts, prepared&lt;/em&gt; beef &lt;em&gt;products&lt;/em&gt; and &lt;em&gt;miscellaneous beans&lt;/em&gt;.</str>
         <int name="index">30</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Insists Japan&lt;/em&gt; open its &lt;em&gt;protected&lt;/em&gt; rice &lt;em&gt;market&lt;/em&gt; it will also open its &lt;em&gt;wheat market, where volume&lt;/em&gt; and &lt;em&gt;origin&lt;/em&gt; are &lt;em&gt;regulated&lt;/em&gt; to &lt;em&gt;protect local farmers&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">But &lt;em&gt;Agriculture Minister&lt;/em&gt; Kato has ruled out any &lt;em&gt;emotional reaction,&lt;/em&gt; and the &lt;em&gt;senior ministry official&lt;/em&gt; said the farm &lt;em&gt;issue&lt;/em&gt; should not &lt;em&gt;become&lt;/em&gt; a &lt;em&gt;scapegoat&lt;/em&gt; for &lt;em&gt;trade pressure&lt;/em&gt; in the &lt;em&gt;industrial sector&lt;/em&gt;.</str>
+        <int name="index">33</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Corn have &lt;em&gt;fallen&lt;/em&gt; due to &lt;em&gt;increased sales&lt;/em&gt; from &lt;em&gt;China&lt;/em&gt; and &lt;em&gt;South America, while Japanese soybean imports&lt;/em&gt; from &lt;em&gt;Brazil&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to rise &lt;em&gt;sharply&lt;/em&gt; this year, &lt;em&gt;although&lt;/em&gt; the U.</str>
-        <int name="index">22</int>
+        <str name="text">S. &lt;em&gt;Position&lt;/em&gt; came last &lt;em&gt;December&lt;/em&gt; when Under &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;Agriculture Daniel Amstutz&lt;/em&gt; said &lt;em&gt;Japan&lt;/em&gt; has the &lt;em&gt;potential&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; one of the largest &lt;em&gt;boosts&lt;/em&gt; to U.</str>
+        <int name="index">27</int>
       </lst>
     </lst>
   </lst>

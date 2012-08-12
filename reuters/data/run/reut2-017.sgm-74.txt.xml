@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-74.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">94</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">goods</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">budget</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
         <str name="text">fiscal</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">developed</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">domestic</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">visit</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">priming</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The plan called on Japan to promote government purchases of foreign goods and private sector imports of manufactured goods by improving import financing, and to make clear official procurement procedures for foreign supercomputers.</str>
-        <int name="index">9</int>
-        <int name="start">2</int>
-        <int name="end">233</int>
+        <str name="text">The LDP called for adequate and flexible management of monetary policy, such as a cut in interest rates on deposits with the Finance Ministry's Trust Fund, and a tax cut to promote plant and equipment investment.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Japan's ruling Liberal Democratic Party (LDP) drew up a final plan to expand domestic demand and boost imports in time for Prime Minister Yasuhiro Nakasone's visit to Washington next week, LDP officials said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">208</int>
+        <double name="strength">0.9137687055560397</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">The plan calls for additional fiscal measures worth more than 5,000 billion yen, a large-scale supplementary budget for the current fiscal year started April 1, and concentration of more than 80 pct of the annual public works budget in the first half of the year, they said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">275</int>
-        <double name="strength">0.98623896445269</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The LDP called for adequate and flexible management of monetary policy, such as a cut in interest rates on deposits with the Finance Ministry's Trust Fund, and a tax cut to promote plant and equipment investment.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.8480787796569034</double>
+        <double name="strength">0.794443283047181</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The plan &lt;em&gt;called&lt;/em&gt; on &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;promote government purchases&lt;/em&gt; of &lt;em&gt;foreign goods&lt;/em&gt; and &lt;em&gt;private sector imports&lt;/em&gt; of &lt;em&gt;manufactured goods&lt;/em&gt; by &lt;em&gt;improving import financing,&lt;/em&gt; and to make &lt;em&gt;clear official procurement procedures&lt;/em&gt; for &lt;em&gt;foreign supercomputers&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The plan &lt;em&gt;calls&lt;/em&gt; for &lt;em&gt;additional fiscal measures worth&lt;/em&gt; more than 5,000 &lt;em&gt;billion&lt;/em&gt; yen, a &lt;em&gt;large-scale supplementary budget&lt;/em&gt; for the &lt;em&gt;current fiscal&lt;/em&gt; year &lt;em&gt;started April 1,&lt;/em&gt; and &lt;em&gt;concentration&lt;/em&gt; of more than 80 pct of the &lt;em&gt;annual public works budget&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of the year, they said.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The LDP &lt;em&gt;called&lt;/em&gt; for &lt;em&gt;adequate&lt;/em&gt; and &lt;em&gt;flexible management&lt;/em&gt; of &lt;em&gt;monetary policy,&lt;/em&gt; such as a cut in &lt;em&gt;interest rates&lt;/em&gt; on &lt;em&gt;deposits&lt;/em&gt; with the &lt;em&gt;Finance Ministry&lt;/em&gt;'s &lt;em&gt;Trust&lt;/em&gt; Fund, and a tax cut to &lt;em&gt;promote plant&lt;/em&gt; and &lt;em&gt;equipment investment&lt;/em&gt;.</str>
+        <str name="text">The LDP called for &lt;em&gt;adequate&lt;/em&gt; and &lt;em&gt;flexible management&lt;/em&gt; of &lt;em&gt;monetary policy,&lt;/em&gt; such as a cut in &lt;em&gt;interest rates&lt;/em&gt; on &lt;em&gt;deposits&lt;/em&gt; with the &lt;em&gt;Finance Ministry&lt;/em&gt;'s &lt;em&gt;Trust&lt;/em&gt; Fund, and a tax cut to &lt;em&gt;promote plant&lt;/em&gt; and &lt;em&gt;equipment investment&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s ruling &lt;em&gt;Liberal Democratic Party &lt;/em&gt;(LDP) drew up a &lt;em&gt;final&lt;/em&gt; plan to &lt;em&gt;expand domestic demand&lt;/em&gt; and &lt;em&gt;boost imports&lt;/em&gt; in time for &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt;'s &lt;em&gt;visit&lt;/em&gt; to Washington next week, LDP &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The plan calls for &lt;em&gt;additional fiscal measures worth&lt;/em&gt; more than 5,000 &lt;em&gt;billion&lt;/em&gt; yen, a &lt;em&gt;large-scale supplementary budget&lt;/em&gt; for the &lt;em&gt;current fiscal&lt;/em&gt; year started &lt;em&gt;April 1,&lt;/em&gt; and &lt;em&gt;concentration&lt;/em&gt; of more than 80 pct of the &lt;em&gt;annual public works budget&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of the year, they said.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

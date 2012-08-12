@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-45.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">90</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">32</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">renault</str>
+        <str name="text">company</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">start</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">decline</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">behind</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">buyers</str>
+        <double name="strength">0.9960900316910976</double>
       </lst>
       <lst name="term">
-        <str name="text">level</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">official</str>
+        <double name="strength">0.9960900316910972</double>
       </lst>
       <lst name="term">
-        <str name="text">given</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">takeover</str>
+        <double name="strength">0.9960900316910961</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Chrysler, in its purchase agreement with American Motors' majority stockholder &lt;Renault&gt;, has agreed not to undercut sales of American Motors' new Medallion and Premier cars, made by Renault.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Given the prospective takeover by Chrysler, "people might be a little leary about going to (American Motors) dealers," he said.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">128</int>
-        <double name="strength">0.7522014837011634</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S.-made cars during mid-March, the traditional start of the spring selling season, dropped 3.9 pct behind last year's level, analysts say.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">138</int>
-        <double name="strength">0.6716758595845401</double>
+        <str name="text">Chrysler, in its purchase agreement with American Motors' majority stockholder &lt;Renault&gt;, has agreed not to undercut sales of American Motors' new Medallion and Premier cars, made by Renault.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
+        <double name="strength">0.9183799556620035</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Buyers shied away from the showrooms of American Motors Corp &lt;AMO&gt;, the target of a 1.5 billion dlr takeover bid from Chrysler Corp &lt;C&gt;.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">137</int>
+        <double name="strength">0.9022920186745658</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chrysler,&lt;/em&gt; in its &lt;em&gt;purchase agreement&lt;/em&gt; with &lt;em&gt;American Motors' majority stockholder &lt;Renault&gt;,&lt;/em&gt; has &lt;em&gt;agreed&lt;/em&gt; not to &lt;em&gt;undercut sales&lt;/em&gt; of &lt;em&gt;American Motors'&lt;/em&gt; new &lt;em&gt;Medallion&lt;/em&gt; and &lt;em&gt;Premier&lt;/em&gt; cars, made by &lt;em&gt;Renault&lt;/em&gt;.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Given&lt;/em&gt; the &lt;em&gt;prospective takeover&lt;/em&gt; by &lt;em&gt;Chrysler, "people might&lt;/em&gt; be a &lt;em&gt;little leary about going&lt;/em&gt; to (&lt;em&gt;American Motors) dealers,"&lt;/em&gt; he said.</str>
+        <str name="text">Given the &lt;em&gt;prospective takeover&lt;/em&gt; by &lt;em&gt;Chrysler, "people&lt;/em&gt; might be a &lt;em&gt;little leary&lt;/em&gt; about going to (&lt;em&gt;American Motors) dealers,"&lt;/em&gt; he said.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S.-made cars &lt;em&gt;during&lt;/em&gt; mid-&lt;em&gt;March,&lt;/em&gt; the &lt;em&gt;traditional start&lt;/em&gt; of the &lt;em&gt;spring selling season, dropped 3.9&lt;/em&gt; pct &lt;em&gt;behind&lt;/em&gt; last year's &lt;em&gt;level, analysts say&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Chrysler,&lt;/em&gt; in its &lt;em&gt;purchase agreement&lt;/em&gt; with &lt;em&gt;American Motors' majority stockholder &lt;Renault&gt;,&lt;/em&gt; has agreed not to &lt;em&gt;undercut sales&lt;/em&gt; of &lt;em&gt;American Motors'&lt;/em&gt; new &lt;em&gt;Medallion&lt;/em&gt; and Premier cars, made by &lt;em&gt;Renault&lt;/em&gt;.</str>
+        <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Buyers&lt;/em&gt; shied away from the &lt;em&gt;showrooms&lt;/em&gt; of &lt;em&gt;American Motors&lt;/em&gt; Corp &lt;AMO&gt;, the &lt;em&gt;target&lt;/em&gt; of a 1.5 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;takeover&lt;/em&gt; bid from &lt;em&gt;Chrysler&lt;/em&gt; Corp &lt;C&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

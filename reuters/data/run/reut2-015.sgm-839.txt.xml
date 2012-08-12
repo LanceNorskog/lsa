@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-839.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">curtail</str>
+        <str name="text">improve</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">country</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">morning</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">meanwhile</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">performance</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">united</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">money</str>
+        <double name="strength">0.9917320401144664</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">They say the country's consumers, who have been spending at a torrid pace in recent years, will sharply curtail outlays this year and this should help curtail the flow of imports into the country.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">197</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Meanwhile, demand for Canadian exports in the United States, by far the country's largest market, is expected to be strong as a result of a projected rise in American consumer spending and the relatively low value of the Canadian currency.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">240</int>
-        <double name="strength">0.9845780514484064</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"We thought the trade balance would improve ... over the year, and it certainly looks as if this morning's figure is indicative of that," commented economist James Donegan at the Toronto securities firm of Midland Doherty Ltd.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">227</int>
-        <double name="strength">0.8948647274630198</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. economy is showing signs of weakening--particularly car sales--it would indicate that part of the strength (in Canada's trade figures) is probably transitory."</str>
+        <int name="index">25</int>
+        <int name="start">0</int>
+        <int name="end">162</int>
+        <double name="strength">0.8760702883113713</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Recovery in the automotive sector helped push the value of exports up by 5.9 pct in February," the agency said in its monthly report.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">135</int>
+        <double name="strength">0.8751908733536556</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">They say the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;consumers,&lt;/em&gt; who have been &lt;em&gt;spending&lt;/em&gt; at a &lt;em&gt;torrid&lt;/em&gt; pace in &lt;em&gt;recent years,&lt;/em&gt; will &lt;em&gt;sharply curtail outlays&lt;/em&gt; this year and this &lt;em&gt;should&lt;/em&gt; help &lt;em&gt;curtail&lt;/em&gt; the flow of &lt;em&gt;imports&lt;/em&gt; into the &lt;em&gt;country&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile, demand&lt;/em&gt; for &lt;em&gt;Canadian exports&lt;/em&gt; in the &lt;em&gt;United States,&lt;/em&gt; by far the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;largest market,&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;strong&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of a &lt;em&gt;projected&lt;/em&gt; rise in &lt;em&gt;American consumer spending&lt;/em&gt; and the &lt;em&gt;relatively&lt;/em&gt; low &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;Canadian currency&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We &lt;em&gt;thought&lt;/em&gt; the &lt;em&gt;trade balance would improve ...&lt;/em&gt; over the year, and it &lt;em&gt;certainly looks&lt;/em&gt; as if this &lt;em&gt;morning&lt;/em&gt;'s &lt;em&gt;figure&lt;/em&gt; is &lt;em&gt;indicative&lt;/em&gt; of that," &lt;em&gt;commented economist James Donegan&lt;/em&gt; at the &lt;em&gt;Toronto securities&lt;/em&gt; firm of &lt;em&gt;Midland Doherty Ltd&lt;/em&gt;.</str>
+        <str name="text">"We thought the &lt;em&gt;trade balance&lt;/em&gt; would &lt;em&gt;improve ...&lt;/em&gt; over the year, and it certainly looks as if this &lt;em&gt;morning&lt;/em&gt;'s &lt;em&gt;figure&lt;/em&gt; is &lt;em&gt;indicative&lt;/em&gt; of that," commented &lt;em&gt;economist James&lt;/em&gt; Donegan at the &lt;em&gt;Toronto securities&lt;/em&gt; firm of &lt;em&gt;Midland Doherty Ltd&lt;/em&gt;.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;economy&lt;/em&gt; is showing &lt;em&gt;signs&lt;/em&gt; of weakening--particularly car &lt;em&gt;sales-&lt;/em&gt;-it would &lt;em&gt;indicate&lt;/em&gt; that part of the &lt;em&gt;strength &lt;/em&gt;(in &lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;trade figures)&lt;/em&gt; is probably &lt;em&gt;transitory.&lt;/em&gt;"</str>
+        <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Recovery&lt;/em&gt; in the &lt;em&gt;automotive sector&lt;/em&gt; helped push the &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;exports&lt;/em&gt; up by 5.9 pct in &lt;em&gt;February,"&lt;/em&gt; the &lt;em&gt;agency&lt;/em&gt; said in its &lt;em&gt;monthly report&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

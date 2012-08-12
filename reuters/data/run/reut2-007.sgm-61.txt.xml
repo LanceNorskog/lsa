@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-61.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">benefit</str>
+        <str name="text">states</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">based</str>
-        <double name="strength">1.0</double>
+        <str name="text">country</str>
+        <double name="strength">0.9823127115697029</double>
       </lst>
       <lst name="term">
-        <str name="text">highest</str>
-        <double name="strength">1.0</double>
+        <str name="text">calculated</str>
+        <double name="strength">0.9823127115697029</double>
       </lst>
       <lst name="term">
-        <str name="text">department</str>
-        <double name="strength">1.0</double>
+        <str name="text">cases</str>
+        <double name="strength">0.9647247879016211</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">1.0</double>
+        <str name="text">major</str>
+        <double name="strength">0.9647247879016203</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">British Agriculture Minister Michael Jopling during a visit to Washington this week endorsed the OECD work as a starting point for the Uruguay round negotiations on agriculture.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. subsidy levels also are increased by the 1985 farm bill, which sharply boosted government deficiency payments to grain farmers and applied a marketing loan for rice, officials added.</str>
-        <int name="index">34</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.9241991362985049</double>
-      </lst>
       <lst name="sentence">
         <str name="text">French Maize Producers Association president Marcel Cazale, citing the result of the USDA calculation for corn, told reporters last week that the United States subsidizes its farmers more than the EC.</str>
         <int name="index">27</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.9151396346130876</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the PSE calculations provide a tool to negotiate down domestic farm support levels, which are a major cause of the present crisis in world agriculture.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9770989533133855</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Agriculture Department's Economic Research Service recently published a study of farm subsidies in an attempt to verify the OECD results and update them to 1982-84.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">167</int>
+        <double name="strength">0.9282678507207429</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;British Agriculture Minister Michael Jopling during&lt;/em&gt; a &lt;em&gt;visit&lt;/em&gt; to &lt;em&gt;Washington&lt;/em&gt; this week &lt;em&gt;endorsed&lt;/em&gt; the OECD work as a &lt;em&gt;starting point&lt;/em&gt; for the &lt;em&gt;Uruguay round negotiations&lt;/em&gt; on &lt;em&gt;agriculture&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;subsidy levels&lt;/em&gt; also are &lt;em&gt;increased&lt;/em&gt; by the 1985 farm bill, &lt;em&gt;which sharply boosted government deficiency payments&lt;/em&gt; to &lt;em&gt;grain farmers&lt;/em&gt; and &lt;em&gt;applied&lt;/em&gt; a &lt;em&gt;marketing&lt;/em&gt; loan for rice, &lt;em&gt;officials added&lt;/em&gt;.</str>
-        <int name="index">34</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;French Maize Producers Association president Marcel Cazale, citing&lt;/em&gt; the &lt;em&gt;result&lt;/em&gt; of the USDA &lt;em&gt;calculation&lt;/em&gt; for corn, told &lt;em&gt;reporters&lt;/em&gt; last week that the &lt;em&gt;United States subsidizes&lt;/em&gt; its &lt;em&gt;farmers&lt;/em&gt; more than the EC.</str>
+        <str name="text">&lt;em&gt;French Maize Producers Association president Marcel Cazale,&lt;/em&gt; citing the &lt;em&gt;result&lt;/em&gt; of the USDA &lt;em&gt;calculation&lt;/em&gt; for corn, told &lt;em&gt;reporters&lt;/em&gt; last week that the United &lt;em&gt;States&lt;/em&gt; subsidizes its &lt;em&gt;farmers&lt;/em&gt; more than the EC.</str>
         <int name="index">27</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the PSE &lt;em&gt;calculations provide&lt;/em&gt; a tool to &lt;em&gt;negotiate&lt;/em&gt; down &lt;em&gt;domestic&lt;/em&gt; farm &lt;em&gt;support levels,&lt;/em&gt; which are a &lt;em&gt;major cause&lt;/em&gt; of the &lt;em&gt;present crisis&lt;/em&gt; in &lt;em&gt;world agriculture&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt;'s &lt;em&gt;Economic Research Service&lt;/em&gt; recently published a &lt;em&gt;study&lt;/em&gt; of farm &lt;em&gt;subsidies&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;verify&lt;/em&gt; the OECD &lt;em&gt;results&lt;/em&gt; and &lt;em&gt;update&lt;/em&gt; them to 1982-84.</str>
+        <int name="index">22</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">40</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-706.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">106</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">announce</str>
+        <str name="text">basis</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">making</str>
+        <str name="text">african</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tomorrow</str>
-        <double name="strength">1.0</double>
+        <str name="text">intermittent</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">1.0</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">rules</str>
-        <double name="strength">1.0</double>
+        <str name="text">carryover</str>
+        <double name="strength">0.996951150468247</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">162</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The buffer stock manager may announce today he will be making purchases tomorrow, although under the rules of the agreement such action is not automatic, traders said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.7856062966896429</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">However, little progress has been made in that direction, and the 10-day average is still well below the 1,600 sdr lower intervention level at 1,562.87 from 1,569.46 previously.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.96915769002716</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It seems that when the buffer stock manager is absent from the market, prices go up, while when he declares his intention to buy, quite often the reverse applies, traders said.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.9271976361720355</double>
+        <double name="strength">0.7604229039031467</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Reuter report&lt;/em&gt; from &lt;em&gt;Rotterdam quoted industry sources there saying Dutch cocoa processors&lt;/em&gt; also are &lt;em&gt;unhappy&lt;/em&gt; with the &lt;em&gt;intermittent buffer stock buying activities&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;Reuter report&lt;/em&gt; from &lt;em&gt;Rotterdam&lt;/em&gt; quoted &lt;em&gt;industry sources&lt;/em&gt; there saying &lt;em&gt;Dutch cocoa processors&lt;/em&gt; also are &lt;em&gt;unhappy&lt;/em&gt; with the &lt;em&gt;intermittent buffer stock buying activities&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, little progress&lt;/em&gt; has been made in that &lt;em&gt;direction,&lt;/em&gt; and the 10-day &lt;em&gt;average&lt;/em&gt; is &lt;em&gt;still&lt;/em&gt; well &lt;em&gt;below&lt;/em&gt; the 1,600 sdr &lt;em&gt;lower intervention level&lt;/em&gt; at 1,562.87 from 1,569.46 &lt;em&gt;previously&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;buffer stock manager&lt;/em&gt; may &lt;em&gt;announce today&lt;/em&gt; he will be making &lt;em&gt;purchases tomorrow,&lt;/em&gt; although under the &lt;em&gt;rules&lt;/em&gt; of the &lt;em&gt;agreement&lt;/em&gt; such &lt;em&gt;action&lt;/em&gt; is not &lt;em&gt;automatic, traders said&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;seems&lt;/em&gt; that when the &lt;em&gt;buffer stock manager&lt;/em&gt; is &lt;em&gt;absent&lt;/em&gt; from the &lt;em&gt;market, prices&lt;/em&gt; go up, &lt;em&gt;while&lt;/em&gt; when he &lt;em&gt;declares&lt;/em&gt; his &lt;em&gt;intention&lt;/em&gt; to buy, &lt;em&gt;quite often&lt;/em&gt; the &lt;em&gt;reverse applies, traders said&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">However, &lt;em&gt;little progress&lt;/em&gt; has been made in that &lt;em&gt;direction,&lt;/em&gt; and the 10-day &lt;em&gt;average&lt;/em&gt; is still well below the 1,600 sdr lower &lt;em&gt;intervention level&lt;/em&gt; at 1,562.87 from 1,569.46 previously.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

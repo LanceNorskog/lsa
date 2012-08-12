@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-539.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">conference</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">senior</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">potential</str>
+        <double name="strength">0.987741544795627</double>
       </lst>
       <lst name="term">
-        <str name="text">lynch</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">strong</str>
+        <double name="strength">0.987741544795627</double>
       </lst>
       <lst name="term">
-        <str name="text">markets</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">edible</str>
+        <double name="strength">0.9877415447956266</double>
       </lst>
       <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9877415447956266</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Balletto told a conference of Canadian farmers at Alberta Agriculture's annual farm outlook conference that the world vegetable oil situation is one of potentially tight supplies.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">180</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Lower production of coconut and palm oils could lead to a decline in vegetable oil stocks this year despite growing supplies of oilseeds, senior oilseeds analyst for Merrill Lynch Capital Markets Mario Balletto said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">216</int>
-        <double name="strength">0.8991401586231713</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The problem is likely to become worse as the artificially high prices encourage producers in South America, Canada and Australia to shift from grains to oilseeds, Balletto said.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.8647756457070055</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If world protein meal demand stagnates, thus limiting the crush of soybeans ... the need for serious supply rationing in the edible oils sector could develop," he said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">170</int>
+        <double name="strength">0.8754403244184709</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Upside potential for prices is limited by the huge supply overhang while strong underlying support is provided by the U.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">122</int>
+        <double name="strength">0.7471818225826664</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Balletto&lt;/em&gt; told a &lt;em&gt;conference&lt;/em&gt; of &lt;em&gt;Canadian farmers&lt;/em&gt; at &lt;em&gt;Alberta Agriculture&lt;/em&gt;'s &lt;em&gt;annual&lt;/em&gt; farm &lt;em&gt;outlook conference&lt;/em&gt; that the &lt;em&gt;world vegetable&lt;/em&gt; oil &lt;em&gt;situation&lt;/em&gt; is one of &lt;em&gt;potentially tight supplies&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Lower production&lt;/em&gt; of &lt;em&gt;coconut&lt;/em&gt; and palm oils &lt;em&gt;could&lt;/em&gt; lead to a &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;vegetable&lt;/em&gt; oil &lt;em&gt;stocks&lt;/em&gt; this year &lt;em&gt;despite growing supplies&lt;/em&gt; of &lt;em&gt;oilseeds, senior oilseeds analyst&lt;/em&gt; for &lt;em&gt;Merrill Lynch Capital Markets Mario Balletto said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;problem&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;become worse&lt;/em&gt; as the &lt;em&gt;artificially&lt;/em&gt; high &lt;em&gt;prices encourage producers&lt;/em&gt; in &lt;em&gt;South America, Canada&lt;/em&gt; and &lt;em&gt;Australia&lt;/em&gt; to &lt;em&gt;shift&lt;/em&gt; from &lt;em&gt;grains&lt;/em&gt; to &lt;em&gt;oilseeds, Balletto said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;problem&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; worse as the artificially high &lt;em&gt;prices encourage producers&lt;/em&gt; in &lt;em&gt;South America, Canada&lt;/em&gt; and &lt;em&gt;Australia&lt;/em&gt; to &lt;em&gt;shift&lt;/em&gt; from &lt;em&gt;grains&lt;/em&gt; to &lt;em&gt;oilseeds, Balletto said&lt;/em&gt;.</str>
         <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If &lt;em&gt;world protein&lt;/em&gt; meal &lt;em&gt;demand&lt;/em&gt; stagnates, thus limiting the &lt;em&gt;crush&lt;/em&gt; of &lt;em&gt;soybeans ...&lt;/em&gt; the need for &lt;em&gt;serious supply rationing&lt;/em&gt; in the &lt;em&gt;edible&lt;/em&gt; oils &lt;em&gt;sector&lt;/em&gt; could &lt;em&gt;develop,"&lt;/em&gt; he said.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Upside potential&lt;/em&gt; for &lt;em&gt;prices&lt;/em&gt; is limited by the huge &lt;em&gt;supply overhang&lt;/em&gt; while &lt;em&gt;strong underlying support&lt;/em&gt; is provided by the U.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

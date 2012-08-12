@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-351.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">collected</str>
+        <str name="text">damage</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">burden</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">creditors</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">supreme</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">bankruptcy</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">concerning</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">ilacqua</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">amount</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">rothschild</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"It seems to me that the hope of an out of court settlement in this long running court case had a greater relative impact on Pennzoil's stock then on Texaco's," analyst Sanford Margoshes of Shearson Lehman Brothers said, citing the sharper decline in Pennzoil this morning.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">274</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Citing the burden of the court case and a Supreme Court ruling last week in favor of Pennzoil concerning the amount Texaco must put up as a bond while appealing the case, Texaco filed for the Chapter 11 protection on Sunday.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.8857598806564974</double>
-      </lst>
       <lst name="sentence">
         <str name="text">L.F. Rothschild's Ilacqua said "you have to wonder if an interim settlement can be reached between the two or if this thing is going to go the full legal route, and that is what investment decisions hinge on."</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.798657435044801</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"That decision puts Pennzoil in the unsecured creditor catagory and that means they have lost their preferred position, which is causing the most damage to the stock today," Margoshes said.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">190</int>
+        <double name="strength">0.8640868736774685</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It seems to me that the hope of an out of court settlement in this long running court case had a greater relative impact on Pennzoil's stock then on Texaco's," analyst Sanford Margoshes of Shearson Lehman Brothers said, citing the sharper decline in Pennzoil this morning.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">274</int>
+        <double name="strength">0.8177559178032685</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It &lt;em&gt;seems&lt;/em&gt; to me that the hope of an out of &lt;em&gt;court settlement&lt;/em&gt; in this long &lt;em&gt;running court&lt;/em&gt; case had a &lt;em&gt;greater relative impact&lt;/em&gt; on &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;stock&lt;/em&gt; then on &lt;em&gt;Texaco&lt;/em&gt;'s," &lt;em&gt;analyst Sanford Margoshes&lt;/em&gt; of &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; said, &lt;em&gt;citing&lt;/em&gt; the &lt;em&gt;sharper decline&lt;/em&gt; in &lt;em&gt;Pennzoil&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Citing&lt;/em&gt; the &lt;em&gt;burden&lt;/em&gt; of the &lt;em&gt;court&lt;/em&gt; case and a &lt;em&gt;Supreme Court ruling&lt;/em&gt; last week in &lt;em&gt;favor&lt;/em&gt; of &lt;em&gt;Pennzoil concerning&lt;/em&gt; the &lt;em&gt;amount Texaco&lt;/em&gt; must put up as a bond &lt;em&gt;while appealing&lt;/em&gt; the case, &lt;em&gt;Texaco filed&lt;/em&gt; for the &lt;em&gt;Chapter 11 protection&lt;/em&gt; on &lt;em&gt;Sunday&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">L.F. &lt;em&gt;Rothschild&lt;/em&gt;'s &lt;em&gt;Ilacqua&lt;/em&gt; said "you have to &lt;em&gt;wonder&lt;/em&gt; if an &lt;em&gt;interim settlement&lt;/em&gt; can be &lt;em&gt;reached between&lt;/em&gt; the two or if this &lt;em&gt;thing&lt;/em&gt; is &lt;em&gt;going&lt;/em&gt; to go the full &lt;em&gt;legal route,&lt;/em&gt; and that is what &lt;em&gt;investment decisions hinge on.&lt;/em&gt;"</str>
+        <str name="text">L.F. &lt;em&gt;Rothschild&lt;/em&gt;'s &lt;em&gt;Ilacqua&lt;/em&gt; said "you have to &lt;em&gt;wonder&lt;/em&gt; if an &lt;em&gt;interim settlement&lt;/em&gt; can be reached between the two or if this &lt;em&gt;thing&lt;/em&gt; is going to go the full &lt;em&gt;legal route,&lt;/em&gt; and that is what &lt;em&gt;investment decisions hinge on.&lt;/em&gt;"</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"That &lt;em&gt;decision&lt;/em&gt; puts &lt;em&gt;Pennzoil&lt;/em&gt; in the &lt;em&gt;unsecured creditor catagory&lt;/em&gt; and that means they have lost their &lt;em&gt;preferred position,&lt;/em&gt; which is causing the most &lt;em&gt;damage&lt;/em&gt; to the &lt;em&gt;stock today," Margoshes said&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It seems to me that the hope of an out of &lt;em&gt;court settlement&lt;/em&gt; in this long running &lt;em&gt;court&lt;/em&gt; case had a greater &lt;em&gt;relative impact&lt;/em&gt; on &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;stock&lt;/em&gt; then on &lt;em&gt;Texaco&lt;/em&gt;'s," &lt;em&gt;analyst Sanford Margoshes&lt;/em&gt; of &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; said, citing the sharper &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;Pennzoil&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

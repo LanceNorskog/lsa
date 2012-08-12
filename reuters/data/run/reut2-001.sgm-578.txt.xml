@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-578.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">45</int>
       </lst>
       <lst name="terms">
-        <int name="count">190</int>
+        <int name="count">144</int>
       </lst>
       <lst name="stems">
-        <int name="count">121</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">method</str>
+        <str name="text">nations</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exportable</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">objective</str>
+        <double name="strength">0.9657962347557161</double>
       </lst>
       <lst name="term">
-        <str name="text">establishing</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">states</str>
+        <double name="strength">0.9657962347557137</double>
       </lst>
       <lst name="term">
-        <str name="text">shares</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">consumer</str>
+        <double name="strength">0.9609840811677813</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.5000000000000029</double>
+        <str name="text">other</str>
+        <double name="strength">0.9609840811677806</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S., proposed that future coffee export quota shares be calculated by a formula incorporating a producer's recent exportable production and verified stocks, while large producers led by Brazil proposed maintaining the traditional ad hoc division of shares.</str>
-        <int name="index">7</int>
-        <int name="start">0</int>
-        <int name="end">255</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. trade representative and head of Washington's delegation to the talks, told Reuters on his return from London that the United States is willing to resume the coffee negotiations as early as April if necessary.</str>
         <int name="index">4</int>
         <int name="start">0</int>
         <int name="end">212</int>
-        <double name="strength">0.8138682421481176</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. official, who asked not to be identified, said Brazil and Colombia may flood the coffee market in the next few months in an effort to drive down prices and pressure other countries, particularly the splinter group of small producers who differed with the major producers in London.</str>
-        <int name="index">17</int>
+        <str name="text">S. sources said West Germany's support was at times qualified and there is some concern that the European Community could come under pressure to be more accommodative to producers in future talks.</str>
+        <int name="index">37</int>
         <int name="start">0</int>
-        <int name="end">284</int>
-        <double name="strength">0.7542999165492487</double>
+        <int name="end">196</int>
+        <double name="strength">0.8450576227199217</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the Reagan administration would be reviewing the coffee policy situation following the collapse of the London talks, but "nobody is proposing we change our position."</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.8058470188737745</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S., &lt;em&gt;proposed&lt;/em&gt; that &lt;em&gt;future coffee export quota shares&lt;/em&gt; be &lt;em&gt;calculated&lt;/em&gt; by a &lt;em&gt;formula incorporating&lt;/em&gt; a &lt;em&gt;producer&lt;/em&gt;'s &lt;em&gt;recent exportable production&lt;/em&gt; and &lt;em&gt;verified stocks, while large producers&lt;/em&gt; led by &lt;em&gt;Brazil proposed maintaining&lt;/em&gt; the &lt;em&gt;traditional&lt;/em&gt; ad hoc &lt;em&gt;division&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;trade representative&lt;/em&gt; and head of &lt;em&gt;Washington&lt;/em&gt;'s &lt;em&gt;delegation&lt;/em&gt; to the &lt;em&gt;talks,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; on his &lt;em&gt;return&lt;/em&gt; from &lt;em&gt;London&lt;/em&gt; that the &lt;em&gt;United States&lt;/em&gt; is &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;resume&lt;/em&gt; the &lt;em&gt;coffee negotiations&lt;/em&gt; as &lt;em&gt;early&lt;/em&gt; as &lt;em&gt;April&lt;/em&gt; if &lt;em&gt;necessary&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;trade representative&lt;/em&gt; and head of Washington's &lt;em&gt;delegation&lt;/em&gt; to the &lt;em&gt;talks,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; on his &lt;em&gt;return&lt;/em&gt; from London that the United &lt;em&gt;States&lt;/em&gt; is &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;resume&lt;/em&gt; the &lt;em&gt;coffee negotiations&lt;/em&gt; as &lt;em&gt;early&lt;/em&gt; as &lt;em&gt;April&lt;/em&gt; if &lt;em&gt;necessary&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;official,&lt;/em&gt; who &lt;em&gt;asked&lt;/em&gt; not to be &lt;em&gt;identified,&lt;/em&gt; said &lt;em&gt;Brazil&lt;/em&gt; and &lt;em&gt;Colombia&lt;/em&gt; may &lt;em&gt;flood&lt;/em&gt; the &lt;em&gt;coffee market&lt;/em&gt; in the next few &lt;em&gt;months&lt;/em&gt; in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;drive&lt;/em&gt; down &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;pressure other countries, particularly&lt;/em&gt; the &lt;em&gt;splinter group&lt;/em&gt; of &lt;em&gt;small producers&lt;/em&gt; who &lt;em&gt;differed&lt;/em&gt; with the &lt;em&gt;major producers&lt;/em&gt; in &lt;em&gt;London&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">S. &lt;em&gt;sources&lt;/em&gt; said West &lt;em&gt;Germany&lt;/em&gt;'s &lt;em&gt;support&lt;/em&gt; was at &lt;em&gt;times&lt;/em&gt; qualified and there is some &lt;em&gt;concern&lt;/em&gt; that the &lt;em&gt;European Community&lt;/em&gt; could come under &lt;em&gt;pressure&lt;/em&gt; to be more &lt;em&gt;accommodative&lt;/em&gt; to &lt;em&gt;producers&lt;/em&gt; in &lt;em&gt;future talks&lt;/em&gt;.</str>
+        <int name="index">37</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the &lt;em&gt;Reagan administration&lt;/em&gt; would be reviewing the &lt;em&gt;coffee policy situation&lt;/em&gt; following the &lt;em&gt;collapse&lt;/em&gt; of the &lt;em&gt;London talks,&lt;/em&gt; but "&lt;em&gt;nobody&lt;/em&gt; is proposing we &lt;em&gt;change&lt;/em&gt; our &lt;em&gt;position.&lt;/em&gt;"</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

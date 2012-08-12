@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-592.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">today</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">credits</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">eight</str>
+        <double name="strength">0.9999999999999967</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9917320401144673</double>
       </lst>
       <lst name="term">
-        <str name="text">forints</str>
-        <double name="strength">0.7905694150420934</double>
+        <str name="text">useful</str>
+        <double name="strength">0.9917320401144668</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Fekete said Hungary would continue to restructure its debt profile by prepaying high interest shorter and medium term loans with cheaper long term money for which it was looking more and more to the fixed interest rate bond market, where he considered rates to be low.</str>
-        <int name="index">23</int>
+        <str name="text">National Bank of Hungary first vice-president Janos Fekete said he hoped a planned eight pct devaluation of the forint will spur exports and redress last year's severe trade deficit with the West.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">268</int>
+        <int name="end">196</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Hungary's net hard currency debt soared to 7.79 billion dlrs last year from 5.01 billion in 1985, partly because of a current account deficit of 1.42 billion dlrs and partly because the fall in the dollar increased the dollar value of debt denominated in marks or yen.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">269</int>
-        <double name="strength">0.9920833277090991</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">On the budget deficit, which tripled to a provisional 47 billion forints last year after quadrupling in 1985, Fekete said the finance ministry was working out measures to reduce an approved target deficit for this year of 43.8 billion forints to between 30 and 35 billion forints.</str>
-        <int name="index">25</int>
+        <str name="text">It will only be useful if they also make efforts to restructure industry and improve the quality of their export goods."</str>
+        <int name="index">13</int>
         <int name="start">0</int>
-        <int name="end">280</int>
-        <double name="strength">0.9508558316906479</double>
+        <int name="end">120</int>
+        <double name="strength">0.8552563552236279</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This was partly an after-effect of action Hungary took to prevent inflation from soaring during the oil price shocks of the 1970s, he added.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.7972718506686252</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fekete&lt;/em&gt; said &lt;em&gt;Hungary would continue&lt;/em&gt; to &lt;em&gt;restructure&lt;/em&gt; its debt &lt;em&gt;profile&lt;/em&gt; by &lt;em&gt;prepaying&lt;/em&gt; high &lt;em&gt;interest shorter&lt;/em&gt; and &lt;em&gt;medium&lt;/em&gt; term &lt;em&gt;loans&lt;/em&gt; with &lt;em&gt;cheaper&lt;/em&gt; long term &lt;em&gt;money&lt;/em&gt; for &lt;em&gt;which&lt;/em&gt; it was &lt;em&gt;looking&lt;/em&gt; more and more to the &lt;em&gt;fixed interest&lt;/em&gt; rate bond &lt;em&gt;market, where&lt;/em&gt; he &lt;em&gt;considered rates&lt;/em&gt; to be low.</str>
-        <int name="index">23</int>
+        <str name="text">&lt;em&gt;National&lt;/em&gt; Bank of &lt;em&gt;Hungary first&lt;/em&gt; vice-&lt;em&gt;president Janos&lt;/em&gt; Fekete said he hoped a planned &lt;em&gt;eight&lt;/em&gt; pct &lt;em&gt;devaluation&lt;/em&gt; of the &lt;em&gt;forint&lt;/em&gt; will spur &lt;em&gt;exports&lt;/em&gt; and &lt;em&gt;redress&lt;/em&gt; last year's &lt;em&gt;severe trade deficit&lt;/em&gt; with the West.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Hungary&lt;/em&gt;'s net hard &lt;em&gt;currency&lt;/em&gt; debt &lt;em&gt;soared&lt;/em&gt; to 7.79 &lt;em&gt;billion&lt;/em&gt; dlrs last year from 5.01 &lt;em&gt;billion&lt;/em&gt; in 1985, &lt;em&gt;partly because&lt;/em&gt; of a &lt;em&gt;current account deficit&lt;/em&gt; of 1.42 &lt;em&gt;billion&lt;/em&gt; dlrs and &lt;em&gt;partly because&lt;/em&gt; the fall in the &lt;em&gt;dollar increased&lt;/em&gt; the &lt;em&gt;dollar value&lt;/em&gt; of debt &lt;em&gt;denominated&lt;/em&gt; in &lt;em&gt;marks&lt;/em&gt; or yen.</str>
-        <int name="index">17</int>
+        <str name="text">It will only be &lt;em&gt;useful&lt;/em&gt; if they also make &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;restructure industry&lt;/em&gt; and &lt;em&gt;improve&lt;/em&gt; the &lt;em&gt;quality&lt;/em&gt; of their &lt;em&gt;export goods.&lt;/em&gt;"</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On the &lt;em&gt;budget deficit, which tripled&lt;/em&gt; to a &lt;em&gt;provisional 47 billion forints&lt;/em&gt; last year &lt;em&gt;after quadrupling&lt;/em&gt; in 1985, &lt;em&gt;Fekete&lt;/em&gt; said the &lt;em&gt;finance ministry&lt;/em&gt; was &lt;em&gt;working&lt;/em&gt; out &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; an &lt;em&gt;approved target deficit&lt;/em&gt; for this year of 43.8 &lt;em&gt;billion forints&lt;/em&gt; to &lt;em&gt;between 30&lt;/em&gt; and 35 &lt;em&gt;billion forints&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">This was partly an after-&lt;em&gt;effect&lt;/em&gt; of &lt;em&gt;action Hungary&lt;/em&gt; took to &lt;em&gt;prevent inflation&lt;/em&gt; from soaring during the oil &lt;em&gt;price shocks&lt;/em&gt; of the 1970s, he added.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">27</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-834.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">54</int>
       </lst>
       <lst name="terms">
-        <int name="count">228</int>
+        <int name="count">154</int>
       </lst>
       <lst name="stems">
-        <int name="count">151</int>
+        <int name="count">98</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">partly</str>
+        <str name="text">major</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">1.0</double>
+        <str name="text">pressure</str>
+        <double name="strength">0.9897904885412283</double>
       </lst>
       <lst name="term">
-        <str name="text">likely</str>
-        <double name="strength">0.9999999999999968</double>
+        <str name="text">interest</str>
+        <double name="strength">0.989790488541228</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.989790488541228</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">sharing</str>
+        <double name="strength">0.9897904885412279</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">However, there has been considerable resistance to the package, partly because of some of the clauses it contains and partly because many small U.</str>
-        <int name="index">10</int>
+        <str name="text">Bankers prefer to view the stance taken by the British banks and other national groups as "a matter of principal, and burden sharing" rather than as a "pressure tactic" to force the U.</str>
+        <int name="index">31</int>
         <int name="start">1</int>
-        <int name="end">147</int>
+        <int name="end">185</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K., A proposed Inland Revenue ruling would affect the tax treatment of certain types of loans, many of which are made to Latin American countries.</str>
+        <int name="index">50</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.9762152576774911</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">After months of haggling, a proposed rescheduling agreement for Mexico was struck last September during the annual meeting of the World Bank and International Monetary Fund in Washington.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.9599313225665299</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Other bankers, who declined to be identified, said other groups of banks particularly those in Switzerland, France and Canada, were equally reluctant to sign, although they had not sent any telex to Citibank, which chairs Mexico's 13-bank advisory group.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">255</int>
-        <double name="strength">0.91111991398054</double>
+        <double name="strength">0.9755445362594866</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, there&lt;/em&gt; has been &lt;em&gt;considerable resistance&lt;/em&gt; to the &lt;em&gt;package, partly because&lt;/em&gt; of some of the &lt;em&gt;clauses&lt;/em&gt; it &lt;em&gt;contains&lt;/em&gt; and &lt;em&gt;partly because&lt;/em&gt; many &lt;em&gt;small U&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Bankers prefer&lt;/em&gt; to view the &lt;em&gt;stance&lt;/em&gt; taken by the &lt;em&gt;British banks&lt;/em&gt; and &lt;em&gt;other national groups&lt;/em&gt; as "a &lt;em&gt;matter&lt;/em&gt; of &lt;em&gt;principal,&lt;/em&gt; and &lt;em&gt;burden sharing"&lt;/em&gt; rather than as a "&lt;em&gt;pressure tactic"&lt;/em&gt; to &lt;em&gt;force&lt;/em&gt; the U.</str>
+        <int name="index">31</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After months&lt;/em&gt; of &lt;em&gt;haggling,&lt;/em&gt; a &lt;em&gt;proposed rescheduling agreement&lt;/em&gt; for &lt;em&gt;Mexico&lt;/em&gt; was &lt;em&gt;struck&lt;/em&gt; last &lt;em&gt;September during&lt;/em&gt; the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;World&lt;/em&gt; Bank and &lt;em&gt;International Monetary&lt;/em&gt; Fund in &lt;em&gt;Washington&lt;/em&gt;.</str>
+        <str name="text">K., A proposed &lt;em&gt;Inland Revenue ruling&lt;/em&gt; would &lt;em&gt;affect&lt;/em&gt; the tax &lt;em&gt;treatment&lt;/em&gt; of &lt;em&gt;certain types&lt;/em&gt; of &lt;em&gt;loans,&lt;/em&gt; many of which are made to &lt;em&gt;Latin American countries&lt;/em&gt;.</str>
+        <int name="index">50</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After &lt;em&gt;months&lt;/em&gt; of haggling, a proposed &lt;em&gt;rescheduling agreement&lt;/em&gt; for &lt;em&gt;Mexico&lt;/em&gt; was struck last &lt;em&gt;September&lt;/em&gt; during the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;World&lt;/em&gt; Bank and &lt;em&gt;International Monetary&lt;/em&gt; Fund in &lt;em&gt;Washington&lt;/em&gt;.</str>
         <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Other bankers,&lt;/em&gt; who &lt;em&gt;declined&lt;/em&gt; to be &lt;em&gt;identified,&lt;/em&gt; said &lt;em&gt;other groups&lt;/em&gt; of &lt;em&gt;banks particularly those&lt;/em&gt; in &lt;em&gt;Switzerland, France&lt;/em&gt; and &lt;em&gt;Canada,&lt;/em&gt; were &lt;em&gt;equally reluctant&lt;/em&gt; to sign, &lt;em&gt;although&lt;/em&gt; they had not sent any &lt;em&gt;telex&lt;/em&gt; to &lt;em&gt;Citibank, which chairs Mexico&lt;/em&gt;'s 13-bank &lt;em&gt;advisory group&lt;/em&gt;.</str>
-        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

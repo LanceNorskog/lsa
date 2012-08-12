@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-850.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">189</int>
+        <int name="count">129</int>
       </lst>
       <lst name="stems">
-        <int name="count">125</int>
+        <int name="count">83</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">system</str>
+        <str name="text">cases</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">trading</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">repayment</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">attracted</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">loans</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">complaints</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">community</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">private</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The problem lies in reconciling Saudi Arabia's western-style banking system and an Islamic, "Sharia" legal system in which interest payments may be viewed as usury and illegal.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">177</int>
+        <str name="text">Bankers in Saudi Arabia are negotiating a delicate balance between western business practice and oriental justice as they try to restructure the troubled corporate sector's debt.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">178</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">And they have become highly selective over enterprises eligible for new credit after a run of failures that forced heavy loan loss provisions and ate relentlessly into profits.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.9228366357960652</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Sixty pct of the debt will be repaid in monthly instalments over seven years at 1/4 point over Bahrain interbank offered rates (BIBOR).</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">0.9183128995546661</double>
+        <double name="strength">0.9878832592693688</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AAA's rescheduling has been followed in the last few days by a draft accord on the 1.3 billion riyal debt of one of the Kingdom's most publicised companies, &lt;Saudi Research and Development Corp&gt;, REDEC.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">203</int>
+        <double name="strength">0.9222940955640603</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;problem&lt;/em&gt; lies in &lt;em&gt;reconciling Saudi Arabia&lt;/em&gt;'s &lt;em&gt;western-style banking system&lt;/em&gt; and an &lt;em&gt;Islamic, "Sharia" legal system&lt;/em&gt; in &lt;em&gt;which interest payments&lt;/em&gt; may be &lt;em&gt;viewed&lt;/em&gt; as &lt;em&gt;usury&lt;/em&gt; and &lt;em&gt;illegal&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; in &lt;em&gt;Saudi Arabia&lt;/em&gt; are negotiating a &lt;em&gt;delicate balance&lt;/em&gt; between &lt;em&gt;western business practice&lt;/em&gt; and &lt;em&gt;oriental justice&lt;/em&gt; as they try to &lt;em&gt;restructure&lt;/em&gt; the &lt;em&gt;troubled corporate sector&lt;/em&gt;'s debt.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">And they have &lt;em&gt;become highly selective&lt;/em&gt; over &lt;em&gt;enterprises eligible&lt;/em&gt; for new &lt;em&gt;credit after&lt;/em&gt; a run of &lt;em&gt;failures&lt;/em&gt; that &lt;em&gt;forced heavy&lt;/em&gt; loan loss &lt;em&gt;provisions&lt;/em&gt; and ate &lt;em&gt;relentlessly&lt;/em&gt; into &lt;em&gt;profits&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Sixty&lt;/em&gt; pct of the debt will be &lt;em&gt;repaid&lt;/em&gt; in &lt;em&gt;monthly instalments&lt;/em&gt; over &lt;em&gt;seven years&lt;/em&gt; at 1/4 &lt;em&gt;point&lt;/em&gt; over &lt;em&gt;Bahrain interbank offered rates (BIBOR)&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sixty&lt;/em&gt; pct of the debt will be repaid in &lt;em&gt;monthly instalments&lt;/em&gt; over &lt;em&gt;seven years&lt;/em&gt; at 1/4 &lt;em&gt;point&lt;/em&gt; over &lt;em&gt;Bahrain interbank&lt;/em&gt; offered &lt;em&gt;rates (BIBOR)&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AAA's &lt;em&gt;rescheduling&lt;/em&gt; has been followed in the last few days by a &lt;em&gt;draft accord&lt;/em&gt; on the 1.3 &lt;em&gt;billion riyal&lt;/em&gt; debt of one of the &lt;em&gt;Kingdom&lt;/em&gt;'s most &lt;em&gt;publicised companies, &lt;Saudi Research&lt;/em&gt; and &lt;em&gt;Development&lt;/em&gt; Corp&gt;, &lt;em&gt;REDEC&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

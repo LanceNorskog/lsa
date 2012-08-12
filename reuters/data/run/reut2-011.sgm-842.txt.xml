@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-842.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">might</str>
+        <str name="text">ministry</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">estimate</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">primary</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tonne</str>
-        <double name="strength">0.7071067811865476</double>
+        <str name="text">january</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">concerned</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">cabinet</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forced</str>
-        <double name="strength">0.5</double>
+        <str name="text">decide</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Malaysia, which produced 117,000 tonnes of cocoa last year, might be forced to withhold up to 70,000 tonnes worth some 30 mln ringgit under such a measure in the long-term, and this might affect their economic viability, they said.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They estimate the levy at around 100 ringgit a tonne at current prices and said they are not prepared to accept it because a big portion of Malaysia's cocoa exports, officially estimated at 112,000 tonnes in 1986, goes to non-members.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.9925068093862857</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Ministry of Primary Industries officials said in January the cabinet would decide on Malaysia's participation, but so far a decision has not been announced.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">157</int>
-        <double name="strength">0.8752891514355969</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The government is said to be in favour of joining the pact, but local cocoa growers and traders told Reuters they are against the idea because certain provisions in it may be to their disadvantage.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">0.8653589225975296</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The government feels that the pact, through its buffer stock mechanism, can help stabilise prices in a market which is labouring under surpluses, officials said.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.8062749617552969</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysia, which produced 117,000 tonnes&lt;/em&gt; of &lt;em&gt;cocoa&lt;/em&gt; last year, &lt;em&gt;might&lt;/em&gt; be &lt;em&gt;forced&lt;/em&gt; to &lt;em&gt;withhold&lt;/em&gt; up to 70,000 &lt;em&gt;tonnes worth&lt;/em&gt; some 30 mln &lt;em&gt;ringgit under&lt;/em&gt; such a &lt;em&gt;measure&lt;/em&gt; in the long-term, and this &lt;em&gt;might affect their economic viability,&lt;/em&gt; they said.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They &lt;em&gt;estimate&lt;/em&gt; the levy at &lt;em&gt;around 100 ringgit&lt;/em&gt; a &lt;em&gt;tonne&lt;/em&gt; at &lt;em&gt;current prices&lt;/em&gt; and said they are not &lt;em&gt;prepared&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; it &lt;em&gt;because&lt;/em&gt; a big &lt;em&gt;portion&lt;/em&gt; of &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;cocoa exports, officially estimated&lt;/em&gt; at 112,000 &lt;em&gt;tonnes&lt;/em&gt; in 1986, goes to non-&lt;em&gt;members&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;Primary Industries officials&lt;/em&gt; said in &lt;em&gt;January&lt;/em&gt; the &lt;em&gt;cabinet would decide&lt;/em&gt; on &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;participation,&lt;/em&gt; but so far a &lt;em&gt;decision&lt;/em&gt; has not been &lt;em&gt;announced&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;Primary Industries officials&lt;/em&gt; said in &lt;em&gt;January&lt;/em&gt; the &lt;em&gt;cabinet&lt;/em&gt; would &lt;em&gt;decide&lt;/em&gt; on &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;participation,&lt;/em&gt; but so far a &lt;em&gt;decision&lt;/em&gt; has not been announced.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; is said to be in &lt;em&gt;favour&lt;/em&gt; of joining the pact, but &lt;em&gt;local cocoa growers&lt;/em&gt; and &lt;em&gt;traders&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; they are against the idea because &lt;em&gt;certain provisions&lt;/em&gt; in it may be to their &lt;em&gt;disadvantage&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; feels that the pact, through its &lt;em&gt;buffer stock mechanism,&lt;/em&gt; can help &lt;em&gt;stabilise prices&lt;/em&gt; in a &lt;em&gt;market&lt;/em&gt; which is labouring under &lt;em&gt;surpluses, officials said&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

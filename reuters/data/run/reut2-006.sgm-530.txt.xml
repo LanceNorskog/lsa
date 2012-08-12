@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-530.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">178</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">election</str>
+        <str name="text">economist</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">further</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">today</str>
+        <double name="strength">0.9934327593756561</double>
       </lst>
       <lst name="term">
-        <str name="text">investments</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">maintain</str>
+        <double name="strength">0.9719017617259387</double>
       </lst>
       <lst name="term">
-        <str name="text">favour</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">modest</str>
+        <double name="strength">0.9719017617259373</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Martin, of Phillips and Drew, said the dampening effect of a sterling rise on consumer price inflation would not materialise for at least nine months while its hampering impact on manufactured exports would show almost immediately.</str>
-        <int name="index">26</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Analysts said the budget, featuring income tax cuts as well as cautious plans for public finances, had improved the chances of re-election for the Conservative government and probably advanced the election date.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">0.9706301533816922</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Analysts said the slowdown was likely to be temporary, and the reappraisal of sterling assets by international investors was set to resume as early as tomorrow, leading to higher gilt prices, exchange rate advances and lower money market rates.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">245</int>
-        <double name="strength">0.916169112548788</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Martin, of Phillips and Drew, said the dampening effect of a sterling rise on consumer price inflation would not materialise for at least nine months while its hampering impact on manufactured exports would show almost immediately.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">232</int>
+        <double name="strength">0.8979275619513748</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K. Bank base lending rates to 10 pct signals the Bank of England's determination to maintain a cautious monetary stance, but financial markets appear set to force its hand, analysts said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">187</int>
+        <double name="strength">0.8636406032135258</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Martin,&lt;/em&gt; of &lt;em&gt;Phillips&lt;/em&gt; and Drew, said the &lt;em&gt;dampening effect&lt;/em&gt; of a &lt;em&gt;sterling&lt;/em&gt; rise on &lt;em&gt;consumer price inflation would&lt;/em&gt; not &lt;em&gt;materialise&lt;/em&gt; for at &lt;em&gt;least&lt;/em&gt; nine &lt;em&gt;months while&lt;/em&gt; its &lt;em&gt;hampering impact&lt;/em&gt; on &lt;em&gt;manufactured exports would&lt;/em&gt; show &lt;em&gt;almost immediately&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;slowdown&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;temporary,&lt;/em&gt; and the &lt;em&gt;reappraisal&lt;/em&gt; of &lt;em&gt;sterling assets&lt;/em&gt; by &lt;em&gt;international investors&lt;/em&gt; was set to &lt;em&gt;resume&lt;/em&gt; as &lt;em&gt;early&lt;/em&gt; as &lt;em&gt;tomorrow,&lt;/em&gt; leading to higher gilt &lt;em&gt;prices, exchange&lt;/em&gt; rate &lt;em&gt;advances&lt;/em&gt; and lower &lt;em&gt;money market rates&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Martin,&lt;/em&gt; of &lt;em&gt;Phillips&lt;/em&gt; and Drew, said the dampening &lt;em&gt;effect&lt;/em&gt; of a &lt;em&gt;sterling&lt;/em&gt; rise on &lt;em&gt;consumer price inflation&lt;/em&gt; would not &lt;em&gt;materialise&lt;/em&gt; for at least nine &lt;em&gt;months&lt;/em&gt; while its hampering &lt;em&gt;impact&lt;/em&gt; on &lt;em&gt;manufactured exports&lt;/em&gt; would show almost immediately.</str>
         <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;budget, featuring income&lt;/em&gt; tax cuts as well as &lt;em&gt;cautious plans&lt;/em&gt; for &lt;em&gt;public finances,&lt;/em&gt; had &lt;em&gt;improved&lt;/em&gt; the &lt;em&gt;chances&lt;/em&gt; of re-&lt;em&gt;election&lt;/em&gt; for the &lt;em&gt;Conservative government&lt;/em&gt; and &lt;em&gt;probably advanced&lt;/em&gt; the &lt;em&gt;election date&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;slowdown&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;temporary,&lt;/em&gt; and the &lt;em&gt;reappraisal&lt;/em&gt; of &lt;em&gt;sterling assets&lt;/em&gt; by &lt;em&gt;international investors&lt;/em&gt; was set to &lt;em&gt;resume&lt;/em&gt; as &lt;em&gt;early&lt;/em&gt; as &lt;em&gt;tomorrow, leading&lt;/em&gt; to &lt;em&gt;higher&lt;/em&gt; gilt &lt;em&gt;prices, exchange&lt;/em&gt; rate &lt;em&gt;advances&lt;/em&gt; and &lt;em&gt;lower money market rates&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">K. Bank base &lt;em&gt;lending rates&lt;/em&gt; to 10 pct &lt;em&gt;signals&lt;/em&gt; the Bank of &lt;em&gt;England&lt;/em&gt;'s &lt;em&gt;determination&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; a &lt;em&gt;cautious monetary stance,&lt;/em&gt; but &lt;em&gt;financial markets appear&lt;/em&gt; set to &lt;em&gt;force&lt;/em&gt; its hand, &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

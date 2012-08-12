@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-234.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">accelerate</str>
+        <str name="text">equity</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">privatisation</str>
+        <str name="text">scheme</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">assets</str>
+        <str name="text">worth</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">owned</str>
+        <str name="text">applications</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">associates</str>
+        <str name="text">selective</str>
         <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said his department aims to accelerate its privatisation program and the sale of non-performing assets owned by associates of former President Ferdinand Marcos to achieve a 1987 sales target of four billion pesos which would help finance land reform.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">254</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
         <str name="text">Ongpin also said the government would pursue efforts to obtain 500 mln dlrs in concessional funding for the program from a World Bank-led consultative group of multilateral and bilateral aid donors.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">199</int>
-        <double name="strength">0.9201734278269366</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Ongpin said the government's debt-equity scheme, introduced in August last year, had attracted more than 276 mln dlrs worth of applications, but selective evaluation had resulted in approvals of only 61.8 mln dlrs at end-February.</str>
-        <int name="index">8</int>
+        <str name="text">He said his department aims to accelerate its privatisation program and the sale of non-performing assets owned by associates of former President Ferdinand Marcos to achieve a 1987 sales target of four billion pesos which would help finance land reform.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.9094786240311973</double>
+        <int name="end">254</int>
+        <double name="strength">0.9994215563122237</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In a report to President Corazon Aquino on his department's performance during the year ended February 28, Ongpin said at least 15.9 billion pesos were expected to accrue from new tax reform measures announced last year.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">221</int>
+        <double name="strength">0.8418113842519258</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said his &lt;em&gt;department&lt;/em&gt; aims to &lt;em&gt;accelerate&lt;/em&gt; its &lt;em&gt;privatisation program&lt;/em&gt; and the sale of non-&lt;em&gt;performing assets owned&lt;/em&gt; by &lt;em&gt;associates&lt;/em&gt; of &lt;em&gt;former President Ferdinand Marcos&lt;/em&gt; to &lt;em&gt;achieve&lt;/em&gt; a 1987 &lt;em&gt;sales target&lt;/em&gt; of four &lt;em&gt;billion pesos which would&lt;/em&gt; help &lt;em&gt;finance&lt;/em&gt; land &lt;em&gt;reform&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; also said the &lt;em&gt;government would pursue efforts&lt;/em&gt; to &lt;em&gt;obtain 500&lt;/em&gt; mln dlrs in &lt;em&gt;concessional funding&lt;/em&gt; for the &lt;em&gt;program&lt;/em&gt; from a &lt;em&gt;World&lt;/em&gt; Bank-led &lt;em&gt;consultative group&lt;/em&gt; of &lt;em&gt;multilateral&lt;/em&gt; and &lt;em&gt;bilateral&lt;/em&gt; aid &lt;em&gt;donors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; also said the &lt;em&gt;government&lt;/em&gt; would &lt;em&gt;pursue efforts&lt;/em&gt; to &lt;em&gt;obtain 500&lt;/em&gt; mln dlrs in &lt;em&gt;concessional funding&lt;/em&gt; for the &lt;em&gt;program&lt;/em&gt; from a &lt;em&gt;World&lt;/em&gt; Bank-led &lt;em&gt;consultative group&lt;/em&gt; of &lt;em&gt;multilateral&lt;/em&gt; and &lt;em&gt;bilateral&lt;/em&gt; aid &lt;em&gt;donors&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt;'s debt-&lt;em&gt;equity scheme, introduced&lt;/em&gt; in &lt;em&gt;August&lt;/em&gt; last year, had &lt;em&gt;attracted&lt;/em&gt; more than 276 mln dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;applications,&lt;/em&gt; but &lt;em&gt;selective evaluation&lt;/em&gt; had &lt;em&gt;resulted&lt;/em&gt; in &lt;em&gt;approvals&lt;/em&gt; of only 61.8 mln dlrs at end-&lt;em&gt;February&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">He said his &lt;em&gt;department&lt;/em&gt; aims to &lt;em&gt;accelerate&lt;/em&gt; its &lt;em&gt;privatisation program&lt;/em&gt; and the sale of non-performing &lt;em&gt;assets&lt;/em&gt; owned by &lt;em&gt;associates&lt;/em&gt; of &lt;em&gt;former President&lt;/em&gt; Ferdinand &lt;em&gt;Marcos&lt;/em&gt; to &lt;em&gt;achieve&lt;/em&gt; a 1987 &lt;em&gt;sales target&lt;/em&gt; of four &lt;em&gt;billion pesos&lt;/em&gt; which would help &lt;em&gt;finance&lt;/em&gt; land &lt;em&gt;reform&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In a &lt;em&gt;report&lt;/em&gt; to &lt;em&gt;President Corazon Aquino&lt;/em&gt; on his &lt;em&gt;department&lt;/em&gt;'s &lt;em&gt;performance&lt;/em&gt; during the year ended &lt;em&gt;February 28, Ongpin&lt;/em&gt; said at least 15.9 &lt;em&gt;billion pesos&lt;/em&gt; were expected to &lt;em&gt;accrue&lt;/em&gt; from new tax &lt;em&gt;reform measures&lt;/em&gt; announced last year.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

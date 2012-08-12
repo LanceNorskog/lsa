@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-650.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">provide</str>
+        <str name="text">value</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">troubled</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">congressional</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">james</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">resolution</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">mcclure</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">action</str>
+        <double name="strength">0.9634242309653822</double>
       </lst>
       <lst name="term">
-        <str name="text">idaho</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">secure</str>
+        <double name="strength">0.9634242309653822</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">214</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Yesterday, Jim Billington, a member of the Farm Credit Administration board which regulates the system, said Congress should plan to spend at least 800 mln dlrs beginning late this year to bail-out the system.</str>
-        <int name="index">7</int>
+        <str name="text">Beesley's testimony to the Congressional hearing tomorrow will not include any new financial forecast of system losses, officials said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">0.9456590585380085</double>
+        <int name="end">136</int>
+        <double name="strength">0.8197282046038106</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">James McClure, R-Idaho, has drafted a resolution which would put the Senate on record as guaranteeing the value of farm credit system stock.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">140</int>
-        <double name="strength">0.7551766311713253</double>
+        <double name="strength">0.6954323835128283</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition&lt;/em&gt; to &lt;em&gt;requesting&lt;/em&gt; a &lt;em&gt;guarantee&lt;/em&gt; of &lt;em&gt;borrower stock, Beesley&lt;/em&gt; is &lt;em&gt;expected tomorrow&lt;/em&gt; to &lt;em&gt;endorse&lt;/em&gt; the &lt;em&gt;creation&lt;/em&gt; of a &lt;em&gt;secondary market, called "Aggie&lt;/em&gt;-mae" by some &lt;em&gt;proponents,&lt;/em&gt; for the &lt;em&gt;resale&lt;/em&gt; of farm real &lt;em&gt;estate loans&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;addition&lt;/em&gt; to requesting a &lt;em&gt;guarantee&lt;/em&gt; of &lt;em&gt;borrower stock, Beesley&lt;/em&gt; is expected &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;endorse&lt;/em&gt; the &lt;em&gt;creation&lt;/em&gt; of a &lt;em&gt;secondary market,&lt;/em&gt; called "Aggie-mae" by some &lt;em&gt;proponents,&lt;/em&gt; for the &lt;em&gt;resale&lt;/em&gt; of farm real &lt;em&gt;estate loans&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yesterday,&lt;/em&gt; Jim &lt;em&gt;Billington,&lt;/em&gt; a &lt;em&gt;member&lt;/em&gt; of the Farm &lt;em&gt;Credit Administration board which regulates&lt;/em&gt; the &lt;em&gt;system,&lt;/em&gt; said &lt;em&gt;Congress should&lt;/em&gt; plan to &lt;em&gt;spend&lt;/em&gt; at &lt;em&gt;least 800&lt;/em&gt; mln dlrs &lt;em&gt;beginning&lt;/em&gt; late this year to bail-out the &lt;em&gt;system&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Beesley&lt;/em&gt;'s &lt;em&gt;testimony&lt;/em&gt; to the &lt;em&gt;Congressional hearing tomorrow&lt;/em&gt; will not &lt;em&gt;include&lt;/em&gt; any new &lt;em&gt;financial forecast&lt;/em&gt; of &lt;em&gt;system losses, officials said&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;James McClure,&lt;/em&gt; R-&lt;em&gt;Idaho,&lt;/em&gt; has &lt;em&gt;drafted&lt;/em&gt; a &lt;em&gt;resolution which would&lt;/em&gt; put the &lt;em&gt;Senate&lt;/em&gt; on &lt;em&gt;record&lt;/em&gt; as &lt;em&gt;guaranteeing&lt;/em&gt; the &lt;em&gt;value&lt;/em&gt; of farm &lt;em&gt;credit system stock&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;James McClure,&lt;/em&gt; R-Idaho, has drafted a &lt;em&gt;resolution&lt;/em&gt; which would put the &lt;em&gt;Senate&lt;/em&gt; on &lt;em&gt;record&lt;/em&gt; as guaranteeing the &lt;em&gt;value&lt;/em&gt; of farm &lt;em&gt;credit system stock&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-17.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">157</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">productive</str>
+        <str name="text">sources</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">current</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">expansionary</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">broader</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">currency</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">attempt</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">today</str>
+        <double name="strength">0.9917320401144647</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"There is a clear emphasis on encouraging the use of money in productive ventures, rather than having it all tied up in interest bearing investments which have no direct productive outlet," one banker said.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The cut, the third this year, followed a major overhaul of interest rate policy last month which Central Bank Governor Sheikh Salem Abdul-Aziz al-Sabah said was designed to revive the economy.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">0.9365034287642091</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Bankers also noted recent measures to stimulate stock market activity, capped today by sharp cuts in brokerage fees to make it cheaper for investors to trade.</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">159</int>
-        <double name="strength">0.9063942750899526</double>
+        <double name="strength">0.9727082260081348</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Kuwait's Central Bank yesterday cut one key money market rate and abandoned another which had been used since February 1986 to direct inter-bank borrowing and lending costs.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.8813817703345936</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; is a &lt;em&gt;clear emphasis&lt;/em&gt; on &lt;em&gt;encouraging&lt;/em&gt; the use of &lt;em&gt;money&lt;/em&gt; in &lt;em&gt;productive ventures, rather&lt;/em&gt; than &lt;em&gt;having&lt;/em&gt; it all tied up in &lt;em&gt;interest bearing investments which&lt;/em&gt; have no &lt;em&gt;direct productive outlet,"&lt;/em&gt; one &lt;em&gt;banker said&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The cut, the &lt;em&gt;third&lt;/em&gt; this year, &lt;em&gt;followed&lt;/em&gt; a &lt;em&gt;major overhaul&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;policy&lt;/em&gt; last &lt;em&gt;month which Central&lt;/em&gt; Bank &lt;em&gt;Governor Sheikh Salem Abdul&lt;/em&gt;-Aziz al-&lt;em&gt;Sabah&lt;/em&gt; said was &lt;em&gt;designed&lt;/em&gt; to &lt;em&gt;revive&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt;.</str>
+        <str name="text">The cut, the &lt;em&gt;third&lt;/em&gt; this year, followed a &lt;em&gt;major overhaul&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;policy&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; which &lt;em&gt;Central&lt;/em&gt; Bank &lt;em&gt;Governor Sheikh Salem Abdul&lt;/em&gt;-Aziz al-&lt;em&gt;Sabah&lt;/em&gt; said was designed to &lt;em&gt;revive&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; also &lt;em&gt;noted recent measures&lt;/em&gt; to &lt;em&gt;stimulate stock market activity, capped today&lt;/em&gt; by &lt;em&gt;sharp&lt;/em&gt; cuts in &lt;em&gt;brokerage&lt;/em&gt; fees to make it &lt;em&gt;cheaper&lt;/em&gt; for &lt;em&gt;investors&lt;/em&gt; to &lt;em&gt;trade&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; also noted &lt;em&gt;recent measures&lt;/em&gt; to &lt;em&gt;stimulate stock market activity,&lt;/em&gt; capped &lt;em&gt;today&lt;/em&gt; by &lt;em&gt;sharp&lt;/em&gt; cuts in &lt;em&gt;brokerage&lt;/em&gt; fees to make it cheaper for &lt;em&gt;investors&lt;/em&gt; to &lt;em&gt;trade&lt;/em&gt;.</str>
         <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Kuwait&lt;/em&gt;'s &lt;em&gt;Central&lt;/em&gt; Bank &lt;em&gt;yesterday&lt;/em&gt; cut one key &lt;em&gt;money market&lt;/em&gt; rate and abandoned another which had been used since &lt;em&gt;February 1986&lt;/em&gt; to &lt;em&gt;direct inter&lt;/em&gt;-bank &lt;em&gt;borrowing&lt;/em&gt; and &lt;em&gt;lending costs&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

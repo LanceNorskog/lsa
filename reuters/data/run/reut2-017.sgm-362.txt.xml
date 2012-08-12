@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">29</int>
+  <int name="QTime">40</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-362.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">48</int>
       </lst>
       <lst name="terms">
-        <int name="count">226</int>
+        <int name="count">155</int>
       </lst>
       <lst name="stems">
-        <int name="count">149</int>
+        <int name="count">98</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">resounding</str>
+        <str name="text">think</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">success</str>
-        <double name="strength">1.0</double>
+        <str name="text">official</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.9999999999999853</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">recently</str>
-        <double name="strength">0.9999999999999853</double>
+        <str name="text">reagan</str>
+        <double name="strength">0.996737803978616</double>
       </lst>
       <lst name="term">
-        <str name="text">current</str>
-        <double name="strength">0.9999999999999853</double>
+        <str name="text">measures</str>
+        <double name="strength">0.9967378039786154</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">But if the Reagan administration did announce measures, they could be a part of an internationally-coordinated effort to end the instability in financial markets with genuine action to reduce massive economic imbalances, monetary analysts believe.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">248</int>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
       <lst name="sentence">
         <str name="text">It could coincide with the June Venice summit of leaders of the seven major industrial democracies -- the United States, Japan, West Germany, Britain, France, Italy and Canada.</str>
         <int name="index">41</int>
         <int name="start">1</int>
         <int name="end">177</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9837602254194763</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Until very recently, the current administration has urged a lower dollar to help redress its huge trade deficit while Carter faced a weak dollar as confidence in his economic policies collapsed.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.9353574151208953</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Carter issued 6.4 billion dlrs of mark and swiss franc bonds aimed essentially at buttressing pyschological support for the dollar but also at attracting foreign investors, who had lost confidence in the dollar, to U.</str>
-        <int name="index">31</int>
-        <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.9139814713184564</double>
+        <str name="text">The prospect of renewed assaults on the dollar might force the United States eventually to unveil distasteful measures to bolster support for its currency, monetary analysts and economists said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">194</int>
+        <double name="strength">0.9030519642322022</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;could coincide&lt;/em&gt; with the June &lt;em&gt;Venice summit&lt;/em&gt; of &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;seven major industrial democracies --&lt;/em&gt; the &lt;em&gt;United States, Japan,&lt;/em&gt; West &lt;em&gt;Germany, Britain, France, Italy&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt;.</str>
+        <str name="text">But if the &lt;em&gt;Reagan administration&lt;/em&gt; did &lt;em&gt;announce measures,&lt;/em&gt; they could be a part of an internationally-coordinated &lt;em&gt;effort&lt;/em&gt; to end the &lt;em&gt;instability&lt;/em&gt; in &lt;em&gt;financial markets&lt;/em&gt; with &lt;em&gt;genuine action&lt;/em&gt; to &lt;em&gt;reduce massive economic imbalances, monetary analysts believe&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It could &lt;em&gt;coincide&lt;/em&gt; with the June &lt;em&gt;Venice summit&lt;/em&gt; of &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;seven major industrial democracies --&lt;/em&gt; the United &lt;em&gt;States,&lt;/em&gt; Japan, West &lt;em&gt;Germany, Britain, France,&lt;/em&gt; Italy and Canada.</str>
         <int name="index">41</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Until&lt;/em&gt; very &lt;em&gt;recently,&lt;/em&gt; the &lt;em&gt;current administration&lt;/em&gt; has &lt;em&gt;urged&lt;/em&gt; a &lt;em&gt;lower dollar&lt;/em&gt; to help &lt;em&gt;redress&lt;/em&gt; its huge &lt;em&gt;trade deficit while Carter faced&lt;/em&gt; a weak &lt;em&gt;dollar&lt;/em&gt; as &lt;em&gt;confidence&lt;/em&gt; in his &lt;em&gt;economic policies collapsed&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Carter issued 6.4 billion&lt;/em&gt; dlrs of mark and &lt;em&gt;swiss franc bonds aimed essentially&lt;/em&gt; at &lt;em&gt;buttressing pyschological support&lt;/em&gt; for the &lt;em&gt;dollar&lt;/em&gt; but also at &lt;em&gt;attracting foreign investors,&lt;/em&gt; who had lost &lt;em&gt;confidence&lt;/em&gt; in the &lt;em&gt;dollar,&lt;/em&gt; to U.</str>
-        <int name="index">31</int>
+        <str name="text">The &lt;em&gt;prospect&lt;/em&gt; of renewed &lt;em&gt;assaults&lt;/em&gt; on the &lt;em&gt;dollar&lt;/em&gt; might &lt;em&gt;force&lt;/em&gt; the United &lt;em&gt;States&lt;/em&gt; eventually to &lt;em&gt;unveil distasteful measures&lt;/em&gt; to &lt;em&gt;bolster support&lt;/em&gt; for its &lt;em&gt;currency, monetary analysts&lt;/em&gt; and &lt;em&gt;economists said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

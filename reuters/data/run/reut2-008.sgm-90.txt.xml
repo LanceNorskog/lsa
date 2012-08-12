@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-90.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">class</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">australia</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">australian</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">party</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">chairman</str>
-        <double name="strength">0.5590169943749466</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">valuable</str>
-        <double name="strength">0.5</double>
+        <str name="text">block</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">market</str>
+        <double name="strength">0.9840539975201781</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">266</int>
         <double name="strength">1.0</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Barwon has approached the Philippine government which seized the block of shares from the United Coconut Planters Bank, which is believed to be linked with the country's deposed President Ferdinand Marcos.</str>
-        <int name="index">5</int>
+        <str name="text">Hong Kong Economic Journal also noted stock market rumours that &lt;Neptunia Corp&gt;, a Hong Kong registered company which controlled by San Miguel's president Andres Soriano, is the other party keen on the block of San Miguel shares.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.9009172128658083</double>
+        <int name="end">230</int>
+        <double name="strength">0.7494674251314687</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Hong Kong Economic Journal quoted a spokesman of Australian stock broker Jacksons Ltd as saying that &lt;Barwon Farmlands Ltd&gt;, a listed Australian firm of which Ariadne owns a 30 pct stake, is planning a branch in the Philippines.</str>
-        <int name="index">1</int>
+        <str name="text">Commissioner Ramon Diaz said at the time the government would not allow a subsidiary to buy into a parent firm, adding San Miguel could have offered the shares to other parties.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">0.8923306383428885</double>
+        <int name="end">178</int>
+        <double name="strength">0.6774453386309799</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Manila newspaper Sunday Times published&lt;/em&gt; a &lt;em&gt;letter&lt;/em&gt; sent &lt;em&gt;yesterday&lt;/em&gt; to &lt;em&gt;President Corazon Aquino&lt;/em&gt; from &lt;em&gt;Ariadne&lt;/em&gt;'s &lt;em&gt;chairman,&lt;/em&gt; New &lt;em&gt;Zealander Bruce Judge,&lt;/em&gt; that he was &lt;em&gt;offering&lt;/em&gt; cash &lt;em&gt;equivalent&lt;/em&gt; to five pct of the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;yearly budget&lt;/em&gt; to buy the &lt;em&gt;shares&lt;/em&gt; from the &lt;em&gt;government&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Manila newspaper Sunday Times&lt;/em&gt; published a &lt;em&gt;letter&lt;/em&gt; sent &lt;em&gt;yesterday&lt;/em&gt; to &lt;em&gt;President Corazon Aquino&lt;/em&gt; from &lt;em&gt;Ariadne&lt;/em&gt;'s &lt;em&gt;chairman,&lt;/em&gt; New &lt;em&gt;Zealander Bruce Judge,&lt;/em&gt; that he was offering cash &lt;em&gt;equivalent&lt;/em&gt; to five pct of the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;yearly budget&lt;/em&gt; to buy the &lt;em&gt;shares&lt;/em&gt; from the &lt;em&gt;government&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Barwon&lt;/em&gt; has &lt;em&gt;approached&lt;/em&gt; the &lt;em&gt;Philippine government which seized&lt;/em&gt; the &lt;em&gt;block&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; from the &lt;em&gt;United Coconut Planters&lt;/em&gt; Bank, &lt;em&gt;which&lt;/em&gt; is &lt;em&gt;believed&lt;/em&gt; to be &lt;em&gt;linked&lt;/em&gt; with the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;deposed President Ferdinand Marcos&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">Hong Kong &lt;em&gt;Economic Journal&lt;/em&gt; also noted &lt;em&gt;stock market rumours&lt;/em&gt; that &lt;&lt;em&gt;Neptunia&lt;/em&gt; Corp&gt;, a Hong Kong registered &lt;em&gt;company&lt;/em&gt; which controlled by San Miguel's &lt;em&gt;president Andres Soriano,&lt;/em&gt; is the &lt;em&gt;other party&lt;/em&gt; keen on the &lt;em&gt;block&lt;/em&gt; of San &lt;em&gt;Miguel shares&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Hong Kong &lt;em&gt;Economic Journal quoted&lt;/em&gt; a &lt;em&gt;spokesman&lt;/em&gt; of &lt;em&gt;Australian stock broker Jacksons&lt;/em&gt; Ltd as &lt;em&gt;saying&lt;/em&gt; that &lt;&lt;em&gt;Barwon Farmlands&lt;/em&gt; Ltd&gt;, a &lt;em&gt;listed Australian&lt;/em&gt; firm of &lt;em&gt;which Ariadne&lt;/em&gt; owns a 30 pct &lt;em&gt;stake,&lt;/em&gt; is &lt;em&gt;planning&lt;/em&gt; a &lt;em&gt;branch&lt;/em&gt; in the &lt;em&gt;Philippines&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Commissioner Ramon&lt;/em&gt; Diaz said at the time the &lt;em&gt;government&lt;/em&gt; would not &lt;em&gt;allow&lt;/em&gt; a &lt;em&gt;subsidiary&lt;/em&gt; to buy into a &lt;em&gt;parent&lt;/em&gt; firm, adding San &lt;em&gt;Miguel&lt;/em&gt; could have offered the &lt;em&gt;shares&lt;/em&gt; to &lt;em&gt;other parties&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-985.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">150</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">foreign</str>
+        <str name="text">materials</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">building</str>
+        <double name="strength">0.9836823252851276</double>
       </lst>
       <lst name="term">
-        <str name="text">tasman</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">stake</str>
+        <double name="strength">0.9806832258882903</double>
       </lst>
       <lst name="term">
-        <str name="text">subject</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">price</str>
+        <double name="strength">0.9806832258882885</double>
       </lst>
       <lst name="term">
-        <str name="text">discussions</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">hawkins</str>
+        <double name="strength">0.9806832258882876</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The shares closed at 3.90 dlrs today, down 25 cents on yesterday, after ETL withdrew on reaching the top foreign shareholding level permitted without Foreign Investment Review Board (FIRB) approval.</str>
-        <int name="index">21</int>
+        <str name="text">CSR has said that it will concentrate development on its core businesses of sugar and building materials after its moves into energy several years ago.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">199</int>
+        <int name="end">152</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Share analysts said that for this reason, they did not think ETL's intervention would flush out a full Redland bid although Monier's ultimate fate rests in its hands.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.774476540448006</double>
+        <double name="strength">0.9175161208140173</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Redland is still in the driving seat," said Tim Cohen of &lt;Ord Minnett Ltd&gt;, adding that Redland would be happier having CSR as a partner in running Monier than ETL.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.7421363444606612</double>
+        <str name="text">This enables Redland to accept the CSR bid within six months of its close or to lift its stake to 50.1 pct in the same period and to run Monier as a joint venture with CSR.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">172</int>
+        <double name="strength">0.8528503769344167</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;shares closed&lt;/em&gt; at 3.90 dlrs &lt;em&gt;today,&lt;/em&gt; down 25 &lt;em&gt;cents&lt;/em&gt; on &lt;em&gt;yesterday, after&lt;/em&gt; ETL &lt;em&gt;withdrew&lt;/em&gt; on &lt;em&gt;reaching&lt;/em&gt; the top &lt;em&gt;foreign shareholding level permitted without Foreign Investment Review Board &lt;/em&gt;(FIRB) &lt;em&gt;approval&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">CSR has said that it will &lt;em&gt;concentrate development&lt;/em&gt; on its core &lt;em&gt;businesses&lt;/em&gt; of &lt;em&gt;sugar&lt;/em&gt; and &lt;em&gt;building materials&lt;/em&gt; after its &lt;em&gt;moves&lt;/em&gt; into &lt;em&gt;energy several years ago&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Share analysts&lt;/em&gt; said that for this &lt;em&gt;reason,&lt;/em&gt; they did not &lt;em&gt;think&lt;/em&gt; ETL's &lt;em&gt;intervention would flush&lt;/em&gt; out a full &lt;em&gt;Redland&lt;/em&gt; bid &lt;em&gt;although Monier&lt;/em&gt;'s &lt;em&gt;ultimate&lt;/em&gt; fate &lt;em&gt;rests&lt;/em&gt; in its &lt;em&gt;hands&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Share analysts&lt;/em&gt; said that for this &lt;em&gt;reason,&lt;/em&gt; they did not &lt;em&gt;think&lt;/em&gt; ETL's &lt;em&gt;intervention&lt;/em&gt; would &lt;em&gt;flush&lt;/em&gt; out a full &lt;em&gt;Redland&lt;/em&gt; bid although Monier's &lt;em&gt;ultimate&lt;/em&gt; fate rests in its &lt;em&gt;hands&lt;/em&gt;.</str>
         <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Redland&lt;/em&gt; is &lt;em&gt;still&lt;/em&gt; in the &lt;em&gt;driving&lt;/em&gt; seat," said Tim &lt;em&gt;Cohen&lt;/em&gt; of &lt;Ord &lt;em&gt;Minnett&lt;/em&gt; Ltd&gt;, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;Redland would&lt;/em&gt; be &lt;em&gt;happier having&lt;/em&gt; CSR as a &lt;em&gt;partner&lt;/em&gt; in &lt;em&gt;running Monier&lt;/em&gt; than ETL.</str>
-        <int name="index">27</int>
+        <str name="text">This enables &lt;em&gt;Redland&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; the CSR bid within six &lt;em&gt;months&lt;/em&gt; of its &lt;em&gt;close&lt;/em&gt; or to lift its &lt;em&gt;stake&lt;/em&gt; to 50.1 pct in the same &lt;em&gt;period&lt;/em&gt; and to run Monier as a &lt;em&gt;joint venture&lt;/em&gt; with CSR.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

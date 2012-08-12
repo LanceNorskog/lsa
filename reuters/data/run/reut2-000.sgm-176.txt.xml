@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-176.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">143</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">centralized</str>
+        <str name="text">certify</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">range</str>
-        <double name="strength">0.5</double>
+        <str name="text">easter</str>
+        <double name="strength">0.991732040114467</double>
       </lst>
       <lst name="term">
-        <str name="text">consolidation</str>
-        <double name="strength">0.5</double>
+        <str name="text">congress</str>
+        <double name="strength">0.9917320401144666</double>
       </lst>
       <lst name="term">
-        <str name="text">national</str>
-        <double name="strength">0.5</double>
+        <str name="text">government</str>
+        <double name="strength">0.991732040114466</double>
       </lst>
       <lst name="term">
-        <str name="text">lender</str>
-        <double name="strength">0.5</double>
+        <str name="text">bondholders</str>
+        <double name="strength">0.9917320401144659</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">159</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Also at the hearing, Brent Beesely, chief executive of the Farm Credit Council representing the system, said that at the end of 1986 the system had only 1.5 billion dlrs in working capital remaining after losses of 4.6 billion dlrs over the last two years.</str>
-        <int name="index">12</int>
-        <int name="start">0</int>
-        <int name="end">256</int>
-        <double name="strength">0.9998575166342082</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The proposals range from consolidation of the system into a centralized national lender, to de-centralizing into semi-independent institutions.</str>
         <int name="index">21</int>
         <int name="start">0</int>
         <int name="end">143</int>
-        <double name="strength">0.9891021561304252</double>
+        <double name="strength">0.862315540526269</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The other Republican member of the three-man FCA board, Marvin Duncan, agreed.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">78</int>
+        <double name="strength">0.7699787449091443</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"A &lt;em&gt;significant number&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;associations&lt;/em&gt; in the most &lt;em&gt;economically depressed areas&lt;/em&gt; have and will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;suffer extraordinary losses," Beesley said&lt;/em&gt;.</str>
+        <str name="text">"A &lt;em&gt;significant number&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;associations&lt;/em&gt; in the most economically &lt;em&gt;depressed areas&lt;/em&gt; have and will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;suffer extraordinary losses," Beesley said&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Also at the &lt;em&gt;hearing, Brent Beesely, chief executive&lt;/em&gt; of the Farm &lt;em&gt;Credit Council representing&lt;/em&gt; the &lt;em&gt;system,&lt;/em&gt; said that at the end of 1986 the &lt;em&gt;system&lt;/em&gt; had only 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;working capital remaining after losses&lt;/em&gt; of 4.6 &lt;em&gt;billion&lt;/em&gt; dlrs over the last two &lt;em&gt;years&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">The &lt;em&gt;proposals range&lt;/em&gt; from &lt;em&gt;consolidation&lt;/em&gt; of the &lt;em&gt;system&lt;/em&gt; into a &lt;em&gt;centralized national lender,&lt;/em&gt; to de-centralizing into semi-&lt;em&gt;independent institutions&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposals range&lt;/em&gt; from &lt;em&gt;consolidation&lt;/em&gt; of the &lt;em&gt;system&lt;/em&gt; into a &lt;em&gt;centralized national lender,&lt;/em&gt; to de-&lt;em&gt;centralizing&lt;/em&gt; into semi-&lt;em&gt;independent institutions&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">The &lt;em&gt;other Republican member&lt;/em&gt; of the &lt;em&gt;three&lt;/em&gt;-man FCA &lt;em&gt;board, Marvin Duncan, agreed&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

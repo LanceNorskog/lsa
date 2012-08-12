@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-710.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">83</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">earlier</str>
+        <str name="text">operating</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reduction</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">terms</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">previous</str>
+        <double name="strength">0.9917320401144665</double>
       </lst>
       <lst name="term">
-        <str name="text">preclude</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">chairman</str>
+        <double name="strength">0.9917320401144659</double>
       </lst>
       <lst name="term">
-        <str name="text">making</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">energy</str>
+        <double name="strength">0.9917320401144655</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Terms of Dome's proposed debt restructuring plan preclude the company from making an accurate estimate of future financing costs, which are used in the new accounting calculations, it said.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">190</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The dramatic drop in energy prices in early 1986 reverses much of the progress the company has made in the two previous years," Dome chairman J.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">146</int>
+        <double name="strength">0.9861059650838055</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">"It merely reflects the realistic carrying value of the company's assets in today's economic environment, and the absolute need for reaching a timely agreement with our lenders on a debt restructuring plan to assure the company's continued existence," he added.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">262</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Dome Petroleum Ltd, earlier reporting a 2.20 billion dlr 1986 loss compared to year-earlier profit of 7.0 mln dlrs, said the loss was mainly due to write downs totalling 2.084 billion dlrs before a reduction in deferred income taxes of 571 mln dlrs.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">249</int>
-        <double name="strength">0.7719086449315731</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The company said it previously determined a write down of conventional oil and gas properties was not required at September 30, under the previous method of calculating the limitation of oil and gas values.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.7237316691069712</double>
+        <double name="strength">0.9708077806953267</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It &lt;em&gt;merely reflects&lt;/em&gt; the &lt;em&gt;realistic carrying value&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;assets&lt;/em&gt; in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;economic environment,&lt;/em&gt; and the &lt;em&gt;absolute&lt;/em&gt; need for &lt;em&gt;reaching&lt;/em&gt; a &lt;em&gt;timely agreement&lt;/em&gt; with our &lt;em&gt;lenders&lt;/em&gt; on a debt &lt;em&gt;restructuring&lt;/em&gt; plan to &lt;em&gt;assure&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;continued existence,"&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Terms&lt;/em&gt; of Dome's proposed debt restructuring plan &lt;em&gt;preclude&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; from making an &lt;em&gt;accurate estimate&lt;/em&gt; of &lt;em&gt;future financing costs,&lt;/em&gt; which are used in the new &lt;em&gt;accounting calculations,&lt;/em&gt; it said.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;dramatic&lt;/em&gt; drop in &lt;em&gt;energy prices&lt;/em&gt; in &lt;em&gt;early 1986 reverses&lt;/em&gt; much of the &lt;em&gt;progress&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; has made in the two &lt;em&gt;previous years,"&lt;/em&gt; Dome &lt;em&gt;chairman J&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It merely reflects the &lt;em&gt;realistic carrying value&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;assets&lt;/em&gt; in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;economic environment,&lt;/em&gt; and the &lt;em&gt;absolute&lt;/em&gt; need for reaching a &lt;em&gt;timely agreement&lt;/em&gt; with our &lt;em&gt;lenders&lt;/em&gt; on a debt &lt;em&gt;restructuring&lt;/em&gt; plan to &lt;em&gt;assure&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s continued &lt;em&gt;existence,"&lt;/em&gt; he added.</str>
         <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; Ltd, &lt;em&gt;earlier reporting&lt;/em&gt; a 2.20 &lt;em&gt;billion&lt;/em&gt; dlr 1986 loss &lt;em&gt;compared&lt;/em&gt; to year-&lt;em&gt;earlier profit&lt;/em&gt; of 7.0 mln dlrs, said the loss was &lt;em&gt;mainly&lt;/em&gt; due to &lt;em&gt;write downs totalling 2.084 billion&lt;/em&gt; dlrs &lt;em&gt;before&lt;/em&gt; a &lt;em&gt;reduction&lt;/em&gt; in &lt;em&gt;deferred income taxes&lt;/em&gt; of 571 mln dlrs.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it &lt;em&gt;previously determined&lt;/em&gt; a &lt;em&gt;write&lt;/em&gt; down of &lt;em&gt;conventional&lt;/em&gt; oil and gas &lt;em&gt;properties&lt;/em&gt; was not &lt;em&gt;required&lt;/em&gt; at &lt;em&gt;September 30, under&lt;/em&gt; the &lt;em&gt;previous method&lt;/em&gt; of &lt;em&gt;calculating&lt;/em&gt; the &lt;em&gt;limitation&lt;/em&gt; of oil and gas &lt;em&gt;values&lt;/em&gt;.</str>
-        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-778.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">propose</str>
+        <str name="text">american</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">joint</str>
-        <double name="strength">1.0</double>
+        <str name="text">makers</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">investigation</str>
-        <double name="strength">1.0</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">specific</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">chips</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">accused</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">tariffs</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">While Japan has already done about all it can to make sure the chip pact is working, the government is studying measures it can take in other fields to defuse American anger and ensure the trip's success, they said.</str>
-        <int name="index">6</int>
+        <str name="text">"We hope that the dispute on this specific issue won't have an adverse effect on our overall relationship with the United States," a Ministry of International Trade and Industry (MITI) official said.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">216</int>
+        <int name="end">200</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said that it was an open secret that Japan's largest chip maker, NEC Corp, was not happy with what it viewed as the draconian measures MITI was taking to implement the pact, included enforced production cuts.</str>
-        <int name="index">14</int>
+        <str name="text">Foreign Ministry officials immediately tried to isolate the fall-out from the dispute by seeking to separate it from Prime Minister Yasuhiro Nakasone's planned trip to Washington at the end of April.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.950023334291121</double>
+        <int name="end">200</int>
+        <double name="strength">0.8943539634363059</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That agreement, reached last year after heated negotiations, called on Japan to stop selling cut-price chips in world markets and to buy more American-made semiconductors.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.9462484525002779</double>
+        <str name="text">On Friday, Washington announced plans for as much as 300 mln dlrs in tariffs on Japanese electronic goods for Tokyo's alleged failure to live up to a bilateral computer chip pact.</str>
+        <int name="index">3</int>
+        <int name="start">2</int>
+        <int name="end">181</int>
+        <double name="strength">0.865292342639382</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;While Japan&lt;/em&gt; has &lt;em&gt;already&lt;/em&gt; done &lt;em&gt;about&lt;/em&gt; all it can to make sure the chip pact is &lt;em&gt;working,&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; is &lt;em&gt;studying measures&lt;/em&gt; it can take in &lt;em&gt;other fields&lt;/em&gt; to &lt;em&gt;defuse American anger&lt;/em&gt; and &lt;em&gt;ensure&lt;/em&gt; the trip's &lt;em&gt;success,&lt;/em&gt; they said.</str>
-        <int name="index">6</int>
+        <str name="text">"We hope that the &lt;em&gt;dispute&lt;/em&gt; on this &lt;em&gt;specific issue&lt;/em&gt; won't have an &lt;em&gt;adverse effect&lt;/em&gt; on our &lt;em&gt;overall relationship&lt;/em&gt; with the United &lt;em&gt;States,"&lt;/em&gt; a &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) &lt;em&gt;official said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said that it was an open &lt;em&gt;secret&lt;/em&gt; that &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;largest&lt;/em&gt; chip &lt;em&gt;maker,&lt;/em&gt; NEC Corp, was not &lt;em&gt;happy&lt;/em&gt; with what it &lt;em&gt;viewed&lt;/em&gt; as the &lt;em&gt;draconian measures&lt;/em&gt; MITI was &lt;em&gt;taking&lt;/em&gt; to &lt;em&gt;implement&lt;/em&gt; the pact, &lt;em&gt;included enforced production cuts&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Foreign Ministry officials&lt;/em&gt; immediately tried to &lt;em&gt;isolate&lt;/em&gt; the fall-out from the &lt;em&gt;dispute&lt;/em&gt; by seeking to &lt;em&gt;separate&lt;/em&gt; it from &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt;'s planned trip to &lt;em&gt;Washington&lt;/em&gt; at the end of &lt;em&gt;April&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That &lt;em&gt;agreement, reached&lt;/em&gt; last year &lt;em&gt;after heated negotiations, called&lt;/em&gt; on &lt;em&gt;Japan&lt;/em&gt; to stop &lt;em&gt;selling&lt;/em&gt; cut-&lt;em&gt;price chips&lt;/em&gt; in &lt;em&gt;world markets&lt;/em&gt; and to buy more &lt;em&gt;American&lt;/em&gt;-made &lt;em&gt;semiconductors&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">On &lt;em&gt;Friday,&lt;/em&gt; Washington announced &lt;em&gt;plans&lt;/em&gt; for as much as 300 mln dlrs in &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;Japanese electronic goods&lt;/em&gt; for &lt;em&gt;Tokyo&lt;/em&gt;'s &lt;em&gt;alleged failure&lt;/em&gt; to live up to a &lt;em&gt;bilateral computer&lt;/em&gt; chip pact.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

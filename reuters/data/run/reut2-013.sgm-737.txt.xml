@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-737.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">commitments</str>
+        <str name="text">years</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
+        <str name="text">eight</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">requirements</str>
-        <double name="strength">1.0</double>
+        <str name="text">output</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">running</str>
-        <double name="strength">1.0</double>
+        <str name="text">effects</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">levels</str>
-        <double name="strength">1.0</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The possibility that recent Indonesian palm oil purchases will not actually enter the country but be transshipped to other countries to fulfill Indonesia's export orders cannot be ruled out, it said.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">199</int>
+        <str name="text">Indonesian export commitments and domestic requirements are both running at high levels, Oil World said, and it expects the country's imports to reach a record 110,000 tonnes during Jan/Sept.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Above normal yields during recent years resulted in trees reacting to the stress by changing the sex ratio to more male inflorescences and/or aborting more female, Oil World said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.992045831648693</double>
+        <double name="strength">0.9502528071430201</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Indonesian export commitments and domestic requirements are both running at high levels, Oil World said, and it expects the country's imports to reach a record 110,000 tonnes during Jan/Sept.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.8682086944962767</double>
+        <str name="text">The bulk of this will arrive during Feb/May, ahead of the April elections and the religious Ramadan festival throughout May, it said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">133</int>
+        <double name="strength">0.83633740971298</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;possibility&lt;/em&gt; that &lt;em&gt;recent Indonesian&lt;/em&gt; palm oil &lt;em&gt;purchases&lt;/em&gt; will not &lt;em&gt;actually enter&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt; but be &lt;em&gt;transshipped&lt;/em&gt; to &lt;em&gt;other countries&lt;/em&gt; to &lt;em&gt;fulfill Indonesia&lt;/em&gt;'s &lt;em&gt;export orders cannot&lt;/em&gt; be &lt;em&gt;ruled&lt;/em&gt; out, it said.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Indonesian export commitments&lt;/em&gt; and &lt;em&gt;domestic requirements&lt;/em&gt; are both running at high &lt;em&gt;levels,&lt;/em&gt; Oil &lt;em&gt;World&lt;/em&gt; said, and it expects the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;imports&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; a &lt;em&gt;record 110,000 tonnes&lt;/em&gt; during Jan/Sept.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Above normal yields during recent years resulted&lt;/em&gt; in &lt;em&gt;trees reacting&lt;/em&gt; to the &lt;em&gt;stress&lt;/em&gt; by &lt;em&gt;changing&lt;/em&gt; the sex &lt;em&gt;ratio&lt;/em&gt; to more male &lt;em&gt;inflorescences&lt;/em&gt; and/or &lt;em&gt;aborting&lt;/em&gt; more &lt;em&gt;female,&lt;/em&gt; Oil &lt;em&gt;World said&lt;/em&gt;.</str>
+        <str name="text">Above &lt;em&gt;normal yields&lt;/em&gt; during &lt;em&gt;recent years&lt;/em&gt; resulted in &lt;em&gt;trees&lt;/em&gt; reacting to the &lt;em&gt;stress&lt;/em&gt; by changing the sex &lt;em&gt;ratio&lt;/em&gt; to more male &lt;em&gt;inflorescences&lt;/em&gt; and/or aborting more &lt;em&gt;female,&lt;/em&gt; Oil &lt;em&gt;World said&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Indonesian export commitments&lt;/em&gt; and &lt;em&gt;domestic requirements&lt;/em&gt; are both &lt;em&gt;running&lt;/em&gt; at high &lt;em&gt;levels,&lt;/em&gt; Oil &lt;em&gt;World&lt;/em&gt; said, and it &lt;em&gt;expects&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;imports&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; a &lt;em&gt;record 110,000 tonnes during&lt;/em&gt; Jan/Sept.</str>
-        <int name="index">13</int>
+        <str name="text">The bulk of this will &lt;em&gt;arrive&lt;/em&gt; during Feb/May, ahead of the &lt;em&gt;April elections&lt;/em&gt; and the &lt;em&gt;religious Ramadan festival&lt;/em&gt; throughout May, it said.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

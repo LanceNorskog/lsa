@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-653.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">president</str>
+        <str name="text">conditions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shearson</str>
-        <double name="strength">1.0</double>
+        <str name="text">result</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">lehman</str>
-        <double name="strength">1.0</double>
+        <str name="text">confusion</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">brothers</str>
-        <double name="strength">1.0</double>
+        <str name="text">losses</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">panic</str>
-        <double name="strength">1.0</double>
+        <str name="text">offset</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">143</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Paul Cain, a vice president at Shearson Lehman Brothers, said the elimination of price limits will cut back on panic buying or selling  and contribute to more orderly markets.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.9694126656227925</double>
+        <double name="strength">0.8775802327970066</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The elimination of price limits on precious metals contracts trading at the Commodity Exchange in New York appears to be having little effect on the market, analysts said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">171</int>
-        <double name="strength">0.8813794765449215</double>
+        <double name="strength">0.7959689578766055</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;COMEX fined Elders Futures&lt;/em&gt; and &lt;em&gt;three other large firms&lt;/em&gt; a &lt;em&gt;total&lt;/em&gt; of 100,000 dlrs for &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;resolve unmatched trades&lt;/em&gt; in a &lt;em&gt;timely manner&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;COMEX&lt;/em&gt; fined &lt;em&gt;Elders Futures&lt;/em&gt; and &lt;em&gt;three other large firms&lt;/em&gt; a &lt;em&gt;total&lt;/em&gt; of 100,000 dlrs for &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;resolve unmatched trades&lt;/em&gt; in a &lt;em&gt;timely manner&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Paul Cain, a vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; said the &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;price limits&lt;/em&gt; will cut back on &lt;em&gt;panic buying&lt;/em&gt; or &lt;em&gt;selling &lt;/em&gt; and &lt;em&gt;contribute&lt;/em&gt; to more &lt;em&gt;orderly markets&lt;/em&gt;.</str>
+        <str name="text">Paul Cain, a vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; said the &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;price limits&lt;/em&gt; will cut back on &lt;em&gt;panic&lt;/em&gt; buying or selling  and &lt;em&gt;contribute&lt;/em&gt; to more &lt;em&gt;orderly markets&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;price limits&lt;/em&gt; on &lt;em&gt;precious metals contracts trading&lt;/em&gt; at the &lt;em&gt;Commodity Exchange&lt;/em&gt; in New York &lt;em&gt;appears&lt;/em&gt; to be &lt;em&gt;having little effect&lt;/em&gt; on the &lt;em&gt;market, analysts said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;price limits&lt;/em&gt; on &lt;em&gt;precious metals contracts&lt;/em&gt; trading at the &lt;em&gt;Commodity Exchange&lt;/em&gt; in New York appears to be having &lt;em&gt;little effect&lt;/em&gt; on the &lt;em&gt;market, analysts said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

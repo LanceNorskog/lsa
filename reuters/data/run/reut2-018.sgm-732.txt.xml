@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-732.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">demonstrate</str>
+        <str name="text">spokesman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">manufacture</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">maurice</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">public</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">study</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">later</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">action</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">today</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">generate</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Canada's National Energy Board has denied an application by Quebec-owned Hydro-Quebec to export about three billion Canadian dlrs worth of electricity to the New England states, a board spokeswoman told Reuters.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">211</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Sicotte said Hydro-Quebec can apply for a review of the decision if there are new facts or changed circumstances, and could also launch an appeal with the federal court or file a new application.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">196</int>
-        <double name="strength">0.9538823990722574</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Our position is that electricity is a manufactured product--so everyboday can manufacture it and anybody can buy some--if they (the provinces) want to buy some from us, we're willing to discuss it," he said.</str>
-        <int name="index">10</int>
+        <str name="text">New Brunswick, Prince Edward Island, and Newfoundland had opposed the contract at Energy Board hearings this spring.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">0.9339682804773379</double>
+        <int name="end">117</int>
+        <double name="strength">0.9162561450778774</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Hydro-Quebec spokesman Maurice Hebert said the utility had not yet been officially notified and will have to study the decision before deciding what action to take.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.7911733202254924</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;National Energy Board&lt;/em&gt; has &lt;em&gt;denied&lt;/em&gt; an &lt;em&gt;application&lt;/em&gt; by &lt;em&gt;Quebec-owned Hydro-Quebec&lt;/em&gt; to &lt;em&gt;export about three billion Canadian&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;electricity&lt;/em&gt; to the New &lt;em&gt;England states,&lt;/em&gt; a &lt;em&gt;board spokeswoman&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Sicotte&lt;/em&gt; said &lt;em&gt;Hydro-Quebec&lt;/em&gt; can &lt;em&gt;apply&lt;/em&gt; for a &lt;em&gt;review&lt;/em&gt; of the &lt;em&gt;decision&lt;/em&gt; if &lt;em&gt;there&lt;/em&gt; are new &lt;em&gt;facts&lt;/em&gt; or &lt;em&gt;changed circumstances,&lt;/em&gt; and &lt;em&gt;could&lt;/em&gt; also &lt;em&gt;launch&lt;/em&gt; an &lt;em&gt;appeal&lt;/em&gt; with the &lt;em&gt;federal court&lt;/em&gt; or file a new &lt;em&gt;application&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sicotte&lt;/em&gt; said &lt;em&gt;Hydro-Quebec&lt;/em&gt; can &lt;em&gt;apply&lt;/em&gt; for a &lt;em&gt;review&lt;/em&gt; of the &lt;em&gt;decision&lt;/em&gt; if there are new &lt;em&gt;facts&lt;/em&gt; or changed &lt;em&gt;circumstances,&lt;/em&gt; and could also &lt;em&gt;launch&lt;/em&gt; an &lt;em&gt;appeal&lt;/em&gt; with the &lt;em&gt;federal court&lt;/em&gt; or file a new &lt;em&gt;application&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Our &lt;em&gt;position&lt;/em&gt; is that &lt;em&gt;electricity&lt;/em&gt; is a &lt;em&gt;manufactured product-&lt;/em&gt;-so &lt;em&gt;everyboday&lt;/em&gt; can &lt;em&gt;manufacture&lt;/em&gt; it and &lt;em&gt;anybody&lt;/em&gt; can buy some--if they (the &lt;em&gt;provinces)&lt;/em&gt; want to buy some from us, we're &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; it," he said.</str>
-        <int name="index">10</int>
+        <str name="text">New &lt;em&gt;Brunswick, Prince Edward Island,&lt;/em&gt; and &lt;em&gt;Newfoundland&lt;/em&gt; had opposed the &lt;em&gt;contract&lt;/em&gt; at &lt;em&gt;Energy Board hearings&lt;/em&gt; this &lt;em&gt;spring&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Hydro-Quebec spokesman Maurice Hebert&lt;/em&gt; said the &lt;em&gt;utility&lt;/em&gt; had not yet been officially notified and will have to &lt;em&gt;study&lt;/em&gt; the &lt;em&gt;decision&lt;/em&gt; before deciding what &lt;em&gt;action&lt;/em&gt; to take.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

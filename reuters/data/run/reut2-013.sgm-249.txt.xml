@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-249.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">offered</str>
+        <str name="text">hachette</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">maxwell</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">candidate</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5590169943749476</double>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">media</str>
-        <double name="strength">0.5590169943749476</double>
-      </lst>
-      <lst name="term">
-        <str name="text">sharp</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">french</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">K.-based &lt;Pergamon Media Trust&gt; of Robert Maxwell has a 20-pct stake in the consortium, representing a 10 pct stake in TF1, while &lt;Maxwell Media France&gt; has a six pct stake, or three pct of the television network.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">213</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The Bouygues-led consortium was widely regarded as the less likely of the two candidates in contention to be awarded the three billion franc stake by the National Commission for Communications and Liberties (NCCL), the French television watchdog authority.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">257</int>
-        <double name="strength">0.9831905827597487</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The remaining 50 pct of TF1 is to be split between a 40-pct stake to be offered to the general public and a 10-pct stake to be offered to employees.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">149</int>
-        <double name="strength">0.9655661952909369</double>
+        <str name="text">In a note on Bouygues said the award would represent a major diversification for the group out of the highly cyclical construction industry into the rapidly expanding media business.</str>
+        <int name="index">7</int>
+        <int name="start">7</int>
+        <int name="end">189</int>
+        <double name="strength">0.8362302837483133</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">PA&gt;, &lt;Editions Mondiale&gt;, the &lt;Groupe Bernard Tapie&gt;, &lt;Financiere Faltas&gt;, &lt;Banque Indosuez&gt; and Credit Lyonnais &lt;CRLP.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">119</int>
+        <double name="strength">0.8076812484541083</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K.-&lt;em&gt;based &lt;Pergamon Media Trust&gt;&lt;/em&gt; of &lt;em&gt;Robert Maxwell&lt;/em&gt; has a 20-pct &lt;em&gt;stake&lt;/em&gt; in the &lt;em&gt;consortium, representing&lt;/em&gt; a 10 pct &lt;em&gt;stake&lt;/em&gt; in TF1, &lt;em&gt;while &lt;Maxwell Media France&gt;&lt;/em&gt; has a six pct &lt;em&gt;stake,&lt;/em&gt; or &lt;em&gt;three&lt;/em&gt; pct of the &lt;em&gt;television network&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Bouygues&lt;/em&gt;-led &lt;em&gt;consortium&lt;/em&gt; was &lt;em&gt;widely regarded&lt;/em&gt; as the less &lt;em&gt;likely&lt;/em&gt; of the two &lt;em&gt;candidates&lt;/em&gt; in &lt;em&gt;contention&lt;/em&gt; to be &lt;em&gt;awarded&lt;/em&gt; the &lt;em&gt;three billion franc stake&lt;/em&gt; by the &lt;em&gt;National Commission&lt;/em&gt; for &lt;em&gt;Communications&lt;/em&gt; and &lt;em&gt;Liberties &lt;/em&gt;(NCCL), the &lt;em&gt;French television watchdog authority&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Bouygues&lt;/em&gt;-led &lt;em&gt;consortium&lt;/em&gt; was widely regarded as the less &lt;em&gt;likely&lt;/em&gt; of the two &lt;em&gt;candidates&lt;/em&gt; in &lt;em&gt;contention&lt;/em&gt; to be awarded the &lt;em&gt;three billion franc stake&lt;/em&gt; by the &lt;em&gt;National Commission&lt;/em&gt; for &lt;em&gt;Communications&lt;/em&gt; and &lt;em&gt;Liberties &lt;/em&gt;(NCCL), the &lt;em&gt;French television watchdog authority&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;remaining 50&lt;/em&gt; pct of TF1 is to be &lt;em&gt;split between&lt;/em&gt; a 40-pct &lt;em&gt;stake&lt;/em&gt; to be &lt;em&gt;offered&lt;/em&gt; to the &lt;em&gt;general public&lt;/em&gt; and a 10-pct &lt;em&gt;stake&lt;/em&gt; to be &lt;em&gt;offered&lt;/em&gt; to &lt;em&gt;employees&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">In a note on &lt;em&gt;Bouygues&lt;/em&gt; said the &lt;em&gt;award&lt;/em&gt; would &lt;em&gt;represent&lt;/em&gt; a &lt;em&gt;major diversification&lt;/em&gt; for the &lt;em&gt;group&lt;/em&gt; out of the highly &lt;em&gt;cyclical construction industry&lt;/em&gt; into the rapidly expanding &lt;em&gt;media business&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">PA&gt;, &lt;&lt;em&gt;Editions&lt;/em&gt; Mondiale&gt;, the &lt;&lt;em&gt;Groupe Bernard Tapie&gt;, &lt;/em&gt;&lt;Financiere Faltas&gt;, &lt;&lt;em&gt;Banque Indosuez&gt;&lt;/em&gt; and &lt;em&gt;Credit Lyonnais &lt;CRLP&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

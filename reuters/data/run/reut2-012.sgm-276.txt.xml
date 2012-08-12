@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-276.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">175</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">120</int>
+        <int name="count">79</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">better</str>
+        <str name="text">savings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">average</str>
-        <double name="strength">0.9999999999999929</double>
+        <str name="text">marketing</str>
+        <double name="strength">0.9941728092057437</double>
       </lst>
       <lst name="term">
-        <str name="text">right</str>
-        <double name="strength">0.9999999999999917</double>
+        <str name="text">ratio</str>
+        <double name="strength">0.9941728092057416</double>
       </lst>
       <lst name="term">
-        <str name="text">projects</str>
-        <double name="strength">0.707106781186542</double>
+        <str name="text">spend</str>
+        <double name="strength">0.9941728092057411</double>
       </lst>
       <lst name="term">
-        <str name="text">advisors</str>
-        <double name="strength">0.5</double>
+        <str name="text">activities</str>
+        <double name="strength">0.9550178891756602</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">213</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"There are some people associated with those activities but it is more a matter of cutting and trimming rather than wholesale changes," Blackburn said.</str>
-        <int name="index">13</int>
+        <str name="text">Roger Hemminghaus, who will be chairman of the new Diamond Shamrock Refining and Marketing Co, which last year had sales of approximately 1.6 billion dlrs, told Reuters his company was taking on some debt.</str>
+        <int name="index">28</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.8808365432207205</double>
+        <int name="end">206</int>
+        <double name="strength">0.7863697709261414</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Boone pickens in January, Diamond Shamrock said it would spinoff its refining and marketing operation into Diamond Shamrock Refining and Marketing Co before its April 30 annual meeting.</str>
-        <int name="index">4</int>
-        <int name="start">0</int>
-        <int name="end">185</int>
-        <double name="strength">0.8661072239370923</double>
+        <str name="text">"I would rather describe this as savings coming from eliminating non-essential activities as we purify the exploration and production business."</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">145</int>
+        <double name="strength">0.7372191273326879</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"We are &lt;em&gt;taking&lt;/em&gt; on some 400 mln dlrs new debt with &lt;em&gt;three&lt;/em&gt; tier &lt;em&gt;financing emphasizing&lt;/em&gt; a &lt;em&gt;revolving&lt;/em&gt; loan, some term &lt;em&gt;loans&lt;/em&gt; and some &lt;em&gt;unsecured private placement&lt;/em&gt; and are now in the &lt;em&gt;latter stages&lt;/em&gt; of &lt;em&gt;signing&lt;/em&gt; an &lt;em&gt;agreement.&lt;/em&gt;"</str>
+        <str name="text">"We are taking on some 400 mln dlrs new debt with &lt;em&gt;three&lt;/em&gt; tier &lt;em&gt;financing&lt;/em&gt; emphasizing a &lt;em&gt;revolving&lt;/em&gt; loan, some term &lt;em&gt;loans&lt;/em&gt; and some &lt;em&gt;unsecured private placement&lt;/em&gt; and are now in the &lt;em&gt;latter stages&lt;/em&gt; of signing an &lt;em&gt;agreement.&lt;/em&gt;"</str>
         <int name="index">29</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; are some &lt;em&gt;people associated&lt;/em&gt; with &lt;em&gt;those activities&lt;/em&gt; but it is more a &lt;em&gt;matter&lt;/em&gt; of &lt;em&gt;cutting&lt;/em&gt; and &lt;em&gt;trimming rather&lt;/em&gt; than &lt;em&gt;wholesale changes," Blackburn said&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Roger Hemminghaus,&lt;/em&gt; who will be &lt;em&gt;chairman&lt;/em&gt; of the new &lt;em&gt;Diamond Shamrock Refining&lt;/em&gt; and &lt;em&gt;Marketing&lt;/em&gt; Co, which last year had &lt;em&gt;sales&lt;/em&gt; of approximately 1.6 &lt;em&gt;billion&lt;/em&gt; dlrs, told &lt;em&gt;Reuters&lt;/em&gt; his &lt;em&gt;company&lt;/em&gt; was taking on some debt.</str>
+        <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Boone pickens&lt;/em&gt; in &lt;em&gt;January, Diamond Shamrock&lt;/em&gt; said it &lt;em&gt;would spinoff&lt;/em&gt; its &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;marketing operation&lt;/em&gt; into &lt;em&gt;Diamond Shamrock Refining&lt;/em&gt; and &lt;em&gt;Marketing&lt;/em&gt; Co &lt;em&gt;before&lt;/em&gt; its &lt;em&gt;April 30 annual meeting&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">"I would rather &lt;em&gt;describe&lt;/em&gt; this as &lt;em&gt;savings&lt;/em&gt; coming from eliminating non-&lt;em&gt;essential activities&lt;/em&gt; as we &lt;em&gt;purify&lt;/em&gt; the &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;production business.&lt;/em&gt;"</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

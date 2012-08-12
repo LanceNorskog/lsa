@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-684.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">257</int>
+        <int name="count">194</int>
       </lst>
       <lst name="stems">
-        <int name="count">182</int>
+        <int name="count">141</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">advantage</str>
+        <str name="text">bonuses</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">falling</str>
-        <double name="strength">0.9999999999999946</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">counter</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">savings</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">measures</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">cited</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">firms</str>
+        <double name="strength">0.9916395846187851</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">208</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">Main counter-measures cited by the firms include cutting unprofitable operations, reducing work to sub-contractors (which employ significant numbers of workers), holding down wages, and reducing bonuses.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.9381432347892027</double>
+        <double name="strength">0.8644262391023554</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">On the contrary, a poor outlook and lower disposable income could strengthen the resolve to put money aside for old age and illness, education, and housing -- the main drains on the working man's salary.</str>
         <int name="index">23</int>
         <int name="start">0</int>
         <int name="end">203</int>
-        <double name="strength">0.9050767518427155</double>
+        <double name="strength">0.8606802924830754</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;commitment&lt;/em&gt; by the &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; and &lt;em&gt;Finance Ministry&lt;/em&gt; to cut the &lt;em&gt;state&lt;/em&gt; debt has &lt;em&gt;resulted&lt;/em&gt; in &lt;em&gt;small supplementary budgets&lt;/em&gt; and &lt;em&gt;attempts&lt;/em&gt; to &lt;em&gt;provide fiscal incentive without reducing revenue&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;commitment&lt;/em&gt; by the &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; and &lt;em&gt;Finance Ministry&lt;/em&gt; to cut the &lt;em&gt;state&lt;/em&gt; debt has resulted in &lt;em&gt;small supplementary budgets&lt;/em&gt; and &lt;em&gt;attempts&lt;/em&gt; to &lt;em&gt;provide fiscal incentive&lt;/em&gt; without reducing &lt;em&gt;revenue&lt;/em&gt;.</str>
         <int name="index">27</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Main &lt;em&gt;counter-measures cited&lt;/em&gt; by the &lt;em&gt;firms include cutting unprofitable operations, reducing&lt;/em&gt; work to sub-&lt;em&gt;contractors (which employ significant numbers&lt;/em&gt; of &lt;em&gt;workers), holding&lt;/em&gt; down &lt;em&gt;wages,&lt;/em&gt; and &lt;em&gt;reducing bonuses&lt;/em&gt;.</str>
+        <str name="text">Main &lt;em&gt;counter-measures&lt;/em&gt; cited by the &lt;em&gt;firms include&lt;/em&gt; cutting &lt;em&gt;unprofitable operations,&lt;/em&gt; reducing work to sub-&lt;em&gt;contractors &lt;/em&gt;(which &lt;em&gt;employ significant numbers&lt;/em&gt; of &lt;em&gt;workers),&lt;/em&gt; holding down &lt;em&gt;wages,&lt;/em&gt; and reducing &lt;em&gt;bonuses&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On the &lt;em&gt;contrary,&lt;/em&gt; a poor &lt;em&gt;outlook&lt;/em&gt; and &lt;em&gt;lower disposable income could strengthen&lt;/em&gt; the &lt;em&gt;resolve&lt;/em&gt; to put &lt;em&gt;money aside&lt;/em&gt; for old age and &lt;em&gt;illness, education,&lt;/em&gt; and &lt;em&gt;housing --&lt;/em&gt; the main &lt;em&gt;drains&lt;/em&gt; on the &lt;em&gt;working&lt;/em&gt; man's &lt;em&gt;salary&lt;/em&gt;.</str>
+        <str name="text">On the &lt;em&gt;contrary,&lt;/em&gt; a poor &lt;em&gt;outlook&lt;/em&gt; and lower &lt;em&gt;disposable income&lt;/em&gt; could &lt;em&gt;strengthen&lt;/em&gt; the &lt;em&gt;resolve&lt;/em&gt; to put &lt;em&gt;money&lt;/em&gt; aside for old age and &lt;em&gt;illness, education,&lt;/em&gt; and &lt;em&gt;housing --&lt;/em&gt; the main &lt;em&gt;drains&lt;/em&gt; on the working man's &lt;em&gt;salary&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
     </lst>

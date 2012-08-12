@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-629.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">158</int>
+        <int name="count">110</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">annual</str>
+        <str name="text">economy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">times</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">state</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">calendar</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9871765030415252</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">country</str>
+        <double name="strength">0.9775433528668052</double>
       </lst>
       <lst name="term">
-        <str name="text">slightly</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">season</str>
+        <double name="strength">0.9775433528668044</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">One Japanese trader said domestic demand is rising rapidly because of improving living standards and rising demand for sweet drinks, cakes and biscuits and other sugary foods.</str>
-        <int name="index">2</int>
+        <str name="text">The official Economic Information newspaper last month said production in the 1986/87 crushing season (September-April) will be 1.18 mln tonnes short of demand.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">176</int>
+        <int name="end">161</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The paper said in 1985 a farmer could earn up to three times more per hectare from pineapple and watermelon and up to seven times more from bananas than from sugarcane.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.9373453543947053</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Hong Kong trader said calendar 1987 imports will be slightly less than those of 1986, because of firm world prices and serious foreign exchange constraints which, he said, are likely to continue until at least end-1988.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.9315134743593481</double>
+        <double name="strength">0.9719555183931524</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It quoted the Ministry of Light Industry as blaming the drop in output on unreasonable state purchasing prices for cane and beet as against other crops, which has resulted in farmers refusing to grow them.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">206</int>
+        <double name="strength">0.9514831923874281</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">One &lt;em&gt;Japanese trader&lt;/em&gt; said &lt;em&gt;domestic demand&lt;/em&gt; is &lt;em&gt;rising rapidly because&lt;/em&gt; of &lt;em&gt;improving living standards&lt;/em&gt; and &lt;em&gt;rising demand&lt;/em&gt; for &lt;em&gt;sweet drinks, cakes&lt;/em&gt; and &lt;em&gt;biscuits&lt;/em&gt; and &lt;em&gt;other sugary foods&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;official Economic Information newspaper&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; said &lt;em&gt;production&lt;/em&gt; in the 1986/87 crushing &lt;em&gt;season (September-April)&lt;/em&gt; will be 1.18 mln &lt;em&gt;tonnes short&lt;/em&gt; of &lt;em&gt;demand&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;paper&lt;/em&gt; said in 1985 a &lt;em&gt;farmer could&lt;/em&gt; earn up to &lt;em&gt;three times&lt;/em&gt; more per &lt;em&gt;hectare&lt;/em&gt; from &lt;em&gt;pineapple&lt;/em&gt; and &lt;em&gt;watermelon&lt;/em&gt; and up to &lt;em&gt;seven times&lt;/em&gt; more from &lt;em&gt;bananas&lt;/em&gt; than from &lt;em&gt;sugarcane&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Hong Kong &lt;em&gt;trader&lt;/em&gt; said &lt;em&gt;calendar 1987 imports&lt;/em&gt; will be &lt;em&gt;slightly&lt;/em&gt; less than &lt;em&gt;those&lt;/em&gt; of 1986, &lt;em&gt;because&lt;/em&gt; of firm &lt;em&gt;world prices&lt;/em&gt; and &lt;em&gt;serious foreign exchange constraints which,&lt;/em&gt; he said, are &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;continue until&lt;/em&gt; at &lt;em&gt;least end-1988&lt;/em&gt;.</str>
+        <str name="text">The Hong Kong &lt;em&gt;trader&lt;/em&gt; said &lt;em&gt;calendar 1987 imports&lt;/em&gt; will be slightly less than those of 1986, because of firm &lt;em&gt;world prices&lt;/em&gt; and &lt;em&gt;serious foreign exchange constraints&lt;/em&gt; which, he said, are &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; until at least end-1988.</str>
         <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It quoted the &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;Light Industry&lt;/em&gt; as blaming the drop in &lt;em&gt;output&lt;/em&gt; on &lt;em&gt;unreasonable state purchasing prices&lt;/em&gt; for cane and beet as against &lt;em&gt;other crops,&lt;/em&gt; which has resulted in &lt;em&gt;farmers&lt;/em&gt; refusing to grow them.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

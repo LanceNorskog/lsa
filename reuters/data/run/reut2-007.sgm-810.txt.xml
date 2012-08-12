@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-810.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">transaction</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">rescheduling</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">guaranteed</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">indebted</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">agency</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">particularly</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The new financing for Italfunding, being syndicated among about five major international banks, will be a fully underwritten, revolving facility with an average life of seven years and the facility will fund the loan.</str>
-        <int name="index">11</int>
-        <int name="start">2</int>
-        <int name="end">219</int>
+        <str name="text">Morgan Grenfell has used special purpose vehicles in the past to help refinance export credits for other indebted countries, such as Brazil and Ecuador.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The bankers noted that if the financing had been arranged in Italy, the cost to Mexico and the Italian banks would have been higher since the Italian banks would use a different source of funding.</str>
-        <int name="index">17</int>
+        <str name="text">The bilateral accord followed a multilateral rescheduling agreement reached last September of Mexico's official debt to the Paris Club of western creditor governments.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">197</int>
-        <double name="strength">0.9778732095402208</double>
+        <int name="end">168</int>
+        <double name="strength">0.9969266847950374</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">All Paris Club agreements contain a generally accepted outline for a rescheduling, but the specific terms must then be negotiated on a bilateral basis.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.9186371898658031</double>
+        <str name="text">S. Treasury Secretary James Baker's plan to aid indebted countries -- included a 7.7 billion dlr loan, which was signed today in New York.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">138</int>
+        <double name="strength">0.9481040915267657</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The new &lt;em&gt;financing&lt;/em&gt; for &lt;em&gt;Italfunding, being syndicated among about&lt;/em&gt; five &lt;em&gt;major international banks,&lt;/em&gt; will be a &lt;em&gt;fully underwritten, revolving facility&lt;/em&gt; with an &lt;em&gt;average&lt;/em&gt; life of &lt;em&gt;seven years&lt;/em&gt; and the &lt;em&gt;facility&lt;/em&gt; will fund the loan.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Morgan Grenfell&lt;/em&gt; has used &lt;em&gt;special purpose vehicles&lt;/em&gt; in the past to help &lt;em&gt;refinance export credits&lt;/em&gt; for &lt;em&gt;other indebted countries,&lt;/em&gt; such as &lt;em&gt;Brazil&lt;/em&gt; and &lt;em&gt;Ecuador&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;bankers noted&lt;/em&gt; that if the &lt;em&gt;financing&lt;/em&gt; had been &lt;em&gt;arranged&lt;/em&gt; in &lt;em&gt;Italy,&lt;/em&gt; the cost to &lt;em&gt;Mexico&lt;/em&gt; and the &lt;em&gt;Italian banks would&lt;/em&gt; have been &lt;em&gt;higher since&lt;/em&gt; the &lt;em&gt;Italian banks would&lt;/em&gt; use a &lt;em&gt;different source&lt;/em&gt; of &lt;em&gt;funding&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">The &lt;em&gt;bilateral accord&lt;/em&gt; followed a &lt;em&gt;multilateral rescheduling agreement&lt;/em&gt; reached last &lt;em&gt;September&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt;'s &lt;em&gt;official&lt;/em&gt; debt to the &lt;em&gt;Paris&lt;/em&gt; Club of &lt;em&gt;western creditor governments&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">All &lt;em&gt;Paris&lt;/em&gt; Club &lt;em&gt;agreements contain&lt;/em&gt; a &lt;em&gt;generally accepted outline&lt;/em&gt; for a &lt;em&gt;rescheduling,&lt;/em&gt; but the &lt;em&gt;specific terms&lt;/em&gt; must then be &lt;em&gt;negotiated&lt;/em&gt; on a &lt;em&gt;bilateral basis&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt;'s plan to aid &lt;em&gt;indebted countries --&lt;/em&gt; included a 7.7 &lt;em&gt;billion&lt;/em&gt; dlr loan, which was signed &lt;em&gt;today&lt;/em&gt; in New York.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

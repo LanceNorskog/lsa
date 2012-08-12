@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-465.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">45</int>
       </lst>
       <lst name="stems">
-        <int name="count">48</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">figure</str>
+        <str name="text">provisional</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">goods</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">figure</str>
+        <double name="strength">0.9840539975201795</double>
       </lst>
       <lst name="term">
-        <str name="text">seasonally</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">basic</str>
+        <double name="strength">0.9840539975201789</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">tobacco</str>
+        <double name="strength">0.9840539975201789</double>
       </lst>
       <lst name="term">
-        <str name="text">economics</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">alcohol</str>
+        <double name="strength">0.9840539975201789</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The February figure is likely to be revised upwards by just under one percentage point next month when the March figure is released, a ministry statement said.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">160</int>
+        <str name="text">West German industrial production, seasonally adjusted, rose a provisional 3.2 pct in February after a downwards revised decline of 3.4 pct in January, the Economics Ministry said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">180</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The ministry, which considers two-monthly comparisons to be a better guide to trends, said output in January and February together fell around two pct against November and December.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.8378835750128775</double>
+        <double name="strength">0.98001344272804</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Production of capital goods fell 2-1/2 pct while output of consumer goods was unchanged.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">88</int>
-        <double name="strength">0.7772100024002084</double>
+        <str name="text">The February figure is likely to be revised upwards by just under one percentage point next month when the March figure is released, a ministry statement said.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9765889577819933</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;February figure&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;revised upwards&lt;/em&gt; by just &lt;em&gt;under&lt;/em&gt; one &lt;em&gt;percentage point&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; when the &lt;em&gt;March figure&lt;/em&gt; is &lt;em&gt;released,&lt;/em&gt; a &lt;em&gt;ministry statement said&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">West &lt;em&gt;German industrial production,&lt;/em&gt; seasonally adjusted, rose a &lt;em&gt;provisional 3.2&lt;/em&gt; pct in &lt;em&gt;February&lt;/em&gt; after a &lt;em&gt;downwards&lt;/em&gt; revised &lt;em&gt;decline&lt;/em&gt; of 3.4 pct in &lt;em&gt;January,&lt;/em&gt; the &lt;em&gt;Economics Ministry said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;ministry, which considers&lt;/em&gt; two-&lt;em&gt;monthly comparisons&lt;/em&gt; to be a &lt;em&gt;better guide&lt;/em&gt; to &lt;em&gt;trends,&lt;/em&gt; said &lt;em&gt;output&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;February together&lt;/em&gt; fell &lt;em&gt;around&lt;/em&gt; two pct &lt;em&gt;against November&lt;/em&gt; and &lt;em&gt;December&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;ministry,&lt;/em&gt; which considers two-&lt;em&gt;monthly comparisons&lt;/em&gt; to be a better &lt;em&gt;guide&lt;/em&gt; to &lt;em&gt;trends,&lt;/em&gt; said &lt;em&gt;output&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;February&lt;/em&gt; together fell around two pct against &lt;em&gt;November&lt;/em&gt; and &lt;em&gt;December&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Production&lt;/em&gt; of &lt;em&gt;capital goods&lt;/em&gt; fell 2-1/2 pct &lt;em&gt;while output&lt;/em&gt; of &lt;em&gt;consumer goods&lt;/em&gt; was &lt;em&gt;unchanged&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;February figure&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be revised upwards by just under one &lt;em&gt;percentage point&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; when the &lt;em&gt;March figure&lt;/em&gt; is released, a &lt;em&gt;ministry statement said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

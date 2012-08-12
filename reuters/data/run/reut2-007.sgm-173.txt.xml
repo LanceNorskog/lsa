@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-173.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">32</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">remain</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">figure</str>
-        <double name="strength">0.5590169943749479</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">assets</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">overseas</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">included</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">company</str>
+        <double name="strength">0.9580049845271345</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">K. In 1987 was likely to be only about a third of the level in 1986, though overseas expenditure would remain approximately the same, Chief executive David Walker said.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">168</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Chairman Sir Philip Shelbourne said the collapse in the oil price in 1986 had made the period extremely difficult but the company had come through remarkably well.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">163</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9685553483083064</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The results were slightly better than analysts forecast and the share firmed to 231p from 222p at last night's close.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">117</int>
-        <double name="strength">0.9483241523635747</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Provided the recovery in oil prices was maintained, the conditions would be right for a substantially improved performance this year.</str>
-        <int name="index">10</int>
+        <str name="text">Britoil had received some 100 responses to its announcement of a desire to sell the assets and was asking for bids by the latter part of April.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">134</int>
-        <double name="strength">0.9398084750202603</double>
+        <int name="end">144</int>
+        <double name="strength">0.9084381900604546</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chairman&lt;/em&gt; Sir &lt;em&gt;Philip Shelbourne&lt;/em&gt; said the &lt;em&gt;collapse&lt;/em&gt; in the oil &lt;em&gt;price&lt;/em&gt; in 1986 had made the &lt;em&gt;period extremely difficult&lt;/em&gt; but the &lt;em&gt;company&lt;/em&gt; had come &lt;em&gt;through remarkably well&lt;/em&gt;.</str>
+        <str name="text">K. In 1987 was &lt;em&gt;likely&lt;/em&gt; to be only about a &lt;em&gt;third&lt;/em&gt; of the &lt;em&gt;level&lt;/em&gt; in 1986, though &lt;em&gt;overseas expenditure&lt;/em&gt; would &lt;em&gt;remain&lt;/em&gt; approximately the same, &lt;em&gt;Chief executive David Walker said&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chairman&lt;/em&gt; Sir &lt;em&gt;Philip Shelbourne&lt;/em&gt; said the &lt;em&gt;collapse&lt;/em&gt; in the oil &lt;em&gt;price&lt;/em&gt; in 1986 had made the &lt;em&gt;period&lt;/em&gt; extremely &lt;em&gt;difficult&lt;/em&gt; but the &lt;em&gt;company&lt;/em&gt; had come through remarkably well.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;results&lt;/em&gt; were &lt;em&gt;slightly better&lt;/em&gt; than &lt;em&gt;analysts forecast&lt;/em&gt; and the &lt;em&gt;share firmed&lt;/em&gt; to 231p from 222p at last &lt;em&gt;night&lt;/em&gt;'s &lt;em&gt;close&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Provided&lt;/em&gt; the &lt;em&gt;recovery&lt;/em&gt; in oil &lt;em&gt;prices&lt;/em&gt; was &lt;em&gt;maintained,&lt;/em&gt; the &lt;em&gt;conditions would&lt;/em&gt; be &lt;em&gt;right&lt;/em&gt; for a &lt;em&gt;substantially improved performance&lt;/em&gt; this year.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Britoil&lt;/em&gt; had received some 100 &lt;em&gt;responses&lt;/em&gt; to its &lt;em&gt;announcement&lt;/em&gt; of a &lt;em&gt;desire&lt;/em&gt; to sell the &lt;em&gt;assets&lt;/em&gt; and was asking for bids by the &lt;em&gt;latter&lt;/em&gt; part of &lt;em&gt;April&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-35.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">january</str>
+        <str name="text">yesterday</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">price</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">inflation</str>
-        <double name="strength">0.5590169943749466</double>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">yields</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">forecast</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">compared</str>
-        <double name="strength">0.5</double>
+        <str name="text">january</str>
+        <double name="strength">0.9840539975201799</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">0</int>
         <int name="end">251</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Personal income is forecast to rise by 0.6 to 0.8 pct, compared with no change in January, while consumption expenditures are projected to increase 1.4 to 1.6 pct, reversing most of the two pct drop recorded in January.</str>
-        <int name="index">1</int>
+        <str name="text">Peter Greenbaum of Smith Barney, Harris Upham and Co Inc expects a one pct rise in income, led by a strong gain in wage and salary disbursements in February.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.9097706759287887</double>
+        <int name="end">158</int>
+        <double name="strength">0.921459740104216</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Rowe Price Associates Inc said the steadiness of long bond yields around 7.5 pct, despite some signs of a stronger economy, probably reflects expectations that inflation will remain subdued.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">190</int>
-        <double name="strength">0.9089694686611473</double>
+        <double name="strength">0.8701752535112435</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brisk increases&lt;/em&gt; in &lt;em&gt;personal income&lt;/em&gt; and &lt;em&gt;consumption&lt;/em&gt; are to &lt;em&gt;appear&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; data &lt;em&gt;released today,&lt;/em&gt; but the bond &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;recent sluggishness suggests there&lt;/em&gt; will be no &lt;em&gt;major price reaction unless&lt;/em&gt; the &lt;em&gt;rises&lt;/em&gt; are much &lt;em&gt;larger&lt;/em&gt; than &lt;em&gt;expected, economists said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brisk increases&lt;/em&gt; in &lt;em&gt;personal income&lt;/em&gt; and &lt;em&gt;consumption&lt;/em&gt; are to &lt;em&gt;appear&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; data released &lt;em&gt;today,&lt;/em&gt; but the bond &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;recent sluggishness&lt;/em&gt; suggests there will be no &lt;em&gt;major price reaction&lt;/em&gt; unless the &lt;em&gt;rises&lt;/em&gt; are much larger than expected, &lt;em&gt;economists said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Personal income&lt;/em&gt; is &lt;em&gt;forecast&lt;/em&gt; to rise by 0.6 to 0.8 pct, &lt;em&gt;compared&lt;/em&gt; with no &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;January, while consumption expenditures&lt;/em&gt; are &lt;em&gt;projected&lt;/em&gt; to &lt;em&gt;increase 1.4&lt;/em&gt; to 1.6 pct, &lt;em&gt;reversing&lt;/em&gt; most of the two pct drop &lt;em&gt;recorded&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Peter Greenbaum&lt;/em&gt; of &lt;em&gt;Smith Barney, Harris Upham&lt;/em&gt; and Co Inc expects a one pct rise in &lt;em&gt;income,&lt;/em&gt; led by a &lt;em&gt;strong&lt;/em&gt; gain in wage and &lt;em&gt;salary disbursements&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rowe &lt;em&gt;Price Associates&lt;/em&gt; Inc said the &lt;em&gt;steadiness&lt;/em&gt; of long bond &lt;em&gt;yields around 7.5&lt;/em&gt; pct, &lt;em&gt;despite&lt;/em&gt; some &lt;em&gt;signs&lt;/em&gt; of a &lt;em&gt;stronger economy, probably reflects expectations&lt;/em&gt; that &lt;em&gt;inflation&lt;/em&gt; will &lt;em&gt;remain subdued&lt;/em&gt;.</str>
+        <str name="text">Rowe &lt;em&gt;Price Associates&lt;/em&gt; Inc said the &lt;em&gt;steadiness&lt;/em&gt; of long bond &lt;em&gt;yields&lt;/em&gt; around 7.5 pct, despite some &lt;em&gt;signs&lt;/em&gt; of a stronger &lt;em&gt;economy,&lt;/em&gt; probably reflects &lt;em&gt;expectations&lt;/em&gt; that &lt;em&gt;inflation&lt;/em&gt; will &lt;em&gt;remain subdued&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
     </lst>

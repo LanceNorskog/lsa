@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-647.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">unchanged</str>
+        <str name="text">acquisition</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foreigners</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">earnings</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">debtors</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">country</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">interest</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">0.9999999999999979</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Foreign debtors accounted for 24 pct of this credit volume, and Latin American debtors accounted for 14.7 pct of total lending to foreigners.</str>
-        <int name="index">13</int>
-        <int name="start">0</int>
-        <int name="end">141</int>
+        <str name="text">BfG's 1986 accounts were included in a prospectus for AMB's capital increase, which is to finance the insurance company's acquisition of 50 pct plus one share of BfG.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rise in total operating profits enabled BfG to step up risk provisions, with country risks particularly emphasised because of the continuing difficulties of some countries.</str>
-        <int name="index">10</int>
+        <str name="text">The bank has said its business last year suffered from the turbulence around the troubled trade-union-owned housing concern Neue Heimat.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.9828987981442258</double>
+        <int name="end">137</int>
+        <double name="strength">0.9299817308692718</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Despite the fall in partial operating profits, BfG paid an unchanged 20 mln marks into open reserves and transferred an unchanged 80 mln marks to its trade union holding company, &lt;Beteiligungsgesellschaft fuer Gemeinwirtschaft AG&gt;, from which AMB has acquired the majority stake.</str>
-        <int name="index">5</int>
+        <str name="text">BfG posted extraordinary earnings from the sale of 25.01 pct of &lt;Volksfuersorge Deutsche Lebensversicherung AG&gt;, 74.9 pct of &lt;BSV Bank fuer Sparanlagen und Vermoegensbildung AG&gt; and five pct of &lt;Allgemeine Hypothekenbank AG&gt;.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">280</int>
-        <double name="strength">0.9664882441428607</double>
+        <int name="end">226</int>
+        <double name="strength">0.9062335211187402</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Foreign debtors accounted&lt;/em&gt; for 24 pct of this &lt;em&gt;credit volume,&lt;/em&gt; and &lt;em&gt;Latin American debtors accounted&lt;/em&gt; for 14.7 pct of &lt;em&gt;total lending&lt;/em&gt; to &lt;em&gt;foreigners&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">BfG's 1986 &lt;em&gt;accounts&lt;/em&gt; were included in a &lt;em&gt;prospectus&lt;/em&gt; for AMB's &lt;em&gt;capital increase,&lt;/em&gt; which is to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;insurance company&lt;/em&gt;'s &lt;em&gt;acquisition&lt;/em&gt; of 50 pct plus one &lt;em&gt;share&lt;/em&gt; of BfG.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rise in &lt;em&gt;total operating profits enabled&lt;/em&gt; BfG to step up risk &lt;em&gt;provisions,&lt;/em&gt; with &lt;em&gt;country risks particularly emphasised because&lt;/em&gt; of the &lt;em&gt;continuing difficulties&lt;/em&gt; of some &lt;em&gt;countries&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The bank has said its &lt;em&gt;business&lt;/em&gt; last year suffered from the &lt;em&gt;turbulence&lt;/em&gt; around the &lt;em&gt;troubled trade-union&lt;/em&gt;-owned &lt;em&gt;housing concern&lt;/em&gt; Neue &lt;em&gt;Heimat&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite&lt;/em&gt; the fall in &lt;em&gt;partial operating profits,&lt;/em&gt; BfG paid an &lt;em&gt;unchanged 20&lt;/em&gt; mln &lt;em&gt;marks&lt;/em&gt; into open &lt;em&gt;reserves&lt;/em&gt; and &lt;em&gt;transferred&lt;/em&gt; an &lt;em&gt;unchanged 80&lt;/em&gt; mln &lt;em&gt;marks&lt;/em&gt; to its &lt;em&gt;trade union holding company, &lt;Beteiligungsgesellschaft&lt;/em&gt; fuer &lt;em&gt;Gemeinwirtschaft&lt;/em&gt; AG&gt;, from &lt;em&gt;which&lt;/em&gt; AMB has &lt;em&gt;acquired&lt;/em&gt; the &lt;em&gt;majority stake&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">BfG posted &lt;em&gt;extraordinary earnings&lt;/em&gt; from the sale of 25.01 pct of &lt;&lt;em&gt;Volksfuersorge Deutsche&lt;/em&gt; Lebensversicherung AG&gt;, 74.9 pct of &lt;BSV Bank fuer &lt;em&gt;Sparanlagen&lt;/em&gt; und &lt;em&gt;Vermoegensbildung&lt;/em&gt; AG&gt; and five pct of &lt;Allgemeine &lt;em&gt;Hypothekenbank AG&gt;&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-580.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">166</int>
+        <int name="count">115</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">going</str>
+        <str name="text">shares</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">caught</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">lewins</str>
+        <double name="strength">0.9963408654530972</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">whole</str>
+        <double name="strength">0.9963408654530966</double>
       </lst>
       <lst name="term">
-        <str name="text">ultimately</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">stocker</str>
+        <double name="strength">0.9963408654530964</double>
       </lst>
       <lst name="term">
-        <str name="text">boost</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">earnings</str>
+        <double name="strength">0.9963408654530953</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The vulnerability of UAL's stock has fueled takeover speculation, as have reports that real estate magnate Donald Trump has bought a large amount of its stock.</str>
-        <int name="index">2</int>
+        <str name="text">Digesting its acquisitions of hotels, Pan Am Corp's Pacific air routes, and Hertz rental cars, combined with stiff air fare competition has left the company with an undervalued stock price, analysts said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">160</int>
+        <int name="end">205</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But those same parts - Westin Hotels, Hertz rental cars, United Airlines and its reservation system - also has Wall Street calculating a wide range of breakup values from about 100 dlrs per share to 130 dlrs per share.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.9836326328963859</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Lewins believes the company could ultimately boost the stock price to a level that would reflect its assets, but it will take time and improvements in earnings.</str>
         <int name="index">31</int>
         <int name="start">1</int>
         <int name="end">161</int>
-        <double name="strength">0.8646920305474723</double>
+        <double name="strength">0.9475742567266252</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The whole unwinding of the battle of Texas Air is going to take years, establishing the Pacific in competition with (NWA Inc &lt;NWA&gt;) Northwest is going to take until 1990," Lewins said.</str>
+        <int name="index">34</int>
+        <int name="start">0</int>
+        <int name="end">184</int>
+        <double name="strength">0.9328066278923232</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;vulnerability&lt;/em&gt; of UAL's &lt;em&gt;stock&lt;/em&gt; has &lt;em&gt;fueled takeover speculation,&lt;/em&gt; as have &lt;em&gt;reports&lt;/em&gt; that real &lt;em&gt;estate magnate Donald Trump&lt;/em&gt; has &lt;em&gt;bought&lt;/em&gt; a &lt;em&gt;large amount&lt;/em&gt; of its &lt;em&gt;stock&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">Digesting its &lt;em&gt;acquisitions&lt;/em&gt; of &lt;em&gt;hotels,&lt;/em&gt; Pan Am Corp's &lt;em&gt;Pacific&lt;/em&gt; air &lt;em&gt;routes,&lt;/em&gt; and &lt;em&gt;Hertz rental&lt;/em&gt; cars, combined with &lt;em&gt;stiff&lt;/em&gt; air fare &lt;em&gt;competition&lt;/em&gt; has left the &lt;em&gt;company&lt;/em&gt; with an &lt;em&gt;undervalued stock price, analysts said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;those&lt;/em&gt; same &lt;em&gt;parts - Westin Hotels, Hertz rental&lt;/em&gt; cars, &lt;em&gt;United Airlines&lt;/em&gt; and its &lt;em&gt;reservation system -&lt;/em&gt; also has Wall &lt;em&gt;Street calculating&lt;/em&gt; a wide &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;breakup values&lt;/em&gt; from &lt;em&gt;about 100&lt;/em&gt; dlrs per &lt;em&gt;share&lt;/em&gt; to 130 dlrs per &lt;em&gt;share&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Lewins believes&lt;/em&gt; the &lt;em&gt;company could ultimately boost&lt;/em&gt; the &lt;em&gt;stock price&lt;/em&gt; to a &lt;em&gt;level&lt;/em&gt; that &lt;em&gt;would reflect&lt;/em&gt; its &lt;em&gt;assets,&lt;/em&gt; but it will take time and &lt;em&gt;improvements&lt;/em&gt; in &lt;em&gt;earnings&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Lewins&lt;/em&gt; believes the &lt;em&gt;company&lt;/em&gt; could ultimately &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;stock price&lt;/em&gt; to a &lt;em&gt;level&lt;/em&gt; that would &lt;em&gt;reflect&lt;/em&gt; its &lt;em&gt;assets,&lt;/em&gt; but it will take time and &lt;em&gt;improvements&lt;/em&gt; in &lt;em&gt;earnings&lt;/em&gt;.</str>
         <int name="index">31</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;whole unwinding&lt;/em&gt; of the &lt;em&gt;battle&lt;/em&gt; of &lt;em&gt;Texas&lt;/em&gt; Air is going to take &lt;em&gt;years,&lt;/em&gt; establishing the &lt;em&gt;Pacific&lt;/em&gt; in &lt;em&gt;competition&lt;/em&gt; with (NWA Inc &lt;NWA&gt;) &lt;em&gt;Northwest&lt;/em&gt; is going to take until 1990," &lt;em&gt;Lewins said&lt;/em&gt;.</str>
+        <int name="index">34</int>
       </lst>
     </lst>
   </lst>

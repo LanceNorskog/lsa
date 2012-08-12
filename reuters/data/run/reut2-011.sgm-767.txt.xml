@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">39</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-767.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">43</int>
       </lst>
       <lst name="terms">
-        <int name="count">201</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">132</int>
+        <int name="count">92</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">approve</str>
+        <str name="text">factories</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.9999999999999946</double>
+        <str name="text">homes</str>
+        <double name="strength">0.990767720724025</double>
       </lst>
       <lst name="term">
-        <str name="text">railway</str>
-        <double name="strength">0.500000000000005</double>
+        <str name="text">problem</str>
+        <double name="strength">0.9891262025201847</double>
       </lst>
       <lst name="term">
-        <str name="text">authorities</str>
-        <double name="strength">0.5</double>
+        <str name="text">government</str>
+        <double name="strength">0.9852326820470385</double>
       </lst>
       <lst name="term">
-        <str name="text">hectares</str>
-        <double name="strength">0.5</double>
+        <str name="text">people</str>
+        <double name="strength">0.9743868978100989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The issue of land loss is a matter of major concern to the Peking leadership, which announced earlier this month that China will issue nationwide quotas for conversion of grain land for the first time this year.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Chen Zuyuan, Communist Party secretary of a village in the eastern province of Zhejiang, said the government listened too much to the demands of "selfish city people" and could raise city grain prices without any problem.</str>
         <int name="index">24</int>
         <int name="start">1</int>
         <int name="end">222</int>
-        <double name="strength">0.9520648173072991</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The present situation of abusing, occupying unlawfully, wasting and destroying land and land resources is serious," said an article in the official press explaining the new measures.</str>
-        <int name="index">13</int>
+        <str name="text">The official press has reported that farmers fear farm policy may change and they are putting their new wealth into building graves, memorial halls for ancestors and homes.</str>
+        <int name="index">36</int>
         <int name="start">1</int>
-        <int name="end">184</int>
-        <double name="strength">0.9377687817592321</double>
+        <int name="end">173</int>
+        <double name="strength">0.8418681268739198</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To offset this, the state offers farmers cheap fertiliser and diesel oil and payment in advance for grain it contracts to buy.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">127</int>
+        <double name="strength">0.8142072106849774</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;issue&lt;/em&gt; of land loss is a &lt;em&gt;matter&lt;/em&gt; of &lt;em&gt;major concern&lt;/em&gt; to the &lt;em&gt;Peking leadership, which announced earlier&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; that &lt;em&gt;China&lt;/em&gt; will &lt;em&gt;issue nationwide quotas&lt;/em&gt; for &lt;em&gt;conversion&lt;/em&gt; of &lt;em&gt;grain&lt;/em&gt; land for the &lt;em&gt;first&lt;/em&gt; time this year.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Chen &lt;em&gt;Zuyuan, Communist Party secretary&lt;/em&gt; of a &lt;em&gt;village&lt;/em&gt; in the &lt;em&gt;eastern province&lt;/em&gt; of &lt;em&gt;Zhejiang,&lt;/em&gt; said the &lt;em&gt;government listened&lt;/em&gt; too much to the &lt;em&gt;demands&lt;/em&gt; of "&lt;em&gt;selfish&lt;/em&gt; city &lt;em&gt;people"&lt;/em&gt; and &lt;em&gt;could raise&lt;/em&gt; city &lt;em&gt;grain prices without&lt;/em&gt; any &lt;em&gt;problem&lt;/em&gt;.</str>
+        <str name="text">Chen &lt;em&gt;Zuyuan, Communist Party secretary&lt;/em&gt; of a &lt;em&gt;village&lt;/em&gt; in the &lt;em&gt;eastern province&lt;/em&gt; of &lt;em&gt;Zhejiang,&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt; listened too much to the &lt;em&gt;demands&lt;/em&gt; of "&lt;em&gt;selfish&lt;/em&gt; city &lt;em&gt;people"&lt;/em&gt; and could &lt;em&gt;raise&lt;/em&gt; city &lt;em&gt;grain prices&lt;/em&gt; without any &lt;em&gt;problem&lt;/em&gt;.</str>
         <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;present situation&lt;/em&gt; of &lt;em&gt;abusing, occupying unlawfully, wasting&lt;/em&gt; and &lt;em&gt;destroying&lt;/em&gt; land and land &lt;em&gt;resources&lt;/em&gt; is &lt;em&gt;serious,"&lt;/em&gt; said an &lt;em&gt;article&lt;/em&gt; in the &lt;em&gt;official press explaining&lt;/em&gt; the new &lt;em&gt;measures&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">The &lt;em&gt;official press&lt;/em&gt; has reported that &lt;em&gt;farmers&lt;/em&gt; fear farm &lt;em&gt;policy&lt;/em&gt; may &lt;em&gt;change&lt;/em&gt; and they are putting their new &lt;em&gt;wealth&lt;/em&gt; into building &lt;em&gt;graves, memorial halls&lt;/em&gt; for &lt;em&gt;ancestors&lt;/em&gt; and &lt;em&gt;homes&lt;/em&gt;.</str>
+        <int name="index">36</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To &lt;em&gt;offset&lt;/em&gt; this, the &lt;em&gt;state offers farmers cheap fertiliser&lt;/em&gt; and &lt;em&gt;diesel&lt;/em&gt; oil and &lt;em&gt;payment&lt;/em&gt; in &lt;em&gt;advance&lt;/em&gt; for &lt;em&gt;grain&lt;/em&gt; it contracts to buy.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

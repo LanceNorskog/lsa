@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-380.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">56</int>
+        <int name="count">41</int>
       </lst>
       <lst name="stems">
-        <int name="count">34</int>
+        <int name="count">22</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">total</str>
+        <str name="text">contracts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">standard</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.8908116130663263</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">month</str>
+        <double name="strength">0.8483078781237536</double>
       </lst>
       <lst name="term">
-        <str name="text">actively</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">september</str>
+        <double name="strength">0.8483078781237536</double>
       </lst>
       <lst name="term">
-        <str name="text">anywhere</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">cattle</str>
+        <double name="strength">0.8483078781237534</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The previous record for quarterly volume total was established in the third quarter of 1986, when 18,106,452 futures and options were traded at the CME.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The previous single-month high of 2,216,682 currency futures and options traded was in September 1986.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">102</int>
+        <double name="strength">0.9506297505581146</double>
+        <int name="terms">7</int>
+      </lst>
       <lst name="sentence">
         <str name="text">In addition, March trading included two single-day volume records: British pound futures traded 35,960 contracts March 9 compared to 33,269 February 19, and Canadian dollar futures traded 20,905 contracts March 11 compared to the previous record of 12,456 set May 12, 1982.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">274</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Chicago Mercantile Exchange (CME) traded a record 19,656,498 contracts in the first quarter of 1987, up 17 pct from 16,768,145 in the same quarter last year.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">161</int>
-        <double name="strength">0.9193861242110283</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Standard and Poor's 500, the second most actively traded futures contract anywhere, traded 1,780,538 contracts in March, up 4.9 pct from 1,696,912 in March 1986.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.8783993033195897</double>
+        <double name="strength">0.9302214386325077</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition, March trading included&lt;/em&gt; two &lt;em&gt;single&lt;/em&gt;-day &lt;em&gt;volume records: British pound futures traded 35,960 contracts March 9 compared&lt;/em&gt; to 33,269 &lt;em&gt;February 19,&lt;/em&gt; and &lt;em&gt;Canadian dollar futures traded 20,905 contracts March 11 compared&lt;/em&gt; to the &lt;em&gt;previous record&lt;/em&gt; of 12,456 set May 12, 1982.</str>
+        <str name="text">The &lt;em&gt;previous record&lt;/em&gt; for &lt;em&gt;quarterly volume total&lt;/em&gt; was established in the &lt;em&gt;third quarter&lt;/em&gt; of 1986, when 18,106,452 &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; were traded at the CME.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;previous single-month&lt;/em&gt; high of 2,216,682 &lt;em&gt;currency futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; traded was in &lt;em&gt;September 1986&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;addition, March trading&lt;/em&gt; included two &lt;em&gt;single&lt;/em&gt;-day &lt;em&gt;volume records: British pound futures&lt;/em&gt; traded 35,960 &lt;em&gt;contracts March 9&lt;/em&gt; compared to 33,269 &lt;em&gt;February 19,&lt;/em&gt; and &lt;em&gt;Canadian dollar futures&lt;/em&gt; traded 20,905 &lt;em&gt;contracts March 11&lt;/em&gt; compared to the &lt;em&gt;previous record&lt;/em&gt; of 12,456 set May 12, 1982.</str>
         <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Chicago Mercantile Exchange &lt;/em&gt;(CME) &lt;em&gt;traded&lt;/em&gt; a &lt;em&gt;record 19,656,498 contracts&lt;/em&gt; in the &lt;em&gt;first quarter&lt;/em&gt; of 1987, up 17 pct from 16,768,145 in the same &lt;em&gt;quarter&lt;/em&gt; last year.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Standard&lt;/em&gt; and Poor's 500, the &lt;em&gt;second&lt;/em&gt; most &lt;em&gt;actively traded futures contract anywhere, traded 1,780,538 contracts&lt;/em&gt; in &lt;em&gt;March,&lt;/em&gt; up 4.9 pct from 1,696,912 in &lt;em&gt;March 1986&lt;/em&gt;.</str>
-        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-227.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">207</int>
+        <int name="count">144</int>
       </lst>
       <lst name="stems">
-        <int name="count">133</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">least</str>
+        <str name="text">foreign</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">level</str>
-        <double name="strength">0.8944271909999206</double>
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.8944271909999204</double>
+        <str name="text">index</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">value</str>
-        <double name="strength">0.8944271909999204</double>
+        <str name="text">pressure</str>
+        <double name="strength">0.9999999999999969</double>
       </lst>
       <lst name="term">
-        <str name="text">continued</str>
-        <double name="strength">0.8944271909999204</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999963</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">271</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">It closed at its best level since September 12, at 71.4 pct of its 1975 value on the index, as foreign investors continued to buy into a currency which offers high relative returns and the possibility of short-term capital gains, dealers said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">244</int>
-        <double name="strength">0.8324825819864757</double>
+        <double name="strength">0.8506613756685412</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This money market signal was apparently not accompanied by any sterling sales on the foreign exchanges, talk of which had inhibited strong rises yesterday and Tuesday, so buyers came strongly into the pound.</str>
-        <int name="index">7</int>
+        <str name="text">They argue that the pound is being perceived as a safer bet than the dollar, given the latters recent sharp falls and current political upheavals in Washington.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">0.775780056815101</double>
+        <int name="end">161</int>
+        <double name="strength">0.7654605111690232</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Markets&lt;/em&gt; have &lt;em&gt;become highly optimistic about&lt;/em&gt; the &lt;em&gt;chances&lt;/em&gt; of a &lt;em&gt;Conservative Party victory&lt;/em&gt; in any &lt;em&gt;early general election,&lt;/em&gt; and &lt;em&gt;disappointment&lt;/em&gt; if &lt;em&gt;Prime Minister Margaret Thatcher decides&lt;/em&gt; to hold back &lt;em&gt;could&lt;/em&gt; lead to a &lt;em&gt;decline&lt;/em&gt; in the &lt;em&gt;pound&lt;/em&gt; and a &lt;em&gt;setback&lt;/em&gt; for &lt;em&gt;bonds, Fellner said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Markets&lt;/em&gt; have become highly &lt;em&gt;optimistic&lt;/em&gt; about the &lt;em&gt;chances&lt;/em&gt; of a &lt;em&gt;Conservative Party victory&lt;/em&gt; in any &lt;em&gt;early general election,&lt;/em&gt; and &lt;em&gt;disappointment&lt;/em&gt; if &lt;em&gt;Prime Minister Margaret&lt;/em&gt; Thatcher decides to hold back could lead to a &lt;em&gt;decline&lt;/em&gt; in the &lt;em&gt;pound&lt;/em&gt; and a &lt;em&gt;setback&lt;/em&gt; for &lt;em&gt;bonds, Fellner said&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;closed&lt;/em&gt; at its best &lt;em&gt;level since September 12,&lt;/em&gt; at 71.4 pct of its 1975 &lt;em&gt;value&lt;/em&gt; on the &lt;em&gt;index,&lt;/em&gt; as &lt;em&gt;foreign investors continued&lt;/em&gt; to buy into a &lt;em&gt;currency which offers&lt;/em&gt; high &lt;em&gt;relative returns&lt;/em&gt; and the &lt;em&gt;possibility&lt;/em&gt; of &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;capital gains, dealers said&lt;/em&gt;.</str>
+        <str name="text">It closed at its best &lt;em&gt;level&lt;/em&gt; since &lt;em&gt;September 12,&lt;/em&gt; at 71.4 pct of its 1975 &lt;em&gt;value&lt;/em&gt; on the &lt;em&gt;index,&lt;/em&gt; as &lt;em&gt;foreign investors&lt;/em&gt; continued to buy into a &lt;em&gt;currency&lt;/em&gt; which offers high &lt;em&gt;relative returns&lt;/em&gt; and the &lt;em&gt;possibility&lt;/em&gt; of &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;capital gains, dealers said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;money market signal&lt;/em&gt; was &lt;em&gt;apparently&lt;/em&gt; not &lt;em&gt;accompanied&lt;/em&gt; by any &lt;em&gt;sterling sales&lt;/em&gt; on the &lt;em&gt;foreign exchanges,&lt;/em&gt; talk of &lt;em&gt;which&lt;/em&gt; had &lt;em&gt;inhibited strong rises yesterday&lt;/em&gt; and &lt;em&gt;Tuesday,&lt;/em&gt; so &lt;em&gt;buyers&lt;/em&gt; came &lt;em&gt;strongly&lt;/em&gt; into the &lt;em&gt;pound&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">They &lt;em&gt;argue&lt;/em&gt; that the &lt;em&gt;pound&lt;/em&gt; is being perceived as a safer bet than the &lt;em&gt;dollar,&lt;/em&gt; given the &lt;em&gt;latters recent sharp falls&lt;/em&gt; and &lt;em&gt;current political upheavals&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

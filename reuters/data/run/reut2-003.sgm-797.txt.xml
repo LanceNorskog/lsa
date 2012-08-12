@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-797.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">211</int>
+        <int name="count">153</int>
       </lst>
       <lst name="stems">
-        <int name="count">133</int>
+        <int name="count">90</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">quarter</str>
+        <str name="text">explore</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">amount</str>
-        <double name="strength">0.6666666666666671</double>
+        <str name="text">europeans</str>
+        <double name="strength">0.9962512571107457</double>
       </lst>
       <lst name="term">
-        <str name="text">texaco</str>
-        <double name="strength">0.666666666666667</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.996251257110745</double>
       </lst>
       <lst name="term">
-        <str name="text">shell</str>
-        <double name="strength">0.37267799624996534</double>
+        <str name="text">property</str>
+        <double name="strength">0.9786399255220419</double>
       </lst>
       <lst name="term">
-        <str name="text">plenty</str>
-        <double name="strength">0.3333333333333353</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9516605632789618</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. reserves paid a median price of 6.45 dlrs a barrel of oil during the fourth quarter of 1986 for acquisitions, up from 5.33 dlrs in the third quarter and five dlrs in the second quarter, according to the firm's research.</str>
-        <int name="index">7</int>
-        <int name="start">0</int>
-        <int name="end">222</int>
+        <str name="text">In two of the biggest transactions of recent months, French-owned Minatome Corp., a unit of &lt;Total Compagnie Francaise des Petroles&gt;, spent more than 230 mln dlrs to separately acquire oil assets of Texas International &lt;TEICC&gt; and Lear Petroleum Partners &lt;LPP&gt;.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">262</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Most buyers said the pay-back period of a property, its geographic location and the lifting cost of the crude oil are more important factors in evaluating potential acquisitions than relying on a simple price-per-barrel formula.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">229</int>
-        <double name="strength">0.8719987738381184</double>
+        <double name="strength">0.9851413212012945</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In two of the biggest transactions of recent months, French-owned Minatome Corp., a unit of &lt;Total Compagnie Francaise des Petroles&gt;, spent more than 230 mln dlrs to separately acquire oil assets of Texas International &lt;TEICC&gt; and Lear Petroleum Partners &lt;LPP&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Plenty of properties are available on the market, thanks to the need of many companies to raise cash for debt payments and general restructuring throughout the oilpatch.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">262</int>
-        <double name="strength">0.869532011402926</double>
+        <int name="end">170</int>
+        <double name="strength">0.8632105106311199</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;reserves&lt;/em&gt; paid a &lt;em&gt;median price&lt;/em&gt; of 6.45 dlrs a &lt;em&gt;barrel&lt;/em&gt; of oil &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;fourth quarter&lt;/em&gt; of 1986 for &lt;em&gt;acquisitions,&lt;/em&gt; up from 5.33 dlrs in the &lt;em&gt;third quarter&lt;/em&gt; and five dlrs in the &lt;em&gt;second quarter, according&lt;/em&gt; to the firm's &lt;em&gt;research&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">In two of the biggest &lt;em&gt;transactions&lt;/em&gt; of &lt;em&gt;recent months,&lt;/em&gt; French-owned &lt;em&gt;Minatome&lt;/em&gt; Corp., a unit of &lt;&lt;em&gt;Total Compagnie Francaise&lt;/em&gt; des &lt;em&gt;Petroles&gt;,&lt;/em&gt; spent more than 230 mln dlrs to separately &lt;em&gt;acquire&lt;/em&gt; oil &lt;em&gt;assets&lt;/em&gt; of &lt;em&gt;Texas International &lt;TEICC&gt;&lt;/em&gt; and Lear &lt;em&gt;Petroleum Partners &lt;LPP&gt;&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Most &lt;em&gt;buyers&lt;/em&gt; said the pay-back &lt;em&gt;period&lt;/em&gt; of a &lt;em&gt;property,&lt;/em&gt; its &lt;em&gt;geographic location&lt;/em&gt; and the &lt;em&gt;lifting&lt;/em&gt; cost of the &lt;em&gt;crude&lt;/em&gt; oil are more &lt;em&gt;important factors&lt;/em&gt; in &lt;em&gt;evaluating potential acquisitions&lt;/em&gt; than &lt;em&gt;relying&lt;/em&gt; on a &lt;em&gt;simple price&lt;/em&gt;-per-&lt;em&gt;barrel formula&lt;/em&gt;.</str>
+        <str name="text">Most &lt;em&gt;buyers&lt;/em&gt; said the pay-back &lt;em&gt;period&lt;/em&gt; of a &lt;em&gt;property,&lt;/em&gt; its &lt;em&gt;geographic location&lt;/em&gt; and the &lt;em&gt;lifting&lt;/em&gt; cost of the &lt;em&gt;crude&lt;/em&gt; oil are more &lt;em&gt;important factors&lt;/em&gt; in evaluating &lt;em&gt;potential acquisitions&lt;/em&gt; than relying on a &lt;em&gt;simple price&lt;/em&gt;-per-&lt;em&gt;barrel formula&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In two of the &lt;em&gt;biggest transactions&lt;/em&gt; of &lt;em&gt;recent months, French-owned Minatome&lt;/em&gt; Corp., a unit of &lt;&lt;em&gt;Total Compagnie Francaise&lt;/em&gt; des &lt;em&gt;Petroles&gt;, spent&lt;/em&gt; more than 230 mln dlrs to &lt;em&gt;separately acquire&lt;/em&gt; oil &lt;em&gt;assets&lt;/em&gt; of &lt;em&gt;Texas International &lt;TEICC&gt;&lt;/em&gt; and Lear &lt;em&gt;Petroleum Partners &lt;LPP&gt;&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Plenty&lt;/em&gt; of &lt;em&gt;properties&lt;/em&gt; are &lt;em&gt;available&lt;/em&gt; on the &lt;em&gt;market, thanks&lt;/em&gt; to the need of many &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;raise&lt;/em&gt; cash for debt &lt;em&gt;payments&lt;/em&gt; and &lt;em&gt;general restructuring&lt;/em&gt; throughout the &lt;em&gt;oilpatch&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

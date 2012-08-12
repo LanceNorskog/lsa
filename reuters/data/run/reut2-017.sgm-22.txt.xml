@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-22.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">42</int>
       </lst>
       <lst name="terms">
-        <int name="count">233</int>
+        <int name="count">148</int>
       </lst>
       <lst name="stems">
-        <int name="count">148</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">goods</str>
+        <str name="text">targets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.559016994374946</double>
+        <str name="text">democrats</str>
+        <double name="strength">0.95524865872714</double>
       </lst>
       <lst name="term">
-        <str name="text">while</str>
-        <double name="strength">0.5000000000000026</double>
+        <str name="text">trading</str>
+        <double name="strength">0.951452234836802</double>
       </lst>
       <lst name="term">
-        <str name="text">trying</str>
-        <double name="strength">0.5000000000000026</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9466332157713968</double>
       </lst>
       <lst name="term">
-        <str name="text">attack</str>
-        <double name="strength">0.5000000000000026</double>
+        <str name="text">white</str>
+        <double name="strength">0.9466332157713968</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">As the dollar slides downward on global markets and stock exchanges gyrate wildly, the trade dispute involving the United States and Japan once again is spreading fears of a major trade war between the two trading giants for the first time since World War II.</str>
-        <int name="index">4</int>
+        <str name="text">A key Senate Budget Committee source told Reuters he believes this very unusual unanimous opposition was by design among congressional Republicans, perhaps with the tacit approval of the White House.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">260</int>
+        <int name="end">200</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">While Congress is trying to attack the trade deficit on one front through a get-tough trade bill promising retaliatory measures unless all markets are opened, its success so far against the budget deficit has been marked by limited progress.</str>
-        <int name="index">31</int>
+        <str name="text">That law, named after Republican Senators Phil Gramm of Texas, Warren Rudman of New Hampshire and Democrat Ernest Hollings of South Carolina, calls for a balanced budget by 1991 through a series of set deficit targets that Congress must meet.</str>
+        <int name="index">34</int>
         <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.9252025879196367</double>
+        <int name="end">243</int>
+        <double name="strength">0.9964311805954994</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The law has been followed, even though an enforcement mechanism to mandate automatic across-the-board cuts if Congress misses its goal was stricken by the Supreme Court.</str>
-        <int name="index">35</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.8061200874421726</double>
+        <str name="text">But if they withdraw this support the result can only be further problems, including higher interest rates for Americans.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">121</int>
+        <double name="strength">0.8644789840333944</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">As the &lt;em&gt;dollar slides downward&lt;/em&gt; on &lt;em&gt;global markets&lt;/em&gt; and &lt;em&gt;stock exchanges gyrate wildly,&lt;/em&gt; the &lt;em&gt;trade dispute involving&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; once &lt;em&gt;again&lt;/em&gt; is &lt;em&gt;spreading fears&lt;/em&gt; of a &lt;em&gt;major trade&lt;/em&gt; war &lt;em&gt;between&lt;/em&gt; the two &lt;em&gt;trading giants&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time &lt;em&gt;since World&lt;/em&gt; War II.</str>
-        <int name="index">4</int>
+        <str name="text">A key &lt;em&gt;Senate Budget Committee source&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; he believes this very &lt;em&gt;unusual unanimous opposition&lt;/em&gt; was by &lt;em&gt;design&lt;/em&gt; among &lt;em&gt;congressional Republicans,&lt;/em&gt; perhaps with the &lt;em&gt;tacit approval&lt;/em&gt; of the &lt;em&gt;White House&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;While Congress&lt;/em&gt; is &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;attack&lt;/em&gt; the &lt;em&gt;trade deficit&lt;/em&gt; on one &lt;em&gt;front through&lt;/em&gt; a get-&lt;em&gt;tough trade&lt;/em&gt; bill &lt;em&gt;promising retaliatory measures unless&lt;/em&gt; all &lt;em&gt;markets&lt;/em&gt; are &lt;em&gt;opened,&lt;/em&gt; its &lt;em&gt;success&lt;/em&gt; so far &lt;em&gt;against&lt;/em&gt; the &lt;em&gt;budget deficit&lt;/em&gt; has been &lt;em&gt;marked&lt;/em&gt; by &lt;em&gt;limited progress&lt;/em&gt;.</str>
-        <int name="index">31</int>
+        <str name="text">That law, named after &lt;em&gt;Republican Senators&lt;/em&gt; Phil &lt;em&gt;Gramm&lt;/em&gt; of &lt;em&gt;Texas,&lt;/em&gt; Warren &lt;em&gt;Rudman&lt;/em&gt; of New &lt;em&gt;Hampshire&lt;/em&gt; and &lt;em&gt;Democrat Ernest Hollings&lt;/em&gt; of &lt;em&gt;South Carolina,&lt;/em&gt; calls for a &lt;em&gt;balanced budget&lt;/em&gt; by 1991 through a &lt;em&gt;series&lt;/em&gt; of set &lt;em&gt;deficit targets&lt;/em&gt; that &lt;em&gt;Congress&lt;/em&gt; must meet.</str>
+        <int name="index">34</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The law has been &lt;em&gt;followed,&lt;/em&gt; even &lt;em&gt;though&lt;/em&gt; an &lt;em&gt;enforcement mechanism&lt;/em&gt; to &lt;em&gt;mandate automatic across&lt;/em&gt;-the-&lt;em&gt;board&lt;/em&gt; cuts if &lt;em&gt;Congress misses&lt;/em&gt; its goal was &lt;em&gt;stricken&lt;/em&gt; by the &lt;em&gt;Supreme Court&lt;/em&gt;.</str>
-        <int name="index">35</int>
+        <str name="text">But if they &lt;em&gt;withdraw&lt;/em&gt; this &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;result&lt;/em&gt; can only be &lt;em&gt;further problems,&lt;/em&gt; including higher &lt;em&gt;interest rates&lt;/em&gt; for &lt;em&gt;Americans&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

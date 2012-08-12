@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-159.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lowered</str>
+        <str name="text">soybean</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">hectares</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">cordoba</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">areas</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">weather</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">actually</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">crops</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">under</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">sorghum</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Harvesting in areas not actually under water could also be further delayed due to dampness in the earth, the sources said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">123</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Fresh, heavy rains caused further damage to the Argentine 1986/87 coarse grains crop in the week to yesterday, particularly in Buenos Aires province, trade sources said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">169</int>
-        <double name="strength">0.9972437410580136</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The production forecast for 1986/87 sunflowerseed has been lowered to between 2.2 and 2.4 mln tonnes, against 2.3 to 2.6 mln tonnes the previous week, making it 41.5 to 46.3 pct lower than the record 4.1 mln tonnes produced last season.</str>
-        <int name="index">12</int>
+        <str name="text">The rains over the weekend and up to yesterday registered more than 200 mm on average in western Buenos Aires and worsened the flooding in various parts of the province.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">0.9719275989899466</double>
+        <int name="end">170</int>
+        <double name="strength">0.8556276129086511</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Soybean harvesting is due to start in mid-April in southern Cordoba and Santa Fe and northern Buenos Aires.</str>
+        <int name="index">27</int>
+        <int name="start">1</int>
+        <int name="end">108</int>
+        <double name="strength">0.7994021893297605</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Harvesting&lt;/em&gt; in &lt;em&gt;areas&lt;/em&gt; not &lt;em&gt;actually under water could&lt;/em&gt; also be &lt;em&gt;further delayed&lt;/em&gt; due to &lt;em&gt;dampness&lt;/em&gt; in the &lt;em&gt;earth,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Fresh, heavy rains caused further damage&lt;/em&gt; to the &lt;em&gt;Argentine 1986/87 coarse grains&lt;/em&gt; crop in the week to &lt;em&gt;yesterday, particularly&lt;/em&gt; in &lt;em&gt;Buenos Aires province, trade sources said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Fresh, heavy rains&lt;/em&gt; caused &lt;em&gt;further damage&lt;/em&gt; to the &lt;em&gt;Argentine 1986/87 coarse grains&lt;/em&gt; crop in the week to &lt;em&gt;yesterday,&lt;/em&gt; particularly in &lt;em&gt;Buenos Aires province, trade sources said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;production forecast&lt;/em&gt; for 1986/87 &lt;em&gt;sunflowerseed&lt;/em&gt; has been &lt;em&gt;lowered&lt;/em&gt; to &lt;em&gt;between 2.2&lt;/em&gt; and 2.4 mln &lt;em&gt;tonnes, against 2.3&lt;/em&gt; to 2.6 mln &lt;em&gt;tonnes&lt;/em&gt; the &lt;em&gt;previous&lt;/em&gt; week, &lt;em&gt;making&lt;/em&gt; it 41.5 to 46.3 pct &lt;em&gt;lower&lt;/em&gt; than the &lt;em&gt;record 4.1&lt;/em&gt; mln &lt;em&gt;tonnes produced&lt;/em&gt; last &lt;em&gt;season&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">The &lt;em&gt;rains&lt;/em&gt; over the &lt;em&gt;weekend&lt;/em&gt; and up to &lt;em&gt;yesterday&lt;/em&gt; registered more than 200 mm on &lt;em&gt;average&lt;/em&gt; in &lt;em&gt;western Buenos Aires&lt;/em&gt; and worsened the &lt;em&gt;flooding&lt;/em&gt; in &lt;em&gt;various parts&lt;/em&gt; of the &lt;em&gt;province&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Soybean harvesting&lt;/em&gt; is due to &lt;em&gt;start&lt;/em&gt; in mid-&lt;em&gt;April&lt;/em&gt; in &lt;em&gt;southern Cordoba&lt;/em&gt; and &lt;em&gt;Santa&lt;/em&gt; Fe and &lt;em&gt;northern Buenos Aires&lt;/em&gt;.</str>
+        <int name="index">27</int>
       </lst>
     </lst>
   </lst>

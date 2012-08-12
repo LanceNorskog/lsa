@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-497.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">their</str>
+        <str name="text">economists</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">0.5</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">putting</str>
-        <double name="strength">0.5</double>
+        <str name="text">treasury</str>
+        <double name="strength">0.9840716504496521</double>
       </lst>
       <lst name="term">
-        <str name="text">denominated</str>
-        <double name="strength">0.5</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9840716504496513</double>
       </lst>
       <lst name="term">
-        <str name="text">difficult</str>
-        <double name="strength">0.5</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9840716504496503</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Nevertheless, New York analyst William Raferty, of Smith Barney Harris Upham said  "We're still in a bull market," adding that corrections are a normal part of a rising market and "The bear usually strikes slowly."</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">215</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Although interest by the Japanese in putting their money in non-dollar denominated bonds and stocks has increased it's very difficult to see where else they can put their money than in U.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.8069816598438663</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Economist Evelyn Brody, at Morgan Grenfell and Co in London, said the huge sums of money going through the world financial system will keep a floor under share and bond prices.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">177</int>
-        <double name="strength">0.7656218849721461</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Treasury (bond) market, according to David Butcher, a senior executive at Yamaichi Securities Co Ltd's bond operation in London.</str>
+        <int name="index">25</int>
+        <int name="start">0</int>
+        <int name="end">131</int>
+        <double name="strength">0.9223484187870615</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Increases duties on Japanese electronic goods, may be to hit the capital inflow which has financed the budget deficit.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">121</int>
+        <double name="strength">0.8997029179198676</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nevertheless,&lt;/em&gt; New York &lt;em&gt;analyst William Raferty,&lt;/em&gt; of &lt;em&gt;Smith Barney Harris Upham&lt;/em&gt; said  "We're &lt;em&gt;still&lt;/em&gt; in a bull &lt;em&gt;market," adding&lt;/em&gt; that &lt;em&gt;corrections&lt;/em&gt; are a &lt;em&gt;normal&lt;/em&gt; part of a &lt;em&gt;rising market&lt;/em&gt; and "The bear &lt;em&gt;usually strikes slowly.&lt;/em&gt;"</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Although interest&lt;/em&gt; by the &lt;em&gt;Japanese&lt;/em&gt; in &lt;em&gt;putting their money&lt;/em&gt; in non-&lt;em&gt;dollar denominated bonds&lt;/em&gt; and &lt;em&gt;stocks&lt;/em&gt; has &lt;em&gt;increased&lt;/em&gt; it's very &lt;em&gt;difficult&lt;/em&gt; to see &lt;em&gt;where&lt;/em&gt; else they can put &lt;em&gt;their money&lt;/em&gt; than in U.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Economist Evelyn Brody,&lt;/em&gt; at &lt;em&gt;Morgan Grenfell&lt;/em&gt; and Co in &lt;em&gt;London,&lt;/em&gt; said the huge sums of &lt;em&gt;money going through&lt;/em&gt; the &lt;em&gt;world financial system&lt;/em&gt; will keep a &lt;em&gt;floor under share&lt;/em&gt; and bond &lt;em&gt;prices&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Economist Evelyn Brody,&lt;/em&gt; at &lt;em&gt;Morgan Grenfell&lt;/em&gt; and Co in London, said the huge sums of &lt;em&gt;money&lt;/em&gt; going through the &lt;em&gt;world financial system&lt;/em&gt; will keep a &lt;em&gt;floor&lt;/em&gt; under &lt;em&gt;share&lt;/em&gt; and bond &lt;em&gt;prices&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Treasury &lt;/em&gt;(bond) &lt;em&gt;market,&lt;/em&gt; according to &lt;em&gt;David Butcher,&lt;/em&gt; a &lt;em&gt;senior executive&lt;/em&gt; at &lt;em&gt;Yamaichi Securities&lt;/em&gt; Co Ltd's bond &lt;em&gt;operation&lt;/em&gt; in London.</str>
+        <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Increases duties&lt;/em&gt; on &lt;em&gt;Japanese electronic goods,&lt;/em&gt; may be to hit the &lt;em&gt;capital inflow&lt;/em&gt; which has financed the &lt;em&gt;budget deficit&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

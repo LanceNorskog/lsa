@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-699.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">45</int>
       </lst>
       <lst name="terms">
-        <int name="count">200</int>
+        <int name="count">146</int>
       </lst>
       <lst name="stems">
-        <int name="count">126</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">systems</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sometime</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">share</str>
+        <double name="strength">0.9989724542274684</double>
       </lst>
       <lst name="term">
-        <str name="text">august</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">acquisition</str>
+        <double name="strength">0.9820446799306275</double>
       </lst>
       <lst name="term">
-        <str name="text">revenues</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">dilute</str>
+        <double name="strength">0.9820446799306275</double>
       </lst>
       <lst name="term">
-        <str name="text">exceed</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">sales</str>
+        <double name="strength">0.9437293044088436</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Computer Associates International Inc's 800 mln dlr merger with Uccel Corp &lt;UCE&gt; will eliminate its strongest rival, but the company still faces stiff competition from International Business Machines Corp &lt;IBM&gt;, Wall Street analysts said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">238</int>
+        <str name="text">That field is a segment of the market known as system utilities, or software packages that boost the productivity of a company's data processing facilities by increasing the speed, power and efficiency of large mainframe computers.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">232</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">When the deal is completed sometime in August, the company's revenues will exceed 450 mln dlrs, pushing it past  Microsoft Corp &lt;MFST&gt; as the world's largest independent software vendor.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">187</int>
-        <double name="strength">0.9613048701560183</double>
+        <double name="strength">0.7843203546543588</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That field is a segment of the market known as system utilities, or software packages that boost the productivity of a company's data processing facilities by increasing the speed, power and efficiency of large mainframe computers.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.9311321055444246</double>
+        <str name="text">"IBM is still the ruling force in mainframe systems software," said Scott Smith, an analyst with Donaldson Lufkin and Jenrette.</str>
+        <int name="index">1</int>
+        <int name="start">2</int>
+        <int name="end">129</int>
+        <double name="strength">0.782899439346449</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Computer Associates International&lt;/em&gt; Inc's 800 mln dlr &lt;em&gt;merger&lt;/em&gt; with &lt;em&gt;Uccel&lt;/em&gt; Corp &lt;UCE&gt; will &lt;em&gt;eliminate&lt;/em&gt; its &lt;em&gt;strongest rival,&lt;/em&gt; but the &lt;em&gt;company still faces stiff competition&lt;/em&gt; from &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, Wall &lt;em&gt;Street analysts said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">That &lt;em&gt;field&lt;/em&gt; is a &lt;em&gt;segment&lt;/em&gt; of the &lt;em&gt;market&lt;/em&gt; known as &lt;em&gt;system utilities,&lt;/em&gt; or &lt;em&gt;software packages&lt;/em&gt; that &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;productivity&lt;/em&gt; of a &lt;em&gt;company&lt;/em&gt;'s data &lt;em&gt;processing facilities&lt;/em&gt; by increasing the &lt;em&gt;speed, power&lt;/em&gt; and &lt;em&gt;efficiency&lt;/em&gt; of &lt;em&gt;large mainframe computers&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">When the deal is &lt;em&gt;completed sometime&lt;/em&gt; in &lt;em&gt;August,&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;revenues&lt;/em&gt; will &lt;em&gt;exceed 450&lt;/em&gt; mln dlrs, &lt;em&gt;pushing&lt;/em&gt; it past  &lt;em&gt;Microsoft&lt;/em&gt; Corp &lt;MFST&gt; as the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;largest independent software vendor&lt;/em&gt;.</str>
+        <str name="text">When the deal is completed sometime in &lt;em&gt;August,&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;revenues&lt;/em&gt; will &lt;em&gt;exceed 450&lt;/em&gt; mln dlrs, pushing it past  &lt;em&gt;Microsoft&lt;/em&gt; Corp &lt;MFST&gt; as the &lt;em&gt;world&lt;/em&gt;'s largest &lt;em&gt;independent software vendor&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That &lt;em&gt;field&lt;/em&gt; is a &lt;em&gt;segment&lt;/em&gt; of the &lt;em&gt;market known&lt;/em&gt; as &lt;em&gt;system utilities,&lt;/em&gt; or &lt;em&gt;software packages&lt;/em&gt; that &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;productivity&lt;/em&gt; of a &lt;em&gt;company&lt;/em&gt;'s data &lt;em&gt;processing facilities&lt;/em&gt; by &lt;em&gt;increasing&lt;/em&gt; the &lt;em&gt;speed, power&lt;/em&gt; and &lt;em&gt;efficiency&lt;/em&gt; of &lt;em&gt;large mainframe computers&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">"IBM is still the &lt;em&gt;ruling force&lt;/em&gt; in &lt;em&gt;mainframe systems software,"&lt;/em&gt; said &lt;em&gt;Scott&lt;/em&gt; Smith, an &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Donaldson Lufkin&lt;/em&gt; and &lt;em&gt;Jenrette&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-429.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">woods</str>
+        <str name="text">first</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">business</str>
+        <double name="strength">0.810272302083766</double>
       </lst>
       <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.8059919107871303</double>
       </lst>
       <lst name="term">
-        <str name="text">addition</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">company</str>
+        <double name="strength">0.8008623405940989</double>
       </lst>
       <lst name="term">
-        <str name="text">benefits</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">computer</str>
+        <double name="strength">0.8006777888498104</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Although the worldwide economic situation remains unsettled, there are some encouraging signs in our business," Akers said, pointing to, among other things, higher first-quarter shipments.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">International Business Machines Corp has started the year aggressively, but industry analysts said the company still faces some tough rounds in its fight to stop a two-year earnings slump.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">188</int>
-        <double name="strength">0.9752569150845151</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But they indicated that IBM's chances for a full recovery hinged on several key factors whose impact will not be felt until later in the year.</str>
-        <int name="index">5</int>
-        <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.8981774262781438</double>
+        <str name="text">In addition, IBM has said the full benefits of its early-retirement program and other cost-cutting moves will emerge as the year progresses.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.9889935834895369</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These include the success of IBM's new personal computer line, introduced two weeks ago, and its 9370 minicomputers, which will begin volume shipments in July.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9489587279241103</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Although&lt;/em&gt; the &lt;em&gt;worldwide economic situation remains unsettled, there&lt;/em&gt; are some &lt;em&gt;encouraging signs&lt;/em&gt; in our &lt;em&gt;business," Akers&lt;/em&gt; said, &lt;em&gt;pointing&lt;/em&gt; to, &lt;em&gt;among other things, higher first-quarter shipments&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;International Business Machines&lt;/em&gt; Corp has &lt;em&gt;started&lt;/em&gt; the year &lt;em&gt;aggressively,&lt;/em&gt; but &lt;em&gt;industry analysts&lt;/em&gt; said the &lt;em&gt;company still faces&lt;/em&gt; some &lt;em&gt;tough rounds&lt;/em&gt; in its &lt;em&gt;fight&lt;/em&gt; to stop a two-year &lt;em&gt;earnings slump&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;International Business Machines&lt;/em&gt; Corp has started the year aggressively, but &lt;em&gt;industry analysts&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; still faces some &lt;em&gt;tough rounds&lt;/em&gt; in its &lt;em&gt;fight&lt;/em&gt; to stop a two-year &lt;em&gt;earnings slump&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But they &lt;em&gt;indicated&lt;/em&gt; that IBM's &lt;em&gt;chances&lt;/em&gt; for a full &lt;em&gt;recovery hinged&lt;/em&gt; on &lt;em&gt;several&lt;/em&gt; key &lt;em&gt;factors whose impact&lt;/em&gt; will not be felt &lt;em&gt;until later&lt;/em&gt; in the year.</str>
-        <int name="index">5</int>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; IBM has said the full &lt;em&gt;benefits&lt;/em&gt; of its &lt;em&gt;early-retirement program&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; cost-cutting &lt;em&gt;moves&lt;/em&gt; will &lt;em&gt;emerge&lt;/em&gt; as the year &lt;em&gt;progresses&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;success&lt;/em&gt; of IBM's new &lt;em&gt;personal computer&lt;/em&gt; line, introduced two &lt;em&gt;weeks&lt;/em&gt; ago, and its 9370 &lt;em&gt;minicomputers,&lt;/em&gt; which will &lt;em&gt;begin volume shipments&lt;/em&gt; in July.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

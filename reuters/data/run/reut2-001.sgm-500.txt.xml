@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-500.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">goals</str>
+        <str name="text">overall</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">power</str>
-        <double name="strength">0.9999999999999994</double>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">goals</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
         <str name="text">initiative</str>
-        <double name="strength">0.8944271909999167</double>
+        <double name="strength">0.9634242309653828</double>
       </lst>
       <lst name="term">
         <str name="text">response</str>
-        <double name="strength">0.8944271909999167</double>
-      </lst>
-      <lst name="term">
-        <str name="text">several</str>
-        <double name="strength">0.8944271909999167</double>
+        <double name="strength">0.9634242309653828</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Last month the governor said "I have outlined to PNM critical goals which I have asked them to cooperate with may administration in achieving" adding the goals include immediate rate reduction, stabilization of future rates and stimulation of business expansion.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">263</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Public Service New Mexico said a central feature of its reorganization concept would be to separate the company's electric utility operation into independent generation and distribution entities, creating the opportunity for a targeted 35 mln dlr a year rate decrease.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">269</int>
-        <double name="strength">0.79293419611984</double>
+        <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The structure is being evaluated as part of the company's overall initiative in response to several goals announced by New Mexico Governor Garrey Carruthers, it explained.</str>
-        <int name="index">2</int>
+        <str name="text">Its rates would be set by the Federal Energy Regulatory Commission which regulates for wholesale electric power sales and transmission services.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">144</int>
+        <double name="strength">0.8799416290493879</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Last month the governor said "I have outlined to PNM critical goals which I have asked them to cooperate with may administration in achieving" adding the goals include immediate rate reduction, stabilization of future rates and stimulation of business expansion.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.6942748330882013</double>
+        <int name="end">263</int>
+        <double name="strength">0.818072119587912</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last &lt;em&gt;month&lt;/em&gt; the &lt;em&gt;governor&lt;/em&gt; said "I have &lt;em&gt;outlined&lt;/em&gt; to PNM &lt;em&gt;critical goals which&lt;/em&gt; I have &lt;em&gt;asked&lt;/em&gt; them to &lt;em&gt;cooperate&lt;/em&gt; with may &lt;em&gt;administration&lt;/em&gt; in &lt;em&gt;achieving" adding&lt;/em&gt; the &lt;em&gt;goals include immediate&lt;/em&gt; rate &lt;em&gt;reduction, stabilization&lt;/em&gt; of &lt;em&gt;future rates&lt;/em&gt; and &lt;em&gt;stimulation&lt;/em&gt; of &lt;em&gt;business expansion&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Public Service&lt;/em&gt; New &lt;em&gt;Mexico&lt;/em&gt; said a &lt;em&gt;central feature&lt;/em&gt; of its &lt;em&gt;reorganization concept would&lt;/em&gt; be to &lt;em&gt;separate&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;electric utility operation&lt;/em&gt; into &lt;em&gt;independent generation&lt;/em&gt; and &lt;em&gt;distribution entities, creating&lt;/em&gt; the &lt;em&gt;opportunity&lt;/em&gt; for a &lt;em&gt;targeted 35&lt;/em&gt; mln dlr a year rate &lt;em&gt;decrease&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Public Service&lt;/em&gt; New &lt;em&gt;Mexico&lt;/em&gt; said a &lt;em&gt;central feature&lt;/em&gt; of its &lt;em&gt;reorganization concept&lt;/em&gt; would be to &lt;em&gt;separate&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;electric utility operation&lt;/em&gt; into &lt;em&gt;independent generation&lt;/em&gt; and &lt;em&gt;distribution entities,&lt;/em&gt; creating the &lt;em&gt;opportunity&lt;/em&gt; for a &lt;em&gt;targeted 35&lt;/em&gt; mln dlr a year rate &lt;em&gt;decrease&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;structure&lt;/em&gt; is &lt;em&gt;being evaluated&lt;/em&gt; as part of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;overall initiative&lt;/em&gt; in &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;several goals announced&lt;/em&gt; by New &lt;em&gt;Mexico Governor Garrey Carruthers,&lt;/em&gt; it &lt;em&gt;explained&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">Its &lt;em&gt;rates&lt;/em&gt; would be set by the &lt;em&gt;Federal Energy Regulatory Commission&lt;/em&gt; which regulates for &lt;em&gt;wholesale electric power sales&lt;/em&gt; and &lt;em&gt;transmission services&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Last &lt;em&gt;month&lt;/em&gt; the &lt;em&gt;governor&lt;/em&gt; said "I have outlined to PNM &lt;em&gt;critical goals&lt;/em&gt; which I have asked them to &lt;em&gt;cooperate&lt;/em&gt; with may &lt;em&gt;administration&lt;/em&gt; in achieving" adding the &lt;em&gt;goals include immediate&lt;/em&gt; rate &lt;em&gt;reduction, stabilization&lt;/em&gt; of &lt;em&gt;future rates&lt;/em&gt; and &lt;em&gt;stimulation&lt;/em&gt; of &lt;em&gt;business expansion&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

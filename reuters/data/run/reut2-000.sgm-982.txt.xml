@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-982.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">earth</str>
+        <str name="text">finalize</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stations</str>
+        <str name="text">april</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">default</str>
-        <double name="strength">0.559016994374948</double>
+        <str name="text">talks</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">attempt</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">include</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">addition</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Equatorial said it has signed a memorandum of understanding for Contel Corp &lt;CTC&gt; to purchase 10 mln dlrs of Equatorial master earth stations, micro earth stations and associated equipment and loan Equatorial six mln dlrs over a six-month period for repayment starting in December 1988.</str>
-        <int name="index">6</int>
+        <str name="text">Equitorial also said that as of March One it is operating in technical default under its lease of transponders on the Galaxy III satellite due to its inabiliuty to maintain agreed-upon financial ratios.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">287</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Equatorial said the losses will include a charge of about 45 mln dlrs from costs associated with the restructuring of its business, including adjustments to reflect the market value of transponders owned and leased by Equatorial and other reserves for inventory, receivables and excess facilities.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">298</int>
-        <double name="strength">0.8613482682946721</double>
+        <double name="strength">0.9282392409646402</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Equitorial also said that as of March One it is operating in technical default under its lease of transponders on the Galaxy III satellite due to its inabiliuty to maintain agreed-upon financial ratios.</str>
-        <int name="index">3</int>
+        <str name="text">Equatorial said its understandings with Contel are subject to Equatorial's ability to restructure a significant portion of its obligations and to obtain concessions from lenders and lessors, in particular under its Galaxy III transponder lease.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">203</int>
-        <double name="strength">0.7047113066717987</double>
+        <int name="end">245</int>
+        <double name="strength">0.821405456747466</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Equatorial&lt;/em&gt; said it has &lt;em&gt;signed&lt;/em&gt; a &lt;em&gt;memorandum&lt;/em&gt; of &lt;em&gt;understanding&lt;/em&gt; for &lt;em&gt;Contel&lt;/em&gt; Corp &lt;CTC&gt; to &lt;em&gt;purchase 10&lt;/em&gt; mln dlrs of &lt;em&gt;Equatorial master earth stations, micro earth stations&lt;/em&gt; and &lt;em&gt;associated equipment&lt;/em&gt; and loan &lt;em&gt;Equatorial&lt;/em&gt; six mln dlrs over a six-&lt;em&gt;month period&lt;/em&gt; for &lt;em&gt;repayment starting&lt;/em&gt; in &lt;em&gt;December 1988&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Equitorial&lt;/em&gt; also said that as of &lt;em&gt;March&lt;/em&gt; One it is operating in &lt;em&gt;technical default&lt;/em&gt; under its &lt;em&gt;lease&lt;/em&gt; of &lt;em&gt;transponders&lt;/em&gt; on the &lt;em&gt;Galaxy&lt;/em&gt; III &lt;em&gt;satellite&lt;/em&gt; due to its &lt;em&gt;inabiliuty&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; agreed-upon &lt;em&gt;financial ratios&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Equatorial&lt;/em&gt; said the &lt;em&gt;losses&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;charge&lt;/em&gt; of &lt;em&gt;about 45&lt;/em&gt; mln dlrs from &lt;em&gt;costs associated&lt;/em&gt; with the &lt;em&gt;restructuring&lt;/em&gt; of its &lt;em&gt;business, including adjustments&lt;/em&gt; to &lt;em&gt;reflect&lt;/em&gt; the &lt;em&gt;market value&lt;/em&gt; of &lt;em&gt;transponders owned&lt;/em&gt; and &lt;em&gt;leased&lt;/em&gt; by &lt;em&gt;Equatorial&lt;/em&gt; and &lt;em&gt;other reserves&lt;/em&gt; for &lt;em&gt;inventory, receivables&lt;/em&gt; and &lt;em&gt;excess facilities&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Equatorial&lt;/em&gt; said the &lt;em&gt;losses&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;charge&lt;/em&gt; of about 45 mln dlrs from &lt;em&gt;costs&lt;/em&gt; associated with the &lt;em&gt;restructuring&lt;/em&gt; of its &lt;em&gt;business,&lt;/em&gt; including &lt;em&gt;adjustments&lt;/em&gt; to &lt;em&gt;reflect&lt;/em&gt; the &lt;em&gt;market value&lt;/em&gt; of &lt;em&gt;transponders&lt;/em&gt; owned and leased by &lt;em&gt;Equatorial&lt;/em&gt; and &lt;em&gt;other reserves&lt;/em&gt; for &lt;em&gt;inventory, receivables&lt;/em&gt; and &lt;em&gt;excess facilities&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Equitorial&lt;/em&gt; also said that as of &lt;em&gt;March&lt;/em&gt; One it is &lt;em&gt;operating&lt;/em&gt; in &lt;em&gt;technical default under&lt;/em&gt; its &lt;em&gt;lease&lt;/em&gt; of &lt;em&gt;transponders&lt;/em&gt; on the &lt;em&gt;Galaxy&lt;/em&gt; III &lt;em&gt;satellite&lt;/em&gt; due to its &lt;em&gt;inabiliuty&lt;/em&gt; to &lt;em&gt;maintain agreed&lt;/em&gt;-upon &lt;em&gt;financial ratios&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Equatorial&lt;/em&gt; said its &lt;em&gt;understandings&lt;/em&gt; with &lt;em&gt;Contel&lt;/em&gt; are &lt;em&gt;subject&lt;/em&gt; to &lt;em&gt;Equatorial&lt;/em&gt;'s &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;restructure&lt;/em&gt; a &lt;em&gt;significant portion&lt;/em&gt; of its &lt;em&gt;obligations&lt;/em&gt; and to &lt;em&gt;obtain concessions&lt;/em&gt; from &lt;em&gt;lenders&lt;/em&gt; and &lt;em&gt;lessors,&lt;/em&gt; in &lt;em&gt;particular&lt;/em&gt; under its &lt;em&gt;Galaxy&lt;/em&gt; III &lt;em&gt;transponder lease&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

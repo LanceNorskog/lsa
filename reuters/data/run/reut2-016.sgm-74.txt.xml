@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-74.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">european</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">discount</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">britain</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">reporters</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">canada</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">france</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999967</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">157</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Throughout the G-7 meeting, Japan pointed to the dangers that would arise from a further dollar fall because it would reduce the flow of Japanese capital to the U.</str>
-        <int name="index">11</int>
+        <str name="text">They told reporters that there was no pressure on Japan during the Group of Seven (G-7) meeting here yesterday to lower its discount rate.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">164</int>
-        <double name="strength">0.9783876579141755</double>
+        <int name="end">139</int>
+        <double name="strength">0.8676749058477529</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said the market must have misinterpreted Baker's comments because he was referring to the dollar's fall since the Plaza agreement in September 1985, over a long-time span, not the currency's recent movements.</str>
-        <int name="index">7</int>
+        <str name="text">They added that the foreign exchange markest seem to seize on anything to use as an excuse to drive the dollar one way or the other.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.8391846999778747</double>
+        <int name="end">133</int>
+        <double name="strength">0.8651134225508367</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; told &lt;em&gt;reporters earlier today&lt;/em&gt; that some &lt;em&gt;countries - those&lt;/em&gt; with &lt;em&gt;strong currencies - might&lt;/em&gt; have to cut &lt;em&gt;interest rates&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; earlier &lt;em&gt;today&lt;/em&gt; that some &lt;em&gt;countries -&lt;/em&gt; those with &lt;em&gt;strong currencies -&lt;/em&gt; might have to cut &lt;em&gt;interest rates&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Throughout&lt;/em&gt; the G-7 &lt;em&gt;meeting, Japan pointed&lt;/em&gt; to the &lt;em&gt;dangers&lt;/em&gt; that &lt;em&gt;would arise&lt;/em&gt; from a &lt;em&gt;further dollar&lt;/em&gt; fall &lt;em&gt;because&lt;/em&gt; it &lt;em&gt;would reduce&lt;/em&gt; the flow of &lt;em&gt;Japanese capital&lt;/em&gt; to the U.</str>
-        <int name="index">11</int>
+        <str name="text">They told &lt;em&gt;reporters&lt;/em&gt; that there was no &lt;em&gt;pressure&lt;/em&gt; on &lt;em&gt;Japan&lt;/em&gt; during the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;meeting&lt;/em&gt; here &lt;em&gt;yesterday&lt;/em&gt; to &lt;em&gt;lower&lt;/em&gt; its &lt;em&gt;discount rate&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said the &lt;em&gt;market&lt;/em&gt; must have &lt;em&gt;misinterpreted Baker&lt;/em&gt;'s &lt;em&gt;comments because&lt;/em&gt; he was &lt;em&gt;referring&lt;/em&gt; to the &lt;em&gt;dollar&lt;/em&gt;'s fall &lt;em&gt;since&lt;/em&gt; the &lt;em&gt;Plaza agreement&lt;/em&gt; in &lt;em&gt;September 1985,&lt;/em&gt; over a long-time span, not the &lt;em&gt;currency&lt;/em&gt;'s &lt;em&gt;recent movements&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">They added that the &lt;em&gt;foreign exchange markest&lt;/em&gt; seem to &lt;em&gt;seize&lt;/em&gt; on &lt;em&gt;anything&lt;/em&gt; to use as an &lt;em&gt;excuse&lt;/em&gt; to &lt;em&gt;drive&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; one way or the &lt;em&gt;other&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

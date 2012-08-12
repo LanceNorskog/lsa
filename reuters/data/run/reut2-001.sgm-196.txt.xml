@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-196.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">84</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">54</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">nations</str>
+        <str name="text">taxes</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">contact</str>
-        <double name="strength">0.9999999999999983</double>
+        <double name="strength">0.9634242309653841</double>
       </lst>
       <lst name="term">
-        <str name="text">partners</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">impose</str>
+        <double name="strength">0.9634242309653829</double>
       </lst>
       <lst name="term">
-        <str name="text">stupid</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">american</str>
+        <double name="strength">0.9634242309653829</double>
       </lst>
       <lst name="term">
-        <str name="text">enacted</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">products</str>
+        <double name="strength">0.9634242309653829</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said Congressmen seem upset mosty with Japan, because of its massive trade suprlus with the United States, and not with EC nations, but EC nations will be hurt by the diverted  shipments of Asian textiles.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Belgian Foreign Trade Minister Herman De Croo said if Congress passed legislation curbing world textile imports the only way the European Community (EC) could react was to retaliate.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">182</int>
-        <double name="strength">0.7779789488843488</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Congress passed a textile bill two years ago, but it was vetoed by President Reagan on grounds that curbing imports to protect the domestic textile industry would trigger retaliation U.</str>
-        <int name="index">4</int>
+        <str name="text">He said Congressmen seem upset mosty with Japan, because of its massive trade suprlus with the United States, and not with EC nations, but EC nations will be hurt by the diverted  shipments of Asian textiles.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">186</int>
-        <double name="strength">0.7385768067110533</double>
+        <int name="end">209</int>
+        <double name="strength">0.7834132131475939</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said it then is a crisis atmosphere with officials cross the Atlantic and dramatized with headlines.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">104</int>
+        <double name="strength">0.7738052049803609</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Congressmen&lt;/em&gt; seem &lt;em&gt;upset mosty&lt;/em&gt; with &lt;em&gt;Japan, because&lt;/em&gt; of its &lt;em&gt;massive trade suprlus&lt;/em&gt; with the &lt;em&gt;United States,&lt;/em&gt; and not with EC &lt;em&gt;nations,&lt;/em&gt; but EC &lt;em&gt;nations&lt;/em&gt; will be hurt by the &lt;em&gt;diverted  shipments&lt;/em&gt; of &lt;em&gt;Asian textiles&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Belgian Foreign Trade Minister Herman&lt;/em&gt; De Croo said if &lt;em&gt;Congress passed legislation curbing world textile imports&lt;/em&gt; the only way the &lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;could react&lt;/em&gt; was to &lt;em&gt;retaliate&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Belgian Foreign Trade Minister&lt;/em&gt; Herman De Croo said if &lt;em&gt;Congress&lt;/em&gt; passed &lt;em&gt;legislation&lt;/em&gt; curbing &lt;em&gt;world textile imports&lt;/em&gt; the only way the &lt;em&gt;European Community &lt;/em&gt;(EC) could &lt;em&gt;react&lt;/em&gt; was to &lt;em&gt;retaliate&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Congress passed&lt;/em&gt; a &lt;em&gt;textile&lt;/em&gt; bill two &lt;em&gt;years&lt;/em&gt; ago, but it was &lt;em&gt;vetoed&lt;/em&gt; by &lt;em&gt;President Reagan&lt;/em&gt; on &lt;em&gt;grounds&lt;/em&gt; that &lt;em&gt;curbing imports&lt;/em&gt; to &lt;em&gt;protect&lt;/em&gt; the &lt;em&gt;domestic textile industry would trigger retaliation U&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">He said &lt;em&gt;Congressmen&lt;/em&gt; seem &lt;em&gt;upset&lt;/em&gt; mosty with &lt;em&gt;Japan,&lt;/em&gt; because of its &lt;em&gt;massive trade suprlus&lt;/em&gt; with the United &lt;em&gt;States,&lt;/em&gt; and not with EC &lt;em&gt;nations,&lt;/em&gt; but EC &lt;em&gt;nations&lt;/em&gt; will be hurt by the diverted  &lt;em&gt;shipments&lt;/em&gt; of &lt;em&gt;Asian textiles&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said it then is a &lt;em&gt;crisis atmosphere&lt;/em&gt; with &lt;em&gt;officials cross&lt;/em&gt; the &lt;em&gt;Atlantic&lt;/em&gt; and dramatized with &lt;em&gt;headlines&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

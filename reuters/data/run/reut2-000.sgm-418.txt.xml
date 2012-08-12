@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-418.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">43</int>
       </lst>
       <lst name="terms">
-        <int name="count">205</int>
+        <int name="count">136</int>
       </lst>
       <lst name="stems">
-        <int name="count">127</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">recession</str>
+        <str name="text">problems</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">monthly</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">managing</str>
-        <double name="strength">0.9999999999999972</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9437293044088436</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">discussion</str>
+        <double name="strength">0.9437293044088434</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.5590169943749465</double>
+        <str name="text">mechanism</str>
+        <double name="strength">0.9437293044088433</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">233</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Funaro and Gros are today meeting British Chancellor of the Exchequer Nigel Lawson, Foreign Secretary Geoffrey Howe and Governor of the Bank of England Robin Leigh-Pemberton.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.9990424999408422</double>
+        <double name="strength">0.9972145067330956</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The solution is linked with growth, not recession," he said, noting an IMF program would involve promoting exports and inducing an internal recession in order to service debt.</str>
-        <int name="index">40</int>
-        <int name="start">0</int>
-        <int name="end">175</int>
-        <double name="strength">0.898580639331134</double>
+        <str name="text">The crisis began when Brazil's trade surplus, its chief means of servicing its foreign debt, started to decline sharply and the problem was compounded by a renewed surge in the country's&amp;#127;ate of inflation.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">210</int>
+        <double name="strength">0.8032937519548481</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although Brazil&lt;/em&gt; has &lt;em&gt;rejected&lt;/em&gt; a &lt;em&gt;substantive&lt;/em&gt; role for the &lt;em&gt;International Monetary&lt;/em&gt; Fund (IMF) in &lt;em&gt;managing&lt;/em&gt; its &lt;em&gt;economy, Funaro&lt;/em&gt; paid a call in &lt;em&gt;Washington&lt;/em&gt; to IMF &lt;em&gt;Managing Director Michel Camdessus&lt;/em&gt; and to &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable&lt;/em&gt;.</str>
+        <str name="text">Although &lt;em&gt;Brazil&lt;/em&gt; has rejected a &lt;em&gt;substantive&lt;/em&gt; role for the &lt;em&gt;International Monetary&lt;/em&gt; Fund (IMF) in managing its &lt;em&gt;economy, Funaro&lt;/em&gt; paid a call in &lt;em&gt;Washington&lt;/em&gt; to IMF &lt;em&gt;Managing Director Michel Camdessus&lt;/em&gt; and to &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable&lt;/em&gt;.</str>
         <int name="index">35</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; and Gros are &lt;em&gt;today meeting British Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson, Foreign Secretary Geoffrey&lt;/em&gt; Howe and &lt;em&gt;Governor&lt;/em&gt; of the Bank of &lt;em&gt;England Robin Leigh-Pemberton&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; and Gros are today meeting &lt;em&gt;British Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson, Foreign Secretary Geoffrey&lt;/em&gt; Howe and &lt;em&gt;Governor&lt;/em&gt; of the Bank of &lt;em&gt;England Robin Leigh-Pemberton&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;solution&lt;/em&gt; is &lt;em&gt;linked&lt;/em&gt; with &lt;em&gt;growth,&lt;/em&gt; not &lt;em&gt;recession,"&lt;/em&gt; he said, &lt;em&gt;noting&lt;/em&gt; an IMF &lt;em&gt;program would involve promoting exports&lt;/em&gt; and &lt;em&gt;inducing&lt;/em&gt; an &lt;em&gt;internal recession&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;service debt&lt;/em&gt;.</str>
-        <int name="index">40</int>
+        <str name="text">The &lt;em&gt;crisis&lt;/em&gt; began when &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;trade surplus,&lt;/em&gt; its &lt;em&gt;chief means&lt;/em&gt; of servicing its &lt;em&gt;foreign&lt;/em&gt; debt, started to &lt;em&gt;decline&lt;/em&gt; sharply and the &lt;em&gt;problem&lt;/em&gt; was compounded by a renewed &lt;em&gt;surge&lt;/em&gt; in the &lt;em&gt;country&lt;/em&gt;'s&amp;#127;ate of &lt;em&gt;inflation&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

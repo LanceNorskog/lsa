@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-367.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">215</int>
+        <int name="count">136</int>
       </lst>
       <lst name="stems">
-        <int name="count">140</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">world</str>
+        <str name="text">fiscal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">economy</str>
-        <double name="strength">0.9888264649460895</double>
+        <str name="text">nation</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">stimulate</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9941728092057432</double>
       </lst>
       <lst name="term">
-        <str name="text">senior</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">states</str>
+        <double name="strength">0.994172809205743</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9941728092057424</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The May 11-13 ministerial meeting of the 24-nation OECD, a forum for coordinating economic policies, has taken on added significance in view of the difficulties dogging the attempts of major nations to achieve joint goals.</str>
-        <int name="index">3</int>
+        <str name="text">The paper was expected to stimulate policy debate among senior officials of leading industrial nations preparing for next month's annual meeting of finance ministers in Paris.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">223</int>
+        <int name="end">176</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Reagan administration, this week facing the prospect of a tough trade bill aimed at curbing foreign trade surpluses, also promised to fight protectionism.</str>
-        <int name="index">24</int>
+        <str name="text">As a result, financial markets have been unusually unstable and have focussed their attention on every international meeting for clues that change is in the air.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.9871117047072163</double>
+        <int name="end">162</int>
+        <double name="strength">0.8737717649135478</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If faster German growth fails to emerge, Bonn could find itself under pressure to speed up tax cuts planned for early 1988 when leaders of the seven meet in Venice this June.</str>
-        <int name="index">36</int>
+        <str name="text">Such rate reductions would have helped stabilize the steep decline of the dollar, by widening the difference between bond yields in the United States, on the one hand, and in Japan and West Germany on the other.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.9540359708682604</double>
+        <int name="end">212</int>
+        <double name="strength">0.867087956692926</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The May 11-13 &lt;em&gt;ministerial meeting&lt;/em&gt; of the 24-&lt;em&gt;nation&lt;/em&gt; OECD, a &lt;em&gt;forum&lt;/em&gt; for &lt;em&gt;coordinating economic policies,&lt;/em&gt; has &lt;em&gt;taken&lt;/em&gt; on &lt;em&gt;added significance&lt;/em&gt; in view of the &lt;em&gt;difficulties dogging&lt;/em&gt; the &lt;em&gt;attempts&lt;/em&gt; of &lt;em&gt;major nations&lt;/em&gt; to &lt;em&gt;achieve joint goals&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;paper&lt;/em&gt; was expected to &lt;em&gt;stimulate policy debate&lt;/em&gt; among &lt;em&gt;senior officials&lt;/em&gt; of leading &lt;em&gt;industrial nations&lt;/em&gt; preparing for next &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;annual meeting&lt;/em&gt; of &lt;em&gt;finance ministers&lt;/em&gt; in &lt;em&gt;Paris&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Reagan administration,&lt;/em&gt; this week &lt;em&gt;facing&lt;/em&gt; the &lt;em&gt;prospect&lt;/em&gt; of a &lt;em&gt;tough trade&lt;/em&gt; bill &lt;em&gt;aimed&lt;/em&gt; at &lt;em&gt;curbing foreign trade surpluses,&lt;/em&gt; also &lt;em&gt;promised&lt;/em&gt; to &lt;em&gt;fight protectionism&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">As a &lt;em&gt;result, financial markets&lt;/em&gt; have been unusually &lt;em&gt;unstable&lt;/em&gt; and have focussed their &lt;em&gt;attention&lt;/em&gt; on every &lt;em&gt;international meeting&lt;/em&gt; for &lt;em&gt;clues&lt;/em&gt; that &lt;em&gt;change&lt;/em&gt; is in the air.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If &lt;em&gt;faster German growth fails&lt;/em&gt; to &lt;em&gt;emerge,&lt;/em&gt; Bonn &lt;em&gt;could&lt;/em&gt; find &lt;em&gt;itself under pressure&lt;/em&gt; to &lt;em&gt;speed&lt;/em&gt; up tax cuts &lt;em&gt;planned&lt;/em&gt; for &lt;em&gt;early 1988&lt;/em&gt; when &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;seven&lt;/em&gt; meet in &lt;em&gt;Venice&lt;/em&gt; this June.</str>
-        <int name="index">36</int>
+        <str name="text">Such rate &lt;em&gt;reductions&lt;/em&gt; would have helped &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;steep decline&lt;/em&gt; of the &lt;em&gt;dollar,&lt;/em&gt; by widening the &lt;em&gt;difference&lt;/em&gt; between bond &lt;em&gt;yields&lt;/em&gt; in the United &lt;em&gt;States,&lt;/em&gt; on the one hand, and in &lt;em&gt;Japan&lt;/em&gt; and West &lt;em&gt;Germany&lt;/em&gt; on the &lt;em&gt;other&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

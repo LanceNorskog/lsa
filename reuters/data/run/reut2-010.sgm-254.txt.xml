@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-254.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">81</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">changes</str>
+        <str name="text">dollar</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">inflation</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">worsen</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9877415447956277</double>
       </lst>
       <lst name="term">
-        <str name="text">business</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9877415447956261</double>
       </lst>
       <lst name="term">
-        <str name="text">climate</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">result</str>
+        <double name="strength">0.9877415447956261</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The combined export earnings of 16 major indebted nations were sharply lower, and only five of them (Chile, Colombia, Philippines, South Korea, and Thailand) had higher exports.</str>
-        <int name="index">26</int>
-        <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">GATT experts urged Washington to resist protectionism and instead seek macroeconomic changes to reduce the current account payments deficit -- higher private savings, lower investment and a smaller federal budget deficit.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.9938916001358058</double>
-      </lst>
       <lst name="sentence">
         <str name="text">GATT economists said trade expansion would slow this year because of slower growth forecasts in Japan and some West European nations as they adjust production and workforces to a low dollar, risk of higher U.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">209</int>
-        <double name="strength">0.9608952741538278</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The basic cause -- some combination of insufficient domestic savings and an excessive budget deficit -- would remain," the report said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">137</int>
+        <double name="strength">0.9339360795788095</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Such a development could worsen the business climate by increasing uncertainty and pushing up interest rates, which, in turn, would adversely affect world trade."</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.9172370677548435</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;combined export earnings&lt;/em&gt; of 16 &lt;em&gt;major indebted nations&lt;/em&gt; were &lt;em&gt;sharply lower,&lt;/em&gt; and only five of them (&lt;em&gt;Chile, Colombia, Philippines, South Korea,&lt;/em&gt; and &lt;em&gt;Thailand)&lt;/em&gt; had &lt;em&gt;higher exports&lt;/em&gt;.</str>
-        <int name="index">26</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">GATT &lt;em&gt;experts urged Washington&lt;/em&gt; to &lt;em&gt;resist protectionism&lt;/em&gt; and &lt;em&gt;instead&lt;/em&gt; seek &lt;em&gt;macroeconomic changes&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;current account payments deficit -- higher private savings, lower investment&lt;/em&gt; and a &lt;em&gt;smaller federal budget deficit&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">GATT &lt;em&gt;economists&lt;/em&gt; said &lt;em&gt;trade expansion would&lt;/em&gt; slow this year &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;slower growth forecasts&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; and some West &lt;em&gt;European nations&lt;/em&gt; as they &lt;em&gt;adjust production&lt;/em&gt; and &lt;em&gt;workforces&lt;/em&gt; to a low &lt;em&gt;dollar,&lt;/em&gt; risk of &lt;em&gt;higher U&lt;/em&gt;.</str>
+        <str name="text">GATT &lt;em&gt;economists&lt;/em&gt; said &lt;em&gt;trade expansion&lt;/em&gt; would slow this year because of slower &lt;em&gt;growth forecasts&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; and some West &lt;em&gt;European nations&lt;/em&gt; as they &lt;em&gt;adjust production&lt;/em&gt; and &lt;em&gt;workforces&lt;/em&gt; to a low &lt;em&gt;dollar,&lt;/em&gt; risk of higher U.</str>
         <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;basic cause --&lt;/em&gt; some &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;insufficient domestic savings&lt;/em&gt; and an &lt;em&gt;excessive budget deficit --&lt;/em&gt; would &lt;em&gt;remain,"&lt;/em&gt; the &lt;em&gt;report said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Such a &lt;em&gt;development&lt;/em&gt; could &lt;em&gt;worsen&lt;/em&gt; the &lt;em&gt;business climate&lt;/em&gt; by increasing &lt;em&gt;uncertainty&lt;/em&gt; and pushing up &lt;em&gt;interest rates,&lt;/em&gt; which, in turn, would adversely &lt;em&gt;affect world trade.&lt;/em&gt;"</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

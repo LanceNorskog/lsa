@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">44</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-761.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">193</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">131</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">instant</str>
+        <str name="text">lewis</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">entire</str>
-        <double name="strength">1.0</double>
+        <str name="text">others</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">required</str>
-        <double name="strength">1.0</double>
+        <str name="text">economic</str>
+        <double name="strength">0.971901761725936</double>
       </lst>
       <lst name="term">
-        <str name="text">downpayment</str>
-        <double name="strength">1.0</double>
+        <str name="text">phillips</str>
+        <double name="strength">0.9719017617259359</double>
       </lst>
       <lst name="term">
-        <str name="text">thought</str>
-        <double name="strength">1.0</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9719017617259355</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The sale of the tranche of 8-3/4 pct treasury bonds due 1997 occurred in an active, bullish gilts market as downward pressure on money market rates remained intact, with the bellwether three-month interbank rate down 1/8 point at 10-9-7/8 pct.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">244</int>
+        <str name="text">K. Money market rates continued their steady decline and income was threatening to overshoot an unofficial three billion stg target set for fiscal 1986 ending March 31.</str>
+        <int name="index">29</int>
+        <int name="start">0</int>
+        <int name="end">168</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It coincided with another strong sterling rally which pushed the pound to four-year highs against the dollar.</str>
-        <int name="index">6</int>
-        <int name="start">2</int>
-        <int name="end">111</int>
-        <double name="strength">0.9454144706115417</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">They said the near-instant sale of the entire new gilts issue, for which the Bank of England had required a high 40 pct downpayment, was clear evidence that the market thought rates had to drop sooner rather than later.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">220</int>
-        <double name="strength">0.9419653452109367</double>
+        <double name="strength">0.9353219098006119</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Figures for February, out on Monday, are expected to show a further increase of between 300 and 400 mln stg, pushing the total for 11 months above target, government officials said.</str>
+        <int name="index">31</int>
+        <int name="start">1</int>
+        <int name="end">182</int>
+        <double name="strength">0.9345014045725794</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The sale of the &lt;em&gt;tranche&lt;/em&gt; of 8-3/4 pct &lt;em&gt;treasury bonds&lt;/em&gt; due 1997 &lt;em&gt;occurred&lt;/em&gt; in an &lt;em&gt;active, bullish gilts market&lt;/em&gt; as &lt;em&gt;downward pressure&lt;/em&gt; on &lt;em&gt;money market rates remained intact,&lt;/em&gt; with the &lt;em&gt;bellwether three-month interbank&lt;/em&gt; rate down 1/8 &lt;em&gt;point&lt;/em&gt; at 10-9-7/8 pct.</str>
-        <int name="index">5</int>
+        <str name="text">K. &lt;em&gt;Money market rates&lt;/em&gt; continued their &lt;em&gt;steady decline&lt;/em&gt; and &lt;em&gt;income&lt;/em&gt; was threatening to &lt;em&gt;overshoot&lt;/em&gt; an &lt;em&gt;unofficial three billion&lt;/em&gt; stg &lt;em&gt;target&lt;/em&gt; set for &lt;em&gt;fiscal 1986&lt;/em&gt; ending &lt;em&gt;March 31&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;coincided&lt;/em&gt; with &lt;em&gt;another strong sterling rally which pushed&lt;/em&gt; the &lt;em&gt;pound&lt;/em&gt; to four-year &lt;em&gt;highs against&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They said the near-&lt;em&gt;instant&lt;/em&gt; sale of the &lt;em&gt;entire&lt;/em&gt; new &lt;em&gt;gilts issue,&lt;/em&gt; for &lt;em&gt;which&lt;/em&gt; the Bank of &lt;em&gt;England&lt;/em&gt; had &lt;em&gt;required&lt;/em&gt; a high 40 pct &lt;em&gt;downpayment,&lt;/em&gt; was &lt;em&gt;clear evidence&lt;/em&gt; that the &lt;em&gt;market thought rates&lt;/em&gt; had to drop &lt;em&gt;sooner rather&lt;/em&gt; than &lt;em&gt;later&lt;/em&gt;.</str>
+        <str name="text">They said the near-&lt;em&gt;instant&lt;/em&gt; sale of the &lt;em&gt;entire&lt;/em&gt; new &lt;em&gt;gilts issue,&lt;/em&gt; for which the Bank of &lt;em&gt;England&lt;/em&gt; had required a high 40 pct &lt;em&gt;downpayment,&lt;/em&gt; was &lt;em&gt;clear evidence&lt;/em&gt; that the &lt;em&gt;market thought rates&lt;/em&gt; had to drop sooner rather than later.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Figures&lt;/em&gt; for &lt;em&gt;February,&lt;/em&gt; out on &lt;em&gt;Monday,&lt;/em&gt; are expected to show a &lt;em&gt;further increase&lt;/em&gt; of between 300 and 400 mln stg, pushing the &lt;em&gt;total&lt;/em&gt; for 11 &lt;em&gt;months&lt;/em&gt; above &lt;em&gt;target, government officials said&lt;/em&gt;.</str>
+        <int name="index">31</int>
       </lst>
     </lst>
   </lst>

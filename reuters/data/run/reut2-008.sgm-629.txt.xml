@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-629.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reduced</str>
+        <str name="text">significant</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">successful</str>
-        <double name="strength">0.9999999999999993</double>
-      </lst>
-      <lst name="term">
-        <str name="text">sharp</str>
-        <double name="strength">0.5000000000000014</double>
       </lst>
       <lst name="term">
         <str name="text">loans</str>
-        <double name="strength">0.500000000000001</double>
+        <double name="strength">0.9730077661055219</double>
       </lst>
       <lst name="term">
-        <str name="text">makes</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">goverment</str>
+        <double name="strength">0.9730077661055218</double>
+      </lst>
+      <lst name="term">
+        <str name="text">continue</str>
+        <double name="strength">0.9730077661055218</double>
+      </lst>
+      <lst name="term">
+        <str name="text">domestic</str>
+        <double name="strength">0.9730077661055218</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Santos chairman Sir Brian Massy-Greene said in a statement that increased production, particularly of oil and LPG, along with reduced operating costs and reduced or deferred oil exploration and development outlays, were helping Santos deal with an adverse business climate.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">274</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Santos said it had a successful gas exploration program, finding 172 billion cubic feet in South Australia, but oil exploration was less successful with 1.62 mln barrels added to reserves -- less than depletion during the year.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.7831375164852811</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"It makes no sense to abandon this policy now when exploration is at its lowest level for many years and when Australia's oil self-sufficency is expected to decline rapidly," Massy-Green said.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">0.7706360126525214</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Santos chairman Sir Brian Massy-Greene said in a statement that increased production, particularly of oil and LPG, along with reduced operating costs and reduced or deferred oil exploration and development outlays, were helping Santos deal with an adverse business climate.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">274</int>
+        <double name="strength">0.9688414172050294</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S&gt;, said its 1986 results were hit by sharp reductions in prices for crude oil, condensate and liquefied petroleum gas (LPG).</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">125</int>
+        <double name="strength">0.9173980608803162</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Santos chairman&lt;/em&gt; Sir &lt;em&gt;Brian Massy-Greene&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; that &lt;em&gt;increased production, particularly&lt;/em&gt; of oil and LPG, &lt;em&gt;along&lt;/em&gt; with &lt;em&gt;reduced operating costs&lt;/em&gt; and &lt;em&gt;reduced&lt;/em&gt; or &lt;em&gt;deferred&lt;/em&gt; oil &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development outlays,&lt;/em&gt; were &lt;em&gt;helping Santos&lt;/em&gt; deal with an &lt;em&gt;adverse business climate&lt;/em&gt;.</str>
+        <str name="text">"It makes no &lt;em&gt;sense&lt;/em&gt; to &lt;em&gt;abandon&lt;/em&gt; this &lt;em&gt;policy&lt;/em&gt; now when &lt;em&gt;exploration&lt;/em&gt; is at its lowest &lt;em&gt;level&lt;/em&gt; for many &lt;em&gt;years&lt;/em&gt; and when &lt;em&gt;Australia&lt;/em&gt;'s oil self-&lt;em&gt;sufficency&lt;/em&gt; is expected to &lt;em&gt;decline&lt;/em&gt; rapidly," &lt;em&gt;Massy-Green said&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Santos chairman&lt;/em&gt; Sir &lt;em&gt;Brian Massy-Greene&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; that increased &lt;em&gt;production,&lt;/em&gt; particularly of oil and LPG, along with &lt;em&gt;reduced operating costs&lt;/em&gt; and &lt;em&gt;reduced&lt;/em&gt; or &lt;em&gt;deferred&lt;/em&gt; oil &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development outlays,&lt;/em&gt; were helping &lt;em&gt;Santos&lt;/em&gt; deal with an &lt;em&gt;adverse business climate&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Santos&lt;/em&gt; said it had a &lt;em&gt;successful&lt;/em&gt; gas &lt;em&gt;exploration program, finding 172 billion cubic&lt;/em&gt; feet in &lt;em&gt;South Australia,&lt;/em&gt; but oil &lt;em&gt;exploration&lt;/em&gt; was less &lt;em&gt;successful&lt;/em&gt; with 1.62 mln &lt;em&gt;barrels added&lt;/em&gt; to &lt;em&gt;reserves --&lt;/em&gt; less than &lt;em&gt;depletion during&lt;/em&gt; the year.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"It &lt;em&gt;makes&lt;/em&gt; no &lt;em&gt;sense&lt;/em&gt; to &lt;em&gt;abandon&lt;/em&gt; this &lt;em&gt;policy&lt;/em&gt; now when &lt;em&gt;exploration&lt;/em&gt; is at its &lt;em&gt;lowest level&lt;/em&gt; for many &lt;em&gt;years&lt;/em&gt; and when &lt;em&gt;Australia&lt;/em&gt;'s oil self-&lt;em&gt;sufficency&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;decline rapidly," Massy-Green said&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">S&gt;, said its 1986 &lt;em&gt;results&lt;/em&gt; were hit by &lt;em&gt;sharp reductions&lt;/em&gt; in &lt;em&gt;prices&lt;/em&gt; for &lt;em&gt;crude&lt;/em&gt; oil, &lt;em&gt;condensate&lt;/em&gt; and &lt;em&gt;liquefied petroleum&lt;/em&gt; gas (LPG).</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

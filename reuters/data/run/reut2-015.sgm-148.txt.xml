@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-148.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">149</int>
+        <int name="count">95</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">fieldcrest</str>
+        <str name="text">gormley</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">cannon</str>
-        <double name="strength">1.0</double>
+        <str name="text">company</str>
+        <double name="strength">0.9963408654530969</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">arbitrager</str>
+        <double name="strength">0.9963408654530955</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9963408654530947</double>
       </lst>
       <lst name="term">
-        <str name="text">johnson</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">report</str>
+        <double name="strength">0.9963408654530945</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said he believes the stock is worth only about 50 dlrs on a takeover basis and about 46 dlrs on an earnings basis.</str>
-        <int name="index">27</int>
-        <int name="start">0</int>
-        <int name="end">117</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">J.P. Stevens &lt;STN&gt; climbed 5/8 to 44-7/8, and Fieldcrest Cannon Inc &lt;FLD&gt;, the result of a merger of Fieldcrest and Cannon, rose 1-1/8 to 39-3/4.</str>
-        <int name="index">34</int>
-        <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.9986798674112519</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. textile maker focused on its own business as its competitors found merger partners, but now Burlington Industries Inc may have restructured itself into an attractive takeover candidate, analysts said.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">203</int>
-        <double name="strength">0.8952196715441838</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The takeover spotlight fell today on Burlington, which rose 4-7/8 to 52-7/8 on speculation that investor Asher Edelman and Dominion Textiles Inc of Canada bought an almost five pct stake.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
+        <double name="strength">0.8934090214942413</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Another, however, said Edelman succeeds in forcing managements to take steps to enhance shareholder values even if he doesn't win the target company.</str>
+        <int name="index">30</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.883053908981584</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said he &lt;em&gt;believes&lt;/em&gt; the &lt;em&gt;stock&lt;/em&gt; is &lt;em&gt;worth&lt;/em&gt; only &lt;em&gt;about 50&lt;/em&gt; dlrs on a &lt;em&gt;takeover basis&lt;/em&gt; and &lt;em&gt;about 46&lt;/em&gt; dlrs on an &lt;em&gt;earnings basis&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">J.P. &lt;em&gt;Stevens &lt;/em&gt;&lt;STN&gt; &lt;em&gt;climbed 5/8&lt;/em&gt; to 44-7/8, and &lt;em&gt;Fieldcrest Cannon&lt;/em&gt; Inc &lt;FLD&gt;, the &lt;em&gt;result&lt;/em&gt; of a &lt;em&gt;merger&lt;/em&gt; of &lt;em&gt;Fieldcrest&lt;/em&gt; and &lt;em&gt;Cannon,&lt;/em&gt; rose 1-1/8 to 39-3/4.</str>
-        <int name="index">34</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;textile maker focused&lt;/em&gt; on its own &lt;em&gt;business&lt;/em&gt; as its &lt;em&gt;competitors found merger partners,&lt;/em&gt; but now &lt;em&gt;Burlington Industries&lt;/em&gt; Inc may have &lt;em&gt;restructured itself&lt;/em&gt; into an &lt;em&gt;attractive takeover candidate, analysts said&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;textile maker&lt;/em&gt; focused on its own &lt;em&gt;business&lt;/em&gt; as its &lt;em&gt;competitors&lt;/em&gt; found &lt;em&gt;merger partners,&lt;/em&gt; but now &lt;em&gt;Burlington Industries&lt;/em&gt; Inc may have restructured itself into an &lt;em&gt;attractive takeover candidate, analysts said&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;takeover spotlight&lt;/em&gt; fell &lt;em&gt;today&lt;/em&gt; on &lt;em&gt;Burlington,&lt;/em&gt; which rose 4-7/8 to 52-7/8 on &lt;em&gt;speculation&lt;/em&gt; that &lt;em&gt;investor Asher Edelman&lt;/em&gt; and &lt;em&gt;Dominion Textiles&lt;/em&gt; Inc of &lt;em&gt;Canada&lt;/em&gt; bought an almost five pct &lt;em&gt;stake&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Another, however, said &lt;em&gt;Edelman&lt;/em&gt; succeeds in forcing &lt;em&gt;managements&lt;/em&gt; to take &lt;em&gt;steps&lt;/em&gt; to &lt;em&gt;enhance shareholder values&lt;/em&gt; even if he doesn't win the &lt;em&gt;target company&lt;/em&gt;.</str>
+        <int name="index">30</int>
       </lst>
     </lst>
   </lst>

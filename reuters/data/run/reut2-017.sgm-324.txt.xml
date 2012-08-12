@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">36</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-324.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">56</int>
       </lst>
       <lst name="terms">
-        <int name="count">275</int>
+        <int name="count">198</int>
       </lst>
       <lst name="stems">
-        <int name="count">170</int>
+        <int name="count">115</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">addition</str>
+        <str name="text">currency</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">protectionist</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">treasury</str>
+        <double name="strength">0.9877415447956267</double>
       </lst>
       <lst name="term">
-        <str name="text">negotiating</str>
-        <double name="strength">0.5000000000000042</double>
+        <str name="text">stabilize</str>
+        <double name="strength">0.9877415447956261</double>
       </lst>
       <lst name="term">
-        <str name="text">stance</str>
-        <double name="strength">0.5000000000000042</double>
+        <str name="text">economists</str>
+        <double name="strength">0.9628516673576143</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.5000000000000037</double>
+        <str name="text">world</str>
+        <double name="strength">0.9577036540419503</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Despite official warnings about the dangers of a further dollar decline and concerted central bank intervention, the dollar extended its recent sharp depreciation, touching a 40-year low of 137.25 yen in Tokyo earlier today after closing here on Friday at 139.30/40.</str>
-        <int name="index">6</int>
+        <str name="text">In a recent lengthy report, economists at Morgan Guaranty Trust Co concluded, "the dollar should be left free to trade at whatever level market forces produce."</str>
+        <int name="index">54</int>
         <int name="start">1</int>
-        <int name="end">267</int>
+        <int name="end">161</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A U.S. discount rate increase would also fuel the protectionist fires in Washington, where the House is expected to pass a protectionist trade bill, whatever compromises President Reagan and Prime Minister Nakasone can come up with during their summit later in the week.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">271</int>
-        <double name="strength">0.980808592962853</double>
+        <str name="text">S. imposition of punitive tariffs on Japan threatening to unravel this spirit of cooperating and condemn the world to a damaging trade war.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">139</int>
+        <double name="strength">0.9231901170602508</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Up until September of last year, international efforts to redress world trade imbalances appeared to working like a dream; the dollar was falling in an orderly manner, world interest rates were tumbling and inflation was kept in check.</str>
-        <int name="index">14</int>
+        <str name="text">While similar action by former President Carter helped to stabilize the dollar in 1978, the White House is clearly reluctant to take such a step, economists said.</str>
+        <int name="index">44</int>
         <int name="start">1</int>
-        <int name="end">236</int>
-        <double name="strength">0.9230156518376756</double>
+        <int name="end">163</int>
+        <double name="strength">0.8957976034684937</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite official warnings about&lt;/em&gt; the &lt;em&gt;dangers&lt;/em&gt; of a &lt;em&gt;further dollar decline&lt;/em&gt; and &lt;em&gt;concerted central&lt;/em&gt; bank &lt;em&gt;intervention,&lt;/em&gt; the &lt;em&gt;dollar extended&lt;/em&gt; its &lt;em&gt;recent sharp depreciation, touching&lt;/em&gt; a 40-year low of 137.25 yen in &lt;em&gt;Tokyo earlier today after closing&lt;/em&gt; here on &lt;em&gt;Friday at 139.30/40&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">In a &lt;em&gt;recent lengthy report, economists&lt;/em&gt; at &lt;em&gt;Morgan Guaranty Trust&lt;/em&gt; Co concluded, "the &lt;em&gt;dollar&lt;/em&gt; should be left free to &lt;em&gt;trade&lt;/em&gt; at whatever &lt;em&gt;level market forces produce.&lt;/em&gt;"</str>
+        <int name="index">54</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A U.S. &lt;em&gt;discount&lt;/em&gt; rate &lt;em&gt;increase would&lt;/em&gt; also fuel the &lt;em&gt;protectionist fires&lt;/em&gt; in &lt;em&gt;Washington, where&lt;/em&gt; the &lt;em&gt;House&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to pass a &lt;em&gt;protectionist trade&lt;/em&gt; bill, &lt;em&gt;whatever compromises President Reagan&lt;/em&gt; and &lt;em&gt;Prime Minister Nakasone&lt;/em&gt; can come up with &lt;em&gt;during their summit later&lt;/em&gt; in the week.</str>
-        <int name="index">32</int>
+        <str name="text">S. &lt;em&gt;imposition&lt;/em&gt; of &lt;em&gt;punitive tariffs&lt;/em&gt; on &lt;em&gt;Japan&lt;/em&gt; threatening to &lt;em&gt;unravel&lt;/em&gt; this &lt;em&gt;spirit&lt;/em&gt; of cooperating and &lt;em&gt;condemn&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt; to a &lt;em&gt;damaging trade war&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Up &lt;em&gt;until September&lt;/em&gt; of last year, &lt;em&gt;international efforts&lt;/em&gt; to &lt;em&gt;redress world trade imbalances appeared&lt;/em&gt; to &lt;em&gt;working&lt;/em&gt; like a &lt;em&gt;dream;&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; was &lt;em&gt;falling&lt;/em&gt; in an &lt;em&gt;orderly manner, world interest rates&lt;/em&gt; were &lt;em&gt;tumbling&lt;/em&gt; and &lt;em&gt;inflation&lt;/em&gt; was kept in &lt;em&gt;check&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">While &lt;em&gt;similar action&lt;/em&gt; by &lt;em&gt;former President Carter&lt;/em&gt; helped to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; in 1978, the &lt;em&gt;White House&lt;/em&gt; is clearly &lt;em&gt;reluctant&lt;/em&gt; to take such a step, &lt;em&gt;economists said&lt;/em&gt;.</str>
+        <int name="index">44</int>
       </lst>
     </lst>
   </lst>

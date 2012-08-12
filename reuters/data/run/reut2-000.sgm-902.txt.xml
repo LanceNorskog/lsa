@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-902.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">83</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">higher</str>
+        <str name="text">currencies</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">movement</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">miracle</str>
+        <double name="strength">0.8114274236163096</double>
       </lst>
       <lst name="term">
-        <str name="text">become</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">exports</str>
+        <double name="strength">0.7541539968970604</double>
       </lst>
       <lst name="term">
-        <str name="text">uncompetitive</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">ongpin</str>
+        <double name="strength">0.7497172250467605</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">official</str>
+        <double name="strength">0.749673749411904</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Monsod said, "The ideal movement in the peso/dollar rate is a movement that will reflect differences in inflation (rates) of the Philippines versus the other country.</str>
-        <int name="index">18</int>
+        <str name="text">Finance Secretary Jaime Ongpin has said the government does not intend to devalue the peso and wants it to be flexible and able to continue to respond to market conditions.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">167</int>
+        <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Philippines must devalue the peso if it wants its exports to remain competitive, Economic Planning Secretary Solita Monsod told Reuters.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">140</int>
+        <double name="strength">0.844331770027233</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Taiwan, South Korea, West Germany, Japan, all those miracle economies deliberately undervalued their currencies."</str>
         <int name="index">5</int>
         <int name="start">0</int>
         <int name="end">113</int>
-        <double name="strength">0.9850304671557049</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Finance Secretary Jaime Ongpin has said the government does not intend to devalue the peso and wants it to be flexible and able to continue to respond to market conditions.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.8473552476420345</double>
+        <double name="strength">0.7511663281645027</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Monsod&lt;/em&gt; said, "The &lt;em&gt;ideal movement&lt;/em&gt; in the peso/&lt;em&gt;dollar&lt;/em&gt; rate is a &lt;em&gt;movement&lt;/em&gt; that will &lt;em&gt;reflect differences&lt;/em&gt; in &lt;em&gt;inflation (rates)&lt;/em&gt; of the &lt;em&gt;Philippines versus&lt;/em&gt; the &lt;em&gt;other country&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Taiwan, South Korea,&lt;/em&gt; West &lt;em&gt;Germany, Japan,&lt;/em&gt; all &lt;em&gt;those miracle economies deliberately undervalued their currencies.&lt;/em&gt;"</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Secretary Jaime Ongpin&lt;/em&gt; has said the &lt;em&gt;government&lt;/em&gt; does not &lt;em&gt;intend&lt;/em&gt; to &lt;em&gt;devalue&lt;/em&gt; the peso and &lt;em&gt;wants&lt;/em&gt; it to be &lt;em&gt;flexible&lt;/em&gt; and able to &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;respond&lt;/em&gt; to &lt;em&gt;market conditions&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance Secretary Jaime Ongpin&lt;/em&gt; has said the &lt;em&gt;government&lt;/em&gt; does not &lt;em&gt;intend&lt;/em&gt; to &lt;em&gt;devalue&lt;/em&gt; the peso and wants it to be &lt;em&gt;flexible&lt;/em&gt; and able to &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;respond&lt;/em&gt; to &lt;em&gt;market conditions&lt;/em&gt;.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Philippines&lt;/em&gt; must &lt;em&gt;devalue&lt;/em&gt; the peso if it wants its &lt;em&gt;exports&lt;/em&gt; to &lt;em&gt;remain competitive, Economic Planning Secretary Solita Monsod&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Taiwan,&lt;/em&gt; South Korea, West &lt;em&gt;Germany, Japan,&lt;/em&gt; all those &lt;em&gt;miracle economies&lt;/em&gt; deliberately undervalued their &lt;em&gt;currencies.&lt;/em&gt;"</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

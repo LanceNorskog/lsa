@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-201.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">economic</str>
+        <str name="text">majority</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reached</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">control</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">challenge</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">annual</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">meeting</str>
-        <double name="strength">0.5590169943749471</double>
-      </lst>
-      <lst name="term">
-        <str name="text">american</str>
-        <double name="strength">0.5590169943749469</double>
-      </lst>
-      <lst name="term">
-        <str name="text">dealing</str>
-        <double name="strength">0.5000000000000012</double>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Plan calls for loans from multilateral banks like the IADB to be tied to economic reforms in debtor nations which would promote open markets, reduced government intervention and inflation-free economic growth.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">212</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Brazil, which declared an interest payments moratorium last month, is leading a challenge to Washington's strategy and officials here obviously feared any decisions that might deepen rifts between the United States and Third World nations.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.8892637515351637</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The bank's policy-making board of governors, meeting here ahead of this week's IADB annual meetings, put off any decisions when it became apparent differences between Washington and the Latin countries ware too great.</str>
-        <int name="index">1</int>
+        <str name="text">But monetary sources expect Baker to suggest the United States has some room for compromise and also to fend off other challenges to its strategy by signalling Washington is open to innovative solutions to the debt problem.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.7996416452031792</double>
+        <int name="end">224</int>
+        <double name="strength">0.9471114883609785</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Currently, a simple majority can approve or disapprove loans giving the borrowing nations control of the purse strings and resulting in loan conditions too lax for Washington's taste.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">0.9363625908371548</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. Plan &lt;em&gt;calls&lt;/em&gt; for &lt;em&gt;loans&lt;/em&gt; from &lt;em&gt;multilateral banks&lt;/em&gt; like the IADB to be tied to &lt;em&gt;economic reforms&lt;/em&gt; in &lt;em&gt;debtor nations which would promote&lt;/em&gt; open &lt;em&gt;markets, reduced government intervention&lt;/em&gt; and &lt;em&gt;inflation&lt;/em&gt;-free &lt;em&gt;economic growth&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil, which declared&lt;/em&gt; an &lt;em&gt;interest payments moratorium&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; is &lt;em&gt;leading&lt;/em&gt; a &lt;em&gt;challenge&lt;/em&gt; to &lt;em&gt;Washington&lt;/em&gt;'s &lt;em&gt;strategy&lt;/em&gt; and &lt;em&gt;officials&lt;/em&gt; here &lt;em&gt;obviously feared&lt;/em&gt; any &lt;em&gt;decisions&lt;/em&gt; that &lt;em&gt;might deepen rifts between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Third World nations&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brazil,&lt;/em&gt; which declared an &lt;em&gt;interest payments moratorium&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; is leading a &lt;em&gt;challenge&lt;/em&gt; to &lt;em&gt;Washington&lt;/em&gt;'s &lt;em&gt;strategy&lt;/em&gt; and &lt;em&gt;officials&lt;/em&gt; here obviously feared any &lt;em&gt;decisions&lt;/em&gt; that might &lt;em&gt;deepen rifts&lt;/em&gt; between the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;Third World nations&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The bank's &lt;em&gt;policy-making board&lt;/em&gt; of &lt;em&gt;governors, meeting&lt;/em&gt; here &lt;em&gt;ahead&lt;/em&gt; of this week's IADB &lt;em&gt;annual meetings,&lt;/em&gt; put off any &lt;em&gt;decisions&lt;/em&gt; when it &lt;em&gt;became apparent differences between Washington&lt;/em&gt; and the &lt;em&gt;Latin countries&lt;/em&gt; ware too &lt;em&gt;great&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">But &lt;em&gt;monetary sources expect Baker&lt;/em&gt; to &lt;em&gt;suggest&lt;/em&gt; the United &lt;em&gt;States&lt;/em&gt; has some room for &lt;em&gt;compromise&lt;/em&gt; and also to fend off &lt;em&gt;other challenges&lt;/em&gt; to its &lt;em&gt;strategy&lt;/em&gt; by signalling Washington is open to &lt;em&gt;innovative solutions&lt;/em&gt; to the debt &lt;em&gt;problem&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Currently, a &lt;em&gt;simple majority&lt;/em&gt; can &lt;em&gt;approve&lt;/em&gt; or &lt;em&gt;disapprove loans&lt;/em&gt; giving the &lt;em&gt;borrowing nations control&lt;/em&gt; of the &lt;em&gt;purse strings&lt;/em&gt; and resulting in loan &lt;em&gt;conditions&lt;/em&gt; too lax for Washington's &lt;em&gt;taste&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-724.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">187</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">money</str>
+        <str name="text">pound</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">question</str>
-        <double name="strength">0.8944271909999263</double>
+        <str name="text">paris</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">therefore</str>
-        <double name="strength">0.8944271909999263</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">large</str>
-        <double name="strength">0.8944271909999263</double>
+        <str name="text">economist</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">ready</str>
-        <double name="strength">0.8944271909999263</double>
+        <str name="text">lawson</str>
+        <double name="strength">0.9934327593756588</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">245</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Most dealers agree there is a good deal of "hot money" being invested in sterling, money simply attracted by high overnight or one-week rates, which could flow out at equally short notice.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">189</int>
-        <double name="strength">0.9841413647995556</double>
+        <str name="text">He wants it to be crowned with the glory of an interest rate cut," said Ian Harwood, economist at Warburg Securities, the equities arm of Mercury International Group.</str>
+        <int name="index">27</int>
+        <int name="start">0</int>
+        <int name="end">166</int>
+        <double name="strength">0.9677293488207336</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Budget is widely forecast to be a vote winner in the run-up to a general election, the major factor behind current bullishness in the government bond and currency markets.</str>
-        <int name="index">25</int>
+        <str name="text">"The last thing they want to do is reduce them (rates) and have to jack them back up again," said Richard Jeffrey, economist at brokerage house Hoare Govett Ltd.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">176</int>
-        <double name="strength">0.9597282016293665</double>
+        <int name="end">162</int>
+        <double name="strength">0.9550426953222594</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But at a cost of &lt;em&gt;threatening&lt;/em&gt; the &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;policy, stated&lt;/em&gt; at the end of the &lt;em&gt;Paris Group&lt;/em&gt; of Six &lt;em&gt;meeting&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; that he &lt;em&gt;wanted&lt;/em&gt; to see &lt;em&gt;sterling broadly stable about&lt;/em&gt; then &lt;em&gt;prevailing levels, market sources said&lt;/em&gt;.</str>
+        <str name="text">But at a cost of threatening the &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;policy,&lt;/em&gt; stated at the end of the &lt;em&gt;Paris Group&lt;/em&gt; of Six &lt;em&gt;meeting&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; that he wanted to see &lt;em&gt;sterling&lt;/em&gt; broadly &lt;em&gt;stable&lt;/em&gt; about then prevailing &lt;em&gt;levels, market sources said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Most &lt;em&gt;dealers agree there&lt;/em&gt; is a good deal of "hot &lt;em&gt;money" being invested&lt;/em&gt; in &lt;em&gt;sterling, money simply attracted&lt;/em&gt; by high &lt;em&gt;overnight&lt;/em&gt; or one-week &lt;em&gt;rates, which could&lt;/em&gt; flow out at &lt;em&gt;equally short notice&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">He wants it to be crowned with the &lt;em&gt;glory&lt;/em&gt; of an &lt;em&gt;interest&lt;/em&gt; rate cut," said Ian &lt;em&gt;Harwood, economist&lt;/em&gt; at &lt;em&gt;Warburg Securities,&lt;/em&gt; the &lt;em&gt;equities&lt;/em&gt; arm of &lt;em&gt;Mercury International Group&lt;/em&gt;.</str>
+        <int name="index">27</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Budget&lt;/em&gt; is &lt;em&gt;widely forecast&lt;/em&gt; to be a vote &lt;em&gt;winner&lt;/em&gt; in the run-up to a &lt;em&gt;general election,&lt;/em&gt; the &lt;em&gt;major factor behind current bullishness&lt;/em&gt; in the &lt;em&gt;government&lt;/em&gt; bond and &lt;em&gt;currency markets&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">"The last &lt;em&gt;thing&lt;/em&gt; they want to do is &lt;em&gt;reduce&lt;/em&gt; them (&lt;em&gt;rates)&lt;/em&gt; and have to jack them back up again," said &lt;em&gt;Richard Jeffrey, economist&lt;/em&gt; at &lt;em&gt;brokerage house Hoare Govett Ltd&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

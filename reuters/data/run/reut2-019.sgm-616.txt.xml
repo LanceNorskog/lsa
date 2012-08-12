@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-616.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">88</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">after</str>
+        <str name="text">levels</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">cheaper</str>
+        <str name="text">period</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">1.0</double>
+        <str name="text">surpluses</str>
+        <double name="strength">0.9668760164118343</double>
       </lst>
       <lst name="term">
-        <str name="text">taken</str>
-        <double name="strength">1.0</double>
+        <str name="text">economists</str>
+        <double name="strength">0.9668760164118343</double>
       </lst>
       <lst name="term">
-        <str name="text">consideration</str>
-        <double name="strength">1.0</double>
+        <str name="text">figures</str>
+        <double name="strength">0.9475739487142981</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">146</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Ifo economic research institute in Munich said in a study published today that the trade surplus would probably only fall to around 101 billion marks this year, compared with the 113 billion mark 1986 record.</str>
-        <int name="index">12</int>
+        <str name="text">Figures released by the Federal Statistics Office in Wiesbaden showed that in the first five months of the year the trade surplus grew 15.7 pct compared with the same 1986 period to 47.2 billion marks.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.9524378810635853</double>
+        <int name="end">202</int>
+        <double name="strength">0.8904510894007263</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Statistics Office said after cheaper import prices were taken into consideration, West Germany's imports by volume rose by more than three pct in the first five months.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">172</int>
-        <double name="strength">0.9390993801099751</double>
+        <str name="text">He said the strong rise in exports in May from the year-ago period was surprising but it probably reflected calendar factors.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">126</int>
+        <double name="strength">0.852916648281295</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; has &lt;em&gt;pointed&lt;/em&gt; to this &lt;em&gt;stronger&lt;/em&gt; real rise in &lt;em&gt;imports&lt;/em&gt; than &lt;em&gt;exports&lt;/em&gt; when &lt;em&gt;rejecting international pressure&lt;/em&gt; to &lt;em&gt;boost domestic consumption&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; has pointed to this stronger real rise in &lt;em&gt;imports&lt;/em&gt; than &lt;em&gt;exports&lt;/em&gt; when rejecting &lt;em&gt;international pressure&lt;/em&gt; to &lt;em&gt;boost domestic consumption&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Ifo &lt;em&gt;economic research institute&lt;/em&gt; in &lt;em&gt;Munich&lt;/em&gt; said in a &lt;em&gt;study published today&lt;/em&gt; that the &lt;em&gt;trade surplus would probably&lt;/em&gt; only fall to &lt;em&gt;around 101 billion marks&lt;/em&gt; this year, &lt;em&gt;compared&lt;/em&gt; with the 113 &lt;em&gt;billion&lt;/em&gt; mark 1986 &lt;em&gt;record&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Figures&lt;/em&gt; released by the &lt;em&gt;Federal Statistics Office&lt;/em&gt; in &lt;em&gt;Wiesbaden&lt;/em&gt; showed that in the &lt;em&gt;first&lt;/em&gt; five &lt;em&gt;months&lt;/em&gt; of the year the &lt;em&gt;trade surplus&lt;/em&gt; grew 15.7 pct compared with the same 1986 &lt;em&gt;period&lt;/em&gt; to 47.2 &lt;em&gt;billion marks&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Statistics Office&lt;/em&gt; said &lt;em&gt;after cheaper import prices&lt;/em&gt; were &lt;em&gt;taken&lt;/em&gt; into &lt;em&gt;consideration,&lt;/em&gt; West &lt;em&gt;Germany&lt;/em&gt;'s &lt;em&gt;imports&lt;/em&gt; by &lt;em&gt;volume&lt;/em&gt; rose by more than &lt;em&gt;three&lt;/em&gt; pct in the &lt;em&gt;first&lt;/em&gt; five &lt;em&gt;months&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">He said the &lt;em&gt;strong&lt;/em&gt; rise in &lt;em&gt;exports&lt;/em&gt; in May from the year-ago &lt;em&gt;period&lt;/em&gt; was &lt;em&gt;surprising&lt;/em&gt; but it probably reflected &lt;em&gt;calendar factors&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

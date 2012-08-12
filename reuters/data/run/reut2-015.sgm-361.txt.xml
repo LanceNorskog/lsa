@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-361.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">94</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">committee</str>
+        <str name="text">reuters</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">negotiations</str>
+        <str name="text">morgan</str>
         <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">preston</str>
+        <double name="strength">0.9580049845271332</double>
+      </lst>
+      <lst name="term">
         <str name="text">lewis</str>
-        <double name="strength">0.5000000000000004</double>
-      </lst>
-      <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.5000000000000004</double>
-      </lst>
-      <lst name="term">
-        <str name="text">bankers</str>
-        <double name="strength">0.5000000000000001</double>
+        <double name="strength">0.9550178891756592</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Administration officials familiar with the negotiations said Brazil's new economic measures did not make much sense based on current conditions in that country, and added that they saw long and difficult negotiations ahead.</str>
-        <int name="index">9</int>
+        <str name="text">Funaro called Brazil's program very responsible and very strong, adding that "it is very different from other years, there has been a tremendous change."</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">224</int>
+        <int name="end">154</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Funaro, who is in Washington to attend the Interim Committee and Development Committee meetings of the World Bank and IMF, said he unveiled his refinancing proposals to the major creditor banks in New York yesterday.</str>
-        <int name="index">4</int>
+        <str name="text">Speaking to reporters at the Brazilian Embassy, Funaro said he would not seek approval of Brazil's economic program outside his country, but added, "At the same time we show credibility, you (the banks) are going to have to trust us."</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.9988108276331078</double>
+        <int name="end">235</int>
+        <double name="strength">0.9665487606179181</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Brazilian Finance Minister Dilson Funaro, who suspended interest payments to creditor banks two months ago, said creditors had to trust him when he said Brazil would achieve a trade surplus large enough to continue servicing its debt.</str>
-        <int name="index">0</int>
+        <str name="text">Inc., told Reuters he remains hopeful that Brazil and its foreign bank creditors will reach a debt rescheduling agreement before the end of the year.</str>
+        <int name="index">12</int>
         <int name="start">0</int>
-        <int name="end">234</int>
-        <double name="strength">0.9583429727070433</double>
+        <int name="end">149</int>
+        <double name="strength">0.9390746914420907</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Administration officials familiar&lt;/em&gt; with the &lt;em&gt;negotiations&lt;/em&gt; said &lt;em&gt;Brazil&lt;/em&gt;'s new &lt;em&gt;economic measures&lt;/em&gt; did not make much &lt;em&gt;sense based&lt;/em&gt; on &lt;em&gt;current conditions&lt;/em&gt; in that &lt;em&gt;country,&lt;/em&gt; and &lt;em&gt;added&lt;/em&gt; that they saw long and &lt;em&gt;difficult negotiations ahead&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; called &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;program&lt;/em&gt; very &lt;em&gt;responsible&lt;/em&gt; and very &lt;em&gt;strong,&lt;/em&gt; adding that "it is very &lt;em&gt;different&lt;/em&gt; from &lt;em&gt;other years,&lt;/em&gt; there has been a &lt;em&gt;tremendous change.&lt;/em&gt;"</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Funaro,&lt;/em&gt; who is in &lt;em&gt;Washington&lt;/em&gt; to &lt;em&gt;attend&lt;/em&gt; the &lt;em&gt;Interim Committee&lt;/em&gt; and &lt;em&gt;Development Committee meetings&lt;/em&gt; of the &lt;em&gt;World&lt;/em&gt; Bank and IMF, said he &lt;em&gt;unveiled&lt;/em&gt; his &lt;em&gt;refinancing proposals&lt;/em&gt; to the &lt;em&gt;major creditor banks&lt;/em&gt; in New York &lt;em&gt;yesterday&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Speaking to &lt;em&gt;reporters&lt;/em&gt; at the &lt;em&gt;Brazilian Embassy, Funaro&lt;/em&gt; said he would not seek &lt;em&gt;approval&lt;/em&gt; of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;economic program&lt;/em&gt; outside his &lt;em&gt;country,&lt;/em&gt; but added, "At the same time we show &lt;em&gt;credibility,&lt;/em&gt; you (the &lt;em&gt;banks)&lt;/em&gt; are going to have to &lt;em&gt;trust us.&lt;/em&gt;"</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazilian Finance Minister Dilson Funaro,&lt;/em&gt; who &lt;em&gt;suspended interest payments&lt;/em&gt; to &lt;em&gt;creditor banks&lt;/em&gt; two &lt;em&gt;months&lt;/em&gt; ago, said &lt;em&gt;creditors&lt;/em&gt; had to &lt;em&gt;trust&lt;/em&gt; him when he said &lt;em&gt;Brazil would achieve&lt;/em&gt; a &lt;em&gt;trade surplus large enough&lt;/em&gt; to &lt;em&gt;continue servicing&lt;/em&gt; its debt.</str>
-        <int name="index">0</int>
+        <str name="text">Inc., told &lt;em&gt;Reuters&lt;/em&gt; he remains &lt;em&gt;hopeful&lt;/em&gt; that &lt;em&gt;Brazil&lt;/em&gt; and its &lt;em&gt;foreign&lt;/em&gt; bank &lt;em&gt;creditors&lt;/em&gt; will &lt;em&gt;reach&lt;/em&gt; a debt &lt;em&gt;rescheduling agreement&lt;/em&gt; before the end of the year.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

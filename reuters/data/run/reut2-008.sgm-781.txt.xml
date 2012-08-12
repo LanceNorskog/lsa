@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-781.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">74</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">30</int>
       </lst>
     </lst>
     <lst name="terms">
+      <lst name="term">
+        <str name="text">public</str>
+        <double name="strength">1.0</double>
+      </lst>
       <lst name="term">
         <str name="text">company</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">owned</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">connection</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">cooperate</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">brothers</str>
-        <double name="strength">0.9999999999999982</double>
-      </lst>
-      <lst name="term">
-        <str name="text">securities</str>
-        <double name="strength">0.5590169943749467</double>
-      </lst>
-      <lst name="term">
-        <str name="text">person</str>
-        <double name="strength">0.5590169943749461</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The transaction described in SEC documents pertaining to  market manipulation charges mentioned a secondary offering of the stock of a company, which was held by another company.</str>
-        <int name="index">6</int>
+        <str name="text">The documents alleged Jefferies, at the request of a second person, took actions to drive the stock price up before the offering.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">179</int>
+        <int name="end">130</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fireman's Fund Corp said it has been subpoenaed by the Securities and Exchange Commission in connection with the previously announced investigation into the secondary public offering of its stock by American Express Co on May 9, 1986.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">234</int>
+        <double name="strength">0.9240606476823161</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Fireman's Fund had been a wholly owned subsidiary of American Express and now is less than 30 pct owned by the finanancial services giant.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">139</int>
-        <double name="strength">0.9450911484674717</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The losses to the Jefferies firm were allegedly covered, at the request of the second person, by sending a fake invoice to a third person.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">139</int>
-        <double name="strength">0.8607068760795452</double>
+        <double name="strength">0.9137104182993367</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;transaction described&lt;/em&gt; in SEC &lt;em&gt;documents pertaining&lt;/em&gt; to  &lt;em&gt;market manipulation charges mentioned&lt;/em&gt; a &lt;em&gt;secondary offering&lt;/em&gt; of the &lt;em&gt;stock&lt;/em&gt; of a &lt;em&gt;company, which&lt;/em&gt; was held by &lt;em&gt;another company&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;documents&lt;/em&gt; alleged &lt;em&gt;Jefferies,&lt;/em&gt; at the &lt;em&gt;request&lt;/em&gt; of a &lt;em&gt;second person,&lt;/em&gt; took &lt;em&gt;actions&lt;/em&gt; to &lt;em&gt;drive&lt;/em&gt; the &lt;em&gt;stock price&lt;/em&gt; up before the &lt;em&gt;offering&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fireman&lt;/em&gt;'s Fund had been a &lt;em&gt;wholly owned subsidiary&lt;/em&gt; of &lt;em&gt;American Express&lt;/em&gt; and now is less than 30 pct &lt;em&gt;owned&lt;/em&gt; by the &lt;em&gt;finanancial services giant&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Fireman&lt;/em&gt;'s Fund Corp said it has been subpoenaed by the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; in &lt;em&gt;connection&lt;/em&gt; with the previously announced &lt;em&gt;investigation&lt;/em&gt; into the &lt;em&gt;secondary public offering&lt;/em&gt; of its &lt;em&gt;stock&lt;/em&gt; by &lt;em&gt;American Express&lt;/em&gt; Co on May 9, 1986.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Fireman&lt;/em&gt;'s Fund had been a wholly owned &lt;em&gt;subsidiary&lt;/em&gt; of &lt;em&gt;American Express&lt;/em&gt; and now is less than 30 pct owned by the &lt;em&gt;finanancial services giant&lt;/em&gt;.</str>
         <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;losses&lt;/em&gt; to the &lt;em&gt;Jefferies&lt;/em&gt; firm were &lt;em&gt;allegedly covered,&lt;/em&gt; at the &lt;em&gt;request&lt;/em&gt; of the &lt;em&gt;second person,&lt;/em&gt; by &lt;em&gt;sending&lt;/em&gt; a fake &lt;em&gt;invoice&lt;/em&gt; to a &lt;em&gt;third person&lt;/em&gt;.</str>
-        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

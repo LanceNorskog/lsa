@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-437.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">179</int>
+        <int name="count">140</int>
       </lst>
       <lst name="stems">
-        <int name="count">120</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">allowed</str>
+        <str name="text">company</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">report</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">dividends</str>
-        <double name="strength">0.8944271909999201</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">holders</str>
-        <double name="strength">0.8944271909999201</double>
+        <str name="text">short</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">percentage</str>
-        <double name="strength">0.8944271909999201</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Insurance managers said they expect variables to survive any credit market collapse since the funds should be able to react to interest rate fluctuations more quickly than huge general insurance accounts, assuming fund managers grow more sophisticated in global fund and risk management.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">288</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"Although (variable life) appears to be a short-term financial instrument with death benefit, its first priority is to raise as much cash value as it can over the long period," said Ichiro Kono, managing director and chief actuary of Sony Prudential.</str>
         <int name="index">15</int>
         <int name="start">0</int>
         <int name="end">250</int>
-        <double name="strength">0.973914399415809</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Variable life avails itself of the times and clients are likely to be attracted after the impressive results to be made public in early June," Ichirou Hayashi, general manager of Nippon Life Insurance Co Ltd's fund management office said.</str>
-        <int name="index">8</int>
+        <str name="text">Managers said strong results are due to the loading of funds into the buoyant Tokyo stock market and into convertible bonds and attractive short-term instruments such as large yen time deposits.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">240</int>
-        <double name="strength">0.9602177311069021</double>
+        <int name="end">195</int>
+        <double name="strength">0.9602473293269226</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Variables are also attractive to executives of companies who wish to receive them as retirement funds with options for settlement in annuities," Kono said.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.8049711771953442</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Insurance managers&lt;/em&gt; said they &lt;em&gt;expect variables&lt;/em&gt; to &lt;em&gt;survive&lt;/em&gt; any &lt;em&gt;credit market collapse since&lt;/em&gt; the &lt;em&gt;funds should&lt;/em&gt; be able to &lt;em&gt;react&lt;/em&gt; to &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;fluctuations&lt;/em&gt; more &lt;em&gt;quickly&lt;/em&gt; than huge &lt;em&gt;general insurance accounts, assuming&lt;/em&gt; fund &lt;em&gt;managers&lt;/em&gt; grow more &lt;em&gt;sophisticated&lt;/em&gt; in &lt;em&gt;global&lt;/em&gt; fund and risk &lt;em&gt;management&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;"Although (variable&lt;/em&gt; life) &lt;em&gt;appears&lt;/em&gt; to be a &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;financial instrument&lt;/em&gt; with &lt;em&gt;death benefit,&lt;/em&gt; its &lt;em&gt;first priority&lt;/em&gt; is to &lt;em&gt;raise&lt;/em&gt; as much cash &lt;em&gt;value&lt;/em&gt; as it can over the long &lt;em&gt;period,"&lt;/em&gt; said &lt;em&gt;Ichiro&lt;/em&gt; Kono, &lt;em&gt;managing director&lt;/em&gt; and &lt;em&gt;chief actuary&lt;/em&gt; of Sony &lt;em&gt;Prudential&lt;/em&gt;.</str>
+        <str name="text">"Although (&lt;em&gt;variable&lt;/em&gt; life) appears to be a &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;financial instrument&lt;/em&gt; with &lt;em&gt;death benefit,&lt;/em&gt; its &lt;em&gt;first priority&lt;/em&gt; is to &lt;em&gt;raise&lt;/em&gt; as much cash &lt;em&gt;value&lt;/em&gt; as it can over the long &lt;em&gt;period,"&lt;/em&gt; said &lt;em&gt;Ichiro&lt;/em&gt; Kono, managing &lt;em&gt;director&lt;/em&gt; and &lt;em&gt;chief actuary&lt;/em&gt; of Sony &lt;em&gt;Prudential&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Variable&lt;/em&gt; life &lt;em&gt;avails itself&lt;/em&gt; of the &lt;em&gt;times&lt;/em&gt; and &lt;em&gt;clients&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;attracted after&lt;/em&gt; the &lt;em&gt;impressive results&lt;/em&gt; to be made &lt;em&gt;public&lt;/em&gt; in &lt;em&gt;early&lt;/em&gt; June," &lt;em&gt;Ichirou Hayashi, general manager&lt;/em&gt; of &lt;em&gt;Nippon&lt;/em&gt; Life &lt;em&gt;Insurance&lt;/em&gt; Co Ltd's fund &lt;em&gt;management office said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Managers&lt;/em&gt; said &lt;em&gt;strong results&lt;/em&gt; are due to the &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; into the &lt;em&gt;buoyant Tokyo stock market&lt;/em&gt; and into &lt;em&gt;convertible bonds&lt;/em&gt; and &lt;em&gt;attractive short&lt;/em&gt;-term &lt;em&gt;instruments&lt;/em&gt; such as &lt;em&gt;large&lt;/em&gt; yen time &lt;em&gt;deposits&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Variables&lt;/em&gt; are also &lt;em&gt;attractive&lt;/em&gt; to &lt;em&gt;executives&lt;/em&gt; of &lt;em&gt;companies&lt;/em&gt; who wish to &lt;em&gt;receive&lt;/em&gt; them as &lt;em&gt;retirement funds&lt;/em&gt; with &lt;em&gt;options&lt;/em&gt; for &lt;em&gt;settlement&lt;/em&gt; in &lt;em&gt;annuities,"&lt;/em&gt; Kono said.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

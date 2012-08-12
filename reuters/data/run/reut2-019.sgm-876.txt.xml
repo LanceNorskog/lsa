@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-876.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">176</int>
+        <int name="count">121</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">under</str>
+        <str name="text">proposal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">owners</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.559016994374946</double>
+        <str name="text">brazil</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">severely</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">rural</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">limit</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The land reform program, announced in 1985 soon after the civilian government of President Jose Sarney took power, aimed to resettle 1,4 mln families by 1989 by gradually splitting up the country's vast, undeveloped estates.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">225</int>
-        <double name="strength">0.9567823495732846</double>
+        <double name="strength">0.9268954800185334</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">When the Cruzado Plan collapsed late last year, prices and interest rates soared and many small farmers were unable to pay debts taken out during the price freeze.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">164</int>
-        <double name="strength">0.9429835679791418</double>
+        <str name="text">He added that the assembly would probably vote on the proposal by October and that its rejection would be the signal for large-scale land invasions.</str>
+        <int name="index">28</int>
+        <int name="start">0</int>
+        <int name="end">148</int>
+        <double name="strength">0.8612276917408259</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">One &lt;em&gt;activist&lt;/em&gt; said the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;landless&lt;/em&gt; day &lt;em&gt;labourers called "boias-frias" (literally &lt;/em&gt;"cold &lt;em&gt;meals"),&lt;/em&gt; most of whom cut &lt;em&gt;sugar&lt;/em&gt; cane, had &lt;em&gt;increased&lt;/em&gt; to 400,000 in Sao &lt;em&gt;Paulo state&lt;/em&gt; from &lt;em&gt;about 300,000&lt;/em&gt; five &lt;em&gt;years ago&lt;/em&gt;.</str>
+        <str name="text">One &lt;em&gt;activist&lt;/em&gt; said the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;landless&lt;/em&gt; day &lt;em&gt;labourers&lt;/em&gt; called "&lt;em&gt;boias-frias" &lt;/em&gt;(literally "cold &lt;em&gt;meals"),&lt;/em&gt; most of whom cut &lt;em&gt;sugar&lt;/em&gt; cane, had increased to 400,000 in Sao &lt;em&gt;Paulo state&lt;/em&gt; from about 300,000 five &lt;em&gt;years ago&lt;/em&gt;.</str>
         <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The land &lt;em&gt;reform program, announced&lt;/em&gt; in 1985 soon &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;civilian government&lt;/em&gt; of &lt;em&gt;President&lt;/em&gt; Jose &lt;em&gt;Sarney&lt;/em&gt; took &lt;em&gt;power, aimed&lt;/em&gt; to &lt;em&gt;resettle 1,4&lt;/em&gt; mln &lt;em&gt;families&lt;/em&gt; by 1989 by &lt;em&gt;gradually splitting&lt;/em&gt; up the &lt;em&gt;country&lt;/em&gt;'s vast, &lt;em&gt;undeveloped estates&lt;/em&gt;.</str>
+        <str name="text">The land &lt;em&gt;reform program,&lt;/em&gt; announced in 1985 soon after the &lt;em&gt;civilian government&lt;/em&gt; of &lt;em&gt;President&lt;/em&gt; Jose &lt;em&gt;Sarney&lt;/em&gt; took &lt;em&gt;power,&lt;/em&gt; aimed to &lt;em&gt;resettle 1,4&lt;/em&gt; mln &lt;em&gt;families&lt;/em&gt; by 1989 by gradually splitting up the &lt;em&gt;country&lt;/em&gt;'s vast, &lt;em&gt;undeveloped estates&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">When the &lt;em&gt;Cruzado&lt;/em&gt; Plan &lt;em&gt;collapsed&lt;/em&gt; late last year, &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;interest rates soared&lt;/em&gt; and many &lt;em&gt;small farmers&lt;/em&gt; were &lt;em&gt;unable&lt;/em&gt; to pay &lt;em&gt;debts taken&lt;/em&gt; out &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;price freeze&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">He added that the &lt;em&gt;assembly&lt;/em&gt; would probably vote on the &lt;em&gt;proposal&lt;/em&gt; by &lt;em&gt;October&lt;/em&gt; and that its &lt;em&gt;rejection&lt;/em&gt; would be the &lt;em&gt;signal&lt;/em&gt; for &lt;em&gt;large-scale&lt;/em&gt; land &lt;em&gt;invasions&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
     </lst>
   </lst>

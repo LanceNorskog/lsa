@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-145.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">114</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">majority</str>
+        <str name="text">filing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deleted</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">smorada</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
         <str name="text">provision</str>
-        <double name="strength">0.9999999999999982</double>
-      </lst>
-      <lst name="term">
-        <str name="text">allowing</str>
-        <double name="strength">0.9999999999999982</double>
+        <double name="strength">0.9969511504682486</double>
       </lst>
       <lst name="term">
         <str name="text">shareholders</str>
-        <double name="strength">0.9999999999999982</double>
+        <double name="strength">0.9969511504682486</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In a filing with the Securities and Exchange Commission, Conrac said its board of directors authorized its financial and legal advisors to explore a several alternatives to the Mark IV offer, which it said it considers inadequate.</str>
+        <int name="index">1</int>
+        <int name="start">2</int>
+        <int name="end">232</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The executives would also get cash settlements of options plans and continuation of insurance and other benefits.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">114</int>
+        <double name="strength">0.9021434335688023</double>
+        <int name="terms">8</int>
+      </lst>
       <lst name="sentence">
         <str name="text">At a board meeting yesterday, Concac's directors deleted a provision allowing the holder of at least one-third of of all classes of its voting stock to call a special shareholders meeting and deleted another provision allowing shareholders to remove directors without cause, the company said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">293</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The defensive moves were taken because Mark IV had said it planned to elect a majority of its designees as directors at a special holders meeting if it succeeded in acquring a majority of the company's common stock in the offer, Conrac said.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.7159001812658635</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Board members were also instructed to keep confidential the terms of any transaction that might be entered into until it becomes final, the company said.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">154</int>
-        <double name="strength">0.6228930187075099</double>
+        <double name="strength">0.8781544322237147</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">At a &lt;em&gt;board meeting yesterday, Concac&lt;/em&gt;'s &lt;em&gt;directors deleted&lt;/em&gt; a &lt;em&gt;provision allowing&lt;/em&gt; the &lt;em&gt;holder&lt;/em&gt; of at &lt;em&gt;least&lt;/em&gt; one-&lt;em&gt;third&lt;/em&gt; of of all &lt;em&gt;classes&lt;/em&gt; of its &lt;em&gt;voting stock&lt;/em&gt; to call a &lt;em&gt;special shareholders meeting&lt;/em&gt; and &lt;em&gt;deleted another provision allowing shareholders&lt;/em&gt; to &lt;em&gt;remove directors without cause,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <str name="text">In a &lt;em&gt;filing&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission, Conrac&lt;/em&gt; said its &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; authorized its &lt;em&gt;financial&lt;/em&gt; and &lt;em&gt;legal advisors&lt;/em&gt; to &lt;em&gt;explore&lt;/em&gt; a &lt;em&gt;several alternatives&lt;/em&gt; to the Mark IV &lt;em&gt;offer,&lt;/em&gt; which it said it considers &lt;em&gt;inadequate&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;executives&lt;/em&gt; would also get cash &lt;em&gt;settlements&lt;/em&gt; of &lt;em&gt;options plans&lt;/em&gt; and &lt;em&gt;continuation&lt;/em&gt; of &lt;em&gt;insurance&lt;/em&gt; and &lt;em&gt;other benefits&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At a &lt;em&gt;board meeting yesterday, Concac&lt;/em&gt;'s &lt;em&gt;directors&lt;/em&gt; deleted a &lt;em&gt;provision&lt;/em&gt; allowing the &lt;em&gt;holder&lt;/em&gt; of at least one-&lt;em&gt;third&lt;/em&gt; of of all &lt;em&gt;classes&lt;/em&gt; of its &lt;em&gt;voting stock&lt;/em&gt; to call a &lt;em&gt;special shareholders meeting&lt;/em&gt; and deleted another &lt;em&gt;provision&lt;/em&gt; allowing &lt;em&gt;shareholders&lt;/em&gt; to &lt;em&gt;remove directors&lt;/em&gt; without &lt;em&gt;cause,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
         <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;defensive moves&lt;/em&gt; were &lt;em&gt;taken because&lt;/em&gt; Mark IV had said it &lt;em&gt;planned&lt;/em&gt; to &lt;em&gt;elect&lt;/em&gt; a &lt;em&gt;majority&lt;/em&gt; of its &lt;em&gt;designees&lt;/em&gt; as &lt;em&gt;directors&lt;/em&gt; at a &lt;em&gt;special holders meeting&lt;/em&gt; if it &lt;em&gt;succeeded&lt;/em&gt; in &lt;em&gt;acquring&lt;/em&gt; a &lt;em&gt;majority&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;common stock&lt;/em&gt; in the &lt;em&gt;offer, Conrac said&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Board members&lt;/em&gt; were also &lt;em&gt;instructed&lt;/em&gt; to keep &lt;em&gt;confidential&lt;/em&gt; the &lt;em&gt;terms&lt;/em&gt; of any &lt;em&gt;transaction&lt;/em&gt; that &lt;em&gt;might&lt;/em&gt; be &lt;em&gt;entered&lt;/em&gt; into &lt;em&gt;until&lt;/em&gt; it &lt;em&gt;becomes final,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
-        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

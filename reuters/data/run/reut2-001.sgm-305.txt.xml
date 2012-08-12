@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-305.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">106</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cooperation</str>
+        <str name="text">assistance</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">council</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">dubai</str>
-        <double name="strength">0.9999999999999984</double>
-      </lst>
-      <lst name="term">
-        <str name="text">rumors</str>
-        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
         <str name="text">production</str>
-        <double name="strength">0.5590169943749468</double>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">pressure</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">sales</str>
+        <double name="strength">0.9999999999999967</double>
+      </lst>
+      <lst name="term">
+        <str name="text">rally</str>
+        <double name="strength">0.9991285392582812</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Traders said that there have been persistent rumors today that Japanese buyers are looking to pick up cargoes of Brent for Japan and European trade sources indidate rumors of vessels being fixed to make such shipments.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The analysts said that to get others to hold the line, Saudi Arabia pushed hard at the meeting of deputy oil ministers of the Gulf Cooperation Council last weekend and at the Cooperation Council oil ministers' meeting the previous week.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">0.9353757781327325</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Daniel McKinley, oil analyst with Smith Barney, Upham Harris and Co said, "both physical and futures markets have been oversold and it only took a small spark to bring on a short covering rally."</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">196</int>
-        <double name="strength">0.8646521572938727</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The Saudis and other OPEC nations are jawboning the market, hoping to restore confidence and prices and to do this without another meeting," said Sanford Margoshes, oil analyst with Shearson Lehman Brothers Inc.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
+        <double name="strength">0.829268230541339</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Analysts said that Saudi Arabia, with assistance from OPEC president Rilwanu Lukman, was trying to avoid an emergency OPEC meeting for fear that it would give the appearance that the December pact is falling apart.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.8097742816143173</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Traders&lt;/em&gt; said that &lt;em&gt;there&lt;/em&gt; have been &lt;em&gt;persistent rumors today&lt;/em&gt; that &lt;em&gt;Japanese buyers&lt;/em&gt; are &lt;em&gt;looking&lt;/em&gt; to pick up &lt;em&gt;cargoes&lt;/em&gt; of &lt;em&gt;Brent&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;European trade sources indidate rumors&lt;/em&gt; of &lt;em&gt;vessels being fixed&lt;/em&gt; to make such &lt;em&gt;shipments&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;analysts&lt;/em&gt; said that to get &lt;em&gt;others&lt;/em&gt; to hold the line, &lt;em&gt;Saudi Arabia pushed&lt;/em&gt; hard at the &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;deputy&lt;/em&gt; oil &lt;em&gt;ministers&lt;/em&gt; of the Gulf &lt;em&gt;Cooperation Council&lt;/em&gt; last &lt;em&gt;weekend&lt;/em&gt; and at the &lt;em&gt;Cooperation Council&lt;/em&gt; oil &lt;em&gt;ministers' meeting&lt;/em&gt; the &lt;em&gt;previous week&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Daniel McKinley,&lt;/em&gt; oil &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Smith Barney, Upham Harris&lt;/em&gt; and Co said, "both &lt;em&gt;physical&lt;/em&gt; and &lt;em&gt;futures markets&lt;/em&gt; have been &lt;em&gt;oversold&lt;/em&gt; and it only took a &lt;em&gt;small spark&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; on a &lt;em&gt;short covering rally.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Daniel McKinley,&lt;/em&gt; oil &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Smith Barney,&lt;/em&gt; Upham &lt;em&gt;Harris&lt;/em&gt; and Co said, "both &lt;em&gt;physical&lt;/em&gt; and &lt;em&gt;futures markets&lt;/em&gt; have been oversold and it only took a &lt;em&gt;small spark&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; on a &lt;em&gt;short covering rally.&lt;/em&gt;"</str>
         <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;Saudis&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; OPEC &lt;em&gt;nations&lt;/em&gt; are jawboning the &lt;em&gt;market,&lt;/em&gt; hoping to &lt;em&gt;restore confidence&lt;/em&gt; and &lt;em&gt;prices&lt;/em&gt; and to do this without another &lt;em&gt;meeting,"&lt;/em&gt; said &lt;em&gt;Sanford Margoshes,&lt;/em&gt; oil &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Shearson Lehman Brothers Inc&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said that &lt;em&gt;Saudi Arabia,&lt;/em&gt; with &lt;em&gt;assistance&lt;/em&gt; from OPEC &lt;em&gt;president Rilwanu Lukman,&lt;/em&gt; was trying to &lt;em&gt;avoid&lt;/em&gt; an &lt;em&gt;emergency&lt;/em&gt; OPEC &lt;em&gt;meeting&lt;/em&gt; for fear that it would give the &lt;em&gt;appearance&lt;/em&gt; that the &lt;em&gt;December&lt;/em&gt; pact is falling apart.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

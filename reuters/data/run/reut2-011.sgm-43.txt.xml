@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-43.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">confirmed</str>
+        <str name="text">adequacy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">vigorously</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">hearing</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">resisting</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">statement</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">efforts</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">disclosure</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">acquire</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">basic</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">211</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Assuming the plan is found adequate on April 29, TransAmerican would then seek acceptance from creditors which is relatively assured since they participated in the negotiations, the company said.</str>
-        <int name="index">5</int>
+        <str name="text">The spokesman said the company is confident its plan will be confirmed and is optimistic that it will emerge from Chapter 11 as early ninety days after the April 29 confirmation.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">0.9623830992767186</double>
+        <int name="end">179</int>
+        <double name="strength">0.980693603935608</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">TransAmerican is vigorously resisting efforts by Coastal Corp &lt;CGP&gt; to acquire its assets through a subsequent plan of liquidation.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">132</int>
-        <double name="strength">0.9212521379178045</double>
+        <str name="text">TransAmerican Natural Gas Corp, which has been operating under Chapter 11 bankruptcy protection since January 1983, said it filed an amended and restated negotiated plan of reorganization.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
+        <double name="strength">0.8698057588000915</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Unsecured creditors would receive either 100&lt;/em&gt; pct &lt;em&gt;repayment, secured&lt;/em&gt; by &lt;em&gt;liens&lt;/em&gt; on &lt;em&gt;assets,&lt;/em&gt; or one-time lump sum &lt;em&gt;payments&lt;/em&gt; of 25 to 35 cts on the &lt;em&gt;dollar,&lt;/em&gt; in cash, &lt;em&gt;shortly after confirmation&lt;/em&gt; of the plan by the &lt;em&gt;court&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Unsecured creditors&lt;/em&gt; would &lt;em&gt;receive&lt;/em&gt; either 100 pct &lt;em&gt;repayment,&lt;/em&gt; secured by &lt;em&gt;liens&lt;/em&gt; on &lt;em&gt;assets,&lt;/em&gt; or one-time lump sum &lt;em&gt;payments&lt;/em&gt; of 25 to 35 cts on the &lt;em&gt;dollar,&lt;/em&gt; in cash, shortly after &lt;em&gt;confirmation&lt;/em&gt; of the plan by the &lt;em&gt;court&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Assuming&lt;/em&gt; the plan is &lt;em&gt;found adequate&lt;/em&gt; on &lt;em&gt;April 29, TransAmerican would&lt;/em&gt; then seek &lt;em&gt;acceptance&lt;/em&gt; from &lt;em&gt;creditors which&lt;/em&gt; is &lt;em&gt;relatively assured since&lt;/em&gt; they &lt;em&gt;participated&lt;/em&gt; in the &lt;em&gt;negotiations,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; is &lt;em&gt;confident&lt;/em&gt; its plan will be confirmed and is &lt;em&gt;optimistic&lt;/em&gt; that it will &lt;em&gt;emerge&lt;/em&gt; from &lt;em&gt;Chapter 11&lt;/em&gt; as &lt;em&gt;early ninety&lt;/em&gt; days after the &lt;em&gt;April 29 confirmation&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;TransAmerican&lt;/em&gt; is &lt;em&gt;vigorously resisting efforts&lt;/em&gt; by &lt;em&gt;Coastal&lt;/em&gt; Corp &lt;CGP&gt; to &lt;em&gt;acquire&lt;/em&gt; its &lt;em&gt;assets through&lt;/em&gt; a &lt;em&gt;subsequent&lt;/em&gt; plan of &lt;em&gt;liquidation&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;TransAmerican Natural&lt;/em&gt; Gas Corp, which has been operating under &lt;em&gt;Chapter 11 bankruptcy protection&lt;/em&gt; since &lt;em&gt;January 1983,&lt;/em&gt; said it filed an amended and restated negotiated plan of &lt;em&gt;reorganization&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

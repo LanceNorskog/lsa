@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-42.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">government</str>
+        <str name="text">investor</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rands</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">national</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">feeling</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">above</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">reaching</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">september</str>
+        <double name="strength">0.9969511504682487</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">A Barclays National Bank executive who asked not to be identified said: "The rise of the independents appears to be indicative of a potential shift of power in the National Party and has created a favourable sentiment overseas."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Economists said foreigners also were being attracted by South Africa's long-term government bonds and "semi-gilts" or securities in partly government-owned firms, many with yields as high as 30 pct.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">199</int>
-        <double name="strength">0.8995036576482578</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The currency has risen about 25 pct in the past three months to its current rate of 29.50 cents, due partly to signs of a possible power shift with the appearance of a number of independent candidates in the whites-only election on May 6, they added.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">251</int>
-        <double name="strength">0.8380195150058544</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The financial rand was reintroduced in September 1985 to help end capital flight from South Africa during a period of severe political unrest in the country.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.8307088448695858</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dealers described 30 cents as a psychological barrier that was expected to be broken soon after a brief consolidation phase from recent gains.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.7676511870216952</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Barclays National&lt;/em&gt; Bank &lt;em&gt;executive&lt;/em&gt; who &lt;em&gt;asked&lt;/em&gt; not to be &lt;em&gt;identified&lt;/em&gt; said: "The rise of the &lt;em&gt;independents appears&lt;/em&gt; to be &lt;em&gt;indicative&lt;/em&gt; of a &lt;em&gt;potential shift&lt;/em&gt; of &lt;em&gt;power&lt;/em&gt; in the &lt;em&gt;National Party&lt;/em&gt; and has &lt;em&gt;created&lt;/em&gt; a &lt;em&gt;favourable sentiment overseas.&lt;/em&gt;"</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said &lt;em&gt;foreigners&lt;/em&gt; also were &lt;em&gt;being attracted&lt;/em&gt; by &lt;em&gt;South Africa&lt;/em&gt;'s long-term &lt;em&gt;government bonds&lt;/em&gt; and "semi-&lt;em&gt;gilts"&lt;/em&gt; or &lt;em&gt;securities&lt;/em&gt; in &lt;em&gt;partly government-owned firms,&lt;/em&gt; many with &lt;em&gt;yields&lt;/em&gt; as high as 30 pct.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;currency&lt;/em&gt; has &lt;em&gt;risen about 25&lt;/em&gt; pct in the past &lt;em&gt;three months&lt;/em&gt; to its &lt;em&gt;current&lt;/em&gt; rate of 29.50 &lt;em&gt;cents,&lt;/em&gt; due &lt;em&gt;partly&lt;/em&gt; to &lt;em&gt;signs&lt;/em&gt; of a &lt;em&gt;possible power shift&lt;/em&gt; with the &lt;em&gt;appearance&lt;/em&gt; of a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;independent candidates&lt;/em&gt; in the &lt;em&gt;whites&lt;/em&gt;-only &lt;em&gt;election&lt;/em&gt; on May 6, they &lt;em&gt;added&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;currency&lt;/em&gt; has risen about 25 pct in the past &lt;em&gt;three months&lt;/em&gt; to its &lt;em&gt;current&lt;/em&gt; rate of 29.50 &lt;em&gt;cents,&lt;/em&gt; due partly to &lt;em&gt;signs&lt;/em&gt; of a &lt;em&gt;possible power shift&lt;/em&gt; with the &lt;em&gt;appearance&lt;/em&gt; of a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;independent candidates&lt;/em&gt; in the &lt;em&gt;whites&lt;/em&gt;-only &lt;em&gt;election&lt;/em&gt; on May 6, they added.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;financial&lt;/em&gt; rand was reintroduced in &lt;em&gt;September 1985&lt;/em&gt; to help end &lt;em&gt;capital flight&lt;/em&gt; from &lt;em&gt;South Africa&lt;/em&gt; during a &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;severe political unrest&lt;/em&gt; in the &lt;em&gt;country&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; described 30 &lt;em&gt;cents&lt;/em&gt; as a &lt;em&gt;psychological barrier&lt;/em&gt; that was expected to be broken soon after a &lt;em&gt;brief consolidation phase&lt;/em&gt; from &lt;em&gt;recent gains&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

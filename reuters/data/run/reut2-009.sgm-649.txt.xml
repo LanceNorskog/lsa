@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-649.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">thousand</str>
+        <str name="text">current</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">state</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">cubic</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">court</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">sales</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">upheld</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">price</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">appeals</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">sulphur</str>
+        <double name="strength">0.9817951047906763</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In its newly-released annual report to shareholders, Pennzoil said it expected the Texas state court judgment, which was upheld by a state appeals court on February 12, to be upheld if appealed again.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Pennzoil said its goals for 1987 included development of its Point Arguello oilfield off the California coast, to maintain current production levels in its Bluebell-Altamont Field in Utah and to drill for prospects in the Gulf of Mexico's Mobile Bay area.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">256</int>
-        <double name="strength">0.8302568747978594</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"To date, Pennzoil has yet to receive any meaningful settlement offer from Texaco, though it remains open to any realistic effort to settle the matter," Pennzoil chairman Hugh Liedtke said in the annual report.</str>
-        <int name="index">2</int>
+        <str name="text">We expect sulphur's pricing structure to strengthen during the current year, probably in the third and fourth quarters."</str>
+        <int name="index">20</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">0.6638216191214523</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Production should begin late in the year from the Harvest Platform in the Santa Maria Basin offshore California," the company said.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">0.582962913361352</double>
+        <int name="end">133</int>
+        <double name="strength">0.6336532340054024</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In its &lt;em&gt;newly-released annual report&lt;/em&gt; to &lt;em&gt;shareholders, Pennzoil&lt;/em&gt; said it &lt;em&gt;expected&lt;/em&gt; the &lt;em&gt;Texas state court judgment, which&lt;/em&gt; was &lt;em&gt;upheld&lt;/em&gt; by a &lt;em&gt;state appeals court&lt;/em&gt; on &lt;em&gt;February 12,&lt;/em&gt; to be &lt;em&gt;upheld&lt;/em&gt; if &lt;em&gt;appealed again&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Pennzoil&lt;/em&gt; said its &lt;em&gt;goals&lt;/em&gt; for 1987 &lt;em&gt;included development&lt;/em&gt; of its &lt;em&gt;Point Arguello oilfield&lt;/em&gt; off the &lt;em&gt;California coast,&lt;/em&gt; to &lt;em&gt;maintain current production levels&lt;/em&gt; in its &lt;em&gt;Bluebell-Altamont Field&lt;/em&gt; in Utah and to &lt;em&gt;drill&lt;/em&gt; for &lt;em&gt;prospects&lt;/em&gt; in the Gulf of &lt;em&gt;Mexico&lt;/em&gt;'s &lt;em&gt;Mobile&lt;/em&gt; Bay area.</str>
+        <str name="text">&lt;em&gt;Pennzoil&lt;/em&gt; said its &lt;em&gt;goals&lt;/em&gt; for 1987 included &lt;em&gt;development&lt;/em&gt; of its &lt;em&gt;Point&lt;/em&gt; Arguello &lt;em&gt;oilfield&lt;/em&gt; off the &lt;em&gt;California coast,&lt;/em&gt; to &lt;em&gt;maintain current production levels&lt;/em&gt; in its &lt;em&gt;Bluebell-Altamont Field&lt;/em&gt; in Utah and to &lt;em&gt;drill&lt;/em&gt; for &lt;em&gt;prospects&lt;/em&gt; in the Gulf of &lt;em&gt;Mexico&lt;/em&gt;'s &lt;em&gt;Mobile&lt;/em&gt; Bay area.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"To date, &lt;em&gt;Pennzoil&lt;/em&gt; has yet to &lt;em&gt;receive&lt;/em&gt; any &lt;em&gt;meaningful settlement offer&lt;/em&gt; from &lt;em&gt;Texaco, though&lt;/em&gt; it &lt;em&gt;remains&lt;/em&gt; open to any &lt;em&gt;realistic effort&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; the &lt;em&gt;matter," Pennzoil chairman&lt;/em&gt; Hugh &lt;em&gt;Liedtke&lt;/em&gt; said in the &lt;em&gt;annual report&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">We &lt;em&gt;expect sulphur&lt;/em&gt;'s pricing &lt;em&gt;structure&lt;/em&gt; to &lt;em&gt;strengthen&lt;/em&gt; during the &lt;em&gt;current&lt;/em&gt; year, probably in the &lt;em&gt;third&lt;/em&gt; and &lt;em&gt;fourth quarters.&lt;/em&gt;"</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Production&lt;/em&gt; should &lt;em&gt;begin&lt;/em&gt; late in the year from the &lt;em&gt;Harvest Platform&lt;/em&gt; in the &lt;em&gt;Santa Maria Basin&lt;/em&gt; offshore California," the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

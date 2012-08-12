@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-653.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">closing</str>
+        <str name="text">issue</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">layoffs</str>
-        <double name="strength">1.0</double>
+        <str name="text">negotiate</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">comment</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">glantz</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">saying</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">luckey</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">seeking</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">target</str>
+        <double name="strength">0.9883990800936774</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Some in the industry say that, despite the closing of 11 plants and indefinite layoff of 37,000 workers, further closings and layoffs might be coming.</str>
-        <int name="index">34</int>
+        <str name="text">Last week's four-day walkout by 9,000 UAW workers at Pontiac, Mich., follows longer strikes at two General Motors parts plants in the past year and rejection of proposed contracts at other facilities.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">151</int>
+        <int name="end">201</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">General Motors' dealings with the United Auto Workers, marred in recent months by strikes and a contract rejections, shows few signs of improving as it tries to regain the lead from Ford Motor Co &lt;F&gt; as the richest U.</str>
-        <int name="index">1</int>
+        <str name="text">The consensus on Wall Street is that General Motors will be chosen as the "strike target", or the main company with which it will negotiate in the fall talks to decide the next three-year national contract.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.8995876157063633</double>
+        <int name="end">207</int>
+        <double name="strength">0.9668611865669449</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">General Motors might also be faced with wildcat strikes, or walkouts by local union units that are not endorsed by the union's central committee, analysts said.</str>
-        <int name="index">12</int>
+        <str name="text">"You're going to see a rough set of negotiations, particularly if they can't get the outsourcing issue decided," says one former General Motors human relations executive.</str>
+        <int name="index">27</int>
         <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.7228687276919347</double>
+        <int name="end">171</int>
+        <double name="strength">0.9455630080860961</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some in the &lt;em&gt;industry&lt;/em&gt; say that, &lt;em&gt;despite&lt;/em&gt; the &lt;em&gt;closing&lt;/em&gt; of 11 &lt;em&gt;plants&lt;/em&gt; and &lt;em&gt;indefinite layoff&lt;/em&gt; of 37,000 &lt;em&gt;workers, further closings&lt;/em&gt; and &lt;em&gt;layoffs might&lt;/em&gt; be &lt;em&gt;coming&lt;/em&gt;.</str>
-        <int name="index">34</int>
+        <str name="text">Last week's four-day &lt;em&gt;walkout&lt;/em&gt; by 9,000 UAW &lt;em&gt;workers&lt;/em&gt; at &lt;em&gt;Pontiac,&lt;/em&gt; Mich., follows longer &lt;em&gt;strikes&lt;/em&gt; at two &lt;em&gt;General Motors parts plants&lt;/em&gt; in the past year and &lt;em&gt;rejection&lt;/em&gt; of &lt;em&gt;proposed contracts&lt;/em&gt; at &lt;em&gt;other facilities&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Motors' dealings&lt;/em&gt; with the &lt;em&gt;United&lt;/em&gt; Auto &lt;em&gt;Workers, marred&lt;/em&gt; in &lt;em&gt;recent months&lt;/em&gt; by &lt;em&gt;strikes&lt;/em&gt; and a &lt;em&gt;contract rejections, shows&lt;/em&gt; few &lt;em&gt;signs&lt;/em&gt; of &lt;em&gt;improving&lt;/em&gt; as it &lt;em&gt;tries&lt;/em&gt; to &lt;em&gt;regain&lt;/em&gt; the lead from Ford &lt;em&gt;Motor&lt;/em&gt; Co &lt;F&gt; as the &lt;em&gt;richest U&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;consensus&lt;/em&gt; on Wall &lt;em&gt;Street&lt;/em&gt; is that &lt;em&gt;General Motors&lt;/em&gt; will be chosen as the "&lt;em&gt;strike target",&lt;/em&gt; or the main &lt;em&gt;company&lt;/em&gt; with which it will &lt;em&gt;negotiate&lt;/em&gt; in the fall &lt;em&gt;talks&lt;/em&gt; to &lt;em&gt;decide&lt;/em&gt; the next &lt;em&gt;three&lt;/em&gt;-year &lt;em&gt;national contract&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Motors might&lt;/em&gt; also be &lt;em&gt;faced&lt;/em&gt; with &lt;em&gt;wildcat strikes,&lt;/em&gt; or &lt;em&gt;walkouts&lt;/em&gt; by &lt;em&gt;local union units&lt;/em&gt; that are not &lt;em&gt;endorsed&lt;/em&gt; by the &lt;em&gt;union&lt;/em&gt;'s &lt;em&gt;central committee, analysts said&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">"You're going to see a &lt;em&gt;rough&lt;/em&gt; set of &lt;em&gt;negotiations,&lt;/em&gt; particularly if they can't get the &lt;em&gt;outsourcing issue&lt;/em&gt; decided," says one &lt;em&gt;former General Motors human relations executive&lt;/em&gt;.</str>
+        <int name="index">27</int>
       </lst>
     </lst>
   </lst>

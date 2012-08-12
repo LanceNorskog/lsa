@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-864.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">ground</str>
+        <str name="text">helicopters</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">soviet</str>
-        <double name="strength">1.0</double>
+        <str name="text">attack</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">things</str>
-        <double name="strength">1.0</double>
+        <str name="text">firms</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">slowly</str>
-        <double name="strength">1.0</double>
+        <str name="text">competition</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">avoid</str>
-        <double name="strength">1.0</double>
+        <str name="text">pentagon</str>
+        <double name="strength">0.9817951047906758</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">219</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Despite recent indications by the service that it intended to buy the missiles soon, defense officials told Reuters a final decision had been suspended because some Army officials favored a more versatile gun-missile combination.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.9485063984067355</double>
+        <str name="text">S. ground forces from Soviet attack helicopters, Defense Department officials said.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">83</int>
+        <double name="strength">0.81025059166442</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Army has been considering buying some British Rapier missiles or French and German Roland missiles as a stop-gap partial replacement this year for the flawed U.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">165</int>
-        <double name="strength">0.9129276627093522</double>
+        <str name="text">S. firms, including General Electric Co &lt;GE&gt;, Boeing Co &lt;BA&gt;, FMC Corp &lt;FMC&gt; and Martin Marietta Corp &lt;ML&gt;.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">107</int>
+        <double name="strength">0.7409559116006049</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">York gun, made by Ford &lt;em&gt;Motor&lt;/em&gt; Co &lt;F&gt; &lt;em&gt;Aerospace&lt;/em&gt; and &lt;em&gt;Communications&lt;/em&gt; Corp, &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;Pentagon&lt;/em&gt; had &lt;em&gt;already spent 1.8 billion&lt;/em&gt; dlrs on the &lt;em&gt;system&lt;/em&gt; and then &lt;em&gt;decided&lt;/em&gt; it &lt;em&gt;could&lt;/em&gt; not &lt;em&gt;shoot&lt;/em&gt; down &lt;em&gt;attack helicopters&lt;/em&gt; at the &lt;em&gt;proper range&lt;/em&gt;.</str>
+        <str name="text">York gun, made by Ford &lt;em&gt;Motor&lt;/em&gt; Co &lt;F&gt; &lt;em&gt;Aerospace&lt;/em&gt; and &lt;em&gt;Communications&lt;/em&gt; Corp, after the &lt;em&gt;Pentagon&lt;/em&gt; had already spent 1.8 &lt;em&gt;billion&lt;/em&gt; dlrs on the &lt;em&gt;system&lt;/em&gt; and then decided it could not &lt;em&gt;shoot&lt;/em&gt; down &lt;em&gt;attack helicopters&lt;/em&gt; at the &lt;em&gt;proper range&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite recent indications&lt;/em&gt; by the &lt;em&gt;service&lt;/em&gt; that it &lt;em&gt;intended&lt;/em&gt; to buy the &lt;em&gt;missiles&lt;/em&gt; soon, &lt;em&gt;defense officials&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; a &lt;em&gt;final decision&lt;/em&gt; had been &lt;em&gt;suspended because&lt;/em&gt; some Army &lt;em&gt;officials favored&lt;/em&gt; a more &lt;em&gt;versatile&lt;/em&gt; gun-&lt;em&gt;missile combination&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">S. &lt;em&gt;ground forces&lt;/em&gt; from &lt;em&gt;Soviet attack helicopters, Defense Department officials said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Army has been &lt;em&gt;considering buying&lt;/em&gt; some &lt;em&gt;British Rapier missiles&lt;/em&gt; or &lt;em&gt;French&lt;/em&gt; and &lt;em&gt;German Roland missiles&lt;/em&gt; as a stop-gap &lt;em&gt;partial replacement&lt;/em&gt; this year for the &lt;em&gt;flawed U&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">S. &lt;em&gt;firms,&lt;/em&gt; including &lt;em&gt;General Electric&lt;/em&gt; Co &lt;GE&gt;, Boeing Co &lt;BA&gt;, FMC Corp &lt;FMC&gt; and &lt;em&gt;Martin Marietta&lt;/em&gt; Corp &lt;ML&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

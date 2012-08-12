@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-627.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">175</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">wanted</str>
+        <str name="text">fiscal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">perhaps</str>
-        <double name="strength">1.0</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">staff</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">ministry</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">particularly</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Japan wanted the Paris communique to imply a higher value for the dollar, perhaps by substituting the word "recent" for "current," while the United States wanted it to more clearly point to the dollar's weaker levels now, perhaps by use of the word "present," they said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">271</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">More and more companies have announced plans to move production facilities offshore to take advantage of cheaper costs abroad, they said.</str>
-        <int name="index">25</int>
-        <int name="start">0</int>
-        <int name="end">137</int>
-        <double name="strength">0.7548737589026794</double>
-      </lst>
       <lst name="sentence">
         <str name="text">At a meeting this week in Paris, senior government officials from major nations are considering an Organisation for Economic Cooperation and Development (OECD) staff report that forecasts a continuing large Japanese trade surplus, they said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">242</int>
-        <double name="strength">0.7291304821300473</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">As a solution, the OECD staff has urged Japan to redirect its export-driven economy, boosting domestic demand and imports by adopting a more flexible fiscal policy, they said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.8279408827805563</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At a meeting in Paris last month, Britain, Canada, France, Japan, the United States and West Germany, agreed to cooperate to hold currencies at around current levels.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.8050977644168887</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japan wanted&lt;/em&gt; the &lt;em&gt;Paris communique&lt;/em&gt; to &lt;em&gt;imply&lt;/em&gt; a &lt;em&gt;higher value&lt;/em&gt; for the &lt;em&gt;dollar, perhaps&lt;/em&gt; by &lt;em&gt;substituting&lt;/em&gt; the word "&lt;em&gt;recent"&lt;/em&gt; for "&lt;em&gt;current," while&lt;/em&gt; the &lt;em&gt;United States wanted&lt;/em&gt; it to more &lt;em&gt;clearly point&lt;/em&gt; to the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;weaker levels&lt;/em&gt; now, &lt;em&gt;perhaps&lt;/em&gt; by use of the word "&lt;em&gt;present,"&lt;/em&gt; they said.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">More and more &lt;em&gt;companies&lt;/em&gt; have &lt;em&gt;announced plans&lt;/em&gt; to move &lt;em&gt;production facilities offshore&lt;/em&gt; to take &lt;em&gt;advantage&lt;/em&gt; of &lt;em&gt;cheaper costs abroad,&lt;/em&gt; they said.</str>
-        <int name="index">25</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">At a &lt;em&gt;meeting&lt;/em&gt; this week in &lt;em&gt;Paris, senior government officials&lt;/em&gt; from &lt;em&gt;major nations&lt;/em&gt; are &lt;em&gt;considering&lt;/em&gt; an &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD) &lt;em&gt;staff report&lt;/em&gt; that &lt;em&gt;forecasts&lt;/em&gt; a &lt;em&gt;continuing large Japanese trade surplus,&lt;/em&gt; they said.</str>
+        <str name="text">At a &lt;em&gt;meeting&lt;/em&gt; this week in &lt;em&gt;Paris, senior government officials&lt;/em&gt; from &lt;em&gt;major nations&lt;/em&gt; are considering an &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD) &lt;em&gt;staff report&lt;/em&gt; that &lt;em&gt;forecasts&lt;/em&gt; a continuing &lt;em&gt;large Japanese trade surplus,&lt;/em&gt; they said.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">As a &lt;em&gt;solution,&lt;/em&gt; the OECD &lt;em&gt;staff&lt;/em&gt; has urged &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;redirect&lt;/em&gt; its &lt;em&gt;export&lt;/em&gt;-driven &lt;em&gt;economy,&lt;/em&gt; boosting &lt;em&gt;domestic demand&lt;/em&gt; and &lt;em&gt;imports&lt;/em&gt; by adopting a more &lt;em&gt;flexible fiscal policy,&lt;/em&gt; they said.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At a &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Paris&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; Britain, &lt;em&gt;Canada, France,&lt;/em&gt; Japan, the United &lt;em&gt;States&lt;/em&gt; and West &lt;em&gt;Germany,&lt;/em&gt; agreed to &lt;em&gt;cooperate&lt;/em&gt; to hold &lt;em&gt;currencies&lt;/em&gt; at around &lt;em&gt;current levels&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

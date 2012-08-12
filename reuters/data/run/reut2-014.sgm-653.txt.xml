@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-653.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">183</int>
+        <int name="count">129</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">79</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">group</str>
+        <str name="text">miyazawa</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">congressional</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">marks</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">testimony</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.9962467211771717</double>
       </lst>
       <lst name="term">
-        <str name="text">morning</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">volcker</str>
+        <double name="strength">0.996246721177171</double>
       </lst>
       <lst name="term">
-        <str name="text">harped</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9693557966625501</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The dollar ended with modest net losses against most major currencies as the market conducted a final round of position-squaring ahead of tomorrow's crucial Group of Five and Group of Seven meetings, dealers said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">213</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The dollar's recent tumble to a 40-year low of 144.70 yen was linked to the market's perception that Washington was unhappy with the rate of adjustment of world trade imbalances and that a continued orderly dollar decline was the least disruptive way of accelerating the process.</str>
-        <int name="index">22</int>
+        <str name="text">In Congressional testimony this morning, Fed Chairman Paul Volcker harped on his long-held fears about the potentially catastrophic fallout from a sharp dollar decline.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">280</int>
-        <double name="strength">0.9856388273344922</double>
+        <int name="end">169</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">According to figures provided by Morgan Guaranty Trust Co, the dollar's trade-weighted value at midday was 5.7 pct below average market rates in 1980-82, compared with 5.5 pct yesterday.</str>
         <int name="index">32</int>
         <int name="start">1</int>
         <int name="end">187</int>
-        <double name="strength">0.9325254750963351</double>
+        <double name="strength">0.9913785512399087</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The market was similarly dismissive of Japanese Finance Minister Kiichi Miyazawa's upbeat appraisal of his hour-long conversation with U.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">0.9327053273595445</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;dollar ended&lt;/em&gt; with &lt;em&gt;modest&lt;/em&gt; net &lt;em&gt;losses against&lt;/em&gt; most &lt;em&gt;major currencies&lt;/em&gt; as the &lt;em&gt;market conducted&lt;/em&gt; a &lt;em&gt;final round&lt;/em&gt; of &lt;em&gt;position-squaring ahead&lt;/em&gt; of &lt;em&gt;tomorrow&lt;/em&gt;'s &lt;em&gt;crucial Group&lt;/em&gt; of Five and &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven meetings, dealers said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">In &lt;em&gt;Congressional testimony&lt;/em&gt; this &lt;em&gt;morning,&lt;/em&gt; Fed &lt;em&gt;Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; harped on his long-held &lt;em&gt;fears&lt;/em&gt; about the potentially &lt;em&gt;catastrophic fallout&lt;/em&gt; from a &lt;em&gt;sharp dollar decline&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;recent tumble&lt;/em&gt; to a 40-year low of 144.70 yen was &lt;em&gt;linked&lt;/em&gt; to the &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;perception&lt;/em&gt; that &lt;em&gt;Washington&lt;/em&gt; was &lt;em&gt;unhappy&lt;/em&gt; with the rate of &lt;em&gt;adjustment&lt;/em&gt; of &lt;em&gt;world trade imbalances&lt;/em&gt; and that a &lt;em&gt;continued orderly dollar decline&lt;/em&gt; was the &lt;em&gt;least disruptive&lt;/em&gt; way of &lt;em&gt;accelerating&lt;/em&gt; the &lt;em&gt;process&lt;/em&gt;.</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to &lt;em&gt;figures provided&lt;/em&gt; by &lt;em&gt;Morgan Guaranty Trust&lt;/em&gt; Co, the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;trade-weighted value&lt;/em&gt; at &lt;em&gt;midday&lt;/em&gt; was 5.7 pct &lt;em&gt;below average market rates&lt;/em&gt; in 1980-82, &lt;em&gt;compared&lt;/em&gt; with 5.5 pct &lt;em&gt;yesterday&lt;/em&gt;.</str>
+        <str name="text">According to &lt;em&gt;figures&lt;/em&gt; provided by &lt;em&gt;Morgan Guaranty Trust&lt;/em&gt; Co, the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;trade&lt;/em&gt;-weighted &lt;em&gt;value&lt;/em&gt; at &lt;em&gt;midday&lt;/em&gt; was 5.7 pct below &lt;em&gt;average market rates&lt;/em&gt; in 1980-82, compared with 5.5 pct &lt;em&gt;yesterday&lt;/em&gt;.</str>
         <int name="index">32</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;market&lt;/em&gt; was similarly &lt;em&gt;dismissive&lt;/em&gt; of &lt;em&gt;Japanese Finance Minister Kiichi Miyazawa&lt;/em&gt;'s &lt;em&gt;upbeat appraisal&lt;/em&gt; of his hour-long &lt;em&gt;conversation&lt;/em&gt; with U.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

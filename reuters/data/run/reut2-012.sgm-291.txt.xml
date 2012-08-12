@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-291.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">their</str>
+        <str name="text">ecuador</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">suspended</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">whole</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">february</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">citing</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">provide</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">By striking accrued, but unpaid, interest from their accounts earlier than necessary, the banks are signalling to Brazil their readiness to dig in for a long fight over the terms of the rescheduling agreement regardless of the short-term earnings impact, banking analysts said.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">278</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The sale was part of a program of asset disposals undertaken to staunch losses at the nation's second largest bank holding company.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">131</int>
-        <double name="strength">0.7817721539636916</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Brazil suspended interest payments on 68 billion dlrs of its 109 billion dlr foreign debt in February, citing a drop in official reserves, and said interest payments would be held on deposit at the central bank pending a rescheduling.</str>
-        <int name="index">16</int>
+        <str name="text">"For the interim period, however, we concluded that the responsible procedure would be to record income only as we receive payments on the loans," he added in a statement.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.7487578585294701</double>
+        <int name="end">172</int>
+        <double name="strength">0.9927377077386323</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">BankAmerica Corp said it placed its 1.9 billion dlrs in medium- and long-term term loans to the Brazilian public and private sectors on non-accrual status as of March 31.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">170</int>
+        <double name="strength">0.9643853253331199</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">By &lt;em&gt;striking accrued,&lt;/em&gt; but &lt;em&gt;unpaid, interest&lt;/em&gt; from &lt;em&gt;their accounts earlier&lt;/em&gt; than &lt;em&gt;necessary,&lt;/em&gt; the &lt;em&gt;banks&lt;/em&gt; are &lt;em&gt;signalling&lt;/em&gt; to &lt;em&gt;Brazil their readiness&lt;/em&gt; to dig in for a long &lt;em&gt;fight&lt;/em&gt; over the &lt;em&gt;terms&lt;/em&gt; of the &lt;em&gt;rescheduling agreement regardless&lt;/em&gt; of the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;earnings impact, banking analysts said&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The sale was part of a &lt;em&gt;program&lt;/em&gt; of &lt;em&gt;asset disposals undertaken&lt;/em&gt; to &lt;em&gt;staunch losses&lt;/em&gt; at the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;second largest&lt;/em&gt; bank &lt;em&gt;holding company&lt;/em&gt;.</str>
+        <str name="text">The sale was part of a &lt;em&gt;program&lt;/em&gt; of &lt;em&gt;asset disposals&lt;/em&gt; undertaken to &lt;em&gt;staunch losses&lt;/em&gt; at the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;second&lt;/em&gt; largest bank holding &lt;em&gt;company&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil suspended interest payments&lt;/em&gt; on 68 &lt;em&gt;billion&lt;/em&gt; dlrs of its 109 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt in &lt;em&gt;February, citing&lt;/em&gt; a drop in &lt;em&gt;official reserves,&lt;/em&gt; and said &lt;em&gt;interest payments would&lt;/em&gt; be held on &lt;em&gt;deposit&lt;/em&gt; at the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;pending&lt;/em&gt; a &lt;em&gt;rescheduling&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">"For the &lt;em&gt;interim period,&lt;/em&gt; however, we concluded that the &lt;em&gt;responsible procedure&lt;/em&gt; would be to &lt;em&gt;record income&lt;/em&gt; only as we &lt;em&gt;receive payments&lt;/em&gt; on the &lt;em&gt;loans,"&lt;/em&gt; he added in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;BankAmerica&lt;/em&gt; Corp said it placed its 1.9 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;medium-&lt;/em&gt; and long-term term &lt;em&gt;loans&lt;/em&gt; to the &lt;em&gt;Brazilian public&lt;/em&gt; and &lt;em&gt;private sectors&lt;/em&gt; on non-&lt;em&gt;accrual status&lt;/em&gt; as of &lt;em&gt;March 31&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

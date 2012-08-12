@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-601.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tonnes</str>
+        <str name="text">obstacles</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.6666666666666667</double>
+        <str name="text">subsidies</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">wheat</str>
-        <double name="strength">0.6666666666666665</double>
+        <str name="text">import</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">publishing</str>
-        <double name="strength">0.333333333333334</double>
+        <str name="text">document</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">alleged</str>
-        <double name="strength">0.33333333333333376</double>
+        <str name="text">restrictions</str>
+        <double name="strength">0.9775433528668036</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S.'s three-year export enhancement program (EEP), which began in 1985, had subsidised exports of 9.7 mln tonnes of wheat, two mln tonnes of wheat flour and 2.8 mln tonnes of barley up to mid-March this year.</str>
-        <int name="index">21</int>
-        <int name="start">0</int>
-        <int name="end">207</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Among the obstacles detailed in the report are import restrictions on food products, such as cheese, sugar and syrup, certain wines, beers and juices, as well as on firearms and machine tools.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">0.7176629240697213</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. EEP subsidies by increasing its exports refunds, and will continue to do so," it said, adding the current GATT round would also provide an opportunity to address the subject.</str>
-        <int name="index">24</int>
+        <str name="text">S. Commercial relations and lists more than 30 obstacles ranging from tariff measures, import quotas, customs duties, anti-dumping procedures, fiscal barriers and export subsidies.</str>
+        <int name="index">9</int>
         <int name="start">0</int>
-        <int name="end">177</int>
-        <double name="strength">0.7129104732079733</double>
+        <int name="end">180</int>
+        <double name="strength">0.9846356378490878</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S.-Japan accord on semi-conductors, export controls on technology transfers, standards tests in the telecommunications arena and the U.</str>
+        <int name="index">28</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.9328775464108435</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S.'s &lt;em&gt;three&lt;/em&gt;-year &lt;em&gt;export enhancement program &lt;/em&gt;(EEP), &lt;em&gt;which began&lt;/em&gt; in 1985, had &lt;em&gt;subsidised exports&lt;/em&gt; of 9.7 mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;wheat,&lt;/em&gt; two mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;wheat flour&lt;/em&gt; and 2.8 mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;barley&lt;/em&gt; up to mid-&lt;em&gt;March&lt;/em&gt; this year.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Among&lt;/em&gt; the &lt;em&gt;obstacles detailed&lt;/em&gt; in the &lt;em&gt;report&lt;/em&gt; are &lt;em&gt;import restrictions&lt;/em&gt; on food &lt;em&gt;products,&lt;/em&gt; such as &lt;em&gt;cheese, sugar&lt;/em&gt; and &lt;em&gt;syrup, certain wines, beers&lt;/em&gt; and &lt;em&gt;juices,&lt;/em&gt; as well as on &lt;em&gt;firearms&lt;/em&gt; and &lt;em&gt;machine tools&lt;/em&gt;.</str>
+        <str name="text">Among the &lt;em&gt;obstacles&lt;/em&gt; detailed in the &lt;em&gt;report&lt;/em&gt; are &lt;em&gt;import restrictions&lt;/em&gt; on food &lt;em&gt;products,&lt;/em&gt; such as &lt;em&gt;cheese, sugar&lt;/em&gt; and &lt;em&gt;syrup, certain wines, beers&lt;/em&gt; and &lt;em&gt;juices,&lt;/em&gt; as well as on &lt;em&gt;firearms&lt;/em&gt; and &lt;em&gt;machine tools&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. EEP &lt;em&gt;subsidies&lt;/em&gt; by &lt;em&gt;increasing&lt;/em&gt; its &lt;em&gt;exports refunds,&lt;/em&gt; and will &lt;em&gt;continue&lt;/em&gt; to do so," it said, &lt;em&gt;adding&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; GATT &lt;em&gt;round would&lt;/em&gt; also &lt;em&gt;provide&lt;/em&gt; an &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;address&lt;/em&gt; the &lt;em&gt;subject&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">S. &lt;em&gt;Commercial relations&lt;/em&gt; and &lt;em&gt;lists&lt;/em&gt; more than 30 &lt;em&gt;obstacles&lt;/em&gt; ranging from &lt;em&gt;tariff measures, import quotas, customs duties,&lt;/em&gt; anti-dumping &lt;em&gt;procedures, fiscal barriers&lt;/em&gt; and &lt;em&gt;export subsidies&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S.-&lt;em&gt;Japan accord&lt;/em&gt; on semi-&lt;em&gt;conductors, export controls&lt;/em&gt; on &lt;em&gt;technology transfers, standards tests&lt;/em&gt; in the &lt;em&gt;telecommunications arena&lt;/em&gt; and the U.</str>
+        <int name="index">28</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-178.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">113</int>
       </lst>
       <lst name="stems">
-        <int name="count">97</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">economy</str>
+        <str name="text">contribute</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">financial</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">balance</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">markets</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">service</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">outlook</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">sectors</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">plant</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">concern</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Switzerland's economy, combining low unemployment, financial stability and a large external payments surplus, is in excellent condition and faces a satisfactory future, the Organisation for Economic Cooperation and Development, OECD, said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">239</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Particularly for the banks, "recent developments in international financial markets give rise to the question whether the Swiss financial system, which has shown substantial flexibility in the past, is adapting itself at the speed required ...</str>
-        <int name="index">16</int>
+        <str name="text">The outlook for investment in plant and machinery remained bright into 1987, and with capacity use at near record levels last year there was scope for rationalisation and modernisation in both the industry and service sectors, it said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">244</int>
-        <double name="strength">0.9990152631781929</double>
+        <int name="end">236</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">But it said job creation should continue to absorb a modest increase in the workforce, leaving the unemployment rate unchanged at around one pct, the lowest in the 24-industrial nation OECD area.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">196</int>
-        <double name="strength">0.9016607599226272</double>
+        <double name="strength">0.8778359394305806</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The study forecast a decline in Gross Domestic Product growth to 1.75 pct this year from an estimated two pct in 1986 and a small rise in consumer price inflation to 1.25 pct after last year's sharp fall to 0.75 pct from 3.6 pct in 1985.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">238</int>
+        <double name="strength">0.8722794654212797</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Switzerland&lt;/em&gt;'s &lt;em&gt;economy, combining&lt;/em&gt; low &lt;em&gt;unemployment, financial stability&lt;/em&gt; and a &lt;em&gt;large external payments surplus,&lt;/em&gt; is in &lt;em&gt;excellent condition&lt;/em&gt; and &lt;em&gt;faces&lt;/em&gt; a &lt;em&gt;satisfactory future,&lt;/em&gt; the &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development,&lt;/em&gt; OECD, said.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;outlook&lt;/em&gt; for &lt;em&gt;investment&lt;/em&gt; in &lt;em&gt;plant&lt;/em&gt; and &lt;em&gt;machinery&lt;/em&gt; remained &lt;em&gt;bright&lt;/em&gt; into 1987, and with &lt;em&gt;capacity&lt;/em&gt; use at near &lt;em&gt;record levels&lt;/em&gt; last year there was &lt;em&gt;scope&lt;/em&gt; for &lt;em&gt;rationalisation&lt;/em&gt; and &lt;em&gt;modernisation&lt;/em&gt; in both the &lt;em&gt;industry&lt;/em&gt; and &lt;em&gt;service sectors,&lt;/em&gt; it said.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Particularly&lt;/em&gt; for the &lt;em&gt;banks, "recent developments&lt;/em&gt; in &lt;em&gt;international financial markets&lt;/em&gt; give rise to the &lt;em&gt;question whether&lt;/em&gt; the &lt;em&gt;Swiss financial system, which&lt;/em&gt; has &lt;em&gt;shown substantial flexibility&lt;/em&gt; in the past, is &lt;em&gt;adapting itself&lt;/em&gt; at the &lt;em&gt;speed required ..&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But it said job &lt;em&gt;creation should continue&lt;/em&gt; to &lt;em&gt;absorb&lt;/em&gt; a &lt;em&gt;modest increase&lt;/em&gt; in the &lt;em&gt;workforce, leaving&lt;/em&gt; the &lt;em&gt;unemployment&lt;/em&gt; rate &lt;em&gt;unchanged&lt;/em&gt; at &lt;em&gt;around&lt;/em&gt; one pct, the &lt;em&gt;lowest&lt;/em&gt; in the 24-&lt;em&gt;industrial nation&lt;/em&gt; OECD area.</str>
+        <str name="text">But it said job &lt;em&gt;creation&lt;/em&gt; should &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;absorb&lt;/em&gt; a &lt;em&gt;modest increase&lt;/em&gt; in the &lt;em&gt;workforce,&lt;/em&gt; leaving the &lt;em&gt;unemployment&lt;/em&gt; rate &lt;em&gt;unchanged&lt;/em&gt; at around one pct, the lowest in the 24-&lt;em&gt;industrial nation&lt;/em&gt; OECD area.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;study&lt;/em&gt; forecast a &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;Gross Domestic Product growth&lt;/em&gt; to 1.75 pct this year from an estimated two pct in 1986 and a &lt;em&gt;small&lt;/em&gt; rise in &lt;em&gt;consumer price inflation&lt;/em&gt; to 1.25 pct after last year's &lt;em&gt;sharp&lt;/em&gt; fall to 0.75 pct from 3.6 pct in 1985.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

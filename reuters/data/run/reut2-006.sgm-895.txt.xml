@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-895.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">240</int>
+        <int name="count">172</int>
       </lst>
       <lst name="stems">
-        <int name="count">156</int>
+        <int name="count">103</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">after</str>
+        <str name="text">economy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">talks</str>
-        <double name="strength">0.5590169943749482</double>
+        <str name="text">debtors</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">allow</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">relief</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">regulators</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">loans</str>
+        <double name="strength">0.9902130691945671</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">At the State Department, Secretary of State George Shultz is being advised the "Baker plan is going through a rough patch" while Treasury officials are urging commercial banks to adopt more flexible approaches to guarantee their continued participation in the plan.</str>
-        <int name="index">38</int>
-        <int name="start">1</int>
-        <int name="end">266</int>
+        <str name="text">Treasury Secretary James Baker and Federal Reserve Board chairman Paul Volcker have told House leaders they were optimistic their debt strategy would work, but acknowledged the crisis could take a sharp turn for the worse, Congressional sources and U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">251</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The talks come after Brazil's interest rate moratorium and an uncompromising stand by the country's finance minister, Dilson Funaro, after talks with western leaders.</str>
-        <int name="index">30</int>
-        <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.958909296703376</double>
+        <str name="text">S. officials feel Funaro's consolidation of power over the Brazilian economy with the ouster of Planning minister Joao Sayad is further reason to worry.</str>
+        <int name="index">32</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.9945900989010695</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Even though the Fed chief joined Baker in expressing more confidence in an optimistic outcome, Volcker was especially concerned about the political risks, and in particular the  fatigue with belt-tightening.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">0.846199648819429</double>
+        <str name="text">If we write it all off and declare defeat, these countries will decay and wither on the vine," the Treasury Secretary said of an end to capital inflows that would follow debt relief.</str>
+        <int name="index">25</int>
+        <int name="start">0</int>
+        <int name="end">182</int>
+        <double name="strength">0.9872504575890451</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">At the &lt;em&gt;State Department, Secretary&lt;/em&gt; of &lt;em&gt;State George Shultz&lt;/em&gt; is &lt;em&gt;being advised&lt;/em&gt; the "&lt;em&gt;Baker&lt;/em&gt; plan is &lt;em&gt;going through&lt;/em&gt; a &lt;em&gt;rough patch" while Treasury officials&lt;/em&gt; are &lt;em&gt;urging commercial banks&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; more &lt;em&gt;flexible approaches&lt;/em&gt; to &lt;em&gt;guarantee their continued participation&lt;/em&gt; in the plan.</str>
-        <int name="index">38</int>
+        <str name="text">&lt;em&gt;Treasury Secretary James Baker&lt;/em&gt; and &lt;em&gt;Federal Reserve Board chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; have told &lt;em&gt;House leaders&lt;/em&gt; they were &lt;em&gt;optimistic&lt;/em&gt; their debt &lt;em&gt;strategy&lt;/em&gt; would work, but acknowledged the &lt;em&gt;crisis&lt;/em&gt; could take a &lt;em&gt;sharp&lt;/em&gt; turn for the worse, &lt;em&gt;Congressional sources&lt;/em&gt; and U.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;talks&lt;/em&gt; come &lt;em&gt;after Brazil&lt;/em&gt;'s &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;moratorium&lt;/em&gt; and an &lt;em&gt;uncompromising stand&lt;/em&gt; by the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;finance minister, Dilson Funaro, after talks&lt;/em&gt; with &lt;em&gt;western leaders&lt;/em&gt;.</str>
-        <int name="index">30</int>
+        <str name="text">S. &lt;em&gt;officials&lt;/em&gt; feel &lt;em&gt;Funaro&lt;/em&gt;'s &lt;em&gt;consolidation&lt;/em&gt; of &lt;em&gt;power&lt;/em&gt; over the &lt;em&gt;Brazilian economy&lt;/em&gt; with the &lt;em&gt;ouster&lt;/em&gt; of Planning &lt;em&gt;minister&lt;/em&gt; Joao &lt;em&gt;Sayad&lt;/em&gt; is &lt;em&gt;further reason&lt;/em&gt; to &lt;em&gt;worry&lt;/em&gt;.</str>
+        <int name="index">32</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Even &lt;em&gt;though&lt;/em&gt; the Fed &lt;em&gt;chief joined Baker&lt;/em&gt; in &lt;em&gt;expressing&lt;/em&gt; more &lt;em&gt;confidence&lt;/em&gt; in an &lt;em&gt;optimistic outcome, Volcker&lt;/em&gt; was &lt;em&gt;especially concerned about&lt;/em&gt; the &lt;em&gt;political risks,&lt;/em&gt; and in &lt;em&gt;particular&lt;/em&gt; the  &lt;em&gt;fatigue&lt;/em&gt; with belt-&lt;em&gt;tightening&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">If we &lt;em&gt;write&lt;/em&gt; it all off and &lt;em&gt;declare defeat,&lt;/em&gt; these &lt;em&gt;countries&lt;/em&gt; will &lt;em&gt;decay&lt;/em&gt; and &lt;em&gt;wither&lt;/em&gt; on the vine," the &lt;em&gt;Treasury Secretary&lt;/em&gt; said of an end to &lt;em&gt;capital inflows&lt;/em&gt; that would &lt;em&gt;follow&lt;/em&gt; debt &lt;em&gt;relief&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

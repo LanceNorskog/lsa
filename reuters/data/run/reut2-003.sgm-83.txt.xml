@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-83.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">association</str>
+        <str name="text">limit</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">meeting</str>
-        <double name="strength">0.6666666666666652</double>
+        <str name="text">regulatory</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commitment</str>
-        <double name="strength">0.33333333333333376</double>
+        <str name="text">administrative</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">enable</str>
-        <double name="strength">0.33333333333333376</double>
+        <str name="text">costs</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">progress</str>
-        <double name="strength">0.33333333333333376</double>
+        <str name="text">achieve</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Legal advisers have been instructed to implement the amalgamation of the London Potato Futures Association, LPFA, the London Meat Futures Exchange, LMFE, and the Grain and Feed Trade Association's, GAFTA, Soya Bean Meal Futures Association, SOMFA.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">248</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"This commitment by the markets will enable progress to be made to develop a stronger and more effective exchange to the benefit of all those involved in the industry," the chairman of the formation committee, Pat Elmer, said.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">227</int>
-        <double name="strength">0.9276133794562972</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The BIFFEX board is expected to reach a decision on the merger at its meeting at the end of this month, after members are consulted at a meeting on March 16.</str>
-        <int name="index">6</int>
+        <str name="text">The aim of the amalgamation is to limit regulatory and administrative costs and achieve the recognition required under the 1986 Financial Services Act.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">158</int>
-        <double name="strength">0.843309151671501</double>
+        <int name="end">152</int>
+        <double name="strength">0.8503683513068792</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The grain futures market also intends to consult its members soon, GAFTA director general James Mackie said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">109</int>
+        <double name="strength">0.7084611319530166</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Legal advisers&lt;/em&gt; have been &lt;em&gt;instructed&lt;/em&gt; to &lt;em&gt;implement&lt;/em&gt; the &lt;em&gt;amalgamation&lt;/em&gt; of the &lt;em&gt;London Potato Futures Association,&lt;/em&gt; LPFA, the &lt;em&gt;London&lt;/em&gt; Meat &lt;em&gt;Futures Exchange,&lt;/em&gt; LMFE, and the &lt;em&gt;Grain&lt;/em&gt; and Feed &lt;em&gt;Trade Association&lt;/em&gt;'s, &lt;em&gt;GAFTA,&lt;/em&gt; Soya Bean Meal &lt;em&gt;Futures Association, SOMFA&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"This &lt;em&gt;commitment&lt;/em&gt; by the &lt;em&gt;markets&lt;/em&gt; will &lt;em&gt;enable progress&lt;/em&gt; to be made to &lt;em&gt;develop&lt;/em&gt; a &lt;em&gt;stronger&lt;/em&gt; and more &lt;em&gt;effective exchange&lt;/em&gt; to the &lt;em&gt;benefit&lt;/em&gt; of all &lt;em&gt;those involved&lt;/em&gt; in the &lt;em&gt;industry,"&lt;/em&gt; the &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;formation committee,&lt;/em&gt; Pat &lt;em&gt;Elmer, said&lt;/em&gt;.</str>
+        <str name="text">"This &lt;em&gt;commitment&lt;/em&gt; by the &lt;em&gt;markets&lt;/em&gt; will &lt;em&gt;enable progress&lt;/em&gt; to be made to &lt;em&gt;develop&lt;/em&gt; a stronger and more &lt;em&gt;effective exchange&lt;/em&gt; to the &lt;em&gt;benefit&lt;/em&gt; of all those involved in the &lt;em&gt;industry,"&lt;/em&gt; the &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;formation committee,&lt;/em&gt; Pat &lt;em&gt;Elmer, said&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;BIFFEX board&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; a &lt;em&gt;decision&lt;/em&gt; on the &lt;em&gt;merger&lt;/em&gt; at its &lt;em&gt;meeting&lt;/em&gt; at the end of this &lt;em&gt;month, after members&lt;/em&gt; are &lt;em&gt;consulted&lt;/em&gt; at a &lt;em&gt;meeting&lt;/em&gt; on &lt;em&gt;March 16&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The aim of the &lt;em&gt;amalgamation&lt;/em&gt; is to &lt;em&gt;limit regulatory&lt;/em&gt; and &lt;em&gt;administrative costs&lt;/em&gt; and &lt;em&gt;achieve&lt;/em&gt; the &lt;em&gt;recognition&lt;/em&gt; required under the 1986 &lt;em&gt;Financial Services Act&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;grain futures market&lt;/em&gt; also intends to &lt;em&gt;consult&lt;/em&gt; its &lt;em&gt;members&lt;/em&gt; soon, GAFTA &lt;em&gt;director general James Mackie said&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

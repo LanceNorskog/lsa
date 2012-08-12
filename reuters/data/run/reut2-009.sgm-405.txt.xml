@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-405.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">private</str>
+        <str name="text">employees</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">export</str>
-        <double name="strength">0.7905694150420945</double>
+        <str name="text">require</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">programs</str>
-        <double name="strength">0.7071067811865474</double>
+        <str name="text">senate</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">developing</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">provision</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">voice</str>
-        <double name="strength">0.5</double>
+        <str name="text">melcher</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">209</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The bill, approved by voice vote, would establish trade missions made up of representatives of the Departments of Agriculture and State, the Agency for International Development, the Overseas Private Investment Corp, market development cooperatives and private voluntary organizations.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">286</int>
-        <double name="strength">0.9884351905295552</double>
+        <double name="strength">0.7920240730546498</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. programs, including PL480, Section 416 donations, Export Enhancement Program, the dairy export incentive program, and export credit guarantee programs (GSM-102, GSM-103).</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">173</int>
-        <double name="strength">0.7487063024224541</double>
+        <str name="text">The Congressional Budget Office estimated that the proposed increase in the minimum tonnage requirement would have cost up to 50 mln dlrs per year, Senate staff said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.7716830028631534</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Melcher originally&lt;/em&gt; had &lt;em&gt;proposed sending missions&lt;/em&gt; to &lt;em&gt;Mexico,&lt;/em&gt; the &lt;em&gt;Philippines, Indonesia, Bangladesh, Senegal, Nigeria,&lt;/em&gt; Peru, &lt;em&gt;Kenya,&lt;/em&gt; the &lt;em&gt;Dominican Republic, Costa&lt;/em&gt; Rica, &lt;em&gt;Malaysia, Venezuela, Tunisia&lt;/em&gt; and &lt;em&gt;Morocco&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Melcher&lt;/em&gt; originally had proposed sending &lt;em&gt;missions&lt;/em&gt; to &lt;em&gt;Mexico,&lt;/em&gt; the &lt;em&gt;Philippines, Indonesia, Bangladesh, Senegal, Nigeria,&lt;/em&gt; Peru, Kenya, the &lt;em&gt;Dominican Republic, Costa&lt;/em&gt; Rica, &lt;em&gt;Malaysia, Venezuela, Tunisia&lt;/em&gt; and &lt;em&gt;Morocco&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The bill, &lt;em&gt;approved&lt;/em&gt; by &lt;em&gt;voice&lt;/em&gt; vote, &lt;em&gt;would establish trade missions&lt;/em&gt; made up of &lt;em&gt;representatives&lt;/em&gt; of the &lt;em&gt;Departments&lt;/em&gt; of &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;State,&lt;/em&gt; the &lt;em&gt;Agency&lt;/em&gt; for &lt;em&gt;International Development,&lt;/em&gt; the &lt;em&gt;Overseas Private Investment&lt;/em&gt; Corp, &lt;em&gt;market development cooperatives&lt;/em&gt; and &lt;em&gt;private voluntary organizations&lt;/em&gt;.</str>
+        <str name="text">The bill, approved by &lt;em&gt;voice&lt;/em&gt; vote, would &lt;em&gt;establish trade missions&lt;/em&gt; made up of &lt;em&gt;representatives&lt;/em&gt; of the &lt;em&gt;Departments&lt;/em&gt; of &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;State,&lt;/em&gt; the &lt;em&gt;Agency&lt;/em&gt; for &lt;em&gt;International Development,&lt;/em&gt; the &lt;em&gt;Overseas Private Investment&lt;/em&gt; Corp, &lt;em&gt;market development cooperatives&lt;/em&gt; and &lt;em&gt;private voluntary organizations&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;programs, including&lt;/em&gt; PL480, &lt;em&gt;Section 416 donations, Export Enhancement Program,&lt;/em&gt; the &lt;em&gt;dairy export incentive program,&lt;/em&gt; and &lt;em&gt;export credit guarantee programs &lt;/em&gt;(GSM-102, GSM-103).</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;Congressional Budget Office&lt;/em&gt; estimated that the proposed &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;minimum tonnage requirement&lt;/em&gt; would have cost up to 50 mln dlrs per year, &lt;em&gt;Senate staff said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

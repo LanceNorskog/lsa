@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-510.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tonnes</str>
+        <str name="text">japanese</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">products</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">tonnes</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">tariffs</str>
-        <double name="strength">0.4999999999999998</double>
+        <str name="text">offers</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">ireland</str>
-        <double name="strength">0.4472135954999588</double>
+        <str name="text">compensate</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">france</str>
-        <double name="strength">0.4472135954999588</double>
+        <str name="text">group</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Japan's main offers were to improve inspection systems on citrus fruits to aid EC exports, to improve tariffs for some other farm produce, to increase tariffs for leather footwear and to offer better trade terms for Spain and Portugal.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">236</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">EC External Trade Commissioner Willy De Clercq told journalists: "We maintain our position that the (Japanese) concessions were not enough."</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">141</int>
-        <double name="strength">0.9390570246628035</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In particular the quota on high-quality Hilton beef will be raised by 4,500 tonnes to 34,300 tonnes and quotas on frozen boneless beef will be increased by 3,000 tonnes to 53,000 tonnes.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">186</int>
-        <double name="strength">0.9183298417733864</double>
+        <str name="text">But officials said ministers had been unable to resolve Canadian claims that its sales of certain fish to Spain had been affected by the country's EC membership.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.9789429117423987</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Japan's main offers were to improve inspection systems on citrus fruits to aid EC exports, to improve tariffs for some other farm produce, to increase tariffs for leather footwear and to offer better trade terms for Spain and Portugal.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">236</int>
+        <double name="strength">0.9344627850890447</double>
+        <int name="terms">18</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s main &lt;em&gt;offers&lt;/em&gt; were to &lt;em&gt;improve inspection systems&lt;/em&gt; on &lt;em&gt;citrus fruits&lt;/em&gt; to aid EC &lt;em&gt;exports,&lt;/em&gt; to &lt;em&gt;improve tariffs&lt;/em&gt; for some &lt;em&gt;other&lt;/em&gt; farm &lt;em&gt;produce,&lt;/em&gt; to &lt;em&gt;increase tariffs&lt;/em&gt; for &lt;em&gt;leather footwear&lt;/em&gt; and to &lt;em&gt;offer better trade terms&lt;/em&gt; for &lt;em&gt;Spain&lt;/em&gt; and &lt;em&gt;Portugal&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">EC &lt;em&gt;External Trade Commissioner Willy&lt;/em&gt; De &lt;em&gt;Clercq&lt;/em&gt; told &lt;em&gt;journalists: &lt;/em&gt;"We &lt;em&gt;maintain&lt;/em&gt; our &lt;em&gt;position&lt;/em&gt; that the (&lt;em&gt;Japanese) concessions&lt;/em&gt; were not &lt;em&gt;enough.&lt;/em&gt;"</str>
+        <str name="text">EC &lt;em&gt;External Trade Commissioner&lt;/em&gt; Willy De &lt;em&gt;Clercq&lt;/em&gt; told &lt;em&gt;journalists: &lt;/em&gt;"We &lt;em&gt;maintain&lt;/em&gt; our &lt;em&gt;position&lt;/em&gt; that the (&lt;em&gt;Japanese) concessions&lt;/em&gt; were not enough."</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;particular&lt;/em&gt; the &lt;em&gt;quota&lt;/em&gt; on high-&lt;em&gt;quality Hilton&lt;/em&gt; beef will be &lt;em&gt;raised&lt;/em&gt; by 4,500 &lt;em&gt;tonnes&lt;/em&gt; to 34,300 &lt;em&gt;tonnes&lt;/em&gt; and &lt;em&gt;quotas&lt;/em&gt; on &lt;em&gt;frozen boneless&lt;/em&gt; beef will be &lt;em&gt;increased&lt;/em&gt; by 3,000 &lt;em&gt;tonnes&lt;/em&gt; to 53,000 &lt;em&gt;tonnes&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">But &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;ministers&lt;/em&gt; had been &lt;em&gt;unable&lt;/em&gt; to &lt;em&gt;resolve Canadian claims&lt;/em&gt; that its &lt;em&gt;sales&lt;/em&gt; of &lt;em&gt;certain&lt;/em&gt; fish to &lt;em&gt;Spain&lt;/em&gt; had been affected by the &lt;em&gt;country&lt;/em&gt;'s EC &lt;em&gt;membership&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s main &lt;em&gt;offers&lt;/em&gt; were to &lt;em&gt;improve inspection systems&lt;/em&gt; on &lt;em&gt;citrus fruits&lt;/em&gt; to aid EC &lt;em&gt;exports,&lt;/em&gt; to &lt;em&gt;improve tariffs&lt;/em&gt; for some &lt;em&gt;other&lt;/em&gt; farm &lt;em&gt;produce,&lt;/em&gt; to &lt;em&gt;increase tariffs&lt;/em&gt; for &lt;em&gt;leather footwear&lt;/em&gt; and to &lt;em&gt;offer&lt;/em&gt; better &lt;em&gt;trade terms&lt;/em&gt; for &lt;em&gt;Spain&lt;/em&gt; and &lt;em&gt;Portugal&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

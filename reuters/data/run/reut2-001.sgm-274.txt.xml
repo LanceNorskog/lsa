@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-274.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">245</int>
+        <int name="count">175</int>
       </lst>
       <lst name="stems">
-        <int name="count">166</int>
+        <int name="count">118</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">plans</str>
+        <str name="text">rules</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">guarantee</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">cautioned</str>
-        <double name="strength">0.8944271909999197</double>
+        <str name="text">acceptable</str>
+        <double name="strength">0.9986518881316746</double>
       </lst>
       <lst name="term">
-        <str name="text">abolish</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">authorities</str>
+        <double name="strength">0.9986518881316736</double>
       </lst>
       <lst name="term">
-        <str name="text">distinctions</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9986518881316727</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Bank also amended other aspects of plans to strengthen its supervisory powers over banks in the paper, which called for comments from professionals by March 31 to allow their possible inclusion in the Banking Bill in time for its planned final discussion in Parliament, scheduled before summer.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">299</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The proposed legislation would abolish distinctions between recognised banks and licensed deposit-takers and tighten legal controls, making it a criminal offence to mislead supervisors.</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">186</int>
-        <double name="strength">0.8335497096222318</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">It is to feature alongside the Financial Services Act, aimed to bolster investor protection, and the Building Societies Act, which put these institutions on an equal footing with banks.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">186</int>
-        <double name="strength">0.8331355982308711</double>
+        <double name="strength">0.8893132981675184</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank also amended other aspects of plans to strengthen its supervisory powers over banks in the paper, which called for comments from professionals by March 31 to allow their possible inclusion in the Banking Bill in time for its planned final discussion in Parliament, scheduled before summer.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">299</int>
+        <double name="strength">0.8271180172988967</double>
+        <int name="terms">18</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Bank also &lt;em&gt;amended other aspects&lt;/em&gt; of &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;strengthen&lt;/em&gt; its &lt;em&gt;supervisory powers&lt;/em&gt; over &lt;em&gt;banks&lt;/em&gt; in the &lt;em&gt;paper, which called&lt;/em&gt; for &lt;em&gt;comments&lt;/em&gt; from &lt;em&gt;professionals&lt;/em&gt; by &lt;em&gt;March 31&lt;/em&gt; to &lt;em&gt;allow their possible inclusion&lt;/em&gt; in the &lt;em&gt;Banking&lt;/em&gt; Bill in time for its &lt;em&gt;planned final discussion&lt;/em&gt; in &lt;em&gt;Parliament, scheduled before summer&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposed legislation would abolish distinctions between recognised banks&lt;/em&gt; and &lt;em&gt;licensed deposit-takers&lt;/em&gt; and &lt;em&gt;tighten legal controls, making&lt;/em&gt; it a &lt;em&gt;criminal offence&lt;/em&gt; to &lt;em&gt;mislead supervisors&lt;/em&gt;.</str>
+        <str name="text">The proposed &lt;em&gt;legislation&lt;/em&gt; would &lt;em&gt;abolish distinctions&lt;/em&gt; between &lt;em&gt;recognised banks&lt;/em&gt; and &lt;em&gt;licensed deposit-takers&lt;/em&gt; and &lt;em&gt;tighten legal controls,&lt;/em&gt; making it a &lt;em&gt;criminal offence&lt;/em&gt; to &lt;em&gt;mislead supervisors&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It is to &lt;em&gt;feature alongside&lt;/em&gt; the &lt;em&gt;Financial Services&lt;/em&gt; Act, &lt;em&gt;aimed&lt;/em&gt; to &lt;em&gt;bolster investor protection,&lt;/em&gt; and the &lt;em&gt;Building Societies&lt;/em&gt; Act, &lt;em&gt;which&lt;/em&gt; put &lt;em&gt;these institutions&lt;/em&gt; on an &lt;em&gt;equal footing&lt;/em&gt; with &lt;em&gt;banks&lt;/em&gt;.</str>
+        <str name="text">It is to &lt;em&gt;feature&lt;/em&gt; alongside the &lt;em&gt;Financial Services&lt;/em&gt; Act, aimed to &lt;em&gt;bolster investor protection,&lt;/em&gt; and the &lt;em&gt;Building Societies&lt;/em&gt; Act, which put these &lt;em&gt;institutions&lt;/em&gt; on an &lt;em&gt;equal footing&lt;/em&gt; with &lt;em&gt;banks&lt;/em&gt;.</str>
         <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank also amended &lt;em&gt;other aspects&lt;/em&gt; of &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;strengthen&lt;/em&gt; its &lt;em&gt;supervisory powers&lt;/em&gt; over &lt;em&gt;banks&lt;/em&gt; in the &lt;em&gt;paper,&lt;/em&gt; which called for &lt;em&gt;comments&lt;/em&gt; from &lt;em&gt;professionals&lt;/em&gt; by &lt;em&gt;March 31&lt;/em&gt; to &lt;em&gt;allow&lt;/em&gt; their &lt;em&gt;possible inclusion&lt;/em&gt; in the &lt;em&gt;Banking&lt;/em&gt; Bill in time for its &lt;em&gt;planned final discussion&lt;/em&gt; in &lt;em&gt;Parliament,&lt;/em&gt; scheduled before &lt;em&gt;summer&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

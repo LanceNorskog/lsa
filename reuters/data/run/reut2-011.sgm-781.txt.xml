@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-781.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">controlling</str>
+        <str name="text">director</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">investment</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">speculation</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">points</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">firms</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">morning</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">index</str>
+        <double name="strength">0.9999999999999966</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Those shareholders can reduce their investment exposure here by selling some of their "A" shares and using the funds for new investment, possibly overseas.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">156</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Other analysts said the new issues also renewed concern over local corporate attitudes towards political changes in Hong Kong after the British colony reverts to China in 1997.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">177</int>
-        <double name="strength">0.9237931853054455</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the issue of "B" shares could create a conflict of interest with holders of other classes of shares, noting most "B" shares are issued at a par value equivalent to one-tenth of the "A" shares, but enjoy similar voting rights.</str>
-        <int name="index">8</int>
+        <str name="text">Hutchison has begun a major project to expand berthing facilities at its Hong Kong International Terminal Ltd and Cheung Kong will bid for a big land reclamation development at Hong Kong harbour.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">234</int>
-        <double name="strength">0.9214174548071681</double>
+        <int name="end">196</int>
+        <double name="strength">0.9976747231906006</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">James Miller-Day, director of County Securities Asia Ltd, said: "I don't like the concept of "B" shares because it will create inequality among equities."</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">155</int>
+        <double name="strength">0.917537819542795</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Those shareholders&lt;/em&gt; can &lt;em&gt;reduce their investment exposure&lt;/em&gt; here by &lt;em&gt;selling&lt;/em&gt; some of &lt;em&gt;their &lt;/em&gt;"A" &lt;em&gt;shares&lt;/em&gt; and &lt;em&gt;using&lt;/em&gt; the &lt;em&gt;funds&lt;/em&gt; for new &lt;em&gt;investment, possibly overseas&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Other analysts&lt;/em&gt; said the new &lt;em&gt;issues&lt;/em&gt; also &lt;em&gt;renewed concern&lt;/em&gt; over &lt;em&gt;local corporate attitudes towards political changes&lt;/em&gt; in Hong Kong &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;British colony reverts&lt;/em&gt; to &lt;em&gt;China in 1997&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Other analysts&lt;/em&gt; said the new &lt;em&gt;issues&lt;/em&gt; also renewed &lt;em&gt;concern&lt;/em&gt; over &lt;em&gt;local corporate attitudes&lt;/em&gt; towards &lt;em&gt;political changes&lt;/em&gt; in Hong Kong after the &lt;em&gt;British colony reverts&lt;/em&gt; to &lt;em&gt;China in 1997&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;issue&lt;/em&gt; of "B" &lt;em&gt;shares could create&lt;/em&gt; a &lt;em&gt;conflict&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; with &lt;em&gt;holders&lt;/em&gt; of &lt;em&gt;other classes&lt;/em&gt; of &lt;em&gt;shares, noting&lt;/em&gt; most "B" &lt;em&gt;shares&lt;/em&gt; are &lt;em&gt;issued&lt;/em&gt; at a par &lt;em&gt;value equivalent&lt;/em&gt; to one-&lt;em&gt;tenth&lt;/em&gt; of the "A" &lt;em&gt;shares,&lt;/em&gt; but &lt;em&gt;enjoy similar voting rights&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Hutchison&lt;/em&gt; has begun a &lt;em&gt;major project&lt;/em&gt; to &lt;em&gt;expand berthing facilities&lt;/em&gt; at its Hong Kong &lt;em&gt;International Terminal&lt;/em&gt; Ltd and &lt;em&gt;Cheung&lt;/em&gt; Kong will bid for a big land &lt;em&gt;reclamation development&lt;/em&gt; at Hong Kong &lt;em&gt;harbour&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;James Miller&lt;/em&gt;-Day, &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;County Securities&lt;/em&gt; Asia Ltd, said: "I don't like the &lt;em&gt;concept&lt;/em&gt; of "B" &lt;em&gt;shares&lt;/em&gt; because it will &lt;em&gt;create inequality&lt;/em&gt; among &lt;em&gt;equities.&lt;/em&gt;"</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

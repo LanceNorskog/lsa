@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-180.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">48</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">issue</str>
+        <str name="text">inclusion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">corporate</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">management</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">allowance</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">measures</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">domestic</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">order</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">effective</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">141</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It would ask for authorised capital of a nominal 200 mln marks for the issue of new shares and for 300 mln for the issue of warrant bonds, both for the period until April 30, 1992.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">0.9972018709041043</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The management board of the bank would also propose two capital measures to shareholders in order to be able to react quickly to new challenges.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">145</int>
-        <double name="strength">0.7958017719404368</double>
+        <double name="strength">0.9499389541453294</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">With inclusion of the corporate tax allowance, qualifying domestic shareholders would receive an effective dividend of 14.06 marks per share.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">0.8980088297424473</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Commerzbank spokesman noted&lt;/em&gt; the &lt;em&gt;figures&lt;/em&gt; were,&lt;em&gt;however, preliminary&lt;/em&gt; and &lt;em&gt;required approval&lt;/em&gt; of the bank's &lt;em&gt;supervisory board which meets today&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;Commerzbank spokesman&lt;/em&gt; noted the &lt;em&gt;figures&lt;/em&gt; were,however, &lt;em&gt;preliminary&lt;/em&gt; and &lt;em&gt;required approval&lt;/em&gt; of the bank's &lt;em&gt;supervisory board&lt;/em&gt; which meets &lt;em&gt;today&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;would&lt;/em&gt; ask for &lt;em&gt;authorised capital&lt;/em&gt; of a &lt;em&gt;nominal 200&lt;/em&gt; mln &lt;em&gt;marks&lt;/em&gt; for the &lt;em&gt;issue&lt;/em&gt; of new &lt;em&gt;shares&lt;/em&gt; and for 300 mln for the &lt;em&gt;issue&lt;/em&gt; of &lt;em&gt;warrant bonds,&lt;/em&gt; both for the &lt;em&gt;period until April 30, 1992&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">The &lt;em&gt;management board&lt;/em&gt; of the bank would also &lt;em&gt;propose&lt;/em&gt; two &lt;em&gt;capital measures&lt;/em&gt; to &lt;em&gt;shareholders&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to be able to &lt;em&gt;react&lt;/em&gt; quickly to new &lt;em&gt;challenges&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;management board&lt;/em&gt; of the bank &lt;em&gt;would&lt;/em&gt; also &lt;em&gt;propose&lt;/em&gt; two &lt;em&gt;capital measures&lt;/em&gt; to &lt;em&gt;shareholders&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to be able to &lt;em&gt;react quickly&lt;/em&gt; to new &lt;em&gt;challenges&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">With &lt;em&gt;inclusion&lt;/em&gt; of the &lt;em&gt;corporate&lt;/em&gt; tax &lt;em&gt;allowance,&lt;/em&gt; qualifying &lt;em&gt;domestic shareholders&lt;/em&gt; would &lt;em&gt;receive&lt;/em&gt; an &lt;em&gt;effective dividend&lt;/em&gt; of 14.06 &lt;em&gt;marks&lt;/em&gt; per &lt;em&gt;share&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

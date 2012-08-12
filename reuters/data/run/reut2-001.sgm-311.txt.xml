@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-311.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">216</int>
+        <int name="count">153</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">92</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">acceptable</str>
+        <str name="text">pressure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">members</str>
-        <double name="strength">0.559016994374948</double>
+        <str name="text">cents</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">stocks</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
         <str name="text">international</str>
-        <double name="strength">0.5590169943749478</double>
+        <double name="strength">0.9669685826517913</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749473</double>
-      </lst>
-      <lst name="term">
-        <str name="text">contrast</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9669685826517905</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Some consumers claimed producer support for the consumer argument was gaining momentum towards the end of the ICO session but said it is uncertain whether this will now collapse and how much producers will sink their differences should prices fall further and remain depressed.</str>
-        <int name="index">24</int>
+        <str name="text">More cynical traders said the pressure of market forces and politics in debt heavy Latin American producer countries could bring ICO members back around the negotiating table sooner than many imagine.</str>
+        <int name="index">27</int>
         <int name="start">1</int>
-        <int name="end">278</int>
+        <int name="end">201</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">This compares with a target range of 120 to 140 cents a lb under the system operating before quotas were suspended in February last year following a sharp rise in international prices caused by drought damage to the Brazilian crop.</str>
         <int name="index">5</int>
         <int name="start">0</int>
         <int name="end">231</int>
-        <double name="strength">0.9225565674003108</double>
+        <double name="strength">0.9706832138420471</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The failure last night of International Coffee Organization, ICO, producing and consuming countries to agree export quotas brought a sharp fall on international coffee futures markets today with the London May price reaching a 4-1/2 year low at one stage of 1,270 stg per tonne before ending the day at 1,314 stg, down 184 stg from the previous close.</str>
-        <int name="index">1</int>
+        <str name="text">In a Reuter interview, Brazilian Coffee Institute, IBC, President Jorio Dauster urged producers not to panic and said they need to make hard commercial decisions.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">352</int>
-        <double name="strength">0.8988601607659138</double>
+        <int name="end">163</int>
+        <double name="strength">0.8684522206145985</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;consumers claimed producer support&lt;/em&gt; for the &lt;em&gt;consumer argument&lt;/em&gt; was &lt;em&gt;gaining momentum towards&lt;/em&gt; the end of the ICO &lt;em&gt;session&lt;/em&gt; but said it is &lt;em&gt;uncertain whether&lt;/em&gt; this will now &lt;em&gt;collapse&lt;/em&gt; and how much &lt;em&gt;producers&lt;/em&gt; will sink &lt;em&gt;their differences should prices&lt;/em&gt; fall &lt;em&gt;further&lt;/em&gt; and &lt;em&gt;remain depressed&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">More &lt;em&gt;cynical traders&lt;/em&gt; said the &lt;em&gt;pressure&lt;/em&gt; of &lt;em&gt;market forces&lt;/em&gt; and &lt;em&gt;politics&lt;/em&gt; in debt &lt;em&gt;heavy Latin American producer countries&lt;/em&gt; could &lt;em&gt;bring&lt;/em&gt; ICO &lt;em&gt;members&lt;/em&gt; back around the &lt;em&gt;negotiating table&lt;/em&gt; sooner than many &lt;em&gt;imagine&lt;/em&gt;.</str>
+        <int name="index">27</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;compares&lt;/em&gt; with a &lt;em&gt;target range&lt;/em&gt; of 120 to 140 &lt;em&gt;cents&lt;/em&gt; a lb &lt;em&gt;under&lt;/em&gt; the &lt;em&gt;system operating before quotas&lt;/em&gt; were &lt;em&gt;suspended&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; last year &lt;em&gt;following&lt;/em&gt; a &lt;em&gt;sharp&lt;/em&gt; rise in &lt;em&gt;international prices caused&lt;/em&gt; by &lt;em&gt;drought damage&lt;/em&gt; to the &lt;em&gt;Brazilian crop&lt;/em&gt;.</str>
+        <str name="text">This compares with a &lt;em&gt;target range&lt;/em&gt; of 120 to 140 &lt;em&gt;cents&lt;/em&gt; a lb under the &lt;em&gt;system operating&lt;/em&gt; before &lt;em&gt;quotas&lt;/em&gt; were suspended in &lt;em&gt;February&lt;/em&gt; last year following a &lt;em&gt;sharp&lt;/em&gt; rise in &lt;em&gt;international prices&lt;/em&gt; caused by &lt;em&gt;drought damage&lt;/em&gt; to the &lt;em&gt;Brazilian crop&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;failure&lt;/em&gt; last &lt;em&gt;night&lt;/em&gt; of &lt;em&gt;International Coffee Organization,&lt;/em&gt; ICO, &lt;em&gt;producing&lt;/em&gt; and &lt;em&gt;consuming countries&lt;/em&gt; to &lt;em&gt;agree export quotas brought&lt;/em&gt; a &lt;em&gt;sharp&lt;/em&gt; fall on &lt;em&gt;international coffee futures markets today&lt;/em&gt; with the &lt;em&gt;London&lt;/em&gt; May &lt;em&gt;price reaching&lt;/em&gt; a 4-1/2 year low at one &lt;em&gt;stage&lt;/em&gt; of 1,270 stg per &lt;em&gt;tonne before ending&lt;/em&gt; the day at 1,314 stg, down 184 stg from the &lt;em&gt;previous close&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">In a &lt;em&gt;Reuter interview, Brazilian Coffee Institute,&lt;/em&gt; IBC, &lt;em&gt;President&lt;/em&gt; Jorio &lt;em&gt;Dauster&lt;/em&gt; urged &lt;em&gt;producers&lt;/em&gt; not to &lt;em&gt;panic&lt;/em&gt; and said they need to make hard &lt;em&gt;commercial decisions&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-868.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">170</int>
+        <int name="count">122</int>
       </lst>
       <lst name="stems">
-        <int name="count">107</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">local</str>
+        <str name="text">securities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">1.0</double>
+        <str name="text">closing</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">nation</str>
-        <double name="strength">0.9999999999999983</double>
+        <str name="text">index</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.5590169943749487</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">closed</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">pause</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Local dealers recommend blue chips and financial shares as these stand to benefit most from continuing trade friction between the United States and Japan and the rumoured restructuring of local finance houses.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">South Korean firms have traditionally preferred obtaining low interest bank loans -- the current rate is 10 pct -- to issuing bonds at a higher rate or floating share issues with the attendant dividend pressures and launch expenses.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">233</int>
-        <double name="strength">0.7911578921562832</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The stock market began to recover during Saturday's half-day session with the index closing at 397.24 in active trading on Monday, but closed lower on Tuesday at 390.24 on turnover of 76 billion won.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">200</int>
-        <double name="strength">0.7463244284172509</double>
+        <double name="strength">0.9663525284275969</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He added that the newly launched 30 mln dlr Korea Europe Fund would have an impact on the South Korean stock market, despite its small volume compared with the 5.72 trillion won of listed capital on the Seoul exchange.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">219</int>
+        <double name="strength">0.9481115287211528</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Local dealers recommend&lt;/em&gt; blue &lt;em&gt;chips&lt;/em&gt; and &lt;em&gt;financial shares&lt;/em&gt; as &lt;em&gt;these stand&lt;/em&gt; to &lt;em&gt;benefit&lt;/em&gt; most from &lt;em&gt;continuing trade friction between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; and the &lt;em&gt;rumoured restructuring&lt;/em&gt; of &lt;em&gt;local finance houses&lt;/em&gt;.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;South Korean firms&lt;/em&gt; have &lt;em&gt;traditionally preferred obtaining&lt;/em&gt; low &lt;em&gt;interest&lt;/em&gt; bank &lt;em&gt;loans --&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; rate is 10 pct -- to &lt;em&gt;issuing bonds&lt;/em&gt; at a &lt;em&gt;higher&lt;/em&gt; rate or &lt;em&gt;floating share issues&lt;/em&gt; with the &lt;em&gt;attendant dividend pressures&lt;/em&gt; and &lt;em&gt;launch expenses&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;South Korean firms&lt;/em&gt; have traditionally preferred obtaining low &lt;em&gt;interest&lt;/em&gt; bank &lt;em&gt;loans --&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; rate is 10 pct -- to issuing &lt;em&gt;bonds&lt;/em&gt; at a higher rate or floating &lt;em&gt;share issues&lt;/em&gt; with the &lt;em&gt;attendant dividend pressures&lt;/em&gt; and &lt;em&gt;launch expenses&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;stock market began&lt;/em&gt; to &lt;em&gt;recover during Saturday&lt;/em&gt;'s half-day &lt;em&gt;session&lt;/em&gt; with the &lt;em&gt;index closing&lt;/em&gt; at 397.24 in &lt;em&gt;active trading&lt;/em&gt; on &lt;em&gt;Monday,&lt;/em&gt; but &lt;em&gt;closed lower&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; at 390.24 on &lt;em&gt;turnover&lt;/em&gt; of 76 &lt;em&gt;billion won&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;stock market&lt;/em&gt; began to &lt;em&gt;recover&lt;/em&gt; during &lt;em&gt;Saturday&lt;/em&gt;'s half-day &lt;em&gt;session&lt;/em&gt; with the &lt;em&gt;index closing&lt;/em&gt; at 397.24 in &lt;em&gt;active trading&lt;/em&gt; on &lt;em&gt;Monday,&lt;/em&gt; but closed lower on &lt;em&gt;Tuesday&lt;/em&gt; at 390.24 on &lt;em&gt;turnover&lt;/em&gt; of 76 &lt;em&gt;billion won&lt;/em&gt;.</str>
         <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He added that the newly launched 30 mln dlr &lt;em&gt;Korea Europe&lt;/em&gt; Fund would have an &lt;em&gt;impact&lt;/em&gt; on the &lt;em&gt;South Korean stock market,&lt;/em&gt; despite its &lt;em&gt;small volume&lt;/em&gt; compared with the 5.72 &lt;em&gt;trillion&lt;/em&gt; won of &lt;em&gt;listed capital&lt;/em&gt; on the &lt;em&gt;Seoul exchange&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

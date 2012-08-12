@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-648.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">crack</str>
+        <str name="text">firms</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">powers</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">abrupt</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">deterioration</str>
         <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">plain</str>
-        <double name="strength">0.5000000000000009</double>
-      </lst>
-      <lst name="term">
-        <str name="text">expect</str>
-        <double name="strength">0.5000000000000009</double>
-      </lst>
-      <lst name="term">
-        <str name="text">action</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In meetings with both the foreign and telecommunications ministers Howard said he expressed deep concern about the way Tokyo had handled the dispute and about the continuing trade imbalance between the two countries.</str>
-        <int name="index">3</int>
+        <str name="text">"I put it to the (post and telecommunications) minister that I was sure he did not want to be responsible for an abrupt deterioration in the trading relations of our countries which would have widespread reverberations elsewhere in the world," Howard told reporters.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">217</int>
+        <int name="end">267</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">British frustration over the lopsided trade balance - nearly six billion dlrs in Japan's favour last year - has reached boiling point over the telecommunications issue, Howard said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.9696367791932067</double>
+        <double name="strength">0.989514990561029</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Howard ruled out using powers in Britain's Financial Services bill to retaliate against unfair trade practices.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">112</int>
-        <double name="strength">0.8600282207473746</double>
+        <double name="strength">0.9016218229905371</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;meetings&lt;/em&gt; with both the &lt;em&gt;foreign&lt;/em&gt; and &lt;em&gt;telecommunications ministers Howard&lt;/em&gt; said he &lt;em&gt;expressed&lt;/em&gt; deep &lt;em&gt;concern about&lt;/em&gt; the way &lt;em&gt;Tokyo&lt;/em&gt; had &lt;em&gt;handled&lt;/em&gt; the &lt;em&gt;dispute&lt;/em&gt; and &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;continuing trade imbalance between&lt;/em&gt; the two &lt;em&gt;countries&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">"I put it to the (post and &lt;em&gt;telecommunications) minister&lt;/em&gt; that I was sure he did not want to be &lt;em&gt;responsible&lt;/em&gt; for an &lt;em&gt;abrupt deterioration&lt;/em&gt; in the &lt;em&gt;trading relations&lt;/em&gt; of our &lt;em&gt;countries&lt;/em&gt; which would have &lt;em&gt;widespread reverberations&lt;/em&gt; elsewhere in the &lt;em&gt;world,"&lt;/em&gt; Howard told &lt;em&gt;reporters&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;British frustration&lt;/em&gt; over the &lt;em&gt;lopsided trade balance - nearly&lt;/em&gt; six &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;favour&lt;/em&gt; last year - has &lt;em&gt;reached boiling point&lt;/em&gt; over the &lt;em&gt;telecommunications issue, Howard said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;British frustration&lt;/em&gt; over the &lt;em&gt;lopsided trade balance -&lt;/em&gt; nearly six &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;Japan&lt;/em&gt;'s favour last year - has reached boiling &lt;em&gt;point&lt;/em&gt; over the &lt;em&gt;telecommunications issue,&lt;/em&gt; Howard said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Howard ruled&lt;/em&gt; out &lt;em&gt;using powers&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;Financial Services&lt;/em&gt; bill to &lt;em&gt;retaliate against unfair trade practices&lt;/em&gt;.</str>
+        <str name="text">Howard ruled out using &lt;em&gt;powers&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;Financial Services&lt;/em&gt; bill to &lt;em&gt;retaliate&lt;/em&gt; against &lt;em&gt;unfair trade practices&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
     </lst>

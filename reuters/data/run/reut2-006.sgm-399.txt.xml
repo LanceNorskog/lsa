@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">39</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-399.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">211</int>
+        <int name="count">147</int>
       </lst>
       <lst name="stems">
-        <int name="count">133</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">financial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">restrict</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">decision</str>
+        <double name="strength">0.9941728092057445</double>
       </lst>
       <lst name="term">
-        <str name="text">standard</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">political</str>
+        <double name="strength">0.9941728092057442</double>
       </lst>
       <lst name="term">
-        <str name="text">predicted</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">sterling</str>
+        <double name="strength">0.9941728092057435</double>
       </lst>
       <lst name="term">
-        <str name="text">coffers</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">today</str>
+        <double name="strength">0.9941728092057435</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Turning to the question of Britain eventually joining the exchange rate mechanism of the European Monetary System (EMS), Lawson repeated that "it is most unlikely we will enter before the next election."</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">204</int>
+        <str name="text">Chancellor of the Exchequer Nigel Lawson said he was content with the current level of sterling and welcomed today's announcement of a further half point cut in British bank base lending rates to 10 pct.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But it was being praised today by political analysts as a shrewd move which, while advancing towards that aim, could not be seized upon by opposition parties as overtly trying to bribe the electorate.</str>
-        <int name="index">23</int>
+        <str name="text">Lawson acknowledged that today's fall in interest rates were in response to his budget for fiscal 1987/88, unveiled yesterday to Parliament and which set a lower target for the key Public Sector Borrowing Requirement (PSBR) of 1.0 pct of GDP.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.998749250033859</double>
+        <int name="end">243</int>
+        <double name="strength">0.9384456193837165</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Lawson foresaw London becoming the world's pre-eminent financial centre, because it was more international in character and more favourably placed in time zones than New York or Tokyo.</str>
-        <int name="index">36</int>
+        <str name="text">He said the second reason was political uncertainty caused by proposed spending plans of the opposition Labour Party.</str>
+        <int name="index">33</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9372151408278004</double>
+        <int name="end">118</int>
+        <double name="strength">0.9104352675974101</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Turning&lt;/em&gt; to the &lt;em&gt;question&lt;/em&gt; of &lt;em&gt;Britain eventually joining&lt;/em&gt; the &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;mechanism&lt;/em&gt; of the &lt;em&gt;European Monetary System &lt;/em&gt;(EMS), &lt;em&gt;Lawson repeated&lt;/em&gt; that "it is most &lt;em&gt;unlikely&lt;/em&gt; we will &lt;em&gt;enter before&lt;/em&gt; the next &lt;em&gt;election.&lt;/em&gt;"</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; said he was &lt;em&gt;content&lt;/em&gt; with the &lt;em&gt;current level&lt;/em&gt; of &lt;em&gt;sterling&lt;/em&gt; and welcomed &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;announcement&lt;/em&gt; of a &lt;em&gt;further&lt;/em&gt; half &lt;em&gt;point&lt;/em&gt; cut in &lt;em&gt;British&lt;/em&gt; bank base &lt;em&gt;lending rates&lt;/em&gt; to 10 pct.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But it was &lt;em&gt;being praised today&lt;/em&gt; by &lt;em&gt;political analysts&lt;/em&gt; as a &lt;em&gt;shrewd&lt;/em&gt; move &lt;em&gt;which, while advancing towards&lt;/em&gt; that aim, &lt;em&gt;could&lt;/em&gt; not be &lt;em&gt;seized&lt;/em&gt; upon by &lt;em&gt;opposition parties&lt;/em&gt; as &lt;em&gt;overtly trying&lt;/em&gt; to &lt;em&gt;bribe&lt;/em&gt; the &lt;em&gt;electorate&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">&lt;em&gt;Lawson&lt;/em&gt; acknowledged that &lt;em&gt;today&lt;/em&gt;'s fall in &lt;em&gt;interest rates&lt;/em&gt; were in &lt;em&gt;response&lt;/em&gt; to his &lt;em&gt;budget&lt;/em&gt; for &lt;em&gt;fiscal 1987/88,&lt;/em&gt; unveiled &lt;em&gt;yesterday&lt;/em&gt; to &lt;em&gt;Parliament&lt;/em&gt; and which set a lower &lt;em&gt;target&lt;/em&gt; for the key &lt;em&gt;Public Sector Borrowing Requirement &lt;/em&gt;(PSBR) of 1.0 pct of GDP.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Lawson foresaw London becoming&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s pre-&lt;em&gt;eminent financial centre, because&lt;/em&gt; it was more &lt;em&gt;international&lt;/em&gt; in &lt;em&gt;character&lt;/em&gt; and more &lt;em&gt;favourably placed&lt;/em&gt; in time &lt;em&gt;zones&lt;/em&gt; than New York or &lt;em&gt;Tokyo&lt;/em&gt;.</str>
-        <int name="index">36</int>
+        <str name="text">He said the &lt;em&gt;second reason&lt;/em&gt; was &lt;em&gt;political uncertainty&lt;/em&gt; caused by &lt;em&gt;proposed spending plans&lt;/em&gt; of the &lt;em&gt;opposition Labour Party&lt;/em&gt;.</str>
+        <int name="index">33</int>
       </lst>
     </lst>
   </lst>

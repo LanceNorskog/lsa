@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-812.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">78</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">48</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">basis</str>
+        <str name="text">group</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">years</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">banking</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">libor</str>
-        <double name="strength">0.5527707983925666</double>
+        <str name="text">behalf</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">project</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">purpose</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">carry</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">mature</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The first credit, a project financing, will carry a basic margin of 5/8 point over London Interbank Offered Rates (LIBOR), with an additional 1/4 pct per annum payable on outstanding amounts to the extent that the property is not substantially pre-let.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">253</int>
-        <double name="strength">0.8427706268527868</double>
+        <double name="strength">0.9347918182878069</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The second transaction, a 16 mln stg credit for the purpose of working capital, is being arranged by Rothschild alone on behalf of the Greycoat Group Plc itself.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">162</int>
-        <double name="strength">0.7085891869670827</double>
+        <str name="text">M. Rothschild and Sons Ltd and Bank of Tokyo International Ltd on behalf of a special purpose Greycoat subsidiary yet to be incorporated.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">0.7082869639609974</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.K. &lt;em&gt;Property company Greycoat Group&lt;/em&gt; Plc is &lt;em&gt;seeking&lt;/em&gt; two &lt;em&gt;financings,&lt;/em&gt; one for 120 mln stg and the &lt;em&gt;other&lt;/em&gt; for 16 mln stg, in &lt;em&gt;connection&lt;/em&gt; with its &lt;em&gt;Embankment Place development above&lt;/em&gt; and &lt;em&gt;around Charing Cross station&lt;/em&gt; in &lt;em&gt;London, banking sources said&lt;/em&gt;.</str>
+        <str name="text">U.K. &lt;em&gt;Property company Greycoat Group&lt;/em&gt; Plc is seeking two &lt;em&gt;financings,&lt;/em&gt; one for 120 mln stg and the &lt;em&gt;other&lt;/em&gt; for 16 mln stg, in &lt;em&gt;connection&lt;/em&gt; with its &lt;em&gt;Embankment Place development&lt;/em&gt; above and around Charing &lt;em&gt;Cross station&lt;/em&gt; in &lt;em&gt;London, banking sources said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;first credit,&lt;/em&gt; a &lt;em&gt;project financing,&lt;/em&gt; will &lt;em&gt;carry&lt;/em&gt; a &lt;em&gt;basic margin&lt;/em&gt; of 5/8 &lt;em&gt;point&lt;/em&gt; over &lt;em&gt;London Interbank Offered Rates (LIBOR),&lt;/em&gt; with an &lt;em&gt;additional 1/4&lt;/em&gt; pct per &lt;em&gt;annum payable&lt;/em&gt; on &lt;em&gt;outstanding amounts&lt;/em&gt; to the &lt;em&gt;extent&lt;/em&gt; that the &lt;em&gt;property&lt;/em&gt; is not &lt;em&gt;substantially&lt;/em&gt; pre-let.</str>
+        <str name="text">The &lt;em&gt;first credit,&lt;/em&gt; a &lt;em&gt;project financing,&lt;/em&gt; will &lt;em&gt;carry&lt;/em&gt; a &lt;em&gt;basic margin&lt;/em&gt; of 5/8 &lt;em&gt;point&lt;/em&gt; over London &lt;em&gt;Interbank&lt;/em&gt; Offered &lt;em&gt;Rates (LIBOR),&lt;/em&gt; with an &lt;em&gt;additional 1/4&lt;/em&gt; pct per &lt;em&gt;annum payable&lt;/em&gt; on &lt;em&gt;outstanding amounts&lt;/em&gt; to the &lt;em&gt;extent&lt;/em&gt; that the &lt;em&gt;property&lt;/em&gt; is not substantially pre-let.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;second transaction,&lt;/em&gt; a 16 mln stg &lt;em&gt;credit&lt;/em&gt; for the &lt;em&gt;purpose&lt;/em&gt; of &lt;em&gt;working capital,&lt;/em&gt; is &lt;em&gt;being arranged&lt;/em&gt; by &lt;em&gt;Rothschild alone&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of the &lt;em&gt;Greycoat Group&lt;/em&gt; Plc &lt;em&gt;itself&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">M. &lt;em&gt;Rothschild&lt;/em&gt; and Sons Ltd and Bank of &lt;em&gt;Tokyo International&lt;/em&gt; Ltd on &lt;em&gt;behalf&lt;/em&gt; of a &lt;em&gt;special purpose Greycoat subsidiary&lt;/em&gt; yet to be incorporated.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

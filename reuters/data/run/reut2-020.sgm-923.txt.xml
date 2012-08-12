@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-923.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">131</int>
+        <int name="count">94</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">major</str>
+        <str name="text">record</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">contact</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9806832258882913</double>
       </lst>
       <lst name="term">
-        <str name="text">exchange</str>
-        <double name="strength">0.5527707983925667</double>
+        <str name="text">average</str>
+        <double name="strength">0.9806832258882889</double>
       </lst>
       <lst name="term">
-        <str name="text">added</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">procedures</str>
+        <double name="strength">0.9806832258882887</double>
       </lst>
       <lst name="term">
-        <str name="text">underlying</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">tomorrow</str>
+        <double name="strength">0.9806832258882872</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Phelan said he was in contact with the Treasury department, White House and the Federal Reserve, but that the contact was made as a matter of routine.</str>
-        <int name="index">28</int>
-        <int name="start">0</int>
-        <int name="end">150</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Those procedures include checking with member firms on their liquidity, margin positions, and backlog.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">102</int>
-        <double name="strength">0.9856331108197293</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Phelan explained today's record descent as being the result of a confluence of factors, including the globalization of markets and the proliferation of new securities instruments.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.940168458797412</double>
+        <double name="strength">0.9841136232068785</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Phelan, in response to a question on declines in foreign markets, said he believes there is no loss of confidence in the global economy.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">137</int>
+        <double name="strength">0.8660593664807631</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Phelan&lt;/em&gt; said he was in &lt;em&gt;contact&lt;/em&gt; with the &lt;em&gt;Treasury department, White House&lt;/em&gt; and the &lt;em&gt;Federal Reserve,&lt;/em&gt; but that the &lt;em&gt;contact&lt;/em&gt; was made as a &lt;em&gt;matter&lt;/em&gt; of &lt;em&gt;routine&lt;/em&gt;.</str>
-        <int name="index">28</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Those procedures include checking&lt;/em&gt; with &lt;em&gt;member firms&lt;/em&gt; on &lt;em&gt;their liquidity, margin positions,&lt;/em&gt; and &lt;em&gt;backlog&lt;/em&gt;.</str>
+        <str name="text">Those &lt;em&gt;procedures include&lt;/em&gt; checking with &lt;em&gt;member firms&lt;/em&gt; on their &lt;em&gt;liquidity, margin positions,&lt;/em&gt; and &lt;em&gt;backlog&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Phelan explained today&lt;/em&gt;'s &lt;em&gt;record descent&lt;/em&gt; as &lt;em&gt;being&lt;/em&gt; the &lt;em&gt;result&lt;/em&gt; of a &lt;em&gt;confluence&lt;/em&gt; of &lt;em&gt;factors, including&lt;/em&gt; the &lt;em&gt;globalization&lt;/em&gt; of &lt;em&gt;markets&lt;/em&gt; and the &lt;em&gt;proliferation&lt;/em&gt; of new &lt;em&gt;securities instruments&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Phelan&lt;/em&gt; explained &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;record descent&lt;/em&gt; as being the &lt;em&gt;result&lt;/em&gt; of a &lt;em&gt;confluence&lt;/em&gt; of &lt;em&gt;factors,&lt;/em&gt; including the &lt;em&gt;globalization&lt;/em&gt; of &lt;em&gt;markets&lt;/em&gt; and the &lt;em&gt;proliferation&lt;/em&gt; of new &lt;em&gt;securities instruments&lt;/em&gt;.</str>
         <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Phelan,&lt;/em&gt; in &lt;em&gt;response&lt;/em&gt; to a &lt;em&gt;question&lt;/em&gt; on &lt;em&gt;declines&lt;/em&gt; in &lt;em&gt;foreign markets,&lt;/em&gt; said he believes there is no loss of &lt;em&gt;confidence&lt;/em&gt; in the &lt;em&gt;global economy&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

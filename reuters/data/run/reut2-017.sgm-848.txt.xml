@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-848.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">customer</str>
+        <str name="text">investors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">investors</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">officials</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">averaging</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">venture</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">parent</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">pincus</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">chain</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">151</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Although the PC retailers are benefitting from the strong upturn in PC sales, analysts said Computerland must make key changes if it is to fend off advances from rivals like Businessland Inc &lt;BUSL.</str>
-        <int name="index">15</int>
-        <int name="start">0</int>
-        <int name="end">197</int>
-        <double name="strength">0.9318457729888151</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">E.M. Warburg currently manages 1.5 billion dlrs in venture capital funds, and its past investments have included Mattel Inc &lt;MAT&gt; and the Ingersoll newspaper chain.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">165</int>
-        <double name="strength">0.9115507969890256</double>
+        <double name="strength">0.9053641647983844</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although the PC retailers are benefitting from the strong upturn in PC sales, analysts said Computerland must make key changes if it is to fend off advances from rivals like Businessland Inc &lt;BUSL.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">197</int>
+        <double name="strength">0.8922767229332095</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Ed &lt;em&gt;Faber,&lt;/em&gt; who took over as &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer, revamped&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;royalty&lt;/em&gt; plan, &lt;em&gt;which&lt;/em&gt; help &lt;em&gt;quell&lt;/em&gt; much of the &lt;em&gt;franchisee dissent&lt;/em&gt;.</str>
+        <str name="text">Ed &lt;em&gt;Faber,&lt;/em&gt; who took over as &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer,&lt;/em&gt; revamped the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;royalty&lt;/em&gt; plan, which help &lt;em&gt;quell&lt;/em&gt; much of the &lt;em&gt;franchisee dissent&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the PC &lt;em&gt;retailers&lt;/em&gt; are &lt;em&gt;benefitting&lt;/em&gt; from the &lt;em&gt;strong upturn&lt;/em&gt; in PC &lt;em&gt;sales, analysts&lt;/em&gt; said &lt;em&gt;Computerland&lt;/em&gt; must make key &lt;em&gt;changes&lt;/em&gt; if it is to fend off &lt;em&gt;advances&lt;/em&gt; from &lt;em&gt;rivals&lt;/em&gt; like &lt;em&gt;Businessland&lt;/em&gt; Inc &lt;BUSL.</str>
-        <int name="index">15</int>
+        <str name="text">E.M. &lt;em&gt;Warburg&lt;/em&gt; currently manages 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;venture capital funds,&lt;/em&gt; and its past &lt;em&gt;investments&lt;/em&gt; have included &lt;em&gt;Mattel&lt;/em&gt; Inc &lt;MAT&gt; and the &lt;em&gt;Ingersoll newspaper chain&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">E.M. &lt;em&gt;Warburg currently manages 1.5 billion&lt;/em&gt; dlrs in &lt;em&gt;venture capital funds,&lt;/em&gt; and its past &lt;em&gt;investments&lt;/em&gt; have &lt;em&gt;included Mattel&lt;/em&gt; Inc &lt;MAT&gt; and the &lt;em&gt;Ingersoll newspaper chain&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">Although the PC &lt;em&gt;retailers&lt;/em&gt; are benefitting from the &lt;em&gt;strong upturn&lt;/em&gt; in PC &lt;em&gt;sales, analysts&lt;/em&gt; said &lt;em&gt;Computerland&lt;/em&gt; must make key &lt;em&gt;changes&lt;/em&gt; if it is to fend off &lt;em&gt;advances&lt;/em&gt; from &lt;em&gt;rivals&lt;/em&gt; like &lt;em&gt;Businessland&lt;/em&gt; Inc &lt;BUSL.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

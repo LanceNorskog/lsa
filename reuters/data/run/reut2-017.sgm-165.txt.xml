@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-165.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">economic</str>
+        <str name="text">logic</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">support</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5590169943749463</double>
-      </lst>
-      <lst name="term">
-        <str name="text">trading</str>
-        <double name="strength">0.5590169943749462</double>
+        <str name="text">moholt</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
         <str name="text">profits</str>
-        <double name="strength">0.5590169943749452</double>
+        <double name="strength">0.9999999999999986</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">382</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The rumors do no make economic sense, and I am skeptical," analyst Mark Rogers of Prudential Bache Securities said, "but politics has been known to override economic concerns."</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.8790127744700355</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Apparently a rumor is floating around trading circles about the Japanese doing something about tariffs on wood and paper products," Lowell Moholt, director of investor relations at Weyerhaeuser Co said.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.8298990606467826</double>
+        <double name="strength">0.9887843797939397</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The rumors do no make economic sense, and I am skeptical," analyst Mark Rogers of Prudential Bache Securities said, "but politics has been known to override economic concerns."</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.8901408761931339</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nevertheless, International Paper &lt;/em&gt;&lt;IP&gt; fell 4-3/8 to 95-1/2, &lt;em&gt;Weyerhaeuser&lt;/em&gt; Co &lt;WY&gt; two to 51-1/2, &lt;em&gt;Potlatch&lt;/em&gt; Corp &lt;PCH&gt; 3-1/2 to 69, &lt;em&gt;Great Northern Nekoosa &lt;/em&gt;&lt;GNN&gt; 3-1/8 to 85-1/2, &lt;em&gt;Temple Inland&lt;/em&gt; Inc &lt;TIN&gt; 2-3/4 to 57-1/4, &lt;em&gt;Boise Cascade 2-3/8&lt;/em&gt; to 74-3/8, &lt;em&gt;Georgia Pacific&lt;/em&gt; Corp &lt;GP&gt; 1-1/2 to 43-3/4, &lt;em&gt;Champion International&lt;/em&gt; Corp &lt;CHA&gt; 1-3/8 to 36-1/2 and Pope and &lt;em&gt;Talbot&lt;/em&gt; Inc &lt;POP&gt; 1/2 to 36.</str>
+        <str name="text">Nevertheless, &lt;em&gt;International Paper &lt;/em&gt;&lt;IP&gt; fell 4-3/8 to 95-1/2, &lt;em&gt;Weyerhaeuser&lt;/em&gt; Co &lt;WY&gt; two to 51-1/2, &lt;em&gt;Potlatch&lt;/em&gt; Corp &lt;PCH&gt; 3-1/2 to 69, &lt;em&gt;Great Northern Nekoosa &lt;/em&gt;&lt;GNN&gt; 3-1/8 to 85-1/2, &lt;em&gt;Temple Inland&lt;/em&gt; Inc &lt;TIN&gt; 2-3/4 to 57-1/4, &lt;em&gt;Boise Cascade 2-3/8&lt;/em&gt; to 74-3/8, &lt;em&gt;Georgia&lt;/em&gt; Pacific Corp &lt;GP&gt; 1-1/2 to 43-3/4, &lt;em&gt;Champion International&lt;/em&gt; Corp &lt;CHA&gt; 1-3/8 to 36-1/2 and Pope and &lt;em&gt;Talbot&lt;/em&gt; Inc &lt;POP&gt; 1/2 to 36.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;rumors&lt;/em&gt; do no make &lt;em&gt;economic sense,&lt;/em&gt; and I am &lt;em&gt;skeptical," analyst&lt;/em&gt; Mark &lt;em&gt;Rogers&lt;/em&gt; of &lt;em&gt;Prudential Bache Securities&lt;/em&gt; said, "but &lt;em&gt;politics&lt;/em&gt; has been &lt;em&gt;known&lt;/em&gt; to &lt;em&gt;override economic concerns.&lt;/em&gt;"</str>
-        <int name="index">18</int>
+        <str name="text">"Apparently a &lt;em&gt;rumor&lt;/em&gt; is floating around &lt;em&gt;trading circles&lt;/em&gt; about the &lt;em&gt;Japanese&lt;/em&gt; doing &lt;em&gt;something&lt;/em&gt; about &lt;em&gt;tariffs&lt;/em&gt; on wood and &lt;em&gt;paper products,"&lt;/em&gt; Lowell &lt;em&gt;Moholt, director&lt;/em&gt; of &lt;em&gt;investor relations&lt;/em&gt; at &lt;em&gt;Weyerhaeuser&lt;/em&gt; Co said.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Apparently&lt;/em&gt; a &lt;em&gt;rumor&lt;/em&gt; is &lt;em&gt;floating around trading circles about&lt;/em&gt; the &lt;em&gt;Japanese doing something about tariffs&lt;/em&gt; on wood and &lt;em&gt;paper products," Lowell Moholt, director&lt;/em&gt; of &lt;em&gt;investor relations&lt;/em&gt; at &lt;em&gt;Weyerhaeuser&lt;/em&gt; Co said.</str>
-        <int name="index">2</int>
+        <str name="text">"The &lt;em&gt;rumors&lt;/em&gt; do no make &lt;em&gt;economic sense,&lt;/em&gt; and I am &lt;em&gt;skeptical," analyst&lt;/em&gt; Mark &lt;em&gt;Rogers&lt;/em&gt; of &lt;em&gt;Prudential Bache Securities&lt;/em&gt; said, "but &lt;em&gt;politics&lt;/em&gt; has been known to &lt;em&gt;override economic concerns.&lt;/em&gt;"</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

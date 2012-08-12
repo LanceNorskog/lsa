@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-553.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">172</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">102</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deposits</str>
+        <str name="text">accounts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.7905694150420967</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.8937058694624347</double>
       </lst>
       <lst name="term">
-        <str name="text">weeks</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">mccarthy</str>
+        <double name="strength">0.8936428601895432</double>
       </lst>
       <lst name="term">
-        <str name="text">falls</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">policy</str>
+        <double name="strength">0.8934985019429881</double>
       </lst>
       <lst name="term">
-        <str name="text">robert</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.8921705680352661</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">294</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">Robert Brusca of Nikko Securities Co International Inc argued that an easier Fed policy is unlikely to do much to solve America's most urgent economic problem, its massive trade deficit.</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">187</int>
-        <double name="strength">0.9119128056902579</double>
+        <double name="strength">0.9579457544045457</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Moreover, some of the contraction in M-2 can probably be explained by a shift of funds from savings vehicles into the booming stock market and is thus not an indication of a slowdown in the business expansion.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.8697478861806752</double>
+        <double name="strength">0.8713055565061923</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;contraction&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to be a &lt;em&gt;major concern&lt;/em&gt; for the Fed, &lt;em&gt;especially&lt;/em&gt; as it &lt;em&gt;would follow&lt;/em&gt; a long &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;torrid growth,&lt;/em&gt; but it &lt;em&gt;could&lt;/em&gt; give the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;extra leeway&lt;/em&gt; in the &lt;em&gt;weeks ahead&lt;/em&gt; if it &lt;em&gt;decided&lt;/em&gt; that a &lt;em&gt;relaxation&lt;/em&gt; of &lt;em&gt;monetary policy&lt;/em&gt; was &lt;em&gt;justified&lt;/em&gt; on &lt;em&gt;account&lt;/em&gt; of &lt;em&gt;weakness&lt;/em&gt; in the &lt;em&gt;economy&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;contraction&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to be a &lt;em&gt;major concern&lt;/em&gt; for the Fed, especially as it would &lt;em&gt;follow&lt;/em&gt; a long &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;torrid growth,&lt;/em&gt; but it could give the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;extra leeway&lt;/em&gt; in the &lt;em&gt;weeks&lt;/em&gt; ahead if it decided that a &lt;em&gt;relaxation&lt;/em&gt; of &lt;em&gt;monetary policy&lt;/em&gt; was justified on &lt;em&gt;account&lt;/em&gt; of &lt;em&gt;weakness&lt;/em&gt; in the &lt;em&gt;economy&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Robert Brusca&lt;/em&gt; of &lt;em&gt;Nikko Securities&lt;/em&gt; Co &lt;em&gt;International&lt;/em&gt; Inc &lt;em&gt;argued&lt;/em&gt; that an &lt;em&gt;easier&lt;/em&gt; Fed &lt;em&gt;policy&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to do much to &lt;em&gt;solve America&lt;/em&gt;'s most &lt;em&gt;urgent economic problem,&lt;/em&gt; its &lt;em&gt;massive trade deficit&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Robert Brusca&lt;/em&gt; of &lt;em&gt;Nikko Securities&lt;/em&gt; Co &lt;em&gt;International&lt;/em&gt; Inc argued that an easier Fed &lt;em&gt;policy&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to do much to &lt;em&gt;solve America&lt;/em&gt;'s most &lt;em&gt;urgent economic problem,&lt;/em&gt; its &lt;em&gt;massive trade deficit&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Moreover,&lt;/em&gt; some of the &lt;em&gt;contraction&lt;/em&gt; in M-2 can &lt;em&gt;probably&lt;/em&gt; be &lt;em&gt;explained&lt;/em&gt; by a &lt;em&gt;shift&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; from &lt;em&gt;savings vehicles&lt;/em&gt; into the &lt;em&gt;booming stock market&lt;/em&gt; and is thus not an &lt;em&gt;indication&lt;/em&gt; of a &lt;em&gt;slowdown&lt;/em&gt; in the &lt;em&gt;business expansion&lt;/em&gt;.</str>
+        <str name="text">Moreover, some of the &lt;em&gt;contraction&lt;/em&gt; in M-2 can probably be explained by a &lt;em&gt;shift&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; from &lt;em&gt;savings vehicles&lt;/em&gt; into the &lt;em&gt;booming stock market&lt;/em&gt; and is thus not an &lt;em&gt;indication&lt;/em&gt; of a &lt;em&gt;slowdown&lt;/em&gt; in the &lt;em&gt;business expansion&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
     </lst>

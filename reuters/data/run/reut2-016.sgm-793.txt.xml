@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-793.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">markets</str>
+        <str name="text">announce</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">action</str>
-        <double name="strength">0.9999999999999992</double>
+        <str name="text">goods</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">opposed</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">panel</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">saying</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">products</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">prevent</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">nothing</str>
+        <double name="strength">0.9295398822652543</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">U.S. officials, however, have said their monitoring of Japanese semiconductor shipments to East Asian countries and Western Europe showed no letup in the dumping and that the Japanese home markets remained shut to American exports.</str>
-        <int name="index">17</int>
+        <str name="text">Reagan announced last March 27 he would impose the tariffs on certain goods taken from a list that ranged from computors and television sets to power tools and photographic film.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">232</int>
+        <int name="end">179</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He has opposed the legislation, saying it would prevent negotiated solutions to trade disputes and, in any case, that existing law was adqeuate to end unfair trade practices.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.8885948304474918</double>
+        <str name="text">President Reagan today is to announce a decision on tough new tariffs on Japanese exports to retaliate for what he calls Japan's failure to end its unfair practices in semiconductor trade.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
+        <double name="strength">0.9558399691645739</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">White House spokesman Marlin Fitzwater said yesterday:  "we do not want a trade war, but we feel that this is the kind of action that requires meaningful action."</str>
-        <int name="index">9</int>
+        <str name="text">U.S. officials said Japan had done nothing since the March announcement to alter Reagan's plan to invoke the sanctions.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">163</int>
-        <double name="strength">0.8749942507400115</double>
+        <int name="end">120</int>
+        <double name="strength">0.8466814548417952</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;officials, however,&lt;/em&gt; have said &lt;em&gt;their monitoring&lt;/em&gt; of &lt;em&gt;Japanese semiconductor shipments&lt;/em&gt; to East &lt;em&gt;Asian countries&lt;/em&gt; and &lt;em&gt;Western Europe showed&lt;/em&gt; no &lt;em&gt;letup&lt;/em&gt; in the &lt;em&gt;dumping&lt;/em&gt; and that the &lt;em&gt;Japanese&lt;/em&gt; home &lt;em&gt;markets remained&lt;/em&gt; shut to &lt;em&gt;American exports&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Reagan&lt;/em&gt; announced last &lt;em&gt;March 27&lt;/em&gt; he would &lt;em&gt;impose&lt;/em&gt; the &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;certain goods&lt;/em&gt; taken from a list that ranged from &lt;em&gt;computors&lt;/em&gt; and &lt;em&gt;television&lt;/em&gt; sets to &lt;em&gt;power tools&lt;/em&gt; and &lt;em&gt;photographic film&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He has &lt;em&gt;opposed&lt;/em&gt; the &lt;em&gt;legislation, saying&lt;/em&gt; it &lt;em&gt;would prevent negotiated solutions&lt;/em&gt; to &lt;em&gt;trade disputes&lt;/em&gt; and, in any case, that &lt;em&gt;existing&lt;/em&gt; law was &lt;em&gt;adqeuate&lt;/em&gt; to end &lt;em&gt;unfair trade practices&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;President Reagan today&lt;/em&gt; is to &lt;em&gt;announce&lt;/em&gt; a &lt;em&gt;decision&lt;/em&gt; on &lt;em&gt;tough&lt;/em&gt; new &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;Japanese exports&lt;/em&gt; to &lt;em&gt;retaliate&lt;/em&gt; for what he calls &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to end its &lt;em&gt;unfair practices&lt;/em&gt; in &lt;em&gt;semiconductor trade&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;White House spokesman Marlin Fitzwater&lt;/em&gt; said &lt;em&gt;yesterday:  &lt;/em&gt;"we do not want a &lt;em&gt;trade&lt;/em&gt; war, but we feel that this is the kind of &lt;em&gt;action&lt;/em&gt; that &lt;em&gt;requires meaningful action.&lt;/em&gt;"</str>
-        <int name="index">9</int>
+        <str name="text">U.S. &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;Japan&lt;/em&gt; had done &lt;em&gt;nothing&lt;/em&gt; since the &lt;em&gt;March announcement&lt;/em&gt; to &lt;em&gt;alter Reagan&lt;/em&gt;'s plan to &lt;em&gt;invoke&lt;/em&gt; the &lt;em&gt;sanctions&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

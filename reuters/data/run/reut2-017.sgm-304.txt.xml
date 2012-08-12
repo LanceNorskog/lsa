@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-304.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">188</int>
+        <int name="count">149</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">election</str>
+        <str name="text">analysts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">economic</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">package</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">goods</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">worked</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">issues</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">ruling</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">minister</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Mitsuru Uchida, professor of political science at Waseda University, told Reuters: "I doubt that whatever Nakasone does in Washington -- no matter how good it might be -- would help restore his weakened power-base at home."</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Two rounds of talks between President Reagan and Nakasone, scheduled for Thursday and Friday, come on the heels of the imposition by the United States of punitive tariffs on Japanese goods for the first time since World War Two.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">229</int>
-        <double name="strength">0.9994941037683241</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A proposed amendment to the bill, drafted by Representative Richard Gephardt of Missouri, will mandate a 10 pct annual reduction in the trade surpluses of Japan and other nations which have large trade gaps with the United States.</str>
-        <int name="index">6</int>
+        <str name="text">Mitsuru Uchida, professor of political science at Waseda University, told Reuters: "I doubt that whatever Nakasone does in Washington -- no matter how good it might be -- would help restore his weakened power-base at home."</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.9771953321989203</double>
+        <int name="end">224</int>
+        <double name="strength">0.9761324485127636</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The issues include foreign access to a new Japanese overseas telecommunications venture and a six billion dlr international airport project in western Japan.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.9663472518011709</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Mitsuru Uchida, professor&lt;/em&gt; of &lt;em&gt;political science&lt;/em&gt; at &lt;em&gt;Waseda University,&lt;/em&gt; told &lt;em&gt;Reuters: &lt;/em&gt;"I &lt;em&gt;doubt&lt;/em&gt; that &lt;em&gt;whatever Nakasone&lt;/em&gt; does in &lt;em&gt;Washington --&lt;/em&gt; no &lt;em&gt;matter&lt;/em&gt; how good it &lt;em&gt;might&lt;/em&gt; be -- &lt;em&gt;would&lt;/em&gt; help &lt;em&gt;restore&lt;/em&gt; his &lt;em&gt;weakened power&lt;/em&gt;-base at home."</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Two &lt;em&gt;rounds&lt;/em&gt; of &lt;em&gt;talks between President Reagan&lt;/em&gt; and &lt;em&gt;Nakasone, scheduled&lt;/em&gt; for &lt;em&gt;Thursday&lt;/em&gt; and &lt;em&gt;Friday,&lt;/em&gt; come on the &lt;em&gt;heels&lt;/em&gt; of the &lt;em&gt;imposition&lt;/em&gt; by the &lt;em&gt;United States&lt;/em&gt; of &lt;em&gt;punitive tariffs&lt;/em&gt; on &lt;em&gt;Japanese goods&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time &lt;em&gt;since World&lt;/em&gt; War Two.</str>
+        <str name="text">Two &lt;em&gt;rounds&lt;/em&gt; of &lt;em&gt;talks&lt;/em&gt; between &lt;em&gt;President Reagan&lt;/em&gt; and &lt;em&gt;Nakasone,&lt;/em&gt; scheduled for Thursday and &lt;em&gt;Friday,&lt;/em&gt; come on the &lt;em&gt;heels&lt;/em&gt; of the &lt;em&gt;imposition&lt;/em&gt; by the United &lt;em&gt;States&lt;/em&gt; of &lt;em&gt;punitive tariffs&lt;/em&gt; on &lt;em&gt;Japanese goods&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time since &lt;em&gt;World&lt;/em&gt; War Two.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;proposed amendment&lt;/em&gt; to the bill, &lt;em&gt;drafted&lt;/em&gt; by &lt;em&gt;Representative Richard Gephardt&lt;/em&gt; of &lt;em&gt;Missouri,&lt;/em&gt; will &lt;em&gt;mandate&lt;/em&gt; a 10 pct &lt;em&gt;annual reduction&lt;/em&gt; in the &lt;em&gt;trade surpluses&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;other nations which&lt;/em&gt; have &lt;em&gt;large trade&lt;/em&gt; gaps with the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Mitsuru Uchida, professor&lt;/em&gt; of &lt;em&gt;political science&lt;/em&gt; at Waseda &lt;em&gt;University,&lt;/em&gt; told &lt;em&gt;Reuters: &lt;/em&gt;"I &lt;em&gt;doubt&lt;/em&gt; that whatever &lt;em&gt;Nakasone&lt;/em&gt; does in Washington -- no &lt;em&gt;matter&lt;/em&gt; how good it might be -- would help &lt;em&gt;restore&lt;/em&gt; his &lt;em&gt;weakened power&lt;/em&gt;-base at home."</str>
+        <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;issues include foreign access&lt;/em&gt; to a new &lt;em&gt;Japanese overseas telecommunications venture&lt;/em&gt; and a six &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;international airport project&lt;/em&gt; in &lt;em&gt;western Japan&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

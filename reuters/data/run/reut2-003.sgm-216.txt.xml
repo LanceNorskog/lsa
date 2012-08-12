@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-216.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">before</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">known</str>
+        <str name="text">shares</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deaths</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">cargo</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">weeks</str>
-        <double name="strength">0.5</double>
+        <str name="text">london</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">extent</str>
-        <double name="strength">0.5</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Larner said claims from passengers could be expected to total at least five mln stg, given the number of deaths and the normal level of liability set by the Athens Convention of 1974 of between 30,000 stg and 50,000 in case of death.</str>
-        <int name="index">7</int>
+        <str name="text">Passengers, crew and cargo were insured by the Standard Steamship Protection and Indemnity Association, one of several shipowners' mutual insurance funds worldwide.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">234</int>
+        <int name="end">165</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It could take weeks before the extent of the compensation claims for passengers, crew and cargo was known and also before it was known how much, if any, of the ship could be salvaged, said David Larner of Lloyds.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.9412377814990395</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The hull and machinery of the Herald of Free Enterprise were valued at 25 mln stg and were insured by Townsend Thoresen's parent company Peninsular and Oriental Steam Navigation Co Plc &lt;PORL.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">192</int>
-        <double name="strength">0.90083189881766</double>
+        <double name="strength">0.9697983615327694</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Shipping sources said, however, that these claims could soar if a court found there was negligence or design faults involved.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">126</int>
+        <double name="strength">0.7425042397788211</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Larner&lt;/em&gt; said &lt;em&gt;claims&lt;/em&gt; from &lt;em&gt;passengers could&lt;/em&gt; be &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;total&lt;/em&gt; at &lt;em&gt;least&lt;/em&gt; five mln stg, &lt;em&gt;given&lt;/em&gt; the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;deaths&lt;/em&gt; and the &lt;em&gt;normal level&lt;/em&gt; of &lt;em&gt;liability&lt;/em&gt; set by the &lt;em&gt;Athens Convention&lt;/em&gt; of 1974 of &lt;em&gt;between 30,000&lt;/em&gt; stg and 50,000 in case of &lt;em&gt;death&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Passengers,&lt;/em&gt; crew and &lt;em&gt;cargo&lt;/em&gt; were insured by the &lt;em&gt;Standard Steamship Protection&lt;/em&gt; and &lt;em&gt;Indemnity Association,&lt;/em&gt; one of &lt;em&gt;several shipowners' mutual insurance funds worldwide&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;could&lt;/em&gt; take &lt;em&gt;weeks before&lt;/em&gt; the &lt;em&gt;extent&lt;/em&gt; of the &lt;em&gt;compensation claims&lt;/em&gt; for &lt;em&gt;passengers,&lt;/em&gt; crew and &lt;em&gt;cargo&lt;/em&gt; was &lt;em&gt;known&lt;/em&gt; and also &lt;em&gt;before&lt;/em&gt; it was &lt;em&gt;known&lt;/em&gt; how much, if any, of the ship &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;salvaged,&lt;/em&gt; said &lt;em&gt;David Larner&lt;/em&gt; of &lt;em&gt;Lloyds&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The hull and &lt;em&gt;machinery&lt;/em&gt; of the &lt;em&gt;Herald&lt;/em&gt; of Free &lt;em&gt;Enterprise&lt;/em&gt; were &lt;em&gt;valued&lt;/em&gt; at 25 mln stg and were &lt;em&gt;insured&lt;/em&gt; by &lt;em&gt;Townsend Thoresen&lt;/em&gt;'s &lt;em&gt;parent company Peninsular&lt;/em&gt; and &lt;em&gt;Oriental Steam Navigation&lt;/em&gt; Co Plc &lt;PORL.</str>
+        <str name="text">The hull and &lt;em&gt;machinery&lt;/em&gt; of the &lt;em&gt;Herald&lt;/em&gt; of Free &lt;em&gt;Enterprise&lt;/em&gt; were valued at 25 mln stg and were insured by &lt;em&gt;Townsend Thoresen&lt;/em&gt;'s &lt;em&gt;parent company Peninsular&lt;/em&gt; and &lt;em&gt;Oriental Steam Navigation&lt;/em&gt; Co Plc &lt;PORL.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Shipping sources&lt;/em&gt; said, however, that these &lt;em&gt;claims&lt;/em&gt; could soar if a &lt;em&gt;court&lt;/em&gt; found there was &lt;em&gt;negligence&lt;/em&gt; or &lt;em&gt;design faults involved&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

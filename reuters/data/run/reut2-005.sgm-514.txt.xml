@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">26</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-514.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">39</int>
       </lst>
       <lst name="terms">
-        <int name="count">236</int>
+        <int name="count">150</int>
       </lst>
       <lst name="stems">
-        <int name="count">169</int>
+        <int name="count">107</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">senior</str>
+        <str name="text">house</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">switches</str>
-        <double name="strength">0.9999999999999967</double>
+        <str name="text">business</str>
+        <double name="strength">0.992134166333769</double>
       </lst>
       <lst name="term">
-        <str name="text">euroyen</str>
-        <double name="strength">0.5590169943749457</double>
+        <str name="text">coupons</str>
+        <double name="strength">0.9921341663337688</double>
       </lst>
       <lst name="term">
-        <str name="text">bonds</str>
-        <double name="strength">0.5590169943749453</double>
+        <str name="text">points</str>
+        <double name="strength">0.9921341663337676</double>
       </lst>
       <lst name="term">
-        <str name="text">currently</str>
-        <double name="strength">0.5590169943749443</double>
+        <str name="text">quiet</str>
+        <double name="strength">0.9921341663337675</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Although the market is expected to be resting until trading switches to an April value date, the euroyen sector is expected to be buoyed by some professional switching out of Japanese government bonds into relatively cheaper euroyen bonds.</str>
-        <int name="index">33</int>
+        <str name="text">Undertone was very firm with dealers expecting a positive fiscal package tomorrow and, if not more good economic news to boost sterling, at least confirmation of the bull factors which have bolstered eurosterling and gilt-edged bonds lately.</str>
+        <int name="index">28</int>
         <int name="start">1</int>
-        <int name="end">240</int>
+        <int name="end">242</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Given the potential volatility of this market -- one which has been conclusively proved by the events of the last days -- senior management are now duty bound to revise the set of parameters within which they, as market makers, are now to work," commented one senior source at a leading U.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">291</int>
-        <double name="strength">0.951247379193327</double>
+        <str name="text">The market in floating rate notes showed no clear signs of recovery today from the confusion which sent prices tumbling and paralysed trading at the end of last week, dealers and bank officials said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
+        <double name="strength">0.840745454873123</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Despite some late signs that prices were recovering last week, today's erratic trade provided a similarly mixed final picture with longer-dated FRNs still clearly under pressure.</str>
-        <int name="index">2</int>
+        <str name="text">Retail clients, usually seen returning to the market as price falls push yield margins up to these attractive levels, have been unnerved by the last three days' panic, dealers said.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.8223806405710445</double>
+        <int name="end">182</int>
+        <double name="strength">0.8370422534949372</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;resting until trading switches&lt;/em&gt; to an &lt;em&gt;April value&lt;/em&gt; date, the &lt;em&gt;euroyen sector&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;buoyed&lt;/em&gt; by some &lt;em&gt;professional switching&lt;/em&gt; out of &lt;em&gt;Japanese government bonds&lt;/em&gt; into &lt;em&gt;relatively cheaper euroyen bonds&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">&lt;em&gt;Undertone&lt;/em&gt; was very firm with &lt;em&gt;dealers&lt;/em&gt; expecting a &lt;em&gt;positive fiscal package tomorrow&lt;/em&gt; and, if not more good &lt;em&gt;economic&lt;/em&gt; news to &lt;em&gt;boost sterling,&lt;/em&gt; at least &lt;em&gt;confirmation&lt;/em&gt; of the bull &lt;em&gt;factors&lt;/em&gt; which have bolstered &lt;em&gt;eurosterling&lt;/em&gt; and gilt-edged &lt;em&gt;bonds lately&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Given&lt;/em&gt; the &lt;em&gt;potential volatility&lt;/em&gt; of this &lt;em&gt;market --&lt;/em&gt; one &lt;em&gt;which&lt;/em&gt; has been &lt;em&gt;conclusively proved&lt;/em&gt; by the &lt;em&gt;events&lt;/em&gt; of the last days -- &lt;em&gt;senior management&lt;/em&gt; are now duty &lt;em&gt;bound&lt;/em&gt; to &lt;em&gt;revise&lt;/em&gt; the set of &lt;em&gt;parameters within which&lt;/em&gt; they, as &lt;em&gt;market makers,&lt;/em&gt; are now to work," &lt;em&gt;commented&lt;/em&gt; one &lt;em&gt;senior source&lt;/em&gt; at a &lt;em&gt;leading U&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">The &lt;em&gt;market&lt;/em&gt; in floating rate &lt;em&gt;notes&lt;/em&gt; showed no &lt;em&gt;clear signs&lt;/em&gt; of &lt;em&gt;recovery today&lt;/em&gt; from the &lt;em&gt;confusion&lt;/em&gt; which sent &lt;em&gt;prices&lt;/em&gt; tumbling and &lt;em&gt;paralysed trading&lt;/em&gt; at the end of last week, &lt;em&gt;dealers&lt;/em&gt; and bank &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite&lt;/em&gt; some late &lt;em&gt;signs&lt;/em&gt; that &lt;em&gt;prices&lt;/em&gt; were &lt;em&gt;recovering&lt;/em&gt; last week, &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;erratic trade provided&lt;/em&gt; a &lt;em&gt;similarly mixed final picture&lt;/em&gt; with &lt;em&gt;longer-dated&lt;/em&gt; FRNs &lt;em&gt;still clearly under pressure&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Retail clients,&lt;/em&gt; usually seen returning to the &lt;em&gt;market&lt;/em&gt; as &lt;em&gt;price&lt;/em&gt; falls push &lt;em&gt;yield margins&lt;/em&gt; up to these &lt;em&gt;attractive levels,&lt;/em&gt; have been unnerved by the last &lt;em&gt;three&lt;/em&gt; days' &lt;em&gt;panic, dealers said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

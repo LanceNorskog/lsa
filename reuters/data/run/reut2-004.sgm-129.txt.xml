@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-129.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">198</int>
+        <int name="count">143</int>
       </lst>
       <lst name="stems">
-        <int name="count">139</int>
+        <int name="count">102</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">whether</str>
+        <str name="text">money</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">order</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">access</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">before</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">paris</str>
+        <double name="strength">0.9904173305044095</double>
       </lst>
       <lst name="term">
-        <str name="text">expertise</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9904173305044072</double>
       </lst>
       <lst name="term">
-        <str name="text">might</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">prospective</str>
+        <double name="strength">0.9746241332961284</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">According to a study by the Bourse official watchdog body COB in January, dealing fees on a transaction in shares for a gross total of 1,000 francs were 14.86 pct if the order was placed directly by a broker, against 20.79 pct for the same order passed through a bank.</str>
-        <int name="index">27</int>
+        <str name="text">Cointreau, founder and chairman of the private market analysis company Centre d'Observation et de Prospective Sociales (COPS), said the reform was a natural development.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">269</int>
+        <int name="end">170</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some brokers said the opening up of their capital to banks could pose questions such as whether the major banks might all aim for stakes in the most prestigious and best-performing brokerage houses, or whether the smaller houses might be targetted for swallowing up to give banks an easy entry onto the Bourse.</str>
-        <int name="index">22</int>
+        <str name="text">Dealers agreed generally that by allowing brokers to reinforce their equity capital, the reform was expected to improve their ability to take large positions in stocks and bolster the liquidity of the Paris market.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">311</int>
-        <double name="strength">0.9351247031158199</double>
+        <int name="end">215</int>
+        <double name="strength">0.9919244402666533</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The planned reform, expected to be put before Parliament before the end of the Spring session, will open up the capital of the 45 Paris and 15 regional stockbroker houses in three stages beginning on January 1 next year.</str>
-        <int name="index">5</int>
+        <str name="text">The aim of the move, following the examples of Tokyo and London in opening up their tightly-controlled membership, was "to take up the challenge of European financial integration and fierce international competition," Balladur announced.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">221</int>
-        <double name="strength">0.8823891180221233</double>
+        <int name="end">238</int>
+        <double name="strength">0.9530801230328859</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to a &lt;em&gt;study&lt;/em&gt; by the &lt;em&gt;Bourse official watchdog&lt;/em&gt; body COB in &lt;em&gt;January, dealing&lt;/em&gt; fees on a &lt;em&gt;transaction&lt;/em&gt; in &lt;em&gt;shares&lt;/em&gt; for a &lt;em&gt;gross total&lt;/em&gt; of 1,000 &lt;em&gt;francs&lt;/em&gt; were 14.86 pct if the &lt;em&gt;order&lt;/em&gt; was &lt;em&gt;placed directly&lt;/em&gt; by a &lt;em&gt;broker, against 20.79&lt;/em&gt; pct for the same &lt;em&gt;order passed through&lt;/em&gt; a bank.</str>
-        <int name="index">27</int>
+        <str name="text">&lt;em&gt;Cointreau, founder&lt;/em&gt; and &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;private market analysis company Centre&lt;/em&gt; d'&lt;em&gt;Observation&lt;/em&gt; et de &lt;em&gt;Prospective Sociales &lt;/em&gt;(COPS), said the &lt;em&gt;reform&lt;/em&gt; was a &lt;em&gt;natural development&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;brokers&lt;/em&gt; said the &lt;em&gt;opening&lt;/em&gt; up of &lt;em&gt;their capital&lt;/em&gt; to &lt;em&gt;banks could&lt;/em&gt; pose &lt;em&gt;questions&lt;/em&gt; such as &lt;em&gt;whether&lt;/em&gt; the &lt;em&gt;major banks might&lt;/em&gt; all aim for &lt;em&gt;stakes&lt;/em&gt; in the most &lt;em&gt;prestigious&lt;/em&gt; and best-&lt;em&gt;performing brokerage houses,&lt;/em&gt; or &lt;em&gt;whether&lt;/em&gt; the &lt;em&gt;smaller houses might&lt;/em&gt; be &lt;em&gt;targetted&lt;/em&gt; for &lt;em&gt;swallowing&lt;/em&gt; up to give &lt;em&gt;banks&lt;/em&gt; an easy &lt;em&gt;entry&lt;/em&gt; onto the &lt;em&gt;Bourse&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; agreed generally that by allowing &lt;em&gt;brokers&lt;/em&gt; to &lt;em&gt;reinforce&lt;/em&gt; their &lt;em&gt;equity capital,&lt;/em&gt; the &lt;em&gt;reform&lt;/em&gt; was expected to &lt;em&gt;improve&lt;/em&gt; their &lt;em&gt;ability&lt;/em&gt; to take &lt;em&gt;large positions&lt;/em&gt; in &lt;em&gt;stocks&lt;/em&gt; and &lt;em&gt;bolster&lt;/em&gt; the &lt;em&gt;liquidity&lt;/em&gt; of the &lt;em&gt;Paris market&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;planned reform, expected&lt;/em&gt; to be put &lt;em&gt;before Parliament before&lt;/em&gt; the end of the &lt;em&gt;Spring session,&lt;/em&gt; will open up the &lt;em&gt;capital&lt;/em&gt; of the 45 &lt;em&gt;Paris&lt;/em&gt; and 15 &lt;em&gt;regional stockbroker houses&lt;/em&gt; in &lt;em&gt;three stages beginning&lt;/em&gt; on &lt;em&gt;January 1&lt;/em&gt; next year.</str>
-        <int name="index">5</int>
+        <str name="text">The aim of the move, following the &lt;em&gt;examples&lt;/em&gt; of &lt;em&gt;Tokyo&lt;/em&gt; and &lt;em&gt;London&lt;/em&gt; in opening up their tightly-controlled &lt;em&gt;membership,&lt;/em&gt; was "to take up the &lt;em&gt;challenge&lt;/em&gt; of European &lt;em&gt;financial integration&lt;/em&gt; and &lt;em&gt;fierce international competition," Balladur announced&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

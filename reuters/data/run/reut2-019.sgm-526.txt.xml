@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-526.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">86</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">scale</str>
+        <str name="text">operational</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">totalled</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">commissioning</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">profitable</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">levels</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forward</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">action</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consolidation</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">items</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rice said BHP Steel's capital spending in 1987 totalled 701 mln dlrs, and that total expenditure would be about 1.4 billion dlrs by the time the government's five-year Steel Industry Plan expires at the end of calendar 1988.</str>
-        <int name="index">4</int>
+        <str name="text">The new items of plant are now past their initial teething problems and talks have intensified with the unions on the industrial troubles, he said.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9416072449921217</double>
+        <int name="end">148</int>
+        <double name="strength">0.8889551266765334</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Operational and commissioning problems flowing from the investment program, combined with the highest levels of industrial action since the steel plan started, had contributed to the decline in 1987 earnings, he said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">218</int>
-        <double name="strength">0.9163915819633408</double>
+        <double name="strength">0.834175657538891</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"We look &lt;em&gt;forward&lt;/em&gt; to a 1988 year of &lt;em&gt;consolidation while continuing&lt;/em&gt; our &lt;em&gt;strong business development initiatives,"&lt;/em&gt; BHP &lt;em&gt;Steel chief executive officer David&lt;/em&gt; Rice told &lt;em&gt;reporters&lt;/em&gt;.</str>
+        <str name="text">"We look forward to a 1988 year of &lt;em&gt;consolidation&lt;/em&gt; while continuing our &lt;em&gt;strong business development initiatives,"&lt;/em&gt; BHP &lt;em&gt;Steel chief executive officer&lt;/em&gt; David Rice told &lt;em&gt;reporters&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rice said BHP &lt;em&gt;Steel&lt;/em&gt;'s &lt;em&gt;capital spending&lt;/em&gt; in 1987 &lt;em&gt;totalled 701&lt;/em&gt; mln dlrs, and that &lt;em&gt;total expenditure would&lt;/em&gt; be &lt;em&gt;about 1.4 billion&lt;/em&gt; dlrs by the time the &lt;em&gt;government&lt;/em&gt;'s five-year &lt;em&gt;Steel Industry&lt;/em&gt; Plan &lt;em&gt;expires&lt;/em&gt; at the end of &lt;em&gt;calendar 1988&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The new &lt;em&gt;items&lt;/em&gt; of &lt;em&gt;plant&lt;/em&gt; are now past their &lt;em&gt;initial teething problems&lt;/em&gt; and &lt;em&gt;talks&lt;/em&gt; have intensified with the &lt;em&gt;unions&lt;/em&gt; on the &lt;em&gt;industrial troubles,&lt;/em&gt; he said.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Operational&lt;/em&gt; and &lt;em&gt;commissioning problems flowing&lt;/em&gt; from the &lt;em&gt;investment program, combined&lt;/em&gt; with the &lt;em&gt;highest levels&lt;/em&gt; of &lt;em&gt;industrial action since&lt;/em&gt; the &lt;em&gt;steel&lt;/em&gt; plan &lt;em&gt;started,&lt;/em&gt; had &lt;em&gt;contributed&lt;/em&gt; to the &lt;em&gt;decline&lt;/em&gt; in 1987 &lt;em&gt;earnings,&lt;/em&gt; he said.</str>
+        <str name="text">&lt;em&gt;Operational&lt;/em&gt; and &lt;em&gt;commissioning problems&lt;/em&gt; flowing from the &lt;em&gt;investment program,&lt;/em&gt; combined with the highest &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;industrial action&lt;/em&gt; since the &lt;em&gt;steel&lt;/em&gt; plan started, had contributed to the &lt;em&gt;decline&lt;/em&gt; in 1987 &lt;em&gt;earnings,&lt;/em&gt; he said.</str>
         <int name="index">6</int>
       </lst>
     </lst>

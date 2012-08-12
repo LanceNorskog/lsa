@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-494.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">under</str>
+        <str name="text">recommendation</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">korea</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">remain</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">successor</str>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">reaction</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">221</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The second surprise in Roh's proposals was an amnesty for leading dissident Kim Dae-jung, who has been banned from politics because of a suspended sentence for sedition charges.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.8712176768981148</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Among other major changes, the package offers a release of most political prisoners, a guarantee of human rights and a free press.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">131</int>
-        <double name="strength">0.8632264308568699</double>
+        <double name="strength">0.9290838096731971</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I have reached the conclusion that I cannot but choose the direct presidential election system to overcome social confusion and achieve national compromise," Roh said.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">169</int>
+        <double name="strength">0.9202617649265349</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Roh, &lt;em&gt;whose confirmation&lt;/em&gt; as &lt;em&gt;government candidate&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt; Chun &lt;em&gt;sparked weeks&lt;/em&gt; of &lt;em&gt;massive demonstrations around&lt;/em&gt; the &lt;em&gt;country,&lt;/em&gt; said he &lt;em&gt;would withdraw&lt;/em&gt; his &lt;em&gt;candidacy&lt;/em&gt; and quit his DJP post if Chun &lt;em&gt;failed&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; the &lt;em&gt;package&lt;/em&gt;.</str>
+        <str name="text">Roh, whose &lt;em&gt;confirmation&lt;/em&gt; as &lt;em&gt;government candidate&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt; Chun sparked &lt;em&gt;weeks&lt;/em&gt; of &lt;em&gt;massive demonstrations&lt;/em&gt; around the &lt;em&gt;country,&lt;/em&gt; said he would &lt;em&gt;withdraw&lt;/em&gt; his &lt;em&gt;candidacy&lt;/em&gt; and quit his DJP post if Chun failed to &lt;em&gt;accept&lt;/em&gt; the &lt;em&gt;package&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;second surprise&lt;/em&gt; in Roh's &lt;em&gt;proposals&lt;/em&gt; was an &lt;em&gt;amnesty&lt;/em&gt; for &lt;em&gt;leading dissident&lt;/em&gt; Kim Dae-jung, who has been &lt;em&gt;banned&lt;/em&gt; from &lt;em&gt;politics because&lt;/em&gt; of a &lt;em&gt;suspended sentence&lt;/em&gt; for &lt;em&gt;sedition charges&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Among &lt;em&gt;other major changes,&lt;/em&gt; the &lt;em&gt;package&lt;/em&gt; offers a &lt;em&gt;release&lt;/em&gt; of most &lt;em&gt;political prisoners,&lt;/em&gt; a &lt;em&gt;guarantee&lt;/em&gt; of &lt;em&gt;human rights&lt;/em&gt; and a free &lt;em&gt;press&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Among other major changes,&lt;/em&gt; the &lt;em&gt;package offers&lt;/em&gt; a &lt;em&gt;release&lt;/em&gt; of most &lt;em&gt;political prisoners,&lt;/em&gt; a &lt;em&gt;guarantee&lt;/em&gt; of &lt;em&gt;human rights&lt;/em&gt; and a free &lt;em&gt;press&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">"I have reached the &lt;em&gt;conclusion&lt;/em&gt; that I cannot but &lt;em&gt;choose&lt;/em&gt; the &lt;em&gt;direct presidential election system&lt;/em&gt; to &lt;em&gt;overcome social confusion&lt;/em&gt; and &lt;em&gt;achieve national compromise,"&lt;/em&gt; Roh said.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

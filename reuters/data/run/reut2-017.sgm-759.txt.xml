@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-759.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">competitors</str>
+        <str name="text">leveraged</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">right</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">arbitrageurs</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">analyst</str>
+        <double name="strength">0.9917320401144689</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9917320401144689</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Drysdale said Pay N' Pak has better trained sales people than many competitors, but it competes on price even though competitors have lower costs.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He noted that there have been no other publicly identified bidders stepping forward since the company rejected an earlier Bilzerian proposal in mid-April.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">154</int>
-        <double name="strength">0.8540784507292094</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Pay N' Pak gave no details about the buyout group, but did say the offer was contingent on financing and on an agrreement regarding management's equity participation.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.8273149339882596</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Scott Drysdale, analyst at Birr Wilson Securities, said the company has not made the best strategic moves over the years.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">122</int>
+        <double name="strength">0.9681024897318223</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Asked what would happen if the leveraged buyout group, which the company did not identify, topped his offer between now and the board meeting, Bilzerian said he expected an opportunity to respond.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
+        <double name="strength">0.9510415452012912</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Drysdale&lt;/em&gt; said Pay N' Pak has &lt;em&gt;better trained sales people&lt;/em&gt; than many &lt;em&gt;competitors,&lt;/em&gt; but it &lt;em&gt;competes&lt;/em&gt; on &lt;em&gt;price&lt;/em&gt; even &lt;em&gt;though competitors&lt;/em&gt; have &lt;em&gt;lower costs&lt;/em&gt;.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He &lt;em&gt;noted&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; have been no &lt;em&gt;other publicly identified bidders stepping forward since&lt;/em&gt; the &lt;em&gt;company rejected&lt;/em&gt; an &lt;em&gt;earlier Bilzerian proposal&lt;/em&gt; in mid-&lt;em&gt;April&lt;/em&gt;.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Pay N' Pak gave no &lt;em&gt;details about&lt;/em&gt; the &lt;em&gt;buyout group,&lt;/em&gt; but did say the &lt;em&gt;offer&lt;/em&gt; was &lt;em&gt;contingent&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt; and on an &lt;em&gt;agrreement regarding management&lt;/em&gt;'s &lt;em&gt;equity participation&lt;/em&gt;.</str>
+        <str name="text">Pay N' Pak gave no &lt;em&gt;details&lt;/em&gt; about the &lt;em&gt;buyout group,&lt;/em&gt; but did say the &lt;em&gt;offer&lt;/em&gt; was &lt;em&gt;contingent&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt; and on an &lt;em&gt;agrreement&lt;/em&gt; regarding &lt;em&gt;management&lt;/em&gt;'s &lt;em&gt;equity participation&lt;/em&gt;.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Scott Drysdale, analyst&lt;/em&gt; at Birr &lt;em&gt;Wilson Securities,&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; has not made the best &lt;em&gt;strategic moves&lt;/em&gt; over the &lt;em&gt;years&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Asked what would &lt;em&gt;happen&lt;/em&gt; if the &lt;em&gt;leveraged buyout group,&lt;/em&gt; which the &lt;em&gt;company&lt;/em&gt; did not &lt;em&gt;identify,&lt;/em&gt; topped his &lt;em&gt;offer&lt;/em&gt; between now and the &lt;em&gt;board meeting, Bilzerian&lt;/em&gt; said he expected an &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;respond&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

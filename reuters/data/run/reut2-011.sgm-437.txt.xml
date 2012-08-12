@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-437.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">corporations</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">change</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">duties</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">insurance</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">negligence</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">violation</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">pursuit</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">principal</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">lawsuits</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Shareholders are being asked to approve an amendment to the company's certificate to eliminate directors' maximum personal monetary liability to the limit New Jersey allows.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company said that the principal effect of the measure "will be to eliminate potential monetary damage actions against directors."</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">134</int>
+        <double name="strength">0.9675993230142197</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Exxon said that it had currently purchased such insurance from a captive insurance copany in the amount of 50 mln dlrs in excess of 50 mln dlrs issued by independent companies to Exxon to indemnify its directors.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">213</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The company said it was taking the opportunity to change its bylaws and incoroporation certificate following changes in the law of New Jersey, where the company is incoporated.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.9243829558725909</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It does not limit their liability for actions taken in knowing violation of the law, nor will it limit potential liabilities from violations of federal securities laws, the company said in its proxy statemernt.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">0.870104329988293</double>
+        <double name="strength">0.950694458387181</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Exxon&lt;/em&gt; said that it had &lt;em&gt;currently purchased&lt;/em&gt; such &lt;em&gt;insurance&lt;/em&gt; from a &lt;em&gt;captive insurance copany&lt;/em&gt; in the &lt;em&gt;amount&lt;/em&gt; of 50 mln dlrs in &lt;em&gt;excess&lt;/em&gt; of 50 mln dlrs &lt;em&gt;issued&lt;/em&gt; by &lt;em&gt;independent companies&lt;/em&gt; to &lt;em&gt;Exxon&lt;/em&gt; to &lt;em&gt;indemnify&lt;/em&gt; its &lt;em&gt;directors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Shareholders&lt;/em&gt; are being asked to &lt;em&gt;approve&lt;/em&gt; an &lt;em&gt;amendment&lt;/em&gt; to the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;certificate&lt;/em&gt; to &lt;em&gt;eliminate directors' maximum personal monetary liability&lt;/em&gt; to the &lt;em&gt;limit&lt;/em&gt; New &lt;em&gt;Jersey allows&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said that the &lt;em&gt;principal effect&lt;/em&gt; of the &lt;em&gt;measure &lt;/em&gt;"will be to &lt;em&gt;eliminate potential monetary damage actions&lt;/em&gt; against &lt;em&gt;directors.&lt;/em&gt;"</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Exxon&lt;/em&gt; said that it had currently purchased such &lt;em&gt;insurance&lt;/em&gt; from a &lt;em&gt;captive insurance copany&lt;/em&gt; in the &lt;em&gt;amount&lt;/em&gt; of 50 mln dlrs in &lt;em&gt;excess&lt;/em&gt; of 50 mln dlrs issued by &lt;em&gt;independent companies&lt;/em&gt; to &lt;em&gt;Exxon&lt;/em&gt; to &lt;em&gt;indemnify&lt;/em&gt; its &lt;em&gt;directors&lt;/em&gt;.</str>
         <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it was &lt;em&gt;taking&lt;/em&gt; the &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt; its &lt;em&gt;bylaws&lt;/em&gt; and &lt;em&gt;incoroporation certificate following changes&lt;/em&gt; in the law of New &lt;em&gt;Jersey, where&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; is &lt;em&gt;incoporated&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It does not &lt;em&gt;limit their liability&lt;/em&gt; for &lt;em&gt;actions taken&lt;/em&gt; in &lt;em&gt;knowing violation&lt;/em&gt; of the law, nor will it &lt;em&gt;limit potential liabilities&lt;/em&gt; from &lt;em&gt;violations&lt;/em&gt; of &lt;em&gt;federal securities&lt;/em&gt; laws, the &lt;em&gt;company&lt;/em&gt; said in its &lt;em&gt;proxy statemernt&lt;/em&gt;.</str>
-        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

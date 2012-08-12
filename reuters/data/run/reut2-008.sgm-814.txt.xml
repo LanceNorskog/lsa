@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-814.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">113</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">acres</str>
+        <str name="text">uncertainty</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">native</str>
-        <double name="strength">0.5590169943749467</double>
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5</double>
+        <str name="text">december</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">involved</str>
-        <double name="strength">0.5</double>
+        <str name="text">officials</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">generated</str>
-        <double name="strength">0.5</double>
+        <str name="text">sales</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">216</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">And on the other side of the balance of harms was the fact that the oil companies had committed approximately 70 mln dlrs to exploration to be conducted during the summer of 1985 which they would have lost without chance of recovery had exploration been enjoined," he said.</str>
-        <int name="index">7</int>
+        <str name="text">A unanimous Supreme Court ruled that oil and gas exploration can proceed on two tracts off the Alaska coast which were leased by the federal government to eight major oil companies.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">273</int>
-        <double name="strength">0.9391751548541994</double>
+        <int name="end">181</int>
+        <double name="strength">0.8119338872578681</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The ruling was an important victory for the oil companies and the Reagan administration's controversial off-shore leasing program and a setback for two small Alaskan villages that challenged the leases by claiming damage to the environment.</str>
-        <int name="index">1</int>
+        <str name="text">A federal appeals court ordered the oil companies to halt all exploration and remove all drilling rigs from two tracts in the Bering Sea off Alaska because of possible harm to the subsistence needs and culture of native Eskimos.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">241</int>
-        <double name="strength">0.9315565878595021</double>
+        <int name="end">229</int>
+        <double name="strength">0.8088755019033026</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The oil &lt;em&gt;companies, Amoco&lt;/em&gt; Corp &lt;AN&gt;, ARCO, &lt;em&gt;Exxon&lt;/em&gt; Corp &lt;XON&gt;, &lt;em&gt;Mobil&lt;/em&gt; Corp &lt;MOB&gt;, &lt;em&gt;Sohio, Shell, Texaco&lt;/em&gt; Inc &lt;TX&gt; and &lt;em&gt;Union&lt;/em&gt; Oil, had said that &lt;em&gt;voiding previously granted leases would result&lt;/em&gt; in &lt;em&gt;staggering financial losses&lt;/em&gt;.</str>
+        <str name="text">The oil &lt;em&gt;companies, Amoco&lt;/em&gt; Corp &lt;AN&gt;, ARCO, &lt;em&gt;Exxon&lt;/em&gt; Corp &lt;XON&gt;, &lt;em&gt;Mobil&lt;/em&gt; Corp &lt;MOB&gt;, &lt;em&gt;Sohio, Shell, Texaco&lt;/em&gt; Inc &lt;TX&gt; and &lt;em&gt;Union&lt;/em&gt; Oil, had said that &lt;em&gt;voiding&lt;/em&gt; previously granted &lt;em&gt;leases&lt;/em&gt; would &lt;em&gt;result&lt;/em&gt; in &lt;em&gt;staggering financial losses&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">And on the &lt;em&gt;other&lt;/em&gt; side of the &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;harms&lt;/em&gt; was the fact that the oil &lt;em&gt;companies&lt;/em&gt; had &lt;em&gt;committed approximately 70&lt;/em&gt; mln dlrs to &lt;em&gt;exploration&lt;/em&gt; to be &lt;em&gt;conducted during&lt;/em&gt; the &lt;em&gt;summer&lt;/em&gt; of 1985 &lt;em&gt;which&lt;/em&gt; they &lt;em&gt;would&lt;/em&gt; have lost &lt;em&gt;without chance&lt;/em&gt; of &lt;em&gt;recovery&lt;/em&gt; had &lt;em&gt;exploration&lt;/em&gt; been &lt;em&gt;enjoined,"&lt;/em&gt; he said.</str>
-        <int name="index">7</int>
+        <str name="text">A &lt;em&gt;unanimous Supreme Court&lt;/em&gt; ruled that oil and gas &lt;em&gt;exploration&lt;/em&gt; can &lt;em&gt;proceed&lt;/em&gt; on two &lt;em&gt;tracts&lt;/em&gt; off the &lt;em&gt;Alaska coast&lt;/em&gt; which were leased by the &lt;em&gt;federal government&lt;/em&gt; to &lt;em&gt;eight major&lt;/em&gt; oil &lt;em&gt;companies&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;ruling&lt;/em&gt; was an &lt;em&gt;important victory&lt;/em&gt; for the oil &lt;em&gt;companies&lt;/em&gt; and the &lt;em&gt;Reagan administration&lt;/em&gt;'s &lt;em&gt;controversial&lt;/em&gt; off-&lt;em&gt;shore leasing program&lt;/em&gt; and a &lt;em&gt;setback&lt;/em&gt; for two &lt;em&gt;small Alaskan villages&lt;/em&gt; that &lt;em&gt;challenged&lt;/em&gt; the &lt;em&gt;leases&lt;/em&gt; by &lt;em&gt;claiming damage&lt;/em&gt; to the &lt;em&gt;environment&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">A &lt;em&gt;federal appeals court&lt;/em&gt; ordered the oil &lt;em&gt;companies&lt;/em&gt; to halt all &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;remove&lt;/em&gt; all &lt;em&gt;drilling&lt;/em&gt; rigs from two &lt;em&gt;tracts&lt;/em&gt; in the &lt;em&gt;Bering&lt;/em&gt; Sea off Alaska because of &lt;em&gt;possible&lt;/em&gt; harm to the &lt;em&gt;subsistence needs&lt;/em&gt; and &lt;em&gt;culture&lt;/em&gt; of &lt;em&gt;native Eskimos&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

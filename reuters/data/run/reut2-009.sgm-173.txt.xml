@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-173.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">singapore</str>
+        <str name="text">private</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.7806247497998002</double>
+        <str name="text">general</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">public</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">limits</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">private</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">declining</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9668760164118341</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Malaysia's external debts total 48 to 49 billion ringgit and its debt service ratio exceeds 20 pct, the Development Bank of Singapore Ltd, one of Singapore's four major local banks, said in a report released this week.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">With declining incomes and export earnings, the bases for resource generation became limited, and the government will not raise taxes because current tax margins are high compared to Malaysia's neighbours, he said.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9776570215129581</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Malaysian Finance Minister Daim Zainuddin presented a budget for 1987 which foresees a deficit of 9.4 billion ringgit, down from 11.6 billion in 1986, with federal spending targetted at 27.4 billion, down from 30.8 billion, and revenue at 18 billion against 19.2 billion.</str>
-        <int name="index">13</int>
+        <str name="text">Azraai said: "While the growth in debt has been rapid in recent years, it is still within the limits of prudence and conscious efforts have been made and will continue to be made to decelerate and restrain external borrowings."</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">272</int>
-        <double name="strength">0.9227151232582494</double>
+        <int name="end">228</int>
+        <double name="strength">0.989814889110993</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A higher proportion of foreign ownership, even up to 100 pct, is now possible for new investments in the manufacturing sector made between October 1986 and December 1990, he said.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.8135301329699844</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;external debts total 48&lt;/em&gt; to 49 &lt;em&gt;billion ringgit&lt;/em&gt; and its debt &lt;em&gt;service ratio exceeds 20&lt;/em&gt; pct, the &lt;em&gt;Development&lt;/em&gt; Bank of &lt;em&gt;Singapore&lt;/em&gt; Ltd, one of &lt;em&gt;Singapore&lt;/em&gt;'s four &lt;em&gt;major local banks,&lt;/em&gt; said in a &lt;em&gt;report released&lt;/em&gt; this week.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">With &lt;em&gt;declining incomes&lt;/em&gt; and &lt;em&gt;export earnings,&lt;/em&gt; the &lt;em&gt;bases&lt;/em&gt; for &lt;em&gt;resource generation became limited,&lt;/em&gt; and the &lt;em&gt;government&lt;/em&gt; will not &lt;em&gt;raise taxes because current&lt;/em&gt; tax &lt;em&gt;margins&lt;/em&gt; are high &lt;em&gt;compared&lt;/em&gt; to &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;neighbours,&lt;/em&gt; he said.</str>
+        <str name="text">With declining &lt;em&gt;incomes&lt;/em&gt; and &lt;em&gt;export earnings,&lt;/em&gt; the &lt;em&gt;bases&lt;/em&gt; for &lt;em&gt;resource generation&lt;/em&gt; became &lt;em&gt;limited,&lt;/em&gt; and the &lt;em&gt;government&lt;/em&gt; will not &lt;em&gt;raise taxes&lt;/em&gt; because &lt;em&gt;current&lt;/em&gt; tax &lt;em&gt;margins&lt;/em&gt; are high compared to &lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;neighbours,&lt;/em&gt; he said.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysian Finance Minister&lt;/em&gt; Daim &lt;em&gt;Zainuddin presented&lt;/em&gt; a &lt;em&gt;budget&lt;/em&gt; for 1987 &lt;em&gt;which foresees&lt;/em&gt; a &lt;em&gt;deficit&lt;/em&gt; of 9.4 &lt;em&gt;billion ringgit,&lt;/em&gt; down from 11.6 &lt;em&gt;billion&lt;/em&gt; in 1986, with &lt;em&gt;federal spending targetted&lt;/em&gt; at 27.4 &lt;em&gt;billion,&lt;/em&gt; down from 30.8 &lt;em&gt;billion,&lt;/em&gt; and &lt;em&gt;revenue&lt;/em&gt; at 18 &lt;em&gt;billion against 19.2 billion&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Azraai&lt;/em&gt; said: "While the &lt;em&gt;growth&lt;/em&gt; in debt has been &lt;em&gt;rapid&lt;/em&gt; in &lt;em&gt;recent years,&lt;/em&gt; it is still within the &lt;em&gt;limits&lt;/em&gt; of &lt;em&gt;prudence&lt;/em&gt; and &lt;em&gt;conscious efforts&lt;/em&gt; have been made and will &lt;em&gt;continue&lt;/em&gt; to be made to &lt;em&gt;decelerate&lt;/em&gt; and &lt;em&gt;restrain external borrowings.&lt;/em&gt;"</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A higher &lt;em&gt;proportion&lt;/em&gt; of &lt;em&gt;foreign ownership,&lt;/em&gt; even up to 100 pct, is now &lt;em&gt;possible&lt;/em&gt; for new &lt;em&gt;investments&lt;/em&gt; in the &lt;em&gt;manufacturing sector&lt;/em&gt; made between &lt;em&gt;October 1986&lt;/em&gt; and &lt;em&gt;December 1990,&lt;/em&gt; he said.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

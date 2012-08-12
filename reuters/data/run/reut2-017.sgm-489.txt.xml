@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-489.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">39</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">123</int>
+        <int name="count">79</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">general</str>
+        <str name="text">asset</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">motors</str>
-        <double name="strength">1.0</double>
+        <str name="text">billions</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">sidelines</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">large</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">power</str>
+        <double name="strength">0.992134166333768</double>
       </lst>
       <lst name="term">
-        <str name="text">street</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">boston</str>
+        <double name="strength">0.9921341663337676</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. automakers accounted for the bulk of last year's offerings, with General Motors Corp's &lt;GM&gt; General Motors Acceptance Corp taking the lion's share of that.</str>
-        <int name="index">35</int>
-        <int name="start">0</int>
-        <int name="end">158</int>
+        <str name="text">The Marine Midland cars deal is rated a top-flight AAA by both Moody's and Standard and Poor's because it is backed by a letter of credit by Union Bank of Switzerland.</str>
+        <int name="index">36</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Recently, Imperial Savings and Loan Association of San Diego filed a registration statement with the SEC covering 100 mln dlrs of credit card backed debt, underwriters noted.</str>
         <int name="index">37</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.8051814519502728</double>
+        <double name="strength">0.9691910094248609</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Treasurers have been sitting on the sidelines for weeks, waiting to pounce," said an underwriter with a large Wall Street house.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">130</int>
-        <double name="strength">0.7740257111253955</double>
+        <double name="strength">0.9117281471377319</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;automakers accounted&lt;/em&gt; for the bulk of last year's &lt;em&gt;offerings,&lt;/em&gt; with &lt;em&gt;General Motors&lt;/em&gt; Corp's &lt;GM&gt; &lt;em&gt;General Motors Acceptance&lt;/em&gt; Corp &lt;em&gt;taking&lt;/em&gt; the lion's &lt;em&gt;share&lt;/em&gt; of that.</str>
-        <int name="index">35</int>
+        <str name="text">The &lt;em&gt;Marine Midland&lt;/em&gt; cars deal is rated a top-&lt;em&gt;flight&lt;/em&gt; AAA by both &lt;em&gt;Moody&lt;/em&gt;'s and &lt;em&gt;Standard&lt;/em&gt; and Poor's because it is backed by a &lt;em&gt;letter&lt;/em&gt; of &lt;em&gt;credit&lt;/em&gt; by &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland&lt;/em&gt;.</str>
+        <int name="index">36</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Recently, Imperial Savings&lt;/em&gt; and Loan &lt;em&gt;Association&lt;/em&gt; of San &lt;em&gt;Diego filed&lt;/em&gt; a &lt;em&gt;registration statement&lt;/em&gt; with the SEC &lt;em&gt;covering 100&lt;/em&gt; mln dlrs of &lt;em&gt;credit&lt;/em&gt; card &lt;em&gt;backed&lt;/em&gt; debt, &lt;em&gt;underwriters noted&lt;/em&gt;.</str>
+        <str name="text">Recently, &lt;em&gt;Imperial Savings&lt;/em&gt; and Loan &lt;em&gt;Association&lt;/em&gt; of San &lt;em&gt;Diego&lt;/em&gt; filed a &lt;em&gt;registration statement&lt;/em&gt; with the SEC covering 100 mln dlrs of &lt;em&gt;credit&lt;/em&gt; card backed debt, &lt;em&gt;underwriters noted&lt;/em&gt;.</str>
         <int name="index">37</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Treasurers&lt;/em&gt; have been &lt;em&gt;sitting&lt;/em&gt; on the &lt;em&gt;sidelines&lt;/em&gt; for &lt;em&gt;weeks, waiting&lt;/em&gt; to &lt;em&gt;pounce,"&lt;/em&gt; said an &lt;em&gt;underwriter&lt;/em&gt; with a &lt;em&gt;large&lt;/em&gt; Wall &lt;em&gt;Street house&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"Treasurers&lt;/em&gt; have been sitting on the &lt;em&gt;sidelines&lt;/em&gt; for &lt;em&gt;weeks,&lt;/em&gt; waiting to &lt;em&gt;pounce,"&lt;/em&gt; said an &lt;em&gt;underwriter&lt;/em&gt; with a &lt;em&gt;large&lt;/em&gt; Wall &lt;em&gt;Street house&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
     </lst>

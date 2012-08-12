@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-359.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">nothing</str>
+        <str name="text">range</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.5</double>
+        <str name="text">sloane</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">impact</str>
-        <double name="strength">0.5</double>
+        <str name="text">advance</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">changes</str>
-        <double name="strength">0.5</double>
+        <str name="text">summit</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">contrary</str>
-        <double name="strength">0.4999999999999999</double>
+        <str name="text">european</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Currency futures are likely to move higher following the sharp rally today after President Reagan announced that Paul Volcker would not accept a third term as Federal Reserve Chairman and that Alan Greenspan was nominated as his replacement, currency analysts said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">265</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Greenspan said today that the dollar appeared to be nearing a bottom, but the market will bear in mind his remarks in Chicago last week that the dollar's recent move upward was a technical reaction and that it would trade significantly lower, analysts said.</str>
-        <int name="index">4</int>
+        <str name="text">"Disappointment of European central bankers over the appointment will be used as an opportunity to sell the dollar lower," said Manufacturers Hanover Futures vice president Carol Mackoff.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">258</int>
-        <double name="strength">0.9713389252269556</double>
+        <int name="end">188</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. budget deficit is too much of a burden on monetary policy and that Volcker was unable to get the commitment he sought to reduce the deficit, added Merrill Lynch Economics analyst David Horner.</str>
-        <int name="index">7</int>
+        <str name="text">Smith Barney, Harris Upham and Co. analyst Craig Sloane said European currencies will likely move to the higher end of their 1987 ranges after today's sharp advance.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.9709158088478579</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said September marks could close in on 0.5700 as an upside target, while Swiss francs could climb to a range between 0.6900 and 0.6950.</str>
+        <int name="index">20</int>
         <int name="start">0</int>
-        <int name="end">195</int>
-        <double name="strength">0.9437655871486169</double>
+        <int name="end">138</int>
+        <double name="strength">0.8992374312162941</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Currency futures&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to move &lt;em&gt;higher following&lt;/em&gt; the &lt;em&gt;sharp rally today after President Reagan announced&lt;/em&gt; that Paul &lt;em&gt;Volcker would&lt;/em&gt; not &lt;em&gt;accept&lt;/em&gt; a &lt;em&gt;third&lt;/em&gt; term as &lt;em&gt;Federal Reserve Chairman&lt;/em&gt; and that Alan &lt;em&gt;Greenspan&lt;/em&gt; was &lt;em&gt;nominated&lt;/em&gt; as his &lt;em&gt;replacement, currency analysts said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;"Disappointment&lt;/em&gt; of &lt;em&gt;European central bankers&lt;/em&gt; over the &lt;em&gt;appointment&lt;/em&gt; will be used as an &lt;em&gt;opportunity&lt;/em&gt; to sell the &lt;em&gt;dollar&lt;/em&gt; lower," said &lt;em&gt;Manufacturers&lt;/em&gt; Hanover &lt;em&gt;Futures&lt;/em&gt; vice &lt;em&gt;president Carol Mackoff&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Greenspan&lt;/em&gt; said &lt;em&gt;today&lt;/em&gt; that the &lt;em&gt;dollar appeared&lt;/em&gt; to be &lt;em&gt;nearing&lt;/em&gt; a &lt;em&gt;bottom,&lt;/em&gt; but the &lt;em&gt;market&lt;/em&gt; will bear in mind his &lt;em&gt;remarks&lt;/em&gt; in &lt;em&gt;Chicago&lt;/em&gt; last week that the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;recent&lt;/em&gt; move &lt;em&gt;upward&lt;/em&gt; was a &lt;em&gt;technical reaction&lt;/em&gt; and that it &lt;em&gt;would trade significantly lower, analysts said&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Smith Barney, Harris Upham&lt;/em&gt; and Co. &lt;em&gt;analyst Craig Sloane&lt;/em&gt; said &lt;em&gt;European currencies&lt;/em&gt; will likely move to the higher end of their 1987 &lt;em&gt;ranges&lt;/em&gt; after &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;sharp advance&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;budget deficit&lt;/em&gt; is too much of a &lt;em&gt;burden&lt;/em&gt; on &lt;em&gt;monetary policy&lt;/em&gt; and that &lt;em&gt;Volcker&lt;/em&gt; was &lt;em&gt;unable&lt;/em&gt; to get the &lt;em&gt;commitment&lt;/em&gt; he &lt;em&gt;sought&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;deficit, added Merrill Lynch Economics analyst David Horner&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">He said &lt;em&gt;September marks&lt;/em&gt; could close in on 0.5700 as an &lt;em&gt;upside target,&lt;/em&gt; while &lt;em&gt;Swiss francs&lt;/em&gt; could &lt;em&gt;climb&lt;/em&gt; to a &lt;em&gt;range&lt;/em&gt; between 0.6900 and 0.6950.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

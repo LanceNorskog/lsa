@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-298.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">225</int>
+        <int name="count">147</int>
       </lst>
       <lst name="stems">
-        <int name="count">155</int>
+        <int name="count">94</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">relationship</str>
+        <str name="text">secretary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">burns</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">departure</str>
+        <double name="strength">0.9941728092057455</double>
       </lst>
       <lst name="term">
-        <str name="text">foregone</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">clear</str>
+        <double name="strength">0.9941728092057445</double>
       </lst>
       <lst name="term">
-        <str name="text">potentially</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9941728092057442</double>
       </lst>
       <lst name="term">
-        <str name="text">million</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.9941728092057442</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">207</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Volcker has foregone potentially million-dollar salaries to a life almost overwhelmingly devoted to public service at pay rates low relative to his financial commitments.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">171</int>
-        <double name="strength">0.9896601610125573</double>
+        <double name="strength">0.8906259165703954</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He doesn't care a lot, emotionally, about a third term," Nikko Securities vice-chairman Stephen Alixrod, until last year a top Fed staffer, told Reuters recently.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">162</int>
-        <double name="strength">0.9838378909806302</double>
+        <str name="text">What may unsettle markets, however, is the fact that the Fed governors now have only six to seven years' collective experience between them, at a time of great financial uncertainty.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.88629495207539</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Ministries&lt;/em&gt; and &lt;em&gt;central banks&lt;/em&gt; of the &lt;em&gt;other summit nations -- Japan,&lt;/em&gt; West &lt;em&gt;Germany, Britain, France, Italy&lt;/em&gt; and &lt;em&gt;Canada --&lt;/em&gt; were &lt;em&gt;informed shortly before&lt;/em&gt; the news was &lt;em&gt;announced, Baker&lt;/em&gt; told &lt;em&gt;reporters today&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance Ministries&lt;/em&gt; and &lt;em&gt;central banks&lt;/em&gt; of the &lt;em&gt;other summit nations --&lt;/em&gt; Japan, West &lt;em&gt;Germany, Britain, France,&lt;/em&gt; Italy and &lt;em&gt;Canada --&lt;/em&gt; were informed shortly before the news was announced, &lt;em&gt;Baker&lt;/em&gt; told &lt;em&gt;reporters today&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volcker&lt;/em&gt; has &lt;em&gt;foregone potentially million-dollar salaries&lt;/em&gt; to a life &lt;em&gt;almost overwhelmingly devoted&lt;/em&gt; to &lt;em&gt;public service&lt;/em&gt; at pay &lt;em&gt;rates&lt;/em&gt; low &lt;em&gt;relative&lt;/em&gt; to his &lt;em&gt;financial commitments&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Volcker&lt;/em&gt; has foregone potentially &lt;em&gt;million-dollar salaries&lt;/em&gt; to a life almost overwhelmingly devoted to &lt;em&gt;public service&lt;/em&gt; at pay &lt;em&gt;rates&lt;/em&gt; low &lt;em&gt;relative&lt;/em&gt; to his &lt;em&gt;financial commitments&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;doesn&lt;/em&gt;'t care a lot, &lt;em&gt;emotionally, about&lt;/em&gt; a &lt;em&gt;third&lt;/em&gt; term," &lt;em&gt;Nikko Securities&lt;/em&gt; vice-&lt;em&gt;chairman Stephen Alixrod, until&lt;/em&gt; last year a top Fed &lt;em&gt;staffer,&lt;/em&gt; told &lt;em&gt;Reuters recently&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">What may &lt;em&gt;unsettle markets,&lt;/em&gt; however, is the fact that the Fed &lt;em&gt;governors&lt;/em&gt; now have only six to &lt;em&gt;seven years' collective experience&lt;/em&gt; between them, at a time of &lt;em&gt;great financial uncertainty&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

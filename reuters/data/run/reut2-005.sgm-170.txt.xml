@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-170.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">204</int>
+        <int name="count">144</int>
       </lst>
       <lst name="stems">
-        <int name="count">136</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">minister</str>
+        <str name="text">sector</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">still</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">negotiators</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">initialled</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">draft</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">optimism</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">206</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Finance Minister Mohammed Ali Abal-Khail and Commerce Minister Suleiman Abdulaziz al-Salim will attend the first day.</str>
-        <int name="index">3</int>
+        <str name="text">Government planners have long recognised that Saudi Arabia, the world's largest crude exporter, needs to foster private enterprise to diversify its oil-based economy.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">118</int>
-        <double name="strength">0.9553483657435053</double>
+        <int name="end">167</int>
+        <double name="strength">0.8134958969418994</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A U.S. Embassy report on Saudi Arabia published just before the budget said: "While industrialisation has continued to be one of the government's highest priorities, the recession, the payments problem and the lack of financing have reduced Saudi and foreign investor interest in industry."</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">290</int>
-        <double name="strength">0.941387243170292</double>
+        <str name="text">Official figures show the number of new licences for industrial ventures fell 24 pct in the six months to March 1986, compared with the same period in 1985.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.806632432185133</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;British government delegation&lt;/em&gt; has just left &lt;em&gt;Riyadh after holding preliminary talks&lt;/em&gt; on ways of &lt;em&gt;offsetting&lt;/em&gt; the huge &lt;em&gt;Saudi outlay&lt;/em&gt; on a &lt;em&gt;defence contract&lt;/em&gt; to &lt;em&gt;supply 132 fighter aircraft worth&lt;/em&gt; five &lt;em&gt;billion stg&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;British government delegation&lt;/em&gt; has just left &lt;em&gt;Riyadh&lt;/em&gt; after holding &lt;em&gt;preliminary talks&lt;/em&gt; on ways of offsetting the huge &lt;em&gt;Saudi outlay&lt;/em&gt; on a &lt;em&gt;defence contract&lt;/em&gt; to &lt;em&gt;supply 132 fighter aircraft worth&lt;/em&gt; five &lt;em&gt;billion stg&lt;/em&gt;.</str>
         <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Mohammed&lt;/em&gt; Ali Abal-&lt;em&gt;Khail&lt;/em&gt; and &lt;em&gt;Commerce Minister Suleiman Abdulaziz&lt;/em&gt; al-&lt;em&gt;Salim&lt;/em&gt; will &lt;em&gt;attend&lt;/em&gt; the &lt;em&gt;first day&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Government planners&lt;/em&gt; have long recognised that &lt;em&gt;Saudi Arabia,&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s largest &lt;em&gt;crude exporter,&lt;/em&gt; needs to &lt;em&gt;foster private enterprise&lt;/em&gt; to &lt;em&gt;diversify&lt;/em&gt; its oil-based &lt;em&gt;economy&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A U.S. &lt;em&gt;Embassy report&lt;/em&gt; on &lt;em&gt;Saudi Arabia published&lt;/em&gt; just &lt;em&gt;before&lt;/em&gt; the &lt;em&gt;budget&lt;/em&gt; said: "&lt;em&gt;While industrialisation&lt;/em&gt; has &lt;em&gt;continued&lt;/em&gt; to be one of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;highest priorities,&lt;/em&gt; the &lt;em&gt;recession,&lt;/em&gt; the &lt;em&gt;payments problem&lt;/em&gt; and the lack of &lt;em&gt;financing&lt;/em&gt; have &lt;em&gt;reduced Saudi&lt;/em&gt; and &lt;em&gt;foreign investor interest&lt;/em&gt; in &lt;em&gt;industry.&lt;/em&gt;"</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Official figures&lt;/em&gt; show the &lt;em&gt;number&lt;/em&gt; of new &lt;em&gt;licences&lt;/em&gt; for &lt;em&gt;industrial ventures&lt;/em&gt; fell 24 pct in the six &lt;em&gt;months&lt;/em&gt; to &lt;em&gt;March 1986,&lt;/em&gt; compared with the same &lt;em&gt;period in 1985&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-46.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">receive</str>
+        <str name="text">equity</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">davis</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">through</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">preferred</str>
+        <double name="strength">0.927839197391678</double>
       </lst>
       <lst name="term">
-        <str name="text">unavailable</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">comment</str>
+        <double name="strength">0.9278391973916778</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9278391973916773</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">A Resorts spokesman said the KSZ offer was made in a two-page letter and that Resorts could not comment on it because it did not contain enough information.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">157</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">This preferred, Resorts said, would pay a dividend based on the net cash flows from the new company's Paradise Island operations.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">130</int>
-        <double name="strength">0.9879832747134675</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Resorts International Inc said it received a proposal from &lt;KSZ Co Inc&gt; under which holders of Resorts class B stock would receive 140 dlrs a share in cash and one share of common stock in a new company to be formed through the takeover.</str>
-        <int name="index">0</int>
+        <str name="text">It said it asked its investment advisor, Bear, Stearns and Co, to advise its board on the offer.</str>
+        <int name="index">8</int>
         <int name="start">0</int>
-        <int name="end">237</int>
-        <double name="strength">0.9861904122283226</double>
+        <int name="end">96</int>
+        <double name="strength">0.9590842186186004</double>
+        <int name="terms">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The spokesman said Resorts is not familiar with KSZ but that it believes the company is controlled by Marvin Davis, the Denver oilman.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">135</int>
+        <double name="strength">0.9052653265062243</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Resorts spokesman&lt;/em&gt; said the KSZ &lt;em&gt;offer&lt;/em&gt; was made in a two-page &lt;em&gt;letter&lt;/em&gt; and that &lt;em&gt;Resorts could&lt;/em&gt; not &lt;em&gt;comment&lt;/em&gt; on it &lt;em&gt;because&lt;/em&gt; it did not &lt;em&gt;contain enough information&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This &lt;em&gt;preferred, Resorts&lt;/em&gt; said, &lt;em&gt;would&lt;/em&gt; pay a &lt;em&gt;dividend based&lt;/em&gt; on the net cash &lt;em&gt;flows&lt;/em&gt; from the new &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;Paradise Island operations&lt;/em&gt;.</str>
+        <str name="text">This &lt;em&gt;preferred, Resorts&lt;/em&gt; said, would pay a &lt;em&gt;dividend&lt;/em&gt; based on the net cash &lt;em&gt;flows&lt;/em&gt; from the new &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;Paradise Island operations&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Resorts International&lt;/em&gt; Inc said it &lt;em&gt;received&lt;/em&gt; a &lt;em&gt;proposal&lt;/em&gt; from &lt;KSZ Co Inc&gt; &lt;em&gt;under which holders&lt;/em&gt; of &lt;em&gt;Resorts class&lt;/em&gt; B &lt;em&gt;stock would receive 140&lt;/em&gt; dlrs a &lt;em&gt;share&lt;/em&gt; in cash and one &lt;em&gt;share&lt;/em&gt; of &lt;em&gt;common stock&lt;/em&gt; in a new &lt;em&gt;company&lt;/em&gt; to be &lt;em&gt;formed through&lt;/em&gt; the &lt;em&gt;takeover&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">It said it asked its &lt;em&gt;investment advisor,&lt;/em&gt; Bear, &lt;em&gt;Stearns&lt;/em&gt; and Co, to &lt;em&gt;advise&lt;/em&gt; its &lt;em&gt;board&lt;/em&gt; on the &lt;em&gt;offer&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said &lt;em&gt;Resorts&lt;/em&gt; is not &lt;em&gt;familiar&lt;/em&gt; with KSZ but that it believes the &lt;em&gt;company&lt;/em&gt; is controlled by &lt;em&gt;Marvin&lt;/em&gt; Davis, the &lt;em&gt;Denver oilman&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

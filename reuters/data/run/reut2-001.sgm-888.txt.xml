@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">39</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-888.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">161</int>
+        <int name="count">113</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">sterling</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">likely</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">state</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">without</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">initiative</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">elaborating</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">talks</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">272</int>
         <double name="strength">1.0</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
         <str name="text">A communique read over the state-run television tonight said that during today's weekly cabinet meeting, the veteran Ivorian leader reaffirmed "his faith in Ivory Coast's bright (economic) future" despite the commodities price slide.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">234</int>
-        <double name="strength">0.9051222830145603</double>
+        <double name="strength">0.992136484932377</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">Questioned by journalists, the minister said President Felix Houphouet-Boigny estimated for the moment that his government would not be forced to reduce the price guaranteed by the state to Ivorian coffee-growers for the current season.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">237</int>
-        <double name="strength">0.8804786476483162</double>
+        <double name="strength">0.8982743810714902</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commenting&lt;/em&gt; on &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; by &lt;em&gt;producer&lt;/em&gt; and &lt;em&gt;consumer nations&lt;/em&gt; to &lt;em&gt;agree&lt;/em&gt; on new &lt;em&gt;export quotas needed&lt;/em&gt; to &lt;em&gt;tighten&lt;/em&gt; an &lt;em&gt;oversupplied coffee market, Ivorian Agriculture Minister Denis&lt;/em&gt; Bra &lt;em&gt;Kanon&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; that &lt;em&gt;traders would eventually&lt;/em&gt; be &lt;em&gt;obliged&lt;/em&gt; to &lt;em&gt;restore their positions&lt;/em&gt;.</str>
+        <str name="text">Commenting on &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; by &lt;em&gt;producer&lt;/em&gt; and &lt;em&gt;consumer nations&lt;/em&gt; to &lt;em&gt;agree&lt;/em&gt; on new &lt;em&gt;export quotas&lt;/em&gt; needed to &lt;em&gt;tighten&lt;/em&gt; an &lt;em&gt;oversupplied coffee market, Ivorian Agriculture Minister&lt;/em&gt; Denis Bra &lt;em&gt;Kanon&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; that &lt;em&gt;traders&lt;/em&gt; would eventually be obliged to &lt;em&gt;restore&lt;/em&gt; their &lt;em&gt;positions&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;communique&lt;/em&gt; read over the &lt;em&gt;state&lt;/em&gt;-run &lt;em&gt;television tonight&lt;/em&gt; said that &lt;em&gt;during today&lt;/em&gt;'s &lt;em&gt;weekly cabinet meeting,&lt;/em&gt; the &lt;em&gt;veteran Ivorian leader reaffirmed &lt;/em&gt;"his &lt;em&gt;faith&lt;/em&gt; in &lt;em&gt;Ivory Coast&lt;/em&gt;'s &lt;em&gt;bright (economic) future" despite&lt;/em&gt; the &lt;em&gt;commodities price slide&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;communique&lt;/em&gt; read over the &lt;em&gt;state&lt;/em&gt;-run &lt;em&gt;television tonight&lt;/em&gt; said that during &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;weekly cabinet&lt;/em&gt; meeting, the &lt;em&gt;veteran Ivorian leader&lt;/em&gt; reaffirmed "his &lt;em&gt;faith&lt;/em&gt; in &lt;em&gt;Ivory Coast&lt;/em&gt;'s &lt;em&gt;bright (economic) future"&lt;/em&gt; despite the &lt;em&gt;commodities price slide&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Questioned&lt;/em&gt; by &lt;em&gt;journalists,&lt;/em&gt; the &lt;em&gt;minister&lt;/em&gt; said &lt;em&gt;President Felix Houphouet-Boigny estimated&lt;/em&gt; for the &lt;em&gt;moment&lt;/em&gt; that his &lt;em&gt;government would&lt;/em&gt; not be &lt;em&gt;forced&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;price guaranteed&lt;/em&gt; by the &lt;em&gt;state&lt;/em&gt; to &lt;em&gt;Ivorian coffee-growers&lt;/em&gt; for the &lt;em&gt;current season&lt;/em&gt;.</str>
+        <str name="text">Questioned by &lt;em&gt;journalists,&lt;/em&gt; the &lt;em&gt;minister&lt;/em&gt; said &lt;em&gt;President&lt;/em&gt; Felix &lt;em&gt;Houphouet-Boigny&lt;/em&gt; estimated for the &lt;em&gt;moment&lt;/em&gt; that his &lt;em&gt;government&lt;/em&gt; would not be forced to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; guaranteed by the &lt;em&gt;state&lt;/em&gt; to &lt;em&gt;Ivorian coffee-growers&lt;/em&gt; for the &lt;em&gt;current season&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-599.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">retirement</str>
+        <str name="text">pressure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sponsors</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">immediate</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">claimed</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">shareholders</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">senior</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">institutions</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">publicly</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">conference</str>
+        <double name="strength">0.958004984527134</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The 4.8 mln shares represented by the group includes four retirement funds covering various groups of New York City workers, the California State Teachers Retirement System and seven church-related groups.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">206</int>
+        <str name="text">Sponsors of a campaign to pressure Royal Dutch Petroleum Co to suspend operations in South Africa claimed the backing of church groups and other institutions who collectively own 4.8 mln of the the company's approximately 268.0 mln shares.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">239</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The statement said senior officials of the company have stated publicly that they regard apartheid as "a system wholly at variance with the principles on which our group of companies has operated all over the world for many years."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.8325742184650212</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Goldin appeared at the news conference with Gordon Smith, treasurer of the ministers and missionaries benefit board of the American Baptist Churches.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">150</int>
-        <double name="strength">0.8155353561884152</double>
+        <double name="strength">0.9691416185913128</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Goldin said the ultimate aim of the group is to "tighten the noose of economic pressure on South Africa" until the government changes its apartheid policies.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.9129018939381089</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The 4.8 mln &lt;em&gt;shares represented&lt;/em&gt; by the &lt;em&gt;group includes&lt;/em&gt; four &lt;em&gt;retirement funds covering various groups&lt;/em&gt; of New York City &lt;em&gt;workers,&lt;/em&gt; the &lt;em&gt;California State Teachers Retirement System&lt;/em&gt; and &lt;em&gt;seven church-related groups&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Sponsors&lt;/em&gt; of a &lt;em&gt;campaign&lt;/em&gt; to &lt;em&gt;pressure Royal Dutch Petroleum&lt;/em&gt; Co to &lt;em&gt;suspend operations&lt;/em&gt; in &lt;em&gt;South Africa&lt;/em&gt; claimed the &lt;em&gt;backing&lt;/em&gt; of &lt;em&gt;church groups&lt;/em&gt; and &lt;em&gt;other institutions&lt;/em&gt; who collectively own 4.8 mln of the the &lt;em&gt;company&lt;/em&gt;'s approximately 268.0 mln &lt;em&gt;shares&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;statement&lt;/em&gt; said &lt;em&gt;senior officials&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt; have &lt;em&gt;stated publicly&lt;/em&gt; that they &lt;em&gt;regard apartheid&lt;/em&gt; as "a &lt;em&gt;system wholly&lt;/em&gt; at &lt;em&gt;variance&lt;/em&gt; with the &lt;em&gt;principles&lt;/em&gt; on &lt;em&gt;which&lt;/em&gt; our &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;companies&lt;/em&gt; has &lt;em&gt;operated&lt;/em&gt; all over the &lt;em&gt;world&lt;/em&gt; for many &lt;em&gt;years.&lt;/em&gt;"</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Goldin appeared&lt;/em&gt; at the news &lt;em&gt;conference&lt;/em&gt; with &lt;em&gt;Gordon Smith, treasurer&lt;/em&gt; of the &lt;em&gt;ministers&lt;/em&gt; and &lt;em&gt;missionaries benefit board&lt;/em&gt; of the &lt;em&gt;American Baptist Churches&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Goldin&lt;/em&gt; appeared at the news &lt;em&gt;conference&lt;/em&gt; with &lt;em&gt;Gordon&lt;/em&gt; Smith, &lt;em&gt;treasurer&lt;/em&gt; of the &lt;em&gt;ministers&lt;/em&gt; and &lt;em&gt;missionaries benefit board&lt;/em&gt; of the &lt;em&gt;American Baptist Churches&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Goldin&lt;/em&gt; said the &lt;em&gt;ultimate&lt;/em&gt; aim of the &lt;em&gt;group&lt;/em&gt; is to "&lt;em&gt;tighten&lt;/em&gt; the &lt;em&gt;noose&lt;/em&gt; of &lt;em&gt;economic pressure&lt;/em&gt; on &lt;em&gt;South Africa"&lt;/em&gt; until the &lt;em&gt;government&lt;/em&gt; changes its &lt;em&gt;apartheid policies&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

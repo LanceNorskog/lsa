@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-948.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">172</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">shows</str>
+        <str name="text">bankers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">better</str>
-        <double name="strength">1.0</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">often</str>
-        <double name="strength">1.0</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">likely</str>
-        <double name="strength">1.0</double>
+        <str name="text">outlook</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">buying</str>
-        <double name="strength">1.0</double>
+        <str name="text">meter</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">217</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">"What we have seen is an increase in inquiries, particularly from Japan, but this has yet to show itself in many new deals being done," said Allan Farrar, executive director (real estate) of Elders IXL Ltd's pastoral group.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.9847069089211041</double>
+        <double name="strength">0.8238272794472637</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We still see prices creeping up steadily and I don't see why the trend should not continue over the next few months," said Gareth Williams, a partner of land agent Vigers Hong Kong.</str>
-        <int name="index">10</int>
+        <str name="text">In contrast, Australia's easing of rules on foreign investment in property, combined with financial deregulation and a weaker dollar, has helped spark overseas interest in the market, analysts said.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.9064657835804746</double>
+        <int name="end">199</int>
+        <double name="strength">0.7910513535975318</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; and &lt;em&gt;economists&lt;/em&gt; in &lt;em&gt;Bangkok&lt;/em&gt; said they &lt;em&gt;expect&lt;/em&gt; at &lt;em&gt;least seven&lt;/em&gt; pct &lt;em&gt;growth&lt;/em&gt; this year in &lt;em&gt;private sector construction&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;government assistance,&lt;/em&gt; low &lt;em&gt;mortgage rates&lt;/em&gt; and a &lt;em&gt;generally bullish economic outlook&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; and &lt;em&gt;economists&lt;/em&gt; in &lt;em&gt;Bangkok&lt;/em&gt; said they &lt;em&gt;expect&lt;/em&gt; at least &lt;em&gt;seven&lt;/em&gt; pct &lt;em&gt;growth&lt;/em&gt; this year in &lt;em&gt;private sector construction&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;government assistance,&lt;/em&gt; low &lt;em&gt;mortgage rates&lt;/em&gt; and a generally &lt;em&gt;bullish economic outlook&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"What we have seen is an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;inquiries, particularly&lt;/em&gt; from &lt;em&gt;Japan,&lt;/em&gt; but this has yet to show &lt;em&gt;itself&lt;/em&gt; in many new &lt;em&gt;deals being&lt;/em&gt; done," said &lt;em&gt;Allan Farrar, executive director &lt;/em&gt;(real &lt;em&gt;estate)&lt;/em&gt; of &lt;em&gt;Elders&lt;/em&gt; IXL Ltd's &lt;em&gt;pastoral group&lt;/em&gt;.</str>
+        <str name="text">"What we have seen is an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;inquiries,&lt;/em&gt; particularly from &lt;em&gt;Japan,&lt;/em&gt; but this has yet to show itself in many new &lt;em&gt;deals&lt;/em&gt; being done," said Allan &lt;em&gt;Farrar, executive director &lt;/em&gt;(real &lt;em&gt;estate)&lt;/em&gt; of &lt;em&gt;Elders&lt;/em&gt; IXL Ltd's &lt;em&gt;pastoral group&lt;/em&gt;.</str>
         <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We &lt;em&gt;still&lt;/em&gt; see &lt;em&gt;prices creeping&lt;/em&gt; up &lt;em&gt;steadily&lt;/em&gt; and I don't see why the &lt;em&gt;trend should&lt;/em&gt; not &lt;em&gt;continue&lt;/em&gt; over the next few &lt;em&gt;months,"&lt;/em&gt; said &lt;em&gt;Gareth Williams,&lt;/em&gt; a &lt;em&gt;partner&lt;/em&gt; of land &lt;em&gt;agent Vigers&lt;/em&gt; Hong Kong.</str>
-        <int name="index">10</int>
+        <str name="text">In &lt;em&gt;contrast, Australia&lt;/em&gt;'s easing of &lt;em&gt;rules&lt;/em&gt; on &lt;em&gt;foreign investment&lt;/em&gt; in &lt;em&gt;property,&lt;/em&gt; combined with &lt;em&gt;financial deregulation&lt;/em&gt; and a weaker &lt;em&gt;dollar,&lt;/em&gt; has helped &lt;em&gt;spark overseas interest&lt;/em&gt; in the &lt;em&gt;market, analysts said&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

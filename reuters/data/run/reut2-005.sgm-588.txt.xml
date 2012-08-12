@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-588.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">103</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">distributions</str>
+        <str name="text">companies</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.9999999999999987</double>
-      </lst>
-      <lst name="term">
-        <str name="text">participating</str>
-        <double name="strength">0.9999999999999973</double>
-      </lst>
-      <lst name="term">
-        <str name="text">limited</str>
-        <double name="strength">0.5590169943749467</double>
       </lst>
       <lst name="term">
         <str name="text">notes</str>
-        <double name="strength">0.5590169943749458</double>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">scheme</str>
+        <double name="strength">0.9999999999999986</double>
+      </lst>
+      <lst name="term">
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">potential</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Berger and Montague told the SEC it opposes the Seemala proposal because it would allow Boesky and Co noteholders to settle their claims ahead of the plaintiffs in the class action and because Seemala did not disclose the total amount of claims against it and what percentage defrauded investors would get.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">307</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In approving the request, the SEC barred Seemala and Boesky and Co from making any distributions to its limited partners for one year and required limited partners who receive distributions to agree to make themselves liabile up to a point in any case filed the partnerships.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">276</int>
-        <double name="strength">0.9574313704179284</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The Securities and Exchange Commission approved a request by two firms controlled by inside trader Ivan Boesky that allows them to take steps to protect hundreds of millions of dollars from potential claimants.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">210</int>
-        <double name="strength">0.8138345382651163</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In asking the SEC to speed its withdrawal as a registered broker, Seemala said it wold repay to Boesky and Co, which is also controlled by the former Wall Street arbitrageur, 660 mln dlrs in subordinated debt, plus accrued interest.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">0.8239848265522138</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The plan would be in the public interest, Seemala argued, since the noteholders, many of which are savings and loan institutions and insurance companies, would receive repayment of the principal on their notes.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.8217295452347212</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Berger&lt;/em&gt; and &lt;em&gt;Montague&lt;/em&gt; told the SEC it &lt;em&gt;opposes&lt;/em&gt; the &lt;em&gt;Seemala proposal because&lt;/em&gt; it &lt;em&gt;would allow Boesky&lt;/em&gt; and Co &lt;em&gt;noteholders&lt;/em&gt; to &lt;em&gt;settle their claims ahead&lt;/em&gt; of the &lt;em&gt;plaintiffs&lt;/em&gt; in the &lt;em&gt;class action&lt;/em&gt; and &lt;em&gt;because Seemala&lt;/em&gt; did not &lt;em&gt;disclose&lt;/em&gt; the &lt;em&gt;total amount&lt;/em&gt; of &lt;em&gt;claims against&lt;/em&gt; it and what &lt;em&gt;percentage defrauded investors would get&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;approving&lt;/em&gt; the &lt;em&gt;request,&lt;/em&gt; the SEC &lt;em&gt;barred Seemala&lt;/em&gt; and &lt;em&gt;Boesky&lt;/em&gt; and Co from &lt;em&gt;making&lt;/em&gt; any &lt;em&gt;distributions&lt;/em&gt; to its &lt;em&gt;limited partners&lt;/em&gt; for one year and &lt;em&gt;required limited partners&lt;/em&gt; who &lt;em&gt;receive distributions&lt;/em&gt; to &lt;em&gt;agree&lt;/em&gt; to make &lt;em&gt;themselves liabile&lt;/em&gt; up to a &lt;em&gt;point&lt;/em&gt; in any case &lt;em&gt;filed&lt;/em&gt; the &lt;em&gt;partnerships&lt;/em&gt;.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission approved&lt;/em&gt; a &lt;em&gt;request&lt;/em&gt; by two &lt;em&gt;firms controlled&lt;/em&gt; by &lt;em&gt;inside trader&lt;/em&gt; Ivan &lt;em&gt;Boesky&lt;/em&gt; that &lt;em&gt;allows&lt;/em&gt; them to take &lt;em&gt;steps&lt;/em&gt; to &lt;em&gt;protect hundreds&lt;/em&gt; of &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; from &lt;em&gt;potential claimants&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; approved a &lt;em&gt;request&lt;/em&gt; by two &lt;em&gt;firms&lt;/em&gt; controlled by &lt;em&gt;inside trader&lt;/em&gt; Ivan &lt;em&gt;Boesky&lt;/em&gt; that allows them to take &lt;em&gt;steps&lt;/em&gt; to &lt;em&gt;protect hundreds&lt;/em&gt; of &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; from &lt;em&gt;potential claimants&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In asking the SEC to &lt;em&gt;speed&lt;/em&gt; its &lt;em&gt;withdrawal&lt;/em&gt; as a &lt;em&gt;registered broker, Seemala&lt;/em&gt; said it wold &lt;em&gt;repay&lt;/em&gt; to &lt;em&gt;Boesky&lt;/em&gt; and Co, which is also controlled by the &lt;em&gt;former&lt;/em&gt; Wall &lt;em&gt;Street arbitrageur, 660&lt;/em&gt; mln dlrs in &lt;em&gt;subordinated&lt;/em&gt; debt, plus accrued &lt;em&gt;interest&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The plan would be in the &lt;em&gt;public interest, Seemala&lt;/em&gt; argued, since the &lt;em&gt;noteholders,&lt;/em&gt; many of which are &lt;em&gt;savings&lt;/em&gt; and loan &lt;em&gt;institutions&lt;/em&gt; and &lt;em&gt;insurance companies,&lt;/em&gt; would &lt;em&gt;receive repayment&lt;/em&gt; of the &lt;em&gt;principal&lt;/em&gt; on their &lt;em&gt;notes&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-75.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">against</str>
+        <str name="text">dispute</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fertilizer</str>
-        <double name="strength">0.787545537086974</double>
+        <str name="text">alarms</str>
+        <double name="strength">0.9840716504496526</double>
       </lst>
       <lst name="term">
-        <str name="text">fight</str>
-        <double name="strength">0.5646966091777137</double>
+        <str name="text">subsidies</str>
+        <double name="strength">0.9840716504496523</double>
       </lst>
       <lst name="term">
-        <str name="text">possible</str>
-        <double name="strength">0.5620304529643845</double>
+        <str name="text">international</str>
+        <double name="strength">0.9840716504496522</double>
       </lst>
       <lst name="term">
-        <str name="text">action</str>
-        <double name="strength">0.5333936718438625</double>
+        <str name="text">assurances</str>
+        <double name="strength">0.9840716504496522</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">162</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Meanwhile, Saskatchewan Trade Minister Bob Andrew expressed confidence Canada would win its case, claiming the problem stems from low international commodity prices and not government subsidies.</str>
-        <int name="index">24</int>
+        <str name="text">Canada's Progressive Conservative government agreed to impose a 15 pct duty on its softwood lumber exports earlier this year to end a long and bitter bilateral trade dispute with the U.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.9528147474473379</double>
+        <int name="end">186</int>
+        <double name="strength">0.9417426325134599</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. action against Canadian potash exports, but also warned against raising the alarm too early in the dispute.</str>
-        <int name="index">1</int>
+        <str name="text">External Affairs Minister Joe Clark today vowed to do everything possible to fight the U.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">110</int>
-        <double name="strength">0.9331318266582466</double>
+        <int name="end">89</int>
+        <double name="strength">0.8781069220389461</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"We &lt;em&gt;certainly intend&lt;/em&gt; to do &lt;em&gt;everything&lt;/em&gt; we can to &lt;em&gt;insure&lt;/em&gt; that &lt;em&gt;Canadian interests&lt;/em&gt; are well &lt;em&gt;protected," Clark&lt;/em&gt; told the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons&lt;/em&gt; in the &lt;em&gt;daily question period&lt;/em&gt;.</str>
+        <str name="text">"We certainly &lt;em&gt;intend&lt;/em&gt; to do &lt;em&gt;everything&lt;/em&gt; we can to &lt;em&gt;insure&lt;/em&gt; that &lt;em&gt;Canadian interests&lt;/em&gt; are well protected," &lt;em&gt;Clark&lt;/em&gt; told the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons&lt;/em&gt; in the &lt;em&gt;daily question period&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile, Saskatchewan Trade Minister&lt;/em&gt; Bob &lt;em&gt;Andrew expressed confidence Canada would&lt;/em&gt; win its case, &lt;em&gt;claiming&lt;/em&gt; the &lt;em&gt;problem stems&lt;/em&gt; from low &lt;em&gt;international commodity prices&lt;/em&gt; and not &lt;em&gt;government subsidies&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">&lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;Progressive Conservative government&lt;/em&gt; agreed to &lt;em&gt;impose&lt;/em&gt; a 15 pct duty on its &lt;em&gt;softwood lumber exports&lt;/em&gt; earlier this year to end a long and &lt;em&gt;bitter bilateral trade dispute&lt;/em&gt; with the U.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;action against Canadian potash exports,&lt;/em&gt; but also &lt;em&gt;warned against raising&lt;/em&gt; the &lt;em&gt;alarm&lt;/em&gt; too &lt;em&gt;early&lt;/em&gt; in the &lt;em&gt;dispute&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;External Affairs Minister&lt;/em&gt; Joe &lt;em&gt;Clark today&lt;/em&gt; vowed to do &lt;em&gt;everything possible&lt;/em&gt; to &lt;em&gt;fight&lt;/em&gt; the U.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-202.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">announcement</str>
+        <str name="text">market</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">uncertainties</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
         <str name="text">assets</str>
-        <double name="strength">0.5590169943749466</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5590169943749465</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">disclose</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">maintain</str>
+        <double name="strength">0.9730077661055211</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The bank said first quarter total assets increased to 83.92 billion dlrs from 78.93 mln dlrs in the prior year, due mainly to continued expansion in consumer loan and mortgage fields.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Commerce Bank also said it will continue to adopt an agressive posture in adding to its general provisions against loan exposure to 34 countries designated by the federal government's Inspector General of Banks.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">212</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9841444548578794</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Despite the recent announcement of the suspension of interest payments by Brazil, virtually all of the bank's loans to this country were income producing up to January 31, 1987, and there was little adverse impact on the bank's earnings prior to the announcement," Commerce bank said.</str>
-        <int name="index">14</int>
+        <str name="text">The bank did not disclose a forecast of the impact on future earnings by Brazil's suspension of interest payments.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">286</int>
-        <double name="strength">0.9157072318674392</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Commerce Bank said improved other income, which rose to 213.6 mln dlrs from year-earlier 170.1 mln dlrs, and net income was partially offset by the increased loan loss provisions, non-interest expenses and income taxes.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.7016350694994895</double>
+        <int name="end">115</int>
+        <double name="strength">0.9518793270125946</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commerce&lt;/em&gt; Bank also said it will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; an &lt;em&gt;agressive posture&lt;/em&gt; in &lt;em&gt;adding&lt;/em&gt; to its &lt;em&gt;general provisions against&lt;/em&gt; loan &lt;em&gt;exposure&lt;/em&gt; to 34 &lt;em&gt;countries designated&lt;/em&gt; by the &lt;em&gt;federal government&lt;/em&gt;'s &lt;em&gt;Inspector General&lt;/em&gt; of &lt;em&gt;Banks&lt;/em&gt;.</str>
+        <str name="text">The bank said &lt;em&gt;first quarter total assets&lt;/em&gt; increased to 83.92 &lt;em&gt;billion&lt;/em&gt; dlrs from 78.93 mln dlrs in the &lt;em&gt;prior&lt;/em&gt; year, due mainly to &lt;em&gt;continued expansion&lt;/em&gt; in &lt;em&gt;consumer&lt;/em&gt; loan and &lt;em&gt;mortgage fields&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Commerce&lt;/em&gt; Bank also said it will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; an &lt;em&gt;agressive posture&lt;/em&gt; in adding to its &lt;em&gt;general provisions&lt;/em&gt; against loan &lt;em&gt;exposure&lt;/em&gt; to 34 &lt;em&gt;countries&lt;/em&gt; designated by the &lt;em&gt;federal government&lt;/em&gt;'s &lt;em&gt;Inspector General&lt;/em&gt; of &lt;em&gt;Banks&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Despite&lt;/em&gt; the &lt;em&gt;recent announcement&lt;/em&gt; of the &lt;em&gt;suspension&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt; by &lt;em&gt;Brazil, virtually&lt;/em&gt; all of the bank's &lt;em&gt;loans&lt;/em&gt; to this &lt;em&gt;country&lt;/em&gt; were &lt;em&gt;income producing&lt;/em&gt; up to &lt;em&gt;January 31, 1987,&lt;/em&gt; and &lt;em&gt;there&lt;/em&gt; was &lt;em&gt;little adverse impact&lt;/em&gt; on the bank's &lt;em&gt;earnings prior&lt;/em&gt; to the &lt;em&gt;announcement," Commerce&lt;/em&gt; bank said.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Commerce&lt;/em&gt; Bank said &lt;em&gt;improved other income, which&lt;/em&gt; rose to 213.6 mln dlrs from year-&lt;em&gt;earlier 170.1&lt;/em&gt; mln dlrs, and net &lt;em&gt;income&lt;/em&gt; was &lt;em&gt;partially offset&lt;/em&gt; by the &lt;em&gt;increased&lt;/em&gt; loan loss &lt;em&gt;provisions,&lt;/em&gt; non-&lt;em&gt;interest expenses&lt;/em&gt; and &lt;em&gt;income taxes&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The bank did not &lt;em&gt;disclose&lt;/em&gt; a &lt;em&gt;forecast&lt;/em&gt; of the &lt;em&gt;impact&lt;/em&gt; on &lt;em&gt;future earnings&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;suspension&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

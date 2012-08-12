@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-677.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">144</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">92</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">between</str>
+        <str name="text">cameron</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">proposed</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">litigation</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
         <str name="text">peter</str>
-        <double name="strength">0.5590169943749482</double>
+        <double name="strength">0.9999999999999967</double>
       </lst>
       <lst name="term">
         <str name="text">market</str>
-        <double name="strength">0.5590169943749481</double>
+        <double name="strength">0.9999999999999966</double>
       </lst>
       <lst name="term">
-        <str name="text">rejection</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">continue</str>
+        <double name="strength">0.9991285392582787</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Miller said the offer did not imply Lloyd's accepted responsibility for the affair, uncovered in the late autumn of 1982 when "it became quite clear that (PCW agency founder) Peter Cameron Webb and (his partner) Peter Dixon had perpetrated theft upon members," he said.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">270</int>
+        <str name="text">Lloyd's of London has offered to meet part of the 235 mln stg in claims that investors in PCW Underwriting Agencies face due to fraud and mismanagement, chairman Peter Miller said at a press conference.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">202</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To bring to a close one of the most shameful episodes in the history of Lloyd's," and was contemplating claiming the full amount of the settlement now on offer from Cameron Webb and Dixon.</str>
+        <int name="index">18</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
+        <double name="strength">0.8776523372295172</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Part of the sum involved was subsequently recovered and repaid to members, but Cameron Webb and Dixon left the affairs of PCW syndicates "in a state of chaos which led to a sharp deterioration of their underwriting results," Miller said.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">238</int>
-        <double name="strength">0.8388263091450624</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It had contributed to the proposed settlement to avoid costs related to the defence of some of its subsidiaries which had been named as potential defendants to litigation by PCW members, it said.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">195</int>
-        <double name="strength">0.8313408514413937</double>
+        <double name="strength">0.8509553519741503</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Miller&lt;/em&gt; said the &lt;em&gt;offer&lt;/em&gt; did not &lt;em&gt;imply Lloyd&lt;/em&gt;'s &lt;em&gt;accepted responsibility&lt;/em&gt; for the &lt;em&gt;affair, uncovered&lt;/em&gt; in the late &lt;em&gt;autumn&lt;/em&gt; of 1982 when "it &lt;em&gt;became quite clear&lt;/em&gt; that (PCW &lt;em&gt;agency founder) Peter Cameron&lt;/em&gt; Webb and (his &lt;em&gt;partner) Peter Dixon&lt;/em&gt; had &lt;em&gt;perpetrated theft&lt;/em&gt; upon &lt;em&gt;members,"&lt;/em&gt; he said.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Lloyd&lt;/em&gt;'s of &lt;em&gt;London&lt;/em&gt; has offered to meet part of the 235 mln stg in &lt;em&gt;claims&lt;/em&gt; that &lt;em&gt;investors&lt;/em&gt; in PCW &lt;em&gt;Underwriting Agencies&lt;/em&gt; face due to &lt;em&gt;fraud&lt;/em&gt; and &lt;em&gt;mismanagement, chairman Peter Miller&lt;/em&gt; said at a &lt;em&gt;press conference&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Part of the sum &lt;em&gt;involved&lt;/em&gt; was &lt;em&gt;subsequently recovered&lt;/em&gt; and &lt;em&gt;repaid&lt;/em&gt; to &lt;em&gt;members,&lt;/em&gt; but &lt;em&gt;Cameron&lt;/em&gt; Webb and &lt;em&gt;Dixon&lt;/em&gt; left the &lt;em&gt;affairs&lt;/em&gt; of PCW &lt;em&gt;syndicates &lt;/em&gt;"in a &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;chaos which&lt;/em&gt; led to a &lt;em&gt;sharp deterioration&lt;/em&gt; of &lt;em&gt;their underwriting results," Miller said&lt;/em&gt;.</str>
+        <str name="text">To &lt;em&gt;bring&lt;/em&gt; to a &lt;em&gt;close&lt;/em&gt; one of the most &lt;em&gt;shameful episodes&lt;/em&gt; in the &lt;em&gt;history&lt;/em&gt; of &lt;em&gt;Lloyd&lt;/em&gt;'s," and was contemplating claiming the full &lt;em&gt;amount&lt;/em&gt; of the &lt;em&gt;settlement&lt;/em&gt; now on &lt;em&gt;offer&lt;/em&gt; from &lt;em&gt;Cameron&lt;/em&gt; Webb and &lt;em&gt;Dixon&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Part of the sum involved was subsequently recovered and repaid to &lt;em&gt;members,&lt;/em&gt; but &lt;em&gt;Cameron&lt;/em&gt; Webb and &lt;em&gt;Dixon&lt;/em&gt; left the &lt;em&gt;affairs&lt;/em&gt; of PCW &lt;em&gt;syndicates &lt;/em&gt;"in a &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;chaos&lt;/em&gt; which led to a &lt;em&gt;sharp deterioration&lt;/em&gt; of their &lt;em&gt;underwriting results,"&lt;/em&gt; Miller said.</str>
         <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It had &lt;em&gt;contributed&lt;/em&gt; to the &lt;em&gt;proposed settlement&lt;/em&gt; to &lt;em&gt;avoid costs related&lt;/em&gt; to the &lt;em&gt;defence&lt;/em&gt; of some of its &lt;em&gt;subsidiaries which&lt;/em&gt; had been &lt;em&gt;named&lt;/em&gt; as &lt;em&gt;potential defendants&lt;/em&gt; to &lt;em&gt;litigation&lt;/em&gt; by PCW &lt;em&gt;members,&lt;/em&gt; it said.</str>
-        <int name="index">23</int>
       </lst>
     </lst>
   </lst>

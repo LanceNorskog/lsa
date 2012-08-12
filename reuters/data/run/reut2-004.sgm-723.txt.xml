@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-723.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">130</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">german</str>
+        <str name="text">decision</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">itself</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">uncommitted</str>
-        <double name="strength">0.5</double>
+        <str name="text">aircraft</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">currently</str>
-        <double name="strength">0.5</double>
+        <str name="text">commitments</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
       <lst name="term">
-        <str name="text">pressing</str>
-        <double name="strength">0.5</double>
+        <str name="text">future</str>
+        <double name="strength">0.996951150468247</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The future of the Airbus consortium depends on the right decision being made on the A340 in the next few weeks, for it could find itself severely exposed in the 1990s either by staying absent from the long range jet market or by committing itself to a commercially unviable project.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">283</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The West German government is also uncommitted, and is currently pressing for a restructuring of the consortium's West German company, &lt;Deutsche Airbus GmbH&gt;, while only the French government appears to be fully behind the program.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.9353169337432095</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Apart from a shortage of orders, Airbus also is facing an uphill struggle persuading its member governments to fund the 2.5 billion dlr project, which involves not only the A340 but its sister A330 aircraft, a twin engined, wide bodied medium range jet with many identical components.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">285</int>
-        <double name="strength">0.9055264446183124</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The future of the Airbus consortium depends on the right decision being made on the A340 in the next few weeks, for it could find itself severely exposed in the 1990s either by staying absent from the long range jet market or by committing itself to a commercially unviable project.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">283</int>
+        <double name="strength">0.8265324389404808</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The supervisory board of the European consortium, &lt;Airbus Industrie&gt;, has begun a critical meeting to review government funding and airline orders for its proposed A340 long range jet, Airbus officials here said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">212</int>
+        <double name="strength">0.7045750040752342</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;future&lt;/em&gt; of the &lt;em&gt;Airbus consortium depends&lt;/em&gt; on the &lt;em&gt;right decision being&lt;/em&gt; made on the A340 in the next few &lt;em&gt;weeks,&lt;/em&gt; for it &lt;em&gt;could&lt;/em&gt; find &lt;em&gt;itself severely exposed&lt;/em&gt; in the 1990s &lt;em&gt;either&lt;/em&gt; by &lt;em&gt;staying absent&lt;/em&gt; from the long &lt;em&gt;range&lt;/em&gt; jet &lt;em&gt;market&lt;/em&gt; or by &lt;em&gt;committing itself&lt;/em&gt; to a &lt;em&gt;commercially unviable project&lt;/em&gt;.</str>
+        <str name="text">Apart from a &lt;em&gt;shortage&lt;/em&gt; of &lt;em&gt;orders, Airbus&lt;/em&gt; also is facing an &lt;em&gt;uphill struggle&lt;/em&gt; persuading its &lt;em&gt;member governments&lt;/em&gt; to fund the 2.5 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;project,&lt;/em&gt; which involves not only the A340 but its &lt;em&gt;sister&lt;/em&gt; A330 &lt;em&gt;aircraft,&lt;/em&gt; a twin engined, wide &lt;em&gt;bodied medium range&lt;/em&gt; jet with many &lt;em&gt;identical components&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;future&lt;/em&gt; of the &lt;em&gt;Airbus consortium&lt;/em&gt; depends on the &lt;em&gt;right decision being&lt;/em&gt; made on the A340 in the next few &lt;em&gt;weeks,&lt;/em&gt; for it could find itself severely exposed in the 1990s either by staying &lt;em&gt;absent&lt;/em&gt; from the long &lt;em&gt;range&lt;/em&gt; jet &lt;em&gt;market&lt;/em&gt; or by committing itself to a commercially &lt;em&gt;unviable project&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The West &lt;em&gt;German government&lt;/em&gt; is also &lt;em&gt;uncommitted,&lt;/em&gt; and is &lt;em&gt;currently pressing&lt;/em&gt; for a &lt;em&gt;restructuring&lt;/em&gt; of the &lt;em&gt;consortium&lt;/em&gt;'s West &lt;em&gt;German company, &lt;Deutsche Airbus&lt;/em&gt; GmbH&gt;, &lt;em&gt;while&lt;/em&gt; only the &lt;em&gt;French government appears&lt;/em&gt; to be &lt;em&gt;fully behind&lt;/em&gt; the &lt;em&gt;program&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Apart&lt;/em&gt; from a &lt;em&gt;shortage&lt;/em&gt; of &lt;em&gt;orders, Airbus&lt;/em&gt; also is &lt;em&gt;facing&lt;/em&gt; an &lt;em&gt;uphill struggle persuading&lt;/em&gt; its &lt;em&gt;member governments&lt;/em&gt; to fund the 2.5 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;project, which involves&lt;/em&gt; not only the A340 but its &lt;em&gt;sister&lt;/em&gt; A330 &lt;em&gt;aircraft,&lt;/em&gt; a twin &lt;em&gt;engined,&lt;/em&gt; wide &lt;em&gt;bodied medium range&lt;/em&gt; jet with many &lt;em&gt;identical components&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">The &lt;em&gt;supervisory board&lt;/em&gt; of the &lt;em&gt;European consortium, &lt;Airbus Industrie&gt;,&lt;/em&gt; has begun a &lt;em&gt;critical meeting&lt;/em&gt; to &lt;em&gt;review government funding&lt;/em&gt; and &lt;em&gt;airline orders&lt;/em&gt; for its proposed A340 long &lt;em&gt;range&lt;/em&gt; jet, &lt;em&gt;Airbus officials&lt;/em&gt; here said.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-563.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">123</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">bankverein</str>
+        <str name="text">interests</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">guido</str>
-        <double name="strength">1.0</double>
+        <str name="text">return</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">results</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">announced</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">against</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">forecast</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In an attempt to generate more foreign business, representative offices would be opened this year in Tokyo, Hong Kong, Moscow and Prague.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Increased provisions for possible bad debts at home and abroad, particularly in Latin America, had lowered profits, Androsch said, but declined to give an exact figure.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">169</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9979781567903532</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Creditanstalt, Austria's largest bank, holds majority interests in 10 medium-sized and large Austrian companies.</str>
-        <int name="index">16</int>
+        <str name="text">VI&gt; is likely to raise its 1987 dividend from the 1986 payment of 12 pct of share capital, deputy general-director Guido Schmidt-Chiari said.</str>
+        <int name="index">1</int>
         <int name="start">0</int>
-        <int name="end">112</int>
-        <double name="strength">0.842730520874429</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Androsch welcomed government plans to abolish legal controls on foreigners buying voting shares and drawing dividends.</str>
-        <int name="index">12</int>
-        <int name="start">0</int>
-        <int name="end">118</int>
-        <double name="strength">0.8396666550709435</double>
+        <int name="end">141</int>
+        <double name="strength">0.9952703299105354</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Increased provisions&lt;/em&gt; for &lt;em&gt;possible&lt;/em&gt; bad &lt;em&gt;debts&lt;/em&gt; at home and &lt;em&gt;abroad, particularly&lt;/em&gt; in &lt;em&gt;Latin America,&lt;/em&gt; had &lt;em&gt;lowered profits, Androsch&lt;/em&gt; said, but &lt;em&gt;declined&lt;/em&gt; to give an &lt;em&gt;exact figure&lt;/em&gt;.</str>
+        <str name="text">In an &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;generate&lt;/em&gt; more &lt;em&gt;foreign business, representative offices&lt;/em&gt; would be opened this year in &lt;em&gt;Tokyo,&lt;/em&gt; Hong Kong, &lt;em&gt;Moscow&lt;/em&gt; and &lt;em&gt;Prague&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Increased &lt;em&gt;provisions&lt;/em&gt; for &lt;em&gt;possible&lt;/em&gt; bad &lt;em&gt;debts&lt;/em&gt; at home and abroad, particularly in &lt;em&gt;Latin America,&lt;/em&gt; had lowered &lt;em&gt;profits,&lt;/em&gt; Androsch said, but declined to give an &lt;em&gt;exact figure&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Creditanstalt, Austria&lt;/em&gt;'s &lt;em&gt;largest&lt;/em&gt; bank, &lt;em&gt;holds majority interests&lt;/em&gt; in 10 &lt;em&gt;medium-sized&lt;/em&gt; and &lt;em&gt;large Austrian companies&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Androsch welcomed government plans&lt;/em&gt; to &lt;em&gt;abolish legal controls&lt;/em&gt; on &lt;em&gt;foreigners buying voting shares&lt;/em&gt; and &lt;em&gt;drawing dividends&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">VI&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;raise&lt;/em&gt; its 1987 &lt;em&gt;dividend&lt;/em&gt; from the 1986 &lt;em&gt;payment&lt;/em&gt; of 12 pct of &lt;em&gt;share capital, deputy general-director Guido Schmidt-Chiari said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

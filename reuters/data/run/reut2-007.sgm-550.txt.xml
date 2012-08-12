@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-550.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">176</int>
+        <int name="count">118</int>
       </lst>
       <lst name="stems">
-        <int name="count">122</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">meeting</str>
+        <str name="text">landowners</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">owned</str>
-        <double name="strength">0.8787337992344105</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">approved</str>
-        <double name="strength">0.7238405493864821</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">pesos</str>
-        <double name="strength">0.5589669773737982</double>
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">tuesday</str>
-        <double name="strength">0.546005308062073</double>
+        <str name="text">loans</str>
+        <double name="strength">0.987116524389364</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Manila is being more cautious and aims at soft borrowings which, it is hoped, will be outstripped by annual growth rates and eventually result in the country emerging from debt in five or six years."</str>
-        <int name="index">34</int>
-        <int name="start">0</int>
-        <int name="end">199</int>
+        <str name="text">The World Bank sources said lending to the Philippines is designed to support its balance of payments position while the government aims for a target of six to seven pct annual gross national product growth.</str>
+        <int name="index">30</int>
+        <int name="start">1</int>
+        <int name="end">208</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The World Bank sources said the request for land reform funding would be discussed at a meeting of the World Bank-led consultative group to be held alongside the April 27-29 annual meeting of the Asian Development Bank (ADB) in Osaka.</str>
-        <int name="index">18</int>
+        <str name="text">The sources said the bulk of financing would cover development costs for the land program and help to bridge the gap between the 10-year spread of payments to landowners and a proposed 30-year loan repayment period for land buyers.</str>
+        <int name="index">25</int>
         <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.9999389721158661</double>
+        <int name="end">232</int>
+        <double name="strength">0.9516501413924497</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The officials said negotiations will start next month on another 150 mln dlr loan sought by Manila to carry out reforms in 14 major state-owned corporations.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">158</int>
-        <double name="strength">0.9026922190430258</double>
+        <double name="strength">0.9276935714991535</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Manila&lt;/em&gt; is &lt;em&gt;being&lt;/em&gt; more &lt;em&gt;cautious&lt;/em&gt; and aims at soft &lt;em&gt;borrowings which,&lt;/em&gt; it is &lt;em&gt;hoped,&lt;/em&gt; will be &lt;em&gt;outstripped&lt;/em&gt; by &lt;em&gt;annual growth rates&lt;/em&gt; and &lt;em&gt;eventually result&lt;/em&gt; in the &lt;em&gt;country emerging&lt;/em&gt; from debt in five or six &lt;em&gt;years.&lt;/em&gt;"</str>
-        <int name="index">34</int>
+        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;sources&lt;/em&gt; said &lt;em&gt;lending&lt;/em&gt; to the &lt;em&gt;Philippines&lt;/em&gt; is designed to &lt;em&gt;support&lt;/em&gt; its &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments position&lt;/em&gt; while the &lt;em&gt;government&lt;/em&gt; aims for a &lt;em&gt;target&lt;/em&gt; of six to &lt;em&gt;seven&lt;/em&gt; pct &lt;em&gt;annual gross national product growth&lt;/em&gt;.</str>
+        <int name="index">30</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;sources&lt;/em&gt; said the &lt;em&gt;request&lt;/em&gt; for land &lt;em&gt;reform funding would&lt;/em&gt; be &lt;em&gt;discussed&lt;/em&gt; at a &lt;em&gt;meeting&lt;/em&gt; of the &lt;em&gt;World&lt;/em&gt; Bank-led &lt;em&gt;consultative group&lt;/em&gt; to be held &lt;em&gt;alongside&lt;/em&gt; the &lt;em&gt;April 27-29 annual meeting&lt;/em&gt; of the &lt;em&gt;Asian Development&lt;/em&gt; Bank (ADB) in &lt;em&gt;Osaka&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said the bulk of &lt;em&gt;financing&lt;/em&gt; would &lt;em&gt;cover development costs&lt;/em&gt; for the land &lt;em&gt;program&lt;/em&gt; and help to &lt;em&gt;bridge&lt;/em&gt; the gap between the 10-year &lt;em&gt;spread&lt;/em&gt; of &lt;em&gt;payments&lt;/em&gt; to &lt;em&gt;landowners&lt;/em&gt; and a &lt;em&gt;proposed 30&lt;/em&gt;-year loan &lt;em&gt;repayment period&lt;/em&gt; for land &lt;em&gt;buyers&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;negotiations&lt;/em&gt; will &lt;em&gt;start&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; on &lt;em&gt;another 150&lt;/em&gt; mln dlr loan &lt;em&gt;sought&lt;/em&gt; by &lt;em&gt;Manila&lt;/em&gt; to &lt;em&gt;carry&lt;/em&gt; out &lt;em&gt;reforms&lt;/em&gt; in 14 &lt;em&gt;major state-owned corporations&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;negotiations&lt;/em&gt; will &lt;em&gt;start&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; on another 150 mln dlr loan sought by &lt;em&gt;Manila&lt;/em&gt; to &lt;em&gt;carry&lt;/em&gt; out &lt;em&gt;reforms&lt;/em&gt; in 14 &lt;em&gt;major state&lt;/em&gt;-owned &lt;em&gt;corporations&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-687.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">76</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">46</int>
+        <int name="count">30</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">panel</str>
+        <str name="text">death</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">karnes</str>
+        <str name="text">majority</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">breaux</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">panel</str>
         <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">resisted</str>
-        <double name="strength">0.8944271909999185</double>
-      </lst>
-      <lst name="term">
-        <str name="text">southern</str>
-        <double name="strength">0.8944271909999185</double>
-      </lst>
-      <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.8944271909999185</double>
+        <str name="text">possibility</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">whose spots on the panel were rumored to be in jeopardy, said their bosses were categorically opposed to being pushed off the committee.</str>
-        <int name="index">7</int>
-        <int name="start">48</int>
-        <int name="end">184</int>
+        <str name="text">The inability of the two parties to settle the matter could increase the possibility that the Democratic majority would be left untouched at 9-8.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">146</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The composition of the Senate Agriculture Committee, in question since the death of Nebraskan Democratic Sen.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">109</int>
+        <double name="strength">0.8208900341677386</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Zorinsky's replacement, Republican David Karnes, has said he would like a seat on the panel, and Senate Republican Leader Robert Dole (R-Kan.) is said to have thrown his support behind Karnes, who would add a Midwestern vote to the panel.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">239</int>
-        <double name="strength">0.9745712380264036</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The inability of the two parties to settle the matter could increase the possibility that the Democratic majority would be left untouched at 9-8.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.8932746775646301</double>
+        <double name="strength">0.7517215155353006</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;whose spots&lt;/em&gt; on the &lt;em&gt;panel&lt;/em&gt; were &lt;em&gt;rumored&lt;/em&gt; to be in &lt;em&gt;jeopardy,&lt;/em&gt; said &lt;em&gt;their bosses&lt;/em&gt; were &lt;em&gt;categorically opposed&lt;/em&gt; to &lt;em&gt;being pushed&lt;/em&gt; off the &lt;em&gt;committee&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Zorinsky&lt;/em&gt;'s &lt;em&gt;replacement, Republican David Karnes,&lt;/em&gt; has said he &lt;em&gt;would&lt;/em&gt; like a seat on the &lt;em&gt;panel,&lt;/em&gt; and &lt;em&gt;Senate Republican Leader Robert&lt;/em&gt; Dole (R-Kan.) is said to have &lt;em&gt;thrown&lt;/em&gt; his &lt;em&gt;support behind Karnes,&lt;/em&gt; who &lt;em&gt;would&lt;/em&gt; add a &lt;em&gt;Midwestern&lt;/em&gt; vote to the &lt;em&gt;panel&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;inability&lt;/em&gt; of the two &lt;em&gt;parties&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; the &lt;em&gt;matter could increase&lt;/em&gt; the &lt;em&gt;possibility&lt;/em&gt; that the &lt;em&gt;Democratic majority would&lt;/em&gt; be left &lt;em&gt;untouched at 9-8&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;inability&lt;/em&gt; of the two &lt;em&gt;parties&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; the &lt;em&gt;matter&lt;/em&gt; could &lt;em&gt;increase&lt;/em&gt; the &lt;em&gt;possibility&lt;/em&gt; that the &lt;em&gt;Democratic majority&lt;/em&gt; would be left &lt;em&gt;untouched at 9-8&lt;/em&gt;.</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;composition&lt;/em&gt; of the &lt;em&gt;Senate Agriculture Committee,&lt;/em&gt; in &lt;em&gt;question&lt;/em&gt; since the &lt;em&gt;death&lt;/em&gt; of &lt;em&gt;Nebraskan Democratic Sen&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Zorinsky&lt;/em&gt;'s &lt;em&gt;replacement, Republican&lt;/em&gt; David &lt;em&gt;Karnes,&lt;/em&gt; has said he would like a seat on the &lt;em&gt;panel,&lt;/em&gt; and &lt;em&gt;Senate Republican Leader Robert&lt;/em&gt; Dole (R-Kan.) is said to have thrown his &lt;em&gt;support&lt;/em&gt; behind &lt;em&gt;Karnes,&lt;/em&gt; who would add a &lt;em&gt;Midwestern&lt;/em&gt; vote to the &lt;em&gt;panel&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

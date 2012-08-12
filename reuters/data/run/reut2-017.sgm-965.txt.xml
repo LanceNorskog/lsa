@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-965.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">216</int>
+        <int name="count">150</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">conservative</str>
+        <str name="text">sterling</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.5385670957044958</double>
+        <str name="text">point</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">tendency</str>
-        <double name="strength">0.5350259504199902</double>
+        <str name="text">economist</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">party</str>
-        <double name="strength">0.523179480783366</double>
+        <str name="text">government</str>
+        <double name="strength">0.9902130691945644</double>
       </lst>
       <lst name="term">
-        <str name="text">slipping</str>
-        <double name="strength">0.523179480783366</double>
+        <str name="text">intervention</str>
+        <double name="strength">0.9902130691945643</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">K. Intervention in the context of the Louvre accord between leading industrial nations to stabilise the dollar, partly through direct intervention on foreign exchanges.</str>
-        <int name="index">7</int>
-        <int name="start">0</int>
-        <int name="end">168</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Today, however, the pound hardly moved on the reserves news, dipping on its trade-weighted index against a basket of currencies from 73.1 pct of its 1975 value at 1000 GMT to 73.0 pct at 1100 GMT, half an hour after the figures were released.</str>
-        <int name="index">17</int>
+        <str name="text">Steven Bell, chief economist at Morgan Grenfell Securities, said that corporate money has been flowing back into Britain amid hopes of another Conservative government, after fears last autumn of a Labour election victory sent it flooding out.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">243</int>
-        <double name="strength">0.9316493950645706</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The market also seemed to have overestimated the amount of sterling the Bank of England bought at the end of May to smooth the pound's sudden downturn, while some of the intervention reported in May probably occurred in April, they said.</str>
-        <int name="index">21</int>
+        <str name="text">But market analysts see the recent upward pressure on sterling, and consequent need for official sales to damp down its rise, more in the light of local factors.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.8936197617674729</double>
+        <int name="end">162</int>
+        <double name="strength">0.903867306576408</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Justin Silverton, equity economist at Credit Suisse Buckmaster and Moore, said a full point reduction might be possible.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">121</int>
+        <double name="strength">0.8719131030289712</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Intervention&lt;/em&gt; in the &lt;em&gt;context&lt;/em&gt; of the &lt;em&gt;Louvre accord between leading industrial nations&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; the &lt;em&gt;dollar, partly through direct intervention&lt;/em&gt; on &lt;em&gt;foreign exchanges&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">Steven Bell, &lt;em&gt;chief economist&lt;/em&gt; at &lt;em&gt;Morgan Grenfell Securities,&lt;/em&gt; said that &lt;em&gt;corporate money&lt;/em&gt; has been flowing back into &lt;em&gt;Britain&lt;/em&gt; amid &lt;em&gt;hopes&lt;/em&gt; of another &lt;em&gt;Conservative government,&lt;/em&gt; after &lt;em&gt;fears&lt;/em&gt; last &lt;em&gt;autumn&lt;/em&gt; of a &lt;em&gt;Labour election victory&lt;/em&gt; sent it flooding out.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Today, however,&lt;/em&gt; the &lt;em&gt;pound hardly moved&lt;/em&gt; on the &lt;em&gt;reserves&lt;/em&gt; news, &lt;em&gt;dipping&lt;/em&gt; on its &lt;em&gt;trade-weighted index against&lt;/em&gt; a &lt;em&gt;basket&lt;/em&gt; of &lt;em&gt;currencies&lt;/em&gt; from 73.1 pct of its 1975 &lt;em&gt;value&lt;/em&gt; at 1000 GMT to 73.0 pct at 1100 GMT, half an hour &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;figures&lt;/em&gt; were &lt;em&gt;released&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">But &lt;em&gt;market analysts&lt;/em&gt; see the &lt;em&gt;recent upward pressure&lt;/em&gt; on &lt;em&gt;sterling,&lt;/em&gt; and &lt;em&gt;consequent&lt;/em&gt; need for &lt;em&gt;official sales&lt;/em&gt; to damp down its rise, more in the &lt;em&gt;light&lt;/em&gt; of &lt;em&gt;local factors&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;market&lt;/em&gt; also &lt;em&gt;seemed&lt;/em&gt; to have &lt;em&gt;overestimated&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;sterling&lt;/em&gt; the Bank of &lt;em&gt;England bought&lt;/em&gt; at the end of May to &lt;em&gt;smooth&lt;/em&gt; the &lt;em&gt;pound&lt;/em&gt;'s &lt;em&gt;sudden downturn, while&lt;/em&gt; some of the &lt;em&gt;intervention reported&lt;/em&gt; in May &lt;em&gt;probably occurred&lt;/em&gt; in &lt;em&gt;April,&lt;/em&gt; they said.</str>
-        <int name="index">21</int>
+        <str name="text">Justin &lt;em&gt;Silverton, equity economist&lt;/em&gt; at &lt;em&gt;Credit Suisse Buckmaster&lt;/em&gt; and &lt;em&gt;Moore,&lt;/em&gt; said a full &lt;em&gt;point reduction&lt;/em&gt; might be &lt;em&gt;possible&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-683.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">trigger</str>
+        <str name="text">ships</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">clash</str>
-        <double name="strength">1.0</double>
+        <str name="text">warships</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">mideast</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">potential</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">iranians</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">little</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">western</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Tehran Radio quoted Iran's top defence spokesman Ali Akbar Hashemi Rafsanjani as saying yesterday that Washington was "moving to the brink of an armed encounter with us."</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Rafsanjani, who is also parliamentary leader, predicted last Friday "a river of blood" throughout the world in the event of any U.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">131</int>
-        <double name="strength">0.8515388913093285</double>
-      </lst>
       <lst name="sentence">
         <str name="text">U.S. moves to increase its warships in and around the Mideast Gulf could trigger more attacks on unprotected merchant ships but run little risk of sparking a direct military clash with Iran, diplomats said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">206</int>
-        <double name="strength">0.8507655382378775</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Tehran Radio quoted Iran's top defence spokesman Ali Akbar Hashemi Rafsanjani as saying yesterday that Washington was "moving to the brink of an armed encounter with us."</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">0.9655296113416227</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They said the American decision inevitably carries some risk of armed confrontation, but Iran -- despite its blunt rhetoric -- would want to avoid this as much as Washington.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.8360171992434884</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tehran Radio quoted&lt;/em&gt; Iran's top &lt;em&gt;defence spokesman&lt;/em&gt; Ali &lt;em&gt;Akbar Hashemi Rafsanjani&lt;/em&gt; as &lt;em&gt;saying yesterday&lt;/em&gt; that &lt;em&gt;Washington&lt;/em&gt; was "&lt;em&gt;moving&lt;/em&gt; to the &lt;em&gt;brink&lt;/em&gt; of an &lt;em&gt;armed encounter&lt;/em&gt; with us."</str>
+        <str name="text">U.S. &lt;em&gt;moves&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;warships&lt;/em&gt; in and around the &lt;em&gt;Mideast&lt;/em&gt; Gulf could &lt;em&gt;trigger&lt;/em&gt; more &lt;em&gt;attacks&lt;/em&gt; on &lt;em&gt;unprotected merchant ships&lt;/em&gt; but run &lt;em&gt;little&lt;/em&gt; risk of sparking a &lt;em&gt;direct military clash&lt;/em&gt; with Iran, &lt;em&gt;diplomats said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Tehran Radio&lt;/em&gt; quoted Iran's top &lt;em&gt;defence spokesman&lt;/em&gt; Ali &lt;em&gt;Akbar&lt;/em&gt; Hashemi &lt;em&gt;Rafsanjani&lt;/em&gt; as saying &lt;em&gt;yesterday&lt;/em&gt; that Washington was "moving to the &lt;em&gt;brink&lt;/em&gt; of an &lt;em&gt;armed encounter&lt;/em&gt; with us."</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rafsanjani,&lt;/em&gt; who is also &lt;em&gt;parliamentary leader, predicted&lt;/em&gt; last &lt;em&gt;Friday &lt;/em&gt;"a &lt;em&gt;river&lt;/em&gt; of &lt;em&gt;blood" throughout&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt; in the &lt;em&gt;event&lt;/em&gt; of any U.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;moves&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;warships&lt;/em&gt; in and &lt;em&gt;around&lt;/em&gt; the &lt;em&gt;Mideast&lt;/em&gt; Gulf &lt;em&gt;could trigger&lt;/em&gt; more &lt;em&gt;attacks&lt;/em&gt; on &lt;em&gt;unprotected merchant ships&lt;/em&gt; but run &lt;em&gt;little&lt;/em&gt; risk of &lt;em&gt;sparking&lt;/em&gt; a &lt;em&gt;direct military clash&lt;/em&gt; with Iran, &lt;em&gt;diplomats said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">They said the &lt;em&gt;American decision&lt;/em&gt; inevitably carries some risk of &lt;em&gt;armed confrontation,&lt;/em&gt; but Iran -- despite its &lt;em&gt;blunt rhetoric --&lt;/em&gt; would want to &lt;em&gt;avoid&lt;/em&gt; this as much as &lt;em&gt;Washington&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

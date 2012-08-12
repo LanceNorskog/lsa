@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-156.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">highest</str>
+        <str name="text">financial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">holds</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">shareholders</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">transaction</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">calculated</str>
-        <double name="strength">0.5</double>
+        <str name="text">offer</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">estimates</str>
-        <double name="strength">0.5</double>
+        <str name="text">interests</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">260</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the highest takeover price he calculated for the company has been about 140 dlrs per share, but that the highest estimates on Wall Street have been about 160.</str>
-        <int name="index">21</int>
+        <str name="text">Arbitragers speculated a bidding war may erupt for Taft, which has two large shareholders in an investment group led by Robert Bass and Carl Lindner, chairman of American Financial Corp.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.839819244801071</double>
+        <int name="end">187</int>
+        <double name="strength">0.8737723066128469</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Ideally, you'd have to break this thing up to satisfy all the interests involved," he said, adding the two largest shareholders might be interested in pieces of Taft.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">168</int>
-        <double name="strength">0.8268547133933469</double>
+        <str name="text">They said to make an arbitrage investment at this level would be chancy since it will take a long time for any transaction to be completed because of regulatory approvals necessary for the broadcast properites.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">210</int>
+        <double name="strength">0.8591901141327379</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dudley&lt;/em&gt; Taft, Taft vice &lt;em&gt;chairman,&lt;/em&gt; and &lt;em&gt;Narragansett Capital&lt;/em&gt; Inc said they sent a &lt;em&gt;letter&lt;/em&gt; to the Taft &lt;em&gt;board, stating&lt;/em&gt; they were &lt;em&gt;committed&lt;/em&gt; to &lt;em&gt;pursuing acquisition&lt;/em&gt; of the &lt;em&gt;broadcast company&lt;/em&gt; and were &lt;em&gt;prepared&lt;/em&gt; to &lt;em&gt;negotiate&lt;/em&gt; a &lt;em&gt;transaction&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of 150 dlrs per &lt;em&gt;share&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Dudley&lt;/em&gt; Taft, Taft vice &lt;em&gt;chairman,&lt;/em&gt; and &lt;em&gt;Narragansett Capital&lt;/em&gt; Inc said they sent a &lt;em&gt;letter&lt;/em&gt; to the Taft &lt;em&gt;board,&lt;/em&gt; stating they were committed to pursuing &lt;em&gt;acquisition&lt;/em&gt; of the &lt;em&gt;broadcast company&lt;/em&gt; and were prepared to &lt;em&gt;negotiate&lt;/em&gt; a &lt;em&gt;transaction&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of 150 dlrs per &lt;em&gt;share&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;highest takeover price&lt;/em&gt; he &lt;em&gt;calculated&lt;/em&gt; for the &lt;em&gt;company&lt;/em&gt; has been &lt;em&gt;about 140&lt;/em&gt; dlrs per &lt;em&gt;share,&lt;/em&gt; but that the &lt;em&gt;highest estimates&lt;/em&gt; on Wall &lt;em&gt;Street&lt;/em&gt; have been &lt;em&gt;about 160&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">&lt;em&gt;Arbitragers&lt;/em&gt; speculated a &lt;em&gt;bidding&lt;/em&gt; war may &lt;em&gt;erupt&lt;/em&gt; for Taft, which has two &lt;em&gt;large shareholders&lt;/em&gt; in an &lt;em&gt;investment group&lt;/em&gt; led by &lt;em&gt;Robert&lt;/em&gt; Bass and Carl &lt;em&gt;Lindner, chairman&lt;/em&gt; of &lt;em&gt;American Financial Corp&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Ideally,&lt;/em&gt; you'd have to &lt;em&gt;break&lt;/em&gt; this &lt;em&gt;thing&lt;/em&gt; up to &lt;em&gt;satisfy&lt;/em&gt; all the &lt;em&gt;interests involved,"&lt;/em&gt; he said, &lt;em&gt;adding&lt;/em&gt; the two &lt;em&gt;largest shareholders might&lt;/em&gt; be &lt;em&gt;interested&lt;/em&gt; in &lt;em&gt;pieces&lt;/em&gt; of Taft.</str>
-        <int name="index">20</int>
+        <str name="text">They said to make an &lt;em&gt;arbitrage investment&lt;/em&gt; at this &lt;em&gt;level&lt;/em&gt; would be &lt;em&gt;chancy&lt;/em&gt; since it will take a long time for any &lt;em&gt;transaction&lt;/em&gt; to be completed because of &lt;em&gt;regulatory approvals necessary&lt;/em&gt; for the &lt;em&gt;broadcast properites&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

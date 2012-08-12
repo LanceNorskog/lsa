@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-77.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">159</int>
+        <int name="count">115</int>
       </lst>
       <lst name="stems">
-        <int name="count">111</int>
+        <int name="count">83</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">hungary</str>
+        <str name="text">states</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expand</str>
-        <double name="strength">1.0</double>
+        <str name="text">miners</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">livestock</str>
-        <double name="strength">1.0</double>
+        <str name="text">commodities</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">thailand</str>
-        <double name="strength">1.0</double>
+        <str name="text">republicans</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9986518881316716</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">It argues there might be instances in which a country needed the money to continue its moves toward U.</str>
-        <int name="index">32</int>
-        <int name="start">0</int>
-        <int name="end">102</int>
+        <str name="text">Baker said the United States would continue to use its leverage in the banks to require foreign trade liberalization measures, often in the form of elimination of subsidies.</str>
+        <int name="index">34</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Nickles, Symms and others also have cited other loans such as a 1985 World Bank loan to Hungary to expand livestock exports and 500 mln dlrs lent to Thailand from 1981 to 1985 at low interest rates for agriculture.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">215</int>
-        <double name="strength">0.9581587025342915</double>
+        <str name="text">Congressional ire is rising against the multinational development banks which make loans to help other countries produce goods in direct competition with beleagured American farmers and miners.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">193</int>
+        <double name="strength">0.9989441034874688</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Also, the recipient countries would have to prove that the production, marketing and export of the commodities could be handled without government subsidy.</str>
-        <int name="index">22</int>
+        <str name="text">With a record trade deficit of 169 billion dlrs last year and a farm economy in the doldrums, Congress is pressing to hold back U.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">156</int>
-        <double name="strength">0.920030200492821</double>
+        <int name="end">131</int>
+        <double name="strength">0.9283152576778052</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;argues there might&lt;/em&gt; be &lt;em&gt;instances&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; a &lt;em&gt;country needed&lt;/em&gt; the &lt;em&gt;money&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; its &lt;em&gt;moves toward U&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">&lt;em&gt;Baker&lt;/em&gt; said the United &lt;em&gt;States&lt;/em&gt; would &lt;em&gt;continue&lt;/em&gt; to use its &lt;em&gt;leverage&lt;/em&gt; in the &lt;em&gt;banks&lt;/em&gt; to &lt;em&gt;require foreign trade liberalization measures,&lt;/em&gt; often in the form of &lt;em&gt;elimination&lt;/em&gt; of &lt;em&gt;subsidies&lt;/em&gt;.</str>
+        <int name="index">34</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nickles, Symms&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; also have &lt;em&gt;cited other loans&lt;/em&gt; such as a 1985 &lt;em&gt;World&lt;/em&gt; Bank loan to &lt;em&gt;Hungary&lt;/em&gt; to &lt;em&gt;expand livestock exports&lt;/em&gt; and 500 mln dlrs lent to &lt;em&gt;Thailand&lt;/em&gt; from 1981 to 1985 at low &lt;em&gt;interest rates&lt;/em&gt; for &lt;em&gt;agriculture&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Congressional&lt;/em&gt; ire is rising against the &lt;em&gt;multinational development banks&lt;/em&gt; which make &lt;em&gt;loans&lt;/em&gt; to help &lt;em&gt;other countries produce goods&lt;/em&gt; in &lt;em&gt;direct competition&lt;/em&gt; with &lt;em&gt;beleagured American farmers&lt;/em&gt; and &lt;em&gt;miners&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Also, the &lt;em&gt;recipient countries would&lt;/em&gt; have to &lt;em&gt;prove&lt;/em&gt; that the &lt;em&gt;production, marketing&lt;/em&gt; and &lt;em&gt;export&lt;/em&gt; of the &lt;em&gt;commodities could&lt;/em&gt; be &lt;em&gt;handled without government subsidy&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">With a &lt;em&gt;record trade deficit&lt;/em&gt; of 169 &lt;em&gt;billion&lt;/em&gt; dlrs last year and a farm &lt;em&gt;economy&lt;/em&gt; in the &lt;em&gt;doldrums, Congress&lt;/em&gt; is pressing to hold back U.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

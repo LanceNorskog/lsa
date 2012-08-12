@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-289.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">47</int>
       </lst>
       <lst name="terms">
-        <int name="count">165</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">116</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">gasoline</str>
+        <str name="text">spending</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">service</str>
-        <double name="strength">1.0</double>
+        <str name="text">trend</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">station</str>
-        <double name="strength">1.0</double>
+        <str name="text">report</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">higher</str>
-        <double name="strength">1.0</double>
+        <str name="text">maude</str>
+        <double name="strength">0.9793138950190087</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">1.0</double>
+        <str name="text">consumer</str>
+        <double name="strength">0.9793138950190086</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">171</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Gasoline service station sales rose two pct in February, following a 1.9 pct gain in January, but economists said higher oil prices rather than an increased volume of gas sales probably accounted for these gains.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.8749271890663887</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Platt does not foresee potential for tighter monetary policy on the basis of the latest retail sales report.</str>
         <int name="index">40</int>
         <int name="start">1</int>
         <int name="end">109</int>
-        <double name="strength">0.7609796549735023</double>
+        <double name="strength">0.8854499905530704</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The trend is toward continued spending but certainly at a much more sluggish pace," said Don Maude of Midland Montagu Capital Markets Inc.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.8121926374821464</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;number&lt;/em&gt; is not &lt;em&gt;really&lt;/em&gt; that &lt;em&gt;problematic&lt;/em&gt; for &lt;em&gt;those&lt;/em&gt; of us who are &lt;em&gt;constructive&lt;/em&gt; on the bond &lt;em&gt;market," agreed Elliot Platt&lt;/em&gt; of &lt;em&gt;Donaldsen Lufkin&lt;/em&gt; and &lt;em&gt;Jenrette Securities Corp&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;number&lt;/em&gt; is not really that &lt;em&gt;problematic&lt;/em&gt; for those of us who are &lt;em&gt;constructive&lt;/em&gt; on the bond &lt;em&gt;market,"&lt;/em&gt; agreed &lt;em&gt;Elliot Platt&lt;/em&gt; of Donaldsen &lt;em&gt;Lufkin&lt;/em&gt; and &lt;em&gt;Jenrette Securities Corp&lt;/em&gt;.</str>
         <int name="index">39</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Gasoline service station sales&lt;/em&gt; rose two pct in &lt;em&gt;February, following&lt;/em&gt; a 1.9 pct gain in &lt;em&gt;January,&lt;/em&gt; but &lt;em&gt;economists&lt;/em&gt; said &lt;em&gt;higher&lt;/em&gt; oil &lt;em&gt;prices rather&lt;/em&gt; than an &lt;em&gt;increased volume&lt;/em&gt; of gas &lt;em&gt;sales probably accounted&lt;/em&gt; for &lt;em&gt;these gains&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">&lt;em&gt;Platt&lt;/em&gt; does not &lt;em&gt;foresee potential&lt;/em&gt; for tighter &lt;em&gt;monetary policy&lt;/em&gt; on the &lt;em&gt;basis&lt;/em&gt; of the latest &lt;em&gt;retail sales report&lt;/em&gt;.</str>
+        <int name="index">40</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Platt&lt;/em&gt; does not &lt;em&gt;foresee potential&lt;/em&gt; for &lt;em&gt;tighter monetary policy&lt;/em&gt; on the &lt;em&gt;basis&lt;/em&gt; of the &lt;em&gt;latest retail sales report&lt;/em&gt;.</str>
-        <int name="index">40</int>
+        <str name="text">"The &lt;em&gt;trend&lt;/em&gt; is toward continued &lt;em&gt;spending&lt;/em&gt; but certainly at a much more &lt;em&gt;sluggish&lt;/em&gt; pace," said Don &lt;em&gt;Maude&lt;/em&gt; of &lt;em&gt;Midland Montagu Capital Markets Inc&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

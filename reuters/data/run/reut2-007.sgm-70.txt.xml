@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-70.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">after</str>
+        <str name="text">monday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">yesterday</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">chairman</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">erbynn</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">included</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">three</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">prospects</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">During the morning council session, the Ivory Coast delegation gave "an open minded statement" that it is willing to work out a buffer stock rules solution which could come into effect as soon as possible, Baron said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">218</int>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
       <lst name="sentence">
         <str name="text">A working group which has been meeting since Monday will tackle the buffer stock rules issue again at 1600 hrs, when ICCO executive director Kobena Erbynn presents a fleshed-out version of a draft proposal he prepared earlier this week, delegates said.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">252</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9726673031951634</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The draft proposal included three principles: a limit to non- member cocoa comprising the buffer stock, an offer system for buying buffer stock cocoa, and price differentials to be paid for various cocoas making up the buffer stock, delegates said.</str>
-        <int name="index">11</int>
+        <str name="text">The ICCO council failed to agree on buffer stock rules when a new International Cocoa Agreement came into force in January, with deep differences of opinion precluding serious discussions on the matter at that time.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">249</int>
-        <double name="strength">0.8804787133336082</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Mohammed said delegates will have a much clearer indication of prospects for an accord after details of the rules are elaborated by Erbynn, and after producers and consumers meet separately later today to examine the scheme.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.8510882674231945</double>
+        <int name="end">216</int>
+        <double name="strength">0.948591076300002</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;working group which&lt;/em&gt; has been &lt;em&gt;meeting since Monday&lt;/em&gt; will &lt;em&gt;tackle&lt;/em&gt; the &lt;em&gt;buffer stock rules issue again&lt;/em&gt; at 1600 hrs, when ICCO &lt;em&gt;executive director Kobena Erbynn presents&lt;/em&gt; a &lt;em&gt;fleshed&lt;/em&gt;-out &lt;em&gt;version&lt;/em&gt; of a &lt;em&gt;draft proposal&lt;/em&gt; he &lt;em&gt;prepared earlier&lt;/em&gt; this week, &lt;em&gt;delegates said&lt;/em&gt;.</str>
+        <str name="text">During the &lt;em&gt;morning council session,&lt;/em&gt; the &lt;em&gt;Ivory Coast delegation&lt;/em&gt; gave "an open &lt;em&gt;minded statement"&lt;/em&gt; that it is &lt;em&gt;willing&lt;/em&gt; to work out a &lt;em&gt;buffer stock rules solution&lt;/em&gt; which could come into &lt;em&gt;effect&lt;/em&gt; as soon as &lt;em&gt;possible, Baron said&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A working &lt;em&gt;group&lt;/em&gt; which has been meeting since &lt;em&gt;Monday&lt;/em&gt; will &lt;em&gt;tackle&lt;/em&gt; the &lt;em&gt;buffer stock rules issue&lt;/em&gt; again at 1600 hrs, when ICCO &lt;em&gt;executive director Kobena Erbynn&lt;/em&gt; presents a fleshed-out &lt;em&gt;version&lt;/em&gt; of a &lt;em&gt;draft proposal&lt;/em&gt; he prepared earlier this week, &lt;em&gt;delegates said&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;draft proposal included three principles:&lt;/em&gt; a &lt;em&gt;limit&lt;/em&gt; to non- &lt;em&gt;member cocoa comprising&lt;/em&gt; the &lt;em&gt;buffer stock,&lt;/em&gt; an &lt;em&gt;offer system&lt;/em&gt; for &lt;em&gt;buying buffer stock cocoa,&lt;/em&gt; and &lt;em&gt;price differentials&lt;/em&gt; to be paid for &lt;em&gt;various cocoas making&lt;/em&gt; up the &lt;em&gt;buffer stock, delegates said&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Mohammed&lt;/em&gt; said &lt;em&gt;delegates&lt;/em&gt; will have a much &lt;em&gt;clearer indication&lt;/em&gt; of &lt;em&gt;prospects&lt;/em&gt; for an &lt;em&gt;accord after details&lt;/em&gt; of the &lt;em&gt;rules&lt;/em&gt; are &lt;em&gt;elaborated&lt;/em&gt; by &lt;em&gt;Erbynn,&lt;/em&gt; and &lt;em&gt;after producers&lt;/em&gt; and &lt;em&gt;consumers&lt;/em&gt; meet &lt;em&gt;separately later today&lt;/em&gt; to &lt;em&gt;examine&lt;/em&gt; the &lt;em&gt;scheme&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The ICCO &lt;em&gt;council&lt;/em&gt; failed to &lt;em&gt;agree&lt;/em&gt; on &lt;em&gt;buffer stock rules&lt;/em&gt; when a new &lt;em&gt;International Cocoa Agreement&lt;/em&gt; came into &lt;em&gt;force&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; with deep &lt;em&gt;differences&lt;/em&gt; of &lt;em&gt;opinion&lt;/em&gt; precluding &lt;em&gt;serious discussions&lt;/em&gt; on the &lt;em&gt;matter&lt;/em&gt; at that time.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

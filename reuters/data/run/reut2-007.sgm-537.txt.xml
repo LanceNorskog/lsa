@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-537.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">73</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">december</str>
+        <str name="text">japanese</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">begins</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">factors</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">funds</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">seasonal</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">beginning</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.5</double>
+        <str name="text">likely</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Japanese short-term interest rates, buoyed recently by seasonal factors, are likely to fall from the beginning of April when the new financial year begins, money traders said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">175</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Despite its attempts to dampen rates with measures such as aggressive commercial bill purchases, the central bank has failed to remove all upward pressure, money traders said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.954514307945804</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank cut the rate to 2.5 pct from three, and began actively injecting funds into the money market to offset rate rises resulting from the end-of-fiscal-year surge in demand for funds from financial institutions.</str>
-        <int name="index">2</int>
+        <str name="text">Japanese short-term interest rates, buoyed recently by seasonal factors, are likely to fall from the beginning of April when the new financial year begins, money traders said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">175</int>
+        <double name="strength">0.8750063517786406</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of Japan is expected to encourage the trend following its attempts to pressure rates to enhance its discount rate cut on February 23, they said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.9145041908656714</double>
+        <int name="end">154</int>
+        <double name="strength">0.8411544937437636</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese short&lt;/em&gt;-term &lt;em&gt;interest rates, buoyed recently&lt;/em&gt; by &lt;em&gt;seasonal factors,&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to fall from the &lt;em&gt;beginning&lt;/em&gt; of &lt;em&gt;April&lt;/em&gt; when the new &lt;em&gt;financial&lt;/em&gt; year &lt;em&gt;begins, money traders said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite&lt;/em&gt; its &lt;em&gt;attempts&lt;/em&gt; to &lt;em&gt;dampen rates&lt;/em&gt; with &lt;em&gt;measures&lt;/em&gt; such as &lt;em&gt;aggressive commercial&lt;/em&gt; bill &lt;em&gt;purchases,&lt;/em&gt; the &lt;em&gt;central&lt;/em&gt; bank has &lt;em&gt;failed&lt;/em&gt; to &lt;em&gt;remove&lt;/em&gt; all &lt;em&gt;upward pressure, money traders said&lt;/em&gt;.</str>
+        <str name="text">Despite its &lt;em&gt;attempts&lt;/em&gt; to &lt;em&gt;dampen rates&lt;/em&gt; with &lt;em&gt;measures&lt;/em&gt; such as &lt;em&gt;aggressive commercial&lt;/em&gt; bill &lt;em&gt;purchases,&lt;/em&gt; the &lt;em&gt;central&lt;/em&gt; bank has failed to &lt;em&gt;remove&lt;/em&gt; all &lt;em&gt;upward pressure, money traders said&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank cut the rate to 2.5 pct from &lt;em&gt;three,&lt;/em&gt; and &lt;em&gt;began actively injecting funds&lt;/em&gt; into the &lt;em&gt;money market&lt;/em&gt; to &lt;em&gt;offset&lt;/em&gt; rate &lt;em&gt;rises resulting&lt;/em&gt; from the end-of-&lt;em&gt;fiscal&lt;/em&gt;-year &lt;em&gt;surge&lt;/em&gt; in &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;funds&lt;/em&gt; from &lt;em&gt;financial institutions&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Japanese short&lt;/em&gt;-term &lt;em&gt;interest rates,&lt;/em&gt; buoyed recently by &lt;em&gt;seasonal factors,&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to fall from the &lt;em&gt;beginning&lt;/em&gt; of &lt;em&gt;April&lt;/em&gt; when the new &lt;em&gt;financial&lt;/em&gt; year begins, &lt;em&gt;money traders said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bank of &lt;em&gt;Japan&lt;/em&gt; is expected to &lt;em&gt;encourage&lt;/em&gt; the &lt;em&gt;trend&lt;/em&gt; following its &lt;em&gt;attempts&lt;/em&gt; to &lt;em&gt;pressure rates&lt;/em&gt; to &lt;em&gt;enhance&lt;/em&gt; its &lt;em&gt;discount&lt;/em&gt; rate cut on &lt;em&gt;February 23,&lt;/em&gt; they said.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

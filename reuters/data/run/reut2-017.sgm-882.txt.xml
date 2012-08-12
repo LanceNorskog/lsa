@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-882.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pressing</str>
+        <str name="text">rates</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">imports</str>
-        <double name="strength">1.0</double>
+        <str name="text">inflation</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">either</str>
-        <double name="strength">1.0</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">through</str>
-        <double name="strength">1.0</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.9999999999999964</double>
       </lst>
       <lst name="term">
-        <str name="text">fiscal</str>
-        <double name="strength">1.0</double>
+        <str name="text">germany</str>
+        <double name="strength">0.9963408654530976</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The above-target growth of money supply over the past 16 months had prompted some discussion of the usefulness of targets themselves, a matter which might be taken up at the mid-year meeting of the Bundesbank's council, Schlesigner said.</str>
-        <int name="index">34</int>
-        <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The recent widening of interest rate differentials, the fact that the dollar has fallen sharply in a very short period and an improvement in real trade balances have all combined towards stabilizing the dollar, he said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.9699342093599237</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Schlesinger said the problem of rapid money supply growth was longer term, in that the economy was building up the potential for a possible eventual resurgence of inflation.</str>
         <int name="index">33</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">0.8554800721502268</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It is not a question of monetary conditions if domestic demand does not grow strongly," he said, noting that interest rates are at historically low levels and funds are ample.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
+        <double name="strength">0.9770620558131253</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Schlesinger said he saw no signs that central bank money stock growth was slowing down from its recent year-on-year pace of 7-1/2 to eight pct, well above the Bundesbank's three to six pct target.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
+        <double name="strength">0.9039816565123739</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;above-target growth&lt;/em&gt; of &lt;em&gt;money supply&lt;/em&gt; over the past 16 &lt;em&gt;months&lt;/em&gt; had &lt;em&gt;prompted&lt;/em&gt; some &lt;em&gt;discussion&lt;/em&gt; of the &lt;em&gt;usefulness&lt;/em&gt; of &lt;em&gt;targets themselves,&lt;/em&gt; a &lt;em&gt;matter which might&lt;/em&gt; be &lt;em&gt;taken&lt;/em&gt; up at the mid-year &lt;em&gt;meeting&lt;/em&gt; of the &lt;em&gt;Bundesbank&lt;/em&gt;'s &lt;em&gt;council, Schlesigner said&lt;/em&gt;.</str>
-        <int name="index">34</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;recent widening&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;differentials,&lt;/em&gt; the fact that the &lt;em&gt;dollar&lt;/em&gt; has &lt;em&gt;fallen sharply&lt;/em&gt; in a very &lt;em&gt;short period&lt;/em&gt; and an &lt;em&gt;improvement&lt;/em&gt; in real &lt;em&gt;trade balances&lt;/em&gt; have all &lt;em&gt;combined towards stabilizing&lt;/em&gt; the &lt;em&gt;dollar,&lt;/em&gt; he said.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Schlesinger&lt;/em&gt; said the &lt;em&gt;problem&lt;/em&gt; of &lt;em&gt;rapid money supply growth&lt;/em&gt; was &lt;em&gt;longer&lt;/em&gt; term, in that the &lt;em&gt;economy&lt;/em&gt; was &lt;em&gt;building&lt;/em&gt; up the &lt;em&gt;potential&lt;/em&gt; for a &lt;em&gt;possible eventual resurgence&lt;/em&gt; of &lt;em&gt;inflation&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Schlesinger&lt;/em&gt; said the &lt;em&gt;problem&lt;/em&gt; of &lt;em&gt;rapid money supply growth&lt;/em&gt; was longer term, in that the &lt;em&gt;economy&lt;/em&gt; was building up the &lt;em&gt;potential&lt;/em&gt; for a &lt;em&gt;possible eventual resurgence&lt;/em&gt; of &lt;em&gt;inflation&lt;/em&gt;.</str>
         <int name="index">33</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It is not a &lt;em&gt;question&lt;/em&gt; of &lt;em&gt;monetary conditions&lt;/em&gt; if &lt;em&gt;domestic demand&lt;/em&gt; does not grow strongly," he said, noting that &lt;em&gt;interest rates&lt;/em&gt; are at historically low &lt;em&gt;levels&lt;/em&gt; and &lt;em&gt;funds&lt;/em&gt; are &lt;em&gt;ample&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Schlesinger&lt;/em&gt; said he saw no &lt;em&gt;signs&lt;/em&gt; that &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;money stock growth&lt;/em&gt; was slowing down from its &lt;em&gt;recent&lt;/em&gt; year-on-year pace of 7-1/2 to &lt;em&gt;eight&lt;/em&gt; pct, well above the &lt;em&gt;Bundesbank&lt;/em&gt;'s &lt;em&gt;three&lt;/em&gt; to six pct &lt;em&gt;target&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

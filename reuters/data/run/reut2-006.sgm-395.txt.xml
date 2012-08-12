@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-395.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">114</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">again</str>
+        <str name="text">parliamentary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999969</double>
-      </lst>
-      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.7071067811865455</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">party</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">provisional</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">works</str>
-        <double name="strength">0.5590169943749457</double>
+        <str name="text">boycott</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Economists said confidence of opposition members in their campaign to scrap the sales tax has been heightened by their success in forcing the adoption of a stop-gap budget and could lead to even further delays in passing the full budget.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">238</int>
+        <str name="text">Nakasone hopes to meet President Reagan to prepare for the economic summit of seven major industrial democracies in June, they added.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">133</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They quoted ruling Liberal Democratic Party (LDP) secretary general Noboru Takeshita as telling opposition party officials yesterday that the budget should include as much pump-priming as possible.</str>
-        <int name="index">8</int>
+        <str name="text">The stop-gap budget, which is expected to pass parliament on March 31, is designed to respond to mounting calls for economic stimulus from domestic industries, hard hit by the yen's sharp rise, officials said.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">198</int>
-        <double name="strength">0.9718627414101548</double>
+        <int name="end">210</int>
+        <double name="strength">0.9758054214192651</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An on-again, off-again parliamentary boycott by opposition parties over a proposed five pct sales tax has prevented passage of the full 1987/88 budget within the current year ending March 31.</str>
-        <int name="index">2</int>
+        <str name="text">Japanese press reports said some LDP executives suggested Nakasone may have to give up plans to visit Washington in April because of the sales tax confrontation.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.8870310330683042</double>
+        <int name="end">162</int>
+        <double name="strength">0.9697028112500617</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said &lt;em&gt;confidence&lt;/em&gt; of &lt;em&gt;opposition members&lt;/em&gt; in &lt;em&gt;their campaign&lt;/em&gt; to &lt;em&gt;scrap&lt;/em&gt; the &lt;em&gt;sales&lt;/em&gt; tax has been &lt;em&gt;heightened&lt;/em&gt; by &lt;em&gt;their success&lt;/em&gt; in &lt;em&gt;forcing&lt;/em&gt; the &lt;em&gt;adoption&lt;/em&gt; of a stop-gap &lt;em&gt;budget&lt;/em&gt; and &lt;em&gt;could&lt;/em&gt; lead to even &lt;em&gt;further delays&lt;/em&gt; in &lt;em&gt;passing&lt;/em&gt; the full &lt;em&gt;budget&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Nakasone&lt;/em&gt; hopes to meet &lt;em&gt;President&lt;/em&gt; Reagan to &lt;em&gt;prepare&lt;/em&gt; for the &lt;em&gt;economic summit&lt;/em&gt; of &lt;em&gt;seven major industrial democracies&lt;/em&gt; in June, they added.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;quoted ruling Liberal Democratic Party &lt;/em&gt;(LDP) &lt;em&gt;secretary general Noboru Takeshita&lt;/em&gt; as &lt;em&gt;telling opposition party officials yesterday&lt;/em&gt; that the &lt;em&gt;budget should include&lt;/em&gt; as much pump-&lt;em&gt;priming&lt;/em&gt; as &lt;em&gt;possible&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The stop-gap &lt;em&gt;budget,&lt;/em&gt; which is expected to pass &lt;em&gt;parliament&lt;/em&gt; on &lt;em&gt;March 31,&lt;/em&gt; is designed to &lt;em&gt;respond&lt;/em&gt; to mounting &lt;em&gt;calls&lt;/em&gt; for &lt;em&gt;economic stimulus&lt;/em&gt; from &lt;em&gt;domestic industries,&lt;/em&gt; hard hit by the yen's &lt;em&gt;sharp&lt;/em&gt; rise, &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An on-&lt;em&gt;again,&lt;/em&gt; off-&lt;em&gt;again parliamentary boycott&lt;/em&gt; by &lt;em&gt;opposition parties&lt;/em&gt; over a &lt;em&gt;proposed&lt;/em&gt; five pct &lt;em&gt;sales&lt;/em&gt; tax has &lt;em&gt;prevented passage&lt;/em&gt; of the full 1987/88 &lt;em&gt;budget within&lt;/em&gt; the &lt;em&gt;current&lt;/em&gt; year &lt;em&gt;ending March 31&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Japanese press reports&lt;/em&gt; said some LDP &lt;em&gt;executives&lt;/em&gt; suggested &lt;em&gt;Nakasone&lt;/em&gt; may have to give up &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;visit&lt;/em&gt; Washington in &lt;em&gt;April&lt;/em&gt; because of the &lt;em&gt;sales&lt;/em&gt; tax &lt;em&gt;confrontation&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

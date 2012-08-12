@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-515.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">72</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">42</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
+        <str name="text">kharg</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">times</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">august</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">january</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
         <str name="text">surprise</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">escalation</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">installations</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">broke</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">It also followed celebrations yesterday of what Baghdad hailed as Iran's failure to achieve victory during the Iranian year which ended on Saturday.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">149</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Iraqi warplanes also struck Iran's offshore oilfields at Nowruz, Cyrus and Ardeshir in northern gulf, some 80 km (50 miles) west of Kharg island, today's communique said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.8781817327971143</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The surprise escalation of attacks on oil installations broke more than a month-long lull in Iraqi air force action.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">117</int>
-        <double name="strength">0.8221138226605853</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It also followed celebrations yesterday of what Baghdad hailed as Iran's failure to achieve victory during the Iranian year which ended on Saturday.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.9733591540956126</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But there has been no independent confirmation of today's supertanker attack nor of other raids on shipping reported by Baghdad in the past 24 hours.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.9661248682316346</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It also &lt;em&gt;followed celebrations yesterday&lt;/em&gt; of what &lt;em&gt;Baghdad hailed&lt;/em&gt; as Iran's &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;achieve victory during&lt;/em&gt; the &lt;em&gt;Iranian&lt;/em&gt; year &lt;em&gt;which ended&lt;/em&gt; on &lt;em&gt;Saturday&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;surprise escalation&lt;/em&gt; of &lt;em&gt;attacks&lt;/em&gt; on oil &lt;em&gt;installations&lt;/em&gt; broke more than a &lt;em&gt;month&lt;/em&gt;-long lull in &lt;em&gt;Iraqi&lt;/em&gt; air &lt;em&gt;force action&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It also followed &lt;em&gt;celebrations yesterday&lt;/em&gt; of what &lt;em&gt;Baghdad&lt;/em&gt; hailed as Iran's &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;achieve victory&lt;/em&gt; during the &lt;em&gt;Iranian&lt;/em&gt; year which ended on &lt;em&gt;Saturday&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Iraqi warplanes&lt;/em&gt; also &lt;em&gt;struck&lt;/em&gt; Iran's &lt;em&gt;offshore oilfields&lt;/em&gt; at &lt;em&gt;Nowruz, Cyrus&lt;/em&gt; and &lt;em&gt;Ardeshir&lt;/em&gt; in &lt;em&gt;northern&lt;/em&gt; gulf, some 80 km (50 &lt;em&gt;miles)&lt;/em&gt; west of &lt;em&gt;Kharg island, today&lt;/em&gt;'s &lt;em&gt;communique said&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;surprise escalation&lt;/em&gt; of &lt;em&gt;attacks&lt;/em&gt; on oil &lt;em&gt;installations broke&lt;/em&gt; more than a &lt;em&gt;month&lt;/em&gt;-long lull in &lt;em&gt;Iraqi&lt;/em&gt; air &lt;em&gt;force action&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">But there has been no &lt;em&gt;independent confirmation&lt;/em&gt; of &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;supertanker attack&lt;/em&gt; nor of &lt;em&gt;other raids&lt;/em&gt; on &lt;em&gt;shipping&lt;/em&gt; reported by &lt;em&gt;Baghdad&lt;/em&gt; in the past 24 &lt;em&gt;hours&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

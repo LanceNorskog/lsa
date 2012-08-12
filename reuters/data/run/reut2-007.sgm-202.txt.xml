@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-202.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">points</str>
+        <str name="text">investcorp</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">letters</str>
-        <double name="strength">0.6666666666666672</double>
+        <str name="text">specialises</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">thirds</str>
-        <double name="strength">0.6666666666666665</double>
+        <str name="text">companies</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.37267799624996534</double>
+        <str name="text">property</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.37267799624996517</double>
+        <str name="text">industrialised</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">It said the interest margin over London Interbank Offered Rates (LIBOR) for the committed advances will be based on the total utilisation of the facility - 17.5 basis points for up to one third, 20 basis points for up to two thirds and 22.5 points for an amount above that level.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">280</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">- issue of contingent obligations such as performance letters of credit, letters of guarantee or the receipt of quotations for interest rate swaps, interest rate caps and collars from a panel of selected banks.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">211</int>
-        <double name="strength">0.7933515215413727</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bahrain-based &lt;Arabian Investment Banking Corp (Investcorp) EC&gt; is raising 60 mln dlrs through a medium-term revolving multi-purpose facility, arranger and co-lead manager &lt;Arab Banking Corp&gt; (ABC) said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">203</int>
-        <double name="strength">0.6170378719388757</double>
+        <str name="text">It said the interest margin over London Interbank Offered Rates (LIBOR) for the committed advances will be based on the total utilisation of the facility - 17.5 basis points for up to one third, 20 basis points for up to two thirds and 22.5 points for an amount above that level.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">280</int>
+        <double name="strength">0.9419667862593928</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Investcorp, set up in 1982, specialises in buying companies and property in industrialised nations.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">100</int>
+        <double name="strength">0.8994173308138417</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It said the &lt;em&gt;interest margin&lt;/em&gt; over &lt;em&gt;London Interbank Offered Rates (LIBOR)&lt;/em&gt; for the &lt;em&gt;committed advances&lt;/em&gt; will be &lt;em&gt;based&lt;/em&gt; on the &lt;em&gt;total utilisation&lt;/em&gt; of the &lt;em&gt;facility - 17.5 basis points&lt;/em&gt; for up to one &lt;em&gt;third, 20 basis points&lt;/em&gt; for up to two &lt;em&gt;thirds&lt;/em&gt; and 22.5 &lt;em&gt;points&lt;/em&gt; for an &lt;em&gt;amount above&lt;/em&gt; that &lt;em&gt;level&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;- issue&lt;/em&gt; of &lt;em&gt;contingent obligations&lt;/em&gt; such as &lt;em&gt;performance letters&lt;/em&gt; of &lt;em&gt;credit, letters&lt;/em&gt; of &lt;em&gt;guarantee&lt;/em&gt; or the &lt;em&gt;receipt&lt;/em&gt; of &lt;em&gt;quotations&lt;/em&gt; for &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;swaps, interest&lt;/em&gt; rate caps and &lt;em&gt;collars&lt;/em&gt; from a &lt;em&gt;panel&lt;/em&gt; of &lt;em&gt;selected banks&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;- issue&lt;/em&gt; of &lt;em&gt;contingent obligations&lt;/em&gt; such as &lt;em&gt;performance letters&lt;/em&gt; of &lt;em&gt;credit, letters&lt;/em&gt; of &lt;em&gt;guarantee&lt;/em&gt; or the &lt;em&gt;receipt&lt;/em&gt; of &lt;em&gt;quotations&lt;/em&gt; for &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;swaps, interest&lt;/em&gt; rate caps and &lt;em&gt;collars&lt;/em&gt; from a &lt;em&gt;panel&lt;/em&gt; of selected &lt;em&gt;banks&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bahrain-based &lt;Arabian Investment Banking&lt;/em&gt; Corp (&lt;em&gt;Investcorp)&lt;/em&gt; EC&gt; is &lt;em&gt;raising 60&lt;/em&gt; mln dlrs &lt;em&gt;through&lt;/em&gt; a &lt;em&gt;medium&lt;/em&gt;-term &lt;em&gt;revolving multi-purpose facility, arranger&lt;/em&gt; and co-lead &lt;em&gt;manager &lt;/em&gt;&lt;Arab &lt;em&gt;Banking&lt;/em&gt; Corp&gt; (ABC) said.</str>
-        <int name="index">0</int>
+        <str name="text">It said the &lt;em&gt;interest margin&lt;/em&gt; over &lt;em&gt;London Interbank&lt;/em&gt; Offered &lt;em&gt;Rates (LIBOR)&lt;/em&gt; for the &lt;em&gt;committed advances&lt;/em&gt; will be based on the &lt;em&gt;total utilisation&lt;/em&gt; of the &lt;em&gt;facility - 17.5 basis points&lt;/em&gt; for up to one &lt;em&gt;third, 20 basis points&lt;/em&gt; for up to two &lt;em&gt;thirds&lt;/em&gt; and 22.5 &lt;em&gt;points&lt;/em&gt; for an &lt;em&gt;amount&lt;/em&gt; above that &lt;em&gt;level&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Investcorp,&lt;/em&gt; set up in 1982, &lt;em&gt;specialises&lt;/em&gt; in buying &lt;em&gt;companies&lt;/em&gt; and &lt;em&gt;property&lt;/em&gt; in &lt;em&gt;industrialised nations&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-251.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,62 +21,61 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">167</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">secretary</str>
+        <str name="text">effort</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">slash</str>
-        <double name="strength">0.3333333333333346</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">kilobit</str>
-        <double name="strength">0.3333333333333346</double>
+        <str name="text">production</str>
+        <double name="strength">0.999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">dynamic</str>
-        <double name="strength">0.3333333333333346</double>
+        <str name="text">letter</str>
+        <double name="strength">0.9999999999999966</double>
       </lst>
       <lst name="term">
-        <str name="text">random</str>
-        <double name="strength">0.3333333333333346</double>
+        <str name="text">semiconductors</str>
+        <double name="strength">0.9999999999999961</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Secretary of State George Schultz, Treasury Secretary James Baker, Commerce Secretary Malcolm Baldrige and U.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">112</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Yamamoto said that Japan will slash output of 256 kilobit dynamic random access and erasable programmable read only memory chips by 11 pct in the second quarter.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">162</int>
-        <double name="strength">0.7815273587134802</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We must make our utmost effort to ward off any catastrophe," Ministry of International Trade and Industry (MITI) Deputy Director General Masaji Yamamoto told reporters.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.7439896192290277</double>
+        <double name="strength">0.9692813054028988</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an effort to save the agreement, MITI is asking Japanese chip makers to limit production in the hope that will boost domestic demand and reduce the incentive to export.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">172</int>
+        <double name="strength">0.8438074630354633</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;State George Schultz, Treasury Secretary James Baker, Commerce Secretary Malcolm Baldrige&lt;/em&gt; and U.</str>
-        <int name="index">19</int>
-      </lst>
       <lst name="sentence">
         <str name="text">&lt;em&gt;Yamamoto&lt;/em&gt; said that &lt;em&gt;Japan&lt;/em&gt; will &lt;em&gt;slash output&lt;/em&gt; of 256 &lt;em&gt;kilobit dynamic random access&lt;/em&gt; and &lt;em&gt;erasable programmable&lt;/em&gt; read only &lt;em&gt;memory chips&lt;/em&gt; by 11 pct in the &lt;em&gt;second quarter&lt;/em&gt;.</str>
         <int name="index">7</int>
@@ -84,6 +83,10 @@
       <lst name="sentence">
         <str name="text">"We must make our &lt;em&gt;utmost effort&lt;/em&gt; to ward off any &lt;em&gt;catastrophe," Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) &lt;em&gt;Deputy Director General Masaji Yamamoto&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an &lt;em&gt;effort&lt;/em&gt; to save the &lt;em&gt;agreement,&lt;/em&gt; MITI is asking &lt;em&gt;Japanese&lt;/em&gt; chip &lt;em&gt;makers&lt;/em&gt; to &lt;em&gt;limit production&lt;/em&gt; in the hope that will &lt;em&gt;boost domestic demand&lt;/em&gt; and &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;incentive&lt;/em&gt; to &lt;em&gt;export&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

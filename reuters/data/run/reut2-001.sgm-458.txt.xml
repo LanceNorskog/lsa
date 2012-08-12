@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-458.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">51</int>
+        <int name="count">34</int>
       </lst>
       <lst name="stems">
-        <int name="count">38</int>
+        <int name="count">27</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">inventories</str>
+        <str name="text">orders</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">1.0</double>
+        <str name="text">electrical</str>
+        <double name="strength">0.5848709481883096</double>
       </lst>
       <lst name="term">
-        <str name="text">finished</str>
-        <double name="strength">1.0</double>
+        <str name="text">machinery</str>
+        <double name="strength">0.5848709481883096</double>
       </lst>
       <lst name="term">
-        <str name="text">adjusted</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">month</str>
+        <double name="strength">0.5848709481883089</double>
       </lst>
       <lst name="term">
-        <str name="text">commerce</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">primary</str>
+        <double name="strength">0.5542084738630719</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">88</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Factory inventories in January rose 0.5 pct, or 1.5 billion dlrs, to 277.0 billion dlrs, only the second rise since July and concentrated in finished goods.</str>
-        <int name="index">18</int>
+        <str name="text">Primary metals orders fell 17.7 pct, or 1.9 billion dlrs, following a 12.1 pct increase in December.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">157</int>
-        <double name="strength">0.8229031024147219</double>
+        <int name="end">101</int>
+        <double name="strength">0.7124557447997584</double>
+        <int name="terms">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">New orders for manufactured goods fell 8.2 billion dlrs, or 4.0 pct, in January to a seasonally adjusted 194.5 billion dlrs, the Commerce Department said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">154</int>
-        <double name="strength">0.7997790764289843</double>
+        <str name="text">Orders for transportation equipment were down 4.5 pct in January after falling 0.6 pct in December.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">100</int>
+        <double name="strength">0.6787242391165432</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Within major industry categories, orders declines&lt;/em&gt; were &lt;em&gt;widespread,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <str name="text">Within &lt;em&gt;major industry categories, orders declines&lt;/em&gt; were &lt;em&gt;widespread,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Factory inventories&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; rose 0.5 pct, or 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs, to 277.0 &lt;em&gt;billion&lt;/em&gt; dlrs, only the &lt;em&gt;second&lt;/em&gt; rise &lt;em&gt;since&lt;/em&gt; July and &lt;em&gt;concentrated&lt;/em&gt; in &lt;em&gt;finished goods&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;Primary metals orders&lt;/em&gt; fell 17.7 pct, or 1.9 &lt;em&gt;billion&lt;/em&gt; dlrs, following a 12.1 pct &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;December&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">New &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;manufactured goods&lt;/em&gt; fell 8.2 &lt;em&gt;billion&lt;/em&gt; dlrs, or 4.0 pct, in &lt;em&gt;January&lt;/em&gt; to a &lt;em&gt;seasonally adjusted 194.5 billion&lt;/em&gt; dlrs, the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Orders&lt;/em&gt; for &lt;em&gt;transportation equipment&lt;/em&gt; were down 4.5 pct in &lt;em&gt;January&lt;/em&gt; after falling 0.6 pct in &lt;em&gt;December&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

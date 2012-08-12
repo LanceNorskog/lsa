@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-445.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">49</int>
       </lst>
       <lst name="terms">
-        <int name="count">212</int>
+        <int name="count">152</int>
       </lst>
       <lst name="stems">
-        <int name="count">138</int>
+        <int name="count">96</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">businesses</str>
+        <str name="text">japanese</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9954437764588258</double>
       </lst>
       <lst name="term">
-        <str name="text">kilobit</str>
-        <double name="strength">0.5000000000000037</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9723737348773217</double>
       </lst>
       <lst name="term">
-        <str name="text">dynamic</str>
-        <double name="strength">0.5000000000000037</double>
+        <str name="text">chipmakers</str>
+        <double name="strength">0.9723737348773208</double>
       </lst>
       <lst name="term">
-        <str name="text">random</str>
-        <double name="strength">0.5000000000000037</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.972373734877319</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The ministry also asked electronics firms to provide distributors with certificates designating them as authorised exporters, in an effort to close loopholes through which grey marketeers sneak chips out of Japan, market analysts said.</str>
-        <int name="index">7</int>
+        <str name="text">In addition, some industry analysts question the effectiveness of a bilateral agreement that leaves out third country chipmakers such as those in South Korea.</str>
+        <int name="index">44</int>
         <int name="start">1</int>
-        <int name="end">236</int>
+        <int name="end">159</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Pressure to cut production of 256 kilobit DRAM (dynamic random access memory) chips could merely speed the transition to one megabit chips, where Japan now leads, analysts said.</str>
-        <int name="index">33</int>
+        <str name="text">Last month, MITI told chipmakers to cut production for the January to March period by 10 pct to help dry up inexpensive chips that have escaped from Japan to grey markets not subject to the pact's price controls.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.9079265522464158</double>
+        <int name="end">213</int>
+        <double name="strength">0.9930070340890207</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"They're going to have to start running their businesses like businesses," Bache's Wolffe said.</str>
-        <int name="index">24</int>
+        <str name="text">Preparations for a possible upturn in demand could also spur higher production next quarter, Merrill Lynch analyst Matt Aizawa said.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">96</int>
-        <double name="strength">0.8465133260401975</double>
+        <int name="end">133</int>
+        <double name="strength">0.9462362960997454</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;ministry&lt;/em&gt; also &lt;em&gt;asked electronics firms&lt;/em&gt; to &lt;em&gt;provide distributors&lt;/em&gt; with &lt;em&gt;certificates designating&lt;/em&gt; them as &lt;em&gt;authorised exporters,&lt;/em&gt; in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;close loopholes through which&lt;/em&gt; grey &lt;em&gt;marketeers sneak chips&lt;/em&gt; out of &lt;em&gt;Japan, market analysts said&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; some &lt;em&gt;industry analysts question&lt;/em&gt; the &lt;em&gt;effectiveness&lt;/em&gt; of a &lt;em&gt;bilateral agreement&lt;/em&gt; that leaves out &lt;em&gt;third country chipmakers&lt;/em&gt; such as those in &lt;em&gt;South Korea&lt;/em&gt;.</str>
+        <int name="index">44</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pressure&lt;/em&gt; to cut &lt;em&gt;production&lt;/em&gt; of 256 &lt;em&gt;kilobit&lt;/em&gt; DRAM (&lt;em&gt;dynamic random access memory) chips could merely speed&lt;/em&gt; the &lt;em&gt;transition&lt;/em&gt; to one &lt;em&gt;megabit chips, where Japan&lt;/em&gt; now &lt;em&gt;leads, analysts said&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">Last &lt;em&gt;month,&lt;/em&gt; MITI told &lt;em&gt;chipmakers&lt;/em&gt; to cut &lt;em&gt;production&lt;/em&gt; for the &lt;em&gt;January&lt;/em&gt; to &lt;em&gt;March period&lt;/em&gt; by 10 pct to help dry up &lt;em&gt;inexpensive chips&lt;/em&gt; that have escaped from &lt;em&gt;Japan&lt;/em&gt; to grey &lt;em&gt;markets&lt;/em&gt; not &lt;em&gt;subject&lt;/em&gt; to the pact's &lt;em&gt;price controls&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"They're &lt;em&gt;going&lt;/em&gt; to have to &lt;em&gt;start running their businesses&lt;/em&gt; like &lt;em&gt;businesses," Bache&lt;/em&gt;'s &lt;em&gt;Wolffe said&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">&lt;em&gt;Preparations&lt;/em&gt; for a &lt;em&gt;possible upturn&lt;/em&gt; in &lt;em&gt;demand&lt;/em&gt; could also spur higher &lt;em&gt;production&lt;/em&gt; next &lt;em&gt;quarter, Merrill Lynch analyst&lt;/em&gt; Matt &lt;em&gt;Aizawa said&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-786.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">69</int>
+        <int name="count">50</int>
       </lst>
       <lst name="stems">
-        <int name="count">47</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">raised</str>
+        <str name="text">month</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tariffs</str>
-        <double name="strength">1.0</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">1.0</double>
+        <str name="text">computers</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">color</str>
-        <double name="strength">1.0</double>
+        <str name="text">compliance</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">television</str>
-        <double name="strength">1.0</double>
+        <str name="text">production</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Administration officials said Commerce Department  monitors showed that Japan was ending its dumping of the semiconductors in third countries, where they had been taking sales away from American-made semiconductors.</str>
-        <int name="index">8</int>
+        <str name="text">Semiconductors are the small silicon chips used for memory and recall purposes in a wide variety of computers.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">220</int>
+        <int name="end">111</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The move raised tariffs to 100 pct from about five pct on Japanese color television sets, hand-held power tools and portable computers.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">0.9354006713450412</double>
+        <double name="strength">0.9371390486558215</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Semiconductors are the small silicon chips used for memory and recall purposes in a wide variety of computers.</str>
-        <int name="index">7</int>
+        <str name="text">The periodic reviews are to continue and the remaining sanctions to stay in force, the officials said, until Japan is in full compliance with the semiconductor agreement.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">111</int>
-        <double name="strength">0.875982867432664</double>
+        <int name="end">171</int>
+        <double name="strength">0.8196831016631011</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Administration officials&lt;/em&gt; said &lt;em&gt;Commerce Department  monitors showed&lt;/em&gt; that &lt;em&gt;Japan&lt;/em&gt; was &lt;em&gt;ending&lt;/em&gt; its &lt;em&gt;dumping&lt;/em&gt; of the &lt;em&gt;semiconductors&lt;/em&gt; in &lt;em&gt;third countries, where&lt;/em&gt; they had been &lt;em&gt;taking sales&lt;/em&gt; away from &lt;em&gt;American&lt;/em&gt;-made &lt;em&gt;semiconductors&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Semiconductors&lt;/em&gt; are the &lt;em&gt;small silicon chips&lt;/em&gt; used for &lt;em&gt;memory&lt;/em&gt; and &lt;em&gt;recall purposes&lt;/em&gt; in a wide &lt;em&gt;variety&lt;/em&gt; of &lt;em&gt;computers&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The move &lt;em&gt;raised tariffs&lt;/em&gt; to 100 pct from &lt;em&gt;about&lt;/em&gt; five pct on &lt;em&gt;Japanese color television&lt;/em&gt; sets, hand-held &lt;em&gt;power tools&lt;/em&gt; and &lt;em&gt;portable computers&lt;/em&gt;.</str>
+        <str name="text">The move raised &lt;em&gt;tariffs&lt;/em&gt; to 100 pct from about five pct on &lt;em&gt;Japanese color television&lt;/em&gt; sets, hand-held &lt;em&gt;power tools&lt;/em&gt; and &lt;em&gt;portable computers&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Semiconductors&lt;/em&gt; are the &lt;em&gt;small silicon chips&lt;/em&gt; used for &lt;em&gt;memory&lt;/em&gt; and &lt;em&gt;recall purposes&lt;/em&gt; in a wide &lt;em&gt;variety&lt;/em&gt; of &lt;em&gt;computers&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The &lt;em&gt;periodic reviews&lt;/em&gt; are to &lt;em&gt;continue&lt;/em&gt; and the remaining &lt;em&gt;sanctions&lt;/em&gt; to stay in &lt;em&gt;force,&lt;/em&gt; the &lt;em&gt;officials&lt;/em&gt; said, until &lt;em&gt;Japan&lt;/em&gt; is in full &lt;em&gt;compliance&lt;/em&gt; with the &lt;em&gt;semiconductor agreement&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

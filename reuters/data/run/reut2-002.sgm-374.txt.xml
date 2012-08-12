@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-374.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stock</str>
+        <str name="text">share</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">depressed</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">merger</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">buying</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">believe</str>
+        <double name="strength">0.9783266683663093</double>
       </lst>
       <lst name="term">
-        <str name="text">opportunity</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">suitor</str>
+        <double name="strength">0.9783266683663077</double>
       </lst>
       <lst name="term">
-        <str name="text">destined</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">clear</str>
+        <double name="strength">0.9783266683663068</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">But Wall Street has given little credibility to Icahn's offer, which lacked financing and was riddled with contingencies.</str>
-        <int name="index">16</int>
+        <str name="text">Analysts and market sources view the TWA bid as an attempt to either trigger a counter offer from USAir or to attract a suitor who might want both airlines once they merged.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">122</int>
+        <int name="end">174</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some analysts believe Icahn's proposed three-way airline combination might face insurmountable regulatory hurdles, but others believe it could be cleared if the companies are acquired separately.</str>
-        <int name="index">23</int>
+        <str name="text">Some arbitragers, however, believe the depressed price of Piedmont offers a buying opportunity since the airline is destined to be acquired by someone.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">0.9640603342128418</double>
+        <int name="end">152</int>
+        <double name="strength">0.8891278058791751</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">They said he showed skill in reducing Ozark Airlines' costs when he merged it into TWA last year, and he might be a necessary ingredient for a merger to work.</str>
         <int name="index">29</int>
         <int name="start">0</int>
         <int name="end">158</int>
-        <double name="strength">0.9477407506749181</double>
+        <double name="strength">0.8869106429235737</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But Wall &lt;em&gt;Street&lt;/em&gt; has &lt;em&gt;given little credibility&lt;/em&gt; to &lt;em&gt;Icahn&lt;/em&gt;'s &lt;em&gt;offer, which lacked financing&lt;/em&gt; and was &lt;em&gt;riddled&lt;/em&gt; with &lt;em&gt;contingencies&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; and &lt;em&gt;market sources&lt;/em&gt; view the TWA bid as an &lt;em&gt;attempt&lt;/em&gt; to either &lt;em&gt;trigger&lt;/em&gt; a &lt;em&gt;counter offer&lt;/em&gt; from &lt;em&gt;USAir&lt;/em&gt; or to &lt;em&gt;attract&lt;/em&gt; a &lt;em&gt;suitor&lt;/em&gt; who might want both &lt;em&gt;airlines&lt;/em&gt; once they merged.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;analysts believe Icahn&lt;/em&gt;'s &lt;em&gt;proposed three&lt;/em&gt;-way &lt;em&gt;airline combination might&lt;/em&gt; face &lt;em&gt;insurmountable regulatory hurdles,&lt;/em&gt; but &lt;em&gt;others believe&lt;/em&gt; it &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;cleared&lt;/em&gt; if the &lt;em&gt;companies&lt;/em&gt; are &lt;em&gt;acquired separately&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">Some &lt;em&gt;arbitragers,&lt;/em&gt; however, &lt;em&gt;believe&lt;/em&gt; the &lt;em&gt;depressed price&lt;/em&gt; of &lt;em&gt;Piedmont&lt;/em&gt; offers a &lt;em&gt;buying opportunity&lt;/em&gt; since the &lt;em&gt;airline&lt;/em&gt; is destined to be acquired by &lt;em&gt;someone&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said he &lt;em&gt;showed skill&lt;/em&gt; in &lt;em&gt;reducing Ozark Airlines' costs&lt;/em&gt; when he &lt;em&gt;merged&lt;/em&gt; it into TWA last year, and he &lt;em&gt;might&lt;/em&gt; be a &lt;em&gt;necessary ingredient&lt;/em&gt; for a &lt;em&gt;merger&lt;/em&gt; to work.</str>
+        <str name="text">They said he showed &lt;em&gt;skill&lt;/em&gt; in reducing &lt;em&gt;Ozark Airlines' costs&lt;/em&gt; when he merged it into TWA last year, and he might be a &lt;em&gt;necessary ingredient&lt;/em&gt; for a &lt;em&gt;merger&lt;/em&gt; to work.</str>
         <int name="index">29</int>
       </lst>
     </lst>

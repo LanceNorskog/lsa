@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-82.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">106</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">major</str>
+        <str name="text">gasoline</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">demand</str>
+        <double name="strength">0.6942910559489047</double>
       </lst>
       <lst name="term">
-        <str name="text">industry</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">sources</str>
+        <double name="strength">0.6942910559489047</double>
       </lst>
       <lst name="term">
-        <str name="text">biggest</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.6942910559489045</double>
       </lst>
       <lst name="term">
-        <str name="text">suffered</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">domestic</str>
+        <double name="strength">0.6942910559489045</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Formula Shell has achieved strong sales in Japan despite a higher price than regular octane gasoline, which has prompted other oil firms to offer a rival product, the sources said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
       <lst name="sentence">
         <str name="text">An advisory panel to the Ministry of International Trade and Industry (MITI) recommended this week that the government press ahead with deregulation of the oil industry, including the lifting of gasoline production quotas, to help oil companies increase their international competitiveness.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">291</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"Major oil companies are trying to boost their gasoline sales network ahead of the proposed lifting of gasoline production quotas," an official at a major oil company said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.7426871900667392</double>
+        <double name="strength">0.9823384143123012</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">Japan's three biggest gasoline marketers, Nippon Oil, Idemitsu and Showa Shell, suffered supply shortages under the production quota guideline in fiscal 1986, ended last March.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">177</int>
-        <double name="strength">0.7348702103374967</double>
+        <double name="strength">0.9761857578621961</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;advisory panel&lt;/em&gt; to the &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) &lt;em&gt;recommended&lt;/em&gt; this week that the &lt;em&gt;government press ahead&lt;/em&gt; with &lt;em&gt;deregulation&lt;/em&gt; of the oil &lt;em&gt;industry, including&lt;/em&gt; the &lt;em&gt;lifting&lt;/em&gt; of &lt;em&gt;gasoline production quotas,&lt;/em&gt; to help oil &lt;em&gt;companies increase their international competitiveness&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Formula Shell&lt;/em&gt; has achieved &lt;em&gt;strong sales&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; despite a higher &lt;em&gt;price&lt;/em&gt; than &lt;em&gt;regular octane gasoline,&lt;/em&gt; which has prompted &lt;em&gt;other&lt;/em&gt; oil &lt;em&gt;firms&lt;/em&gt; to &lt;em&gt;offer&lt;/em&gt; a &lt;em&gt;rival product,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An &lt;em&gt;advisory panel&lt;/em&gt; to the &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) recommended this week that the &lt;em&gt;government press&lt;/em&gt; ahead with &lt;em&gt;deregulation&lt;/em&gt; of the oil &lt;em&gt;industry,&lt;/em&gt; including the &lt;em&gt;lifting&lt;/em&gt; of &lt;em&gt;gasoline production quotas,&lt;/em&gt; to help oil &lt;em&gt;companies increase&lt;/em&gt; their &lt;em&gt;international competitiveness&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Major&lt;/em&gt; oil &lt;em&gt;companies&lt;/em&gt; are &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;boost their gasoline sales network ahead&lt;/em&gt; of the &lt;em&gt;proposed lifting&lt;/em&gt; of &lt;em&gt;gasoline production quotas,"&lt;/em&gt; an &lt;em&gt;official&lt;/em&gt; at a &lt;em&gt;major&lt;/em&gt; oil &lt;em&gt;company said&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;three biggest gasoline marketers, Nippon&lt;/em&gt; Oil, &lt;em&gt;Idemitsu&lt;/em&gt; and &lt;em&gt;Showa Shell, suffered supply shortages under&lt;/em&gt; the &lt;em&gt;production quota guideline&lt;/em&gt; in &lt;em&gt;fiscal 1986, ended&lt;/em&gt; last &lt;em&gt;March&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;three&lt;/em&gt; biggest &lt;em&gt;gasoline marketers,&lt;/em&gt; Nippon Oil, &lt;em&gt;Idemitsu&lt;/em&gt; and &lt;em&gt;Showa Shell,&lt;/em&gt; suffered &lt;em&gt;supply shortages&lt;/em&gt; under the &lt;em&gt;production quota guideline&lt;/em&gt; in &lt;em&gt;fiscal 1986,&lt;/em&gt; ended last &lt;em&gt;March&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
     </lst>

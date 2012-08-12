@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-606.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">based</str>
+        <str name="text">services</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.8246211251235319</double>
+        <str name="text">maintenance</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">employs</str>
-        <double name="strength">0.7659416862050705</double>
+        <str name="text">modification</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">people</str>
-        <double name="strength">0.7659416862050705</double>
+        <str name="text">various</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">systems</str>
-        <double name="strength">0.6324555320336757</double>
+        <str name="text">department</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Defense Group subsidiaries are Astronics Corp, which is based in Santa Monica, Calif., and employs 1,076 people; Instrument and Avionic Systems Corp, based in Grand Rapids, Mich., and employs 3,479 people; International Corp, based in Stamford, Conn., and employs 266 people; and Development Sciences Corp, based in Ontario, Calif., and employs 237 people.</str>
-        <int name="index">4</int>
+        <str name="text">Last month, Lear Siegler said it planned to sell its Smith and Wesson handgun business, Starcraft Recreational Products Ltd, the Peerless truck trailer operations, and other units, as part of its restructuring plans.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">361</int>
+        <int name="end">217</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Group's subsidiaries include Power Equipment Corp, based in Cleveland, which employs 880 people; Energy Products Corp, based in Santa Ana, Calif., which employs 755 people;  Romek Corp, based in Elyria, Ohio, which employs 262 people; and Transport Dynamics in Santa Ana, which employs 254 people.</str>
-        <int name="index">6</int>
+        <str name="text">Divestitures had been expected since Lear-Siegler, a diversified conglomerate, was acquired last December in a 2.1- billion-dlr-leveraged buyout by the Wall Street firm of Forstmann Little.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">302</int>
-        <double name="strength">0.9984704273847537</double>
+        <int name="end">190</int>
+        <double name="strength">0.765984939920388</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Defense Electronics Group designs and manufactures weapons, management systems, flight control systems, remotely piloted vehicles and reference and navigation systems, mainly for military markets.</str>
-        <int name="index">3</int>
+        <str name="text">Lear Siegler said it plans to retain Management Services Corp, engaged in aircraft maintenance modification for various Department of Defense agencies.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.8371216712857813</double>
+        <int name="end">152</int>
+        <double name="strength">0.7247003009127654</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Defense Group subsidiaries&lt;/em&gt; are &lt;em&gt;Astronics&lt;/em&gt; Corp, &lt;em&gt;which&lt;/em&gt; is &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Santa Monica, Calif.,&lt;/em&gt; and &lt;em&gt;employs 1,076 people; Instrument&lt;/em&gt; and &lt;em&gt;Avionic Systems&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Grand Rapids,&lt;/em&gt; Mich., and &lt;em&gt;employs 3,479 people; International&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Stamford,&lt;/em&gt; Conn., and &lt;em&gt;employs 266 people;&lt;/em&gt; and &lt;em&gt;Development Sciences&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Ontario, Calif.,&lt;/em&gt; and &lt;em&gt;employs 237 people&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Last &lt;em&gt;month,&lt;/em&gt; Lear &lt;em&gt;Siegler&lt;/em&gt; said it planned to sell its &lt;em&gt;Smith&lt;/em&gt; and &lt;em&gt;Wesson handgun business, Starcraft Recreational Products&lt;/em&gt; Ltd, the &lt;em&gt;Peerless truck trailer operations,&lt;/em&gt; and &lt;em&gt;other units,&lt;/em&gt; as part of its &lt;em&gt;restructuring plans&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Group&lt;/em&gt;'s &lt;em&gt;subsidiaries include Power Equipment&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Cleveland, which employs 880 people; Energy Products&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Santa&lt;/em&gt; Ana, &lt;em&gt;Calif., which employs 755 people;  Romek&lt;/em&gt; Corp, &lt;em&gt;based&lt;/em&gt; in &lt;em&gt;Elyria,&lt;/em&gt; Ohio, &lt;em&gt;which employs 262 people;&lt;/em&gt; and &lt;em&gt;Transport Dynamics&lt;/em&gt; in &lt;em&gt;Santa&lt;/em&gt; Ana, &lt;em&gt;which employs 254 people&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Divestitures&lt;/em&gt; had been expected since Lear-&lt;em&gt;Siegler,&lt;/em&gt; a &lt;em&gt;diversified conglomerate,&lt;/em&gt; was acquired last &lt;em&gt;December&lt;/em&gt; in a 2.1- &lt;em&gt;billion&lt;/em&gt;-dlr-&lt;em&gt;leveraged buyout&lt;/em&gt; by the Wall &lt;em&gt;Street&lt;/em&gt; firm of &lt;em&gt;Forstmann Little&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Defense Electronics Group designs&lt;/em&gt; and &lt;em&gt;manufactures weapons, management systems, flight control systems, remotely piloted vehicles&lt;/em&gt; and &lt;em&gt;reference&lt;/em&gt; and &lt;em&gt;navigation systems, mainly&lt;/em&gt; for &lt;em&gt;military markets&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Lear &lt;em&gt;Siegler&lt;/em&gt; said it plans to &lt;em&gt;retain Management Services&lt;/em&gt; Corp, engaged in &lt;em&gt;aircraft maintenance modification&lt;/em&gt; for &lt;em&gt;various Department&lt;/em&gt; of &lt;em&gt;Defense agencies&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

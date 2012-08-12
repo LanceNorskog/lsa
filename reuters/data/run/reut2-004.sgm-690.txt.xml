@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-690.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">francs</str>
+        <str name="text">effects</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">covered</str>
-        <double name="strength">0.8964214570007952</double>
+        <str name="text">turnover</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.8964214570007947</double>
+        <str name="text">addition</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">warehouse</str>
-        <double name="strength">0.8017837257372743</double>
+        <str name="text">reserves</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">rather</str>
-        <double name="strength">0.8017837257372742</double>
+        <str name="text">pollution</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Z&gt; would have reported a percentage rise in net profits "close to double figures" rather than the actual two pct had it not been for November's warehouse fire, a senior company official said.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">191</int>
+        <str name="text">Sales in local currency terms were up by 14 pct, with market share increases in the United States and Japan.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">109</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The official, who declined to be identified, told Reuters Sandoz had made a substantial addition to reserves to cope with the consequences of the accident at Schweizerhalle, which caused severe pollution of the Rhine.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">218</int>
-        <double name="strength">0.9923675590703562</double>
+        <double name="strength">0.9701678830285871</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sandoz has not given any figure for claims, which have been flowing in from Switzerland and other countries bordering the Rhine since the accident.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">148</int>
-        <double name="strength">0.9529362470141682</double>
+        <str name="text">Z&gt; would have reported a percentage rise in net profits "close to double figures" rather than the actual two pct had it not been for November's warehouse fire, a senior company official said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">191</int>
+        <double name="strength">0.9525547318850185</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Z&gt; &lt;em&gt;would&lt;/em&gt; have &lt;em&gt;reported&lt;/em&gt; a &lt;em&gt;percentage&lt;/em&gt; rise in net &lt;em&gt;profits "close&lt;/em&gt; to &lt;em&gt;double figures" rather&lt;/em&gt; than the &lt;em&gt;actual&lt;/em&gt; two pct had it not been for &lt;em&gt;November&lt;/em&gt;'s &lt;em&gt;warehouse&lt;/em&gt; fire, a &lt;em&gt;senior company official said&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Sales&lt;/em&gt; in &lt;em&gt;local currency terms&lt;/em&gt; were up by 14 pct, with &lt;em&gt;market share increases&lt;/em&gt; in the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;official,&lt;/em&gt; who &lt;em&gt;declined&lt;/em&gt; to be &lt;em&gt;identified,&lt;/em&gt; told &lt;em&gt;Reuters Sandoz&lt;/em&gt; had made a &lt;em&gt;substantial addition&lt;/em&gt; to &lt;em&gt;reserves&lt;/em&gt; to cope with the &lt;em&gt;consequences&lt;/em&gt; of the &lt;em&gt;accident&lt;/em&gt; at &lt;em&gt;Schweizerhalle, which caused severe pollution&lt;/em&gt; of the &lt;em&gt;Rhine&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;official,&lt;/em&gt; who declined to be identified, told &lt;em&gt;Reuters Sandoz&lt;/em&gt; had made a &lt;em&gt;substantial addition&lt;/em&gt; to &lt;em&gt;reserves&lt;/em&gt; to cope with the &lt;em&gt;consequences&lt;/em&gt; of the &lt;em&gt;accident&lt;/em&gt; at &lt;em&gt;Schweizerhalle,&lt;/em&gt; which caused &lt;em&gt;severe pollution&lt;/em&gt; of the &lt;em&gt;Rhine&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sandoz&lt;/em&gt; has not &lt;em&gt;given&lt;/em&gt; any &lt;em&gt;figure&lt;/em&gt; for &lt;em&gt;claims, which&lt;/em&gt; have been &lt;em&gt;flowing&lt;/em&gt; in from &lt;em&gt;Switzerland&lt;/em&gt; and &lt;em&gt;other countries bordering&lt;/em&gt; the &lt;em&gt;Rhine since&lt;/em&gt; the &lt;em&gt;accident&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">Z&gt; would have reported a &lt;em&gt;percentage&lt;/em&gt; rise in net &lt;em&gt;profits &lt;/em&gt;"close to &lt;em&gt;double figures"&lt;/em&gt; rather than the &lt;em&gt;actual&lt;/em&gt; two pct had it not been for &lt;em&gt;November&lt;/em&gt;'s &lt;em&gt;warehouse&lt;/em&gt; fire, a &lt;em&gt;senior company official said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

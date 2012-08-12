@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-261.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">those</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">favourable</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">credit</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">budget</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">profits</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">practical</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">treasury</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">application</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">system</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">172</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. Budget would eliminate a favourable tax treatment on certain foreign loans by British banks and may be a "nightmare" of practical application, banking sources said.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">167</int>
-        <double name="strength">0.9690114046761976</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Government sources noted that the existing treatment of withholding tax on interest has enabled some banks to reduce interest rates on overseas loans, thereby lowering the revenue to the U.</str>
-        <int name="index">9</int>
+        <str name="text">This is because banks will only be able to offset the tax credit for foreign withholding tax paid on the interest they receive against the corporation tax on the profit of a specific loan.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.8905215352528556</double>
+        <int name="end">189</int>
+        <double name="strength">0.9700315702781294</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bankers could not estimate how many loans were involved expect to suggest it was a "sizable number."</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">100</int>
+        <double name="strength">0.8459027847165483</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;while compliance&lt;/em&gt; with the new &lt;em&gt;measures could necessitate hours&lt;/em&gt; of &lt;em&gt;clerical&lt;/em&gt; work, &lt;em&gt;bankers&lt;/em&gt; said the end &lt;em&gt;return&lt;/em&gt; to the &lt;em&gt;Treasury&lt;/em&gt; may not &lt;em&gt;prove&lt;/em&gt; as &lt;em&gt;lucrative&lt;/em&gt; as &lt;em&gt;anticipated&lt;/em&gt;.</str>
+        <str name="text">But while &lt;em&gt;compliance&lt;/em&gt; with the new &lt;em&gt;measures&lt;/em&gt; could &lt;em&gt;necessitate hours&lt;/em&gt; of &lt;em&gt;clerical&lt;/em&gt; work, &lt;em&gt;bankers&lt;/em&gt; said the end &lt;em&gt;return&lt;/em&gt; to the &lt;em&gt;Treasury&lt;/em&gt; may not &lt;em&gt;prove&lt;/em&gt; as &lt;em&gt;lucrative&lt;/em&gt; as anticipated.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Budget would eliminate&lt;/em&gt; a &lt;em&gt;favourable&lt;/em&gt; tax &lt;em&gt;treatment&lt;/em&gt; on &lt;em&gt;certain foreign loans&lt;/em&gt; by &lt;em&gt;British banks&lt;/em&gt; and may be a "&lt;em&gt;nightmare"&lt;/em&gt; of &lt;em&gt;practical application, banking sources said&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">This is because &lt;em&gt;banks&lt;/em&gt; will only be able to &lt;em&gt;offset&lt;/em&gt; the tax &lt;em&gt;credit&lt;/em&gt; for &lt;em&gt;foreign withholding&lt;/em&gt; tax paid on the &lt;em&gt;interest&lt;/em&gt; they &lt;em&gt;receive&lt;/em&gt; against the &lt;em&gt;corporation&lt;/em&gt; tax on the &lt;em&gt;profit&lt;/em&gt; of a &lt;em&gt;specific loan&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Government sources noted&lt;/em&gt; that the &lt;em&gt;existing treatment&lt;/em&gt; of &lt;em&gt;withholding&lt;/em&gt; tax on &lt;em&gt;interest&lt;/em&gt; has &lt;em&gt;enabled&lt;/em&gt; some &lt;em&gt;banks&lt;/em&gt; to &lt;em&gt;reduce interest rates&lt;/em&gt; on &lt;em&gt;overseas loans, thereby lowering&lt;/em&gt; the &lt;em&gt;revenue&lt;/em&gt; to the U.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; could not &lt;em&gt;estimate&lt;/em&gt; how many &lt;em&gt;loans&lt;/em&gt; were involved &lt;em&gt;expect&lt;/em&gt; to &lt;em&gt;suggest&lt;/em&gt; it was a "&lt;em&gt;sizable number.&lt;/em&gt;"</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-272.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">153</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">imbalances</str>
+        <str name="text">tremendous</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">marcus</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">options</str>
-        <double name="strength">0.7905694150420952</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">indexes</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">miller</str>
-        <double name="strength">0.559016994374947</double>
-      </lst>
-      <lst name="term">
-        <str name="text">overriding</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">volatile</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The public disclosure of order imbalances in individual stocks a half hour before the close may reveal an opportunity to those investors seeking either to buy or get rid of stocks, offsetting whatever impact the initial imbalances show.</str>
-        <int name="index">15</int>
+        <str name="text">The coming month is also a seasonally strong period for the stock market, Stotler and Co analyst David Hightower said, because of the influx of income tax refunds.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">237</int>
+        <int name="end">164</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The simultaneous expiration of March stock index futures contracts, options on these futures and options on the indexes themselves, along with options on individual stocks, has created a mad scramble during several previous "witching hours."</str>
-        <int name="index">2</int>
+        <str name="text">The feeling among some analysts is that the largest money managers will do the same thing they did at December's expiration when they plunged their multi-billion dollar funds into the stock market.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.9109713068514071</double>
+        <int name="end">198</int>
+        <double name="strength">0.9152149576552675</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Analysts said the overriding influence of the stock market's steady climb this year -- and the absence of worthwhile investment alternatives -- may indicate that the major players will look to buy into the stock market as the final hour transpires this friday.</str>
-        <int name="index">4</int>
+        <str name="text">Analysts said efforts by exchanges to quell the volatility on triple-expirations are unlikely to substantially alter the impact of futures and options on the stock market.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">261</int>
-        <double name="strength">0.8249798556645783</double>
+        <int name="end">172</int>
+        <double name="strength">0.9124547945632812</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;public disclosure&lt;/em&gt; of &lt;em&gt;order imbalances&lt;/em&gt; in &lt;em&gt;individual stocks&lt;/em&gt; a half hour &lt;em&gt;before&lt;/em&gt; the &lt;em&gt;close&lt;/em&gt; may &lt;em&gt;reveal&lt;/em&gt; an &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;those investors seeking either&lt;/em&gt; to buy or get rid of &lt;em&gt;stocks, offsetting whatever impact&lt;/em&gt; the &lt;em&gt;initial imbalances show&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">The coming &lt;em&gt;month&lt;/em&gt; is also a seasonally &lt;em&gt;strong period&lt;/em&gt; for the &lt;em&gt;stock market, Stotler&lt;/em&gt; and Co &lt;em&gt;analyst David&lt;/em&gt; Hightower said, because of the &lt;em&gt;influx&lt;/em&gt; of &lt;em&gt;income&lt;/em&gt; tax &lt;em&gt;refunds&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;simultaneous expiration&lt;/em&gt; of &lt;em&gt;March stock index futures contracts, options&lt;/em&gt; on &lt;em&gt;these futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; on the &lt;em&gt;indexes themselves, along&lt;/em&gt; with &lt;em&gt;options&lt;/em&gt; on &lt;em&gt;individual stocks,&lt;/em&gt; has &lt;em&gt;created&lt;/em&gt; a mad &lt;em&gt;scramble during several previous "witching hours.&lt;/em&gt;"</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;feeling&lt;/em&gt; among some &lt;em&gt;analysts&lt;/em&gt; is that the largest &lt;em&gt;money managers&lt;/em&gt; will do the same &lt;em&gt;thing&lt;/em&gt; they did at &lt;em&gt;December&lt;/em&gt;'s &lt;em&gt;expiration&lt;/em&gt; when they plunged their &lt;em&gt;multi-billion dollar funds&lt;/em&gt; into the &lt;em&gt;stock market&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;overriding influence&lt;/em&gt; of the &lt;em&gt;stock market&lt;/em&gt;'s &lt;em&gt;steady climb&lt;/em&gt; this year -- and the &lt;em&gt;absence&lt;/em&gt; of &lt;em&gt;worthwhile investment alternatives --&lt;/em&gt; may &lt;em&gt;indicate&lt;/em&gt; that the &lt;em&gt;major players&lt;/em&gt; will look to buy into the &lt;em&gt;stock market&lt;/em&gt; as the &lt;em&gt;final&lt;/em&gt; hour &lt;em&gt;transpires&lt;/em&gt; this &lt;em&gt;friday&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said &lt;em&gt;efforts&lt;/em&gt; by &lt;em&gt;exchanges&lt;/em&gt; to &lt;em&gt;quell&lt;/em&gt; the &lt;em&gt;volatility&lt;/em&gt; on &lt;em&gt;triple-expirations&lt;/em&gt; are &lt;em&gt;unlikely&lt;/em&gt; to substantially &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;impact&lt;/em&gt; of &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; on the &lt;em&gt;stock market&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

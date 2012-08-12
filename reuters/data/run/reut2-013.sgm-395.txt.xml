@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-395.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rates</str>
+        <str name="text">months</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">francs</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">group</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">industrialised</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">final</str>
+        <double name="strength">0.9747506840573451</double>
       </lst>
       <lst name="term">
-        <str name="text">nations</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">early</str>
+        <double name="strength">0.9747506840573451</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Interbank rates were firmer following the local banks' move to raise prime rates by half-point to 6-1/2 pct, effective today, dealers said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">140</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">They said the pound gained ground on belief that Prime Minister Margaret Thatcher will call an early general election in June.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">127</int>
-        <double name="strength">0.8640023660878176</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Dollar closed lower after a day of thin trading as most operators were sidelined ahead of the International Monetary Funds meeting in Washington this week, dealers said.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">172</int>
-        <double name="strength">0.8616593244020351</double>
+        <str name="text">They noted the Group of Seven industrialised nations is expected to meet and discuss currency movements during the course of the IMF gathering.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9771624289422678</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sterling advanced to 1.6200/10 dlrs from an early 1.6185/95 and New York's final 1.6175/85 on rising support to the ruling Conservative Party of Britain, dealers said.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9309534291251812</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Interbank rates&lt;/em&gt; were &lt;em&gt;firmer following&lt;/em&gt; the &lt;em&gt;local banks'&lt;/em&gt; move to &lt;em&gt;raise prime rates&lt;/em&gt; by half-&lt;em&gt;point&lt;/em&gt; to 6-1/2 pct, &lt;em&gt;effective today, dealers said&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They said the &lt;em&gt;pound gained ground&lt;/em&gt; on &lt;em&gt;belief&lt;/em&gt; that &lt;em&gt;Prime Minister Margaret Thatcher&lt;/em&gt; will call an &lt;em&gt;early general election&lt;/em&gt; in June.</str>
+        <str name="text">They said the &lt;em&gt;pound&lt;/em&gt; gained &lt;em&gt;ground&lt;/em&gt; on &lt;em&gt;belief&lt;/em&gt; that &lt;em&gt;Prime Minister Margaret&lt;/em&gt; Thatcher will call an &lt;em&gt;early general election&lt;/em&gt; in June.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Dollar closed lower after&lt;/em&gt; a day of thin &lt;em&gt;trading&lt;/em&gt; as most &lt;em&gt;operators&lt;/em&gt; were &lt;em&gt;sidelined ahead&lt;/em&gt; of the &lt;em&gt;International Monetary Funds meeting&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; this week, &lt;em&gt;dealers said&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">They noted the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven industrialised nations&lt;/em&gt; is expected to meet and &lt;em&gt;discuss currency movements&lt;/em&gt; during the &lt;em&gt;course&lt;/em&gt; of the IMF gathering.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sterling&lt;/em&gt; advanced to 1.6200/10 dlrs from an &lt;em&gt;early 1.6185/95&lt;/em&gt; and New York's &lt;em&gt;final 1.6175/85&lt;/em&gt; on rising &lt;em&gt;support&lt;/em&gt; to the &lt;em&gt;ruling Conservative Party&lt;/em&gt; of &lt;em&gt;Britain, dealers said&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

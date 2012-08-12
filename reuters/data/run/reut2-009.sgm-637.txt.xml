@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-637.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">152</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">106</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">asked</str>
+        <str name="text">company</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">criticism</str>
-        <double name="strength">1.0</double>
+        <str name="text">requests</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">takeover</str>
-        <double name="strength">1.0</double>
+        <str name="text">station</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">attempt</str>
-        <double name="strength">1.0</double>
+        <str name="text">wagner</str>
+        <double name="strength">0.9840716504496508</double>
       </lst>
       <lst name="term">
-        <str name="text">voiced</str>
-        <double name="strength">1.0</double>
+        <str name="text">reynolds</str>
+        <double name="strength">0.9840716504496506</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">283</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said aerospace, soft drink bottling and entertainment units are potential divestiture candidates.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">100</int>
+        <double name="strength">0.708875869253474</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Asked about criticism of the takeover attempt voiced by some municipal officials in Akron, Ohio, where GenCorp is headquartered, Reed said, "the plan of the partners offers long term growth for Ohio."</str>
         <int name="index">24</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.7793827437594582</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Gary Miller, chief financial officer of AFG, said his company has a record of acquiring mature businesses and boosting productivity.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.6583998994372731</double>
+        <double name="strength">0.6861830072943704</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;partners&lt;/em&gt; also said the &lt;em&gt;Federal Communications Commission established&lt;/em&gt; an &lt;em&gt;expedited schedule&lt;/em&gt; for &lt;em&gt;receiving comments&lt;/em&gt; on &lt;em&gt;their request&lt;/em&gt; for &lt;em&gt;special temporary authorization&lt;/em&gt; of &lt;em&gt;proposed trust arrangements while&lt;/em&gt; the FCC &lt;em&gt;considers&lt;/em&gt; a &lt;em&gt;formal application&lt;/em&gt; for &lt;em&gt;transfer&lt;/em&gt; of the &lt;em&gt;broadcast unit&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;partners&lt;/em&gt; also said the &lt;em&gt;Federal Communications Commission&lt;/em&gt; established an expedited &lt;em&gt;schedule&lt;/em&gt; for receiving &lt;em&gt;comments&lt;/em&gt; on their &lt;em&gt;request&lt;/em&gt; for &lt;em&gt;special temporary authorization&lt;/em&gt; of &lt;em&gt;proposed trust arrangements&lt;/em&gt; while the FCC considers a &lt;em&gt;formal application&lt;/em&gt; for &lt;em&gt;transfer&lt;/em&gt; of the &lt;em&gt;broadcast unit&lt;/em&gt;.</str>
         <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked about criticism&lt;/em&gt; of the &lt;em&gt;takeover attempt voiced&lt;/em&gt; by some &lt;em&gt;municipal officials&lt;/em&gt; in &lt;em&gt;Akron,&lt;/em&gt; Ohio, &lt;em&gt;where GenCorp&lt;/em&gt; is &lt;em&gt;headquartered,&lt;/em&gt; Reed said, "the plan of the &lt;em&gt;partners offers&lt;/em&gt; long term &lt;em&gt;growth&lt;/em&gt; for Ohio."</str>
-        <int name="index">24</int>
+        <str name="text">He said &lt;em&gt;aerospace,&lt;/em&gt; soft &lt;em&gt;drink bottling&lt;/em&gt; and &lt;em&gt;entertainment units&lt;/em&gt; are &lt;em&gt;potential divestiture candidates&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Gary &lt;em&gt;Miller, chief financial officer&lt;/em&gt; of AFG, said his &lt;em&gt;company&lt;/em&gt; has a &lt;em&gt;record&lt;/em&gt; of &lt;em&gt;acquiring mature businesses&lt;/em&gt; and &lt;em&gt;boosting productivity&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Asked about &lt;em&gt;criticism&lt;/em&gt; of the &lt;em&gt;takeover attempt&lt;/em&gt; voiced by some &lt;em&gt;municipal officials&lt;/em&gt; in &lt;em&gt;Akron,&lt;/em&gt; Ohio, where &lt;em&gt;GenCorp&lt;/em&gt; is headquartered, Reed said, "the plan of the &lt;em&gt;partners&lt;/em&gt; offers long term &lt;em&gt;growth&lt;/em&gt; for Ohio."</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

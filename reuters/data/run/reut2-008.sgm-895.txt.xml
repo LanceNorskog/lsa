@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-895.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">97</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">backed</str>
+        <str name="text">offerings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">1.0</double>
+        <str name="text">announce</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">widespread</str>
-        <double name="strength">1.0</double>
+        <str name="text">reports</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">criticism</str>
-        <double name="strength">1.0</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">throughout</str>
-        <double name="strength">1.0</double>
+        <str name="text">points</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In justifying the company's commitment to the 3B line, which was originally developed for internal use by ATT and its former Bell telephone company units, Cassoni pointed to several recent sales that he said proved the mid-range line's commercial viability.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">258</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">He said ATT backed the 3B line despite widespread criticism throughout the industry that it is inferior to mid-range systems made by International Business Machines Corp &lt;IBM&gt;, Digital Equipment Corp &lt;DEC&gt; and others.</str>
         <int name="index">7</int>
         <int name="start">0</int>
         <int name="end">217</int>
-        <double name="strength">0.995084137831782</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The executive, hired from Olivetti to bolster ATT's unsuccessful campaign to become a major vendor of computer gear, also said the company is committed to its 3B line of mid-range computers.</str>
-        <int name="index">6</int>
+        <str name="text">But with a top speed of 4.0 mips, or million instructions per second, the top-of-line 3B cannot match the computing power of rival systems from IBM and DEC.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">191</int>
-        <double name="strength">0.9693802438440472</double>
+        <int name="end">157</int>
+        <double name="strength">0.8702626448414663</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said ATT will offer new, more powerful mid-range computers that will protect the investments of existing 3B users in ATT hardware and software.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.8390118903599358</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;justifying&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;commitment&lt;/em&gt; to the 3B line, &lt;em&gt;which&lt;/em&gt; was &lt;em&gt;originally developed&lt;/em&gt; for &lt;em&gt;internal&lt;/em&gt; use by ATT and its &lt;em&gt;former&lt;/em&gt; Bell &lt;em&gt;telephone company units, Cassoni pointed&lt;/em&gt; to &lt;em&gt;several recent sales&lt;/em&gt; that he said &lt;em&gt;proved&lt;/em&gt; the mid-&lt;em&gt;range&lt;/em&gt; line's &lt;em&gt;commercial viability&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said ATT &lt;em&gt;backed&lt;/em&gt; the 3B line &lt;em&gt;despite widespread criticism throughout&lt;/em&gt; the &lt;em&gt;industry&lt;/em&gt; that it is &lt;em&gt;inferior&lt;/em&gt; to mid-&lt;em&gt;range systems&lt;/em&gt; made by &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt; and &lt;em&gt;others&lt;/em&gt;.</str>
+        <str name="text">He said ATT backed the 3B line despite &lt;em&gt;widespread criticism&lt;/em&gt; throughout the &lt;em&gt;industry&lt;/em&gt; that it is &lt;em&gt;inferior&lt;/em&gt; to mid-&lt;em&gt;range systems&lt;/em&gt; made by &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt; and &lt;em&gt;others&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;executive, hired&lt;/em&gt; from &lt;em&gt;Olivetti&lt;/em&gt; to &lt;em&gt;bolster&lt;/em&gt; ATT's &lt;em&gt;unsuccessful campaign&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; a &lt;em&gt;major vendor&lt;/em&gt; of &lt;em&gt;computer&lt;/em&gt; gear, also said the &lt;em&gt;company&lt;/em&gt; is &lt;em&gt;committed&lt;/em&gt; to its 3B line of mid-&lt;em&gt;range computers&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">But with a top &lt;em&gt;speed&lt;/em&gt; of 4.0 mips, or &lt;em&gt;million instructions&lt;/em&gt; per &lt;em&gt;second,&lt;/em&gt; the top-of-line 3B cannot &lt;em&gt;match&lt;/em&gt; the &lt;em&gt;computing power&lt;/em&gt; of &lt;em&gt;rival systems&lt;/em&gt; from IBM and DEC.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said ATT will &lt;em&gt;offer&lt;/em&gt; new, more &lt;em&gt;powerful&lt;/em&gt; mid-&lt;em&gt;range computers&lt;/em&gt; that will &lt;em&gt;protect&lt;/em&gt; the &lt;em&gt;investments&lt;/em&gt; of existing 3B &lt;em&gt;users&lt;/em&gt; in ATT &lt;em&gt;hardware&lt;/em&gt; and &lt;em&gt;software&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

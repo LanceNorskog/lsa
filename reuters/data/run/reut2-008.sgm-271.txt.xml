@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-271.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">52</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">127</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">81</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">there</str>
+        <str name="text">underwrite</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">southern</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999957</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9957971654025097</double>
       </lst>
       <lst name="term">
-        <str name="text">meanwhile</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9957971654025093</double>
       </lst>
       <lst name="term">
-        <str name="text">scheduled</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">painewebber</str>
+        <double name="strength">0.9957971654025087</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Southern Railway Co, a unit of Norfolk Southern Corp &lt;NSC&gt;, will hold accept bids on Wednesday for 20 mln dlrs of serial equipment trust certificates.</str>
-        <int name="index">48</int>
-        <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Meanwhile, underwriting syndicates are scheduled to bid competitively tomorrow for 250 mln dlrs of first and refunding mortgage bonds due 2017 of Philadelphia Electric Co &lt;PE&gt;.</str>
         <int name="index">46</int>
         <int name="start">1</int>
         <int name="end">177</int>
-        <double name="strength">0.897158949068774</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">IDD Information Services said the 30-day corporate visible supply rose to 3.98 billion dlrs from 3.28 billion dlrs.</str>
-        <int name="index">50</int>
+        <str name="text">One of our basic strategies is to target securities to specific investors and hopefully attain a broader distribution."</str>
+        <int name="index">32</int>
+        <int name="start">0</int>
+        <int name="end">119</int>
+        <double name="strength">0.9953068285832349</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Offered on Wednesday, the 100 mln dlr issue had three price levels to attract a wide range of retail investors and small regional institutions, said officers of P.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">116</int>
-        <double name="strength">0.8762745818846627</double>
+        <int name="end">164</int>
+        <double name="strength">0.9932987575404508</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Southern Railway&lt;/em&gt; Co, a unit of &lt;em&gt;Norfolk Southern&lt;/em&gt; Corp &lt;NSC&gt;, will hold &lt;em&gt;accept&lt;/em&gt; bids on &lt;em&gt;Wednesday&lt;/em&gt; for 20 mln dlrs of &lt;em&gt;serial equipment trust certificates&lt;/em&gt;.</str>
-        <int name="index">48</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile, underwriting syndicates&lt;/em&gt; are &lt;em&gt;scheduled&lt;/em&gt; to bid &lt;em&gt;competitively tomorrow&lt;/em&gt; for 250 mln dlrs of &lt;em&gt;first&lt;/em&gt; and &lt;em&gt;refunding mortgage bonds&lt;/em&gt; due 2017 of &lt;em&gt;Philadelphia Electric&lt;/em&gt; Co &lt;PE&gt;.</str>
+        <str name="text">Meanwhile, underwriting &lt;em&gt;syndicates&lt;/em&gt; are scheduled to bid competitively &lt;em&gt;tomorrow&lt;/em&gt; for 250 mln dlrs of &lt;em&gt;first&lt;/em&gt; and &lt;em&gt;refunding mortgage bonds&lt;/em&gt; due 2017 of &lt;em&gt;Philadelphia Electric&lt;/em&gt; Co &lt;PE&gt;.</str>
         <int name="index">46</int>
       </lst>
       <lst name="sentence">
-        <str name="text">IDD &lt;em&gt;Information Services&lt;/em&gt; said the 30-day &lt;em&gt;corporate visible supply&lt;/em&gt; rose to 3.98 &lt;em&gt;billion&lt;/em&gt; dlrs from 3.28 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
-        <int name="index">50</int>
+        <str name="text">One of our &lt;em&gt;basic strategies&lt;/em&gt; is to &lt;em&gt;target securities&lt;/em&gt; to &lt;em&gt;specific investors&lt;/em&gt; and hopefully &lt;em&gt;attain&lt;/em&gt; a broader &lt;em&gt;distribution.&lt;/em&gt;"</str>
+        <int name="index">32</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Offered on Wednesday, the 100 mln dlr &lt;em&gt;issue&lt;/em&gt; had &lt;em&gt;three price levels&lt;/em&gt; to &lt;em&gt;attract&lt;/em&gt; a wide &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;retail investors&lt;/em&gt; and &lt;em&gt;small regional institutions,&lt;/em&gt; said &lt;em&gt;officers&lt;/em&gt; of P.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

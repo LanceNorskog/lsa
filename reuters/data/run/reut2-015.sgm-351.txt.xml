@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-351.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">205</int>
+        <int name="count">159</int>
       </lst>
       <lst name="stems">
-        <int name="count">135</int>
+        <int name="count">101</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stanley</str>
+        <str name="text">interview</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tightening</str>
-        <double name="strength">0.6238952204742783</double>
+        <str name="text">collander</str>
+        <double name="strength">0.7161661498780579</double>
       </lst>
       <lst name="term">
-        <str name="text">agreed</str>
-        <double name="strength">0.623893120688856</double>
+        <str name="text">finance</str>
+        <double name="strength">0.7060129681336215</double>
       </lst>
       <lst name="term">
-        <str name="text">impact</str>
-        <double name="strength">0.5908737761455041</double>
+        <str name="text">further</str>
+        <double name="strength">0.7047315928008464</double>
       </lst>
       <lst name="term">
-        <str name="text">pleased</str>
-        <double name="strength">0.5814413955392659</double>
+        <str name="text">economy</str>
+        <double name="strength">0.7018377129513789</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Volcker also said he would prefer to further tighten the government's purse strings than have the Fed tighten the credit supply if action was needed to fight inflationary pressures or to assure the continued flow of foreign capital into the United States.</str>
-        <int name="index">17</int>
+        <str name="text">"There's no doubt that some deficit reduction helps, but if your objective is to stabilize the dollar and perserve the Fed's flexibility to conduct monetary policy, then the answer is, it's not enough," Silvia told Reuters.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">256</int>
+        <int name="end">224</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. officials meeting with other major industrialized nations in Paris agreed that the value of the dollar had dropped enough and that world exchange rates should be stabilized at around current levels.</str>
         <int name="index">12</int>
         <int name="start">0</int>
         <int name="end">201</int>
-        <double name="strength">0.9653829481210159</double>
+        <double name="strength">0.9094318052556137</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The budget plan now under debate on the House floor would lower an estimated 171 billion dlr deficit for the year beginning on October one to about 133 billion dlrs by cutting defense and domestic programs by 38 billion dlrs from their anticipated spending levels for next year.</str>
-        <int name="index">35</int>
+        <str name="text">Such a decline, he has said, could refuel inflation as imported goods become more expensive and chase away foreign capital needed to finance the federal budget deficit.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">279</int>
-        <double name="strength">0.9371502669750221</double>
+        <int name="end">169</int>
+        <double name="strength">0.8998278531955725</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volcker&lt;/em&gt; also said he &lt;em&gt;would prefer&lt;/em&gt; to &lt;em&gt;further tighten&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;purse strings&lt;/em&gt; than have the Fed &lt;em&gt;tighten&lt;/em&gt; the &lt;em&gt;credit supply&lt;/em&gt; if &lt;em&gt;action&lt;/em&gt; was &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;fight inflationary pressures&lt;/em&gt; or to &lt;em&gt;assure&lt;/em&gt; the &lt;em&gt;continued&lt;/em&gt; flow of &lt;em&gt;foreign capital&lt;/em&gt; into the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">"There's no &lt;em&gt;doubt&lt;/em&gt; that some &lt;em&gt;deficit reduction&lt;/em&gt; helps, but if your &lt;em&gt;objective&lt;/em&gt; is to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; and &lt;em&gt;perserve&lt;/em&gt; the Fed's &lt;em&gt;flexibility&lt;/em&gt; to &lt;em&gt;conduct monetary policy,&lt;/em&gt; then the &lt;em&gt;answer&lt;/em&gt; is, it's not &lt;em&gt;enough," Silvia&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;officials meeting&lt;/em&gt; with &lt;em&gt;other major industrialized nations&lt;/em&gt; in &lt;em&gt;Paris agreed&lt;/em&gt; that the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; had &lt;em&gt;dropped enough&lt;/em&gt; and that &lt;em&gt;world exchange rates should&lt;/em&gt; be &lt;em&gt;stabilized&lt;/em&gt; at &lt;em&gt;around current levels&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;officials meeting&lt;/em&gt; with &lt;em&gt;other major&lt;/em&gt; industrialized &lt;em&gt;nations&lt;/em&gt; in &lt;em&gt;Paris&lt;/em&gt; agreed that the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; had dropped enough and that &lt;em&gt;world exchange rates&lt;/em&gt; should be stabilized at around &lt;em&gt;current levels&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;budget&lt;/em&gt; plan now &lt;em&gt;under debate&lt;/em&gt; on the &lt;em&gt;House floor would lower&lt;/em&gt; an &lt;em&gt;estimated 171 billion&lt;/em&gt; dlr &lt;em&gt;deficit&lt;/em&gt; for the year &lt;em&gt;beginning&lt;/em&gt; on &lt;em&gt;October&lt;/em&gt; one to &lt;em&gt;about 133 billion&lt;/em&gt; dlrs by &lt;em&gt;cutting defense&lt;/em&gt; and &lt;em&gt;domestic programs&lt;/em&gt; by 38 &lt;em&gt;billion&lt;/em&gt; dlrs from &lt;em&gt;their anticipated spending levels&lt;/em&gt; for next year.</str>
-        <int name="index">35</int>
+        <str name="text">Such a &lt;em&gt;decline,&lt;/em&gt; he has said, could &lt;em&gt;refuel inflation&lt;/em&gt; as imported &lt;em&gt;goods become&lt;/em&gt; more &lt;em&gt;expensive&lt;/em&gt; and &lt;em&gt;chase&lt;/em&gt; away &lt;em&gt;foreign capital&lt;/em&gt; needed to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;federal budget deficit&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

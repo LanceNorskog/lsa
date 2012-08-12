@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-326.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">maintain</str>
-        <double name="strength">0.9999999999999999</double>
-      </lst>
-      <lst name="term">
         <str name="text">shift</str>
-        <double name="strength">0.5000000000000007</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
         <str name="text">resources</str>
-        <double name="strength">0.5000000000000007</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">expand</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">potential</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The report urged Australia to broaden its export base by developing viable and competitive service and manufacturing industries, and not count on a recovery of commodity markets to correct its external imbalances.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Continued real wage moderation was essential to maintain the competitive edge created by the Australian dollar's depreciation, and to maintain if not boost profit shares in order to encourage business investment.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">213</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.7888414506540282</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said Australia had a current external deficit of 5-3/4 pct of gross domestic product, high and rapidly rising external debt equal to 30 pct of GDP, growing servicing costs and inflation above nine pct, far higher than that of other OECD countries.</str>
-        <int name="index">1</int>
+        <str name="text">A major shift of real resources to the external sector -- about 4-1/2 pct of GDP by 1990-91 -- was required for the economy to expand in line with potential, for employment to grow, and for the debt/GDP ratio to stabilize, it said.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">251</int>
-        <double name="strength">0.8727061361076804</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It added Australia should reduce protection levels in manufacturing, even though faster trade liberalisation would no doubt hurt the most protected sectors of industry.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8710912696153018</double>
+        <int name="end">232</int>
+        <double name="strength">0.783514958188498</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Continued&lt;/em&gt; real wage &lt;em&gt;moderation&lt;/em&gt; was &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; the &lt;em&gt;competitive&lt;/em&gt; edge &lt;em&gt;created&lt;/em&gt; by the &lt;em&gt;Australian dollar&lt;/em&gt;'s &lt;em&gt;depreciation,&lt;/em&gt; and to &lt;em&gt;maintain&lt;/em&gt; if not &lt;em&gt;boost profit shares&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;encourage business investment&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;report&lt;/em&gt; urged &lt;em&gt;Australia&lt;/em&gt; to &lt;em&gt;broaden&lt;/em&gt; its &lt;em&gt;export&lt;/em&gt; base by developing &lt;em&gt;viable&lt;/em&gt; and &lt;em&gt;competitive service&lt;/em&gt; and &lt;em&gt;manufacturing industries,&lt;/em&gt; and not &lt;em&gt;count&lt;/em&gt; on a &lt;em&gt;recovery&lt;/em&gt; of &lt;em&gt;commodity markets&lt;/em&gt; to &lt;em&gt;correct&lt;/em&gt; its &lt;em&gt;external imbalances&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Continued real wage &lt;em&gt;moderation&lt;/em&gt; was &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; the &lt;em&gt;competitive&lt;/em&gt; edge created by the &lt;em&gt;Australian dollar&lt;/em&gt;'s &lt;em&gt;depreciation,&lt;/em&gt; and to &lt;em&gt;maintain&lt;/em&gt; if not &lt;em&gt;boost profit shares&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;encourage business investment&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said &lt;em&gt;Australia&lt;/em&gt; had a &lt;em&gt;current external deficit&lt;/em&gt; of 5-3/4 pct of &lt;em&gt;gross domestic product,&lt;/em&gt; high and &lt;em&gt;rapidly rising external&lt;/em&gt; debt &lt;em&gt;equal&lt;/em&gt; to 30 pct of GDP, &lt;em&gt;growing servicing costs&lt;/em&gt; and &lt;em&gt;inflation above&lt;/em&gt; nine pct, far &lt;em&gt;higher&lt;/em&gt; than that of &lt;em&gt;other&lt;/em&gt; OECD &lt;em&gt;countries&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It &lt;em&gt;added Australia should reduce protection levels&lt;/em&gt; in &lt;em&gt;manufacturing,&lt;/em&gt; even &lt;em&gt;though faster trade liberalisation would&lt;/em&gt; no &lt;em&gt;doubt&lt;/em&gt; hurt the most &lt;em&gt;protected sectors&lt;/em&gt; of &lt;em&gt;industry&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">A &lt;em&gt;major shift&lt;/em&gt; of real &lt;em&gt;resources&lt;/em&gt; to the &lt;em&gt;external sector --&lt;/em&gt; about 4-1/2 pct of GDP by 1990-91 -- was required for the &lt;em&gt;economy&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; in line with &lt;em&gt;potential,&lt;/em&gt; for &lt;em&gt;employment&lt;/em&gt; to grow, and for the debt/GDP &lt;em&gt;ratio&lt;/em&gt; to &lt;em&gt;stabilize,&lt;/em&gt; it said.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

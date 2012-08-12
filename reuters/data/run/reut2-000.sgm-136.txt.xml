@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-136.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">according</str>
+        <str name="text">loans</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prepared</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">direct</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">governent</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">commitment</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">private</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Azpurua said four basic elements are being negotiated with the banks now: spread reduction, deferral of principal payments due in 1987 and 1988, lenghtening the 12-1/2 year repayment schedule, and debt capitalization schemes.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">However, he appeared to discard earlier venezuelan proposals for a direct link between oil income and debt payments, "because circumstances change too quickly."</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.9711152399208577</double>
-      </lst>
       <lst name="sentence">
         <str name="text">venezuela is seeking a 'constructive and flexible' attitude from its creditor banks in current talks to reschedule 21 billion dlrs in foreign debt, finance minister manuel azpurua told a press conference.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">204</int>
-        <double name="strength">0.9694797445880807</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Azpurua said four basic elements are being negotiated with the banks now: spread reduction, deferral of principal payments due in 1987 and 1988, lenghtening the 12-1/2 year repayment schedule, and debt capitalization schemes.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">226</int>
+        <double name="strength">0.8763144284847699</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time, he said the government is presently studying possible mechanisms for capitlizing public and private sector foreign debt, based on experience in other countries.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.7774493677523913</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Azpurua&lt;/em&gt; said four &lt;em&gt;basic elements&lt;/em&gt; are &lt;em&gt;being negotiated&lt;/em&gt; with the &lt;em&gt;banks&lt;/em&gt; now: &lt;em&gt;spread reduction, deferral&lt;/em&gt; of &lt;em&gt;principal payments&lt;/em&gt; due in 1987 and 1988, &lt;em&gt;lenghtening&lt;/em&gt; the 12-1/2 year &lt;em&gt;repayment schedule,&lt;/em&gt; and debt &lt;em&gt;capitalization schemes&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;venezuela&lt;/em&gt; is seeking a '&lt;em&gt;constructive&lt;/em&gt; and &lt;em&gt;flexible' attitude&lt;/em&gt; from its &lt;em&gt;creditor banks&lt;/em&gt; in &lt;em&gt;current talks&lt;/em&gt; to &lt;em&gt;reschedule 21 billion&lt;/em&gt; dlrs in &lt;em&gt;foreign&lt;/em&gt; debt, &lt;em&gt;finance minister manuel azpurua&lt;/em&gt; told a &lt;em&gt;press conference&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Azpurua&lt;/em&gt; said four &lt;em&gt;basic elements&lt;/em&gt; are being negotiated with the &lt;em&gt;banks&lt;/em&gt; now: spread &lt;em&gt;reduction, deferral&lt;/em&gt; of &lt;em&gt;principal payments&lt;/em&gt; due in 1987 and 1988, lenghtening the 12-1/2 year &lt;em&gt;repayment schedule,&lt;/em&gt; and debt &lt;em&gt;capitalization schemes&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; he &lt;em&gt;appeared&lt;/em&gt; to &lt;em&gt;discard earlier venezuelan proposals&lt;/em&gt; for a &lt;em&gt;direct&lt;/em&gt; link &lt;em&gt;between&lt;/em&gt; oil &lt;em&gt;income&lt;/em&gt; and debt &lt;em&gt;payments, "because circumstances change&lt;/em&gt; too &lt;em&gt;quickly.&lt;/em&gt;"</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;venezuela&lt;/em&gt; is &lt;em&gt;seeking&lt;/em&gt; a '&lt;em&gt;constructive&lt;/em&gt; and &lt;em&gt;flexible' attitude&lt;/em&gt; from its &lt;em&gt;creditor banks&lt;/em&gt; in &lt;em&gt;current talks&lt;/em&gt; to &lt;em&gt;reschedule 21 billion&lt;/em&gt; dlrs in &lt;em&gt;foreign&lt;/em&gt; debt, &lt;em&gt;finance minister manuel azpurua&lt;/em&gt; told a &lt;em&gt;press conference&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">At the same time, he said the &lt;em&gt;government&lt;/em&gt; is presently studying &lt;em&gt;possible mechanisms&lt;/em&gt; for capitlizing &lt;em&gt;public&lt;/em&gt; and &lt;em&gt;private sector foreign&lt;/em&gt; debt, based on &lt;em&gt;experience&lt;/em&gt; in &lt;em&gt;other countries&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

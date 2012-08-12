@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-826.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">130</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">hearings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">burlington</str>
-        <double name="strength">0.9999999999999905</double>
+        <str name="text">dingman</str>
+        <double name="strength">0.9988798280552009</double>
       </lst>
       <lst name="term">
-        <str name="text">interview</str>
-        <double name="strength">0.5</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9771992955643805</double>
       </lst>
       <lst name="term">
-        <str name="text">seeking</str>
-        <double name="strength">0.5</double>
+        <str name="text">fischer</str>
+        <double name="strength">0.9669685826517909</double>
       </lst>
       <lst name="term">
-        <str name="text">acquisition</str>
-        <double name="strength">0.5</double>
+        <str name="text">reopen</str>
+        <double name="strength">0.9669685826517908</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Analysts also said the company has strong defenses that would easily deter any suitor - one of those being its problems combining its two railroad properties, which hang in regulatory limbo.</str>
-        <int name="index">2</int>
+        <str name="text">The company since has granted trackage-sharing rights to four western railroads to meet the ICC's concerns and persuade it to reopen the hearings in its three-year-old struggle to merge the lines.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">191</int>
+        <int name="end">197</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He also told Reuters in an interview he is seeking an acquisition of from two billion to eight billion dlrs.</str>
-        <int name="index">7</int>
+        <str name="text">They add that Santa Fe's efforts to merge its two railroads remain in regulatory limbo, sidetracking many of its strategic plans for the foreseeable future.</str>
+        <int name="index">13</int>
         <int name="start">0</int>
-        <int name="end">108</int>
-        <double name="strength">0.9812798420369307</double>
+        <int name="end">156</int>
+        <double name="strength">0.9815258171963394</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Henley Group's Chairman Michael Dingman has said he wants to take major positions in undervalued natural resource companies.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">125</int>
-        <double name="strength">0.9769494250518825</double>
+        <double name="strength">0.9602922414225371</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; also said the &lt;em&gt;company&lt;/em&gt; has &lt;em&gt;strong defenses&lt;/em&gt; that &lt;em&gt;would easily deter&lt;/em&gt; any &lt;em&gt;suitor -&lt;/em&gt; one of &lt;em&gt;those being&lt;/em&gt; its &lt;em&gt;problems combining&lt;/em&gt; its two &lt;em&gt;railroad properties, which&lt;/em&gt; hang in &lt;em&gt;regulatory limbo&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; since has granted &lt;em&gt;trackage&lt;/em&gt;-sharing &lt;em&gt;rights&lt;/em&gt; to four &lt;em&gt;western railroads&lt;/em&gt; to meet the ICC's &lt;em&gt;concerns&lt;/em&gt; and &lt;em&gt;persuade&lt;/em&gt; it to &lt;em&gt;reopen&lt;/em&gt; the &lt;em&gt;hearings&lt;/em&gt; in its &lt;em&gt;three&lt;/em&gt;-year-old &lt;em&gt;struggle&lt;/em&gt; to &lt;em&gt;merge&lt;/em&gt; the &lt;em&gt;lines&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He also told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt; he is &lt;em&gt;seeking&lt;/em&gt; an &lt;em&gt;acquisition&lt;/em&gt; of from two &lt;em&gt;billion&lt;/em&gt; to &lt;em&gt;eight billion dlrs&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">They add that &lt;em&gt;Santa&lt;/em&gt; Fe's &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;merge&lt;/em&gt; its two &lt;em&gt;railroads remain&lt;/em&gt; in &lt;em&gt;regulatory limbo, sidetracking&lt;/em&gt; many of its &lt;em&gt;strategic plans&lt;/em&gt; for the &lt;em&gt;foreseeable future&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Henley Group&lt;/em&gt;'s &lt;em&gt;Chairman Michael Dingman&lt;/em&gt; has said he &lt;em&gt;wants&lt;/em&gt; to take &lt;em&gt;major positions&lt;/em&gt; in &lt;em&gt;undervalued natural resource companies&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Henley Group&lt;/em&gt;'s &lt;em&gt;Chairman Michael Dingman&lt;/em&gt; has said he wants to take &lt;em&gt;major positions&lt;/em&gt; in &lt;em&gt;undervalued natural resource companies&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
     </lst>

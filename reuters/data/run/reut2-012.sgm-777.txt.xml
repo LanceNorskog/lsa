@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-777.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">record</str>
+        <str name="text">shipment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">purchased</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">total</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">still</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">purchases</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">remains</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">further</str>
+        <double name="strength">0.981795104790676</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9817951047906757</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The increasing cases of record production as a result of record yields and better husbandry have forced sugar producers to strive for greater efficiency.</str>
-        <int name="index">17</int>
+        <str name="text">Further purchases are expected by the Peoples Republic of China at the lower end of the recent price range, which should limit the downside movement, it said in its latest monthly market report.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">154</int>
+        <int name="end">195</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Commenting on the current row between the EC Commission and sugar producers, Man said despite the recent improvement in the level of restitutions, they are still insufficient to fully compensate producers when exporting on the world market.</str>
-        <int name="index">19</int>
+        <str name="text">The Soviets purchased five cargoes of raws for April/May shipment towards the end of last month, which brings its total purchases to around 1.65 mln tonnes, Man said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">241</int>
-        <double name="strength">0.952555088170475</double>
+        <int name="end">167</int>
+        <double name="strength">0.7271988959142728</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">The recent fall in world sugar prices, due to increased producer pricing sales and evidence of export availability, has encouraged renewed buying interest from China and the Soviet Union, London trade house E.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">209</int>
-        <double name="strength">0.9281331126952479</double>
+        <double name="strength">0.7247004348996371</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;increasing cases&lt;/em&gt; of &lt;em&gt;record production&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;record yields&lt;/em&gt; and &lt;em&gt;better husbandry&lt;/em&gt; have &lt;em&gt;forced sugar producers&lt;/em&gt; to &lt;em&gt;strive&lt;/em&gt; for &lt;em&gt;greater efficiency&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Further purchases&lt;/em&gt; are expected by the &lt;em&gt;Peoples Republic&lt;/em&gt; of &lt;em&gt;China&lt;/em&gt; at the lower end of the &lt;em&gt;recent price range,&lt;/em&gt; which should &lt;em&gt;limit&lt;/em&gt; the &lt;em&gt;downside movement,&lt;/em&gt; it said in its latest &lt;em&gt;monthly market report&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commenting&lt;/em&gt; on the &lt;em&gt;current&lt;/em&gt; row &lt;em&gt;between&lt;/em&gt; the EC &lt;em&gt;Commission&lt;/em&gt; and &lt;em&gt;sugar producers,&lt;/em&gt; Man said &lt;em&gt;despite&lt;/em&gt; the &lt;em&gt;recent improvement&lt;/em&gt; in the &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;restitutions,&lt;/em&gt; they are &lt;em&gt;still insufficient&lt;/em&gt; to &lt;em&gt;fully compensate producers&lt;/em&gt; when &lt;em&gt;exporting&lt;/em&gt; on the &lt;em&gt;world market&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">The &lt;em&gt;Soviets&lt;/em&gt; purchased five &lt;em&gt;cargoes&lt;/em&gt; of raws for &lt;em&gt;April&lt;/em&gt;/May &lt;em&gt;shipment&lt;/em&gt; towards the end of last &lt;em&gt;month,&lt;/em&gt; which brings its &lt;em&gt;total purchases&lt;/em&gt; to around 1.65 mln &lt;em&gt;tonnes,&lt;/em&gt; Man said.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;recent&lt;/em&gt; fall in &lt;em&gt;world sugar prices,&lt;/em&gt; due to &lt;em&gt;increased producer pricing sales&lt;/em&gt; and &lt;em&gt;evidence&lt;/em&gt; of &lt;em&gt;export availability,&lt;/em&gt; has &lt;em&gt;encouraged renewed buying interest&lt;/em&gt; from &lt;em&gt;China&lt;/em&gt; and the &lt;em&gt;Soviet Union, London trade house E&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;recent&lt;/em&gt; fall in &lt;em&gt;world sugar prices,&lt;/em&gt; due to increased &lt;em&gt;producer pricing sales&lt;/em&gt; and &lt;em&gt;evidence&lt;/em&gt; of &lt;em&gt;export availability,&lt;/em&gt; has encouraged renewed buying &lt;em&gt;interest&lt;/em&gt; from &lt;em&gt;China&lt;/em&gt; and the &lt;em&gt;Soviet Union,&lt;/em&gt; London &lt;em&gt;trade house E&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

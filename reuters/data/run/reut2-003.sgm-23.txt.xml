@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-23.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">128</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deficit</str>
+        <str name="text">pierson</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">0.9999999999999984</double>
-      </lst>
-      <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.9999999999999982</double>
-      </lst>
-      <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">0.9999999999999972</double>
-      </lst>
-      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.7071067811865468</double>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">imports</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">continue</str>
+        <double name="strength">0.9349502295220496</double>
+      </lst>
+      <lst name="term">
+        <str name="text">inflation</str>
+        <double name="strength">0.9349502295220486</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">More of economic growth now depended on domestic consumption, the CPB said, but noting that higher margins set by domestic producers and importers mitigated the effect on purchasing power of lower import costs and deflation.</str>
-        <int name="index">5</int>
+        <str name="text">"It is too early to comment because I haven't seen the whole document yet, but it would seem we are more pessimistic in some of our estimates," a Pierson economist said.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">225</int>
+        <int name="end">170</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Exchange rate and oil price fluctuations will continue to condition the Dutch economy in the future as it has in recent years, the CPB said, noting a continued depressing impact of these factors on Dutch competitiveness.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">221</int>
-        <double name="strength">0.8632424421679459</double>
+        <double name="strength">0.8861543174823938</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The CPB, forecasting a rise in the budget deficit to 7.2 pct of Net National Income in 1987 from 6.3 pct last year, urged the government to cut expenditure further to bring down the deficit and reduce tax and social security payments in future.</str>
-        <int name="index">11</int>
+        <str name="text">In addition, it noted a slight rise in taxation and social security costs to employers.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">245</int>
-        <double name="strength">0.8023751983503792</double>
+        <int name="end">88</int>
+        <double name="strength">0.8331803210575421</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">More of &lt;em&gt;economic growth&lt;/em&gt; now &lt;em&gt;depended&lt;/em&gt; on &lt;em&gt;domestic consumption,&lt;/em&gt; the CPB said, but &lt;em&gt;noting&lt;/em&gt; that &lt;em&gt;higher margins&lt;/em&gt; set by &lt;em&gt;domestic producers&lt;/em&gt; and &lt;em&gt;importers mitigated&lt;/em&gt; the &lt;em&gt;effect&lt;/em&gt; on &lt;em&gt;purchasing power&lt;/em&gt; of &lt;em&gt;lower import costs&lt;/em&gt; and &lt;em&gt;deflation&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">"It is too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;comment&lt;/em&gt; because I &lt;em&gt;haven&lt;/em&gt;'t seen the &lt;em&gt;whole document&lt;/em&gt; yet, but it would seem we are more &lt;em&gt;pessimistic&lt;/em&gt; in some of our &lt;em&gt;estimates,"&lt;/em&gt; a &lt;em&gt;Pierson economist said&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Exchange&lt;/em&gt; rate and oil &lt;em&gt;price fluctuations&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;condition&lt;/em&gt; the &lt;em&gt;Dutch economy&lt;/em&gt; in the &lt;em&gt;future&lt;/em&gt; as it has in &lt;em&gt;recent years,&lt;/em&gt; the CPB said, &lt;em&gt;noting&lt;/em&gt; a &lt;em&gt;continued depressing impact&lt;/em&gt; of &lt;em&gt;these factors&lt;/em&gt; on &lt;em&gt;Dutch competitiveness&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Exchange&lt;/em&gt; rate and oil &lt;em&gt;price fluctuations&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;condition&lt;/em&gt; the &lt;em&gt;Dutch economy&lt;/em&gt; in the &lt;em&gt;future&lt;/em&gt; as it has in &lt;em&gt;recent years,&lt;/em&gt; the CPB said, noting a &lt;em&gt;continued depressing impact&lt;/em&gt; of these &lt;em&gt;factors&lt;/em&gt; on &lt;em&gt;Dutch competitiveness&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The CPB, &lt;em&gt;forecasting&lt;/em&gt; a rise in the &lt;em&gt;budget deficit&lt;/em&gt; to 7.2 pct of Net &lt;em&gt;National Income&lt;/em&gt; in 1987 from 6.3 pct last year, &lt;em&gt;urged&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; to cut &lt;em&gt;expenditure further&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; down the &lt;em&gt;deficit&lt;/em&gt; and &lt;em&gt;reduce&lt;/em&gt; tax and &lt;em&gt;social security payments&lt;/em&gt; in &lt;em&gt;future&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; it noted a &lt;em&gt;slight&lt;/em&gt; rise in &lt;em&gt;taxation&lt;/em&gt; and &lt;em&gt;social security costs&lt;/em&gt; to &lt;em&gt;employers&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

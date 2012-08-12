@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-713.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">42</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">controlled</str>
+        <str name="text">worth</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">stock</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
         <str name="text">television</str>
-        <double name="strength">0.5527707983925678</double>
+        <double name="strength">0.9866829810143721</double>
       </lst>
       <lst name="term">
-        <str name="text">decision</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">other</str>
+        <double name="strength">0.9866829810143714</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.500000000000003</double>
-      </lst>
-      <lst name="term">
-        <str name="text">early</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">offer</str>
+        <double name="strength">0.9866829810143709</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">276</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">One said Redstone could begin a tender offer whenever he wanted and if enough people were convinced his proposal was superior to the Viacom management plan, he would have a chance to win.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">187</int>
-        <double name="strength">0.7005519323513802</double>
+        <double name="strength">0.7605830681706779</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He noted as an example that new stock in FMC Corp &lt;FMC&gt;, which adopted a highly leveraged structure last year, inititally traded at 12.50 dlrs per share, dipped to nine dlrs, and is now just over 30 dlrs.</str>
-        <int name="index">32</int>
-        <int name="start">0</int>
-        <int name="end">204</int>
-        <double name="strength">0.6978748378549198</double>
+        <str name="text">Other arbitrageurs said both Redstone and the management group, led by president and chief executive Terrence Elkes, were offering high prices.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.7531902337405697</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;source predicted National Amusements, controlled&lt;/em&gt; by &lt;em&gt;investor Sumner Redstone, would&lt;/em&gt; need "half a year" to &lt;em&gt;complete&lt;/em&gt; a &lt;em&gt;tender offer because&lt;/em&gt; of the &lt;em&gt;regulatory approvals&lt;/em&gt; that must &lt;em&gt;accompany&lt;/em&gt; any &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;Viacom&lt;/em&gt;'s &lt;em&gt;broadcast licenses&lt;/em&gt; and &lt;em&gt;cable television franchises&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;source&lt;/em&gt; predicted &lt;em&gt;National Amusements,&lt;/em&gt; controlled by &lt;em&gt;investor Sumner Redstone,&lt;/em&gt; would need "half a year" to &lt;em&gt;complete&lt;/em&gt; a &lt;em&gt;tender offer&lt;/em&gt; because of the &lt;em&gt;regulatory approvals&lt;/em&gt; that must &lt;em&gt;accompany&lt;/em&gt; any &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;Viacom&lt;/em&gt;'s broadcast &lt;em&gt;licenses&lt;/em&gt; and &lt;em&gt;cable television franchises&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">One said &lt;em&gt;Redstone could begin&lt;/em&gt; a &lt;em&gt;tender offer whenever&lt;/em&gt; he &lt;em&gt;wanted&lt;/em&gt; and if &lt;em&gt;enough people&lt;/em&gt; were &lt;em&gt;convinced&lt;/em&gt; his &lt;em&gt;proposal&lt;/em&gt; was &lt;em&gt;superior&lt;/em&gt; to the &lt;em&gt;Viacom management&lt;/em&gt; plan, he &lt;em&gt;would&lt;/em&gt; have a &lt;em&gt;chance&lt;/em&gt; to win.</str>
+        <str name="text">One said &lt;em&gt;Redstone&lt;/em&gt; could &lt;em&gt;begin&lt;/em&gt; a &lt;em&gt;tender offer&lt;/em&gt; whenever he wanted and if &lt;em&gt;enough people&lt;/em&gt; were &lt;em&gt;convinced&lt;/em&gt; his &lt;em&gt;proposal&lt;/em&gt; was &lt;em&gt;superior&lt;/em&gt; to the &lt;em&gt;Viacom management&lt;/em&gt; plan, he would have a &lt;em&gt;chance&lt;/em&gt; to win.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;noted&lt;/em&gt; as an &lt;em&gt;example&lt;/em&gt; that new &lt;em&gt;stock&lt;/em&gt; in FMC Corp &lt;FMC&gt;, &lt;em&gt;which adopted&lt;/em&gt; a &lt;em&gt;highly leveraged structure&lt;/em&gt; last year, &lt;em&gt;inititally traded&lt;/em&gt; at 12.50 dlrs per &lt;em&gt;share, dipped&lt;/em&gt; to nine dlrs, and is now just over 30 dlrs.</str>
-        <int name="index">32</int>
+        <str name="text">&lt;em&gt;Other arbitrageurs&lt;/em&gt; said both &lt;em&gt;Redstone&lt;/em&gt; and the &lt;em&gt;management group,&lt;/em&gt; led by &lt;em&gt;president&lt;/em&gt; and &lt;em&gt;chief executive Terrence Elkes,&lt;/em&gt; were offering high &lt;em&gt;prices&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-909.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deposits</str>
+        <str name="text">intention</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">range</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">prospective</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">develop</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">willing</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">global</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">accept</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">money</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">business</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Banking sources said they expect that initially the currency futures would be dollar-yen and interest futures would include Japanese domestic yen certificates of deposit, three-month Eurodollar deposits and 20-year U.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The market should include a comprehensive range of futures and options trading so Tokyo can develop into a real global money centre where a variety of risk-hedging instruments is available, the proposal said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">209</int>
-        <double name="strength">0.8599540782028964</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Banking sources quoted federation chairman Yoshiro Araki as saying he hoped the market would be created as soon as possible because it would help promote the liberalisation of Japan's financial markets.</str>
-        <int name="index">7</int>
+        <str name="text">Araki said he had no intention of limiting prospective market participants to banks but was willing to accept those from wider business circles, the sources said.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">203</int>
-        <double name="strength">0.8284824601074954</double>
+        <int name="end">163</int>
+        <double name="strength">0.8748281206608348</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Banking sources said they expect that initially the currency futures would be dollar-yen and interest futures would include Japanese domestic yen certificates of deposit, three-month Eurodollar deposits and 20-year U.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">218</int>
+        <double name="strength">0.8253447314951871</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Banking sources&lt;/em&gt; said they &lt;em&gt;expect&lt;/em&gt; that &lt;em&gt;initially&lt;/em&gt; the &lt;em&gt;currency futures would&lt;/em&gt; be &lt;em&gt;dollar&lt;/em&gt;-yen and &lt;em&gt;interest futures would include Japanese domestic&lt;/em&gt; yen &lt;em&gt;certificates&lt;/em&gt; of &lt;em&gt;deposit, three-month Eurodollar deposits&lt;/em&gt; and 20-year U.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;market should include&lt;/em&gt; a &lt;em&gt;comprehensive range&lt;/em&gt; of &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options trading&lt;/em&gt; so &lt;em&gt;Tokyo&lt;/em&gt; can &lt;em&gt;develop&lt;/em&gt; into a real &lt;em&gt;global money centre where&lt;/em&gt; a &lt;em&gt;variety&lt;/em&gt; of risk-&lt;em&gt;hedging instruments&lt;/em&gt; is &lt;em&gt;available,&lt;/em&gt; the &lt;em&gt;proposal said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;market&lt;/em&gt; should &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;comprehensive range&lt;/em&gt; of &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options trading&lt;/em&gt; so &lt;em&gt;Tokyo&lt;/em&gt; can &lt;em&gt;develop&lt;/em&gt; into a real &lt;em&gt;global money centre&lt;/em&gt; where a &lt;em&gt;variety&lt;/em&gt; of risk-hedging &lt;em&gt;instruments&lt;/em&gt; is &lt;em&gt;available,&lt;/em&gt; the &lt;em&gt;proposal said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Banking sources quoted federation chairman Yoshiro Araki&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; he &lt;em&gt;hoped&lt;/em&gt; the &lt;em&gt;market would&lt;/em&gt; be &lt;em&gt;created&lt;/em&gt; as soon as &lt;em&gt;possible because&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; help &lt;em&gt;promote&lt;/em&gt; the &lt;em&gt;liberalisation&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;financial markets&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Araki&lt;/em&gt; said he had no &lt;em&gt;intention&lt;/em&gt; of limiting &lt;em&gt;prospective market participants&lt;/em&gt; to &lt;em&gt;banks&lt;/em&gt; but was &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; those from wider &lt;em&gt;business circles,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Banking sources&lt;/em&gt; said they &lt;em&gt;expect&lt;/em&gt; that initially the &lt;em&gt;currency futures&lt;/em&gt; would be &lt;em&gt;dollar&lt;/em&gt;-yen and &lt;em&gt;interest futures&lt;/em&gt; would &lt;em&gt;include Japanese domestic&lt;/em&gt; yen &lt;em&gt;certificates&lt;/em&gt; of &lt;em&gt;deposit, three-month Eurodollar deposits&lt;/em&gt; and 20-year U.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

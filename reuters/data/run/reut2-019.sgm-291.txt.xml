@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-291.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">173</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">receive</str>
+        <str name="text">heart</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">leads</str>
-        <double name="strength">0.5590169943749441</double>
+        <str name="text">americans</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">mevacor</str>
-        <double name="strength">0.5</double>
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">recommendation</str>
-        <double name="strength">0.5</double>
+        <str name="text">company</str>
+        <double name="strength">0.9746241332961278</double>
       </lst>
       <lst name="term">
-        <str name="text">advisory</str>
-        <double name="strength">0.5</double>
+        <str name="text">combination</str>
+        <double name="strength">0.9746241332961244</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">256</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Merck's drug, Mevacor, received a recommendation from an advisory panel of the Food and Drug Administration earlier this year and is expected to receive full approval for sale in late summer or fall.</str>
-        <int name="index">28</int>
+        <str name="text">Although neither company's drug was used in the study, which was conducted by a team of scientists at the University of Southern California School of Medicine, both are leaders in a new class of drugs that fight cholesterol.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.9502221370975744</double>
+        <int name="end">225</int>
+        <double name="strength">0.9717022940728465</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Bernstein said "the culture can shift in terms of drug treatment because some people arn't going to fundamentally alter their diets".</str>
         <int name="index">12</int>
         <int name="start">0</int>
         <int name="end">133</int>
-        <double name="strength">0.9502221370975656</double>
+        <double name="strength">0.8924377971507316</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;study, reported&lt;/em&gt; in the &lt;em&gt;Journal&lt;/em&gt; of the &lt;em&gt;American Medical Association, showed lower levels&lt;/em&gt; of &lt;em&gt;cholesterol, achieved through&lt;/em&gt; a &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;drugs&lt;/em&gt; and &lt;em&gt;special&lt;/em&gt; diet, &lt;em&gt;slowed&lt;/em&gt; and in some &lt;em&gt;cases reversed&lt;/em&gt; the &lt;em&gt;build&lt;/em&gt; up of &lt;em&gt;fatty deposits&lt;/em&gt; in the &lt;em&gt;heart&lt;/em&gt;'s &lt;em&gt;arteries&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;study,&lt;/em&gt; reported in the &lt;em&gt;Journal&lt;/em&gt; of the &lt;em&gt;American Medical Association,&lt;/em&gt; showed lower &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;cholesterol,&lt;/em&gt; achieved through a &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;drugs&lt;/em&gt; and &lt;em&gt;special&lt;/em&gt; diet, slowed and in some &lt;em&gt;cases&lt;/em&gt; reversed the &lt;em&gt;build&lt;/em&gt; up of &lt;em&gt;fatty deposits&lt;/em&gt; in the &lt;em&gt;heart&lt;/em&gt;'s &lt;em&gt;arteries&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Merck&lt;/em&gt;'s drug, &lt;em&gt;Mevacor, received&lt;/em&gt; a &lt;em&gt;recommendation&lt;/em&gt; from an &lt;em&gt;advisory panel&lt;/em&gt; of the Food and Drug &lt;em&gt;Administration earlier&lt;/em&gt; this year and is &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;receive&lt;/em&gt; full &lt;em&gt;approval&lt;/em&gt; for sale in late &lt;em&gt;summer&lt;/em&gt; or fall.</str>
-        <int name="index">28</int>
+        <str name="text">Although neither &lt;em&gt;company&lt;/em&gt;'s drug was used in the &lt;em&gt;study,&lt;/em&gt; which was conducted by a team of &lt;em&gt;scientists&lt;/em&gt; at the &lt;em&gt;University&lt;/em&gt; of &lt;em&gt;Southern California School&lt;/em&gt; of &lt;em&gt;Medicine,&lt;/em&gt; both are &lt;em&gt;leaders&lt;/em&gt; in a new &lt;em&gt;class&lt;/em&gt; of &lt;em&gt;drugs&lt;/em&gt; that &lt;em&gt;fight cholesterol&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bernstein&lt;/em&gt; said "the &lt;em&gt;culture&lt;/em&gt; can &lt;em&gt;shift&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of drug &lt;em&gt;treatment because&lt;/em&gt; some &lt;em&gt;people&lt;/em&gt; arn't &lt;em&gt;going&lt;/em&gt; to &lt;em&gt;fundamentally alter their diets"&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Bernstein&lt;/em&gt; said "the &lt;em&gt;culture&lt;/em&gt; can &lt;em&gt;shift&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of drug &lt;em&gt;treatment&lt;/em&gt; because some &lt;em&gt;people&lt;/em&gt; arn't going to fundamentally &lt;em&gt;alter&lt;/em&gt; their &lt;em&gt;diets"&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
     </lst>

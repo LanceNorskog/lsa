@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-122.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">relative</str>
+        <str name="text">stocks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">department</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">imports</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
         <str name="text">acreage</str>
-        <double name="strength">0.5590169943749472</double>
-      </lst>
-      <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">0.5000000000000004</double>
-      </lst>
-      <lst name="term">
-        <str name="text">sluggish</str>
-        <double name="strength">0.5000000000000003</double>
-      </lst>
-      <lst name="term">
-        <str name="text">agriculture</str>
-        <double name="strength">0.5</double>
+        <double name="strength">0.9999999999999976</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">246</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Domestic prices of medium grain relative to long grain have increased, the loan differential has been greatly reduced and increases in long grain yields relative to those of other classes have leveled off.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">205</int>
-        <double name="strength">0.9746657837952036</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The United States has already recovered a substantial share of the European Community market and made inroads into markets in the Middle East and Africa," the report said.</str>
-        <int name="index">13</int>
+        <str name="text">China, India and South Korea have increased output, while the Middle East and Africa have doubled imports since the mid-1970s, the report said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.8269669892306938</double>
+        <int name="end">144</int>
+        <double name="strength">0.7210448600040423</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Development of new products and increased promotion have helped make rice more available and visible to a wider range of consumers," USDA said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">145</int>
+        <double name="strength">0.7177859212367311</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;World&lt;/em&gt; rice &lt;em&gt;consumption&lt;/em&gt; is &lt;em&gt;projected&lt;/em&gt; to &lt;em&gt;reach record levels&lt;/em&gt; in 1986/87, the &lt;em&gt;report&lt;/em&gt; said, as &lt;em&gt;higher&lt;/em&gt; per &lt;em&gt;capita incomes, increased domestic production&lt;/em&gt; and low &lt;em&gt;import prices&lt;/em&gt; have &lt;em&gt;allowed people&lt;/em&gt; in many &lt;em&gt;countries&lt;/em&gt; to &lt;em&gt;substitute&lt;/em&gt; rice for &lt;em&gt;coarse grains&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;World&lt;/em&gt; rice &lt;em&gt;consumption&lt;/em&gt; is projected to &lt;em&gt;reach record levels&lt;/em&gt; in 1986/87, the &lt;em&gt;report&lt;/em&gt; said, as higher per &lt;em&gt;capita incomes,&lt;/em&gt; increased &lt;em&gt;domestic production&lt;/em&gt; and low &lt;em&gt;import prices&lt;/em&gt; have allowed &lt;em&gt;people&lt;/em&gt; in many &lt;em&gt;countries&lt;/em&gt; to &lt;em&gt;substitute&lt;/em&gt; rice for &lt;em&gt;coarse grains&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Domestic prices&lt;/em&gt; of &lt;em&gt;medium grain relative&lt;/em&gt; to long &lt;em&gt;grain&lt;/em&gt; have &lt;em&gt;increased,&lt;/em&gt; the loan &lt;em&gt;differential&lt;/em&gt; has been &lt;em&gt;greatly reduced&lt;/em&gt; and &lt;em&gt;increases&lt;/em&gt; in long &lt;em&gt;grain yields relative&lt;/em&gt; to &lt;em&gt;those&lt;/em&gt; of &lt;em&gt;other classes&lt;/em&gt; have &lt;em&gt;leveled off&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;China, India&lt;/em&gt; and &lt;em&gt;South Korea&lt;/em&gt; have increased &lt;em&gt;output,&lt;/em&gt; while the &lt;em&gt;Middle&lt;/em&gt; East and Africa have doubled &lt;em&gt;imports&lt;/em&gt; since the mid-1970s, the &lt;em&gt;report said&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;United States&lt;/em&gt; has &lt;em&gt;already recovered&lt;/em&gt; a &lt;em&gt;substantial share&lt;/em&gt; of the &lt;em&gt;European Community market&lt;/em&gt; and made &lt;em&gt;inroads&lt;/em&gt; into &lt;em&gt;markets&lt;/em&gt; in the &lt;em&gt;Middle&lt;/em&gt; East and &lt;em&gt;Africa,"&lt;/em&gt; the &lt;em&gt;report said&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;"Development&lt;/em&gt; of new &lt;em&gt;products&lt;/em&gt; and increased &lt;em&gt;promotion&lt;/em&gt; have helped make rice more &lt;em&gt;available&lt;/em&gt; and &lt;em&gt;visible&lt;/em&gt; to a wider &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;consumers,"&lt;/em&gt; USDA said.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

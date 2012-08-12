@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-169.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">210</int>
+        <int name="count">153</int>
       </lst>
       <lst name="stems">
-        <int name="count">128</int>
+        <int name="count">88</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">nation</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">partly</str>
-        <double name="strength">0.6666666666666629</double>
+        <str name="text">treasury</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.6666666666666629</double>
+        <str name="text">shift</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">lebanese</str>
-        <double name="strength">0.37267799624996306</double>
+        <str name="text">dealers</str>
+        <double name="strength">0.966968582651791</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.372677996249963</double>
+        <str name="text">middle</str>
+        <double name="strength">0.9669685826517906</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Traders say it is difficult to foresee the riyal market moving completely out of the region, partly because of local demand and partly because of what is seen as the Saudi Arabian Monetary Agency's (SAMA) desire to moderate internationalisation of the riyal and protect it from undue speculation.</str>
-        <int name="index">21</int>
+        <str name="text">Jeddah-based &lt;Riyad Bank&gt; set up as a licensed deposit taker in London in 1984, while its main rival in Saudi Arabia, &lt;National Commercial Bank&gt; (NCB) won a licence in November 1986.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">297</int>
+        <int name="end">183</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bahrain Monetary Agency figures show regional currency deposits held by offshore banks, most in Saudi riyals, dropped to the equivalent of 12.2 billion dlrs at end-September 1986 from 13.4 billion at end-1985 and a 1983 peak of 15.0 billion.</str>
-        <int name="index">17</int>
+        <str name="text">But for the first time since the formation of the six nation Gulf Cooperation Council (GCC) in 1981 there are signs that a much mooted currency union could come into force soon.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.8252803403102948</double>
+        <int name="end">178</int>
+        <double name="strength">0.9397365403791796</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The major market maker has traditionally been London-based consortium bank &lt;Saudi International Bank&gt; but the kingdom joint-venture &lt;Saudi American Bank&gt; (SAMBA) also upgraded its London operation to deposit taker status in mid-February.</str>
-        <int name="index">14</int>
+        <str name="text">The 14th congress of the Inter-Arab Cambiste Association also comes at a time when the prospect of a unified Gulf currency system is more real that at any time this decade.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.6631154403338768</double>
+        <int name="end">173</int>
+        <double name="strength">0.934586901883328</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Traders&lt;/em&gt; say it is &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;foresee&lt;/em&gt; the &lt;em&gt;riyal market moving completely&lt;/em&gt; out of the &lt;em&gt;region, partly because&lt;/em&gt; of &lt;em&gt;local demand&lt;/em&gt; and &lt;em&gt;partly because&lt;/em&gt; of what is seen as the &lt;em&gt;Saudi Arabian Monetary Agency&lt;/em&gt;'s (SAMA) &lt;em&gt;desire&lt;/em&gt; to &lt;em&gt;moderate internationalisation&lt;/em&gt; of the &lt;em&gt;riyal&lt;/em&gt; and &lt;em&gt;protect&lt;/em&gt; it from &lt;em&gt;undue speculation&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">&lt;em&gt;Jeddah&lt;/em&gt;-based &lt;&lt;em&gt;Riyad&lt;/em&gt; Bank&gt; set up as a &lt;em&gt;licensed deposit taker&lt;/em&gt; in &lt;em&gt;London&lt;/em&gt; in 1984, while its main &lt;em&gt;rival&lt;/em&gt; in &lt;em&gt;Saudi Arabia, &lt;National Commercial&lt;/em&gt; Bank&gt; (NCB) won a &lt;em&gt;licence&lt;/em&gt; in &lt;em&gt;November 1986&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bahrain Monetary Agency figures&lt;/em&gt; show &lt;em&gt;regional currency deposits&lt;/em&gt; held by &lt;em&gt;offshore banks,&lt;/em&gt; most in &lt;em&gt;Saudi riyals, dropped&lt;/em&gt; to the &lt;em&gt;equivalent&lt;/em&gt; of 12.2 &lt;em&gt;billion&lt;/em&gt; dlrs at end-&lt;em&gt;September 1986&lt;/em&gt; from 13.4 &lt;em&gt;billion&lt;/em&gt; at end-1985 and a 1983 peak of 15.0 &lt;em&gt;billion&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">But for the &lt;em&gt;first&lt;/em&gt; time since the &lt;em&gt;formation&lt;/em&gt; of the six &lt;em&gt;nation&lt;/em&gt; Gulf &lt;em&gt;Cooperation Council &lt;/em&gt;(GCC) in 1981 there are &lt;em&gt;signs&lt;/em&gt; that a much &lt;em&gt;mooted currency union&lt;/em&gt; could come into &lt;em&gt;force soon&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;major market maker&lt;/em&gt; has &lt;em&gt;traditionally&lt;/em&gt; been &lt;em&gt;London-based consortium&lt;/em&gt; bank &lt;&lt;em&gt;Saudi International&lt;/em&gt; Bank&gt; but the &lt;em&gt;kingdom joint-venture &lt;Saudi American&lt;/em&gt; Bank&gt; (&lt;em&gt;SAMBA)&lt;/em&gt; also &lt;em&gt;upgraded&lt;/em&gt; its &lt;em&gt;London operation&lt;/em&gt; to &lt;em&gt;deposit taker status&lt;/em&gt; in mid-&lt;em&gt;February&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The 14th &lt;em&gt;congress&lt;/em&gt; of the &lt;em&gt;Inter&lt;/em&gt;-Arab &lt;em&gt;Cambiste Association&lt;/em&gt; also comes at a time when the &lt;em&gt;prospect&lt;/em&gt; of a &lt;em&gt;unified&lt;/em&gt; Gulf &lt;em&gt;currency system&lt;/em&gt; is more real that at any time this &lt;em&gt;decade&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

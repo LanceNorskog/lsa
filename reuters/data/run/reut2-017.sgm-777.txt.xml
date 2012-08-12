@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-777.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">119</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">entail</str>
+        <str name="text">rental</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">those</str>
+        <str name="text">hotels</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">claims</str>
-        <double name="strength">1.0</double>
+        <str name="text">travel</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">necessary</str>
-        <double name="strength">1.0</double>
+        <str name="text">directors</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">services</str>
-        <double name="strength">1.0</double>
+        <str name="text">institutions</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">214</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Some Wall Street analysts believe such a move could be risky since the airline, as well as other travel businesses, are dependant on the strength of the economy.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">162</int>
-        <double name="strength">0.8364761249983839</double>
+        <double name="strength">0.9671586668626523</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We said a week ago, and we say it again today that the way to maximize value for shareholders is to see these companies traded as independent companies," said Keith Gollust, one of the partners.</str>
-        <int name="index">11</int>
+        <str name="text">The spokesman also said the company has no comment on Coniston Partners plan to carry out its solicitation of consents from shareholders to remove Allegis directors.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">0.8186292482887774</double>
+        <int name="end">166</int>
+        <double name="strength">0.893602267525275</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;PaineWebber Group analyst Edward Starkman&lt;/em&gt; said &lt;em&gt;institutions&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; long-term &lt;em&gt;holders&lt;/em&gt; may want to cash in &lt;em&gt;their gains instead&lt;/em&gt; of &lt;em&gt;waiting&lt;/em&gt; for the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;special dividend, which would&lt;/em&gt; be &lt;em&gt;taxed&lt;/em&gt; at a &lt;em&gt;higher rate&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;PaineWebber Group analyst Edward Starkman&lt;/em&gt; said &lt;em&gt;institutions&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; long-term &lt;em&gt;holders&lt;/em&gt; may want to cash in their &lt;em&gt;gains&lt;/em&gt; instead of waiting for the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;special dividend,&lt;/em&gt; which would be taxed at a higher rate.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some Wall &lt;em&gt;Street analysts believe&lt;/em&gt; such a move &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;risky since&lt;/em&gt; the &lt;em&gt;airline,&lt;/em&gt; as well as &lt;em&gt;other travel businesses,&lt;/em&gt; are &lt;em&gt;dependant&lt;/em&gt; on the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt;.</str>
+        <str name="text">Some Wall &lt;em&gt;Street analysts believe&lt;/em&gt; such a move could be &lt;em&gt;risky&lt;/em&gt; since the &lt;em&gt;airline,&lt;/em&gt; as well as &lt;em&gt;other travel businesses,&lt;/em&gt; are &lt;em&gt;dependant&lt;/em&gt; on the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We said a week ago, and we say it &lt;em&gt;again today&lt;/em&gt; that the way to &lt;em&gt;maximize value&lt;/em&gt; for &lt;em&gt;shareholders&lt;/em&gt; is to see &lt;em&gt;these companies traded&lt;/em&gt; as &lt;em&gt;independent companies,"&lt;/em&gt; said &lt;em&gt;Keith Gollust,&lt;/em&gt; one of the &lt;em&gt;partners&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; also said the &lt;em&gt;company&lt;/em&gt; has no &lt;em&gt;comment&lt;/em&gt; on &lt;em&gt;Coniston Partners&lt;/em&gt; plan to &lt;em&gt;carry&lt;/em&gt; out its &lt;em&gt;solicitation&lt;/em&gt; of &lt;em&gt;consents&lt;/em&gt; from &lt;em&gt;shareholders&lt;/em&gt; to &lt;em&gt;remove&lt;/em&gt; Allegis &lt;em&gt;directors&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-358.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">179</int>
+        <int name="count">127</int>
       </lst>
       <lst name="stems">
-        <int name="count">108</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">fallen</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">levels</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">chairman</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">sources</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">clark</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">hartley</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">continuing</str>
-        <double name="strength">0.5000000000000027</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999961</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">247</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Saudi sources told the newsletter that the policy was based on the longterm need to restore the competitive position of OPEC oil against other energy sources.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.9439155307894969</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">However, the authoritative Middle East Economic Survey reported yesterday that Saudi Arabia would not seek to increase OPEC oil prices unless oil demand showed strong growth.</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.9314044023771103</double>
+        <double name="strength">0.8314935293465594</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">OPEC has scheduled a regular meeting in June which some experts believe is likely to revive suggestions that oil should be priced according to a basket of world currencies instead of the U.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">189</int>
+        <double name="strength">0.7910300089382777</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Michel Moreau,&lt;/em&gt; a &lt;em&gt;director&lt;/em&gt; of the &lt;Elf &lt;em&gt;Aquitaine Group&gt;,&lt;/em&gt; said he &lt;em&gt;believed&lt;/em&gt; the &lt;em&gt;worldwide&lt;/em&gt; oil &lt;em&gt;industry&lt;/em&gt; had &lt;em&gt;reached&lt;/em&gt; a &lt;em&gt;consensus&lt;/em&gt; that &lt;em&gt;prices&lt;/em&gt; of at &lt;em&gt;least 20&lt;/em&gt; dlrs a &lt;em&gt;barrel&lt;/em&gt; were &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;cover exploration costs, royalties&lt;/em&gt; and &lt;em&gt;taxes&lt;/em&gt; on new &lt;em&gt;production&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Michel&lt;/em&gt; Moreau, a &lt;em&gt;director&lt;/em&gt; of the &lt;Elf &lt;em&gt;Aquitaine Group&gt;,&lt;/em&gt; said he believed the &lt;em&gt;worldwide&lt;/em&gt; oil &lt;em&gt;industry&lt;/em&gt; had reached a &lt;em&gt;consensus&lt;/em&gt; that &lt;em&gt;prices&lt;/em&gt; of at least 20 dlrs a &lt;em&gt;barrel&lt;/em&gt; were &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;cover exploration costs, royalties&lt;/em&gt; and &lt;em&gt;taxes&lt;/em&gt; on new &lt;em&gt;production&lt;/em&gt;.</str>
         <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Saudi sources&lt;/em&gt; told the &lt;em&gt;newsletter&lt;/em&gt; that the &lt;em&gt;policy&lt;/em&gt; was &lt;em&gt;based&lt;/em&gt; on the &lt;em&gt;longterm&lt;/em&gt; need to &lt;em&gt;restore&lt;/em&gt; the &lt;em&gt;competitive position&lt;/em&gt; of OPEC oil &lt;em&gt;against other energy sources&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">However, the &lt;em&gt;authoritative Middle&lt;/em&gt; East &lt;em&gt;Economic Survey&lt;/em&gt; reported &lt;em&gt;yesterday&lt;/em&gt; that &lt;em&gt;Saudi Arabia&lt;/em&gt; would not seek to &lt;em&gt;increase&lt;/em&gt; OPEC oil &lt;em&gt;prices&lt;/em&gt; unless oil &lt;em&gt;demand&lt;/em&gt; showed &lt;em&gt;strong growth&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the &lt;em&gt;authoritative Middle&lt;/em&gt; East &lt;em&gt;Economic Survey reported yesterday&lt;/em&gt; that &lt;em&gt;Saudi Arabia would&lt;/em&gt; not seek to &lt;em&gt;increase&lt;/em&gt; OPEC oil &lt;em&gt;prices unless&lt;/em&gt; oil &lt;em&gt;demand showed strong growth&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">OPEC has scheduled a &lt;em&gt;regular meeting&lt;/em&gt; in June which some &lt;em&gt;experts believe&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;revive suggestions&lt;/em&gt; that oil should be priced according to a &lt;em&gt;basket&lt;/em&gt; of &lt;em&gt;world currencies&lt;/em&gt; instead of the U.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

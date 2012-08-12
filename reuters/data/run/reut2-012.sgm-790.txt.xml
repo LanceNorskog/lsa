@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-790.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">157</int>
+        <int name="count">110</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">institute</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">1.0</double>
+        <str name="text">developments</str>
+        <double name="strength">0.9877415447956278</double>
       </lst>
       <lst name="term">
-        <str name="text">necessary</str>
-        <double name="strength">1.0</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9877415447956271</double>
       </lst>
       <lst name="term">
-        <str name="text">nominal</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">current</str>
+        <double name="strength">0.9877415447956267</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">valuation</str>
+        <double name="strength">0.9877415447956263</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Kiel Institute, a leading research body, is still expecting growth of three pct but some other research institutes have revised forecasts down to below two pct.</str>
-        <int name="index">25</int>
+        <str name="text">The Paris declaration did not state the levels at which central banks of the major industrialised countries would intervene.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">165</int>
+        <int name="end">125</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. And in Japan major efforts remained necessary to support adjustments in foreign trade balances via necessary corrections to economic policy.</str>
-        <int name="index">5</int>
+        <str name="text">Strategy to stabilise currencies around current levels has proven its worth and will also determine future developments."</str>
+        <int name="index">2</int>
         <int name="start">0</int>
-        <int name="end">143</int>
-        <double name="strength">0.9534625892455926</double>
+        <int name="end">121</int>
+        <double name="strength">0.9143805802513607</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The minister nevertheless added that he would make clear during his trip to Washington that West Germany's nominal trade figures gave a false impression about actual trade flows.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.8546018836084951</double>
+        <str name="text">Stoltenberg said the wide range of predictions showed how many imponderables had to be taken into account and said no drastic changes in official forecasts were needed.</str>
+        <int name="index">26</int>
+        <int name="start">0</int>
+        <int name="end">168</int>
+        <double name="strength">0.9088753968736064</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Kiel &lt;em&gt;Institute,&lt;/em&gt; a &lt;em&gt;leading research&lt;/em&gt; body, is &lt;em&gt;still expecting growth&lt;/em&gt; of &lt;em&gt;three&lt;/em&gt; pct but some &lt;em&gt;other research institutes&lt;/em&gt; have &lt;em&gt;revised forecasts&lt;/em&gt; down to &lt;em&gt;below&lt;/em&gt; two pct.</str>
-        <int name="index">25</int>
+        <str name="text">The &lt;em&gt;Paris declaration&lt;/em&gt; did not &lt;em&gt;state&lt;/em&gt; the &lt;em&gt;levels&lt;/em&gt; at which &lt;em&gt;central banks&lt;/em&gt; of the &lt;em&gt;major industrialised countries&lt;/em&gt; would &lt;em&gt;intervene&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. And in &lt;em&gt;Japan major efforts remained necessary&lt;/em&gt; to &lt;em&gt;support adjustments&lt;/em&gt; in &lt;em&gt;foreign trade balances&lt;/em&gt; via &lt;em&gt;necessary corrections&lt;/em&gt; to &lt;em&gt;economic policy&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Strategy&lt;/em&gt; to &lt;em&gt;stabilise currencies&lt;/em&gt; around &lt;em&gt;current levels&lt;/em&gt; has proven its &lt;em&gt;worth&lt;/em&gt; and will also &lt;em&gt;determine future developments.&lt;/em&gt;"</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;minister nevertheless added&lt;/em&gt; that he &lt;em&gt;would&lt;/em&gt; make &lt;em&gt;clear during&lt;/em&gt; his trip to &lt;em&gt;Washington&lt;/em&gt; that West &lt;em&gt;Germany&lt;/em&gt;'s &lt;em&gt;nominal trade figures&lt;/em&gt; gave a &lt;em&gt;false impression about actual trade flows&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Stoltenberg&lt;/em&gt; said the wide &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;predictions&lt;/em&gt; showed how many &lt;em&gt;imponderables&lt;/em&gt; had to be taken into &lt;em&gt;account&lt;/em&gt; and said no &lt;em&gt;drastic changes&lt;/em&gt; in &lt;em&gt;official forecasts&lt;/em&gt; were needed.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-153.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">daily</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">kuroda</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">newspaper</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">deficit</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">ashai</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">excessive</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">shimbun</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">aggressive</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">164</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Congressional Democrats have pledged to enact aggressive trade laws to counter what they contend has been Reagan's inaction to redress the growing U.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">150</int>
-        <double name="strength">0.878130620892604</double>
+        <str name="text">S. Trade Representative, Michael Smith, and the Under Secretary of Commerce, Bruce Smart.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">89</int>
+        <double name="strength">0.8357208118862389</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The new tariffs, to go into effect on April 17, are in retaliation for Japan's failure to adhere to an agreement to end dumping semiconductors in world markets at below cost and to open its home market to U.</str>
-        <int name="index">4</int>
+        <str name="text">Makoto Kuroda, vice minister of Japan's Ministry of International Trade and Industry (MITI), is to hold two days of meetings with the Deputy U.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">0.8402655296349316</double>
+        <int name="end">144</int>
+        <double name="strength">0.7908235276495561</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He told the &lt;em&gt;daily newspaper Ashai Shimbun&lt;/em&gt; that &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; was &lt;em&gt;based&lt;/em&gt; on &lt;em&gt;inaccurate&lt;/em&gt; data and an &lt;em&gt;exaggerated sense&lt;/em&gt; of MITI's &lt;em&gt;power&lt;/em&gt; to &lt;em&gt;control Japanese traders&lt;/em&gt;.</str>
+        <str name="text">He told the &lt;em&gt;daily newspaper Ashai Shimbun&lt;/em&gt; that &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; was based on &lt;em&gt;inaccurate&lt;/em&gt; data and an &lt;em&gt;exaggerated sense&lt;/em&gt; of MITI's &lt;em&gt;power&lt;/em&gt; to &lt;em&gt;control Japanese traders&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Congressional Democrats&lt;/em&gt; have &lt;em&gt;pledged&lt;/em&gt; to &lt;em&gt;enact aggressive trade&lt;/em&gt; laws to &lt;em&gt;counter&lt;/em&gt; what they &lt;em&gt;contend&lt;/em&gt; has been &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;inaction&lt;/em&gt; to &lt;em&gt;redress&lt;/em&gt; the &lt;em&gt;growing U&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">S. &lt;em&gt;Trade Representative, Michael Smith,&lt;/em&gt; and the &lt;em&gt;Under Secretary&lt;/em&gt; of &lt;em&gt;Commerce, Bruce Smart&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The new &lt;em&gt;tariffs,&lt;/em&gt; to go into &lt;em&gt;effect&lt;/em&gt; on &lt;em&gt;April 17,&lt;/em&gt; are in &lt;em&gt;retaliation&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;adhere&lt;/em&gt; to an &lt;em&gt;agreement&lt;/em&gt; to end &lt;em&gt;dumping semiconductors&lt;/em&gt; in &lt;em&gt;world markets&lt;/em&gt; at &lt;em&gt;below&lt;/em&gt; cost and to open its home &lt;em&gt;market&lt;/em&gt; to U.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Makoto Kuroda,&lt;/em&gt; vice &lt;em&gt;minister&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI), is to hold two days of &lt;em&gt;meetings&lt;/em&gt; with the &lt;em&gt;Deputy U&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-210.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">three</str>
+        <str name="text">banks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">carry</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">supervision</str>
+        <double name="strength">0.7185656076442712</double>
       </lst>
       <lst name="term">
         <str name="text">surplus</str>
-        <double name="strength">0.8944271909999163</double>
+        <double name="strength">0.7185656076442711</double>
       </lst>
       <lst name="term">
-        <str name="text">senior</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">carry</str>
+        <double name="strength">0.7185656076442708</double>
+      </lst>
+      <lst name="term">
+        <str name="text">private</str>
+        <double name="strength">0.7185656076442707</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Private bankers said they are awaiting a central bank decision on whether to allow commercial banks to continue holding up to 40 pct of their capital in foreign exchange or to return it to 20 pct as scheduled.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They said a forced cut in foreign exchange positions would worsen the local liquidity problem as commercial banks would have to convert about five billion baht worth of foreign currencies in their portfolios into baht.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.9150650166402678</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Senior central bank officials suggested to reporters last week that the foreign exchange ceiling will be lowered to discourage banks' use of excess funds for currency speculation.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.9018931482230276</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Private bankers said they are awaiting a central bank decision on whether to allow commercial banks to continue holding up to 40 pct of their capital in foreign exchange or to return it to 20 pct as scheduled.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">210</int>
+        <double name="strength">0.9838365270613021</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The repurchase window uses government bonds as an instrument with which commercial banks can borrow from or lend to the state bank.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.8810141603932644</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Private bankers&lt;/em&gt; said they are &lt;em&gt;awaiting&lt;/em&gt; a &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;decision&lt;/em&gt; on &lt;em&gt;whether&lt;/em&gt; to &lt;em&gt;allow commercial banks&lt;/em&gt; to &lt;em&gt;continue holding&lt;/em&gt; up to 40 pct of &lt;em&gt;their capital&lt;/em&gt; in &lt;em&gt;foreign exchange&lt;/em&gt; or to &lt;em&gt;return&lt;/em&gt; it to 20 pct as &lt;em&gt;scheduled&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Senior central&lt;/em&gt; bank &lt;em&gt;officials&lt;/em&gt; suggested to &lt;em&gt;reporters&lt;/em&gt; last week that the &lt;em&gt;foreign exchange ceiling&lt;/em&gt; will be lowered to &lt;em&gt;discourage banks'&lt;/em&gt; use of &lt;em&gt;excess funds&lt;/em&gt; for &lt;em&gt;currency speculation&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Private bankers&lt;/em&gt; said they are awaiting a &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;decision&lt;/em&gt; on whether to &lt;em&gt;allow commercial banks&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; holding up to 40 pct of their &lt;em&gt;capital&lt;/em&gt; in &lt;em&gt;foreign exchange&lt;/em&gt; or to &lt;em&gt;return&lt;/em&gt; it to 20 pct as scheduled.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said a &lt;em&gt;forced&lt;/em&gt; cut in &lt;em&gt;foreign exchange positions would worsen&lt;/em&gt; the &lt;em&gt;local liquidity problem&lt;/em&gt; as &lt;em&gt;commercial banks would&lt;/em&gt; have to &lt;em&gt;convert about&lt;/em&gt; five &lt;em&gt;billion&lt;/em&gt; baht &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;foreign currencies&lt;/em&gt; in &lt;em&gt;their portfolios&lt;/em&gt; into baht.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Senior central&lt;/em&gt; bank &lt;em&gt;officials suggested&lt;/em&gt; to &lt;em&gt;reporters&lt;/em&gt; last week that the &lt;em&gt;foreign exchange ceiling&lt;/em&gt; will be &lt;em&gt;lowered&lt;/em&gt; to &lt;em&gt;discourage banks'&lt;/em&gt; use of &lt;em&gt;excess funds&lt;/em&gt; for &lt;em&gt;currency speculation&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The &lt;em&gt;repurchase window&lt;/em&gt; uses &lt;em&gt;government bonds&lt;/em&gt; as an &lt;em&gt;instrument&lt;/em&gt; with which &lt;em&gt;commercial banks&lt;/em&gt; can &lt;em&gt;borrow&lt;/em&gt; from or lend to the &lt;em&gt;state bank&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

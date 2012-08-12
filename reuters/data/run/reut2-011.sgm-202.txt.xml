@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-202.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">78</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">markets</str>
+        <str name="text">first</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">invoked</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9580049845271347</double>
       </lst>
       <lst name="term">
-        <str name="text">prevent</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">further</str>
+        <double name="strength">0.9550178891756607</double>
       </lst>
       <lst name="term">
-        <str name="text">extremely</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">easing</str>
+        <double name="strength">0.9550178891756607</double>
       </lst>
       <lst name="term">
-        <str name="text">authorities</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9550178891756607</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Further easing of monetary policy will be very difficult with an official discount rate already at a record low of 2.5 pct, they said.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">134</int>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Foreign exchange dealers estimate the Fed had sold two billion dlrs worth of yen from its own account to support the dollar in New York last week.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.9843459890966993</double>
+        <int name="terms">9</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The sources said they believed the limit of currency market intervention may be being reached after they saw recent concerted market action by central banks of major industrial nations was increasingly ineffective in propping up the battered dollar.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">250</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Today's liberalised financial markets are making it extremely difficult for Japan's monetary authorities to prevent the yen's rise against the dollar, but they have several options other than normal intervention, Bank of Japan sources said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">240</int>
-        <double name="strength">0.8645185806310967</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The central bank sources also said Japan may arrange other currency swap agreements with Britain and France if they find it necessary, but added they are not actually talking with each other towards that end.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">0.7928500260392122</double>
+        <double name="strength">0.9480220662195538</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said they &lt;em&gt;believed&lt;/em&gt; the &lt;em&gt;limit&lt;/em&gt; of &lt;em&gt;currency market intervention&lt;/em&gt; may be &lt;em&gt;being reached after&lt;/em&gt; they saw &lt;em&gt;recent concerted market action&lt;/em&gt; by &lt;em&gt;central banks&lt;/em&gt; of &lt;em&gt;major industrial nations&lt;/em&gt; was &lt;em&gt;increasingly ineffective&lt;/em&gt; in &lt;em&gt;propping&lt;/em&gt; up the &lt;em&gt;battered dollar&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Further easing&lt;/em&gt; of &lt;em&gt;monetary policy&lt;/em&gt; will be very &lt;em&gt;difficult&lt;/em&gt; with an &lt;em&gt;official discount&lt;/em&gt; rate already at a &lt;em&gt;record&lt;/em&gt; low of 2.5 pct, they said.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Foreign exchange dealers estimate&lt;/em&gt; the Fed had sold two &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of yen from its own &lt;em&gt;account&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; in New York last week.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;sources&lt;/em&gt; said they believed the &lt;em&gt;limit&lt;/em&gt; of &lt;em&gt;currency market intervention&lt;/em&gt; may be being reached after they saw &lt;em&gt;recent concerted market action&lt;/em&gt; by &lt;em&gt;central banks&lt;/em&gt; of &lt;em&gt;major industrial nations&lt;/em&gt; was increasingly &lt;em&gt;ineffective&lt;/em&gt; in propping up the &lt;em&gt;battered dollar&lt;/em&gt;.</str>
         <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Today&lt;/em&gt;'s &lt;em&gt;liberalised financial markets&lt;/em&gt; are &lt;em&gt;making&lt;/em&gt; it &lt;em&gt;extremely difficult&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;monetary authorities&lt;/em&gt; to &lt;em&gt;prevent&lt;/em&gt; the yen's rise &lt;em&gt;against&lt;/em&gt; the &lt;em&gt;dollar,&lt;/em&gt; but they have &lt;em&gt;several options other&lt;/em&gt; than &lt;em&gt;normal intervention,&lt;/em&gt; Bank of &lt;em&gt;Japan sources said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;sources&lt;/em&gt; also said &lt;em&gt;Japan&lt;/em&gt; may &lt;em&gt;arrange other currency&lt;/em&gt; swap &lt;em&gt;agreements&lt;/em&gt; with &lt;em&gt;Britain&lt;/em&gt; and &lt;em&gt;France&lt;/em&gt; if they find it &lt;em&gt;necessary,&lt;/em&gt; but &lt;em&gt;added&lt;/em&gt; they are not &lt;em&gt;actually talking&lt;/em&gt; with each &lt;em&gt;other towards&lt;/em&gt; that end.</str>
-        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-557.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">150</int>
+        <int name="count">110</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">industry</str>
+        <str name="text">several</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fujitsu</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">system</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">markets</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">products</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">california</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">manufacturers</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">exclusions</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said "action should be taken in such a manner that efforts to help the semiconductor industry do not inflict extensive economic damage on the highly successful information technology industry."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">197</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">President Reagan announced the tariffs on March 27 to retaliate for Japan's failure to honor an agreement to stop dumping semiconductors in world markets outside the United States at below cost and to open its own market to U.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">0.9606714372716658</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Reagan issued a list of several dozen products that could be subject to the tariffs, and businessmen, lobbyists and others asked for the exclusions in the two days of public testimony that began today at the Commerce Department.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">229</int>
-        <double name="strength">0.8746520644040289</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Several police agencies also told a special screening panel they wanted a Japanese-made fingerprinting system to be excluded because it was vital for crime-fighting.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.8829402585956143</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said "action should be taken in such a manner that efforts to help the semiconductor industry do not inflict extensive economic damage on the highly successful information technology industry."</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
+        <double name="strength">0.7631151887819798</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said "&lt;em&gt;action should&lt;/em&gt; be &lt;em&gt;taken&lt;/em&gt; in such a &lt;em&gt;manner&lt;/em&gt; that &lt;em&gt;efforts&lt;/em&gt; to help the &lt;em&gt;semiconductor industry&lt;/em&gt; do not &lt;em&gt;inflict extensive economic damage&lt;/em&gt; on the &lt;em&gt;highly successful information technology industry.&lt;/em&gt;"</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;President Reagan announced&lt;/em&gt; the &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;March 27&lt;/em&gt; to &lt;em&gt;retaliate&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;honor&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; to stop &lt;em&gt;dumping semiconductors&lt;/em&gt; in &lt;em&gt;world markets outside&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; at &lt;em&gt;below&lt;/em&gt; cost and to open its own &lt;em&gt;market&lt;/em&gt; to U.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Reagan issued&lt;/em&gt; a list of &lt;em&gt;several dozen products&lt;/em&gt; that &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;subject&lt;/em&gt; to the &lt;em&gt;tariffs,&lt;/em&gt; and &lt;em&gt;businessmen, lobbyists&lt;/em&gt; and &lt;em&gt;others asked&lt;/em&gt; for the &lt;em&gt;exclusions&lt;/em&gt; in the two days of &lt;em&gt;public testimony&lt;/em&gt; that &lt;em&gt;began today&lt;/em&gt; at the &lt;em&gt;Commerce Department&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Reagan&lt;/em&gt; issued a list of &lt;em&gt;several dozen products&lt;/em&gt; that could be &lt;em&gt;subject&lt;/em&gt; to the &lt;em&gt;tariffs,&lt;/em&gt; and &lt;em&gt;businessmen, lobbyists&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; asked for the &lt;em&gt;exclusions&lt;/em&gt; in the two days of &lt;em&gt;public testimony&lt;/em&gt; that began &lt;em&gt;today&lt;/em&gt; at the &lt;em&gt;Commerce Department&lt;/em&gt;.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Several police agencies&lt;/em&gt; also told a &lt;em&gt;special screening panel&lt;/em&gt; they wanted a &lt;em&gt;Japanese&lt;/em&gt;-made &lt;em&gt;fingerprinting system&lt;/em&gt; to be excluded because it was &lt;em&gt;vital&lt;/em&gt; for &lt;em&gt;crime-fighting&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said "&lt;em&gt;action&lt;/em&gt; should be taken in such a &lt;em&gt;manner&lt;/em&gt; that &lt;em&gt;efforts&lt;/em&gt; to help the &lt;em&gt;semiconductor industry&lt;/em&gt; do not &lt;em&gt;inflict extensive economic damage&lt;/em&gt; on the highly &lt;em&gt;successful information technology industry.&lt;/em&gt;"</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

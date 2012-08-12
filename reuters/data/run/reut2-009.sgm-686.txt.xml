@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-686.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">obtain</str>
+        <str name="text">directors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">recommended</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">obtain</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">citing</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">belong</str>
+        <double name="strength">0.9634242309653834</double>
       </lst>
       <lst name="term">
-        <str name="text">falling</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">archer</str>
+        <double name="strength">0.9634242309653834</double>
       </lst>
       <lst name="term">
-        <str name="text">volume</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">daniels</str>
+        <double name="strength">0.9634242309653834</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In the meantime, commercial clearing firms have been courting the individual coops, trying to obtain their business with low trading rates.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Sources close to Farmers Commodities confirmed its plans, but Hal Richards, president, could not be reached immediately for comment, and it was unknown how many cooperatives might be willing to band together.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">209</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.992993443066372</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The directors recommended the move, citing falling volume and higher costs, when it called a special shareholders meeting last month.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">134</int>
-        <double name="strength">0.923525190675706</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Mulligan acknowledged prior to the vote that Growmark had no need to belong to the cooperative since it became affiliated last year with Archer Daniels Midland.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.863806157671942</double>
+        <double name="strength">0.9312990698623117</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sources close&lt;/em&gt; to &lt;em&gt;Farmers Commodities confirmed&lt;/em&gt; its &lt;em&gt;plans,&lt;/em&gt; but Hal &lt;em&gt;Richards, president, could&lt;/em&gt; not be &lt;em&gt;reached immediately&lt;/em&gt; for &lt;em&gt;comment,&lt;/em&gt; and it was &lt;em&gt;unknown&lt;/em&gt; how many &lt;em&gt;cooperatives might&lt;/em&gt; be &lt;em&gt;willing&lt;/em&gt; to band &lt;em&gt;together&lt;/em&gt;.</str>
+        <str name="text">In the &lt;em&gt;meantime, commercial clearing firms&lt;/em&gt; have been courting the &lt;em&gt;individual coops,&lt;/em&gt; trying to &lt;em&gt;obtain&lt;/em&gt; their &lt;em&gt;business&lt;/em&gt; with low &lt;em&gt;trading rates&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sources close&lt;/em&gt; to &lt;em&gt;Farmers Commodities&lt;/em&gt; confirmed its &lt;em&gt;plans,&lt;/em&gt; but Hal &lt;em&gt;Richards, president,&lt;/em&gt; could not be reached immediately for &lt;em&gt;comment,&lt;/em&gt; and it was &lt;em&gt;unknown&lt;/em&gt; how many &lt;em&gt;cooperatives&lt;/em&gt; might be &lt;em&gt;willing&lt;/em&gt; to band together.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;directors recommended&lt;/em&gt; the move, &lt;em&gt;citing falling volume&lt;/em&gt; and &lt;em&gt;higher costs,&lt;/em&gt; when it &lt;em&gt;called&lt;/em&gt; a &lt;em&gt;special shareholders meeting&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;directors&lt;/em&gt; recommended the move, citing falling &lt;em&gt;volume&lt;/em&gt; and higher &lt;em&gt;costs,&lt;/em&gt; when it called a &lt;em&gt;special shareholders meeting&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
         <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Mulligan acknowledged prior&lt;/em&gt; to the vote that &lt;em&gt;Growmark&lt;/em&gt; had no need to &lt;em&gt;belong&lt;/em&gt; to the &lt;em&gt;cooperative since&lt;/em&gt; it &lt;em&gt;became affiliated&lt;/em&gt; last year with &lt;em&gt;Archer Daniels Midland&lt;/em&gt;.</str>
-        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

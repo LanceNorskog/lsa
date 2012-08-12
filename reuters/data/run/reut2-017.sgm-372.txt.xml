@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-372.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">think</str>
+        <str name="text">power</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">borrowers</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">annual</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9988798280552018</double>
       </lst>
       <lst name="term">
-        <str name="text">least</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">members</str>
+        <double name="strength">0.9988798280552008</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He also spoke about demands by the bank's financiers that it take a more active role in prodding borrowers into making economic policy changes.</str>
-        <int name="index">30</int>
+        <str name="text">"It is advisable and wise, for institutions like the ADB to be viable, that there be a reasonable relationship between financial contributions and voting power," Fujioka said.</str>
+        <int name="index">25</int>
         <int name="start">1</int>
-        <int name="end">144</int>
+        <int name="end">176</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fujioka said the ADB would consider delegates' suggestions that it set up a task force of experts to define its future role.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">125</int>
+        <double name="strength">0.9664683171458158</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">We also want to be a catalyst by taking innovative measures like the promotion of the private sector."</str>
         <int name="index">18</int>
         <int name="start">0</int>
         <int name="end">102</int>
-        <double name="strength">0.9089716762345931</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I think there will be at least one loan to China this year, and possibly a second," Fujioka told a news conference at the end of the ADB's annual meeting here.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.8520515659396422</double>
+        <double name="strength">0.9370279605509584</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He also &lt;em&gt;spoke about demands&lt;/em&gt; by the bank's &lt;em&gt;financiers&lt;/em&gt; that it take a more &lt;em&gt;active&lt;/em&gt; role in &lt;em&gt;prodding borrowers&lt;/em&gt; into &lt;em&gt;making economic policy changes&lt;/em&gt;.</str>
-        <int name="index">30</int>
+        <str name="text">"It is &lt;em&gt;advisable&lt;/em&gt; and wise, for &lt;em&gt;institutions&lt;/em&gt; like the ADB to be &lt;em&gt;viable,&lt;/em&gt; that there be a &lt;em&gt;reasonable relationship&lt;/em&gt; between &lt;em&gt;financial contributions&lt;/em&gt; and voting &lt;em&gt;power," Fujioka said&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">We also want to be a &lt;em&gt;catalyst&lt;/em&gt; by &lt;em&gt;taking innovative measures&lt;/em&gt; like the &lt;em&gt;promotion&lt;/em&gt; of the &lt;em&gt;private sector.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Fujioka&lt;/em&gt; said the ADB would &lt;em&gt;consider delegates' suggestions&lt;/em&gt; that it set up a task &lt;em&gt;force&lt;/em&gt; of &lt;em&gt;experts&lt;/em&gt; to &lt;em&gt;define&lt;/em&gt; its &lt;em&gt;future role&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">We also want to be a &lt;em&gt;catalyst&lt;/em&gt; by taking &lt;em&gt;innovative measures&lt;/em&gt; like the &lt;em&gt;promotion&lt;/em&gt; of the &lt;em&gt;private sector.&lt;/em&gt;"</str>
         <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I &lt;em&gt;think there&lt;/em&gt; will be at &lt;em&gt;least&lt;/em&gt; one loan to &lt;em&gt;China&lt;/em&gt; this year, and &lt;em&gt;possibly&lt;/em&gt; a &lt;em&gt;second," Fujioka&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; at the end of the ADB's &lt;em&gt;annual meeting here&lt;/em&gt;.</str>
-        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

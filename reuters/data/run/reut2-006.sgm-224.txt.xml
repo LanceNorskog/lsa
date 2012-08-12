@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-224.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">those</str>
+        <str name="text">deficit</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749482</double>
-      </lst>
-      <lst name="term">
-        <str name="text">owned</str>
-        <double name="strength">0.5590169943749476</double>
-      </lst>
-      <lst name="term">
         <str name="text">exchange</str>
-        <double name="strength">0.5590169943749475</double>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
         <str name="text">profits</str>
-        <double name="strength">0.5590169943749475</double>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">radio</str>
+        <double name="strength">0.9840539975201784</double>
+      </lst>
+      <lst name="term">
+        <str name="text">interview</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Some companies would be sold in their entirety and others would be privatised only partially, according to jose palomino, president of the government's state company holding firm, the national development council (conade).</str>
-        <int name="index">1</int>
+        <str name="text">Palomino said aeroperu, the government flagship airline with a 10-jet fleet, would issue stock for purchase by private investors.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">223</int>
+        <int name="end">130</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last november, palomino said conade's plans included the possible sale of a company producing palm oil and another manufacturing electrical appliances.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.8844679966587928</double>
+        <str name="text">He told reporters in a radio interview that the aim was to slim a projected public sector firm deficit of 11 billion intis.</str>
+        <int name="index">2</int>
+        <int name="start">2</int>
+        <int name="end">125</int>
+        <double name="strength">0.947371365104583</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Jose antonio almenara, the general manager of the lima stock exchange, where shares of the state-owned firms could be sold, told reuters that the only foreigners who could purchase stock at the exchange had to be tax-paying residents of peru.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">0.8789857494978299</double>
+        <str name="text">Shares could also be sold in a copper mine, empresa nacional tintaya sa, in the southern state of  arequipa.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">108</int>
+        <double name="strength">0.9021964394470343</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;companies would&lt;/em&gt; be sold in &lt;em&gt;their entirety&lt;/em&gt; and &lt;em&gt;others would&lt;/em&gt; be &lt;em&gt;privatised&lt;/em&gt; only &lt;em&gt;partially, according&lt;/em&gt; to jose &lt;em&gt;palomino, president&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;state company holding&lt;/em&gt; firm, the &lt;em&gt;national development council (conade)&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Palomino&lt;/em&gt; said &lt;em&gt;aeroperu,&lt;/em&gt; the &lt;em&gt;government flagship airline&lt;/em&gt; with a 10-jet &lt;em&gt;fleet,&lt;/em&gt; would &lt;em&gt;issue stock&lt;/em&gt; for &lt;em&gt;purchase&lt;/em&gt; by &lt;em&gt;private investors&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last &lt;em&gt;november, palomino&lt;/em&gt; said &lt;em&gt;conade&lt;/em&gt;'s &lt;em&gt;plans included&lt;/em&gt; the &lt;em&gt;possible&lt;/em&gt; sale of a &lt;em&gt;company producing&lt;/em&gt; palm oil and &lt;em&gt;another manufacturing electrical appliances&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">He told &lt;em&gt;reporters&lt;/em&gt; in a &lt;em&gt;radio interview&lt;/em&gt; that the aim was to slim a projected &lt;em&gt;public sector&lt;/em&gt; firm &lt;em&gt;deficit&lt;/em&gt; of 11 &lt;em&gt;billion intis&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Jose &lt;em&gt;antonio almenara,&lt;/em&gt; the &lt;em&gt;general manager&lt;/em&gt; of the lima &lt;em&gt;stock exchange, where shares&lt;/em&gt; of the &lt;em&gt;state-owned firms could&lt;/em&gt; be sold, told &lt;em&gt;reuters&lt;/em&gt; that the only &lt;em&gt;foreigners&lt;/em&gt; who &lt;em&gt;could purchase stock&lt;/em&gt; at the &lt;em&gt;exchange&lt;/em&gt; had to be tax-&lt;em&gt;paying residents&lt;/em&gt; of peru.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Shares&lt;/em&gt; could also be sold in a &lt;em&gt;copper&lt;/em&gt; mine, &lt;em&gt;empresa nacional tintaya&lt;/em&gt; sa, in the &lt;em&gt;southern state&lt;/em&gt; of  &lt;em&gt;arequipa&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

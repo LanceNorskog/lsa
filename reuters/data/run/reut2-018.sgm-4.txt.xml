@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-4.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">97</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">under</str>
+        <str name="text">adviser</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">those</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">carter</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">briefing</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">interest</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">financial</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">tight</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">reacted</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">money</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Financial markets reacted with dismay at the departure of Volcker, who has been widely credited with holding the line on inflation and seeking to maintain stability in currency values.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Volcker's tenure at the Fed began under the cloud of major inflation under Carter with consumer prices rising more than 10 per cent annually and the prime interest rate exceeding 20 per cent.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">192</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9708915548623231</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">With Reagan's backing, Volcker pursued a tight money policy that cut inflation to about three per cent annually and reduced interest rates to their lowest level in nearly a decade.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.9465494395762909</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Financial markets reacted with dismay at the departure of Volcker, who has been widely credited with holding the line on inflation and seeking to maintain stability in currency values.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9402167540826526</double>
+        <double name="strength">0.9589637022469648</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volcker&lt;/em&gt;'s &lt;em&gt;tenure&lt;/em&gt; at the Fed &lt;em&gt;began under&lt;/em&gt; the &lt;em&gt;cloud&lt;/em&gt; of &lt;em&gt;major inflation under Carter&lt;/em&gt; with &lt;em&gt;consumer prices rising&lt;/em&gt; more than 10 per cent &lt;em&gt;annually&lt;/em&gt; and the &lt;em&gt;prime interest&lt;/em&gt; rate &lt;em&gt;exceeding 20&lt;/em&gt; per cent.</str>
+        <str name="text">&lt;em&gt;Financial markets&lt;/em&gt; reacted with &lt;em&gt;dismay&lt;/em&gt; at the &lt;em&gt;departure&lt;/em&gt; of &lt;em&gt;Volcker,&lt;/em&gt; who has been widely credited with holding the line on &lt;em&gt;inflation&lt;/em&gt; and seeking to &lt;em&gt;maintain stability&lt;/em&gt; in &lt;em&gt;currency values&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Volcker&lt;/em&gt;'s &lt;em&gt;tenure&lt;/em&gt; at the Fed began under the &lt;em&gt;cloud&lt;/em&gt; of &lt;em&gt;major inflation&lt;/em&gt; under &lt;em&gt;Carter&lt;/em&gt; with &lt;em&gt;consumer prices&lt;/em&gt; rising more than 10 per cent annually and the &lt;em&gt;prime interest&lt;/em&gt; rate exceeding 20 per cent.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">With &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;backing, Volcker pursued&lt;/em&gt; a &lt;em&gt;tight money policy&lt;/em&gt; that cut &lt;em&gt;inflation&lt;/em&gt; to &lt;em&gt;about three&lt;/em&gt; per cent &lt;em&gt;annually&lt;/em&gt; and &lt;em&gt;reduced interest rates&lt;/em&gt; to &lt;em&gt;their lowest level&lt;/em&gt; in &lt;em&gt;nearly&lt;/em&gt; a &lt;em&gt;decade&lt;/em&gt;.</str>
+        <str name="text">With &lt;em&gt;Reagan&lt;/em&gt;'s backing, &lt;em&gt;Volcker&lt;/em&gt; pursued a &lt;em&gt;tight money policy&lt;/em&gt; that cut &lt;em&gt;inflation&lt;/em&gt; to about &lt;em&gt;three&lt;/em&gt; per cent annually and reduced &lt;em&gt;interest rates&lt;/em&gt; to their lowest &lt;em&gt;level&lt;/em&gt; in nearly a &lt;em&gt;decade&lt;/em&gt;.</str>
         <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Financial markets reacted&lt;/em&gt; with &lt;em&gt;dismay&lt;/em&gt; at the &lt;em&gt;departure&lt;/em&gt; of &lt;em&gt;Volcker,&lt;/em&gt; who has been &lt;em&gt;widely credited&lt;/em&gt; with &lt;em&gt;holding&lt;/em&gt; the line on &lt;em&gt;inflation&lt;/em&gt; and &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;maintain stability&lt;/em&gt; in &lt;em&gt;currency values&lt;/em&gt;.</str>
-        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

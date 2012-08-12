@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-302.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">earned</str>
+        <str name="text">construction</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
-        <double name="strength">1.0</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">1.0</double>
+        <str name="text">comment</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">information</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">rights</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">interests</str>
+        <double name="strength">0.9475739487142977</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In 1986, Cyclops earned 21.3 mln dlrs or 5.26 dlrs a share on sales of 1.5 billion dlrs, compared to 1985 earnings of 26.2 mln dlrs or 6.20 dlrs on sales of 1.4 billion, the spokeswoman said.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
+        <str name="text">He had no comment on whether Cyacq plans to withdraw its current offer, which is scheduled to expire midnight on March six.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">123</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The increased offer would exceed the 90.25 dlrs a share price offered by Dixons Group PLC in a tender offer for Cyclops that is part of a definitive agreement to acquire the Pittsburgh-based maker of carbon tool and specialty steel products.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">242</int>
-        <double name="strength">0.8139948066392245</double>
+        <double name="strength">0.9028529736643668</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Additionally, Dixon Group's rights to buy Cyclops common and its rights to fees or expenses if the Dixon-Cyclop merger agreement is broken must be rescinded, Cyacq said.</str>
-        <int name="index">5</int>
+        <str name="text">A Cyclops spokeswoman said the company had no details of the new Cyacq proposal and could not comment.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.8123857606789134</double>
+        <int name="end">103</int>
+        <double name="strength">0.806455276902242</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In 1986, &lt;em&gt;Cyclops earned 21.3&lt;/em&gt; mln dlrs or 5.26 dlrs a &lt;em&gt;share&lt;/em&gt; on &lt;em&gt;sales&lt;/em&gt; of 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs, &lt;em&gt;compared&lt;/em&gt; to 1985 &lt;em&gt;earnings&lt;/em&gt; of 26.2 mln dlrs or 6.20 dlrs on &lt;em&gt;sales&lt;/em&gt; of 1.4 &lt;em&gt;billion,&lt;/em&gt; the &lt;em&gt;spokeswoman said&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">He had no &lt;em&gt;comment&lt;/em&gt; on whether &lt;em&gt;Cyacq plans&lt;/em&gt; to &lt;em&gt;withdraw&lt;/em&gt; its &lt;em&gt;current offer,&lt;/em&gt; which is scheduled to &lt;em&gt;expire midnight&lt;/em&gt; on &lt;em&gt;March six&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;increased offer would exceed&lt;/em&gt; the 90.25 dlrs a &lt;em&gt;share price offered&lt;/em&gt; by &lt;em&gt;Dixons Group&lt;/em&gt; PLC in a &lt;em&gt;tender offer&lt;/em&gt; for &lt;em&gt;Cyclops&lt;/em&gt; that is part of a &lt;em&gt;definitive agreement&lt;/em&gt; to &lt;em&gt;acquire&lt;/em&gt; the &lt;em&gt;Pittsburgh-based maker&lt;/em&gt; of &lt;em&gt;carbon&lt;/em&gt; tool and &lt;em&gt;specialty steel products&lt;/em&gt;.</str>
+        <str name="text">The increased &lt;em&gt;offer&lt;/em&gt; would &lt;em&gt;exceed&lt;/em&gt; the 90.25 dlrs a &lt;em&gt;share price&lt;/em&gt; offered by &lt;em&gt;Dixons Group&lt;/em&gt; PLC in a &lt;em&gt;tender offer&lt;/em&gt; for &lt;em&gt;Cyclops&lt;/em&gt; that is part of a &lt;em&gt;definitive agreement&lt;/em&gt; to &lt;em&gt;acquire&lt;/em&gt; the &lt;em&gt;Pittsburgh&lt;/em&gt;-based &lt;em&gt;maker&lt;/em&gt; of &lt;em&gt;carbon&lt;/em&gt; tool and &lt;em&gt;specialty steel products&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Additionally, Dixon Group&lt;/em&gt;'s &lt;em&gt;rights&lt;/em&gt; to buy &lt;em&gt;Cyclops common&lt;/em&gt; and its &lt;em&gt;rights&lt;/em&gt; to fees or &lt;em&gt;expenses&lt;/em&gt; if the &lt;em&gt;Dixon-Cyclop merger agreement&lt;/em&gt; is &lt;em&gt;broken&lt;/em&gt; must be &lt;em&gt;rescinded, Cyacq said&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">A Cyclops &lt;em&gt;spokeswoman&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; had no &lt;em&gt;details&lt;/em&gt; of the new &lt;em&gt;Cyacq proposal&lt;/em&gt; and could not &lt;em&gt;comment&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

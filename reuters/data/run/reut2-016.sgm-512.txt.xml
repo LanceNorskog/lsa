@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-512.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">99</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">merrill</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">finally</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">offer</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">looking</str>
-        <double name="strength">0.9999999999999964</double>
+        <str name="text">plastics</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">include</str>
-        <double name="strength">0.9999999999999951</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">service</str>
-        <double name="strength">0.9999999999999951</double>
+        <str name="text">henderson</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">165</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Is he trying to build a major industrial chemical enterprise, or is he trying to be an investment bank," Rose said.</str>
-        <int name="index">31</int>
-        <int name="start">1</int>
-        <int name="end">117</int>
-        <double name="strength">0.6545014056869162</double>
+        <str name="text">The rigid plastics are used in such things as telephones, computer terminals, and appliances.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">93</int>
+        <double name="strength">0.9421268408145496</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Charles Rose, an Oppenheimer and Co analyst who follows GAF, said if GAF were to sell into the Merrill Lynch offer, it would realize about 125 mln dlrs net profit, or about 3.50 per share.</str>
-        <int name="index">26</int>
+        <str name="text">GAF, a roofing and chemicals concern, attempted a takeover of the much larger Union Carbide Corp two years ago.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">189</int>
-        <double name="strength">0.6260361472190965</double>
+        <int name="end">112</int>
+        <double name="strength">0.8966004581673098</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Borg-&lt;em&gt;Warner&lt;/em&gt;'s &lt;em&gt;other businesses include automotive parts, protective services, which includes Wells Fargo security guards,&lt;/em&gt; and &lt;em&gt;Chilton&lt;/em&gt; Corp, a &lt;em&gt;credit rating service&lt;/em&gt;.</str>
+        <str name="text">Borg-&lt;em&gt;Warner&lt;/em&gt;'s &lt;em&gt;other businesses include automotive parts, protective services,&lt;/em&gt; which includes &lt;em&gt;Wells&lt;/em&gt; Fargo &lt;em&gt;security guards,&lt;/em&gt; and &lt;em&gt;Chilton&lt;/em&gt; Corp, a &lt;em&gt;credit rating service&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Is he &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; a &lt;em&gt;major industrial chemical enterprise,&lt;/em&gt; or is he &lt;em&gt;trying&lt;/em&gt; to be an &lt;em&gt;investment&lt;/em&gt; bank," Rose said.</str>
-        <int name="index">31</int>
+        <str name="text">The &lt;em&gt;rigid plastics&lt;/em&gt; are used in such &lt;em&gt;things&lt;/em&gt; as &lt;em&gt;telephones, computer terminals,&lt;/em&gt; and &lt;em&gt;appliances&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Charles&lt;/em&gt; Rose, an &lt;em&gt;Oppenheimer&lt;/em&gt; and Co &lt;em&gt;analyst&lt;/em&gt; who &lt;em&gt;follows&lt;/em&gt; GAF, said if GAF were to sell into the &lt;em&gt;Merrill Lynch offer,&lt;/em&gt; it &lt;em&gt;would realize about 125&lt;/em&gt; mln dlrs net &lt;em&gt;profit,&lt;/em&gt; or &lt;em&gt;about 3.50&lt;/em&gt; per &lt;em&gt;share&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">GAF, a &lt;em&gt;roofing&lt;/em&gt; and &lt;em&gt;chemicals concern,&lt;/em&gt; attempted a &lt;em&gt;takeover&lt;/em&gt; of the much larger &lt;em&gt;Union Carbide&lt;/em&gt; Corp two &lt;em&gt;years ago&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

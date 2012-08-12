@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">95</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-479.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">72</int>
+        <int name="count">49</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increase</str>
+        <str name="text">miles</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">offered</str>
-        <double name="strength">0.894427190999916</double>
+        <str name="text">vancouver</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">living</str>
-        <double name="strength">0.894427190999916</double>
+        <str name="text">increase</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">designed</str>
-        <double name="strength">0.894427190999916</double>
+        <str name="text">kimberley</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">inflation</str>
-        <double name="strength">0.894427190999916</double>
+        <str name="text">cover</str>
+        <double name="strength">0.9634242309653832</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">151</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The union representative said that the pact offered cost of living increases designed to keep pace with inflation, but contained no wage increase.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.9067521068905615</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The locals' bargaining committees are expected to meet and prepare for the reopening of negotiations with Cominco, he said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">124</int>
-        <double name="strength">0.8392269446524849</double>
+        <double name="strength">0.8479986701911385</double>
+        <int name="terms">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Each of the five locals have separate contracts, all of which expired April 30, but the main issues are similar.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">113</int>
+        <double name="strength">0.8425767753908467</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;strike caused Cominco&lt;/em&gt; to &lt;em&gt;declare force majeure, which means&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; may not be able to &lt;em&gt;honor contracts&lt;/em&gt; for &lt;em&gt;products&lt;/em&gt; from the &lt;em&gt;smelter&lt;/em&gt; and mine.</str>
+        <str name="text">The &lt;em&gt;strike&lt;/em&gt; caused &lt;em&gt;Cominco&lt;/em&gt; to &lt;em&gt;declare force majeure,&lt;/em&gt; which means the &lt;em&gt;company&lt;/em&gt; may not be able to &lt;em&gt;honor contracts&lt;/em&gt; for &lt;em&gt;products&lt;/em&gt; from the &lt;em&gt;smelter&lt;/em&gt; and mine.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;union representative&lt;/em&gt; said that the pact &lt;em&gt;offered&lt;/em&gt; cost of &lt;em&gt;living increases designed&lt;/em&gt; to keep pace with &lt;em&gt;inflation,&lt;/em&gt; but &lt;em&gt;contained&lt;/em&gt; no wage &lt;em&gt;increase&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;locals' bargaining committees&lt;/em&gt; are expected to meet and &lt;em&gt;prepare&lt;/em&gt; for the reopening of &lt;em&gt;negotiations&lt;/em&gt; with &lt;em&gt;Cominco,&lt;/em&gt; he said.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;locals' bargaining committees&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to meet and &lt;em&gt;prepare&lt;/em&gt; for the &lt;em&gt;reopening&lt;/em&gt; of &lt;em&gt;negotiations&lt;/em&gt; with &lt;em&gt;Cominco,&lt;/em&gt; he said.</str>
-        <int name="index">4</int>
+        <str name="text">Each of the five &lt;em&gt;locals&lt;/em&gt; have &lt;em&gt;separate contracts,&lt;/em&gt; all of which expired &lt;em&gt;April 30,&lt;/em&gt; but the main &lt;em&gt;issues&lt;/em&gt; are &lt;em&gt;similar&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

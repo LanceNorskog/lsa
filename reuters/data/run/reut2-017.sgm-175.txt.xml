@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-175.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">steers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">monday</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">decline</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">figure</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">parts</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">section</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">viewed</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Even though we have smaller pork supplies, the decline is not enough to offset the increases in poultry," Shearson Lehman analyst Chuck Levitt said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">148</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Most of the early guesses predicted a much larger number for death loss following the two winter snow storms that struck the west in late March, they said.</str>
         <int name="index">6</int>
         <int name="start">0</int>
         <int name="end">155</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8902469896322317</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Commission house livestock analysts agreed with Chicago Mercantile Exchange floor traders in calling today's USDA 13-state quarterly cattle on feed report and cold storage report for pork bellies negative.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">205</int>
-        <double name="strength">0.9848995381616349</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Even though we have smaller pork supplies, the decline is not enough to offset the increases in poultry," Shearson Lehman analyst Chuck Levitt said.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">148</int>
-        <double name="strength">0.9784258138309367</double>
+        <double name="strength">0.8476039149616107</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Most of the &lt;em&gt;early guesses predicted&lt;/em&gt; a much &lt;em&gt;larger number&lt;/em&gt; for &lt;em&gt;death&lt;/em&gt; loss &lt;em&gt;following&lt;/em&gt; the two &lt;em&gt;winter&lt;/em&gt; snow &lt;em&gt;storms&lt;/em&gt; that &lt;em&gt;struck&lt;/em&gt; the west in late &lt;em&gt;March,&lt;/em&gt; they said.</str>
+        <str name="text">Even though we have smaller pork &lt;em&gt;supplies,&lt;/em&gt; the &lt;em&gt;decline&lt;/em&gt; is not enough to &lt;em&gt;offset&lt;/em&gt; the &lt;em&gt;increases&lt;/em&gt; in &lt;em&gt;poultry," Shearson Lehman analyst Chuck Levitt said&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Most of the &lt;em&gt;early guesses&lt;/em&gt; predicted a much larger &lt;em&gt;number&lt;/em&gt; for &lt;em&gt;death&lt;/em&gt; loss following the two &lt;em&gt;winter&lt;/em&gt; snow &lt;em&gt;storms&lt;/em&gt; that struck the west in late &lt;em&gt;March,&lt;/em&gt; they said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commission house livestock analysts agreed&lt;/em&gt; with &lt;em&gt;Chicago Mercantile Exchange floor traders&lt;/em&gt; in &lt;em&gt;calling today&lt;/em&gt;'s USDA 13-&lt;em&gt;state quarterly cattle&lt;/em&gt; on feed &lt;em&gt;report&lt;/em&gt; and cold &lt;em&gt;storage report&lt;/em&gt; for pork &lt;em&gt;bellies negative&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Commission house livestock analysts&lt;/em&gt; agreed with &lt;em&gt;Chicago Mercantile Exchange floor traders&lt;/em&gt; in calling &lt;em&gt;today&lt;/em&gt;'s USDA 13-&lt;em&gt;state quarterly cattle&lt;/em&gt; on feed &lt;em&gt;report&lt;/em&gt; and cold &lt;em&gt;storage report&lt;/em&gt; for pork &lt;em&gt;bellies negative&lt;/em&gt;.</str>
         <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Even &lt;em&gt;though&lt;/em&gt; we have &lt;em&gt;smaller&lt;/em&gt; pork &lt;em&gt;supplies,&lt;/em&gt; the &lt;em&gt;decline&lt;/em&gt; is not &lt;em&gt;enough&lt;/em&gt; to &lt;em&gt;offset&lt;/em&gt; the &lt;em&gt;increases&lt;/em&gt; in &lt;em&gt;poultry," Shearson Lehman analyst Chuck Levitt said&lt;/em&gt;.</str>
-        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

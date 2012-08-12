@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-533.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">215</int>
+        <int name="count">131</int>
       </lst>
       <lst name="stems">
-        <int name="count">154</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">performing</str>
+        <str name="text">libor</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">asked</str>
+        <str name="text">spreads</str>
         <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">talks</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">administration</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9902130691945675</double>
       </lst>
       <lst name="term">
-        <str name="text">aimed</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">think</str>
+        <double name="strength">0.9902130691945673</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Philippine proposal, together with Argentine suggestions that "exit bonds" be issued to end the troublesome role of small banks in the debt strategy, would help to underpin the flagging role of private banks within the plan, the official said in an interview with Reuters.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">277</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"All of these things would fit within the definition of our initiative as we have asked it and we think any novel and unique approach such as those should be considered," said the official, who asked not to be named.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.998979215591463</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The country, which has enjoyed strong political support in Washington since Corazon Aquino came to power early last year, owes an overall 27.8 billion dlrs of debt.</str>
         <int name="index">30</int>
         <int name="start">0</int>
         <int name="end">164</int>
-        <double name="strength">0.9984244960728953</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. is urging reluctant commercial banks to seriously consider accepting a novel Philippine proposal for paying its interest bill and believes the innovation is fully consistent with its Third World debt strategy, a Reagan administration official said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">251</int>
+        <double name="strength">0.9308264447645713</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In October 1985, Washington outlined a debt crisis strategy under which commercial banks and multilateral institutions such as the World Bank and the International Monetary Fund (IMF) were urged to step up lending to major debtors nations.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">240</int>
+        <double name="strength">0.9198542834316663</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Philippine proposal, together&lt;/em&gt; with &lt;em&gt;Argentine suggestions&lt;/em&gt; that "exit &lt;em&gt;bonds"&lt;/em&gt; be &lt;em&gt;issued&lt;/em&gt; to end the &lt;em&gt;troublesome&lt;/em&gt; role of &lt;em&gt;small banks&lt;/em&gt; in the debt &lt;em&gt;strategy, would&lt;/em&gt; help to &lt;em&gt;underpin&lt;/em&gt; the &lt;em&gt;flagging&lt;/em&gt; role of &lt;em&gt;private banks within&lt;/em&gt; the plan, the &lt;em&gt;official&lt;/em&gt; said in an &lt;em&gt;interview&lt;/em&gt; with &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"All of &lt;em&gt;these things would&lt;/em&gt; fit &lt;em&gt;within&lt;/em&gt; the &lt;em&gt;definition&lt;/em&gt; of our &lt;em&gt;initiative&lt;/em&gt; as we have &lt;em&gt;asked&lt;/em&gt; it and we &lt;em&gt;think&lt;/em&gt; any &lt;em&gt;novel&lt;/em&gt; and &lt;em&gt;unique approach&lt;/em&gt; such as &lt;em&gt;those should&lt;/em&gt; be &lt;em&gt;considered,"&lt;/em&gt; said the &lt;em&gt;official,&lt;/em&gt; who &lt;em&gt;asked&lt;/em&gt; not to be &lt;em&gt;named&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;country, which&lt;/em&gt; has &lt;em&gt;enjoyed strong political support&lt;/em&gt; in &lt;em&gt;Washington since Corazon Aquino&lt;/em&gt; came to &lt;em&gt;power early&lt;/em&gt; last year, owes an &lt;em&gt;overall 27.8 billion&lt;/em&gt; dlrs of debt.</str>
+        <str name="text">The &lt;em&gt;country,&lt;/em&gt; which has enjoyed &lt;em&gt;strong political support&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; since &lt;em&gt;Corazon Aquino&lt;/em&gt; came to &lt;em&gt;power&lt;/em&gt; early last year, owes an &lt;em&gt;overall 27.8 billion&lt;/em&gt; dlrs of debt.</str>
         <int name="index">30</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. is urging &lt;em&gt;reluctant commercial banks&lt;/em&gt; to seriously &lt;em&gt;consider&lt;/em&gt; accepting a &lt;em&gt;novel Philippine proposal&lt;/em&gt; for paying its &lt;em&gt;interest&lt;/em&gt; bill and believes the &lt;em&gt;innovation&lt;/em&gt; is fully &lt;em&gt;consistent&lt;/em&gt; with its &lt;em&gt;Third World&lt;/em&gt; debt &lt;em&gt;strategy,&lt;/em&gt; a &lt;em&gt;Reagan administration official said&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;October 1985,&lt;/em&gt; Washington outlined a debt &lt;em&gt;crisis strategy&lt;/em&gt; under which &lt;em&gt;commercial banks&lt;/em&gt; and &lt;em&gt;multilateral institutions&lt;/em&gt; such as the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;International Monetary&lt;/em&gt; Fund (IMF) were urged to step up lending to &lt;em&gt;major debtors nations&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

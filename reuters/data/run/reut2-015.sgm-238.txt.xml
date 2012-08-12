@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-238.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">pettee</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">hertz</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">rental</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">interesting</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">westin</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">takeover</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">hilton</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">225</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It added Hertz rental cars, Westin and Hilton International hotels in a strategy to become a travel service company.</str>
-        <int name="index">12</int>
+        <str name="text">I don't exptect them to take it, but it could put some interesting options in front of UAL management," said Timothy Pettee, Bear Stearns and co analyst.</str>
+        <int name="index">10</int>
         <int name="start">0</int>
-        <int name="end">116</int>
-        <double name="strength">0.8271369346868751</double>
+        <int name="end">153</int>
+        <double name="strength">0.9551871049421339</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The pilots earlier this week offered to buy the airline for 2.3 billion dlrs, and assume 2.2 billion dlrs of existing debt.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">124</int>
-        <double name="strength">0.7639363148776622</double>
+        <str name="text">UAL last month said New York Real estate developer Donald Trump held a position in its stock, and that he also held discussions with its chairman.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.89741515178918</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Market sources&lt;/em&gt; have said that &lt;em&gt;although Trump attracted attention&lt;/em&gt; to the &lt;em&gt;stock,&lt;/em&gt; the &lt;em&gt;pilots proposal acted&lt;/em&gt; as a &lt;em&gt;catalyst, kicking&lt;/em&gt; off a new &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;speculation&lt;/em&gt; and &lt;em&gt;perhaps throwing&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; into the &lt;em&gt;hands&lt;/em&gt; of &lt;em&gt;another buyer&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Market sources&lt;/em&gt; have said that although &lt;em&gt;Trump&lt;/em&gt; attracted &lt;em&gt;attention&lt;/em&gt; to the &lt;em&gt;stock,&lt;/em&gt; the &lt;em&gt;pilots proposal&lt;/em&gt; acted as a &lt;em&gt;catalyst,&lt;/em&gt; kicking off a new &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;speculation&lt;/em&gt; and perhaps throwing the &lt;em&gt;company&lt;/em&gt; into the &lt;em&gt;hands&lt;/em&gt; of another &lt;em&gt;buyer&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;added Hertz rental&lt;/em&gt; cars, &lt;em&gt;Westin&lt;/em&gt; and &lt;em&gt;Hilton International hotels&lt;/em&gt; in a &lt;em&gt;strategy&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; a &lt;em&gt;travel service company&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">I don't &lt;em&gt;exptect&lt;/em&gt; them to take it, but it could put some &lt;em&gt;interesting options&lt;/em&gt; in &lt;em&gt;front&lt;/em&gt; of UAL &lt;em&gt;management,"&lt;/em&gt; said &lt;em&gt;Timothy Pettee,&lt;/em&gt; Bear &lt;em&gt;Stearns&lt;/em&gt; and co &lt;em&gt;analyst&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;pilots earlier&lt;/em&gt; this week &lt;em&gt;offered&lt;/em&gt; to buy the &lt;em&gt;airline&lt;/em&gt; for 2.3 &lt;em&gt;billion&lt;/em&gt; dlrs, and &lt;em&gt;assume 2.2 billion&lt;/em&gt; dlrs of &lt;em&gt;existing debt&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">UAL last &lt;em&gt;month&lt;/em&gt; said New York Real &lt;em&gt;estate developer Donald Trump&lt;/em&gt; held a &lt;em&gt;position&lt;/em&gt; in its &lt;em&gt;stock,&lt;/em&gt; and that he also held &lt;em&gt;discussions&lt;/em&gt; with its &lt;em&gt;chairman&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

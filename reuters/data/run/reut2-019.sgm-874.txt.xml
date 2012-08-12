@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-874.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">should</str>
+        <str name="text">homebuyers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">others</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">eugene</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">chimerine</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">sherman</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">housing</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">federal</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">"There should be another month or two of very weak new home sales but with interest rates stabilizing, sale of new homes should become more stable by mid-summer," said economist Lawrence Chimerine of Wharton Econometrics Inc.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.9132404833528601</double>
+        <double name="strength">0.9559053614347507</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The drop in May, to a seasonally adjusted annual rate of 616,000 units, was the largest since January 1982, the Commerce Department said.</str>
-        <int name="index">3</int>
+        <str name="text">Eugene Sherman, chief economist of the Federal Home Loan Bank of New York, said, "The lower sales level will be maintained for awhile until there is another change in rates.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">138</int>
-        <double name="strength">0.8425208490734661</double>
+        <int name="end">174</int>
+        <double name="strength">0.8397591467594804</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Interest rates&lt;/em&gt; on &lt;em&gt;conventional mortgages bottomed&lt;/em&gt; out at &lt;em&gt;about 9.08&lt;/em&gt; pct in &lt;em&gt;March&lt;/em&gt; and rose to &lt;em&gt;about 10.7&lt;/em&gt; pct in &lt;em&gt;April, according&lt;/em&gt; to &lt;em&gt;Stephen Roach, economist&lt;/em&gt; at &lt;em&gt;Morgan Stanley&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Interest rates&lt;/em&gt; on &lt;em&gt;conventional mortgages&lt;/em&gt; bottomed out at about 9.08 pct in &lt;em&gt;March&lt;/em&gt; and rose to about 10.7 pct in &lt;em&gt;April,&lt;/em&gt; according to &lt;em&gt;Stephen Roach, economist&lt;/em&gt; at &lt;em&gt;Morgan Stanley&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There should&lt;/em&gt; be &lt;em&gt;another month&lt;/em&gt; or two of very weak new home &lt;em&gt;sales&lt;/em&gt; but with &lt;em&gt;interest rates stabilizing,&lt;/em&gt; sale of new &lt;em&gt;homes should become&lt;/em&gt; more &lt;em&gt;stable&lt;/em&gt; by mid-&lt;em&gt;summer,"&lt;/em&gt; said &lt;em&gt;economist Lawrence Chimerine&lt;/em&gt; of &lt;em&gt;Wharton Econometrics Inc&lt;/em&gt;.</str>
+        <str name="text">"There should be another &lt;em&gt;month&lt;/em&gt; or two of very weak new home &lt;em&gt;sales&lt;/em&gt; but with &lt;em&gt;interest rates&lt;/em&gt; stabilizing, sale of new &lt;em&gt;homes&lt;/em&gt; should &lt;em&gt;become&lt;/em&gt; more &lt;em&gt;stable&lt;/em&gt; by mid-&lt;em&gt;summer,"&lt;/em&gt; said &lt;em&gt;economist Lawrence Chimerine&lt;/em&gt; of Wharton &lt;em&gt;Econometrics Inc&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The drop in May, to a &lt;em&gt;seasonally adjusted annual&lt;/em&gt; rate of 616,000 &lt;em&gt;units,&lt;/em&gt; was the &lt;em&gt;largest since January 1982,&lt;/em&gt; the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Eugene Sherman, chief economist&lt;/em&gt; of the &lt;em&gt;Federal&lt;/em&gt; Home Loan Bank of New York, said, "The lower &lt;em&gt;sales level&lt;/em&gt; will be maintained for awhile until there is another &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;rates&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

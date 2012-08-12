@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-747.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">39</int>
       </lst>
       <lst name="terms">
-        <int name="count">224</int>
+        <int name="count">171</int>
       </lst>
       <lst name="stems">
-        <int name="count">146</int>
+        <int name="count">106</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">computer</str>
+        <str name="text">engine</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">giorgio</str>
-        <double name="strength">0.6666666666666674</double>
+        <str name="text">traders</str>
+        <double name="strength">0.9921341663337678</double>
       </lst>
       <lst name="term">
-        <str name="text">points</str>
-        <double name="strength">0.6666666666666663</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9921341663337675</double>
       </lst>
       <lst name="term">
-        <str name="text">major</str>
-        <double name="strength">0.6666666666666662</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9921341663337673</double>
       </lst>
       <lst name="term">
-        <str name="text">appeals</str>
-        <double name="strength">0.666666666666666</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.9921341663337664</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">NEW YORK -  Several major computer companies launched new computers, with Italy's Olivetti becoming the first major firm to promise products to compete with International Business Machines' new personal computers launched last week.</str>
-        <int name="index">34</int>
-        <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">NEW YORK - Texaco Inc said it asked the Texas Court of Appeals to block enforcement of a 10.3 billion dlr judgment bond won by Pennzoil Co until appeals are decided.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.7331239499534283</double>
-      </lst>
       <lst name="sentence">
         <str name="text">PARIS - Airbus Industrie, the European airplane manufacturer, said it would buy engines for its proposed A340 wide-body jet from a joint-venture linking General Electric Co. and SNECMA of France.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">196</int>
-        <double name="strength">0.721451178721532</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">NEW YORK - AFG Industries Inc and Wagner and Brown ended their hostile bid to acquire GenCorp Inc after the company's dramatic announcement Monday of sweeping anti-takeover measures.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.985219430172475</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">WASHINGTON - Michael Davidoff, head trader for Ivan Boesky's Seemala Corp, has consented to Securities and Exchange Commission penalities and agreed to help in its continuing investigation of insider trading, the SEC said.</str>
+        <int name="index">31</int>
+        <int name="start">1</int>
+        <int name="end">223</int>
+        <double name="strength">0.9768094756667565</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">NEW YORK -  &lt;em&gt;Several major computer companies launched&lt;/em&gt; new &lt;em&gt;computers,&lt;/em&gt; with &lt;em&gt;Italy&lt;/em&gt;'s &lt;em&gt;Olivetti becoming&lt;/em&gt; the &lt;em&gt;first major&lt;/em&gt; firm to &lt;em&gt;promise products&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; with &lt;em&gt;International Business Machines'&lt;/em&gt; new &lt;em&gt;personal computers launched&lt;/em&gt; last week.</str>
-        <int name="index">34</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">NEW YORK - &lt;em&gt;Texaco&lt;/em&gt; Inc said it &lt;em&gt;asked&lt;/em&gt; the &lt;em&gt;Texas Court&lt;/em&gt; of &lt;em&gt;Appeals&lt;/em&gt; to &lt;em&gt;block enforcement&lt;/em&gt; of a 10.3 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;judgment&lt;/em&gt; bond won by &lt;em&gt;Pennzoil&lt;/em&gt; Co &lt;em&gt;until appeals&lt;/em&gt; are &lt;em&gt;decided&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;PARIS - Airbus Industrie,&lt;/em&gt; the &lt;em&gt;European airplane manufacturer,&lt;/em&gt; said it &lt;em&gt;would&lt;/em&gt; buy &lt;em&gt;engines&lt;/em&gt; for its &lt;em&gt;proposed&lt;/em&gt; A340 wide-body jet from a &lt;em&gt;joint-venture linking General Electric&lt;/em&gt; Co. and &lt;em&gt;SNECMA&lt;/em&gt; of &lt;em&gt;France&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;PARIS - Airbus&lt;/em&gt; Industrie, the &lt;em&gt;European airplane manufacturer,&lt;/em&gt; said it would buy &lt;em&gt;engines&lt;/em&gt; for its proposed A340 wide-body jet from a &lt;em&gt;joint-venture&lt;/em&gt; linking &lt;em&gt;General Electric&lt;/em&gt; Co. and &lt;em&gt;SNECMA&lt;/em&gt; of &lt;em&gt;France&lt;/em&gt;.</str>
         <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">NEW YORK - AFG &lt;em&gt;Industries&lt;/em&gt; Inc and &lt;em&gt;Wagner&lt;/em&gt; and &lt;em&gt;Brown&lt;/em&gt; ended their &lt;em&gt;hostile&lt;/em&gt; bid to &lt;em&gt;acquire GenCorp&lt;/em&gt; Inc after the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;dramatic announcement Monday&lt;/em&gt; of sweeping anti-&lt;em&gt;takeover measures&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">WASHINGTON - &lt;em&gt;Michael Davidoff,&lt;/em&gt; head &lt;em&gt;trader&lt;/em&gt; for Ivan &lt;em&gt;Boesky&lt;/em&gt;'s &lt;em&gt;Seemala&lt;/em&gt; Corp, has consented to &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission penalities&lt;/em&gt; and agreed to help in its continuing &lt;em&gt;investigation&lt;/em&gt; of &lt;em&gt;insider trading,&lt;/em&gt; the SEC said.</str>
+        <int name="index">31</int>
       </lst>
     </lst>
   </lst>

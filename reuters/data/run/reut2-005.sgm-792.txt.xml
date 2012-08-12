@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-792.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">damages</str>
+        <str name="text">available</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">seeks</str>
-        <double name="strength">0.5</double>
+        <str name="text">demand</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">actual</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">punitive</str>
-        <double name="strength">0.5</double>
+        <str name="text">request</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
         <str name="text">spokesman</str>
-        <double name="strength">0.5</double>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bailey</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Coastal has been trying to break into the Texas gas market since 1979, when it was forced to sell &lt;Lo-Vaca Gas Gathering Co&gt; to settle over 1.6 billion dlrs in lawsuits by Texas customers facing abrupt curtailment of supply.</str>
-        <int name="index">9</int>
+        <str name="text">The company, the second-largest natural gas producer in Texas, said it has gas reserves of 1.2 trillion cubic feet and over 1,000 miles of pipeline and gas gathering lines.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">225</int>
+        <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">TransAmerican, which entered Chapter 11 bankruptcy proceedings in 1983 to reorganise its debts, filed the lawsuit to block Coastal from taking control.</str>
-        <int name="index">1</int>
+        <str name="text">Coastal spokesman Jim Bailey confirmed the company, which is an unsecured creditor of TransAmerican, would present its own reorganisation plan to the bankruptcy court.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.8880917626287915</double>
+        <int name="end">168</int>
+        <double name="strength">0.9424043987020552</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">TransAmerican lawyer John Nabors said the company values its total assets, including an unused oil refinery, at about one billion dlrs.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">0.8296493719124163</double>
+        <double name="strength">0.9087983875080057</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Coastal&lt;/em&gt; has been &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;break&lt;/em&gt; into the &lt;em&gt;Texas&lt;/em&gt; gas &lt;em&gt;market since 1979,&lt;/em&gt; when it was &lt;em&gt;forced&lt;/em&gt; to sell &lt;Lo-Vaca Gas &lt;em&gt;Gathering&lt;/em&gt; Co&gt; to &lt;em&gt;settle&lt;/em&gt; over 1.6 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;lawsuits&lt;/em&gt; by &lt;em&gt;Texas customers facing abrupt curtailment&lt;/em&gt; of &lt;em&gt;supply&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;company,&lt;/em&gt; the &lt;em&gt;second&lt;/em&gt;-largest &lt;em&gt;natural&lt;/em&gt; gas &lt;em&gt;producer&lt;/em&gt; in &lt;em&gt;Texas,&lt;/em&gt; said it has gas &lt;em&gt;reserves&lt;/em&gt; of 1.2 &lt;em&gt;trillion cubic&lt;/em&gt; feet and over 1,000 &lt;em&gt;miles&lt;/em&gt; of &lt;em&gt;pipeline&lt;/em&gt; and gas &lt;em&gt;gathering lines&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;TransAmerican, which entered Chapter 11 bankruptcy proceedings&lt;/em&gt; in 1983 to &lt;em&gt;reorganise&lt;/em&gt; its &lt;em&gt;debts, filed&lt;/em&gt; the &lt;em&gt;lawsuit&lt;/em&gt; to &lt;em&gt;block Coastal&lt;/em&gt; from &lt;em&gt;taking control&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Coastal spokesman&lt;/em&gt; Jim &lt;em&gt;Bailey&lt;/em&gt; confirmed the &lt;em&gt;company,&lt;/em&gt; which is an &lt;em&gt;unsecured creditor&lt;/em&gt; of &lt;em&gt;TransAmerican,&lt;/em&gt; would &lt;em&gt;present&lt;/em&gt; its own &lt;em&gt;reorganisation&lt;/em&gt; plan to the &lt;em&gt;bankruptcy court&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;TransAmerican lawyer&lt;/em&gt; John &lt;em&gt;Nabors&lt;/em&gt; said the &lt;em&gt;company values&lt;/em&gt; its &lt;em&gt;total assets, including&lt;/em&gt; an &lt;em&gt;unused&lt;/em&gt; oil &lt;em&gt;refinery,&lt;/em&gt; at &lt;em&gt;about&lt;/em&gt; one &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;TransAmerican lawyer&lt;/em&gt; John &lt;em&gt;Nabors&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; values its &lt;em&gt;total assets,&lt;/em&gt; including an &lt;em&gt;unused&lt;/em&gt; oil &lt;em&gt;refinery,&lt;/em&gt; at about one &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

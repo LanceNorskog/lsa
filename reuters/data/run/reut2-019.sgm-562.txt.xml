@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-562.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">65</int>
+        <int name="count">48</int>
       </lst>
       <lst name="stems">
-        <int name="count">34</int>
+        <int name="count">24</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">around</str>
+        <str name="text">start</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">television</str>
-        <double name="strength">0.9976270888855697</double>
+        <str name="text">trading</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">being</str>
-        <double name="strength">0.9976209909917079</double>
+        <str name="text">second</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.9975422733709068</double>
+        <str name="text">market</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">process</str>
-        <double name="strength">0.9973683911300479</double>
+        <str name="text">envisage</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">France's state-run television channel TF-1, which is in the process of being privatised, should achieve a profit of around 25 francs per share next year after several years of losses, but will not make a profit this year, the new TF-1 president Francis Bouygues said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">267</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The state sold a 50 pct stake in TF-1 in April to a consortium led by Bouygues, a construction magnate, and including British press baron Robert Maxwell.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">154</int>
-        <double name="strength">0.8125163030175262</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Tomorrow 40 pct of the shares go on sale to the public at 165 francs each, while 10 pct will be offered at a special price of 132 francs a share to the station's staff.</str>
-        <int name="index">7</int>
+        <str name="text">After the two-week public flotation, TF-1 shares will start trading on the second market here in late July.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.6649683354087559</double>
+        <int name="end">108</int>
+        <double name="strength">0.7381887952273963</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">France's state-run television channel TF-1, which is in the process of being privatised, should achieve a profit of around 25 francs per share next year after several years of losses, but will not make a profit this year, the new TF-1 president Francis Bouygues said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">267</int>
+        <double name="strength">0.7263740145520133</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;France&lt;/em&gt;'s &lt;em&gt;state&lt;/em&gt;-run &lt;em&gt;television channel&lt;/em&gt; TF-1, &lt;em&gt;which&lt;/em&gt; is in the &lt;em&gt;process&lt;/em&gt; of &lt;em&gt;being privatised, should achieve&lt;/em&gt; a &lt;em&gt;profit&lt;/em&gt; of &lt;em&gt;around 25 francs&lt;/em&gt; per &lt;em&gt;share&lt;/em&gt; next year &lt;em&gt;after several years&lt;/em&gt; of &lt;em&gt;losses,&lt;/em&gt; but will not make a &lt;em&gt;profit&lt;/em&gt; this year, the new TF-1 &lt;em&gt;president Francis Bouygues said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;state&lt;/em&gt; sold a 50 pct &lt;em&gt;stake&lt;/em&gt; in TF-1 in &lt;em&gt;April&lt;/em&gt; to a &lt;em&gt;consortium&lt;/em&gt; led by &lt;em&gt;Bouygues,&lt;/em&gt; a &lt;em&gt;construction magnate,&lt;/em&gt; and &lt;em&gt;including British press baron Robert Maxwell&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;state&lt;/em&gt; sold a 50 pct &lt;em&gt;stake&lt;/em&gt; in TF-1 in &lt;em&gt;April&lt;/em&gt; to a &lt;em&gt;consortium&lt;/em&gt; led by &lt;em&gt;Bouygues,&lt;/em&gt; a &lt;em&gt;construction magnate,&lt;/em&gt; and including &lt;em&gt;British press baron Robert Maxwell&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tomorrow 40&lt;/em&gt; pct of the &lt;em&gt;shares&lt;/em&gt; go on sale to the &lt;em&gt;public&lt;/em&gt; at 165 &lt;em&gt;francs&lt;/em&gt; each, &lt;em&gt;while 10&lt;/em&gt; pct will be &lt;em&gt;offered&lt;/em&gt; at a &lt;em&gt;special price&lt;/em&gt; of 132 &lt;em&gt;francs&lt;/em&gt; a &lt;em&gt;share&lt;/em&gt; to the &lt;em&gt;station&lt;/em&gt;'s &lt;em&gt;staff&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">After the two-week &lt;em&gt;public flotation,&lt;/em&gt; TF-1 &lt;em&gt;shares&lt;/em&gt; will &lt;em&gt;start trading&lt;/em&gt; on the &lt;em&gt;second market&lt;/em&gt; here in late July.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;France&lt;/em&gt;'s &lt;em&gt;state&lt;/em&gt;-run &lt;em&gt;television channel&lt;/em&gt; TF-1, which is in the &lt;em&gt;process&lt;/em&gt; of being privatised, should &lt;em&gt;achieve&lt;/em&gt; a &lt;em&gt;profit&lt;/em&gt; of around 25 &lt;em&gt;francs&lt;/em&gt; per &lt;em&gt;share&lt;/em&gt; next year after &lt;em&gt;several years&lt;/em&gt; of &lt;em&gt;losses,&lt;/em&gt; but will not make a &lt;em&gt;profit&lt;/em&gt; this year, the new TF-1 &lt;em&gt;president&lt;/em&gt; Francis &lt;em&gt;Bouygues said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

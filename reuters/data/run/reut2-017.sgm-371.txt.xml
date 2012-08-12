@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-371.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">130</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">megawatts</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">facility</str>
-        <double name="strength">0.9999999999999972</double>
+        <str name="text">drought</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">copra</str>
-        <double name="strength">0.5</double>
+        <str name="text">lanka</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">treble</str>
-        <double name="strength">0.5</double>
+        <str name="text">lankans</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">power</str>
-        <double name="strength">0.5</double>
+        <str name="text">three</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"We also plan to ask the International Monetary Fund for another 200 mln dlrs through a structural adjustment facility and a compensatory financing facility to balance our export revenue cuts," de Mel said.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">207</int>
+        <str name="text">Civil strife in Sri Lanka will make the economy's growth rate in 1987 its slowest in a decade, Sri Lankan finance minister Ronnie de Mel said here.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">147</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said because of the fighting in the country, defence expenditure was now about 20 pct of the national 1987 budget of 70 billion rupees.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">139</int>
+        <double name="strength">0.9527362870438174</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Sri Lanka planned to borrow about 600 mln dlrs in 1987 from the World Bank and the Sri Lanka Aid Consortium which comprises members of the Organisation for Economic Cooperation and Development (OECD), he said.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.8025166177785368</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Civil strife in Sri Lanka will make the economy's growth rate in 1987 its slowest in a decade, Sri Lankan finance minister Ronnie de Mel said here.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">147</int>
-        <double name="strength">0.7630888065939454</double>
+        <double name="strength">0.899884155809667</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"We also plan to ask the &lt;em&gt;International Monetary&lt;/em&gt; Fund for &lt;em&gt;another 200&lt;/em&gt; mln dlrs &lt;em&gt;through&lt;/em&gt; a &lt;em&gt;structural adjustment facility&lt;/em&gt; and a &lt;em&gt;compensatory financing facility&lt;/em&gt; to &lt;em&gt;balance&lt;/em&gt; our &lt;em&gt;export revenue&lt;/em&gt; cuts," de Mel said.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Sri &lt;em&gt;Lanka planned&lt;/em&gt; to &lt;em&gt;borrow about 600&lt;/em&gt; mln dlrs in 1987 from the &lt;em&gt;World&lt;/em&gt; Bank and the Sri &lt;em&gt;Lanka&lt;/em&gt; Aid &lt;em&gt;Consortium which comprises members&lt;/em&gt; of the &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD), he said.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Civil strife&lt;/em&gt; in Sri &lt;em&gt;Lanka&lt;/em&gt; will make the &lt;em&gt;economy&lt;/em&gt;'s &lt;em&gt;growth&lt;/em&gt; rate in 1987 its &lt;em&gt;slowest&lt;/em&gt; in a &lt;em&gt;decade,&lt;/em&gt; Sri &lt;em&gt;Lankan finance minister Ronnie&lt;/em&gt; de Mel said here.</str>
+        <str name="text">&lt;em&gt;Civil strife&lt;/em&gt; in Sri &lt;em&gt;Lanka&lt;/em&gt; will make the &lt;em&gt;economy&lt;/em&gt;'s &lt;em&gt;growth&lt;/em&gt; rate in 1987 its slowest in a &lt;em&gt;decade,&lt;/em&gt; Sri &lt;em&gt;Lankan finance minister Ronnie&lt;/em&gt; de Mel said here.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said because of the &lt;em&gt;fighting&lt;/em&gt; in the &lt;em&gt;country, defence expenditure&lt;/em&gt; was now about 20 pct of the &lt;em&gt;national 1987 budget&lt;/em&gt; of 70 &lt;em&gt;billion rupees&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Sri Lanka planned to &lt;em&gt;borrow&lt;/em&gt; about 600 mln dlrs in 1987 from the &lt;em&gt;World&lt;/em&gt; Bank and the Sri Lanka Aid &lt;em&gt;Consortium&lt;/em&gt; which comprises &lt;em&gt;members&lt;/em&gt; of the &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD), he said.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

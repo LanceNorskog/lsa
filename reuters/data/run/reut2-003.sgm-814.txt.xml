@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-814.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">contracts</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">treasury</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
         <str name="text">april</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">board</str>
-        <double name="strength">0.5590169943749471</double>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">global</str>
+        <double name="strength">0.9969511504682473</double>
+      </lst>
+      <lst name="term">
+        <str name="text">monday</str>
+        <double name="strength">0.9969511504682473</double>
+      </lst>
+      <lst name="term">
+        <str name="text">month</str>
+        <double name="strength">0.9969511504682473</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Pending regulatory approval, the CBT plans to offer evening trading in the world's most active futures contract, Treasury bonds, along with Treasury note futures and options on those contracts.</str>
-        <int name="index">8</int>
+        <str name="text">CBT chairman Karsten Mahlmann said in a statement the delay will "afford all firms the time necessary to be 100 pct ready for this innovative program, we are postponing the opening date."</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">194</int>
+        <int name="end">188</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Some credit market analysts, including Norman Quinn, president of Golden Gate Futures, said the night session would likely be dominated by institutions, because the larger local traders would refuse to return at night.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.9242407790508002</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The evening session will make available to traders in the Far East interest rate hedging vehicles when their day is just beginning, and the CBT hopes to attract trading capital from the Pacific Rim's burgeoning financial centers.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.8054500489976539</double>
+        <double name="strength">0.9652506046502639</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The board of directors accepted yesterday's recommendation by a committee of members overseeing the planned evening session, which was originally scheduled to start April 2.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.8369366738352444</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pending regulatory approval,&lt;/em&gt; the CBT &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;offer evening trading&lt;/em&gt; in the &lt;em&gt;world&lt;/em&gt;'s most &lt;em&gt;active futures contract, Treasury bonds, along&lt;/em&gt; with &lt;em&gt;Treasury&lt;/em&gt; note &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; on &lt;em&gt;those contracts&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">CBT &lt;em&gt;chairman&lt;/em&gt; Karsten &lt;em&gt;Mahlmann&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;delay&lt;/em&gt; will "&lt;em&gt;afford&lt;/em&gt; all &lt;em&gt;firms&lt;/em&gt; the time &lt;em&gt;necessary&lt;/em&gt; to be 100 pct &lt;em&gt;ready&lt;/em&gt; for this &lt;em&gt;innovative program,&lt;/em&gt; we are postponing the &lt;em&gt;opening date.&lt;/em&gt;"</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;credit market analysts, including Norman Quinn, president&lt;/em&gt; of &lt;em&gt;Golden&lt;/em&gt; Gate &lt;em&gt;Futures,&lt;/em&gt; said the &lt;em&gt;night session would likely&lt;/em&gt; be &lt;em&gt;dominated&lt;/em&gt; by &lt;em&gt;institutions, because&lt;/em&gt; the &lt;em&gt;larger local traders would refuse&lt;/em&gt; to &lt;em&gt;return&lt;/em&gt; at &lt;em&gt;night&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;evening session&lt;/em&gt; will make &lt;em&gt;available&lt;/em&gt; to &lt;em&gt;traders&lt;/em&gt; in the Far East &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;hedging vehicles&lt;/em&gt; when &lt;em&gt;their&lt;/em&gt; day is just &lt;em&gt;beginning,&lt;/em&gt; and the CBT &lt;em&gt;hopes&lt;/em&gt; to &lt;em&gt;attract trading capital&lt;/em&gt; from the &lt;em&gt;Pacific&lt;/em&gt; Rim's &lt;em&gt;burgeoning financial centers&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;evening session&lt;/em&gt; will make &lt;em&gt;available&lt;/em&gt; to &lt;em&gt;traders&lt;/em&gt; in the Far East &lt;em&gt;interest&lt;/em&gt; rate hedging &lt;em&gt;vehicles&lt;/em&gt; when their day is just beginning, and the CBT hopes to &lt;em&gt;attract trading capital&lt;/em&gt; from the &lt;em&gt;Pacific&lt;/em&gt; Rim's burgeoning &lt;em&gt;financial centers&lt;/em&gt;.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; accepted &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;recommendation&lt;/em&gt; by a &lt;em&gt;committee&lt;/em&gt; of &lt;em&gt;members&lt;/em&gt; overseeing the &lt;em&gt;planned evening session,&lt;/em&gt; which was originally scheduled to &lt;em&gt;start April 2&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

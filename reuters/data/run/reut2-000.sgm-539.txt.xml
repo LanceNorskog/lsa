@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-539.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">contracts</str>
+        <str name="text">senior</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">doing</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">beyer</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">addition</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">suggestions</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">wolff</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">president</str>
+        <double name="strength">0.9747506840573463</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Directors of the Chicago Mercantile Exchange will meet Wednesday to consider a membership petition asking the exchange to tighten rules covering trading activities in the widely-popular Standard and Poor's 500 Stock Index futures pit, an exchange executive said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">262</int>
+        <str name="text">CME senior vice president Gerald Beyer said if the board accepts the member's petition this week, a rule change will be submitted to the Commodity Futures Trading Commission for approval.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In addition to a recommendation on dual trading, Melamed said the special committee will also make suggestions about a possible automatic order entry and execution system for S and P 500 futures and futures-options and rule changes that would alleviate congested conditions in the trading pit.</str>
-        <int name="index">4</int>
+        <str name="text">Although Jonathan Wolff, senior vice president at Donaldson Lufkin and Jenrette, noted dual trading is evident on most exchanges.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">294</int>
-        <double name="strength">0.9266684813462714</double>
+        <int name="end">130</int>
+        <double name="strength">0.9858895909377445</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An average broker in the Treasury bond futures pit, for instance, will fill orders for 5,000 to 10,000 contracts a day at 1.25 dlrs per contract, floor sources said.</str>
-        <int name="index">17</int>
+        <str name="text">"To have an absolute ban on dual trading makes it difficult for a broker to function because of his errors," said John Michael, vice president at First Options of Chicago.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.8685715234151412</double>
+        <int name="end">172</int>
+        <double name="strength">0.9543062889231333</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Directors&lt;/em&gt; of the &lt;em&gt;Chicago Mercantile Exchange&lt;/em&gt; will meet &lt;em&gt;Wednesday&lt;/em&gt; to &lt;em&gt;consider&lt;/em&gt; a &lt;em&gt;membership petition asking&lt;/em&gt; the &lt;em&gt;exchange&lt;/em&gt; to &lt;em&gt;tighten rules covering trading activities&lt;/em&gt; in the &lt;em&gt;widely-popular Standard&lt;/em&gt; and Poor's 500 &lt;em&gt;Stock Index futures&lt;/em&gt; pit, an &lt;em&gt;exchange executive said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">CME &lt;em&gt;senior&lt;/em&gt; vice &lt;em&gt;president Gerald Beyer&lt;/em&gt; said if the &lt;em&gt;board&lt;/em&gt; accepts the &lt;em&gt;member&lt;/em&gt;'s &lt;em&gt;petition&lt;/em&gt; this week, a rule &lt;em&gt;change&lt;/em&gt; will be submitted to the &lt;em&gt;Commodity Futures Trading Commission&lt;/em&gt; for &lt;em&gt;approval&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition&lt;/em&gt; to a &lt;em&gt;recommendation&lt;/em&gt; on dual &lt;em&gt;trading, Melamed&lt;/em&gt; said the &lt;em&gt;special committee&lt;/em&gt; will also make &lt;em&gt;suggestions about&lt;/em&gt; a &lt;em&gt;possible automatic order entry&lt;/em&gt; and &lt;em&gt;execution system&lt;/em&gt; for S and P 500 &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;futures-options&lt;/em&gt; and rule &lt;em&gt;changes&lt;/em&gt; that &lt;em&gt;would alleviate congested conditions&lt;/em&gt; in the &lt;em&gt;trading pit&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Although &lt;em&gt;Jonathan Wolff, senior&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Donaldson Lufkin&lt;/em&gt; and &lt;em&gt;Jenrette,&lt;/em&gt; noted dual &lt;em&gt;trading&lt;/em&gt; is &lt;em&gt;evident&lt;/em&gt; on most &lt;em&gt;exchanges&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;average broker&lt;/em&gt; in the &lt;em&gt;Treasury&lt;/em&gt; bond &lt;em&gt;futures&lt;/em&gt; pit, for &lt;em&gt;instance,&lt;/em&gt; will fill &lt;em&gt;orders&lt;/em&gt; for 5,000 to 10,000 &lt;em&gt;contracts&lt;/em&gt; a day at 1.25 dlrs per &lt;em&gt;contract, floor sources said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">"To have an &lt;em&gt;absolute&lt;/em&gt; ban on dual &lt;em&gt;trading&lt;/em&gt; makes it &lt;em&gt;difficult&lt;/em&gt; for a &lt;em&gt;broker&lt;/em&gt; to &lt;em&gt;function&lt;/em&gt; because of his &lt;em&gt;errors,"&lt;/em&gt; said John &lt;em&gt;Michael,&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;First Options&lt;/em&gt; of &lt;em&gt;Chicago&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

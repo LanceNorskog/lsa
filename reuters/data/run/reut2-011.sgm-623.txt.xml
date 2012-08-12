@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-623.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">motors</str>
+        <str name="text">assemble</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">1.0</double>
+        <str name="text">wheel</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">drive</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">without</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">front</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">participation</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">quebec</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">General Motors of Canada Ltd, wholly owned by General Motors Corp, said it is planning a 450 mln Canadian dlr retooling and modernization of its 21-year-old Ste.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">161</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"Without our participation...we faced the prospect of losing this plant," said Michel Cote, Canadian minister of regional industrial expansion.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">144</int>
-        <double name="strength">0.9103839272953498</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"With the new paint complex and tooling, our plant will be fully modernized to be world competitive," GM Canada president George Peapples told a news conference.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.9779278387314191</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said construction will begin this year on the modern base coat/clear coat paint complex, which will provide enhanced color standards and improved paint quality, he said.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">173</int>
-        <double name="strength">0.830508641178807</double>
+        <double name="strength">0.9003477787042848</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Motors&lt;/em&gt; of &lt;em&gt;Canada&lt;/em&gt; Ltd, &lt;em&gt;wholly owned&lt;/em&gt; by &lt;em&gt;General Motors&lt;/em&gt; Corp, said it is &lt;em&gt;planning&lt;/em&gt; a 450 mln &lt;em&gt;Canadian&lt;/em&gt; dlr &lt;em&gt;retooling&lt;/em&gt; and &lt;em&gt;modernization&lt;/em&gt; of its 21-year-old Ste.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;"Without&lt;/em&gt; our &lt;em&gt;participation..&lt;/em&gt;.we &lt;em&gt;faced&lt;/em&gt; the &lt;em&gt;prospect&lt;/em&gt; of &lt;em&gt;losing&lt;/em&gt; this &lt;em&gt;plant,"&lt;/em&gt; said &lt;em&gt;Michel&lt;/em&gt; Cote, &lt;em&gt;Canadian minister&lt;/em&gt; of &lt;em&gt;regional industrial expansion&lt;/em&gt;.</str>
+        <str name="text">"Without our &lt;em&gt;participation..&lt;/em&gt;.we faced the &lt;em&gt;prospect&lt;/em&gt; of losing this &lt;em&gt;plant,"&lt;/em&gt; said &lt;em&gt;Michel&lt;/em&gt; Cote, &lt;em&gt;Canadian minister&lt;/em&gt; of &lt;em&gt;regional industrial expansion&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;construction&lt;/em&gt; will &lt;em&gt;begin&lt;/em&gt; this year on the &lt;em&gt;modern&lt;/em&gt; base coat/&lt;em&gt;clear&lt;/em&gt; coat &lt;em&gt;paint complex, which&lt;/em&gt; will &lt;em&gt;provide enhanced color standards&lt;/em&gt; and &lt;em&gt;improved paint quality,&lt;/em&gt; he said.</str>
+        <str name="text">"With the new &lt;em&gt;paint complex&lt;/em&gt; and &lt;em&gt;tooling,&lt;/em&gt; our &lt;em&gt;plant&lt;/em&gt; will be fully modernized to be &lt;em&gt;world competitive,"&lt;/em&gt; GM &lt;em&gt;Canada president George Peapples&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said &lt;em&gt;construction&lt;/em&gt; will &lt;em&gt;begin&lt;/em&gt; this year on the &lt;em&gt;modern&lt;/em&gt; base coat/&lt;em&gt;clear&lt;/em&gt; coat &lt;em&gt;paint complex,&lt;/em&gt; which will &lt;em&gt;provide enhanced color standards&lt;/em&gt; and &lt;em&gt;improved paint quality,&lt;/em&gt; he said.</str>
         <int name="index">8</int>
       </lst>
     </lst>

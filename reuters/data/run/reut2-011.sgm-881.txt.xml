@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-881.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">95</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deliveries</str>
+        <str name="text">agriculture</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">crops</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">contact</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">tribute</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">estimated</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">contribution</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">previous</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">maintain</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">180</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Agriculture would expand significantly if favourable weather continued and farmers responded to producer price rises announced in February, the minister added.</str>
-        <int name="index">7</int>
+        <str name="text">He told a news conference that the government would soon create a special bureau to expedite processing of investment applications by local and foreign investors.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">160</int>
-        <double name="strength">0.9479923305013925</double>
+        <int name="end">163</int>
+        <double name="strength">0.9140284522695352</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">This was owing to higher agricultural production and the Kenyan shilling's relative strength against other major currencies, the report said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">142</int>
-        <double name="strength">0.918316308961593</double>
+        <double name="strength">0.8398202915250329</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"High &lt;em&gt;aggregate demand arising&lt;/em&gt; from low &lt;em&gt;inflation, trade liberalisation&lt;/em&gt; and &lt;em&gt;disciplined financial management&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;increase output&lt;/em&gt; in the &lt;em&gt;manufacturing sector,"&lt;/em&gt; he said.</str>
+        <str name="text">"High &lt;em&gt;aggregate demand&lt;/em&gt; arising from low &lt;em&gt;inflation, trade liberalisation&lt;/em&gt; and &lt;em&gt;disciplined financial management&lt;/em&gt; are expected to &lt;em&gt;increase output&lt;/em&gt; in the &lt;em&gt;manufacturing sector,"&lt;/em&gt; he said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Agriculture would expand significantly&lt;/em&gt; if &lt;em&gt;favourable weather continued&lt;/em&gt; and &lt;em&gt;farmers responded&lt;/em&gt; to &lt;em&gt;producer price rises announced&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; the &lt;em&gt;minister added&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">He told a news &lt;em&gt;conference&lt;/em&gt; that the &lt;em&gt;government&lt;/em&gt; would soon &lt;em&gt;create&lt;/em&gt; a &lt;em&gt;special bureau&lt;/em&gt; to &lt;em&gt;expedite processing&lt;/em&gt; of &lt;em&gt;investment applications&lt;/em&gt; by &lt;em&gt;local&lt;/em&gt; and &lt;em&gt;foreign investors&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This was &lt;em&gt;owing&lt;/em&gt; to &lt;em&gt;higher agricultural production&lt;/em&gt; and the &lt;em&gt;Kenyan shilling&lt;/em&gt;'s &lt;em&gt;relative strength against other major currencies,&lt;/em&gt; the &lt;em&gt;report said&lt;/em&gt;.</str>
+        <str name="text">This was owing to higher &lt;em&gt;agricultural production&lt;/em&gt; and the &lt;em&gt;Kenyan&lt;/em&gt; shilling's &lt;em&gt;relative strength&lt;/em&gt; against &lt;em&gt;other major currencies,&lt;/em&gt; the &lt;em&gt;report said&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-130.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">shipments</str>
+        <str name="text">demand</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
+        <str name="text">legend</str>
         <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">decision</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">legend</str>
-        <double name="strength">0.5527707983925654</double>
+        <str name="text">taiwan</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">prove</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">restrictions</str>
+        <double name="strength">0.996246721177169</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Sales of the Integra through February have outpaced the Legend--35,768 against 29,824--but the spokesman said Honda expects sales to "lean more heavily toward Legend" this year because a two-door Legend has been added to the line.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The shipment to Taiwan was part of planned shipments to San-Yan Industries of Taiwan of about 2,000 Accords a year.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">116</int>
-        <double name="strength">0.7287926184805599</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">However, he said that decision has not yet been made, and would follow the decision to build the cars in the United States.</str>
-        <int name="index">29</int>
+        <str name="text">S. imports beyond the current level even if voluntary export restrictions on Japanese cars are lifted."</str>
+        <int name="index">21</int>
         <int name="start">0</int>
-        <int name="end">123</int>
-        <double name="strength">0.6701379552058611</double>
+        <int name="end">103</int>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If the cars prove popular enough, one of them could be built at the Ohio plant, or at a new factory, the spokesman said.</str>
+        <int name="index">27</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">0.9537408010138869</double>
+        <int name="terms">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Honda in the past has sent motorcycles from Marysville to Europe and Australia, and has sent cars to Canada.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">108</int>
+        <double name="strength">0.9068567018338</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sales&lt;/em&gt; of the &lt;em&gt;Integra through February&lt;/em&gt; have &lt;em&gt;outpaced&lt;/em&gt; the &lt;em&gt;Legend--35,768 against 29,824-&lt;/em&gt;-but the &lt;em&gt;spokesman&lt;/em&gt; said &lt;em&gt;Honda expects sales&lt;/em&gt; to "lean more &lt;em&gt;heavily toward Legend"&lt;/em&gt; this year &lt;em&gt;because&lt;/em&gt; a two-door &lt;em&gt;Legend&lt;/em&gt; has been &lt;em&gt;added&lt;/em&gt; to the line.</str>
-        <int name="index">32</int>
+        <str name="text">S. &lt;em&gt;imports&lt;/em&gt; beyond the &lt;em&gt;current level&lt;/em&gt; even if &lt;em&gt;voluntary export restrictions&lt;/em&gt; on &lt;em&gt;Japanese&lt;/em&gt; cars are lifted."</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;shipment&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt; was part of &lt;em&gt;planned shipments&lt;/em&gt; to San-Yan &lt;em&gt;Industries&lt;/em&gt; of &lt;em&gt;Taiwan&lt;/em&gt; of &lt;em&gt;about 2,000 Accords&lt;/em&gt; a year.</str>
-        <int name="index">10</int>
+        <str name="text">If the cars &lt;em&gt;prove popular enough,&lt;/em&gt; one of them could be built at the Ohio &lt;em&gt;plant,&lt;/em&gt; or at a new &lt;em&gt;factory,&lt;/em&gt; the &lt;em&gt;spokesman said&lt;/em&gt;.</str>
+        <int name="index">27</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; he said that &lt;em&gt;decision&lt;/em&gt; has not yet been made, and &lt;em&gt;would follow&lt;/em&gt; the &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; the cars in the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">&lt;em&gt;Honda&lt;/em&gt; in the past has sent &lt;em&gt;motorcycles&lt;/em&gt; from &lt;em&gt;Marysville&lt;/em&gt; to &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;Australia,&lt;/em&gt; and has sent cars to &lt;em&gt;Canada&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">26</int>
+  <int name="QTime">41</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-984.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">48</int>
       </lst>
       <lst name="terms">
-        <int name="count">243</int>
+        <int name="count">176</int>
       </lst>
       <lst name="stems">
-        <int name="count">153</int>
+        <int name="count">109</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">registration</str>
+        <str name="text">fiscal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">costs</str>
-        <double name="strength">0.9999999999999956</double>
+        <str name="text">future</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">employers</str>
-        <double name="strength">0.9999999999999941</double>
+        <str name="text">corporation</str>
+        <double name="strength">0.9938897258273789</double>
       </lst>
       <lst name="term">
-        <str name="text">insurance</str>
-        <double name="strength">0.9999999999999937</double>
+        <str name="text">lloyd</str>
+        <double name="strength">0.9780411577946696</double>
       </lst>
       <lst name="term">
-        <str name="text">provisions</str>
-        <double name="strength">0.9999999999999937</double>
+        <str name="text">taxation</str>
+        <double name="strength">0.978041157794666</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">As from today, companies may elect to have up to 10 pct of the costs of developing certain new fields set against their (PRT) liabilities in existing fields, until the income of those new fields exceeds the costs incurred.</str>
-        <int name="index">28</int>
-        <int name="start">0</int>
-        <int name="end">222</int>
+        <str name="text">Lawson said the low outturn of the PSBR in 1986/87 "is chiefly attributable to the remarkable buoyancy of non-oil tax revenues in general, and the corporation tax paid by an increasingly profitable business sector in particular."</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">230</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lawson reiterated the government's aim of reducing basic taxation to 25 pence in the pound, but added "given my decision to use the greater part of the fiscal scope I now have to reduce the PSBR, that goal cannot be achieved in this budget."</str>
+        <int name="index">42</int>
+        <int name="start">1</int>
+        <int name="end">242</int>
+        <double name="strength">0.983521804815655</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">On the Lloyd's insurance market, Lawson said he planned to change the tax treatment of Lloyd's syndicates, bringing it into line with that of provisions for outstanding liabilities made by ordinary insurance companies and of comparable provisions made by financial traders.</str>
         <int name="index">44</int>
         <int name="start">1</int>
         <int name="end">274</int>
-        <double name="strength">0.957095723990374</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said "it is clear that the increased flow of non-oil tax revenues, coupled with the prospective further growth of the economy in excess of the growth of public expenditure, puts the public finances in a very strong position."</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">0.8273389592294467</double>
+        <double name="strength">0.9423450599132631</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">As from &lt;em&gt;today, companies&lt;/em&gt; may &lt;em&gt;elect&lt;/em&gt; to have up to 10 pct of the &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;developing certain&lt;/em&gt; new &lt;em&gt;fields&lt;/em&gt; set &lt;em&gt;against their &lt;/em&gt;(PRT) &lt;em&gt;liabilities&lt;/em&gt; in &lt;em&gt;existing fields, until&lt;/em&gt; the &lt;em&gt;income&lt;/em&gt; of &lt;em&gt;those&lt;/em&gt; new &lt;em&gt;fields exceeds&lt;/em&gt; the &lt;em&gt;costs incurred&lt;/em&gt;.</str>
-        <int name="index">28</int>
+        <str name="text">&lt;em&gt;Lawson&lt;/em&gt; said the low &lt;em&gt;outturn&lt;/em&gt; of the PSBR in 1986/87 "is chiefly &lt;em&gt;attributable&lt;/em&gt; to the &lt;em&gt;remarkable buoyancy&lt;/em&gt; of non-oil tax &lt;em&gt;revenues&lt;/em&gt; in &lt;em&gt;general,&lt;/em&gt; and the &lt;em&gt;corporation&lt;/em&gt; tax paid by an increasingly &lt;em&gt;profitable business sector&lt;/em&gt; in &lt;em&gt;particular.&lt;/em&gt;"</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On the &lt;em&gt;Lloyd&lt;/em&gt;'s &lt;em&gt;insurance market, Lawson&lt;/em&gt; said he &lt;em&gt;planned&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt; the tax &lt;em&gt;treatment&lt;/em&gt; of &lt;em&gt;Lloyd&lt;/em&gt;'s &lt;em&gt;syndicates, bringing&lt;/em&gt; it into line with that of &lt;em&gt;provisions&lt;/em&gt; for &lt;em&gt;outstanding liabilities&lt;/em&gt; made by &lt;em&gt;ordinary insurance companies&lt;/em&gt; and of &lt;em&gt;comparable provisions&lt;/em&gt; made by &lt;em&gt;financial traders&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Lawson&lt;/em&gt; reiterated the &lt;em&gt;government&lt;/em&gt;'s aim of reducing &lt;em&gt;basic taxation&lt;/em&gt; to 25 &lt;em&gt;pence&lt;/em&gt; in the &lt;em&gt;pound,&lt;/em&gt; but added "given my &lt;em&gt;decision&lt;/em&gt; to use the greater part of the &lt;em&gt;fiscal scope&lt;/em&gt; I now have to &lt;em&gt;reduce&lt;/em&gt; the PSBR, that goal cannot be achieved in this &lt;em&gt;budget.&lt;/em&gt;"</str>
+        <int name="index">42</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">On the &lt;em&gt;Lloyd&lt;/em&gt;'s &lt;em&gt;insurance market, Lawson&lt;/em&gt; said he planned to &lt;em&gt;change&lt;/em&gt; the tax &lt;em&gt;treatment&lt;/em&gt; of &lt;em&gt;Lloyd&lt;/em&gt;'s &lt;em&gt;syndicates,&lt;/em&gt; bringing it into line with that of &lt;em&gt;provisions&lt;/em&gt; for &lt;em&gt;outstanding liabilities&lt;/em&gt; made by &lt;em&gt;ordinary insurance companies&lt;/em&gt; and of &lt;em&gt;comparable provisions&lt;/em&gt; made by &lt;em&gt;financial traders&lt;/em&gt;.</str>
         <int name="index">44</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said "it is &lt;em&gt;clear&lt;/em&gt; that the &lt;em&gt;increased&lt;/em&gt; flow of non-oil tax &lt;em&gt;revenues, coupled&lt;/em&gt; with the &lt;em&gt;prospective further growth&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of the &lt;em&gt;growth&lt;/em&gt; of &lt;em&gt;public expenditure,&lt;/em&gt; puts the &lt;em&gt;public finances&lt;/em&gt; in a very &lt;em&gt;strong position.&lt;/em&gt;"</str>
-        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

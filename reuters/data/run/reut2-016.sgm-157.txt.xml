@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-157.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">158</int>
+        <int name="count">113</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">created</str>
+        <str name="text">production</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9013878188659981</double>
+        <str name="text">favourable</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">decline</str>
+        <double name="strength">0.9934327593756589</double>
+      </lst>
+      <lst name="term">
+        <str name="text">investment</str>
+        <double name="strength">0.9934327593756576</double>
       </lst>
       <lst name="term">
         <str name="text">industry</str>
-        <double name="strength">0.5590169943749463</double>
-      </lst>
-      <lst name="term">
-        <str name="text">positive</str>
-        <double name="strength">0.5000000000000006</double>
+        <double name="strength">0.9719017617259389</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The construction industry was likely to engage new workers for the first time since 1980 but they predicted either no rise in employment in the manufactured goods industry or only a slight expansion.</str>
-        <int name="index">26</int>
-        <int name="start">0</int>
-        <int name="end">199</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">These three institutes said new jobs would be created mainly in the private services sector and also by the state in the context of job creation measures.</str>
-        <int name="index">25</int>
+        <str name="text">The other three institutes, however, wrote: "The decline in demand and production (seen) in the winter months does not indicate the beginning of a cyclical downswing."</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.9527411514276324</double>
+        <int name="end">168</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The five leading West German economic research institutes have failed to agree about how strongly the domestic economy will expand this year but revised down forecasts contained in a report published six months ago.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">215</int>
-        <double name="strength">0.9418816113923316</double>
+        <str name="text">The three research groups of Kiel, Hamburg and Essen predicted in the institutes' joint spring report that gross national product (GNP) would rise by two pct in 1987, compared with 2.4 pct in 1986.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.9697348468408622</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The DIW and Ifo said rises in employment would occur only in the tertiary sector, while "the number employed in the manufacturing industry will decline."</str>
+        <int name="index">27</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">0.9241990456756848</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;construction industry&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;engage&lt;/em&gt; new &lt;em&gt;workers&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time &lt;em&gt;since 1980&lt;/em&gt; but they &lt;em&gt;predicted either&lt;/em&gt; no rise in &lt;em&gt;employment&lt;/em&gt; in the &lt;em&gt;manufactured goods industry&lt;/em&gt; or only a &lt;em&gt;slight expansion&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The &lt;em&gt;other three institutes,&lt;/em&gt; however, wrote: "The &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;demand&lt;/em&gt; and &lt;em&gt;production &lt;/em&gt;(seen) in the &lt;em&gt;winter months&lt;/em&gt; does not &lt;em&gt;indicate&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of a &lt;em&gt;cyclical downswing.&lt;/em&gt;"</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These three institutes&lt;/em&gt; said new jobs &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;created mainly&lt;/em&gt; in the &lt;em&gt;private services sector&lt;/em&gt; and also by the &lt;em&gt;state&lt;/em&gt; in the &lt;em&gt;context&lt;/em&gt; of job &lt;em&gt;creation measures&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">The &lt;em&gt;three research groups&lt;/em&gt; of Kiel, &lt;em&gt;Hamburg&lt;/em&gt; and &lt;em&gt;Essen&lt;/em&gt; predicted in the &lt;em&gt;institutes' joint spring report&lt;/em&gt; that &lt;em&gt;gross national product &lt;/em&gt;(GNP) would rise by two pct in 1987, compared with 2.4 pct in 1986.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The five &lt;em&gt;leading&lt;/em&gt; West &lt;em&gt;German economic research institutes&lt;/em&gt; have &lt;em&gt;failed&lt;/em&gt; to &lt;em&gt;agree about&lt;/em&gt; how &lt;em&gt;strongly&lt;/em&gt; the &lt;em&gt;domestic economy&lt;/em&gt; will &lt;em&gt;expand&lt;/em&gt; this year but &lt;em&gt;revised&lt;/em&gt; down &lt;em&gt;forecasts contained&lt;/em&gt; in a &lt;em&gt;report published&lt;/em&gt; six &lt;em&gt;months ago&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The DIW and Ifo said &lt;em&gt;rises&lt;/em&gt; in &lt;em&gt;employment&lt;/em&gt; would &lt;em&gt;occur&lt;/em&gt; only in the &lt;em&gt;tertiary sector,&lt;/em&gt; while "the &lt;em&gt;number&lt;/em&gt; employed in the &lt;em&gt;manufacturing industry&lt;/em&gt; will &lt;em&gt;decline.&lt;/em&gt;"</str>
+        <int name="index">27</int>
       </lst>
     </lst>
   </lst>

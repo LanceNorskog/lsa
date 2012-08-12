@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-519.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">consider</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.5</double>
+        <str name="text">realistic</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">reporters</str>
-        <double name="strength">0.5</double>
+        <str name="text">share</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">commenced</str>
-        <double name="strength">0.4999999999999989</double>
+        <str name="text">difficult</str>
+        <double name="strength">0.9938897258273793</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Hugh Liedtke told a meeting of securities analysts that the company will consider any realistic settlement offer in its 11.0 billion dlr ongoing litigation with Texaco Inc &lt;TX&gt;.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Earlier this year, a Texas court of appeals upheld Pennzoil's claim against Texaco, ruling that Texaco unlawfully interfered with Pennzoil's merger agreement with Getty Oil.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8237843209831415</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Liedtke, who earlier said the company would have a lower first quarter, also told reporters that the company expected lower earnings this year.</str>
-        <int name="index">19</int>
+        <str name="text">Liedtke said it has become more difficult to settle the case because the courts continually rule in its favor, raising the stakes of any agreement.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">144</int>
-        <double name="strength">0.8792598171683722</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He did say, however, that Pennzoil would entertain any proposal from Texaco including a possible preferred stock position in TExaco.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.8117680649695106</double>
+        <int name="end">148</int>
+        <double name="strength">0.7850993492326461</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earlier&lt;/em&gt; this year, a &lt;em&gt;Texas court&lt;/em&gt; of &lt;em&gt;appeals upheld Pennzoil&lt;/em&gt;'s &lt;em&gt;claim against Texaco, ruling&lt;/em&gt; that &lt;em&gt;Texaco unlawfully interfered&lt;/em&gt; with &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;merger agreement&lt;/em&gt; with &lt;em&gt;Getty Oil&lt;/em&gt;.</str>
+        <str name="text">Hugh &lt;em&gt;Liedtke&lt;/em&gt; told a &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;securities analysts&lt;/em&gt; that the &lt;em&gt;company&lt;/em&gt; will &lt;em&gt;consider&lt;/em&gt; any &lt;em&gt;realistic settlement offer&lt;/em&gt; in its 11.0 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;ongoing litigation&lt;/em&gt; with &lt;em&gt;Texaco&lt;/em&gt; Inc &lt;TX&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Earlier this year, a &lt;em&gt;Texas court&lt;/em&gt; of &lt;em&gt;appeals&lt;/em&gt; upheld &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;claim&lt;/em&gt; against &lt;em&gt;Texaco, ruling&lt;/em&gt; that Texaco unlawfully interfered with &lt;em&gt;Pennzoil&lt;/em&gt;'s &lt;em&gt;merger agreement&lt;/em&gt; with &lt;em&gt;Getty Oil&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Liedtke,&lt;/em&gt; who &lt;em&gt;earlier&lt;/em&gt; said the &lt;em&gt;company would&lt;/em&gt; have a &lt;em&gt;lower first quarter,&lt;/em&gt; also told &lt;em&gt;reporters&lt;/em&gt; that the &lt;em&gt;company expected lower earnings&lt;/em&gt; this year.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He did say, &lt;em&gt;however,&lt;/em&gt; that &lt;em&gt;Pennzoil would entertain&lt;/em&gt; any &lt;em&gt;proposal&lt;/em&gt; from &lt;em&gt;Texaco including&lt;/em&gt; a &lt;em&gt;possible preferred stock position&lt;/em&gt; in &lt;em&gt;TExaco&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Liedtke&lt;/em&gt; said it has become more &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;settle&lt;/em&gt; the case because the &lt;em&gt;courts&lt;/em&gt; continually rule in its &lt;em&gt;favor,&lt;/em&gt; raising the &lt;em&gt;stakes&lt;/em&gt; of any &lt;em&gt;agreement&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

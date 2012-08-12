@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-105.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">meeting</str>
+        <str name="text">years</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">talks</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">legislate</str>
+        <double name="strength">0.9999974585334087</double>
       </lst>
       <lst name="term">
-        <str name="text">members</str>
-        <double name="strength">0.5590169943749467</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9999969473939982</double>
       </lst>
       <lst name="term">
-        <str name="text">congress</str>
-        <double name="strength">0.5590169943749467</double>
+        <str name="text">negotiations</str>
+        <double name="strength">0.9999965182336291</double>
       </lst>
       <lst name="term">
-        <str name="text">brink</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">protectionist</str>
+        <double name="strength">0.9999964655653701</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He was talking to reporters yesterday on the eve of a two-day meeting of trade ministers which will review progress made by committees set up after the Uruguay meeting last September launched a new round of GATT (General Agreement on Tariffs and Trade) talks.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">260</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">European Community (EC) commissioner Willy de Clercq meanwhile told reporters conflict between the world's three major trading and economic powers -- the EC, the U.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">165</int>
-        <double name="strength">0.8518142991719705</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"They've also begun to realise that you cannot legislate solutions to a 170 billion dollar trade deficit so they are more realistic and, in my judgement, more responsible on that issue than they were 12 or 18 months ago."</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">0.9529229728251062</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The United States and Japan are on the brink of serious conflict on trade, especially over semiconductors, Japanese unwillingness for public bodies to buy U.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">157</int>
-        <double name="strength">0.7740820856710071</double>
+        <double name="strength">0.9447735250026168</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He was &lt;em&gt;talking&lt;/em&gt; to &lt;em&gt;reporters yesterday&lt;/em&gt; on the eve of a two-day &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;trade ministers which&lt;/em&gt; will &lt;em&gt;review progress&lt;/em&gt; made by &lt;em&gt;committees&lt;/em&gt; set up &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;Uruguay meeting&lt;/em&gt; last &lt;em&gt;September launched&lt;/em&gt; a new &lt;em&gt;round&lt;/em&gt; of GATT (&lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade) talks&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;commissioner Willy&lt;/em&gt; de &lt;em&gt;Clercq meanwhile&lt;/em&gt; told &lt;em&gt;reporters conflict between&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;three major trading&lt;/em&gt; and &lt;em&gt;economic powers --&lt;/em&gt; the EC, the U.</str>
+        <str name="text">&lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;commissioner&lt;/em&gt; Willy de &lt;em&gt;Clercq&lt;/em&gt; meanwhile told &lt;em&gt;reporters conflict&lt;/em&gt; between the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;three major trading&lt;/em&gt; and &lt;em&gt;economic powers --&lt;/em&gt; the EC, the U.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; are on the &lt;em&gt;brink&lt;/em&gt; of &lt;em&gt;serious conflict&lt;/em&gt; on &lt;em&gt;trade, especially&lt;/em&gt; over &lt;em&gt;semiconductors, Japanese unwillingness&lt;/em&gt; for &lt;em&gt;public bodies&lt;/em&gt; to buy U.</str>
+        <str name="text">"They've also begun to &lt;em&gt;realise&lt;/em&gt; that you cannot &lt;em&gt;legislate solutions&lt;/em&gt; to a 170 &lt;em&gt;billion dollar trade deficit&lt;/em&gt; so they are more &lt;em&gt;realistic&lt;/em&gt; and, in my &lt;em&gt;judgement,&lt;/em&gt; more &lt;em&gt;responsible&lt;/em&gt; on that &lt;em&gt;issue&lt;/em&gt; than they were 12 or 18 &lt;em&gt;months ago.&lt;/em&gt;"</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; are on the &lt;em&gt;brink&lt;/em&gt; of &lt;em&gt;serious conflict&lt;/em&gt; on &lt;em&gt;trade,&lt;/em&gt; especially over &lt;em&gt;semiconductors, Japanese unwillingness&lt;/em&gt; for &lt;em&gt;public bodies&lt;/em&gt; to buy U.</str>
         <int name="index">0</int>
       </lst>
     </lst>

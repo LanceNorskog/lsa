@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">27</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-607.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">dealing</str>
+        <str name="text">spend</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999994</double>
-      </lst>
-      <lst name="term">
-        <str name="text">companies</str>
-        <double name="strength">0.9999999999999989</double>
-      </lst>
-      <lst name="term">
-        <str name="text">active</str>
-        <double name="strength">0.5590169943749478</double>
       </lst>
       <lst name="term">
         <str name="text">number</str>
-        <double name="strength">0.5590169943749475</double>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">banks</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Banks and merchant banks accounted for 32 pct of the total, building societies 30 pct, life assurance companies 20 pct, insurance companies 11 pct and pension funds seven pct.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">176</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">K. Government bonds (gilts) and have become more active in the market since the deregulation of the London Stock Exchange in October, agency broker Capel-Cure Myers said in a survey.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">182</int>
-        <double name="strength">0.9007869036018868</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Rather than being a self-contained, specialised group of dealers who spend all their time searching for prices, the definition now appears to be the less formal idea of a multi-purpose fund manager, it said.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.8629248960473486</double>
+        <double name="strength">0.8414299973892276</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Banks and merchant banks accounted for 32 pct of the total, building societies 30 pct, life assurance companies 20 pct, insurance companies 11 pct and pension funds seven pct.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.7639427535248587</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Banks&lt;/em&gt; and &lt;em&gt;merchant banks accounted&lt;/em&gt; for 32 pct of the &lt;em&gt;total, building societies 30&lt;/em&gt; pct, life &lt;em&gt;assurance companies 20&lt;/em&gt; pct, &lt;em&gt;insurance companies 11&lt;/em&gt; pct and &lt;em&gt;pension funds seven pct&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Government bonds (gilts)&lt;/em&gt; and have &lt;em&gt;become&lt;/em&gt; more &lt;em&gt;active&lt;/em&gt; in the &lt;em&gt;market since&lt;/em&gt; the &lt;em&gt;deregulation&lt;/em&gt; of the &lt;em&gt;London Stock Exchange&lt;/em&gt; in &lt;em&gt;October, agency broker Capel&lt;/em&gt;-Cure &lt;em&gt;Myers&lt;/em&gt; said in a &lt;em&gt;survey&lt;/em&gt;.</str>
+        <str name="text">K. &lt;em&gt;Government bonds (gilts)&lt;/em&gt; and have become more &lt;em&gt;active&lt;/em&gt; in the &lt;em&gt;market&lt;/em&gt; since the &lt;em&gt;deregulation&lt;/em&gt; of the &lt;em&gt;London Stock Exchange&lt;/em&gt; in &lt;em&gt;October, agency broker Capel&lt;/em&gt;-Cure &lt;em&gt;Myers&lt;/em&gt; said in a &lt;em&gt;survey&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rather&lt;/em&gt; than &lt;em&gt;being&lt;/em&gt; a self-&lt;em&gt;contained, specialised group&lt;/em&gt; of &lt;em&gt;dealers&lt;/em&gt; who &lt;em&gt;spend&lt;/em&gt; all &lt;em&gt;their&lt;/em&gt; time &lt;em&gt;searching&lt;/em&gt; for &lt;em&gt;prices,&lt;/em&gt; the &lt;em&gt;definition&lt;/em&gt; now &lt;em&gt;appears&lt;/em&gt; to be the less &lt;em&gt;formal&lt;/em&gt; idea of a &lt;em&gt;multi-purpose&lt;/em&gt; fund &lt;em&gt;manager,&lt;/em&gt; it said.</str>
+        <str name="text">Rather than being a self-contained, &lt;em&gt;specialised group&lt;/em&gt; of &lt;em&gt;dealers&lt;/em&gt; who &lt;em&gt;spend&lt;/em&gt; all their time searching for &lt;em&gt;prices,&lt;/em&gt; the &lt;em&gt;definition&lt;/em&gt; now appears to be the less &lt;em&gt;formal&lt;/em&gt; idea of a &lt;em&gt;multi-purpose&lt;/em&gt; fund &lt;em&gt;manager,&lt;/em&gt; it said.</str>
         <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Banks&lt;/em&gt; and &lt;em&gt;merchant banks&lt;/em&gt; accounted for 32 pct of the &lt;em&gt;total, building societies 30&lt;/em&gt; pct, life &lt;em&gt;assurance companies 20&lt;/em&gt; pct, &lt;em&gt;insurance companies 11&lt;/em&gt; pct and &lt;em&gt;pension funds seven pct&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

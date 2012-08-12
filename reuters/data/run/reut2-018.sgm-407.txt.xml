@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-407.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">concerned</str>
+        <str name="text">period</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">1.0</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">normal</str>
-        <double name="strength">0.559016994374946</double>
+        <str name="text">meteorologist</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">contend</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">dryness</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">weeks</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">237</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Weatherwise, if the market is truly concerned about corn or soybeans, it should be more concerned about corn.</str>
-        <int name="index">15</int>
+        <str name="text">The USDA meteorologist said the only effects of the warm, dy weather on crops so far has probably been to speed up development of the crop, which will help the crop better cope with stress later in its more critical growing period.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">111</int>
-        <double name="strength">0.9644787287218753</double>
+        <int name="end">232</int>
+        <double name="strength">0.7445763405866898</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some analysts contend, however, that in certain growing areas the crop has not been receiving enough moisture to ensure that there will not be problems later.</str>
-        <int name="index">20</int>
+        <str name="text">But because of its early development this year, Strommen said the midwestern corn crop could enter its reproduction period by the first of July.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.8228104564374007</double>
+        <int name="end">145</int>
+        <double name="strength">0.6730057880401384</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Abnormally&lt;/em&gt; hot, dry &lt;em&gt;weather&lt;/em&gt; in &lt;em&gt;midwestern&lt;/em&gt; crop &lt;em&gt;areas sparked&lt;/em&gt; a &lt;em&gt;sharp rally&lt;/em&gt; in &lt;em&gt;Chicago futures today, causing&lt;/em&gt; new crop &lt;em&gt;soybeans&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; the 30 cent &lt;em&gt;daily limit&lt;/em&gt; to 6.14 dlrs per &lt;em&gt;bushel&lt;/em&gt; and &lt;em&gt;September&lt;/em&gt; corn to go up 12 &lt;em&gt;cents&lt;/em&gt; to 2.81 dlrs.</str>
+        <str name="text">Abnormally hot, dry &lt;em&gt;weather&lt;/em&gt; in &lt;em&gt;midwestern&lt;/em&gt; crop &lt;em&gt;areas&lt;/em&gt; sparked a &lt;em&gt;sharp rally&lt;/em&gt; in &lt;em&gt;Chicago futures today,&lt;/em&gt; causing new crop &lt;em&gt;soybeans&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; the 30 cent &lt;em&gt;daily limit&lt;/em&gt; to 6.14 dlrs per &lt;em&gt;bushel&lt;/em&gt; and &lt;em&gt;September&lt;/em&gt; corn to go up 12 &lt;em&gt;cents&lt;/em&gt; to 2.81 dlrs.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Weatherwise,&lt;/em&gt; if the &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;truly concerned about&lt;/em&gt; corn or &lt;em&gt;soybeans,&lt;/em&gt; it &lt;em&gt;should&lt;/em&gt; be more &lt;em&gt;concerned about corn&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">The USDA &lt;em&gt;meteorologist&lt;/em&gt; said the only &lt;em&gt;effects&lt;/em&gt; of the warm, dy &lt;em&gt;weather&lt;/em&gt; on &lt;em&gt;crops&lt;/em&gt; so far has probably been to &lt;em&gt;speed&lt;/em&gt; up &lt;em&gt;development&lt;/em&gt; of the crop, which will help the crop better cope with &lt;em&gt;stress&lt;/em&gt; later in its more &lt;em&gt;critical growing period&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;analysts contend, however,&lt;/em&gt; that in &lt;em&gt;certain growing areas&lt;/em&gt; the crop has not been &lt;em&gt;receiving enough moisture&lt;/em&gt; to &lt;em&gt;ensure&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; will not be &lt;em&gt;problems later&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">But because of its &lt;em&gt;early development&lt;/em&gt; this year, Strommen said the &lt;em&gt;midwestern&lt;/em&gt; corn crop could &lt;em&gt;enter&lt;/em&gt; its &lt;em&gt;reproduction period&lt;/em&gt; by the &lt;em&gt;first&lt;/em&gt; of July.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-202.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">167</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">116</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">provisions</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tightened</str>
-        <double name="strength">1.0</double>
+        <str name="text">growers</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">headquarters</str>
-        <double name="strength">1.0</double>
+        <str name="text">international</str>
+        <double name="strength">0.996090031691097</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">1.0</double>
+        <str name="text">rises</str>
+        <double name="strength">0.9960900316910967</double>
       </lst>
       <lst name="term">
-        <str name="text">enter</str>
-        <double name="strength">1.0</double>
+        <str name="text">lanka</str>
+        <double name="strength">0.9960900316910966</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"With the INRA's ability to keep prices at a certain stable level, consumers are assured of rubber at almost a fixed price, while producers may never see sharp price rises," a Malaysian Rubber Producers Council source told Reuters.</str>
-        <int name="index">17</int>
+        <str name="text">Malaysian Primary Industries Minister Lim Keng Yaik said the formal adoption of a new pact had dispelled fears of liquidation of some 360,000 tonnes of INRA buffer stock rubber and a possible depression of prices.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.9052628288917831</double>
+        <int name="end">214</int>
+        <double name="strength">0.8987725180099841</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">N. Headquarters in New York from May 1 to December 31 this year and will enter into force provisionally when ratified by countries accounting for 75 pct of world rubber exports and 75 pct of world imports.</str>
-        <int name="index">5</int>
-        <int name="start">0</int>
-        <int name="end">205</int>
-        <double name="strength">0.8744579459240327</double>
+        <str name="text">But traders and growers said they were against the new pact because its buffer stock mechanism was likely to interefere with free market forces and prevent sharp rubber price rises.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">182</int>
+        <double name="strength">0.7594548371201228</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Governments&lt;/em&gt; of &lt;em&gt;major Asian producing countries&lt;/em&gt; have &lt;em&gt;welcomed&lt;/em&gt; the &lt;em&gt;conclusion&lt;/em&gt; of a new &lt;em&gt;International Natural Rubber Agreement &lt;/em&gt;(INRA), but &lt;em&gt;growers&lt;/em&gt; and &lt;em&gt;traders&lt;/em&gt; are &lt;em&gt;unhappy&lt;/em&gt; with the &lt;em&gt;development, according&lt;/em&gt; to &lt;em&gt;views polled&lt;/em&gt; by &lt;em&gt;Reuter correspondents&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Governments&lt;/em&gt; of &lt;em&gt;major Asian&lt;/em&gt; producing &lt;em&gt;countries&lt;/em&gt; have welcomed the &lt;em&gt;conclusion&lt;/em&gt; of a new &lt;em&gt;International Natural Rubber Agreement &lt;/em&gt;(INRA), but &lt;em&gt;growers&lt;/em&gt; and &lt;em&gt;traders&lt;/em&gt; are &lt;em&gt;unhappy&lt;/em&gt; with the &lt;em&gt;development,&lt;/em&gt; according to &lt;em&gt;views&lt;/em&gt; polled by &lt;em&gt;Reuter correspondents&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"With the INRA's &lt;em&gt;ability&lt;/em&gt; to keep &lt;em&gt;prices&lt;/em&gt; at a &lt;em&gt;certain stable level, consumers&lt;/em&gt; are &lt;em&gt;assured&lt;/em&gt; of &lt;em&gt;rubber&lt;/em&gt; at &lt;em&gt;almost&lt;/em&gt; a &lt;em&gt;fixed price, while producers&lt;/em&gt; may &lt;em&gt;never&lt;/em&gt; see &lt;em&gt;sharp price rises,"&lt;/em&gt; a &lt;em&gt;Malaysian Rubber Producers Council source&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Malaysian Primary Industries Minister&lt;/em&gt; Lim Keng Yaik said the &lt;em&gt;formal adoption&lt;/em&gt; of a new pact had dispelled &lt;em&gt;fears&lt;/em&gt; of &lt;em&gt;liquidation&lt;/em&gt; of some 360,000 &lt;em&gt;tonnes&lt;/em&gt; of INRA &lt;em&gt;buffer stock rubber&lt;/em&gt; and a &lt;em&gt;possible depression&lt;/em&gt; of &lt;em&gt;prices&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">N. &lt;em&gt;Headquarters&lt;/em&gt; in New York from May 1 to &lt;em&gt;December 31&lt;/em&gt; this year and will &lt;em&gt;enter&lt;/em&gt; into &lt;em&gt;force provisionally&lt;/em&gt; when &lt;em&gt;ratified&lt;/em&gt; by &lt;em&gt;countries accounting&lt;/em&gt; for 75 pct of &lt;em&gt;world rubber exports&lt;/em&gt; and 75 pct of &lt;em&gt;world imports&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">But &lt;em&gt;traders&lt;/em&gt; and &lt;em&gt;growers&lt;/em&gt; said they were against the new pact because its &lt;em&gt;buffer stock mechanism&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;interefere&lt;/em&gt; with free &lt;em&gt;market forces&lt;/em&gt; and &lt;em&gt;prevent sharp rubber price rises&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

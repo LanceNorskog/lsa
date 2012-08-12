@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-226.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">impact</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">overall</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">points</str>
-        <double name="strength">1.0</double>
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">indicate</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">forecast</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">partial</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">depreciation</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"The government initially forecast a current account deficit for 1986/87 of 14.75 billion -- our present expectation is that the result will be somewhat lower, around 14 billion," he said.</str>
-        <int name="index">5</int>
+        <str name="text">"As the impact of the exchange rate depreciations of recent years recede further, and given continued effective wage restraint, inflation should moderate markedly in 1987/88," he said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">189</int>
+        <int name="end">185</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The August budget had forecast domestic demand would contribute 0.75 percentage points to non-farm gdp growth of 2.5 pct while net exports would account for 1.75 points.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.9996544882333487</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Keating said the overall impact of the changed economic parameters is welcome as it appears to have contributed to a slightly more rapid correction in the current account deficit than first anticipated.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">203</int>
-        <double name="strength">0.9273446897510228</double>
+        <double name="strength">0.9727979326426994</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, he did not say in his speech to the Economic Planning Advisory Council (EPAC) if the forecast 2.25 pct rise in gross domestic product (gdp) had been revised.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.8664788174958035</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;government initially forecast&lt;/em&gt; a &lt;em&gt;current account deficit&lt;/em&gt; for 1986/87 of 14.75 &lt;em&gt;billion --&lt;/em&gt; our &lt;em&gt;present expectation&lt;/em&gt; is that the &lt;em&gt;result&lt;/em&gt; will be &lt;em&gt;somewhat lower, around 14 billion,"&lt;/em&gt; he said.</str>
-        <int name="index">5</int>
+        <str name="text">"As the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;depreciations&lt;/em&gt; of &lt;em&gt;recent years recede further,&lt;/em&gt; and given continued &lt;em&gt;effective&lt;/em&gt; wage &lt;em&gt;restraint, inflation&lt;/em&gt; should &lt;em&gt;moderate&lt;/em&gt; markedly in 1987/88," he said.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;August budget&lt;/em&gt; had &lt;em&gt;forecast domestic demand would contribute 0.75 percentage points&lt;/em&gt; to non-farm gdp &lt;em&gt;growth&lt;/em&gt; of 2.5 pct &lt;em&gt;while&lt;/em&gt; net &lt;em&gt;exports would account&lt;/em&gt; for 1.75 &lt;em&gt;points&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Keating&lt;/em&gt; said the &lt;em&gt;overall impact&lt;/em&gt; of the &lt;em&gt;changed economic parameters&lt;/em&gt; is &lt;em&gt;welcome&lt;/em&gt; as it &lt;em&gt;appears&lt;/em&gt; to have &lt;em&gt;contributed&lt;/em&gt; to a &lt;em&gt;slightly&lt;/em&gt; more &lt;em&gt;rapid correction&lt;/em&gt; in the &lt;em&gt;current account deficit&lt;/em&gt; than &lt;em&gt;first anticipated&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Keating&lt;/em&gt; said the &lt;em&gt;overall impact&lt;/em&gt; of the &lt;em&gt;changed economic parameters&lt;/em&gt; is &lt;em&gt;welcome&lt;/em&gt; as it appears to have contributed to a slightly more &lt;em&gt;rapid correction&lt;/em&gt; in the &lt;em&gt;current account deficit&lt;/em&gt; than &lt;em&gt;first anticipated&lt;/em&gt;.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, he did not say in his &lt;em&gt;speech&lt;/em&gt; to the &lt;em&gt;Economic Planning Advisory Council &lt;/em&gt;(EPAC) if the &lt;em&gt;forecast 2.25&lt;/em&gt; pct rise in &lt;em&gt;gross domestic product &lt;/em&gt;(gdp) had been revised.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-610.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">144</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reduce</str>
+        <str name="text">foreign</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">better</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">being</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">capacity</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
         <str name="text">planning</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">shortfall</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">department</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">282</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The promotion policy is geared to make sure that both foreign investment and local private capital come more into play as far as manufacturing capacity is concerned," Tigrel said.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">179</int>
+        <double name="strength">0.8405853430615363</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Trade had been liberalised and a freer exchange rate policy applied, but he acknowledged there was more to be done in a country where the state still dominates industry and the currency is only partially convertible.</str>
         <int name="index">17</int>
         <int name="start">0</int>
         <int name="end">216</int>
-        <double name="strength">0.8557013551920238</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Turkey expects a 1986 balance of payments deficit of 1.5 billion dlrs, well over target, but is taking steps to improve its performance in this and other fields, Ali Tigrel, director of economic planning at the State Planning Organisation said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">244</int>
-        <double name="strength">0.7973216577049872</double>
+        <double name="strength">0.7877079113971771</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">His &lt;em&gt;comment echoed&lt;/em&gt; last &lt;em&gt;October&lt;/em&gt;'s &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development report&lt;/em&gt; on &lt;em&gt;Turkey, which&lt;/em&gt; said &lt;em&gt;Ankara&lt;/em&gt;'s case for more &lt;em&gt;medium&lt;/em&gt;-term &lt;em&gt;financing&lt;/em&gt; on &lt;em&gt;better terms would&lt;/em&gt; look &lt;em&gt;better&lt;/em&gt; if &lt;em&gt;inflation&lt;/em&gt; were &lt;em&gt;lower&lt;/em&gt; and the &lt;em&gt;current account deficit&lt;/em&gt; cut or &lt;em&gt;turned&lt;/em&gt; into a &lt;em&gt;surplus&lt;/em&gt;.</str>
+        <str name="text">His &lt;em&gt;comment&lt;/em&gt; echoed last &lt;em&gt;October&lt;/em&gt;'s &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development report&lt;/em&gt; on &lt;em&gt;Turkey,&lt;/em&gt; which said Ankara's case for more &lt;em&gt;medium&lt;/em&gt;-term &lt;em&gt;financing&lt;/em&gt; on better &lt;em&gt;terms&lt;/em&gt; would look better if &lt;em&gt;inflation&lt;/em&gt; were lower and the &lt;em&gt;current account deficit&lt;/em&gt; cut or turned into a &lt;em&gt;surplus&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Trade&lt;/em&gt; had been &lt;em&gt;liberalised&lt;/em&gt; and a &lt;em&gt;freer exchange&lt;/em&gt; rate &lt;em&gt;policy applied,&lt;/em&gt; but he &lt;em&gt;acknowledged there&lt;/em&gt; was more to be done in a &lt;em&gt;country where&lt;/em&gt; the &lt;em&gt;state still dominates industry&lt;/em&gt; and the &lt;em&gt;currency&lt;/em&gt; is only &lt;em&gt;partially convertible&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">The &lt;em&gt;promotion policy&lt;/em&gt; is geared to make sure that both &lt;em&gt;foreign investment&lt;/em&gt; and &lt;em&gt;local private capital&lt;/em&gt; come more into play as far as &lt;em&gt;manufacturing capacity&lt;/em&gt; is &lt;em&gt;concerned," Tigrel said&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Turkey expects&lt;/em&gt; a 1986 &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments deficit&lt;/em&gt; of 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs, well over &lt;em&gt;target,&lt;/em&gt; but is &lt;em&gt;taking steps&lt;/em&gt; to &lt;em&gt;improve&lt;/em&gt; its &lt;em&gt;performance&lt;/em&gt; in this and &lt;em&gt;other fields,&lt;/em&gt; Ali &lt;em&gt;Tigrel, director&lt;/em&gt; of &lt;em&gt;economic planning&lt;/em&gt; at the &lt;em&gt;State Planning Organisation said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Trade&lt;/em&gt; had been liberalised and a freer &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;policy&lt;/em&gt; applied, but he acknowledged there was more to be done in a &lt;em&gt;country&lt;/em&gt; where the &lt;em&gt;state&lt;/em&gt; still dominates &lt;em&gt;industry&lt;/em&gt; and the &lt;em&gt;currency&lt;/em&gt; is only partially &lt;em&gt;convertible&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

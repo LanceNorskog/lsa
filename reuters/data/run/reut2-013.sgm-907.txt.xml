@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-907.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">semiconductors</str>
+        <str name="text">ministers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">reagan</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">involvement</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">strongly</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">supported</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The EC charges the accord breached GATT trade rules by allowing Tokyo to set minimum prices for Japanese chips sold in third countries and is requesting a GATT dispute panel be set up to review the agreement.</str>
-        <int name="index">15</int>
-        <int name="start">0</int>
-        <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Smith, who flies to Brussels today for talks with European Community (EC) officials, told Reuters the committee wanted to stress GATT's importance and did not discuss specifics.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.9555900799166299</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Deputy Trade Representative Michael Smith at a special committee meeting into the future of GATT follows a series of bilateral trade rows which have clouded efforts by the 93-nation body to promote fair trade.</str>
-        <int name="index">2</int>
+        <str name="text">The EC charges the accord breached GATT trade rules by allowing Tokyo to set minimum prices for Japanese chips sold in third countries and is requesting a GATT dispute panel be set up to review the agreement.</str>
+        <int name="index">15</int>
         <int name="start">0</int>
-        <int name="end">212</int>
-        <double name="strength">0.9339984564291256</double>
+        <int name="end">208</int>
+        <double name="strength">0.9757004584300772</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The GATT as an institution needs to be strengthened to assure that the GATT plays its proper role in management of the world trading system and the global economy," Smith said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.763647524493542</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The EC &lt;em&gt;charges&lt;/em&gt; the &lt;em&gt;accord breached&lt;/em&gt; GATT &lt;em&gt;trade rules&lt;/em&gt; by &lt;em&gt;allowing Tokyo&lt;/em&gt; to set &lt;em&gt;minimum prices&lt;/em&gt; for &lt;em&gt;Japanese chips&lt;/em&gt; sold in &lt;em&gt;third countries&lt;/em&gt; and is &lt;em&gt;requesting&lt;/em&gt; a GATT &lt;em&gt;dispute panel&lt;/em&gt; be set up to &lt;em&gt;review&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Smith,&lt;/em&gt; who &lt;em&gt;flies&lt;/em&gt; to &lt;em&gt;Brussels today&lt;/em&gt; for &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;officials,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; the &lt;em&gt;committee wanted&lt;/em&gt; to &lt;em&gt;stress&lt;/em&gt; GATT's &lt;em&gt;importance&lt;/em&gt; and did not &lt;em&gt;discuss specifics&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Smith,&lt;/em&gt; who flies to &lt;em&gt;Brussels today&lt;/em&gt; for &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;officials,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; the &lt;em&gt;committee&lt;/em&gt; wanted to &lt;em&gt;stress&lt;/em&gt; GATT's &lt;em&gt;importance&lt;/em&gt; and did not &lt;em&gt;discuss specifics&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Deputy Trade Representative Michael Smith&lt;/em&gt; at a &lt;em&gt;special committee meeting&lt;/em&gt; into the &lt;em&gt;future&lt;/em&gt; of GATT &lt;em&gt;follows&lt;/em&gt; a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;bilateral trade&lt;/em&gt; rows &lt;em&gt;which&lt;/em&gt; have &lt;em&gt;clouded efforts&lt;/em&gt; by the 93-&lt;em&gt;nation&lt;/em&gt; body to &lt;em&gt;promote&lt;/em&gt; fair &lt;em&gt;trade&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The EC charges the &lt;em&gt;accord&lt;/em&gt; breached GATT &lt;em&gt;trade rules&lt;/em&gt; by allowing &lt;em&gt;Tokyo&lt;/em&gt; to set &lt;em&gt;minimum prices&lt;/em&gt; for &lt;em&gt;Japanese chips&lt;/em&gt; sold in &lt;em&gt;third countries&lt;/em&gt; and is requesting a GATT &lt;em&gt;dispute panel&lt;/em&gt; be set up to &lt;em&gt;review&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The GATT as an &lt;em&gt;institution&lt;/em&gt; needs to be strengthened to &lt;em&gt;assure&lt;/em&gt; that the GATT plays its &lt;em&gt;proper&lt;/em&gt; role in &lt;em&gt;management&lt;/em&gt; of the &lt;em&gt;world trading system&lt;/em&gt; and the &lt;em&gt;global economy," Smith said&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

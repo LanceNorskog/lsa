@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-594.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cents</str>
+        <str name="text">taikoo</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">during</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">shing</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">flats</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">continued</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">extraordinary</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">people</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Share analysts said Swire will set a 36 cent final dividend for its "A" shares, making a total of 54 cents, after 47 cents adjusted for a two-for-one bonus issue in 1985.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Swire's trading and manufacturing operations are expected to earn 300 mln dlrs, up 22 pct from 1985 but its shipping and offshore services are likely to post a small loss of about 10 mln dlrs because of depressed market conditions.</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">0.9545646330778763</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Swire is developing a large commercial and hotel complex in the central business district of Hong Kong but it will not provide income until the first stage is completed next year.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.9226987259399104</double>
+        <double name="strength">0.98029955343587</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company also sold three properties and a part interest in a proposed hotel development, which should result in extraordinary gains of 60 mln dlrs in 1986, according to James Capel (Far East) Ltd.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">0.8091236516812653</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Share analysts&lt;/em&gt; said &lt;em&gt;Swire&lt;/em&gt; will set a 36 cent &lt;em&gt;final dividend&lt;/em&gt; for its "A" &lt;em&gt;shares, making&lt;/em&gt; a &lt;em&gt;total&lt;/em&gt; of 54 &lt;em&gt;cents, after 47 cents adjusted&lt;/em&gt; for a two-for-one &lt;em&gt;bonus issue in 1985&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Swire&lt;/em&gt;'s &lt;em&gt;trading&lt;/em&gt; and &lt;em&gt;manufacturing operations&lt;/em&gt; are &lt;em&gt;expected&lt;/em&gt; to earn 300 mln dlrs, up 22 pct from 1985 but its &lt;em&gt;shipping&lt;/em&gt; and &lt;em&gt;offshore services&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to post a &lt;em&gt;small&lt;/em&gt; loss of &lt;em&gt;about 10&lt;/em&gt; mln dlrs &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;depressed market conditions&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Swire&lt;/em&gt;'s &lt;em&gt;trading&lt;/em&gt; and &lt;em&gt;manufacturing operations&lt;/em&gt; are expected to earn 300 mln dlrs, up 22 pct from 1985 but its &lt;em&gt;shipping&lt;/em&gt; and &lt;em&gt;offshore services&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to post a &lt;em&gt;small&lt;/em&gt; loss of about 10 mln dlrs because of &lt;em&gt;depressed market conditions&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Swire&lt;/em&gt; is &lt;em&gt;developing&lt;/em&gt; a &lt;em&gt;large commercial&lt;/em&gt; and &lt;em&gt;hotel complex&lt;/em&gt; in the &lt;em&gt;central business district&lt;/em&gt; of Hong Kong but it will not &lt;em&gt;provide income until&lt;/em&gt; the &lt;em&gt;first stage&lt;/em&gt; is &lt;em&gt;completed&lt;/em&gt; next year.</str>
+        <str name="text">&lt;em&gt;Swire&lt;/em&gt; is developing a &lt;em&gt;large commercial&lt;/em&gt; and &lt;em&gt;hotel complex&lt;/em&gt; in the &lt;em&gt;central business district&lt;/em&gt; of Hong Kong but it will not &lt;em&gt;provide income&lt;/em&gt; until the &lt;em&gt;first stage&lt;/em&gt; is completed next year.</str>
         <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; also sold &lt;em&gt;three properties&lt;/em&gt; and a part &lt;em&gt;interest&lt;/em&gt; in a proposed &lt;em&gt;hotel development,&lt;/em&gt; which should &lt;em&gt;result&lt;/em&gt; in &lt;em&gt;extraordinary gains&lt;/em&gt; of 60 mln dlrs in 1986, according to &lt;em&gt;James Capel &lt;/em&gt;(Far East) Ltd.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-778.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">chance</str>
+        <str name="text">reuters</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">visit</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">british</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">ministers</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">looking</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">forward</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">executive</str>
+        <double name="strength">0.9349502295220493</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"As the largest airline in Europe, and with the sophisticated computer systems we have to help us with yield and load factors management, I think we have a very good chance, if not the best chance, of doing well in a liberalized situation in Europe," Marshall said.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">266</int>
+        <str name="text">British Airways is looking forward to industry deregulation in Europe and believes it will be a smoother transition than the turmoil that followed the opening of the U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">168</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">This is because an SAS-Sabena merger could be a test case to determine whether countries are willing to allow landing rights to be transferred from one carrier to another, he said.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.86585685695245</double>
+        <double name="strength">0.9982136435885952</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">British Airways is looking forward to industry deregulation in Europe and believes it will be a smoother transition than the turmoil that followed the opening of the U.</str>
-        <int name="index">0</int>
+        <str name="text">But passengers taking return flights or from other countries pay higher, regulated prices.</str>
+        <int name="index">16</int>
         <int name="start">0</int>
-        <int name="end">168</int>
-        <double name="strength">0.8573501393525197</double>
+        <int name="end">90</int>
+        <double name="strength">0.9935342282307293</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"As the &lt;em&gt;largest airline&lt;/em&gt; in &lt;em&gt;Europe,&lt;/em&gt; and with the &lt;em&gt;sophisticated computer systems&lt;/em&gt; we have to help us with &lt;em&gt;yield&lt;/em&gt; and load &lt;em&gt;factors management,&lt;/em&gt; I &lt;em&gt;think&lt;/em&gt; we have a very good &lt;em&gt;chance,&lt;/em&gt; if not the best &lt;em&gt;chance,&lt;/em&gt; of &lt;em&gt;doing&lt;/em&gt; well in a &lt;em&gt;liberalized situation&lt;/em&gt; in &lt;em&gt;Europe," Marshall said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;British Airways&lt;/em&gt; is looking forward to &lt;em&gt;industry deregulation&lt;/em&gt; in &lt;em&gt;Europe&lt;/em&gt; and believes it will be a &lt;em&gt;smoother transition&lt;/em&gt; than the &lt;em&gt;turmoil&lt;/em&gt; that followed the &lt;em&gt;opening&lt;/em&gt; of the U.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This is &lt;em&gt;because&lt;/em&gt; an SAS-&lt;em&gt;Sabena merger could&lt;/em&gt; be a test case to &lt;em&gt;determine whether countries&lt;/em&gt; are &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;allow landing rights&lt;/em&gt; to be &lt;em&gt;transferred&lt;/em&gt; from one &lt;em&gt;carrier&lt;/em&gt; to &lt;em&gt;another,&lt;/em&gt; he said.</str>
+        <str name="text">This is because an SAS-&lt;em&gt;Sabena merger&lt;/em&gt; could be a test case to &lt;em&gt;determine&lt;/em&gt; whether &lt;em&gt;countries&lt;/em&gt; are &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;allow landing rights&lt;/em&gt; to be transferred from one &lt;em&gt;carrier&lt;/em&gt; to another, he said.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;British Airways&lt;/em&gt; is &lt;em&gt;looking forward&lt;/em&gt; to &lt;em&gt;industry deregulation&lt;/em&gt; in &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;believes&lt;/em&gt; it will be a &lt;em&gt;smoother transition&lt;/em&gt; than the &lt;em&gt;turmoil&lt;/em&gt; that &lt;em&gt;followed&lt;/em&gt; the &lt;em&gt;opening&lt;/em&gt; of the U.</str>
-        <int name="index">0</int>
+        <str name="text">But &lt;em&gt;passengers&lt;/em&gt; taking &lt;em&gt;return flights&lt;/em&gt; or from &lt;em&gt;other countries&lt;/em&gt; pay higher, &lt;em&gt;regulated prices&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

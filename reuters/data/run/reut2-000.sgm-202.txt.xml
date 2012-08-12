@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-202.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">164</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">106</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">suggest</str>
+        <str name="text">johnson</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">voted</str>
-        <double name="strength">1.0</double>
+        <str name="text">large</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">existing</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">national</str>
+        <double name="strength">0.9840716504496525</double>
       </lst>
       <lst name="term">
-        <str name="text">pressure</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">security</str>
+        <double name="strength">0.9840716504496522</double>
       </lst>
       <lst name="term">
-        <str name="text">central</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">bannon</str>
+        <double name="strength">0.9840716504496522</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">219</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Latest Federal Reserve data suggest that the central bank voted to maintain the existing degree of pressure on banking reserves at its regular policy-making meeting two weeks ago, money market economists said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">209</int>
-        <double name="strength">0.9243531499688373</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Although Volcker's statement last Thursday allayed most fears that the Fed had marginally tightened its grip on reserves to help an ailing dollar, many economists still wanted confirmation of a steady policy in today's data, which covered the two-week bank statement period ended yesterday.</str>
-        <int name="index">3</int>
+        <str name="text">This need for additional reassurance was made all the more acute by the Fed's decision yesterday to drain reserves from the banking system by arranging overnight matched sale-purchase agreements for the first time since April of last year, economists added.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">291</int>
-        <double name="strength">0.8969499671636473</double>
+        <int name="end">258</int>
+        <double name="strength">0.9571492435953654</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Looking ahead, economists said the Fed will have to tread a fine line between the dollar's progress in the international currency markets and the development of the domestic economy.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.8041199426005295</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After&lt;/em&gt; the Fed &lt;em&gt;declined&lt;/em&gt; to &lt;em&gt;assign&lt;/em&gt; a 1987 &lt;em&gt;target growth range&lt;/em&gt; to the &lt;em&gt;wayward&lt;/em&gt; M-1 &lt;em&gt;money supply measure&lt;/em&gt; last week, &lt;em&gt;little attention&lt;/em&gt; was paid to a &lt;em&gt;steeper&lt;/em&gt;-than-&lt;em&gt;anticipated 2.1 billion&lt;/em&gt; dlr jump in the week &lt;em&gt;ended February 16&lt;/em&gt;.</str>
+        <str name="text">After the Fed declined to &lt;em&gt;assign&lt;/em&gt; a 1987 &lt;em&gt;target growth range&lt;/em&gt; to the &lt;em&gt;wayward&lt;/em&gt; M-1 &lt;em&gt;money supply measure&lt;/em&gt; last week, &lt;em&gt;little attention&lt;/em&gt; was paid to a &lt;em&gt;steeper&lt;/em&gt;-than-anticipated 2.1 &lt;em&gt;billion&lt;/em&gt; dlr jump in the week ended &lt;em&gt;February 16&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Latest Federal Reserve&lt;/em&gt; data &lt;em&gt;suggest&lt;/em&gt; that the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;voted&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; the &lt;em&gt;existing degree&lt;/em&gt; of &lt;em&gt;pressure&lt;/em&gt; on &lt;em&gt;banking reserves&lt;/em&gt; at its &lt;em&gt;regular policy-making meeting&lt;/em&gt; two &lt;em&gt;weeks&lt;/em&gt; ago, &lt;em&gt;money market economists said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">This need for &lt;em&gt;additional reassurance&lt;/em&gt; was made all the more &lt;em&gt;acute&lt;/em&gt; by the Fed's &lt;em&gt;decision yesterday&lt;/em&gt; to &lt;em&gt;drain reserves&lt;/em&gt; from the &lt;em&gt;banking system&lt;/em&gt; by arranging &lt;em&gt;overnight&lt;/em&gt; matched sale-&lt;em&gt;purchase agreements&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time since &lt;em&gt;April&lt;/em&gt; of last year, &lt;em&gt;economists added&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although Volcker&lt;/em&gt;'s &lt;em&gt;statement&lt;/em&gt; last &lt;em&gt;Thursday allayed&lt;/em&gt; most &lt;em&gt;fears&lt;/em&gt; that the Fed had &lt;em&gt;marginally tightened&lt;/em&gt; its grip on &lt;em&gt;reserves&lt;/em&gt; to help an &lt;em&gt;ailing dollar,&lt;/em&gt; many &lt;em&gt;economists still wanted confirmation&lt;/em&gt; of a &lt;em&gt;steady policy&lt;/em&gt; in &lt;em&gt;today&lt;/em&gt;'s data, &lt;em&gt;which covered&lt;/em&gt; the two-week bank &lt;em&gt;statement period ended yesterday&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Looking ahead, &lt;em&gt;economists&lt;/em&gt; said the Fed will have to &lt;em&gt;tread&lt;/em&gt; a fine line between the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;progress&lt;/em&gt; in the &lt;em&gt;international currency markets&lt;/em&gt; and the &lt;em&gt;development&lt;/em&gt; of the &lt;em&gt;domestic economy&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

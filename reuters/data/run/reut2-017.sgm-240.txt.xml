@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-240.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">54</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tonnes</str>
+        <str name="text">north</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sugar</str>
-        <double name="strength">0.7905694150420958</double>
+        <str name="text">central</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">soaking</str>
-        <double name="strength">0.7071067811865492</double>
+        <str name="text">coastal</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">relieved</str>
-        <double name="strength">0.7071067811865492</double>
+        <str name="text">fringe</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">following</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">recent</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">196</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Good soaking rain is boosting the sugar cane crop in the key Mackay region of Queensland following a prolonged dry spell relieved only by intermittent falls, an Australian Sugar Producers Association spokesman told Reuters.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">223</int>
-        <double name="strength">0.9468889966883715</double>
+        <str name="text">But any decline will not be as great as seemed likely a couple of months ago when it appeared the Mackay-Burdekin crops were going to suffer badly, he said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.8206842494406472</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The rains began late last week, developed into heavy downpours over the weekend and are continuing today, he said from Brisbane.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">129</int>
-        <double name="strength">0.8884800194470517</double>
+        <double name="strength">0.80353635537962</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said the rain &lt;em&gt;missed&lt;/em&gt; the &lt;em&gt;Burdekin&lt;/em&gt; area, just to the &lt;em&gt;north&lt;/em&gt; of the &lt;em&gt;Mackay region&lt;/em&gt; on the &lt;em&gt;central Queensland coastal fringe, although recent light showers&lt;/em&gt; have &lt;em&gt;freshened&lt;/em&gt; the crop &lt;em&gt;there&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said the rain missed the &lt;em&gt;Burdekin&lt;/em&gt; area, just to the &lt;em&gt;north&lt;/em&gt; of the &lt;em&gt;Mackay region&lt;/em&gt; on the &lt;em&gt;central Queensland coastal fringe,&lt;/em&gt; although &lt;em&gt;recent light showers&lt;/em&gt; have freshened the crop there.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Good &lt;em&gt;soaking&lt;/em&gt; rain is &lt;em&gt;boosting&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; cane crop in the key &lt;em&gt;Mackay region&lt;/em&gt; of &lt;em&gt;Queensland following&lt;/em&gt; a &lt;em&gt;prolonged&lt;/em&gt; dry &lt;em&gt;spell relieved&lt;/em&gt; only by &lt;em&gt;intermittent falls,&lt;/em&gt; an &lt;em&gt;Australian Sugar Producers Association spokesman&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">But any &lt;em&gt;decline&lt;/em&gt; will not be as &lt;em&gt;great&lt;/em&gt; as seemed &lt;em&gt;likely&lt;/em&gt; a &lt;em&gt;couple&lt;/em&gt; of &lt;em&gt;months&lt;/em&gt; ago when it appeared the &lt;em&gt;Mackay-Burdekin crops&lt;/em&gt; were going to &lt;em&gt;suffer&lt;/em&gt; badly, he said.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;rains began&lt;/em&gt; late last week, &lt;em&gt;developed&lt;/em&gt; into &lt;em&gt;heavy downpours&lt;/em&gt; over the &lt;em&gt;weekend&lt;/em&gt; and are &lt;em&gt;continuing today,&lt;/em&gt; he said from &lt;em&gt;Brisbane&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;rains&lt;/em&gt; began late last week, developed into &lt;em&gt;heavy downpours&lt;/em&gt; over the &lt;em&gt;weekend&lt;/em&gt; and are continuing &lt;em&gt;today,&lt;/em&gt; he said from Brisbane.</str>
         <int name="index">1</int>
       </lst>
     </lst>

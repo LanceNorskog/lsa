@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-507.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">corporation</str>
+        <str name="text">elaborate</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">points</str>
-        <double name="strength">0.9999999999999998</double>
-      </lst>
-      <lst name="term">
-        <str name="text">under</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">corporation</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
         <str name="text">administration</str>
-        <double name="strength">0.5000000000000007</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
         <str name="text">level</str>
-        <double name="strength">0.5000000000000007</double>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">complementary</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The National Party intends to privatise totally the &lt;Bank of New Zealand&gt;, &lt;Development Finance Corporation&gt;, &lt;Tourist Hotel Corporation&gt;, &lt;Petrocorp&gt;, &lt;State Insurance&gt; and &lt;Government Life Office&gt;, the party said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The economic strategy was unveiled by party leader Jim Bolger one day before prime minister David Lange announces the date of general elections, widely expected to be August 15.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.9484223547057257</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The party said tight monetary policies alone would lead to unrealistic exchange rates which would be out of line for exporters unless they were supported by a low government borrowing requirement, a shrinking government sector and positive growth.</str>
-        <int name="index">9</int>
+        <str name="text">The National Party's tax policies included the abolition of death and gift duties and the removal of indirect taxes on basic food and doctors' fees.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">248</int>
-        <double name="strength">0.9123142653297706</double>
+        <int name="end">149</int>
+        <double name="strength">0.9795685761485368</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New Zealand's opposition National Party said it would cut personal and business taxes and would not regulate or control interest rates if returned to power.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">0.9582597072696799</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;National Party intends&lt;/em&gt; to &lt;em&gt;privatise totally&lt;/em&gt; the &lt;Bank of New &lt;em&gt;Zealand&gt;, &lt;Development Finance Corporation&gt;, &lt;Tourist Hotel Corporation&gt;, &lt;Petrocorp&gt;, &lt;State Insurance&gt;&lt;/em&gt; and &lt;&lt;em&gt;Government&lt;/em&gt; Life &lt;em&gt;Office&gt;,&lt;/em&gt; the &lt;em&gt;party said&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;economic strategy&lt;/em&gt; was &lt;em&gt;unveiled&lt;/em&gt; by &lt;em&gt;party leader&lt;/em&gt; Jim &lt;em&gt;Bolger&lt;/em&gt; one day &lt;em&gt;before prime minister David Lange announces&lt;/em&gt; the date of &lt;em&gt;general elections, widely expected&lt;/em&gt; to be &lt;em&gt;August 15&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;economic strategy&lt;/em&gt; was unveiled by &lt;em&gt;party leader&lt;/em&gt; Jim &lt;em&gt;Bolger&lt;/em&gt; one day before &lt;em&gt;prime minister David Lange&lt;/em&gt; announces the date of &lt;em&gt;general elections,&lt;/em&gt; widely expected to be August 15.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;party&lt;/em&gt; said &lt;em&gt;tight monetary policies alone would&lt;/em&gt; lead to &lt;em&gt;unrealistic exchange rates which would&lt;/em&gt; be out of line for &lt;em&gt;exporters unless&lt;/em&gt; they were &lt;em&gt;supported&lt;/em&gt; by a low &lt;em&gt;government borrowing requirement,&lt;/em&gt; a &lt;em&gt;shrinking government sector&lt;/em&gt; and &lt;em&gt;positive growth&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;National Party&lt;/em&gt;'s tax &lt;em&gt;policies&lt;/em&gt; included the &lt;em&gt;abolition&lt;/em&gt; of &lt;em&gt;death&lt;/em&gt; and gift &lt;em&gt;duties&lt;/em&gt; and the &lt;em&gt;removal&lt;/em&gt; of &lt;em&gt;indirect taxes&lt;/em&gt; on &lt;em&gt;basic&lt;/em&gt; food and &lt;em&gt;doctors' fees&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New &lt;em&gt;Zealand&lt;/em&gt;'s &lt;em&gt;opposition National Party&lt;/em&gt; said it would cut &lt;em&gt;personal&lt;/em&gt; and &lt;em&gt;business taxes&lt;/em&gt; and would not &lt;em&gt;regulate&lt;/em&gt; or &lt;em&gt;control interest rates&lt;/em&gt; if returned to &lt;em&gt;power&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-862.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
+      <lst name="term">
+        <str name="text">investors</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">weakness</str>
+        <double name="strength">1.0</double>
+      </lst>
       <lst name="term">
         <str name="text">index</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">linked</str>
-        <double name="strength">1.0</double>
+        <str name="text">recent</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">issues</str>
-        <double name="strength">0.8944271909999176</double>
-      </lst>
-      <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.8944271909999167</double>
-      </lst>
-      <lst name="term">
-        <str name="text">advances</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">alliance</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">267</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Dealers noted that early strength in the index-linked sector of the market, which had enabled the Government broker to supply some of both index-linked stock tranches announced on Friday, had soon fallen prey to the general depression affecting gilts.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">252</int>
-        <double name="strength">0.9999999999999993</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The latest period of weakness for the dollar has accentuated fears that currency risk might induce Japanese investors in particular to undertake dramatic reductions in their portfolios of U.</str>
         <int name="index">13</int>
         <int name="start">0</int>
         <int name="end">190</int>
-        <double name="strength">0.9480731468684873</double>
+        <double name="strength">0.9744647459294231</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The market had been sustained in large part during its recent rally by a virtual conviction that the ruling Conservative party would first call and then win a general election early this summer.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.9240769126228776</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers noted&lt;/em&gt; that &lt;em&gt;market confidence&lt;/em&gt; had &lt;em&gt;already&lt;/em&gt; been at a low ebb, with much of the &lt;em&gt;recent impressive&lt;/em&gt; rise &lt;em&gt;whittled&lt;/em&gt; away last week as &lt;em&gt;investors reacted nervously&lt;/em&gt; to &lt;em&gt;opinion polls showing unexpectedly strong gains&lt;/em&gt; for the &lt;em&gt;centrist Liberal/Social Democratic alliance&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; noted that &lt;em&gt;market confidence&lt;/em&gt; had already been at a low ebb, with much of the &lt;em&gt;recent impressive&lt;/em&gt; rise whittled away last week as &lt;em&gt;investors&lt;/em&gt; reacted nervously to &lt;em&gt;opinion polls&lt;/em&gt; showing unexpectedly &lt;em&gt;strong gains&lt;/em&gt; for the &lt;em&gt;centrist Liberal/Social Democratic alliance&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers noted&lt;/em&gt; that &lt;em&gt;early strength&lt;/em&gt; in the &lt;em&gt;index-linked sector&lt;/em&gt; of the &lt;em&gt;market, which&lt;/em&gt; had &lt;em&gt;enabled&lt;/em&gt; the &lt;em&gt;Government broker&lt;/em&gt; to &lt;em&gt;supply&lt;/em&gt; some of both &lt;em&gt;index-linked stock tranches announced&lt;/em&gt; on &lt;em&gt;Friday,&lt;/em&gt; had soon &lt;em&gt;fallen&lt;/em&gt; prey to the &lt;em&gt;general depression affecting gilts&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">The latest &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;weakness&lt;/em&gt; for the &lt;em&gt;dollar&lt;/em&gt; has accentuated &lt;em&gt;fears&lt;/em&gt; that &lt;em&gt;currency&lt;/em&gt; risk might &lt;em&gt;induce Japanese investors&lt;/em&gt; in &lt;em&gt;particular&lt;/em&gt; to &lt;em&gt;undertake dramatic reductions&lt;/em&gt; in their &lt;em&gt;portfolios&lt;/em&gt; of U.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;latest period&lt;/em&gt; of &lt;em&gt;weakness&lt;/em&gt; for the &lt;em&gt;dollar&lt;/em&gt; has &lt;em&gt;accentuated fears&lt;/em&gt; that &lt;em&gt;currency&lt;/em&gt; risk &lt;em&gt;might induce Japanese investors&lt;/em&gt; in &lt;em&gt;particular&lt;/em&gt; to &lt;em&gt;undertake dramatic reductions&lt;/em&gt; in &lt;em&gt;their portfolios&lt;/em&gt; of U.</str>
-        <int name="index">13</int>
+        <str name="text">The &lt;em&gt;market&lt;/em&gt; had been sustained in &lt;em&gt;large&lt;/em&gt; part during its &lt;em&gt;recent rally&lt;/em&gt; by a &lt;em&gt;virtual conviction&lt;/em&gt; that the &lt;em&gt;ruling Conservative party&lt;/em&gt; would first call and then win a &lt;em&gt;general election&lt;/em&gt; early this &lt;em&gt;summer&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

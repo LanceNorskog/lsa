@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-704.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">widespread</str>
+        <str name="text">california</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">lowland</str>
-        <double name="strength">1.0</double>
+        <str name="text">portions</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">small</str>
-        <double name="strength">1.0</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">stream</str>
-        <double name="strength">1.0</double>
+        <str name="text">strong</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">1.0</double>
+        <str name="text">winds</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">262</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rain was reported across parts of Minnesota, Iowa, eastern Kansas, Missouri and eastern Oklahoma, with showers and a few thundershowers extending from Arkansas through the lower Mississippi Valley to Alabama and northwest Florida.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.8876755862464036</double>
+        <str name="text">Widespread lowland and small stream flooding is expected to continue over most of eastern Nebraska through Wednesday.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">117</int>
+        <double name="strength">0.6685763801735454</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Mostly clear skies extended from the Great Lakes and Ohio Valley through the central Appalachians to the central Atlantic Coast and New England.</str>
-        <int name="index">14</int>
+        <str name="text">Due to cold, damp and windy conditions, livestock advisories were posted this morning across central and southeast portions of South Dakota.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">145</int>
-        <double name="strength">0.7840656861000909</double>
+        <int name="end">141</int>
+        <double name="strength">0.6163161656676677</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Elsewhere,&lt;/em&gt; a &lt;em&gt;travelers advisory remains&lt;/em&gt; in &lt;em&gt;effect&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; over &lt;em&gt;northeast&lt;/em&gt; New &lt;em&gt;Mexico&lt;/em&gt; and the &lt;em&gt;Oklahoma&lt;/em&gt; and &lt;em&gt;Tecas Panhandle&lt;/em&gt; for &lt;em&gt;blowing&lt;/em&gt; snow and &lt;em&gt;slick roadways&lt;/em&gt; and &lt;em&gt;across&lt;/em&gt; the &lt;em&gt;mountains&lt;/em&gt; and &lt;em&gt;deserts&lt;/em&gt; of &lt;em&gt;southern California&lt;/em&gt; for &lt;em&gt;strong gusty winds&lt;/em&gt; of 25 to 40 mph.</str>
+        <str name="text">Elsewhere, a &lt;em&gt;travelers advisory&lt;/em&gt; remains in &lt;em&gt;effect&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; over northeast New &lt;em&gt;Mexico&lt;/em&gt; and the &lt;em&gt;Oklahoma&lt;/em&gt; and &lt;em&gt;Tecas Panhandle&lt;/em&gt; for blowing snow and &lt;em&gt;slick roadways&lt;/em&gt; and across the &lt;em&gt;mountains&lt;/em&gt; and &lt;em&gt;deserts&lt;/em&gt; of &lt;em&gt;southern California&lt;/em&gt; for &lt;em&gt;strong gusty winds&lt;/em&gt; of 25 to 40 mph.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rain was &lt;em&gt;reported across parts&lt;/em&gt; of &lt;em&gt;Minnesota,&lt;/em&gt; Iowa, &lt;em&gt;eastern Kansas, Missouri&lt;/em&gt; and &lt;em&gt;eastern Oklahoma,&lt;/em&gt; with &lt;em&gt;showers&lt;/em&gt; and a few &lt;em&gt;thundershowers extending&lt;/em&gt; from &lt;em&gt;Arkansas through&lt;/em&gt; the &lt;em&gt;lower Mississippi Valley&lt;/em&gt; to &lt;em&gt;Alabama&lt;/em&gt; and &lt;em&gt;northwest Florida&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Widespread lowland&lt;/em&gt; and &lt;em&gt;small stream flooding&lt;/em&gt; is expected to &lt;em&gt;continue&lt;/em&gt; over most of &lt;em&gt;eastern Nebraska&lt;/em&gt; through Wednesday.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Mostly clear skies extended&lt;/em&gt; from the &lt;em&gt;Great Lakes&lt;/em&gt; and Ohio &lt;em&gt;Valley through&lt;/em&gt; the &lt;em&gt;central Appalachians&lt;/em&gt; to the &lt;em&gt;central Atlantic Coast&lt;/em&gt; and New &lt;em&gt;England&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Due to cold, damp and &lt;em&gt;windy conditions, livestock advisories&lt;/em&gt; were posted this &lt;em&gt;morning&lt;/em&gt; across &lt;em&gt;central&lt;/em&gt; and &lt;em&gt;southeast portions&lt;/em&gt; of &lt;em&gt;South Dakota&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

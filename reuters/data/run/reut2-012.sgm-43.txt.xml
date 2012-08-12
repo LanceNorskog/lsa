@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-43.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">66</int>
+        <int name="count">49</int>
       </lst>
       <lst name="stems">
-        <int name="count">44</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">offered</str>
+        <str name="text">exploration</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">return</str>
-        <double name="strength">0.5</double>
+        <str name="text">production</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">boone</str>
-        <double name="strength">0.5</double>
+        <str name="text">blackburn</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">pickens</str>
-        <double name="strength">0.5</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">share</str>
-        <double name="strength">0.5</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">195</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Charles Blackburn, president and chief executive officer of Diamond Shamrock and the new company, which will emphasize exploration and production, said, "Earnings wil be better than in 1986."</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
+        <double name="strength">0.9195728340389536</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The executives were in New york for meetings with institutional investors aimed at increasing interest in the company's stock.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">127</int>
-        <double name="strength">0.7422950424163883</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"Our advisors convinced us the market would give higher multiples for pure plays," Blackburn said.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">99</int>
-        <double name="strength">0.7345346076612269</double>
+        <double name="strength">0.7966854281009966</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Boone Pickens offered 15&lt;/em&gt; dlrs a &lt;em&gt;share&lt;/em&gt; for &lt;em&gt;Diamond Shamrock,&lt;/em&gt; and &lt;em&gt;management countered&lt;/em&gt; with an &lt;em&gt;offer&lt;/em&gt; at 17 dlrs and a &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;split&lt;/em&gt; off the &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;marketing operation&lt;/em&gt; to its &lt;em&gt;shareholders&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Boone&lt;/em&gt; Pickens offered 15 dlrs a &lt;em&gt;share&lt;/em&gt; for &lt;em&gt;Diamond Shamrock,&lt;/em&gt; and &lt;em&gt;management&lt;/em&gt; countered with an &lt;em&gt;offer&lt;/em&gt; at 17 dlrs and a &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;split&lt;/em&gt; off the &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;marketing operation&lt;/em&gt; to its &lt;em&gt;shareholders&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;executives&lt;/em&gt; were in New york for &lt;em&gt;meetings&lt;/em&gt; with &lt;em&gt;institutional investors aimed&lt;/em&gt; at &lt;em&gt;increasing interest&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;stock&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Charles Blackburn, president&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt; of &lt;em&gt;Diamond Shamrock&lt;/em&gt; and the new &lt;em&gt;company,&lt;/em&gt; which will &lt;em&gt;emphasize exploration&lt;/em&gt; and &lt;em&gt;production,&lt;/em&gt; said, "&lt;em&gt;Earnings&lt;/em&gt; wil be better than in 1986."</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Our &lt;em&gt;advisors convinced&lt;/em&gt; us the &lt;em&gt;market would&lt;/em&gt; give &lt;em&gt;higher multiples&lt;/em&gt; for pure &lt;em&gt;plays," Blackburn said&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;executives&lt;/em&gt; were in New york for &lt;em&gt;meetings&lt;/em&gt; with &lt;em&gt;institutional investors&lt;/em&gt; aimed at increasing &lt;em&gt;interest&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;stock&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-109.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">152</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">heavily</str>
+        <str name="text">operating</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">business</str>
-        <double name="strength">0.9999999999999979</double>
+        <str name="text">profitable</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">higher</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">earnings</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">elevating</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">internal</str>
+        <double name="strength">0.977543352866804</double>
       </lst>
       <lst name="term">
-        <str name="text">chief</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">strong</str>
+        <double name="strength">0.9775433528668033</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Lewis said if American Express reduced its exposure to the brokerage business by selling part of shearson, its stock might better reflect other assets, such as the travel related services business.</str>
-        <int name="index">26</int>
-        <int name="start">1</int>
-        <int name="end">198</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The value of the other components could command a higher multiple because they constitute a higher percentage of the total operating earnings of the company," he said.</str>
         <int name="index">28</int>
         <int name="start">0</int>
         <int name="end">167</int>
-        <double name="strength">0.9980426092938537</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">You want your stock to reflect realistic valuations to enhance your ability to make all kinds of endeavors down the road," said E.</str>
+        <int name="index">21</int>
+        <int name="start">0</int>
+        <int name="end">130</int>
+        <double name="strength">0.9731112540054132</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Yesterday, Shearson said it was elevating its chief operating officer, Jeffery Lane, to the added position of president, which had been vacant.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">144</int>
-        <double name="strength">0.9200283782800928</double>
+        <double name="strength">0.9525392317723015</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Lewis&lt;/em&gt; said if &lt;em&gt;American Express reduced&lt;/em&gt; its &lt;em&gt;exposure&lt;/em&gt; to the &lt;em&gt;brokerage business&lt;/em&gt; by &lt;em&gt;selling&lt;/em&gt; part of &lt;em&gt;shearson,&lt;/em&gt; its &lt;em&gt;stock might better reflect other assets,&lt;/em&gt; such as the &lt;em&gt;travel related services business&lt;/em&gt;.</str>
-        <int name="index">26</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;other components could command&lt;/em&gt; a &lt;em&gt;higher multiple because&lt;/em&gt; they &lt;em&gt;constitute&lt;/em&gt; a &lt;em&gt;higher percentage&lt;/em&gt; of the &lt;em&gt;total operating earnings&lt;/em&gt; of the &lt;em&gt;company,"&lt;/em&gt; he said.</str>
+        <str name="text">The &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;other components&lt;/em&gt; could &lt;em&gt;command&lt;/em&gt; a higher &lt;em&gt;multiple&lt;/em&gt; because they &lt;em&gt;constitute&lt;/em&gt; a higher &lt;em&gt;percentage&lt;/em&gt; of the &lt;em&gt;total operating earnings&lt;/em&gt; of the &lt;em&gt;company,"&lt;/em&gt; he said.</str>
         <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yesterday, Shearson&lt;/em&gt; said it was &lt;em&gt;elevating&lt;/em&gt; its &lt;em&gt;chief operating officer, Jeffery&lt;/em&gt; Lane, to the &lt;em&gt;added position&lt;/em&gt; of &lt;em&gt;president, which&lt;/em&gt; had been &lt;em&gt;vacant&lt;/em&gt;.</str>
+        <str name="text">You want your &lt;em&gt;stock&lt;/em&gt; to &lt;em&gt;reflect realistic valuations&lt;/em&gt; to &lt;em&gt;enhance&lt;/em&gt; your &lt;em&gt;ability&lt;/em&gt; to make all &lt;em&gt;kinds&lt;/em&gt; of &lt;em&gt;endeavors&lt;/em&gt; down the road," said E.</str>
+        <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Yesterday, Shearson&lt;/em&gt; said it was elevating its &lt;em&gt;chief&lt;/em&gt; operating &lt;em&gt;officer, Jeffery&lt;/em&gt; Lane, to the added &lt;em&gt;position&lt;/em&gt; of &lt;em&gt;president,&lt;/em&gt; which had been &lt;em&gt;vacant&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-823.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">147</int>
+        <int name="count">95</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">going</str>
+        <str name="text">years</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">0.5590169943749487</double>
+        <str name="text">shortage</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">terms</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">investors</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">amount</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">active</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">250</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank of Canada, Ottawa's fiscal agent in the marketplace, revealed this week that sharply reduced borrowing needs has allowed the shift toward shorter bond terms and heavier emphasis on the weekly treasury bill auction, issued in terms of up to one year.</str>
-        <int name="index">1</int>
+        <str name="text">"The wholesale market in treasury bills is very active," said Michael Berry, vice-president of the securities firm, Walwyn Stodgell Cohran Murray Ltd.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">259</int>
-        <double name="strength">0.9541151340618891</double>
+        <int name="end">151</int>
+        <double name="strength">0.9848628919766061</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Although the amount of money saved from moving away from the long bonds was not disclosed, bond experts believe it was considerable because of the much lower interest premiums paid on short term debt.</str>
-        <int name="index">8</int>
+        <str name="text">"The aggressive use of the treasury bill program has meant that the government is now able to maintain lower cash balances and lower financing costs," the Bank of Canada said in its 1986 annual report released this week.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.8603968186321775</double>
+        <int name="end">221</int>
+        <double name="strength">0.9433764356119971</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Said &lt;em&gt;David Gluskin,&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Nesbitt Thomson Bongard&lt;/em&gt; Inc, "When &lt;em&gt;interest rates finally&lt;/em&gt; seem to have &lt;em&gt;stopped going&lt;/em&gt; down, &lt;em&gt;there&lt;/em&gt; is &lt;em&gt;going&lt;/em&gt; to be a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;people trying&lt;/em&gt; to lock in the long end and not &lt;em&gt;everyone&lt;/em&gt; will be able to get in the door."</str>
+        <str name="text">Said &lt;em&gt;David Gluskin,&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Nesbitt&lt;/em&gt; Thomson &lt;em&gt;Bongard&lt;/em&gt; Inc, "When &lt;em&gt;interest rates&lt;/em&gt; finally seem to have stopped going down, there is going to be a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;people&lt;/em&gt; trying to lock in the long end and not &lt;em&gt;everyone&lt;/em&gt; will be able to get in the door."</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank of &lt;em&gt;Canada, Ottawa&lt;/em&gt;'s &lt;em&gt;fiscal agent&lt;/em&gt; in the &lt;em&gt;marketplace, revealed&lt;/em&gt; this week that &lt;em&gt;sharply reduced borrowing needs&lt;/em&gt; has &lt;em&gt;allowed&lt;/em&gt; the &lt;em&gt;shift toward shorter&lt;/em&gt; bond &lt;em&gt;terms&lt;/em&gt; and &lt;em&gt;heavier emphasis&lt;/em&gt; on the &lt;em&gt;weekly treasury&lt;/em&gt; bill &lt;em&gt;auction, issued&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of up to one year.</str>
-        <int name="index">1</int>
+        <str name="text">"The &lt;em&gt;wholesale market&lt;/em&gt; in &lt;em&gt;treasury bills&lt;/em&gt; is very &lt;em&gt;active,"&lt;/em&gt; said &lt;em&gt;Michael Berry,&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; of the &lt;em&gt;securities&lt;/em&gt; firm, Walwyn &lt;em&gt;Stodgell Cohran Murray Ltd&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;money saved&lt;/em&gt; from &lt;em&gt;moving&lt;/em&gt; away from the long &lt;em&gt;bonds&lt;/em&gt; was not &lt;em&gt;disclosed,&lt;/em&gt; bond &lt;em&gt;experts believe&lt;/em&gt; it was &lt;em&gt;considerable because&lt;/em&gt; of the much &lt;em&gt;lower interest premiums&lt;/em&gt; paid on &lt;em&gt;short&lt;/em&gt; term debt.</str>
-        <int name="index">8</int>
+        <str name="text">"The &lt;em&gt;aggressive&lt;/em&gt; use of the &lt;em&gt;treasury&lt;/em&gt; bill &lt;em&gt;program&lt;/em&gt; has meant that the &lt;em&gt;government&lt;/em&gt; is now able to &lt;em&gt;maintain&lt;/em&gt; lower cash &lt;em&gt;balances&lt;/em&gt; and lower &lt;em&gt;financing costs,"&lt;/em&gt; the Bank of &lt;em&gt;Canada&lt;/em&gt; said in its 1986 &lt;em&gt;annual report&lt;/em&gt; released this week.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

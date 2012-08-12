@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-902.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">54</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">exchange</str>
+        <str name="text">context</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
+        <str name="text">fiscal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">relying</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">restraint</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">alone</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">support</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">renewed</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">widespread</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">235</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Federal Reserve Board Chairman Paul Volcker said a further large drop in the value of the dollar could be counterproductive for world economic growth.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">150</int>
+        <double name="strength">0.8438526574315702</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Testifying before the Senate Banking Committee, Volcker said that Europe and Japan were slowing exports and that growth in those countries was also decreasing.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">160</int>
-        <double name="strength">0.9623688721866696</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It would also have to achieve a better balance between investment and domestic savings if it wants to be able to dispense with foreign capital.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">144</int>
-        <double name="strength">0.8836985215123281</double>
+        <double name="strength">0.7975329948985083</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"That &lt;em&gt;adjustment should&lt;/em&gt; be &lt;em&gt;large enough,&lt;/em&gt; in a &lt;em&gt;context&lt;/em&gt; of a &lt;em&gt;growing world economy&lt;/em&gt; and &lt;em&gt;fiscal restraint&lt;/em&gt; in the &lt;em&gt;United States,&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;widespread expectations&lt;/em&gt; of a &lt;em&gt;narrowing&lt;/em&gt; in the real &lt;em&gt;trade deficit&lt;/em&gt; in the &lt;em&gt;period ahead,"&lt;/em&gt; he said.</str>
+        <str name="text">"That &lt;em&gt;adjustment&lt;/em&gt; should be &lt;em&gt;large&lt;/em&gt; enough, in a &lt;em&gt;context&lt;/em&gt; of a growing &lt;em&gt;world economy&lt;/em&gt; and &lt;em&gt;fiscal restraint&lt;/em&gt; in the United &lt;em&gt;States,&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;widespread expectations&lt;/em&gt; of a &lt;em&gt;narrowing&lt;/em&gt; in the real &lt;em&gt;trade deficit&lt;/em&gt; in the &lt;em&gt;period&lt;/em&gt; ahead," he said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Testifying before&lt;/em&gt; the &lt;em&gt;Senate Banking Committee, Volcker&lt;/em&gt; said that &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; were &lt;em&gt;slowing exports&lt;/em&gt; and that &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;those countries&lt;/em&gt; was also &lt;em&gt;decreasing&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Federal Reserve Board Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; said a &lt;em&gt;further large&lt;/em&gt; drop in the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; could be &lt;em&gt;counterproductive&lt;/em&gt; for &lt;em&gt;world economic growth&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;would&lt;/em&gt; also have to &lt;em&gt;achieve&lt;/em&gt; a &lt;em&gt;better balance between investment&lt;/em&gt; and &lt;em&gt;domestic savings&lt;/em&gt; if it &lt;em&gt;wants&lt;/em&gt; to be able to &lt;em&gt;dispense&lt;/em&gt; with &lt;em&gt;foreign capital&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Testifying&lt;/em&gt; before the &lt;em&gt;Senate Banking Committee, Volcker&lt;/em&gt; said that &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; were slowing &lt;em&gt;exports&lt;/em&gt; and that &lt;em&gt;growth&lt;/em&gt; in those &lt;em&gt;countries&lt;/em&gt; was also decreasing.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

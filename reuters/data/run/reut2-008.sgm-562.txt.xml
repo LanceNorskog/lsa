@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-562.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">144</int>
+        <int name="count">112</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increase</str>
+        <str name="text">fluctuations</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">think</str>
-        <double name="strength">0.5590169943749482</double>
-      </lst>
-      <lst name="term">
         <str name="text">effect</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">brokers</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">thing</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">limit</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">commission</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Foreign currency futures markets would not be harmed if the leading industrial countries agreed to restrict currency movements to within a narrow band, said Leo Melamed, chairman of the Chicago Mercantile Exchange's, CME, executive committee.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">242</int>
+        <str name="text">Melamed, also chairman of Dellsher Investment Co Inc, said the CME last week withdrew a proposal to put a 12-point limit on the S and P 500 index's daily price movement when the Commodity Futures Trading Commission told the exchange it could not be a temporary program.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">270</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Melamed said capital flows -- which he estimated can approach 200 billion dlrs a day -- would overwhelm efforts by governments to control currency fluctuations.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.8990401621488316</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The CME's top policymaker also said a decision by the exchange to advance the quarterly settlement time of its stock index futures contract to the morning from the afternoon would help eliminate dramatic price gyrations in futures and equity markets on so-called "triple-witching" day.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">286</int>
-        <double name="strength">0.9866656061967222</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The board also proposed requiring brokers engaged in dual trading elsewhere in the pit to record personal trades to the nearest minute and curbing trading between broker groups.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">177</int>
-        <double name="strength">0.98238382296753</double>
+        <double name="strength">0.825917503289407</double>
+        <int name="terms">20</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Foreign currency futures markets would&lt;/em&gt; not be &lt;em&gt;harmed&lt;/em&gt; if the &lt;em&gt;leading industrial countries agreed&lt;/em&gt; to &lt;em&gt;restrict currency movements&lt;/em&gt; to &lt;em&gt;within&lt;/em&gt; a &lt;em&gt;narrow&lt;/em&gt; band, said Leo &lt;em&gt;Melamed, chairman&lt;/em&gt; of the &lt;em&gt;Chicago Mercantile Exchange&lt;/em&gt;'s, CME, &lt;em&gt;executive committee&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">Melamed, also &lt;em&gt;chairman&lt;/em&gt; of &lt;em&gt;Dellsher Investment&lt;/em&gt; Co Inc, said the CME last week withdrew a &lt;em&gt;proposal&lt;/em&gt; to put a 12-&lt;em&gt;point limit&lt;/em&gt; on the S and P 500 &lt;em&gt;index&lt;/em&gt;'s &lt;em&gt;daily price movement&lt;/em&gt; when the &lt;em&gt;Commodity Futures Trading Commission&lt;/em&gt; told the &lt;em&gt;exchange&lt;/em&gt; it could not be a &lt;em&gt;temporary program&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The CME's top &lt;em&gt;policymaker&lt;/em&gt; also said a &lt;em&gt;decision&lt;/em&gt; by the &lt;em&gt;exchange&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; the &lt;em&gt;quarterly settlement&lt;/em&gt; time of its &lt;em&gt;stock index futures contract&lt;/em&gt; to the &lt;em&gt;morning&lt;/em&gt; from the &lt;em&gt;afternoon would&lt;/em&gt; help &lt;em&gt;eliminate dramatic price gyrations&lt;/em&gt; in &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;equity markets&lt;/em&gt; on so-&lt;em&gt;called "triple-witching" day&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Melamed&lt;/em&gt; said &lt;em&gt;capital flows --&lt;/em&gt; which he estimated can &lt;em&gt;approach 200 billion&lt;/em&gt; dlrs a day -- would &lt;em&gt;overwhelm efforts&lt;/em&gt; by &lt;em&gt;governments&lt;/em&gt; to &lt;em&gt;control currency fluctuations&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The CME's top &lt;em&gt;policymaker&lt;/em&gt; also said a &lt;em&gt;decision&lt;/em&gt; by the &lt;em&gt;exchange&lt;/em&gt; to &lt;em&gt;advance&lt;/em&gt; the &lt;em&gt;quarterly settlement&lt;/em&gt; time of its &lt;em&gt;stock index futures contract&lt;/em&gt; to the &lt;em&gt;morning&lt;/em&gt; from the &lt;em&gt;afternoon&lt;/em&gt; would help &lt;em&gt;eliminate dramatic price gyrations&lt;/em&gt; in &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;equity markets&lt;/em&gt; on so-called "&lt;em&gt;triple-witching" day&lt;/em&gt;.</str>
         <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;board&lt;/em&gt; also &lt;em&gt;proposed requiring brokers engaged&lt;/em&gt; in dual &lt;em&gt;trading elsewhere&lt;/em&gt; in the pit to &lt;em&gt;record personal trades&lt;/em&gt; to the &lt;em&gt;nearest minute&lt;/em&gt; and &lt;em&gt;curbing trading between broker groups&lt;/em&gt;.</str>
-        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

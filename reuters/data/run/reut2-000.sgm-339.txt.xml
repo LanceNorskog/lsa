@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">29</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-339.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">267</int>
+        <int name="count">188</int>
       </lst>
       <lst name="stems">
-        <int name="count">183</int>
+        <int name="count">129</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">unemployment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">meeting</str>
-        <double name="strength">0.790569415042095</double>
+        <str name="text">italian</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">underground</str>
-        <double name="strength">0.7071067811865501</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">correspondents</str>
-        <double name="strength">0.7071067811865501</double>
+        <str name="text">optimism</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">newspapers</str>
-        <double name="strength">0.7071067811865501</double>
+        <str name="text">spaventa</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Only this week, it angrily demanded clarification of this status after being excluded from a meeting of finance ministers from the Group of Five (G-5) - comprising the United States, Japan, West Germany, France and Britain.</str>
-        <int name="index">14</int>
+        <str name="text">The country also needs to shed its rigid capital movements controls -- a European Community directive calls for these to be dismantled by 1992 -- but this too will require a less blinkered attitude and a change in traditional operating procedures, economists say.</str>
+        <int name="index">33</int>
         <int name="start">1</int>
-        <int name="end">224</int>
+        <int name="end">264</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Italy's strong economic revival has led some observers to talk of miracles and created euphoria in some quarters about future growth prospects, but many Italian experts warn that the current wave of optimism is excessive.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">221</int>
+        <double name="strength">0.9440844427404085</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">If Italy truly wants to be counted among the world's top industrialised nations, it also needs to tighten up stockmarket operating procedures and encourage firms to supply more quality information about their activities, economists say.</str>
         <int name="index">31</int>
         <int name="start">1</int>
         <int name="end">237</int>
-        <double name="strength">0.959185406001451</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Italy said its exclusion from the meeting violated an agreement reached in Tokyo last year to let Italy and Canada attend meetings held by the five whenever discussions concerned managing the international monetary system.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.9576932946609317</double>
+        <double name="strength">0.9316218461348893</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Only this week, it &lt;em&gt;angrily demanded clarification&lt;/em&gt; of this &lt;em&gt;status after being excluded&lt;/em&gt; from a &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;finance ministers&lt;/em&gt; from the &lt;em&gt;Group&lt;/em&gt; of Five (G-5) - &lt;em&gt;comprising&lt;/em&gt; the &lt;em&gt;United States, Japan,&lt;/em&gt; West &lt;em&gt;Germany, France&lt;/em&gt; and &lt;em&gt;Britain&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;country&lt;/em&gt; also needs to shed its &lt;em&gt;rigid capital movements&lt;/em&gt; controls -- a &lt;em&gt;European Community directive&lt;/em&gt; calls for these to be dismantled by 1992 -- but this too will &lt;em&gt;require&lt;/em&gt; a less &lt;em&gt;blinkered attitude&lt;/em&gt; and a &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;traditional operating procedures, economists say&lt;/em&gt;.</str>
+        <int name="index">33</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If &lt;em&gt;Italy truly wants&lt;/em&gt; to be &lt;em&gt;counted among&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s top &lt;em&gt;industrialised nations,&lt;/em&gt; it also &lt;em&gt;needs&lt;/em&gt; to &lt;em&gt;tighten&lt;/em&gt; up &lt;em&gt;stockmarket operating procedures&lt;/em&gt; and &lt;em&gt;encourage firms&lt;/em&gt; to &lt;em&gt;supply&lt;/em&gt; more &lt;em&gt;quality information about their activities, economists say&lt;/em&gt;.</str>
+        <str name="text">Italy's &lt;em&gt;strong economic revival&lt;/em&gt; has led some &lt;em&gt;observers&lt;/em&gt; to talk of &lt;em&gt;miracles&lt;/em&gt; and created &lt;em&gt;euphoria&lt;/em&gt; in some &lt;em&gt;quarters&lt;/em&gt; about &lt;em&gt;future growth prospects,&lt;/em&gt; but many &lt;em&gt;Italian experts&lt;/em&gt; warn that the &lt;em&gt;current&lt;/em&gt; wave of &lt;em&gt;optimism&lt;/em&gt; is &lt;em&gt;excessive&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If Italy truly wants to be counted among the &lt;em&gt;world&lt;/em&gt;'s top industrialised &lt;em&gt;nations,&lt;/em&gt; it also needs to &lt;em&gt;tighten&lt;/em&gt; up &lt;em&gt;stockmarket operating procedures&lt;/em&gt; and &lt;em&gt;encourage firms&lt;/em&gt; to &lt;em&gt;supply&lt;/em&gt; more &lt;em&gt;quality information&lt;/em&gt; about their &lt;em&gt;activities, economists say&lt;/em&gt;.</str>
         <int name="index">31</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Italy&lt;/em&gt; said its &lt;em&gt;exclusion&lt;/em&gt; from the &lt;em&gt;meeting violated&lt;/em&gt; an &lt;em&gt;agreement reached&lt;/em&gt; in &lt;em&gt;Tokyo&lt;/em&gt; last year to let &lt;em&gt;Italy&lt;/em&gt; and &lt;em&gt;Canada attend meetings&lt;/em&gt; held by the five &lt;em&gt;whenever discussions concerned managing&lt;/em&gt; the &lt;em&gt;international monetary system&lt;/em&gt;.</str>
-        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

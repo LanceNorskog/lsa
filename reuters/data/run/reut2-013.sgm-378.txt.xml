@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-378.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">swiss</str>
+        <str name="text">security</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">continued</str>
-        <double name="strength">1.0</double>
+        <str name="text">pounds</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">investors</str>
-        <double name="strength">1.0</double>
+        <str name="text">sterling</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">advantage</str>
-        <double name="strength">1.0</double>
+        <str name="text">range</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">1.0</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">225</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The dollar opened easier in quiet trading and should stay firmly entrenched in its established range ahead of this week's round of international finance meetings, dealers said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">176</int>
-        <double name="strength">0.9778036225642524</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Sterling is looking very healthy at the moment," one dealer said, adding that Japanese security houses bought pounds at the start of trading.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">143</int>
-        <double name="strength">0.8502606805149087</double>
+        <double name="strength">0.9739391587351638</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The dollar opened easier in quiet trading and should stay firmly entrenched in its established range ahead of this week's round of international finance meetings, dealers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
+        <double name="strength">0.9604832818749708</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sterling opened&lt;/em&gt; at 2.951/955 &lt;em&gt;marks,&lt;/em&gt; just &lt;em&gt;under yesterday&lt;/em&gt;'s &lt;em&gt;closing 2.954/958,&lt;/em&gt; and was seen &lt;em&gt;firming further against major currencies&lt;/em&gt; on a wave of &lt;em&gt;popularity&lt;/em&gt; for &lt;em&gt;British prime minsiter Margaret Thatcher&lt;/em&gt;'s &lt;em&gt;ruling Conservatives&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sterling&lt;/em&gt; opened at 2.951/955 &lt;em&gt;marks,&lt;/em&gt; just under &lt;em&gt;yesterday&lt;/em&gt;'s closing 2.954/958, and was seen firming further against &lt;em&gt;major currencies&lt;/em&gt; on a wave of &lt;em&gt;popularity&lt;/em&gt; for &lt;em&gt;British prime minsiter Margaret&lt;/em&gt; Thatcher's ruling &lt;em&gt;Conservatives&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;dollar opened easier&lt;/em&gt; in &lt;em&gt;quiet trading&lt;/em&gt; and &lt;em&gt;should&lt;/em&gt; stay &lt;em&gt;firmly entrenched&lt;/em&gt; in its &lt;em&gt;established range ahead&lt;/em&gt; of this week's &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;international finance meetings, dealers said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;"Sterling&lt;/em&gt; is looking very &lt;em&gt;healthy&lt;/em&gt; at the &lt;em&gt;moment,"&lt;/em&gt; one &lt;em&gt;dealer&lt;/em&gt; said, adding that &lt;em&gt;Japanese security houses&lt;/em&gt; bought &lt;em&gt;pounds&lt;/em&gt; at the &lt;em&gt;start&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Sterling&lt;/em&gt; is &lt;em&gt;looking&lt;/em&gt; very &lt;em&gt;healthy&lt;/em&gt; at the &lt;em&gt;moment,"&lt;/em&gt; one &lt;em&gt;dealer&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;Japanese security houses bought pounds&lt;/em&gt; at the &lt;em&gt;start&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">The &lt;em&gt;dollar&lt;/em&gt; opened easier in &lt;em&gt;quiet trading&lt;/em&gt; and should stay firmly entrenched in its &lt;em&gt;established range&lt;/em&gt; ahead of this week's &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;international finance meetings, dealers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

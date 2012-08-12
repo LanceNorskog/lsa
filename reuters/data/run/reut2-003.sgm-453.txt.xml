@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-453.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">processes</str>
+        <str name="text">years</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">newly</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">mineral</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">formed</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">statement</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">subsidiary</str>
-        <double name="strength">0.5</double>
+        <str name="text">acquisition</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">whose</str>
-        <double name="strength">0.5</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">L.&gt; whose chief activity was the development and marketing of high-technology smelting processes invented in Australia, notably the Siromelt Zinc Fuming Process.</str>
-        <int name="index">11</int>
-        <int name="start">0</int>
-        <int name="end">161</int>
+        <str name="text">Austmet will have an initial equity base of one mln stg, a turnover of 200 mln Australian dlrs rising to 300 mln in the first year, and credit lines of up to 30 mln U.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Metal Traders said in a statement the contract would underpin the worldwide zinc, copper and lead trading activities of Austmet, a wholly-owned London-based company with a U.</str>
-        <int name="index">1</int>
+        <str name="text">Asturiana has a three-year option to purchase 25 pct of the Austmet group, to be priced on an independent valuation at the time of exercise, Metal Traders said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.8382038725256257</double>
+        <int name="end">161</int>
+        <double name="strength">0.9770365906908967</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Metal Traders said Asturiana has the largest zinc smelting capacity in Europe -- nearly 200,000 tonnes a year of 99.995 pct high-grade zinc, at Aviles in northern Spain.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.8176603532636536</double>
+        <double name="strength">0.9101655359328771</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">L.&gt; &lt;em&gt;whose chief activity&lt;/em&gt; was the &lt;em&gt;development&lt;/em&gt; and &lt;em&gt;marketing&lt;/em&gt; of high-&lt;em&gt;technology smelting processes invented&lt;/em&gt; in &lt;em&gt;Australia, notably&lt;/em&gt; the &lt;em&gt;Siromelt&lt;/em&gt; Zinc &lt;em&gt;Fuming Process&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Austmet&lt;/em&gt; will have an &lt;em&gt;initial equity&lt;/em&gt; base of one mln stg, a &lt;em&gt;turnover&lt;/em&gt; of 200 mln &lt;em&gt;Australian&lt;/em&gt; dlrs rising to 300 mln in the &lt;em&gt;first&lt;/em&gt; year, and &lt;em&gt;credit lines&lt;/em&gt; of up to 30 mln U.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Metal Traders&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;contract would underpin&lt;/em&gt; the &lt;em&gt;worldwide&lt;/em&gt; zinc, &lt;em&gt;copper&lt;/em&gt; and lead &lt;em&gt;trading activities&lt;/em&gt; of &lt;em&gt;Austmet,&lt;/em&gt; a &lt;em&gt;wholly-owned London-based company&lt;/em&gt; with a U.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Asturiana&lt;/em&gt; has a &lt;em&gt;three&lt;/em&gt;-year &lt;em&gt;option&lt;/em&gt; to &lt;em&gt;purchase 25&lt;/em&gt; pct of the &lt;em&gt;Austmet group,&lt;/em&gt; to be priced on an &lt;em&gt;independent valuation&lt;/em&gt; at the time of &lt;em&gt;exercise, Metal Traders said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Metal Traders&lt;/em&gt; said &lt;em&gt;Asturiana&lt;/em&gt; has the &lt;em&gt;largest&lt;/em&gt; zinc &lt;em&gt;smelting capacity&lt;/em&gt; in &lt;em&gt;Europe -- nearly 200,000 tonnes&lt;/em&gt; a year of 99.995 pct high-&lt;em&gt;grade&lt;/em&gt; zinc, at &lt;em&gt;Aviles&lt;/em&gt; in &lt;em&gt;northern Spain&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Metal Traders&lt;/em&gt; said &lt;em&gt;Asturiana&lt;/em&gt; has the largest zinc smelting &lt;em&gt;capacity&lt;/em&gt; in &lt;em&gt;Europe --&lt;/em&gt; nearly 200,000 tonnes a year of 99.995 pct high-&lt;em&gt;grade&lt;/em&gt; zinc, at &lt;em&gt;Aviles&lt;/em&gt; in &lt;em&gt;northern Spain&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
     </lst>

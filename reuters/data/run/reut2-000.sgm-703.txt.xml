@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-703.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">84</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">party</str>
-        <double name="strength">0.6666666666666669</double>
+        <str name="text">platinum</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">mckiernan</str>
-        <double name="strength">0.3726779962499653</double>
+        <str name="text">interest</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.333333333333334</double>
+        <str name="text">liquidity</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.33333333333333365</double>
+        <str name="text">commodity</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Foreign traders will be able to hedge trades against NYMEX prices before the exchange opens and negotiate prices at a differential to NYMEX prices, McKiernan explained.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
+        <str name="text">The expanded program "will serve the industry because the oil market does not close when NYMEX does," said Frank Capozza, secretary of Century Resources Inc.</str>
+        <int name="index">4</int>
+        <int name="start">2</int>
+        <int name="end">159</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Under the new arrangement, neither party has to hold a futures position before entering into an EFP and one or both parties can offset their cash transaction with a futures contract the next day, according to exchange officials.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">0.8562292132171353</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">When NYMEX announced its proposed rule change in December, NYMEX President Rosemary McFadden, said, "Expansion of the EFP provision will add to globalization of the energy markets by providing for, in effect, 24-hour trading."</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">227</int>
-        <double name="strength">0.8221983210081102</double>
+        <double name="strength">0.7068779954512058</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rule change, which has already taken effect for platinum futures on NYMEX, is expected to increase the open interest and liquidity in U.</str>
+        <int name="index">5</int>
+        <int name="start">2</int>
+        <int name="end">142</int>
+        <double name="strength">0.660288133526318</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Foreign traders&lt;/em&gt; will be able to &lt;em&gt;hedge trades against NYMEX prices before&lt;/em&gt; the &lt;em&gt;exchange opens&lt;/em&gt; and &lt;em&gt;negotiate prices&lt;/em&gt; at a &lt;em&gt;differential&lt;/em&gt; to &lt;em&gt;NYMEX prices, McKiernan explained&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The expanded &lt;em&gt;program &lt;/em&gt;"will &lt;em&gt;serve&lt;/em&gt; the &lt;em&gt;industry&lt;/em&gt; because the oil &lt;em&gt;market&lt;/em&gt; does not &lt;em&gt;close&lt;/em&gt; when &lt;em&gt;NYMEX&lt;/em&gt; does," said &lt;em&gt;Frank Capozza, secretary&lt;/em&gt; of &lt;em&gt;Century Resources Inc&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the new &lt;em&gt;arrangement, neither party&lt;/em&gt; has to hold a &lt;em&gt;futures position before entering&lt;/em&gt; into an EFP and one or both &lt;em&gt;parties&lt;/em&gt; can &lt;em&gt;offset their&lt;/em&gt; cash &lt;em&gt;transaction&lt;/em&gt; with a &lt;em&gt;futures contract&lt;/em&gt; the next day, &lt;em&gt;according&lt;/em&gt; to &lt;em&gt;exchange officials&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">When &lt;em&gt;NYMEX announced&lt;/em&gt; its &lt;em&gt;proposed&lt;/em&gt; rule &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;December, NYMEX President Rosemary McFadden,&lt;/em&gt; said, "&lt;em&gt;Expansion&lt;/em&gt; of the EFP &lt;em&gt;provision&lt;/em&gt; will add to &lt;em&gt;globalization&lt;/em&gt; of the &lt;em&gt;energy markets&lt;/em&gt; by &lt;em&gt;providing&lt;/em&gt; for, in &lt;em&gt;effect, 24&lt;/em&gt;-hour &lt;em&gt;trading.&lt;/em&gt;"</str>
+        <str name="text">When &lt;em&gt;NYMEX&lt;/em&gt; announced its proposed rule &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;December, NYMEX President Rosemary McFadden,&lt;/em&gt; said, "&lt;em&gt;Expansion&lt;/em&gt; of the EFP &lt;em&gt;provision&lt;/em&gt; will add to &lt;em&gt;globalization&lt;/em&gt; of the &lt;em&gt;energy markets&lt;/em&gt; by providing for, in &lt;em&gt;effect, 24&lt;/em&gt;-hour &lt;em&gt;trading.&lt;/em&gt;"</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The rule &lt;em&gt;change,&lt;/em&gt; which has already taken &lt;em&gt;effect&lt;/em&gt; for &lt;em&gt;platinum futures&lt;/em&gt; on &lt;em&gt;NYMEX,&lt;/em&gt; is expected to &lt;em&gt;increase&lt;/em&gt; the open &lt;em&gt;interest&lt;/em&gt; and &lt;em&gt;liquidity&lt;/em&gt; in U.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

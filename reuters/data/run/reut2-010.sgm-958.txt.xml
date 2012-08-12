@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-958.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">announcement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">current</str>
+        <str name="text">measures</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">affecting</str>
+        <str name="text">adjust</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">meeting</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">economy</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">funds</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">clarification</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Another factor which could be delaying the opening of registrations is the current strike by bank workers which, while not affecting current shipments, could affect documentation and currency operations for new sales.</str>
-        <int name="index">11</int>
+        <str name="text">They added that Dauster is keen to raise the contribution quota as the Institute needs money to repay Central Governmnet funds released to finance IBC purchases at the guaranteed producer price.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">218</int>
+        <int name="end">195</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">However, before announcing its export policy the IBC is likely to wait to see if tomorrow's meeting of the International Coffee Organisation, ICO, executive board in London decides to call a full council meeting to discuss reintroduction of export quotas, sources said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">270</int>
-        <double name="strength">0.7895865559629749</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">They said IBC President Jorio Dauster is likely to leave the basic formula for the minimum registration price unchanged but raise the contribution quota to partially offset the effects of cruzado devaluation since April registrations were closed in mid-February.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">263</int>
-        <double name="strength">0.7825373224242188</double>
+        <double name="strength">0.9170206743660166</double>
+        <int name="terms">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, before announcing its export policy the IBC is likely to wait to see if tomorrow's meeting of the International Coffee Organisation, ICO, executive board in London decides to call a full council meeting to discuss reintroduction of export quotas, sources said.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">270</int>
+        <double name="strength">0.8481870150981417</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Another factor which could&lt;/em&gt; be &lt;em&gt;delaying&lt;/em&gt; the &lt;em&gt;opening&lt;/em&gt; of &lt;em&gt;registrations&lt;/em&gt; is the &lt;em&gt;current strike&lt;/em&gt; by bank &lt;em&gt;workers which, while&lt;/em&gt; not &lt;em&gt;affecting current shipments, could affect documentation&lt;/em&gt; and &lt;em&gt;currency operations&lt;/em&gt; for new &lt;em&gt;sales&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">They added that &lt;em&gt;Dauster&lt;/em&gt; is keen to &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;contribution quota&lt;/em&gt; as the &lt;em&gt;Institute&lt;/em&gt; needs &lt;em&gt;money&lt;/em&gt; to &lt;em&gt;repay Central Governmnet funds&lt;/em&gt; released to &lt;em&gt;finance&lt;/em&gt; IBC &lt;em&gt;purchases&lt;/em&gt; at the guaranteed &lt;em&gt;producer price&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, before announcing&lt;/em&gt; its &lt;em&gt;export policy&lt;/em&gt; the IBC is &lt;em&gt;likely&lt;/em&gt; to wait to see if &lt;em&gt;tomorrow&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt; of the &lt;em&gt;International Coffee Organisation,&lt;/em&gt; ICO, &lt;em&gt;executive board&lt;/em&gt; in &lt;em&gt;London decides&lt;/em&gt; to call a full &lt;em&gt;council meeting&lt;/em&gt; to &lt;em&gt;discuss reintroduction&lt;/em&gt; of &lt;em&gt;export quotas, sources said&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They said IBC &lt;em&gt;President Jorio Dauster&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;leave&lt;/em&gt; the &lt;em&gt;basic formula&lt;/em&gt; for the &lt;em&gt;minimum registration price unchanged&lt;/em&gt; but &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;contribution quota&lt;/em&gt; to &lt;em&gt;partially offset&lt;/em&gt; the &lt;em&gt;effects&lt;/em&gt; of &lt;em&gt;cruzado devaluation since April registrations&lt;/em&gt; were &lt;em&gt;closed&lt;/em&gt; in mid-&lt;em&gt;February&lt;/em&gt;.</str>
+        <str name="text">They said IBC &lt;em&gt;President Jorio Dauster&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;leave&lt;/em&gt; the &lt;em&gt;basic formula&lt;/em&gt; for the &lt;em&gt;minimum registration price unchanged&lt;/em&gt; but &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;contribution quota&lt;/em&gt; to partially &lt;em&gt;offset&lt;/em&gt; the &lt;em&gt;effects&lt;/em&gt; of cruzado &lt;em&gt;devaluation&lt;/em&gt; since &lt;em&gt;April registrations&lt;/em&gt; were closed in mid-&lt;em&gt;February&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, before announcing its &lt;em&gt;export policy&lt;/em&gt; the IBC is &lt;em&gt;likely&lt;/em&gt; to wait to see if &lt;em&gt;tomorrow&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt; of the &lt;em&gt;International Coffee Organisation,&lt;/em&gt; ICO, &lt;em&gt;executive board&lt;/em&gt; in London decides to call a full &lt;em&gt;council meeting&lt;/em&gt; to &lt;em&gt;discuss reintroduction&lt;/em&gt; of &lt;em&gt;export quotas, sources said&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-842.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">costs</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">1.0</double>
+        <str name="text">productivity</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">pointing</str>
-        <double name="strength">0.5</double>
+        <str name="text">slowdown</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">widening</str>
-        <double name="strength">0.5</double>
+        <str name="text">annual</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">deficit</str>
-        <double name="strength">0.5</double>
+        <str name="text">share</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Pointing to a likely widening of the French trade deficit to around 2.9 billion dlrs this year from 2.4 billion in 1986, it warned that a further depreciation of the dollar against the franc could lead to "a (renewed) loss of competitiveness relative not only to the United States but also to the newly industrialised countries."</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">330</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Until the competitive ability of industry improved, the authorities would have "little scope for macroeconomic manoeuvre, even if the unemployment situation or the need to encourage a pickup in investment could require demand to grow more briskly," it added.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">259</int>
-        <double name="strength">0.897643535210262</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"For the disinflationary process to continue , and price competitiveness to become lastingly compatible with exchange rate stability, it is essential that wage restraint continue," it said.</str>
-        <int name="index">18</int>
+        <str name="text">With gross domestic product likely to grow only 2.1 pct this year, the same rate as last year, unemployment could climb to 11.5 pct of the workforce by mid-1988, from its present 10.9 pct, it said in an annual review of the French economy.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.8624139991018825</double>
+        <int name="end">240</int>
+        <double name="strength">0.8277324589428001</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But the OECD backed the government's view that the underlying trend for inflation remained downwards this year, with a slowdown in domestic costs taking over from last year's fall in oil and commodity prices as the chief cause of disinflation.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">244</int>
+        <double name="strength">0.7815097220263619</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pointing&lt;/em&gt; to a &lt;em&gt;likely widening&lt;/em&gt; of the &lt;em&gt;French trade deficit&lt;/em&gt; to &lt;em&gt;around 2.9 billion&lt;/em&gt; dlrs this year from 2.4 &lt;em&gt;billion&lt;/em&gt; in 1986, it &lt;em&gt;warned&lt;/em&gt; that a &lt;em&gt;further depreciation&lt;/em&gt; of the &lt;em&gt;dollar against&lt;/em&gt; the &lt;em&gt;franc could&lt;/em&gt; lead to "a (&lt;em&gt;renewed)&lt;/em&gt; loss of &lt;em&gt;competitiveness relative&lt;/em&gt; not only to the &lt;em&gt;United States&lt;/em&gt; but also to the &lt;em&gt;newly industrialised countries.&lt;/em&gt;"</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Until&lt;/em&gt; the &lt;em&gt;competitive ability&lt;/em&gt; of &lt;em&gt;industry improved,&lt;/em&gt; the &lt;em&gt;authorities would&lt;/em&gt; have "&lt;em&gt;little scope&lt;/em&gt; for &lt;em&gt;macroeconomic manoeuvre,&lt;/em&gt; even if the &lt;em&gt;unemployment situation&lt;/em&gt; or the need to &lt;em&gt;encourage&lt;/em&gt; a &lt;em&gt;pickup&lt;/em&gt; in &lt;em&gt;investment could require demand&lt;/em&gt; to grow more &lt;em&gt;briskly,"&lt;/em&gt; it &lt;em&gt;added&lt;/em&gt;.</str>
+        <str name="text">Until the &lt;em&gt;competitive ability&lt;/em&gt; of &lt;em&gt;industry&lt;/em&gt; improved, the &lt;em&gt;authorities&lt;/em&gt; would have "&lt;em&gt;little scope&lt;/em&gt; for &lt;em&gt;macroeconomic manoeuvre,&lt;/em&gt; even if the &lt;em&gt;unemployment situation&lt;/em&gt; or the need to &lt;em&gt;encourage&lt;/em&gt; a &lt;em&gt;pickup&lt;/em&gt; in &lt;em&gt;investment&lt;/em&gt; could &lt;em&gt;require demand&lt;/em&gt; to grow more briskly," it added.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"For the &lt;em&gt;disinflationary process&lt;/em&gt; to &lt;em&gt;continue ,&lt;/em&gt; and &lt;em&gt;price competitiveness&lt;/em&gt; to &lt;em&gt;become lastingly compatible&lt;/em&gt; with &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;stability,&lt;/em&gt; it is &lt;em&gt;essential&lt;/em&gt; that wage &lt;em&gt;restraint continue,"&lt;/em&gt; it said.</str>
-        <int name="index">18</int>
+        <str name="text">With &lt;em&gt;gross domestic product likely&lt;/em&gt; to grow only 2.1 pct this year, the same rate as last year, &lt;em&gt;unemployment&lt;/em&gt; could &lt;em&gt;climb&lt;/em&gt; to 11.5 pct of the &lt;em&gt;workforce&lt;/em&gt; by mid-1988, from its &lt;em&gt;present 10.9&lt;/em&gt; pct, it said in an &lt;em&gt;annual review&lt;/em&gt; of the &lt;em&gt;French economy&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But the OECD backed the &lt;em&gt;government&lt;/em&gt;'s view that the underlying &lt;em&gt;trend&lt;/em&gt; for &lt;em&gt;inflation&lt;/em&gt; remained downwards this year, with a &lt;em&gt;slowdown&lt;/em&gt; in &lt;em&gt;domestic costs&lt;/em&gt; taking over from last year's fall in oil and &lt;em&gt;commodity prices&lt;/em&gt; as the &lt;em&gt;chief cause&lt;/em&gt; of &lt;em&gt;disinflation&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

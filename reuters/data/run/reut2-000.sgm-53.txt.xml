@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-53.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">128</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">place</str>
+        <str name="text">investment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">suggests</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">durable</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">pipeline</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">reform</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">depleting</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">goods</str>
+        <double name="strength">0.9836823252851258</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">153</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The wash-out that took place in January was far greater than the actual gains that took place in November and December," said Bill Sullivan of Dean Witter Reynolds Inc. "</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.996614606057219</double>
+        <str name="text">S. January durable goods orders points to a slowdown in capital spending that could presage lackluster real growth in the U.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">124</int>
+        <double name="strength">0.9751636734215228</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"It suggests orders in the pipeline are depleting, which may quickly translate to a drop in production," Midland Montagu's Maude said.</str>
-        <int name="index">19</int>
+        <str name="text">Economists said the drop in computer orders may have been a response to the lengthening of depreciation schedules and the end of the investment tax credit under the new tax laws.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">135</int>
-        <double name="strength">0.8958164980867094</double>
+        <int name="end">179</int>
+        <double name="strength">0.9681355384803374</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">With &lt;em&gt;total orders, excluding&lt;/em&gt; the &lt;em&gt;volatile defense sector, falling&lt;/em&gt; a &lt;em&gt;record 9.9&lt;/em&gt; pct, &lt;em&gt;economists agreed&lt;/em&gt; that the &lt;em&gt;report painted&lt;/em&gt; a &lt;em&gt;bleak picture&lt;/em&gt; for the U.</str>
+        <str name="text">With &lt;em&gt;total orders,&lt;/em&gt; excluding the &lt;em&gt;volatile defense sector,&lt;/em&gt; falling a &lt;em&gt;record 9.9&lt;/em&gt; pct, &lt;em&gt;economists&lt;/em&gt; agreed that the &lt;em&gt;report&lt;/em&gt; painted a &lt;em&gt;bleak picture&lt;/em&gt; for the U.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The wash-out that took &lt;em&gt;place&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; was far &lt;em&gt;greater&lt;/em&gt; than the &lt;em&gt;actual gains&lt;/em&gt; that took &lt;em&gt;place&lt;/em&gt; in &lt;em&gt;November&lt;/em&gt; and &lt;em&gt;December,"&lt;/em&gt; said Bill &lt;em&gt;Sullivan&lt;/em&gt; of Dean &lt;em&gt;Witter Reynolds Inc. &lt;/em&gt;"</str>
-        <int name="index">14</int>
+        <str name="text">S. &lt;em&gt;January durable goods orders points&lt;/em&gt; to a &lt;em&gt;slowdown&lt;/em&gt; in &lt;em&gt;capital spending&lt;/em&gt; that could &lt;em&gt;presage lackluster&lt;/em&gt; real &lt;em&gt;growth&lt;/em&gt; in the U.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"It &lt;em&gt;suggests orders&lt;/em&gt; in the &lt;em&gt;pipeline&lt;/em&gt; are &lt;em&gt;depleting, which&lt;/em&gt; may &lt;em&gt;quickly translate&lt;/em&gt; to a drop in &lt;em&gt;production," Midland Montagu&lt;/em&gt;'s &lt;em&gt;Maude said&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said the drop in &lt;em&gt;computer orders&lt;/em&gt; may have been a &lt;em&gt;response&lt;/em&gt; to the &lt;em&gt;lengthening&lt;/em&gt; of &lt;em&gt;depreciation schedules&lt;/em&gt; and the end of the &lt;em&gt;investment&lt;/em&gt; tax &lt;em&gt;credit&lt;/em&gt; under the new tax laws.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

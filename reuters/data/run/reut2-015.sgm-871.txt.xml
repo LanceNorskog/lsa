@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-871.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">75</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">binding</str>
+        <str name="text">secretary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">legally</str>
-        <double name="strength">1.0</double>
+        <str name="text">staffer</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">quantity</str>
-        <double name="strength">1.0</double>
+        <str name="text">administration</str>
+        <double name="strength">0.9840539975201782</double>
       </lst>
       <lst name="term">
-        <str name="text">quality</str>
-        <double name="strength">1.0</double>
+        <str name="text">million</str>
+        <double name="strength">0.9840539975201782</double>
       </lst>
       <lst name="term">
-        <str name="text">requirements</str>
-        <double name="strength">1.0</double>
+        <str name="text">worth</str>
+        <double name="strength">0.9840539975201782</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">These agencies included the Office of Management and Budget and the Departments of Interior and Commerce, he said.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The purpose of the measures, passed by the committee yesterday, is to improve stockpile management and discourage sell-offs of materials that could jeopardize strategic needs, a staff member of the committee told Reuters.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">222</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9950953139979849</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The committee also voted for legally-binding quantity and quality requirements on the materials, mostly metals.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">112</int>
-        <double name="strength">0.8500236712555722</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">These agencies included the Office of Management and Budget and the Departments of Interior and Commerce, he said.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">115</int>
-        <double name="strength">0.8469304416760199</double>
+        <double name="strength">0.9827386007777569</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;purpose&lt;/em&gt; of the &lt;em&gt;measures, passed&lt;/em&gt; by the &lt;em&gt;committee yesterday,&lt;/em&gt; is to &lt;em&gt;improve stockpile management&lt;/em&gt; and &lt;em&gt;discourage&lt;/em&gt; sell-offs of &lt;em&gt;materials&lt;/em&gt; that &lt;em&gt;could jeopardize strategic needs,&lt;/em&gt; a &lt;em&gt;staff member&lt;/em&gt; of the &lt;em&gt;committee&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <str name="text">These &lt;em&gt;agencies&lt;/em&gt; included the &lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget&lt;/em&gt; and the &lt;em&gt;Departments&lt;/em&gt; of &lt;em&gt;Interior&lt;/em&gt; and &lt;em&gt;Commerce,&lt;/em&gt; he said.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;purpose&lt;/em&gt; of the &lt;em&gt;measures,&lt;/em&gt; passed by the &lt;em&gt;committee yesterday,&lt;/em&gt; is to &lt;em&gt;improve stockpile management&lt;/em&gt; and &lt;em&gt;discourage&lt;/em&gt; sell-offs of &lt;em&gt;materials&lt;/em&gt; that could &lt;em&gt;jeopardize strategic needs,&lt;/em&gt; a &lt;em&gt;staff member&lt;/em&gt; of the &lt;em&gt;committee&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;committee&lt;/em&gt; also &lt;em&gt;voted&lt;/em&gt; for &lt;em&gt;legally-binding quantity&lt;/em&gt; and &lt;em&gt;quality requirements&lt;/em&gt; on the &lt;em&gt;materials, mostly metals&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;committee&lt;/em&gt; also voted for legally-&lt;em&gt;binding quantity&lt;/em&gt; and &lt;em&gt;quality requirements&lt;/em&gt; on the &lt;em&gt;materials,&lt;/em&gt; mostly &lt;em&gt;metals&lt;/em&gt;.</str>
         <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;These agencies included&lt;/em&gt; the &lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget&lt;/em&gt; and the &lt;em&gt;Departments&lt;/em&gt; of &lt;em&gt;Interior&lt;/em&gt; and &lt;em&gt;Commerce,&lt;/em&gt; he said.</str>
-        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

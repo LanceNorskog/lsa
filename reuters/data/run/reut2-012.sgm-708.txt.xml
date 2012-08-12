@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-708.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">117</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">grain</str>
+        <str name="text">director</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">slightly</str>
-        <double name="strength">0.559016994374948</double>
+        <str name="text">mcminimy</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
         <str name="text">soybeans</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">whole</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">usage</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">surpluses</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">total</str>
+        <double name="strength">0.9938897258273764</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Interviewed at an agribusiness education conference here, McMinimy said that 67.6 mln planted acres of corn will likely translate into 60 mln harvested acres, and with normal yields, final production of 6.9 to 7.0 billion bushels.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"To say this represents a turn-around is wrong, but we're at least in a holding pattern," George Hoffman, director of commodity analysis for Pillsbury said.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">157</int>
-        <double name="strength">0.9044902973488788</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. grain stockpile but will at least keep grain surpluses from increasing, Agriculture Department and industry commodity analysts said.</str>
-        <int name="index">2</int>
+        <str name="text">"It's a substantially different story from last year when we added 1.5 billion bushels of corn to the stockpile," Vernon McMinimy, director of commodity research for Staley Co. said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.9792144132387561</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Stocks are at a record now, so if we can begin to touch them even minutely through acreage reductions, that would be an improvement," an Agriculture Department wheat analyst said.</str>
+        <int name="index">19</int>
         <int name="start">0</int>
-        <int name="end">135</int>
-        <double name="strength">0.860850208938417</double>
+        <int name="end">179</int>
+        <double name="strength">0.8856644084862337</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Interviewed&lt;/em&gt; at an &lt;em&gt;agribusiness education conference&lt;/em&gt; here, &lt;em&gt;McMinimy&lt;/em&gt; said that 67.6 mln &lt;em&gt;planted acres&lt;/em&gt; of corn will &lt;em&gt;likely translate&lt;/em&gt; into 60 mln &lt;em&gt;harvested acres,&lt;/em&gt; and with &lt;em&gt;normal yields, final production&lt;/em&gt; of 6.9 to 7.0 &lt;em&gt;billion bushels&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"To say this &lt;em&gt;represents&lt;/em&gt; a turn-&lt;em&gt;around&lt;/em&gt; is &lt;em&gt;wrong,&lt;/em&gt; but we're at &lt;em&gt;least&lt;/em&gt; in a &lt;em&gt;holding pattern," George Hoffman, director&lt;/em&gt; of &lt;em&gt;commodity analysis&lt;/em&gt; for &lt;em&gt;Pillsbury said&lt;/em&gt;.</str>
+        <str name="text">"To say this represents a turn-around is &lt;em&gt;wrong,&lt;/em&gt; but we're at least in a &lt;em&gt;holding pattern," George Hoffman, director&lt;/em&gt; of &lt;em&gt;commodity analysis&lt;/em&gt; for &lt;em&gt;Pillsbury said&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;grain stockpile&lt;/em&gt; but will at &lt;em&gt;least&lt;/em&gt; keep &lt;em&gt;grain surpluses&lt;/em&gt; from &lt;em&gt;increasing, Agriculture Department&lt;/em&gt; and &lt;em&gt;industry commodity analysts said&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"It's a substantially &lt;em&gt;different story&lt;/em&gt; from last year when we added 1.5 &lt;em&gt;billion bushels&lt;/em&gt; of corn to the &lt;em&gt;stockpile," Vernon McMinimy, director&lt;/em&gt; of &lt;em&gt;commodity research&lt;/em&gt; for &lt;em&gt;Staley&lt;/em&gt; Co. said.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Stocks&lt;/em&gt; are at a &lt;em&gt;record&lt;/em&gt; now, so if we can &lt;em&gt;begin&lt;/em&gt; to &lt;em&gt;touch&lt;/em&gt; them even minutely through &lt;em&gt;acreage reductions,&lt;/em&gt; that would be an &lt;em&gt;improvement,"&lt;/em&gt; an &lt;em&gt;Agriculture Department wheat analyst said&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

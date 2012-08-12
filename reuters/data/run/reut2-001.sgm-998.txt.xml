@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-998.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">168</int>
+        <int name="count">127</int>
       </lst>
       <lst name="stems">
-        <int name="count">113</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">demand</str>
+        <str name="text">pressure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">borrowing</str>
-        <double name="strength">1.0</double>
+        <str name="text">american</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">straining</str>
-        <double name="strength">1.0</double>
+        <str name="text">development</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">financial</str>
-        <double name="strength">1.0</double>
+        <str name="text">reserve</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">system</str>
-        <double name="strength">1.0</double>
+        <str name="text">administration</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">248</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">"There is now substantial concern about the inflationary effects of a declining dollar and the buildup of monetary pressure arising from the recent rapid growth in the money supply," the Democrat report said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">209</int>
-        <double name="strength">0.9530314207248812</double>
+        <double name="strength">0.9122343377305379</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">We're comfortable with the current low rate of inflation, hopeful that interest rates will continue to decline, optimistic that employment opportunities will continue to improve and confident in this nation's resilient, innovative and diversified economy," the Republican report said.</str>
-        <int name="index">12</int>
-        <int name="start">0</int>
-        <int name="end">284</int>
-        <double name="strength">0.8899466276131365</double>
+        <str name="text">"At the same time, the increased reliance on foreign sources of capital in American investment markets means that the Federal Reserve can no longer be as aggressive as in the past in lowering interest rates and driving the dollar down."</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">237</int>
+        <double name="strength">0.820339705541602</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;danger signals included&lt;/em&gt; a &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;investment, increased demand&lt;/em&gt; for &lt;em&gt;borrowing which&lt;/em&gt; was &lt;em&gt;straining&lt;/em&gt; the &lt;em&gt;financial system,&lt;/em&gt; a &lt;em&gt;possible increase&lt;/em&gt; in &lt;em&gt;inflation fueled&lt;/em&gt; by &lt;em&gt;higher&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; and the &lt;em&gt;depressed condition&lt;/em&gt; of the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;farmers&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;danger signals&lt;/em&gt; included a &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;investment,&lt;/em&gt; increased &lt;em&gt;demand&lt;/em&gt; for &lt;em&gt;borrowing&lt;/em&gt; which was straining the &lt;em&gt;financial system,&lt;/em&gt; a &lt;em&gt;possible increase&lt;/em&gt; in &lt;em&gt;inflation&lt;/em&gt; fueled by higher oil &lt;em&gt;prices&lt;/em&gt; and the &lt;em&gt;depressed condition&lt;/em&gt; of the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;farmers&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; is now &lt;em&gt;substantial concern about&lt;/em&gt; the &lt;em&gt;inflationary effects&lt;/em&gt; of a &lt;em&gt;declining dollar&lt;/em&gt; and the &lt;em&gt;buildup&lt;/em&gt; of &lt;em&gt;monetary pressure arising&lt;/em&gt; from the &lt;em&gt;recent rapid growth&lt;/em&gt; in the &lt;em&gt;money supply,"&lt;/em&gt; the &lt;em&gt;Democrat report said&lt;/em&gt;.</str>
+        <str name="text">"There is now &lt;em&gt;substantial concern&lt;/em&gt; about the &lt;em&gt;inflationary effects&lt;/em&gt; of a declining &lt;em&gt;dollar&lt;/em&gt; and the &lt;em&gt;buildup&lt;/em&gt; of &lt;em&gt;monetary pressure&lt;/em&gt; arising from the &lt;em&gt;recent rapid growth&lt;/em&gt; in the &lt;em&gt;money supply,"&lt;/em&gt; the &lt;em&gt;Democrat report said&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">We're &lt;em&gt;comfortable&lt;/em&gt; with the &lt;em&gt;current&lt;/em&gt; low rate of &lt;em&gt;inflation, hopeful&lt;/em&gt; that &lt;em&gt;interest rates&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;decline, optimistic&lt;/em&gt; that &lt;em&gt;employment opportunities&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;improve&lt;/em&gt; and &lt;em&gt;confident&lt;/em&gt; in this &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;resilient, innovative&lt;/em&gt; and &lt;em&gt;diversified economy,"&lt;/em&gt; the &lt;em&gt;Republican report said&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">"At the same time, the increased &lt;em&gt;reliance&lt;/em&gt; on &lt;em&gt;foreign sources&lt;/em&gt; of &lt;em&gt;capital&lt;/em&gt; in &lt;em&gt;American investment markets&lt;/em&gt; means that the &lt;em&gt;Federal Reserve&lt;/em&gt; can no longer be as &lt;em&gt;aggressive&lt;/em&gt; as in the past in lowering &lt;em&gt;interest rates&lt;/em&gt; and driving the &lt;em&gt;dollar down.&lt;/em&gt;"</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

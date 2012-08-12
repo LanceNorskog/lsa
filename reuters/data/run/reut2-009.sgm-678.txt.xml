@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-678.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">184</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">rumors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">group</str>
-        <double name="strength">0.9999999999999893</double>
+        <str name="text">insider</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">totaled</str>
-        <double name="strength">0.5</double>
+        <str name="text">mergers</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">0.5</double>
+        <str name="text">probes</str>
+        <double name="strength">0.9988798280552023</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.5</double>
+        <str name="text">sources</str>
+        <double name="strength">0.9988798280552018</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">195</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Corporate financings have totaled 8 billion dlrs, including 3 billion dlrs in new junk bonds in the January-March period, Drexel said.</str>
-        <int name="index">29</int>
-        <int name="start">1</int>
-        <int name="end">135</int>
-        <double name="strength">0.9123035970265077</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The company also was notified last month that the outside insurer of Drexel's individual brokerage accounts had decided not to renew coverage.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">143</int>
-        <double name="strength">0.859980504208987</double>
+        <double name="strength">0.9432686703604495</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In the latest chapter of the story, Drexel said that some commodities firms have begun to limit the amount of business they will do with the firm, citing credit risks.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9014326038620075</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc said &lt;em&gt;Wednesday&lt;/em&gt; its &lt;em&gt;business&lt;/em&gt; is &lt;em&gt;booming, despite&lt;/em&gt; its &lt;em&gt;inability&lt;/em&gt; to &lt;em&gt;distance itself&lt;/em&gt; from the &lt;em&gt;insider trading scandal&lt;/em&gt; that has &lt;em&gt;spread rumors&lt;/em&gt; and &lt;em&gt;doubts through&lt;/em&gt; Wall &lt;em&gt;Street&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc said Wednesday its &lt;em&gt;business&lt;/em&gt; is &lt;em&gt;booming,&lt;/em&gt; despite its &lt;em&gt;inability&lt;/em&gt; to &lt;em&gt;distance&lt;/em&gt; itself from the &lt;em&gt;insider trading scandal&lt;/em&gt; that has spread &lt;em&gt;rumors&lt;/em&gt; and &lt;em&gt;doubts&lt;/em&gt; through Wall &lt;em&gt;Street&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Corporate financings&lt;/em&gt; have &lt;em&gt;totaled 8 billion&lt;/em&gt; dlrs, &lt;em&gt;including 3 billion&lt;/em&gt; dlrs in new junk &lt;em&gt;bonds&lt;/em&gt; in the &lt;em&gt;January-March period, Drexel said&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; also was notified last &lt;em&gt;month&lt;/em&gt; that the &lt;em&gt;outside insurer&lt;/em&gt; of &lt;em&gt;Drexel&lt;/em&gt;'s &lt;em&gt;individual brokerage accounts&lt;/em&gt; had decided not to &lt;em&gt;renew coverage&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; also was &lt;em&gt;notified&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; that the &lt;em&gt;outside insurer&lt;/em&gt; of &lt;em&gt;Drexel&lt;/em&gt;'s &lt;em&gt;individual brokerage accounts&lt;/em&gt; had &lt;em&gt;decided&lt;/em&gt; not to &lt;em&gt;renew coverage&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">In the latest &lt;em&gt;chapter&lt;/em&gt; of the &lt;em&gt;story, Drexel&lt;/em&gt; said that some &lt;em&gt;commodities firms&lt;/em&gt; have begun to &lt;em&gt;limit&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;business&lt;/em&gt; they will do with the firm, citing &lt;em&gt;credit risks&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

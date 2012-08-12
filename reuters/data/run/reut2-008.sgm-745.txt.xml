@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-745.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">50</int>
       </lst>
       <lst name="terms">
-        <int name="count">221</int>
+        <int name="count">163</int>
       </lst>
       <lst name="stems">
-        <int name="count">152</int>
+        <int name="count">114</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">growth</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">slowed</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">january</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">others</str>
-        <double name="strength">0.5000000000000054</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
       <lst name="term">
-        <str name="text">attributed</str>
-        <double name="strength">0.5000000000000029</double>
+        <str name="text">improve</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">rebuilding</str>
-        <double name="strength">0.5000000000000029</double>
+        <str name="text">fourth</str>
+        <double name="strength">0.9942095226973148</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. economy provided them with a giant market for their goods giving them a way to earn income badly needed to service their foreign debt.</str>
-        <int name="index">30</int>
-        <int name="start">0</int>
-        <int name="end">137</int>
+        <str name="text">The January/February employment statistics suggest the Gross National Product will show a healthy rate of growth for the first three months of this year, said Lyle Gramley, an economist with the Mortgage Bankers Association.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">225</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">There were indications of improvement in the huge imbalance between the volume of goods imported to the United States and those shipped abroad.</str>
-        <int name="index">33</int>
+        <str name="text">Some of the slowness experienced in the October-December period had been expected to spill over into the first quarter this year, as the tax law changes that went into effect in January slowed business and consumer spending.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">144</int>
-        <double name="strength">0.9030354315024783</double>
+        <int name="end">225</int>
+        <double name="strength">0.8341811057295149</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Commerce Department reported today that new orders for durable goods in February jumped by 5.7 billion dlrs, a six pct rise, to 101.2 billion dlrs.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.8928359239900993</double>
+        <str name="text">The report showed a rising volume of exports corresponding to a decline in imports despite the fact that in current dollar terms, the U.</str>
+        <int name="index">34</int>
+        <int name="start">0</int>
+        <int name="end">136</int>
+        <double name="strength">0.7354054844860264</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;economy provided&lt;/em&gt; them with a &lt;em&gt;giant market&lt;/em&gt; for &lt;em&gt;their goods giving&lt;/em&gt; them a way to earn &lt;em&gt;income badly needed&lt;/em&gt; to &lt;em&gt;service their foreign debt&lt;/em&gt;.</str>
-        <int name="index">30</int>
+        <str name="text">The &lt;em&gt;January/February employment statistics suggest&lt;/em&gt; the &lt;em&gt;Gross National Product&lt;/em&gt; will show a &lt;em&gt;healthy&lt;/em&gt; rate of &lt;em&gt;growth&lt;/em&gt; for the &lt;em&gt;first three months&lt;/em&gt; of this year, said Lyle &lt;em&gt;Gramley,&lt;/em&gt; an &lt;em&gt;economist&lt;/em&gt; with the &lt;em&gt;Mortgage Bankers Association&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; were &lt;em&gt;indications&lt;/em&gt; of &lt;em&gt;improvement&lt;/em&gt; in the huge &lt;em&gt;imbalance between&lt;/em&gt; the &lt;em&gt;volume&lt;/em&gt; of &lt;em&gt;goods imported&lt;/em&gt; to the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;those shipped abroad&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">Some of the &lt;em&gt;slowness&lt;/em&gt; experienced in the &lt;em&gt;October-December period&lt;/em&gt; had been expected to &lt;em&gt;spill&lt;/em&gt; over into the &lt;em&gt;first quarter&lt;/em&gt; this year, as the tax law &lt;em&gt;changes&lt;/em&gt; that went into &lt;em&gt;effect&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; slowed &lt;em&gt;business&lt;/em&gt; and &lt;em&gt;consumer spending&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Commerce Department reported today&lt;/em&gt; that new &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;durable goods&lt;/em&gt; in &lt;em&gt;February jumped&lt;/em&gt; by 5.7 &lt;em&gt;billion&lt;/em&gt; dlrs, a six pct rise, to 101.2 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">The &lt;em&gt;report&lt;/em&gt; showed a rising &lt;em&gt;volume&lt;/em&gt; of &lt;em&gt;exports corresponding&lt;/em&gt; to a &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;imports&lt;/em&gt; despite the fact that in &lt;em&gt;current dollar terms,&lt;/em&gt; the U.</str>
+        <int name="index">34</int>
       </lst>
     </lst>
   </lst>

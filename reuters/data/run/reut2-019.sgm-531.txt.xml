@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-531.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">173</int>
+        <int name="count">130</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">83</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">automated</str>
+        <str name="text">treasury</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">quotation</str>
-        <double name="strength">1.0</double>
+        <str name="text">offshore</str>
+        <double name="strength">0.9999999999999972</double>
       </lst>
       <lst name="term">
-        <str name="text">system</str>
-        <double name="strength">1.0</double>
+        <str name="text">equity</str>
+        <double name="strength">0.9999999999999963</double>
       </lst>
       <lst name="term">
-        <str name="text">service</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">global</str>
+        <double name="strength">0.9960900316910987</double>
       </lst>
       <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">instruments</str>
+        <double name="strength">0.9960900316910973</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"In 1988 we should see an expansion of securities trading following the link-up" of the Stock Exchange of Singapore Dealing and Automated Quotation System (SESDAQ) with the London exchange and the National Association of Securities Dealers Automated Quotation System (NASDAQ), he said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">286</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Hans-Rudolf Schaub, the senior vice-president and manager of Swiss Bank Corp, said his bank has chosen Singapore as its Asian treasury centre because of favourable tax rules for offshore banks, political stability and economic growth.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">235</int>
-        <double name="strength">0.7613713780292788</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Despite the slowdown in traditional loan syndications in the region, the offshore market has continued to grow as banks rebundle and securitise their assets, creating new generations of tradeable debt instruments, bankers said.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">228</int>
-        <double name="strength">0.7071189396445859</double>
+        <double name="strength">0.8620370046411177</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Banks are moving towards treasury activities because they see them as a vital link in global capital and foreign exchange markets," Clemente Escano, vice-president of Union Bank of Switzerland, said.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">201</int>
+        <double name="strength">0.7622214491914607</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"In 1988 we &lt;em&gt;should&lt;/em&gt; see an &lt;em&gt;expansion&lt;/em&gt; of &lt;em&gt;securities trading following&lt;/em&gt; the link-up" of the &lt;em&gt;Stock Exchange&lt;/em&gt; of &lt;em&gt;Singapore Dealing&lt;/em&gt; and &lt;em&gt;Automated Quotation System (SESDAQ)&lt;/em&gt; with the &lt;em&gt;London exchange&lt;/em&gt; and the &lt;em&gt;National Association&lt;/em&gt; of &lt;em&gt;Securities Dealers Automated Quotation System (NASDAQ),&lt;/em&gt; he said.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Hans-&lt;em&gt;Rudolf Schaub,&lt;/em&gt; the &lt;em&gt;senior&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; and &lt;em&gt;manager&lt;/em&gt; of &lt;em&gt;Swiss&lt;/em&gt; Bank Corp, said his bank has &lt;em&gt;chosen Singapore&lt;/em&gt; as its &lt;em&gt;Asian treasury centre because&lt;/em&gt; of &lt;em&gt;favourable&lt;/em&gt; tax &lt;em&gt;rules&lt;/em&gt; for &lt;em&gt;offshore banks, political stability&lt;/em&gt; and &lt;em&gt;economic growth&lt;/em&gt;.</str>
+        <str name="text">Hans-&lt;em&gt;Rudolf Schaub,&lt;/em&gt; the &lt;em&gt;senior&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; and &lt;em&gt;manager&lt;/em&gt; of &lt;em&gt;Swiss&lt;/em&gt; Bank Corp, said his bank has chosen Singapore as its &lt;em&gt;Asian treasury centre&lt;/em&gt; because of &lt;em&gt;favourable&lt;/em&gt; tax &lt;em&gt;rules&lt;/em&gt; for &lt;em&gt;offshore banks, political stability&lt;/em&gt; and &lt;em&gt;economic growth&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite&lt;/em&gt; the &lt;em&gt;slowdown&lt;/em&gt; in &lt;em&gt;traditional&lt;/em&gt; loan &lt;em&gt;syndications&lt;/em&gt; in the &lt;em&gt;region,&lt;/em&gt; the &lt;em&gt;offshore market&lt;/em&gt; has &lt;em&gt;continued&lt;/em&gt; to grow as &lt;em&gt;banks rebundle&lt;/em&gt; and &lt;em&gt;securitise their assets, creating&lt;/em&gt; new &lt;em&gt;generations&lt;/em&gt; of &lt;em&gt;tradeable&lt;/em&gt; debt &lt;em&gt;instruments, bankers said&lt;/em&gt;.</str>
+        <str name="text">Despite the &lt;em&gt;slowdown&lt;/em&gt; in &lt;em&gt;traditional&lt;/em&gt; loan &lt;em&gt;syndications&lt;/em&gt; in the &lt;em&gt;region,&lt;/em&gt; the &lt;em&gt;offshore market&lt;/em&gt; has continued to grow as &lt;em&gt;banks rebundle&lt;/em&gt; and &lt;em&gt;securitise&lt;/em&gt; their &lt;em&gt;assets,&lt;/em&gt; creating new &lt;em&gt;generations&lt;/em&gt; of &lt;em&gt;tradeable&lt;/em&gt; debt &lt;em&gt;instruments, bankers said&lt;/em&gt;.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Banks&lt;/em&gt; are moving towards &lt;em&gt;treasury activities&lt;/em&gt; because they see them as a &lt;em&gt;vital&lt;/em&gt; link in &lt;em&gt;global capital&lt;/em&gt; and &lt;em&gt;foreign exchange markets," Clemente Escano,&lt;/em&gt; vice-&lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland, said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

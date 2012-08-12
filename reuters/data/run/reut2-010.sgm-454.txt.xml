@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-454.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">230</int>
+        <int name="count">158</int>
       </lst>
       <lst name="stems">
-        <int name="count">156</int>
+        <int name="count">111</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">further</str>
+        <str name="text">markets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">applications</str>
-        <double name="strength">1.0</double>
+        <str name="text">britain</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">approval</str>
-        <double name="strength">1.0</double>
+        <str name="text">services</str>
+        <double name="strength">0.9941728092057449</double>
       </lst>
       <lst name="term">
-        <str name="text">working</str>
-        <double name="strength">1.0</double>
+        <str name="text">retaliatory</str>
+        <double name="strength">0.9941728092057441</double>
       </lst>
       <lst name="term">
-        <str name="text">european</str>
-        <double name="strength">0.5590169943749485</double>
+        <str name="text">reagan</str>
+        <double name="strength">0.994172809205743</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">494</int>
         <double name="strength">1.0</double>
+        <int name="terms">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Clark said the issue of reciprocity regarding visible trade "strikes at the basis of whether British industry is to have a fair access to an extremely large market (Japan) which is itself in a very dominant position (in) certain aspects of our own domestic market ...</str>
-        <int name="index">28</int>
-        <int name="start">0</int>
-        <int name="end">267</int>
-        <double name="strength">0.7036409893802068</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">British Trade Minister Alan Clark said this week in a radio interview that the European Community should build barriers against Japanese imports through certification procedures similar to those facing European exporters in Japan.</str>
-        <int name="index">26</int>
+        <str name="text">Prime Minister Margaret Thatcher said on Thursday that Britain would not hesitate to use new powers contained in the Financial Services Act 1986 and the Banking Bill to retaliate against countries that do not offer reciprocal market access.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.6240877759790441</double>
+        <int name="end">241</int>
+        <double name="strength">0.8961822196917081</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Should Britain decide to act against Japanese financial institutions, it would most likely focus on the smaller, rather than larger ones, to minimise any risks to its role as a global business centre, government sources said.</str>
+        <int name="index">32</int>
+        <int name="start">1</int>
+        <int name="end">226</int>
+        <double name="strength">0.8666140283825271</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Government&lt;/em&gt; to "&lt;em&gt;coordinate action&lt;/em&gt; with the &lt;em&gt;President&lt;/em&gt; of the &lt;em&gt;United States,&lt;/em&gt; and &lt;em&gt;through&lt;/em&gt; the &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Industry,&lt;/em&gt; to &lt;em&gt;suspend&lt;/em&gt; all &lt;em&gt;further applications&lt;/em&gt; from &lt;em&gt;Japanese communications companies&lt;/em&gt; for &lt;em&gt;equipment approval&lt;/em&gt; by the &lt;em&gt;British Approvals Board&lt;/em&gt; for &lt;em&gt;Telecommunications,&lt;/em&gt; and all &lt;em&gt;further applications&lt;/em&gt; from &lt;em&gt;Japanese financial institutions&lt;/em&gt; for &lt;em&gt;licences" until authorities&lt;/em&gt; in &lt;em&gt;Japan stopped imposing&lt;/em&gt; what the MPs &lt;em&gt;called "restrictive conditions"&lt;/em&gt; on the bid by (&lt;em&gt;Cable&lt;/em&gt; and &lt;em&gt;Wireless&lt;/em&gt; PLC) (cawl.</str>
+        <str name="text">K. &lt;em&gt;Government&lt;/em&gt; to "&lt;em&gt;coordinate action&lt;/em&gt; with the &lt;em&gt;President&lt;/em&gt; of the United &lt;em&gt;States,&lt;/em&gt; and through the &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Industry,&lt;/em&gt; to &lt;em&gt;suspend&lt;/em&gt; all &lt;em&gt;further applications&lt;/em&gt; from &lt;em&gt;Japanese communications companies&lt;/em&gt; for &lt;em&gt;equipment approval&lt;/em&gt; by the &lt;em&gt;British Approvals Board&lt;/em&gt; for &lt;em&gt;Telecommunications,&lt;/em&gt; and all &lt;em&gt;further applications&lt;/em&gt; from &lt;em&gt;Japanese financial institutions&lt;/em&gt; for &lt;em&gt;licences"&lt;/em&gt; until &lt;em&gt;authorities&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; stopped imposing what the MPs called "&lt;em&gt;restrictive conditions"&lt;/em&gt; on the bid by (&lt;em&gt;Cable&lt;/em&gt; and &lt;em&gt;Wireless&lt;/em&gt; PLC) (cawl.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Clark&lt;/em&gt; said the &lt;em&gt;issue&lt;/em&gt; of &lt;em&gt;reciprocity regarding visible trade "strikes&lt;/em&gt; at the &lt;em&gt;basis&lt;/em&gt; of &lt;em&gt;whether British industry&lt;/em&gt; is to have a fair &lt;em&gt;access&lt;/em&gt; to an &lt;em&gt;extremely large market (Japan) which&lt;/em&gt; is &lt;em&gt;itself&lt;/em&gt; in a very &lt;em&gt;dominant position &lt;/em&gt;(in) &lt;em&gt;certain aspects&lt;/em&gt; of our own &lt;em&gt;domestic market ..&lt;/em&gt;.</str>
-        <int name="index">28</int>
+        <str name="text">&lt;em&gt;Prime Minister Margaret&lt;/em&gt; Thatcher said on Thursday that &lt;em&gt;Britain&lt;/em&gt; would not &lt;em&gt;hesitate&lt;/em&gt; to use new &lt;em&gt;powers&lt;/em&gt; contained in the &lt;em&gt;Financial Services&lt;/em&gt; Act 1986 and the &lt;em&gt;Banking&lt;/em&gt; Bill to &lt;em&gt;retaliate&lt;/em&gt; against &lt;em&gt;countries&lt;/em&gt; that do not &lt;em&gt;offer reciprocal market access&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;British Trade Minister&lt;/em&gt; Alan &lt;em&gt;Clark&lt;/em&gt; said this week in a &lt;em&gt;radio interview&lt;/em&gt; that the &lt;em&gt;European Community should build barriers against Japanese imports through certification procedures similar&lt;/em&gt; to &lt;em&gt;those facing European exporters&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">Should &lt;em&gt;Britain decide&lt;/em&gt; to act against &lt;em&gt;Japanese financial institutions,&lt;/em&gt; it would most &lt;em&gt;likely focus&lt;/em&gt; on the smaller, rather than larger ones, to &lt;em&gt;minimise&lt;/em&gt; any &lt;em&gt;risks&lt;/em&gt; to its role as a &lt;em&gt;global business centre, government sources said&lt;/em&gt;.</str>
+        <int name="index">32</int>
       </lst>
     </lst>
   </lst>

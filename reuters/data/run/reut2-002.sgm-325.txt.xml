@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-325.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">authority</str>
+        <str name="text">netherlands</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">brazilian</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">spain</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">seeking</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">venezuela</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">murilo</str>
-        <double name="strength">0.5</double>
+        <str name="text">france</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">quoted</str>
-        <double name="strength">0.5</double>
+        <str name="text">crisis</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">226</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">The head of the National Merchant Marine Authority, Murilo Rubens Habbema, was quoted in today's Gazeta Mercantil newspaper as saying that if the strike continued foreign ships could be authorized to transport Brazilian exports.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">229</int>
-        <double name="strength">0.9906805558811105</double>
+        <double name="strength">0.8747528506961548</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A spokesman for the port of Santos, which has been the scene of labour unrest and congestion in recent months, said movement of ships out of the port was running at about half its normal level of 12 ships a day.</str>
-        <int name="index">9</int>
+        <str name="text">Jorge Luis Leao Franco, a senior official of the National Merchant Marine Union, told Reuters he was optimistic the talks would lead to an end of the stoppage, which began last Friday.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">0.8455365909863596</double>
+        <int name="end">185</int>
+        <double name="strength">0.7537738838330885</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economic analysts&lt;/em&gt; said the &lt;em&gt;strike&lt;/em&gt; was of &lt;em&gt;serious concern&lt;/em&gt; to the &lt;em&gt;government, which&lt;/em&gt; has &lt;em&gt;already&lt;/em&gt; had to &lt;em&gt;suspend interest payments&lt;/em&gt; on part of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;foreign&lt;/em&gt; debt &lt;em&gt;following&lt;/em&gt; a &lt;em&gt;drastic deterioration&lt;/em&gt; in the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;trade balance&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Economic analysts&lt;/em&gt; said the &lt;em&gt;strike&lt;/em&gt; was of &lt;em&gt;serious concern&lt;/em&gt; to the &lt;em&gt;government,&lt;/em&gt; which has already had to &lt;em&gt;suspend interest payments&lt;/em&gt; on part of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;foreign&lt;/em&gt; debt following a &lt;em&gt;drastic deterioration&lt;/em&gt; in the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;trade balance&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The head of the &lt;em&gt;National Merchant Marine Authority, Murilo Rubens Habbema,&lt;/em&gt; was &lt;em&gt;quoted&lt;/em&gt; in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;Gazeta Mercantil newspaper&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; that if the &lt;em&gt;strike continued foreign ships could&lt;/em&gt; be &lt;em&gt;authorized&lt;/em&gt; to &lt;em&gt;transport Brazilian exports&lt;/em&gt;.</str>
+        <str name="text">The head of the &lt;em&gt;National Merchant Marine Authority, Murilo Rubens Habbema,&lt;/em&gt; was quoted in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;Gazeta Mercantil newspaper&lt;/em&gt; as saying that if the &lt;em&gt;strike&lt;/em&gt; continued &lt;em&gt;foreign ships&lt;/em&gt; could be authorized to &lt;em&gt;transport Brazilian exports&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;spokesman&lt;/em&gt; for the port of &lt;em&gt;Santos, which&lt;/em&gt; has been the &lt;em&gt;scene&lt;/em&gt; of &lt;em&gt;labour unrest&lt;/em&gt; and &lt;em&gt;congestion&lt;/em&gt; in &lt;em&gt;recent months,&lt;/em&gt; said &lt;em&gt;movement&lt;/em&gt; of &lt;em&gt;ships&lt;/em&gt; out of the port was &lt;em&gt;running&lt;/em&gt; at &lt;em&gt;about&lt;/em&gt; half its &lt;em&gt;normal level&lt;/em&gt; of 12 &lt;em&gt;ships&lt;/em&gt; a day.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Jorge&lt;/em&gt; Luis Leao Franco, a &lt;em&gt;senior official&lt;/em&gt; of the &lt;em&gt;National Merchant Marine Union,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; he was &lt;em&gt;optimistic&lt;/em&gt; the &lt;em&gt;talks&lt;/em&gt; would lead to an end of the &lt;em&gt;stoppage,&lt;/em&gt; which began last &lt;em&gt;Friday&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

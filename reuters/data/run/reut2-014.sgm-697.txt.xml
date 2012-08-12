@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-697.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">143</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pound</str>
+        <str name="text">monday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">petroleum</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">tight</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">report</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">strong</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">cents</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">export</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">iranians</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">barrel</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Live hogs pushed ahead on a lack of supplies because many farmers are turning their attention to spring planting rather than marketing livestock, traders said, noting that cash sales have been lighter than expected this week.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Traders said prices also were supported by an escalation in the Iran-Iraq war, with the Iranians reportedly launching a new offensive against Iraqi positions, and Iraq attacking offshore oil fields and an oil export depot.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">223</int>
-        <double name="strength">0.9839511983253677</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, some traders sold contracts to take profits after the extended rally, which has seen the April delivery contract soar to 69.90 cents a pound from 56 cents a pound at the start of the year.</str>
-        <int name="index">18</int>
+        <str name="text">"Crude futures could jump above 19 dlrs a barrel but will not remain there long if products are not strong," Robert Murphy, account executive at E.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">198</int>
-        <double name="strength">0.9231334560418026</double>
+        <int name="end">148</int>
+        <double name="strength">0.9366893346234131</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Prices pushed ahead to new contract highs, extending gains past three-year peaks set Monday, as tight supplies forced meat packers to bid aggressively for available animals.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.9337814997412904</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Live hogs &lt;em&gt;pushed ahead&lt;/em&gt; on a lack of &lt;em&gt;supplies because&lt;/em&gt; many &lt;em&gt;farmers&lt;/em&gt; are &lt;em&gt;turning their attention&lt;/em&gt; to &lt;em&gt;spring planting rather&lt;/em&gt; than &lt;em&gt;marketing livestock, traders&lt;/em&gt; said, &lt;em&gt;noting&lt;/em&gt; that cash &lt;em&gt;sales&lt;/em&gt; have been &lt;em&gt;lighter&lt;/em&gt; than &lt;em&gt;expected&lt;/em&gt; this week.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Traders&lt;/em&gt; said &lt;em&gt;prices&lt;/em&gt; also were &lt;em&gt;supported&lt;/em&gt; by an &lt;em&gt;escalation&lt;/em&gt; in the Iran-Iraq war, with the &lt;em&gt;Iranians reportedly launching&lt;/em&gt; a new &lt;em&gt;offensive against Iraqi positions,&lt;/em&gt; and Iraq &lt;em&gt;attacking offshore&lt;/em&gt; oil &lt;em&gt;fields&lt;/em&gt; and an oil &lt;em&gt;export depot&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Traders&lt;/em&gt; said &lt;em&gt;prices&lt;/em&gt; also were supported by an &lt;em&gt;escalation&lt;/em&gt; in the Iran-Iraq war, with the &lt;em&gt;Iranians&lt;/em&gt; reportedly launching a new &lt;em&gt;offensive&lt;/em&gt; against &lt;em&gt;Iraqi positions,&lt;/em&gt; and Iraq &lt;em&gt;attacking&lt;/em&gt; offshore oil &lt;em&gt;fields&lt;/em&gt; and an oil &lt;em&gt;export depot&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; some &lt;em&gt;traders&lt;/em&gt; sold &lt;em&gt;contracts&lt;/em&gt; to take &lt;em&gt;profits after&lt;/em&gt; the &lt;em&gt;extended rally, which&lt;/em&gt; has seen the &lt;em&gt;April delivery contract&lt;/em&gt; soar to 69.90 &lt;em&gt;cents&lt;/em&gt; a &lt;em&gt;pound&lt;/em&gt; from 56 &lt;em&gt;cents&lt;/em&gt; a &lt;em&gt;pound&lt;/em&gt; at the &lt;em&gt;start&lt;/em&gt; of the year.</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;"Crude futures&lt;/em&gt; could jump above 19 dlrs a &lt;em&gt;barrel&lt;/em&gt; but will not &lt;em&gt;remain&lt;/em&gt; there long if &lt;em&gt;products&lt;/em&gt; are not &lt;em&gt;strong," Robert Murphy, account executive&lt;/em&gt; at E.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Prices&lt;/em&gt; pushed ahead to new &lt;em&gt;contract highs,&lt;/em&gt; extending &lt;em&gt;gains&lt;/em&gt; past &lt;em&gt;three&lt;/em&gt;-year &lt;em&gt;peaks&lt;/em&gt; set &lt;em&gt;Monday,&lt;/em&gt; as &lt;em&gt;tight supplies&lt;/em&gt; forced meat &lt;em&gt;packers&lt;/em&gt; to bid aggressively for &lt;em&gt;available animals&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

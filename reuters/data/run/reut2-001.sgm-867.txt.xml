@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-867.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">funds</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">financial</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">possibility</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.9999999999999991</double>
-      </lst>
-      <lst name="term">
-        <str name="text">foreign</str>
+        <str name="text">companies</str>
         <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
+        <str name="text">activity</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
         <str name="text">share</str>
-        <double name="strength">0.5590169943749468</double>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. energy futures are the major oil companies, which already trade on the NYMEX, and institutional funds such as investment houses, pension funds, and insurance companies, Marks said.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">183</int>
+        <str name="text">"Energy futures trading is going through a tremendous period of transition that will last five to 10 years," Marks said, adding that volume will soar, international participation will increase, and activity of producing countries, major oil companies, and speculators will grow.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">279</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The commodities markets have become financial markets and should pursue a partnership with financial intermediaries," Marks said.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">131</int>
-        <double name="strength">0.9662509370393042</double>
+        <str name="text">Trading in energy futures on the New York Mercantile Exchange will change dramatically over the next five to 10 years as the market matures, according to outgoing chairman Michel Marks.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">185</int>
+        <double name="strength">0.8016943182060785</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Marks said it is imperative for NYMEX, which is running out of trading space, to process greater volumes expeditiously in order to handle the growth in volumes and new contracts that are already planned.</str>
-        <int name="index">5</int>
+        <str name="text">Marks steps down as chairman after an nine-year tenure when board elections are held March 17.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.9295034937647353</double>
+        <int name="end">95</int>
+        <double name="strength">0.7789761112019534</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;energy futures&lt;/em&gt; are the &lt;em&gt;major&lt;/em&gt; oil &lt;em&gt;companies, which already trade&lt;/em&gt; on the &lt;em&gt;NYMEX,&lt;/em&gt; and &lt;em&gt;institutional funds&lt;/em&gt; such as &lt;em&gt;investment houses, pension funds,&lt;/em&gt; and &lt;em&gt;insurance companies, Marks said&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;"Energy futures trading&lt;/em&gt; is going through a &lt;em&gt;tremendous period&lt;/em&gt; of &lt;em&gt;transition&lt;/em&gt; that will last five to 10 &lt;em&gt;years," Marks&lt;/em&gt; said, adding that &lt;em&gt;volume&lt;/em&gt; will soar, &lt;em&gt;international participation&lt;/em&gt; will &lt;em&gt;increase,&lt;/em&gt; and &lt;em&gt;activity&lt;/em&gt; of producing &lt;em&gt;countries, major&lt;/em&gt; oil &lt;em&gt;companies,&lt;/em&gt; and &lt;em&gt;speculators&lt;/em&gt; will grow.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;commodities markets&lt;/em&gt; have &lt;em&gt;become financial markets&lt;/em&gt; and &lt;em&gt;should pursue&lt;/em&gt; a &lt;em&gt;partnership&lt;/em&gt; with &lt;em&gt;financial intermediaries," Marks said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Trading&lt;/em&gt; in &lt;em&gt;energy futures&lt;/em&gt; on the New York &lt;em&gt;Mercantile Exchange&lt;/em&gt; will &lt;em&gt;change&lt;/em&gt; dramatically over the next five to 10 &lt;em&gt;years&lt;/em&gt; as the &lt;em&gt;market&lt;/em&gt; matures, according to &lt;em&gt;outgoing chairman Michel Marks&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Marks&lt;/em&gt; said it is &lt;em&gt;imperative&lt;/em&gt; for &lt;em&gt;NYMEX, which&lt;/em&gt; is &lt;em&gt;running&lt;/em&gt; out of &lt;em&gt;trading space,&lt;/em&gt; to &lt;em&gt;process greater volumes expeditiously&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;handle&lt;/em&gt; the &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;volumes&lt;/em&gt; and new &lt;em&gt;contracts&lt;/em&gt; that are &lt;em&gt;already planned&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Marks steps&lt;/em&gt; down as &lt;em&gt;chairman&lt;/em&gt; after an nine-year &lt;em&gt;tenure&lt;/em&gt; when &lt;em&gt;board elections&lt;/em&gt; are held &lt;em&gt;March 17&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

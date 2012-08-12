@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-155.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">midnight</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">consider</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">april</str>
-        <double name="strength">0.9999999999999999</double>
-      </lst>
-      <lst name="term">
         <str name="text">board</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shareholders</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">group</str>
+        <double name="strength">0.9969511504682499</double>
+      </lst>
+      <lst name="term">
+        <str name="text">midnight</str>
+        <double name="strength">0.9969511504682487</double>
+      </lst>
+      <lst name="term">
+        <str name="text">judge</str>
+        <double name="strength">0.9969511504682477</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He also testified a committee of directors had hired Goldman Sachs and Co to consider alternatives to the Hutton offer and also to consider a discussion of possible mergers with other companies including Emery and Federal Express Corp &lt;FDX&gt;.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Manhattan supreme court justice Lewis Grossman today adjourned until Monday a hearing on a stockholder suit seeking to block the Hutton LBO transaction.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">153</int>
-        <double name="strength">0.9582332782255644</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Yesterday, Frank Hoenemeyer, a retired vice chairman of Prudential Insurance Co and currently a Purolator board member, said an initial offer from Hutton was rejected by the board of directors February third.</str>
-        <int name="index">11</int>
+        <str name="text">Hutton lbo inc said its wholly owned PC Acquisition Inc subsidiary, which is the entity making the offer, extended both expiration date and the withdrawal rights period for its pending tender for 6.3 mln shares or 83 pct of Purolator common.</str>
+        <int name="index">4</int>
+        <int name="start">6</int>
+        <int name="end">247</int>
+        <double name="strength">0.8454408229929773</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Plaintiffs cited their belief that a superior offer would be forthcoming, however one company mentioned in an affadavit, Interlink Express plc, denied that it was interested.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">0.882436094350184</double>
+        <int name="end">175</int>
+        <double name="strength">0.8159674449438394</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He also &lt;em&gt;testified&lt;/em&gt; a &lt;em&gt;committee&lt;/em&gt; of &lt;em&gt;directors&lt;/em&gt; had &lt;em&gt;hired Goldman Sachs&lt;/em&gt; and Co to &lt;em&gt;consider alternatives&lt;/em&gt; to the &lt;em&gt;Hutton offer&lt;/em&gt; and also to &lt;em&gt;consider&lt;/em&gt; a &lt;em&gt;discussion&lt;/em&gt; of &lt;em&gt;possible mergers&lt;/em&gt; with &lt;em&gt;other companies including Emery&lt;/em&gt; and &lt;em&gt;Federal Express&lt;/em&gt; Corp &lt;FDX&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Manhattan supreme court justice Lewis Grossman today adjourned until Monday&lt;/em&gt; a &lt;em&gt;hearing&lt;/em&gt; on a &lt;em&gt;stockholder&lt;/em&gt; suit &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;block&lt;/em&gt; the &lt;em&gt;Hutton&lt;/em&gt; LBO &lt;em&gt;transaction&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Manhattan supreme court justice&lt;/em&gt; Lewis &lt;em&gt;Grossman today&lt;/em&gt; adjourned until &lt;em&gt;Monday&lt;/em&gt; a &lt;em&gt;hearing&lt;/em&gt; on a &lt;em&gt;stockholder&lt;/em&gt; suit seeking to &lt;em&gt;block&lt;/em&gt; the &lt;em&gt;Hutton&lt;/em&gt; LBO &lt;em&gt;transaction&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yesterday, Frank Hoenemeyer,&lt;/em&gt; a &lt;em&gt;retired&lt;/em&gt; vice &lt;em&gt;chairman&lt;/em&gt; of &lt;em&gt;Prudential Insurance&lt;/em&gt; Co and &lt;em&gt;currently&lt;/em&gt; a &lt;em&gt;Purolator board member,&lt;/em&gt; said an &lt;em&gt;initial offer&lt;/em&gt; from &lt;em&gt;Hutton&lt;/em&gt; was &lt;em&gt;rejected&lt;/em&gt; by the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors February third&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Hutton&lt;/em&gt; lbo inc said its wholly owned PC &lt;em&gt;Acquisition&lt;/em&gt; Inc &lt;em&gt;subsidiary,&lt;/em&gt; which is the &lt;em&gt;entity&lt;/em&gt; making the &lt;em&gt;offer,&lt;/em&gt; extended both &lt;em&gt;expiration&lt;/em&gt; date and the &lt;em&gt;withdrawal rights period&lt;/em&gt; for its pending &lt;em&gt;tender&lt;/em&gt; for 6.3 mln &lt;em&gt;shares&lt;/em&gt; or 83 pct of &lt;em&gt;Purolator common&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Plaintiffs&lt;/em&gt; cited their &lt;em&gt;belief&lt;/em&gt; that a &lt;em&gt;superior offer&lt;/em&gt; would be &lt;em&gt;forthcoming,&lt;/em&gt; however one &lt;em&gt;company&lt;/em&gt; mentioned in an &lt;em&gt;affadavit, Interlink Express&lt;/em&gt; plc, denied that it was interested.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

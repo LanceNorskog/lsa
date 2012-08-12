@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-551.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">presumably</str>
+        <str name="text">several</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">substantial</str>
+        <str name="text">participants</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">delays</str>
+        <str name="text">today</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">completion</str>
+        <str name="text">unlikely</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reactor</str>
+        <str name="text">internal</str>
         <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">West German economics researcher Jochen Bethkenhagen, in a report presented to a NATO economics seminar, said increased targets for Soviet nuclear energy output showed the April, 1986, disaster had not caused any change in Moscow's energy policy.</str>
-        <int name="index">1</int>
+        <str name="text">"It is also doubtful that the talks with China, Syria, Libya and Iraq with regard to Soviet deliveries in the next few years will have positive results," he said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">247</int>
+        <int name="end">163</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">This will presumably result in substantial delays in the completion of reactor blocks and in stricter quality controls during the construction of nuclear power stations, he said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">179</int>
-        <double name="strength">0.9996207380301274</double>
+        <double name="strength">0.9615889823243086</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bethkenhagen said high energy growth targets set by the Soviet Union up to the end of the decade showed Moscow intended to stick to a rigid supply-, rather than demand-oriented policy.</str>
-        <int name="index">8</int>
+        <str name="text">Norwegian academics Arild Moe and Helge Ole Bergesen said that the Soviet fuel industries represented such a pillar of the economy that immediate reform was tricky.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9803932572567821</double>
+        <int name="end">165</int>
+        <double name="strength">0.9556819545032079</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">West &lt;em&gt;German economics researcher Jochen Bethkenhagen,&lt;/em&gt; in a &lt;em&gt;report presented&lt;/em&gt; to a NATO &lt;em&gt;economics seminar,&lt;/em&gt; said &lt;em&gt;increased targets&lt;/em&gt; for &lt;em&gt;Soviet nuclear energy output showed&lt;/em&gt; the &lt;em&gt;April, 1986, disaster&lt;/em&gt; had not &lt;em&gt;caused&lt;/em&gt; any &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;Moscow&lt;/em&gt;'s &lt;em&gt;energy policy&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">"It is also &lt;em&gt;doubtful&lt;/em&gt; that the &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;China, Syria, Libya&lt;/em&gt; and Iraq with &lt;em&gt;regard&lt;/em&gt; to &lt;em&gt;Soviet deliveries&lt;/em&gt; in the next few &lt;em&gt;years&lt;/em&gt; will have &lt;em&gt;positive results,"&lt;/em&gt; he said.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This will &lt;em&gt;presumably result&lt;/em&gt; in &lt;em&gt;substantial delays&lt;/em&gt; in the &lt;em&gt;completion&lt;/em&gt; of &lt;em&gt;reactor blocks&lt;/em&gt; and in &lt;em&gt;stricter quality controls during&lt;/em&gt; the &lt;em&gt;construction&lt;/em&gt; of &lt;em&gt;nuclear power stations,&lt;/em&gt; he said.</str>
+        <str name="text">This will presumably &lt;em&gt;result&lt;/em&gt; in &lt;em&gt;substantial delays&lt;/em&gt; in the &lt;em&gt;completion&lt;/em&gt; of &lt;em&gt;reactor blocks&lt;/em&gt; and in stricter &lt;em&gt;quality controls&lt;/em&gt; during the &lt;em&gt;construction&lt;/em&gt; of &lt;em&gt;nuclear power stations,&lt;/em&gt; he said.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bethkenhagen&lt;/em&gt; said high &lt;em&gt;energy growth targets&lt;/em&gt; set by the &lt;em&gt;Soviet Union&lt;/em&gt; up to the end of the &lt;em&gt;decade showed Moscow intended&lt;/em&gt; to &lt;em&gt;stick&lt;/em&gt; to a &lt;em&gt;rigid supply-, rather&lt;/em&gt; than &lt;em&gt;demand-oriented policy&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Norwegian academics Arild&lt;/em&gt; Moe and &lt;em&gt;Helge&lt;/em&gt; Ole &lt;em&gt;Bergesen&lt;/em&gt; said that the &lt;em&gt;Soviet&lt;/em&gt; fuel &lt;em&gt;industries&lt;/em&gt; represented such a &lt;em&gt;pillar&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; that &lt;em&gt;immediate reform&lt;/em&gt; was &lt;em&gt;tricky&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

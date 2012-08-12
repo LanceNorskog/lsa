@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-730.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">78</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reduced</str>
+        <str name="text">world</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.5590169943749482</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">interest</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">rescheduled</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">loans</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">growth</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">bankers</str>
+        <double name="strength">0.9409276072344805</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">As previously reported, bank commitments to the new money package will also be reduced by 250 mln dlrs, representing the interest payments that Mexico will save this year, thanks to the reduced spread on the rescheduling.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">222</int>
+        <str name="text">Mexican officials and representatives of about 360 creditor banks worldwide started to sign agreements for 7.7 billion dlrs in new loans, Citibank said as co-chairman of Mexico's bank advisory committee.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The loan may be drawn down until April 1988 but only if Mexico experiences a shortfall in public-sector external receipts and provided that Mexico first qualifies for drawings under a 600 mln sdr oil-contigency facility from the International Monetary Fund.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">258</int>
-        <double name="strength">0.9370745457925129</double>
+        <double name="strength">0.957647336369331</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rounding out the deal, the banks have agreed to prolong six billion dlrs of trade lines and to refinance some 10 billion dlrs of private-sector debt that comes under the Mexican government's exchange-guarantee scheme, Ficorca.</str>
-        <int name="index">17</int>
+        <str name="text">As previously reported, bank commitments to the new money package will also be reduced by 250 mln dlrs, representing the interest payments that Mexico will save this year, thanks to the reduced spread on the rescheduling.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">0.9287003826674112</double>
+        <int name="end">222</int>
+        <double name="strength">0.9426524404562364</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">As &lt;em&gt;previously reported,&lt;/em&gt; bank &lt;em&gt;commitments&lt;/em&gt; to the new &lt;em&gt;money package&lt;/em&gt; will also be &lt;em&gt;reduced&lt;/em&gt; by 250 mln dlrs, &lt;em&gt;representing&lt;/em&gt; the &lt;em&gt;interest payments&lt;/em&gt; that &lt;em&gt;Mexico&lt;/em&gt; will save this year, &lt;em&gt;thanks&lt;/em&gt; to the &lt;em&gt;reduced spread&lt;/em&gt; on the &lt;em&gt;rescheduling&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Mexican officials&lt;/em&gt; and &lt;em&gt;representatives&lt;/em&gt; of about 360 &lt;em&gt;creditor banks&lt;/em&gt; worldwide started to sign &lt;em&gt;agreements&lt;/em&gt; for 7.7 &lt;em&gt;billion&lt;/em&gt; dlrs in new &lt;em&gt;loans, Citibank&lt;/em&gt; said as co-&lt;em&gt;chairman&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt;'s bank &lt;em&gt;advisory committee&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The loan may be &lt;em&gt;drawn&lt;/em&gt; down &lt;em&gt;until April 1988&lt;/em&gt; but only if &lt;em&gt;Mexico experiences&lt;/em&gt; a &lt;em&gt;shortfall&lt;/em&gt; in &lt;em&gt;public-sector external receipts&lt;/em&gt; and &lt;em&gt;provided&lt;/em&gt; that &lt;em&gt;Mexico first qualifies&lt;/em&gt; for &lt;em&gt;drawings under&lt;/em&gt; a 600 mln sdr oil-&lt;em&gt;contigency facility&lt;/em&gt; from the &lt;em&gt;International Monetary Fund&lt;/em&gt;.</str>
+        <str name="text">The loan may be drawn down until &lt;em&gt;April 1988&lt;/em&gt; but only if Mexico experiences a &lt;em&gt;shortfall&lt;/em&gt; in &lt;em&gt;public-sector external receipts&lt;/em&gt; and provided that &lt;em&gt;Mexico&lt;/em&gt; first qualifies for &lt;em&gt;drawings&lt;/em&gt; under a 600 mln sdr oil-&lt;em&gt;contigency facility&lt;/em&gt; from the &lt;em&gt;International Monetary Fund&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rounding&lt;/em&gt; out the deal, the &lt;em&gt;banks&lt;/em&gt; have &lt;em&gt;agreed&lt;/em&gt; to &lt;em&gt;prolong&lt;/em&gt; six &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;trade lines&lt;/em&gt; and to &lt;em&gt;refinance&lt;/em&gt; some 10 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;private-sector&lt;/em&gt; debt that &lt;em&gt;comes under&lt;/em&gt; the &lt;em&gt;Mexican government&lt;/em&gt;'s &lt;em&gt;exchange-guarantee scheme, Ficorca&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">As previously reported, bank &lt;em&gt;commitments&lt;/em&gt; to the new &lt;em&gt;money package&lt;/em&gt; will also be reduced by 250 mln dlrs, representing the &lt;em&gt;interest payments&lt;/em&gt; that &lt;em&gt;Mexico&lt;/em&gt; will save this year, &lt;em&gt;thanks&lt;/em&gt; to the &lt;em&gt;reduced spread&lt;/em&gt; on the &lt;em&gt;rescheduling&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

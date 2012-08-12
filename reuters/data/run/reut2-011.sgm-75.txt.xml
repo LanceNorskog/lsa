@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-75.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">114</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">contained</str>
+        <str name="text">sanctions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">house</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">democratic</str>
+        <double name="strength">0.9960900316910969</double>
+      </lst>
+      <lst name="term">
+        <str name="text">leaders</str>
+        <double name="strength">0.9960900316910969</double>
+      </lst>
+      <lst name="term">
+        <str name="text">persuade</str>
+        <double name="strength">0.996090031691096</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5590169943749459</double>
-      </lst>
-      <lst name="term">
-        <str name="text">action</str>
-        <double name="strength">0.5000000000000002</double>
-      </lst>
-      <lst name="term">
-        <str name="text">tried</str>
-        <double name="strength">0.5000000000000001</double>
+        <double name="strength">0.9960900316910958</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">House Speaker Jim Wright of Texas told reporters before the opening of the House session, "It just shows we were right all along when we said something needs doing."</str>
-        <int name="index">9</int>
-        <int name="start">0</int>
-        <int name="end">165</int>
-        <double name="strength">0.9743532896157464</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The United States has tried to convince Japanese car companies of the quality of American-made parts and to draw them away from their traditional Japanese suppliers.</str>
-        <int name="index">20</int>
+        <str name="text">President Reagan's sanctions decision won praise today from the two Democratic leaders of Congress.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.7672621602624061</double>
+        <int name="end">100</int>
+        <double name="strength">0.8437873409224154</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. trade official said it would be foolish for Japan to strike back against the United States for its sanctions on Japanese semiconductor electronics products.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">159</int>
+        <double name="strength">0.795521093116567</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; he &lt;em&gt;doubted Japan could&lt;/em&gt; show &lt;em&gt;enough progress&lt;/em&gt; in &lt;em&gt;meeting&lt;/em&gt; the &lt;em&gt;conditions&lt;/em&gt; of the &lt;em&gt;agreement&lt;/em&gt; to &lt;em&gt;avoid&lt;/em&gt; the &lt;em&gt;actual imposition&lt;/em&gt; of the 300 mln dlrs in &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;April 17&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; he doubted &lt;em&gt;Japan&lt;/em&gt; could show &lt;em&gt;enough progress&lt;/em&gt; in meeting the &lt;em&gt;conditions&lt;/em&gt; of the &lt;em&gt;agreement&lt;/em&gt; to &lt;em&gt;avoid&lt;/em&gt; the &lt;em&gt;actual imposition&lt;/em&gt; of the 300 mln dlrs in &lt;em&gt;tariffs&lt;/em&gt; on &lt;em&gt;April 17&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;House Speaker&lt;/em&gt; Jim &lt;em&gt;Wright&lt;/em&gt; of &lt;em&gt;Texas&lt;/em&gt; told &lt;em&gt;reporters before&lt;/em&gt; the &lt;em&gt;opening&lt;/em&gt; of the &lt;em&gt;House session, &lt;/em&gt;"It just &lt;em&gt;shows&lt;/em&gt; we were &lt;em&gt;right&lt;/em&gt; all &lt;em&gt;along&lt;/em&gt; when we said &lt;em&gt;something needs doing.&lt;/em&gt;"</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;sanctions decision&lt;/em&gt; won &lt;em&gt;praise today&lt;/em&gt; from the two &lt;em&gt;Democratic leaders&lt;/em&gt; of &lt;em&gt;Congress&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; has &lt;em&gt;tried&lt;/em&gt; to &lt;em&gt;convince Japanese&lt;/em&gt; car &lt;em&gt;companies&lt;/em&gt; of the &lt;em&gt;quality&lt;/em&gt; of &lt;em&gt;American&lt;/em&gt;-made &lt;em&gt;parts&lt;/em&gt; and to draw them away from &lt;em&gt;their traditional Japanese suppliers&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">S. &lt;em&gt;trade official&lt;/em&gt; said it would be &lt;em&gt;foolish&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;strike&lt;/em&gt; back against the United &lt;em&gt;States&lt;/em&gt; for its &lt;em&gt;sanctions&lt;/em&gt; on &lt;em&gt;Japanese semiconductor electronics products&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

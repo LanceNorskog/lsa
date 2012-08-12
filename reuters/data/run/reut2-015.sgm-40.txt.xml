@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-40.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increased</str>
+        <str name="text">service</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">saying</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">claims</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">without</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">fault</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">attorney</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">identified</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">general</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">287</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">Scherer told a news conference the conclusions drawn by the firm "are not only wrong -- they also reflect the same bias against nuclear power that these auditors have demonstrated in similar cases accross the country."</str>
         <int name="index">6</int>
         <int name="start">0</int>
         <int name="end">218</int>
-        <double name="strength">0.8658425025190045</double>
+        <double name="strength">0.8436548365179161</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Noting "unit one is finished, and we expect it to be in commercial operationg by June," he said the firm's latest report ignored the earlier projection, gave the utility no credit for the completion and "actually penalized us by suggesting that costs to maintain t he schedule be disallowed."</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">293</int>
-        <double name="strength">0.800663528033466</double>
+        <double name="strength">0.8273136996037825</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Noting&lt;/em&gt; the &lt;em&gt;audit&lt;/em&gt; said &lt;em&gt;costs&lt;/em&gt; were &lt;em&gt;increased 600&lt;/em&gt; mln dlrs by &lt;em&gt;schedule delays totaling 20.5 months,&lt;/em&gt; he said "&lt;em&gt;First,&lt;/em&gt; we have the best &lt;em&gt;concrete placement record&lt;/em&gt; in the &lt;em&gt;industry, Second&lt;/em&gt; new &lt;em&gt;government regulations after&lt;/em&gt; the &lt;em&gt;Three&lt;/em&gt; Mile &lt;em&gt;Island incident significantly increased construction time&lt;/em&gt;.</str>
+        <str name="text">Noting the &lt;em&gt;audit&lt;/em&gt; said &lt;em&gt;costs&lt;/em&gt; were increased 600 mln dlrs by &lt;em&gt;schedule delays&lt;/em&gt; totaling 20.5 &lt;em&gt;months,&lt;/em&gt; he said "First, we have the best &lt;em&gt;concrete placement record&lt;/em&gt; in the &lt;em&gt;industry, Second&lt;/em&gt; new &lt;em&gt;government regulations&lt;/em&gt; after the &lt;em&gt;Three&lt;/em&gt; Mile &lt;em&gt;Island incident&lt;/em&gt; significantly increased &lt;em&gt;construction time&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Scherer&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; the &lt;em&gt;conclusions drawn&lt;/em&gt; by the firm "are not only &lt;em&gt;wrong --&lt;/em&gt; they also &lt;em&gt;reflect&lt;/em&gt; the same bias &lt;em&gt;against nuclear power&lt;/em&gt; that &lt;em&gt;these auditors&lt;/em&gt; have &lt;em&gt;demonstrated&lt;/em&gt; in &lt;em&gt;similar cases accross&lt;/em&gt; the &lt;em&gt;country.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Scherer&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; the &lt;em&gt;conclusions&lt;/em&gt; drawn by the firm "are not only &lt;em&gt;wrong --&lt;/em&gt; they also &lt;em&gt;reflect&lt;/em&gt; the same bias against &lt;em&gt;nuclear power&lt;/em&gt; that these &lt;em&gt;auditors&lt;/em&gt; have demonstrated in &lt;em&gt;similar cases&lt;/em&gt; accross the &lt;em&gt;country.&lt;/em&gt;"</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Noting &lt;/em&gt;"unit one is &lt;em&gt;finished,&lt;/em&gt; and we &lt;em&gt;expect&lt;/em&gt; it to be in &lt;em&gt;commercial operationg&lt;/em&gt; by June," he said the firm's &lt;em&gt;latest report ignored&lt;/em&gt; the &lt;em&gt;earlier projection,&lt;/em&gt; gave the &lt;em&gt;utility&lt;/em&gt; no &lt;em&gt;credit&lt;/em&gt; for the &lt;em&gt;completion&lt;/em&gt; and "&lt;em&gt;actually penalized&lt;/em&gt; us by &lt;em&gt;suggesting&lt;/em&gt; that &lt;em&gt;costs&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; t he &lt;em&gt;schedule&lt;/em&gt; be &lt;em&gt;disallowed.&lt;/em&gt;"</str>
+        <str name="text">Noting "unit one is finished, and we &lt;em&gt;expect&lt;/em&gt; it to be in &lt;em&gt;commercial operationg&lt;/em&gt; by June," he said the firm's latest &lt;em&gt;report&lt;/em&gt; ignored the earlier &lt;em&gt;projection,&lt;/em&gt; gave the &lt;em&gt;utility&lt;/em&gt; no &lt;em&gt;credit&lt;/em&gt; for the &lt;em&gt;completion&lt;/em&gt; and "actually penalized us by suggesting that &lt;em&gt;costs&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; t he &lt;em&gt;schedule&lt;/em&gt; be disallowed."</str>
         <int name="index">9</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-808.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">99</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">iraqi</str>
+        <str name="text">middle</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">implications</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">international</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">bahrain</str>
-        <double name="strength">0.5</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">iranian</str>
-        <double name="strength">0.5</double>
+        <str name="text">palestinian</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">renewed</str>
-        <double name="strength">0.5</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">229</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">BAHRAIN - Iranian forces have renewed their assault on Iraqi lines defending the southern city of Basra and gained what Baghdad described as "footholds" on Iraqi territory.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.9854006762498335</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">BELFAST - A British soldier was shot and seriously hurt in Northern Ireland and buses and lorries were hijacked and set on fire after mourners clashed with police at an Irish Republican Army funeral.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">200</int>
-        <double name="strength">0.9630868246861545</double>
+        <double name="strength">0.8995528384987369</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">ROME - Israeli Foreign Minister Shimon Peres discussed the Middle East with Palestinian and Soviet officials at a Socialist International committee meeting here.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.7554293434667537</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;CAIRO -&lt;/em&gt; The &lt;em&gt;ruling National Democratic Party&lt;/em&gt; of &lt;em&gt;President Hosni Mubarak&lt;/em&gt; took 75 pct of the &lt;em&gt;seven&lt;/em&gt; mln &lt;em&gt;votes&lt;/em&gt; cast in &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;general election,&lt;/em&gt; but &lt;em&gt;incomplete official results indicated&lt;/em&gt; some &lt;em&gt;Socialist&lt;/em&gt; and &lt;em&gt;Moslem Brotherhood gains&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;CAIRO -&lt;/em&gt; The ruling &lt;em&gt;National Democratic Party&lt;/em&gt; of &lt;em&gt;President&lt;/em&gt; Hosni &lt;em&gt;Mubarak&lt;/em&gt; took 75 pct of the &lt;em&gt;seven&lt;/em&gt; mln &lt;em&gt;votes&lt;/em&gt; cast in &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;general election,&lt;/em&gt; but &lt;em&gt;incomplete official results&lt;/em&gt; indicated some &lt;em&gt;Socialist&lt;/em&gt; and &lt;em&gt;Moslem Brotherhood gains&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;BAHRAIN - Iranian forces&lt;/em&gt; have &lt;em&gt;renewed their assault&lt;/em&gt; on &lt;em&gt;Iraqi lines defending&lt;/em&gt; the &lt;em&gt;southern&lt;/em&gt; city of &lt;em&gt;Basra&lt;/em&gt; and &lt;em&gt;gained&lt;/em&gt; what &lt;em&gt;Baghdad described&lt;/em&gt; as "&lt;em&gt;footholds"&lt;/em&gt; on &lt;em&gt;Iraqi territory&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;BELFAST -&lt;/em&gt; A &lt;em&gt;British soldier&lt;/em&gt; was shot and seriously hurt in &lt;em&gt;Northern Ireland&lt;/em&gt; and &lt;em&gt;buses&lt;/em&gt; and &lt;em&gt;lorries&lt;/em&gt; were &lt;em&gt;hijacked&lt;/em&gt; and set on fire after &lt;em&gt;mourners&lt;/em&gt; clashed with &lt;em&gt;police&lt;/em&gt; at an &lt;em&gt;Irish Republican&lt;/em&gt; Army &lt;em&gt;funeral&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;BELFAST -&lt;/em&gt; A &lt;em&gt;British soldier&lt;/em&gt; was shot and &lt;em&gt;seriously&lt;/em&gt; hurt in &lt;em&gt;Northern Ireland&lt;/em&gt; and &lt;em&gt;buses&lt;/em&gt; and &lt;em&gt;lorries&lt;/em&gt; were &lt;em&gt;hijacked&lt;/em&gt; and set on fire &lt;em&gt;after mourners clashed&lt;/em&gt; with &lt;em&gt;police&lt;/em&gt; at an &lt;em&gt;Irish Republican&lt;/em&gt; Army &lt;em&gt;funeral&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">ROME - &lt;em&gt;Israeli Foreign Minister Shimon Peres&lt;/em&gt; discussed the &lt;em&gt;Middle&lt;/em&gt; East with &lt;em&gt;Palestinian&lt;/em&gt; and &lt;em&gt;Soviet officials&lt;/em&gt; at a &lt;em&gt;Socialist International committee meeting here&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

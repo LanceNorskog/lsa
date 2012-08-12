@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-534.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">160</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">estates</str>
+        <str name="text">trade</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">storage</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">buyers</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">space</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">output</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">excess</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">rupee</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">stocks</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">disease</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Senior industry and research officials met yesterday at Padukka, east of here, to discuss ways of controlling the fungus which is affecting estates mostly belonging to the State Plantations Corp and Janatha Estates Development Board.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">234</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"Some factors, like less storage space from excess stocks, meant we could not buy much at the auction until we disposed of the rubber we already had," one buyer said.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.9019894071516552</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Other sources said there were few forward contracts and speculative buying last month, while delays in steamer arrivals aggravated the problem.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">144</int>
-        <double name="strength">0.8277433751701637</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The two state-owned groups account for 30 pct of rubber land with the balance belonging to small private producers with a total of 145,600 hectares.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.9522182964025467</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A leaf disease affecting seven pct of Sri Lanka's rubber plantations may reduce output this year and raise currently depressed prices, industry officials and researchers told Reuters.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">183</int>
+        <double name="strength">0.892991229372604</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Senior industry&lt;/em&gt; and &lt;em&gt;research officials&lt;/em&gt; met &lt;em&gt;yesterday&lt;/em&gt; at &lt;em&gt;Padukka,&lt;/em&gt; east of here, to &lt;em&gt;discuss&lt;/em&gt; ways of &lt;em&gt;controlling&lt;/em&gt; the &lt;em&gt;fungus which&lt;/em&gt; is &lt;em&gt;affecting estates mostly belonging&lt;/em&gt; to the &lt;em&gt;State Plantations&lt;/em&gt; Corp and &lt;em&gt;Janatha Estates Development Board&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"Some &lt;em&gt;factors,&lt;/em&gt; like less &lt;em&gt;storage space&lt;/em&gt; from &lt;em&gt;excess stocks, meant&lt;/em&gt; we &lt;em&gt;could&lt;/em&gt; not buy much at the &lt;em&gt;auction until&lt;/em&gt; we &lt;em&gt;disposed&lt;/em&gt; of the &lt;em&gt;rubber&lt;/em&gt; we &lt;em&gt;already&lt;/em&gt; had," one &lt;em&gt;buyer said&lt;/em&gt;.</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Other sources&lt;/em&gt; said &lt;em&gt;there&lt;/em&gt; were few &lt;em&gt;forward contracts&lt;/em&gt; and &lt;em&gt;speculative buying&lt;/em&gt; last &lt;em&gt;month, while delays&lt;/em&gt; in &lt;em&gt;steamer arrivals aggravated&lt;/em&gt; the &lt;em&gt;problem&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Other sources&lt;/em&gt; said there were few &lt;em&gt;forward contracts&lt;/em&gt; and &lt;em&gt;speculative buying&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; while &lt;em&gt;delays&lt;/em&gt; in &lt;em&gt;steamer arrivals&lt;/em&gt; aggravated the &lt;em&gt;problem&lt;/em&gt;.</str>
         <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The two &lt;em&gt;state&lt;/em&gt;-owned &lt;em&gt;groups account&lt;/em&gt; for 30 pct of &lt;em&gt;rubber&lt;/em&gt; land with the &lt;em&gt;balance&lt;/em&gt; belonging to &lt;em&gt;small private producers&lt;/em&gt; with a &lt;em&gt;total&lt;/em&gt; of 145,600 &lt;em&gt;hectares&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A leaf &lt;em&gt;disease&lt;/em&gt; affecting &lt;em&gt;seven&lt;/em&gt; pct of Sri &lt;em&gt;Lanka&lt;/em&gt;'s &lt;em&gt;rubber plantations&lt;/em&gt; may &lt;em&gt;reduce output&lt;/em&gt; this year and &lt;em&gt;raise&lt;/em&gt; currently depressed &lt;em&gt;prices, industry officials&lt;/em&gt; and &lt;em&gt;researchers&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-529.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">review</str>
+        <str name="text">service</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">external</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">inflation</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">budget</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">hitting</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">deficit</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">245</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Inflation is hitting hardest those in the low income bracket which demands that any economic recovery programme should be biased in their favour," the union body said.</str>
-        <int name="index">16</int>
+        <str name="text">The government announced the freeze amid a worsening economic crisis caused by serious drought, a budget deficit of more than one billion Zimbabwean dlrs and an acute balance of payments problem owing to debt service costs, now 357 mln U.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.9971538590712832</double>
+        <int name="end">239</int>
+        <double name="strength">0.961768672016961</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"If those companies whose costs of production increase are not allowed a price increase, profit margins will again be severely squeezed, and this would negate current government efforts to revitalise the economy," the chamber said.</str>
-        <int name="index">10</int>
+        <str name="text">The crisis has forced the country to make companies halve dividend remittances to overseas shareholders.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.9642205849678828</double>
+        <int name="end">105</int>
+        <double name="strength">0.8174916216270525</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;freeze, which Finance Minister Bernard Chidzero&lt;/em&gt; said &lt;em&gt;would check production costs&lt;/em&gt; and &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;budget deficit,&lt;/em&gt; has been &lt;em&gt;partly welcomed&lt;/em&gt; by &lt;em&gt;business&lt;/em&gt; but &lt;em&gt;criticised&lt;/em&gt; by &lt;em&gt;workers whose&lt;/em&gt; real &lt;em&gt;purchasing power&lt;/em&gt; has been &lt;em&gt;severely eroded since 1980&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;freeze,&lt;/em&gt; which &lt;em&gt;Finance Minister Bernard Chidzero&lt;/em&gt; said would &lt;em&gt;check production costs&lt;/em&gt; and &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;budget deficit,&lt;/em&gt; has been partly welcomed by &lt;em&gt;business&lt;/em&gt; but criticised by &lt;em&gt;workers&lt;/em&gt; whose real &lt;em&gt;purchasing power&lt;/em&gt; has been severely eroded since 1980.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Inflation&lt;/em&gt; is &lt;em&gt;hitting hardest those&lt;/em&gt; in the low &lt;em&gt;income bracket which demands&lt;/em&gt; that any &lt;em&gt;economic recovery programme should&lt;/em&gt; be &lt;em&gt;biased&lt;/em&gt; in &lt;em&gt;their favour,"&lt;/em&gt; the &lt;em&gt;union&lt;/em&gt; body said.</str>
-        <int name="index">16</int>
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; announced the &lt;em&gt;freeze&lt;/em&gt; amid a worsening &lt;em&gt;economic crisis&lt;/em&gt; caused by &lt;em&gt;serious drought,&lt;/em&gt; a &lt;em&gt;budget deficit&lt;/em&gt; of more than one &lt;em&gt;billion Zimbabwean&lt;/em&gt; dlrs and an &lt;em&gt;acute balance&lt;/em&gt; of &lt;em&gt;payments problem&lt;/em&gt; owing to debt &lt;em&gt;service costs,&lt;/em&gt; now 357 mln U.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"If &lt;em&gt;those companies whose costs&lt;/em&gt; of &lt;em&gt;production increase&lt;/em&gt; are not &lt;em&gt;allowed&lt;/em&gt; a &lt;em&gt;price increase, profit margins&lt;/em&gt; will &lt;em&gt;again&lt;/em&gt; be &lt;em&gt;severely squeezed,&lt;/em&gt; and this &lt;em&gt;would negate current government efforts&lt;/em&gt; to &lt;em&gt;revitalise&lt;/em&gt; the &lt;em&gt;economy,"&lt;/em&gt; the &lt;em&gt;chamber said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The &lt;em&gt;crisis&lt;/em&gt; has forced the &lt;em&gt;country&lt;/em&gt; to make &lt;em&gt;companies halve dividend remittances&lt;/em&gt; to &lt;em&gt;overseas shareholders&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

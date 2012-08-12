@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-233.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">investment</str>
+        <str name="text">loans</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">certain</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">taxes</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">amount</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">private</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">increase</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">minimum</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">current</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">He also said his dismissal of Peruvian Air Force Commander Lieutenant General Luis Abram Cavarellino yesterday strengthened the democratic authority of his government.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
       <lst name="sentence">
         <str name="text">But tonight Garcia said: "We have met our aim of limiting the payment of the debt and will limit it also even though organisations like the World Bank have credits which oblige us to buy a certain type of machinery and to build certain types of public works and not others, and to pay much more in dollars than that which they are willing to newly lend us."</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">358</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8823748059869316</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Garcia said his government had been a model for Latin America because Peru had enjoyed growth in gross domestic product (GDP) last year of nine pct while taking its hard line on debt.</str>
-        <int name="index">8</int>
+        <str name="text">Salaries will go up this month by 30 pct for civil servants and 27 pct for those workers earning above the minimum wage but not covered by collective bargaining agreements.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">184</int>
-        <double name="strength">0.7978769682223944</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Garcia announced the government would encourage Peruvians to repatriate their savings deposited abroad by paying a 15 pct premium above the market exchange rate.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">162</int>
-        <double name="strength">0.7620278167874621</double>
+        <int name="end">173</int>
+        <double name="strength">0.85615088343567</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;tonight Garcia&lt;/em&gt; said: "We have met our aim of &lt;em&gt;limiting&lt;/em&gt; the &lt;em&gt;payment&lt;/em&gt; of the debt and will &lt;em&gt;limit&lt;/em&gt; it also even &lt;em&gt;though organisations&lt;/em&gt; like the &lt;em&gt;World&lt;/em&gt; Bank have &lt;em&gt;credits which oblige&lt;/em&gt; us to buy a &lt;em&gt;certain&lt;/em&gt; type of &lt;em&gt;machinery&lt;/em&gt; and to &lt;em&gt;build certain types&lt;/em&gt; of &lt;em&gt;public works&lt;/em&gt; and not &lt;em&gt;others,&lt;/em&gt; and to pay much more in &lt;em&gt;dollars&lt;/em&gt; than that &lt;em&gt;which&lt;/em&gt; they are &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;newly&lt;/em&gt; lend us."</str>
+        <str name="text">He also said his &lt;em&gt;dismissal&lt;/em&gt; of &lt;em&gt;Peruvian&lt;/em&gt; Air &lt;em&gt;Force Commander Lieutenant General&lt;/em&gt; Luis &lt;em&gt;Abram Cavarellino yesterday&lt;/em&gt; strengthened the &lt;em&gt;democratic authority&lt;/em&gt; of his &lt;em&gt;government&lt;/em&gt;.</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;tonight Garcia&lt;/em&gt; said: "We have met our aim of limiting the &lt;em&gt;payment&lt;/em&gt; of the debt and will &lt;em&gt;limit&lt;/em&gt; it also even though &lt;em&gt;organisations&lt;/em&gt; like the &lt;em&gt;World&lt;/em&gt; Bank have &lt;em&gt;credits&lt;/em&gt; which &lt;em&gt;oblige&lt;/em&gt; us to buy a &lt;em&gt;certain&lt;/em&gt; type of &lt;em&gt;machinery&lt;/em&gt; and to &lt;em&gt;build certain types&lt;/em&gt; of &lt;em&gt;public works&lt;/em&gt; and not &lt;em&gt;others,&lt;/em&gt; and to pay much more in &lt;em&gt;dollars&lt;/em&gt; than that which they are &lt;em&gt;willing&lt;/em&gt; to newly lend us."</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Garcia&lt;/em&gt; said his &lt;em&gt;government&lt;/em&gt; had been a &lt;em&gt;model&lt;/em&gt; for &lt;em&gt;Latin America because&lt;/em&gt; Peru had &lt;em&gt;enjoyed growth&lt;/em&gt; in &lt;em&gt;gross domestic product &lt;/em&gt;(GDP) last year of nine pct &lt;em&gt;while taking&lt;/em&gt; its hard line on debt.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Garcia announced&lt;/em&gt; the &lt;em&gt;government would encourage Peruvians&lt;/em&gt; to &lt;em&gt;repatriate their savings deposited abroad&lt;/em&gt; by &lt;em&gt;paying&lt;/em&gt; a 15 pct &lt;em&gt;premium above&lt;/em&gt; the &lt;em&gt;market exchange rate&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Salaries&lt;/em&gt; will go up this &lt;em&gt;month&lt;/em&gt; by 30 pct for &lt;em&gt;civil servants&lt;/em&gt; and 27 pct for those &lt;em&gt;workers&lt;/em&gt; earning above the &lt;em&gt;minimum&lt;/em&gt; wage but not covered by &lt;em&gt;collective bargaining agreements&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

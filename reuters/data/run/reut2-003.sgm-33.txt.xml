@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-33.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">earns</str>
+        <str name="text">ugandan</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">estimated</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">government</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">current</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">duties</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">october</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">sales</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">september</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">revenue</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Bomani called on the ICO to convene another meeting within two months, saying, "Once tempers have cooled and delegations have had time to report back to their headquarters, common sense will prevail."</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Uganda -- which earns about 400 mln dlrs annually from coffee exports, over 95 pct of its foreign exchange earnings -- had sought to raise its ICO quota to 3.0 mln from 2.45 mln 60-kilo bags, according to sources close to the CMB.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">0.8876981602562365</double>
-      </lst>
       <lst name="sentence">
         <str name="text">In Dar es Salaam, Tanzania's Agriculture and Livestock Development Minister Paul Bomani said today Third World countries would suffer from the failure of the London coffee talks.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">179</int>
-        <double name="strength">0.8590739337928418</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Bomani called on the ICO to convene another meeting within two months, saying, "Once tempers have cooled and delegations have had time to report back to their headquarters, common sense will prevail."</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">201</int>
+        <double name="strength">0.9294239246986546</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Ugandan government depends on coffee export duties for about 60 pct of its sales tax revenue and the industry employs over half of salaried manpower.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">0.7975045637066072</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bomani called&lt;/em&gt; on the ICO to &lt;em&gt;convene another meeting within&lt;/em&gt; two &lt;em&gt;months, saying, &lt;/em&gt;"Once &lt;em&gt;tempers&lt;/em&gt; have &lt;em&gt;cooled&lt;/em&gt; and &lt;em&gt;delegations&lt;/em&gt; have had time to &lt;em&gt;report&lt;/em&gt; back to &lt;em&gt;their headquarters, common sense&lt;/em&gt; will &lt;em&gt;prevail.&lt;/em&gt;"</str>
+        <str name="text">In Dar es &lt;em&gt;Salaam, Tanzania&lt;/em&gt;'s &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;Livestock Development Minister&lt;/em&gt; Paul &lt;em&gt;Bomani&lt;/em&gt; said &lt;em&gt;today Third World countries&lt;/em&gt; would &lt;em&gt;suffer&lt;/em&gt; from the &lt;em&gt;failure&lt;/em&gt; of the &lt;em&gt;London coffee talks&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bomani&lt;/em&gt; called on the ICO to &lt;em&gt;convene&lt;/em&gt; another &lt;em&gt;meeting&lt;/em&gt; within two &lt;em&gt;months,&lt;/em&gt; saying, "Once &lt;em&gt;tempers&lt;/em&gt; have cooled and &lt;em&gt;delegations&lt;/em&gt; have had time to &lt;em&gt;report&lt;/em&gt; back to their &lt;em&gt;headquarters, common sense&lt;/em&gt; will &lt;em&gt;prevail.&lt;/em&gt;"</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Uganda -- which earns about 400&lt;/em&gt; mln dlrs &lt;em&gt;annually&lt;/em&gt; from &lt;em&gt;coffee exports,&lt;/em&gt; over 95 pct of its &lt;em&gt;foreign exchange earnings --&lt;/em&gt; had &lt;em&gt;sought&lt;/em&gt; to &lt;em&gt;raise&lt;/em&gt; its ICO &lt;em&gt;quota&lt;/em&gt; to 3.0 mln from 2.45 mln 60-kilo bags, &lt;em&gt;according&lt;/em&gt; to &lt;em&gt;sources close&lt;/em&gt; to the CMB.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In Dar es &lt;em&gt;Salaam, Tanzania&lt;/em&gt;'s &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;Livestock Development Minister&lt;/em&gt; Paul &lt;em&gt;Bomani&lt;/em&gt; said &lt;em&gt;today Third World countries would suffer&lt;/em&gt; from the &lt;em&gt;failure&lt;/em&gt; of the &lt;em&gt;London coffee talks&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;Ugandan government&lt;/em&gt; depends on &lt;em&gt;coffee export duties&lt;/em&gt; for about 60 pct of its &lt;em&gt;sales&lt;/em&gt; tax &lt;em&gt;revenue&lt;/em&gt; and the &lt;em&gt;industry&lt;/em&gt; employs over half of &lt;em&gt;salaried manpower&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

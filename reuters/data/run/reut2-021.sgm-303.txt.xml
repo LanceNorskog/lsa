@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-021.sgm-303.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">66</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">introduce</str>
+        <str name="text">machine</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">laboratories</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">operating</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">stations</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">eight</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">medium</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">announce</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">233</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Minicomputers are medium sized machines usually used within a department or work group of a larger company and typically cost between 10,000 and 500,000 dlrs.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">159</int>
-        <double name="strength">0.8813930887258971</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. operations, said the new models are lower priced than comparable computers from Digital Equipment Corp &lt;DEC&gt;, the world's largest maker of minicomputers.</str>
         <int name="index">3</int>
         <int name="start">0</int>
         <int name="end">156</int>
-        <double name="strength">0.8659253719731002</double>
+        <double name="strength">0.905116824566522</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Within the next 12 to 18 months, he said, Wang will announce a more powerful high-end machine that will offer double the price/performance of its 7000 series.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.8372751925792897</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Bob Ano, Wang's &lt;em&gt;senior&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;corporate marketing,&lt;/em&gt; said that &lt;em&gt;before&lt;/em&gt; the end of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;fiscal&lt;/em&gt; year on June 30 it will &lt;em&gt;introduce&lt;/em&gt; an &lt;em&gt;entry level computer&lt;/em&gt; that will have four &lt;em&gt;times&lt;/em&gt; the &lt;em&gt;power&lt;/em&gt; of the 5E &lt;em&gt;introduced today&lt;/em&gt;.</str>
+        <str name="text">Bob Ano, Wang's &lt;em&gt;senior&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;corporate marketing,&lt;/em&gt; said that before the end of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;fiscal&lt;/em&gt; year on June 30 it will &lt;em&gt;introduce&lt;/em&gt; an &lt;em&gt;entry level computer&lt;/em&gt; that will have four &lt;em&gt;times&lt;/em&gt; the &lt;em&gt;power&lt;/em&gt; of the 5E introduced &lt;em&gt;today&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Minicomputers&lt;/em&gt; are &lt;em&gt;medium sized machines usually&lt;/em&gt; used &lt;em&gt;within&lt;/em&gt; a &lt;em&gt;department&lt;/em&gt; or work &lt;em&gt;group&lt;/em&gt; of a &lt;em&gt;larger company&lt;/em&gt; and &lt;em&gt;typically&lt;/em&gt; cost &lt;em&gt;between 10,000&lt;/em&gt; and 500,000 dlrs.</str>
-        <int name="index">4</int>
+        <str name="text">S. &lt;em&gt;operations,&lt;/em&gt; said the new &lt;em&gt;models&lt;/em&gt; are lower priced than &lt;em&gt;comparable computers&lt;/em&gt; from &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt;, the &lt;em&gt;world&lt;/em&gt;'s largest &lt;em&gt;maker&lt;/em&gt; of &lt;em&gt;minicomputers&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;operations,&lt;/em&gt; said the new &lt;em&gt;models&lt;/em&gt; are &lt;em&gt;lower priced&lt;/em&gt; than &lt;em&gt;comparable computers&lt;/em&gt; from &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt;, the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;largest maker&lt;/em&gt; of &lt;em&gt;minicomputers&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Within the next 12 to 18 &lt;em&gt;months,&lt;/em&gt; he said, Wang will &lt;em&gt;announce&lt;/em&gt; a more &lt;em&gt;powerful&lt;/em&gt; high-end &lt;em&gt;machine&lt;/em&gt; that will &lt;em&gt;offer&lt;/em&gt; double the &lt;em&gt;price/performance&lt;/em&gt; of its 7000 &lt;em&gt;series&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

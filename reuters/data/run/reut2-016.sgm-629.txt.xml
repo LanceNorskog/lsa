@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-629.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">supply</str>
+        <str name="text">major</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">found</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">producer</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">injured</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">duties</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">between</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">gallons</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S Customs, which will liquidate bond entries dating from Commerce's preliminary ruling and begin assessing duties, Vastagh said.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">128</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Today's ITC ruling was consistent with the Commerce Department's final ruling of March 9, and activates an anti-dumping duty of 1.96 pct on imports of Brazilian frozen concentrated orange juice, Stephen Vastagh, ITC investigator said.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.9489376039641446</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. International Trade Commission, ITC, voted to authorize the Commerce Department to impose anti-dumping duties on imports of Brazilian frozen concentrated orange juice.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">170</int>
-        <double name="strength">0.8933618928627447</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Between December 1985 and November 1986, the United States imported the equivalent of 546 mln gallons of Brazilian orange juice worth 622 mln dlrs, he said.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">0.8802323410175723</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S Customs, which will liquidate bond entries dating from Commerce's preliminary ruling and begin assessing duties, Vastagh said.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">128</int>
+        <double name="strength">0.8739869748554464</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S &lt;em&gt;Customs, which&lt;/em&gt; will &lt;em&gt;liquidate&lt;/em&gt; bond &lt;em&gt;entries dating&lt;/em&gt; from &lt;em&gt;Commerce&lt;/em&gt;'s &lt;em&gt;preliminary ruling&lt;/em&gt; and &lt;em&gt;begin assessing duties, Vastagh said&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Today&lt;/em&gt;'s ITC &lt;em&gt;ruling&lt;/em&gt; was &lt;em&gt;consistent&lt;/em&gt; with the &lt;em&gt;Commerce Department&lt;/em&gt;'s &lt;em&gt;final ruling&lt;/em&gt; of &lt;em&gt;March 9,&lt;/em&gt; and &lt;em&gt;activates&lt;/em&gt; an anti-&lt;em&gt;dumping&lt;/em&gt; duty of 1.96 pct on &lt;em&gt;imports&lt;/em&gt; of &lt;em&gt;Brazilian frozen concentrated orange juice, Stephen Vastagh,&lt;/em&gt; ITC &lt;em&gt;investigator said&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;International Trade Commission,&lt;/em&gt; ITC, &lt;em&gt;voted&lt;/em&gt; to &lt;em&gt;authorize&lt;/em&gt; the &lt;em&gt;Commerce Department&lt;/em&gt; to &lt;em&gt;impose&lt;/em&gt; anti-&lt;em&gt;dumping duties&lt;/em&gt; on &lt;em&gt;imports&lt;/em&gt; of &lt;em&gt;Brazilian frozen concentrated orange juice&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;International Trade Commission,&lt;/em&gt; ITC, voted to &lt;em&gt;authorize&lt;/em&gt; the &lt;em&gt;Commerce Department&lt;/em&gt; to &lt;em&gt;impose&lt;/em&gt; anti-dumping &lt;em&gt;duties&lt;/em&gt; on &lt;em&gt;imports&lt;/em&gt; of &lt;em&gt;Brazilian frozen concentrated orange juice&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Between &lt;em&gt;December 1985&lt;/em&gt; and &lt;em&gt;November 1986,&lt;/em&gt; the United &lt;em&gt;States&lt;/em&gt; imported the &lt;em&gt;equivalent&lt;/em&gt; of 546 mln &lt;em&gt;gallons&lt;/em&gt; of &lt;em&gt;Brazilian orange juice worth 622&lt;/em&gt; mln dlrs, he said.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S &lt;em&gt;Customs,&lt;/em&gt; which will &lt;em&gt;liquidate&lt;/em&gt; bond &lt;em&gt;entries&lt;/em&gt; dating from &lt;em&gt;Commerce&lt;/em&gt;'s &lt;em&gt;preliminary ruling&lt;/em&gt; and &lt;em&gt;begin&lt;/em&gt; assessing &lt;em&gt;duties,&lt;/em&gt; Vastagh said.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

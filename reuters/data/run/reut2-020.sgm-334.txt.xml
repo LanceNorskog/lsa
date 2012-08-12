@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-334.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">products</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">wheat</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">reform</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.5527707983925646</double>
+        <str name="text">parts</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">represented</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">unrealistic</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">former</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lyng said the United States would oppose parts of the plan seeking a market sharing agreement for grains, and proposing curbs on U.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.8857177409343931</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">The United States will be represented at the meeting by former agriculture undersecretary Daniel Amstutz, recently appointed special U.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">0.9301338416348691</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Lyng's comment came after EC ministers in Luxembourg endorsed a farm reform package drafted by the EC Commission.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">114</int>
-        <double name="strength">0.9286653974428534</double>
+        <double name="strength">0.8709775330525994</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng said he is &lt;em&gt;pleased&lt;/em&gt; the &lt;em&gt;European Community plans&lt;/em&gt; to &lt;em&gt;offer&lt;/em&gt; a &lt;em&gt;global&lt;/em&gt; farm &lt;em&gt;reform&lt;/em&gt; plan at GATT &lt;em&gt;later&lt;/em&gt; this &lt;em&gt;month, although&lt;/em&gt; the &lt;em&gt;United States opposes&lt;/em&gt; key &lt;em&gt;parts&lt;/em&gt; of the &lt;em&gt;proposal&lt;/em&gt;.</str>
+        <str name="text">U.S. &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng said he is pleased the &lt;em&gt;European Community&lt;/em&gt; plans to &lt;em&gt;offer&lt;/em&gt; a &lt;em&gt;global&lt;/em&gt; farm &lt;em&gt;reform&lt;/em&gt; plan at GATT later this &lt;em&gt;month,&lt;/em&gt; although the United &lt;em&gt;States&lt;/em&gt; opposes key &lt;em&gt;parts&lt;/em&gt; of the &lt;em&gt;proposal&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; will be &lt;em&gt;represented&lt;/em&gt; at the &lt;em&gt;meeting&lt;/em&gt; by &lt;em&gt;former agriculture undersecretary Daniel Amstutz, recently appointed special U&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">Lyng said the United &lt;em&gt;States&lt;/em&gt; would &lt;em&gt;oppose parts&lt;/em&gt; of the plan seeking a &lt;em&gt;market sharing agreement&lt;/em&gt; for &lt;em&gt;grains,&lt;/em&gt; and proposing &lt;em&gt;curbs&lt;/em&gt; on U.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Lyng's &lt;em&gt;comment&lt;/em&gt; came &lt;em&gt;after&lt;/em&gt; EC &lt;em&gt;ministers&lt;/em&gt; in &lt;em&gt;Luxembourg endorsed&lt;/em&gt; a farm &lt;em&gt;reform package drafted&lt;/em&gt; by the EC &lt;em&gt;Commission&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The United &lt;em&gt;States&lt;/em&gt; will be represented at the &lt;em&gt;meeting&lt;/em&gt; by &lt;em&gt;former agriculture undersecretary Daniel Amstutz,&lt;/em&gt; recently appointed &lt;em&gt;special U&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

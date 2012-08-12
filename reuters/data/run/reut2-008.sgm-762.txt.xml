@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-762.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">current</str>
+        <str name="text">troubles</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stems</str>
-        <double name="strength">1.0</double>
+        <str name="text">central</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">collapse</str>
-        <double name="strength">1.0</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">1.0</double>
+        <str name="text">return</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">freeze</str>
-        <double name="strength">1.0</double>
+        <str name="text">janeiro</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In central Sao Paulo dozens of armed military police stood guard outside branches of the Banco do Brasil to preempt any move by bankworkers to occupy the buildings.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Groups of strikers marched in the central commercial district, waving banners and stopping outside private banks to chant slogans.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">131</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9012320118910572</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Television reports said that in the southern state of Parana farmers protesting against high interest rates supported the bankworkers.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">135</int>
-        <double name="strength">0.9861996714968473</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In central Sao Paulo dozens of armed military police stood guard outside branches of the Banco do Brasil to preempt any move by bankworkers to occupy the buildings.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">165</int>
-        <double name="strength">0.9643264156045955</double>
+        <double name="strength">0.8946081364200479</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Groups&lt;/em&gt; of &lt;em&gt;strikers marched&lt;/em&gt; in the &lt;em&gt;central commercial district, waving banners&lt;/em&gt; and &lt;em&gt;stopping outside private banks&lt;/em&gt; to &lt;em&gt;chant slogans&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;central&lt;/em&gt; Sao &lt;em&gt;Paulo dozens&lt;/em&gt; of &lt;em&gt;armed military police&lt;/em&gt; stood &lt;em&gt;guard&lt;/em&gt; outside &lt;em&gt;branches&lt;/em&gt; of the &lt;em&gt;Banco&lt;/em&gt; do &lt;em&gt;Brasil&lt;/em&gt; to &lt;em&gt;preempt&lt;/em&gt; any move by &lt;em&gt;bankworkers&lt;/em&gt; to &lt;em&gt;occupy&lt;/em&gt; the &lt;em&gt;buildings&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Groups&lt;/em&gt; of &lt;em&gt;strikers&lt;/em&gt; marched in the &lt;em&gt;central commercial district,&lt;/em&gt; waving &lt;em&gt;banners&lt;/em&gt; and stopping outside &lt;em&gt;private banks&lt;/em&gt; to &lt;em&gt;chant slogans&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Television reports&lt;/em&gt; said that in the &lt;em&gt;southern state&lt;/em&gt; of &lt;em&gt;Parana farmers protesting against&lt;/em&gt; high &lt;em&gt;interest rates supported&lt;/em&gt; the &lt;em&gt;bankworkers&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Television reports&lt;/em&gt; said that in the &lt;em&gt;southern state&lt;/em&gt; of &lt;em&gt;Parana farmers&lt;/em&gt; protesting against high &lt;em&gt;interest rates&lt;/em&gt; supported the &lt;em&gt;bankworkers&lt;/em&gt;.</str>
         <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;central&lt;/em&gt; Sao &lt;em&gt;Paulo dozens&lt;/em&gt; of &lt;em&gt;armed military police stood guard outside branches&lt;/em&gt; of the &lt;em&gt;Banco&lt;/em&gt; do &lt;em&gt;Brasil&lt;/em&gt; to &lt;em&gt;preempt&lt;/em&gt; any move by &lt;em&gt;bankworkers&lt;/em&gt; to &lt;em&gt;occupy&lt;/em&gt; the &lt;em&gt;buildings&lt;/em&gt;.</str>
-        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

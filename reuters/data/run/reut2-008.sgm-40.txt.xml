@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-40.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">proved</str>
+        <str name="text">residual</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reserve</str>
+        <str name="text">overall</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">trillion</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">cubic</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">smolinski</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">resources</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. proved reserves could be brought to production quickly through developments such as the infill drilling which permits more wells to be drilled in proved reserve basins.</str>
-        <int name="index">11</int>
-        <int name="start">0</int>
-        <int name="end">171</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Spadine said the mild winter in many parts of the North American continent has led to a build up of gas inventories and less would be necessary to replenish underground storage this spring freeing gas for spot sales.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">217</int>
-        <double name="strength">0.851046030606448</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In addition to price competitiveness, availability will be an important factor persuading energy users to switch to gas, Frank Spadine, senior energy economist with Bankers Trust Corp. in New York noted.</str>
-        <int name="index">7</int>
+        <str name="text">These forecasts develop a strong counterpoint to the fears that natural gas suplies would be tight and prices significantly higher given a sharp decline in drilling last year.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.8347931740184584</double>
+        <int name="end">176</int>
+        <double name="strength">0.8242973902645627</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We expect natural gas to regain 250 to 400 billion cubic feet (of demand) in the overall energy market in the second and third quarter (1987)," he said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">0.8077197056533283</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;proved reserves could&lt;/em&gt; be &lt;em&gt;brought&lt;/em&gt; to &lt;em&gt;production quickly through developments&lt;/em&gt; such as the &lt;em&gt;infill drilling which permits&lt;/em&gt; more &lt;em&gt;wells&lt;/em&gt; to be &lt;em&gt;drilled&lt;/em&gt; in &lt;em&gt;proved reserve basins&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Spadine&lt;/em&gt; said the mild &lt;em&gt;winter&lt;/em&gt; in many &lt;em&gt;parts&lt;/em&gt; of the &lt;em&gt;North American continent&lt;/em&gt; has led to a &lt;em&gt;build&lt;/em&gt; up of gas &lt;em&gt;inventories&lt;/em&gt; and less &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;replenish underground storage&lt;/em&gt; this &lt;em&gt;spring freeing&lt;/em&gt; gas for spot &lt;em&gt;sales&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Spadine&lt;/em&gt; said the mild &lt;em&gt;winter&lt;/em&gt; in many &lt;em&gt;parts&lt;/em&gt; of the &lt;em&gt;North&lt;/em&gt; American &lt;em&gt;continent&lt;/em&gt; has led to a &lt;em&gt;build&lt;/em&gt; up of gas &lt;em&gt;inventories&lt;/em&gt; and less would be &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;replenish underground storage&lt;/em&gt; this &lt;em&gt;spring&lt;/em&gt; freeing gas for spot &lt;em&gt;sales&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition&lt;/em&gt; to &lt;em&gt;price competitiveness, availability&lt;/em&gt; will be an &lt;em&gt;important factor persuading energy users&lt;/em&gt; to &lt;em&gt;switch&lt;/em&gt; to gas, &lt;em&gt;Frank Spadine, senior energy economist&lt;/em&gt; with &lt;em&gt;Bankers Trust&lt;/em&gt; Corp. in New York &lt;em&gt;noted&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">These &lt;em&gt;forecasts develop&lt;/em&gt; a &lt;em&gt;strong counterpoint&lt;/em&gt; to the &lt;em&gt;fears&lt;/em&gt; that &lt;em&gt;natural&lt;/em&gt; gas &lt;em&gt;suplies&lt;/em&gt; would be &lt;em&gt;tight&lt;/em&gt; and &lt;em&gt;prices&lt;/em&gt; significantly higher given a &lt;em&gt;sharp decline&lt;/em&gt; in &lt;em&gt;drilling&lt;/em&gt; last year.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We &lt;em&gt;expect natural&lt;/em&gt; gas to &lt;em&gt;regain 250&lt;/em&gt; to 400 &lt;em&gt;billion cubic&lt;/em&gt; feet (of &lt;em&gt;demand)&lt;/em&gt; in the &lt;em&gt;overall energy market&lt;/em&gt; in the &lt;em&gt;second&lt;/em&gt; and &lt;em&gt;third quarter (1987),"&lt;/em&gt; he said.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

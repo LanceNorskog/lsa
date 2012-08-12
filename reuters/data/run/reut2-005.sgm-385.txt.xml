@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-385.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">243</int>
+        <int name="count">176</int>
       </lst>
       <lst name="stems">
-        <int name="count">174</int>
+        <int name="count">123</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">orders</str>
+        <str name="text">project</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">managers</str>
-        <double name="strength">0.6666666666666666</double>
+        <str name="text">participants</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">continuous</str>
-        <double name="strength">0.666666666666665</double>
+        <str name="text">institutions</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">financial</str>
-        <double name="strength">0.3726779962499642</double>
+        <str name="text">require</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The trading system, based on Digital Equipment Corp software and hardware, provides display of best bid and offer prices, matches orders electronically, allows anonymous negotiation of block orders and maintains member order books.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">These innovations included the introduction last October of continuous trading in major shares, plans to establish a single continuously updated Swiss share index from next month to supplement the various indices produced by the major banks at the close of business, and experiments in electronic trade.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">304</int>
-        <double name="strength">0.9091702010804038</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"If Switzerland wants to maintain and expand its international prominence in portfolio management, our bankers and fund managers must have the same modern instruments at their disposal as their competitors," says Soffex president Rudolf Mueller, a director of Union Bank of Switzerland.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">287</int>
-        <double name="strength">0.9044943112367656</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The new market, due to start operating in January 1988, follows a series of innovations by the bourses in Zurich, Basle and Geneva aimed at preventing loss of business in the face of keen competition from London and Frankfurt.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">227</int>
+        <double name="strength">0.9934944358030439</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Detailed provisions have still to be worked out in areas such as margin requirements, position limits, the supervisory and regulatory functions of the exchange and brokerage fees.</str>
+        <int name="index">29</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.9697787658782258</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;trading system, based&lt;/em&gt; on &lt;em&gt;Digital Equipment&lt;/em&gt; Corp &lt;em&gt;software&lt;/em&gt; and &lt;em&gt;hardware, provides display&lt;/em&gt; of best bid and &lt;em&gt;offer prices, matches orders electronically, allows anonymous negotiation&lt;/em&gt; of &lt;em&gt;block orders&lt;/em&gt; and &lt;em&gt;maintains member order books&lt;/em&gt;.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;These innovations included&lt;/em&gt; the &lt;em&gt;introduction&lt;/em&gt; last &lt;em&gt;October&lt;/em&gt; of &lt;em&gt;continuous trading&lt;/em&gt; in &lt;em&gt;major shares, plans&lt;/em&gt; to &lt;em&gt;establish&lt;/em&gt; a &lt;em&gt;single continuously updated Swiss share index&lt;/em&gt; from next &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;supplement&lt;/em&gt; the &lt;em&gt;various indices produced&lt;/em&gt; by the &lt;em&gt;major banks&lt;/em&gt; at the &lt;em&gt;close&lt;/em&gt; of &lt;em&gt;business,&lt;/em&gt; and &lt;em&gt;experiments&lt;/em&gt; in &lt;em&gt;electronic trade&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"If &lt;em&gt;Switzerland wants&lt;/em&gt; to &lt;em&gt;maintain&lt;/em&gt; and &lt;em&gt;expand&lt;/em&gt; its &lt;em&gt;international prominence&lt;/em&gt; in &lt;em&gt;portfolio management,&lt;/em&gt; our &lt;em&gt;bankers&lt;/em&gt; and fund &lt;em&gt;managers&lt;/em&gt; must have the same &lt;em&gt;modern instruments&lt;/em&gt; at &lt;em&gt;their disposal&lt;/em&gt; as &lt;em&gt;their competitors,"&lt;/em&gt; says &lt;em&gt;Soffex president Rudolf Mueller,&lt;/em&gt; a &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland&lt;/em&gt;.</str>
+        <str name="text">"If &lt;em&gt;Switzerland&lt;/em&gt; wants to &lt;em&gt;maintain&lt;/em&gt; and &lt;em&gt;expand&lt;/em&gt; its &lt;em&gt;international prominence&lt;/em&gt; in &lt;em&gt;portfolio management,&lt;/em&gt; our &lt;em&gt;bankers&lt;/em&gt; and fund &lt;em&gt;managers&lt;/em&gt; must have the same &lt;em&gt;modern instruments&lt;/em&gt; at their &lt;em&gt;disposal&lt;/em&gt; as their &lt;em&gt;competitors,"&lt;/em&gt; says &lt;em&gt;Soffex president Rudolf Mueller,&lt;/em&gt; a &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The new &lt;em&gt;market,&lt;/em&gt; due to &lt;em&gt;start&lt;/em&gt; operating in &lt;em&gt;January 1988,&lt;/em&gt; follows a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;innovations&lt;/em&gt; by the &lt;em&gt;bourses&lt;/em&gt; in &lt;em&gt;Zurich, Basle&lt;/em&gt; and &lt;em&gt;Geneva&lt;/em&gt; aimed at preventing loss of &lt;em&gt;business&lt;/em&gt; in the face of keen &lt;em&gt;competition&lt;/em&gt; from &lt;em&gt;London&lt;/em&gt; and &lt;em&gt;Frankfurt&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Detailed provisions&lt;/em&gt; have still to be worked out in &lt;em&gt;areas&lt;/em&gt; such as &lt;em&gt;margin requirements, position&lt;/em&gt; limits, the &lt;em&gt;supervisory&lt;/em&gt; and &lt;em&gt;regulatory functions&lt;/em&gt; of the &lt;em&gt;exchange&lt;/em&gt; and &lt;em&gt;brokerage fees&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
     </lst>
   </lst>

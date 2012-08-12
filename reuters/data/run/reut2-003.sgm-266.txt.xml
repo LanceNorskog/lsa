@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-266.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">painful</str>
+        <str name="text">markets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">productivity</str>
-        <double name="strength">0.9999999999999968</double>
+        <str name="text">changes</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">against</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">abuses</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">tender</str>
-        <double name="strength">0.5590169943749465</double>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">price</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Among his proposals, which he presented to the Senate Banking Committee in testimony last week, were a requirement that raiders give 24-hour notice for every one pct of stock they acquire in a company.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">202</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">In remarks prepared for a speech before the Economic Club of Detroit, Roderick said, "There should be total resolve that the dollar versus other major currencies, as well as the currencies of other nations having a substantial trade surplus with us, must continue to decline so that the correction in our trade deficit starts on the road to recovery."</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">352</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9318169348180142</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But, he added, "As painful as the correction may be to our trading partners, it is less painful than leaving the problem uncorrected because that would lead us into an inevitable, lengthy and steep world recession."</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.9411450612334676</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Roderick said between February 1985 and December 1986 the dollar fell by more than 40 pct in real terms against major industrial currencies and by 30 to 35 pct against a broader group of currencies of nearly all developing nations.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.7785767979141525</double>
+        <str name="text">He urged American manufacturers to become more competitive so they can compete in global markets.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">97</int>
+        <double name="strength">0.845640648251052</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;remarks prepared&lt;/em&gt; for a &lt;em&gt;speech before&lt;/em&gt; the &lt;em&gt;Economic&lt;/em&gt; Club of &lt;em&gt;Detroit, Roderick&lt;/em&gt; said, "&lt;em&gt;There should&lt;/em&gt; be &lt;em&gt;total resolve&lt;/em&gt; that the &lt;em&gt;dollar versus other major currencies,&lt;/em&gt; as well as the &lt;em&gt;currencies&lt;/em&gt; of &lt;em&gt;other nations having&lt;/em&gt; a &lt;em&gt;substantial trade surplus&lt;/em&gt; with us, must &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;decline&lt;/em&gt; so that the &lt;em&gt;correction&lt;/em&gt; in our &lt;em&gt;trade deficit starts&lt;/em&gt; on the road to &lt;em&gt;recovery.&lt;/em&gt;"</str>
+        <str name="text">Among his &lt;em&gt;proposals,&lt;/em&gt; which he presented to the &lt;em&gt;Senate Banking Committee&lt;/em&gt; in &lt;em&gt;testimony&lt;/em&gt; last week, were a &lt;em&gt;requirement&lt;/em&gt; that &lt;em&gt;raiders&lt;/em&gt; give 24-hour &lt;em&gt;notice&lt;/em&gt; for every one pct of &lt;em&gt;stock&lt;/em&gt; they &lt;em&gt;acquire&lt;/em&gt; in a &lt;em&gt;company&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;remarks&lt;/em&gt; prepared for a &lt;em&gt;speech&lt;/em&gt; before the &lt;em&gt;Economic&lt;/em&gt; Club of &lt;em&gt;Detroit, Roderick&lt;/em&gt; said, "There should be &lt;em&gt;total resolve&lt;/em&gt; that the &lt;em&gt;dollar&lt;/em&gt; versus &lt;em&gt;other major currencies,&lt;/em&gt; as well as the &lt;em&gt;currencies&lt;/em&gt; of &lt;em&gt;other nations&lt;/em&gt; having a &lt;em&gt;substantial trade surplus&lt;/em&gt; with us, must &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;decline&lt;/em&gt; so that the &lt;em&gt;correction&lt;/em&gt; in our &lt;em&gt;trade deficit&lt;/em&gt; starts on the road to &lt;em&gt;recovery.&lt;/em&gt;"</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But, he &lt;em&gt;added, &lt;/em&gt;"As &lt;em&gt;painful&lt;/em&gt; as the &lt;em&gt;correction&lt;/em&gt; may be to our &lt;em&gt;trading partners,&lt;/em&gt; it is less &lt;em&gt;painful&lt;/em&gt; than &lt;em&gt;leaving&lt;/em&gt; the &lt;em&gt;problem uncorrected because&lt;/em&gt; that &lt;em&gt;would&lt;/em&gt; lead us into an &lt;em&gt;inevitable, lengthy&lt;/em&gt; and &lt;em&gt;steep world recession.&lt;/em&gt;"</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Roderick&lt;/em&gt; said &lt;em&gt;between February 1985&lt;/em&gt; and &lt;em&gt;December 1986&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; fell by more than 40 pct in real &lt;em&gt;terms against major industrial currencies&lt;/em&gt; and by 30 to 35 pct &lt;em&gt;against&lt;/em&gt; a &lt;em&gt;broader group&lt;/em&gt; of &lt;em&gt;currencies&lt;/em&gt; of &lt;em&gt;nearly&lt;/em&gt; all &lt;em&gt;developing nations&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">He urged &lt;em&gt;American manufacturers&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; more &lt;em&gt;competitive&lt;/em&gt; so they can &lt;em&gt;compete&lt;/em&gt; in &lt;em&gt;global markets&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

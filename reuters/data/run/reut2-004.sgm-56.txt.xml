@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-56.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">55</int>
       </lst>
       <lst name="stems">
-        <int name="count">44</int>
+        <int name="count">23</int>
       </lst>
     </lst>
     <lst name="terms">
+      <lst name="term">
+        <str name="text">level</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">figure</str>
+        <double name="strength">1.0</double>
+      </lst>
       <lst name="term">
         <str name="text">system</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">harvest</str>
-        <double name="strength">0.5000000000000011</double>
-      </lst>
-      <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000011</double>
-      </lst>
-      <lst name="term">
-        <str name="text">summer</str>
-        <double name="strength">0.5000000000000011</double>
-      </lst>
-      <lst name="term">
         <str name="text">february</str>
-        <double name="strength">0.500000000000001</double>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">australia</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Another 422,000 tonnes was retained on-farm and 620,000 sold under the permit system introduced in 1984/85 to allow farmers to sell feed wheat to the grain trade outside the AWB's receival system, according to Bureau of Agricultural Economics data.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">249</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">However, it is likely that some weather-damaged grain was still being held on farms and further milling and feed wheat may be delivered following the recent announcement of the final Guaranteed Minimum Price for 1986/87, he said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.9272547433805853</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">He did not detail the commitments already made, but an AWB spokesman said they include sales to Egypt, China, Iran, the Soviet Union and Iraq.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">143</int>
-        <double name="strength">0.715448236266462</double>
+        <double name="strength">0.9228958507244063</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Another 422,000 tonnes was retained on-farm and 620,000 sold under the permit system introduced in 1984/85 to allow farmers to sell feed wheat to the grain trade outside the AWB's receival system, according to Bureau of Agricultural Economics data.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">249</int>
+        <double name="strength">0.7339019412839082</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Another 422,000 tonnes&lt;/em&gt; was &lt;em&gt;retained&lt;/em&gt; on-farm and 620,000 sold &lt;em&gt;under&lt;/em&gt; the &lt;em&gt;permit system introduced&lt;/em&gt; in 1984/85 to &lt;em&gt;allow farmers&lt;/em&gt; to sell feed &lt;em&gt;wheat&lt;/em&gt; to the &lt;em&gt;grain trade outside&lt;/em&gt; the AWB's &lt;em&gt;receival system, according&lt;/em&gt; to &lt;em&gt;Bureau&lt;/em&gt; of &lt;em&gt;Agricultural Economics data&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; it is &lt;em&gt;likely&lt;/em&gt; that some &lt;em&gt;weather-damaged grain&lt;/em&gt; was &lt;em&gt;still being&lt;/em&gt; held on &lt;em&gt;farms&lt;/em&gt; and &lt;em&gt;further milling&lt;/em&gt; and feed &lt;em&gt;wheat&lt;/em&gt; may be &lt;em&gt;delivered following&lt;/em&gt; the &lt;em&gt;recent announcement&lt;/em&gt; of the &lt;em&gt;final Guaranteed Minimum Price&lt;/em&gt; for 1986/87, he said.</str>
+        <str name="text">However, it is &lt;em&gt;likely&lt;/em&gt; that some &lt;em&gt;weather&lt;/em&gt;-damaged &lt;em&gt;grain&lt;/em&gt; was still being held on &lt;em&gt;farms&lt;/em&gt; and &lt;em&gt;further milling&lt;/em&gt; and feed &lt;em&gt;wheat&lt;/em&gt; may be delivered following the &lt;em&gt;recent announcement&lt;/em&gt; of the &lt;em&gt;final&lt;/em&gt; Guaranteed &lt;em&gt;Minimum Price&lt;/em&gt; for 1986/87, he said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He did not &lt;em&gt;detail&lt;/em&gt; the &lt;em&gt;commitments already&lt;/em&gt; made, but an AWB &lt;em&gt;spokesman&lt;/em&gt; said they &lt;em&gt;include sales&lt;/em&gt; to &lt;em&gt;Egypt, China,&lt;/em&gt; Iran, the &lt;em&gt;Soviet Union&lt;/em&gt; and Iraq.</str>
+        <str name="text">He did not &lt;em&gt;detail&lt;/em&gt; the &lt;em&gt;commitments&lt;/em&gt; already made, but an AWB &lt;em&gt;spokesman&lt;/em&gt; said they &lt;em&gt;include sales&lt;/em&gt; to &lt;em&gt;Egypt, China,&lt;/em&gt; Iran, the &lt;em&gt;Soviet Union&lt;/em&gt; and Iraq.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Another 422,000 &lt;em&gt;tonnes&lt;/em&gt; was retained on-farm and 620,000 sold under the &lt;em&gt;permit system&lt;/em&gt; introduced in 1984/85 to &lt;em&gt;allow farmers&lt;/em&gt; to sell feed &lt;em&gt;wheat&lt;/em&gt; to the &lt;em&gt;grain trade&lt;/em&gt; outside the AWB's &lt;em&gt;receival system,&lt;/em&gt; according to &lt;em&gt;Bureau&lt;/em&gt; of &lt;em&gt;Agricultural Economics data&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

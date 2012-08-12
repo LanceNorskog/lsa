@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-114.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">185</int>
+        <int name="count">133</int>
       </lst>
       <lst name="stems">
-        <int name="count">110</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">shell</str>
+        <str name="text">investment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reflecting</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">outlook</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">tremendous</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">amount</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">maciej</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">optimism</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">canadian</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"While oil prices have strengthened somewhat and there is good reason to believe that the general level is sustainable, continued volatility is likely," Texaco Canada added.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">174</int>
+        <str name="text">Maciej said he sees crude oil supply outweighing demand and doesn't believe a recent OPEC production accord will continue to support prices.</str>
+        <int name="index">21</int>
+        <int name="start">0</int>
+        <int name="end">140</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"For a number of companies, the PGRT cut was absolutely necessary to even maintain the kind of reduced investments that were made, otherwise the reduction would have been considerably more," Maciej said.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.9991503837786732</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">"This is reflecting a tremendous amount of optimism on the part of the investment community that the outlook for the industry for the future is extremely attractive," Peters and Co Ltd oil analyst Wilf Gobert said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9754708503900095</double>
+        <double name="strength">0.9118550051492518</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"While oil prices have strengthened somewhat and there is good reason to believe that the general level is sustainable, continued volatility is likely," Texaco Canada added.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.8490607101539861</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"While&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; have &lt;em&gt;strengthened somewhat&lt;/em&gt; and &lt;em&gt;there&lt;/em&gt; is good &lt;em&gt;reason&lt;/em&gt; to &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;general level&lt;/em&gt; is &lt;em&gt;sustainable, continued volatility&lt;/em&gt; is &lt;em&gt;likely," Texaco Canada added&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;Maciej&lt;/em&gt; said he sees &lt;em&gt;crude&lt;/em&gt; oil &lt;em&gt;supply outweighing demand&lt;/em&gt; and &lt;em&gt;doesn&lt;/em&gt;'t &lt;em&gt;believe&lt;/em&gt; a &lt;em&gt;recent&lt;/em&gt; OPEC &lt;em&gt;production accord&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;support prices&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"For a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;companies,&lt;/em&gt; the PGRT cut was &lt;em&gt;absolutely necessary&lt;/em&gt; to even &lt;em&gt;maintain&lt;/em&gt; the kind of &lt;em&gt;reduced investments&lt;/em&gt; that were made, &lt;em&gt;otherwise&lt;/em&gt; the &lt;em&gt;reduction would&lt;/em&gt; have been &lt;em&gt;considerably&lt;/em&gt; more," &lt;em&gt;Maciej said&lt;/em&gt;.</str>
-        <int name="index">32</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"This is &lt;em&gt;reflecting&lt;/em&gt; a &lt;em&gt;tremendous amount&lt;/em&gt; of &lt;em&gt;optimism&lt;/em&gt; on the part of the &lt;em&gt;investment community&lt;/em&gt; that the &lt;em&gt;outlook&lt;/em&gt; for the &lt;em&gt;industry&lt;/em&gt; for the &lt;em&gt;future&lt;/em&gt; is &lt;em&gt;extremely attractive," Peters&lt;/em&gt; and Co Ltd oil &lt;em&gt;analyst&lt;/em&gt; Wilf &lt;em&gt;Gobert said&lt;/em&gt;.</str>
+        <str name="text">"This is reflecting a &lt;em&gt;tremendous amount&lt;/em&gt; of &lt;em&gt;optimism&lt;/em&gt; on the part of the &lt;em&gt;investment community&lt;/em&gt; that the &lt;em&gt;outlook&lt;/em&gt; for the &lt;em&gt;industry&lt;/em&gt; for the &lt;em&gt;future&lt;/em&gt; is extremely &lt;em&gt;attractive," Peters&lt;/em&gt; and Co Ltd oil &lt;em&gt;analyst&lt;/em&gt; Wilf &lt;em&gt;Gobert said&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"While oil &lt;em&gt;prices&lt;/em&gt; have strengthened somewhat and there is good &lt;em&gt;reason&lt;/em&gt; to &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;general level&lt;/em&gt; is &lt;em&gt;sustainable, continued volatility&lt;/em&gt; is &lt;em&gt;likely," Texaco Canada added&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-208.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">196</int>
+        <int name="count">145</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">94</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">government</str>
+        <str name="text">marketing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">value</str>
-        <double name="strength">1.0</double>
+        <str name="text">swearingen</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">average</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">margins</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">secretary</str>
-        <double name="strength">0.9999999999999941</double>
+        <str name="text">level</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.9999999999999939</double>
+        <str name="text">grades</str>
+        <double name="strength">0.9823127115697043</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">William Martin, deputy Energy Secretary, said the costs of an import fee outweigh its benefits and suggested, as Energy Secretary John Herrington has, depletion tax credits to encourage domestic production and limit oil imports.</str>
-        <int name="index">10</int>
-        <int name="start">2</int>
-        <int name="end">230</int>
+        <str name="text">George Unzelman, president of HyOx, Inc., said these proposals "will place pressure on small refining operations and promote further industry consolidation."</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Once the government affects values, once an import quota or license has value, it's going to be subverted by government," he added.</str>
-        <int name="index">9</int>
+        <str name="text">"Can we afford to import 60 or 70 pct of our oil requirements 15 or so years from now?" asked John Swearingen, chairman of the board of Continental Illinois Corp &lt;CIL&gt; and former chief executive of Amoco Corp &lt;AN&gt;.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.9714713930106406</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. refiners said they are worried that growing supplies of imports, proposed federal environmental regulations, and the marketing of a third grade of unleaded gasoline would cost them dearly and at a time when the industry is recovering from a recent slump.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">131</int>
-        <double name="strength">0.9666373276179574</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">An NPRA survey of of 139 refineries, which was released at the conference, said reducing sulphur content to 0.05 pct weight and aromatics to 20 volume pct aromatics in highway diesel fuel would cost refiners 6.65 billion dlrs.</str>
-        <int name="index">22</int>
-        <int name="start">2</int>
-        <int name="end">228</int>
-        <double name="strength">0.8417548997320431</double>
+        <int name="end">259</int>
+        <double name="strength">0.836943540585091</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;William Martin, deputy Energy Secretary,&lt;/em&gt; said the &lt;em&gt;costs&lt;/em&gt; of an &lt;em&gt;import&lt;/em&gt; fee &lt;em&gt;outweigh&lt;/em&gt; its &lt;em&gt;benefits&lt;/em&gt; and &lt;em&gt;suggested,&lt;/em&gt; as &lt;em&gt;Energy Secretary&lt;/em&gt; John &lt;em&gt;Herrington&lt;/em&gt; has, &lt;em&gt;depletion&lt;/em&gt; tax &lt;em&gt;credits&lt;/em&gt; to &lt;em&gt;encourage domestic production&lt;/em&gt; and &lt;em&gt;limit&lt;/em&gt; oil &lt;em&gt;imports&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;George Unzelman, president&lt;/em&gt; of HyOx, Inc., said these &lt;em&gt;proposals &lt;/em&gt;"will &lt;em&gt;place pressure&lt;/em&gt; on &lt;em&gt;small refining operations&lt;/em&gt; and &lt;em&gt;promote further industry consolidation.&lt;/em&gt;"</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Once the &lt;em&gt;government affects values,&lt;/em&gt; once an &lt;em&gt;import quota&lt;/em&gt; or &lt;em&gt;license&lt;/em&gt; has &lt;em&gt;value,&lt;/em&gt; it's &lt;em&gt;going&lt;/em&gt; to be &lt;em&gt;subverted&lt;/em&gt; by &lt;em&gt;government,"&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">"Can we &lt;em&gt;afford&lt;/em&gt; to &lt;em&gt;import 60&lt;/em&gt; or 70 pct of our oil &lt;em&gt;requirements 15&lt;/em&gt; or so &lt;em&gt;years&lt;/em&gt; from now?" asked John &lt;em&gt;Swearingen, chairman&lt;/em&gt; of the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;Continental Illinois&lt;/em&gt; Corp &lt;CIL&gt; and &lt;em&gt;former chief executive&lt;/em&gt; of &lt;em&gt;Amoco&lt;/em&gt; Corp &lt;AN&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An NPRA &lt;em&gt;survey&lt;/em&gt; of of 139 &lt;em&gt;refineries, which&lt;/em&gt; was &lt;em&gt;released&lt;/em&gt; at the &lt;em&gt;conference,&lt;/em&gt; said &lt;em&gt;reducing sulphur content&lt;/em&gt; to 0.05 pct &lt;em&gt;weight&lt;/em&gt; and &lt;em&gt;aromatics&lt;/em&gt; to 20 &lt;em&gt;volume&lt;/em&gt; pct &lt;em&gt;aromatics&lt;/em&gt; in &lt;em&gt;highway diesel&lt;/em&gt; fuel &lt;em&gt;would&lt;/em&gt; cost &lt;em&gt;refiners 6.65 billion dlrs&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">U.S. &lt;em&gt;refiners&lt;/em&gt; said they are worried that growing &lt;em&gt;supplies&lt;/em&gt; of &lt;em&gt;imports,&lt;/em&gt; proposed &lt;em&gt;federal environmental regulations,&lt;/em&gt; and the &lt;em&gt;marketing&lt;/em&gt; of a &lt;em&gt;third grade&lt;/em&gt; of unleaded &lt;em&gt;gasoline&lt;/em&gt; would cost them dearly and at a time when the &lt;em&gt;industry&lt;/em&gt; is recovering from a &lt;em&gt;recent slump&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

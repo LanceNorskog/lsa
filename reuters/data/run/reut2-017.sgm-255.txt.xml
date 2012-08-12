@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-255.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">europe</str>
+        <str name="text">washington</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">1.0</double>
+        <str name="text">semiconductor</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">asian</str>
-        <double name="strength">1.0</double>
+        <str name="text">severe</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">surged</str>
-        <double name="strength">1.0</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">those</str>
-        <double name="strength">1.0</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">237</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We can further enhance the efforts for improving peace, disarmament and the world economies as a whole through solidarity," Nakasone said.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">140</int>
-        <double name="strength">0.7707258706992591</double>
+        <double name="strength">0.8096770045183124</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But Japanese imports from Europe and other Asian nations have recently surged, those from the United States remain weak, indicating a lack of U.</str>
-        <int name="index">19</int>
+        <str name="text">He said he will also discuss the forthcoming Venice summit of the seven major industrial nations in June.</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">145</int>
-        <double name="strength">0.7607576872523283</double>
+        <int name="end">106</int>
+        <double name="strength">0.7953532257458991</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nakasone leaves&lt;/em&gt; on his &lt;em&gt;sixth official visit&lt;/em&gt; to the &lt;em&gt;United States&lt;/em&gt; on &lt;em&gt;Wednesday,&lt;/em&gt; only &lt;em&gt;weeks after President Reagan imposed punitive tariffs&lt;/em&gt; of 300 mln dlrs a year on &lt;em&gt;Japanese electronic goods&lt;/em&gt; for &lt;em&gt;alleged violation&lt;/em&gt; of a &lt;em&gt;semiconductor pact&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Nakasone&lt;/em&gt; leaves on his &lt;em&gt;sixth official visit&lt;/em&gt; to the United &lt;em&gt;States&lt;/em&gt; on Wednesday, only &lt;em&gt;weeks&lt;/em&gt; after &lt;em&gt;President&lt;/em&gt; Reagan imposed &lt;em&gt;punitive tariffs&lt;/em&gt; of 300 mln dlrs a year on &lt;em&gt;Japanese electronic goods&lt;/em&gt; for &lt;em&gt;alleged violation&lt;/em&gt; of a &lt;em&gt;semiconductor pact&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We can &lt;em&gt;further enhance&lt;/em&gt; the &lt;em&gt;efforts&lt;/em&gt; for &lt;em&gt;improving peace, disarmament&lt;/em&gt; and the &lt;em&gt;world economies&lt;/em&gt; as a &lt;em&gt;whole through solidarity," Nakasone said&lt;/em&gt;.</str>
+        <str name="text">"We can further &lt;em&gt;enhance&lt;/em&gt; the &lt;em&gt;efforts&lt;/em&gt; for improving &lt;em&gt;peace, disarmament&lt;/em&gt; and the &lt;em&gt;world economies&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; through &lt;em&gt;solidarity," Nakasone said&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;Japanese imports&lt;/em&gt; from &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;other Asian nations&lt;/em&gt; have &lt;em&gt;recently surged, those&lt;/em&gt; from the &lt;em&gt;United States remain&lt;/em&gt; weak, &lt;em&gt;indicating&lt;/em&gt; a lack of U.</str>
-        <int name="index">19</int>
+        <str name="text">He said he will also &lt;em&gt;discuss&lt;/em&gt; the &lt;em&gt;forthcoming Venice summit&lt;/em&gt; of the &lt;em&gt;seven major industrial nations&lt;/em&gt; in June.</str>
+        <int name="index">22</int>
       </lst>
     </lst>
   </lst>

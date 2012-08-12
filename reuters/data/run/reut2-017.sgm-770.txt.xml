@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-770.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">thirds</str>
+        <str name="text">level</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shell</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">restored</str>
-        <double name="strength">0.9999999999999989</double>
-      </lst>
-      <lst name="term">
-        <str name="text">proration</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">company</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">futures</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">source</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">damage</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Basin Pipeline is jointly owned by Atlantic Richfield Corp &lt;ARC&gt;, Shell Oil Co, a subsidiary of the Royal Dutch/Shell Group &lt;RD&gt; and Texaco Inc &lt;TX&gt;, which is the pipeline's operator.</str>
-        <int name="index">5</int>
+        <str name="text">Dan Stevens, manager of public and government affairs at Texaco, said the company hopes to fix the pipeline in five days but that will depend on when the water level of the Red River recedes.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">188</int>
+        <int name="end">192</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Peter Beutel, analyst at Elders Futures Inc, said crude oil futures contracts on New York Mercantile Exchange rose to new highs this afternoon following news of the pipeline break.</str>
         <int name="index">6</int>
         <int name="start">2</int>
         <int name="end">182</int>
-        <double name="strength">0.9483867341418863</double>
+        <double name="strength">0.8963304813306273</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Sour crudes, which would be most affected by the pipeline shutdown, however, were slow to react to the news with West Texas Sour and Alaska North Slope holding 50 cts to one dlr a barrel below WTI, respectively.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">212</int>
-        <double name="strength">0.8463027115630156</double>
+        <double name="strength">0.8526049687826194</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Basin Pipeline&lt;/em&gt; is &lt;em&gt;jointly owned&lt;/em&gt; by &lt;em&gt;Atlantic Richfield&lt;/em&gt; Corp &lt;ARC&gt;, &lt;em&gt;Shell&lt;/em&gt; Oil Co, a &lt;em&gt;subsidiary&lt;/em&gt; of the &lt;em&gt;Royal Dutch/Shell Group &lt;/em&gt;&lt;RD&gt; and &lt;em&gt;Texaco&lt;/em&gt; Inc &lt;TX&gt;, &lt;em&gt;which&lt;/em&gt; is the &lt;em&gt;pipeline&lt;/em&gt;'s &lt;em&gt;operator&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">Dan &lt;em&gt;Stevens, manager&lt;/em&gt; of &lt;em&gt;public&lt;/em&gt; and &lt;em&gt;government affairs&lt;/em&gt; at &lt;em&gt;Texaco,&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; hopes to fix the &lt;em&gt;pipeline&lt;/em&gt; in five days but that will &lt;em&gt;depend&lt;/em&gt; on when the &lt;em&gt;water level&lt;/em&gt; of the Red &lt;em&gt;River recedes&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Peter Beutel, analyst&lt;/em&gt; at &lt;em&gt;Elders Futures&lt;/em&gt; Inc, said &lt;em&gt;crude&lt;/em&gt; oil &lt;em&gt;futures contracts&lt;/em&gt; on New York &lt;em&gt;Mercantile Exchange&lt;/em&gt; rose to new &lt;em&gt;highs&lt;/em&gt; this &lt;em&gt;afternoon following&lt;/em&gt; news of the &lt;em&gt;pipeline break&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Peter Beutel, analyst&lt;/em&gt; at &lt;em&gt;Elders Futures&lt;/em&gt; Inc, said &lt;em&gt;crude&lt;/em&gt; oil &lt;em&gt;futures contracts&lt;/em&gt; on New York &lt;em&gt;Mercantile Exchange&lt;/em&gt; rose to new &lt;em&gt;highs&lt;/em&gt; this &lt;em&gt;afternoon&lt;/em&gt; following news of the &lt;em&gt;pipeline break&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sour &lt;em&gt;crudes, which would&lt;/em&gt; be most &lt;em&gt;affected&lt;/em&gt; by the &lt;em&gt;pipeline shutdown, however,&lt;/em&gt; were slow to &lt;em&gt;react&lt;/em&gt; to the news with West &lt;em&gt;Texas&lt;/em&gt; Sour and &lt;em&gt;Alaska North Slope holding 50&lt;/em&gt; cts to one dlr a &lt;em&gt;barrel below&lt;/em&gt; WTI, &lt;em&gt;respectively&lt;/em&gt;.</str>
+        <str name="text">Sour &lt;em&gt;crudes,&lt;/em&gt; which would be most affected by the &lt;em&gt;pipeline shutdown,&lt;/em&gt; however, were slow to &lt;em&gt;react&lt;/em&gt; to the news with West &lt;em&gt;Texas&lt;/em&gt; Sour and &lt;em&gt;Alaska North Slope&lt;/em&gt; holding 50 cts to one dlr a &lt;em&gt;barrel&lt;/em&gt; below WTI, respectively.</str>
         <int name="index">9</int>
       </lst>
     </lst>

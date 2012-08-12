@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-601.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">160</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">period</str>
+        <str name="text">funds</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">similar</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">griggs</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">recent</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">slifer</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">negative</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">target</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">compared</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">annual</str>
+        <double name="strength">0.9917320401144658</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">196</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, they stress that money growth will not be strong enough to prevent the Fed from dropping interest rates further if the economy shows evidence of weakness.</str>
-        <int name="index">13</int>
-        <int name="start">0</int>
-        <int name="end">163</int>
-        <double name="strength">0.9823611186755086</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"These numbers contain no hint that a policy shift is in prospect, nor do economic or financial developments argue for policy change," said William Griggs of Griggs and Santow Inc.</str>
-        <int name="index">2</int>
+        <str name="text">Griggs said that M-2 and M-3 in coming months should return to the five to seven pct annualized growth region and so continue to present no problem for the Fed.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">0.9371020324978522</double>
+        <int name="end">161</int>
+        <double name="strength">0.9600754262792249</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"In the near term, there is absolutely no reason for the Fed to ease policy, even apart from the slowdown in money growth," said Stephen Slifer, economist at Lehman Government Securities Inc.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
+        <double name="strength">0.9186872726267151</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Given&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt;'s &lt;em&gt;fragility&lt;/em&gt; in many &lt;em&gt;sectors,&lt;/em&gt; the &lt;em&gt;analysts agreed&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; is &lt;em&gt;almost&lt;/em&gt; no &lt;em&gt;chance&lt;/em&gt; that the Fed will &lt;em&gt;choose&lt;/em&gt; to &lt;em&gt;raise, rather&lt;/em&gt; than &lt;em&gt;lower, interest rates&lt;/em&gt; when it next &lt;em&gt;changes policy&lt;/em&gt;.</str>
+        <str name="text">Given the &lt;em&gt;economy&lt;/em&gt;'s &lt;em&gt;fragility&lt;/em&gt; in many &lt;em&gt;sectors,&lt;/em&gt; the &lt;em&gt;analysts&lt;/em&gt; agreed that there is almost no &lt;em&gt;chance&lt;/em&gt; that the Fed will &lt;em&gt;choose&lt;/em&gt; to &lt;em&gt;raise,&lt;/em&gt; rather than lower, &lt;em&gt;interest rates&lt;/em&gt; when it next &lt;em&gt;changes policy&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; they &lt;em&gt;stress&lt;/em&gt; that &lt;em&gt;money growth&lt;/em&gt; will not be &lt;em&gt;strong enough&lt;/em&gt; to &lt;em&gt;prevent&lt;/em&gt; the Fed from &lt;em&gt;dropping interest rates further&lt;/em&gt; if the &lt;em&gt;economy shows evidence&lt;/em&gt; of &lt;em&gt;weakness&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Griggs&lt;/em&gt; said that M-2 and M-3 in coming &lt;em&gt;months&lt;/em&gt; should &lt;em&gt;return&lt;/em&gt; to the five to &lt;em&gt;seven&lt;/em&gt; pct annualized &lt;em&gt;growth region&lt;/em&gt; and so &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;present&lt;/em&gt; no &lt;em&gt;problem&lt;/em&gt; for the Fed.</str>
+        <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"These numbers contain&lt;/em&gt; no hint that a &lt;em&gt;policy shift&lt;/em&gt; is in &lt;em&gt;prospect,&lt;/em&gt; nor do &lt;em&gt;economic&lt;/em&gt; or &lt;em&gt;financial developments argue&lt;/em&gt; for &lt;em&gt;policy change,"&lt;/em&gt; said &lt;em&gt;William Griggs&lt;/em&gt; of &lt;em&gt;Griggs&lt;/em&gt; and &lt;em&gt;Santow Inc&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"In the near term, there is absolutely no &lt;em&gt;reason&lt;/em&gt; for the Fed to ease &lt;em&gt;policy,&lt;/em&gt; even apart from the &lt;em&gt;slowdown&lt;/em&gt; in &lt;em&gt;money growth,"&lt;/em&gt; said Stephen &lt;em&gt;Slifer, economist&lt;/em&gt; at &lt;em&gt;Lehman Government Securities Inc&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-264.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">where</str>
+        <str name="text">price</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">field</str>
+        <str name="text">friday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">holds</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">elders</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">jumped</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">pipeline</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">stake</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">number</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;Elders Resources Ltd&gt; began the auction for TMOC about three months ago with an unsuccessful 2.55 dlrs a share on-market offer that has since lapsed.</str>
-        <int name="index">8</int>
+        <str name="text">It said TMOC is already a partner with AGL in the Alice Springs to Darwin gas pipeline and has a number of businesses complementary with those of AGL.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">151</int>
-        <double name="strength">0.6393586269149029</double>
+        <double name="strength">0.9525972224164773</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">AGL said its offer is above the upper end of the range of values placed on TMOC by its advisers in the company's response urging rejection of the Elders Resources bid.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">168</int>
-        <double name="strength">0.616534155247228</double>
+        <double name="strength">0.9247612102840959</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">AGL is the New &lt;em&gt;South Wales natural&lt;/em&gt; gas &lt;em&gt;utility while&lt;/em&gt; TMOC has &lt;em&gt;extensive onshore holdings, mainly&lt;/em&gt; in &lt;em&gt;Queensland where&lt;/em&gt; it owns the &lt;em&gt;Moonie&lt;/em&gt; oil &lt;em&gt;field&lt;/em&gt; and in the &lt;em&gt;Northern Territory where&lt;/em&gt; it &lt;em&gt;operates&lt;/em&gt; and &lt;em&gt;holds 43.75&lt;/em&gt; of the &lt;em&gt;Mereenie&lt;/em&gt; oil-gas &lt;em&gt;field&lt;/em&gt;.</str>
+        <str name="text">AGL is the New &lt;em&gt;South Wales natural&lt;/em&gt; gas &lt;em&gt;utility&lt;/em&gt; while TMOC has &lt;em&gt;extensive onshore holdings,&lt;/em&gt; mainly in &lt;em&gt;Queensland&lt;/em&gt; where it owns the &lt;em&gt;Moonie&lt;/em&gt; oil &lt;em&gt;field&lt;/em&gt; and in the &lt;em&gt;Northern Territory&lt;/em&gt; where it operates and holds 43.75 of the &lt;em&gt;Mereenie&lt;/em&gt; oil-gas &lt;em&gt;field&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;&lt;Elders Resources&lt;/em&gt; Ltd&gt; &lt;em&gt;began&lt;/em&gt; the &lt;em&gt;auction&lt;/em&gt; for TMOC &lt;em&gt;about three months&lt;/em&gt; ago with an &lt;em&gt;unsuccessful 2.55&lt;/em&gt; dlrs a &lt;em&gt;share&lt;/em&gt; on-&lt;em&gt;market offer&lt;/em&gt; that has &lt;em&gt;since lapsed&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">It said TMOC is already a &lt;em&gt;partner&lt;/em&gt; with AGL in the &lt;em&gt;Alice Springs&lt;/em&gt; to &lt;em&gt;Darwin&lt;/em&gt; gas &lt;em&gt;pipeline&lt;/em&gt; and has a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;businesses complementary&lt;/em&gt; with those of AGL.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">AGL said its &lt;em&gt;offer&lt;/em&gt; is &lt;em&gt;above&lt;/em&gt; the &lt;em&gt;upper&lt;/em&gt; end of the &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;values placed&lt;/em&gt; on TMOC by its &lt;em&gt;advisers&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;response urging rejection&lt;/em&gt; of the &lt;em&gt;Elders Resources bid&lt;/em&gt;.</str>
+        <str name="text">AGL said its &lt;em&gt;offer&lt;/em&gt; is above the &lt;em&gt;upper&lt;/em&gt; end of the &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;values&lt;/em&gt; placed on TMOC by its &lt;em&gt;advisers&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;response&lt;/em&gt; urging &lt;em&gt;rejection&lt;/em&gt; of the &lt;em&gt;Elders Resources bid&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
     </lst>

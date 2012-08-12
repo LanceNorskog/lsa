@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-81.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">senate</str>
+        <str name="text">grassley</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">signing</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">senate</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">larry</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">allow</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">pressler</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">receive</str>
+        <double name="strength">0.9580049845271335</double>
       </lst>
       <lst name="term">
-        <str name="text">earlier</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">farmers</str>
+        <double name="strength">0.958004984527133</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">226</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Democrats and Republicans today were still trying to arrive at an agreement governing time to be devoted to amendments.</str>
-        <int name="index">17</int>
+        <str name="text">Dole and Grassley are also considering an amendment that would offer a two dlr per bushel bonus payment to corn farmers for any erodible cropland they enrolled in the conservation reserve program last year.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">120</int>
-        <double name="strength">0.9397585723358466</double>
+        <int name="end">207</int>
+        <double name="strength">0.8924158409293521</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Earlier this year Dole said advancing the final deficiency payments would provide feedgrains producers with approximately three billion dlrs in income payments prior to spring planting instead of in the fall.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">0.9130997368349691</double>
+        <str name="text">David Boren (D-Okla.) was eyeing a measure that would allow cotton producers to receive disaster aid if the quality of their crop was hurt by flooding last year.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.885339439067878</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The bill, &lt;em&gt;already passed&lt;/em&gt; by the &lt;em&gt;House, would enable 1987 winter wheat&lt;/em&gt; and &lt;em&gt;feedgrains farmers&lt;/em&gt; hit by &lt;em&gt;Midwestern flooding&lt;/em&gt; last year to &lt;em&gt;receive&lt;/em&gt; at &lt;em&gt;least 92&lt;/em&gt; pct of &lt;em&gt;their federal income support payments&lt;/em&gt; even if they did not &lt;em&gt;plant&lt;/em&gt;.</str>
+        <str name="text">The bill, already passed by the &lt;em&gt;House,&lt;/em&gt; would &lt;em&gt;enable 1987 winter wheat&lt;/em&gt; and &lt;em&gt;feedgrains farmers&lt;/em&gt; hit by &lt;em&gt;Midwestern flooding&lt;/em&gt; last year to &lt;em&gt;receive&lt;/em&gt; at least 92 pct of their &lt;em&gt;federal income support payments&lt;/em&gt; even if they did not &lt;em&gt;plant&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Democrats&lt;/em&gt; and &lt;em&gt;Republicans today&lt;/em&gt; were &lt;em&gt;still trying&lt;/em&gt; to &lt;em&gt;arrive&lt;/em&gt; at an &lt;em&gt;agreement governing&lt;/em&gt; time to be &lt;em&gt;devoted&lt;/em&gt; to &lt;em&gt;amendments&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">Dole and &lt;em&gt;Grassley&lt;/em&gt; are also considering an &lt;em&gt;amendment&lt;/em&gt; that would &lt;em&gt;offer&lt;/em&gt; a two dlr per &lt;em&gt;bushel bonus payment&lt;/em&gt; to corn &lt;em&gt;farmers&lt;/em&gt; for any &lt;em&gt;erodible cropland&lt;/em&gt; they enrolled in the &lt;em&gt;conservation reserve program&lt;/em&gt; last year.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earlier&lt;/em&gt; this year Dole said &lt;em&gt;advancing&lt;/em&gt; the &lt;em&gt;final deficiency payments would provide feedgrains producers&lt;/em&gt; with &lt;em&gt;approximately three billion&lt;/em&gt; dlrs in &lt;em&gt;income payments prior&lt;/em&gt; to &lt;em&gt;spring planting instead&lt;/em&gt; of in the fall.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;David Boren &lt;/em&gt;(D-Okla.) was eyeing a &lt;em&gt;measure&lt;/em&gt; that would &lt;em&gt;allow cotton producers&lt;/em&gt; to &lt;em&gt;receive disaster&lt;/em&gt; aid if the &lt;em&gt;quality&lt;/em&gt; of their crop was hurt by &lt;em&gt;flooding&lt;/em&gt; last year.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

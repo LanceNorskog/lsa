@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-180.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">106</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">higher</str>
+        <str name="text">common</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">banks</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">nearly</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">citicorp</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">chase</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">sensitive</str>
+        <double name="strength">0.9840539975201794</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Rather than using accounting tools to reflect income it is not taking in, the company will now account for only the 40 pct of the cost of owning and operating the plant that regulators are allowing in the form of interim rate relief, Barnes said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">247</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Utility earnings are sensitive to interest rate increases because of the high levels of borrowings needed to finance ongoing construction projects.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">148</int>
-        <double name="strength">0.9011469000628556</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Pacific Gas and Electric Co's plan to change its accounting methods for nuclear plant revenues, together with the prospect of higher higher domestic interest rates, helped push the company's stock price down 2-1/8 to 22, utility analysts and company executives said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">266</int>
-        <double name="strength">0.8913170912361347</double>
+        <str name="text">Pacific Gas said yesterday that a change in the method for accounting for its Diablo Canyon Nuclear power plant revenues will result in a 470 mln dlr reduction in 1987 earnings.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.9961427851180448</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Despite the market reaction, First Boston Corp analyst Arlene Barnes applauded the Pacific Gas decision.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">105</int>
+        <double name="strength">0.8525977043771339</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rather&lt;/em&gt; than &lt;em&gt;using accounting tools&lt;/em&gt; to &lt;em&gt;reflect income&lt;/em&gt; it is not &lt;em&gt;taking&lt;/em&gt; in, the &lt;em&gt;company&lt;/em&gt; will now &lt;em&gt;account&lt;/em&gt; for only the 40 pct of the cost of &lt;em&gt;owning&lt;/em&gt; and &lt;em&gt;operating&lt;/em&gt; the &lt;em&gt;plant&lt;/em&gt; that &lt;em&gt;regulators&lt;/em&gt; are &lt;em&gt;allowing&lt;/em&gt; in the form of &lt;em&gt;interim&lt;/em&gt; rate &lt;em&gt;relief, Barnes said&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Utility earnings&lt;/em&gt; are &lt;em&gt;sensitive&lt;/em&gt; to &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;increases because&lt;/em&gt; of the high &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;borrowings needed&lt;/em&gt; to &lt;em&gt;finance ongoing construction projects&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Utility earnings&lt;/em&gt; are &lt;em&gt;sensitive&lt;/em&gt; to &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;increases&lt;/em&gt; because of the high &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;borrowings&lt;/em&gt; needed to &lt;em&gt;finance ongoing construction projects&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pacific&lt;/em&gt; Gas and &lt;em&gt;Electric&lt;/em&gt; Co's plan to &lt;em&gt;change&lt;/em&gt; its &lt;em&gt;accounting methods&lt;/em&gt; for &lt;em&gt;nuclear plant revenues, together&lt;/em&gt; with the &lt;em&gt;prospect&lt;/em&gt; of &lt;em&gt;higher higher domestic interest rates, helped&lt;/em&gt; push the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;stock price&lt;/em&gt; down 2-1/8 to 22, &lt;em&gt;utility analysts&lt;/em&gt; and &lt;em&gt;company executives said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Pacific&lt;/em&gt; Gas said &lt;em&gt;yesterday&lt;/em&gt; that a &lt;em&gt;change&lt;/em&gt; in the &lt;em&gt;method&lt;/em&gt; for accounting for its &lt;em&gt;Diablo Canyon Nuclear power plant revenues&lt;/em&gt; will &lt;em&gt;result&lt;/em&gt; in a 470 mln dlr &lt;em&gt;reduction&lt;/em&gt; in 1987 &lt;em&gt;earnings&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Despite the &lt;em&gt;market reaction, First Boston&lt;/em&gt; Corp &lt;em&gt;analyst Arlene Barnes&lt;/em&gt; applauded the &lt;em&gt;Pacific&lt;/em&gt; Gas &lt;em&gt;decision&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

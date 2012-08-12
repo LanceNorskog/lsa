@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-60.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">first</str>
+        <str name="text">quarter</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">earnings</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">income</str>
-        <double name="strength">0.5590169943749461</double>
+        <str name="text">exploration</str>
+        <double name="strength">0.9988798280552025</double>
       </lst>
       <lst name="term">
-        <str name="text">upstream</str>
-        <double name="strength">0.559016994374945</double>
+        <str name="text">holmes</str>
+        <double name="strength">0.9669685826517906</double>
       </lst>
       <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">0.5590169943749448</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9669685826517894</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">252</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, he added there could well be a sharp fall in performance in the first quarter of 1987, due to the improbability that the group would be able to repeat the high refining and marketing margins of first quarter 1986.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.9038808055801706</double>
+        <str name="text">S. Fell sharply because of difficult market conditions, lower crude and gas prices and also due to different accounting methods, Shell chairman Peter Holmes said.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">162</int>
+        <double name="strength">0.8001049479725177</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The impact of recovering oil prices would come through faster on the downstream side than on the upstream as such a high proportion of upstream activity centred on gas, which typically reacted to oil price changes with about a half-year lag, analysts said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">257</int>
-        <double name="strength">0.9032934034759975</double>
+        <str name="text">Analysts noted that a general collapse in exploration and production volumes was partially offset by earnings from chemicals rising to 462 mln stg from 205 mln in 1985.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">168</int>
+        <double name="strength">0.6103364198390065</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Also, a &lt;em&gt;windfall&lt;/em&gt; tax &lt;em&gt;credit&lt;/em&gt; and &lt;em&gt;lower&lt;/em&gt; than &lt;em&gt;expected currency losses&lt;/em&gt; had &lt;em&gt;added about 100&lt;/em&gt; mln stg onto &lt;em&gt;fourth quarter results, which&lt;/em&gt; was the main &lt;em&gt;reason&lt;/em&gt; for the &lt;em&gt;figures exceeding forecasts, industry analyst Chris Rowland&lt;/em&gt; of &lt;em&gt;Barclays&lt;/em&gt; de &lt;em&gt;Zoete&lt;/em&gt; Wedd &lt;em&gt;noted&lt;/em&gt;.</str>
+        <str name="text">Also, a &lt;em&gt;windfall&lt;/em&gt; tax &lt;em&gt;credit&lt;/em&gt; and lower than expected &lt;em&gt;currency losses&lt;/em&gt; had added about 100 mln stg onto &lt;em&gt;fourth quarter results,&lt;/em&gt; which was the main &lt;em&gt;reason&lt;/em&gt; for the &lt;em&gt;figures&lt;/em&gt; exceeding &lt;em&gt;forecasts, industry analyst Chris Rowland&lt;/em&gt; of &lt;em&gt;Barclays&lt;/em&gt; de &lt;em&gt;Zoete&lt;/em&gt; Wedd noted.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; he &lt;em&gt;added there could&lt;/em&gt; well be a &lt;em&gt;sharp&lt;/em&gt; fall in &lt;em&gt;performance&lt;/em&gt; in the &lt;em&gt;first quarter&lt;/em&gt; of 1987, due to the &lt;em&gt;improbability&lt;/em&gt; that the &lt;em&gt;group would&lt;/em&gt; be able to &lt;em&gt;repeat&lt;/em&gt; the high &lt;em&gt;refining&lt;/em&gt; and &lt;em&gt;marketing margins&lt;/em&gt; of &lt;em&gt;first quarter 1986&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">S. Fell sharply because of &lt;em&gt;difficult market conditions,&lt;/em&gt; lower &lt;em&gt;crude&lt;/em&gt; and gas &lt;em&gt;prices&lt;/em&gt; and also due to &lt;em&gt;different accounting methods, Shell chairman Peter Holmes said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;impact&lt;/em&gt; of &lt;em&gt;recovering&lt;/em&gt; oil &lt;em&gt;prices would&lt;/em&gt; come &lt;em&gt;through faster&lt;/em&gt; on the &lt;em&gt;downstream&lt;/em&gt; side than on the &lt;em&gt;upstream&lt;/em&gt; as such a high &lt;em&gt;proportion&lt;/em&gt; of &lt;em&gt;upstream activity centred&lt;/em&gt; on gas, &lt;em&gt;which typically reacted&lt;/em&gt; to oil &lt;em&gt;price changes&lt;/em&gt; with &lt;em&gt;about&lt;/em&gt; a half-year lag, &lt;em&gt;analysts said&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; noted that a &lt;em&gt;general collapse&lt;/em&gt; in &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;production volumes&lt;/em&gt; was partially offset by &lt;em&gt;earnings&lt;/em&gt; from &lt;em&gt;chemicals&lt;/em&gt; rising to 462 mln stg from 205 mln in 1985.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

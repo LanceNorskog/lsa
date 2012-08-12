@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-776.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">purchase</str>
-        <double name="strength">1.0</double>
+        <str name="text">tonne</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">albert</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">supply</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">deputy</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">representative</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">buying</str>
+        <double name="strength">0.9409276072344804</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">233</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"How can I tell that we are ready to fulfill the agreement if the United States does not want to offer us grain at competitive prices?" said Albert Melnikov, deputy trade representative of the Soviet Union to the United States.</str>
-        <int name="index">2</int>
+        <str name="text">"The United States should supply to the Soviet Union definite quantities of grain at competitive prices ...</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.6491861488388915</double>
+        <int name="end">108</int>
+        <double name="strength">0.7830069879716216</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. offer of subsidized wheat to the Soviets was rejected because of an insufficient subsidy, Melnikov said.</str>
-        <int name="index">17</int>
+        <str name="text">Whether the Soviet Union will fulfill its buying obligations under the U.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">107</int>
-        <double name="strength">0.6431536367302652</double>
+        <int name="end">73</int>
+        <double name="strength">0.7368154314794818</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Article&lt;/em&gt; I in the &lt;em&gt;agreement states&lt;/em&gt; that "&lt;em&gt;purchases/sales&lt;/em&gt; of &lt;em&gt;commodities under&lt;/em&gt; this &lt;em&gt;Agreement&lt;/em&gt; will be made at the &lt;em&gt;market price prevailing&lt;/em&gt; for &lt;em&gt;these products&lt;/em&gt; at the time of &lt;em&gt;purchase&lt;/em&gt;/sale and in &lt;em&gt;accordance&lt;/em&gt; with &lt;em&gt;normal commercial terms.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Article&lt;/em&gt; I in the &lt;em&gt;agreement&lt;/em&gt; states that "&lt;em&gt;purchases/sales&lt;/em&gt; of &lt;em&gt;commodities&lt;/em&gt; under this &lt;em&gt;Agreement&lt;/em&gt; will be made at the &lt;em&gt;market price&lt;/em&gt; prevailing for these &lt;em&gt;products&lt;/em&gt; at the time of &lt;em&gt;purchase&lt;/em&gt;/sale and in &lt;em&gt;accordance&lt;/em&gt; with &lt;em&gt;normal commercial terms.&lt;/em&gt;"</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"How can I tell that we are &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;fulfill&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt; if the &lt;em&gt;United States&lt;/em&gt; does not want to &lt;em&gt;offer&lt;/em&gt; us &lt;em&gt;grain&lt;/em&gt; at &lt;em&gt;competitive prices?"&lt;/em&gt; said &lt;em&gt;Albert Melnikov, deputy trade representative&lt;/em&gt; of the &lt;em&gt;Soviet Union&lt;/em&gt; to the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"The United &lt;em&gt;States&lt;/em&gt; should &lt;em&gt;supply&lt;/em&gt; to the &lt;em&gt;Soviet Union definite quantities&lt;/em&gt; of &lt;em&gt;grain&lt;/em&gt; at &lt;em&gt;competitive prices ..&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;offer&lt;/em&gt; of &lt;em&gt;subsidized wheat&lt;/em&gt; to the &lt;em&gt;Soviets&lt;/em&gt; was &lt;em&gt;rejected because&lt;/em&gt; of an &lt;em&gt;insufficient subsidy, Melnikov said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">Whether the &lt;em&gt;Soviet Union&lt;/em&gt; will &lt;em&gt;fulfill&lt;/em&gt; its &lt;em&gt;buying obligations&lt;/em&gt; under the U.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

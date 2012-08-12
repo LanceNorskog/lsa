@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-301.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">makers</str>
+        <str name="text">number</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">environment</str>
-        <double name="strength">0.9999999999999983</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999963</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">month</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">adobe</str>
+        <double name="strength">0.9668760164118345</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Desktop publishing is a relatively new market but industry analysts estimate that sales will reach one billion dlrs this year and jump to six billion dlrs by 1990, fueled by the rush of corporations to bring their printing and publishing needs in-house rather than to more expensive outside printers.</str>
-        <int name="index">1</int>
+        <str name="text">At a desktop publishing conference in Chicago earlier this month, IBM said it will adopt Adobe Systems Inc's Postscript typesetting language in future electronic printing products.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">301</int>
+        <int name="end">181</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Both users and makers of electronic publishing systems said the support of the world's largest computer maker was critical to the language's ultimate acceptance by users.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.9071546671787587</double>
+        <str name="text">This month's endorsement by International Business Machines Corp &lt;IBM&gt; of two desktop publishing software products should add some much-needed standards to one of the fastest growing segments of the computer industry, analysts say.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">231</int>
+        <double name="strength">0.9856700171177804</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The advent of personal computers, laser printers and graphics software has allowed users to design and print brochures, newsletters and a host of other communications at their desks for a fraction of the cost of an outside printing firm.</str>
-        <int name="index">9</int>
+        <str name="text">"IBM's announcement will give tremendous stimulation to the development of the desktop publishing market," said David Goodstein, president of the consulting firm Interconsult Inc.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.8968144916989147</double>
+        <int name="end">180</int>
+        <double name="strength">0.9751657255923721</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Desktop publishing&lt;/em&gt; is a &lt;em&gt;relatively&lt;/em&gt; new &lt;em&gt;market&lt;/em&gt; but &lt;em&gt;industry analysts estimate&lt;/em&gt; that &lt;em&gt;sales&lt;/em&gt; will &lt;em&gt;reach&lt;/em&gt; one &lt;em&gt;billion&lt;/em&gt; dlrs this year and jump to six &lt;em&gt;billion&lt;/em&gt; dlrs by 1990, &lt;em&gt;fueled&lt;/em&gt; by the rush of &lt;em&gt;corporations&lt;/em&gt; to &lt;em&gt;bring their printing&lt;/em&gt; and &lt;em&gt;publishing needs&lt;/em&gt; in-&lt;em&gt;house rather&lt;/em&gt; than to more &lt;em&gt;expensive outside printers&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">At a &lt;em&gt;desktop publishing conference&lt;/em&gt; in &lt;em&gt;Chicago&lt;/em&gt; earlier this &lt;em&gt;month,&lt;/em&gt; IBM said it will &lt;em&gt;adopt Adobe Systems&lt;/em&gt; Inc's &lt;em&gt;Postscript typesetting language&lt;/em&gt; in &lt;em&gt;future electronic printing products&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Both &lt;em&gt;users&lt;/em&gt; and &lt;em&gt;makers&lt;/em&gt; of &lt;em&gt;electronic publishing systems&lt;/em&gt; said the &lt;em&gt;support&lt;/em&gt; of the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;largest computer maker&lt;/em&gt; was &lt;em&gt;critical&lt;/em&gt; to the &lt;em&gt;language&lt;/em&gt;'s &lt;em&gt;ultimate acceptance&lt;/em&gt; by &lt;em&gt;users&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">This &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;endorsement&lt;/em&gt; by &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt; of two &lt;em&gt;desktop publishing software products&lt;/em&gt; should add some much-&lt;em&gt;needed standards&lt;/em&gt; to one of the fastest growing &lt;em&gt;segments&lt;/em&gt; of the &lt;em&gt;computer industry, analysts say&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;advent&lt;/em&gt; of &lt;em&gt;personal computers, laser printers&lt;/em&gt; and &lt;em&gt;graphics software&lt;/em&gt; has &lt;em&gt;allowed users&lt;/em&gt; to &lt;em&gt;design&lt;/em&gt; and &lt;em&gt;print brochures, newsletters&lt;/em&gt; and a host of &lt;em&gt;other communications&lt;/em&gt; at &lt;em&gt;their desks&lt;/em&gt; for a &lt;em&gt;fraction&lt;/em&gt; of the cost of an &lt;em&gt;outside printing firm&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">"IBM's &lt;em&gt;announcement&lt;/em&gt; will give &lt;em&gt;tremendous stimulation&lt;/em&gt; to the &lt;em&gt;development&lt;/em&gt; of the &lt;em&gt;desktop publishing market,"&lt;/em&gt; said &lt;em&gt;David Goodstein, president&lt;/em&gt; of the consulting firm &lt;em&gt;Interconsult Inc&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

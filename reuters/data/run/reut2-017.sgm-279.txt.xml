@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-279.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">84</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">54</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">january</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">decline</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">partly</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">reluctance</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">tonnes</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">accept</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">april</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">258</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the export decline was partly due to the reluctance of Thai traders to accept all foreign orders as world prices did not rise in line with firming domestic prices.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.7555756439705347</double>
+        <str name="text">About its decision to freeze rice export prices from January to early April, Commerce Minister Montri Pongpanich said.</str>
+        <int name="index">2</int>
+        <int name="start">3</int>
+        <int name="end">121</int>
+        <double name="strength">0.9570603839252552</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Has followed a policy of weakening world rice prices by announcing highly subsidised export prices lower than those quoted by Thai traders.</str>
-        <int name="index">7</int>
+        <str name="text">S. Agriculture Department were unchanged for 11 weeks up to April 8.</str>
+        <int name="index">9</int>
         <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.7329743793170154</double>
+        <int name="end">68</int>
+        <double name="strength">0.8527969639688759</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;board&lt;/em&gt; said, &lt;em&gt;however,&lt;/em&gt; that &lt;em&gt;Thailand&lt;/em&gt; may &lt;em&gt;export&lt;/em&gt; more rice &lt;em&gt;later&lt;/em&gt; this year, &lt;em&gt;especially&lt;/em&gt; to &lt;em&gt;Africa,&lt;/em&gt; the &lt;em&gt;Middle&lt;/em&gt; East and Asia, due to &lt;em&gt;lower production&lt;/em&gt; in many &lt;em&gt;drought affected African countries&lt;/em&gt; and to &lt;em&gt;expected small exportable surpluses&lt;/em&gt; in &lt;em&gt;Burma&lt;/em&gt; and &lt;em&gt;Pakistan&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;board&lt;/em&gt; said, however, that Thailand may &lt;em&gt;export&lt;/em&gt; more rice later this year, especially to &lt;em&gt;Africa,&lt;/em&gt; the &lt;em&gt;Middle&lt;/em&gt; East and Asia, due to lower &lt;em&gt;production&lt;/em&gt; in many &lt;em&gt;drought&lt;/em&gt; affected &lt;em&gt;African countries&lt;/em&gt; and to &lt;em&gt;expected small exportable surpluses&lt;/em&gt; in &lt;em&gt;Burma&lt;/em&gt; and &lt;em&gt;Pakistan&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the &lt;em&gt;export decline&lt;/em&gt; was &lt;em&gt;partly&lt;/em&gt; due to the &lt;em&gt;reluctance&lt;/em&gt; of Thai &lt;em&gt;traders&lt;/em&gt; to &lt;em&gt;accept&lt;/em&gt; all &lt;em&gt;foreign orders&lt;/em&gt; as &lt;em&gt;world prices&lt;/em&gt; did not rise in line with &lt;em&gt;firming domestic prices&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">About its &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;freeze&lt;/em&gt; rice &lt;em&gt;export prices&lt;/em&gt; from &lt;em&gt;January&lt;/em&gt; to early &lt;em&gt;April, Commerce Minister Montri&lt;/em&gt; Pongpanich said.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Has &lt;em&gt;followed&lt;/em&gt; a &lt;em&gt;policy&lt;/em&gt; of &lt;em&gt;weakening world&lt;/em&gt; rice &lt;em&gt;prices&lt;/em&gt; by &lt;em&gt;announcing highly subsidised export prices lower&lt;/em&gt; than &lt;em&gt;those quoted&lt;/em&gt; by Thai &lt;em&gt;traders&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; were &lt;em&gt;unchanged&lt;/em&gt; for 11 &lt;em&gt;weeks&lt;/em&gt; up to &lt;em&gt;April 8&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

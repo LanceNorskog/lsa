@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-451.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">122</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">realty</str>
+        <str name="text">hutchison</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.559016994374945</double>
+        <str name="text">jardine</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">0.5</double>
+        <str name="text">other</str>
+        <double name="strength">0.9877415447956264</double>
       </lst>
       <lst name="term">
-        <str name="text">trust</str>
-        <double name="strength">0.5</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9877415447956254</double>
       </lst>
       <lst name="term">
-        <str name="text">crawford</str>
-        <double name="strength">0.5</double>
+        <str name="text">matheson</str>
+        <double name="strength">0.9877415447956244</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">174</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Hong Kong Stock Exchange is considering new rules governing different classes of shares following a spate of new "B" share issues by leading local firms, exchange chairman Ronald Li said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">191</int>
-        <double name="strength">0.982517908903919</double>
+        <str name="text">Li said the exchange will consult legal advisers in Britain for the proposals from Cheung Kong, Hutchison and Jardine Matheson.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">128</int>
+        <double name="strength">0.8469893954726554</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">HK&gt;, including &lt;Hong Kong Realty and Trust Co Ltd&gt;, &lt;Lane Crawford Holdings Ltd&gt; and &lt;Realty Development Corp Ltd&gt;.</str>
-        <int name="index">26</int>
-        <int name="start">0</int>
-        <int name="end">115</int>
-        <double name="strength">0.9346599193212249</double>
+        <str name="text">The exchange said yesterday it will not accept further proposals by listed firms to issue such new shares.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">107</int>
+        <double name="strength">0.7498590633386848</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">If the &lt;em&gt;rules&lt;/em&gt; of &lt;em&gt;settlement cannot&lt;/em&gt; be &lt;em&gt;implemented,&lt;/em&gt; the &lt;em&gt;three firms&lt;/em&gt; must &lt;em&gt;present alternative methods&lt;/em&gt; to &lt;em&gt;guarantee reasonable price differentials between&lt;/em&gt; the "A" and "B" &lt;em&gt;shares&lt;/em&gt;.</str>
+        <str name="text">If the &lt;em&gt;rules&lt;/em&gt; of &lt;em&gt;settlement&lt;/em&gt; cannot be implemented, the &lt;em&gt;three firms&lt;/em&gt; must &lt;em&gt;present alternative methods&lt;/em&gt; to &lt;em&gt;guarantee reasonable price differentials&lt;/em&gt; between the "A" and "B" &lt;em&gt;shares&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Hong Kong &lt;em&gt;Stock Exchange&lt;/em&gt; is &lt;em&gt;considering&lt;/em&gt; new &lt;em&gt;rules governing different classes&lt;/em&gt; of &lt;em&gt;shares following&lt;/em&gt; a &lt;em&gt;spate&lt;/em&gt; of new "B" &lt;em&gt;share issues&lt;/em&gt; by &lt;em&gt;leading local firms, exchange chairman Ronald&lt;/em&gt; Li said.</str>
-        <int name="index">0</int>
+        <str name="text">Li said the &lt;em&gt;exchange&lt;/em&gt; will &lt;em&gt;consult legal advisers&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt; for the &lt;em&gt;proposals&lt;/em&gt; from &lt;em&gt;Cheung&lt;/em&gt; Kong, &lt;em&gt;Hutchison&lt;/em&gt; and &lt;em&gt;Jardine Matheson&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">HK&gt;, &lt;em&gt;including &lt;/em&gt;&lt;Hong Kong &lt;em&gt;Realty&lt;/em&gt; and &lt;em&gt;Trust&lt;/em&gt; Co Ltd&gt;, &lt;Lane &lt;em&gt;Crawford Holdings&lt;/em&gt; Ltd&gt; and &lt;&lt;em&gt;Realty Development&lt;/em&gt; Corp Ltd&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The &lt;em&gt;exchange&lt;/em&gt; said &lt;em&gt;yesterday&lt;/em&gt; it will not &lt;em&gt;accept further proposals&lt;/em&gt; by &lt;em&gt;listed firms&lt;/em&gt; to &lt;em&gt;issue&lt;/em&gt; such new &lt;em&gt;shares&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

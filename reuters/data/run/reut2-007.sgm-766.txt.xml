@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-766.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foreigners</str>
-        <double name="strength">0.6201736729460424</double>
+        <str name="text">effect</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">public</str>
-        <double name="strength">0.6201736729460422</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
         <str name="text">authority</str>
-        <double name="strength">0.6201736729460422</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">effect</str>
-        <double name="strength">0.620173672946042</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9730077661055203</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Net claims of commercial banks and the Bundesbank against foreigners, refecting these foreign payments, increased by 9.1 billion marks in February, little changed from January's rise.</str>
-        <int name="index">7</int>
+        <str name="text">Outstanding bank credits to companies and private individuals remained virtually unchanged in February.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">184</int>
+        <int name="end">104</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">While cash in circulation, deposits with statutory withdrawal notice and sight deposits grew sharply, short-term time deposits fell after expanding unusually strongly in January.</str>
-        <int name="index">2</int>
-        <int name="start">0</int>
-        <int name="end">178</int>
-        <double name="strength">0.986332541757102</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Although banks acquired large amounts of public authority paper, public authorities drew down book credits at commercial banks and the Bundesbank.</str>
-        <int name="index">13</int>
+        <str name="text">The effect of public authority cash movements on the money supply was slightly expansive, the Bundesbank said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.8709516495848305</double>
+        <int name="end">111</int>
+        <double name="strength">0.9956394573130959</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But in contrast to January, the dampening effect of the inflow on domestic credit demand outweighed the expansionary effect on money growth, the Bundesbank said.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">0.9594525854061787</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Net &lt;em&gt;claims&lt;/em&gt; of &lt;em&gt;commercial banks&lt;/em&gt; and the &lt;em&gt;Bundesbank against foreigners, refecting these foreign payments, increased&lt;/em&gt; by 9.1 &lt;em&gt;billion marks&lt;/em&gt; in &lt;em&gt;February, little changed&lt;/em&gt; from &lt;em&gt;January&lt;/em&gt;'s rise.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Outstanding&lt;/em&gt; bank &lt;em&gt;credits&lt;/em&gt; to &lt;em&gt;companies&lt;/em&gt; and &lt;em&gt;private individuals&lt;/em&gt; remained virtually &lt;em&gt;unchanged&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;While&lt;/em&gt; cash in &lt;em&gt;circulation, deposits&lt;/em&gt; with &lt;em&gt;statutory withdrawal notice&lt;/em&gt; and &lt;em&gt;sight deposits&lt;/em&gt; grew &lt;em&gt;sharply, short&lt;/em&gt;-term time &lt;em&gt;deposits&lt;/em&gt; fell &lt;em&gt;after expanding unusually strongly&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;effect&lt;/em&gt; of &lt;em&gt;public authority&lt;/em&gt; cash &lt;em&gt;movements&lt;/em&gt; on the &lt;em&gt;money supply&lt;/em&gt; was slightly &lt;em&gt;expansive,&lt;/em&gt; the &lt;em&gt;Bundesbank said&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although banks acquired large amounts&lt;/em&gt; of &lt;em&gt;public authority paper, public authorities&lt;/em&gt; drew down book &lt;em&gt;credits&lt;/em&gt; at &lt;em&gt;commercial banks&lt;/em&gt; and the &lt;em&gt;Bundesbank&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">But in &lt;em&gt;contrast&lt;/em&gt; to &lt;em&gt;January,&lt;/em&gt; the &lt;em&gt;dampening effect&lt;/em&gt; of the &lt;em&gt;inflow&lt;/em&gt; on &lt;em&gt;domestic credit demand&lt;/em&gt; outweighed the &lt;em&gt;expansionary effect&lt;/em&gt; on &lt;em&gt;money growth,&lt;/em&gt; the &lt;em&gt;Bundesbank said&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

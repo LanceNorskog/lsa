@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-74.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">58</int>
+        <int name="count">38</int>
       </lst>
       <lst name="stems">
-        <int name="count">33</int>
+        <int name="count">23</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">demand</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">dollar</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">satisfactory</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">earnings</str>
+        <double name="strength">0.966876016411835</double>
+      </lst>
+      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5773502691896262</double>
-      </lst>
-      <lst name="term">
-        <str name="text">models</str>
-        <double name="strength">0.5590169943749473</double>
-      </lst>
-      <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">0.5590169943749472</double>
-      </lst>
-      <lst name="term">
-        <str name="text">investments</str>
-        <double name="strength">0.5000000000000009</double>
+        <double name="strength">0.9668760164118331</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">113</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">F&gt; said earnings in first half year 1986/87 were "satisfactory" despite burdens caused by the dollar's weakness against the mark and stagnating domestic demand.</str>
         <int name="index">4</int>
         <int name="start">0</int>
         <int name="end">160</int>
-        <double name="strength">0.8953072235885042</double>
+        <double name="strength">0.9558688569715869</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">However, earnings were satisfactory, it said, without giving absolute figures.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">79</int>
-        <double name="strength">0.8237270342609243</double>
+        <double name="strength">0.7504119979945062</double>
+        <int name="terms">4</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earnings&lt;/em&gt; were hit by &lt;em&gt;lower sales&lt;/em&gt; and by the &lt;em&gt;lower value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; and &lt;em&gt;currencies&lt;/em&gt; in &lt;em&gt;other important markets&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Earnings&lt;/em&gt; were hit by lower &lt;em&gt;sales&lt;/em&gt; and by the lower &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt; and &lt;em&gt;currencies&lt;/em&gt; in &lt;em&gt;other important markets&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">F&gt; said &lt;em&gt;earnings&lt;/em&gt; in &lt;em&gt;first&lt;/em&gt; half year 1986/87 were "&lt;em&gt;satisfactory" despite burdens caused&lt;/em&gt; by the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;weakness against&lt;/em&gt; the mark and &lt;em&gt;stagnating domestic demand&lt;/em&gt;.</str>
+        <str name="text">F&gt; said &lt;em&gt;earnings&lt;/em&gt; in &lt;em&gt;first&lt;/em&gt; half year 1986/87 were "&lt;em&gt;satisfactory"&lt;/em&gt; despite &lt;em&gt;burdens&lt;/em&gt; caused by the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;weakness&lt;/em&gt; against the mark and stagnating &lt;em&gt;domestic demand&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, earnings&lt;/em&gt; were &lt;em&gt;satisfactory,&lt;/em&gt; it said, &lt;em&gt;without giving absolute figures&lt;/em&gt;.</str>
+        <str name="text">However, &lt;em&gt;earnings&lt;/em&gt; were &lt;em&gt;satisfactory,&lt;/em&gt; it said, without giving &lt;em&gt;absolute figures&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-38.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">apparently</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">eight</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">success</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
       <lst name="term">
-        <str name="text">seasonally</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">february</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
       <lst name="term">
-        <str name="text">adjusted</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">motors</str>
+        <double name="strength">0.9747506840573448</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">246</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Relatively weaker sales by all of the Detroit Big Three carmakers have compelled the companies to offer a string of sales incentives including cash rebates and below-market interest loans in an effort to reignite the market.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">225</int>
-        <double name="strength">0.8938026602645497</double>
+        <double name="strength">0.6734662894533856</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Despite the lower car sales, the giant automaker had a bright spot as its Chevrolet division, which is launching a national sales campaign this month for its new Corsica and Beretta compact cars, was up almost 21 pct when only domestic-built cars were counted.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">261</int>
-        <double name="strength">0.8630513006941012</double>
+        <str name="text">S. automakers eased 2.2 pct in early March to the weakest levels since 1983, with industry giant General Motors Corp &lt;GM&gt; down 9.3 pct.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">135</int>
+        <double name="strength">0.656867605122055</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;decline&lt;/em&gt; by GM &lt;em&gt;continued&lt;/em&gt; its &lt;em&gt;trend&lt;/em&gt; of &lt;em&gt;weaker sales since&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of the 1987 &lt;em&gt;model&lt;/em&gt; year, &lt;em&gt;which&lt;/em&gt; has &lt;em&gt;forced&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;biggest corporation&lt;/em&gt; to cut its car &lt;em&gt;production several times through temporary&lt;/em&gt; and &lt;em&gt;permanent layoffs&lt;/em&gt; at &lt;em&gt;various plants&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;decline&lt;/em&gt; by GM continued its &lt;em&gt;trend&lt;/em&gt; of weaker &lt;em&gt;sales&lt;/em&gt; since the &lt;em&gt;beginning&lt;/em&gt; of the 1987 &lt;em&gt;model&lt;/em&gt; year, which has forced the &lt;em&gt;world&lt;/em&gt;'s biggest &lt;em&gt;corporation&lt;/em&gt; to cut its car &lt;em&gt;production several times&lt;/em&gt; through &lt;em&gt;temporary&lt;/em&gt; and &lt;em&gt;permanent layoffs&lt;/em&gt; at &lt;em&gt;various plants&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Relatively weaker sales&lt;/em&gt; by all of the &lt;em&gt;Detroit&lt;/em&gt; Big &lt;em&gt;Three carmakers&lt;/em&gt; have &lt;em&gt;compelled&lt;/em&gt; the &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;offer&lt;/em&gt; a &lt;em&gt;string&lt;/em&gt; of &lt;em&gt;sales incentives including&lt;/em&gt; cash &lt;em&gt;rebates&lt;/em&gt; and &lt;em&gt;below-market interest loans&lt;/em&gt; in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;reignite&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt;.</str>
+        <str name="text">Relatively weaker &lt;em&gt;sales&lt;/em&gt; by all of the &lt;em&gt;Detroit&lt;/em&gt; Big &lt;em&gt;Three carmakers&lt;/em&gt; have compelled the &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;offer&lt;/em&gt; a &lt;em&gt;string&lt;/em&gt; of &lt;em&gt;sales incentives&lt;/em&gt; including cash &lt;em&gt;rebates&lt;/em&gt; and below-&lt;em&gt;market interest loans&lt;/em&gt; in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;reignite&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite&lt;/em&gt; the &lt;em&gt;lower&lt;/em&gt; car &lt;em&gt;sales,&lt;/em&gt; the &lt;em&gt;giant automaker&lt;/em&gt; had a &lt;em&gt;bright&lt;/em&gt; spot as its &lt;em&gt;Chevrolet division, which&lt;/em&gt; is &lt;em&gt;launching&lt;/em&gt; a &lt;em&gt;national sales campaign&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; for its new &lt;em&gt;Corsica&lt;/em&gt; and &lt;em&gt;Beretta compact&lt;/em&gt; cars, was up &lt;em&gt;almost 21&lt;/em&gt; pct when only &lt;em&gt;domestic-built&lt;/em&gt; cars were &lt;em&gt;counted&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">S. &lt;em&gt;automakers&lt;/em&gt; eased 2.2 pct in &lt;em&gt;early March&lt;/em&gt; to the weakest &lt;em&gt;levels&lt;/em&gt; since 1983, with &lt;em&gt;industry giant General Motors&lt;/em&gt; Corp &lt;GM&gt; down 9.3 pct.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

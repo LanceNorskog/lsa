@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">41</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-419.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">officials</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">controversial</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">commissioner</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">vegetable</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">frans</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">marine</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">permission</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rapidly</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">present</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">However, with a five billion European Currency Unit (5.75 billion dollar) EC budget deficit almost inevitable this year, the Commission will be wary of making major concessions to the traditionally free-spending farm ministers, diplomats said</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Commission officials said farm commissioner Frans Andriessen will ask the 17-man body for permission to present farm ministers with a compromise plan revising proposals for 1987/88 farm prices which have divided them since they were first announced in March.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">259</int>
-        <double name="strength">0.9270316847432689</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The most controversial aspects of these proposals are a plan to tax all vegetable and marine oils and fats to finance rapidly increasing production subsidies and technical measures which would change the way common EC farm prices are converted into member state currencies.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">274</int>
-        <double name="strength">0.9216735248256394</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The European Community (EC) executive Commission will today urgently consider whether to take a new initiative to break the current deadlock over reform of the bloc's farm policy and to ease its budgetary crisis.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">212</int>
+        <double name="strength">0.9955639419295782</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Commission president Jacques Delors, who wants to ensure the summit has ample time to consider proposals for new means of financing the cash-strapped EC, said yesterday it would be "disastrous" if farm issues had to be discussed by government leaders.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">252</int>
+        <double name="strength">0.9670160745014259</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; with a five &lt;em&gt;billion European Currency&lt;/em&gt; Unit (5.75 &lt;em&gt;billion dollar)&lt;/em&gt; EC &lt;em&gt;budget deficit almost inevitable&lt;/em&gt; this year, the &lt;em&gt;Commission&lt;/em&gt; will be wary of &lt;em&gt;making major concessions&lt;/em&gt; to the &lt;em&gt;traditionally&lt;/em&gt; free-&lt;em&gt;spending&lt;/em&gt; farm &lt;em&gt;ministers, diplomats sai&lt;/em&gt;d</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Commission officials&lt;/em&gt; said farm &lt;em&gt;commissioner Frans Andriessen&lt;/em&gt; will ask the 17-man body for &lt;em&gt;permission&lt;/em&gt; to &lt;em&gt;present&lt;/em&gt; farm &lt;em&gt;ministers&lt;/em&gt; with a &lt;em&gt;compromise&lt;/em&gt; plan &lt;em&gt;revising proposals&lt;/em&gt; for 1987/88 farm &lt;em&gt;prices which&lt;/em&gt; have &lt;em&gt;divided&lt;/em&gt; them &lt;em&gt;since&lt;/em&gt; they were &lt;em&gt;first announced&lt;/em&gt; in &lt;em&gt;March&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The most &lt;em&gt;controversial aspects&lt;/em&gt; of &lt;em&gt;these proposals&lt;/em&gt; are a plan to tax all &lt;em&gt;vegetable&lt;/em&gt; and &lt;em&gt;marine&lt;/em&gt; oils and fats to &lt;em&gt;finance rapidly increasing production subsidies&lt;/em&gt; and &lt;em&gt;technical measures which would change&lt;/em&gt; the way &lt;em&gt;common&lt;/em&gt; EC farm &lt;em&gt;prices&lt;/em&gt; are &lt;em&gt;converted&lt;/em&gt; into &lt;em&gt;member state currencies&lt;/em&gt;.</str>
+        <str name="text">The most &lt;em&gt;controversial aspects&lt;/em&gt; of these &lt;em&gt;proposals&lt;/em&gt; are a plan to tax all &lt;em&gt;vegetable&lt;/em&gt; and &lt;em&gt;marine&lt;/em&gt; oils and fats to &lt;em&gt;finance&lt;/em&gt; rapidly increasing &lt;em&gt;production subsidies&lt;/em&gt; and &lt;em&gt;technical measures&lt;/em&gt; which would &lt;em&gt;change&lt;/em&gt; the way &lt;em&gt;common&lt;/em&gt; EC farm &lt;em&gt;prices&lt;/em&gt; are converted into &lt;em&gt;member state currencies&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;executive Commission&lt;/em&gt; will today urgently &lt;em&gt;consider&lt;/em&gt; whether to take a new &lt;em&gt;initiative&lt;/em&gt; to &lt;em&gt;break&lt;/em&gt; the &lt;em&gt;current deadlock&lt;/em&gt; over &lt;em&gt;reform&lt;/em&gt; of the bloc's farm &lt;em&gt;policy&lt;/em&gt; and to ease its &lt;em&gt;budgetary crisis&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Commission president Jacques Delors,&lt;/em&gt; who wants to &lt;em&gt;ensure&lt;/em&gt; the &lt;em&gt;summit&lt;/em&gt; has &lt;em&gt;ample&lt;/em&gt; time to &lt;em&gt;consider proposals&lt;/em&gt; for new &lt;em&gt;means&lt;/em&gt; of financing the cash-strapped EC, said &lt;em&gt;yesterday&lt;/em&gt; it would be "&lt;em&gt;disastrous"&lt;/em&gt; if farm &lt;em&gt;issues&lt;/em&gt; had to be discussed by &lt;em&gt;government leaders&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

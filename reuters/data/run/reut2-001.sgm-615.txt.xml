@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-615.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">123</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">barrels</str>
+        <str name="text">likely</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">county</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">available</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">barrels</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">onshore</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">decrease</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">munger</str>
-        <double name="strength">0.89442719099992</double>
+        <str name="text">state</str>
+        <double name="strength">0.9991285392582819</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Because much of the crude oil in California fields is thick, heavy and expensive to extract, oil prices would have to increase to near 1985's levels before any significant recovery is seen in drilling, they said.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">213</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Many stripper wells along the southern California coast produce eight times as much water as crude oil, and inland wells frequently require the use of steam injection to spur extraction of the thick, heavy oil, he said.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">220</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9508285256389649</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Only 33 rigs, about one-quarter of the total available, were drilling for oil onshore in California last week, compared to about 70 last year, said Bill Bolster of Munger Oil Information Services, which tracks California drilling activity.</str>
-        <int name="index">4</int>
+        <str name="text">Current prices are not enough to justify increased drilling, said Ed Malmgreen of the California Independent Producers Association.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">240</int>
-        <double name="strength">0.8697547275875431</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">While an Organization of Petroleum Exporting Countries pact to curb production boosted oil prices early this year, prices eventually fell.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">139</int>
-        <double name="strength">0.855699792003593</double>
+        <int name="end">132</int>
+        <double name="strength">0.9276124240874764</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Many &lt;em&gt;stripper wells along&lt;/em&gt; the &lt;em&gt;southern California coast produce eight times&lt;/em&gt; as much &lt;em&gt;water&lt;/em&gt; as &lt;em&gt;crude&lt;/em&gt; oil, and &lt;em&gt;inland wells frequently require&lt;/em&gt; the use of &lt;em&gt;steam injection&lt;/em&gt; to spur &lt;em&gt;extraction&lt;/em&gt; of the &lt;em&gt;thick, heavy&lt;/em&gt; oil, he said.</str>
+        <str name="text">Because much of the &lt;em&gt;crude&lt;/em&gt; oil in &lt;em&gt;California fields&lt;/em&gt; is &lt;em&gt;thick, heavy&lt;/em&gt; and &lt;em&gt;expensive&lt;/em&gt; to &lt;em&gt;extract,&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; would have to &lt;em&gt;increase&lt;/em&gt; to near 1985's &lt;em&gt;levels&lt;/em&gt; before any &lt;em&gt;significant recovery&lt;/em&gt; is seen in &lt;em&gt;drilling,&lt;/em&gt; they said.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Many stripper &lt;em&gt;wells&lt;/em&gt; along the &lt;em&gt;southern California coast produce eight times&lt;/em&gt; as much &lt;em&gt;water&lt;/em&gt; as &lt;em&gt;crude&lt;/em&gt; oil, and &lt;em&gt;inland wells&lt;/em&gt; frequently &lt;em&gt;require&lt;/em&gt; the use of &lt;em&gt;steam injection&lt;/em&gt; to spur &lt;em&gt;extraction&lt;/em&gt; of the &lt;em&gt;thick, heavy&lt;/em&gt; oil, he said.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Only 33 rigs, &lt;em&gt;about&lt;/em&gt; one-&lt;em&gt;quarter&lt;/em&gt; of the &lt;em&gt;total available,&lt;/em&gt; were &lt;em&gt;drilling&lt;/em&gt; for oil &lt;em&gt;onshore&lt;/em&gt; in &lt;em&gt;California&lt;/em&gt; last week, &lt;em&gt;compared&lt;/em&gt; to &lt;em&gt;about 70&lt;/em&gt; last year, said Bill &lt;em&gt;Bolster&lt;/em&gt; of &lt;em&gt;Munger&lt;/em&gt; Oil &lt;em&gt;Information Services, which tracks California drilling activity&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;While&lt;/em&gt; an &lt;em&gt;Organization&lt;/em&gt; of &lt;em&gt;Petroleum Exporting Countries&lt;/em&gt; pact to curb &lt;em&gt;production boosted&lt;/em&gt; oil &lt;em&gt;prices early&lt;/em&gt; this year, &lt;em&gt;prices eventually fell&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Current prices&lt;/em&gt; are not &lt;em&gt;enough&lt;/em&gt; to &lt;em&gt;justify&lt;/em&gt; increased &lt;em&gt;drilling,&lt;/em&gt; said Ed &lt;em&gt;Malmgreen&lt;/em&gt; of the &lt;em&gt;California Independent Producers Association&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

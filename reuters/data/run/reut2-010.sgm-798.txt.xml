@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-798.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">167</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">110</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">projected</str>
+        <str name="text">notes</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">1.0</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">provide</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">grace</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">debtor</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">period</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Ongpin said the Philippines' 7-1/2 year grace period was better than Mexico's seven-year grace period, while the PINs proposal would result in savings of foreign exchange and generate pesos which would be reinvested in domestic enterprises.</str>
-        <int name="index">13</int>
+        <str name="text">Ongpin said the restructuring of commercial bank debt, as well as of 870 mln dlrs of debt by the Paris Club of Western creditor governments in January, was expected to reduce the country's debt-service ratio to between 25 and 30 pct from its current level of 40 to 45 pct.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">241</int>
+        <int name="end">273</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said the country's balance of payments was now projected at a surplus of about 1.2 billion dlrs in 1987, compared with a surplus of about 1.1 billion dlrs in 1986 and a previous projected deficit of 1.2 billion dlrs this year.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.8994389026886057</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The PINs provide a mechanism to finance the growth needed by these debtor nations, provided they are willing to welcome foreign equity investment into their economies, Ongpin told a businessmen's meeting.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">0.8395416399205503</double>
+        <double name="strength">0.9903585684685298</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said he had been in almost daily telephone contact with President Corazon Aquino, particularly when the banks began to take a very tough stance on pricing.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.9404770748905847</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; said the &lt;em&gt;Philippines' 7-1/2&lt;/em&gt; year &lt;em&gt;grace period&lt;/em&gt; was &lt;em&gt;better&lt;/em&gt; than &lt;em&gt;Mexico&lt;/em&gt;'s &lt;em&gt;seven&lt;/em&gt;-year &lt;em&gt;grace period, while&lt;/em&gt; the PINs &lt;em&gt;proposal would result&lt;/em&gt; in &lt;em&gt;savings&lt;/em&gt; of &lt;em&gt;foreign exchange&lt;/em&gt; and &lt;em&gt;generate pesos which would&lt;/em&gt; be &lt;em&gt;reinvested&lt;/em&gt; in &lt;em&gt;domestic enterprises&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; said the &lt;em&gt;restructuring&lt;/em&gt; of &lt;em&gt;commercial&lt;/em&gt; bank debt, as well as of 870 mln dlrs of debt by the &lt;em&gt;Paris&lt;/em&gt; Club of &lt;em&gt;Western creditor governments&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; was expected to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s debt-&lt;em&gt;service ratio&lt;/em&gt; to between 25 and 30 pct from its &lt;em&gt;current level&lt;/em&gt; of 40 to 45 pct.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments&lt;/em&gt; was now &lt;em&gt;projected&lt;/em&gt; at a &lt;em&gt;surplus&lt;/em&gt; of &lt;em&gt;about 1.2 billion&lt;/em&gt; dlrs in 1987, &lt;em&gt;compared&lt;/em&gt; with a &lt;em&gt;surplus&lt;/em&gt; of &lt;em&gt;about 1.1 billion&lt;/em&gt; dlrs in 1986 and a &lt;em&gt;previous projected deficit&lt;/em&gt; of 1.2 &lt;em&gt;billion&lt;/em&gt; dlrs this year.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The PINs &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;mechanism&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;growth needed&lt;/em&gt; by &lt;em&gt;these debtor nations, provided&lt;/em&gt; they are &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;welcome foreign equity investment&lt;/em&gt; into &lt;em&gt;their economies, Ongpin&lt;/em&gt; told a &lt;em&gt;businessmen&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt;.</str>
+        <str name="text">The PINs &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;mechanism&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;growth&lt;/em&gt; needed by these &lt;em&gt;debtor nations,&lt;/em&gt; provided they are &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;welcome foreign equity investment&lt;/em&gt; into their &lt;em&gt;economies,&lt;/em&gt; Ongpin told a &lt;em&gt;businessmen&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said he had been in almost &lt;em&gt;daily telephone contact&lt;/em&gt; with &lt;em&gt;President Corazon Aquino,&lt;/em&gt; particularly when the &lt;em&gt;banks&lt;/em&gt; began to take a very &lt;em&gt;tough stance&lt;/em&gt; on &lt;em&gt;pricing&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

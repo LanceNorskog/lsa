@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-480.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">output</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rounded</str>
-        <double name="strength">0.6666666666666663</double>
+        <str name="text">dividend</str>
+        <double name="strength">0.9917320401144664</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.3726779962499647</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9917320401144657</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">models</str>
+        <double name="strength">0.9917320401144657</double>
       </lst>
       <lst name="term">
-        <str name="text">production</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">decline</str>
+        <double name="strength">0.9917320401144651</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Habbel said turnover in 1986 rose to 9.9 billion marks from 9.6 billion in 1985 and looked certain to rise to over 10 billion this year.</str>
-        <int name="index">6</int>
+        <str name="text">Habbel blamed the profit decline on disruptions to output caused by the introduction of the new Audi 80 model, on currency factors and on negative publicity in the U.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">137</int>
+        <int name="end">167</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Asked whether Audi would pay a dividend to VW to help the parent company overcome its currency losses, Habbel said Audi would ensure VW got a share of profits.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9721551587085433</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Managing board chairman Wolfgang Habbel told a news conference he expected both profit and turnover to rise this year compared with 1986, but he said it was questionable whether 1987 profit would return to 1985 levels.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">219</int>
-        <double name="strength">0.8464006472724249</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Habbel blamed the profit decline on disruptions to output caused by the introduction of the new Audi 80 model, on currency factors and on negative publicity in the U.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.8281949643213661</double>
+        <double name="strength">0.753653464826268</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Habbel&lt;/em&gt; said &lt;em&gt;turnover&lt;/em&gt; in 1986 rose to 9.9 &lt;em&gt;billion marks&lt;/em&gt; from 9.6 &lt;em&gt;billion&lt;/em&gt; in 1985 and &lt;em&gt;looked certain&lt;/em&gt; to rise to over 10 &lt;em&gt;billion&lt;/em&gt; this year.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Managing board chairman Wolfgang Habbel&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; he &lt;em&gt;expected&lt;/em&gt; both &lt;em&gt;profit&lt;/em&gt; and &lt;em&gt;turnover&lt;/em&gt; to rise this year &lt;em&gt;compared&lt;/em&gt; with 1986, but he said it was &lt;em&gt;questionable whether 1987 profit would return&lt;/em&gt; to 1985 &lt;em&gt;levels&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Habbel blamed&lt;/em&gt; the &lt;em&gt;profit decline&lt;/em&gt; on &lt;em&gt;disruptions&lt;/em&gt; to &lt;em&gt;output caused&lt;/em&gt; by the &lt;em&gt;introduction&lt;/em&gt; of the new Audi 80 &lt;em&gt;model,&lt;/em&gt; on &lt;em&gt;currency factors&lt;/em&gt; and on &lt;em&gt;negative publicity&lt;/em&gt; in the U.</str>
+        <str name="text">&lt;em&gt;Habbel&lt;/em&gt; blamed the &lt;em&gt;profit decline&lt;/em&gt; on &lt;em&gt;disruptions&lt;/em&gt; to &lt;em&gt;output&lt;/em&gt; caused by the &lt;em&gt;introduction&lt;/em&gt; of the new Audi 80 &lt;em&gt;model,&lt;/em&gt; on &lt;em&gt;currency factors&lt;/em&gt; and on &lt;em&gt;negative publicity&lt;/em&gt; in the U.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Asked whether Audi would pay a &lt;em&gt;dividend&lt;/em&gt; to VW to help the &lt;em&gt;parent company overcome&lt;/em&gt; its &lt;em&gt;currency losses, Habbel&lt;/em&gt; said Audi would &lt;em&gt;ensure&lt;/em&gt; VW got a &lt;em&gt;share&lt;/em&gt; of &lt;em&gt;profits&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Managing &lt;em&gt;board chairman Wolfgang Habbel&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; he expected both &lt;em&gt;profit&lt;/em&gt; and &lt;em&gt;turnover&lt;/em&gt; to rise this year compared with 1986, but he said it was &lt;em&gt;questionable&lt;/em&gt; whether 1987 &lt;em&gt;profit&lt;/em&gt; would &lt;em&gt;return&lt;/em&gt; to 1985 &lt;em&gt;levels&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

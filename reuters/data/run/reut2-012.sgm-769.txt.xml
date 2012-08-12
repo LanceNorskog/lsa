@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-769.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">honan</str>
+        <str name="text">logistical</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">problem</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">polypropylene</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">appropriate</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">double</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">sized</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">completes</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">vessels</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">&lt;Honan Ethylene Corp's&gt; import requirements have risen to 8,000 tonnes a month from 6,000 tonnes last year to meet strong demand from &lt;Honan Petrochemical Co&gt;, which makes HDPE and ethylene glycol, and &lt;Hangyang Chemical&gt;, which produces low-density polyethylene and vinyl chloride monomer, they said.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">302</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Japanese trading companies are looking to alternative sources to supply South Korea's needs, including Saudi Arabia, Qatar and Mexico, they said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">146</int>
-        <double name="strength">0.849763267993106</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">But long-haul voyages are expensive as the product has to be shipped at a temperature of minus 103 degrees centigrade to keep it in a liquid form, they said.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">158</int>
-        <double name="strength">0.7787414294326754</double>
+        <double name="strength">0.9428237167873612</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">South Korea has two projects in hand which will increase its ethylene production capacity by 500,000 tonnes a year by the end of 1989, so the strong demand surge for imports is only a medium-term trend, they said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">0.9051308049691532</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;&lt;Honan Ethylene&lt;/em&gt; Corp's&gt; &lt;em&gt;import requirements&lt;/em&gt; have &lt;em&gt;risen&lt;/em&gt; to 8,000 &lt;em&gt;tonnes&lt;/em&gt; a &lt;em&gt;month&lt;/em&gt; from 6,000 &lt;em&gt;tonnes&lt;/em&gt; last year to meet &lt;em&gt;strong demand&lt;/em&gt; from &lt;&lt;em&gt;Honan Petrochemical&lt;/em&gt; Co&gt;, &lt;em&gt;which makes&lt;/em&gt; HDPE and &lt;em&gt;ethylene glycol,&lt;/em&gt; and &lt;&lt;em&gt;Hangyang Chemical&gt;, which produces&lt;/em&gt; low-&lt;em&gt;density polyethylene&lt;/em&gt; and &lt;em&gt;vinyl chloride monomer,&lt;/em&gt; they said.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese trading companies&lt;/em&gt; are &lt;em&gt;looking&lt;/em&gt; to &lt;em&gt;alternative sources&lt;/em&gt; to &lt;em&gt;supply South Korea&lt;/em&gt;'s &lt;em&gt;needs, including Saudi Arabia, Qatar&lt;/em&gt; and &lt;em&gt;Mexico,&lt;/em&gt; they said.</str>
+        <str name="text">&lt;em&gt;Japanese trading companies&lt;/em&gt; are looking to &lt;em&gt;alternative sources&lt;/em&gt; to &lt;em&gt;supply South Korea&lt;/em&gt;'s needs, including &lt;em&gt;Saudi Arabia, Qatar&lt;/em&gt; and &lt;em&gt;Mexico,&lt;/em&gt; they said.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But long-haul &lt;em&gt;voyages&lt;/em&gt; are &lt;em&gt;expensive&lt;/em&gt; as the &lt;em&gt;product&lt;/em&gt; has to be &lt;em&gt;shipped&lt;/em&gt; at a &lt;em&gt;temperature&lt;/em&gt; of &lt;em&gt;minus 103 degrees centigrade&lt;/em&gt; to keep it in a &lt;em&gt;liquid&lt;/em&gt; form, they said.</str>
+        <str name="text">But long-haul &lt;em&gt;voyages&lt;/em&gt; are &lt;em&gt;expensive&lt;/em&gt; as the &lt;em&gt;product&lt;/em&gt; has to be shipped at a &lt;em&gt;temperature&lt;/em&gt; of &lt;em&gt;minus 103 degrees centigrade&lt;/em&gt; to keep it in a &lt;em&gt;liquid&lt;/em&gt; form, they said.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">South &lt;em&gt;Korea&lt;/em&gt; has two &lt;em&gt;projects&lt;/em&gt; in hand which will &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;ethylene production capacity&lt;/em&gt; by 500,000 &lt;em&gt;tonnes&lt;/em&gt; a year by the end of 1989, so the &lt;em&gt;strong demand surge&lt;/em&gt; for &lt;em&gt;imports&lt;/em&gt; is only a &lt;em&gt;medium&lt;/em&gt;-term &lt;em&gt;trend,&lt;/em&gt; they said.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

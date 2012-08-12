@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-233.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">49</int>
       </lst>
       <lst name="stems">
-        <int name="count">47</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">shareholders</str>
+        <str name="text">shares</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">delay</str>
-        <double name="strength">1.0</double>
+        <str name="text">properties</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">follows</str>
-        <double name="strength">1.0</double>
+        <str name="text">hongkong</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">receipt</str>
-        <double name="strength">1.0</double>
+        <str name="text">payments</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">magnate</str>
-        <double name="strength">1.0</double>
+        <str name="text">commercial</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Analysts said Bond International is heavily geared as it has relied on bank borrowings to purchase both the Hongkong Land properties and the HK-TVB shares.</str>
-        <int name="index">15</int>
+        <str name="text">Bond International has also sold several residential buildings in Hong Kong's mid-levels district for a total of 68.35 mln dlrs, the statement said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">156</int>
+        <int name="end">149</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The January announcement said the rights issue would finance Bond Corp's 1.4 billion dlr acquisition of a 23.77 pct stake in HK-TVB Ltd &lt;TVBH.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.927497271371063</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">K. Dlr loan from its parent company to meet the first payment on the newly acquired Bond Centre commercial complex in central Hong Kong.</str>
         <int name="index">4</int>
         <int name="start">0</int>
         <int name="end">136</int>
-        <double name="strength">0.9949964825703049</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bond International has also sold several residential buildings in Hong Kong's mid-levels district for a total of 68.35 mln dlrs, the statement said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">149</int>
-        <double name="strength">0.9624771672597318</double>
+        <double name="strength">0.927497271371062</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said Bond &lt;em&gt;International&lt;/em&gt; is &lt;em&gt;heavily geared&lt;/em&gt; as it has &lt;em&gt;relied&lt;/em&gt; on bank &lt;em&gt;borrowings&lt;/em&gt; to &lt;em&gt;purchase&lt;/em&gt; both the &lt;em&gt;Hongkong&lt;/em&gt; Land &lt;em&gt;properties&lt;/em&gt; and the HK-TVB &lt;em&gt;shares&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">K. Dlr loan from its &lt;em&gt;parent company&lt;/em&gt; to meet the &lt;em&gt;first payment&lt;/em&gt; on the &lt;em&gt;newly acquired&lt;/em&gt; Bond &lt;em&gt;Centre commercial complex&lt;/em&gt; in &lt;em&gt;central&lt;/em&gt; Hong Kong.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
         <str name="text">Bond &lt;em&gt;International&lt;/em&gt; has also sold &lt;em&gt;several residential buildings&lt;/em&gt; in Hong Kong's mid-&lt;em&gt;levels district&lt;/em&gt; for a &lt;em&gt;total&lt;/em&gt; of 68.35 mln dlrs, the &lt;em&gt;statement said&lt;/em&gt;.</str>
         <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;January announcement&lt;/em&gt; said the &lt;em&gt;rights issue&lt;/em&gt; would &lt;em&gt;finance&lt;/em&gt; Bond Corp's 1.4 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;acquisition&lt;/em&gt; of a 23.77 pct &lt;em&gt;stake&lt;/em&gt; in HK-TVB Ltd &lt;TVBH.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K. Dlr loan from its &lt;em&gt;parent company&lt;/em&gt; to meet the &lt;em&gt;first payment&lt;/em&gt; on the newly acquired Bond &lt;em&gt;Centre commercial complex&lt;/em&gt; in &lt;em&gt;central&lt;/em&gt; Hong Kong.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

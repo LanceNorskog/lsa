@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-179.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">225</int>
+        <int name="count">173</int>
       </lst>
       <lst name="stems">
-        <int name="count">157</int>
+        <int name="count">120</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">grain</str>
+        <str name="text">construction</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">national</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">authority</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">total</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">funds</str>
+        <double name="strength">0.9904173305044067</double>
       </lst>
       <lst name="term">
-        <str name="text">services</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9904173305044064</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Zhao told the annual meeting of the National People's Congress that while China cooled its overheated economy, cut its trade deficit and raised national living standards in 1986, serious imbalances remain.</str>
-        <int name="index">1</int>
+        <str name="text">He also promised a continuation of the labour contract system under which all firms hire workers for a fixed period and pay them according to their own methods, subject only to state-set ceilings for wages and bonuses.</str>
+        <int name="index">30</int>
         <int name="start">1</int>
-        <int name="end">206</int>
+        <int name="end">219</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said China's per capita output of grain and other farm and sideline products is still very low and production of grain, forestry, animal husbandry and fisheries rests on a rather weak foundation.</str>
-        <int name="index">19</int>
-        <int name="start">2</int>
-        <int name="end">200</int>
-        <double name="strength">0.9483486400039682</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Zhao said that in 1987, China will speed up the reform of its financial system, diversify credit services, encourage competition among different financial institutions and promote insurance services.</str>
-        <int name="index">25</int>
+        <str name="text">Zhao said there was a deficit in state finances in 1986 because of the sharp fall in world oil prices, the rising cost of foreign exchange earnings through exports, reduced income from customs duties and unreasonably heavy spending.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.884892091316286</double>
+        <int name="end">233</int>
+        <double name="strength">0.9915519110556579</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">China needs to accumulate enormous funds for construction in its initial stage of socialist modernisation and consumption must match the available resources, he said.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.9424960530016736</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Zhao told the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;National People&lt;/em&gt;'s &lt;em&gt;Congress&lt;/em&gt; that &lt;em&gt;while China cooled&lt;/em&gt; its &lt;em&gt;overheated economy,&lt;/em&gt; cut its &lt;em&gt;trade deficit&lt;/em&gt; and &lt;em&gt;raised national living standards&lt;/em&gt; in 1986, &lt;em&gt;serious imbalances remain&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">He also promised a &lt;em&gt;continuation&lt;/em&gt; of the &lt;em&gt;labour contract system&lt;/em&gt; under which all &lt;em&gt;firms&lt;/em&gt; hire &lt;em&gt;workers&lt;/em&gt; for a &lt;em&gt;fixed period&lt;/em&gt; and pay them according to their own &lt;em&gt;methods, subject&lt;/em&gt; only to &lt;em&gt;state&lt;/em&gt;-set &lt;em&gt;ceilings&lt;/em&gt; for &lt;em&gt;wages&lt;/em&gt; and &lt;em&gt;bonuses&lt;/em&gt;.</str>
+        <int name="index">30</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;China&lt;/em&gt;'s per &lt;em&gt;capita output&lt;/em&gt; of &lt;em&gt;grain&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; farm and &lt;em&gt;sideline products&lt;/em&gt; is &lt;em&gt;still&lt;/em&gt; very low and &lt;em&gt;production&lt;/em&gt; of &lt;em&gt;grain, forestry, animal husbandry&lt;/em&gt; and &lt;em&gt;fisheries rests&lt;/em&gt; on a &lt;em&gt;rather&lt;/em&gt; weak &lt;em&gt;foundation&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">Zhao said there was a &lt;em&gt;deficit&lt;/em&gt; in &lt;em&gt;state finances&lt;/em&gt; in 1986 because of the &lt;em&gt;sharp&lt;/em&gt; fall in &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;prices,&lt;/em&gt; the rising cost of &lt;em&gt;foreign exchange earnings&lt;/em&gt; through &lt;em&gt;exports,&lt;/em&gt; reduced &lt;em&gt;income&lt;/em&gt; from &lt;em&gt;customs duties&lt;/em&gt; and unreasonably &lt;em&gt;heavy spending&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Zhao said that in 1987, &lt;em&gt;China&lt;/em&gt; will &lt;em&gt;speed&lt;/em&gt; up the &lt;em&gt;reform&lt;/em&gt; of its &lt;em&gt;financial system, diversify credit services, encourage competition among different financial institutions&lt;/em&gt; and &lt;em&gt;promote insurance services&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;China&lt;/em&gt; needs to &lt;em&gt;accumulate enormous funds&lt;/em&gt; for &lt;em&gt;construction&lt;/em&gt; in its &lt;em&gt;initial stage&lt;/em&gt; of &lt;em&gt;socialist modernisation&lt;/em&gt; and &lt;em&gt;consumption&lt;/em&gt; must &lt;em&gt;match&lt;/em&gt; the &lt;em&gt;available resources,&lt;/em&gt; he said.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

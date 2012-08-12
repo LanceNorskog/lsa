@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-153.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">44</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">ounce</str>
+        <str name="text">speculate</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">president</str>
-        <double name="strength">0.5590169943749468</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">quoted</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">energy</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">adequate</str>
+        <double name="strength">0.9969511504682479</double>
       </lst>
       <lst name="term">
-        <str name="text">mines</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">certain</str>
+        <double name="strength">0.996951150468247</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Peru adopted the move on tuesday in an bid to stablilise the price of silver bullion, which has climbed in a month from about 5.70 dlrs an ounce to over 9.00 dlrs an ounce today.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">El peruano quoted energy and mines minister Wilfredo Huayta as saying that Peru did not want to participate in speculative operations with silver.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">147</int>
-        <double name="strength">0.9279996828758426</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Together, the two nations account for nearly 40 pct of the world's silver output, the official paper El Peruano said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">118</int>
+        <double name="strength">0.9543882963576257</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">The heads of the central banks of Mexico and Peru have met in Mexico city to coordinate actions aimed at consolidating the upward trend in the price of silver, the official newspaper El Peruano said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">199</int>
-        <double name="strength">0.8614727699239703</double>
+        <double name="strength">0.8603408807131151</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Peru &lt;em&gt;adopted&lt;/em&gt; the move on &lt;em&gt;tuesday&lt;/em&gt; in an bid to &lt;em&gt;stablilise&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;silver bullion, which&lt;/em&gt; has &lt;em&gt;climbed&lt;/em&gt; in a &lt;em&gt;month&lt;/em&gt; from &lt;em&gt;about 5.70&lt;/em&gt; dlrs an &lt;em&gt;ounce&lt;/em&gt; to over 9.00 dlrs an &lt;em&gt;ounce today&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">El &lt;em&gt;peruano quoted energy&lt;/em&gt; and &lt;em&gt;mines minister Wilfredo Huayta&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; that Peru did not want to &lt;em&gt;participate&lt;/em&gt; in &lt;em&gt;speculative operations&lt;/em&gt; with &lt;em&gt;silver&lt;/em&gt;.</str>
+        <str name="text">El &lt;em&gt;peruano&lt;/em&gt; quoted &lt;em&gt;energy&lt;/em&gt; and &lt;em&gt;mines minister&lt;/em&gt; Wilfredo Huayta as saying that Peru did not want to &lt;em&gt;participate&lt;/em&gt; in &lt;em&gt;speculative operations&lt;/em&gt; with &lt;em&gt;silver&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;heads&lt;/em&gt; of the &lt;em&gt;central banks&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt; and Peru have met in &lt;em&gt;Mexico&lt;/em&gt; city to &lt;em&gt;coordinate actions aimed&lt;/em&gt; at &lt;em&gt;consolidating&lt;/em&gt; the &lt;em&gt;upward trend&lt;/em&gt; in the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;silver,&lt;/em&gt; the &lt;em&gt;official newspaper&lt;/em&gt; El &lt;em&gt;Peruano said&lt;/em&gt;.</str>
+        <str name="text">Together, the two &lt;em&gt;nations account&lt;/em&gt; for nearly 40 pct of the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;silver output,&lt;/em&gt; the &lt;em&gt;official paper&lt;/em&gt; El &lt;em&gt;Peruano said&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;heads&lt;/em&gt; of the &lt;em&gt;central banks&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt; and Peru have met in &lt;em&gt;Mexico&lt;/em&gt; city to &lt;em&gt;coordinate actions&lt;/em&gt; aimed at consolidating the &lt;em&gt;upward trend&lt;/em&gt; in the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;silver,&lt;/em&gt; the &lt;em&gt;official newspaper&lt;/em&gt; El &lt;em&gt;Peruano said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

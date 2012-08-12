@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-873.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">171</int>
+        <int name="count">123</int>
       </lst>
       <lst name="stems">
-        <int name="count">107</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">measures</str>
+        <str name="text">japan</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">growth</str>
+        <str name="text">industrial</str>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">target</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
+        <str name="text">spokesman</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">below</str>
+        <str name="text">yesterday</str>
         <double name="strength">0.9999999999999993</double>
-      </lst>
-      <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749467</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Sumitomo's Koido said if the government quickly implements the LDP's 5,000 billion yen package, economic growth in the 1987/88 year ending next March 31 could be around three pct, His current forecast of 2.2 pct growth assumes a supplementary budget of around 1,000 billion yen.</str>
-        <int name="index">19</int>
+        <str name="text">Masayoshi Ito, chairman of the LDP's policy affairs council, said yesterday the government must stick to its 1990 fiscal reform target, but should review the ceiling it places on public works spending.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">279</int>
+        <int name="end">202</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Economists said the government could meet its 1990 target and also increase spending by using money it got from the sale of Nippon Telegraph and Telephone Corp shares and by taking advantage of lower than expected interest rates on its debt.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">242</int>
-        <double name="strength">0.8584969284731704</double>
+        <double name="strength">0.9424998007686667</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Although the measures must still gain the approval of the Finance Ministry, economists said the government will find it too difficult to alter the measures significantly once they have gained domestic and overseas backing.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.8496058788478423</double>
+        <str name="text">The economic package unveiled yesterday by the ruling Liberal Democratic Party (LDP) marks the start of a major shift away from the policies of the past, private economists and government officials said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
+        <double name="strength">0.9146518643313427</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sumitomo&lt;/em&gt;'s &lt;em&gt;Koido&lt;/em&gt; said if the &lt;em&gt;government quickly implements&lt;/em&gt; the LDP's 5,000 &lt;em&gt;billion&lt;/em&gt; yen &lt;em&gt;package, economic growth&lt;/em&gt; in the 1987/88 year &lt;em&gt;ending&lt;/em&gt; next &lt;em&gt;March 31 could&lt;/em&gt; be &lt;em&gt;around three&lt;/em&gt; pct, His &lt;em&gt;current forecast&lt;/em&gt; of 2.2 pct &lt;em&gt;growth assumes&lt;/em&gt; a &lt;em&gt;supplementary budget&lt;/em&gt; of &lt;em&gt;around 1,000 billion yen&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Masayoshi&lt;/em&gt; Ito, &lt;em&gt;chairman&lt;/em&gt; of the LDP's &lt;em&gt;policy affairs council,&lt;/em&gt; said &lt;em&gt;yesterday&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; must &lt;em&gt;stick&lt;/em&gt; to its 1990 &lt;em&gt;fiscal reform target,&lt;/em&gt; but should &lt;em&gt;review&lt;/em&gt; the &lt;em&gt;ceiling&lt;/em&gt; it places on &lt;em&gt;public works spending&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said the &lt;em&gt;government could&lt;/em&gt; meet its 1990 &lt;em&gt;target&lt;/em&gt; and also &lt;em&gt;increase spending&lt;/em&gt; by &lt;em&gt;using money&lt;/em&gt; it got from the sale of &lt;em&gt;Nippon Telegraph&lt;/em&gt; and &lt;em&gt;Telephone&lt;/em&gt; Corp &lt;em&gt;shares&lt;/em&gt; and by &lt;em&gt;taking advantage&lt;/em&gt; of &lt;em&gt;lower&lt;/em&gt; than &lt;em&gt;expected interest rates&lt;/em&gt; on its debt.</str>
+        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt; could meet its 1990 &lt;em&gt;target&lt;/em&gt; and also &lt;em&gt;increase spending&lt;/em&gt; by using &lt;em&gt;money&lt;/em&gt; it got from the sale of &lt;em&gt;Nippon Telegraph&lt;/em&gt; and &lt;em&gt;Telephone&lt;/em&gt; Corp &lt;em&gt;shares&lt;/em&gt; and by taking &lt;em&gt;advantage&lt;/em&gt; of lower than expected &lt;em&gt;interest rates&lt;/em&gt; on its debt.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;measures&lt;/em&gt; must &lt;em&gt;still&lt;/em&gt; gain the &lt;em&gt;approval&lt;/em&gt; of the &lt;em&gt;Finance Ministry, economists&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt; will find it too &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;measures significantly&lt;/em&gt; once they have &lt;em&gt;gained domestic&lt;/em&gt; and &lt;em&gt;overseas backing&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;economic package&lt;/em&gt; unveiled &lt;em&gt;yesterday&lt;/em&gt; by the &lt;em&gt;ruling Liberal Democratic Party &lt;/em&gt;(LDP) marks the &lt;em&gt;start&lt;/em&gt; of a &lt;em&gt;major shift&lt;/em&gt; away from the &lt;em&gt;policies&lt;/em&gt; of the past, &lt;em&gt;private economists&lt;/em&gt; and &lt;em&gt;government officials said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

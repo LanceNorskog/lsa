@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-116.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">depleted</str>
+        <str name="text">review</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">policies</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">years</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">restore</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">incentive</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forecast</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">projections</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">229</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">At present world oil prices and the current value of the Australian dollar, annual oil imports in 1992/93 would cost between 3.2 billion and 3.6 billion dlrs, Benbow said.</str>
-        <int name="index">9</int>
+        <str name="text">Australia's medium-term liquid fuel self-sufficiency position is posing a major economic threat, yet the government's response has been to load new tax burdens on the oil industry, Benbow said.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.9253967269470885</double>
+        <int name="end">194</int>
+        <double name="strength">0.9944415652252971</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">By 1992/93, Bass Strait output is expected to be just over half the 1985/86 level, assuming a number of so far undeveloped fields are brought on stream and enhanced recovery from existing fields goes ahead, Benbow said.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.846880736906703</double>
+        <str name="text">The government's over-reliance on revenue from crude oil is adversely affecting Australia's economic performance, Australian Petroleum Exploration Association (APEA) chairman Dennis Benbow said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">194</int>
+        <double name="strength">0.8882578484690173</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;dependence&lt;/em&gt; on oil-&lt;em&gt;generated revenue distorts&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economic performance directly&lt;/em&gt; by &lt;em&gt;acting&lt;/em&gt; as a &lt;em&gt;disincentive&lt;/em&gt; to new &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;indirectly&lt;/em&gt; by &lt;em&gt;affecting trading competitiveness through&lt;/em&gt; high &lt;em&gt;energy costs,&lt;/em&gt; he said.</str>
+        <str name="text">This &lt;em&gt;dependence&lt;/em&gt; on oil-generated &lt;em&gt;revenue distorts&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economic performance&lt;/em&gt; directly by acting as a &lt;em&gt;disincentive&lt;/em&gt; to new &lt;em&gt;exploration&lt;/em&gt; and indirectly by affecting &lt;em&gt;trading competitiveness&lt;/em&gt; through high &lt;em&gt;energy costs,&lt;/em&gt; he said.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">At &lt;em&gt;present world&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; and the &lt;em&gt;current value&lt;/em&gt; of the &lt;em&gt;Australian dollar, annual&lt;/em&gt; oil &lt;em&gt;imports&lt;/em&gt; in 1992/93 &lt;em&gt;would&lt;/em&gt; cost &lt;em&gt;between 3.2 billion&lt;/em&gt; and 3.6 &lt;em&gt;billion&lt;/em&gt; dlrs, &lt;em&gt;Benbow said&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Australia&lt;/em&gt;'s &lt;em&gt;medium&lt;/em&gt;-term &lt;em&gt;liquid&lt;/em&gt; fuel self-&lt;em&gt;sufficiency position&lt;/em&gt; is posing a &lt;em&gt;major economic threat,&lt;/em&gt; yet the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;response&lt;/em&gt; has been to load new tax &lt;em&gt;burdens&lt;/em&gt; on the oil &lt;em&gt;industry, Benbow said&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">By 1992/93, Bass &lt;em&gt;Strait output&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be just over half the 1985/86 &lt;em&gt;level, assuming&lt;/em&gt; a &lt;em&gt;number&lt;/em&gt; of so far &lt;em&gt;undeveloped fields&lt;/em&gt; are &lt;em&gt;brought&lt;/em&gt; on &lt;em&gt;stream&lt;/em&gt; and &lt;em&gt;enhanced recovery&lt;/em&gt; from &lt;em&gt;existing fields&lt;/em&gt; goes &lt;em&gt;ahead, Benbow said&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;government&lt;/em&gt;'s over-&lt;em&gt;reliance&lt;/em&gt; on &lt;em&gt;revenue&lt;/em&gt; from &lt;em&gt;crude&lt;/em&gt; oil is adversely affecting &lt;em&gt;Australia&lt;/em&gt;'s &lt;em&gt;economic performance, Australian Petroleum Exploration Association &lt;/em&gt;(APEA) &lt;em&gt;chairman Dennis Benbow said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

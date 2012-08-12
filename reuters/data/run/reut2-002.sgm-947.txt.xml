@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-947.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">48</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">filing</str>
+        <str name="text">department</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">accordingly</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">rules</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">justice</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">agency</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">disclosed</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">approval</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">supported</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">grounds</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">145</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"TWA's application clearly fails to comply with the filing requirements of our regulations...and TWA has provided no reason why we should accept such a deficient filing," it added.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">0.9074186529882061</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. Department of Transportation (DOT) said it dismissed on technical grounds an application by Trans World Airlines Inc for DOT approval for it to take control of USAir Group.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">175</int>
-        <double name="strength">0.7762817412083719</double>
+        <double name="strength">0.7977240536023661</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In its control application, TWA had acknowledged that additional documentation was required to meet DOT rules and said it would file more material on the morning of March 9.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.7312113108035058</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;agency added&lt;/em&gt; that it &lt;em&gt;would continue&lt;/em&gt; to &lt;em&gt;consider&lt;/em&gt; a &lt;em&gt;separate&lt;/em&gt; TWA &lt;em&gt;request&lt;/em&gt; for &lt;em&gt;federal clearance&lt;/em&gt; to &lt;em&gt;purchase USAir stock through&lt;/em&gt; a &lt;em&gt;voting trust&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;agency&lt;/em&gt; added that it would &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;consider&lt;/em&gt; a &lt;em&gt;separate&lt;/em&gt; TWA &lt;em&gt;request&lt;/em&gt; for &lt;em&gt;federal clearance&lt;/em&gt; to &lt;em&gt;purchase USAir stock&lt;/em&gt; through a &lt;em&gt;voting trust&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"TWA's &lt;em&gt;application clearly fails&lt;/em&gt; to &lt;em&gt;comply&lt;/em&gt; with the &lt;em&gt;filing requirements&lt;/em&gt; of our &lt;em&gt;regulations..&lt;/em&gt;.and TWA has &lt;em&gt;provided&lt;/em&gt; no &lt;em&gt;reason&lt;/em&gt; why we &lt;em&gt;should accept&lt;/em&gt; such a &lt;em&gt;deficient filing,"&lt;/em&gt; it &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">S. &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Transportation &lt;/em&gt;(DOT) said it dismissed on &lt;em&gt;technical grounds&lt;/em&gt; an &lt;em&gt;application&lt;/em&gt; by Trans &lt;em&gt;World Airlines&lt;/em&gt; Inc for DOT &lt;em&gt;approval&lt;/em&gt; for it to take &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;USAir Group&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Transportation &lt;/em&gt;(DOT) said it &lt;em&gt;dismissed&lt;/em&gt; on &lt;em&gt;technical grounds&lt;/em&gt; an &lt;em&gt;application&lt;/em&gt; by &lt;em&gt;Trans World Airlines&lt;/em&gt; Inc for DOT &lt;em&gt;approval&lt;/em&gt; for it to take &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;USAir Group&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">In its &lt;em&gt;control application,&lt;/em&gt; TWA had acknowledged that &lt;em&gt;additional documentation&lt;/em&gt; was required to meet DOT &lt;em&gt;rules&lt;/em&gt; and said it would file more &lt;em&gt;material&lt;/em&gt; on the &lt;em&gt;morning&lt;/em&gt; of &lt;em&gt;March 9&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

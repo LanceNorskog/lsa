@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-799.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">approximately</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">future</str>
-        <double name="strength">0.9999999999999999</double>
-      </lst>
-      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.559016994374948</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">group</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">stock</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">quarter</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The bank group continued, "if it is decided that these loans to Brazil should be placed on a cash basis, Citicorp estimates, based on existing interest rates, that the impact in the first quarter would be approximately 50 mln dlrs after tax and for the full year would be approximately 190 mln dlrs after tax."</str>
-        <int name="index">10</int>
+        <str name="text">In response to more specific market rumors that it had taken action on its exposure to Brazil, Citicorp said it made an 8-K filing on the subject with the Securities and Exchange Commission on Tuesday in relation to a registration statement for a preferred stock issue.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">311</int>
+        <int name="end">270</int>
         <double name="strength">1.0</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
         <str name="text">Brazil's new central bank governor Francisco Gros met senior commercial bankers here on Wednesday and Citicorp said formal talks on Brazil's recent actions and future financing needs should begin in "the near future".</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">218</int>
-        <double name="strength">0.9319256385175064</double>
+        <double name="strength">0.7684228172782227</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In response to more specific market rumors that it had taken action on its exposure to Brazil, Citicorp said it made an 8-K filing on the subject with the Securities and Exchange Commission on Tuesday in relation to a registration statement for a preferred stock issue.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">270</int>
-        <double name="strength">0.8601083324400894</double>
+        <str name="text">S. and one of the biggest lenders to Latin America, with some eight to nine billion dlrs outstanding to Brazil, Mexico and Argentina, bank analysts said.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">153</int>
+        <double name="strength">0.7423805144115283</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The bank &lt;em&gt;group continued, &lt;/em&gt;"if it is &lt;em&gt;decided&lt;/em&gt; that &lt;em&gt;these loans&lt;/em&gt; to &lt;em&gt;Brazil should&lt;/em&gt; be &lt;em&gt;placed&lt;/em&gt; on a cash &lt;em&gt;basis, Citicorp estimates, based&lt;/em&gt; on &lt;em&gt;existing interest rates,&lt;/em&gt; that the &lt;em&gt;impact&lt;/em&gt; in the &lt;em&gt;first quarter would&lt;/em&gt; be &lt;em&gt;approximately 50&lt;/em&gt; mln dlrs &lt;em&gt;after&lt;/em&gt; tax and for the full year &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;approximately 190&lt;/em&gt; mln dlrs &lt;em&gt;after tax.&lt;/em&gt;"</str>
-        <int name="index">10</int>
+        <str name="text">In &lt;em&gt;response&lt;/em&gt; to more &lt;em&gt;specific market rumors&lt;/em&gt; that it had taken &lt;em&gt;action&lt;/em&gt; on its &lt;em&gt;exposure&lt;/em&gt; to &lt;em&gt;Brazil, Citicorp&lt;/em&gt; said it made an 8-K &lt;em&gt;filing&lt;/em&gt; on the &lt;em&gt;subject&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; in &lt;em&gt;relation&lt;/em&gt; to a &lt;em&gt;registration statement&lt;/em&gt; for a &lt;em&gt;preferred stock issue&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil&lt;/em&gt;'s new &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governor Francisco&lt;/em&gt; Gros met &lt;em&gt;senior commercial bankers&lt;/em&gt; here on &lt;em&gt;Wednesday&lt;/em&gt; and &lt;em&gt;Citicorp&lt;/em&gt; said &lt;em&gt;formal talks&lt;/em&gt; on &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;recent actions&lt;/em&gt; and &lt;em&gt;future financing needs should begin&lt;/em&gt; in "the near &lt;em&gt;future"&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt;'s new &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governor Francisco&lt;/em&gt; Gros met &lt;em&gt;senior commercial bankers&lt;/em&gt; here on &lt;em&gt;Wednesday&lt;/em&gt; and &lt;em&gt;Citicorp&lt;/em&gt; said &lt;em&gt;formal talks&lt;/em&gt; on &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;recent actions&lt;/em&gt; and &lt;em&gt;future financing needs&lt;/em&gt; should &lt;em&gt;begin&lt;/em&gt; in "the near &lt;em&gt;future"&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;response&lt;/em&gt; to more &lt;em&gt;specific market rumors&lt;/em&gt; that it had &lt;em&gt;taken action&lt;/em&gt; on its &lt;em&gt;exposure&lt;/em&gt; to &lt;em&gt;Brazil, Citicorp&lt;/em&gt; said it made an 8-K &lt;em&gt;filing&lt;/em&gt; on the &lt;em&gt;subject&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; in &lt;em&gt;relation&lt;/em&gt; to a &lt;em&gt;registration statement&lt;/em&gt; for a &lt;em&gt;preferred stock issue&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">S. and one of the biggest &lt;em&gt;lenders&lt;/em&gt; to &lt;em&gt;Latin America,&lt;/em&gt; with some &lt;em&gt;eight&lt;/em&gt; to nine &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;outstanding&lt;/em&gt; to &lt;em&gt;Brazil, Mexico&lt;/em&gt; and &lt;em&gt;Argentina,&lt;/em&gt; bank &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

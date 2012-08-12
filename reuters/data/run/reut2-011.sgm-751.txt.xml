@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-751.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">160</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">value</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">collateral</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">energy</str>
-        <double name="strength">0.9999999999999963</double>
-      </lst>
-      <lst name="term">
         <str name="text">ratios</str>
-        <double name="strength">0.5590169943749462</double>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">texas</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">losses</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">assets</str>
+        <double name="strength">0.9999999999999988</double>
+      </lst>
+      <lst name="term">
+        <str name="text">auditors</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Because the carrying value of many of these loans is collateral dependent, a further decline in the overall value of the collateral base could cause an increase in the level of real estate-related chargeoffs."</str>
-        <int name="index">22</int>
+        <str name="text">However, the ultimate return to satisfactory operating conditions is dependent on the successful resolution of the related problems of credit quality, funding and the eventual need for substantial additional capital."</str>
+        <int name="index">9</int>
         <int name="start">0</int>
-        <int name="end">209</int>
+        <int name="end">217</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To raise cash in the near-term, First City said it may sell or mortgage non-strategic assets, recover excess contributions to its pension plan and obtain special dividends from some of its member banks.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">203</int>
+        <double name="strength">0.936235645915093</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">First City Bancorp of Texas, which lost a record 402 mln dlrs in 1986, said in its annual report it expected operating losses to continue "for the foreseeable future" as it continues to search for additional capital or a merger partner.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">236</int>
-        <double name="strength">0.8678167739257601</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The company believes that in order to address its long-term needs and return to a satisfactory level of operations, it will ultimately need several hundred million dollars of additional capital, or a combination with a more strongly capitalized entity," First City said in a note to its financial statements included in the annual report.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">340</int>
-        <double name="strength">0.8473597868345605</double>
+        <double name="strength">0.8164337569406788</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Because&lt;/em&gt; the &lt;em&gt;carrying value&lt;/em&gt; of many of &lt;em&gt;these loans&lt;/em&gt; is &lt;em&gt;collateral dependent,&lt;/em&gt; a &lt;em&gt;further decline&lt;/em&gt; in the &lt;em&gt;overall value&lt;/em&gt; of the &lt;em&gt;collateral&lt;/em&gt; base &lt;em&gt;could cause&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;level&lt;/em&gt; of real &lt;em&gt;estate-related chargeoffs.&lt;/em&gt;"</str>
-        <int name="index">22</int>
+        <str name="text">However, the &lt;em&gt;ultimate return&lt;/em&gt; to &lt;em&gt;satisfactory operating conditions&lt;/em&gt; is &lt;em&gt;dependent&lt;/em&gt; on the &lt;em&gt;successful resolution&lt;/em&gt; of the &lt;em&gt;related problems&lt;/em&gt; of &lt;em&gt;credit quality, funding&lt;/em&gt; and the &lt;em&gt;eventual&lt;/em&gt; need for &lt;em&gt;substantial additional capital.&lt;/em&gt;"</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;First&lt;/em&gt; City &lt;em&gt;Bancorp&lt;/em&gt; of &lt;em&gt;Texas, which&lt;/em&gt; lost a &lt;em&gt;record 402&lt;/em&gt; mln dlrs in 1986, said in its &lt;em&gt;annual report&lt;/em&gt; it &lt;em&gt;expected operating losses&lt;/em&gt; to &lt;em&gt;continue &lt;/em&gt;"for the &lt;em&gt;foreseeable future"&lt;/em&gt; as it &lt;em&gt;continues&lt;/em&gt; to &lt;em&gt;search&lt;/em&gt; for &lt;em&gt;additional capital&lt;/em&gt; or a &lt;em&gt;merger partner&lt;/em&gt;.</str>
+        <str name="text">To &lt;em&gt;raise&lt;/em&gt; cash in the near-term, &lt;em&gt;First&lt;/em&gt; City said it may sell or &lt;em&gt;mortgage&lt;/em&gt; non-&lt;em&gt;strategic assets, recover excess contributions&lt;/em&gt; to its &lt;em&gt;pension&lt;/em&gt; plan and &lt;em&gt;obtain special dividends&lt;/em&gt; from some of its &lt;em&gt;member banks&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;First&lt;/em&gt; City Bancorp of &lt;em&gt;Texas,&lt;/em&gt; which lost a &lt;em&gt;record 402&lt;/em&gt; mln dlrs in 1986, said in its &lt;em&gt;annual report&lt;/em&gt; it expected operating &lt;em&gt;losses&lt;/em&gt; to &lt;em&gt;continue &lt;/em&gt;"for the &lt;em&gt;foreseeable future"&lt;/em&gt; as it continues to &lt;em&gt;search&lt;/em&gt; for &lt;em&gt;additional capital&lt;/em&gt; or a &lt;em&gt;merger partner&lt;/em&gt;.</str>
         <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;company believes&lt;/em&gt; that in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;address&lt;/em&gt; its long-term &lt;em&gt;needs&lt;/em&gt; and &lt;em&gt;return&lt;/em&gt; to a &lt;em&gt;satisfactory level&lt;/em&gt; of &lt;em&gt;operations,&lt;/em&gt; it will &lt;em&gt;ultimately&lt;/em&gt; need &lt;em&gt;several hundred million dollars&lt;/em&gt; of &lt;em&gt;additional capital,&lt;/em&gt; or a &lt;em&gt;combination&lt;/em&gt; with a more &lt;em&gt;strongly capitalized entity," First&lt;/em&gt; City said in a note to its &lt;em&gt;financial statements included&lt;/em&gt; in the &lt;em&gt;annual report&lt;/em&gt;.</str>
-        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

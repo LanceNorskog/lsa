@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-878.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">winter</str>
+        <str name="text">report</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.9999999999999992</double>
+        <str name="text">brisk</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expect</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">consumption</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">income</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">following</str>
-        <double name="strength">0.8944271909999164</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Sure, consumers may have spent less on winter clothes or heating apparatus because of the warm winter this year, but they have done so because they have become even more uneasy about their future pay rises," said Shoji Saito, general manager of Mitsui Bank's economic research division.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">288</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Consumer spending, a main driving force of domestic demand, was likely to remain lacklustre although brisk housing and business investment would help sustain the economy this year, the economists said.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">202</int>
-        <double name="strength">0.8109433141033132</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They expressed concern about the 0.7 pct decline in consumer spending in the final quarter of 1986 but said it was only temporary as exceptionally warm winter weather had depressed retail sales.</str>
-        <int name="index">6</int>
+        <str name="text">Masao Suzaki, senior economist at the Bank of Tokyo, said weakened consumer confidence was the most worrying factor.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.7701043851437008</double>
+        <int name="end">117</int>
+        <double name="strength">0.8924912295760934</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Johsen Takahashi, chief economist at Mitsubishi Research Institute, said the 14.4 pct increase in public sector spending in Oct/Dec resulted from an issue of gold coins.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">169</int>
+        <double name="strength">0.8772596757257435</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"Sure, &lt;em&gt;consumers&lt;/em&gt; may have &lt;em&gt;spent&lt;/em&gt; less on &lt;em&gt;winter clothes&lt;/em&gt; or &lt;em&gt;heating apparatus because&lt;/em&gt; of the warm &lt;em&gt;winter&lt;/em&gt; this year, but they have done so &lt;em&gt;because&lt;/em&gt; they have &lt;em&gt;become&lt;/em&gt; even more &lt;em&gt;uneasy about their future&lt;/em&gt; pay &lt;em&gt;rises,"&lt;/em&gt; said &lt;em&gt;Shoji Saito, general manager&lt;/em&gt; of &lt;em&gt;Mitsui&lt;/em&gt; Bank's &lt;em&gt;economic research division&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Consumer spending,&lt;/em&gt; a main &lt;em&gt;driving force&lt;/em&gt; of &lt;em&gt;domestic demand,&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;remain lacklustre although brisk housing&lt;/em&gt; and &lt;em&gt;business investment would&lt;/em&gt; help &lt;em&gt;sustain&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; this year, the &lt;em&gt;economists said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Consumer&lt;/em&gt; spending, a main driving &lt;em&gt;force&lt;/em&gt; of &lt;em&gt;domestic demand,&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;remain lacklustre&lt;/em&gt; although &lt;em&gt;brisk housing&lt;/em&gt; and &lt;em&gt;business investment&lt;/em&gt; would help &lt;em&gt;sustain&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; this year, the &lt;em&gt;economists said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;expressed concern about&lt;/em&gt; the 0.7 pct &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;consumer spending&lt;/em&gt; in the &lt;em&gt;final quarter&lt;/em&gt; of 1986 but said it was only &lt;em&gt;temporary&lt;/em&gt; as &lt;em&gt;exceptionally&lt;/em&gt; warm &lt;em&gt;winter weather&lt;/em&gt; had &lt;em&gt;depressed retail sales&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Masao Suzaki, senior economist&lt;/em&gt; at the Bank of &lt;em&gt;Tokyo,&lt;/em&gt; said &lt;em&gt;weakened consumer confidence&lt;/em&gt; was the most &lt;em&gt;worrying factor&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Johsen Takahashi, chief economist&lt;/em&gt; at &lt;em&gt;Mitsubishi Research Institute,&lt;/em&gt; said the 14.4 pct &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;public sector spending&lt;/em&gt; in Oct/Dec resulted from an &lt;em&gt;issue&lt;/em&gt; of gold &lt;em&gt;coins&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

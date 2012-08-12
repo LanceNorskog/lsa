@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-493.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rising</str>
+        <str name="text">acquisition</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">marks</str>
-        <double name="strength">0.6236095644623237</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">earnings</str>
-        <double name="strength">0.5527707983925666</double>
+        <str name="text">environment</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">earlier</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">total</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Wegscheider said the bank was recovering from speculation about its ownership, which had unnerved many customers last year, and from the financial crisis involving the Neue Heimat housing group linked to BfG's former trade union owners.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The general banking environment this year was not easy, with the interest margin under pressure, securities business suffering from markedly lower bourse turnover than last year and sluggish credit demand, he said.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9955713140897666</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">These sales produced extraordinary earnings of 700 mln marks, with parent bank earnings from profit transfer agreements rising to 494.18 mln marks in 1986 from 54.24 mln in 1985, and other earnings including writing bank risk provisions rising to 317.95 mln marks from 65.67 mln.</str>
-        <int name="index">12</int>
+        <str name="text">Wegscheider said the bank was recovering from speculation about its ownership, which had unnerved many customers last year, and from the financial crisis involving the Neue Heimat housing group linked to BfG's former trade union owners.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">280</int>
-        <double name="strength">0.9648069956996056</double>
+        <int name="end">237</int>
+        <double name="strength">0.9512635461883461</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Following the AMB acquisition, BfG sold its 25.01 pct stake in &lt;Volksfuersorge Deutsche Lebensversicherung AG&gt;, its 74.9 pct in &lt;BSV Bank fuer Sparanlagen und Vermoegensbildung AG&gt; and five pct of &lt;Allgemeine Hypothekenbank AG&gt;.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">229</int>
+        <double name="strength">0.7108715547702655</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Wegscheider&lt;/em&gt; said the bank was &lt;em&gt;recovering&lt;/em&gt; from &lt;em&gt;speculation about&lt;/em&gt; its &lt;em&gt;ownership, which&lt;/em&gt; had &lt;em&gt;unnerved&lt;/em&gt; many &lt;em&gt;customers&lt;/em&gt; last year, and from the &lt;em&gt;financial crisis involving&lt;/em&gt; the Neue &lt;em&gt;Heimat housing group linked&lt;/em&gt; to BfG's &lt;em&gt;former trade union owners&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;general banking environment&lt;/em&gt; this year was not easy, with the &lt;em&gt;interest margin under pressure, securities business suffering&lt;/em&gt; from &lt;em&gt;markedly lower bourse turnover&lt;/em&gt; than last year and &lt;em&gt;sluggish credit demand,&lt;/em&gt; he said.</str>
+        <str name="text">The &lt;em&gt;general banking environment&lt;/em&gt; this year was not easy, with the &lt;em&gt;interest margin&lt;/em&gt; under &lt;em&gt;pressure, securities business&lt;/em&gt; suffering from markedly lower &lt;em&gt;bourse turnover&lt;/em&gt; than last year and &lt;em&gt;sluggish credit demand,&lt;/em&gt; he said.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These sales produced extraordinary earnings&lt;/em&gt; of 700 mln &lt;em&gt;marks,&lt;/em&gt; with &lt;em&gt;parent&lt;/em&gt; bank &lt;em&gt;earnings&lt;/em&gt; from &lt;em&gt;profit transfer agreements rising&lt;/em&gt; to 494.18 mln &lt;em&gt;marks&lt;/em&gt; in 1986 from 54.24 mln in 1985, and &lt;em&gt;other earnings including writing&lt;/em&gt; bank risk &lt;em&gt;provisions rising&lt;/em&gt; to 317.95 mln &lt;em&gt;marks&lt;/em&gt; from 65.67 mln.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Wegscheider&lt;/em&gt; said the bank was recovering from &lt;em&gt;speculation&lt;/em&gt; about its &lt;em&gt;ownership,&lt;/em&gt; which had unnerved many &lt;em&gt;customers&lt;/em&gt; last year, and from the &lt;em&gt;financial crisis&lt;/em&gt; involving the Neue &lt;em&gt;Heimat housing group&lt;/em&gt; linked to BfG's &lt;em&gt;former trade union owners&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Following the AMB &lt;em&gt;acquisition,&lt;/em&gt; BfG sold its 25.01 pct &lt;em&gt;stake&lt;/em&gt; in &lt;&lt;em&gt;Volksfuersorge Deutsche&lt;/em&gt; Lebensversicherung AG&gt;, its 74.9 pct in &lt;BSV Bank fuer &lt;em&gt;Sparanlagen&lt;/em&gt; und &lt;em&gt;Vermoegensbildung&lt;/em&gt; AG&gt; and five pct of &lt;Allgemeine &lt;em&gt;Hypothekenbank AG&gt;&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

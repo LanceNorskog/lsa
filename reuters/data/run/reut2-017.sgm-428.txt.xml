@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-428.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">optimism</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">barrels</str>
-        <double name="strength">0.5590169943749465</double>
+        <str name="text">sharp</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.5</double>
+        <str name="text">contrast</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">under</str>
-        <double name="strength">0.49999999999999956</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Chinese oil sold within the nation's borders is priced at about one-third the 18 dlr a barrel benchmark price established by the Organization of Petroleum Exporting Countries, Zhai said in an interview at the World Petroleum Congress.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.8753796696324139</double>
+        <str name="text">S. and other western nations do provide equipment for China's fledgling offshore projects as well as participate in the actual drilling, he said.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">145</int>
+        <double name="strength">0.9852870421531564</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">China's oil drilling industry is one of the few bright spots in the international oilpatch with about 1,000 rigs currently working and annual increases of 80-100 expected through the end of the century, a Chinese petroleum official said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">237</int>
-        <double name="strength">0.8493249273374549</double>
+        <double name="strength">0.9717665840704223</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;optimism&lt;/em&gt; in &lt;em&gt;China&lt;/em&gt; is in &lt;em&gt;sharp contrast&lt;/em&gt; to the &lt;em&gt;United States where&lt;/em&gt; weak oil &lt;em&gt;prices&lt;/em&gt; have &lt;em&gt;prompted&lt;/em&gt; a &lt;em&gt;steep&lt;/em&gt; fall in the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;active&lt;/em&gt; rigs from a 1981 peak of 4,500 to only 765 last week &lt;em&gt;according&lt;/em&gt; to the &lt;em&gt;latest Baker Hughes&lt;/em&gt; Co rig &lt;em&gt;count&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;optimism&lt;/em&gt; in &lt;em&gt;China&lt;/em&gt; is in &lt;em&gt;sharp contrast&lt;/em&gt; to the United &lt;em&gt;States&lt;/em&gt; where weak oil &lt;em&gt;prices&lt;/em&gt; have prompted a &lt;em&gt;steep&lt;/em&gt; fall in the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;active&lt;/em&gt; rigs from a 1981 peak of 4,500 to only 765 last week according to the latest &lt;em&gt;Baker&lt;/em&gt; Hughes Co rig &lt;em&gt;count&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chinese&lt;/em&gt; oil sold &lt;em&gt;within&lt;/em&gt; the &lt;em&gt;nation&lt;/em&gt;'s &lt;em&gt;borders&lt;/em&gt; is &lt;em&gt;priced&lt;/em&gt; at &lt;em&gt;about&lt;/em&gt; one-&lt;em&gt;third&lt;/em&gt; the 18 dlr a &lt;em&gt;barrel benchmark price established&lt;/em&gt; by the &lt;em&gt;Organization&lt;/em&gt; of &lt;em&gt;Petroleum Exporting Countries,&lt;/em&gt; Zhai said in an &lt;em&gt;interview&lt;/em&gt; at the &lt;em&gt;World Petroleum Congress&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">S. and &lt;em&gt;other western nations&lt;/em&gt; do &lt;em&gt;provide equipment&lt;/em&gt; for &lt;em&gt;China&lt;/em&gt;'s &lt;em&gt;fledgling offshore projects&lt;/em&gt; as well as &lt;em&gt;participate&lt;/em&gt; in the &lt;em&gt;actual drilling,&lt;/em&gt; he said.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;China&lt;/em&gt;'s oil &lt;em&gt;drilling industry&lt;/em&gt; is one of the few &lt;em&gt;bright spots&lt;/em&gt; in the &lt;em&gt;international oilpatch&lt;/em&gt; with &lt;em&gt;about 1,000&lt;/em&gt; rigs &lt;em&gt;currently working&lt;/em&gt; and &lt;em&gt;annual increases&lt;/em&gt; of 80-100 &lt;em&gt;expected through&lt;/em&gt; the end of the &lt;em&gt;century,&lt;/em&gt; a &lt;em&gt;Chinese petroleum official said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;China&lt;/em&gt;'s oil &lt;em&gt;drilling industry&lt;/em&gt; is one of the few &lt;em&gt;bright spots&lt;/em&gt; in the &lt;em&gt;international oilpatch&lt;/em&gt; with about 1,000 rigs currently working and &lt;em&gt;annual increases&lt;/em&gt; of 80-100 expected through the end of the &lt;em&gt;century,&lt;/em&gt; a &lt;em&gt;Chinese petroleum official said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

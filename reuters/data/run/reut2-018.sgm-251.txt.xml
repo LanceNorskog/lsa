@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-251.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">119</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">quebec</str>
+        <str name="text">first</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">revenues</str>
-        <double name="strength">0.4999999999999998</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9800366671942413</double>
       </lst>
       <lst name="term">
-        <str name="text">shares</str>
-        <double name="strength">0.27950849718747356</double>
+        <str name="text">inroads</str>
+        <double name="strength">0.9800366671942413</double>
       </lst>
       <lst name="term">
-        <str name="text">chief</str>
-        <double name="strength">0.2500000000000003</double>
+        <str name="text">other</str>
+        <double name="strength">0.9800366671942413</double>
       </lst>
       <lst name="term">
-        <str name="text">executive</str>
-        <double name="strength">0.2500000000000003</double>
+        <str name="text">london</str>
+        <double name="strength">0.9800366671942413</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Knight said The Independent was not affecting the Telegraph's growth, but was making inroads into the circulation of other London quality dailies such as The Times and The Guardian.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">182</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Montreal-based Unimedia is Quebec's third largest newspaper group, with three French language daily newspapers in Quebec City, Ottawa and Chicoutimi, Quebec and four printing plants in Ontario and Quebec.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8405923661660887</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">For full-year 1987, the Daily Telegraph could break even or better, said Black, citing major reductions in labor costs and improved technology at the Telegraph, Britain's largest circulation quality daily.</str>
-        <int name="index">9</int>
+        <str name="text">Commenting on press reports about the 50 mln dlr price tag, Black said, "That would not be wildly inaccurate," although he declined to disclose the actual cost.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">206</int>
-        <double name="strength">0.6383746210807462</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Daily Telegraph chief executive Andrew Knight told reporters after the meeting that the Telegraph's daily circulation had risen by 25,000 since September to about 1,150,000 on weekdays, despite added competition from the new Independent daily newspaper.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">254</int>
-        <double name="strength">0.5996931092311669</double>
+        <int name="end">161</int>
+        <double name="strength">0.815271631709511</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Montreal-based Unimedia&lt;/em&gt; is &lt;em&gt;Quebec&lt;/em&gt;'s &lt;em&gt;third largest newspaper group,&lt;/em&gt; with &lt;em&gt;three French language daily newspapers&lt;/em&gt; in &lt;em&gt;Quebec&lt;/em&gt; City, &lt;em&gt;Ottawa&lt;/em&gt; and &lt;em&gt;Chicoutimi, Quebec&lt;/em&gt; and four &lt;em&gt;printing plants&lt;/em&gt; in &lt;em&gt;Ontario&lt;/em&gt; and &lt;em&gt;Quebec&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Knight&lt;/em&gt; said The &lt;em&gt;Independent&lt;/em&gt; was not affecting the &lt;em&gt;Telegraph&lt;/em&gt;'s &lt;em&gt;growth,&lt;/em&gt; but was making &lt;em&gt;inroads&lt;/em&gt; into the &lt;em&gt;circulation&lt;/em&gt; of &lt;em&gt;other London quality dailies&lt;/em&gt; such as The &lt;em&gt;Times&lt;/em&gt; and The &lt;em&gt;Guardian&lt;/em&gt;.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Montreal&lt;/em&gt;-based &lt;em&gt;Unimedia&lt;/em&gt; is &lt;em&gt;Quebec&lt;/em&gt;'s &lt;em&gt;third&lt;/em&gt; largest &lt;em&gt;newspaper group,&lt;/em&gt; with &lt;em&gt;three French language&lt;/em&gt; daily &lt;em&gt;newspapers&lt;/em&gt; in &lt;em&gt;Quebec&lt;/em&gt; City, &lt;em&gt;Ottawa&lt;/em&gt; and &lt;em&gt;Chicoutimi, Quebec&lt;/em&gt; and four &lt;em&gt;printing plants&lt;/em&gt; in &lt;em&gt;Ontario&lt;/em&gt; and &lt;em&gt;Quebec&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">For full-year 1987, the &lt;em&gt;Daily Telegraph could break&lt;/em&gt; even or &lt;em&gt;better,&lt;/em&gt; said &lt;em&gt;Black, citing major reductions&lt;/em&gt; in &lt;em&gt;labor costs&lt;/em&gt; and &lt;em&gt;improved technology&lt;/em&gt; at the &lt;em&gt;Telegraph, Britain&lt;/em&gt;'s &lt;em&gt;largest circulation quality daily&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Daily Telegraph chief executive Andrew Knight&lt;/em&gt; told &lt;em&gt;reporters after&lt;/em&gt; the &lt;em&gt;meeting&lt;/em&gt; that the &lt;em&gt;Telegraph&lt;/em&gt;'s &lt;em&gt;daily circulation&lt;/em&gt; had &lt;em&gt;risen&lt;/em&gt; by 25,000 &lt;em&gt;since September&lt;/em&gt; to &lt;em&gt;about 1,150,000&lt;/em&gt; on &lt;em&gt;weekdays, despite added competition&lt;/em&gt; from the new &lt;em&gt;Independent daily newspaper&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Commenting on &lt;em&gt;press reports&lt;/em&gt; about the 50 mln dlr &lt;em&gt;price&lt;/em&gt; tag, &lt;em&gt;Black&lt;/em&gt; said, "That would not be wildly &lt;em&gt;inaccurate,"&lt;/em&gt; although he declined to &lt;em&gt;disclose&lt;/em&gt; the &lt;em&gt;actual cost&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

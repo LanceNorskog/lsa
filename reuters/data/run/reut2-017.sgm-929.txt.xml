@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-929.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">growth</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">march</str>
+        <str name="text">supply</str>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">record</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">bankers</str>
         <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">clamped</str>
-        <double name="strength">0.9999999999999987</double>
-      </lst>
-      <lst name="term">
-        <str name="text">tight</str>
-        <double name="strength">0.9999999999999987</double>
-      </lst>
-      <lst name="term">
-        <str name="text">restrictions</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">value</str>
+        <double name="strength">0.9775433528668042</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In March the central bank clamped tight restrictions on remittances of foreign exchange by companies and individuals to Taiwan in a move to curb inflows of speculative money.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Bankers said the government's efforts to stabilise the foreign exchange market were a prelude to lifting all curbs on capital outflows.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">136</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9890938959416602</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">They added that the move, which sparked a record single day plunge of the local stock market, would limit their ability to lend foreign exchange to importers and exporters.</str>
         <int name="index">3</int>
         <int name="start">0</int>
         <int name="end">172</int>
-        <double name="strength">0.9970173805690077</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In March the central bank clamped tight restrictions on remittances of foreign exchange by companies and individuals to Taiwan in a move to curb inflows of speculative money.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.9656718400785085</double>
+        <double name="strength">0.9381943610524741</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; the &lt;em&gt;foreign exchange market&lt;/em&gt; were a &lt;em&gt;prelude&lt;/em&gt; to &lt;em&gt;lifting&lt;/em&gt; all &lt;em&gt;curbs&lt;/em&gt; on &lt;em&gt;capital outflows&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;March&lt;/em&gt; the &lt;em&gt;central&lt;/em&gt; bank clamped &lt;em&gt;tight restrictions&lt;/em&gt; on &lt;em&gt;remittances&lt;/em&gt; of &lt;em&gt;foreign exchange&lt;/em&gt; by &lt;em&gt;companies&lt;/em&gt; and &lt;em&gt;individuals&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt; in a move to curb &lt;em&gt;inflows&lt;/em&gt; of &lt;em&gt;speculative money&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; said the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; the &lt;em&gt;foreign exchange market&lt;/em&gt; were a &lt;em&gt;prelude&lt;/em&gt; to lifting all &lt;em&gt;curbs&lt;/em&gt; on &lt;em&gt;capital outflows&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;added&lt;/em&gt; that the move, &lt;em&gt;which sparked&lt;/em&gt; a &lt;em&gt;record single&lt;/em&gt; day &lt;em&gt;plunge&lt;/em&gt; of the &lt;em&gt;local stock market, would limit their ability&lt;/em&gt; to lend &lt;em&gt;foreign exchange&lt;/em&gt; to &lt;em&gt;importers&lt;/em&gt; and &lt;em&gt;exporters&lt;/em&gt;.</str>
+        <str name="text">They added that the move, which sparked a &lt;em&gt;record single&lt;/em&gt; day &lt;em&gt;plunge&lt;/em&gt; of the &lt;em&gt;local stock market,&lt;/em&gt; would &lt;em&gt;limit&lt;/em&gt; their &lt;em&gt;ability&lt;/em&gt; to lend &lt;em&gt;foreign exchange&lt;/em&gt; to &lt;em&gt;importers&lt;/em&gt; and &lt;em&gt;exporters&lt;/em&gt;.</str>
         <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;March&lt;/em&gt; the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;clamped tight restrictions&lt;/em&gt; on &lt;em&gt;remittances&lt;/em&gt; of &lt;em&gt;foreign exchange&lt;/em&gt; by &lt;em&gt;companies&lt;/em&gt; and &lt;em&gt;individuals&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt; in a move to curb &lt;em&gt;inflows&lt;/em&gt; of &lt;em&gt;speculative money&lt;/em&gt;.</str>
-        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

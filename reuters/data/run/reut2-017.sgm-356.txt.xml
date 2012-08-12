@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-356.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">besides</str>
+        <str name="text">attempt</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">extra</str>
-        <double name="strength">1.0</double>
+        <str name="text">border</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">territorial</str>
-        <double name="strength">1.0</double>
+        <str name="text">competition</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">effect</str>
-        <double name="strength">1.0</double>
+        <str name="text">pipeline</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">1.0</double>
+        <str name="text">transportation</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Blocking Canadian gas imports would not serve the long-term interests of the United States, said Martha Hesse, chairman of the Federal Energy Regulatory Commission, adding that the development of a freely open North American energy market should be encouraged.</str>
-        <int name="index">0</int>
+        <str name="text">S. customers," said Robert Skinner, an assistant deputy minister in Canada's energy department.</str>
+        <int name="index">22</int>
         <int name="start">0</int>
-        <int name="end">260</int>
+        <int name="end">95</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Besides the extra territorial effect, there is the potential that Canadian consumers and producers may end up subsidizing the cost of transportation services originally incurred on behalf of U.</str>
-        <int name="index">21</int>
-        <int name="start">0</int>
-        <int name="end">193</int>
-        <double name="strength">0.9320168945550428</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">But Hesse declined to comment in detail on the controversial December order, known as the "as billed issue", because it is the subject of a new hearing.</str>
         <int name="index">14</int>
         <int name="start">0</int>
         <int name="end">152</int>
-        <double name="strength">0.9212644397014359</double>
+        <double name="strength">0.9921392949719171</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Besides the extra territorial effect, there is the potential that Canadian consumers and producers may end up subsidizing the cost of transportation services originally incurred on behalf of U.</str>
+        <int name="index">21</int>
+        <int name="start">0</int>
+        <int name="end">193</int>
+        <double name="strength">0.9666070198620608</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Blocking Canadian&lt;/em&gt; gas &lt;em&gt;imports would&lt;/em&gt; not &lt;em&gt;serve&lt;/em&gt; the long-term &lt;em&gt;interests&lt;/em&gt; of the &lt;em&gt;United States,&lt;/em&gt; said &lt;em&gt;Martha Hesse, chairman&lt;/em&gt; of the &lt;em&gt;Federal Energy Regulatory Commission, adding&lt;/em&gt; that the &lt;em&gt;development&lt;/em&gt; of a &lt;em&gt;freely&lt;/em&gt; open &lt;em&gt;North American energy market should&lt;/em&gt; be &lt;em&gt;encouraged&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">S. &lt;em&gt;customers,"&lt;/em&gt; said &lt;em&gt;Robert Skinner,&lt;/em&gt; an &lt;em&gt;assistant deputy minister&lt;/em&gt; in &lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;energy department&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Besides&lt;/em&gt; the &lt;em&gt;extra territorial effect, there&lt;/em&gt; is the &lt;em&gt;potential&lt;/em&gt; that &lt;em&gt;Canadian consumers&lt;/em&gt; and &lt;em&gt;producers&lt;/em&gt; may end up &lt;em&gt;subsidizing&lt;/em&gt; the cost of &lt;em&gt;transportation services originally incurred&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of U.</str>
-        <int name="index">21</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But &lt;em&gt;Hesse declined&lt;/em&gt; to &lt;em&gt;comment&lt;/em&gt; in &lt;em&gt;detail&lt;/em&gt; on the &lt;em&gt;controversial December order, known&lt;/em&gt; as the "as &lt;em&gt;billed issue", because&lt;/em&gt; it is the &lt;em&gt;subject&lt;/em&gt; of a new &lt;em&gt;hearing&lt;/em&gt;.</str>
+        <str name="text">But &lt;em&gt;Hesse&lt;/em&gt; declined to &lt;em&gt;comment&lt;/em&gt; in &lt;em&gt;detail&lt;/em&gt; on the &lt;em&gt;controversial December order,&lt;/em&gt; known as the "as billed &lt;em&gt;issue",&lt;/em&gt; because it is the &lt;em&gt;subject&lt;/em&gt; of a new &lt;em&gt;hearing&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Besides the &lt;em&gt;extra territorial effect,&lt;/em&gt; there is the &lt;em&gt;potential&lt;/em&gt; that &lt;em&gt;Canadian consumers&lt;/em&gt; and &lt;em&gt;producers&lt;/em&gt; may end up subsidizing the cost of &lt;em&gt;transportation services&lt;/em&gt; originally incurred on &lt;em&gt;behalf&lt;/em&gt; of U.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-374.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">167</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">soviet</str>
+        <str name="text">trading</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">record</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.7525766947068782</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">commerce</str>
+        <double name="strength">0.7525766947068778</double>
       </lst>
       <lst name="term">
-        <str name="text">decline</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">ministry</str>
+        <double name="strength">0.7525766947068778</double>
       </lst>
       <lst name="term">
-        <str name="text">current</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">return</str>
+        <double name="strength">0.7525766947068776</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Early this year the commerce ministry quietly told foreign companies interested in selling aircraft, ships, drilling rigs and railway equipment to India that they stood a better chance if they bought Indian goods or services in return, the trade sources said.</str>
-        <int name="index">17</int>
+        <str name="text">Wheat, tobacco, tea, coffee, jute, engineering and electronic goods, as well as minerals including iron ore, are all on offer in return for crude oil, petroleum products, chemicals, steel and machinery, trade sources told Reuters.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">260</int>
+        <int name="end">231</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Total trade with the Soviet Union, involving swaps of agricultural produce and textiles for Soviet arms and crude oil, is estimated at 3.04 billion dlrs in fiscal 1986/87, against three billion in 1985/86.</str>
-        <int name="index">8</int>
+        <str name="text">"The two state trading corporations are free to use their buying power in respect to bulk commodities to promote Indian exports," a commerce ministry spokeswoman said, adding that private firms are excluded from countertrading.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">206</int>
-        <double name="strength">0.9242383958931114</double>
+        <int name="end">228</int>
+        <double name="strength">0.9071122773006361</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">"MMTC's recent global tenders now include a clause that preference will be given to parties who accept payment in kind for goods and services sold to India," a trade official said, adding that the policy remains flexible.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">222</int>
-        <double name="strength">0.9004509288669342</double>
+        <double name="strength">0.9070942070149113</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Early&lt;/em&gt; this year the &lt;em&gt;commerce ministry quietly&lt;/em&gt; told &lt;em&gt;foreign companies interested&lt;/em&gt; in &lt;em&gt;selling aircraft, ships, drilling&lt;/em&gt; rigs and &lt;em&gt;railway equipment&lt;/em&gt; to &lt;em&gt;India&lt;/em&gt; that they &lt;em&gt;stood&lt;/em&gt; a &lt;em&gt;better chance&lt;/em&gt; if they &lt;em&gt;bought Indian goods&lt;/em&gt; or &lt;em&gt;services&lt;/em&gt; in &lt;em&gt;return,&lt;/em&gt; the &lt;em&gt;trade sources said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Wheat, tobacco,&lt;/em&gt; tea, &lt;em&gt;coffee,&lt;/em&gt; jute, &lt;em&gt;engineering&lt;/em&gt; and &lt;em&gt;electronic goods,&lt;/em&gt; as well as &lt;em&gt;minerals&lt;/em&gt; including iron ore, are all on &lt;em&gt;offer&lt;/em&gt; in &lt;em&gt;return&lt;/em&gt; for &lt;em&gt;crude&lt;/em&gt; oil, &lt;em&gt;petroleum products, chemicals, steel&lt;/em&gt; and &lt;em&gt;machinery, trade sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Total trade&lt;/em&gt; with the &lt;em&gt;Soviet Union, involving swaps&lt;/em&gt; of &lt;em&gt;agricultural produce&lt;/em&gt; and &lt;em&gt;textiles&lt;/em&gt; for &lt;em&gt;Soviet&lt;/em&gt; arms and &lt;em&gt;crude&lt;/em&gt; oil, is &lt;em&gt;estimated&lt;/em&gt; at 3.04 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;fiscal 1986/87, against three billion in 1985/86&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">"The two &lt;em&gt;state trading corporations&lt;/em&gt; are free to use their &lt;em&gt;buying power&lt;/em&gt; in &lt;em&gt;respect&lt;/em&gt; to bulk &lt;em&gt;commodities&lt;/em&gt; to &lt;em&gt;promote Indian exports,"&lt;/em&gt; a &lt;em&gt;commerce ministry spokeswoman&lt;/em&gt; said, adding that &lt;em&gt;private firms&lt;/em&gt; are excluded from countertrading.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"MMTC's &lt;em&gt;recent global tenders&lt;/em&gt; now &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;clause&lt;/em&gt; that &lt;em&gt;preference&lt;/em&gt; will be &lt;em&gt;given&lt;/em&gt; to &lt;em&gt;parties&lt;/em&gt; who &lt;em&gt;accept payment&lt;/em&gt; in kind for &lt;em&gt;goods&lt;/em&gt; and &lt;em&gt;services&lt;/em&gt; sold to &lt;em&gt;India,"&lt;/em&gt; a &lt;em&gt;trade official&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that the &lt;em&gt;policy remains flexible&lt;/em&gt;.</str>
+        <str name="text">"MMTC's &lt;em&gt;recent global tenders&lt;/em&gt; now &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;clause&lt;/em&gt; that &lt;em&gt;preference&lt;/em&gt; will be given to &lt;em&gt;parties&lt;/em&gt; who &lt;em&gt;accept payment&lt;/em&gt; in kind for &lt;em&gt;goods&lt;/em&gt; and &lt;em&gt;services&lt;/em&gt; sold to &lt;em&gt;India,"&lt;/em&gt; a &lt;em&gt;trade official&lt;/em&gt; said, adding that the &lt;em&gt;policy&lt;/em&gt; remains &lt;em&gt;flexible&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
     </lst>

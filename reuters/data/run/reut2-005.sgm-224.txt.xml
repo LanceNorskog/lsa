@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-224.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">47</int>
       </lst>
       <lst name="terms">
-        <int name="count">216</int>
+        <int name="count">157</int>
       </lst>
       <lst name="stems">
-        <int name="count">143</int>
+        <int name="count">101</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pierson</str>
+        <str name="text">companies</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rises</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">economy</str>
-        <double name="strength">0.5590169943749449</double>
+        <str name="text">investment</str>
+        <double name="strength">0.9980963431353529</double>
       </lst>
       <lst name="term">
-        <str name="text">liquid</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">profits</str>
+        <double name="strength">0.9980963431353507</double>
       </lst>
       <lst name="term">
-        <str name="text">pension</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9980963431353498</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"The scope for price rises in Dutch shares is narrow, given the limited room for lower interest rates," said Los, adding the Dutch market can currently only dream of returns of around 15 pct seen in rising markets elsewhere in Europe.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Senior bank economists said this week's official economic forecast by the CPB planning agency painted a gloomy picture of the Dutch economy but this would not shake investor confidence in the Dutch business sector.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">215</int>
-        <double name="strength">0.9936563533681145</double>
-      </lst>
       <lst name="sentence">
         <str name="text">While world exchanges revel in a continuing securities boom, the Dutch stockmarket remains lacklustre despite a series of largely positive annual corporate results and signs of a more stable dollar, analysts said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">213</int>
-        <double name="strength">0.9116605580853987</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He saw the large, liquid Dutch pension funds pursuing a more aggressive portfolio management policy while continuing to invest in markets with weaker currencies.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.9045062996106309</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Analysts say most companies have fulfilled expectations, while some firms, particularly in food and publishing, surprised the market with continued solid profit growth despite major dollar and sterling investments.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.8487546960848117</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;scope&lt;/em&gt; for &lt;em&gt;price rises&lt;/em&gt; in &lt;em&gt;Dutch shares&lt;/em&gt; is &lt;em&gt;narrow, given&lt;/em&gt; the &lt;em&gt;limited&lt;/em&gt; room for &lt;em&gt;lower interest rates,"&lt;/em&gt; said Los, &lt;em&gt;adding&lt;/em&gt; the &lt;em&gt;Dutch market&lt;/em&gt; can &lt;em&gt;currently&lt;/em&gt; only &lt;em&gt;dream&lt;/em&gt; of &lt;em&gt;returns&lt;/em&gt; of &lt;em&gt;around 15&lt;/em&gt; pct seen in &lt;em&gt;rising markets elsewhere&lt;/em&gt; in &lt;em&gt;Europe&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Senior&lt;/em&gt; bank &lt;em&gt;economists&lt;/em&gt; said this week's &lt;em&gt;official economic forecast&lt;/em&gt; by the CPB &lt;em&gt;planning agency painted&lt;/em&gt; a &lt;em&gt;gloomy picture&lt;/em&gt; of the &lt;em&gt;Dutch economy&lt;/em&gt; but this &lt;em&gt;would&lt;/em&gt; not &lt;em&gt;shake investor confidence&lt;/em&gt; in the &lt;em&gt;Dutch business sector&lt;/em&gt;.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;While world exchanges revel&lt;/em&gt; in a &lt;em&gt;continuing securities&lt;/em&gt; boom, the &lt;em&gt;Dutch stockmarket remains lacklustre despite&lt;/em&gt; a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;largely positive annual corporate results&lt;/em&gt; and &lt;em&gt;signs&lt;/em&gt; of a more &lt;em&gt;stable dollar, analysts said&lt;/em&gt;.</str>
+        <str name="text">While &lt;em&gt;world exchanges revel&lt;/em&gt; in a continuing &lt;em&gt;securities&lt;/em&gt; boom, the &lt;em&gt;Dutch stockmarket&lt;/em&gt; remains &lt;em&gt;lacklustre&lt;/em&gt; despite a &lt;em&gt;series&lt;/em&gt; of largely &lt;em&gt;positive annual corporate results&lt;/em&gt; and &lt;em&gt;signs&lt;/em&gt; of a more &lt;em&gt;stable dollar, analysts said&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He saw the &lt;em&gt;large, liquid Dutch pension funds&lt;/em&gt; pursuing a more &lt;em&gt;aggressive portfolio management policy&lt;/em&gt; while continuing to &lt;em&gt;invest&lt;/em&gt; in &lt;em&gt;markets&lt;/em&gt; with weaker &lt;em&gt;currencies&lt;/em&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; say most &lt;em&gt;companies&lt;/em&gt; have fulfilled &lt;em&gt;expectations,&lt;/em&gt; while some &lt;em&gt;firms,&lt;/em&gt; particularly in food and &lt;em&gt;publishing,&lt;/em&gt; surprised the &lt;em&gt;market&lt;/em&gt; with &lt;em&gt;continued solid profit growth&lt;/em&gt; despite &lt;em&gt;major dollar&lt;/em&gt; and &lt;em&gt;sterling investments&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

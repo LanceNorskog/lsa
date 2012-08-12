@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-357.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">106</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">texas</str>
+        <str name="text">friday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">manager</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">experienced</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">weekend</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">short</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">investors</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">lived</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">grade</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Indeed, a Texas State Court of Appeal this morning said the bankruptcy petition effectively stays Texaco's obligation under Texas law to post a bond in its 10.53 billion dlr litigation against Pennzoil Co &lt;PZL&gt;.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The junk bond market experienced a short-lived downturn last summer when LTV's bankruptcy filing sparked worries that credit conditions of other steel companies would also worsen.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.8283561525156808</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Indeed, a Texas State Court of Appeal this morning said the bankruptcy petition effectively stays Texaco's obligation under Texas law to post a bond in its 10.53 billion dlr litigation against Pennzoil Co &lt;PZL&gt;.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">212</int>
+        <double name="strength">0.80171891670815</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Because of the Texaco filing, some investors bid down its paper to the mid-60 area (around 650 dlrs per 1,000 dlr face value) from around 95 Friday," said a dealer in high-yield, low rated bonds.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.7474927109147741</double>
+        <double name="strength">0.7600020684202358</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Indeed,&lt;/em&gt; a &lt;em&gt;Texas State Court&lt;/em&gt; of &lt;em&gt;Appeal&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; said the &lt;em&gt;bankruptcy petition effectively stays Texaco&lt;/em&gt;'s &lt;em&gt;obligation under Texas&lt;/em&gt; law to post a bond in its 10.53 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;litigation against Pennzoil&lt;/em&gt; Co &lt;PZL&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The junk bond &lt;em&gt;market experienced&lt;/em&gt; a &lt;em&gt;short-lived downturn&lt;/em&gt; last &lt;em&gt;summer&lt;/em&gt; when LTV's &lt;em&gt;bankruptcy filing sparked worries&lt;/em&gt; that &lt;em&gt;credit conditions&lt;/em&gt; of &lt;em&gt;other steel companies would&lt;/em&gt; also &lt;em&gt;worsen&lt;/em&gt;.</str>
+        <str name="text">The junk bond &lt;em&gt;market&lt;/em&gt; experienced a &lt;em&gt;short&lt;/em&gt;-lived &lt;em&gt;downturn&lt;/em&gt; last &lt;em&gt;summer&lt;/em&gt; when LTV's &lt;em&gt;bankruptcy filing&lt;/em&gt; sparked &lt;em&gt;worries&lt;/em&gt; that &lt;em&gt;credit conditions&lt;/em&gt; of &lt;em&gt;other steel companies&lt;/em&gt; would also &lt;em&gt;worsen&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Because&lt;/em&gt; of the &lt;em&gt;Texaco filing,&lt;/em&gt; some &lt;em&gt;investors&lt;/em&gt; bid down its &lt;em&gt;paper&lt;/em&gt; to the mid-60 area (&lt;em&gt;around 650&lt;/em&gt; dlrs per 1,000 dlr face &lt;em&gt;value)&lt;/em&gt; from &lt;em&gt;around 95 Friday,"&lt;/em&gt; said a &lt;em&gt;dealer&lt;/em&gt; in high-&lt;em&gt;yield,&lt;/em&gt; low &lt;em&gt;rated bonds&lt;/em&gt;.</str>
+        <str name="text">Indeed, a &lt;em&gt;Texas State Court&lt;/em&gt; of &lt;em&gt;Appeal&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; said the &lt;em&gt;bankruptcy petition&lt;/em&gt; effectively stays Texaco's &lt;em&gt;obligation&lt;/em&gt; under &lt;em&gt;Texas&lt;/em&gt; law to post a bond in its 10.53 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;litigation&lt;/em&gt; against &lt;em&gt;Pennzoil&lt;/em&gt; Co &lt;PZL&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Because of the &lt;em&gt;Texaco&lt;/em&gt; filing, some &lt;em&gt;investors&lt;/em&gt; bid down its &lt;em&gt;paper&lt;/em&gt; to the mid-60 area (around 650 dlrs per 1,000 dlr face &lt;em&gt;value)&lt;/em&gt; from around 95 &lt;em&gt;Friday,"&lt;/em&gt; said a &lt;em&gt;dealer&lt;/em&gt; in high-&lt;em&gt;yield,&lt;/em&gt; low rated &lt;em&gt;bonds&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
     </lst>

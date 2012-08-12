@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-729.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">treatment</str>
+        <str name="text">acquisition</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">chemical</str>
-        <double name="strength">0.9999999999999997</double>
+        <str name="text">division</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">glaxo</str>
-        <double name="strength">0.3726779962499652</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.991732040114468</double>
       </lst>
       <lst name="term">
-        <str name="text">boosted</str>
-        <double name="strength">0.3333333333333344</double>
+        <str name="text">glidden</str>
+        <double name="strength">0.9917320401144661</double>
       </lst>
       <lst name="term">
-        <str name="text">paints</str>
-        <double name="strength">0.3333333333333344</double>
+        <str name="text">market</str>
+        <double name="strength">0.9917320401144651</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Henderson said the major new products in the company's pipeline, expected to each bring in sales of over 200 mln dlrs annually, were Statil, a treatment for diabetic complications, Zoladex, a treatment for advanced prostate cancer, and Carwin, a treatment for mild to moderate congestive heart failure.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">303</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Imperial Chemical Industries PLC, the largest chemical company in the United Kingdom, will expand its specialty chemicals and drug businesses this year, and better its 1986 results, said chairman-elect Denys Henderson.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">218</int>
-        <double name="strength">0.8775651855819481</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Henderson said that in his new role of chairman, effective April one when he takes over from Sir John Harvey-Jones who will retire, the biggest challenge ahead lay in continuing the earnings momentum ICI has established over the past few years after restructuring and selling off unprofitable businesses.</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">305</int>
-        <double name="strength">0.8715687677868574</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Food and Drug Administration approval to market Statil and Zoladex, both under joint licensing agreements with Merck and Co Inc &lt;MRK&gt;, is not expected until about 1989.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">171</int>
+        <double name="strength">0.8876611584233304</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We expect to shift our company toward higher value-added businesses and continue to broaden our base," Henderson told reporters at an informal meeting here.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.8571339544381332</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Henderson&lt;/em&gt; said the &lt;em&gt;major&lt;/em&gt; new &lt;em&gt;products&lt;/em&gt; in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;pipeline, expected&lt;/em&gt; to each &lt;em&gt;bring&lt;/em&gt; in &lt;em&gt;sales&lt;/em&gt; of over 200 mln dlrs &lt;em&gt;annually,&lt;/em&gt; were &lt;em&gt;Statil,&lt;/em&gt; a &lt;em&gt;treatment&lt;/em&gt; for &lt;em&gt;diabetic complications, Zoladex,&lt;/em&gt; a &lt;em&gt;treatment&lt;/em&gt; for &lt;em&gt;advanced prostate cancer,&lt;/em&gt; and &lt;em&gt;Carwin,&lt;/em&gt; a &lt;em&gt;treatment&lt;/em&gt; for mild to &lt;em&gt;moderate congestive heart failure&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Imperial Chemical Industries&lt;/em&gt; PLC, the &lt;em&gt;largest chemical company&lt;/em&gt; in the &lt;em&gt;United Kingdom,&lt;/em&gt; will &lt;em&gt;expand&lt;/em&gt; its &lt;em&gt;specialty chemicals&lt;/em&gt; and drug &lt;em&gt;businesses&lt;/em&gt; this year, and &lt;em&gt;better&lt;/em&gt; its 1986 &lt;em&gt;results,&lt;/em&gt; said &lt;em&gt;chairman-elect Denys Henderson&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Henderson&lt;/em&gt; said that in his new role of &lt;em&gt;chairman, effective April&lt;/em&gt; one when he &lt;em&gt;takes&lt;/em&gt; over from Sir John &lt;em&gt;Harvey-Jones&lt;/em&gt; who will &lt;em&gt;retire,&lt;/em&gt; the &lt;em&gt;biggest challenge ahead&lt;/em&gt; lay in &lt;em&gt;continuing&lt;/em&gt; the &lt;em&gt;earnings momentum&lt;/em&gt; ICI has &lt;em&gt;established&lt;/em&gt; over the past few &lt;em&gt;years after restructuring&lt;/em&gt; and &lt;em&gt;selling&lt;/em&gt; off &lt;em&gt;unprofitable businesses&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Henderson&lt;/em&gt; said that in his new role of &lt;em&gt;chairman, effective April&lt;/em&gt; one when he takes over from Sir John &lt;em&gt;Harvey-Jones&lt;/em&gt; who will &lt;em&gt;retire,&lt;/em&gt; the biggest &lt;em&gt;challenge&lt;/em&gt; ahead lay in continuing the &lt;em&gt;earnings momentum&lt;/em&gt; ICI has established over the past few &lt;em&gt;years&lt;/em&gt; after restructuring and selling off &lt;em&gt;unprofitable businesses&lt;/em&gt;.</str>
         <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Food and Drug &lt;em&gt;Administration approval&lt;/em&gt; to &lt;em&gt;market Statil&lt;/em&gt; and &lt;em&gt;Zoladex,&lt;/em&gt; both under &lt;em&gt;joint licensing agreements&lt;/em&gt; with &lt;em&gt;Merck&lt;/em&gt; and Co Inc &lt;MRK&gt;, is not expected until about 1989.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We &lt;em&gt;expect&lt;/em&gt; to &lt;em&gt;shift&lt;/em&gt; our &lt;em&gt;company&lt;/em&gt; toward higher &lt;em&gt;value&lt;/em&gt;-added &lt;em&gt;businesses&lt;/em&gt; and &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;broaden&lt;/em&gt; our base," &lt;em&gt;Henderson&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; at an &lt;em&gt;informal meeting here&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

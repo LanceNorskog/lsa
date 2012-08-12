@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-168.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">115</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">developed</str>
+        <str name="text">trading</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">protests</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">congress</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">protecionist</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">little</str>
+        <double name="strength">0.9840539975201796</double>
       </lst>
       <lst name="term">
-        <str name="text">legislation</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">chance</str>
+        <double name="strength">0.9840539975201796</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">284</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The proposal had little chance of approval by EC governments, with West Germany as strongly opposed to it as Britain, and Denmark, the Netherlands and Portugal also unconvinced of its political or economic wisdom.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">0.9258608632111989</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The diplomats said the protests had been received from most corners of the developing and developed world, ranging from Senegal, Malaysia and Indonesia, to Brazil, Argentina, Canada, Iceland and Norway.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">203</int>
-        <double name="strength">0.9695425908729493</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The proposal is described by its promoters as a stabilisation program which would penalise a new sector going into massive overproduction and complement proposals to cut cereals and dairy production, rather than a straight forward tax.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">236</int>
-        <double name="strength">0.9434494885858205</double>
+        <double name="strength">0.7710630281336045</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposal&lt;/em&gt; was the most &lt;em&gt;controversial&lt;/em&gt; part of a &lt;em&gt;reform package,&lt;/em&gt; due to be &lt;em&gt;discussed&lt;/em&gt; by EC farm &lt;em&gt;ministers later&lt;/em&gt; this &lt;em&gt;month,&lt;/em&gt; of the EC's &lt;em&gt;Common Agricultural Policy -- widely&lt;/em&gt; seen as the root &lt;em&gt;cause&lt;/em&gt; of the EC's &lt;em&gt;persistent financial problems&lt;/em&gt; and of &lt;em&gt;tensions&lt;/em&gt; with &lt;em&gt;major trading partners&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;proposal&lt;/em&gt; was the most &lt;em&gt;controversial&lt;/em&gt; part of a &lt;em&gt;reform package,&lt;/em&gt; due to be discussed by EC farm &lt;em&gt;ministers&lt;/em&gt; later this &lt;em&gt;month,&lt;/em&gt; of the EC's &lt;em&gt;Common Agricultural Policy --&lt;/em&gt; widely seen as the root &lt;em&gt;cause&lt;/em&gt; of the EC's &lt;em&gt;persistent financial problems&lt;/em&gt; and of &lt;em&gt;tensions&lt;/em&gt; with &lt;em&gt;major trading partners&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;diplomats&lt;/em&gt; said the &lt;em&gt;protests&lt;/em&gt; had been &lt;em&gt;received&lt;/em&gt; from most &lt;em&gt;corners&lt;/em&gt; of the &lt;em&gt;developing&lt;/em&gt; and &lt;em&gt;developed world, ranging&lt;/em&gt; from &lt;em&gt;Senegal, Malaysia&lt;/em&gt; and &lt;em&gt;Indonesia,&lt;/em&gt; to &lt;em&gt;Brazil, Argentina, Canada, Iceland&lt;/em&gt; and &lt;em&gt;Norway&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The &lt;em&gt;proposal&lt;/em&gt; had &lt;em&gt;little chance&lt;/em&gt; of &lt;em&gt;approval&lt;/em&gt; by EC &lt;em&gt;governments,&lt;/em&gt; with West &lt;em&gt;Germany&lt;/em&gt; as strongly opposed to it as &lt;em&gt;Britain,&lt;/em&gt; and &lt;em&gt;Denmark,&lt;/em&gt; the &lt;em&gt;Netherlands&lt;/em&gt; and &lt;em&gt;Portugal&lt;/em&gt; also &lt;em&gt;unconvinced&lt;/em&gt; of its &lt;em&gt;political&lt;/em&gt; or &lt;em&gt;economic wisdom&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposal&lt;/em&gt; is &lt;em&gt;described&lt;/em&gt; by its &lt;em&gt;promoters&lt;/em&gt; as a &lt;em&gt;stabilisation program which would penalise&lt;/em&gt; a new &lt;em&gt;sector going&lt;/em&gt; into &lt;em&gt;massive overproduction&lt;/em&gt; and &lt;em&gt;complement proposals&lt;/em&gt; to cut &lt;em&gt;cereals&lt;/em&gt; and &lt;em&gt;dairy production, rather&lt;/em&gt; than a &lt;em&gt;straight forward tax&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;diplomats&lt;/em&gt; said the &lt;em&gt;protests&lt;/em&gt; had been received from most &lt;em&gt;corners&lt;/em&gt; of the developing and developed &lt;em&gt;world,&lt;/em&gt; ranging from &lt;em&gt;Senegal, Malaysia&lt;/em&gt; and &lt;em&gt;Indonesia,&lt;/em&gt; to &lt;em&gt;Brazil,&lt;/em&gt; Argentina, &lt;em&gt;Canada, Iceland&lt;/em&gt; and Norway.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

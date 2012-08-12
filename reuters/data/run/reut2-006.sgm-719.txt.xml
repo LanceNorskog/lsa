@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-719.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">soybeans</str>
+        <str name="text">option</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commodity</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">administration</str>
-        <double name="strength">0.9999999999999998</double>
-      </lst>
-      <lst name="term">
-        <str name="text">water</str>
-        <double name="strength">0.9999999999999998</double>
-      </lst>
-      <lst name="term">
-        <str name="text">winter</str>
+        <str name="text">proposal</str>
         <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">target</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">farms</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Glickman also said that the Export Enhancement Program's, EEP, spending authority of 1.5 billion dlrs is quickly being used up, and Congress will have to decide whether to expand this program while making cuts in other areas.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">While not committing himself for or against such action, he said lawmakers have to examine recent government findings which indicate certificates cost more than cash payments.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.9576942536106212</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Speaking at the annual meeting of the National Grain and Feed Association, Glickman said he learned this week from the House budget committee that the agriculture committee will have to reduce the fiscal year 1988 farm budget by up to two billion dlrs from the 30 billion dlrs level already approved.</str>
-        <int name="index">2</int>
+        <str name="text">Implementation of a 0/92 program, a tightening up of the use of commodity certificates, and reconstitution of farms are possibilities that will be studied to reduce farm spending, said Dan Glickman, D-Kans., chairman of the House agriculture subcommittee on wheat, soybeans and feedgrains.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">301</int>
-        <double name="strength">0.9457372467055467</double>
+        <int name="end">290</int>
+        <double name="strength">0.9767785569789901</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Glickman said rules for the reconstitution of farms and tightening up of the person definition for annual payment limitations is another option and could save 100-200 mln dlrs.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.9238299811506039</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Glickman&lt;/em&gt; also said that the &lt;em&gt;Export Enhancement Program&lt;/em&gt;'s, EEP, &lt;em&gt;spending authority&lt;/em&gt; of 1.5 &lt;em&gt;billion&lt;/em&gt; dlrs is &lt;em&gt;quickly being&lt;/em&gt; used up, and &lt;em&gt;Congress&lt;/em&gt; will have to &lt;em&gt;decide whether&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; this &lt;em&gt;program while making&lt;/em&gt; cuts in &lt;em&gt;other areas&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;While&lt;/em&gt; not &lt;em&gt;committing himself&lt;/em&gt; for or &lt;em&gt;against&lt;/em&gt; such &lt;em&gt;action,&lt;/em&gt; he said &lt;em&gt;lawmakers&lt;/em&gt; have to &lt;em&gt;examine recent government findings which indicate certificates&lt;/em&gt; cost more than cash &lt;em&gt;payments&lt;/em&gt;.</str>
+        <str name="text">While not committing himself for or against such &lt;em&gt;action,&lt;/em&gt; he said &lt;em&gt;lawmakers&lt;/em&gt; have to &lt;em&gt;examine recent government findings&lt;/em&gt; which &lt;em&gt;indicate certificates&lt;/em&gt; cost more than cash &lt;em&gt;payments&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; at the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;National Grain&lt;/em&gt; and Feed &lt;em&gt;Association, Glickman&lt;/em&gt; said he &lt;em&gt;learned&lt;/em&gt; this week from the &lt;em&gt;House budget committee&lt;/em&gt; that the &lt;em&gt;agriculture committee&lt;/em&gt; will have to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;fiscal&lt;/em&gt; year 1988 farm &lt;em&gt;budget&lt;/em&gt; by up to two &lt;em&gt;billion&lt;/em&gt; dlrs from the 30 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;level already approved&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Implementation&lt;/em&gt; of a 0/92 &lt;em&gt;program,&lt;/em&gt; a tightening up of the use of &lt;em&gt;commodity certificates,&lt;/em&gt; and &lt;em&gt;reconstitution&lt;/em&gt; of &lt;em&gt;farms&lt;/em&gt; are &lt;em&gt;possibilities&lt;/em&gt; that will be studied to &lt;em&gt;reduce&lt;/em&gt; farm &lt;em&gt;spending,&lt;/em&gt; said Dan &lt;em&gt;Glickman,&lt;/em&gt; D-Kans., &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;House agriculture subcommittee&lt;/em&gt; on &lt;em&gt;wheat, soybeans&lt;/em&gt; and &lt;em&gt;feedgrains&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Glickman&lt;/em&gt; said &lt;em&gt;rules&lt;/em&gt; for the &lt;em&gt;reconstitution&lt;/em&gt; of &lt;em&gt;farms&lt;/em&gt; and tightening up of the &lt;em&gt;person definition&lt;/em&gt; for &lt;em&gt;annual payment limitations&lt;/em&gt; is another &lt;em&gt;option&lt;/em&gt; and could save 100-200 mln dlrs.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

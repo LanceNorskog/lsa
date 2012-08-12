@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-390.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">products</str>
+        <str name="text">three</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">priced</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">number</str>
+        <double name="strength">0.9595265869120626</double>
       </lst>
       <lst name="term">
-        <str name="text">american</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9566693235083596</double>
       </lst>
       <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.5</double>
+        <str name="text">other</str>
+        <double name="strength">0.9565851763464439</double>
       </lst>
       <lst name="term">
-        <str name="text">account</str>
-        <double name="strength">0.5</double>
+        <str name="text">brussels</str>
+        <double name="strength">0.9563649980696705</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">After meetings at the Economics and Foreign ministries this morning, he said the Dutch Government had indicated it would vote against the proposal, as had a number of other countries.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">We helped defeat the Wine Equity Act two years ago, but we will not stand by and watch our own farmers suffer from such protectionist EC measures," Bennett said.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.956092238428729</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">American soybean producers are confident the proposed European Community (EC) tax on vegetable oils and fats will be rejected but are leaving nothing to chance, American Soybean Association (ASA) president-elect Wayne Bennett said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">231</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Producers badly while at the same time virtually doubling the price of soyoil in the EC, which would suffer far worse than other higher-priced oils because of the nature of the proposed tax, he added.</str>
-        <int name="index">13</int>
-        <int name="start">0</int>
-        <int name="end">203</int>
-        <double name="strength">0.9718676364919131</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. Exports of soybeans and products to the EC account for one-fifth of annual production, and are worth about 2.5 billion dlrs a year, Bennett said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">0.8431327202908068</double>
+        <double name="strength">0.8661468933306802</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;American soybean producers&lt;/em&gt; are &lt;em&gt;confident&lt;/em&gt; the &lt;em&gt;proposed European Community &lt;/em&gt;(EC) tax on &lt;em&gt;vegetable&lt;/em&gt; oils and fats will be &lt;em&gt;rejected&lt;/em&gt; but are &lt;em&gt;leaving nothing&lt;/em&gt; to &lt;em&gt;chance, American Soybean Association &lt;/em&gt;(ASA) &lt;em&gt;president-elect Wayne Bennett said&lt;/em&gt;.</str>
+        <str name="text">After &lt;em&gt;meetings&lt;/em&gt; at the &lt;em&gt;Economics&lt;/em&gt; and &lt;em&gt;Foreign ministries&lt;/em&gt; this &lt;em&gt;morning,&lt;/em&gt; he said the &lt;em&gt;Dutch Government&lt;/em&gt; had indicated it would vote against the &lt;em&gt;proposal,&lt;/em&gt; as had a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;other countries&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">We helped &lt;em&gt;defeat&lt;/em&gt; the Wine &lt;em&gt;Equity&lt;/em&gt; Act two &lt;em&gt;years&lt;/em&gt; ago, but we will not &lt;em&gt;stand&lt;/em&gt; by and &lt;em&gt;watch&lt;/em&gt; our own &lt;em&gt;farmers suffer&lt;/em&gt; from such &lt;em&gt;protectionist&lt;/em&gt; EC &lt;em&gt;measures," Bennett said&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;American soybean producers&lt;/em&gt; are &lt;em&gt;confident&lt;/em&gt; the &lt;em&gt;proposed European Community &lt;/em&gt;(EC) tax on &lt;em&gt;vegetable&lt;/em&gt; oils and fats will be rejected but are leaving &lt;em&gt;nothing&lt;/em&gt; to &lt;em&gt;chance,&lt;/em&gt; American &lt;em&gt;Soybean Association &lt;/em&gt;(ASA) &lt;em&gt;president-elect Wayne Bennett said&lt;/em&gt;.</str>
         <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Producers badly while&lt;/em&gt; at the same time &lt;em&gt;virtually doubling&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;soyoil&lt;/em&gt; in the EC, &lt;em&gt;which would suffer&lt;/em&gt; far &lt;em&gt;worse&lt;/em&gt; than &lt;em&gt;other higher-priced&lt;/em&gt; oils &lt;em&gt;because&lt;/em&gt; of the &lt;em&gt;nature&lt;/em&gt; of the &lt;em&gt;proposed&lt;/em&gt; tax, he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Exports&lt;/em&gt; of &lt;em&gt;soybeans&lt;/em&gt; and &lt;em&gt;products&lt;/em&gt; to the EC &lt;em&gt;account&lt;/em&gt; for one-&lt;em&gt;fifth&lt;/em&gt; of &lt;em&gt;annual production,&lt;/em&gt; and are &lt;em&gt;worth about 2.5 billion&lt;/em&gt; dlrs a year, &lt;em&gt;Bennett said&lt;/em&gt;.</str>
-        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

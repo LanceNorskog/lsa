@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-407.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stock</str>
+        <str name="text">sectors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expectations</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">portion</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">brokers</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">group</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">industries</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">shift</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">acquisitions</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Stock market analysts said today's generally weak stock market plus unwinding of positions after heavy buying of BAT shares in the run-up to the results caused the fall in the share price.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">189</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">L&gt; 1986 results, which were at the upper end of market expectations, showed the company was in a strong position and that its shares were probably undervalued, share analysts said.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">180</int>
-        <double name="strength">0.7606362221987748</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Brokers noted that BAT's shift away from its underperforming industries and the decreasing share of the tobacco portion of the group were seen as good signs.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">158</int>
-        <double name="strength">0.7440304722912543</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">BAT Chairman Patrick Sheehy told a news conference that the tobacco sector of the company had declined to 50 pct from 74 pct four years ago.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.8677282396446702</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Stock market analysts said today's generally weak stock market plus unwinding of positions after heavy buying of BAT shares in the run-up to the results caused the fall in the share price.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">189</int>
+        <double name="strength">0.8405417811601803</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Stock market analysts&lt;/em&gt; said &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;generally&lt;/em&gt; weak &lt;em&gt;stock market&lt;/em&gt; plus &lt;em&gt;unwinding&lt;/em&gt; of &lt;em&gt;positions after heavy buying&lt;/em&gt; of BAT &lt;em&gt;shares&lt;/em&gt; in the run-up to the &lt;em&gt;results caused&lt;/em&gt; the fall in the &lt;em&gt;share price&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">L&gt; 1986 &lt;em&gt;results, which&lt;/em&gt; were at the &lt;em&gt;upper&lt;/em&gt; end of &lt;em&gt;market expectations, showed&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; was in a &lt;em&gt;strong position&lt;/em&gt; and that its &lt;em&gt;shares&lt;/em&gt; were &lt;em&gt;probably undervalued, share analysts said&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Brokers noted&lt;/em&gt; that BAT's &lt;em&gt;shift&lt;/em&gt; away from its &lt;em&gt;underperforming industries&lt;/em&gt; and the &lt;em&gt;decreasing share&lt;/em&gt; of the &lt;em&gt;tobacco portion&lt;/em&gt; of the &lt;em&gt;group&lt;/em&gt; were seen as good &lt;em&gt;signs&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; noted that BAT's &lt;em&gt;shift&lt;/em&gt; away from its &lt;em&gt;underperforming industries&lt;/em&gt; and the &lt;em&gt;decreasing share&lt;/em&gt; of the &lt;em&gt;tobacco portion&lt;/em&gt; of the &lt;em&gt;group&lt;/em&gt; were seen as good &lt;em&gt;signs&lt;/em&gt;.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">BAT &lt;em&gt;Chairman Patrick Sheehy&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; that the &lt;em&gt;tobacco sector&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt; had declined to 50 pct from 74 pct four &lt;em&gt;years ago&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Stock market analysts&lt;/em&gt; said &lt;em&gt;today&lt;/em&gt;'s generally weak &lt;em&gt;stock market&lt;/em&gt; plus &lt;em&gt;unwinding&lt;/em&gt; of &lt;em&gt;positions&lt;/em&gt; after &lt;em&gt;heavy buying&lt;/em&gt; of BAT &lt;em&gt;shares&lt;/em&gt; in the run-up to the &lt;em&gt;results&lt;/em&gt; caused the fall in the &lt;em&gt;share price&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

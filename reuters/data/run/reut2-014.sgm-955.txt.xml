@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-955.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">involved</str>
+        <str name="text">dealers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">central</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">rules</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">punished</str>
-        <double name="strength">0.5</double>
+        <str name="text">prosecutors</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">extreme</str>
-        <double name="strength">0.5</double>
+        <str name="text">active</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">cases</str>
-        <double name="strength">0.5</double>
+        <str name="text">official</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The LZBs receive monthly balance sheet statistics from banks in their areas, which they check, and they also routinely inspect all banks in greater detail over longer periods.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">176</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Breaches of the Banking Law in this way can be punished by a 100,000 mark fine for the dealers involved, and in extreme cases by removal of the managers if their active involvement is proved.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.9555063670499544</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Following the 1974 Herstatt bank crash on currency speculation, West Germany limited a bank's total open positions overnight to 30 pct of shareholders' equity and reserves.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">173</int>
-        <double name="strength">0.8974022209987055</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But inspectors are paying particular attention to foreign exchange matters in their routine checks at banks, he said in answer to enquiries.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.8436356514768457</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Prosecutors in Brunswick are already investigating the VW currency scandal, and have ordered the arrest of VW's former chief foreign exchange dealer.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
+        <double name="strength">0.813273320792699</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The LZBs &lt;em&gt;receive monthly balance sheet statistics&lt;/em&gt; from &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;their areas, which&lt;/em&gt; they &lt;em&gt;check,&lt;/em&gt; and they also &lt;em&gt;routinely inspect&lt;/em&gt; all &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;greater detail&lt;/em&gt; over &lt;em&gt;longer periods&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Breaches&lt;/em&gt; of the &lt;em&gt;Banking&lt;/em&gt; Law in this way can be &lt;em&gt;punished&lt;/em&gt; by a 100,000 mark fine for the &lt;em&gt;dealers involved,&lt;/em&gt; and in &lt;em&gt;extreme cases&lt;/em&gt; by &lt;em&gt;removal&lt;/em&gt; of the &lt;em&gt;managers&lt;/em&gt; if &lt;em&gt;their active involvement&lt;/em&gt; is &lt;em&gt;proved&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Following&lt;/em&gt; the 1974 &lt;em&gt;Herstatt&lt;/em&gt; bank &lt;em&gt;crash&lt;/em&gt; on &lt;em&gt;currency speculation,&lt;/em&gt; West &lt;em&gt;Germany limited&lt;/em&gt; a bank's &lt;em&gt;total&lt;/em&gt; open &lt;em&gt;positions overnight&lt;/em&gt; to 30 pct of &lt;em&gt;shareholders' equity&lt;/em&gt; and &lt;em&gt;reserves&lt;/em&gt;.</str>
+        <str name="text">Following the 1974 &lt;em&gt;Herstatt&lt;/em&gt; bank &lt;em&gt;crash&lt;/em&gt; on &lt;em&gt;currency speculation,&lt;/em&gt; West &lt;em&gt;Germany limited&lt;/em&gt; a bank's &lt;em&gt;total&lt;/em&gt; open &lt;em&gt;positions overnight&lt;/em&gt; to 30 pct of &lt;em&gt;shareholders' equity&lt;/em&gt; and &lt;em&gt;reserves&lt;/em&gt;.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But &lt;em&gt;inspectors&lt;/em&gt; are paying &lt;em&gt;particular attention&lt;/em&gt; to &lt;em&gt;foreign exchange matters&lt;/em&gt; in their &lt;em&gt;routine checks&lt;/em&gt; at &lt;em&gt;banks,&lt;/em&gt; he said in &lt;em&gt;answer&lt;/em&gt; to &lt;em&gt;enquiries&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Prosecutors&lt;/em&gt; in &lt;em&gt;Brunswick&lt;/em&gt; are already investigating the VW &lt;em&gt;currency scandal,&lt;/em&gt; and have ordered the &lt;em&gt;arrest&lt;/em&gt; of VW's &lt;em&gt;former chief foreign exchange dealer&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

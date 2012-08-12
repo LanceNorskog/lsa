@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-449.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">101</int>
       </lst>
       <lst name="stems">
-        <int name="count">97</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">seven</str>
+        <str name="text">intention</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">ruling</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">measures</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">liberal</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">commitment</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">democratic</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">cooperative</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">253</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The meeting of the so-called Group of Seven brought together ministers and central bank governors of the seven major industrial democracies, the United States, Japan, West Germany, France, Britain, Italy and Canada.</str>
-        <int name="index">8</int>
+        <str name="text">Japan has come under growing criticism from both the United States and European countries for its only modest efforts to open its markets to outside competition and to reduce its exports.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.8363372919546452</double>
+        <int name="end">188</int>
+        <double name="strength">0.8272392256931138</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In the weeks that followed, the dollar continued to fall against the Japanese yen despite massive dollar purchases by the Bank of Japan and other central banks and is now trading at around postwar lows.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">203</int>
-        <double name="strength">0.8313441888697081</double>
+        <str name="text">They agreed, however, that further actions will be essential to resist rising protectionist pressures, sustain global economic expansion and reduce trade imbalances."</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">166</int>
+        <double name="strength">0.8174054975134447</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;welcomed&lt;/em&gt; the &lt;em&gt;plans&lt;/em&gt; set this week by the &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; with what the &lt;em&gt;communique termed "extraordinary&lt;/em&gt; and &lt;em&gt;urgent measures" including&lt;/em&gt; an "&lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures.&lt;/em&gt;"</str>
+        <str name="text">It welcomed the &lt;em&gt;plans&lt;/em&gt; set this week by the &lt;em&gt;Japan&lt;/em&gt;'s ruling &lt;em&gt;Liberal Democratic Party&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; with what the &lt;em&gt;communique&lt;/em&gt; termed "&lt;em&gt;extraordinary&lt;/em&gt; and &lt;em&gt;urgent measures"&lt;/em&gt; including an "&lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures.&lt;/em&gt;"</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;meeting&lt;/em&gt; of the so-&lt;em&gt;called Group&lt;/em&gt; of &lt;em&gt;Seven brought together ministers&lt;/em&gt; and &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; of the &lt;em&gt;seven major industrial democracies,&lt;/em&gt; the &lt;em&gt;United States, Japan,&lt;/em&gt; West &lt;em&gt;Germany, France, Britain, Italy&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt; has come under growing &lt;em&gt;criticism&lt;/em&gt; from both the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;European countries&lt;/em&gt; for its only &lt;em&gt;modest efforts&lt;/em&gt; to open its &lt;em&gt;markets&lt;/em&gt; to &lt;em&gt;outside competition&lt;/em&gt; and to &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;exports&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In the &lt;em&gt;weeks&lt;/em&gt; that &lt;em&gt;followed,&lt;/em&gt; the &lt;em&gt;dollar continued&lt;/em&gt; to fall &lt;em&gt;against&lt;/em&gt; the &lt;em&gt;Japanese&lt;/em&gt; yen &lt;em&gt;despite massive dollar purchases&lt;/em&gt; by the Bank of &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;other central banks&lt;/em&gt; and is now &lt;em&gt;trading&lt;/em&gt; at &lt;em&gt;around postwar lows&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">They agreed, however, that &lt;em&gt;further actions&lt;/em&gt; will be &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;resist&lt;/em&gt; rising &lt;em&gt;protectionist pressures, sustain global economic expansion&lt;/em&gt; and &lt;em&gt;reduce trade imbalances.&lt;/em&gt;"</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

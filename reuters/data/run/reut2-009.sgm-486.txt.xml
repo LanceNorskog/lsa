@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-486.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">47</int>
       </lst>
       <lst name="stems">
-        <int name="count">39</int>
+        <int name="count">23</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">securities</str>
+        <str name="text">institutions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">proposed</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">stearns</str>
+        <double name="strength">0.9984436613731582</double>
       </lst>
       <lst name="term">
-        <str name="text">exchange</str>
-        <double name="strength">0.5</double>
+        <str name="text">world</str>
+        <double name="strength">0.9630336717692762</double>
       </lst>
       <lst name="term">
-        <str name="text">commission</str>
-        <double name="strength">0.5</double>
+        <str name="text">buyers</str>
+        <double name="strength">0.9427186163053815</double>
       </lst>
       <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.5</double>
+        <str name="text">street</str>
+        <double name="strength">0.9392922312335523</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,20 +56,23 @@
         <int name="start">1</int>
         <int name="end">174</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"With this out of the way, if it indeed was bought by institutions, it paves the way for better value for USAir stock later," said Janney Montgomery analyst Louis Marckesano of TWA's sale of its stock.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">202</int>
-        <double name="strength">0.9312469932617535</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It had also proposed a takeover of USAir, which at the time was negotiating its proposed merger with Piedmont Aviation Inc.</str>
-        <int name="index">9</int>
+        <str name="text">Trans World Airlines Inc sold four mln shares it held in USAir Group Inc, Wall Street sources said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">123</int>
-        <double name="strength">0.9040654518030553</double>
+        <int name="end">99</int>
+        <double name="strength">0.9335018997675906</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">On March 16, TWA withdrew its bid, saying it did not intend to seek control of USAir Group or to acquire more of its stock at the time.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">136</int>
+        <double name="strength">0.8690337189888463</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
@@ -78,12 +81,12 @@
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"With this out of the way, if it &lt;em&gt;indeed&lt;/em&gt; was &lt;em&gt;bought&lt;/em&gt; by &lt;em&gt;institutions,&lt;/em&gt; it &lt;em&gt;paves&lt;/em&gt; the way for &lt;em&gt;better value&lt;/em&gt; for &lt;em&gt;USAir stock later,"&lt;/em&gt; said &lt;em&gt;Janney Montgomery analyst Louis Marckesano&lt;/em&gt; of TWA's sale of its &lt;em&gt;stock&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Trans World Airlines&lt;/em&gt; Inc sold four mln &lt;em&gt;shares&lt;/em&gt; it held in &lt;em&gt;USAir Group&lt;/em&gt; Inc, Wall &lt;em&gt;Street sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It had also &lt;em&gt;proposed&lt;/em&gt; a &lt;em&gt;takeover&lt;/em&gt; of &lt;em&gt;USAir, which&lt;/em&gt; at the time was &lt;em&gt;negotiating&lt;/em&gt; its &lt;em&gt;proposed merger&lt;/em&gt; with &lt;em&gt;Piedmont Aviation Inc&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">On &lt;em&gt;March 16,&lt;/em&gt; TWA withdrew its bid, saying it did not &lt;em&gt;intend&lt;/em&gt; to seek &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;USAir Group&lt;/em&gt; or to &lt;em&gt;acquire&lt;/em&gt; more of its &lt;em&gt;stock&lt;/em&gt; at the time.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

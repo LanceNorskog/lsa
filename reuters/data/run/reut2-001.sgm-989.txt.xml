@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-989.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">61</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">country</str>
+        <str name="text">effect</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">africa</str>
-        <double name="strength">0.45421143351803844</double>
+        <str name="text">saudi</str>
+        <double name="strength">0.9927012395276197</double>
       </lst>
       <lst name="term">
-        <str name="text">america</str>
-        <double name="strength">0.4266918628394145</double>
+        <str name="text">nigeria</str>
+        <double name="strength">0.9926981389611742</double>
       </lst>
       <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.3726793161388539</double>
+        <str name="text">quota</str>
+        <double name="strength">0.9831706017934994</double>
       </lst>
       <lst name="term">
-        <str name="text">latin</str>
-        <double name="strength">0.3671185149408077</double>
+        <str name="text">early</str>
+        <double name="strength">0.9762480283428988</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Country-by-country production figures are as follows, in mln bpd -  COUNTRY</str>
-        <int name="index">16</int>
+        <str name="text">They back recent statements by OPEC ministers that the group is producing within its ceiling to support the return to a fixed price system, which came into effect last month.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">76</int>
+        <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The figures were polled by Reuters correspondents from oil traders, industry executives and analysts in Europe, the Middle East, Africa, Latin America and Asia.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">161</int>
-        <double name="strength">0.9986477343374365</double>
+        <double name="strength">0.9797301898994675</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They back recent statements by OPEC ministers that the group is producing within its ceiling to support the return to a fixed price system, which came into effect last month.</str>
-        <int name="index">2</int>
+        <str name="text">Industry sources say Nigeria's customers believe its Bonny grades are overpriced compared with compatible Brent crudes from the U.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.9836501245705026</double>
+        <int name="end">131</int>
+        <double name="strength">0.9064271109504809</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Country&lt;/em&gt;-by-&lt;em&gt;country production figures&lt;/em&gt; are as &lt;em&gt;follows,&lt;/em&gt; in mln bpd -  &lt;em&gt;COUNTR&lt;/em&gt;Y</str>
-        <int name="index">16</int>
+        <str name="text">They back &lt;em&gt;recent statements&lt;/em&gt; by OPEC &lt;em&gt;ministers&lt;/em&gt; that the &lt;em&gt;group&lt;/em&gt; is producing within its &lt;em&gt;ceiling&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;return&lt;/em&gt; to a fixed &lt;em&gt;price system,&lt;/em&gt; which came into &lt;em&gt;effect&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;figures&lt;/em&gt; were &lt;em&gt;polled&lt;/em&gt; by &lt;em&gt;Reuters correspondents&lt;/em&gt; from oil &lt;em&gt;traders, industry executives&lt;/em&gt; and &lt;em&gt;analysts&lt;/em&gt; in &lt;em&gt;Europe,&lt;/em&gt; the &lt;em&gt;Middle&lt;/em&gt; East, &lt;em&gt;Africa, Latin America&lt;/em&gt; and Asia.</str>
+        <str name="text">The &lt;em&gt;figures&lt;/em&gt; were polled by &lt;em&gt;Reuters correspondents&lt;/em&gt; from oil &lt;em&gt;traders, industry executives&lt;/em&gt; and &lt;em&gt;analysts&lt;/em&gt; in &lt;em&gt;Europe,&lt;/em&gt; the &lt;em&gt;Middle&lt;/em&gt; East, Africa, &lt;em&gt;Latin America&lt;/em&gt; and Asia.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They back &lt;em&gt;recent statements&lt;/em&gt; by OPEC &lt;em&gt;ministers&lt;/em&gt; that the &lt;em&gt;group&lt;/em&gt; is &lt;em&gt;producing within&lt;/em&gt; its &lt;em&gt;ceiling&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;return&lt;/em&gt; to a &lt;em&gt;fixed price system, which&lt;/em&gt; came into &lt;em&gt;effect&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Industry sources&lt;/em&gt; say &lt;em&gt;Nigeria&lt;/em&gt;'s &lt;em&gt;customers believe&lt;/em&gt; its &lt;em&gt;Bonny grades&lt;/em&gt; are overpriced compared with &lt;em&gt;compatible Brent crudes&lt;/em&gt; from the U.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

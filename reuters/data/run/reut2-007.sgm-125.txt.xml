@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-125.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pesos</str>
+        <str name="text">bankers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">foreclosure</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
         <str name="text">tonnes</str>
-        <double name="strength">0.9999999999999994</double>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">studied</str>
-        <double name="strength">0.8944271909999165</double>
-      </lst>
-      <lst name="term">
-        <str name="text">question</str>
-        <double name="strength">0.8944271909999165</double>
-      </lst>
-      <lst name="term">
-        <str name="text">field</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">pesos</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">G.I. Valentchits, Deputy Trade Minister at the Soviet embassy, told Reuters a report earlier this week that Tsvetmetpromexport had asked the Philippine government whether it could help rehabilitate or operate NMIC was incorrect.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">229</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The bankers said NMIC itself has recently filed with the Securities and Exchange Commission (SEC) for placing the company under receivership and the suspension of its debt payments in order to protect it from threats of foreclosure.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">233</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9971500543746028</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">NMIC has not operated its plant in the southern Philippines since March 1986 after workers struck demanding payment of salaries delayed because of the firm's financial difficulties.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.9562053426511647</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Preliminary talks are on between two state-owned Philippine banks and Soviet metal trading and equipment sales company Tsvetmetpromexport on rescuing Nonoc Mining and Industrial Corp (NMIC) which operates the Philippines' only nickel refinery, a Soviet official said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">267</int>
-        <double name="strength">0.9009013522539461</double>
+        <double name="strength">0.8796347161720278</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;bankers&lt;/em&gt; said NMIC &lt;em&gt;itself&lt;/em&gt; has &lt;em&gt;recently filed&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission &lt;/em&gt;(SEC) for &lt;em&gt;placing&lt;/em&gt; the &lt;em&gt;company under receivership&lt;/em&gt; and the &lt;em&gt;suspension&lt;/em&gt; of its debt &lt;em&gt;payments&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;protect&lt;/em&gt; it from &lt;em&gt;threats&lt;/em&gt; of &lt;em&gt;foreclosure&lt;/em&gt;.</str>
+        <str name="text">G.I. &lt;em&gt;Valentchits, Deputy Trade Minister&lt;/em&gt; at the &lt;em&gt;Soviet embassy,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; a &lt;em&gt;report&lt;/em&gt; earlier this week that &lt;em&gt;Tsvetmetpromexport&lt;/em&gt; had asked the &lt;em&gt;Philippine government&lt;/em&gt; whether it could help &lt;em&gt;rehabilitate&lt;/em&gt; or &lt;em&gt;operate&lt;/em&gt; NMIC was &lt;em&gt;incorrect&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;bankers&lt;/em&gt; said NMIC itself has recently filed with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission &lt;/em&gt;(SEC) for placing the &lt;em&gt;company&lt;/em&gt; under &lt;em&gt;receivership&lt;/em&gt; and the &lt;em&gt;suspension&lt;/em&gt; of its debt &lt;em&gt;payments&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;protect&lt;/em&gt; it from &lt;em&gt;threats&lt;/em&gt; of &lt;em&gt;foreclosure&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">NMIC has not &lt;em&gt;operated&lt;/em&gt; its &lt;em&gt;plant&lt;/em&gt; in the &lt;em&gt;southern Philippines since March 1986 after workers struck demanding payment&lt;/em&gt; of &lt;em&gt;salaries delayed because&lt;/em&gt; of the firm's &lt;em&gt;financial difficulties&lt;/em&gt;.</str>
+        <str name="text">NMIC has not operated its &lt;em&gt;plant&lt;/em&gt; in the &lt;em&gt;southern Philippines&lt;/em&gt; since &lt;em&gt;March 1986&lt;/em&gt; after &lt;em&gt;workers&lt;/em&gt; struck demanding &lt;em&gt;payment&lt;/em&gt; of &lt;em&gt;salaries&lt;/em&gt; delayed because of the firm's &lt;em&gt;financial difficulties&lt;/em&gt;.</str>
         <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Preliminary talks&lt;/em&gt; are on &lt;em&gt;between&lt;/em&gt; two &lt;em&gt;state-owned Philippine banks&lt;/em&gt; and &lt;em&gt;Soviet metal trading&lt;/em&gt; and &lt;em&gt;equipment sales company Tsvetmetpromexport&lt;/em&gt; on &lt;em&gt;rescuing Nonoc Mining&lt;/em&gt; and &lt;em&gt;Industrial&lt;/em&gt; Corp (NMIC) &lt;em&gt;which operates&lt;/em&gt; the &lt;em&gt;Philippines'&lt;/em&gt; only &lt;em&gt;nickel refinery,&lt;/em&gt; a &lt;em&gt;Soviet official said&lt;/em&gt;.</str>
-        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

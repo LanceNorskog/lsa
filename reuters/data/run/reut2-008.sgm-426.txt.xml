@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-426.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">visit</str>
+        <str name="text">attend</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">force</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fourth</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">workers</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">offices</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">victor</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">roman</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">estenssoro</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The government, faced with mounting social unrest against its economic policies, has called the miners' strike and fasts part of a campaign aimed at discrediting it during the visit of West German president Richard von Weizsaecker, who began a four-day visit last Friday.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">272</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">About 1,300 miners and workers entered today their fourth day of fast in union offices and Roman Catholic churches to press for a substantial hike in Bolivia's minimum monthly wage, which is 40 bolivianos (about 20 dlrs), COB leader Walter Degadillo said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">256</int>
-        <double name="strength">0.8551866291047509</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">About 20,000 miners, or two-thirds of the working force, have been laid off through the government's decision to streamline the deficit-ridden state corporation following a collapse in the international tin price.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">214</int>
-        <double name="strength">0.7768387302811844</double>
+        <double name="strength">0.8700572690858703</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Juan Lechin Oquendo, the veteran secretary general of the Bolivian Labour Organization, COB, told reporters: "I am joining the fast to abide with our call for a hunger strike".</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.7703268293511609</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government, faced&lt;/em&gt; with &lt;em&gt;mounting social unrest against&lt;/em&gt; its &lt;em&gt;economic policies,&lt;/em&gt; has &lt;em&gt;called&lt;/em&gt; the &lt;em&gt;miners' strike&lt;/em&gt; and &lt;em&gt;fasts&lt;/em&gt; part of a &lt;em&gt;campaign aimed&lt;/em&gt; at &lt;em&gt;discrediting&lt;/em&gt; it &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;visit&lt;/em&gt; of West &lt;em&gt;German president Richard&lt;/em&gt; von &lt;em&gt;Weizsaecker,&lt;/em&gt; who &lt;em&gt;began&lt;/em&gt; a four-day &lt;em&gt;visit&lt;/em&gt; last &lt;em&gt;Friday&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;About 1,300 miners&lt;/em&gt; and &lt;em&gt;workers entered today their fourth&lt;/em&gt; day of fast in &lt;em&gt;union offices&lt;/em&gt; and &lt;em&gt;Roman Catholic churches&lt;/em&gt; to &lt;em&gt;press&lt;/em&gt; for a &lt;em&gt;substantial&lt;/em&gt; hike in &lt;em&gt;Bolivia&lt;/em&gt;'s &lt;em&gt;minimum monthly&lt;/em&gt; wage, &lt;em&gt;which&lt;/em&gt; is 40 &lt;em&gt;bolivianos (about 20&lt;/em&gt; dlrs), COB &lt;em&gt;leader Walter Degadillo said&lt;/em&gt;.</str>
+        <str name="text">About 1,300 &lt;em&gt;miners&lt;/em&gt; and &lt;em&gt;workers&lt;/em&gt; entered today their &lt;em&gt;fourth&lt;/em&gt; day of fast in &lt;em&gt;union offices&lt;/em&gt; and &lt;em&gt;Roman Catholic churches&lt;/em&gt; to &lt;em&gt;press&lt;/em&gt; for a &lt;em&gt;substantial&lt;/em&gt; hike in &lt;em&gt;Bolivia&lt;/em&gt;'s &lt;em&gt;minimum monthly&lt;/em&gt; wage, which is 40 &lt;em&gt;bolivianos &lt;/em&gt;(about 20 dlrs), COB &lt;em&gt;leader Walter Degadillo said&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;About 20,000 miners,&lt;/em&gt; or two-&lt;em&gt;thirds&lt;/em&gt; of the &lt;em&gt;working force,&lt;/em&gt; have been laid off &lt;em&gt;through&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;streamline&lt;/em&gt; the &lt;em&gt;deficit-ridden state corporation following&lt;/em&gt; a &lt;em&gt;collapse&lt;/em&gt; in the &lt;em&gt;international&lt;/em&gt; tin &lt;em&gt;price&lt;/em&gt;.</str>
+        <str name="text">About 20,000 &lt;em&gt;miners,&lt;/em&gt; or two-&lt;em&gt;thirds&lt;/em&gt; of the working &lt;em&gt;force,&lt;/em&gt; have been laid off through the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;streamline&lt;/em&gt; the &lt;em&gt;deficit-ridden state corporation&lt;/em&gt; following a &lt;em&gt;collapse&lt;/em&gt; in the &lt;em&gt;international&lt;/em&gt; tin &lt;em&gt;price&lt;/em&gt;.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Juan &lt;em&gt;Lechin&lt;/em&gt; Oquendo, the &lt;em&gt;veteran secretary general&lt;/em&gt; of the &lt;em&gt;Bolivian Labour Organization,&lt;/em&gt; COB, told &lt;em&gt;reporters: &lt;/em&gt;"I am joining the fast to &lt;em&gt;abide&lt;/em&gt; with our call for a &lt;em&gt;hunger strike"&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

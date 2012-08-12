@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-970.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">early</str>
+        <str name="text">stores</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">record</str>
-        <double name="strength">0.9999999999999994</double>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">performance</str>
-        <double name="strength">0.8944271909999189</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9702086284323491</double>
       </lst>
       <lst name="term">
-        <str name="text">surpassed</str>
-        <double name="strength">0.8944271909999189</double>
+        <str name="text">figures</str>
+        <double name="strength">0.9278391973916774</double>
       </lst>
       <lst name="term">
-        <str name="text">present</str>
-        <double name="strength">0.8944271909999189</double>
+        <str name="text">supplies</str>
+        <double name="strength">0.9278391973916766</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">172</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">There has been growing concern that rising internal prices, triggered by heavy exports, were creating areas of shortage in interior markets.</str>
-        <int name="index">6</int>
+        <str name="text">If supplies become more difficult and prices strengthen further, feed compounders may increase cereal substitute usage, traders said.</str>
+        <int name="index">24</int>
         <int name="start">0</int>
-        <int name="end">140</int>
-        <double name="strength">0.9437395938884645</double>
+        <int name="end">133</int>
+        <double name="strength">0.9383619040392261</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. Export performance has surpassed all early expectations and has created the present nervous situation in domestic markets where the fear now is free market supplies may not last out until new crop becomes available in August.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">228</int>
-        <double name="strength">0.9387622171936061</double>
+        <str name="text">The new tranche of intervention grain is unlikely to satisfy demand, they said, and keen buying competition for supplies in stores is expected to keep prices firm.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.8799100293298693</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">News of the &lt;em&gt;release produced&lt;/em&gt; an &lt;em&gt;early downward reaction&lt;/em&gt; in &lt;em&gt;local physical markets,&lt;/em&gt; but by &lt;em&gt;midday&lt;/em&gt; some &lt;em&gt;sections&lt;/em&gt; had &lt;em&gt;halved early&lt;/em&gt; two stg &lt;em&gt;losses while others&lt;/em&gt; were &lt;em&gt;unchanged&lt;/em&gt;.</str>
+        <str name="text">News of the &lt;em&gt;release&lt;/em&gt; produced an early &lt;em&gt;downward reaction&lt;/em&gt; in &lt;em&gt;local physical markets,&lt;/em&gt; but by &lt;em&gt;midday&lt;/em&gt; some &lt;em&gt;sections&lt;/em&gt; had &lt;em&gt;halved&lt;/em&gt; early two stg &lt;em&gt;losses&lt;/em&gt; while &lt;em&gt;others&lt;/em&gt; were &lt;em&gt;unchanged&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; has been &lt;em&gt;growing concern&lt;/em&gt; that &lt;em&gt;rising internal prices, triggered&lt;/em&gt; by &lt;em&gt;heavy exports,&lt;/em&gt; were &lt;em&gt;creating areas&lt;/em&gt; of &lt;em&gt;shortage&lt;/em&gt; in &lt;em&gt;interior markets&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">If &lt;em&gt;supplies become&lt;/em&gt; more &lt;em&gt;difficult&lt;/em&gt; and &lt;em&gt;prices strengthen&lt;/em&gt; further, feed &lt;em&gt;compounders&lt;/em&gt; may &lt;em&gt;increase cereal substitute usage, traders said&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Export performance&lt;/em&gt; has &lt;em&gt;surpassed&lt;/em&gt; all &lt;em&gt;early expectations&lt;/em&gt; and has &lt;em&gt;created&lt;/em&gt; the &lt;em&gt;present nervous situation&lt;/em&gt; in &lt;em&gt;domestic markets where&lt;/em&gt; the fear now is free &lt;em&gt;market supplies&lt;/em&gt; may not last out &lt;em&gt;until&lt;/em&gt; new crop &lt;em&gt;becomes available&lt;/em&gt; in &lt;em&gt;August&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">The new &lt;em&gt;tranche&lt;/em&gt; of &lt;em&gt;intervention grain&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;satisfy demand,&lt;/em&gt; they said, and keen &lt;em&gt;buying competition&lt;/em&gt; for &lt;em&gt;supplies&lt;/em&gt; in &lt;em&gt;stores&lt;/em&gt; is expected to keep &lt;em&gt;prices firm&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

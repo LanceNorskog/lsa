@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-205.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stable</str>
+        <str name="text">factor</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">property</str>
-        <double name="strength">0.5527707983925673</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">divisions</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">estate</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">problems</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">taikoo</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">extraordinary</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">shing</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Swire's stake in Cathay was first reduced to 54.25 pct from 70 pct when Cathay was publicly floated, and then cut to 50.25 pct when Cathay issued new shares amounting to 12 pct of the enlarged capital to the state-owned &lt;China International Trust and Investment Corp&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">Miles said he expects the property market to remain firm but said the firm has no available land for a major housing project such as its Taikoo Shing development on Hong Kong island now near completion.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">269</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said the company's 50 pct unit &lt;Hongkong United Dockyard Ltd&gt; is negotiating with the government for the development of an existing petroleum storage depot into a major housing estate.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.7994295819704942</double>
+        <double name="strength">0.9665853028335737</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"At present fuel prices are stable and will remain stable for the rest of this year," he said, "though there might be a bit of increase later this year.''</str>
-        <int name="index">14</int>
+        <str name="text">He said Cathay's growth last year was the result of "a marginal increase in the revenue load factor coupled with savings in fuel costs."</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.7752892010465462</double>
+        <int name="end">137</int>
+        <double name="strength">0.8890046097338181</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Swire&lt;/em&gt;'s &lt;em&gt;stake&lt;/em&gt; in &lt;em&gt;Cathay&lt;/em&gt; was &lt;em&gt;first reduced&lt;/em&gt; to 54.25 pct from 70 pct when &lt;em&gt;Cathay&lt;/em&gt; was &lt;em&gt;publicly floated,&lt;/em&gt; and then cut to 50.25 pct when &lt;em&gt;Cathay issued&lt;/em&gt; new &lt;em&gt;shares amounting&lt;/em&gt; to 12 pct of the &lt;em&gt;enlarged capital&lt;/em&gt; to the &lt;em&gt;state-owned &lt;China International Trust&lt;/em&gt; and &lt;em&gt;Investment Corp&gt;&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Miles&lt;/em&gt; said he expects the &lt;em&gt;property market&lt;/em&gt; to &lt;em&gt;remain&lt;/em&gt; firm but said the firm has no &lt;em&gt;available&lt;/em&gt; land for a &lt;em&gt;major housing project&lt;/em&gt; such as its &lt;em&gt;Taikoo Shing development&lt;/em&gt; on Hong Kong &lt;em&gt;island&lt;/em&gt; now near &lt;em&gt;completion&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;company&lt;/em&gt;'s 50 pct unit &lt;&lt;em&gt;Hongkong United Dockyard&lt;/em&gt; Ltd&gt; is &lt;em&gt;negotiating&lt;/em&gt; with the &lt;em&gt;government&lt;/em&gt; for the &lt;em&gt;development&lt;/em&gt; of an &lt;em&gt;existing petroleum storage depot&lt;/em&gt; into a &lt;em&gt;major housing estate&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;company&lt;/em&gt;'s 50 pct unit &lt;Hongkong United &lt;em&gt;Dockyard&lt;/em&gt; Ltd&gt; is negotiating with the &lt;em&gt;government&lt;/em&gt; for the &lt;em&gt;development&lt;/em&gt; of an existing &lt;em&gt;petroleum storage depot&lt;/em&gt; into a &lt;em&gt;major housing estate&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"At &lt;em&gt;present&lt;/em&gt; fuel &lt;em&gt;prices&lt;/em&gt; are &lt;em&gt;stable&lt;/em&gt; and will &lt;em&gt;remain stable&lt;/em&gt; for the rest of this year," he said, "&lt;em&gt;though there might&lt;/em&gt; be a bit of &lt;em&gt;increase later&lt;/em&gt; this year.''</str>
-        <int name="index">14</int>
+        <str name="text">He said &lt;em&gt;Cathay&lt;/em&gt;'s &lt;em&gt;growth&lt;/em&gt; last year was the &lt;em&gt;result&lt;/em&gt; of "a &lt;em&gt;marginal increase&lt;/em&gt; in the &lt;em&gt;revenue&lt;/em&gt; load &lt;em&gt;factor&lt;/em&gt; coupled with &lt;em&gt;savings&lt;/em&gt; in fuel &lt;em&gt;costs.&lt;/em&gt;"</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

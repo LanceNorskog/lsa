@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-824.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">218</int>
+        <int name="count">165</int>
       </lst>
       <lst name="stems">
-        <int name="count">146</int>
+        <int name="count">110</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">asset</str>
+        <str name="text">investment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">walks</str>
-        <double name="strength">1.0</double>
+        <str name="text">others</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">every</str>
-        <double name="strength">1.0</double>
+        <str name="text">companies</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">night</str>
-        <double name="strength">1.0</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">difficult</str>
-        <double name="strength">1.0</double>
+        <str name="text">domestic</str>
+        <double name="strength">0.9552415181275612</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">293</int>
         <double name="strength">1.0</double>
+        <int name="terms">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They say most foreign firms will focus at first on bond trading, debt financing and underwriting, areas in which they have experience under the old rules that allowed them to provide government debt financing and advisory services.</str>
-        <int name="index">2</int>
+        <str name="text">"That is one of the hopes of the regulators, that the change will throw off one or two Canadian global firms," Toronto Stock Exchange president Pearce Bunting told Reuters recently.</str>
+        <int name="index">32</int>
         <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.7743099736618998</double>
+        <int name="end">182</int>
+        <double name="strength">0.7207079917185131</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Under the new rules, barriers that kept banks, brokerage houses, insurance companies and trust firms out of each others' businesses will be swept away in favor of wide-open competition.</str>
-        <int name="index">7</int>
+        <str name="text">Several industry watchers predict the flood of foreign acquisitions is likely a year away, when the newcomers become familiar with Canada.</str>
+        <int name="index">30</int>
         <int name="start">1</int>
-        <int name="end">186</int>
-        <double name="strength">0.7137159846080816</double>
+        <int name="end">139</int>
+        <double name="strength">0.7081053825056655</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The few &lt;em&gt;proposed foreign investments&lt;/em&gt; in &lt;em&gt;Ontario firms include agreements&lt;/em&gt; by New York's &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; Inc. to &lt;em&gt;raise&lt;/em&gt; its &lt;em&gt;stake&lt;/em&gt; in &lt;em&gt;McLeod Young&lt;/em&gt; Weir Ltd. to 30 pct from 10 pct and by the &lt;em&gt;British&lt;/em&gt; firm of &lt;em&gt;James Capel&lt;/em&gt; and Co. to &lt;em&gt;acquire&lt;/em&gt; a &lt;em&gt;minority interest&lt;/em&gt; in &lt;em&gt;Brown, Baldwin, Nisker Ltd&lt;/em&gt;.</str>
+        <str name="text">The few &lt;em&gt;proposed foreign investments&lt;/em&gt; in &lt;em&gt;Ontario firms include agreements&lt;/em&gt; by New York's Shearson &lt;em&gt;Lehman Brothers&lt;/em&gt; Inc. to &lt;em&gt;raise&lt;/em&gt; its &lt;em&gt;stake&lt;/em&gt; in &lt;em&gt;McLeod Young&lt;/em&gt; Weir Ltd. to 30 pct from 10 pct and by the &lt;em&gt;British&lt;/em&gt; firm of &lt;em&gt;James Capel&lt;/em&gt; and Co. to &lt;em&gt;acquire&lt;/em&gt; a &lt;em&gt;minority interest&lt;/em&gt; in &lt;em&gt;Brown, Baldwin, Nisker Ltd&lt;/em&gt;.</str>
         <int name="index">29</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They say most &lt;em&gt;foreign firms&lt;/em&gt; will &lt;em&gt;focus&lt;/em&gt; at &lt;em&gt;first&lt;/em&gt; on bond &lt;em&gt;trading,&lt;/em&gt; debt &lt;em&gt;financing&lt;/em&gt; and &lt;em&gt;underwriting, areas&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; they have &lt;em&gt;experience under&lt;/em&gt; the old &lt;em&gt;rules&lt;/em&gt; that &lt;em&gt;allowed&lt;/em&gt; them to &lt;em&gt;provide government&lt;/em&gt; debt &lt;em&gt;financing&lt;/em&gt; and &lt;em&gt;advisory services&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"That is one of the &lt;em&gt;hopes&lt;/em&gt; of the &lt;em&gt;regulators,&lt;/em&gt; that the &lt;em&gt;change&lt;/em&gt; will &lt;em&gt;throw&lt;/em&gt; off one or two &lt;em&gt;Canadian global firms,"&lt;/em&gt; Toronto &lt;em&gt;Stock Exchange president Pearce Bunting&lt;/em&gt; told &lt;em&gt;Reuters recently&lt;/em&gt;.</str>
+        <int name="index">32</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the new &lt;em&gt;rules, barriers&lt;/em&gt; that kept &lt;em&gt;banks, brokerage houses, insurance companies&lt;/em&gt; and &lt;em&gt;trust firms&lt;/em&gt; out of each &lt;em&gt;others' businesses&lt;/em&gt; will be &lt;em&gt;swept&lt;/em&gt; away in &lt;em&gt;favor&lt;/em&gt; of wide-open &lt;em&gt;competition&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Several industry watchers predict&lt;/em&gt; the &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;foreign acquisitions&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; a year away, when the &lt;em&gt;newcomers become familiar&lt;/em&gt; with &lt;em&gt;Canada&lt;/em&gt;.</str>
+        <int name="index">30</int>
       </lst>
     </lst>
   </lst>

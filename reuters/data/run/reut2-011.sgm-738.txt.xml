@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-738.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">117</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">quarter</str>
+        <str name="text">acres</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999982</double>
+      </lst>
+      <lst name="term">
+        <str name="text">analyst</str>
+        <double name="strength">0.9991285392582812</double>
+      </lst>
+      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.6236095644623214</double>
+        <double name="strength">0.999128539258281</double>
       </lst>
       <lst name="term">
-        <str name="text">acres</str>
-        <double name="strength">0.5590169943749461</double>
-      </lst>
-      <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.5000000000000004</double>
-      </lst>
-      <lst name="term">
-        <str name="text">seems</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">disappearance</str>
+        <double name="strength">0.99912853925828</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">238</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Frazier was joined by Susan Hackmann, senior grain analyst with AgriAnalysis, and Mark Meyer, a grain analyst with Shearson Lehman Brothers, Inc., on a Chicago Board of Trade panel to discuss the reports.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">0.9880446556955382</double>
+        <double name="strength">0.8131523770820531</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We're seeing low prices generate some interest in demand," said Meyer, adding that feed use was up 13 pct last quarter and 15 pct in the preceding quarter.</str>
-        <int name="index">12</int>
+        <str name="text">"We have the potential for record breaking soybean yields this year, (which) will temper the enthusiasm on tomorrow's opening," she said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">157</int>
-        <double name="strength">0.9729062848834511</double>
+        <int name="end">138</int>
+        <double name="strength">0.7745745305283539</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;intended soybean acreage&lt;/em&gt; and &lt;em&gt;lower stocks&lt;/em&gt; are "the &lt;em&gt;first report&lt;/em&gt; we've had for a long time that &lt;em&gt;shows&lt;/em&gt; any &lt;em&gt;optimism&lt;/em&gt; for &lt;em&gt;anybody,"&lt;/em&gt; said John "Bud" &lt;em&gt;Frazier, grain analyst&lt;/em&gt; and &lt;em&gt;executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Balfour MacLaine, Inc&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;intended soybean acreage&lt;/em&gt; and lower &lt;em&gt;stocks&lt;/em&gt; are "the &lt;em&gt;first report&lt;/em&gt; we've had for a long time that shows any &lt;em&gt;optimism&lt;/em&gt; for &lt;em&gt;anybody,"&lt;/em&gt; said John "Bud" Frazier, &lt;em&gt;grain analyst&lt;/em&gt; and &lt;em&gt;executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Balfour MacLaine, Inc&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Frazier&lt;/em&gt; was &lt;em&gt;joined&lt;/em&gt; by &lt;em&gt;Susan Hackmann, senior grain analyst&lt;/em&gt; with &lt;em&gt;AgriAnalysis,&lt;/em&gt; and Mark &lt;em&gt;Meyer,&lt;/em&gt; a &lt;em&gt;grain analyst&lt;/em&gt; with &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; Inc., on a &lt;em&gt;Chicago Board&lt;/em&gt; of &lt;em&gt;Trade panel&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; the &lt;em&gt;reports&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Frazier&lt;/em&gt; was joined by &lt;em&gt;Susan Hackmann, senior grain analyst&lt;/em&gt; with &lt;em&gt;AgriAnalysis,&lt;/em&gt; and Mark &lt;em&gt;Meyer,&lt;/em&gt; a &lt;em&gt;grain analyst&lt;/em&gt; with &lt;em&gt;Shearson Lehman Brothers,&lt;/em&gt; Inc., on a &lt;em&gt;Chicago Board&lt;/em&gt; of &lt;em&gt;Trade panel&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; the &lt;em&gt;reports&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We're &lt;em&gt;seeing&lt;/em&gt; low &lt;em&gt;prices generate&lt;/em&gt; some &lt;em&gt;interest&lt;/em&gt; in &lt;em&gt;demand,"&lt;/em&gt; said &lt;em&gt;Meyer, adding&lt;/em&gt; that feed use was up 13 pct last &lt;em&gt;quarter&lt;/em&gt; and 15 pct in the &lt;em&gt;preceding quarter&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">"We have the &lt;em&gt;potential&lt;/em&gt; for &lt;em&gt;record&lt;/em&gt; breaking &lt;em&gt;soybean yields&lt;/em&gt; this year, (which) will &lt;em&gt;temper&lt;/em&gt; the &lt;em&gt;enthusiasm&lt;/em&gt; on &lt;em&gt;tomorrow&lt;/em&gt;'s &lt;em&gt;opening,"&lt;/em&gt; she said.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

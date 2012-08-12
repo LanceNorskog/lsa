@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-847.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">220</int>
+        <int name="count">145</int>
       </lst>
       <lst name="stems">
-        <int name="count">142</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">sentiment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9871765030415246</double>
       </lst>
       <lst name="term">
-        <str name="text">seasonally</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">support</str>
+        <double name="strength">0.9871765030415237</double>
       </lst>
       <lst name="term">
-        <str name="text">adjusted</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">wroblewski</str>
+        <double name="strength">0.9775433528668042</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">chancellor</str>
+        <double name="strength">0.9775433528668036</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Sterling rebounded on the trade figures, reversing a weaker morning trend, to stand at 72.1 pct of its trade weighted index against a basket of currencies at midday, unchanged from yesterday's close but 0.3 points above the 1100 GMT level.</str>
-        <int name="index">4</int>
+        <str name="text">Another regular poll is due tomorrow, and eonomists warn that today's improved sentiment could be dented if support for Prime Minister Margaret Thatcher slips again.</str>
+        <int name="index">24</int>
         <int name="start">1</int>
-        <int name="end">240</int>
+        <int name="end">166</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They noted Lawson had already got an inflation-reducing cut in mortgage rates in response to lower base rates, so domestic political reasons for lower rates have been curtailed.</str>
-        <int name="index">29</int>
-        <int name="start">0</int>
-        <int name="end">177</int>
-        <double name="strength">0.9011878448202283</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Marplan poll, published in "Today," showed Conservative support had fallen to 36 pct, from 38 pct last month, while the Alliance of Liberals and Social Democrats had rallied to 31 pct, from 21 pct, to run neck and neck with the Labour Party, whose own support fell from 38 pct.</str>
-        <int name="index">22</int>
+        <str name="text">He said news of strong growth in exports of non-oil goods confirmed recent bullish surveys among members of the Confederation of British Industry.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">282</int>
-        <double name="strength">0.8990165953521883</double>
+        <int name="end">147</int>
+        <double name="strength">0.9857076669171666</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This upsetting of the markets' political perceptions, which are all but discounting a Conservative victory in the upcoming general election, made them more sensitive to the trade data, Harwood said.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">199</int>
+        <double name="strength">0.9551760828039902</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sterling rebounded&lt;/em&gt; on the &lt;em&gt;trade figures, reversing&lt;/em&gt; a &lt;em&gt;weaker morning trend,&lt;/em&gt; to &lt;em&gt;stand&lt;/em&gt; at 72.1 pct of its &lt;em&gt;trade weighted index against&lt;/em&gt; a &lt;em&gt;basket&lt;/em&gt; of &lt;em&gt;currencies&lt;/em&gt; at &lt;em&gt;midday, unchanged&lt;/em&gt; from &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;close&lt;/em&gt; but 0.3 &lt;em&gt;points above&lt;/em&gt; the 1100 GMT &lt;em&gt;level&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Another &lt;em&gt;regular&lt;/em&gt; poll is due &lt;em&gt;tomorrow,&lt;/em&gt; and &lt;em&gt;eonomists&lt;/em&gt; warn that &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;improved sentiment&lt;/em&gt; could be dented if &lt;em&gt;support&lt;/em&gt; for &lt;em&gt;Prime Minister Margaret&lt;/em&gt; Thatcher &lt;em&gt;slips again&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;noted Lawson&lt;/em&gt; had &lt;em&gt;already&lt;/em&gt; got an &lt;em&gt;inflation-reducing&lt;/em&gt; cut in &lt;em&gt;mortgage rates&lt;/em&gt; in &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;lower&lt;/em&gt; base &lt;em&gt;rates,&lt;/em&gt; so &lt;em&gt;domestic political reasons&lt;/em&gt; for &lt;em&gt;lower rates&lt;/em&gt; have been &lt;em&gt;curtailed&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">He said news of &lt;em&gt;strong growth&lt;/em&gt; in &lt;em&gt;exports&lt;/em&gt; of non-oil &lt;em&gt;goods&lt;/em&gt; confirmed &lt;em&gt;recent bullish surveys&lt;/em&gt; among &lt;em&gt;members&lt;/em&gt; of the &lt;em&gt;Confederation&lt;/em&gt; of &lt;em&gt;British Industry&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Marplan&lt;/em&gt; poll, &lt;em&gt;published&lt;/em&gt; in "&lt;em&gt;Today," showed Conservative support&lt;/em&gt; had &lt;em&gt;fallen&lt;/em&gt; to 36 pct, from 38 pct last &lt;em&gt;month, while&lt;/em&gt; the &lt;em&gt;Alliance&lt;/em&gt; of &lt;em&gt;Liberals&lt;/em&gt; and &lt;em&gt;Social Democrats&lt;/em&gt; had &lt;em&gt;rallied&lt;/em&gt; to 31 pct, from 21 pct, to run neck and neck with the &lt;em&gt;Labour Party, whose&lt;/em&gt; own &lt;em&gt;support&lt;/em&gt; fell from 38 pct.</str>
-        <int name="index">22</int>
+        <str name="text">This &lt;em&gt;upsetting&lt;/em&gt; of the &lt;em&gt;markets' political perceptions,&lt;/em&gt; which are all but discounting a &lt;em&gt;Conservative victory&lt;/em&gt; in the &lt;em&gt;upcoming general election,&lt;/em&gt; made them more &lt;em&gt;sensitive&lt;/em&gt; to the &lt;em&gt;trade&lt;/em&gt; data, &lt;em&gt;Harwood said&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

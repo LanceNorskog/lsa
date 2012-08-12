@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-381.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">187</int>
+        <int name="count">148</int>
       </lst>
       <lst name="stems">
-        <int name="count">123</int>
+        <int name="count">92</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">accepted</str>
+        <str name="text">political</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">access</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9902130691945661</double>
       </lst>
       <lst name="term">
-        <str name="text">western</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">official</str>
+        <double name="strength">0.9902130691945659</double>
       </lst>
       <lst name="term">
-        <str name="text">formed</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9902130691945651</double>
       </lst>
       <lst name="term">
-        <str name="text">position</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">soviet</str>
+        <double name="strength">0.9902130691945626</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">China has said there will be no major price reforms this year following widespread discontent in 1985 and 1986 from a public used to stable prices since the Communist takeover in 1949.</str>
-        <int name="index">32</int>
-        <int name="start">0</int>
-        <int name="end">184</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">China's position, as set out in a memorandum to GATT in February, is that it is gradually reforming its price system to bring prices in line with real production costs and replace administrative controls with market ones.</str>
-        <int name="index">16</int>
+        <str name="text">The GATT secretariat is expected to submit a list of detailed questions to China next month at the start of long and complex entry negotiations, the diplomats said.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.9788823199557216</double>
+        <int name="end">165</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, China would not apply for membership on similar terms, but rather as a less developed country entitled to preferential treatment.</str>
-        <int name="index">18</int>
-        <int name="start">0</int>
-        <int name="end">138</int>
-        <double name="strength">0.9582708300259564</double>
+        <str name="text">Another sticking point is the subsidies China pays its companies to export so it can earn foreign exchange to pay for vitally needed technology, equipment and raw materials.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.9777394026808207</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">One diplomat said China's prospects are good, with its application supported by the United States, Japan and the European Community for political and economic reasons.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9718761740247621</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;China&lt;/em&gt; has said &lt;em&gt;there&lt;/em&gt; will be no &lt;em&gt;major price reforms&lt;/em&gt; this year &lt;em&gt;following widespread discontent&lt;/em&gt; in 1985 and 1986 from a &lt;em&gt;public&lt;/em&gt; used to &lt;em&gt;stable prices since&lt;/em&gt; the &lt;em&gt;Communist takeover in 1949&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">The GATT &lt;em&gt;secretariat&lt;/em&gt; is expected to &lt;em&gt;submit&lt;/em&gt; a list of &lt;em&gt;detailed questions&lt;/em&gt; to &lt;em&gt;China&lt;/em&gt; next &lt;em&gt;month&lt;/em&gt; at the &lt;em&gt;start&lt;/em&gt; of long and &lt;em&gt;complex entry negotiations,&lt;/em&gt; the &lt;em&gt;diplomats said&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;China&lt;/em&gt;'s &lt;em&gt;position,&lt;/em&gt; as set out in a &lt;em&gt;memorandum&lt;/em&gt; to GATT in &lt;em&gt;February,&lt;/em&gt; is that it is &lt;em&gt;gradually reforming&lt;/em&gt; its &lt;em&gt;price system&lt;/em&gt; to &lt;em&gt;bring prices&lt;/em&gt; in line with real &lt;em&gt;production costs&lt;/em&gt; and &lt;em&gt;replace administrative controls&lt;/em&gt; with &lt;em&gt;market ones&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Another &lt;em&gt;sticking point&lt;/em&gt; is the &lt;em&gt;subsidies China&lt;/em&gt; pays its &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;export&lt;/em&gt; so it can earn &lt;em&gt;foreign exchange&lt;/em&gt; to pay for vitally needed &lt;em&gt;technology, equipment&lt;/em&gt; and raw &lt;em&gt;materials&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, China would&lt;/em&gt; not &lt;em&gt;apply&lt;/em&gt; for &lt;em&gt;membership&lt;/em&gt; on &lt;em&gt;similar terms,&lt;/em&gt; but &lt;em&gt;rather&lt;/em&gt; as a less &lt;em&gt;developed country entitled&lt;/em&gt; to &lt;em&gt;preferential treatment&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">One &lt;em&gt;diplomat&lt;/em&gt; said &lt;em&gt;China&lt;/em&gt;'s &lt;em&gt;prospects&lt;/em&gt; are good, with its &lt;em&gt;application&lt;/em&gt; supported by the United &lt;em&gt;States, Japan&lt;/em&gt; and the &lt;em&gt;European Community&lt;/em&gt; for &lt;em&gt;political&lt;/em&gt; and &lt;em&gt;economic reasons&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

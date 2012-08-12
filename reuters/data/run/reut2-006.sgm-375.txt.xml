@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-375.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">57</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">27</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">production</str>
+        <str name="text">levels</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">video</str>
-        <double name="strength">0.9999999999999984</double>
-      </lst>
-      <lst name="term">
-        <str name="text">recorders</str>
-        <double name="strength">0.9999999999999984</double>
-      </lst>
-      <lst name="term">
         <str name="text">march</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">production</str>
+        <double name="strength">0.9840539975201782</double>
+      </lst>
+      <lst name="term">
+        <str name="text">retain</str>
+        <double name="strength">0.9840539975201782</double>
+      </lst>
+      <lst name="term">
+        <str name="text">press</str>
+        <double name="strength">0.9840539975201777</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Sales of 8-mm video camera/recorders totalled 300,000 units in the three months, unchanged from a year earlier, while Beta-format video tape recorders (vtrs) sales fell to 300,000 from 350,000.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">194</int>
+        <str name="text">T&gt; group net income is expected to be down 65 pct for the five months ending March 31 from the same period a year ago at around 10 billion yen, if the yen&amp;#127;dollar rate remains at the present level, managing director Tsunao Hashimoto told a press conference.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">261</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The gloomy profits and sales resulted from the yen's recent appreciation against the dollar and a sharp drop in market prices due to severe sales competition at home and abroad.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.9485161325852148</double>
+        <double name="strength">0.8531897795015223</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sales of compact disc players rose to 450,000 from 300,000 and those of the Walkman rose to 2.25 mln from 1.30 mln but colour television sales fell to 950,000 from one mln due to lower exports to China.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">202</int>
-        <double name="strength">0.8515768486695079</double>
+        <str name="text">Sales of 8-mm video camera/recorders totalled 300,000 units in the three months, unchanged from a year earlier, while Beta-format video tape recorders (vtrs) sales fell to 300,000 from 350,000.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">194</int>
+        <double name="strength">0.8162636779824765</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sales&lt;/em&gt; of 8-mm &lt;em&gt;video camera/recorders totalled 300,000 units&lt;/em&gt; in the &lt;em&gt;three months, unchanged&lt;/em&gt; from a year &lt;em&gt;earlier, while&lt;/em&gt; Beta-&lt;em&gt;format video&lt;/em&gt; tape &lt;em&gt;recorders &lt;/em&gt;(vtrs) &lt;em&gt;sales&lt;/em&gt; fell to 300,000 from 350,000.</str>
-        <int name="index">7</int>
+        <str name="text">T&gt; &lt;em&gt;group&lt;/em&gt; net &lt;em&gt;income&lt;/em&gt; is expected to be down 65 pct for the five &lt;em&gt;months&lt;/em&gt; ending &lt;em&gt;March 31&lt;/em&gt; from the same &lt;em&gt;period&lt;/em&gt; a year ago at around 10 &lt;em&gt;billion&lt;/em&gt; yen, if the yen&amp;#127;&lt;em&gt;dollar&lt;/em&gt; rate remains at the &lt;em&gt;present level,&lt;/em&gt; managing &lt;em&gt;director Tsunao&lt;/em&gt; Hashimoto told a &lt;em&gt;press conference&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;gloomy profits&lt;/em&gt; and &lt;em&gt;sales resulted&lt;/em&gt; from the yen's &lt;em&gt;recent appreciation against&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; and a &lt;em&gt;sharp&lt;/em&gt; drop in &lt;em&gt;market prices&lt;/em&gt; due to &lt;em&gt;severe sales competition&lt;/em&gt; at home and &lt;em&gt;abroad&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;gloomy profits&lt;/em&gt; and &lt;em&gt;sales&lt;/em&gt; resulted from the yen's &lt;em&gt;recent appreciation&lt;/em&gt; against the &lt;em&gt;dollar&lt;/em&gt; and a &lt;em&gt;sharp&lt;/em&gt; drop in &lt;em&gt;market prices&lt;/em&gt; due to &lt;em&gt;severe sales competition&lt;/em&gt; at home and abroad.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sales&lt;/em&gt; of &lt;em&gt;compact&lt;/em&gt; disc &lt;em&gt;players&lt;/em&gt; rose to 450,000 from 300,000 and &lt;em&gt;those&lt;/em&gt; of the &lt;em&gt;Walkman&lt;/em&gt; rose to 2.25 mln from 1.30 mln but &lt;em&gt;colour television sales&lt;/em&gt; fell to 950,000 from one mln due to &lt;em&gt;lower exports&lt;/em&gt; to &lt;em&gt;China&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Sales&lt;/em&gt; of 8-mm &lt;em&gt;video camera/recorders&lt;/em&gt; totalled 300,000 &lt;em&gt;units&lt;/em&gt; in the &lt;em&gt;three months, unchanged&lt;/em&gt; from a year earlier, while Beta-&lt;em&gt;format video&lt;/em&gt; tape &lt;em&gt;recorders &lt;/em&gt;(vtrs) &lt;em&gt;sales&lt;/em&gt; fell to 300,000 from 350,000.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

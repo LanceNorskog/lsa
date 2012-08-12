@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-327.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">operating</str>
+        <str name="text">results</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">regulatory</str>
-        <double name="strength">0.8964214570007953</double>
+        <str name="text">include</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shares</str>
-        <double name="strength">0.8964214570007942</double>
+        <str name="text">virginia</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">signed</str>
-        <double name="strength">0.8017837257372737</double>
+        <str name="text">march</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">agreement</str>
-        <double name="strength">0.8017837257372737</double>
+        <str name="text">remarks</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">263</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">First quarter 1987 results include one month contribution of West Virginia Power, which became a division on March 1, 1987, Green said in remarks prepared for delivery to analysts.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.8943065913646331</double>
+        <double name="strength">0.8038611962124348</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Higher earnings for the period reflected reduced operating and maintenenace expenses and about 10 mln dlrs in rate increases in Iowa, Minnesota, Kansas and Colorado, he said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.8937033490758467</double>
+        <double name="strength">0.7740154418553753</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Utilicorp signed&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; with &lt;em&gt;Cominco&lt;/em&gt; Ltd of &lt;em&gt;Vancouver&lt;/em&gt; to &lt;em&gt;extend&lt;/em&gt; the &lt;em&gt;deadline&lt;/em&gt; to May 31, 1987, for &lt;em&gt;completion&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;purchase&lt;/em&gt; of West &lt;em&gt;Kootenay Power&lt;/em&gt; and &lt;em&gt;Light&lt;/em&gt; of &lt;em&gt;British Columbia,&lt;/em&gt; due to a &lt;em&gt;longer&lt;/em&gt; than &lt;em&gt;expected regulatory approval process,&lt;/em&gt; he said.</str>
+        <str name="text">&lt;em&gt;Utilicorp&lt;/em&gt; signed an &lt;em&gt;agreement&lt;/em&gt; with &lt;em&gt;Cominco&lt;/em&gt; Ltd of &lt;em&gt;Vancouver&lt;/em&gt; to &lt;em&gt;extend&lt;/em&gt; the &lt;em&gt;deadline&lt;/em&gt; to May 31, 1987, for &lt;em&gt;completion&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;purchase&lt;/em&gt; of West &lt;em&gt;Kootenay Power&lt;/em&gt; and &lt;em&gt;Light&lt;/em&gt; of &lt;em&gt;British Columbia,&lt;/em&gt; due to a longer than expected &lt;em&gt;regulatory approval process,&lt;/em&gt; he said.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;First quarter 1987 results include&lt;/em&gt; one &lt;em&gt;month contribution&lt;/em&gt; of West &lt;em&gt;Virginia Power, which became&lt;/em&gt; a &lt;em&gt;division&lt;/em&gt; on &lt;em&gt;March 1, 1987, Green&lt;/em&gt; said in &lt;em&gt;remarks prepared&lt;/em&gt; for &lt;em&gt;delivery&lt;/em&gt; to &lt;em&gt;analysts&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;First quarter 1987 results include&lt;/em&gt; one &lt;em&gt;month contribution&lt;/em&gt; of West &lt;em&gt;Virginia Power,&lt;/em&gt; which became a &lt;em&gt;division&lt;/em&gt; on &lt;em&gt;March 1, 1987, Green&lt;/em&gt; said in &lt;em&gt;remarks&lt;/em&gt; prepared for &lt;em&gt;delivery&lt;/em&gt; to &lt;em&gt;analysts&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Higher earnings&lt;/em&gt; for the &lt;em&gt;period reflected reduced operating&lt;/em&gt; and &lt;em&gt;maintenenace expenses&lt;/em&gt; and &lt;em&gt;about 10&lt;/em&gt; mln dlrs in rate &lt;em&gt;increases&lt;/em&gt; in Iowa, &lt;em&gt;Minnesota, Kansas&lt;/em&gt; and &lt;em&gt;Colorado,&lt;/em&gt; he said.</str>
+        <str name="text">Higher &lt;em&gt;earnings&lt;/em&gt; for the &lt;em&gt;period&lt;/em&gt; reflected reduced &lt;em&gt;operating&lt;/em&gt; and &lt;em&gt;maintenenace expenses&lt;/em&gt; and about 10 mln dlrs in rate &lt;em&gt;increases&lt;/em&gt; in Iowa, &lt;em&gt;Minnesota, Kansas&lt;/em&gt; and &lt;em&gt;Colorado,&lt;/em&gt; he said.</str>
         <int name="index">4</int>
       </lst>
     </lst>

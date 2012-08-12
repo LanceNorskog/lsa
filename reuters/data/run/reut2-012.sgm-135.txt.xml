@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-135.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">250</int>
+        <int name="count">162</int>
       </lst>
       <lst name="stems">
-        <int name="count">167</int>
+        <int name="count">102</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">currency</str>
+        <str name="text">dealers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">1.0</double>
+        <str name="text">forces</str>
+        <double name="strength">0.9999575134301042</double>
       </lst>
       <lst name="term">
-        <str name="text">group</str>
-        <double name="strength">0.5590169943749499</double>
+        <str name="text">massive</str>
+        <double name="strength">0.9999546205736355</double>
       </lst>
       <lst name="term">
-        <str name="text">being</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">purchases</str>
+        <double name="strength">0.999952836894831</double>
       </lst>
       <lst name="term">
-        <str name="text">volume</str>
-        <double name="strength">0.5000000000000024</double>
+        <str name="text">futility</str>
+        <double name="strength">0.9999526551246571</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Bank of Japan sources told Reuters in Tokyo earlier this week that they believed the limits of currency market intervention are perhaps being reached and that other methods for bolstering the dollar, such as invoking currency swap agreements with other central banks, are being considered.</str>
-        <int name="index">29</int>
-        <int name="start">1</int>
-        <int name="end">290</int>
+        <str name="text">The dollar's recent decline, despite massive central bank purchases, is a forceful reminder that official intervention in the foreign exchanges can work only if it is well-timed to coincide with shifts in market fundamentals or sentiment, dealers and analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">265</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Late last decade during the presidency of Jimmy Carter, when the dollar was last under heavy speculative attack, central banks sometimes intervened to the tune of six billion dlrs in a single day but still failed to stop the dollar falling to a record low of 1.70 marks, analysts said.</str>
-        <int name="index">22</int>
+        <str name="text">For its part, the United States is apparently content to let the dollar fall gradually further and is paying little more than lip service to the February Paris agreement of the Group of Five plus Canada to foster stability, dealers say.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">286</int>
-        <double name="strength">0.9940499914903858</double>
+        <int name="end">237</int>
+        <double name="strength">0.9560084435372496</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Trading volume in London, New York and Tokyo alone last year averaged nearly 188 billion dlrs a day, according to a joint central bank study, about double the previous estimate made just two years earlier by the Group of Thirty private research group.</str>
-        <int name="index">27</int>
+        <str name="text">The relative failure of recent intervention stands in sharp contrast to the success that central banks scored when they joined forces to drive the dollar down following the September 22, 1985, Plaza accord.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">252</int>
-        <double name="strength">0.9568456374200675</double>
+        <int name="end">207</int>
+        <double name="strength">0.899075463049159</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Bank of &lt;em&gt;Japan sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in &lt;em&gt;Tokyo earlier&lt;/em&gt; this week that they &lt;em&gt;believed&lt;/em&gt; the &lt;em&gt;limits&lt;/em&gt; of &lt;em&gt;currency market intervention&lt;/em&gt; are &lt;em&gt;perhaps being reached&lt;/em&gt; and that &lt;em&gt;other methods&lt;/em&gt; for &lt;em&gt;bolstering&lt;/em&gt; the &lt;em&gt;dollar,&lt;/em&gt; such as &lt;em&gt;invoking currency&lt;/em&gt; swap &lt;em&gt;agreements&lt;/em&gt; with &lt;em&gt;other central banks,&lt;/em&gt; are &lt;em&gt;being considered&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">The &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;recent decline,&lt;/em&gt; despite &lt;em&gt;massive central&lt;/em&gt; bank &lt;em&gt;purchases,&lt;/em&gt; is a &lt;em&gt;forceful reminder&lt;/em&gt; that &lt;em&gt;official intervention&lt;/em&gt; in the &lt;em&gt;foreign exchanges&lt;/em&gt; can work only if it is well-timed to &lt;em&gt;coincide&lt;/em&gt; with &lt;em&gt;shifts&lt;/em&gt; in &lt;em&gt;market fundamentals&lt;/em&gt; or &lt;em&gt;sentiment, dealers&lt;/em&gt; and &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Late last &lt;em&gt;decade during&lt;/em&gt; the &lt;em&gt;presidency&lt;/em&gt; of &lt;em&gt;Jimmy Carter,&lt;/em&gt; when the &lt;em&gt;dollar&lt;/em&gt; was last &lt;em&gt;under heavy speculative attack, central banks sometimes intervened&lt;/em&gt; to the tune of six &lt;em&gt;billion&lt;/em&gt; dlrs in a &lt;em&gt;single&lt;/em&gt; day but &lt;em&gt;still failed&lt;/em&gt; to stop the &lt;em&gt;dollar falling&lt;/em&gt; to a &lt;em&gt;record&lt;/em&gt; low of 1.70 &lt;em&gt;marks, analysts said&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">For its part, the United &lt;em&gt;States&lt;/em&gt; is apparently &lt;em&gt;content&lt;/em&gt; to let the &lt;em&gt;dollar&lt;/em&gt; fall gradually &lt;em&gt;further&lt;/em&gt; and is paying little more than lip &lt;em&gt;service&lt;/em&gt; to the &lt;em&gt;February Paris agreement&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five plus &lt;em&gt;Canada&lt;/em&gt; to &lt;em&gt;foster stability, dealers say&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Trading volume&lt;/em&gt; in &lt;em&gt;London,&lt;/em&gt; New York and &lt;em&gt;Tokyo alone&lt;/em&gt; last year &lt;em&gt;averaged nearly 188 billion&lt;/em&gt; dlrs a day, &lt;em&gt;according&lt;/em&gt; to a &lt;em&gt;joint central&lt;/em&gt; bank &lt;em&gt;study, about double&lt;/em&gt; the &lt;em&gt;previous estimate&lt;/em&gt; made just two &lt;em&gt;years earlier&lt;/em&gt; by the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Thirty private research group&lt;/em&gt;.</str>
-        <int name="index">27</int>
+        <str name="text">The &lt;em&gt;relative failure&lt;/em&gt; of &lt;em&gt;recent intervention&lt;/em&gt; stands in &lt;em&gt;sharp contrast&lt;/em&gt; to the &lt;em&gt;success&lt;/em&gt; that &lt;em&gt;central banks&lt;/em&gt; scored when they joined &lt;em&gt;forces&lt;/em&gt; to &lt;em&gt;drive&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; down following the &lt;em&gt;September 22, 1985, Plaza accord&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

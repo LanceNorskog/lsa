@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-748.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">average</str>
+        <str name="text">trend</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">change</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">figures</str>
+        <double name="strength">0.923405961603291</double>
+      </lst>
+      <lst name="term">
+        <str name="text">factors</str>
+        <double name="strength">0.9234059616032899</double>
+      </lst>
+      <lst name="term">
         <str name="text">deficit</str>
-        <double name="strength">0.9999999999999984</double>
-      </lst>
-      <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.9999999999999964</double>
-      </lst>
-      <lst name="term">
-        <str name="text">purposes</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">fallen</str>
-        <double name="strength">0.5</double>
+        <double name="strength">0.9201081508366428</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">235</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The rise in the nominal figures masks a lower export trend that is not expected to change for several months at least," said an economist.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.9116308407475431</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Within the current account, the services account had 300 mln marks deficit, supplementary trade items a 200 mln mark surplus while transfer payments posted a 3.7 billion mark deficit.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">184</int>
-        <double name="strength">0.9199410980784468</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But for comparison purposes it noted that in January the average value of imports had fallen 15 pct year-on-year while the average value of exports had declined by only 4.4 pct.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">177</int>
-        <double name="strength">0.7513310890189355</double>
+        <double name="strength">0.8405203132202369</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;economist,&lt;/em&gt; who &lt;em&gt;declined&lt;/em&gt; to be &lt;em&gt;named,&lt;/em&gt; said the &lt;em&gt;February&lt;/em&gt; rise was also &lt;em&gt;partly explained&lt;/em&gt; by &lt;em&gt;special factors&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; when &lt;em&gt;there&lt;/em&gt; had been a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;public holidays&lt;/em&gt; as well as &lt;em&gt;extremely&lt;/em&gt; cold &lt;em&gt;weather,&lt;/em&gt; both of &lt;em&gt;which hindered trade&lt;/em&gt;.</str>
+        <str name="text">This &lt;em&gt;economist,&lt;/em&gt; who declined to be named, said the &lt;em&gt;February&lt;/em&gt; rise was also partly explained by &lt;em&gt;special factors&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; when there had been a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;public holidays&lt;/em&gt; as well as extremely cold &lt;em&gt;weather,&lt;/em&gt; both of which hindered &lt;em&gt;trade&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Within&lt;/em&gt; the &lt;em&gt;current account,&lt;/em&gt; the &lt;em&gt;services account&lt;/em&gt; had 300 mln &lt;em&gt;marks deficit, supplementary trade items&lt;/em&gt; a 200 mln mark &lt;em&gt;surplus while transfer payments posted&lt;/em&gt; a 3.7 &lt;em&gt;billion&lt;/em&gt; mark &lt;em&gt;deficit&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">"The rise in the &lt;em&gt;nominal figures masks&lt;/em&gt; a lower &lt;em&gt;export trend&lt;/em&gt; that is not expected to &lt;em&gt;change&lt;/em&gt; for &lt;em&gt;several months&lt;/em&gt; at least," said an &lt;em&gt;economist&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But for &lt;em&gt;comparison purposes&lt;/em&gt; it &lt;em&gt;noted&lt;/em&gt; that in &lt;em&gt;January&lt;/em&gt; the &lt;em&gt;average value&lt;/em&gt; of &lt;em&gt;imports&lt;/em&gt; had &lt;em&gt;fallen 15&lt;/em&gt; pct year-on-year &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;average value&lt;/em&gt; of &lt;em&gt;exports&lt;/em&gt; had &lt;em&gt;declined&lt;/em&gt; by only 4.4 pct.</str>
-        <int name="index">10</int>
+        <str name="text">Within the &lt;em&gt;current account,&lt;/em&gt; the &lt;em&gt;services account&lt;/em&gt; had 300 mln &lt;em&gt;marks deficit, supplementary trade items&lt;/em&gt; a 200 mln mark &lt;em&gt;surplus&lt;/em&gt; while &lt;em&gt;transfer payments&lt;/em&gt; posted a 3.7 &lt;em&gt;billion&lt;/em&gt; mark &lt;em&gt;deficit&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

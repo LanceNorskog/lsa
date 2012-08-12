@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-999.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">162</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">nation</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deteriorated</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">measures</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">apparent</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">disagreements</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">louvre</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">among</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">accord</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"At the same time, many of the conditions for faster growth remain favorable," it said, citing low inflation in most major countries, healthy corporate finances, generally lower interest rates, improvements in state budget positions and more flexible labor markets.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">266</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Henderson said the 6,000 billion yen package announced recently by the Japanese government to encourage public works and cut taxes would make a significant contribution to this process, though it was too early to estimate its precise impact.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">242</int>
-        <double name="strength">0.98632682490183</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"At the same time, many of the conditions for faster growth remain favorable," it said, citing low inflation in most major countries, healthy corporate finances, generally lower interest rates, improvements in state budget positions and more flexible labor markets.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">266</int>
+        <double name="strength">0.9946236717742071</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">The OECD called for efforts to liberalize world agricultural markets through switching farm subsidies away from price guarantees and other measures linked to production towards direct income support for farmers.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">212</int>
-        <double name="strength">0.9662607514098104</double>
+        <double name="strength">0.9245547822405551</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"At the same time, many of the &lt;em&gt;conditions&lt;/em&gt; for &lt;em&gt;faster growth remain favorable,"&lt;/em&gt; it said, &lt;em&gt;citing&lt;/em&gt; low &lt;em&gt;inflation&lt;/em&gt; in most &lt;em&gt;major countries, healthy corporate finances, generally lower interest rates, improvements&lt;/em&gt; in &lt;em&gt;state budget positions&lt;/em&gt; and more &lt;em&gt;flexible labor markets&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Henderson&lt;/em&gt; said the 6,000 &lt;em&gt;billion&lt;/em&gt; yen &lt;em&gt;package announced recently&lt;/em&gt; by the &lt;em&gt;Japanese government&lt;/em&gt; to &lt;em&gt;encourage public works&lt;/em&gt; and cut &lt;em&gt;taxes would&lt;/em&gt; make a &lt;em&gt;significant contribution&lt;/em&gt; to this &lt;em&gt;process, though&lt;/em&gt; it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;estimate&lt;/em&gt; its &lt;em&gt;precise impact&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Henderson&lt;/em&gt; said the 6,000 &lt;em&gt;billion&lt;/em&gt; yen &lt;em&gt;package&lt;/em&gt; announced recently by the &lt;em&gt;Japanese government&lt;/em&gt; to &lt;em&gt;encourage public works&lt;/em&gt; and cut &lt;em&gt;taxes&lt;/em&gt; would make a &lt;em&gt;significant contribution&lt;/em&gt; to this &lt;em&gt;process,&lt;/em&gt; though it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;estimate&lt;/em&gt; its &lt;em&gt;precise impact&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The OECD &lt;em&gt;called&lt;/em&gt; for &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;liberalize world agricultural markets through switching&lt;/em&gt; farm &lt;em&gt;subsidies&lt;/em&gt; away from &lt;em&gt;price guarantees&lt;/em&gt; and &lt;em&gt;other measures linked&lt;/em&gt; to &lt;em&gt;production towards direct income support&lt;/em&gt; for &lt;em&gt;farmers&lt;/em&gt;.</str>
+        <str name="text">"At the same time, many of the &lt;em&gt;conditions&lt;/em&gt; for faster &lt;em&gt;growth remain favorable,"&lt;/em&gt; it said, citing low &lt;em&gt;inflation&lt;/em&gt; in most &lt;em&gt;major countries, healthy corporate finances,&lt;/em&gt; generally lower &lt;em&gt;interest rates, improvements&lt;/em&gt; in &lt;em&gt;state budget positions&lt;/em&gt; and more &lt;em&gt;flexible labor markets&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The OECD called for &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;liberalize world agricultural markets&lt;/em&gt; through switching farm &lt;em&gt;subsidies&lt;/em&gt; away from &lt;em&gt;price guarantees&lt;/em&gt; and &lt;em&gt;other measures&lt;/em&gt; linked to &lt;em&gt;production&lt;/em&gt; towards &lt;em&gt;direct income support&lt;/em&gt; for &lt;em&gt;farmers&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
     </lst>

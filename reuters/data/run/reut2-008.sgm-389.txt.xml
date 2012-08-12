@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-389.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">monetary</str>
+        <str name="text">janez</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">1.0</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">criticisms</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">refinance</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">commission</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">paris</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">visited</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Zemljaric said the International Monetary Fund criticised Yugoslavia for not regulating consumption, not having real interest rates or market exchange rates, for its inability to control monetary policy and slow pace of reform.</str>
-        <int name="index">4</int>
+        <str name="text">In an interview with the West German weekly magazine Der Spiegel, Prime Minister Branko Mikulic said last weekend Yugoslavia had repaid 28.3 billion dlrs in principal and interest between 1981 and 1986.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">228</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We cannot accept this assessment because we have made not inconsiderable progress under difficult conditions, even though we are aware of our own weaknesses," Zemljaric said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.768918008166556</double>
+        <double name="strength">0.9645429836685135</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The official Tanjug news agency quoted Zemljaric as saying Yugoslavia expected a "definite measure of understanding" from 16 western creditor countries when they meet on March 30.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.7256673709378656</double>
+        <double name="strength">0.9597987609539864</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Zemljaric&lt;/em&gt; said the &lt;em&gt;International Monetary&lt;/em&gt; Fund &lt;em&gt;criticised Yugoslavia&lt;/em&gt; for not &lt;em&gt;regulating consumption,&lt;/em&gt; not &lt;em&gt;having&lt;/em&gt; real &lt;em&gt;interest rates&lt;/em&gt; or &lt;em&gt;market exchange rates,&lt;/em&gt; for its &lt;em&gt;inability&lt;/em&gt; to &lt;em&gt;control monetary policy&lt;/em&gt; and slow pace of &lt;em&gt;reform&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">In an &lt;em&gt;interview&lt;/em&gt; with the West &lt;em&gt;German weekly magazine&lt;/em&gt; Der &lt;em&gt;Spiegel, Prime Minister Branko Mikulic&lt;/em&gt; said last &lt;em&gt;weekend Yugoslavia&lt;/em&gt; had repaid 28.3 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;principal&lt;/em&gt; and &lt;em&gt;interest&lt;/em&gt; between 1981 and 1986.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We &lt;em&gt;cannot accept&lt;/em&gt; this &lt;em&gt;assessment because&lt;/em&gt; we have made not &lt;em&gt;inconsiderable progress under difficult conditions,&lt;/em&gt; even &lt;em&gt;though&lt;/em&gt; we are &lt;em&gt;aware&lt;/em&gt; of our own &lt;em&gt;weaknesses," Zemljaric said&lt;/em&gt;.</str>
+        <str name="text">"We cannot &lt;em&gt;accept&lt;/em&gt; this &lt;em&gt;assessment&lt;/em&gt; because we have made not &lt;em&gt;inconsiderable progress&lt;/em&gt; under &lt;em&gt;difficult conditions,&lt;/em&gt; even though we are &lt;em&gt;aware&lt;/em&gt; of our own &lt;em&gt;weaknesses," Zemljaric said&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;official Tanjug&lt;/em&gt; news &lt;em&gt;agency quoted Zemljaric&lt;/em&gt; as &lt;em&gt;saying Yugoslavia expected&lt;/em&gt; a "&lt;em&gt;definite measure&lt;/em&gt; of &lt;em&gt;understanding"&lt;/em&gt; from 16 &lt;em&gt;western creditor countries&lt;/em&gt; when they meet on &lt;em&gt;March 30&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;official Tanjug&lt;/em&gt; news &lt;em&gt;agency&lt;/em&gt; quoted &lt;em&gt;Zemljaric&lt;/em&gt; as saying &lt;em&gt;Yugoslavia&lt;/em&gt; expected a "&lt;em&gt;definite measure&lt;/em&gt; of understanding" from 16 &lt;em&gt;western creditor countries&lt;/em&gt; when they meet on &lt;em&gt;March 30&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
     </lst>

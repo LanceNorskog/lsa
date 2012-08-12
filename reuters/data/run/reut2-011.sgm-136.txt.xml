@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-136.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">33</int>
+        <int name="count">24</int>
       </lst>
       <lst name="stems">
-        <int name="count">24</int>
+        <int name="count">17</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">first</str>
+        <str name="text">february</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">appeared</str>
-        <double name="strength">1.0</double>
+        <str name="text">january</str>
+        <double name="strength">0.9799118698777313</double>
       </lst>
       <lst name="term">
         <str name="text">available</str>
-        <double name="strength">0.9999999999999976</double>
-      </lst>
-      <lst name="term">
-        <str name="text">included</str>
-        <double name="strength">0.9999999999999976</double>
+        <double name="strength">0.5952216253026554</double>
       </lst>
       <lst name="term">
         <str name="text">future</str>
-        <double name="strength">0.9999999999999976</double>
+        <double name="strength">0.5952216253026554</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reuter</str>
+        <double name="strength">0.5952216253026553</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">New Zealand's current account deficit narrowed to 78 mln dlrs in February from 93 mln in January and 233 mln in February 1986, in a smoothed seasonally adjusted measurement, the statistics department said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Seasonally adjusted export and import figures were not available but the department said they will be included in future current account data.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">143</int>
-        <double name="strength">0.9375155771335285</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">New Zealand's current account deficit narrowed to 78 mln dlrs in February from 93 mln in January and 233 mln in February 1986, in a smoothed seasonally adjusted measurement, the statistics department said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">205</int>
+        <double name="strength">0.8152344080265062</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The smoothed seasonally adjusted series shows a surplus on merchandise trade of 174 mln dlrs after 161 mln in January and 33 mln in February 1986.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">147</int>
-        <double name="strength">0.8784889407240077</double>
+        <double name="strength">0.793858944692579</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">New &lt;em&gt;Zealand&lt;/em&gt;'s &lt;em&gt;current account deficit narrowed&lt;/em&gt; to 78 mln dlrs in &lt;em&gt;February&lt;/em&gt; from 93 mln in &lt;em&gt;January&lt;/em&gt; and 233 mln in &lt;em&gt;February 1986,&lt;/em&gt; in a &lt;em&gt;smoothed seasonally adjusted measurement,&lt;/em&gt; the &lt;em&gt;statistics department said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Seasonally adjusted export&lt;/em&gt; and &lt;em&gt;import figures&lt;/em&gt; were not &lt;em&gt;available&lt;/em&gt; but the &lt;em&gt;department&lt;/em&gt; said they will be &lt;em&gt;included&lt;/em&gt; in &lt;em&gt;future current account data&lt;/em&gt;.</str>
+        <str name="text">Seasonally adjusted &lt;em&gt;export&lt;/em&gt; and &lt;em&gt;import figures&lt;/em&gt; were not &lt;em&gt;available&lt;/em&gt; but the &lt;em&gt;department&lt;/em&gt; said they will be included in &lt;em&gt;future current account data&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;smoothed seasonally adjusted series shows&lt;/em&gt; a &lt;em&gt;surplus&lt;/em&gt; on &lt;em&gt;merchandise trade&lt;/em&gt; of 174 mln dlrs &lt;em&gt;after 161&lt;/em&gt; mln in &lt;em&gt;January&lt;/em&gt; and 33 mln in &lt;em&gt;February 1986&lt;/em&gt;.</str>
+        <str name="text">New &lt;em&gt;Zealand&lt;/em&gt;'s &lt;em&gt;current account deficit&lt;/em&gt; narrowed to 78 mln dlrs in &lt;em&gt;February&lt;/em&gt; from 93 mln in &lt;em&gt;January&lt;/em&gt; and 233 mln in &lt;em&gt;February 1986,&lt;/em&gt; in a smoothed seasonally adjusted &lt;em&gt;measurement,&lt;/em&gt; the &lt;em&gt;statistics department said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The smoothed seasonally adjusted &lt;em&gt;series&lt;/em&gt; shows a &lt;em&gt;surplus&lt;/em&gt; on &lt;em&gt;merchandise trade&lt;/em&gt; of 174 mln dlrs after 161 mln in &lt;em&gt;January&lt;/em&gt; and 33 mln in &lt;em&gt;February 1986&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

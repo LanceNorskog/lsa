@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-966.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">222</int>
+        <int name="count">152</int>
       </lst>
       <lst name="stems">
-        <int name="count">152</int>
+        <int name="count">105</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prices</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">allotted</str>
-        <double name="strength">0.9701425001453325</double>
+        <str name="text">change</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">gemma</str>
-        <double name="strength">0.5423261445466413</double>
+        <str name="text">experimental</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.5423261445466401</double>
+        <str name="text">hartnell</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">meeting</str>
-        <double name="strength">0.48507125007266727</double>
+        <str name="text">primary</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said that the odds were also in favour of adoption of a bid price form of auction, where successful bidders were allotted stock at the various prices at which they bid, rather than a common price allotment whereby stock was allocated at the lowest accepted price.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">267</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Nissen said that following a meeting between GEMMA and the Bank of England on March 3, which he described as "very helpful," GEMMA submitted a note making several further residual points.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.7649302710904302</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A combination of both systems would enable the Bank to benefit from both the flexibility offered by traditional marketing methods and the guarantee of a steady supply of funds implied by auctions.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.7539902216368884</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The principle that this "when issued' trading should take place has been accepted by the Executive Committee of the International Stock Exchange," said George Nissen, chairman of the Gilt Edged Market Makers' Association (GEMMA).</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">231</int>
+        <double name="strength">0.9384364268408083</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If we are going into an auction system, we need to have some form of market test of the stock we're bidding for," said Simon Hartnell, Head Trader at primary dealer Alexanders Laing and Cruickshank Gilts Ltd.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">210</int>
+        <double name="strength">0.9354467777053671</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said that the odds were also in &lt;em&gt;favour&lt;/em&gt; of &lt;em&gt;adoption&lt;/em&gt; of a bid &lt;em&gt;price&lt;/em&gt; form of &lt;em&gt;auction, where successful bidders&lt;/em&gt; were &lt;em&gt;allotted stock&lt;/em&gt; at the &lt;em&gt;various prices&lt;/em&gt; at &lt;em&gt;which&lt;/em&gt; they bid, &lt;em&gt;rather&lt;/em&gt; than a &lt;em&gt;common price allotment whereby stock&lt;/em&gt; was &lt;em&gt;allocated&lt;/em&gt; at the &lt;em&gt;lowest accepted price&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Nissen&lt;/em&gt; said that &lt;em&gt;following&lt;/em&gt; a &lt;em&gt;meeting between GEMMA&lt;/em&gt; and the Bank of &lt;em&gt;England&lt;/em&gt; on &lt;em&gt;March 3, which&lt;/em&gt; he &lt;em&gt;described&lt;/em&gt; as "very &lt;em&gt;helpful," GEMMA submitted&lt;/em&gt; a note &lt;em&gt;making several further residual points&lt;/em&gt;.</str>
-        <int name="index">32</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;combination&lt;/em&gt; of both &lt;em&gt;systems would enable&lt;/em&gt; the Bank to &lt;em&gt;benefit&lt;/em&gt; from both the &lt;em&gt;flexibility offered&lt;/em&gt; by &lt;em&gt;traditional marketing methods&lt;/em&gt; and the &lt;em&gt;guarantee&lt;/em&gt; of a &lt;em&gt;steady supply&lt;/em&gt; of &lt;em&gt;funds implied&lt;/em&gt; by &lt;em&gt;auctions&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;combination&lt;/em&gt; of both &lt;em&gt;systems&lt;/em&gt; would &lt;em&gt;enable&lt;/em&gt; the Bank to &lt;em&gt;benefit&lt;/em&gt; from both the &lt;em&gt;flexibility&lt;/em&gt; offered by &lt;em&gt;traditional marketing methods&lt;/em&gt; and the &lt;em&gt;guarantee&lt;/em&gt; of a &lt;em&gt;steady supply&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; implied by &lt;em&gt;auctions&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;principle&lt;/em&gt; that this "when issued' &lt;em&gt;trading&lt;/em&gt; should take &lt;em&gt;place&lt;/em&gt; has been accepted by the &lt;em&gt;Executive Committee&lt;/em&gt; of the &lt;em&gt;International Stock Exchange,"&lt;/em&gt; said &lt;em&gt;George Nissen, chairman&lt;/em&gt; of the Gilt Edged &lt;em&gt;Market Makers' Association (GEMMA)&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If we are going into an &lt;em&gt;auction system,&lt;/em&gt; we need to have some form of &lt;em&gt;market&lt;/em&gt; test of the &lt;em&gt;stock&lt;/em&gt; we're &lt;em&gt;bidding&lt;/em&gt; for," said &lt;em&gt;Simon Hartnell,&lt;/em&gt; Head &lt;em&gt;Trader&lt;/em&gt; at &lt;em&gt;primary dealer Alexanders Laing&lt;/em&gt; and &lt;em&gt;Cruickshank Gilts Ltd&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

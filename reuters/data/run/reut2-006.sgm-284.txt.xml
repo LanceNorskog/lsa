@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-284.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">117</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cruzado</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">deterioration</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">frota</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">netto</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">journalists</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">surplus</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">271</int>
         <double name="strength">1.0</double>
+        <int name="terms">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sayad was one of the architects of last year's "Plano Cruzado" program, which froze prices, ended widespread indexation of the economy and introduced the new cruzado currency to replace the cruzeiro in a bid to cut the 250 pct annual inflation rate.</str>
-        <int name="index">4</int>
+        <str name="text">A sharp deterioration in Brazil's foreign trade surplus caused President Sarney to announce last month the suspension of interest rate payments on 68 billion dollars of commercial debt.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">250</int>
-        <double name="strength">0.9517179499005104</double>
+        <int name="end">186</int>
+        <double name="strength">0.8409832979987801</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">No official reasons for the resignation were immediately available, but sources close to the government said Sayad had pressed for a three-month price freeze and sharp government spending cuts to combat inflation.</str>
-        <int name="index">2</int>
+        <str name="text">After holding prices for nearly nine months, the plan was unable to withstand the inflationary pressures of booming consumer demand and widespread shortages.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.8062982381540671</double>
+        <int name="end">158</int>
+        <double name="strength">0.7071086410345839</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Presidential spokesman Frota Netto&lt;/em&gt; told &lt;em&gt;journalists earlier today&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; was &lt;em&gt;considering&lt;/em&gt; a &lt;em&gt;suggestion&lt;/em&gt; by the &lt;em&gt;Chief&lt;/em&gt; of &lt;em&gt;Civilian Staff&lt;/em&gt; at the &lt;em&gt;Presidency Marco Maciel&lt;/em&gt; that a new &lt;em&gt;multi-party cabinet&lt;/em&gt; be &lt;em&gt;formed&lt;/em&gt; to deal with the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;current economic difficulties&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Presidential spokesman Frota Netto&lt;/em&gt; told &lt;em&gt;journalists&lt;/em&gt; earlier &lt;em&gt;today&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; was considering a &lt;em&gt;suggestion&lt;/em&gt; by the &lt;em&gt;Chief&lt;/em&gt; of &lt;em&gt;Civilian Staff&lt;/em&gt; at the &lt;em&gt;Presidency Marco Maciel&lt;/em&gt; that a new &lt;em&gt;multi-party cabinet&lt;/em&gt; be formed to deal with the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;current economic difficulties&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sayad&lt;/em&gt; was one of the &lt;em&gt;architects&lt;/em&gt; of last year's "&lt;em&gt;Plano Cruzado" program, which froze prices, ended widespread indexation&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; and &lt;em&gt;introduced&lt;/em&gt; the new &lt;em&gt;cruzado currency&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt; the &lt;em&gt;cruzeiro&lt;/em&gt; in a bid to cut the 250 pct &lt;em&gt;annual inflation rate&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">A &lt;em&gt;sharp deterioration&lt;/em&gt; in &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;foreign trade surplus&lt;/em&gt; caused &lt;em&gt;President Sarney&lt;/em&gt; to &lt;em&gt;announce&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; the &lt;em&gt;suspension&lt;/em&gt; of &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;payments&lt;/em&gt; on 68 &lt;em&gt;billion dollars&lt;/em&gt; of &lt;em&gt;commercial debt&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">No &lt;em&gt;official reasons&lt;/em&gt; for the &lt;em&gt;resignation&lt;/em&gt; were &lt;em&gt;immediately available,&lt;/em&gt; but &lt;em&gt;sources close&lt;/em&gt; to the &lt;em&gt;government&lt;/em&gt; said &lt;em&gt;Sayad&lt;/em&gt; had &lt;em&gt;pressed&lt;/em&gt; for a &lt;em&gt;three-month price freeze&lt;/em&gt; and &lt;em&gt;sharp government spending&lt;/em&gt; cuts to &lt;em&gt;combat inflation&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">After holding &lt;em&gt;prices&lt;/em&gt; for nearly nine &lt;em&gt;months,&lt;/em&gt; the plan was &lt;em&gt;unable&lt;/em&gt; to &lt;em&gt;withstand&lt;/em&gt; the &lt;em&gt;inflationary pressures&lt;/em&gt; of &lt;em&gt;booming consumer demand&lt;/em&gt; and &lt;em&gt;widespread shortages&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

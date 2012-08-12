@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-182.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">totalling</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">weekend</str>
+        <double name="strength">0.9999999999999974</double>
+      </lst>
+      <lst name="term">
+        <str name="text">chapter</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
         <str name="text">convertible</str>
-        <double name="strength">0.5590169943749482</double>
+        <double name="strength">0.9999999999999966</double>
       </lst>
       <lst name="term">
         <str name="text">shares</str>
-        <double name="strength">0.5590169943749477</double>
-      </lst>
-      <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749473</double>
-      </lst>
-      <lst name="term">
-        <str name="text">negotiated</str>
-        <double name="strength">0.500000000000001</double>
+        <double name="strength">0.9999999999999956</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">One dealer noted that Texaco subsidiaries have outstanding eurobonds totalling over three billion dlrs out of total borrowings of some 6.8 billion dlrs.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">153</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Eurobonds for Texaco Inc subsidiaries were unquoted this morning as traders assessed the implications of the company's shock weekend decision to file for bankruptcy under Chapter 11 of U.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">187</int>
-        <double name="strength">0.9673143829100306</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Securities house said, "I don't want to be obstructive, but there genuinely is no market in Texaco bonds at the moment.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">122</int>
+        <double name="strength">0.8930439553300324</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">He added that many of the fixed interest eurobonds - dollar straights - had been trading "basis only" for some time prior to this weekend's news.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">146</int>
-        <double name="strength">0.9166516692863367</double>
+        <double name="strength">0.8783736907440922</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">One &lt;em&gt;dealer noted&lt;/em&gt; that &lt;em&gt;Texaco subsidiaries&lt;/em&gt; have &lt;em&gt;outstanding eurobonds totalling&lt;/em&gt; over &lt;em&gt;three billion&lt;/em&gt; dlrs out of &lt;em&gt;total borrowings&lt;/em&gt; of some 6.8 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Eurobonds&lt;/em&gt; for &lt;em&gt;Texaco&lt;/em&gt; Inc &lt;em&gt;subsidiaries&lt;/em&gt; were &lt;em&gt;unquoted&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; as &lt;em&gt;traders assessed&lt;/em&gt; the &lt;em&gt;implications&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;shock weekend decision&lt;/em&gt; to file for &lt;em&gt;bankruptcy under Chapter 11&lt;/em&gt; of U.</str>
+        <str name="text">&lt;em&gt;Eurobonds&lt;/em&gt; for &lt;em&gt;Texaco&lt;/em&gt; Inc &lt;em&gt;subsidiaries&lt;/em&gt; were unquoted this &lt;em&gt;morning&lt;/em&gt; as &lt;em&gt;traders&lt;/em&gt; assessed the &lt;em&gt;implications&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;shock weekend decision&lt;/em&gt; to file for &lt;em&gt;bankruptcy&lt;/em&gt; under &lt;em&gt;Chapter 11&lt;/em&gt; of U.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;added&lt;/em&gt; that many of the &lt;em&gt;fixed interest eurobonds - dollar straights -&lt;/em&gt; had been &lt;em&gt;trading "basis&lt;/em&gt; only" for some time &lt;em&gt;prior&lt;/em&gt; to this &lt;em&gt;weekend&lt;/em&gt;'s news.</str>
+        <str name="text">S. &lt;em&gt;Securities house&lt;/em&gt; said, "I don't want to be &lt;em&gt;obstructive,&lt;/em&gt; but there genuinely is no &lt;em&gt;market&lt;/em&gt; in &lt;em&gt;Texaco bonds&lt;/em&gt; at the &lt;em&gt;moment&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He added that many of the &lt;em&gt;fixed interest eurobonds - dollar straights -&lt;/em&gt; had been trading "&lt;em&gt;basis&lt;/em&gt; only" for some time prior to this &lt;em&gt;weekend&lt;/em&gt;'s news.</str>
         <int name="index">7</int>
       </lst>
     </lst>

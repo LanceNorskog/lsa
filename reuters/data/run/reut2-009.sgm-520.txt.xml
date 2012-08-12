@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-520.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">heavy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">previous</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">damage</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">hectares</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">empty</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">southern</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">especially</str>
-        <double name="strength">0.8944271909999161</double>
+        <str name="text">province</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">151</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The state of the crop continued to be good in general until last week but intense, heavy rains since could have caused damage in areas where rainfall was higher than 100 mm.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">174</int>
-        <double name="strength">0.9321554900755025</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Argentine grain producers again reduced their estimates for the total yield of the 1986/87 soybean crop, which will begin to be harvested in mid-April, trade sources said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">171</int>
-        <double name="strength">0.9219341336649162</double>
+        <double name="strength">0.9122143854249052</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In other areas, especially western Buenos Aires, where rainfall was more than 200 mm, parts of the sunflower, maize and sorghum crops not yet harvested may have been damaged.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.8648496930545428</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;resumption&lt;/em&gt; of full &lt;em&gt;harvesting&lt;/em&gt; and &lt;em&gt;assessment&lt;/em&gt; of &lt;em&gt;damage&lt;/em&gt; is &lt;em&gt;impossible until rains&lt;/em&gt; stop and a &lt;em&gt;spell&lt;/em&gt; of a week to 10 days of &lt;em&gt;sunshine dries&lt;/em&gt; the &lt;em&gt;fields&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;resumption&lt;/em&gt; of full &lt;em&gt;harvesting&lt;/em&gt; and &lt;em&gt;assessment&lt;/em&gt; of &lt;em&gt;damage&lt;/em&gt; is &lt;em&gt;impossible&lt;/em&gt; until &lt;em&gt;rains&lt;/em&gt; stop and a &lt;em&gt;spell&lt;/em&gt; of a week to 10 days of &lt;em&gt;sunshine dries&lt;/em&gt; the &lt;em&gt;fields&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;state&lt;/em&gt; of the crop &lt;em&gt;continued&lt;/em&gt; to be good in &lt;em&gt;general until&lt;/em&gt; last week but &lt;em&gt;intense, heavy rains since could&lt;/em&gt; have &lt;em&gt;caused damage&lt;/em&gt; in &lt;em&gt;areas where rainfall&lt;/em&gt; was &lt;em&gt;higher&lt;/em&gt; than 100 mm.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Argentine grain producers&lt;/em&gt; again reduced their &lt;em&gt;estimates&lt;/em&gt; for the &lt;em&gt;total yield&lt;/em&gt; of the 1986/87 &lt;em&gt;soybean&lt;/em&gt; crop, which will &lt;em&gt;begin&lt;/em&gt; to be harvested in mid-&lt;em&gt;April, trade sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Argentine grain producers again reduced their estimates&lt;/em&gt; for the &lt;em&gt;total yield&lt;/em&gt; of the 1986/87 &lt;em&gt;soybean&lt;/em&gt; crop, &lt;em&gt;which&lt;/em&gt; will &lt;em&gt;begin&lt;/em&gt; to be &lt;em&gt;harvested&lt;/em&gt; in mid-&lt;em&gt;April, trade sources said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">In &lt;em&gt;other areas,&lt;/em&gt; especially &lt;em&gt;western Buenos Aires,&lt;/em&gt; where &lt;em&gt;rainfall&lt;/em&gt; was more than 200 mm, &lt;em&gt;parts&lt;/em&gt; of the &lt;em&gt;sunflower, maize&lt;/em&gt; and &lt;em&gt;sorghum crops&lt;/em&gt; not yet harvested may have been damaged.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

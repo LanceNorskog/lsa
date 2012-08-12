@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-524.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">years</str>
+        <str name="text">available</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.7071067811865476</double>
+        <str name="text">tuesday</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
       <lst name="term">
-        <str name="text">france</str>
-        <double name="strength">0.6236095644623237</double>
+        <str name="text">guarantee</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
       <lst name="term">
-        <str name="text">coface</str>
-        <double name="strength">0.5590169943749483</double>
+        <str name="text">department</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
       <lst name="term">
-        <str name="text">suspended</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">first</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">CoFACE suspended its cover for medium and long-term export contracts with Nigeria in 1983, but maintained its cover for current trade deals involving consumer goods with six-month credit periods, CoFACE sources said.</str>
-        <int name="index">9</int>
+        <str name="text">"We have an open position regarding Nigeria," the sources said, adding that it was for French Finance Minister Edouard Balladur to decide whether to renew full insurance cover.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">217</int>
+        <int name="end">177</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Nigeria is due to receive 900 mln dlrs in fresh export credits this year from official agencies under a structural adjustment program drawn up by Nigeria and the World Bank to reschedule part of the country's 19 billion dlr foreign debt.</str>
-        <int name="index">11</int>
+        <str name="text">As with all Paris Club rescheduling accords, specific interest rates and other details have to be negotiated on a bilateral basis with the creditor countries involved.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.892106149902463</double>
+        <int name="end">168</int>
+        <double name="strength">0.9907026643640567</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Paris Club multilateral agreement concerned medium and long-term debt due between September 1986 and end-1987 over 10 years with five years grace.</str>
-        <int name="index">3</int>
+        <str name="text">The agreement signed on Tuesday with Britain's Export Credits Guarantee Department was the first in Nigeria's tour of creditor nations.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">0.8454998639869685</double>
+        <int name="end">136</int>
+        <double name="strength">0.9399653856145703</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;CoFACE suspended&lt;/em&gt; its &lt;em&gt;cover&lt;/em&gt; for &lt;em&gt;medium&lt;/em&gt; and long-term &lt;em&gt;export contracts&lt;/em&gt; with &lt;em&gt;Nigeria&lt;/em&gt; in 1983, but &lt;em&gt;maintained&lt;/em&gt; its &lt;em&gt;cover&lt;/em&gt; for &lt;em&gt;current trade deals involving consumer goods&lt;/em&gt; with six-&lt;em&gt;month credit periods, CoFACE sources said&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">"We have an open &lt;em&gt;position&lt;/em&gt; regarding &lt;em&gt;Nigeria,"&lt;/em&gt; the &lt;em&gt;sources&lt;/em&gt; said, adding that it was for &lt;em&gt;French Finance Minister Edouard Balladur&lt;/em&gt; to &lt;em&gt;decide&lt;/em&gt; whether to &lt;em&gt;renew&lt;/em&gt; full &lt;em&gt;insurance cover&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nigeria&lt;/em&gt; is due to &lt;em&gt;receive 900&lt;/em&gt; mln dlrs in &lt;em&gt;fresh export credits&lt;/em&gt; this year from &lt;em&gt;official agencies under&lt;/em&gt; a &lt;em&gt;structural adjustment program drawn&lt;/em&gt; up by &lt;em&gt;Nigeria&lt;/em&gt; and the &lt;em&gt;World&lt;/em&gt; Bank to &lt;em&gt;reschedule&lt;/em&gt; part of the &lt;em&gt;country&lt;/em&gt;'s 19 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign debt&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">As with all &lt;em&gt;Paris&lt;/em&gt; Club &lt;em&gt;rescheduling&lt;/em&gt; accords, &lt;em&gt;specific interest rates&lt;/em&gt; and &lt;em&gt;other details&lt;/em&gt; have to be negotiated on a &lt;em&gt;bilateral basis&lt;/em&gt; with the &lt;em&gt;creditor countries involved&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Paris&lt;/em&gt; Club &lt;em&gt;multilateral agreement concerned medium&lt;/em&gt; and long-term debt due &lt;em&gt;between September 1986&lt;/em&gt; and end-1987 over 10 &lt;em&gt;years&lt;/em&gt; with five &lt;em&gt;years grace&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;agreement&lt;/em&gt; signed on &lt;em&gt;Tuesday&lt;/em&gt; with &lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;Export Credits Guarantee Department&lt;/em&gt; was the &lt;em&gt;first&lt;/em&gt; in &lt;em&gt;Nigeria&lt;/em&gt;'s tour of &lt;em&gt;creditor nations&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

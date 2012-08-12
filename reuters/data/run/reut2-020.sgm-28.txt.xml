@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-28.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">177</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">113</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prospects</str>
+        <str name="text">ministry</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">officials</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999832135311116</double>
       </lst>
       <lst name="term">
-        <str name="text">securities</str>
-        <double name="strength">0.7071067811865483</double>
+        <str name="text">morgan</str>
+        <double name="strength">0.9999811244961582</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">economic</str>
+        <double name="strength">0.999980819318459</double>
       </lst>
       <lst name="term">
-        <str name="text">percent</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">barclay</str>
+        <double name="strength">0.9877514611289807</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Government and monetary authorities today staged a concerted effort to calm spreading panic on Japanese stock exchanges but market analysts said there were limits to their ability to succeed.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">191</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
       <lst name="sentence">
         <str name="text">"If a high percent of shares is cross held, everything happens at the edges and the relative moves can be larger," said Kleinwort Benson Ltd financial analyst Simon Smithson.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9517460706928602</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Finance Minister Kiichi Miyazawa said the Tokyo stock market should not be gravely affected by downturns in New York and London because there are clear signs of a Japanese economic recovery and exchange rate stability.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">219</int>
-        <double name="strength">0.9965670088324431</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bank of Japan Governor Satoshi Sumita also tried to calm the panic, saying in a statement that world stock markets were excessively concerned about the economic future.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.9745561798763167</double>
+        <double name="strength">0.8951420936271167</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"If a high &lt;em&gt;percent&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; is &lt;em&gt;cross&lt;/em&gt; held, &lt;em&gt;everything happens&lt;/em&gt; at the &lt;em&gt;edges&lt;/em&gt; and the &lt;em&gt;relative moves&lt;/em&gt; can be &lt;em&gt;larger,"&lt;/em&gt; said &lt;em&gt;Kleinwort Benson&lt;/em&gt; Ltd &lt;em&gt;financial analyst Simon Smithson&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Government&lt;/em&gt; and &lt;em&gt;monetary authorities today&lt;/em&gt; staged a &lt;em&gt;concerted effort&lt;/em&gt; to calm spreading &lt;em&gt;panic&lt;/em&gt; on &lt;em&gt;Japanese stock exchanges&lt;/em&gt; but &lt;em&gt;market analysts&lt;/em&gt; said there were &lt;em&gt;limits&lt;/em&gt; to their &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"If a high &lt;em&gt;percent&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; is &lt;em&gt;cross&lt;/em&gt; held, &lt;em&gt;everything&lt;/em&gt; happens at the &lt;em&gt;edges&lt;/em&gt; and the &lt;em&gt;relative moves&lt;/em&gt; can be larger," said &lt;em&gt;Kleinwort&lt;/em&gt; Benson Ltd &lt;em&gt;financial analyst Simon Smithson&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Kiichi Miyazawa&lt;/em&gt; said the &lt;em&gt;Tokyo stock market should&lt;/em&gt; not be &lt;em&gt;gravely affected&lt;/em&gt; by &lt;em&gt;downturns&lt;/em&gt; in New York and &lt;em&gt;London because there&lt;/em&gt; are &lt;em&gt;clear signs&lt;/em&gt; of a &lt;em&gt;Japanese economic recovery&lt;/em&gt; and &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;stability&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance Minister&lt;/em&gt; Kiichi &lt;em&gt;Miyazawa&lt;/em&gt; said the &lt;em&gt;Tokyo stock market&lt;/em&gt; should not be gravely affected by &lt;em&gt;downturns&lt;/em&gt; in New York and London because there are &lt;em&gt;clear signs&lt;/em&gt; of a &lt;em&gt;Japanese economic recovery&lt;/em&gt; and &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;stability&lt;/em&gt;.</str>
         <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bank of &lt;em&gt;Japan Governor Satoshi Sumita&lt;/em&gt; also &lt;em&gt;tried&lt;/em&gt; to calm the &lt;em&gt;panic, saying&lt;/em&gt; in a &lt;em&gt;statement&lt;/em&gt; that &lt;em&gt;world stock markets&lt;/em&gt; were &lt;em&gt;excessively concerned about&lt;/em&gt; the &lt;em&gt;economic future&lt;/em&gt;.</str>
-        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

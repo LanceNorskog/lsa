@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-745.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">defended</str>
+        <str name="text">acknowledge</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">decision</str>
-        <double name="strength">1.0</double>
+        <str name="text">nation</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">conceded</str>
-        <double name="strength">1.0</double>
+        <str name="text">tower</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">1.0</double>
+        <str name="text">scandal</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">errors</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">233</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said the speech would be 12 or 13 minutes in length and that Reagan would "look beyond the horizon to a revitalized White House that will pursue an active foreign policy."</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.9409731471068441</double>
+        <double name="strength">0.9414898189705938</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">President Reagan, fighting to recover politically from the Iran-contra scandal, plans to acknowledge in a critical speech to the nation tonight he needs to change his ways, administration officials said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">203</int>
-        <double name="strength">0.9069269850938343</double>
+        <str name="text">The official said Reagan would tell the public what he is doing to set things right in the wake of last week's scorching Tower commission report on the origins of the scandal.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.9276866508195715</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked&lt;/em&gt; at his &lt;em&gt;daily&lt;/em&gt; news &lt;em&gt;briefing&lt;/em&gt; if the &lt;em&gt;president would&lt;/em&gt; say he &lt;em&gt;erred, White House spokesman Marlin Fitzwater&lt;/em&gt; told &lt;em&gt;reporters, &lt;/em&gt;"His &lt;em&gt;views&lt;/em&gt; are &lt;em&gt;intensely personal&lt;/em&gt; and I won't give you any &lt;em&gt;advance&lt;/em&gt; on what he &lt;em&gt;intends&lt;/em&gt; to say in that area."</str>
+        <str name="text">Asked at his &lt;em&gt;daily&lt;/em&gt; news &lt;em&gt;briefing&lt;/em&gt; if the &lt;em&gt;president&lt;/em&gt; would say he erred, &lt;em&gt;White House spokesman Marlin Fitzwater&lt;/em&gt; told &lt;em&gt;reporters, &lt;/em&gt;"His &lt;em&gt;views&lt;/em&gt; are intensely &lt;em&gt;personal&lt;/em&gt; and I won't give you any &lt;em&gt;advance&lt;/em&gt; on what he intends to say in that area."</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;speech would&lt;/em&gt; be 12 or 13 &lt;em&gt;minutes&lt;/em&gt; in &lt;em&gt;length&lt;/em&gt; and that &lt;em&gt;Reagan would &lt;/em&gt;"look &lt;em&gt;beyond&lt;/em&gt; the &lt;em&gt;horizon&lt;/em&gt; to a &lt;em&gt;revitalized White House&lt;/em&gt; that will &lt;em&gt;pursue&lt;/em&gt; an &lt;em&gt;active foreign policy.&lt;/em&gt;"</str>
+        <str name="text">He said the &lt;em&gt;speech&lt;/em&gt; would be 12 or 13 &lt;em&gt;minutes&lt;/em&gt; in &lt;em&gt;length&lt;/em&gt; and that &lt;em&gt;Reagan&lt;/em&gt; would "look beyond the &lt;em&gt;horizon&lt;/em&gt; to a revitalized &lt;em&gt;White House&lt;/em&gt; that will &lt;em&gt;pursue&lt;/em&gt; an &lt;em&gt;active foreign policy.&lt;/em&gt;"</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;President Reagan, fighting&lt;/em&gt; to &lt;em&gt;recover politically&lt;/em&gt; from the Iran-&lt;em&gt;contra scandal, plans&lt;/em&gt; to &lt;em&gt;acknowledge&lt;/em&gt; in a &lt;em&gt;critical speech&lt;/em&gt; to the &lt;em&gt;nation tonight&lt;/em&gt; he &lt;em&gt;needs&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt; his ways, &lt;em&gt;administration officials said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;official&lt;/em&gt; said &lt;em&gt;Reagan&lt;/em&gt; would tell the &lt;em&gt;public&lt;/em&gt; what he is doing to set &lt;em&gt;things right&lt;/em&gt; in the wake of last week's &lt;em&gt;scorching Tower commission report&lt;/em&gt; on the &lt;em&gt;origins&lt;/em&gt; of the &lt;em&gt;scandal&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

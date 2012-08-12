@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-863.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">182</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">118</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rescheduling</str>
+        <str name="text">bearer</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">specter</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">external</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">emulating</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">syndicate</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">brazil</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">suspending</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">participation</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Argentina's controversial new financing package should be completed quickly thanks to a wide range of innovative options in the deal, said Jorge Gonzalez, undersecretary for external debt in the economics ministry.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">214</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">S. had pressed for an agreement after Economics Minister Juan Sourrouille threatened at last week's spring meeting in Washington of the International Monetary Fund to break off talks unless banks stopped blocking a deal.</str>
         <int name="index">17</int>
         <int name="start">0</int>
         <int name="end">220</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9860722964825476</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">By providing their share of the 1.55 billion dlrs in new money being raised for Argentina via an easily tradable bearer bond instead of a participation in the syndicated loan, smaller banks could avoid time-consuming legal paperwork.</str>
-        <int name="index">5</int>
+        <str name="text">"We believe this is a package that will help Argentine to continue on the track it has elected to follow - stable growth and equilibrium in the external accounts," he said.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">234</int>
-        <double name="strength">0.9640705075253644</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The specter of Argentina emulating Brazil and suspending interest payments haunted policymakers and bankers alike, who have long feared the emergence of a debtors' cartel.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.9353788741772183</double>
+        <int name="end">173</int>
+        <double name="strength">0.9723821969387612</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. had &lt;em&gt;pressed&lt;/em&gt; for an &lt;em&gt;agreement after Economics Minister&lt;/em&gt; Juan &lt;em&gt;Sourrouille threatened&lt;/em&gt; at last week's &lt;em&gt;spring meeting&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; of the &lt;em&gt;International Monetary&lt;/em&gt; Fund to &lt;em&gt;break&lt;/em&gt; off &lt;em&gt;talks unless banks stopped blocking&lt;/em&gt; a deal.</str>
+        <str name="text">&lt;em&gt;Argentina&lt;/em&gt;'s &lt;em&gt;controversial&lt;/em&gt; new &lt;em&gt;financing package&lt;/em&gt; should be completed quickly &lt;em&gt;thanks&lt;/em&gt; to a wide &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;innovative options&lt;/em&gt; in the deal, said &lt;em&gt;Jorge Gonzalez, undersecretary&lt;/em&gt; for &lt;em&gt;external&lt;/em&gt; debt in the &lt;em&gt;economics ministry&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. had pressed for an &lt;em&gt;agreement&lt;/em&gt; after &lt;em&gt;Economics Minister&lt;/em&gt; Juan &lt;em&gt;Sourrouille&lt;/em&gt; threatened at last week's &lt;em&gt;spring meeting&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; of the &lt;em&gt;International Monetary&lt;/em&gt; Fund to &lt;em&gt;break&lt;/em&gt; off &lt;em&gt;talks&lt;/em&gt; unless &lt;em&gt;banks&lt;/em&gt; stopped blocking a deal.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">By &lt;em&gt;providing their share&lt;/em&gt; of the 1.55 &lt;em&gt;billion&lt;/em&gt; dlrs in new &lt;em&gt;money being raised&lt;/em&gt; for &lt;em&gt;Argentina&lt;/em&gt; via an &lt;em&gt;easily tradable bearer&lt;/em&gt; bond &lt;em&gt;instead&lt;/em&gt; of a &lt;em&gt;participation&lt;/em&gt; in the &lt;em&gt;syndicated&lt;/em&gt; loan, &lt;em&gt;smaller banks could avoid&lt;/em&gt; time-&lt;em&gt;consuming legal paperwork&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;specter&lt;/em&gt; of &lt;em&gt;Argentina emulating Brazil&lt;/em&gt; and &lt;em&gt;suspending interest payments haunted policymakers&lt;/em&gt; and &lt;em&gt;bankers alike,&lt;/em&gt; who have long &lt;em&gt;feared&lt;/em&gt; the &lt;em&gt;emergence&lt;/em&gt; of a &lt;em&gt;debtors' cartel&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">"We &lt;em&gt;believe&lt;/em&gt; this is a &lt;em&gt;package&lt;/em&gt; that will help &lt;em&gt;Argentine&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; on the &lt;em&gt;track&lt;/em&gt; it has elected to &lt;em&gt;follow - stable growth&lt;/em&gt; and &lt;em&gt;equilibrium&lt;/em&gt; in the &lt;em&gt;external accounts,"&lt;/em&gt; he said.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

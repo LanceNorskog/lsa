@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-310.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">karasawa</str>
+        <str name="text">telecommunications</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">competitor</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">wireless</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">electric</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">motor</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">rival</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Fumio Watanabe, a senior Keidanren (a leading business organization) official who has been trying to arrange the merger, will present a new outline of his proposal on Thursday, the ministry official said.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Opposition to the planned merger of two rival firms seeking to compete with the current monopoly &lt;Kokusai Denwa Denshin Co Ltd&gt;, and to reduce the share held in any KDD rival by U.</str>
-        <int name="index">7</int>
+        <str name="text">S. Firms including General Electric Co &lt;GE&gt;, Ford Motor Co &lt;F&gt; and Citibank NA &lt;CCI), and two European companies, ITJ president Nobuo Ito said yesterday.</str>
+        <int name="index">11</int>
         <int name="start">0</int>
-        <int name="end">183</int>
-        <double name="strength">0.8676854847884593</double>
+        <int name="end">153</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Cable and Wireless Director of Corporate Strategy, Jonathan Solomon, yesterday again told ministry officials he opposes a merger proposal that would limit Cable and Wireless' share to less than three pct and total foreign participation to about 20 pct, the ministry official said.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">281</int>
-        <double name="strength">0.8574826517005241</double>
+        <str name="text">Leverage may get the total foreign share up to a certain amount, but you won't find any one company with an extraordinarily large holding," Whitten said.</str>
+        <int name="index">22</int>
+        <int name="start">0</int>
+        <int name="end">153</int>
+        <double name="strength">0.9311640122205191</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Commerce Secretary Malcolm Baldrige that the ministry does not object to foreign participation by those U.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">109</int>
+        <double name="strength">0.8538228004040597</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fumio Watanabe,&lt;/em&gt; a &lt;em&gt;senior Keidanren &lt;/em&gt;(a &lt;em&gt;leading business organization) official&lt;/em&gt; who has been &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;arrange&lt;/em&gt; the &lt;em&gt;merger,&lt;/em&gt; will &lt;em&gt;present&lt;/em&gt; a new &lt;em&gt;outline&lt;/em&gt; of his &lt;em&gt;proposal&lt;/em&gt; on &lt;em&gt;Thursday,&lt;/em&gt; the &lt;em&gt;ministry official said&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">S. &lt;em&gt;Firms&lt;/em&gt; including &lt;em&gt;General Electric&lt;/em&gt; Co &lt;GE&gt;, Ford &lt;em&gt;Motor&lt;/em&gt; Co &lt;F&gt; and &lt;em&gt;Citibank&lt;/em&gt; NA &lt;CCI), and two &lt;em&gt;European companies,&lt;/em&gt; ITJ &lt;em&gt;president Nobuo&lt;/em&gt; Ito said &lt;em&gt;yesterday&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Opposition&lt;/em&gt; to the &lt;em&gt;planned merger&lt;/em&gt; of two &lt;em&gt;rival firms seeking&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; with the &lt;em&gt;current monopoly &lt;Kokusai Denwa Denshin&lt;/em&gt; Co Ltd&gt;, and to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;share&lt;/em&gt; held in any KDD &lt;em&gt;rival&lt;/em&gt; by U.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Leverage&lt;/em&gt; may get the &lt;em&gt;total foreign share&lt;/em&gt; up to a &lt;em&gt;certain amount,&lt;/em&gt; but you won't find any one &lt;em&gt;company&lt;/em&gt; with an extraordinarily &lt;em&gt;large holding," Whitten said&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Cable&lt;/em&gt; and &lt;em&gt;Wireless Director&lt;/em&gt; of &lt;em&gt;Corporate Strategy, Jonathan Solomon, yesterday again&lt;/em&gt; told &lt;em&gt;ministry officials&lt;/em&gt; he &lt;em&gt;opposes&lt;/em&gt; a &lt;em&gt;merger proposal&lt;/em&gt; that &lt;em&gt;would limit Cable&lt;/em&gt; and &lt;em&gt;Wireless' share&lt;/em&gt; to less than &lt;em&gt;three&lt;/em&gt; pct and &lt;em&gt;total foreign participation&lt;/em&gt; to &lt;em&gt;about 20&lt;/em&gt; pct, the &lt;em&gt;ministry official said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">S. &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt; that the &lt;em&gt;ministry&lt;/em&gt; does not &lt;em&gt;object&lt;/em&gt; to &lt;em&gt;foreign participation&lt;/em&gt; by those U.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

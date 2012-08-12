@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-921.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">132</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cents</str>
+        <str name="text">group</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">imputed</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">balance</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">strong</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">coupled</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">proceeds</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999962</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">179</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Consequently, it has funds available for distribution with dividend imputed but is waiting to see the imputation legislation before determining the final payout, it said.</str>
-        <int name="index">6</int>
+        <str name="text">Other extraordinary items were 63.3 mln dlrs provided for closures and writedown of assets and a 14.1 mln increase in future tax provisions, CRA said.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.9383148632568337</double>
+        <int name="end">151</int>
+        <double name="strength">0.9879440462214508</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The strong cash flow, coupled with the proceeds of the 1986 rights issue and the use of existing cash balances, enabled group debt to be reduced by nearly 500 mln dlrs.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">168</int>
-        <double name="strength">0.9352434479350141</double>
+        <str name="text">CRA said the main item in its 250.28 mln dlr extraordinary loss was a 172.9 mln writeoff of unrealised foreign exchange losses on borrowings as required by a new accounting standard.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">183</int>
+        <double name="strength">0.9415850117693247</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fluctuating exchange&lt;/em&gt; and &lt;em&gt;interest rates added volatility&lt;/em&gt; and &lt;em&gt;uncertainty, while&lt;/em&gt; the &lt;em&gt;revaluation&lt;/em&gt; of the yen is &lt;em&gt;leading&lt;/em&gt; to &lt;em&gt;substantial restructuring&lt;/em&gt; of &lt;em&gt;Japanese industry,&lt;/em&gt; CRA said.</str>
+        <str name="text">Fluctuating &lt;em&gt;exchange&lt;/em&gt; and &lt;em&gt;interest rates&lt;/em&gt; added &lt;em&gt;volatility&lt;/em&gt; and &lt;em&gt;uncertainty,&lt;/em&gt; while the &lt;em&gt;revaluation&lt;/em&gt; of the yen is leading to &lt;em&gt;substantial restructuring&lt;/em&gt; of &lt;em&gt;Japanese industry,&lt;/em&gt; CRA said.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Consequently,&lt;/em&gt; it has &lt;em&gt;funds available&lt;/em&gt; for &lt;em&gt;distribution&lt;/em&gt; with &lt;em&gt;dividend imputed&lt;/em&gt; but is &lt;em&gt;waiting&lt;/em&gt; to see the &lt;em&gt;imputation legislation before determining&lt;/em&gt; the &lt;em&gt;final payout,&lt;/em&gt; it said.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Other extraordinary items&lt;/em&gt; were 63.3 mln dlrs provided for &lt;em&gt;closures&lt;/em&gt; and &lt;em&gt;writedown&lt;/em&gt; of &lt;em&gt;assets&lt;/em&gt; and a 14.1 mln &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;future&lt;/em&gt; tax &lt;em&gt;provisions,&lt;/em&gt; CRA said.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;strong&lt;/em&gt; cash flow, &lt;em&gt;coupled&lt;/em&gt; with the &lt;em&gt;proceeds&lt;/em&gt; of the 1986 &lt;em&gt;rights issue&lt;/em&gt; and the use of &lt;em&gt;existing&lt;/em&gt; cash &lt;em&gt;balances, enabled group&lt;/em&gt; debt to be &lt;em&gt;reduced&lt;/em&gt; by &lt;em&gt;nearly 500&lt;/em&gt; mln dlrs.</str>
-        <int name="index">23</int>
+        <str name="text">CRA said the main item in its 250.28 mln dlr &lt;em&gt;extraordinary&lt;/em&gt; loss was a 172.9 mln &lt;em&gt;writeoff&lt;/em&gt; of &lt;em&gt;unrealised foreign exchange losses&lt;/em&gt; on &lt;em&gt;borrowings&lt;/em&gt; as required by a new &lt;em&gt;accounting standard&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

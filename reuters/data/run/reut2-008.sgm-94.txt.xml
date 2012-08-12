@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-94.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">111</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stress</str>
+        <str name="text">middle</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">support</str>
+        <str name="text">discuss</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">1.0</double>
+        <str name="text">relations</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">peace</str>
-        <double name="strength">1.0</double>
+        <str name="text">evidence</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">conference</str>
-        <double name="strength">1.0</double>
+        <str name="text">syrians</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But they were strained last year by the deportation of 35 British nurses from the kingdom for illegal drinking and the publication of a letter by a retired British ambassador describing Saudi Arabians as incompetent and arrogant.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">229</int>
-        <double name="strength">0.9434187443750347</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Saudi leader will hold talks with Prime Minister Margaret Thatcher and meet Queen Elizabeth and Prince Philip during the visit, his first to Britain since he assumed power in June 1982.</str>
-        <int name="index">5</int>
+        <str name="text">Britain will stress its support for an international peace conference on the Middle East and its concern over alleged human rights abuses by Israel in the occupied West Bank and Gaza, the officials told Reuters.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.9174650612245752</double>
+        <int name="end">212</int>
+        <double name="strength">0.9726404363372744</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Saudi Oil Minister Hisham Nazer is likely to discuss oil price stabilisation but Britain would not change its refusal to limit its North Sea oil production and exports, officials said.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">185</int>
+        <double name="strength">0.8950164318743042</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;British officials&lt;/em&gt; said King Fahd may ask &lt;em&gt;Britain&lt;/em&gt; to &lt;em&gt;restore diplomatic relations&lt;/em&gt; with &lt;em&gt;Syria, broken&lt;/em&gt; off by &lt;em&gt;London&lt;/em&gt; last &lt;em&gt;October after evidence&lt;/em&gt; in the &lt;em&gt;trial&lt;/em&gt; of &lt;em&gt;Nizar Hindawi showed Syrian agents&lt;/em&gt; were &lt;em&gt;behind&lt;/em&gt; a plan to bomb an &lt;em&gt;Israeli airliner&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;British officials&lt;/em&gt; said King Fahd may ask &lt;em&gt;Britain&lt;/em&gt; to &lt;em&gt;restore diplomatic relations&lt;/em&gt; with &lt;em&gt;Syria,&lt;/em&gt; broken off by &lt;em&gt;London&lt;/em&gt; last &lt;em&gt;October&lt;/em&gt; after &lt;em&gt;evidence&lt;/em&gt; in the &lt;em&gt;trial&lt;/em&gt; of &lt;em&gt;Nizar Hindawi&lt;/em&gt; showed &lt;em&gt;Syrian agents&lt;/em&gt; were behind a plan to bomb an &lt;em&gt;Israeli airliner&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But they were &lt;em&gt;strained&lt;/em&gt; last year by the &lt;em&gt;deportation&lt;/em&gt; of 35 &lt;em&gt;British nurses&lt;/em&gt; from the &lt;em&gt;kingdom&lt;/em&gt; for &lt;em&gt;illegal drinking&lt;/em&gt; and the &lt;em&gt;publication&lt;/em&gt; of a &lt;em&gt;letter&lt;/em&gt; by a &lt;em&gt;retired British ambassador describing Saudi Arabians&lt;/em&gt; as &lt;em&gt;incompetent&lt;/em&gt; and &lt;em&gt;arrogant&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Britain&lt;/em&gt; will &lt;em&gt;stress&lt;/em&gt; its &lt;em&gt;support&lt;/em&gt; for an &lt;em&gt;international peace conference&lt;/em&gt; on the &lt;em&gt;Middle&lt;/em&gt; East and its &lt;em&gt;concern&lt;/em&gt; over alleged &lt;em&gt;human rights abuses&lt;/em&gt; by &lt;em&gt;Israel&lt;/em&gt; in the &lt;em&gt;occupied&lt;/em&gt; West Bank and Gaza, the &lt;em&gt;officials&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Saudi leader&lt;/em&gt; will hold &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;Prime Minister Margaret Thatcher&lt;/em&gt; and meet &lt;em&gt;Queen Elizabeth&lt;/em&gt; and &lt;em&gt;Prince Philip during&lt;/em&gt; the &lt;em&gt;visit,&lt;/em&gt; his &lt;em&gt;first&lt;/em&gt; to &lt;em&gt;Britain since&lt;/em&gt; he &lt;em&gt;assumed power&lt;/em&gt; in June 1982.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Saudi&lt;/em&gt; Oil &lt;em&gt;Minister Hisham Nazer&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; oil &lt;em&gt;price stabilisation&lt;/em&gt; but &lt;em&gt;Britain&lt;/em&gt; would not &lt;em&gt;change&lt;/em&gt; its &lt;em&gt;refusal&lt;/em&gt; to &lt;em&gt;limit&lt;/em&gt; its &lt;em&gt;North&lt;/em&gt; Sea oil &lt;em&gt;production&lt;/em&gt; and &lt;em&gt;exports, officials said&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

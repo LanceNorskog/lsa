@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-762.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">84</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">54</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">agriculture</str>
+        <str name="text">domestic</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">suffers</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">grain</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">surpluses</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">output</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">rising</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">agriculture</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">exporting</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">general</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">216</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. Agriculture Secretary Richard Lyng has asked Japan to open its farm market further to help Washington cut its trade deficit and ease protectionist pressures, an Agriculture Ministry official told reporters.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">211</int>
-        <double name="strength">0.9000182546524033</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Kato said Japan will maintain its current level of self-sufficiency and will try not to produce surplus rice because potential production is higher than domestic demand.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.8184349127830588</double>
+        <double name="strength">0.881160408576303</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Complaints against Japan to the General Agreement on Tariffs and Trade (GATT) last year, as well as on beef, citrus products and rice.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">0.6523173652623876</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Hideo&lt;/em&gt; Maki, &lt;em&gt;Director General&lt;/em&gt; of the &lt;em&gt;ministry&lt;/em&gt;'s &lt;em&gt;Economic Affairs Bureau, quoted&lt;/em&gt; Lyng as &lt;em&gt;telling Agriculture Minister Mutsuki&lt;/em&gt; Kato that the &lt;em&gt;removal&lt;/em&gt; of &lt;em&gt;import restrictions would&lt;/em&gt; help &lt;em&gt;Japan&lt;/em&gt; as well as the &lt;em&gt;United States&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Hideo&lt;/em&gt; Maki, &lt;em&gt;Director General&lt;/em&gt; of the &lt;em&gt;ministry&lt;/em&gt;'s &lt;em&gt;Economic Affairs Bureau,&lt;/em&gt; quoted Lyng as telling &lt;em&gt;Agriculture Minister&lt;/em&gt; Mutsuki Kato that the &lt;em&gt;removal&lt;/em&gt; of &lt;em&gt;import restrictions&lt;/em&gt; would help &lt;em&gt;Japan&lt;/em&gt; as well as the United &lt;em&gt;States&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng has &lt;em&gt;asked Japan&lt;/em&gt; to open its farm &lt;em&gt;market further&lt;/em&gt; to help &lt;em&gt;Washington&lt;/em&gt; cut its &lt;em&gt;trade deficit&lt;/em&gt; and ease &lt;em&gt;protectionist pressures,&lt;/em&gt; an &lt;em&gt;Agriculture Ministry official&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">Kato said &lt;em&gt;Japan&lt;/em&gt; will &lt;em&gt;maintain&lt;/em&gt; its &lt;em&gt;current level&lt;/em&gt; of self-&lt;em&gt;sufficiency&lt;/em&gt; and will try not to &lt;em&gt;produce surplus&lt;/em&gt; rice because &lt;em&gt;potential production&lt;/em&gt; is higher than &lt;em&gt;domestic demand&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Kato said &lt;em&gt;Japan&lt;/em&gt; will &lt;em&gt;maintain&lt;/em&gt; its &lt;em&gt;current level&lt;/em&gt; of self-&lt;em&gt;sufficiency&lt;/em&gt; and will try not to &lt;em&gt;produce surplus&lt;/em&gt; rice &lt;em&gt;because potential production&lt;/em&gt; is &lt;em&gt;higher&lt;/em&gt; than &lt;em&gt;domestic demand&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">S. &lt;em&gt;Complaints&lt;/em&gt; against &lt;em&gt;Japan&lt;/em&gt; to the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT) last year, as well as on beef, &lt;em&gt;citrus products&lt;/em&gt; and rice.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

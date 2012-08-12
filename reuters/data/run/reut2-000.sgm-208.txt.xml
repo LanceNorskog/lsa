@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-208.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">221</int>
+        <int name="count">153</int>
       </lst>
       <lst name="stems">
-        <int name="count">147</int>
+        <int name="count">103</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">estimate</str>
+        <str name="text">economists</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">resulting</str>
-        <double name="strength">0.9999999999999963</double>
+        <str name="text">boost</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5590169943749452</double>
+        <str name="text">develle</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">percentage</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">policy</str>
+        <double name="strength">0.999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">france</str>
+        <double name="strength">0.9999999999999958</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">261</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Moving reluctantly into line with most private sector forecasts the government yesterday raised its 1987 inflation estimate a half percentage point to 2.5 per cent and cut its economic growth estimate to between two and 2.8 per cent from a 2.8 per cent target written into the annual budget last september.</str>
-        <int name="index">1</int>
+        <str name="text">And bank economists contacted by Reuters said they believed Prime Minister Jacques Chirac could be forced by slow growth and rising unemployment to reflate the economy later this year, perhaps in the autumn, to boost his prospects in Presidential elections due by April 1988.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">307</int>
-        <double name="strength">0.9302809776309233</double>
+        <int name="end">276</int>
+        <double name="strength">0.8981831059650401</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the head of the socialist CFDT union federation, Edmond Maire, meeting with Chirac today, renewed union demands already rejected by the government for indexation clauses to be built into future pay contracts to safeguard workers against higher prices.</str>
-        <int name="index">10</int>
+        <str name="text">But Trade Union leaders served immediate notice they would push to protect the purchasing power of their members, raising the spectre of a vicious spiral of wage and price rises.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">256</int>
-        <double name="strength">0.9119766473467065</double>
+        <int name="end">179</int>
+        <double name="strength">0.8738528054034154</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Andre Bergeron,&lt;/em&gt; a &lt;em&gt;widely respected leader&lt;/em&gt; of the &lt;em&gt;moderate Force Ouvriere labour group,&lt;/em&gt; put &lt;em&gt;similar demands&lt;/em&gt; to &lt;em&gt;Chirac earlier&lt;/em&gt; in the week &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;Communist&lt;/em&gt;-led CGT, the &lt;em&gt;largest&lt;/em&gt; of &lt;em&gt;France&lt;/em&gt;'s &lt;em&gt;unions, declared&lt;/em&gt; the &lt;em&gt;defence&lt;/em&gt; of its &lt;em&gt;members earnings&lt;/em&gt; its top &lt;em&gt;priority&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Andre&lt;/em&gt; Bergeron, a widely &lt;em&gt;respected leader&lt;/em&gt; of the &lt;em&gt;moderate Force Ouvriere labour group,&lt;/em&gt; put &lt;em&gt;similar demands&lt;/em&gt; to &lt;em&gt;Chirac&lt;/em&gt; earlier in the week while the &lt;em&gt;Communist&lt;/em&gt;-led CGT, the largest of &lt;em&gt;France&lt;/em&gt;'s &lt;em&gt;unions,&lt;/em&gt; declared the &lt;em&gt;defence&lt;/em&gt; of its &lt;em&gt;members earnings&lt;/em&gt; its top &lt;em&gt;priority&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Moving reluctantly&lt;/em&gt; into line with most &lt;em&gt;private sector forecasts&lt;/em&gt; the &lt;em&gt;government yesterday raised&lt;/em&gt; its 1987 &lt;em&gt;inflation estimate&lt;/em&gt; a half &lt;em&gt;percentage point&lt;/em&gt; to 2.5 per cent and cut its &lt;em&gt;economic growth estimate&lt;/em&gt; to &lt;em&gt;between&lt;/em&gt; two and 2.8 per cent from a 2.8 per cent &lt;em&gt;target written&lt;/em&gt; into the &lt;em&gt;annual budget&lt;/em&gt; last &lt;em&gt;september&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">And bank &lt;em&gt;economists&lt;/em&gt; contacted by &lt;em&gt;Reuters&lt;/em&gt; said they believed &lt;em&gt;Prime Minister Jacques Chirac&lt;/em&gt; could be forced by slow &lt;em&gt;growth&lt;/em&gt; and rising &lt;em&gt;unemployment&lt;/em&gt; to &lt;em&gt;reflate&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; later this year, perhaps in the &lt;em&gt;autumn,&lt;/em&gt; to &lt;em&gt;boost&lt;/em&gt; his &lt;em&gt;prospects&lt;/em&gt; in &lt;em&gt;Presidential elections&lt;/em&gt; due by &lt;em&gt;April 1988&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the head of the &lt;em&gt;socialist&lt;/em&gt; CFDT &lt;em&gt;union federation, Edmond Maire, meeting&lt;/em&gt; with &lt;em&gt;Chirac today, renewed union demands already rejected&lt;/em&gt; by the &lt;em&gt;government&lt;/em&gt; for &lt;em&gt;indexation clauses&lt;/em&gt; to be &lt;em&gt;built&lt;/em&gt; into &lt;em&gt;future&lt;/em&gt; pay &lt;em&gt;contracts&lt;/em&gt; to &lt;em&gt;safeguard workers against higher prices&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">But &lt;em&gt;Trade Union leaders&lt;/em&gt; served &lt;em&gt;immediate notice&lt;/em&gt; they would push to &lt;em&gt;protect&lt;/em&gt; the &lt;em&gt;purchasing power&lt;/em&gt; of their &lt;em&gt;members,&lt;/em&gt; raising the &lt;em&gt;spectre&lt;/em&gt; of a &lt;em&gt;vicious spiral&lt;/em&gt; of wage and &lt;em&gt;price rises&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

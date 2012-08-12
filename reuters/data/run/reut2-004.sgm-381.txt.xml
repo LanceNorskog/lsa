@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-381.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">59</int>
+        <int name="count">33</int>
       </lst>
       <lst name="stems">
-        <int name="count">35</int>
+        <int name="count">16</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">because</str>
+        <str name="text">definitive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">bought</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">commitment</str>
+        <double name="strength">0.805316200512901</double>
+      </lst>
+      <lst name="term">
+        <str name="text">point</str>
+        <double name="strength">0.805316200512901</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reuters</str>
+        <double name="strength">0.7632918938655398</double>
       </lst>
       <lst name="term">
         <str name="text">knowledge</str>
-        <double name="strength">0.5590169943749472</double>
-      </lst>
-      <lst name="term">
-        <str name="text">tonnes</str>
-        <double name="strength">0.5527707983925672</double>
-      </lst>
-      <lst name="term">
-        <str name="text">during</str>
-        <double name="strength">0.5000000000000007</double>
+        <double name="strength">0.7632918938655393</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Moscow bought 6.8 mln tonnes of corn and 153,000 tonnes of wheat during the third agreement year, which ended last September, and this year has bought one mln tonnes of corn.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. corn last month because "they needed it and because the price was right."</str>
-        <int name="index">15</int>
-        <int name="start">0</int>
-        <int name="end">76</int>
-        <double name="strength">0.9791208740244549</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"It would be my thought that it's not worth any effort to work out an agreement with someone who wants the agreement to be a one-sided thing," he said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">152</int>
-        <double name="strength">0.8698606117822607</double>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. Agriculture Secretary Richard Lyng said he was not sure a long-term U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">75</int>
+        <double name="strength">0.9666921437893418</double>
+        <int name="terms">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, Lyng said he did not want to make a "definitive commitment one way or another at this point."</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">103</int>
+        <double name="strength">0.9666921437893412</double>
+        <int name="terms">3</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Moscow bought 6.8&lt;/em&gt; mln &lt;em&gt;tonnes&lt;/em&gt; of corn and 153,000 &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;wheat during&lt;/em&gt; the &lt;em&gt;third agreement&lt;/em&gt; year, &lt;em&gt;which ended&lt;/em&gt; last &lt;em&gt;September,&lt;/em&gt; and this year has &lt;em&gt;bought&lt;/em&gt; one mln &lt;em&gt;tonnes&lt;/em&gt; of corn.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. corn last &lt;em&gt;month because &lt;/em&gt;"they &lt;em&gt;needed&lt;/em&gt; it and &lt;em&gt;because&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; was &lt;em&gt;right.&lt;/em&gt;"</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"It &lt;em&gt;would&lt;/em&gt; be my &lt;em&gt;thought&lt;/em&gt; that it's not &lt;em&gt;worth&lt;/em&gt; any &lt;em&gt;effort&lt;/em&gt; to work out an &lt;em&gt;agreement&lt;/em&gt; with &lt;em&gt;someone&lt;/em&gt; who &lt;em&gt;wants&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt; to be a one-&lt;em&gt;sided thing,"&lt;/em&gt; he said.</str>
+        <str name="text">"It would be my &lt;em&gt;thought&lt;/em&gt; that it's not &lt;em&gt;worth&lt;/em&gt; any &lt;em&gt;effort&lt;/em&gt; to work out an &lt;em&gt;agreement&lt;/em&gt; with &lt;em&gt;someone&lt;/em&gt; who wants the &lt;em&gt;agreement&lt;/em&gt; to be a one-&lt;em&gt;sided thing,"&lt;/em&gt; he said.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng said he was not sure a long-term U.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, Lyng said he did not want to make a "&lt;em&gt;definitive commitment&lt;/em&gt; one way or another at this &lt;em&gt;point.&lt;/em&gt;"</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

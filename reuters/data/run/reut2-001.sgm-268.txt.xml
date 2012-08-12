@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-268.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">share</str>
+        <str name="text">woolco</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999978</double>
-      </lst>
-      <lst name="term">
         <str name="text">quarter</str>
-        <double name="strength">0.7905694150420951</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">increases</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">earnings</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">founded</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">retailer</str>
+        <double name="strength">0.999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">states</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">181</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Among other units are Little Folk Shop, a chain of discount children's apparel stores; The Rx Place, a discount drug, health and beauty aid operation; and Face Fantasies, which sells cosmetics.</str>
         <int name="index">12</int>
         <int name="start">0</int>
         <int name="end">193</int>
-        <double name="strength">0.9915041258933083</double>
+        <double name="strength">0.7944263044848561</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It was the fourth consecutive year of profit increases for the New York-based retailer which was founded over 100 years ago.</str>
-        <int name="index">2</int>
+        <str name="text">Sells that it was the fourth successive year earnings in each quarter improved over the corresponding year-earlier period.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">125</int>
-        <double name="strength">0.7455028007554821</double>
+        <int name="end">123</int>
+        <double name="strength">0.7043481124010602</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Harold Sells, chairman&lt;/em&gt; and &lt;em&gt;chief executive&lt;/em&gt; of &lt;em&gt;Woolworth,&lt;/em&gt; said in a &lt;em&gt;statement, "These results&lt;/em&gt; are &lt;em&gt;especially gratifying&lt;/em&gt; as they are an &lt;em&gt;improvement&lt;/em&gt; over last year's &lt;em&gt;record earnings.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Harold&lt;/em&gt; Sells, &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive&lt;/em&gt; of &lt;em&gt;Woolworth,&lt;/em&gt; said in a &lt;em&gt;statement, &lt;/em&gt;"These &lt;em&gt;results&lt;/em&gt; are especially &lt;em&gt;gratifying&lt;/em&gt; as they are an &lt;em&gt;improvement&lt;/em&gt; over last year's &lt;em&gt;record earnings.&lt;/em&gt;"</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Among other units&lt;/em&gt; are &lt;em&gt;Little&lt;/em&gt; Folk Shop, a &lt;em&gt;chain&lt;/em&gt; of &lt;em&gt;discount children&lt;/em&gt;'s &lt;em&gt;apparel stores;&lt;/em&gt; The Rx &lt;em&gt;Place,&lt;/em&gt; a &lt;em&gt;discount&lt;/em&gt; drug, &lt;em&gt;health&lt;/em&gt; and &lt;em&gt;beauty&lt;/em&gt; aid &lt;em&gt;operation;&lt;/em&gt; and Face &lt;em&gt;Fantasies, which sells cosmetics&lt;/em&gt;.</str>
+        <str name="text">Among &lt;em&gt;other units&lt;/em&gt; are &lt;em&gt;Little&lt;/em&gt; Folk Shop, a &lt;em&gt;chain&lt;/em&gt; of &lt;em&gt;discount children&lt;/em&gt;'s &lt;em&gt;apparel stores;&lt;/em&gt; The Rx &lt;em&gt;Place,&lt;/em&gt; a &lt;em&gt;discount&lt;/em&gt; drug, &lt;em&gt;health&lt;/em&gt; and &lt;em&gt;beauty&lt;/em&gt; aid &lt;em&gt;operation;&lt;/em&gt; and Face &lt;em&gt;Fantasies,&lt;/em&gt; which sells &lt;em&gt;cosmetics&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It was the &lt;em&gt;fourth consecutive&lt;/em&gt; year of &lt;em&gt;profit increases&lt;/em&gt; for the New York-&lt;em&gt;based retailer which&lt;/em&gt; was &lt;em&gt;founded&lt;/em&gt; over 100 &lt;em&gt;years ago&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">Sells that it was the &lt;em&gt;fourth successive&lt;/em&gt; year &lt;em&gt;earnings&lt;/em&gt; in each &lt;em&gt;quarter&lt;/em&gt; improved over the &lt;em&gt;corresponding&lt;/em&gt; year-earlier &lt;em&gt;period&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

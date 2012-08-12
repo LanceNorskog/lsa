@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-642.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">stake</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">possible</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">ended</str>
-        <double name="strength">0.5</double>
+        <str name="text">technology</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">recording</str>
-        <double name="strength">0.5</double>
+        <str name="text">computer</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">special</str>
-        <double name="strength">0.5</double>
+        <str name="text">commerce</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">In the interim, Fairchild would continue its ongoing business within Schlumberger, the oilfield services concern said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">119</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The company said termination of the agreement opened other possibilities, including a possible leveraged buyout of the semiconductor maker by Fairchild management.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">164</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8734101201424083</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The company ended up recording special charges of 2.1 billion dlrs in the fourth quarter, leading to a loss of 2.02 billion dlrs for the year.</str>
-        <int name="index">9</int>
+        <str name="text">S. Defense Department, in part on national security grounds.</str>
+        <int name="index">5</int>
         <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.9287175857714989</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Schlumberger never announced a price for the sale, but industry analysts have estimated the value of the deal at about 200 mln dlrs.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.7925321968445975</double>
+        <int name="end">60</int>
+        <double name="strength">0.8525265481058993</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said &lt;em&gt;termination&lt;/em&gt; of the &lt;em&gt;agreement opened other possibilities, including&lt;/em&gt; a &lt;em&gt;possible leveraged buyout&lt;/em&gt; of the &lt;em&gt;semiconductor maker&lt;/em&gt; by &lt;em&gt;Fairchild management&lt;/em&gt;.</str>
+        <str name="text">In the &lt;em&gt;interim, Fairchild&lt;/em&gt; would &lt;em&gt;continue&lt;/em&gt; its &lt;em&gt;ongoing business&lt;/em&gt; within &lt;em&gt;Schlumberger,&lt;/em&gt; the &lt;em&gt;oilfield services concern said&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said &lt;em&gt;termination&lt;/em&gt; of the &lt;em&gt;agreement&lt;/em&gt; opened &lt;em&gt;other possibilities,&lt;/em&gt; including a &lt;em&gt;possible leveraged buyout&lt;/em&gt; of the &lt;em&gt;semiconductor maker&lt;/em&gt; by &lt;em&gt;Fairchild management&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company ended&lt;/em&gt; up &lt;em&gt;recording special charges&lt;/em&gt; of 2.1 &lt;em&gt;billion&lt;/em&gt; dlrs in the &lt;em&gt;fourth quarter, leading&lt;/em&gt; to a loss of 2.02 &lt;em&gt;billion&lt;/em&gt; dlrs for the year.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Schlumberger never announced&lt;/em&gt; a &lt;em&gt;price&lt;/em&gt; for the sale, but &lt;em&gt;industry analysts&lt;/em&gt; have &lt;em&gt;estimated&lt;/em&gt; the &lt;em&gt;value&lt;/em&gt; of the deal at &lt;em&gt;about 200&lt;/em&gt; mln dlrs.</str>
-        <int name="index">10</int>
+        <str name="text">S. &lt;em&gt;Defense Department,&lt;/em&gt; in part on &lt;em&gt;national security grounds&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

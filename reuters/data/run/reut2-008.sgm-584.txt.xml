@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-584.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">90</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">still</str>
+        <str name="text">figure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">british</str>
-        <double name="strength">0.707106781186548</double>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">normal</str>
-        <double name="strength">0.5994789404140909</double>
+        <str name="text">positive</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">commenting</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">balance</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">economic</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"But interest rates are still much higher than in our competitor countries and British manufacturers will still have to work hard to win new business both in overseas markets and in the substitution of British-made goods for imports here at home," he said.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">257</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Commenting on the survey, CBI economic situation committee chairman David Wigglesworth said sterling's more competitive level against many European currencies had improved exports.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.923843023616142</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"But interest rates are still much higher than in our competitor countries and British manufacturers will still have to work hard to win new business both in overseas markets and in the substitution of British-made goods for imports here at home," he said.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">257</int>
+        <double name="strength">0.8082025940484533</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">This was the highest positive balance since the question was first asked more than 10 years ago, the CBI said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">111</int>
-        <double name="strength">0.5859587353090476</double>
+        <double name="strength">0.6554921372091548</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"But &lt;em&gt;interest rates&lt;/em&gt; are &lt;em&gt;still&lt;/em&gt; much &lt;em&gt;higher&lt;/em&gt; than in our &lt;em&gt;competitor countries&lt;/em&gt; and &lt;em&gt;British manufacturers&lt;/em&gt; will &lt;em&gt;still&lt;/em&gt; have to work hard to win new &lt;em&gt;business&lt;/em&gt; both in &lt;em&gt;overseas markets&lt;/em&gt; and in the &lt;em&gt;substitution&lt;/em&gt; of &lt;em&gt;British&lt;/em&gt;-made &lt;em&gt;goods&lt;/em&gt; for &lt;em&gt;imports&lt;/em&gt; here at home," he said.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Commenting&lt;/em&gt; on the &lt;em&gt;survey,&lt;/em&gt; CBI &lt;em&gt;economic situation committee chairman David Wigglesworth&lt;/em&gt; said &lt;em&gt;sterling&lt;/em&gt;'s more &lt;em&gt;competitive level against&lt;/em&gt; many &lt;em&gt;European currencies&lt;/em&gt; had &lt;em&gt;improved exports&lt;/em&gt;.</str>
+        <str name="text">Commenting on the &lt;em&gt;survey,&lt;/em&gt; CBI &lt;em&gt;economic situation committee chairman&lt;/em&gt; David &lt;em&gt;Wigglesworth&lt;/em&gt; said &lt;em&gt;sterling&lt;/em&gt;'s more &lt;em&gt;competitive level&lt;/em&gt; against many &lt;em&gt;European currencies&lt;/em&gt; had improved &lt;em&gt;exports&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This was the &lt;em&gt;highest positive balance since&lt;/em&gt; the &lt;em&gt;question&lt;/em&gt; was &lt;em&gt;first asked&lt;/em&gt; more than 10 &lt;em&gt;years&lt;/em&gt; ago, the CBI said.</str>
+        <str name="text">"But &lt;em&gt;interest rates&lt;/em&gt; are still much higher than in our &lt;em&gt;competitor countries&lt;/em&gt; and &lt;em&gt;British manufacturers&lt;/em&gt; will still have to work hard to win new &lt;em&gt;business&lt;/em&gt; both in &lt;em&gt;overseas markets&lt;/em&gt; and in the &lt;em&gt;substitution&lt;/em&gt; of &lt;em&gt;British&lt;/em&gt;-made &lt;em&gt;goods&lt;/em&gt; for &lt;em&gt;imports&lt;/em&gt; here at home," he said.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This was the highest &lt;em&gt;positive balance&lt;/em&gt; since the &lt;em&gt;question&lt;/em&gt; was &lt;em&gt;first&lt;/em&gt; asked more than 10 &lt;em&gt;years&lt;/em&gt; ago, the CBI said.</str>
         <int name="index">7</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-889.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">eight</str>
+        <str name="text">areas</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999999</double>
+        <str name="text">cordoba</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">figure</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">intense</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">varied</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">rainfall</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">widely</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">buenos</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Crops were considered in generally good condition, though it is still too early to judge whether the intense rains of recent weeks caused any long-term damage.</str>
-        <int name="index">10</int>
+        <str name="text">The change in yield estimates is due to very high temperatures and inadequate rainfall since early in the year in the soybean-producing belt of southern Cordoba and Santa Fe and northern Buenos Aires province.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">160</int>
+        <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">With clear skies and seasonable temperatures, fields were able to dry in areas that had received heavy rains in recent weeks, allowing growers to accelerate the pace of maize, sunflower and sorghum harvesting.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.9183941404505769</double>
+        <double name="strength">0.9661160151479881</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But even the lowest of those estimates would be 8.5 to 12.7 pct greater than last year's total of 7.1 mln tonnes, according to official figures, and would be a new record.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.8962329528148364</double>
+        <str name="text">Argentine grain growers reduced their estimates for maize and soybean production in the current harvest in the week to yesterday, trade sources said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
+        <double name="strength">0.7815130643333965</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Crops&lt;/em&gt; were &lt;em&gt;considered&lt;/em&gt; in &lt;em&gt;generally&lt;/em&gt; good &lt;em&gt;condition, though&lt;/em&gt; it is &lt;em&gt;still&lt;/em&gt; too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;judge whether&lt;/em&gt; the &lt;em&gt;intense rains&lt;/em&gt; of &lt;em&gt;recent weeks caused&lt;/em&gt; any long-term &lt;em&gt;damage&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;yield estimates&lt;/em&gt; is due to very high &lt;em&gt;temperatures&lt;/em&gt; and &lt;em&gt;inadequate rainfall&lt;/em&gt; since early in the year in the &lt;em&gt;soybean&lt;/em&gt;-producing belt of &lt;em&gt;southern Cordoba&lt;/em&gt; and &lt;em&gt;Santa&lt;/em&gt; Fe and &lt;em&gt;northern Buenos Aires province&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">With &lt;em&gt;clear skies&lt;/em&gt; and &lt;em&gt;seasonable temperatures, fields&lt;/em&gt; were able to dry in &lt;em&gt;areas&lt;/em&gt; that had &lt;em&gt;received heavy rains&lt;/em&gt; in &lt;em&gt;recent weeks, allowing growers&lt;/em&gt; to &lt;em&gt;accelerate&lt;/em&gt; the pace of &lt;em&gt;maize, sunflower&lt;/em&gt; and &lt;em&gt;sorghum harvesting&lt;/em&gt;.</str>
+        <str name="text">With &lt;em&gt;clear skies&lt;/em&gt; and &lt;em&gt;seasonable temperatures, fields&lt;/em&gt; were able to dry in &lt;em&gt;areas&lt;/em&gt; that had received &lt;em&gt;heavy rains&lt;/em&gt; in &lt;em&gt;recent weeks,&lt;/em&gt; allowing &lt;em&gt;growers&lt;/em&gt; to &lt;em&gt;accelerate&lt;/em&gt; the pace of &lt;em&gt;maize, sunflower&lt;/em&gt; and &lt;em&gt;sorghum harvesting&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But even the &lt;em&gt;lowest&lt;/em&gt; of &lt;em&gt;those estimates would&lt;/em&gt; be 8.5 to 12.7 pct &lt;em&gt;greater&lt;/em&gt; than last year's &lt;em&gt;total&lt;/em&gt; of 7.1 mln &lt;em&gt;tonnes, according&lt;/em&gt; to &lt;em&gt;official figures,&lt;/em&gt; and &lt;em&gt;would&lt;/em&gt; be a new &lt;em&gt;record&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Argentine grain growers&lt;/em&gt; reduced their &lt;em&gt;estimates&lt;/em&gt; for &lt;em&gt;maize&lt;/em&gt; and &lt;em&gt;soybean production&lt;/em&gt; in the &lt;em&gt;current harvest&lt;/em&gt; in the week to &lt;em&gt;yesterday, trade sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

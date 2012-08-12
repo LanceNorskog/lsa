@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-642.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">166</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">institutions</str>
+        <str name="text">record</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tokyo</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">singapore</str>
+        <double name="strength">0.9902417144806032</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.559016994374948</double>
+        <str name="text">international</str>
+        <double name="strength">0.9902417144806008</double>
       </lst>
       <lst name="term">
-        <str name="text">bonds</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">april</str>
+        <double name="strength">0.9902417144806006</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749463</double>
+        <str name="text">competitive</str>
+        <double name="strength">0.9902417144806005</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Banking sources said the tax change would boost SIMEX trading by non-bank institutions and individuals and would benefit foreign firms and institutions.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">153</int>
+        <str name="text">The current bid is 55,500 dlrs, but offers at 65,000 show that confidence in SIMEX remains, said Michael Killian, general manager of Chase Manhattan Futures Corp.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">162</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Killian said the Nikkei contract has considerable potential for expansion, as overseas investors have been avoiding the contract because they currently see no need to hedge the rising cash market in Tokyo.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">206</int>
-        <double name="strength">0.9348017946617854</double>
+        <str name="text">Expanding global links between futures markets mean that the Singapore International Monetary Exchange (SIMEX) must add Chicago and London to its list of rivals, banking sources said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">183</int>
+        <double name="strength">0.9465978898810906</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Volume in the SIMEX's Nikkei stock index, based on the Tokyo stock market, has risen to a daily average of more than 1,000 contracts this month, from 320 contracts last October, helped by uncertainty during the recent bull run in Tokyo stocks, Fong said.</str>
-        <int name="index">20</int>
+        <str name="text">Restrictions on investments by Japanese residents have also inhibited the growth of the futures contracts in both Singapore and Sydney, the banking sources said.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">255</int>
-        <double name="strength">0.9047410881391221</double>
+        <int name="end">162</int>
+        <double name="strength">0.9127195514526728</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Banking sources&lt;/em&gt; said the tax &lt;em&gt;change would boost SIMEX trading&lt;/em&gt; by non-bank &lt;em&gt;institutions&lt;/em&gt; and &lt;em&gt;individuals&lt;/em&gt; and &lt;em&gt;would benefit foreign firms&lt;/em&gt; and &lt;em&gt;institutions&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">The &lt;em&gt;current&lt;/em&gt; bid is 55,500 dlrs, but &lt;em&gt;offers&lt;/em&gt; at 65,000 show that &lt;em&gt;confidence&lt;/em&gt; in &lt;em&gt;SIMEX&lt;/em&gt; remains, said &lt;em&gt;Michael&lt;/em&gt; Killian, &lt;em&gt;general manager&lt;/em&gt; of &lt;em&gt;Chase Manhattan Futures Corp&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Killian&lt;/em&gt; said the &lt;em&gt;Nikkei contract&lt;/em&gt; has &lt;em&gt;considerable potential&lt;/em&gt; for &lt;em&gt;expansion,&lt;/em&gt; as &lt;em&gt;overseas investors&lt;/em&gt; have been &lt;em&gt;avoiding&lt;/em&gt; the &lt;em&gt;contract because&lt;/em&gt; they &lt;em&gt;currently&lt;/em&gt; see no need to &lt;em&gt;hedge&lt;/em&gt; the &lt;em&gt;rising&lt;/em&gt; cash &lt;em&gt;market&lt;/em&gt; in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">Expanding &lt;em&gt;global links&lt;/em&gt; between &lt;em&gt;futures markets&lt;/em&gt; mean that the &lt;em&gt;Singapore International Monetary Exchange (SIMEX)&lt;/em&gt; must add &lt;em&gt;Chicago&lt;/em&gt; and London to its list of &lt;em&gt;rivals, banking sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volume&lt;/em&gt; in the &lt;em&gt;SIMEX&lt;/em&gt;'s &lt;em&gt;Nikkei stock index, based&lt;/em&gt; on the &lt;em&gt;Tokyo stock market,&lt;/em&gt; has &lt;em&gt;risen&lt;/em&gt; to a &lt;em&gt;daily average&lt;/em&gt; of more than 1,000 &lt;em&gt;contracts&lt;/em&gt; this &lt;em&gt;month,&lt;/em&gt; from 320 &lt;em&gt;contracts&lt;/em&gt; last &lt;em&gt;October, helped&lt;/em&gt; by &lt;em&gt;uncertainty during&lt;/em&gt; the &lt;em&gt;recent&lt;/em&gt; bull run in &lt;em&gt;Tokyo stocks,&lt;/em&gt; Fong said.</str>
-        <int name="index">20</int>
+        <str name="text">&lt;em&gt;Restrictions&lt;/em&gt; on &lt;em&gt;investments&lt;/em&gt; by &lt;em&gt;Japanese residents&lt;/em&gt; have also inhibited the &lt;em&gt;growth&lt;/em&gt; of the &lt;em&gt;futures contracts&lt;/em&gt; in both &lt;em&gt;Singapore&lt;/em&gt; and &lt;em&gt;Sydney,&lt;/em&gt; the &lt;em&gt;banking sources said&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-995.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">finance</str>
+        <str name="text">payments</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">standstill</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">commercial</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">arrangement</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">trying</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">extension</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">avoid</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">negotiating</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">182</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Finance Minister Dilson Funaro said in a television interview that it was "absolutely important" for Brazil and its creditors to renew the short-term credit lines, as Brazil must finance its exports.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.9921385178634266</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Brazil last month suspended interest payments on its 68- billion dlrs of debt to commercial banks and froze short-term trade and money market lines.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">149</int>
-        <double name="strength">0.8102427212940921</double>
+        <double name="strength">0.8275532480212383</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Finance Minister Dilson Funaro said in a television interview that it was "absolutely important" for Brazil and its creditors to renew the short-term credit lines, as Brazil must finance its exports.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">0.7079864729526729</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said that the &lt;em&gt;current negotiating process&lt;/em&gt; is "very &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;complicated," mentioning cases&lt;/em&gt; of &lt;em&gt;countries which&lt;/em&gt; had to wait some 10 &lt;em&gt;months before getting&lt;/em&gt; a &lt;em&gt;reply&lt;/em&gt; from &lt;em&gt;creditors&lt;/em&gt;.</str>
+        <str name="text">He said that the &lt;em&gt;current negotiating process&lt;/em&gt; is "very &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;complicated," mentioning cases&lt;/em&gt; of &lt;em&gt;countries&lt;/em&gt; which had to wait some 10 &lt;em&gt;months&lt;/em&gt; before getting a &lt;em&gt;reply&lt;/em&gt; from &lt;em&gt;creditors&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Dilson Funaro&lt;/em&gt; said in a &lt;em&gt;television interview&lt;/em&gt; that it was "&lt;em&gt;absolutely important"&lt;/em&gt; for &lt;em&gt;Brazil&lt;/em&gt; and its &lt;em&gt;creditors&lt;/em&gt; to &lt;em&gt;renew&lt;/em&gt; the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;credit lines,&lt;/em&gt; as &lt;em&gt;Brazil&lt;/em&gt; must &lt;em&gt;finance&lt;/em&gt; its &lt;em&gt;exports&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; suspended &lt;em&gt;interest payments&lt;/em&gt; on its 68- &lt;em&gt;billion&lt;/em&gt; dlrs of debt to &lt;em&gt;commercial banks&lt;/em&gt; and froze short-term &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;money market lines&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; last &lt;em&gt;month suspended interest payments&lt;/em&gt; on its 68- &lt;em&gt;billion&lt;/em&gt; dlrs of debt to &lt;em&gt;commercial banks&lt;/em&gt; and &lt;em&gt;froze short&lt;/em&gt;-term &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;money market lines&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Finance Minister Dilson Funaro&lt;/em&gt; said in a &lt;em&gt;television interview&lt;/em&gt; that it was "absolutely &lt;em&gt;important"&lt;/em&gt; for &lt;em&gt;Brazil&lt;/em&gt; and its &lt;em&gt;creditors&lt;/em&gt; to &lt;em&gt;renew&lt;/em&gt; the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;credit lines,&lt;/em&gt; as &lt;em&gt;Brazil&lt;/em&gt; must &lt;em&gt;finance&lt;/em&gt; its &lt;em&gt;exports&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

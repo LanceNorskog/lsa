@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-679.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">94</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">gasoline</str>
+        <str name="text">reserve</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reserve</str>
+        <str name="text">deferrals</str>
         <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">marketing</str>
-        <double name="strength">0.8944271909999152</double>
+        <str name="text">refining</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.8944271909999152</double>
+        <str name="text">gasoline</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">february</str>
-        <double name="strength">0.8944271909999152</double>
+        <str name="text">lawrance</str>
+        <double name="strength">0.9634242309653827</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Noting the Securities and Exchange Commission requires that reserves be estimated on the assumption that year-end prices will remain fixed for the life of the properties, he said the drop in oil prices to 16 dlrs a barrel at the end of 1986 from 27 dlrs a year earlier forced the company to reduce its reserve estimate by four pct.</str>
-        <int name="index">9</int>
+        <str name="text">Speaking to reporters after a security analyst meeting, he said the gain was expected because of higher oil and gas prices, but declined to compare his expectations with the 331 mln dlrs, or 1.28 dlrs per share, the company earned in 1986's first quarter.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">332</int>
+        <int name="end">256</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said expected federal regulations on gasoline vapor pressure will further tighten the industry's gasoline production capacity.</str>
-        <int name="index">16</int>
+        <str name="text">Earlier, Morrow told the analysts that Amoco's first quarter refining and marketing results "will look pretty poor," because of low margins in January and February.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">130</int>
-        <double name="strength">0.924147688706233</double>
+        <int name="end">165</int>
+        <double name="strength">0.9560520961482616</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. refining capacity is expected to be increasingly strained by the rising demand for lead-free gasoline, especially the higher octane grades.</str>
-        <int name="index">15</int>
+        <str name="text">Lawrance Fuller told the analysts Amoco reduced its estimates of worldwide oil and gas reserves by a total of 201 mln equivalent barrels last year because of a drop in oil and gas prices.</str>
+        <int name="index">8</int>
         <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.9066534513198427</double>
+        <int name="end">187</int>
+        <double name="strength">0.9342325369889705</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Noting&lt;/em&gt; the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission requires&lt;/em&gt; that &lt;em&gt;reserves&lt;/em&gt; be &lt;em&gt;estimated&lt;/em&gt; on the &lt;em&gt;assumption&lt;/em&gt; that year-end &lt;em&gt;prices&lt;/em&gt; will &lt;em&gt;remain fixed&lt;/em&gt; for the life of the &lt;em&gt;properties,&lt;/em&gt; he said the drop in oil &lt;em&gt;prices&lt;/em&gt; to 16 dlrs a &lt;em&gt;barrel&lt;/em&gt; at the end of 1986 from 27 dlrs a year &lt;em&gt;earlier forced&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;reserve estimate&lt;/em&gt; by four pct.</str>
-        <int name="index">9</int>
+        <str name="text">Speaking to &lt;em&gt;reporters&lt;/em&gt; after a &lt;em&gt;security analyst meeting,&lt;/em&gt; he said the gain was expected because of higher oil and gas &lt;em&gt;prices,&lt;/em&gt; but declined to &lt;em&gt;compare&lt;/em&gt; his &lt;em&gt;expectations&lt;/em&gt; with the 331 mln dlrs, or 1.28 dlrs per &lt;em&gt;share,&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; earned in 1986's &lt;em&gt;first quarter&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;expected federal regulations&lt;/em&gt; on &lt;em&gt;gasoline vapor pressure&lt;/em&gt; will &lt;em&gt;further tighten&lt;/em&gt; the &lt;em&gt;industry&lt;/em&gt;'s &lt;em&gt;gasoline production capacity&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Earlier, &lt;em&gt;Morrow&lt;/em&gt; told the &lt;em&gt;analysts&lt;/em&gt; that &lt;em&gt;Amoco&lt;/em&gt;'s &lt;em&gt;first quarter refining&lt;/em&gt; and &lt;em&gt;marketing results &lt;/em&gt;"will look pretty poor," because of low &lt;em&gt;margins&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;February&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;refining capacity&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;increasingly strained&lt;/em&gt; by the &lt;em&gt;rising demand&lt;/em&gt; for lead-free &lt;em&gt;gasoline, especially&lt;/em&gt; the &lt;em&gt;higher octane grades&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Lawrance&lt;/em&gt; Fuller told the &lt;em&gt;analysts Amoco&lt;/em&gt; reduced its &lt;em&gt;estimates&lt;/em&gt; of &lt;em&gt;worldwide&lt;/em&gt; oil and gas &lt;em&gt;reserves&lt;/em&gt; by a &lt;em&gt;total&lt;/em&gt; of 201 mln &lt;em&gt;equivalent barrels&lt;/em&gt; last year because of a drop in oil and gas &lt;em&gt;prices&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

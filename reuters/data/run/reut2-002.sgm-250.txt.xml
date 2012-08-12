@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-250.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">texas</str>
+        <str name="text">business</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">revenues</str>
-        <double name="strength">1.0</double>
+        <str name="text">concern</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">might</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">consider</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">conditions</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
         <str name="text">buyers</str>
-        <double name="strength">0.5590169943749468</double>
-      </lst>
-      <lst name="term">
-        <str name="text">interests</str>
-        <double name="strength">0.5000000000000017</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The directors of Baker immediately after receiving the counter proposal filed a law suit in Texas in a Texas state court to force to Hughes to complete the merger.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">164</int>
+        <str name="text">S. Department of Justice consent decree that would require Baker to sell its drilling bit operations and submersible pump business, met yesterday and threatened to terminate the proposed merger.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">194</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Baker said last night in a statement that the required assets to be sold would reduce revenues by about 65 mln dlrs, representing about three pct of the revenues of the combined companies.</str>
-        <int name="index">21</int>
+        <str name="text">"The uncertainty as to the price and conditions that might be imposed by the Department of Justice makes us very nervous about what the outcome might be," Kistler said, in explaining why Hughes had made the counter proposal.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">189</int>
-        <double name="strength">0.9703396821648831</double>
+        <int name="end">225</int>
+        <double name="strength">0.8453201561540962</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Under the decree, if Baker is unable to find acceptable buyers within a specified period of time after the decree is approved, a federal trustee would become responsible for finding a buyer.</str>
-        <int name="index">18</int>
+        <str name="text">He also expressed concern that the combined companies might be required by the government's conditions to license some of its technology to any purchaser of the assets.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">191</int>
-        <double name="strength">0.9379050337133341</double>
+        <int name="end">169</int>
+        <double name="strength">0.8147267238329544</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;directors&lt;/em&gt; of &lt;em&gt;Baker immediately after receiving&lt;/em&gt; the &lt;em&gt;counter proposal filed&lt;/em&gt; a law suit in &lt;em&gt;Texas&lt;/em&gt; in a &lt;em&gt;Texas state court&lt;/em&gt; to &lt;em&gt;force&lt;/em&gt; to &lt;em&gt;Hughes&lt;/em&gt; to &lt;em&gt;complete&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">S. &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Justice consent decree&lt;/em&gt; that would &lt;em&gt;require Baker&lt;/em&gt; to sell its &lt;em&gt;drilling&lt;/em&gt; bit &lt;em&gt;operations&lt;/em&gt; and &lt;em&gt;submersible&lt;/em&gt; pump &lt;em&gt;business,&lt;/em&gt; met &lt;em&gt;yesterday&lt;/em&gt; and threatened to &lt;em&gt;terminate&lt;/em&gt; the proposed &lt;em&gt;merger&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Baker&lt;/em&gt; said last &lt;em&gt;night&lt;/em&gt; in a &lt;em&gt;statement&lt;/em&gt; that the &lt;em&gt;required assets&lt;/em&gt; to be sold &lt;em&gt;would reduce revenues&lt;/em&gt; by &lt;em&gt;about 65&lt;/em&gt; mln dlrs, &lt;em&gt;representing about three&lt;/em&gt; pct of the &lt;em&gt;revenues&lt;/em&gt; of the &lt;em&gt;combined companies&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">"The &lt;em&gt;uncertainty&lt;/em&gt; as to the &lt;em&gt;price&lt;/em&gt; and &lt;em&gt;conditions&lt;/em&gt; that might be imposed by the &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Justice&lt;/em&gt; makes us very &lt;em&gt;nervous&lt;/em&gt; about what the &lt;em&gt;outcome&lt;/em&gt; might be," Kistler said, in explaining why &lt;em&gt;Hughes&lt;/em&gt; had made the &lt;em&gt;counter proposal&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the &lt;em&gt;decree,&lt;/em&gt; if &lt;em&gt;Baker&lt;/em&gt; is &lt;em&gt;unable&lt;/em&gt; to find &lt;em&gt;acceptable buyers within&lt;/em&gt; a &lt;em&gt;specified period&lt;/em&gt; of time &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;decree&lt;/em&gt; is &lt;em&gt;approved,&lt;/em&gt; a &lt;em&gt;federal trustee would become responsible&lt;/em&gt; for &lt;em&gt;finding&lt;/em&gt; a &lt;em&gt;buyer&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">He also expressed &lt;em&gt;concern&lt;/em&gt; that the combined &lt;em&gt;companies&lt;/em&gt; might be required by the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;conditions&lt;/em&gt; to &lt;em&gt;license&lt;/em&gt; some of its &lt;em&gt;technology&lt;/em&gt; to any &lt;em&gt;purchaser&lt;/em&gt; of the &lt;em&gt;assets&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-198.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">begin</str>
+        <str name="text">tariffs</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">virtually</str>
-        <double name="strength">1.0</double>
+        <str name="text">memory</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">dried</str>
-        <double name="strength">1.0</double>
+        <str name="text">components</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">eproms</str>
-        <double name="strength">1.0</double>
+        <str name="text">likely</str>
+        <double name="strength">0.9960900316910982</double>
       </lst>
       <lst name="term">
-        <str name="text">merrill</str>
-        <double name="strength">1.0</double>
+        <str name="text">kurlack</str>
+        <double name="strength">0.996090031691098</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">215</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said Japanese manufactures were likely to view MITI's request unfavorably because chip capacity was still high and production cut backs would lead to significant write-offs in plant and equipment.</str>
         <int name="index">24</int>
         <int name="start">1</int>
         <int name="end">200</int>
-        <double name="strength">0.7977121982850204</double>
+        <double name="strength">0.8711160372548723</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We've seen the grey market begin to dry up for D-RAMS, and it has virtually dried up for EPROMS," said Merrill Lynch analyst Thomas Kurlack of the two key memory chips used in computers.</str>
-        <int name="index">6</int>
+        <str name="text">The move is likely to create a sharp price rise and a possible shortage of the key computer components in the next few weeks, the analysts said.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.7306291980815877</double>
+        <int name="end">145</int>
+        <double name="strength">0.7922602054255062</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Others, however,&lt;/em&gt; were more &lt;em&gt;optimistic, saying evidence&lt;/em&gt; was &lt;em&gt;already&lt;/em&gt; in hand that &lt;em&gt;Japan&lt;/em&gt; has cut back &lt;em&gt;prodution&lt;/em&gt; and &lt;em&gt;halted sales&lt;/em&gt; to the grey &lt;em&gt;market,&lt;/em&gt; the &lt;em&gt;third country brokers&lt;/em&gt; that sell &lt;em&gt;chips&lt;/em&gt; at &lt;em&gt;below production costs&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Others,&lt;/em&gt; however, were more &lt;em&gt;optimistic,&lt;/em&gt; saying &lt;em&gt;evidence&lt;/em&gt; was already in hand that &lt;em&gt;Japan&lt;/em&gt; has cut back &lt;em&gt;prodution&lt;/em&gt; and halted &lt;em&gt;sales&lt;/em&gt; to the grey &lt;em&gt;market,&lt;/em&gt; the &lt;em&gt;third country brokers&lt;/em&gt; that sell &lt;em&gt;chips&lt;/em&gt; at below &lt;em&gt;production costs&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Japanese manufactures&lt;/em&gt; were &lt;em&gt;likely&lt;/em&gt; to view MITI's &lt;em&gt;request unfavorably because&lt;/em&gt; chip &lt;em&gt;capacity&lt;/em&gt; was &lt;em&gt;still&lt;/em&gt; high and &lt;em&gt;production&lt;/em&gt; cut &lt;em&gt;backs would&lt;/em&gt; lead to &lt;em&gt;significant write&lt;/em&gt;-offs in &lt;em&gt;plant&lt;/em&gt; and &lt;em&gt;equipment&lt;/em&gt;.</str>
+        <str name="text">He said &lt;em&gt;Japanese&lt;/em&gt; manufactures were &lt;em&gt;likely&lt;/em&gt; to view MITI's &lt;em&gt;request&lt;/em&gt; unfavorably because chip &lt;em&gt;capacity&lt;/em&gt; was still high and &lt;em&gt;production&lt;/em&gt; cut &lt;em&gt;backs&lt;/em&gt; would lead to &lt;em&gt;significant write&lt;/em&gt;-offs in &lt;em&gt;plant&lt;/em&gt; and &lt;em&gt;equipment&lt;/em&gt;.</str>
         <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We've seen the grey &lt;em&gt;market begin&lt;/em&gt; to dry up for D-RAMS, and it has &lt;em&gt;virtually dried&lt;/em&gt; up for &lt;em&gt;EPROMS,"&lt;/em&gt; said &lt;em&gt;Merrill Lynch analyst Thomas Kurlack&lt;/em&gt; of the two key &lt;em&gt;memory chips&lt;/em&gt; used in &lt;em&gt;computers&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The move is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;create&lt;/em&gt; a &lt;em&gt;sharp price&lt;/em&gt; rise and a &lt;em&gt;possible shortage&lt;/em&gt; of the key &lt;em&gt;computer components&lt;/em&gt; in the next few &lt;em&gt;weeks,&lt;/em&gt; the &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-901.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">ratios</str>
+        <str name="text">contribution</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">condition</str>
-        <double name="strength">0.9999999999999997</double>
+        <str name="text">results</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">cross</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">capital</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">border</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
         <str name="text">charge</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"The continuing serious recessionary conditions in Singapore and Malaysia and the depressed condition of the shipping industry made it necessary to provide heavily against bad and doubtful debs arising from loans in the Asia Pacific region, on top of the normal level of provisioning," Barber said.</str>
-        <int name="index">8</int>
+        <str name="text">He said, "the decision was also taken to build up loan loss reeserves by making a sizeable increase in the charges for general provisions for commercial and cross border risks."</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">299</int>
+        <int name="end">178</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">K. Businesses was "well maintained, although the reported result was affected by cross border debt provisioning," while Californian subsidiary Union Bank "showed continued growth."</str>
         <int name="index">12</int>
         <int name="start">0</int>
         <int name="end">180</int>
-        <double name="strength">0.799220702665805</double>
+        <double name="strength">0.944506805392587</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Capital adequacy ratios remained strong, with the primary capital ratio standing at 7.5 pct at end 1986, he said.</str>
-        <int name="index">16</int>
+        <str name="text">"The continuing serious recessionary conditions in Singapore and Malaysia and the depressed condition of the shipping industry made it necessary to provide heavily against bad and doubtful debs arising from loans in the Asia Pacific region, on top of the normal level of provisioning," Barber said.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">114</int>
-        <double name="strength">0.78988233796211</double>
+        <int name="end">299</int>
+        <double name="strength">0.9320010007319612</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;continuing serious recessionary conditions&lt;/em&gt; in &lt;em&gt;Singapore&lt;/em&gt; and &lt;em&gt;Malaysia&lt;/em&gt; and the &lt;em&gt;depressed condition&lt;/em&gt; of the &lt;em&gt;shipping industry&lt;/em&gt; made it &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;provide heavily against&lt;/em&gt; bad and &lt;em&gt;doubtful&lt;/em&gt; debs &lt;em&gt;arising&lt;/em&gt; from &lt;em&gt;loans&lt;/em&gt; in the Asia &lt;em&gt;Pacific region,&lt;/em&gt; on top of the &lt;em&gt;normal level&lt;/em&gt; of &lt;em&gt;provisioning," Barber said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">He said, "the &lt;em&gt;decision&lt;/em&gt; was also taken to &lt;em&gt;build&lt;/em&gt; up loan loss &lt;em&gt;reeserves&lt;/em&gt; by making a &lt;em&gt;sizeable increase&lt;/em&gt; in the &lt;em&gt;charges&lt;/em&gt; for &lt;em&gt;general provisions&lt;/em&gt; for &lt;em&gt;commercial&lt;/em&gt; and &lt;em&gt;cross border risks.&lt;/em&gt;"</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Businesses&lt;/em&gt; was "well &lt;em&gt;maintained, although&lt;/em&gt; the &lt;em&gt;reported result&lt;/em&gt; was &lt;em&gt;affected&lt;/em&gt; by &lt;em&gt;cross border&lt;/em&gt; debt &lt;em&gt;provisioning," while Californian subsidiary Union&lt;/em&gt; Bank "&lt;em&gt;showed continued growth.&lt;/em&gt;"</str>
+        <str name="text">K. &lt;em&gt;Businesses&lt;/em&gt; was "well maintained, although the &lt;em&gt;reported result&lt;/em&gt; was affected by &lt;em&gt;cross border&lt;/em&gt; debt provisioning," while &lt;em&gt;Californian subsidiary Union&lt;/em&gt; Bank "showed continued &lt;em&gt;growth.&lt;/em&gt;"</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Capital adequacy ratios remained strong,&lt;/em&gt; with the &lt;em&gt;primary capital ratio standing&lt;/em&gt; at 7.5 pct at end 1986, he said.</str>
-        <int name="index">16</int>
+        <str name="text">"The continuing &lt;em&gt;serious recessionary conditions&lt;/em&gt; in &lt;em&gt;Singapore&lt;/em&gt; and &lt;em&gt;Malaysia&lt;/em&gt; and the &lt;em&gt;depressed condition&lt;/em&gt; of the &lt;em&gt;shipping industry&lt;/em&gt; made it &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; heavily against bad and &lt;em&gt;doubtful&lt;/em&gt; debs arising from &lt;em&gt;loans&lt;/em&gt; in the Asia Pacific &lt;em&gt;region,&lt;/em&gt; on top of the &lt;em&gt;normal level&lt;/em&gt; of &lt;em&gt;provisioning," Barber said&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-115.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">38</int>
+        <int name="count">23</int>
       </lst>
       <lst name="stems">
-        <int name="count">26</int>
+        <int name="count">18</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">annual</str>
+        <str name="text">multi</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">largest</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">seasonal</str>
+        <double name="strength">0.9969511504682479</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">annual</str>
+        <double name="strength">0.9969511504682476</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9969511504682466</double>
       </lst>
       <lst name="term">
-        <str name="text">officials</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">unchanged</str>
+        <double name="strength">0.9969511504682457</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In August, housing starts were unchanged from July levels at 1,598,000 units, instead of being down 1.5 pct as previously reported.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
+        <str name="text">U.S. housing starts rose 4.4 pct in September to a seasonally adjusted annual rate of 1,669,000 units, the Commerce Department said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
         <int name="end">132</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">The increase in September housing starts was the largest since a 10.8 pct gain in starts in December 1986, Commerce Department officials said.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">143</int>
-        <double name="strength">0.9443980263560957</double>
+        <double name="strength">0.9624965481716797</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rate at which permits were issued for future construction fell 0.6 pct in September to a seasonally adjusted 1,493,000 units from 1,502,000 units in August.</str>
-        <int name="index">3</int>
+        <str name="text">Before seasonal adjustment, permits rose to 135,500 in September from 128,000 in August.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.8966881572332251</double>
+        <int name="end">89</int>
+        <double name="strength">0.841879082812623</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;August, housing starts&lt;/em&gt; were &lt;em&gt;unchanged&lt;/em&gt; from July &lt;em&gt;levels&lt;/em&gt; at 1,598,000 &lt;em&gt;units, instead&lt;/em&gt; of &lt;em&gt;being&lt;/em&gt; down 1.5 pct as &lt;em&gt;previously reported&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">U.S. &lt;em&gt;housing starts&lt;/em&gt; rose 4.4 pct in &lt;em&gt;September&lt;/em&gt; to a seasonally adjusted &lt;em&gt;annual&lt;/em&gt; rate of 1,669,000 &lt;em&gt;units,&lt;/em&gt; the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;September housing starts&lt;/em&gt; was the &lt;em&gt;largest since&lt;/em&gt; a 10.8 pct gain in &lt;em&gt;starts&lt;/em&gt; in &lt;em&gt;December 1986, Commerce Department officials said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;September housing starts&lt;/em&gt; was the largest since a 10.8 pct gain in &lt;em&gt;starts&lt;/em&gt; in &lt;em&gt;December 1986, Commerce Department officials said&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rate at &lt;em&gt;which permits&lt;/em&gt; were &lt;em&gt;issued&lt;/em&gt; for &lt;em&gt;future construction&lt;/em&gt; fell 0.6 pct in &lt;em&gt;September&lt;/em&gt; to a &lt;em&gt;seasonally adjusted 1,493,000 units&lt;/em&gt; from 1,502,000 &lt;em&gt;units&lt;/em&gt; in &lt;em&gt;August&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Before &lt;em&gt;seasonal adjustment, permits&lt;/em&gt; rose to 135,500 in &lt;em&gt;September&lt;/em&gt; from 128,000 in &lt;em&gt;August&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

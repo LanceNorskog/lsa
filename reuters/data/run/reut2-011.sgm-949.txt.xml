@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-949.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">85</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,56 +33,59 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">opposition</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">reason</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">changed</str>
-        <double name="strength">0.707106781186549</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9730077661055213</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.7071067811865486</double>
+        <str name="text">discourage</str>
+        <double name="strength">0.9730077661055213</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Reagan's 1988 budget proposed 22 billion in revenue increases from sales of federal assets such as the Amtrak railroad, higher federal fees for services and larger individual payments for social programs.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The tax would be a tax on capital which would discourage all but the most profitable short-term transactions and could lead to creation of a duty-free market abroad.</str>
         <int name="index">13</int>
         <int name="start">0</int>
         <int name="end">165</int>
-        <double name="strength">0.8982963966225034</double>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Reagan's 1988 budget proposed 22 billion in revenue increases from sales of federal assets such as the Amtrak railroad, higher federal fees for services and larger individual payments for social programs.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">205</int>
+        <double name="strength">0.9817112179073775</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Office of Management and Budget director James Miller said President Reagan opposes increases in the federal excise taxes on gas, cigarettes or alcohol to help reduce the federal budget deficit.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">194</int>
-        <double name="strength">0.8891640550331582</double>
+        <double name="strength">0.9403286714898224</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Reagan&lt;/em&gt;'s 1988 &lt;em&gt;budget proposed 22 billion&lt;/em&gt; in &lt;em&gt;revenue increases&lt;/em&gt; from &lt;em&gt;sales&lt;/em&gt; of &lt;em&gt;federal assets&lt;/em&gt; such as the &lt;em&gt;Amtrak railroad, higher federal&lt;/em&gt; fees for &lt;em&gt;services&lt;/em&gt; and &lt;em&gt;larger individual payments&lt;/em&gt; for &lt;em&gt;social programs&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The tax &lt;em&gt;would&lt;/em&gt; be a tax on &lt;em&gt;capital which would discourage&lt;/em&gt; all but the most &lt;em&gt;profitable short&lt;/em&gt;-term &lt;em&gt;transactions&lt;/em&gt; and &lt;em&gt;could&lt;/em&gt; lead to &lt;em&gt;creation&lt;/em&gt; of a duty-free &lt;em&gt;market abroad&lt;/em&gt;.</str>
+        <str name="text">The tax would be a tax on &lt;em&gt;capital&lt;/em&gt; which would &lt;em&gt;discourage&lt;/em&gt; all but the most &lt;em&gt;profitable short&lt;/em&gt;-term &lt;em&gt;transactions&lt;/em&gt; and could lead to &lt;em&gt;creation&lt;/em&gt; of a duty-free &lt;em&gt;market abroad&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget director James Miller&lt;/em&gt; said &lt;em&gt;President Reagan opposes increases&lt;/em&gt; in the &lt;em&gt;federal excise taxes&lt;/em&gt; on gas, &lt;em&gt;cigarettes&lt;/em&gt; or &lt;em&gt;alcohol&lt;/em&gt; to help &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;federal budget deficit&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Reagan&lt;/em&gt;'s 1988 &lt;em&gt;budget&lt;/em&gt; proposed 22 &lt;em&gt;billion&lt;/em&gt; in &lt;em&gt;revenue increases&lt;/em&gt; from &lt;em&gt;sales&lt;/em&gt; of &lt;em&gt;federal assets&lt;/em&gt; such as the &lt;em&gt;Amtrak railroad,&lt;/em&gt; higher &lt;em&gt;federal&lt;/em&gt; fees for &lt;em&gt;services&lt;/em&gt; and larger &lt;em&gt;individual payments&lt;/em&gt; for &lt;em&gt;social programs&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget director James&lt;/em&gt; Miller said &lt;em&gt;President Reagan&lt;/em&gt; opposes &lt;em&gt;increases&lt;/em&gt; in the &lt;em&gt;federal excise taxes&lt;/em&gt; on gas, &lt;em&gt;cigarettes&lt;/em&gt; or &lt;em&gt;alcohol&lt;/em&gt; to help &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;federal budget deficit&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-421.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">investors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">development</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">dollars</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">financing</str>
+        <double name="strength">0.9747506840573475</double>
       </lst>
       <lst name="term">
-        <str name="text">sterling</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">assets</str>
+        <double name="strength">0.9747506840573471</double>
       </lst>
       <lst name="term">
-        <str name="text">listed</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">composite</str>
+        <double name="strength">0.9409276072344827</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. Dollars or sterling, with the dollar notes listed in Luxembourg, while the sterling notes will be listed in London.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">118</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Cameron-Smail said Commercial Union decided on having the financing denominated in ECUs because it is more stable than most major currencies, and because it would give greater flexibility in its financings as it expands operations abroad.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">239</int>
-        <double name="strength">0.9905059331689992</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The dealers for the program are Barclays de Zoete Wedd, Credit Suisse First Boston Ltd, Goldman Sachs International, Swiss Bank Corporation International Ltd and S.</str>
-        <int name="index">18</int>
+        <str name="text">Although banks are anxious to develop a market for medium term notes, only a few companies such as Electrolux AB and Pepsico Inc have gone so far as to arrange one.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">165</int>
-        <double name="strength">0.9415859715678985</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said Commercial Union will work closely with dealers for the note program to find the right pricing level to satisfy investor demands.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">138</int>
+        <double name="strength">0.9826834932228464</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cameron-Smail said that aside from traditional lines of business, Commercial Union would like to move into other areas where it may not be able to fund the assets itself.</str>
+        <int name="index">10</int>
+        <int name="start">2</int>
+        <int name="end">172</int>
+        <double name="strength">0.9640446927498134</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Dollars&lt;/em&gt; or &lt;em&gt;sterling,&lt;/em&gt; with the &lt;em&gt;dollar notes listed&lt;/em&gt; in &lt;em&gt;Luxembourg, while&lt;/em&gt; the &lt;em&gt;sterling notes&lt;/em&gt; will be &lt;em&gt;listed&lt;/em&gt; in &lt;em&gt;London&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Although &lt;em&gt;banks&lt;/em&gt; are &lt;em&gt;anxious&lt;/em&gt; to &lt;em&gt;develop&lt;/em&gt; a &lt;em&gt;market&lt;/em&gt; for &lt;em&gt;medium&lt;/em&gt; term &lt;em&gt;notes,&lt;/em&gt; only a few &lt;em&gt;companies&lt;/em&gt; such as &lt;em&gt;Electrolux&lt;/em&gt; AB and &lt;em&gt;Pepsico&lt;/em&gt; Inc have gone so far as to &lt;em&gt;arrange one&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Cameron-Smail&lt;/em&gt; said &lt;em&gt;Commercial Union decided&lt;/em&gt; on &lt;em&gt;having&lt;/em&gt; the &lt;em&gt;financing denominated&lt;/em&gt; in ECUs &lt;em&gt;because&lt;/em&gt; it is more &lt;em&gt;stable&lt;/em&gt; than most &lt;em&gt;major currencies,&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; give &lt;em&gt;greater flexibility&lt;/em&gt; in its &lt;em&gt;financings&lt;/em&gt; as it &lt;em&gt;expands operations abroad&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">He said &lt;em&gt;Commercial Union&lt;/em&gt; will work closely with &lt;em&gt;dealers&lt;/em&gt; for the note &lt;em&gt;program&lt;/em&gt; to find the &lt;em&gt;right pricing level&lt;/em&gt; to &lt;em&gt;satisfy investor demands&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;dealers&lt;/em&gt; for the &lt;em&gt;program&lt;/em&gt; are &lt;em&gt;Barclays&lt;/em&gt; de &lt;em&gt;Zoete&lt;/em&gt; Wedd, &lt;em&gt;Credit Suisse First Boston&lt;/em&gt; Ltd, &lt;em&gt;Goldman Sachs International, Swiss&lt;/em&gt; Bank &lt;em&gt;Corporation International&lt;/em&gt; Ltd and S.</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;Cameron-Smail&lt;/em&gt; said that aside from &lt;em&gt;traditional lines&lt;/em&gt; of &lt;em&gt;business, Commercial Union&lt;/em&gt; would like to move into &lt;em&gt;other areas&lt;/em&gt; where it may not be able to fund the &lt;em&gt;assets itself&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

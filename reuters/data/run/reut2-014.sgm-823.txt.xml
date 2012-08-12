@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-823.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">received</str>
+        <str name="text">plans</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">meanwhile</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">hundreds</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">agency</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">firms</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reported</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">anger</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">paper</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">thousands</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The union leaders said workers thoughout the country are already receiving salaries below limits set under existing law, while others have received no wages at all this year because their employers are unable to pay them.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Meanwhile, the official Tanjug news agency reported a paper and cellulose factory at Ivangrad in the Montenegro republic closed yesterday and 2,000 of its workers were given "temporary leave."</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">0.945566892263727</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Yugoslavia was swept by strikes last month following the introduction of a wage-freeze law, later amended to allow more flexibility and some exemptions in what some political analysts saw as a retreat by Mikulic.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">213</int>
-        <double name="strength">0.914864643653155</double>
+        <double name="strength">0.9632396180326331</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Tanjug said the plant had been running at a loss for the 24 years it had been in operation, and its closure was the result of "economic necessity" rather than bankruptcy.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">171</int>
+        <double name="strength">0.8504205622000729</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;union leaders&lt;/em&gt; said &lt;em&gt;workers thoughout&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt; are &lt;em&gt;already receiving salaries below limits&lt;/em&gt; set &lt;em&gt;under existing&lt;/em&gt; law, &lt;em&gt;while others&lt;/em&gt; have &lt;em&gt;received&lt;/em&gt; no &lt;em&gt;wages&lt;/em&gt; at all this year &lt;em&gt;because their employers&lt;/em&gt; are &lt;em&gt;unable&lt;/em&gt; to pay them.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile,&lt;/em&gt; the &lt;em&gt;official Tanjug&lt;/em&gt; news &lt;em&gt;agency reported&lt;/em&gt; a &lt;em&gt;paper&lt;/em&gt; and &lt;em&gt;cellulose factory&lt;/em&gt; at &lt;em&gt;Ivangrad&lt;/em&gt; in the &lt;em&gt;Montenegro republic closed yesterday&lt;/em&gt; and 2,000 of its &lt;em&gt;workers&lt;/em&gt; were &lt;em&gt;given "temporary leave.&lt;/em&gt;"</str>
+        <str name="text">Meanwhile, the &lt;em&gt;official Tanjug&lt;/em&gt; news &lt;em&gt;agency&lt;/em&gt; reported a &lt;em&gt;paper&lt;/em&gt; and &lt;em&gt;cellulose factory&lt;/em&gt; at &lt;em&gt;Ivangrad&lt;/em&gt; in the &lt;em&gt;Montenegro republic&lt;/em&gt; closed &lt;em&gt;yesterday&lt;/em&gt; and 2,000 of its &lt;em&gt;workers&lt;/em&gt; were given "&lt;em&gt;temporary leave.&lt;/em&gt;"</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yugoslavia&lt;/em&gt; was &lt;em&gt;swept&lt;/em&gt; by &lt;em&gt;strikes&lt;/em&gt; last &lt;em&gt;month following&lt;/em&gt; the &lt;em&gt;introduction&lt;/em&gt; of a wage-&lt;em&gt;freeze&lt;/em&gt; law, &lt;em&gt;later amended&lt;/em&gt; to &lt;em&gt;allow&lt;/em&gt; more &lt;em&gt;flexibility&lt;/em&gt; and some &lt;em&gt;exemptions&lt;/em&gt; in what some &lt;em&gt;political analysts&lt;/em&gt; saw as a &lt;em&gt;retreat&lt;/em&gt; by &lt;em&gt;Mikulic&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Yugoslavia&lt;/em&gt; was swept by &lt;em&gt;strikes&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; following the &lt;em&gt;introduction&lt;/em&gt; of a wage-&lt;em&gt;freeze&lt;/em&gt; law, later amended to &lt;em&gt;allow&lt;/em&gt; more &lt;em&gt;flexibility&lt;/em&gt; and some &lt;em&gt;exemptions&lt;/em&gt; in what some &lt;em&gt;political analysts&lt;/em&gt; saw as a &lt;em&gt;retreat&lt;/em&gt; by &lt;em&gt;Mikulic&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Tanjug&lt;/em&gt; said the &lt;em&gt;plant&lt;/em&gt; had been running at a loss for the 24 &lt;em&gt;years&lt;/em&gt; it had been in &lt;em&gt;operation,&lt;/em&gt; and its &lt;em&gt;closure&lt;/em&gt; was the &lt;em&gt;result&lt;/em&gt; of "&lt;em&gt;economic necessity"&lt;/em&gt; rather than &lt;em&gt;bankruptcy&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

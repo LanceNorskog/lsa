@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-708.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">lower</str>
+        <str name="text">strong</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">strong</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">private</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expenditure</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">outflows</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reductions</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">financing</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">spending</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">requirement</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Because of the difficulty of sustaining zero expenditure growth and of likely growing impatience (for) tax reductions, we feel that your position would be stronger if you could decide on rather sharp expenditure reductions in 1988," the report adds.</str>
-        <int name="index">8</int>
+        <str name="text">It also urges net repayments of foreign currency debt and an overhaul of domestic capital markets to facilitate the subscriptions by non-residents of government bond issues in Belgian francs.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">251</int>
-        <double name="strength">0.997868053952955</double>
+        <int name="end">192</int>
+        <double name="strength">0.9296127445868277</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, it adds that with lower inflation, stabilisation of the debt to gross national product ratio requires a much lower budget deficit than the seven pct of GNP target the government has set itself for 1989.</str>
-        <int name="index">4</int>
+        <str name="text">It says there is a need for a revision of the Belgian tax system to iron out distortions and meet hopes of a reduced tax burden but substantial progress is needed in stabilising the debt to GNP ratio before this is possible.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">0.9774888811556218</double>
+        <int name="end">225</int>
+        <double name="strength">0.8620217511418565</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;suggestion&lt;/em&gt; is &lt;em&gt;contained&lt;/em&gt; in the &lt;em&gt;preliminary conclusions&lt;/em&gt; of the &lt;em&gt;annual&lt;/em&gt; IMF &lt;em&gt;consultations&lt;/em&gt; with &lt;em&gt;Belgium&lt;/em&gt; on its &lt;em&gt;economic policy,&lt;/em&gt; a copy of &lt;em&gt;which&lt;/em&gt; was &lt;em&gt;distributed&lt;/em&gt; to &lt;em&gt;journalists&lt;/em&gt; at the &lt;em&gt;weekly press conference following meetings&lt;/em&gt; of the &lt;em&gt;cabinet&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;suggestion&lt;/em&gt; is contained in the &lt;em&gt;preliminary conclusions&lt;/em&gt; of the &lt;em&gt;annual&lt;/em&gt; IMF &lt;em&gt;consultations&lt;/em&gt; with &lt;em&gt;Belgium&lt;/em&gt; on its &lt;em&gt;economic policy,&lt;/em&gt; a copy of which was distributed to &lt;em&gt;journalists&lt;/em&gt; at the &lt;em&gt;weekly press conference&lt;/em&gt; following &lt;em&gt;meetings&lt;/em&gt; of the &lt;em&gt;cabinet&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Because&lt;/em&gt; of the &lt;em&gt;difficulty&lt;/em&gt; of &lt;em&gt;sustaining&lt;/em&gt; zero &lt;em&gt;expenditure growth&lt;/em&gt; and of &lt;em&gt;likely growing impatience &lt;/em&gt;(for) tax &lt;em&gt;reductions,&lt;/em&gt; we feel that your &lt;em&gt;position would&lt;/em&gt; be &lt;em&gt;stronger&lt;/em&gt; if you &lt;em&gt;could decide&lt;/em&gt; on &lt;em&gt;rather sharp expenditure reductions&lt;/em&gt; in 1988," the &lt;em&gt;report adds&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">It also urges net &lt;em&gt;repayments&lt;/em&gt; of &lt;em&gt;foreign currency&lt;/em&gt; debt and an &lt;em&gt;overhaul&lt;/em&gt; of &lt;em&gt;domestic capital markets&lt;/em&gt; to &lt;em&gt;facilitate&lt;/em&gt; the &lt;em&gt;subscriptions&lt;/em&gt; by non-&lt;em&gt;residents&lt;/em&gt; of &lt;em&gt;government&lt;/em&gt; bond &lt;em&gt;issues&lt;/em&gt; in &lt;em&gt;Belgian francs&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; it adds that with &lt;em&gt;lower inflation, stabilisation&lt;/em&gt; of the debt to &lt;em&gt;gross national product ratio requires&lt;/em&gt; a much &lt;em&gt;lower budget deficit&lt;/em&gt; than the &lt;em&gt;seven&lt;/em&gt; pct of GNP &lt;em&gt;target&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; has set &lt;em&gt;itself for 1989&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">It says there is a need for a &lt;em&gt;revision&lt;/em&gt; of the &lt;em&gt;Belgian&lt;/em&gt; tax &lt;em&gt;system&lt;/em&gt; to iron out &lt;em&gt;distortions&lt;/em&gt; and meet &lt;em&gt;hopes&lt;/em&gt; of a &lt;em&gt;reduced&lt;/em&gt; tax &lt;em&gt;burden&lt;/em&gt; but &lt;em&gt;substantial progress&lt;/em&gt; is needed in stabilising the debt to GNP &lt;em&gt;ratio&lt;/em&gt; before this is &lt;em&gt;possible&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

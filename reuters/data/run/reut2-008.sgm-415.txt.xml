@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-415.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">brought</str>
+        <str name="text">london</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">three</str>
+        <double name="strength">0.8109094067906664</double>
+      </lst>
+      <lst name="term">
+        <str name="text">points</str>
+        <double name="strength">0.8109094067906664</double>
+      </lst>
+      <lst name="term">
+        <str name="text">march</str>
+        <double name="strength">0.810421594733225</double>
+      </lst>
+      <lst name="term">
         <str name="text">arbitration</str>
-        <double name="strength">0.999999999999998</double>
-      </lst>
-      <lst name="term">
-        <str name="text">enforce</str>
-        <double name="strength">0.9999999999999978</double>
-      </lst>
-      <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.8944271909999165</double>
-      </lst>
-      <lst name="term">
-        <str name="text">direct</str>
-        <double name="strength">0.8944271909999165</double>
+        <double name="strength">0.8090846238261604</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">248</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Other ITC creditors have brought direct actions against the Council's member states and an application by the governments to strike out the first of these, brought by J.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.79635878613454</double>
+        <double name="strength">0.7883236915885001</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The grounds for the appeal are that the judge erred on three points when giving his verdict, Michael Arnold, head of the broker creditors group Tinco Realisations, told Reuters.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.7201311187717373</double>
+        <double name="strength">0.7635834953975562</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;verdict&lt;/em&gt; was &lt;em&gt;given&lt;/em&gt; by Mr &lt;em&gt;Justice Millett&lt;/em&gt; on &lt;em&gt;January 22,&lt;/em&gt; when AMT led an &lt;em&gt;effort&lt;/em&gt; by ITC &lt;em&gt;creditors&lt;/em&gt; to &lt;em&gt;recover&lt;/em&gt; sums &lt;em&gt;claimed&lt;/em&gt; by &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;London Metal Exchange brokers&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the &lt;em&gt;collapse&lt;/em&gt; of the ITC's &lt;em&gt;buffer stock operations&lt;/em&gt; in &lt;em&gt;October 1985&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;verdict&lt;/em&gt; was given by Mr &lt;em&gt;Justice&lt;/em&gt; Millett on &lt;em&gt;January 22,&lt;/em&gt; when AMT led an &lt;em&gt;effort&lt;/em&gt; by ITC &lt;em&gt;creditors&lt;/em&gt; to &lt;em&gt;recover&lt;/em&gt; sums claimed by &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;London Metal Exchange brokers&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the &lt;em&gt;collapse&lt;/em&gt; of the ITC's &lt;em&gt;buffer stock operations&lt;/em&gt; in &lt;em&gt;October 1985&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Other&lt;/em&gt; ITC &lt;em&gt;creditors&lt;/em&gt; have &lt;em&gt;brought direct actions against&lt;/em&gt; the &lt;em&gt;Council&lt;/em&gt;'s &lt;em&gt;member states&lt;/em&gt; and an &lt;em&gt;application&lt;/em&gt; by the &lt;em&gt;governments&lt;/em&gt; to &lt;em&gt;strike&lt;/em&gt; out the &lt;em&gt;first&lt;/em&gt; of &lt;em&gt;these, brought&lt;/em&gt; by J.</str>
+        <str name="text">&lt;em&gt;Other&lt;/em&gt; ITC &lt;em&gt;creditors&lt;/em&gt; have brought &lt;em&gt;direct actions&lt;/em&gt; against the &lt;em&gt;Council&lt;/em&gt;'s &lt;em&gt;member states&lt;/em&gt; and an &lt;em&gt;application&lt;/em&gt; by the &lt;em&gt;governments&lt;/em&gt; to &lt;em&gt;strike&lt;/em&gt; out the &lt;em&gt;first&lt;/em&gt; of these, brought by J.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;grounds&lt;/em&gt; for the &lt;em&gt;appeal&lt;/em&gt; are that the &lt;em&gt;judge erred&lt;/em&gt; on &lt;em&gt;three points&lt;/em&gt; when &lt;em&gt;giving&lt;/em&gt; his &lt;em&gt;verdict, Michael Arnold,&lt;/em&gt; head of the &lt;em&gt;broker creditors group Tinco Realisations,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;grounds&lt;/em&gt; for the &lt;em&gt;appeal&lt;/em&gt; are that the &lt;em&gt;judge&lt;/em&gt; erred on &lt;em&gt;three points&lt;/em&gt; when giving his &lt;em&gt;verdict, Michael&lt;/em&gt; Arnold, head of the &lt;em&gt;broker creditors group Tinco Realisations,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
     </lst>

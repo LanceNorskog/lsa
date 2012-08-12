@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-934.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">165</int>
+        <int name="count">114</int>
       </lst>
       <lst name="stems">
-        <int name="count">112</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">currency</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9994922960025302</double>
       </lst>
       <lst name="term">
-        <str name="text">enough</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9937930727992874</double>
       </lst>
       <lst name="term">
-        <str name="text">economy</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">surplus</str>
+        <double name="strength">0.9914961909076161</double>
       </lst>
       <lst name="term">
-        <str name="text">taken</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">seoul</str>
+        <double name="strength">0.9893606319091139</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">We don't have any target for any particular currency, but we do feel that currencies around the world, if we are going to be successful as a world economy, have to reflect the fundamentals of the various economies involved," he said.</str>
-        <int name="index">27</int>
-        <int name="start">0</int>
-        <int name="end">233</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In a press conference after talks with South Korean leaders, Baldrige called the government's announced intention to regulate exports and boost imports "a very, very important step, the right direction for the Korean government to take."</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.8695940636635688</double>
-      </lst>
       <lst name="sentence">
         <str name="text">U.S. Commerce Secretary Malcolm Baldrige praised South Korea's new surplus-cutting trade policies but warned of possible protectionist retaliation if Seoul's market liberalisation efforts falter or fail.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">203</int>
-        <double name="strength">0.8163616605472381</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">South Korea had a 7.2 billion dlr trade surplus with Washington in 1986, thanks largely to booming sales of cars and consumer electronic goods.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.8984160193935395</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Commenting on President Reagan's decision to increase tariffs on certain Japanese imports to the U.</str>
+        <int name="index">32</int>
+        <int name="start">1</int>
+        <int name="end">100</int>
+        <double name="strength">0.8161781962004996</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">We don't have any &lt;em&gt;target&lt;/em&gt; for any &lt;em&gt;particular currency,&lt;/em&gt; but we do feel that &lt;em&gt;currencies around&lt;/em&gt; the &lt;em&gt;world,&lt;/em&gt; if we are &lt;em&gt;going&lt;/em&gt; to be &lt;em&gt;successful&lt;/em&gt; as a &lt;em&gt;world economy,&lt;/em&gt; have to &lt;em&gt;reflect&lt;/em&gt; the &lt;em&gt;fundamentals&lt;/em&gt; of the &lt;em&gt;various economies involved,"&lt;/em&gt; he said.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In a &lt;em&gt;press conference after talks&lt;/em&gt; with &lt;em&gt;South Korean leaders, Baldrige called&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;announced intention&lt;/em&gt; to &lt;em&gt;regulate exports&lt;/em&gt; and &lt;em&gt;boost imports &lt;/em&gt;"a very, very &lt;em&gt;important&lt;/em&gt; step, the &lt;em&gt;right direction&lt;/em&gt; for the &lt;em&gt;Korean government&lt;/em&gt; to take."</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Commerce Secretary Malcolm Baldrige praised South Korea&lt;/em&gt;'s new &lt;em&gt;surplus-cutting trade policies&lt;/em&gt; but &lt;em&gt;warned&lt;/em&gt; of &lt;em&gt;possible protectionist retaliation&lt;/em&gt; if &lt;em&gt;Seoul&lt;/em&gt;'s &lt;em&gt;market liberalisation efforts falter&lt;/em&gt; or fail.</str>
+        <str name="text">U.S. &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt; praised South &lt;em&gt;Korea&lt;/em&gt;'s new &lt;em&gt;surplus&lt;/em&gt;-cutting &lt;em&gt;trade policies&lt;/em&gt; but warned of &lt;em&gt;possible protectionist retaliation&lt;/em&gt; if &lt;em&gt;Seoul&lt;/em&gt;'s &lt;em&gt;market liberalisation efforts falter&lt;/em&gt; or fail.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">South &lt;em&gt;Korea&lt;/em&gt; had a 7.2 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;trade surplus&lt;/em&gt; with &lt;em&gt;Washington&lt;/em&gt; in 1986, &lt;em&gt;thanks&lt;/em&gt; largely to &lt;em&gt;booming sales&lt;/em&gt; of cars and &lt;em&gt;consumer electronic goods&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Commenting on &lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;increase tariffs&lt;/em&gt; on &lt;em&gt;certain Japanese imports&lt;/em&gt; to the U.</str>
+        <int name="index">32</int>
       </lst>
     </lst>
   </lst>

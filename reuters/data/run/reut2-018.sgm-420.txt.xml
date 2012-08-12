@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-420.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">commission</str>
+        <str name="text">plants</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">workforce</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">mexican</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">companies</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">create</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">products</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">according</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">256</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">The growing shift of low-skilled manufacturing jobs from the United States to Mexican border cities is not a threat to American employment because it will help create new markets for products, according to a study released today.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">229</int>
-        <double name="strength">0.8767996430989491</double>
+        <double name="strength">0.8197184367796179</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"In the post-baby boom era, fewer workers will be available to fill these low-skill jobs -- and these workers will be better educated than prior generations," Bolin told reporters in McAllen.</str>
-        <int name="index">13</int>
+        <str name="text">His study was commissioned by the border city of McAllen, Texas, for presentation to the International Trade Commission which is gathering information for a report to Congress on what changes may be needed in the U.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.8422449371286251</double>
+        <int name="end">216</int>
+        <double name="strength">0.7825743434526693</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Richard Bolin, director&lt;/em&gt; of the &lt;em&gt;Flagstaff Institute&lt;/em&gt; of &lt;em&gt;Arizona, which studies international trade issues,&lt;/em&gt; said the &lt;em&gt;United States needs&lt;/em&gt; to &lt;em&gt;encourage&lt;/em&gt; the &lt;em&gt;expansion&lt;/em&gt; of &lt;em&gt;manufacturing&lt;/em&gt; in &lt;em&gt;developing countries&lt;/em&gt; so that &lt;em&gt;those nations&lt;/em&gt; can &lt;em&gt;become consumers&lt;/em&gt; of more U.</str>
+        <str name="text">&lt;em&gt;Richard Bolin, director&lt;/em&gt; of the &lt;em&gt;Flagstaff Institute&lt;/em&gt; of &lt;em&gt;Arizona,&lt;/em&gt; which studies &lt;em&gt;international trade issues,&lt;/em&gt; said the United &lt;em&gt;States&lt;/em&gt; needs to &lt;em&gt;encourage&lt;/em&gt; the &lt;em&gt;expansion&lt;/em&gt; of &lt;em&gt;manufacturing&lt;/em&gt; in developing &lt;em&gt;countries&lt;/em&gt; so that those &lt;em&gt;nations&lt;/em&gt; can &lt;em&gt;become consumers&lt;/em&gt; of more U.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;growing shift&lt;/em&gt; of low-&lt;em&gt;skilled manufacturing&lt;/em&gt; jobs from the &lt;em&gt;United States&lt;/em&gt; to &lt;em&gt;Mexican border cities&lt;/em&gt; is not a &lt;em&gt;threat&lt;/em&gt; to &lt;em&gt;American employment because&lt;/em&gt; it will help &lt;em&gt;create&lt;/em&gt; new &lt;em&gt;markets&lt;/em&gt; for &lt;em&gt;products, according&lt;/em&gt; to a &lt;em&gt;study released today&lt;/em&gt;.</str>
+        <str name="text">The growing &lt;em&gt;shift&lt;/em&gt; of low-&lt;em&gt;skilled manufacturing&lt;/em&gt; jobs from the United &lt;em&gt;States&lt;/em&gt; to &lt;em&gt;Mexican border cities&lt;/em&gt; is not a &lt;em&gt;threat&lt;/em&gt; to &lt;em&gt;American employment&lt;/em&gt; because it will help &lt;em&gt;create&lt;/em&gt; new &lt;em&gt;markets&lt;/em&gt; for &lt;em&gt;products,&lt;/em&gt; according to a &lt;em&gt;study&lt;/em&gt; released &lt;em&gt;today&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"In the post-baby boom era, &lt;em&gt;fewer workers&lt;/em&gt; will be &lt;em&gt;available&lt;/em&gt; to fill &lt;em&gt;these&lt;/em&gt; low-&lt;em&gt;skill&lt;/em&gt; jobs -- and &lt;em&gt;these workers&lt;/em&gt; will be &lt;em&gt;better educated&lt;/em&gt; than &lt;em&gt;prior generations," Bolin&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; in &lt;em&gt;McAllen&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">His &lt;em&gt;study&lt;/em&gt; was commissioned by the &lt;em&gt;border&lt;/em&gt; city of &lt;em&gt;McAllen, Texas,&lt;/em&gt; for &lt;em&gt;presentation&lt;/em&gt; to the &lt;em&gt;International Trade Commission&lt;/em&gt; which is gathering &lt;em&gt;information&lt;/em&gt; for a &lt;em&gt;report&lt;/em&gt; to &lt;em&gt;Congress&lt;/em&gt; on what &lt;em&gt;changes&lt;/em&gt; may be needed in the U.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

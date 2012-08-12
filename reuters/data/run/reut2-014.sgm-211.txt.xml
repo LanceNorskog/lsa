@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-211.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">inventory</str>
+        <str name="text">certificate</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">improved</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">glickman</str>
+        <double name="strength">0.6342627208185164</double>
       </lst>
       <lst name="term">
-        <str name="text">encourage</str>
-        <double name="strength">0.9999999999999959</double>
+        <str name="text">process</str>
+        <double name="strength">0.6342627208185164</double>
       </lst>
       <lst name="term">
-        <str name="text">market</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">official</str>
+        <double name="strength">0.6342627208185164</double>
       </lst>
       <lst name="term">
-        <str name="text">addition</str>
-        <double name="strength">0.5</double>
+        <str name="text">response</str>
+        <double name="strength">0.6342627208185164</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The use of generic commodity certificates, or "certs," for fiscal years 1986-88 will save the government 50 to 100 mln dlrs, Department of Agriculture Undersecretary Daniel Amstutz said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">186</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dan Glickman, D-Kans., that USDA is in the process of preparing an official response to the GAO study on certificates and will submit it to the subcommittee when completed.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">172</int>
+        <double name="strength">0.9924124137799303</double>
+        <int name="terms">8</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Immediate benefits of certificates include greater market liquidity, improved market price competitiveness, higher farm income, and improved debt situation and decreased carrying costs, he said.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">195</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In addition, 260 mln bushels of grain that have been redeemed from CCC inventory through certificate exchanges would have remained in the goverment inventory, he said.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">168</int>
-        <double name="strength">0.8653632281208239</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Amstutz said while certificates encourage more loan entries, they also encourage heavier loan redemptions rather than forfeitures.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">131</int>
-        <double name="strength">0.7825319490696686</double>
+        <double name="strength">0.9048262536697603</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Immediate benefits&lt;/em&gt; of &lt;em&gt;certificates include greater market liquidity, improved market price competitiveness, higher&lt;/em&gt; farm &lt;em&gt;income,&lt;/em&gt; and &lt;em&gt;improved&lt;/em&gt; debt &lt;em&gt;situation&lt;/em&gt; and &lt;em&gt;decreased carrying costs,&lt;/em&gt; he said.</str>
+        <str name="text">The use of &lt;em&gt;generic commodity certificates,&lt;/em&gt; or "&lt;em&gt;certs,"&lt;/em&gt; for &lt;em&gt;fiscal years 1986-88&lt;/em&gt; will save the &lt;em&gt;government 50&lt;/em&gt; to 100 mln dlrs, &lt;em&gt;Department&lt;/em&gt; of &lt;em&gt;Agriculture Undersecretary Daniel Amstutz said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dan &lt;em&gt;Glickman,&lt;/em&gt; D-Kans., that USDA is in the &lt;em&gt;process&lt;/em&gt; of preparing an &lt;em&gt;official response&lt;/em&gt; to the GAO &lt;em&gt;study&lt;/em&gt; on &lt;em&gt;certificates&lt;/em&gt; and will &lt;em&gt;submit&lt;/em&gt; it to the &lt;em&gt;subcommittee&lt;/em&gt; when completed.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Immediate benefits&lt;/em&gt; of &lt;em&gt;certificates include&lt;/em&gt; greater &lt;em&gt;market liquidity,&lt;/em&gt; improved &lt;em&gt;market price competitiveness,&lt;/em&gt; higher farm &lt;em&gt;income,&lt;/em&gt; and improved debt &lt;em&gt;situation&lt;/em&gt; and decreased carrying &lt;em&gt;costs,&lt;/em&gt; he said.</str>
         <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition, 260&lt;/em&gt; mln &lt;em&gt;bushels&lt;/em&gt; of &lt;em&gt;grain&lt;/em&gt; that have been &lt;em&gt;redeemed&lt;/em&gt; from CCC &lt;em&gt;inventory through certificate exchanges would&lt;/em&gt; have &lt;em&gt;remained&lt;/em&gt; in the &lt;em&gt;goverment inventory,&lt;/em&gt; he said.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Amstutz&lt;/em&gt; said &lt;em&gt;while certificates encourage&lt;/em&gt; more loan &lt;em&gt;entries,&lt;/em&gt; they also &lt;em&gt;encourage heavier&lt;/em&gt; loan &lt;em&gt;redemptions rather&lt;/em&gt; than &lt;em&gt;forfeitures&lt;/em&gt;.</str>
-        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

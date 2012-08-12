@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-591.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">countries</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">world</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.707106781186547</double>
+        <str name="text">segments</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">understanding</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">matter</str>
+        <double name="strength">0.9840539975201776</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">delegates</str>
+        <double name="strength">0.9840539975201774</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">U.S. Trade Representative Clayton Yeutter said trade ministers meeting here have reached a general consensus on agricultural trade reform under the latest Uruguay round of the General Agreement on Tariffs and Trade (GATT).</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">222</int>
+        <str name="text">"It is ludicrous for the nations of the world to plough immense amounts of financial resources into the production of items that nobody wants to buy," he said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Yeutter gave no precise details of the understanding but told journalists the consensus covers the principles involved in agricultural trade reform and what needs to be done to improve the global situation in agriculture.</str>
-        <int name="index">1</int>
+        <str name="text">Individual segments in many countries may lose in the process, but it should result in a more rational system of world-wide production within 10 or 15 years, he said.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.8981092641633829</double>
+        <int name="end">167</int>
+        <double name="strength">0.9819121539260335</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Delegates from 22 countries are meeting informally to discuss progress made since the latest GATT round was launched in Punta del Este, Uruguay, last September.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">161</int>
-        <double name="strength">0.8286251306731282</double>
+        <double name="strength">0.9492948571734633</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Trade Representative Clayton Yeutter&lt;/em&gt; said &lt;em&gt;trade ministers meeting&lt;/em&gt; here have &lt;em&gt;reached&lt;/em&gt; a &lt;em&gt;general consensus&lt;/em&gt; on &lt;em&gt;agricultural trade reform under&lt;/em&gt; the &lt;em&gt;latest Uruguay round&lt;/em&gt; of the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade (GATT)&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">"It is &lt;em&gt;ludicrous&lt;/em&gt; for the &lt;em&gt;nations&lt;/em&gt; of the &lt;em&gt;world&lt;/em&gt; to plough &lt;em&gt;immense amounts&lt;/em&gt; of &lt;em&gt;financial resources&lt;/em&gt; into the &lt;em&gt;production&lt;/em&gt; of &lt;em&gt;items&lt;/em&gt; that &lt;em&gt;nobody&lt;/em&gt; wants to buy," he said.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yeutter&lt;/em&gt; gave no &lt;em&gt;precise details&lt;/em&gt; of the &lt;em&gt;understanding&lt;/em&gt; but told &lt;em&gt;journalists&lt;/em&gt; the &lt;em&gt;consensus covers&lt;/em&gt; the &lt;em&gt;principles involved&lt;/em&gt; in &lt;em&gt;agricultural trade reform&lt;/em&gt; and what &lt;em&gt;needs&lt;/em&gt; to be done to &lt;em&gt;improve&lt;/em&gt; the &lt;em&gt;global situation&lt;/em&gt; in &lt;em&gt;agriculture&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Individual segments&lt;/em&gt; in many &lt;em&gt;countries&lt;/em&gt; may lose in the &lt;em&gt;process,&lt;/em&gt; but it should &lt;em&gt;result&lt;/em&gt; in a more &lt;em&gt;rational system&lt;/em&gt; of &lt;em&gt;world&lt;/em&gt;-wide &lt;em&gt;production&lt;/em&gt; within 10 or 15 &lt;em&gt;years,&lt;/em&gt; he said.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Delegates&lt;/em&gt; from 22 &lt;em&gt;countries&lt;/em&gt; are &lt;em&gt;meeting informally&lt;/em&gt; to &lt;em&gt;discuss progress&lt;/em&gt; made &lt;em&gt;since&lt;/em&gt; the &lt;em&gt;latest&lt;/em&gt; GATT &lt;em&gt;round&lt;/em&gt; was &lt;em&gt;launched&lt;/em&gt; in &lt;em&gt;Punta&lt;/em&gt; del Este, &lt;em&gt;Uruguay,&lt;/em&gt; last &lt;em&gt;September&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Delegates&lt;/em&gt; from 22 &lt;em&gt;countries&lt;/em&gt; are meeting informally to &lt;em&gt;discuss progress&lt;/em&gt; made since the latest GATT &lt;em&gt;round&lt;/em&gt; was launched in &lt;em&gt;Punta&lt;/em&gt; del Este, &lt;em&gt;Uruguay,&lt;/em&gt; last &lt;em&gt;September&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
     </lst>

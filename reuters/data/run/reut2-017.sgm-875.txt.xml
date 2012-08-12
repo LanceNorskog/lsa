@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-875.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">intention</str>
+        <str name="text">chairman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">raising</str>
-        <double name="strength">1.0</double>
+        <str name="text">stake</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">1.0</double>
+        <str name="text">acceptance</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">intervention</str>
-        <double name="strength">1.0</double>
+        <str name="text">shareholder</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">became</str>
-        <double name="strength">1.0</double>
+        <str name="text">officials</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Based on the current price of ETL shares of 1.05 dlrs, the alternative is worth 3.97 dlrs per share, but ETL said the value placed on its shares for the offer aproximates to the diluted asset backing of ETL as at March 31.</str>
-        <int name="index">8</int>
+        <str name="text">Monier chairman Bill Locke said in a separate statement that the independent directors of Monier intend to recommend acceptance of the ETL bid in the absence of a higher bid.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">223</int>
+        <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He also said Monier will not now proceed with the one-for-two bonus issue announced with its interim results on March 19 in view of the proposed takeover bids.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9262675537911964</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">ETL and its &lt;Feltex International Ltd&gt; associate have targetted the building products sector as an area of expansion and Monier fits well with this aim, he added.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">163</int>
-        <double name="strength">0.9857598737697673</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Monier chairman Bill Locke said in a separate statement that the independent directors of Monier intend to recommend acceptance of the ETL bid in the absence of a higher bid.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.9578442172520191</double>
+        <double name="strength">0.8914866948544943</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Based&lt;/em&gt; on the &lt;em&gt;current price&lt;/em&gt; of ETL &lt;em&gt;shares&lt;/em&gt; of 1.05 dlrs, the &lt;em&gt;alternative&lt;/em&gt; is &lt;em&gt;worth 3.97&lt;/em&gt; dlrs per &lt;em&gt;share,&lt;/em&gt; but ETL said the &lt;em&gt;value placed&lt;/em&gt; on its &lt;em&gt;shares&lt;/em&gt; for the &lt;em&gt;offer aproximates&lt;/em&gt; to the &lt;em&gt;diluted asset backing&lt;/em&gt; of ETL as at &lt;em&gt;March 31&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">ETL and its &lt;&lt;em&gt;Feltex International&lt;/em&gt; Ltd&gt; &lt;em&gt;associate&lt;/em&gt; have &lt;em&gt;targetted&lt;/em&gt; the &lt;em&gt;building products sector&lt;/em&gt; as an area of &lt;em&gt;expansion&lt;/em&gt; and &lt;em&gt;Monier&lt;/em&gt; fits well with this aim, he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Monier chairman&lt;/em&gt; Bill &lt;em&gt;Locke&lt;/em&gt; said in a &lt;em&gt;separate statement&lt;/em&gt; that the &lt;em&gt;independent directors&lt;/em&gt; of &lt;em&gt;Monier intend&lt;/em&gt; to &lt;em&gt;recommend acceptance&lt;/em&gt; of the ETL bid in the &lt;em&gt;absence&lt;/em&gt; of a &lt;em&gt;higher bid&lt;/em&gt;.</str>
+        <str name="text">Monier &lt;em&gt;chairman&lt;/em&gt; Bill &lt;em&gt;Locke&lt;/em&gt; said in a &lt;em&gt;separate statement&lt;/em&gt; that the &lt;em&gt;independent directors&lt;/em&gt; of &lt;em&gt;Monier intend&lt;/em&gt; to &lt;em&gt;recommend acceptance&lt;/em&gt; of the ETL bid in the &lt;em&gt;absence&lt;/em&gt; of a higher bid.</str>
         <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He also said Monier will not now &lt;em&gt;proceed&lt;/em&gt; with the one-for-two &lt;em&gt;bonus issue&lt;/em&gt; announced with its &lt;em&gt;interim results&lt;/em&gt; on &lt;em&gt;March 19&lt;/em&gt; in view of the &lt;em&gt;proposed takeover bids&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">ETL and its &lt;&lt;em&gt;Feltex International&lt;/em&gt; Ltd&gt; &lt;em&gt;associate&lt;/em&gt; have targetted the &lt;em&gt;building products sector&lt;/em&gt; as an area of &lt;em&gt;expansion&lt;/em&gt; and Monier fits well with this aim, he added.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

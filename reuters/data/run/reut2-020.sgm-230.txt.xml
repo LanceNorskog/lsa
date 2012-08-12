@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-230.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">there</str>
+        <str name="text">discussion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">taken</str>
-        <double name="strength">0.5230902842669297</double>
+        <str name="text">summit</str>
+        <double name="strength">0.999776370445524</double>
       </lst>
       <lst name="term">
-        <str name="text">exclusive</str>
-        <double name="strength">0.5106496987072774</double>
+        <str name="text">offer</str>
+        <double name="strength">0.9958918691499951</double>
       </lst>
       <lst name="term">
-        <str name="text">unlikely</str>
-        <double name="strength">0.502328595755783</double>
+        <str name="text">three</str>
+        <double name="strength">0.9958724841242501</double>
       </lst>
       <lst name="term">
-        <str name="text">place</str>
-        <double name="strength">0.499957458293585</double>
+        <str name="text">years</str>
+        <double name="strength">0.9958724841242501</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Lyng said uncertainties about wheat quality in some major producing areas of the world, volatile wheat prices and the still unfinished Soviet grain harvest could delay any final decision on the timing of another wheat subsidy to Moscow.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">There's been nothing that's taken place to indicate to me that there's a pressing need on their part for that sort of deal (a wheat subsidy)."</str>
-        <int name="index">5</int>
-        <int name="start">0</int>
-        <int name="end">142</int>
-        <double name="strength">0.7013525071620048</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Nikonov (communist party secretary for agriculture) was here ... he indicated that trade in wheat was not something that would be discussed with the President of the United States.</str>
         <int name="index">13</int>
         <int name="start">0</int>
         <int name="end">180</int>
-        <double name="strength">0.5824059923401349</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lyng said uncertainties about wheat quality in some major producing areas of the world, volatile wheat prices and the still unfinished Soviet grain harvest could delay any final decision on the timing of another wheat subsidy to Moscow.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">237</int>
+        <double name="strength">0.9891236447457592</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It would not be the kind of issue that the President or the Chairman would get into specific negotiations or discussions about," Lyng said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.8637325702752453</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Lyng said &lt;em&gt;uncertainties about wheat quality&lt;/em&gt; in some &lt;em&gt;major producing areas&lt;/em&gt; of the &lt;em&gt;world, volatile wheat prices&lt;/em&gt; and the &lt;em&gt;still unfinished Soviet grain harvest could delay&lt;/em&gt; any &lt;em&gt;final decision&lt;/em&gt; on the &lt;em&gt;timing&lt;/em&gt; of &lt;em&gt;another wheat subsidy&lt;/em&gt; to &lt;em&gt;Moscow&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Nikonov (communist party secretary&lt;/em&gt; for &lt;em&gt;agriculture)&lt;/em&gt; was here ... he indicated that &lt;em&gt;trade&lt;/em&gt; in &lt;em&gt;wheat&lt;/em&gt; was not &lt;em&gt;something&lt;/em&gt; that would be discussed with the &lt;em&gt;President&lt;/em&gt; of the United &lt;em&gt;States&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lyng said &lt;em&gt;uncertainties&lt;/em&gt; about &lt;em&gt;wheat quality&lt;/em&gt; in some &lt;em&gt;major&lt;/em&gt; producing &lt;em&gt;areas&lt;/em&gt; of the &lt;em&gt;world, volatile wheat prices&lt;/em&gt; and the still &lt;em&gt;unfinished Soviet grain harvest&lt;/em&gt; could &lt;em&gt;delay&lt;/em&gt; any &lt;em&gt;final decision&lt;/em&gt; on the &lt;em&gt;timing&lt;/em&gt; of another &lt;em&gt;wheat subsidy&lt;/em&gt; to &lt;em&gt;Moscow&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt;'s been &lt;em&gt;nothing&lt;/em&gt; that's &lt;em&gt;taken place&lt;/em&gt; to &lt;em&gt;indicate&lt;/em&gt; to me that &lt;em&gt;there&lt;/em&gt;'s a &lt;em&gt;pressing&lt;/em&gt; need on &lt;em&gt;their&lt;/em&gt; part for that sort of deal (a &lt;em&gt;wheat subsidy).&lt;/em&gt;"</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Nikonov (communist party secretary&lt;/em&gt; for &lt;em&gt;agriculture)&lt;/em&gt; was here ... he &lt;em&gt;indicated&lt;/em&gt; that &lt;em&gt;trade&lt;/em&gt; in &lt;em&gt;wheat&lt;/em&gt; was not &lt;em&gt;something&lt;/em&gt; that &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;discussed&lt;/em&gt; with the &lt;em&gt;President&lt;/em&gt; of the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">"It would not be the kind of &lt;em&gt;issue&lt;/em&gt; that the &lt;em&gt;President&lt;/em&gt; or the &lt;em&gt;Chairman&lt;/em&gt; would get into &lt;em&gt;specific negotiations&lt;/em&gt; or &lt;em&gt;discussions&lt;/em&gt; about," Lyng said.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

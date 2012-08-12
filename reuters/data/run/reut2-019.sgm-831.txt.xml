@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-831.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">north</str>
+        <str name="text">petroleum</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">heavy</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">require</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">seems</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">costs</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">estimates</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">officials</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">sidetrack</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Most refineries are now upgraded to refine heavy oils and the price differentials between heavy and light crudes are a lot narrower today," Osborne said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The field seems to be shallow and widespread, which will require a multi-platform development in recovery, pushing costs up," Christopher Osborne of stockbroker Hoare Govett said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.9695494373443158</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Chevron operates the block on behalf of 16 companies which include British Petroleum Development Ltd, DSM Hydrocarbons (UK) Ltd, Enterprise Oil (TNS) Ltd, Marathon Int.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">169</int>
-        <double name="strength">0.8902766944004498</double>
+        <double name="strength">0.9427437141078243</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K. Continental shelf tested 9,000 barrels per day (bpd) of 20 API crude oil from the tertiary "Alba" sand through a three-inch surface choke.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">141</int>
+        <double name="strength">0.7977302024976507</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"Most &lt;em&gt;refineries&lt;/em&gt; are now &lt;em&gt;upgraded&lt;/em&gt; to &lt;em&gt;refine heavy&lt;/em&gt; oils and the &lt;em&gt;price differentials between heavy&lt;/em&gt; and &lt;em&gt;light crudes&lt;/em&gt; are a lot &lt;em&gt;narrower today," Osborne said&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;field seems&lt;/em&gt; to be &lt;em&gt;shallow&lt;/em&gt; and &lt;em&gt;widespread, which&lt;/em&gt; will &lt;em&gt;require&lt;/em&gt; a &lt;em&gt;multi-platform development&lt;/em&gt; in &lt;em&gt;recovery, pushing costs&lt;/em&gt; up," &lt;em&gt;Christopher Osborne&lt;/em&gt; of &lt;em&gt;stockbroker Hoare Govett said&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;field&lt;/em&gt; seems to be &lt;em&gt;shallow&lt;/em&gt; and &lt;em&gt;widespread,&lt;/em&gt; which will &lt;em&gt;require&lt;/em&gt; a &lt;em&gt;multi-platform development&lt;/em&gt; in &lt;em&gt;recovery,&lt;/em&gt; pushing &lt;em&gt;costs&lt;/em&gt; up," &lt;em&gt;Christopher Osborne&lt;/em&gt; of &lt;em&gt;stockbroker Hoare Govett said&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chevron operates&lt;/em&gt; the &lt;em&gt;block&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of 16 &lt;em&gt;companies which include British Petroleum Development&lt;/em&gt; Ltd, DSM &lt;em&gt;Hydrocarbons &lt;/em&gt;(UK) Ltd, &lt;em&gt;Enterprise&lt;/em&gt; Oil (TNS) Ltd, &lt;em&gt;Marathon Int&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Chevron&lt;/em&gt; operates the &lt;em&gt;block&lt;/em&gt; on &lt;em&gt;behalf&lt;/em&gt; of 16 &lt;em&gt;companies&lt;/em&gt; which &lt;em&gt;include British Petroleum Development&lt;/em&gt; Ltd, DSM &lt;em&gt;Hydrocarbons &lt;/em&gt;(UK) Ltd, &lt;em&gt;Enterprise&lt;/em&gt; Oil (TNS) Ltd, &lt;em&gt;Marathon Int&lt;/em&gt;.</str>
         <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">K. &lt;em&gt;Continental shelf&lt;/em&gt; tested 9,000 &lt;em&gt;barrels&lt;/em&gt; per day (bpd) of 20 API &lt;em&gt;crude&lt;/em&gt; oil from the &lt;em&gt;tertiary &lt;/em&gt;"Alba" sand through a &lt;em&gt;three&lt;/em&gt;-inch &lt;em&gt;surface choke&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-484.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">claimants</str>
+        <str name="text">vital</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">american</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">establishing</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">order</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">sought</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">prescribe</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">protection</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">filing</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">221</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">American Home products never disclosed details of the proposed acquisition bid but analysts speculated that American Home would provide about 1.5 billion dlrs for a separate trust fund to handle the liability claims.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.9158810196639413</double>
+        <str name="text">S. Bankruptcy Court in Richmond seeking to  establish an orderly procedure to determine the number of valid Dalkon Shield claims that must be dealt with in the company's Chapter 11 case.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">186</int>
+        <double name="strength">0.8995532963563061</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Robins said the claims are invalid because they are duplicates, the claimant is claiming injury from a product other than the Dalkon shield, claimants did not complete court-required questionnaires by June 30, 1986, or the claims were made beyond the April 30, 1986 deadline.</str>
-        <int name="index">4</int>
+        <str name="text">The order would prescribe procedures for the filing and disposition of objections to certain claims, it said.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">276</int>
-        <double name="strength">0.9012084560507974</double>
+        <int name="end">110</int>
+        <double name="strength">0.7614189803556071</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Robins&lt;/em&gt; has &lt;em&gt;sought bankruptcy protection since August 1985 following&lt;/em&gt; a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;lawsuits relating&lt;/em&gt; to its &lt;em&gt;intrauterine Dalkon Shield, alleged&lt;/em&gt; to have &lt;em&gt;caused uterine perforations, sterility, spontaneous abortions&lt;/em&gt; and &lt;em&gt;death&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Robins&lt;/em&gt; has sought &lt;em&gt;bankruptcy protection&lt;/em&gt; since August 1985 following a &lt;em&gt;flood&lt;/em&gt; of &lt;em&gt;lawsuits&lt;/em&gt; relating to its &lt;em&gt;intrauterine Dalkon Shield,&lt;/em&gt; alleged to have caused &lt;em&gt;uterine perforations, sterility, spontaneous abortions&lt;/em&gt; and &lt;em&gt;death&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;American&lt;/em&gt; Home &lt;em&gt;products never disclosed details&lt;/em&gt; of the &lt;em&gt;proposed acquisition&lt;/em&gt; bid but &lt;em&gt;analysts speculated&lt;/em&gt; that &lt;em&gt;American&lt;/em&gt; Home &lt;em&gt;would provide about 1.5 billion&lt;/em&gt; dlrs for a &lt;em&gt;separate trust&lt;/em&gt; fund to &lt;em&gt;handle&lt;/em&gt; the &lt;em&gt;liability claims&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">S. &lt;em&gt;Bankruptcy Court&lt;/em&gt; in &lt;em&gt;Richmond&lt;/em&gt; seeking to  &lt;em&gt;establish&lt;/em&gt; an &lt;em&gt;orderly procedure&lt;/em&gt; to &lt;em&gt;determine&lt;/em&gt; the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;valid Dalkon Shield&lt;/em&gt; claims that must be dealt with in the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;Chapter 11 case&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Robins&lt;/em&gt; said the &lt;em&gt;claims&lt;/em&gt; are &lt;em&gt;invalid because&lt;/em&gt; they are &lt;em&gt;duplicates,&lt;/em&gt; the &lt;em&gt;claimant&lt;/em&gt; is &lt;em&gt;claiming injury&lt;/em&gt; from a &lt;em&gt;product other&lt;/em&gt; than the &lt;em&gt;Dalkon shield, claimants&lt;/em&gt; did not &lt;em&gt;complete court-required questionnaires&lt;/em&gt; by June 30, 1986, or the &lt;em&gt;claims&lt;/em&gt; were made &lt;em&gt;beyond&lt;/em&gt; the &lt;em&gt;April 30, 1986 deadline&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;order&lt;/em&gt; would &lt;em&gt;prescribe procedures&lt;/em&gt; for the &lt;em&gt;filing&lt;/em&gt; and &lt;em&gt;disposition&lt;/em&gt; of &lt;em&gt;objections&lt;/em&gt; to &lt;em&gt;certain claims,&lt;/em&gt; it said.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

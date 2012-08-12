@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-407.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">147</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">surplus</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">referred</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">research</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">details</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">tight</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">early</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">fisted</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S., Japan, West Germany, Britain, France, Italy and Canada -- said in the statement they welcomed proposals announced by Japan's ruling Liberal Democratic Party (LDP) for extraordinary and urgent measures to stimulate its economy and that Japan reaffirmed its intention to further open its domestic markets.</str>
-        <int name="index">4</int>
-        <int name="start">0</int>
-        <int name="end">307</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The statement referred to some details of Japan's proposed economic measures, such as early implementation of a large supplementary budget exceeding those of previous years and unprecedented front-end loading of public works expenditures.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">239</int>
-        <double name="strength">0.9185113493060213</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Unless Japan implements economic measures included in the statement, foreign protectionist sentiment would grow and the yen would come under renewed upward pressure, they said.</str>
-        <int name="index">2</int>
+        <str name="text">The statement issued today by the Group of Seven (G-7) industrialised nations has put Japan under greater international pressure to stimulate its economy or face a further rise in the yen, private economists and analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">226</int>
+        <double name="strength">0.8470795573137314</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It signalled a clear shift away from the conservative fiscal policies of the past," said Kazuaki Harada, senior managing director of Sanwa Research Institute.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">177</int>
-        <double name="strength">0.8237814423561157</double>
+        <int name="end">160</int>
+        <double name="strength">0.8225399928772578</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S., &lt;em&gt;Japan,&lt;/em&gt; West &lt;em&gt;Germany, Britain, France, Italy&lt;/em&gt; and &lt;em&gt;Canada --&lt;/em&gt; said in the &lt;em&gt;statement&lt;/em&gt; they &lt;em&gt;welcomed proposals announced&lt;/em&gt; by &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;ruling Liberal Democratic Party &lt;/em&gt;(LDP) for &lt;em&gt;extraordinary&lt;/em&gt; and &lt;em&gt;urgent measures&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; and that &lt;em&gt;Japan reaffirmed&lt;/em&gt; its &lt;em&gt;intention&lt;/em&gt; to &lt;em&gt;further&lt;/em&gt; open its &lt;em&gt;domestic markets&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;statement referred&lt;/em&gt; to some &lt;em&gt;details&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;proposed economic measures,&lt;/em&gt; such as &lt;em&gt;early implementation&lt;/em&gt; of a &lt;em&gt;large supplementary budget exceeding those&lt;/em&gt; of &lt;em&gt;previous years&lt;/em&gt; and &lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;statement&lt;/em&gt; referred to some &lt;em&gt;details&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s proposed &lt;em&gt;economic measures,&lt;/em&gt; such as &lt;em&gt;early implementation&lt;/em&gt; of a &lt;em&gt;large supplementary budget&lt;/em&gt; exceeding those of &lt;em&gt;previous years&lt;/em&gt; and &lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Unless Japan implements economic measures included&lt;/em&gt; in the &lt;em&gt;statement, foreign protectionist sentiment would&lt;/em&gt; grow and the yen &lt;em&gt;would&lt;/em&gt; come &lt;em&gt;under renewed upward pressure,&lt;/em&gt; they said.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;statement&lt;/em&gt; issued &lt;em&gt;today&lt;/em&gt; by the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;industrialised nations&lt;/em&gt; has put &lt;em&gt;Japan&lt;/em&gt; under greater &lt;em&gt;international pressure&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; or face a &lt;em&gt;further&lt;/em&gt; rise in the yen, &lt;em&gt;private economists&lt;/em&gt; and &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"It signalled a &lt;em&gt;clear shift&lt;/em&gt; away from the &lt;em&gt;conservative fiscal policies&lt;/em&gt; of the past," said &lt;em&gt;Kazuaki Harada, senior&lt;/em&gt; managing &lt;em&gt;director&lt;/em&gt; of Sanwa &lt;em&gt;Research Institute&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

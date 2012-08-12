@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-986.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">67</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">40</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">corrected</str>
+        <str name="text">extended</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">credits</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">second</str>
+        <double name="strength">0.9999999999999981</double>
+      </lst>
+      <lst name="term">
         <str name="text">first</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">discount</str>
-        <double name="strength">0.5000000000000006</double>
-      </lst>
-      <lst name="term">
-        <str name="text">window</str>
-        <double name="strength">0.5000000000000003</double>
-      </lst>
-      <lst name="term">
-        <str name="text">total</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">press</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">226</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">A Fed spokesman told a press conference that there were no large one-day net misses in the Fed's estimates of reserves in the week ended Wednesday.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">148</int>
-        <double name="strength">0.7603616015381702</double>
+        <double name="strength">0.8629471033722828</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The spokesman said Monday's float included 500 mln dlrs in holdover float at one Fed branch due to mechanical problems.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">120</int>
-        <double name="strength">0.723961341430226</double>
+        <str name="text">U.S. bank discount window borrowings less extended credits averaged 361 mln dlrs a day in the week to Wednesday, April 8, the Federal Reserve said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">147</int>
+        <double name="strength">0.7674741203958797</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">As-of &lt;em&gt;adjustments ranged&lt;/em&gt; from &lt;em&gt;minus 500&lt;/em&gt; mln dlrs on &lt;em&gt;Monday,&lt;/em&gt; when cash &lt;em&gt;letter errors&lt;/em&gt; at two &lt;em&gt;eastern reserve banks&lt;/em&gt; were &lt;em&gt;corrected,&lt;/em&gt; to plus 500 mln dlrs on &lt;em&gt;Thursday,&lt;/em&gt; when a &lt;em&gt;correction&lt;/em&gt; was made to &lt;em&gt;unposted funds&lt;/em&gt; at a &lt;em&gt;single bank&lt;/em&gt;.</str>
+        <str name="text">As-of &lt;em&gt;adjustments&lt;/em&gt; ranged from minus 500 mln dlrs on &lt;em&gt;Monday,&lt;/em&gt; when cash &lt;em&gt;letter errors&lt;/em&gt; at two &lt;em&gt;eastern reserve banks&lt;/em&gt; were corrected, to plus 500 mln dlrs on Thursday, when a &lt;em&gt;correction&lt;/em&gt; was made to &lt;em&gt;unposted funds&lt;/em&gt; at a &lt;em&gt;single bank&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A Fed &lt;em&gt;spokesman&lt;/em&gt; told a &lt;em&gt;press conference&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; were no &lt;em&gt;large&lt;/em&gt; one-day net &lt;em&gt;misses&lt;/em&gt; in the Fed's &lt;em&gt;estimates&lt;/em&gt; of &lt;em&gt;reserves&lt;/em&gt; in the week &lt;em&gt;ended Wednesday&lt;/em&gt;.</str>
+        <str name="text">A Fed &lt;em&gt;spokesman&lt;/em&gt; told a &lt;em&gt;press conference&lt;/em&gt; that there were no &lt;em&gt;large&lt;/em&gt; one-day net &lt;em&gt;misses&lt;/em&gt; in the Fed's &lt;em&gt;estimates&lt;/em&gt; of &lt;em&gt;reserves&lt;/em&gt; in the week ended Wednesday.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;float included 500&lt;/em&gt; mln dlrs in &lt;em&gt;holdover float&lt;/em&gt; at one Fed &lt;em&gt;branch&lt;/em&gt; due to &lt;em&gt;mechanical problems&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">U.S. bank &lt;em&gt;discount window borrowings&lt;/em&gt; less &lt;em&gt;extended credits&lt;/em&gt; averaged 361 mln dlrs a day in the week to &lt;em&gt;Wednesday,&lt;/em&gt; April 8, the &lt;em&gt;Federal Reserve said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

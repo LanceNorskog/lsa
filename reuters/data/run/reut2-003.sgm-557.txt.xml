@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-557.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">53</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">devaluation</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">though</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">rates</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">developments</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">threaten</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">reacceleration</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">progress</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">worrisome</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">present</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Hapoalim forecast last week that inflation would rise to around 30 pct this year and a second devaluation might be necessary later in the year, following the 9.75 pct devaluation against the dollar in January.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">An IMF delegation, which visited Israel this week, issued an interim report praising Israel's success in slashing inflation from 440 pct in 1985 to 19.7 pct last year without triggering mass unemployment.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">0.9075903156656214</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Bank Hapoalim chief economist Petahia Bar-Shavit said real growth of wages in 1986 was about 10 pct, following a fall of between 15 and 20 pct in the second half of 1985 when the government's economic stabilisation programme was introduced.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">241</int>
-        <double name="strength">0.8916218663192883</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The report echoed warnings last week by Bank of Israel Governor Michael Bruno and the private Bank Hapoalim that higher wages, government overspending and a consumer boom were rekindling inflation.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">198</int>
+        <double name="strength">0.9809487521460678</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But it held up Argentina and Brazil as examples of the perils awaiting countries who did not follow up on stabilization programs.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">130</int>
+        <double name="strength">0.913471167534824</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Hapoalim forecast&lt;/em&gt; last week that &lt;em&gt;inflation would&lt;/em&gt; rise to &lt;em&gt;around 30&lt;/em&gt; pct this year and a &lt;em&gt;second devaluation might&lt;/em&gt; be &lt;em&gt;necessary later&lt;/em&gt; in the year, &lt;em&gt;following&lt;/em&gt; the 9.75 pct &lt;em&gt;devaluation against&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">An IMF &lt;em&gt;delegation, which visited Israel&lt;/em&gt; this week, &lt;em&gt;issued&lt;/em&gt; an &lt;em&gt;interim report praising Israel&lt;/em&gt;'s &lt;em&gt;success&lt;/em&gt; in &lt;em&gt;slashing inflation&lt;/em&gt; from 440 pct in 1985 to 19.7 pct last year &lt;em&gt;without triggering&lt;/em&gt; mass &lt;em&gt;unemployment&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bank &lt;em&gt;Hapoalim chief economist Petahia&lt;/em&gt; Bar-&lt;em&gt;Shavit&lt;/em&gt; said real &lt;em&gt;growth&lt;/em&gt; of &lt;em&gt;wages&lt;/em&gt; in 1986 was &lt;em&gt;about 10&lt;/em&gt; pct, &lt;em&gt;following&lt;/em&gt; a fall of &lt;em&gt;between 15&lt;/em&gt; and 20 pct in the &lt;em&gt;second&lt;/em&gt; half of 1985 when the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;economic stabilisation programme&lt;/em&gt; was &lt;em&gt;introduced&lt;/em&gt;.</str>
+        <str name="text">Bank Hapoalim &lt;em&gt;chief economist Petahia&lt;/em&gt; Bar-&lt;em&gt;Shavit&lt;/em&gt; said real &lt;em&gt;growth&lt;/em&gt; of &lt;em&gt;wages&lt;/em&gt; in 1986 was about 10 pct, following a fall of between 15 and 20 pct in the &lt;em&gt;second&lt;/em&gt; half of 1985 when the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;economic stabilisation programme&lt;/em&gt; was introduced.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;report&lt;/em&gt; echoed &lt;em&gt;warnings&lt;/em&gt; last week by Bank of &lt;em&gt;Israel Governor Michael Bruno&lt;/em&gt; and the &lt;em&gt;private&lt;/em&gt; Bank &lt;em&gt;Hapoalim&lt;/em&gt; that higher &lt;em&gt;wages, government overspending&lt;/em&gt; and a &lt;em&gt;consumer&lt;/em&gt; boom were rekindling &lt;em&gt;inflation&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But it held up &lt;em&gt;Argentina&lt;/em&gt; and &lt;em&gt;Brazil&lt;/em&gt; as &lt;em&gt;examples&lt;/em&gt; of the &lt;em&gt;perils&lt;/em&gt; awaiting &lt;em&gt;countries&lt;/em&gt; who did not &lt;em&gt;follow&lt;/em&gt; up on &lt;em&gt;stabilization programs&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

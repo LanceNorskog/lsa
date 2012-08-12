@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-853.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">japanese</str>
+        <str name="text">moore</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">share</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">statement</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">annualized</str>
-        <double name="strength">0.9999999999999961</double>
+        <str name="text">company</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">owned</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">point</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">expect</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">292</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But consumers have taken a breather since then and car sales sales have been weaker in 1987 due to tax-induced heavy buying in December, a lack of widespread sales incentives and intermitent bad weather, analysts said.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">218</int>
-        <double name="strength">0.7805105265585462</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">N. "Bud" Moore said in a statement that his company's sales "began their recovery from the low point reached in January, and we expect the improvement to continue in coming months."</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">181</int>
-        <double name="strength">0.7276327533966697</double>
+        <double name="strength">0.9243784469442189</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Industry analysts said the 198,818 domestic-make cars sold in the seven selling days of late February represented a seasonally adjusted annualized rate of 7.0 mln units while the 556,953 sold in the month were at a 7.4 mln annual rate.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">236</int>
+        <double name="strength">0.6982007302825741</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;further effort&lt;/em&gt; to &lt;em&gt;revive sales,&lt;/em&gt; GM said its &lt;em&gt;Oldsmobile, Pontiac&lt;/em&gt; and &lt;em&gt;Buick divisions would offer&lt;/em&gt; many of &lt;em&gt;their&lt;/em&gt; new car &lt;em&gt;lines through April 30&lt;/em&gt; with &lt;em&gt;discount&lt;/em&gt; loan &lt;em&gt;packages&lt;/em&gt; at &lt;em&gt;rates ranging&lt;/em&gt; from 3.9 pct for 24-&lt;em&gt;month contracts&lt;/em&gt; to 9.9 pct for 60-&lt;em&gt;month deals&lt;/em&gt; as an &lt;em&gt;alternative&lt;/em&gt; to cash &lt;em&gt;rebates&lt;/em&gt;.</str>
+        <str name="text">In a &lt;em&gt;further effort&lt;/em&gt; to &lt;em&gt;revive sales,&lt;/em&gt; GM said its &lt;em&gt;Oldsmobile, Pontiac&lt;/em&gt; and &lt;em&gt;Buick divisions&lt;/em&gt; would &lt;em&gt;offer&lt;/em&gt; many of their new car &lt;em&gt;lines&lt;/em&gt; through &lt;em&gt;April 30&lt;/em&gt; with &lt;em&gt;discount&lt;/em&gt; loan &lt;em&gt;packages&lt;/em&gt; at &lt;em&gt;rates&lt;/em&gt; ranging from 3.9 pct for 24-&lt;em&gt;month contracts&lt;/em&gt; to 9.9 pct for 60-&lt;em&gt;month deals&lt;/em&gt; as an &lt;em&gt;alternative&lt;/em&gt; to cash &lt;em&gt;rebates&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;consumers&lt;/em&gt; have &lt;em&gt;taken&lt;/em&gt; a &lt;em&gt;breather since&lt;/em&gt; then and car &lt;em&gt;sales sales&lt;/em&gt; have been &lt;em&gt;weaker&lt;/em&gt; in 1987 due to tax-&lt;em&gt;induced heavy buying&lt;/em&gt; in &lt;em&gt;December,&lt;/em&gt; a lack of &lt;em&gt;widespread sales incentives&lt;/em&gt; and &lt;em&gt;intermitent&lt;/em&gt; bad &lt;em&gt;weather, analysts said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">N. "Bud" &lt;em&gt;Moore&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; that his &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;sales &lt;/em&gt;"began their &lt;em&gt;recovery&lt;/em&gt; from the low &lt;em&gt;point&lt;/em&gt; reached in &lt;em&gt;January,&lt;/em&gt; and we &lt;em&gt;expect&lt;/em&gt; the &lt;em&gt;improvement&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; in coming &lt;em&gt;months.&lt;/em&gt;"</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">N. "Bud" &lt;em&gt;Moore&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; that his &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;sales "began their recovery&lt;/em&gt; from the low &lt;em&gt;point reached&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; and we &lt;em&gt;expect&lt;/em&gt; the &lt;em&gt;improvement&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; in &lt;em&gt;coming months.&lt;/em&gt;"</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Industry analysts&lt;/em&gt; said the 198,818 &lt;em&gt;domestic&lt;/em&gt;-make cars sold in the &lt;em&gt;seven selling&lt;/em&gt; days of late &lt;em&gt;February&lt;/em&gt; represented a seasonally adjusted annualized rate of 7.0 mln &lt;em&gt;units&lt;/em&gt; while the 556,953 sold in the &lt;em&gt;month&lt;/em&gt; were at a 7.4 mln &lt;em&gt;annual rate&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

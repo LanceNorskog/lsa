@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-307.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">150</int>
+        <int name="count">97</int>
       </lst>
       <lst name="stems">
-        <int name="count">108</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">planned</str>
+        <str name="text">january</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.7450621200776724</double>
+        <str name="text">controversial</str>
+        <double name="strength">0.7131172914262016</double>
       </lst>
       <lst name="term">
-        <str name="text">irreparable</str>
-        <double name="strength">0.4138042788919231</double>
+        <str name="text">reform</str>
+        <double name="strength">0.6869902875435445</double>
       </lst>
       <lst name="term">
-        <str name="text">skilled</str>
-        <double name="strength">0.3977193470373099</double>
+        <str name="text">summer</str>
+        <double name="strength">0.6834906171667461</double>
       </lst>
       <lst name="term">
-        <str name="text">politician</str>
-        <double name="strength">0.3921672858941809</double>
+        <str name="text">likely</str>
+        <double name="strength">0.6823103749215546</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Moreover, the tax is being introduced when the public feels uncertainty about the sluggish economy stemming from the yen's appreciation and about the future when the Japanese society is rapidly aging," he said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Political analysts said the controversial tax could affect the more than 2,500 local elections scheduled for April, involving governors, mayors, town and village heads and assemblies at all levels.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">198</int>
-        <double name="strength">0.8071220270284183</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some ruling Liberal Democratic Party (LDP) members of parliament have spoken against the tax, which Nakasone says is needed to balance planned cuts in income and corporate taxes.</str>
-        <int name="index">4</int>
+        <str name="text">"Nakasone is trying to carry out a drastic tax reform at the end of his administration, which is not only impossible but also is very irresponsible as a politican," Rei Shiratori, professor of politics at Dokkyo University, told Reuters.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.7290999643333351</double>
+        <int name="end">238</int>
+        <double name="strength">0.95830288646098</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Prime Minister Yasuhiro Nakasone is likely to leave office this summer amid opposition to his controversial tax-reform package, political analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.9277724505477987</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Moreover,&lt;/em&gt; the tax is &lt;em&gt;being introduced&lt;/em&gt; when the &lt;em&gt;public feels uncertainty about&lt;/em&gt; the &lt;em&gt;sluggish economy stemming&lt;/em&gt; from the yen's &lt;em&gt;appreciation&lt;/em&gt; and &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;future&lt;/em&gt; when the &lt;em&gt;Japanese society&lt;/em&gt; is &lt;em&gt;rapidly aging,"&lt;/em&gt; he said.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Political analysts&lt;/em&gt; said the &lt;em&gt;controversial&lt;/em&gt; tax &lt;em&gt;could affect&lt;/em&gt; the more than 2,500 &lt;em&gt;local elections scheduled&lt;/em&gt; for &lt;em&gt;April, involving governors, mayors,&lt;/em&gt; town and &lt;em&gt;village heads&lt;/em&gt; and &lt;em&gt;assemblies&lt;/em&gt; at all &lt;em&gt;levels&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Political analysts&lt;/em&gt; said the &lt;em&gt;controversial&lt;/em&gt; tax could &lt;em&gt;affect&lt;/em&gt; the more than 2,500 &lt;em&gt;local elections&lt;/em&gt; scheduled for &lt;em&gt;April,&lt;/em&gt; involving &lt;em&gt;governors, mayors,&lt;/em&gt; town and &lt;em&gt;village heads&lt;/em&gt; and &lt;em&gt;assemblies&lt;/em&gt; at all &lt;em&gt;levels&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;ruling Liberal Democratic Party &lt;/em&gt;(LDP) &lt;em&gt;members&lt;/em&gt; of &lt;em&gt;parliament&lt;/em&gt; have &lt;em&gt;spoken against&lt;/em&gt; the tax, &lt;em&gt;which Nakasone&lt;/em&gt; says is &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;balance planned&lt;/em&gt; cuts in &lt;em&gt;income&lt;/em&gt; and &lt;em&gt;corporate taxes&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;"Nakasone&lt;/em&gt; is trying to &lt;em&gt;carry&lt;/em&gt; out a &lt;em&gt;drastic&lt;/em&gt; tax &lt;em&gt;reform&lt;/em&gt; at the end of his &lt;em&gt;administration,&lt;/em&gt; which is not only &lt;em&gt;impossible&lt;/em&gt; but also is very &lt;em&gt;irresponsible&lt;/em&gt; as a &lt;em&gt;politican,"&lt;/em&gt; Rei &lt;em&gt;Shiratori, professor&lt;/em&gt; of &lt;em&gt;politics&lt;/em&gt; at &lt;em&gt;Dokkyo University,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;leave office&lt;/em&gt; this &lt;em&gt;summer&lt;/em&gt; amid &lt;em&gt;opposition&lt;/em&gt; to his &lt;em&gt;controversial&lt;/em&gt; tax-&lt;em&gt;reform package, political analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

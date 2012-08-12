@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-866.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">148</int>
+        <int name="count">108</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">79</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">possible</str>
+        <str name="text">markets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">expansion</str>
-        <double name="strength">0.5590169943749475</double>
-      </lst>
-      <lst name="term">
-        <str name="text">equity</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">commercial</str>
+        <double name="strength">0.7510058476342506</double>
       </lst>
       <lst name="term">
         <str name="text">financial</str>
-        <double name="strength">0.5590169943749471</double>
+        <double name="strength">0.7510058476342506</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">equity</str>
+        <double name="strength">0.7510058476342506</double>
+      </lst>
+      <lst name="term">
+        <str name="text">issuance</str>
+        <double name="strength">0.7510058476342504</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"It remains to be seen however to what extent the ECP market will be ready to absorb a significant volume of paper from lower-rated borrowers," the report said, adding that any major advance in the euro-note market's absorptive capacity would require a significantly broader investor base.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">290</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Organisation for Economic Cooperation and Development (OECD) said in its latest Financial Market Trends report the 34 pct rise over 1985 volume was accompanied by major changes in the relative importance of the instruments used in international financing.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">260</int>
-        <double name="strength">0.8794677230882978</double>
-      </lst>
       <lst name="sentence">
         <str name="text">It added the development of a smoothly-functioning market for short-term euro-notes made committee and non-underwritten issuance facilities an increasingly popular alternative to traditional forms of bank lending.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">214</int>
-        <double name="strength">0.8662988560814038</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The OECD said another striking feature of international capital markets in 1986 was the unprecedented concentration of lending to the OECD group of western industrialised countries, which accounted for 90 pct of total borrowing.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">229</int>
+        <double name="strength">0.9794049563397218</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Straight bond offerings, equity related securities and euro-commercial paper programmes as a share in total financing rose to their highest level this decade.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.955853291932499</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It &lt;em&gt;remains&lt;/em&gt; to be seen &lt;em&gt;however&lt;/em&gt; to what &lt;em&gt;extent&lt;/em&gt; the ECP &lt;em&gt;market&lt;/em&gt; will be &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;absorb&lt;/em&gt; a &lt;em&gt;significant volume&lt;/em&gt; of &lt;em&gt;paper&lt;/em&gt; from &lt;em&gt;lower-rated borrowers,"&lt;/em&gt; the &lt;em&gt;report&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that any &lt;em&gt;major advance&lt;/em&gt; in the euro-note &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;absorptive capacity would require&lt;/em&gt; a &lt;em&gt;significantly broader investor base&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD) said in its &lt;em&gt;latest Financial Market Trends report&lt;/em&gt; the 34 pct rise over 1985 &lt;em&gt;volume&lt;/em&gt; was &lt;em&gt;accompanied&lt;/em&gt; by &lt;em&gt;major changes&lt;/em&gt; in the &lt;em&gt;relative importance&lt;/em&gt; of the &lt;em&gt;instruments&lt;/em&gt; used in &lt;em&gt;international financing&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It &lt;em&gt;added&lt;/em&gt; the &lt;em&gt;development&lt;/em&gt; of a &lt;em&gt;smoothly-functioning market&lt;/em&gt; for &lt;em&gt;short&lt;/em&gt;-term euro-&lt;em&gt;notes&lt;/em&gt; made &lt;em&gt;committee&lt;/em&gt; and non-&lt;em&gt;underwritten issuance facilities&lt;/em&gt; an &lt;em&gt;increasingly popular alternative&lt;/em&gt; to &lt;em&gt;traditional forms&lt;/em&gt; of bank &lt;em&gt;lending&lt;/em&gt;.</str>
+        <str name="text">It added the &lt;em&gt;development&lt;/em&gt; of a smoothly-functioning &lt;em&gt;market&lt;/em&gt; for &lt;em&gt;short&lt;/em&gt;-term euro-notes made &lt;em&gt;committee&lt;/em&gt; and non-&lt;em&gt;underwritten issuance facilities&lt;/em&gt; an increasingly &lt;em&gt;popular alternative&lt;/em&gt; to &lt;em&gt;traditional forms&lt;/em&gt; of bank &lt;em&gt;lending&lt;/em&gt;.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The OECD said another &lt;em&gt;striking feature&lt;/em&gt; of &lt;em&gt;international capital markets&lt;/em&gt; in 1986 was the &lt;em&gt;unprecedented concentration&lt;/em&gt; of lending to the OECD &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;western industrialised countries,&lt;/em&gt; which accounted for 90 pct of &lt;em&gt;total borrowing&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Straight&lt;/em&gt; bond &lt;em&gt;offerings, equity&lt;/em&gt; related &lt;em&gt;securities&lt;/em&gt; and euro-&lt;em&gt;commercial paper programmes&lt;/em&gt; as a &lt;em&gt;share&lt;/em&gt; in &lt;em&gt;total financing&lt;/em&gt; rose to their highest &lt;em&gt;level&lt;/em&gt; this &lt;em&gt;decade&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

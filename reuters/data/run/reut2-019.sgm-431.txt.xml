@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-431.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">266</int>
+        <int name="count">194</int>
       </lst>
       <lst name="stems">
-        <int name="count">179</int>
+        <int name="count">130</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">large</str>
+        <str name="text">investors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">takeover</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">street</str>
         <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999989</double>
-      </lst>
-      <lst name="term">
-        <str name="text">condition</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">enforce</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The agency requires public companies and investment vehicles such as mutual funds to issue periodic reports on their financial condition and to disclose changes in their condition any time they issue new securities.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Established by Congress in 1934, the SEC traces its origins to the great stock market crash of 1929, which was attributed in large part to widespread trading on credit and attempted market manipulations by large investment firms.</str>
-        <int name="index">26</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.8688716275582823</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The pace of the probe picked up markedly in November after Ivan Boesky, one of Wall Street's most successful stock speculators, agreed to cooperate with government investigators and to pay a record 100 mln dlrs in penalties and illegal profits after being charged with insider trading.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">286</int>
-        <double name="strength">0.8226452625023807</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Under the leadership of Shad, the SEC eased financial disclosure requirements for publicly traded companies, eliminated many minor investor protection rules, attempted to spur competition among exchanges and streamlined the agency's review of hostile corporate takeovers.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">272</int>
+        <double name="strength">0.9497948886143583</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. and foreign exchanges intent on expansion to lay the regulatory groundwork for an international securities marketplace in which trading occurs across borders throughout the world, around the clock.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">200</int>
+        <double name="strength">0.9056611690210014</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;agency requires public companies&lt;/em&gt; and &lt;em&gt;investment vehicles&lt;/em&gt; such as &lt;em&gt;mutual funds&lt;/em&gt; to &lt;em&gt;issue periodic reports&lt;/em&gt; on &lt;em&gt;their financial condition&lt;/em&gt; and to &lt;em&gt;disclose changes&lt;/em&gt; in &lt;em&gt;their condition&lt;/em&gt; any time they &lt;em&gt;issue&lt;/em&gt; new &lt;em&gt;securities&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Established&lt;/em&gt; by &lt;em&gt;Congress&lt;/em&gt; in 1934, the SEC &lt;em&gt;traces&lt;/em&gt; its &lt;em&gt;origins&lt;/em&gt; to the &lt;em&gt;great stock market crash&lt;/em&gt; of 1929, &lt;em&gt;which&lt;/em&gt; was &lt;em&gt;attributed&lt;/em&gt; in &lt;em&gt;large&lt;/em&gt; part to &lt;em&gt;widespread trading&lt;/em&gt; on &lt;em&gt;credit&lt;/em&gt; and &lt;em&gt;attempted market manipulations&lt;/em&gt; by &lt;em&gt;large investment firms&lt;/em&gt;.</str>
-        <int name="index">26</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The pace of the &lt;em&gt;probe picked&lt;/em&gt; up &lt;em&gt;markedly&lt;/em&gt; in &lt;em&gt;November after&lt;/em&gt; Ivan &lt;em&gt;Boesky,&lt;/em&gt; one of Wall &lt;em&gt;Street&lt;/em&gt;'s most &lt;em&gt;successful stock speculators, agreed&lt;/em&gt; to &lt;em&gt;cooperate&lt;/em&gt; with &lt;em&gt;government investigators&lt;/em&gt; and to pay a &lt;em&gt;record 100&lt;/em&gt; mln dlrs in &lt;em&gt;penalties&lt;/em&gt; and &lt;em&gt;illegal profits after being charged&lt;/em&gt; with &lt;em&gt;insider trading&lt;/em&gt;.</str>
+        <str name="text">The pace of the &lt;em&gt;probe&lt;/em&gt; picked up markedly in &lt;em&gt;November&lt;/em&gt; after Ivan &lt;em&gt;Boesky,&lt;/em&gt; one of Wall &lt;em&gt;Street&lt;/em&gt;'s most &lt;em&gt;successful stock speculators,&lt;/em&gt; agreed to &lt;em&gt;cooperate&lt;/em&gt; with &lt;em&gt;government investigators&lt;/em&gt; and to pay a &lt;em&gt;record 100&lt;/em&gt; mln dlrs in &lt;em&gt;penalties&lt;/em&gt; and &lt;em&gt;illegal profits&lt;/em&gt; after being charged with &lt;em&gt;insider trading&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Under the &lt;em&gt;leadership&lt;/em&gt; of Shad, the SEC eased &lt;em&gt;financial disclosure requirements&lt;/em&gt; for publicly traded &lt;em&gt;companies,&lt;/em&gt; eliminated many &lt;em&gt;minor investor protection rules,&lt;/em&gt; attempted to spur &lt;em&gt;competition&lt;/em&gt; among &lt;em&gt;exchanges&lt;/em&gt; and streamlined the &lt;em&gt;agency&lt;/em&gt;'s &lt;em&gt;review&lt;/em&gt; of &lt;em&gt;hostile corporate takeovers&lt;/em&gt;.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. and &lt;em&gt;foreign exchanges intent&lt;/em&gt; on &lt;em&gt;expansion&lt;/em&gt; to lay the &lt;em&gt;regulatory groundwork&lt;/em&gt; for an &lt;em&gt;international securities marketplace&lt;/em&gt; in which &lt;em&gt;trading&lt;/em&gt; occurs across &lt;em&gt;borders&lt;/em&gt; throughout the &lt;em&gt;world,&lt;/em&gt; around the &lt;em&gt;clock&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

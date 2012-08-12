@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-757.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">191</int>
+        <int name="count">136</int>
       </lst>
       <lst name="stems">
-        <int name="count">129</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">executive</str>
+        <str name="text">bidding</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">filipinos</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">companies</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.999999999999995</double>
+        <str name="text">philippine</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">price</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">david</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">government</str>
+        <double name="strength">0.998879828055202</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">244</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said he had told cabinet ministers sceptical about the identities of buyers that "Marcos cronies" could easily put up legitimate fronts if they were specifically barred from bidding for assets on the block.</str>
         <int name="index">23</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.9739014546340679</double>
+        <double name="strength">0.9302910524870533</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But David SyCip, chief executive trustee of the Asset Privatisation Trust (APT), told a meeting of financial executives the APT has not yet received a list of the firms.</str>
-        <int name="index">1</int>
+        <str name="text">"I told them if I am paid 20 mln pesos in 100-peso bills, all with identical serial numbers and they look like genuine legal currency, then I would accept them'," SyCip said.</str>
+        <int name="index">24</int>
         <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.940414769335499</double>
+        <int name="end">175</int>
+        <double name="strength">0.8475546999946301</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;President Corazon Aquino announced earlier&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; that &lt;em&gt;proceeds&lt;/em&gt; from the sale of APT-&lt;em&gt;controlled assets would&lt;/em&gt; be used to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s land &lt;em&gt;reform program, which&lt;/em&gt; aims to &lt;em&gt;distribute about 9.7&lt;/em&gt; mln &lt;em&gt;hectares&lt;/em&gt; of land to poor &lt;em&gt;peasants&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;President Corazon Aquino&lt;/em&gt; announced earlier this &lt;em&gt;month&lt;/em&gt; that &lt;em&gt;proceeds&lt;/em&gt; from the sale of APT-&lt;em&gt;controlled assets&lt;/em&gt; would be used to &lt;em&gt;finance&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s land &lt;em&gt;reform program,&lt;/em&gt; which aims to &lt;em&gt;distribute&lt;/em&gt; about 9.7 mln &lt;em&gt;hectares&lt;/em&gt; of land to poor &lt;em&gt;peasants&lt;/em&gt;.</str>
         <int name="index">31</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said he had told &lt;em&gt;cabinet ministers sceptical about&lt;/em&gt; the &lt;em&gt;identities&lt;/em&gt; of &lt;em&gt;buyers&lt;/em&gt; that "&lt;em&gt;Marcos cronies" could easily&lt;/em&gt; put up &lt;em&gt;legitimate fronts&lt;/em&gt; if they were &lt;em&gt;specifically barred&lt;/em&gt; from &lt;em&gt;bidding&lt;/em&gt; for &lt;em&gt;assets&lt;/em&gt; on the &lt;em&gt;block&lt;/em&gt;.</str>
+        <str name="text">He said he had told &lt;em&gt;cabinet ministers sceptical&lt;/em&gt; about the &lt;em&gt;identities&lt;/em&gt; of &lt;em&gt;buyers&lt;/em&gt; that "&lt;em&gt;Marcos cronies"&lt;/em&gt; could easily put up &lt;em&gt;legitimate fronts&lt;/em&gt; if they were specifically barred from &lt;em&gt;bidding&lt;/em&gt; for &lt;em&gt;assets&lt;/em&gt; on the &lt;em&gt;block&lt;/em&gt;.</str>
         <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;David SyCip, chief executive trustee&lt;/em&gt; of the &lt;em&gt;Asset Privatisation Trust &lt;/em&gt;(APT), told a &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;financial executives&lt;/em&gt; the APT has not yet &lt;em&gt;received&lt;/em&gt; a list of the &lt;em&gt;firms&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">"I told them if I am paid 20 mln &lt;em&gt;pesos&lt;/em&gt; in 100-peso &lt;em&gt;bills,&lt;/em&gt; all with &lt;em&gt;identical serial numbers&lt;/em&gt; and they look like &lt;em&gt;genuine legal currency,&lt;/em&gt; then I would &lt;em&gt;accept&lt;/em&gt; them'," &lt;em&gt;SyCip said&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

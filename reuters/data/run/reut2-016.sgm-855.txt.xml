@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-855.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">markets</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">compliance</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
         <str name="text">visit</str>
-        <double name="strength">0.5590169943749469</double>
-      </lst>
-      <lst name="term">
-        <str name="text">program</str>
-        <double name="strength">0.500000000000001</double>
-      </lst>
-      <lst name="term">
-        <str name="text">united</str>
-        <double name="strength">0.500000000000001</double>
-      </lst>
-      <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.500000000000001</double>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">215</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Reagan announced on March 27 he would impose the tariffs to retaliate for Japan's failure to honor a 1986 agreement to end dumping computer semiconductors in world markets at less than cost and to open its home markets to U.</str>
-        <int name="index">2</int>
+        <str name="text">Yeutter also said he did not see any way the semiconductor issue could be resolved before or during a Washington visit later this month by Japanese Prime Minister Yasuhiro Nakasone.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9777981642767284</double>
+        <int name="end">182</int>
+        <double name="strength">0.9356711599962949</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He added Japan might challenge the tariffs in the General Agreement on Tariffs and Trade (GATT), but "that's more of a paper kind of exercise and I don't really expect to see any adverse impact on U.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.9018040296544528</double>
+        <str name="text">U.S. Trade Representative Clayton Yeutter said it was all but certain President Reagan would go ahead today and impose curbs on Japanese exports as planned.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">156</int>
+        <double name="strength">0.9042489310860851</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yeutter&lt;/em&gt; said he did not &lt;em&gt;think there would&lt;/em&gt; be much &lt;em&gt;consumer impact&lt;/em&gt; by the &lt;em&gt;tariffs&lt;/em&gt; on 300 mln dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;Japanese goods because&lt;/em&gt; the &lt;em&gt;items selected&lt;/em&gt; are also &lt;em&gt;readily available&lt;/em&gt; from &lt;em&gt;other countries&lt;/em&gt; and &lt;em&gt;manufacturers&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Yeutter&lt;/em&gt; said he did not &lt;em&gt;think&lt;/em&gt; there would be much &lt;em&gt;consumer impact&lt;/em&gt; by the &lt;em&gt;tariffs&lt;/em&gt; on 300 mln dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;Japanese goods&lt;/em&gt; because the &lt;em&gt;items&lt;/em&gt; selected are also readily &lt;em&gt;available&lt;/em&gt; from &lt;em&gt;other countries&lt;/em&gt; and &lt;em&gt;manufacturers&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Reagan announced&lt;/em&gt; on &lt;em&gt;March 27&lt;/em&gt; he &lt;em&gt;would impose&lt;/em&gt; the &lt;em&gt;tariffs&lt;/em&gt; to &lt;em&gt;retaliate&lt;/em&gt; for &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;honor&lt;/em&gt; a 1986 &lt;em&gt;agreement&lt;/em&gt; to end &lt;em&gt;dumping computer semiconductors&lt;/em&gt; in &lt;em&gt;world markets&lt;/em&gt; at less than cost and to open its home &lt;em&gt;markets&lt;/em&gt; to U.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Yeutter&lt;/em&gt; also said he did not see any way the &lt;em&gt;semiconductor issue&lt;/em&gt; could be resolved before or during a &lt;em&gt;Washington visit&lt;/em&gt; later this &lt;em&gt;month&lt;/em&gt; by &lt;em&gt;Japanese Prime Minister Yasuhiro Nakasone&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;added Japan might challenge&lt;/em&gt; the &lt;em&gt;tariffs&lt;/em&gt; in the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT), but "that's more of a &lt;em&gt;paper&lt;/em&gt; kind of &lt;em&gt;exercise&lt;/em&gt; and I don't &lt;em&gt;really expect&lt;/em&gt; to see any &lt;em&gt;adverse impact&lt;/em&gt; on U.</str>
-        <int name="index">12</int>
+        <str name="text">U.S. &lt;em&gt;Trade Representative Clayton Yeutter&lt;/em&gt; said it was all but &lt;em&gt;certain President Reagan&lt;/em&gt; would go ahead &lt;em&gt;today&lt;/em&gt; and &lt;em&gt;impose curbs&lt;/em&gt; on &lt;em&gt;Japanese exports&lt;/em&gt; as planned.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

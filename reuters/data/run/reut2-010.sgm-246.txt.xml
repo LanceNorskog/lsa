@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-246.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">solution</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">management</str>
-        <double name="strength">0.5590169943749479</double>
+        <double name="strength">0.9999999999999988</double>
+      </lst>
+      <lst name="term">
+        <str name="text">difficulties</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">delivery</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
         <str name="text">provide</str>
-        <double name="strength">0.5000000000000012</double>
-      </lst>
-      <lst name="term">
-        <str name="text">assurances</str>
-        <double name="strength">0.5000000000000012</double>
-      </lst>
-      <lst name="term">
-        <str name="text">farmers</str>
-        <double name="strength">0.5000000000000012</double>
+        <double name="strength">0.9634242309653827</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">305</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Duncan noted that the system has about 70 billion dlrs in assets, serves about 800,000 individual borrowers and 3,000 cooperatives, and has 62.5 billion dlrs in securities outstanding.</str>
-        <int name="index">15</int>
+        <str name="text">He said solutions to the problems should -  - provide assurances to farmers on borrowers stock and the stability of the farm credit system.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.7128747455023907</double>
+        <int name="end">140</int>
+        <double name="strength">0.8080982122099941</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Frank Naylor, chairman of the Farm Credit Administration, said this week that the system may lose as much as 1.4 billion dlrs this year, and another board member, Jim Billington, said Congress should plan to spend at least 800 mln dlrs beginning late this year to bail out the system.</str>
-        <int name="index">14</int>
+        <str name="text">Addressing Chicago business and agricultural economists, Duncan outlined three basic problems of the farm credit system.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">285</int>
-        <double name="strength">0.712090340961382</double>
+        <int name="end">121</int>
+        <double name="strength">0.7577489770338122</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;system&lt;/em&gt; is &lt;em&gt;still plagued&lt;/em&gt; with &lt;em&gt;duplication&lt;/em&gt; in &lt;em&gt;layers&lt;/em&gt; of &lt;em&gt;management&lt;/em&gt; and &lt;em&gt;decision-making, inadequate tailoring&lt;/em&gt; of &lt;em&gt;credit services&lt;/em&gt; to fit the &lt;em&gt;emerging market,&lt;/em&gt; a &lt;em&gt;large investment&lt;/em&gt; in &lt;em&gt;bricks&lt;/em&gt; and &lt;em&gt;mortar,&lt;/em&gt; and a &lt;em&gt;management&lt;/em&gt; and &lt;em&gt;directorate&lt;/em&gt; more &lt;em&gt;insular&lt;/em&gt; to the &lt;em&gt;marketplace&lt;/em&gt; than that of its &lt;em&gt;competitors,"&lt;/em&gt; he said.</str>
+        <str name="text">"The &lt;em&gt;system&lt;/em&gt; is still plagued with &lt;em&gt;duplication&lt;/em&gt; in &lt;em&gt;layers&lt;/em&gt; of &lt;em&gt;management&lt;/em&gt; and &lt;em&gt;decision-making, inadequate tailoring&lt;/em&gt; of &lt;em&gt;credit services&lt;/em&gt; to fit the emerging &lt;em&gt;market,&lt;/em&gt; a &lt;em&gt;large investment&lt;/em&gt; in &lt;em&gt;bricks&lt;/em&gt; and &lt;em&gt;mortar,&lt;/em&gt; and a &lt;em&gt;management&lt;/em&gt; and &lt;em&gt;directorate&lt;/em&gt; more &lt;em&gt;insular&lt;/em&gt; to the &lt;em&gt;marketplace&lt;/em&gt; than that of its &lt;em&gt;competitors,"&lt;/em&gt; he said.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Duncan noted&lt;/em&gt; that the &lt;em&gt;system&lt;/em&gt; has &lt;em&gt;about 70 billion&lt;/em&gt; dlrs in &lt;em&gt;assets, serves about 800,000 individual borrowers&lt;/em&gt; and 3,000 &lt;em&gt;cooperatives,&lt;/em&gt; and has 62.5 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;securities outstanding&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">He said &lt;em&gt;solutions&lt;/em&gt; to the &lt;em&gt;problems&lt;/em&gt; should -  - &lt;em&gt;provide assurances&lt;/em&gt; to &lt;em&gt;farmers&lt;/em&gt; on &lt;em&gt;borrowers stock&lt;/em&gt; and the &lt;em&gt;stability&lt;/em&gt; of the farm &lt;em&gt;credit system&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Frank Naylor, chairman&lt;/em&gt; of the Farm &lt;em&gt;Credit Administration,&lt;/em&gt; said this week that the &lt;em&gt;system&lt;/em&gt; may lose as much as 1.4 &lt;em&gt;billion&lt;/em&gt; dlrs this year, and &lt;em&gt;another board member,&lt;/em&gt; Jim &lt;em&gt;Billington,&lt;/em&gt; said &lt;em&gt;Congress should&lt;/em&gt; plan to &lt;em&gt;spend&lt;/em&gt; at &lt;em&gt;least 800&lt;/em&gt; mln dlrs &lt;em&gt;beginning&lt;/em&gt; late this year to bail out the &lt;em&gt;system&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Addressing &lt;em&gt;Chicago business&lt;/em&gt; and &lt;em&gt;agricultural economists,&lt;/em&gt; Duncan outlined &lt;em&gt;three basic problems&lt;/em&gt; of the farm &lt;em&gt;credit system&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

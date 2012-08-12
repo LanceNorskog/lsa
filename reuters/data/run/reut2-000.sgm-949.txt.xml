@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-949.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">special</str>
+        <str name="text">foreign</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">offered</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">program</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">qualified</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">institutions</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">change</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">exposure</str>
+        <double name="strength">0.9877415447956258</double>
       </lst>
       <lst name="term">
-        <str name="text">structure</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">credit</str>
+        <double name="strength">0.9877415447956245</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">236</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Diplomatic sources in Bonn said Funaro would leave early tomorrow morning for Zurich after meeting Stoltenberg this evening.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">125</int>
-        <double name="strength">0.7760325855985611</double>
+        <double name="strength">0.86129279655669</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But he added: "There must be an understanding that special requests from special regions be taken into account."</str>
-        <int name="index">18</int>
-        <int name="start">0</int>
-        <int name="end">112</int>
-        <double name="strength">0.7684799306998145</double>
+        <str name="text">According to Bundesbank data from September last year, West German bank exposure to Latin America of slightly under 16 billion marks represented less than five pct of all foreign credit.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">187</int>
+        <double name="strength">0.8270691266666245</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;sources, speaking ahead&lt;/em&gt; of a &lt;em&gt;meeting later today between Brazilian Finance Minister Dilson Funaro&lt;/em&gt; and his West &lt;em&gt;german counterpart Gerhard Stoltenberg,&lt;/em&gt; also &lt;em&gt;believed Brazil should&lt;/em&gt; come up with a &lt;em&gt;convincing economic recovery program&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;sources,&lt;/em&gt; speaking ahead of a &lt;em&gt;meeting&lt;/em&gt; later today between &lt;em&gt;Brazilian Finance Minister Dilson Funaro&lt;/em&gt; and his West &lt;em&gt;german counterpart Gerhard&lt;/em&gt; Stoltenberg, also believed &lt;em&gt;Brazil&lt;/em&gt; should come up with a &lt;em&gt;convincing economic recovery program&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Diplomatic sources&lt;/em&gt; in Bonn said &lt;em&gt;Funaro would leave early tomorrow morning&lt;/em&gt; for &lt;em&gt;Zurich after meeting Stoltenberg&lt;/em&gt; this &lt;em&gt;evening&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Diplomatic sources&lt;/em&gt; in Bonn said &lt;em&gt;Funaro&lt;/em&gt; would &lt;em&gt;leave&lt;/em&gt; early &lt;em&gt;tomorrow morning&lt;/em&gt; for &lt;em&gt;Zurich&lt;/em&gt; after meeting &lt;em&gt;Stoltenberg&lt;/em&gt; this &lt;em&gt;evening&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But he &lt;em&gt;added: "There&lt;/em&gt; must be an &lt;em&gt;understanding&lt;/em&gt; that &lt;em&gt;special requests&lt;/em&gt; from &lt;em&gt;special regions&lt;/em&gt; be &lt;em&gt;taken&lt;/em&gt; into &lt;em&gt;account.&lt;/em&gt;"</str>
-        <int name="index">18</int>
+        <str name="text">According to &lt;em&gt;Bundesbank&lt;/em&gt; data from &lt;em&gt;September&lt;/em&gt; last year, West &lt;em&gt;German&lt;/em&gt; bank &lt;em&gt;exposure&lt;/em&gt; to &lt;em&gt;Latin America&lt;/em&gt; of slightly under 16 &lt;em&gt;billion marks&lt;/em&gt; represented less than five pct of all &lt;em&gt;foreign credit&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

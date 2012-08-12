@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-457.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">secretary</str>
+        <str name="text">international</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">james</str>
-        <double name="strength">1.0</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">baker</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">saturday</str>
+        <str name="text">attempts</str>
         <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">received</str>
+        <str name="text">support</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">official</str>
         <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Brazil has in the past rejected a substantial role for the IMF in managing its economy, arguing that an IMF austerity program by promoting exports and dampening domestic consumption would lead to recession and threaten democracy.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
         <str name="text">Funaro, accompanied by central bank president Francisco Gros, is on the first leg of a tour of European capitals in an attempt to explain to governments Brazil's indefinite suspension of interest payments earlier this month.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">225</int>
-        <double name="strength">0.8909918941911817</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">After travelling this week to France, Germany, Switzerland and Italy, Funaro hopes to visit Canada and Japan next week before starting negotiations with banks.</str>
-        <int name="index">16</int>
+        <str name="text">Lawson's attitude was interpreted by banking sources as a clear rebuff to Brazilian hopes of obtaining official cooperation in resolving its external debt crisis.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">160</int>
-        <double name="strength">0.8545375041822885</double>
+        <int name="end">163</int>
+        <double name="strength">0.9377170019579514</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Brazil has in the past rejected a substantial role for the IMF in managing its economy, arguing that an IMF austerity program by promoting exports and dampening domestic consumption would lead to recession and threaten democracy.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">230</int>
+        <double name="strength">0.935054153694168</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; has in the past &lt;em&gt;rejected&lt;/em&gt; a &lt;em&gt;substantial&lt;/em&gt; role for the IMF in &lt;em&gt;managing&lt;/em&gt; its &lt;em&gt;economy, arguing&lt;/em&gt; that an IMF &lt;em&gt;austerity program&lt;/em&gt; by &lt;em&gt;promoting exports&lt;/em&gt; and &lt;em&gt;dampening domestic consumption would&lt;/em&gt; lead to &lt;em&gt;recession&lt;/em&gt; and &lt;em&gt;threaten democracy&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Funaro, accompanied&lt;/em&gt; by &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;president Francisco&lt;/em&gt; Gros, is on the &lt;em&gt;first&lt;/em&gt; leg of a tour of &lt;em&gt;European capitals&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;explain&lt;/em&gt; to &lt;em&gt;governments Brazil&lt;/em&gt;'s &lt;em&gt;indefinite suspension&lt;/em&gt; of &lt;em&gt;interest payments earlier&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Funaro,&lt;/em&gt; accompanied by &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;president&lt;/em&gt; Francisco Gros, is on the &lt;em&gt;first&lt;/em&gt; leg of a tour of &lt;em&gt;European capitals&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;explain&lt;/em&gt; to &lt;em&gt;governments Brazil&lt;/em&gt;'s &lt;em&gt;indefinite suspension&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt; earlier this &lt;em&gt;month&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After travelling&lt;/em&gt; this week to &lt;em&gt;France, Germany, Switzerland&lt;/em&gt; and &lt;em&gt;Italy, Funaro hopes&lt;/em&gt; to &lt;em&gt;visit Canada&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; next week &lt;em&gt;before starting negotiations&lt;/em&gt; with &lt;em&gt;banks&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Lawson&lt;/em&gt;'s &lt;em&gt;attitude&lt;/em&gt; was interpreted by banking &lt;em&gt;sources&lt;/em&gt; as a &lt;em&gt;clear rebuff&lt;/em&gt; to &lt;em&gt;Brazilian hopes&lt;/em&gt; of obtaining &lt;em&gt;official cooperation&lt;/em&gt; in resolving its &lt;em&gt;external&lt;/em&gt; debt &lt;em&gt;crisis&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; has in the past rejected a &lt;em&gt;substantial&lt;/em&gt; role for the IMF in managing its &lt;em&gt;economy,&lt;/em&gt; arguing that an IMF &lt;em&gt;austerity program&lt;/em&gt; by promoting &lt;em&gt;exports&lt;/em&gt; and dampening &lt;em&gt;domestic consumption&lt;/em&gt; would lead to &lt;em&gt;recession&lt;/em&gt; and &lt;em&gt;threaten democracy&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-957.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">anything</str>
+        <str name="text">today</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">years</str>
-        <double name="strength">0.5590169943749478</double>
-      </lst>
-      <lst name="term">
-        <str name="text">impact</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">capacity</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">sales</str>
-        <double name="strength">0.559016994374947</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">shown</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
+        <str name="text">price</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"We have put together five or six years of pretty respectable growth and three consecutive years of record earnings and I see no reason why this growth pattern should be interrupted," Scott's chairman and chief executive officer Philip Lippincott told Reuters in an interview.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">277</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"Scott Paper has shown tremendous growth in the last five years, but I think that improvement is largely unappreciated by the market," said analyst Sherman Chao of Salomon Brothers who noted that the stock is selling at a relatively low price/earnings ratio.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">259</int>
-        <double name="strength">0.8983199016966036</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We have put together five or six years of pretty respectable growth and three consecutive years of record earnings and I see no reason why this growth pattern should be interrupted," Scott's chairman and chief executive officer Philip Lippincott told Reuters in an interview.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">277</int>
+        <double name="strength">0.873694934760647</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">"The most favorable thing I came away with today is that their Sommerset, Maine, plant which makes number four coated paper, is sold out through September.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">156</int>
-        <double name="strength">0.7303850192298412</double>
+        <double name="strength">0.7972451775596182</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"We have put &lt;em&gt;together&lt;/em&gt; five or six &lt;em&gt;years&lt;/em&gt; of &lt;em&gt;pretty respectable growth&lt;/em&gt; and &lt;em&gt;three consecutive years&lt;/em&gt; of &lt;em&gt;record earnings&lt;/em&gt; and I see no &lt;em&gt;reason&lt;/em&gt; why this &lt;em&gt;growth pattern should&lt;/em&gt; be &lt;em&gt;interrupted," Scott&lt;/em&gt;'s &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer Philip Lippincott&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;"Scott Paper&lt;/em&gt; has &lt;em&gt;shown tremendous growth&lt;/em&gt; in the last five &lt;em&gt;years,&lt;/em&gt; but I &lt;em&gt;think&lt;/em&gt; that &lt;em&gt;improvement&lt;/em&gt; is &lt;em&gt;largely unappreciated&lt;/em&gt; by the &lt;em&gt;market,"&lt;/em&gt; said &lt;em&gt;analyst Sherman&lt;/em&gt; Chao of &lt;em&gt;Salomon Brothers&lt;/em&gt; who &lt;em&gt;noted&lt;/em&gt; that the &lt;em&gt;stock&lt;/em&gt; is &lt;em&gt;selling&lt;/em&gt; at a &lt;em&gt;relatively&lt;/em&gt; low &lt;em&gt;price/earnings ratio&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"Scott Paper&lt;/em&gt; has shown &lt;em&gt;tremendous growth&lt;/em&gt; in the last five &lt;em&gt;years,&lt;/em&gt; but I &lt;em&gt;think&lt;/em&gt; that &lt;em&gt;improvement&lt;/em&gt; is largely &lt;em&gt;unappreciated&lt;/em&gt; by the &lt;em&gt;market,"&lt;/em&gt; said &lt;em&gt;analyst Sherman&lt;/em&gt; Chao of &lt;em&gt;Salomon Brothers&lt;/em&gt; who noted that the &lt;em&gt;stock&lt;/em&gt; is selling at a relatively low &lt;em&gt;price/earnings ratio&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The most &lt;em&gt;favorable thing&lt;/em&gt; I came away with &lt;em&gt;today&lt;/em&gt; is that &lt;em&gt;their Sommerset, Maine, plant which makes number&lt;/em&gt; four &lt;em&gt;coated paper,&lt;/em&gt; is sold out &lt;em&gt;through September&lt;/em&gt;.</str>
+        <str name="text">"We have put together five or six &lt;em&gt;years&lt;/em&gt; of &lt;em&gt;pretty respectable growth&lt;/em&gt; and &lt;em&gt;three consecutive years&lt;/em&gt; of &lt;em&gt;record earnings&lt;/em&gt; and I see no &lt;em&gt;reason&lt;/em&gt; why this &lt;em&gt;growth pattern&lt;/em&gt; should be interrupted," &lt;em&gt;Scott&lt;/em&gt;'s &lt;em&gt;chairman&lt;/em&gt; and &lt;em&gt;chief executive officer Philip Lippincott&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The most &lt;em&gt;favorable thing&lt;/em&gt; I came away with &lt;em&gt;today&lt;/em&gt; is that their &lt;em&gt;Sommerset, Maine, plant&lt;/em&gt; which makes &lt;em&gt;number&lt;/em&gt; four &lt;em&gt;coated paper,&lt;/em&gt; is sold out through &lt;em&gt;September&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
     </lst>

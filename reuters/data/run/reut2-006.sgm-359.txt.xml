@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-359.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">207</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">140</int>
+        <int name="count">88</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">chrysler</str>
+        <str name="text">bonds</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">limited</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">sterling</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749467</double>
+        <str name="text">dealers</str>
+        <double name="strength">0.9836823252851276</double>
       </lst>
       <lst name="term">
-        <str name="text">collapse</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">remain</str>
+        <double name="strength">0.980683225888291</double>
       </lst>
       <lst name="term">
-        <str name="text">predictions</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">attractive</str>
+        <double name="strength">0.980683225888291</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Market sources said attention would now switch to monitoring the fortunes of the ruling Conservative party in opinion polls ahead of a widely-anticipated general election.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The market was showing limited signs of recovery from the collapse in trading last night and the calmer tone was reinforced this morning as the first significant retail orders for some time emerged, one senior FRN trader noted.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">228</int>
-        <double name="strength">0.9603583608880504</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Although a handful of FRN market makers were expected to remain on the sidelines for the time being, dealers noted a tangible return of retail interest from the Far East, lured back by extremely attractive yields and bargain prices.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">0.9053117653600238</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We are seeing from Singapore, and from Japan clients keen to use up their quotas for purchase of particular instruments before the end of the fiscal year," the senior trader added.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.9187146985042236</double>
+        <double name="strength">0.8953641481178933</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Market sources&lt;/em&gt; said &lt;em&gt;attention would&lt;/em&gt; now &lt;em&gt;switch&lt;/em&gt; to &lt;em&gt;monitoring&lt;/em&gt; the &lt;em&gt;fortunes&lt;/em&gt; of the &lt;em&gt;ruling Conservative party&lt;/em&gt; in &lt;em&gt;opinion polls ahead&lt;/em&gt; of a &lt;em&gt;widely-anticipated general election&lt;/em&gt;.</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;market&lt;/em&gt; was &lt;em&gt;showing limited signs&lt;/em&gt; of &lt;em&gt;recovery&lt;/em&gt; from the &lt;em&gt;collapse&lt;/em&gt; in &lt;em&gt;trading&lt;/em&gt; last &lt;em&gt;night&lt;/em&gt; and the &lt;em&gt;calmer&lt;/em&gt; tone was &lt;em&gt;reinforced&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; as the &lt;em&gt;first significant retail orders&lt;/em&gt; for some time &lt;em&gt;emerged,&lt;/em&gt; one &lt;em&gt;senior&lt;/em&gt; FRN &lt;em&gt;trader noted&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;market&lt;/em&gt; was showing &lt;em&gt;limited signs&lt;/em&gt; of &lt;em&gt;recovery&lt;/em&gt; from the &lt;em&gt;collapse&lt;/em&gt; in &lt;em&gt;trading&lt;/em&gt; last &lt;em&gt;night&lt;/em&gt; and the &lt;em&gt;calmer&lt;/em&gt; tone was reinforced this &lt;em&gt;morning&lt;/em&gt; as the &lt;em&gt;first significant retail orders&lt;/em&gt; for some time emerged, one &lt;em&gt;senior&lt;/em&gt; FRN &lt;em&gt;trader noted&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We are &lt;em&gt;seeing&lt;/em&gt; from &lt;em&gt;Singapore,&lt;/em&gt; and from &lt;em&gt;Japan clients&lt;/em&gt; keen to use up &lt;em&gt;their quotas&lt;/em&gt; for &lt;em&gt;purchase&lt;/em&gt; of &lt;em&gt;particular instruments before&lt;/em&gt; the end of the &lt;em&gt;fiscal&lt;/em&gt; year," the &lt;em&gt;senior trader added&lt;/em&gt;.</str>
+        <str name="text">Although a &lt;em&gt;handful&lt;/em&gt; of FRN &lt;em&gt;market makers&lt;/em&gt; were expected to &lt;em&gt;remain&lt;/em&gt; on the &lt;em&gt;sidelines&lt;/em&gt; for the time being, &lt;em&gt;dealers&lt;/em&gt; noted a &lt;em&gt;tangible return&lt;/em&gt; of &lt;em&gt;retail interest&lt;/em&gt; from the Far East, lured back by extremely &lt;em&gt;attractive yields&lt;/em&gt; and &lt;em&gt;bargain prices&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We are seeing from &lt;em&gt;Singapore,&lt;/em&gt; and from &lt;em&gt;Japan clients&lt;/em&gt; keen to use up their &lt;em&gt;quotas&lt;/em&gt; for &lt;em&gt;purchase&lt;/em&gt; of &lt;em&gt;particular instruments&lt;/em&gt; before the end of the &lt;em&gt;fiscal&lt;/em&gt; year," the &lt;em&gt;senior trader added&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

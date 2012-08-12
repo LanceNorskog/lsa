@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-990.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">development</str>
+        <str name="text">arrears</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">african</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">borrowing</str>
+        <double name="strength">0.9999932284851848</double>
       </lst>
       <lst name="term">
-        <str name="text">votes</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">annual</str>
+        <double name="strength">0.9999926858396783</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">improve</str>
+        <double name="strength">0.963423021678135</double>
       </lst>
       <lst name="term">
-        <str name="text">committee</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">capacity</str>
+        <double name="strength">0.963423021678135</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The Secretary-General of the African Development Bank expressed confidence in the institution's ability to handle potential problems with repayment of development financing loans.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">179</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The agenda will include the approval of the bank's annual report and accounts, but there will be no debate on the capital increase which is currently being voted on by the ADB governors.</str>
-        <int name="index">8</int>
+        <str name="text">Koffi Dei-Anang told a news conference at the bank's headquarters that loan arrears were only 80 mln dlrs at present, a small percentage of total ADB lending which exceeded one billion dlrs in 1986.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">187</int>
-        <double name="strength">0.8391370230160426</double>
+        <int name="end">199</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Some commercial banks have recently taken extraordinary measures to deal with third world lending strategies.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">110</int>
-        <double name="strength">0.8292352062314209</double>
+        <double name="strength">0.9348116934560693</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The agenda will include the approval of the bank's annual report and accounts, but there will be no debate on the capital increase which is currently being voted on by the ADB governors.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">187</int>
+        <double name="strength">0.9336720663009082</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Secretary-General&lt;/em&gt; of the &lt;em&gt;African Development&lt;/em&gt; Bank &lt;em&gt;expressed confidence&lt;/em&gt; in the &lt;em&gt;institution&lt;/em&gt;'s &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;handle potential problems&lt;/em&gt; with &lt;em&gt;repayment&lt;/em&gt; of &lt;em&gt;development financing loans&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Koffi&lt;/em&gt; Dei-&lt;em&gt;Anang&lt;/em&gt; told a news &lt;em&gt;conference&lt;/em&gt; at the bank's &lt;em&gt;headquarters&lt;/em&gt; that loan &lt;em&gt;arrears&lt;/em&gt; were only 80 mln dlrs at &lt;em&gt;present,&lt;/em&gt; a &lt;em&gt;small percentage&lt;/em&gt; of &lt;em&gt;total&lt;/em&gt; ADB &lt;em&gt;lending&lt;/em&gt; which exceeded one &lt;em&gt;billion&lt;/em&gt; dlrs in 1986.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;agenda&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;approval&lt;/em&gt; of the bank's &lt;em&gt;annual report&lt;/em&gt; and &lt;em&gt;accounts,&lt;/em&gt; but &lt;em&gt;there&lt;/em&gt; will be no &lt;em&gt;debate&lt;/em&gt; on the &lt;em&gt;capital increase which&lt;/em&gt; is &lt;em&gt;currently being voted&lt;/em&gt; on by the ADB &lt;em&gt;governors&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Some &lt;em&gt;commercial banks&lt;/em&gt; have &lt;em&gt;recently taken extraordinary measures&lt;/em&gt; to deal with &lt;em&gt;third world lending strategies&lt;/em&gt;.</str>
+        <str name="text">Some &lt;em&gt;commercial banks&lt;/em&gt; have recently taken &lt;em&gt;extraordinary measures&lt;/em&gt; to deal with &lt;em&gt;third world lending strategies&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;agenda&lt;/em&gt; will &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;approval&lt;/em&gt; of the bank's &lt;em&gt;annual report&lt;/em&gt; and &lt;em&gt;accounts,&lt;/em&gt; but there will be no &lt;em&gt;debate&lt;/em&gt; on the &lt;em&gt;capital increase&lt;/em&gt; which is currently being voted on by the ADB &lt;em&gt;governors&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

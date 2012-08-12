@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-021.sgm-541.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">166</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">between</str>
+        <str name="text">accord</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">unless</str>
-        <double name="strength">0.5000000000000044</double>
+        <str name="text">japan</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.5000000000000044</double>
+        <str name="text">senior</str>
+        <double name="strength">0.9902130691945669</double>
       </lst>
       <lst name="term">
-        <str name="text">countries</str>
-        <double name="strength">0.5000000000000044</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9902130691945663</double>
       </lst>
       <lst name="term">
-        <str name="text">notably</str>
-        <double name="strength">0.5000000000000044</double>
+        <str name="text">short</str>
+        <double name="strength">0.9902130691945661</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S., Japan, West Germany, Britain, France, Italy and Canada, have agreed to monitor each other's economic policies and from time to time apply "peer pressure" to persuade others to change their policies to a desired course, they noted.</str>
-        <int name="index">31</int>
-        <int name="start">0</int>
-        <int name="end">234</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Would be ready to scrap the Louvre accord and let the dollar decline further unless surplus countries, notably West Germany, try harder to stimulate their economies as pledged in the accord, foreign exchange dealers said.</str>
-        <int name="index">26</int>
+        <str name="text">S. Treasury Secretary James Baker's remarks at the weekend indicating the need to revise it do not herald a lower range for the dollar, other senior officials from the Bank of Japan and Finance Ministry agreed in interviews.</str>
+        <int name="index">2</int>
         <int name="start">0</int>
         <int name="end">224</int>
-        <double name="strength">0.92267682893717</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"This is because we, unlike the Germans, are not taking policy to guide interest rates higher, and the marginal rate rise in recent days is primarily for seasonal reasons," he added.</str>
-        <int name="index">38</int>
+        <str name="text">The Group of Seven (G-7) industrial nations still comply with last February's Louvre accord to stabilize currencies, a senior Bank of Japan official said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.9339579970647102</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Japanese monetary officials said Baker's undisguised pressure on West Germany to refrain from guiding interest rates higher may be part of a process of multilateral surveillance, or international economic policy coordination.</str>
+        <int name="index">29</int>
         <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.8634978948458077</double>
+        <int name="end">230</int>
+        <double name="strength">0.9336309356565258</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S., &lt;em&gt;Japan,&lt;/em&gt; West &lt;em&gt;Germany, Britain, France, Italy&lt;/em&gt; and &lt;em&gt;Canada,&lt;/em&gt; have &lt;em&gt;agreed&lt;/em&gt; to &lt;em&gt;monitor&lt;/em&gt; each &lt;em&gt;other&lt;/em&gt;'s &lt;em&gt;economic policies&lt;/em&gt; and from time to time &lt;em&gt;apply &lt;/em&gt;"peer &lt;em&gt;pressure"&lt;/em&gt; to &lt;em&gt;persuade others&lt;/em&gt; to &lt;em&gt;change their policies&lt;/em&gt; to a &lt;em&gt;desired course,&lt;/em&gt; they &lt;em&gt;noted&lt;/em&gt;.</str>
-        <int name="index">31</int>
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt;'s &lt;em&gt;remarks&lt;/em&gt; at the &lt;em&gt;weekend&lt;/em&gt; indicating the need to &lt;em&gt;revise&lt;/em&gt; it do not &lt;em&gt;herald&lt;/em&gt; a lower &lt;em&gt;range&lt;/em&gt; for the &lt;em&gt;dollar, other senior officials&lt;/em&gt; from the Bank of &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;Finance Ministry&lt;/em&gt; agreed in &lt;em&gt;interviews&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Would&lt;/em&gt; be &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;scrap&lt;/em&gt; the &lt;em&gt;Louvre accord&lt;/em&gt; and let the &lt;em&gt;dollar decline further unless surplus countries, notably&lt;/em&gt; West &lt;em&gt;Germany,&lt;/em&gt; try &lt;em&gt;harder&lt;/em&gt; to &lt;em&gt;stimulate their economies&lt;/em&gt; as &lt;em&gt;pledged&lt;/em&gt; in the &lt;em&gt;accord, foreign exchange dealers said&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;industrial nations&lt;/em&gt; still &lt;em&gt;comply&lt;/em&gt; with last &lt;em&gt;February&lt;/em&gt;'s &lt;em&gt;Louvre accord&lt;/em&gt; to &lt;em&gt;stabilize currencies,&lt;/em&gt; a &lt;em&gt;senior&lt;/em&gt; Bank of &lt;em&gt;Japan official said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"This is &lt;em&gt;because&lt;/em&gt; we, &lt;em&gt;unlike&lt;/em&gt; the &lt;em&gt;Germans,&lt;/em&gt; are not &lt;em&gt;taking policy&lt;/em&gt; to &lt;em&gt;guide interest rates higher,&lt;/em&gt; and the &lt;em&gt;marginal&lt;/em&gt; rate rise in &lt;em&gt;recent&lt;/em&gt; days is &lt;em&gt;primarily&lt;/em&gt; for &lt;em&gt;seasonal reasons,"&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">38</int>
+        <str name="text">The &lt;em&gt;Japanese monetary officials&lt;/em&gt; said &lt;em&gt;Baker&lt;/em&gt;'s &lt;em&gt;undisguised pressure&lt;/em&gt; on West &lt;em&gt;Germany&lt;/em&gt; to &lt;em&gt;refrain&lt;/em&gt; from guiding &lt;em&gt;interest rates&lt;/em&gt; higher may be part of a &lt;em&gt;process&lt;/em&gt; of &lt;em&gt;multilateral surveillance,&lt;/em&gt; or &lt;em&gt;international economic policy coordination&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
     </lst>
   </lst>

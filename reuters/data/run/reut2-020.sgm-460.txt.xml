@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-460.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">established</str>
+        <str name="text">world</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">james</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">market</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sponsored</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">farmers</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">outlook</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">subsidies</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">filed</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">president</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The American Soybean Association (ASA) denounced European Community (EC) oilseed policies as illegal under the General Agreement on Tariffs and Trade, and threatened to make an unfair trade complaint if the EC does not remedy the situation.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">240</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">ASA Vice President James Adams told an ASA-sponsored Outlook 87 conference: "It will be filed unless the EC takes drastic and immediate steps."</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">144</int>
-        <double name="strength">0.8727055885278789</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The ASA also strongly opposes an EC proposal to tax vegetable and marine oils consumed in the EC, which will be considered by the EC Commission in December.</str>
-        <int name="index">11</int>
+        <str name="text">The American Soybean Association (ASA) denounced European Community (EC) oilseed policies as illegal under the General Agreement on Tariffs and Trade, and threatened to make an unfair trade complaint if the EC does not remedy the situation.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">156</int>
-        <double name="strength">0.8583272474510013</double>
+        <int name="end">240</int>
+        <double name="strength">0.9985497519201277</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The ASA's unfair trade petition against the EC would ask for an investigation and modification of EC oilseed policies to make the regime non-discriminatory.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.9769757846093273</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;American Soybean Association &lt;/em&gt;(ASA) &lt;em&gt;denounced European Community &lt;/em&gt;(EC) &lt;em&gt;oilseed policies&lt;/em&gt; as &lt;em&gt;illegal under&lt;/em&gt; the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade,&lt;/em&gt; and &lt;em&gt;threatened&lt;/em&gt; to make an &lt;em&gt;unfair trade complaint&lt;/em&gt; if the EC does not &lt;em&gt;remedy&lt;/em&gt; the &lt;em&gt;situation&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">ASA Vice &lt;em&gt;President James Adams&lt;/em&gt; told an ASA-&lt;em&gt;sponsored Outlook 87 conference: &lt;/em&gt;"It will be &lt;em&gt;filed unless&lt;/em&gt; the EC &lt;em&gt;takes drastic&lt;/em&gt; and &lt;em&gt;immediate steps.&lt;/em&gt;"</str>
+        <str name="text">ASA Vice &lt;em&gt;President James Adams&lt;/em&gt; told an ASA-sponsored &lt;em&gt;Outlook 87 conference: &lt;/em&gt;"It will be filed unless the EC takes &lt;em&gt;drastic&lt;/em&gt; and &lt;em&gt;immediate steps.&lt;/em&gt;"</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The ASA also &lt;em&gt;strongly opposes&lt;/em&gt; an EC &lt;em&gt;proposal&lt;/em&gt; to tax &lt;em&gt;vegetable&lt;/em&gt; and &lt;em&gt;marine&lt;/em&gt; oils &lt;em&gt;consumed&lt;/em&gt; in the EC, &lt;em&gt;which&lt;/em&gt; will be &lt;em&gt;considered&lt;/em&gt; by the EC &lt;em&gt;Commission&lt;/em&gt; in &lt;em&gt;December&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">The &lt;em&gt;American Soybean Association &lt;/em&gt;(ASA) denounced &lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;oilseed policies&lt;/em&gt; as &lt;em&gt;illegal&lt;/em&gt; under the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade,&lt;/em&gt; and threatened to make an &lt;em&gt;unfair trade complaint&lt;/em&gt; if the EC does not &lt;em&gt;remedy&lt;/em&gt; the &lt;em&gt;situation&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The ASA's &lt;em&gt;unfair trade petition&lt;/em&gt; against the EC would ask for an &lt;em&gt;investigation&lt;/em&gt; and &lt;em&gt;modification&lt;/em&gt; of EC &lt;em&gt;oilseed policies&lt;/em&gt; to make the &lt;em&gt;regime&lt;/em&gt; non-&lt;em&gt;discriminatory&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

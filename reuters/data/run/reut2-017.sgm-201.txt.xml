@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-201.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">136</int>
       </lst>
       <lst name="stems">
-        <int name="count">118</int>
+        <int name="count">88</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">industrial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">achieved</str>
-        <double name="strength">0.6666666666666676</double>
+        <str name="text">measures</str>
+        <double name="strength">0.9840716504496495</double>
       </lst>
       <lst name="term">
-        <str name="text">followed</str>
-        <double name="strength">0.6666666666666667</double>
+        <str name="text">talks</str>
+        <double name="strength">0.9840716504496492</double>
       </lst>
       <lst name="term">
-        <str name="text">deficit</str>
-        <double name="strength">0.37267799624996534</double>
+        <str name="text">tamura</str>
+        <double name="strength">0.9840716504496492</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.3726779962499648</double>
+        <str name="text">states</str>
+        <double name="strength">0.9840716504496492</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Trade deficit with Japan which hit 58 billion dlrs last year, an 18 billion dlr EC deficit with Japan in 1986, and a Japanese global trade surplus of almost 90 billion, he said.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">180</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"From now on, if a government comes up with a certain policy, it must be followed by action," he said following two days of informal talks with the trade ministers of the United States, the European Community and Canada in central Japan.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">238</int>
-        <double name="strength">0.9708510878785179</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Last week, the dollar fell to a new record low below 140 yen, despite statements from the Group of Seven (G-7) leading industrial powers that currencies should be stabilised to underpin world trade.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">199</int>
-        <double name="strength">0.9396761338686668</double>
+        <double name="strength">0.9389951552713801</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The imbalances can only be solved by coordinated policies over a whole range of fiscal, monetary, trade and industrial measures, and in line with a body of internationally agreed rules, he said.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.9006833040106427</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Trade deficit&lt;/em&gt; with &lt;em&gt;Japan which&lt;/em&gt; hit 58 &lt;em&gt;billion&lt;/em&gt; dlrs last year, an 18 &lt;em&gt;billion&lt;/em&gt; dlr EC &lt;em&gt;deficit&lt;/em&gt; with &lt;em&gt;Japan&lt;/em&gt; in 1986, and a &lt;em&gt;Japanese global trade surplus&lt;/em&gt; of &lt;em&gt;almost 90 billion,&lt;/em&gt; he said.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"From now on, if a &lt;em&gt;government comes&lt;/em&gt; up with a &lt;em&gt;certain policy,&lt;/em&gt; it must be &lt;em&gt;followed&lt;/em&gt; by &lt;em&gt;action,"&lt;/em&gt; he said &lt;em&gt;following&lt;/em&gt; two days of &lt;em&gt;informal talks&lt;/em&gt; with the &lt;em&gt;trade ministers&lt;/em&gt; of the &lt;em&gt;United States,&lt;/em&gt; the &lt;em&gt;European Community&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt; in &lt;em&gt;central Japan&lt;/em&gt;.</str>
+        <str name="text">"From now on, if a &lt;em&gt;government&lt;/em&gt; comes up with a &lt;em&gt;certain policy,&lt;/em&gt; it must be followed by &lt;em&gt;action,"&lt;/em&gt; he said following two days of &lt;em&gt;informal talks&lt;/em&gt; with the &lt;em&gt;trade ministers&lt;/em&gt; of the United &lt;em&gt;States,&lt;/em&gt; the &lt;em&gt;European Community&lt;/em&gt; and &lt;em&gt;Canada&lt;/em&gt; in &lt;em&gt;central Japan&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week, the &lt;em&gt;dollar&lt;/em&gt; fell to a new &lt;em&gt;record&lt;/em&gt; low &lt;em&gt;below 140&lt;/em&gt; yen, &lt;em&gt;despite statements&lt;/em&gt; from the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;leading industrial powers&lt;/em&gt; that &lt;em&gt;currencies should&lt;/em&gt; be &lt;em&gt;stabilised&lt;/em&gt; to &lt;em&gt;underpin world trade&lt;/em&gt;.</str>
+        <str name="text">Last week, the &lt;em&gt;dollar&lt;/em&gt; fell to a new &lt;em&gt;record&lt;/em&gt; low below 140 yen, despite &lt;em&gt;statements&lt;/em&gt; from the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) leading &lt;em&gt;industrial powers&lt;/em&gt; that &lt;em&gt;currencies&lt;/em&gt; should be stabilised to &lt;em&gt;underpin world trade&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;imbalances&lt;/em&gt; can only be solved by &lt;em&gt;coordinated policies&lt;/em&gt; over a &lt;em&gt;whole range&lt;/em&gt; of &lt;em&gt;fiscal, monetary, trade&lt;/em&gt; and &lt;em&gt;industrial measures,&lt;/em&gt; and in line with a body of internationally agreed &lt;em&gt;rules,&lt;/em&gt; he said.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

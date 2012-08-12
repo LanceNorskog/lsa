@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-199.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">contract</str>
+        <str name="text">prices</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">central</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">dealers</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">illinois</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">weekly</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">making</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">start</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">export</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">242</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Many speculators down here bought March soymeal and sold May, looking for no deliveries (on first notice day tomorrow, which would cause March to gain on deferreds)," one CBT crush trader said.</str>
-        <int name="index">7</int>
+        <str name="text">A central Illinois processor is only making about 30 cents for every bushel of soybeans crushed at current prices, down sharply from levels just seen just a few weeks ago and below the average cost of production, cash dealers said.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.9645413912660205</double>
+        <int name="end">232</int>
+        <double name="strength">0.7644316451593884</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">However, much of that export demand seems to have been met, with most foreign meal users now waiting for the expected surge in shipments of new crop South American soymeal over the next few months.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">198</int>
-        <double name="strength">0.9146122200837298</double>
+        <double name="strength">0.7604077004797454</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;processors&lt;/em&gt; are now &lt;em&gt;finding domestic livestock&lt;/em&gt; feed &lt;em&gt;demand&lt;/em&gt; is very &lt;em&gt;light&lt;/em&gt; for this time of year due to the &lt;em&gt;milder&lt;/em&gt; than &lt;em&gt;normal winter,&lt;/em&gt; so they &lt;em&gt;steadily dropped offering prices&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to find &lt;em&gt;buying interest, soyproduct dealers said&lt;/em&gt;.</str>
+        <str name="text">U.S. &lt;em&gt;processors&lt;/em&gt; are now finding &lt;em&gt;domestic livestock&lt;/em&gt; feed &lt;em&gt;demand&lt;/em&gt; is very &lt;em&gt;light&lt;/em&gt; for this time of year due to the &lt;em&gt;milder&lt;/em&gt; than &lt;em&gt;normal winter,&lt;/em&gt; so they steadily dropped offering &lt;em&gt;prices&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to find &lt;em&gt;buying interest, soyproduct dealers said&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Many &lt;em&gt;speculators&lt;/em&gt; down here &lt;em&gt;bought March soymeal&lt;/em&gt; and sold May, &lt;em&gt;looking&lt;/em&gt; for no &lt;em&gt;deliveries &lt;/em&gt;(on &lt;em&gt;first notice&lt;/em&gt; day &lt;em&gt;tomorrow, which would cause March&lt;/em&gt; to gain on &lt;em&gt;deferreds),"&lt;/em&gt; one CBT &lt;em&gt;crush trader said&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">A &lt;em&gt;central Illinois processor&lt;/em&gt; is only making about 30 &lt;em&gt;cents&lt;/em&gt; for every &lt;em&gt;bushel&lt;/em&gt; of &lt;em&gt;soybeans&lt;/em&gt; crushed at &lt;em&gt;current prices,&lt;/em&gt; down sharply from &lt;em&gt;levels&lt;/em&gt; just seen just a few &lt;em&gt;weeks&lt;/em&gt; ago and below the &lt;em&gt;average&lt;/em&gt; cost of &lt;em&gt;production,&lt;/em&gt; cash &lt;em&gt;dealers said&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; much of that &lt;em&gt;export demand seems&lt;/em&gt; to have been met, with most &lt;em&gt;foreign&lt;/em&gt; meal &lt;em&gt;users&lt;/em&gt; now &lt;em&gt;waiting&lt;/em&gt; for the &lt;em&gt;expected surge&lt;/em&gt; in &lt;em&gt;shipments&lt;/em&gt; of new crop &lt;em&gt;South American soymeal&lt;/em&gt; over the next few &lt;em&gt;months&lt;/em&gt;.</str>
+        <str name="text">However, much of that &lt;em&gt;export demand&lt;/em&gt; seems to have been met, with most &lt;em&gt;foreign&lt;/em&gt; meal &lt;em&gt;users&lt;/em&gt; now waiting for the expected &lt;em&gt;surge&lt;/em&gt; in &lt;em&gt;shipments&lt;/em&gt; of new crop South &lt;em&gt;American soymeal&lt;/em&gt; over the next few &lt;em&gt;months&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

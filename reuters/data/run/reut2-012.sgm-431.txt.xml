@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-431.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">77</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">operating</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">despite</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">north</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">america</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">energy</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">local</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"The western Europe, North America and Far East regions developed well in local currency, but here too the translation of local currency sales into marks distorted the picture, especially in the case of North America," it said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The further progress of our business will depend largely on the extent to which threats to free trade materialise and on the developments of exchange rates, raw material and energy costs.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">189</int>
-        <double name="strength">0.7583553788682722</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The company said that this was despite the mark's further strengthening against the dollar and other currencies and despite an increase in competitive pressure.</str>
-        <int name="index">2</int>
+        <str name="text">"The western Europe, North America and Far East regions developed well in local currency, but here too the translation of local currency sales into marks distorted the picture, especially in the case of North America," it said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">161</int>
-        <double name="strength">0.5994996770856416</double>
+        <int name="end">228</int>
+        <double name="strength">0.7333425077739658</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This, combined with savings in raw material and energy costs, helped offset falling prices and cost increases in other areas.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">125</int>
+        <double name="strength">0.7146581969416925</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;western Europe, North America&lt;/em&gt; and Far East &lt;em&gt;regions developed&lt;/em&gt; well in &lt;em&gt;local currency,&lt;/em&gt; but here too the &lt;em&gt;translation&lt;/em&gt; of &lt;em&gt;local currency sales&lt;/em&gt; into &lt;em&gt;marks distorted&lt;/em&gt; the &lt;em&gt;picture, especially&lt;/em&gt; in the case of &lt;em&gt;North America,"&lt;/em&gt; it said.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;further progress&lt;/em&gt; of our &lt;em&gt;business&lt;/em&gt; will &lt;em&gt;depend largely&lt;/em&gt; on the &lt;em&gt;extent&lt;/em&gt; to &lt;em&gt;which threats&lt;/em&gt; to free &lt;em&gt;trade materialise&lt;/em&gt; and on the &lt;em&gt;developments&lt;/em&gt; of &lt;em&gt;exchange rates,&lt;/em&gt; raw &lt;em&gt;material&lt;/em&gt; and &lt;em&gt;energy costs&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;further progress&lt;/em&gt; of our &lt;em&gt;business&lt;/em&gt; will &lt;em&gt;depend&lt;/em&gt; largely on the &lt;em&gt;extent&lt;/em&gt; to which &lt;em&gt;threats&lt;/em&gt; to free &lt;em&gt;trade materialise&lt;/em&gt; and on the &lt;em&gt;developments&lt;/em&gt; of &lt;em&gt;exchange rates,&lt;/em&gt; raw &lt;em&gt;material&lt;/em&gt; and &lt;em&gt;energy costs&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said that this was &lt;em&gt;despite&lt;/em&gt; the mark's &lt;em&gt;further strengthening against&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; and &lt;em&gt;other currencies&lt;/em&gt; and &lt;em&gt;despite&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;competitive pressure&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"The &lt;em&gt;western Europe, North America&lt;/em&gt; and Far East &lt;em&gt;regions&lt;/em&gt; developed well in &lt;em&gt;local currency,&lt;/em&gt; but here too the &lt;em&gt;translation&lt;/em&gt; of &lt;em&gt;local currency sales&lt;/em&gt; into &lt;em&gt;marks&lt;/em&gt; distorted the &lt;em&gt;picture,&lt;/em&gt; especially in the case of &lt;em&gt;North&lt;/em&gt; America," it said.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This, combined with &lt;em&gt;savings&lt;/em&gt; in raw &lt;em&gt;material&lt;/em&gt; and &lt;em&gt;energy costs,&lt;/em&gt; helped &lt;em&gt;offset&lt;/em&gt; falling &lt;em&gt;prices&lt;/em&gt; and cost &lt;em&gt;increases&lt;/em&gt; in &lt;em&gt;other areas&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

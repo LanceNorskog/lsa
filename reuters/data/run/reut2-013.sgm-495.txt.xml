@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-495.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">74</int>
+        <int name="count">44</int>
       </lst>
       <lst name="stems">
-        <int name="count">40</int>
+        <int name="count">24</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">rates</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.9045340337332914</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">therefore</str>
-        <double name="strength">0.9045340337332914</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">surprise</str>
-        <double name="strength">0.9045340337332914</double>
+        <str name="text">facility</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">above</str>
-        <double name="strength">0.9045340337332914</double>
+        <str name="text">unwilling</str>
+        <double name="strength">0.9840539975201781</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Some dealers said the Bundesbank would have been unwilling to cut rates on this pact, as it is the first under its faster and more flexible tender process and because a lower rate might have been associated with the new system.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">When this did not happen, because of more than adequate liquidity, many participants decided to withdraw funds from the market and use them to build up minimum reserves further.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.9351605067310165</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Call money firmed to about 3.65 pct, back to yesterday's 3.60/70 pct, from around 3.55 pct earlier today after the Bundesbank announced a tender for a new securities repurchase pact, dealers said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">196</int>
-        <double name="strength">0.8738660338064984</double>
+        <str name="text">Some dealers said the Bundesbank would have been unwilling to cut rates on this pact, as it is the first under its faster and more flexible tender process and because a lower rate might have been associated with the new system.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">228</int>
+        <double name="strength">0.8653409331265773</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Banks held 58.9 billion marks at the Bundesbank on April 5, averaging 59.3 billion over the first five days of the month, well clear of the likely 51 billion mark minimum reserve requirement, dealers said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">206</int>
+        <double name="strength">0.6771382435621615</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;dealers&lt;/em&gt; said the &lt;em&gt;Bundesbank would&lt;/em&gt; have been &lt;em&gt;unwilling&lt;/em&gt; to cut &lt;em&gt;rates&lt;/em&gt; on this pact, as it is the &lt;em&gt;first under&lt;/em&gt; its &lt;em&gt;faster&lt;/em&gt; and more &lt;em&gt;flexible tender process&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; a &lt;em&gt;lower&lt;/em&gt; rate &lt;em&gt;might&lt;/em&gt; have been &lt;em&gt;associated&lt;/em&gt; with the new &lt;em&gt;system&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">When this did not &lt;em&gt;happen, because&lt;/em&gt; of more than &lt;em&gt;adequate liquidity,&lt;/em&gt; many &lt;em&gt;participants decided&lt;/em&gt; to &lt;em&gt;withdraw funds&lt;/em&gt; from the &lt;em&gt;market&lt;/em&gt; and use them to &lt;em&gt;build&lt;/em&gt; up &lt;em&gt;minimum reserves further&lt;/em&gt;.</str>
+        <str name="text">When this did not &lt;em&gt;happen,&lt;/em&gt; because of more than &lt;em&gt;adequate liquidity,&lt;/em&gt; many &lt;em&gt;participants&lt;/em&gt; decided to &lt;em&gt;withdraw funds&lt;/em&gt; from the &lt;em&gt;market&lt;/em&gt; and use them to &lt;em&gt;build&lt;/em&gt; up &lt;em&gt;minimum reserves further&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Call &lt;em&gt;money firmed&lt;/em&gt; to &lt;em&gt;about 3.65&lt;/em&gt; pct, back to &lt;em&gt;yesterday&lt;/em&gt;'s 3.60/70 pct, from &lt;em&gt;around 3.55&lt;/em&gt; pct &lt;em&gt;earlier today after&lt;/em&gt; the &lt;em&gt;Bundesbank announced&lt;/em&gt; a &lt;em&gt;tender&lt;/em&gt; for a new &lt;em&gt;securities repurchase&lt;/em&gt; pact, &lt;em&gt;dealers said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">Some &lt;em&gt;dealers&lt;/em&gt; said the &lt;em&gt;Bundesbank&lt;/em&gt; would have been &lt;em&gt;unwilling&lt;/em&gt; to cut &lt;em&gt;rates&lt;/em&gt; on this pact, as it is the &lt;em&gt;first&lt;/em&gt; under its faster and more &lt;em&gt;flexible tender process&lt;/em&gt; and because a lower rate might have been associated with the new &lt;em&gt;system&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Banks&lt;/em&gt; held 58.9 &lt;em&gt;billion marks&lt;/em&gt; at the &lt;em&gt;Bundesbank&lt;/em&gt; on &lt;em&gt;April 5, averaging 59.3 billion&lt;/em&gt; over the &lt;em&gt;first&lt;/em&gt; five days of the &lt;em&gt;month,&lt;/em&gt; well &lt;em&gt;clear&lt;/em&gt; of the &lt;em&gt;likely 51 billion&lt;/em&gt; mark &lt;em&gt;minimum reserve requirement, dealers said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

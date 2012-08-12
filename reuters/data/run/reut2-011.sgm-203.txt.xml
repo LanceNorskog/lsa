@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-203.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">219</int>
+        <int name="count">163</int>
       </lst>
       <lst name="stems">
-        <int name="count">144</int>
+        <int name="count">108</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">build</str>
+        <str name="text">state</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">country</str>
-        <double name="strength">0.5590169943749497</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">discussing</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">report</str>
+        <double name="strength">0.9902130691945661</double>
       </lst>
       <lst name="term">
-        <str name="text">subjects</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">other</str>
+        <double name="strength">0.9475739487142985</double>
       </lst>
       <lst name="term">
-        <str name="text">raised</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">materials</str>
+        <double name="strength">0.9475739487142982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">But He Weiling, Washington representative of the China Economic System Reform Institute, said China's economic reforms definitely are not at risk from the nationwide drive since January against "bourgeois liberalism," a phrase meaning Western political ideas.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">260</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"We must preserve unity and popular support," he said, but "sometimes, the common people must make a sacrifice, like those of Germany and Japan after 1945."</str>
         <int name="index">27</int>
         <int name="start">1</int>
         <int name="end">157</int>
-        <double name="strength">0.9426829710139625</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Discussing subjects raised in the budget speech last week, which put the 1986 and 1987 deficits at more than 15 billion yuan because of excessive consumer demand and capital construction plus falling efficiency in state firms, He said reform of state firms and the financial system is the key goal for 1987.</str>
-        <int name="index">4</int>
+        <str name="text">Large-scale price adjustments would have an adverse psychological impact and create social discontent.</str>
+        <int name="index">26</int>
         <int name="start">1</int>
-        <int name="end">308</int>
-        <double name="strength">0.9261598946588988</double>
+        <int name="end">103</int>
+        <double name="strength">0.9927585817550049</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The most difficult thing is to strike the balance between making them independent units and the need for central control," He said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.9428090415820622</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But He &lt;em&gt;Weiling, Washington representative&lt;/em&gt; of the &lt;em&gt;China Economic System Reform Institute,&lt;/em&gt; said &lt;em&gt;China&lt;/em&gt;'s &lt;em&gt;economic reforms definitely&lt;/em&gt; are not at risk from the &lt;em&gt;nationwide drive since January against "bourgeois liberalism,"&lt;/em&gt; a &lt;em&gt;phrase meaning Western political ideas&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We must &lt;em&gt;preserve unity&lt;/em&gt; and &lt;em&gt;popular support,"&lt;/em&gt; he said, but "&lt;em&gt;sometimes,&lt;/em&gt; the &lt;em&gt;common people&lt;/em&gt; must make a &lt;em&gt;sacrifice,&lt;/em&gt; like &lt;em&gt;those&lt;/em&gt; of &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;Japan after 1945.&lt;/em&gt;"</str>
+        <str name="text">"We must &lt;em&gt;preserve unity&lt;/em&gt; and &lt;em&gt;popular support,"&lt;/em&gt; he said, but "sometimes, the &lt;em&gt;common people&lt;/em&gt; must make a &lt;em&gt;sacrifice,&lt;/em&gt; like those of &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;Japan after 1945.&lt;/em&gt;"</str>
         <int name="index">27</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Discussing subjects raised&lt;/em&gt; in the &lt;em&gt;budget speech&lt;/em&gt; last week, &lt;em&gt;which&lt;/em&gt; put the 1986 and 1987 &lt;em&gt;deficits&lt;/em&gt; at more than 15 &lt;em&gt;billion&lt;/em&gt; yuan &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;excessive consumer demand&lt;/em&gt; and &lt;em&gt;capital construction&lt;/em&gt; plus &lt;em&gt;falling efficiency&lt;/em&gt; in &lt;em&gt;state firms,&lt;/em&gt; He said &lt;em&gt;reform&lt;/em&gt; of &lt;em&gt;state firms&lt;/em&gt; and the &lt;em&gt;financial system&lt;/em&gt; is the key goal for 1987.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Large-scale price adjustments&lt;/em&gt; would have an &lt;em&gt;adverse psychological impact&lt;/em&gt; and &lt;em&gt;create social discontent&lt;/em&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The most &lt;em&gt;difficult thing&lt;/em&gt; is to &lt;em&gt;strike&lt;/em&gt; the &lt;em&gt;balance&lt;/em&gt; between making them &lt;em&gt;independent units&lt;/em&gt; and the need for &lt;em&gt;central control,"&lt;/em&gt; He said.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

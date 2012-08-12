@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-85.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">157</int>
+        <int name="count">108</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rules</str>
+        <str name="text">lewis</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deeper</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">davies</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">south</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">offshore</str>
+        <double name="strength">0.993889725827378</double>
       </lst>
       <lst name="term">
-        <str name="text">costs</str>
-        <double name="strength">0.9999999999999956</double>
+        <str name="text">budget</str>
+        <double name="strength">0.9938897258273762</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">0.6236095644623206</double>
+        <str name="text">lawson</str>
+        <double name="strength">0.9938897258273756</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">This means more jobs could be created, as the fields in the central and northern sectors of the North Sea are deeper than in the south and thus have greater capital and labour requirements as the waters are deeper than in the south.</str>
-        <int name="index">21</int>
+        <str name="text">Earlier, Chancellor of the Exchequer Nigel Lawson announced in his annual budget to Parliament that from today, companies will be allowed to offset up to 10 pct of qualifying development expenditure on certain future oil fields against Petroleum Revenue Tax (PRT).</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">233</int>
+        <int name="end">265</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Tidier rules on incorrectly allowed PRT expenditure reliefs were announced, while there were also ammendments on rules on corporation tax and Advance Corporation Tax relating to the so-called "ring fence" of activities in the U.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">229</int>
-        <double name="strength">0.8805745586328168</double>
+        <str name="text">K. Tax relief measures for oil producers, announced today, are aimed at encouraging developments in the North Sea to go ahead and boost opportunities for the offshore supplies industry, the Inland Revenue said in a post-budget statement.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">237</int>
+        <double name="strength">0.8173144214733766</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The new relief will apply to fields outside the southern basin for which development consent is first given on or after today, and will improve the post-tax economics of new developments and encourage companies to proceed with project which might have been delayed, it said.</str>
-        <int name="index">4</int>
+        <str name="text">Gareth Lewis Davies, a North Sea expert with stockbrokers Wood Mackenzie and Co Inc in Edinburgh, thought the two reliefs on PRT would help the depressed offshore industry.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">275</int>
-        <double name="strength">0.7652325571764469</double>
+        <int name="end">173</int>
+        <double name="strength">0.8059773139740593</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;means&lt;/em&gt; more jobs &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;created,&lt;/em&gt; as the &lt;em&gt;fields&lt;/em&gt; in the &lt;em&gt;central&lt;/em&gt; and &lt;em&gt;northern sectors&lt;/em&gt; of the &lt;em&gt;North&lt;/em&gt; Sea are &lt;em&gt;deeper&lt;/em&gt; than in the &lt;em&gt;south&lt;/em&gt; and thus have &lt;em&gt;greater capital&lt;/em&gt; and &lt;em&gt;labour requirements&lt;/em&gt; as the &lt;em&gt;waters&lt;/em&gt; are &lt;em&gt;deeper&lt;/em&gt; than in the &lt;em&gt;south&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">Earlier, &lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt; announced in his &lt;em&gt;annual budget&lt;/em&gt; to &lt;em&gt;Parliament&lt;/em&gt; that from &lt;em&gt;today, companies&lt;/em&gt; will be allowed to &lt;em&gt;offset&lt;/em&gt; up to 10 pct of qualifying &lt;em&gt;development expenditure&lt;/em&gt; on &lt;em&gt;certain future&lt;/em&gt; oil &lt;em&gt;fields&lt;/em&gt; against &lt;em&gt;Petroleum Revenue&lt;/em&gt; Tax (PRT).</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tidier rules&lt;/em&gt; on &lt;em&gt;incorrectly allowed&lt;/em&gt; PRT &lt;em&gt;expenditure reliefs&lt;/em&gt; were &lt;em&gt;announced, while there&lt;/em&gt; were also &lt;em&gt;ammendments&lt;/em&gt; on &lt;em&gt;rules&lt;/em&gt; on &lt;em&gt;corporation&lt;/em&gt; tax and &lt;em&gt;Advance Corporation&lt;/em&gt; Tax &lt;em&gt;relating&lt;/em&gt; to the so-&lt;em&gt;called &lt;/em&gt;"ring &lt;em&gt;fence"&lt;/em&gt; of &lt;em&gt;activities&lt;/em&gt; in the U.</str>
-        <int name="index">13</int>
+        <str name="text">K. Tax &lt;em&gt;relief measures&lt;/em&gt; for oil &lt;em&gt;producers,&lt;/em&gt; announced &lt;em&gt;today,&lt;/em&gt; are aimed at encouraging &lt;em&gt;developments&lt;/em&gt; in the &lt;em&gt;North&lt;/em&gt; Sea to go ahead and &lt;em&gt;boost opportunities&lt;/em&gt; for the &lt;em&gt;offshore supplies industry,&lt;/em&gt; the &lt;em&gt;Inland Revenue&lt;/em&gt; said in a post-&lt;em&gt;budget statement&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The new &lt;em&gt;relief&lt;/em&gt; will &lt;em&gt;apply&lt;/em&gt; to &lt;em&gt;fields outside&lt;/em&gt; the &lt;em&gt;southern basin&lt;/em&gt; for &lt;em&gt;which development consent&lt;/em&gt; is &lt;em&gt;first given&lt;/em&gt; on or &lt;em&gt;after today,&lt;/em&gt; and will &lt;em&gt;improve&lt;/em&gt; the post-tax &lt;em&gt;economics&lt;/em&gt; of new &lt;em&gt;developments&lt;/em&gt; and &lt;em&gt;encourage companies&lt;/em&gt; to &lt;em&gt;proceed&lt;/em&gt; with &lt;em&gt;project which might&lt;/em&gt; have been &lt;em&gt;delayed,&lt;/em&gt; it said.</str>
-        <int name="index">4</int>
+        <str name="text">Gareth &lt;em&gt;Lewis Davies,&lt;/em&gt; a North Sea &lt;em&gt;expert&lt;/em&gt; with &lt;em&gt;stockbrokers&lt;/em&gt; Wood &lt;em&gt;Mackenzie&lt;/em&gt; and Co Inc in &lt;em&gt;Edinburgh,&lt;/em&gt; thought the two &lt;em&gt;reliefs&lt;/em&gt; on PRT would help the &lt;em&gt;depressed offshore industry&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

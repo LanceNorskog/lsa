@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-925.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">39</int>
       </lst>
       <lst name="terms">
-        <int name="count">166</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">110</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">factor</str>
+        <str name="text">plaza</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">aggravating</str>
-        <double name="strength">1.0</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">cause</str>
-        <double name="strength">1.0</double>
+        <str name="text">europe</str>
+        <double name="strength">0.9921341663337673</double>
       </lst>
       <lst name="term">
-        <str name="text">problems</str>
-        <double name="strength">1.0</double>
+        <str name="text">european</str>
+        <double name="strength">0.9921341663337668</double>
       </lst>
       <lst name="term">
-        <str name="text">relationship</str>
-        <double name="strength">1.0</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9625771287395601</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">0</int>
         <int name="end">176</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The officials, looking beneath the rhetoric of statements by the Group of Five (G-5) industrial nations, told Reuters the currency movements of the past two years are also creating a fundamentally new world trade picture, which is throwing up new trade tensions and imbalances.</str>
-        <int name="index">2</int>
+        <str name="text">But it is the underlying peaks and troughs of the major currency movements which lay bare the real picture, in which the Plaza pact appears as an event of prime importance, but not necessarily central significance, the officials said.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">278</int>
-        <double name="strength">0.9582491896338705</double>
+        <int name="end">235</int>
+        <double name="strength">0.9359304136728851</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Since then, despite massive Bank of Japan intervention and periodic market frights about further G-5 concerted action, the dollar trend has been down, down, down.</str>
         <int name="index">14</int>
         <int name="start">0</int>
         <int name="end">162</int>
-        <double name="strength">0.9136413771484632</double>
+        <double name="strength">0.8539666733716882</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;therefore, Japanese goods&lt;/em&gt; may keep &lt;em&gt;their price competitive&lt;/em&gt; edge," said &lt;em&gt;Azusa Hayashi, Director&lt;/em&gt; of the &lt;em&gt;First International Economic Affairs Division&lt;/em&gt; of the &lt;em&gt;Foreign Ministry&lt;/em&gt;.</str>
+        <str name="text">But therefore, &lt;em&gt;Japanese goods&lt;/em&gt; may keep their &lt;em&gt;price competitive&lt;/em&gt; edge," said Azusa &lt;em&gt;Hayashi, Director&lt;/em&gt; of the &lt;em&gt;First International Economic Affairs Division&lt;/em&gt; of the &lt;em&gt;Foreign Ministry&lt;/em&gt;.</str>
         <int name="index">34</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;officials, looking beneath&lt;/em&gt; the &lt;em&gt;rhetoric&lt;/em&gt; of &lt;em&gt;statements&lt;/em&gt; by the &lt;em&gt;Group&lt;/em&gt; of Five (G-5) &lt;em&gt;industrial nations,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; the &lt;em&gt;currency movements&lt;/em&gt; of the past two &lt;em&gt;years&lt;/em&gt; are also &lt;em&gt;creating&lt;/em&gt; a &lt;em&gt;fundamentally&lt;/em&gt; new &lt;em&gt;world trade picture, which&lt;/em&gt; is &lt;em&gt;throwing&lt;/em&gt; up new &lt;em&gt;trade tensions&lt;/em&gt; and &lt;em&gt;imbalances&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">But it is the &lt;em&gt;underlying peaks&lt;/em&gt; and &lt;em&gt;troughs&lt;/em&gt; of the &lt;em&gt;major currency movements&lt;/em&gt; which lay bare the real &lt;em&gt;picture,&lt;/em&gt; in which the &lt;em&gt;Plaza&lt;/em&gt; pact appears as an &lt;em&gt;event&lt;/em&gt; of &lt;em&gt;prime importance,&lt;/em&gt; but not necessarily &lt;em&gt;central significance,&lt;/em&gt; the &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Since&lt;/em&gt; then, &lt;em&gt;despite massive&lt;/em&gt; Bank of &lt;em&gt;Japan intervention&lt;/em&gt; and &lt;em&gt;periodic market frights about further&lt;/em&gt; G-5 &lt;em&gt;concerted action,&lt;/em&gt; the &lt;em&gt;dollar trend&lt;/em&gt; has been down, down, down.</str>
+        <str name="text">Since then, despite &lt;em&gt;massive&lt;/em&gt; Bank of &lt;em&gt;Japan intervention&lt;/em&gt; and &lt;em&gt;periodic market frights&lt;/em&gt; about &lt;em&gt;further&lt;/em&gt; G-5 concerted &lt;em&gt;action,&lt;/em&gt; the &lt;em&gt;dollar trend&lt;/em&gt; has been down, down, down.</str>
         <int name="index">14</int>
       </lst>
     </lst>

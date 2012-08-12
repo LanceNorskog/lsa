@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-32.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">72</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deficit</str>
+        <str name="text">overall</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">basic</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">spending</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forecasts</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">various</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.53033008588991</double>
+        <str name="text">grants</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">imposed</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">credits</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">179</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The provincial government expects resource tax revenues for fiscal 1987 to fall to 1.30 billion dlrs from a previously estimated 2.20 billion dlrs, compared to 3.60 billion dlrs collected in fiscal 1986 before the collapse in oil prices.</str>
-        <int name="index">5</int>
+        <str name="text">Johnston told reporters he needed to raise taxes in order to begin moving towards a balanced budget in 1990-91.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.9266914600593299</double>
+        <int name="end">112</int>
+        <double name="strength">0.7541817020000624</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The budget forecasts the 1987-88 provincial deficit to be 1.90 billion dlrs, compared to a forecast deficit of 3.30 billion dlrs for fiscal 1987, which ends March 31, Johnston said.</str>
-        <int name="index">1</int>
+        <str name="text">The provincial budget also imposed a temporary eight pct surtax on individuals with taxable income of more than 36,000 dlrs, he said.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">182</int>
-        <double name="strength">0.8703882797784894</double>
+        <int name="end">134</int>
+        <double name="strength">0.6122937134955402</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Johnston&lt;/em&gt; said &lt;em&gt;overall government spending&lt;/em&gt; of 10.42 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;represents&lt;/em&gt; a cut of 4.4 pct, but &lt;em&gt;various grants&lt;/em&gt; and tax &lt;em&gt;credits&lt;/em&gt; for &lt;em&gt;agriculture&lt;/em&gt; and &lt;em&gt;energy industries&lt;/em&gt; will &lt;em&gt;remain&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Johnston&lt;/em&gt; said &lt;em&gt;overall government spending&lt;/em&gt; of 10.42 &lt;em&gt;billion&lt;/em&gt; dlrs represents a cut of 4.4 pct, but &lt;em&gt;various grants&lt;/em&gt; and tax &lt;em&gt;credits&lt;/em&gt; for &lt;em&gt;agriculture&lt;/em&gt; and &lt;em&gt;energy industries&lt;/em&gt; will &lt;em&gt;remain&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;provincial government expects resource&lt;/em&gt; tax &lt;em&gt;revenues&lt;/em&gt; for &lt;em&gt;fiscal 1987&lt;/em&gt; to fall to 1.30 &lt;em&gt;billion&lt;/em&gt; dlrs from a &lt;em&gt;previously estimated 2.20 billion&lt;/em&gt; dlrs, &lt;em&gt;compared&lt;/em&gt; to 3.60 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;collected&lt;/em&gt; in &lt;em&gt;fiscal 1986 before&lt;/em&gt; the &lt;em&gt;collapse&lt;/em&gt; in oil &lt;em&gt;prices&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Johnston&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt; he needed to &lt;em&gt;raise taxes&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;begin&lt;/em&gt; moving towards a &lt;em&gt;balanced budget in 1990-91&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;budget forecasts&lt;/em&gt; the 1987-88 &lt;em&gt;provincial deficit&lt;/em&gt; to be 1.90 &lt;em&gt;billion&lt;/em&gt; dlrs, &lt;em&gt;compared&lt;/em&gt; to a &lt;em&gt;forecast deficit&lt;/em&gt; of 3.30 &lt;em&gt;billion&lt;/em&gt; dlrs for &lt;em&gt;fiscal 1987, which&lt;/em&gt; ends &lt;em&gt;March 31, Johnston said&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;provincial budget&lt;/em&gt; also imposed a &lt;em&gt;temporary eight&lt;/em&gt; pct &lt;em&gt;surtax&lt;/em&gt; on &lt;em&gt;individuals&lt;/em&gt; with &lt;em&gt;taxable income&lt;/em&gt; of more than 36,000 dlrs, he said.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

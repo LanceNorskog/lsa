@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-905.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">worth</str>
+        <str name="text">analyst</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">european</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">improvement</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">japanese</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">december</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">figure</str>
+        <double name="strength">0.9580049845271337</double>
       </lst>
       <lst name="term">
-        <str name="text">numbers</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">three</str>
+        <double name="strength">0.9580049845271327</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">231</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">But he also said semiconductor makers still need a pickup in capital spending within the high-technology sector before any dramatic upturn can take place.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">155</int>
-        <double name="strength">0.9374606294165332</double>
+        <double name="strength">0.8428032478156513</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A book-to-bill ratio of 1.13 means that for every 100 dlrs worth of product shipped, manufacturers received 113 dlrs worth of new orders.</str>
-        <int name="index">4</int>
+        <str name="text">The figures of the past few months suggest that the industry is experiencing a gradual recovery that is likely to continue, said Edward White, semiconductor analyst at E.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">138</int>
-        <double name="strength">0.8200923624403715</double>
+        <int name="end">171</int>
+        <double name="strength">0.7718727221883958</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;February figures&lt;/em&gt; show &lt;em&gt;strong single-month improvement&lt;/em&gt; in the &lt;em&gt;semiconductor industry,&lt;/em&gt; but &lt;em&gt;after closer examination&lt;/em&gt; they may &lt;em&gt;prove&lt;/em&gt; to be &lt;em&gt;disappointing&lt;/em&gt; to &lt;em&gt;investors,&lt;/em&gt; said &lt;em&gt;Michael Gumport,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; at &lt;em&gt;Drexel Burnham Lambert Inc&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;February figures&lt;/em&gt; show &lt;em&gt;strong single-month improvement&lt;/em&gt; in the &lt;em&gt;semiconductor industry,&lt;/em&gt; but after closer &lt;em&gt;examination&lt;/em&gt; they may &lt;em&gt;prove&lt;/em&gt; to be &lt;em&gt;disappointing&lt;/em&gt; to &lt;em&gt;investors,&lt;/em&gt; said &lt;em&gt;Michael Gumport,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; at &lt;em&gt;Drexel Burnham Lambert Inc&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But he also said &lt;em&gt;semiconductor makers still&lt;/em&gt; need a &lt;em&gt;pickup&lt;/em&gt; in &lt;em&gt;capital spending within&lt;/em&gt; the high-&lt;em&gt;technology sector before&lt;/em&gt; any &lt;em&gt;dramatic upturn&lt;/em&gt; can take &lt;em&gt;place&lt;/em&gt;.</str>
+        <str name="text">But he also said &lt;em&gt;semiconductor makers&lt;/em&gt; still need a &lt;em&gt;pickup&lt;/em&gt; in &lt;em&gt;capital spending&lt;/em&gt; within the high-&lt;em&gt;technology sector&lt;/em&gt; before any &lt;em&gt;dramatic upturn&lt;/em&gt; can take &lt;em&gt;place&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A book-to-bill &lt;em&gt;ratio&lt;/em&gt; of 1.13 &lt;em&gt;means&lt;/em&gt; that for &lt;em&gt;every 100&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;product shipped, manufacturers received 113&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of new &lt;em&gt;orders&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;figures&lt;/em&gt; of the past few &lt;em&gt;months suggest&lt;/em&gt; that the &lt;em&gt;industry&lt;/em&gt; is experiencing a &lt;em&gt;gradual recovery&lt;/em&gt; that is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;continue,&lt;/em&gt; said Edward &lt;em&gt;White, semiconductor analyst&lt;/em&gt; at E.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

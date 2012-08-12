@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-279.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">55</int>
       </lst>
       <lst name="stems">
-        <int name="count">48</int>
+        <int name="count">26</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">years</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">public</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">crude</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">ceremony</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">refining</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">presence</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The 1,137 sq km Lematang block is located between two oil producing sectors of South Sumatra, and Enim officials said there is a good chance of getting a high return on investment.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The agreement, signed at a public ceremony in the presence of Energy Minister Subroto, calls for the standard oil production split of 85-15 pct in Pertamina's favour.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.9437486575251924</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">&lt;Enim Oil Co Ltd&gt;, a wholly owned subsidiary of &lt;Southern Cross Ltd&gt; of Colorado, signed a production sharing contract with Indonesia's state oil company Pertamina to explore for oil in the Lematang block of Sumatra.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">216</int>
-        <double name="strength">0.9260658425649742</double>
+        <double name="strength">0.9835238707499484</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The 1,137 sq km Lematang block is located between two oil producing sectors of South Sumatra, and Enim officials said there is a good chance of getting a high return on investment.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.9092135368180907</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The 1,137 sq km &lt;em&gt;Lematang block&lt;/em&gt; is &lt;em&gt;located between&lt;/em&gt; two oil &lt;em&gt;producing sectors&lt;/em&gt; of &lt;em&gt;South Sumatra,&lt;/em&gt; and Enim &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;there&lt;/em&gt; is a good &lt;em&gt;chance&lt;/em&gt; of &lt;em&gt;getting&lt;/em&gt; a high &lt;em&gt;return&lt;/em&gt; on &lt;em&gt;investment&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;agreement, signed&lt;/em&gt; at a &lt;em&gt;public ceremony&lt;/em&gt; in the &lt;em&gt;presence&lt;/em&gt; of &lt;em&gt;Energy Minister Subroto, calls&lt;/em&gt; for the &lt;em&gt;standard&lt;/em&gt; oil &lt;em&gt;production split&lt;/em&gt; of 85-15 pct in &lt;em&gt;Pertamina&lt;/em&gt;'s &lt;em&gt;favour&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;agreement,&lt;/em&gt; signed at a &lt;em&gt;public ceremony&lt;/em&gt; in the &lt;em&gt;presence&lt;/em&gt; of &lt;em&gt;Energy Minister Subroto,&lt;/em&gt; calls for the &lt;em&gt;standard&lt;/em&gt; oil &lt;em&gt;production split&lt;/em&gt; of 85-15 pct in &lt;em&gt;Pertamina&lt;/em&gt;'s favour.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;Enim Oil Co Ltd&gt;, a &lt;em&gt;wholly owned subsidiary&lt;/em&gt; of &lt;&lt;em&gt;Southern Cross&lt;/em&gt; Ltd&gt; of &lt;em&gt;Colorado, signed&lt;/em&gt; a &lt;em&gt;production sharing contract&lt;/em&gt; with &lt;em&gt;Indonesia&lt;/em&gt;'s &lt;em&gt;state&lt;/em&gt; oil &lt;em&gt;company Pertamina&lt;/em&gt; to &lt;em&gt;explore&lt;/em&gt; for oil in the &lt;em&gt;Lematang block&lt;/em&gt; of &lt;em&gt;Sumatra&lt;/em&gt;.</str>
+        <str name="text">&lt;Enim Oil Co Ltd&gt;, a wholly owned &lt;em&gt;subsidiary&lt;/em&gt; of &lt;&lt;em&gt;Southern Cross&lt;/em&gt; Ltd&gt; of &lt;em&gt;Colorado,&lt;/em&gt; signed a &lt;em&gt;production&lt;/em&gt; sharing &lt;em&gt;contract&lt;/em&gt; with &lt;em&gt;Indonesia&lt;/em&gt;'s &lt;em&gt;state&lt;/em&gt; oil &lt;em&gt;company Pertamina&lt;/em&gt; to &lt;em&gt;explore&lt;/em&gt; for oil in the &lt;em&gt;Lematang block&lt;/em&gt; of &lt;em&gt;Sumatra&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The 1,137 sq km &lt;em&gt;Lematang block&lt;/em&gt; is located between two oil producing &lt;em&gt;sectors&lt;/em&gt; of &lt;em&gt;South Sumatra,&lt;/em&gt; and Enim &lt;em&gt;officials&lt;/em&gt; said there is a good &lt;em&gt;chance&lt;/em&gt; of getting a high &lt;em&gt;return&lt;/em&gt; on &lt;em&gt;investment&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

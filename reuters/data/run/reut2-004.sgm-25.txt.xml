@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-25.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">173</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">90</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">proposal</str>
+        <str name="text">votes</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">workers</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">committee</str>
+        <double name="strength">0.9999999999999972</double>
       </lst>
       <lst name="term">
-        <str name="text">agreed</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">amendment</str>
+        <double name="strength">0.9960900316910958</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9960900316910957</double>
       </lst>
       <lst name="term">
-        <str name="text">toned</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">legislation</str>
+        <double name="strength">0.9960900316910953</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">This would be a moderated version of his earlier plan to force a mandatory ten per cent annual cut in the trade surplus with the United States by Japan, South Korea, Taiwan, West Germany and other countries with the largest trade imbalances.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. industry could charge foreign producers with unfair competition if they deny basic worker rights such as collective bargaining, safety rules and payment of a minimum wage appropriate to the country's economic development.</str>
         <int name="index">20</int>
         <int name="start">0</int>
         <int name="end">224</int>
-        <double name="strength">0.991937326291296</double>
+        <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Congressional aides who asked not to be identified said the lawmakers intend to wrap up their proposals tomorrow and will consider a proposal to mandate retaliation without setting specific trade penalties.</str>
-        <int name="index">4</int>
+        <str name="text">Richard Gephardt, a Missouri Democrat who is seeking his party's 1988 presidential nomination, said he may offer an amendment to call for reductions in the trade surpluses of those countries with barriers to imports of U.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">221</int>
+        <double name="strength">0.8142472298234126</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The subcommittee is considering a toned-down version of Democratic-sponsored trade legislation that aims to open foreign markets but which drops last year's effort to force President Reagan to retaliate with quotas or tariffs.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.9896575501404068</double>
+        <int name="end">227</int>
+        <double name="strength">0.7146248740928631</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;would&lt;/em&gt; be a &lt;em&gt;moderated version&lt;/em&gt; of his &lt;em&gt;earlier&lt;/em&gt; plan to &lt;em&gt;force&lt;/em&gt; a &lt;em&gt;mandatory&lt;/em&gt; ten per cent &lt;em&gt;annual&lt;/em&gt; cut in the &lt;em&gt;trade surplus&lt;/em&gt; with the &lt;em&gt;United States&lt;/em&gt; by &lt;em&gt;Japan, South Korea, Taiwan,&lt;/em&gt; West &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;other countries&lt;/em&gt; with the &lt;em&gt;largest trade imbalances&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;industry could charge foreign producers&lt;/em&gt; with &lt;em&gt;unfair competition&lt;/em&gt; if they deny &lt;em&gt;basic worker rights&lt;/em&gt; such as &lt;em&gt;collective bargaining, safety rules&lt;/em&gt; and &lt;em&gt;payment&lt;/em&gt; of a &lt;em&gt;minimum&lt;/em&gt; wage &lt;em&gt;appropriate&lt;/em&gt; to the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economic development&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;industry&lt;/em&gt; could &lt;em&gt;charge foreign producers&lt;/em&gt; with &lt;em&gt;unfair competition&lt;/em&gt; if they deny &lt;em&gt;basic worker rights&lt;/em&gt; such as &lt;em&gt;collective bargaining, safety rules&lt;/em&gt; and &lt;em&gt;payment&lt;/em&gt; of a &lt;em&gt;minimum&lt;/em&gt; wage &lt;em&gt;appropriate&lt;/em&gt; to the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economic development&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Congressional aides&lt;/em&gt; who &lt;em&gt;asked&lt;/em&gt; not to be &lt;em&gt;identified&lt;/em&gt; said the &lt;em&gt;lawmakers intend&lt;/em&gt; to wrap up &lt;em&gt;their proposals tomorrow&lt;/em&gt; and will &lt;em&gt;consider&lt;/em&gt; a &lt;em&gt;proposal&lt;/em&gt; to &lt;em&gt;mandate retaliation without setting specific trade penalties&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Richard&lt;/em&gt; Gephardt, a &lt;em&gt;Missouri Democrat&lt;/em&gt; who is seeking his &lt;em&gt;party&lt;/em&gt;'s 1988 &lt;em&gt;presidential nomination,&lt;/em&gt; said he may &lt;em&gt;offer&lt;/em&gt; an &lt;em&gt;amendment&lt;/em&gt; to call for &lt;em&gt;reductions&lt;/em&gt; in the &lt;em&gt;trade surpluses&lt;/em&gt; of those &lt;em&gt;countries&lt;/em&gt; with &lt;em&gt;barriers&lt;/em&gt; to &lt;em&gt;imports&lt;/em&gt; of U.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;subcommittee&lt;/em&gt; is considering a toned-down &lt;em&gt;version&lt;/em&gt; of &lt;em&gt;Democratic&lt;/em&gt;-sponsored &lt;em&gt;trade legislation&lt;/em&gt; that aims to open &lt;em&gt;foreign markets&lt;/em&gt; but which drops last year's &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;force President Reagan&lt;/em&gt; to &lt;em&gt;retaliate&lt;/em&gt; with &lt;em&gt;quotas&lt;/em&gt; or &lt;em&gt;tariffs&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

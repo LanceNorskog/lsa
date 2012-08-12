@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-29.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">popularity</str>
+        <str name="text">street</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">street</str>
-        <double name="strength">0.7071067811865475</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">county</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">seats</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">tories</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">anthony</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">267</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">Today's MORI poll showed an Alliance gain of eight points over the past month in around 100 key marginal seats where the outcome of the next election is likely to be decided.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.7121253450920758</double>
+        <double name="strength">0.9128392673731499</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Calls for a May poll were also prompted by Tory concern over a steady advance by the Alliance, and the possibility that if it continues it could rob the Conservatives of an overall majority in parliament.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">0.694145234686235</double>
+        <double name="strength">0.8919256089962742</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Their comments&lt;/em&gt; came as &lt;em&gt;government officials dismissed speculation about&lt;/em&gt; a snap &lt;em&gt;election&lt;/em&gt; to &lt;em&gt;coincide&lt;/em&gt; with &lt;em&gt;local polls&lt;/em&gt; in May, &lt;em&gt;timed&lt;/em&gt; to reap &lt;em&gt;maximum advantage&lt;/em&gt; from the &lt;em&gt;recent popularity surge, Thatcher&lt;/em&gt;'s &lt;em&gt;successful&lt;/em&gt; trip to &lt;em&gt;Moscow&lt;/em&gt; and &lt;em&gt;Labour&lt;/em&gt;'s &lt;em&gt;current popularity slump&lt;/em&gt;.</str>
+        <str name="text">Their &lt;em&gt;comments&lt;/em&gt; came as &lt;em&gt;government officials&lt;/em&gt; dismissed &lt;em&gt;speculation&lt;/em&gt; about a snap &lt;em&gt;election&lt;/em&gt; to &lt;em&gt;coincide&lt;/em&gt; with &lt;em&gt;local polls&lt;/em&gt; in May, timed to reap &lt;em&gt;maximum advantage&lt;/em&gt; from the &lt;em&gt;recent popularity surge,&lt;/em&gt; Thatcher's &lt;em&gt;successful&lt;/em&gt; trip to &lt;em&gt;Moscow&lt;/em&gt; and &lt;em&gt;Labour&lt;/em&gt;'s &lt;em&gt;current popularity slump&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Today&lt;/em&gt;'s MORI poll &lt;em&gt;showed&lt;/em&gt; an &lt;em&gt;Alliance&lt;/em&gt; gain of &lt;em&gt;eight points&lt;/em&gt; over the past &lt;em&gt;month&lt;/em&gt; in &lt;em&gt;around 100&lt;/em&gt; key &lt;em&gt;marginal seats where&lt;/em&gt; the &lt;em&gt;outcome&lt;/em&gt; of the next &lt;em&gt;election&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;decided&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Today&lt;/em&gt;'s MORI poll showed an &lt;em&gt;Alliance&lt;/em&gt; gain of &lt;em&gt;eight points&lt;/em&gt; over the past &lt;em&gt;month&lt;/em&gt; in around 100 key &lt;em&gt;marginal seats&lt;/em&gt; where the &lt;em&gt;outcome&lt;/em&gt; of the next &lt;em&gt;election&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be decided.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Calls&lt;/em&gt; for a May poll were also &lt;em&gt;prompted&lt;/em&gt; by Tory &lt;em&gt;concern&lt;/em&gt; over a &lt;em&gt;steady advance&lt;/em&gt; by the &lt;em&gt;Alliance,&lt;/em&gt; and the &lt;em&gt;possibility&lt;/em&gt; that if it &lt;em&gt;continues&lt;/em&gt; it &lt;em&gt;could&lt;/em&gt; rob the &lt;em&gt;Conservatives&lt;/em&gt; of an &lt;em&gt;overall majority&lt;/em&gt; in &lt;em&gt;parliament&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Calls&lt;/em&gt; for a May poll were also prompted by Tory &lt;em&gt;concern&lt;/em&gt; over a &lt;em&gt;steady advance&lt;/em&gt; by the &lt;em&gt;Alliance,&lt;/em&gt; and the &lt;em&gt;possibility&lt;/em&gt; that if it continues it could rob the &lt;em&gt;Conservatives&lt;/em&gt; of an &lt;em&gt;overall majority&lt;/em&gt; in &lt;em&gt;parliament&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
     </lst>

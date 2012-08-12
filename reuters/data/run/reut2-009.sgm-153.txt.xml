@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-153.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">framework</str>
+        <str name="text">european</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">executive</str>
-        <double name="strength">1.0</double>
+        <str name="text">technology</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">designed</str>
-        <double name="strength">1.0</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">boost</str>
-        <double name="strength">1.0</double>
+        <str name="text">france</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">areas</str>
-        <double name="strength">1.0</double>
+        <str name="text">accept</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">226</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">There would be a grave crisis in Europe's scientific and research policy," Verhofstadt said, adding it could mean research teams being disbanded.</str>
-        <int name="index">12</int>
-        <int name="start">0</int>
-        <int name="end">145</int>
-        <double name="strength">0.8538998752075978</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">The so-called "Framework Program" proposed by the EC's Executive Commission was designed to boost research in areas such as computers, biotechnology and telecommunications and combat U.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">186</int>
-        <double name="strength">0.8508491334964786</double>
+        <double name="strength">0.8972193521433203</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The five-year program was due to start at the beginning of this year, but was delayed by calls from Britain, France and West Germany for cuts in the proposed budget of 7.7 billion European Currency Units (Ecus), diplomats said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">228</int>
+        <double name="strength">0.8598003826290476</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;Research Minister Geoffrey Pattie faced&lt;/em&gt; a &lt;em&gt;tough fight&lt;/em&gt; to &lt;em&gt;convince&lt;/em&gt; his &lt;em&gt;government colleagues&lt;/em&gt; they &lt;em&gt;should accept&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;spending beyond&lt;/em&gt; the 4.2 &lt;em&gt;billion&lt;/em&gt; Ecu &lt;em&gt;level&lt;/em&gt; so far &lt;em&gt;demanded&lt;/em&gt; by &lt;em&gt;Britain,&lt;/em&gt; one &lt;em&gt;diplomat added&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;Research Minister Geoffrey Pattie&lt;/em&gt; faced a &lt;em&gt;tough fight&lt;/em&gt; to &lt;em&gt;convince&lt;/em&gt; his &lt;em&gt;government colleagues&lt;/em&gt; they should &lt;em&gt;accept&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;spending&lt;/em&gt; beyond the 4.2 &lt;em&gt;billion&lt;/em&gt; Ecu &lt;em&gt;level&lt;/em&gt; so far demanded by Britain, one &lt;em&gt;diplomat added&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There would&lt;/em&gt; be a &lt;em&gt;grave crisis&lt;/em&gt; in &lt;em&gt;Europe&lt;/em&gt;'s &lt;em&gt;scientific&lt;/em&gt; and &lt;em&gt;research policy," Verhofstadt&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; it &lt;em&gt;could&lt;/em&gt; mean &lt;em&gt;research teams being disbanded&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">The so-called "&lt;em&gt;Framework Program"&lt;/em&gt; proposed by the EC's &lt;em&gt;Executive Commission&lt;/em&gt; was designed to &lt;em&gt;boost research&lt;/em&gt; in &lt;em&gt;areas&lt;/em&gt; such as &lt;em&gt;computers, biotechnology&lt;/em&gt; and &lt;em&gt;telecommunications&lt;/em&gt; and &lt;em&gt;combat U&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The so-&lt;em&gt;called "Framework Program" proposed&lt;/em&gt; by the EC's &lt;em&gt;Executive Commission&lt;/em&gt; was &lt;em&gt;designed&lt;/em&gt; to &lt;em&gt;boost research&lt;/em&gt; in &lt;em&gt;areas&lt;/em&gt; such as &lt;em&gt;computers, biotechnology&lt;/em&gt; and &lt;em&gt;telecommunications&lt;/em&gt; and &lt;em&gt;combat U&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The five-year &lt;em&gt;program&lt;/em&gt; was due to &lt;em&gt;start&lt;/em&gt; at the &lt;em&gt;beginning&lt;/em&gt; of this year, but was delayed by &lt;em&gt;calls&lt;/em&gt; from &lt;em&gt;Britain, France&lt;/em&gt; and West &lt;em&gt;Germany&lt;/em&gt; for cuts in the &lt;em&gt;proposed budget&lt;/em&gt; of 7.7 &lt;em&gt;billion European Currency Units &lt;/em&gt;(Ecus), &lt;em&gt;diplomats said&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

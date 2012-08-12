@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-120.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">129</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">surplus</str>
+        <str name="text">request</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">speaking</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">creditors</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">problem</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">frozen</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">billion</str>
+        <double name="strength">0.983682325285126</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Gros defended Brazil's recent economic record, noting inflation slowed in February, the trade surplus rose and the public sector budget was in operational surplus.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">164</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Brazil has already frozen the lines to ensure it has enough credit to finance its day-to-day trade and commerce, but needs to request a formal extension of the commitments to head off possible lawsuits from disgruntled creditors.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.8671722696655072</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Brazil wants to resume interest payments on its medium- and long-term foreign debt as soon as possible and is willing to discuss ways of softening the impact of the payments suspension on bank earnings, central bank governor Francisco Gros said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">245</int>
-        <double name="strength">0.8344207168718402</double>
+        <str name="text">This delicate question was not resolved at yesterday's meeting, but lawyers from both sides will try to draft suitable language for a telex by midweek, Gros and the bankers said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">0.9603282934460337</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The most urgent item on yesterday's agenda was the need for a legal rollover of some 16 billion dlrs in trade and interbank credit lines extended to Brazilian banks which expire at the end of March.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">199</int>
+        <double name="strength">0.9592234150864876</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Gros &lt;em&gt;defended Brazil&lt;/em&gt;'s &lt;em&gt;recent economic record, noting inflation slowed&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; the &lt;em&gt;trade surplus&lt;/em&gt; rose and the &lt;em&gt;public sector budget&lt;/em&gt; was in &lt;em&gt;operational surplus&lt;/em&gt;.</str>
-        <int name="index">25</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; has &lt;em&gt;already frozen&lt;/em&gt; the &lt;em&gt;lines&lt;/em&gt; to &lt;em&gt;ensure&lt;/em&gt; it has &lt;em&gt;enough credit&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; its day-to-day &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;commerce,&lt;/em&gt; but &lt;em&gt;needs&lt;/em&gt; to &lt;em&gt;request&lt;/em&gt; a &lt;em&gt;formal extension&lt;/em&gt; of the &lt;em&gt;commitments&lt;/em&gt; to head off &lt;em&gt;possible lawsuits&lt;/em&gt; from &lt;em&gt;disgruntled creditors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; has already frozen the &lt;em&gt;lines&lt;/em&gt; to &lt;em&gt;ensure&lt;/em&gt; it has &lt;em&gt;enough credit&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; its day-to-day &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;commerce,&lt;/em&gt; but needs to &lt;em&gt;request&lt;/em&gt; a &lt;em&gt;formal extension&lt;/em&gt; of the &lt;em&gt;commitments&lt;/em&gt; to head off &lt;em&gt;possible lawsuits&lt;/em&gt; from disgruntled &lt;em&gt;creditors&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil wants&lt;/em&gt; to &lt;em&gt;resume interest payments&lt;/em&gt; on its &lt;em&gt;medium-&lt;/em&gt; and long-term &lt;em&gt;foreign&lt;/em&gt; debt as soon as &lt;em&gt;possible&lt;/em&gt; and is &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; ways of &lt;em&gt;softening&lt;/em&gt; the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;payments suspension&lt;/em&gt; on bank &lt;em&gt;earnings, central&lt;/em&gt; bank &lt;em&gt;governor Francisco&lt;/em&gt; Gros said.</str>
-        <int name="index">0</int>
+        <str name="text">This &lt;em&gt;delicate question&lt;/em&gt; was not resolved at &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;meeting,&lt;/em&gt; but &lt;em&gt;lawyers&lt;/em&gt; from both &lt;em&gt;sides&lt;/em&gt; will try to &lt;em&gt;draft suitable language&lt;/em&gt; for a &lt;em&gt;telex&lt;/em&gt; by &lt;em&gt;midweek,&lt;/em&gt; Gros and the &lt;em&gt;bankers said&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The most &lt;em&gt;urgent&lt;/em&gt; item on &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;agenda&lt;/em&gt; was the need for a &lt;em&gt;legal rollover&lt;/em&gt; of some 16 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;interbank credit lines&lt;/em&gt; extended to &lt;em&gt;Brazilian banks&lt;/em&gt; which &lt;em&gt;expire&lt;/em&gt; at the end of &lt;em&gt;March&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

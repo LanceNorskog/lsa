@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-530.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">88</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">36</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">quarter</str>
+        <str name="text">outflows</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">total</str>
-        <double name="strength">0.7071067811865474</double>
+        <str name="text">authorities</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.6324555320336772</double>
+        <str name="text">hands</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">amounted</str>
-        <double name="strength">0.6324555320336772</double>
+        <str name="text">support</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">south</str>
-        <double name="strength">0.6324555320336763</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The South African Reserve Bank, confirming previous estimates, said real gross domestic product in the 1986 fourth quarter grew at a seasonally adjusted annual rate of 4.7 pct versus 4.6 pct in the third quarter and 1.3 pct in the 1985 final quarter.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">250</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The bank, in its latest quarterly review, said the nominal growth rate for the year did not quite reach one pct after a 1.5 pct contraction in 1985.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">149</int>
-        <double name="strength">0.8388532326308522</double>
+        <double name="strength">1.0</double>
+        <int name="terms">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"This has strengthened the authorities' hands in lending support to the exchange rate of the rand if such action were to be called for," the bank said.</str>
-        <int name="index">12</int>
+        <str name="text">With the exception of commerce all major sectors of the economy contributed to the fourth quarter rise in domestic production.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.7528938177857795</double>
+        <int name="end">127</int>
+        <double name="strength">0.9743797102880295</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The bank said continuing strength of the current account has allowed foreign reserves to be "rebuilt to more comfortable levels."</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">130</int>
+        <double name="strength">0.9385334656326678</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;South African Reserve&lt;/em&gt; Bank, &lt;em&gt;confirming previous estimates,&lt;/em&gt; said real &lt;em&gt;gross domestic product&lt;/em&gt; in the 1986 &lt;em&gt;fourth quarter&lt;/em&gt; grew at a &lt;em&gt;seasonally adjusted annual&lt;/em&gt; rate of 4.7 pct &lt;em&gt;versus 4.6&lt;/em&gt; pct in the &lt;em&gt;third quarter&lt;/em&gt; and 1.3 pct in the 1985 &lt;em&gt;final quarter&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The bank, in its &lt;em&gt;latest quarterly review,&lt;/em&gt; said the &lt;em&gt;nominal growth&lt;/em&gt; rate for the year did not &lt;em&gt;quite reach&lt;/em&gt; one pct &lt;em&gt;after&lt;/em&gt; a 1.5 pct &lt;em&gt;contraction in 1985&lt;/em&gt;.</str>
+        <str name="text">The bank, in its latest &lt;em&gt;quarterly review,&lt;/em&gt; said the &lt;em&gt;nominal growth&lt;/em&gt; rate for the year did not quite &lt;em&gt;reach&lt;/em&gt; one pct after a 1.5 pct &lt;em&gt;contraction in 1985&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"This has &lt;em&gt;strengthened&lt;/em&gt; the &lt;em&gt;authorities' hands&lt;/em&gt; in &lt;em&gt;lending support&lt;/em&gt; to the &lt;em&gt;exchange&lt;/em&gt; rate of the rand if such &lt;em&gt;action&lt;/em&gt; were to be &lt;em&gt;called&lt;/em&gt; for," the bank said.</str>
-        <int name="index">12</int>
+        <str name="text">With the &lt;em&gt;exception&lt;/em&gt; of &lt;em&gt;commerce&lt;/em&gt; all &lt;em&gt;major sectors&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; contributed to the &lt;em&gt;fourth quarter&lt;/em&gt; rise in &lt;em&gt;domestic production&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The bank said &lt;em&gt;continuing strength&lt;/em&gt; of the &lt;em&gt;current account&lt;/em&gt; has allowed &lt;em&gt;foreign reserves&lt;/em&gt; to be "rebuilt to more &lt;em&gt;comfortable levels.&lt;/em&gt;"</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

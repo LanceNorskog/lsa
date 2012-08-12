@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-35.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">165</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">116</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">apparent</str>
+        <str name="text">shortage</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.5590169943749465</double>
+        <str name="text">collateral</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">clear</str>
-        <double name="strength">0.5</double>
+        <str name="text">statement</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.5</double>
+        <str name="text">period</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">bills</str>
-        <double name="strength">0.5</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">268</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">Second, an apparent shortage of Treasury bills apparently left Wall Street dealers with too little collateral with which to enagage in repurchase agreements with the Fed, economists said.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.9151018177344915</double>
+        <double name="strength">0.8254721876968245</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Johnson at First Chicago agreed, citing political opposition in Washington to a dollar-defense package at a time when Congress sees further dollar depreciation as the key to reducing the U.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.8443081597920566</double>
+        <str name="text">U.S. banking data released today are too distorted to draw sweeping conclusions about monetary policy, but they do support the market's assumption that the Federal Reserve has started to tighten its grip on credit, economists said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">231</int>
+        <double name="strength">0.6991798228534379</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;First, economists&lt;/em&gt; now &lt;em&gt;expect&lt;/em&gt; M-1 &lt;em&gt;money supply&lt;/em&gt; for the week &lt;em&gt;ended April 29&lt;/em&gt; to rise by a &lt;em&gt;staggering 15&lt;/em&gt; to 20 &lt;em&gt;billion&lt;/em&gt; dlrs, &lt;em&gt;partly reflecting&lt;/em&gt; the &lt;em&gt;parking&lt;/em&gt; in &lt;em&gt;checking accounts&lt;/em&gt; of the &lt;em&gt;proceeds&lt;/em&gt; from &lt;em&gt;stock market sales&lt;/em&gt; and &lt;em&gt;mutual&lt;/em&gt; fund &lt;em&gt;redemptions&lt;/em&gt; to pay &lt;em&gt;annual income taxes&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;First, economists&lt;/em&gt; now &lt;em&gt;expect&lt;/em&gt; M-1 &lt;em&gt;money supply&lt;/em&gt; for the week ended &lt;em&gt;April 29&lt;/em&gt; to rise by a &lt;em&gt;staggering 15&lt;/em&gt; to 20 &lt;em&gt;billion&lt;/em&gt; dlrs, partly reflecting the &lt;em&gt;parking&lt;/em&gt; in checking &lt;em&gt;accounts&lt;/em&gt; of the &lt;em&gt;proceeds&lt;/em&gt; from &lt;em&gt;stock market sales&lt;/em&gt; and &lt;em&gt;mutual&lt;/em&gt; fund &lt;em&gt;redemptions&lt;/em&gt; to pay &lt;em&gt;annual income taxes&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Second,&lt;/em&gt; an &lt;em&gt;apparent shortage&lt;/em&gt; of &lt;em&gt;Treasury bills apparently&lt;/em&gt; left Wall &lt;em&gt;Street dealers&lt;/em&gt; with too &lt;em&gt;little collateral&lt;/em&gt; with &lt;em&gt;which&lt;/em&gt; to &lt;em&gt;enagage&lt;/em&gt; in &lt;em&gt;repurchase agreements&lt;/em&gt; with the Fed, &lt;em&gt;economists said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Second,&lt;/em&gt; an &lt;em&gt;apparent shortage&lt;/em&gt; of &lt;em&gt;Treasury bills&lt;/em&gt; apparently left Wall &lt;em&gt;Street dealers&lt;/em&gt; with too &lt;em&gt;little collateral&lt;/em&gt; with which to &lt;em&gt;enagage&lt;/em&gt; in &lt;em&gt;repurchase agreements&lt;/em&gt; with the Fed, &lt;em&gt;economists said&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Johnson&lt;/em&gt; at &lt;em&gt;First Chicago agreed, citing political opposition&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; to a &lt;em&gt;dollar-defense package&lt;/em&gt; at a time when &lt;em&gt;Congress&lt;/em&gt; sees &lt;em&gt;further dollar depreciation&lt;/em&gt; as the key to &lt;em&gt;reducing&lt;/em&gt; the U.</str>
-        <int name="index">19</int>
+        <str name="text">U.S. banking data released &lt;em&gt;today&lt;/em&gt; are too distorted to draw sweeping &lt;em&gt;conclusions&lt;/em&gt; about &lt;em&gt;monetary policy,&lt;/em&gt; but they do &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;assumption&lt;/em&gt; that the &lt;em&gt;Federal Reserve&lt;/em&gt; has started to &lt;em&gt;tighten&lt;/em&gt; its grip on &lt;em&gt;credit, economists said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

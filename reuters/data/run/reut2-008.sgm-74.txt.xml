@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-74.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">130</int>
+        <int name="count">99</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reporters</str>
+        <str name="text">trilateral</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.9999999999999994</double>
-      </lst>
-      <lst name="term">
-        <str name="text">economic</str>
-        <double name="strength">0.9999999999999992</double>
-      </lst>
-      <lst name="term">
-        <str name="text">terms</str>
+        <str name="text">foreign</str>
         <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">think</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">europe</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">japan</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He called the present situation more difficult and, in a draft proposal included in the task force's report, suggested setting up an institution, possibly within the World Bank, with a fund that could deal with a future debt crisis.</str>
-        <int name="index">9</int>
+        <str name="text">The Trilateral Commission was set up in 1973 by David Rockefeller, former head of Chase Manhattan bank, and others to promote closer cooperation among the three regions.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">233</int>
+        <int name="end">170</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Feldstein is attending the annual meeting of the Trilateral Commission, a foreign policy group of more than 300 business and government leaders from North America, Europe and Japan.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.9203218062741706</double>
+        <double name="strength">0.9769715317212679</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Trilateral Commission was set up in 1973 by David Rockefeller, former head of Chase Manhattan bank, and others to promote closer cooperation among the three regions.</str>
-        <int name="index">14</int>
+        <str name="text">One point of agreement, Feldstein said, was that debtor countries would need additional credit in the coming years if they are to enjoy satisfactory growth.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.9087740238518299</double>
+        <int name="end">157</int>
+        <double name="strength">0.9635776374130511</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;called&lt;/em&gt; the &lt;em&gt;present situation&lt;/em&gt; more &lt;em&gt;difficult&lt;/em&gt; and, in a &lt;em&gt;draft proposal included&lt;/em&gt; in the task &lt;em&gt;force&lt;/em&gt;'s &lt;em&gt;report, suggested setting&lt;/em&gt; up an &lt;em&gt;institution, possibly within&lt;/em&gt; the &lt;em&gt;World&lt;/em&gt; Bank, with a fund that &lt;em&gt;could&lt;/em&gt; deal with a &lt;em&gt;future&lt;/em&gt; debt &lt;em&gt;crisis&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;Trilateral Commission&lt;/em&gt; was set up in 1973 by &lt;em&gt;David Rockefeller, former&lt;/em&gt; head of &lt;em&gt;Chase Manhattan&lt;/em&gt; bank, and &lt;em&gt;others&lt;/em&gt; to &lt;em&gt;promote&lt;/em&gt; closer &lt;em&gt;cooperation&lt;/em&gt; among the &lt;em&gt;three regions&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Feldstein&lt;/em&gt; is &lt;em&gt;attending&lt;/em&gt; the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;Trilateral Commission,&lt;/em&gt; a &lt;em&gt;foreign policy group&lt;/em&gt; of more than 300 &lt;em&gt;business&lt;/em&gt; and &lt;em&gt;government leaders&lt;/em&gt; from &lt;em&gt;North America, Europe&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Feldstein&lt;/em&gt; is attending the &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;Trilateral Commission,&lt;/em&gt; a &lt;em&gt;foreign policy group&lt;/em&gt; of more than 300 &lt;em&gt;business&lt;/em&gt; and &lt;em&gt;government leaders&lt;/em&gt; from North America, &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Trilateral Commission&lt;/em&gt; was set up in 1973 by &lt;em&gt;David Rockefeller, former&lt;/em&gt; head of &lt;em&gt;Chase Manhattan&lt;/em&gt; bank, and &lt;em&gt;others&lt;/em&gt; to &lt;em&gt;promote closer cooperation among&lt;/em&gt; the &lt;em&gt;three regions&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">One &lt;em&gt;point&lt;/em&gt; of &lt;em&gt;agreement, Feldstein&lt;/em&gt; said, was that &lt;em&gt;debtor countries&lt;/em&gt; would need &lt;em&gt;additional credit&lt;/em&gt; in the &lt;em&gt;coming years&lt;/em&gt; if they are to &lt;em&gt;enjoy satisfactory growth&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

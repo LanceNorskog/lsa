@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-321.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">54</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">going</str>
+        <str name="text">hearing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">among</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">lawyer</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">damages</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">manuel</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">second</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">trillion</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. bankruptcy judge Manuel Leal also ruled that TransAmerican could pursue its two billion dlr lawsuit against Coastal that alleges the Houston based gas company is attempting to unlawfully gain control of Transamerican's Texas gas reserve and pipeline system.</str>
-        <int name="index">2</int>
-        <int name="start">0</int>
-        <int name="end">260</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"They're not going to pay any money under their plan, they're just going to operate (the gas wells) and give profit to the creditors," Nabors said.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">148</int>
-        <double name="strength">0.9780044582883405</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Transamerican said it is the second largest producer of natural gas in Texas with reserves of 1.2 trillion cubic feet and more than 1,000 miles of pipeline and gas gathering lines.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.8337122209715713</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After the hearing, John Nabors, a lawyer for TransAmerican, said the company would pursue its state court lawsuit seeking 2.0 billion dlrs in damages from Coastal.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.8330772191803625</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. bankruptcy judge Manuel Leal also ruled that TransAmerican could pursue its two billion dlr lawsuit against Coastal that alleges the Houston based gas company is attempting to unlawfully gain control of Transamerican's Texas gas reserve and pipeline system.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">260</int>
+        <double name="strength">0.7657559112219929</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;bankruptcy judge Manuel&lt;/em&gt; Leal also &lt;em&gt;ruled&lt;/em&gt; that &lt;em&gt;TransAmerican could pursue&lt;/em&gt; its two &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;lawsuit against Coastal&lt;/em&gt; that &lt;em&gt;alleges&lt;/em&gt; the &lt;em&gt;Houston based&lt;/em&gt; gas &lt;em&gt;company&lt;/em&gt; is &lt;em&gt;attempting&lt;/em&gt; to &lt;em&gt;unlawfully&lt;/em&gt; gain &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;Transamerican&lt;/em&gt;'s &lt;em&gt;Texas&lt;/em&gt; gas &lt;em&gt;reserve&lt;/em&gt; and &lt;em&gt;pipeline system&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"They're not &lt;em&gt;going&lt;/em&gt; to pay any &lt;em&gt;money under their&lt;/em&gt; plan, they're just &lt;em&gt;going&lt;/em&gt; to &lt;em&gt;operate &lt;/em&gt;(the gas &lt;em&gt;wells)&lt;/em&gt; and give &lt;em&gt;profit&lt;/em&gt; to the &lt;em&gt;creditors," Nabors said&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Transamerican&lt;/em&gt; said it is the &lt;em&gt;second largest producer&lt;/em&gt; of &lt;em&gt;natural&lt;/em&gt; gas in &lt;em&gt;Texas&lt;/em&gt; with &lt;em&gt;reserves&lt;/em&gt; of 1.2 &lt;em&gt;trillion cubic&lt;/em&gt; feet and more than 1,000 &lt;em&gt;miles&lt;/em&gt; of &lt;em&gt;pipeline&lt;/em&gt; and gas &lt;em&gt;gathering lines&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Transamerican&lt;/em&gt; said it is the &lt;em&gt;second&lt;/em&gt; largest &lt;em&gt;producer&lt;/em&gt; of &lt;em&gt;natural&lt;/em&gt; gas in &lt;em&gt;Texas&lt;/em&gt; with &lt;em&gt;reserves&lt;/em&gt; of 1.2 &lt;em&gt;trillion cubic&lt;/em&gt; feet and more than 1,000 &lt;em&gt;miles&lt;/em&gt; of &lt;em&gt;pipeline&lt;/em&gt; and gas &lt;em&gt;gathering lines&lt;/em&gt;.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After the &lt;em&gt;hearing,&lt;/em&gt; John &lt;em&gt;Nabors,&lt;/em&gt; a &lt;em&gt;lawyer&lt;/em&gt; for &lt;em&gt;TransAmerican,&lt;/em&gt; said the &lt;em&gt;company&lt;/em&gt; would &lt;em&gt;pursue&lt;/em&gt; its &lt;em&gt;state court lawsuit&lt;/em&gt; seeking 2.0 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;damages&lt;/em&gt; from &lt;em&gt;Coastal&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;bankruptcy judge Manuel&lt;/em&gt; Leal also ruled that &lt;em&gt;TransAmerican&lt;/em&gt; could &lt;em&gt;pursue&lt;/em&gt; its two &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;lawsuit&lt;/em&gt; against &lt;em&gt;Coastal&lt;/em&gt; that alleges the &lt;em&gt;Houston&lt;/em&gt; based gas &lt;em&gt;company&lt;/em&gt; is attempting to &lt;em&gt;unlawfully&lt;/em&gt; gain &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;Transamerican&lt;/em&gt;'s &lt;em&gt;Texas&lt;/em&gt; gas &lt;em&gt;reserve&lt;/em&gt; and &lt;em&gt;pipeline system&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

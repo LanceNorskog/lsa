@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">45</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-25.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">94</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increase</str>
+        <str name="text">straight</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stocks</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">dates</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">australian</str>
-        <double name="strength">0.9999999999999958</double>
+        <str name="text">coupon</str>
+        <double name="strength">0.9934327593756584</double>
       </lst>
       <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.5590169943749456</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9719017617259391</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">However, reaction here was limited, with shorter dated paper ending steady to 1/4 point easier, while longer dates dipped by 1/4 to 1/2 point.</str>
-        <int name="index">3</int>
+        <str name="text">S. Banks began to match yesterday's surprise 1/4 point prime rate hikes by Citibank and Chase Manhattan Bank, dealers said.</str>
+        <int name="index">1</int>
         <int name="start">0</int>
-        <int name="end">142</int>
+        <int name="end">123</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The floating rate note sector basically ended easier following the increase in period eurodollar deposit rates prompted by the prime rate increases, dealers said.</str>
-        <int name="index">30</int>
+        <str name="text">Also launched was a five-year zero coupon bond with a total redemption amount of 19 billion yen for Rural Banking and Finance Corp of New Zealand.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">163</int>
-        <double name="strength">0.9042227680758288</double>
+        <int name="end">147</int>
+        <double name="strength">0.8989376608005698</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">She noted the Tokyo stock market had experienced a mild correction at the beginning of the week but that bank stocks were hardly affected.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">139</int>
-        <double name="strength">0.808383316550518</double>
+        <str name="text">S. Securities house commented "There was, in fact, the odd retail buyer today, but only in small sizes."</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">104</int>
+        <double name="strength">0.8854745820983705</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, reaction&lt;/em&gt; here was &lt;em&gt;limited,&lt;/em&gt; with &lt;em&gt;shorter dated paper ending steady&lt;/em&gt; to 1/4 &lt;em&gt;point easier, while longer dates dipped&lt;/em&gt; by 1/4 to 1/2 &lt;em&gt;point&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">S. &lt;em&gt;Banks&lt;/em&gt; began to &lt;em&gt;match yesterday&lt;/em&gt;'s &lt;em&gt;surprise 1/4 point prime&lt;/em&gt; rate &lt;em&gt;hikes&lt;/em&gt; by &lt;em&gt;Citibank&lt;/em&gt; and &lt;em&gt;Chase Manhattan&lt;/em&gt; Bank, &lt;em&gt;dealers said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;floating&lt;/em&gt; rate note &lt;em&gt;sector basically ended easier following&lt;/em&gt; the &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;period eurodollar deposit rates prompted&lt;/em&gt; by the &lt;em&gt;prime&lt;/em&gt; rate &lt;em&gt;increases, dealers said&lt;/em&gt;.</str>
-        <int name="index">30</int>
+        <str name="text">Also launched was a five-year zero &lt;em&gt;coupon&lt;/em&gt; bond with a &lt;em&gt;total redemption amount&lt;/em&gt; of 19 &lt;em&gt;billion&lt;/em&gt; yen for &lt;em&gt;Rural Banking&lt;/em&gt; and &lt;em&gt;Finance&lt;/em&gt; Corp of New &lt;em&gt;Zealand&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">She &lt;em&gt;noted&lt;/em&gt; the &lt;em&gt;Tokyo stock market&lt;/em&gt; had &lt;em&gt;experienced&lt;/em&gt; a mild &lt;em&gt;correction&lt;/em&gt; at the &lt;em&gt;beginning&lt;/em&gt; of the week but that bank &lt;em&gt;stocks&lt;/em&gt; were &lt;em&gt;hardly affected&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">S. &lt;em&gt;Securities house&lt;/em&gt; commented "There was, in fact, the odd &lt;em&gt;retail buyer today,&lt;/em&gt; but only in &lt;em&gt;small sizes.&lt;/em&gt;"</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

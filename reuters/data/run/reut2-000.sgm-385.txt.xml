@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-385.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">201</int>
+        <int name="count">143</int>
       </lst>
       <lst name="stems">
-        <int name="count">128</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">though</str>
+        <str name="text">commission</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deeply</str>
-        <double name="strength">1.0</double>
+        <str name="text">staff</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">implicated</str>
-        <double name="strength">1.0</double>
+        <str name="text">contras</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">lawmakers</str>
-        <double name="strength">1.0</double>
+        <str name="text">aides</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">assured</str>
-        <double name="strength">1.0</double>
+        <str name="text">program</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The report blamed Regan for the "chaos that descended on the White House" since it was first revealed last November that profits from the Iran arms sales had been diverted to contra rebels fighting the leftist Nicaraguan government.</str>
-        <int name="index">20</int>
+        <str name="text">Reagan and former Senate Republican leader Howard Baker, whose appointment as White House chief of staff won bipartisan praise, will begin mapping strategy to deal with scathing criticism by a report on his failed bid to trade U.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">233</int>
+        <int name="end">230</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A recent Newsweek magazine poll found that just 40 pct of Americans approved of Reagan's leadership, a record low, and a third believed he should consider resignation.</str>
-        <int name="index">28</int>
-        <int name="start">0</int>
-        <int name="end">167</int>
-        <double name="strength">0.9958675759445331</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
         <str name="text">Among the chores facing Reagan's new inner circle is assessing the damage the 300-page Tower commission report has done to the nomination of Robert Gates to succeed William Casey as the new head of the Central Intelligence Agency.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">231</int>
-        <double name="strength">0.9845938194205114</double>
+        <double name="strength">0.9089309767158086</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Regan, the former Wall Street executive and Treasury secretary who has been the president's top aide for the past two years, was assigned the lion's share of the blame for the botched handling of the Iran arms sale.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">216</int>
+        <double name="strength">0.8966995505255978</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;report blamed Regan&lt;/em&gt; for the "&lt;em&gt;chaos&lt;/em&gt; that &lt;em&gt;descended&lt;/em&gt; on the &lt;em&gt;White House" since&lt;/em&gt; it was &lt;em&gt;first revealed&lt;/em&gt; last &lt;em&gt;November&lt;/em&gt; that &lt;em&gt;profits&lt;/em&gt; from the Iran arms &lt;em&gt;sales&lt;/em&gt; had been &lt;em&gt;diverted&lt;/em&gt; to &lt;em&gt;contra rebels fighting&lt;/em&gt; the &lt;em&gt;leftist Nicaraguan government&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">&lt;em&gt;Reagan&lt;/em&gt; and &lt;em&gt;former Senate Republican leader&lt;/em&gt; Howard &lt;em&gt;Baker,&lt;/em&gt; whose &lt;em&gt;appointment&lt;/em&gt; as &lt;em&gt;White House chief&lt;/em&gt; of &lt;em&gt;staff&lt;/em&gt; won &lt;em&gt;bipartisan praise,&lt;/em&gt; will &lt;em&gt;begin mapping strategy&lt;/em&gt; to deal with &lt;em&gt;scathing criticism&lt;/em&gt; by a &lt;em&gt;report&lt;/em&gt; on his failed bid to &lt;em&gt;trade U&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;recent Newsweek magazine&lt;/em&gt; poll &lt;em&gt;found&lt;/em&gt; that just 40 pct of &lt;em&gt;Americans approved&lt;/em&gt; of &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;leadership,&lt;/em&gt; a &lt;em&gt;record&lt;/em&gt; low, and a &lt;em&gt;third believed&lt;/em&gt; he &lt;em&gt;should consider resignation&lt;/em&gt;.</str>
-        <int name="index">28</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Among&lt;/em&gt; the &lt;em&gt;chores facing Reagan&lt;/em&gt;'s new &lt;em&gt;inner circle&lt;/em&gt; is &lt;em&gt;assessing&lt;/em&gt; the &lt;em&gt;damage&lt;/em&gt; the 300-page &lt;em&gt;Tower commission report&lt;/em&gt; has done to the &lt;em&gt;nomination&lt;/em&gt; of &lt;em&gt;Robert Gates&lt;/em&gt; to &lt;em&gt;succeed William Casey&lt;/em&gt; as the new head of the &lt;em&gt;Central Intelligence Agency&lt;/em&gt;.</str>
+        <str name="text">Among the &lt;em&gt;chores&lt;/em&gt; facing &lt;em&gt;Reagan&lt;/em&gt;'s new &lt;em&gt;inner circle&lt;/em&gt; is assessing the &lt;em&gt;damage&lt;/em&gt; the 300-page &lt;em&gt;Tower commission report&lt;/em&gt; has done to the &lt;em&gt;nomination&lt;/em&gt; of &lt;em&gt;Robert Gates&lt;/em&gt; to &lt;em&gt;succeed&lt;/em&gt; William &lt;em&gt;Casey&lt;/em&gt; as the new head of the &lt;em&gt;Central Intelligence Agency&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Regan, the &lt;em&gt;former&lt;/em&gt; Wall &lt;em&gt;Street executive&lt;/em&gt; and &lt;em&gt;Treasury secretary&lt;/em&gt; who has been the &lt;em&gt;president&lt;/em&gt;'s top aide for the past two &lt;em&gt;years,&lt;/em&gt; was assigned the lion's &lt;em&gt;share&lt;/em&gt; of the &lt;em&gt;blame&lt;/em&gt; for the &lt;em&gt;botched handling&lt;/em&gt; of the Iran arms sale.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

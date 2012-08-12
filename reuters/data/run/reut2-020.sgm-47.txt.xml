@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-47.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">132</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">92</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">decide</str>
+        <str name="text">raise</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">deflationary</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">support</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">prevent</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">security</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">senior</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">financial</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">221</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In deciding what response to make to the steep stock price drop, the Bank of Japan must first determine whether prices will continue to fall further and then decide if they pose a greater economic danger than the threat of higher inflation, one central bank official said.</str>
-        <int name="index">17</int>
+        <str name="text">A rise in interest rates now would only serve to spark further selling of shares that could ultimately have a major deflationary impact on the real economy, they said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">273</int>
-        <double name="strength">0.974424359799245</double>
+        <int name="end">168</int>
+        <double name="strength">0.8922669292793083</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But today's stock market collapse -- prices fell nearly 15 pct -- means that the Bank of Japan would be hard pressed to raise the discount rate now, despite its concerns about a renewed outbreak of inflation, dealers and economists said.</str>
-        <int name="index">4</int>
+        <str name="text">Paradoxically, it is the pick-up in the economy that is partly to blame for the stock market collapse as companies have shifted funds away from financial investments to increase inventories and step up capital spending, one government economist said.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.84938449657863</double>
+        <int name="end">251</int>
+        <double name="strength">0.8893658781693378</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">And &lt;em&gt;while&lt;/em&gt; many &lt;em&gt;manufacturing firms turned&lt;/em&gt; to &lt;em&gt;financial market investments&lt;/em&gt; for &lt;em&gt;profits during&lt;/em&gt; last year's &lt;em&gt;economic downturn,&lt;/em&gt; the &lt;em&gt;recent rebound&lt;/em&gt; has &lt;em&gt;allowed&lt;/em&gt; them to &lt;em&gt;refocus their attention&lt;/em&gt; on &lt;em&gt;their&lt;/em&gt; core &lt;em&gt;businesses,&lt;/em&gt; he said.</str>
+        <str name="text">And while many &lt;em&gt;manufacturing firms&lt;/em&gt; turned to &lt;em&gt;financial market investments&lt;/em&gt; for &lt;em&gt;profits&lt;/em&gt; during last year's &lt;em&gt;economic downturn,&lt;/em&gt; the &lt;em&gt;recent rebound&lt;/em&gt; has allowed them to &lt;em&gt;refocus&lt;/em&gt; their &lt;em&gt;attention&lt;/em&gt; on their core &lt;em&gt;businesses,&lt;/em&gt; he said.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;deciding&lt;/em&gt; what &lt;em&gt;response&lt;/em&gt; to make to the &lt;em&gt;steep stock price&lt;/em&gt; drop, the Bank of &lt;em&gt;Japan&lt;/em&gt; must &lt;em&gt;first determine whether prices&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to fall &lt;em&gt;further&lt;/em&gt; and then &lt;em&gt;decide&lt;/em&gt; if they pose a &lt;em&gt;greater economic danger&lt;/em&gt; than the &lt;em&gt;threat&lt;/em&gt; of &lt;em&gt;higher inflation,&lt;/em&gt; one &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;official said&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">A rise in &lt;em&gt;interest rates&lt;/em&gt; now would only &lt;em&gt;serve&lt;/em&gt; to &lt;em&gt;spark further selling&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; that could ultimately have a &lt;em&gt;major deflationary impact&lt;/em&gt; on the real &lt;em&gt;economy,&lt;/em&gt; they said.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;stock market collapse -- prices&lt;/em&gt; fell &lt;em&gt;nearly 15&lt;/em&gt; pct -- &lt;em&gt;means&lt;/em&gt; that the Bank of &lt;em&gt;Japan would&lt;/em&gt; be hard &lt;em&gt;pressed&lt;/em&gt; to &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;discount&lt;/em&gt; rate now, &lt;em&gt;despite&lt;/em&gt; its &lt;em&gt;concerns about&lt;/em&gt; a &lt;em&gt;renewed outbreak&lt;/em&gt; of &lt;em&gt;inflation, dealers&lt;/em&gt; and &lt;em&gt;economists said&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Paradoxically, it is the pick-up in the &lt;em&gt;economy&lt;/em&gt; that is partly to &lt;em&gt;blame&lt;/em&gt; for the &lt;em&gt;stock market collapse&lt;/em&gt; as &lt;em&gt;companies&lt;/em&gt; have shifted &lt;em&gt;funds&lt;/em&gt; away from &lt;em&gt;financial investments&lt;/em&gt; to &lt;em&gt;increase inventories&lt;/em&gt; and step up &lt;em&gt;capital spending,&lt;/em&gt; one &lt;em&gt;government economist said&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-724.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">177</int>
+        <int name="count">131</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">brings</str>
+        <str name="text">ideas</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">unanimity</str>
-        <double name="strength">1.0</double>
+        <str name="text">start</str>
+        <double name="strength">0.938640151482387</double>
       </lst>
       <lst name="term">
-        <str name="text">opinion</str>
-        <double name="strength">1.0</double>
+        <str name="text">christian</str>
+        <double name="strength">0.8840887232751146</double>
       </lst>
       <lst name="term">
-        <str name="text">closer</str>
-        <double name="strength">1.0</double>
+        <str name="text">mosaic</str>
+        <double name="strength">0.8044916529435993</double>
       </lst>
       <lst name="term">
-        <str name="text">aurelio</str>
-        <double name="strength">0.999999999999994</double>
+        <str name="text">commerce</str>
+        <double name="strength">0.6771284210456066</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">266</int>
         <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Business leaders said the 17-year rescheduling of commercial bank debt would give President Corazon Aquino some badly-needed breathing space, but warned her government was still in the midst of political consolidation.</str>
-        <int name="index">5</int>
+        <str name="text">Aurelio Periquet, President of the Philippine Chamber of Commerce and Industry, told Reuters the debt accord had positively translated the international banking community's confidence in the country's economy and Aquino's government.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.9919956982841235</double>
+        <int name="end">234</int>
+        <double name="strength">0.8646842729431303</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Businessman Raul Concepcion, whose brother Jose is the country's trade and industry minister, said everyone could heave a sigh of relief.</str>
-        <int name="index">33</int>
+        <str name="text">"The successful negotiations form an important piece in the mosaic," Christian Roeher, Secretary-General of the European Chamber of Commerce, said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">138</int>
-        <double name="strength">0.9615902489347226</double>
+        <int name="end">148</int>
+        <double name="strength">0.8602624536177711</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Philippines' restructuring&lt;/em&gt; of 13.2 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;foreign&lt;/em&gt; debt will &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;welcome boost&lt;/em&gt; for the &lt;em&gt;economy,&lt;/em&gt; but last &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;accord&lt;/em&gt; with the &lt;em&gt;country&lt;/em&gt;'s 12-bank &lt;em&gt;advisory committee&lt;/em&gt; does not &lt;em&gt;imply&lt;/em&gt; an &lt;em&gt;overnight&lt;/em&gt; boom, &lt;em&gt;bankers&lt;/em&gt; and &lt;em&gt;businessmen polled&lt;/em&gt; by &lt;em&gt;Reuters said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Philippines' restructuring&lt;/em&gt; of 13.2 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;foreign&lt;/em&gt; debt will &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;welcome boost&lt;/em&gt; for the &lt;em&gt;economy,&lt;/em&gt; but last &lt;em&gt;Friday&lt;/em&gt;'s &lt;em&gt;accord&lt;/em&gt; with the &lt;em&gt;country&lt;/em&gt;'s 12-bank &lt;em&gt;advisory committee&lt;/em&gt; does not &lt;em&gt;imply&lt;/em&gt; an &lt;em&gt;overnight&lt;/em&gt; boom, &lt;em&gt;bankers&lt;/em&gt; and &lt;em&gt;businessmen&lt;/em&gt; polled by &lt;em&gt;Reuters said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Business leaders&lt;/em&gt; said the 17-year &lt;em&gt;rescheduling&lt;/em&gt; of &lt;em&gt;commercial&lt;/em&gt; bank debt &lt;em&gt;would&lt;/em&gt; give &lt;em&gt;President Corazon Aquino&lt;/em&gt; some &lt;em&gt;badly-needed breathing space,&lt;/em&gt; but &lt;em&gt;warned&lt;/em&gt; her &lt;em&gt;government&lt;/em&gt; was &lt;em&gt;still&lt;/em&gt; in the &lt;em&gt;midst&lt;/em&gt; of &lt;em&gt;political consolidation&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Aurelio Periquet, President&lt;/em&gt; of the &lt;em&gt;Philippine Chamber&lt;/em&gt; of &lt;em&gt;Commerce&lt;/em&gt; and &lt;em&gt;Industry,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; the debt &lt;em&gt;accord&lt;/em&gt; had positively translated the &lt;em&gt;international banking community&lt;/em&gt;'s &lt;em&gt;confidence&lt;/em&gt; in the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt; and &lt;em&gt;Aquino&lt;/em&gt;'s &lt;em&gt;government&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Businessman&lt;/em&gt; Raul &lt;em&gt;Concepcion, whose brother&lt;/em&gt; Jose is the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;industry minister,&lt;/em&gt; said &lt;em&gt;everyone could heave&lt;/em&gt; a sigh of &lt;em&gt;relief&lt;/em&gt;.</str>
-        <int name="index">33</int>
+        <str name="text">"The &lt;em&gt;successful negotiations&lt;/em&gt; form an &lt;em&gt;important piece&lt;/em&gt; in the &lt;em&gt;mosaic," Christian Roeher, Secretary-General&lt;/em&gt; of the &lt;em&gt;European Chamber&lt;/em&gt; of &lt;em&gt;Commerce, said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

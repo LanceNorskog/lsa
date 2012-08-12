@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-109.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">unchanged</str>
+        <str name="text">france</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">units</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.5224669010542538</double>
       </lst>
       <lst name="term">
-        <str name="text">decline</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">unchanged</str>
+        <double name="strength">0.5224669010542538</double>
       </lst>
       <lst name="term">
-        <str name="text">deficit</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">sales</str>
+        <double name="strength">0.5224669010542535</double>
       </lst>
       <lst name="term">
-        <str name="text">built</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">realignment</str>
+        <double name="strength">0.5224669010542535</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">312</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">This reflected outflows of 10.26 billion francs through operations of the French exchange stabilisation fund, counterbalanced by a gain of 1.35 billion francs resulting from the quarterly adjustment in the value of dollar deposits held with the European Monetary Cooperation Fund (FECOM).</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">289</int>
-        <double name="strength">0.8107663685864628</double>
+        <double name="strength">0.9193424954171143</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">But most of the decline reflected a 33.90 billion franc deficit that France built up during the month with FECOM as a result of using very short-term financing instruments.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">173</int>
-        <double name="strength">0.6558392204036777</double>
+        <double name="strength">0.7563700559649289</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Bank of &lt;em&gt;France,&lt;/em&gt; in &lt;em&gt;conjunction&lt;/em&gt; with the &lt;em&gt;Bundesbank&lt;/em&gt; and &lt;em&gt;other central banks, intervened heavily&lt;/em&gt; in &lt;em&gt;foreign exchange markets between&lt;/em&gt; late &lt;em&gt;December&lt;/em&gt; and the &lt;em&gt;January 11&lt;/em&gt; EMS &lt;em&gt;accord,&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to hold down the mark, &lt;em&gt;which&lt;/em&gt; was &lt;em&gt;attracting&lt;/em&gt; a &lt;em&gt;flight&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; from the &lt;em&gt;dollar,&lt;/em&gt; and &lt;em&gt;simultaneously shore&lt;/em&gt; up the &lt;em&gt;franc&lt;/em&gt;.</str>
+        <str name="text">The Bank of &lt;em&gt;France,&lt;/em&gt; in &lt;em&gt;conjunction&lt;/em&gt; with the &lt;em&gt;Bundesbank&lt;/em&gt; and &lt;em&gt;other central banks,&lt;/em&gt; intervened heavily in &lt;em&gt;foreign exchange markets&lt;/em&gt; between late &lt;em&gt;December&lt;/em&gt; and the &lt;em&gt;January 11&lt;/em&gt; EMS &lt;em&gt;accord,&lt;/em&gt; in an &lt;em&gt;attempt&lt;/em&gt; to hold down the mark, which was attracting a &lt;em&gt;flight&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; from the &lt;em&gt;dollar,&lt;/em&gt; and simultaneously &lt;em&gt;shore&lt;/em&gt; up the &lt;em&gt;franc&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;reflected outflows&lt;/em&gt; of 10.26 &lt;em&gt;billion francs through operations&lt;/em&gt; of the &lt;em&gt;French exchange stabilisation&lt;/em&gt; fund, &lt;em&gt;counterbalanced&lt;/em&gt; by a gain of 1.35 &lt;em&gt;billion francs resulting&lt;/em&gt; from the &lt;em&gt;quarterly adjustment&lt;/em&gt; in the &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;dollar deposits&lt;/em&gt; held with the &lt;em&gt;European Monetary Cooperation&lt;/em&gt; Fund (&lt;em&gt;FECOM)&lt;/em&gt;.</str>
+        <str name="text">This reflected &lt;em&gt;outflows&lt;/em&gt; of 10.26 &lt;em&gt;billion francs&lt;/em&gt; through &lt;em&gt;operations&lt;/em&gt; of the &lt;em&gt;French exchange stabilisation&lt;/em&gt; fund, counterbalanced by a gain of 1.35 &lt;em&gt;billion francs&lt;/em&gt; resulting from the &lt;em&gt;quarterly adjustment&lt;/em&gt; in the &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;dollar deposits&lt;/em&gt; held with the &lt;em&gt;European Monetary Cooperation&lt;/em&gt; Fund (&lt;em&gt;FECOM)&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But most of the &lt;em&gt;decline reflected&lt;/em&gt; a 33.90 &lt;em&gt;billion franc deficit&lt;/em&gt; that &lt;em&gt;France built&lt;/em&gt; up &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;month&lt;/em&gt; with &lt;em&gt;FECOM&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of &lt;em&gt;using&lt;/em&gt; very &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;financing instruments&lt;/em&gt;.</str>
+        <str name="text">But most of the &lt;em&gt;decline&lt;/em&gt; reflected a 33.90 &lt;em&gt;billion franc deficit&lt;/em&gt; that &lt;em&gt;France&lt;/em&gt; built up during the &lt;em&gt;month&lt;/em&gt; with &lt;em&gt;FECOM&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of using very &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;financing instruments&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

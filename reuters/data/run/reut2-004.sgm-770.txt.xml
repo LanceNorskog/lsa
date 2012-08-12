@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-770.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">units</str>
+        <str name="text">business</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">falling</str>
-        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
         <str name="text">consumer</str>
-        <double name="strength">0.5590169943749461</double>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">business</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">materials</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">durables</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">units</str>
+        <double name="strength">0.9634242309653829</double>
+      </lst>
+      <lst name="term">
+        <str name="text">fourth</str>
+        <double name="strength">0.9634242309653829</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Fed said the February gain was dominated by a sharp rise in motor vehicle production, which boosted output of both consumer goods and business equipment.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">158</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Business equipment production rose 1.0 pct in February, reflecting more output of autos and trucks for business use and a recovery from strikes in farm equipment industries, the Fed said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.9822559626747687</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The recent strength in materials has been concentrated in textiles, paper and chemicals, the Fed said.</str>
         <int name="index">15</int>
         <int name="start">0</int>
         <int name="end">102</int>
-        <double name="strength">0.9615247427524612</double>
+        <double name="strength">1.0</double>
+        <int name="terms">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Fed said the February gain was dominated by a sharp rise in motor vehicle production, which boosted output of both consumer goods and business equipment.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">158</int>
+        <double name="strength">0.924621786127069</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Output of home goods was up 0.3 pct in February and the Fed said production of items like appliances and furniture continued strong last month.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9170367666052419</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Fed said the &lt;em&gt;February&lt;/em&gt; gain was &lt;em&gt;dominated&lt;/em&gt; by a &lt;em&gt;sharp&lt;/em&gt; rise in &lt;em&gt;motor vehicle production, which boosted output&lt;/em&gt; of both &lt;em&gt;consumer goods&lt;/em&gt; and &lt;em&gt;business equipment&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;recent strength&lt;/em&gt; in &lt;em&gt;materials&lt;/em&gt; has been concentrated in &lt;em&gt;textiles, paper&lt;/em&gt; and &lt;em&gt;chemicals,&lt;/em&gt; the Fed said.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Fed said the &lt;em&gt;February&lt;/em&gt; gain was dominated by a &lt;em&gt;sharp&lt;/em&gt; rise in &lt;em&gt;motor vehicle production,&lt;/em&gt; which boosted &lt;em&gt;output&lt;/em&gt; of both &lt;em&gt;consumer goods&lt;/em&gt; and &lt;em&gt;business equipment&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Business equipment production&lt;/em&gt; rose 1.0 pct in &lt;em&gt;February, reflecting&lt;/em&gt; more &lt;em&gt;output&lt;/em&gt; of &lt;em&gt;autos&lt;/em&gt; and &lt;em&gt;trucks&lt;/em&gt; for &lt;em&gt;business&lt;/em&gt; use and a &lt;em&gt;recovery&lt;/em&gt; from &lt;em&gt;strikes&lt;/em&gt; in farm &lt;em&gt;equipment industries,&lt;/em&gt; the Fed said.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;recent strength&lt;/em&gt; in &lt;em&gt;materials&lt;/em&gt; has been &lt;em&gt;concentrated&lt;/em&gt; in &lt;em&gt;textiles, paper&lt;/em&gt; and &lt;em&gt;chemicals,&lt;/em&gt; the Fed said.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Output&lt;/em&gt; of home &lt;em&gt;goods&lt;/em&gt; was up 0.3 pct in &lt;em&gt;February&lt;/em&gt; and the Fed said &lt;em&gt;production&lt;/em&gt; of &lt;em&gt;items&lt;/em&gt; like &lt;em&gt;appliances&lt;/em&gt; and &lt;em&gt;furniture&lt;/em&gt; continued &lt;em&gt;strong&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-404.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">182</int>
+        <int name="count">129</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">congressional</str>
+        <str name="text">persons</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">north</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">clandestine</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">special</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">profits</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">yesterday</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">rebels</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">george</str>
-        <double name="strength">0.8944271909999175</double>
+        <str name="text">nicaragua</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">2</int>
         <int name="end">237</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Reagan has denied knowing about the shift of funds although he has admitted he gave orders to sell arms through Israel in either August or after the first shipment in September 1985, but can't remember when.</str>
-        <int name="index">8</int>
+        <str name="text">So far, granting immunity to compel testimony from reluctant witnesses has been granted to five persons--with the key figure so far, shadowy California international arms merchant Albert Hakim.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">0.9861156712472048</double>
+        <int name="end">194</int>
+        <double name="strength">0.9409859473624866</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If the agreement --reached on Friday by Arthur Liman and John Nields, chief legal advisors of the Senate and House committees respectively --is ratified as expected by Walsh and the full committees, closed door interviews could be held with Poindexter in two months with public testimony in about 90 days or mid June, sources said.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">332</int>
-        <double name="strength">0.9626154239216007</double>
+        <str name="text">So far the money trail uncovered by probers stops at secret Swiss and Cayman Islands bank accounts.</str>
+        <int name="index">12</int>
+        <int name="start">3</int>
+        <int name="end">102</int>
+        <double name="strength">0.9174003579208116</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Besides Reagan&lt;/em&gt;'s &lt;em&gt;knowledge,&lt;/em&gt; or lack of it, &lt;em&gt;another&lt;/em&gt; key &lt;em&gt;unanswered questions lingering&lt;/em&gt; from &lt;em&gt;earlier congressional investigators&lt;/em&gt; and a &lt;em&gt;special presidential review board,&lt;/em&gt; is who &lt;em&gt;received  millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; from &lt;em&gt;clandestine&lt;/em&gt; arms &lt;em&gt;profits&lt;/em&gt;.</str>
+        <str name="text">Besides &lt;em&gt;Reagan&lt;/em&gt;'s &lt;em&gt;knowledge,&lt;/em&gt; or lack of it, another key &lt;em&gt;unanswered questions&lt;/em&gt; lingering from earlier &lt;em&gt;congressional investigators&lt;/em&gt; and a &lt;em&gt;special presidential review board,&lt;/em&gt; is who received  &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; from &lt;em&gt;clandestine&lt;/em&gt; arms &lt;em&gt;profits&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Reagan&lt;/em&gt; has &lt;em&gt;denied knowing about&lt;/em&gt; the &lt;em&gt;shift&lt;/em&gt; of &lt;em&gt;funds although&lt;/em&gt; he has &lt;em&gt;admitted&lt;/em&gt; he gave &lt;em&gt;orders&lt;/em&gt; to sell arms &lt;em&gt;through Israel&lt;/em&gt; in &lt;em&gt;either August&lt;/em&gt; or &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;first shipment&lt;/em&gt; in &lt;em&gt;September 1985,&lt;/em&gt; but can't &lt;em&gt;remember when&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">So far, granting &lt;em&gt;immunity&lt;/em&gt; to &lt;em&gt;compel testimony&lt;/em&gt; from &lt;em&gt;reluctant witnesses&lt;/em&gt; has been granted to five &lt;em&gt;persons-&lt;/em&gt;-with the key &lt;em&gt;figure&lt;/em&gt; so far, &lt;em&gt;shadowy California international&lt;/em&gt; arms &lt;em&gt;merchant&lt;/em&gt; Albert &lt;em&gt;Hakim&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If the &lt;em&gt;agreement --reached&lt;/em&gt; on &lt;em&gt;Friday&lt;/em&gt; by &lt;em&gt;Arthur Liman&lt;/em&gt; and John &lt;em&gt;Nields, chief legal advisors&lt;/em&gt; of the &lt;em&gt;Senate&lt;/em&gt; and &lt;em&gt;House committees respectively -&lt;/em&gt;-is &lt;em&gt;ratified&lt;/em&gt; as &lt;em&gt;expected&lt;/em&gt; by &lt;em&gt;Walsh&lt;/em&gt; and the full &lt;em&gt;committees, closed&lt;/em&gt; door &lt;em&gt;interviews could&lt;/em&gt; be held with &lt;em&gt;Poindexter&lt;/em&gt; in two &lt;em&gt;months&lt;/em&gt; with &lt;em&gt;public testimony&lt;/em&gt; in &lt;em&gt;about 90&lt;/em&gt; days or mid June, &lt;em&gt;sources said&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">So far the &lt;em&gt;money trail&lt;/em&gt; uncovered by &lt;em&gt;probers stops&lt;/em&gt; at &lt;em&gt;secret Swiss&lt;/em&gt; and &lt;em&gt;Cayman Islands&lt;/em&gt; bank &lt;em&gt;accounts&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

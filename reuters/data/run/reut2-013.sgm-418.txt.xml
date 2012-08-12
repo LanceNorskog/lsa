@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-418.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">154</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">strong</str>
+        <str name="text">trading</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">increased</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">close</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.999999999999997</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.8944271909999151</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">forecast</str>
-        <double name="strength">0.8944271909999151</double>
+        <str name="text">marks</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">245</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dealers said that with uncertainty still surrounding the dollar, yen and mark, sterling looks strong and attractive on due to an apparent surge of support for the ruling Conservative party, relatively high interest rates and a strong economy.</str>
-        <int name="index">12</int>
+        <str name="text">Few expect the meeting to produce more than a vaguely worded confirmation of the Paris goals of currency stability and increased economic cooperation.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">0.9540786314208515</double>
+        <int name="end">151</int>
+        <double name="strength">0.830160007467177</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A senior official of the Japanese ruling Liberal Democratic Party said earlier today the party has drawn up the outline of a reflationary economic package including a 5,000 billion yen supplementary budget for fiscal 1987.</str>
-        <int name="index">25</int>
+        <str name="text">But trading was slow and uninsipired and although dollar sentiment remained bearish, especially against the yen, dealers expected no major movements ahead of tomorrow's Group of Seven finance ministers' meeting.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.8299942532111213</double>
+        <int name="end">212</int>
+        <double name="strength">0.8215525941717445</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">On the &lt;em&gt;dollar, dealers&lt;/em&gt; said all eyes were &lt;em&gt;turned&lt;/em&gt; to &lt;em&gt;Washington where finance ministers&lt;/em&gt; and &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven leading industrial nations&lt;/em&gt; will meet &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;review their February 22 Paris currency stabilisation pact&lt;/em&gt;.</str>
+        <str name="text">On the &lt;em&gt;dollar, dealers&lt;/em&gt; said all eyes were turned to &lt;em&gt;Washington&lt;/em&gt; where &lt;em&gt;finance ministers&lt;/em&gt; and &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven&lt;/em&gt; leading &lt;em&gt;industrial nations&lt;/em&gt; will meet &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;review&lt;/em&gt; their &lt;em&gt;February 22 Paris currency stabilisation pact&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said that with &lt;em&gt;uncertainty still surrounding&lt;/em&gt; the &lt;em&gt;dollar,&lt;/em&gt; yen and mark, &lt;em&gt;sterling looks strong&lt;/em&gt; and &lt;em&gt;attractive&lt;/em&gt; on due to an &lt;em&gt;apparent surge&lt;/em&gt; of &lt;em&gt;support&lt;/em&gt; for the &lt;em&gt;ruling Conservative party, relatively&lt;/em&gt; high &lt;em&gt;interest rates&lt;/em&gt; and a &lt;em&gt;strong economy&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">Few &lt;em&gt;expect&lt;/em&gt; the &lt;em&gt;meeting&lt;/em&gt; to &lt;em&gt;produce&lt;/em&gt; more than a vaguely worded &lt;em&gt;confirmation&lt;/em&gt; of the &lt;em&gt;Paris goals&lt;/em&gt; of &lt;em&gt;currency stability&lt;/em&gt; and increased &lt;em&gt;economic cooperation&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;senior official&lt;/em&gt; of the &lt;em&gt;Japanese ruling Liberal Democratic Party&lt;/em&gt; said &lt;em&gt;earlier today&lt;/em&gt; the &lt;em&gt;party&lt;/em&gt; has &lt;em&gt;drawn&lt;/em&gt; up the &lt;em&gt;outline&lt;/em&gt; of a &lt;em&gt;reflationary economic package including&lt;/em&gt; a 5,000 &lt;em&gt;billion&lt;/em&gt; yen &lt;em&gt;supplementary budget&lt;/em&gt; for &lt;em&gt;fiscal 1987&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">But &lt;em&gt;trading&lt;/em&gt; was slow and &lt;em&gt;uninsipired&lt;/em&gt; and although &lt;em&gt;dollar sentiment&lt;/em&gt; remained &lt;em&gt;bearish,&lt;/em&gt; especially against the yen, &lt;em&gt;dealers&lt;/em&gt; expected no &lt;em&gt;major movements&lt;/em&gt; ahead of &lt;em&gt;tomorrow&lt;/em&gt;'s &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven finance ministers' meeting&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

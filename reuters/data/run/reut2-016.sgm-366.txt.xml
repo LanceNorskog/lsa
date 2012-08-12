@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-366.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">march</str>
+        <str name="text">losses</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">trading</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.7071067811865472</double>
+        <str name="text">banking</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
         <str name="text">profits</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">mainly</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">spread</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">265</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">It said the rise was mainly due to staff costs associated with continued growth in consumer, capital markets and investment banking activities.</str>
         <int name="index">3</int>
         <int name="start">0</int>
         <int name="end">143</int>
-        <double name="strength">0.8676316073193134</double>
+        <double name="strength">0.8494257855784523</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Foreign exchange trading profits rose to 37.9 mln dlrs from 27.0 mln, but bond trading profits dropped to 21.9 mln dlrs from 26.2 mln.</str>
-        <int name="index">11</int>
+        <str name="text">Chemical also placed 52 mln dlrs of loans to Ecuador on non-accrual because the Quito government also suspended interest payments on its foreign debt.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">135</int>
-        <double name="strength">0.6965112039390045</double>
+        <int name="end">151</int>
+        <double name="strength">0.5813031357014449</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;reflected&lt;/em&gt; the &lt;em&gt;reclassification&lt;/em&gt; of &lt;em&gt;Brazilian loans,&lt;/em&gt; a &lt;em&gt;reduced federal income&lt;/em&gt; tax rate (&lt;em&gt;which affected&lt;/em&gt; the &lt;em&gt;calculation&lt;/em&gt; of the &lt;em&gt;taxabale-equivalent adjustment&lt;/em&gt; on tax-&lt;em&gt;exempt assets)&lt;/em&gt; and a &lt;em&gt;narrowing&lt;/em&gt; of the &lt;em&gt;spread between&lt;/em&gt; the &lt;em&gt;prime&lt;/em&gt; rate and &lt;em&gt;Chemical&lt;/em&gt;'s cost of &lt;em&gt;funds&lt;/em&gt;.</str>
+        <str name="text">This reflected the &lt;em&gt;reclassification&lt;/em&gt; of &lt;em&gt;Brazilian loans,&lt;/em&gt; a &lt;em&gt;reduced federal income&lt;/em&gt; tax rate (which affected the &lt;em&gt;calculation&lt;/em&gt; of the &lt;em&gt;taxabale-equivalent adjustment&lt;/em&gt; on tax-&lt;em&gt;exempt assets)&lt;/em&gt; and a &lt;em&gt;narrowing&lt;/em&gt; of the &lt;em&gt;spread&lt;/em&gt; between the &lt;em&gt;prime&lt;/em&gt; rate and &lt;em&gt;Chemical&lt;/em&gt;'s cost of &lt;em&gt;funds&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the rise was &lt;em&gt;mainly&lt;/em&gt; due to &lt;em&gt;staff costs associated&lt;/em&gt; with &lt;em&gt;continued growth&lt;/em&gt; in &lt;em&gt;consumer, capital markets&lt;/em&gt; and &lt;em&gt;investment banking activities&lt;/em&gt;.</str>
+        <str name="text">It said the rise was mainly due to &lt;em&gt;staff costs&lt;/em&gt; associated with &lt;em&gt;continued growth&lt;/em&gt; in &lt;em&gt;consumer, capital markets&lt;/em&gt; and &lt;em&gt;investment banking activities&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Foreign exchange trading profits&lt;/em&gt; rose to 37.9 mln dlrs from 27.0 mln, but bond &lt;em&gt;trading profits dropped&lt;/em&gt; to 21.9 mln dlrs from 26.2 mln.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Chemical&lt;/em&gt; also placed 52 mln dlrs of &lt;em&gt;loans&lt;/em&gt; to &lt;em&gt;Ecuador&lt;/em&gt; on non-&lt;em&gt;accrual&lt;/em&gt; because the &lt;em&gt;Quito government&lt;/em&gt; also suspended &lt;em&gt;interest payments&lt;/em&gt; on its &lt;em&gt;foreign debt&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

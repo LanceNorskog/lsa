@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-82.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">168</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">108</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">robert</str>
+        <str name="text">legislation</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">minister</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">senate</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">officials</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">gephardt</str>
+        <double name="strength">0.9902417144805993</double>
       </lst>
       <lst name="term">
-        <str name="text">curbs</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">measure</str>
+        <double name="strength">0.9902417144805988</double>
       </lst>
       <lst name="term">
-        <str name="text">dropped</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">defuse</str>
+        <double name="strength">0.9902417144805986</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Abe met Senate and Democratic leaders active in trade legislation, telling them of Japan's plan to spur domestic spending by 34 billion dlrs and open its markets to a wide range of goods, including supercomputers and farm products.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">232</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">White House spokesman Marlin Fitzwater, asked if Nakasone's visit might help to defuse trade tensions, said "whether progress can be made depends on how you want to measure it."</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.9343984294799021</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">White House and congressional leaders took a wait-and-see stance, after a series of meetings with former Japanese Foreign Minister Shintaro Abe, who was here paving the way for the April 29-May 2 visit of Prime Minister Yasuhiro Nakasone.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">239</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. sentiment that Japan was fighting opening its markets and "evidence to the contrary is necessary to combat this perception, or it is likley that additional efforts will be attempted to close off the American market to Japanese goods.</str>
-        <int name="index">29</int>
-        <int name="start">0</int>
-        <int name="end">236</int>
-        <double name="strength">0.9764647522679449</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The signers included Democratic leader Robert Byrd of West Virginia, Republican leader Robert Dole of Kansas and others ranging from moderate to hardline on trade issues.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.9409862205245367</double>
+        <double name="strength">0.9180279680292875</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;White House&lt;/em&gt; and &lt;em&gt;congressional leaders&lt;/em&gt; took a wait-and-see &lt;em&gt;stance, after&lt;/em&gt; a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;meetings&lt;/em&gt; with &lt;em&gt;former Japanese Foreign Minister Shintaro&lt;/em&gt; Abe, who was here &lt;em&gt;paving&lt;/em&gt; the way for the &lt;em&gt;April 29&lt;/em&gt;-May 2 &lt;em&gt;visit&lt;/em&gt; of &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt;.</str>
+        <str name="text">Abe met &lt;em&gt;Senate&lt;/em&gt; and &lt;em&gt;Democratic leaders active&lt;/em&gt; in &lt;em&gt;trade legislation,&lt;/em&gt; telling them of &lt;em&gt;Japan&lt;/em&gt;'s plan to spur &lt;em&gt;domestic spending&lt;/em&gt; by 34 &lt;em&gt;billion&lt;/em&gt; dlrs and open its &lt;em&gt;markets&lt;/em&gt; to a wide &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;goods,&lt;/em&gt; including &lt;em&gt;supercomputers&lt;/em&gt; and farm &lt;em&gt;products&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;White House spokesman Marlin Fitzwater,&lt;/em&gt; asked if Nakasone's &lt;em&gt;visit&lt;/em&gt; might help to &lt;em&gt;defuse trade tensions,&lt;/em&gt; said "whether &lt;em&gt;progress&lt;/em&gt; can be made depends on how you want to &lt;em&gt;measure it.&lt;/em&gt;"</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;White House&lt;/em&gt; and &lt;em&gt;congressional leaders&lt;/em&gt; took a wait-and-see &lt;em&gt;stance,&lt;/em&gt; after a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;meetings&lt;/em&gt; with &lt;em&gt;former Japanese Foreign Minister Shintaro&lt;/em&gt; Abe, who was here paving the way for the &lt;em&gt;April 29&lt;/em&gt;-May 2 &lt;em&gt;visit&lt;/em&gt; of &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt;.</str>
         <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;sentiment&lt;/em&gt; that &lt;em&gt;Japan&lt;/em&gt; was &lt;em&gt;fighting opening&lt;/em&gt; its &lt;em&gt;markets&lt;/em&gt; and "&lt;em&gt;evidence&lt;/em&gt; to the &lt;em&gt;contrary&lt;/em&gt; is &lt;em&gt;necessary&lt;/em&gt; to &lt;em&gt;combat&lt;/em&gt; this &lt;em&gt;perception,&lt;/em&gt; or it is &lt;em&gt;likley&lt;/em&gt; that &lt;em&gt;additional efforts&lt;/em&gt; will be &lt;em&gt;attempted&lt;/em&gt; to &lt;em&gt;close&lt;/em&gt; off the &lt;em&gt;American market&lt;/em&gt; to &lt;em&gt;Japanese goods&lt;/em&gt;.</str>
-        <int name="index">29</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;signers included Democratic leader Robert&lt;/em&gt; Byrd of West &lt;em&gt;Virginia, Republican leader Robert&lt;/em&gt; Dole of &lt;em&gt;Kansas&lt;/em&gt; and &lt;em&gt;others ranging&lt;/em&gt; from &lt;em&gt;moderate&lt;/em&gt; to &lt;em&gt;hardline&lt;/em&gt; on &lt;em&gt;trade issues&lt;/em&gt;.</str>
-        <int name="index">27</int>
       </lst>
     </lst>
   </lst>

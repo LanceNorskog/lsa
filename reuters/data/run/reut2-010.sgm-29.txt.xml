@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-29.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">80</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">48</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">local</str>
+        <str name="text">talks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">manufacturing</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">medium</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">being</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">brief</str>
+        <double name="strength">0.9840539975201799</double>
       </lst>
       <lst name="term">
-        <str name="text">greyhound</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">duration</str>
+        <double name="strength">0.9840539975201799</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">resume</str>
+        <double name="strength">0.984053997520179</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">215</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Heavy truck operations at the plant will be taken over by GM's joint venture with Volvo AB, and all vehicle assembly operations at the facility will eventually be ended, Chronin said.</str>
-        <int name="index">12</int>
+        <str name="text">General Motors said it was "eager" to continue meeting with union officials on the dispute.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">184</int>
-        <double name="strength">0.7328884790594866</double>
+        <int name="end">92</int>
+        <double name="strength">0.8770576097949123</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Cronin said about 400 workers on the bus line will be laid off "whenever we fulfill production commitments" on the buses, "possibly in May."</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">141</int>
-        <double name="strength">0.7159807284814662</double>
+        <double name="strength">0.8532855855346793</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Motors' truck&lt;/em&gt; and bus &lt;em&gt;group failed&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; on &lt;em&gt;local issues&lt;/em&gt; with UAW &lt;em&gt;Local 594&lt;/em&gt; by the &lt;em&gt;union&lt;/em&gt;'s &lt;em&gt;deadline&lt;/em&gt; of noon &lt;em&gt;today, causing&lt;/em&gt; a &lt;em&gt;strike&lt;/em&gt; by 9,000 &lt;em&gt;hourly workers&lt;/em&gt; at the &lt;em&gt;facility,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;General Motors' truck&lt;/em&gt; and bus &lt;em&gt;group&lt;/em&gt; failed to &lt;em&gt;reach&lt;/em&gt; an &lt;em&gt;agreement&lt;/em&gt; on &lt;em&gt;local issues&lt;/em&gt; with UAW &lt;em&gt;Local 594&lt;/em&gt; by the &lt;em&gt;union&lt;/em&gt;'s &lt;em&gt;deadline&lt;/em&gt; of noon &lt;em&gt;today,&lt;/em&gt; causing a &lt;em&gt;strike&lt;/em&gt; by 9,000 &lt;em&gt;hourly workers&lt;/em&gt; at the &lt;em&gt;facility,&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Heavy truck operations&lt;/em&gt; at the &lt;em&gt;plant&lt;/em&gt; will be &lt;em&gt;taken&lt;/em&gt; over by GM's &lt;em&gt;joint venture&lt;/em&gt; with &lt;em&gt;Volvo&lt;/em&gt; AB, and all &lt;em&gt;vehicle assembly operations&lt;/em&gt; at the &lt;em&gt;facility&lt;/em&gt; will &lt;em&gt;eventually&lt;/em&gt; be &lt;em&gt;ended, Chronin said&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;General Motors&lt;/em&gt; said it was "&lt;em&gt;eager"&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; meeting with &lt;em&gt;union officials&lt;/em&gt; on the &lt;em&gt;dispute&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Cronin&lt;/em&gt; said &lt;em&gt;about 400 workers&lt;/em&gt; on the bus line will be laid off "&lt;em&gt;whenever&lt;/em&gt; we &lt;em&gt;fulfill production commitments"&lt;/em&gt; on the &lt;em&gt;buses, "possibly&lt;/em&gt; in May."</str>
+        <str name="text">&lt;em&gt;Cronin&lt;/em&gt; said about 400 &lt;em&gt;workers&lt;/em&gt; on the bus line will be laid off "whenever we &lt;em&gt;fulfill production commitments"&lt;/em&gt; on the &lt;em&gt;buses, &lt;/em&gt;"possibly in May."</str>
         <int name="index">9</int>
       </lst>
     </lst>

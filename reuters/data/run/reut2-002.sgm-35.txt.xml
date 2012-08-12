@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-35.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">transplants</str>
+        <str name="text">adenosine</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">hampers</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">deaminase</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consigned</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">infection</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sterile</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
       <lst name="term">
-        <str name="text">environment</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">comparison</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Marked improvement in laboratory tests of immune function occurred in each child, along with an increase in the number of T-lymphocytes, the immune cells that were missing before treatment with PEG-ADA had begun," the study said.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Enzon said it has developed a technology to coat the enzyme with a substance called polyethylene glycol, or PEG, serving to disguise the enzyme when it is reintroduced into the body, preventing rejection.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">0.8928978187936056</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Before treatment their growth had been very poor in comparison to normal children of the same age," the study, conducted by Doctors Michael Hershfield and Rebecca Buckley, said.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">177</int>
-        <double name="strength">0.8883451893259923</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Enzon Inc said a new treatment using its investigational new drug PEG-ADA has restored the functioning of the immune system in the first two children that were born deficient in the enzyme adenosine deaminase.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">209</int>
+        <double name="strength">0.9358352181804739</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The study of Enzon's drug, conducted at Duke University, showed that two children suffering from the disease were treated for 11 and seven months, respectively, and were free of serious infection during that time, the company said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">232</int>
+        <double name="strength">0.9071055847871131</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Marked improvement&lt;/em&gt; in &lt;em&gt;laboratory tests&lt;/em&gt; of &lt;em&gt;immune function occurred&lt;/em&gt; in each &lt;em&gt;child, along&lt;/em&gt; with an &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;number&lt;/em&gt; of T-&lt;em&gt;lymphocytes,&lt;/em&gt; the &lt;em&gt;immune cells&lt;/em&gt; that were &lt;em&gt;missing before treatment&lt;/em&gt; with PEG-ADA had &lt;em&gt;begun,"&lt;/em&gt; the &lt;em&gt;study said&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Enzon&lt;/em&gt; said it has &lt;em&gt;developed&lt;/em&gt; a &lt;em&gt;technology&lt;/em&gt; to coat the &lt;em&gt;enzyme&lt;/em&gt; with a &lt;em&gt;substance called polyethylene glycol,&lt;/em&gt; or PEG, &lt;em&gt;serving&lt;/em&gt; to &lt;em&gt;disguise&lt;/em&gt; the &lt;em&gt;enzyme&lt;/em&gt; when it is &lt;em&gt;reintroduced&lt;/em&gt; into the body, &lt;em&gt;preventing rejection&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Before treatment their growth&lt;/em&gt; had been very poor in &lt;em&gt;comparison&lt;/em&gt; to &lt;em&gt;normal children&lt;/em&gt; of the same age," the &lt;em&gt;study, conducted&lt;/em&gt; by &lt;em&gt;Doctors Michael Hershfield&lt;/em&gt; and &lt;em&gt;Rebecca Buckley, said&lt;/em&gt;.</str>
+        <str name="text">Before &lt;em&gt;treatment&lt;/em&gt; their &lt;em&gt;growth&lt;/em&gt; had been very poor in &lt;em&gt;comparison&lt;/em&gt; to &lt;em&gt;normal children&lt;/em&gt; of the same age," the &lt;em&gt;study,&lt;/em&gt; conducted by &lt;em&gt;Doctors&lt;/em&gt; Michael Hershfield and &lt;em&gt;Rebecca Buckley, said&lt;/em&gt;.</str>
         <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Enzon&lt;/em&gt; Inc said a new &lt;em&gt;treatment&lt;/em&gt; using its &lt;em&gt;investigational&lt;/em&gt; new drug PEG-ADA has restored the &lt;em&gt;functioning&lt;/em&gt; of the &lt;em&gt;immune system&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; two &lt;em&gt;children&lt;/em&gt; that were born &lt;em&gt;deficient&lt;/em&gt; in the &lt;em&gt;enzyme adenosine deaminase&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;study&lt;/em&gt; of &lt;em&gt;Enzon&lt;/em&gt;'s drug, conducted at Duke &lt;em&gt;University,&lt;/em&gt; showed that two &lt;em&gt;children&lt;/em&gt; suffering from the &lt;em&gt;disease&lt;/em&gt; were treated for 11 and &lt;em&gt;seven months,&lt;/em&gt; respectively, and were free of &lt;em&gt;serious infection&lt;/em&gt; during that time, the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-799.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">171</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">83</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">major</str>
+        <str name="text">farmers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">province</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">between</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">traders</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">advantages</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">harvest</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">198</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The advantages the state promises grain growers actually yield tangible profits for them and are not siphoned off by intermediate agencies because of bureaucracy or corruption.</str>
-        <int name="index">25</int>
+        <str name="text">"All areas must spare no effort to raise the autumn harvest area, especially of corn, sweet potatoes, paddy rice and high-yield cash crops," it said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.9520657988105863</double>
+        <int name="end">150</int>
+        <double name="strength">0.93044347224756</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Since January, the press has devoted much attention to grain, stressing that growth in output is vital to China's economic and political stability and that prices paid to farmers are too low.</str>
-        <int name="index">14</int>
+        <str name="text">A Japanese trader in Peking said Chinese grain imports would rise and exports fall this year because of the drought, low world prices and rising domestic demand for human and animal consumption.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.9116332864246183</double>
+        <int name="end">195</int>
+        <double name="strength">0.9057610882181896</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"In &lt;em&gt;addition,&lt;/em&gt; we are &lt;em&gt;setting&lt;/em&gt; up &lt;em&gt;grain production bases, raising&lt;/em&gt; the &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;science&lt;/em&gt; and &lt;em&gt;technology&lt;/em&gt; on the &lt;em&gt;farms&lt;/em&gt; and &lt;em&gt;improving&lt;/em&gt; the &lt;em&gt;supply&lt;/em&gt; of raw &lt;em&gt;materials, roads&lt;/em&gt; and &lt;em&gt;other infrastructure,"&lt;/em&gt; he said.</str>
+        <str name="text">"In &lt;em&gt;addition,&lt;/em&gt; we are setting up &lt;em&gt;grain production bases,&lt;/em&gt; raising the &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;science&lt;/em&gt; and &lt;em&gt;technology&lt;/em&gt; on the &lt;em&gt;farms&lt;/em&gt; and improving the &lt;em&gt;supply&lt;/em&gt; of raw &lt;em&gt;materials, roads&lt;/em&gt; and &lt;em&gt;other infrastructure,"&lt;/em&gt; he said.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;advantages&lt;/em&gt; the &lt;em&gt;state promises grain growers actually yield tangible profits&lt;/em&gt; for them and are not &lt;em&gt;siphoned&lt;/em&gt; off by &lt;em&gt;intermediate agencies because&lt;/em&gt; of &lt;em&gt;bureaucracy&lt;/em&gt; or &lt;em&gt;corruption&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">"All &lt;em&gt;areas&lt;/em&gt; must &lt;em&gt;spare&lt;/em&gt; no &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;raise&lt;/em&gt; the &lt;em&gt;autumn harvest&lt;/em&gt; area, especially of corn, &lt;em&gt;sweet potatoes, paddy&lt;/em&gt; rice and high-&lt;em&gt;yield&lt;/em&gt; cash &lt;em&gt;crops,"&lt;/em&gt; it said.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Since January,&lt;/em&gt; the &lt;em&gt;press&lt;/em&gt; has &lt;em&gt;devoted&lt;/em&gt; much &lt;em&gt;attention&lt;/em&gt; to &lt;em&gt;grain, stressing&lt;/em&gt; that &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;output&lt;/em&gt; is &lt;em&gt;vital&lt;/em&gt; to &lt;em&gt;China&lt;/em&gt;'s &lt;em&gt;economic&lt;/em&gt; and &lt;em&gt;political stability&lt;/em&gt; and that &lt;em&gt;prices&lt;/em&gt; paid to &lt;em&gt;farmers&lt;/em&gt; are too low.</str>
-        <int name="index">14</int>
+        <str name="text">A &lt;em&gt;Japanese trader&lt;/em&gt; in &lt;em&gt;Peking&lt;/em&gt; said &lt;em&gt;Chinese grain imports&lt;/em&gt; would rise and &lt;em&gt;exports&lt;/em&gt; fall this year because of the &lt;em&gt;drought,&lt;/em&gt; low &lt;em&gt;world prices&lt;/em&gt; and rising &lt;em&gt;domestic demand&lt;/em&gt; for &lt;em&gt;human&lt;/em&gt; and &lt;em&gt;animal consumption&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

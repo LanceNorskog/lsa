@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-784.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">168</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">107</int>
+        <int name="count">76</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">senior</str>
+        <str name="text">sessions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">executive</str>
-        <double name="strength">1.0</double>
+        <str name="text">singapore</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">operating</str>
-        <double name="strength">1.0</double>
+        <str name="text">index</str>
+        <double name="strength">0.9902130691945673</double>
       </lst>
       <lst name="term">
-        <str name="text">global</str>
-        <double name="strength">1.0</double>
+        <str name="text">night</str>
+        <double name="strength">0.9902130691945663</double>
       </lst>
       <lst name="term">
-        <str name="text">between</str>
-        <double name="strength">1.0</double>
+        <str name="text">liffe</str>
+        <double name="strength">0.9902130691945653</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Traders in Japan, Sydney and Hong Kong said they expected the move to bring benefits, but traders and bankers in Singapore said it posed a serious threat to the Singapore International Monetary Exchange (SIMEX).</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A senior executive of a Japanese securities firm operating in Singapore told Reuters: "Expanding global links between futures markets mean that SIMEX must add Chicago and London and Sydney to its list of rivals."</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">213</int>
-        <double name="strength">0.9667037770963843</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But Andrea Corcoran, chief of CFTC's division of trading and markets, said on Tuesday she expected the evening sessions to attract primarily U.</str>
-        <int name="index">8</int>
+        <str name="text">Local Hong Kong houses also welcomed the move, but a spokesman for Shun Loong Co said investors would be more interested if stock index or currency futures were available.</str>
+        <int name="index">36</int>
         <int name="start">1</int>
-        <int name="end">144</int>
-        <double name="strength">0.9124414921098933</double>
+        <int name="end">172</int>
+        <double name="strength">0.8936703448751219</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I think it is very good, because the move will help us to increase our market share here," said Joseph Tan, manager of &lt;Bache Securities (HK) Ltd&gt;.</str>
+        <int name="index">33</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.8416775996878765</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Traders&lt;/em&gt; in &lt;em&gt;Japan, Sydney&lt;/em&gt; and Hong Kong said they &lt;em&gt;expected&lt;/em&gt; the move to &lt;em&gt;bring benefits,&lt;/em&gt; but &lt;em&gt;traders&lt;/em&gt; and &lt;em&gt;bankers&lt;/em&gt; in &lt;em&gt;Singapore&lt;/em&gt; said it &lt;em&gt;posed&lt;/em&gt; a &lt;em&gt;serious threat&lt;/em&gt; to the &lt;em&gt;Singapore International Monetary Exchange (SIMEX)&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;senior executive&lt;/em&gt; of a &lt;em&gt;Japanese securities&lt;/em&gt; firm &lt;em&gt;operating&lt;/em&gt; in &lt;em&gt;Singapore&lt;/em&gt; told &lt;em&gt;Reuters: "Expanding global links between futures markets&lt;/em&gt; mean that &lt;em&gt;SIMEX&lt;/em&gt; must add &lt;em&gt;Chicago&lt;/em&gt; and &lt;em&gt;London&lt;/em&gt; and &lt;em&gt;Sydney&lt;/em&gt; to its list of &lt;em&gt;rivals.&lt;/em&gt;"</str>
+        <str name="text">A &lt;em&gt;senior executive&lt;/em&gt; of a &lt;em&gt;Japanese securities&lt;/em&gt; firm operating in &lt;em&gt;Singapore&lt;/em&gt; told &lt;em&gt;Reuters: &lt;/em&gt;"Expanding &lt;em&gt;global links&lt;/em&gt; between &lt;em&gt;futures markets&lt;/em&gt; mean that &lt;em&gt;SIMEX&lt;/em&gt; must add &lt;em&gt;Chicago&lt;/em&gt; and &lt;em&gt;London&lt;/em&gt; and &lt;em&gt;Sydney&lt;/em&gt; to its list of &lt;em&gt;rivals.&lt;/em&gt;"</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;Andrea Corcoran, chief&lt;/em&gt; of CFTC's &lt;em&gt;division&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt; and &lt;em&gt;markets,&lt;/em&gt; said on &lt;em&gt;Tuesday&lt;/em&gt; she &lt;em&gt;expected&lt;/em&gt; the &lt;em&gt;evening sessions&lt;/em&gt; to &lt;em&gt;attract primarily U&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Local&lt;/em&gt; Hong Kong &lt;em&gt;houses&lt;/em&gt; also welcomed the move, but a &lt;em&gt;spokesman&lt;/em&gt; for Shun &lt;em&gt;Loong&lt;/em&gt; Co said &lt;em&gt;investors&lt;/em&gt; would be more &lt;em&gt;interested&lt;/em&gt; if &lt;em&gt;stock index&lt;/em&gt; or &lt;em&gt;currency futures&lt;/em&gt; were &lt;em&gt;available&lt;/em&gt;.</str>
+        <int name="index">36</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I &lt;em&gt;think&lt;/em&gt; it is very good, because the move will help us to &lt;em&gt;increase&lt;/em&gt; our &lt;em&gt;market share&lt;/em&gt; here," said &lt;em&gt;Joseph&lt;/em&gt; Tan, &lt;em&gt;manager&lt;/em&gt; of &lt;&lt;em&gt;Bache Securities &lt;/em&gt;(HK) Ltd&gt;.</str>
+        <int name="index">33</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-147.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">compromise</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">saved</str>
-        <double name="strength">1.0</double>
+        <str name="text">venezuela</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">agonizing</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">reconcile</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">begin</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">ongpin</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Finance minister Jaime Ongpin did not refer to the prepayments at a news conference he held in New York on Friday to announce the rescheduling agreement.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Bankers could not back down either because they would have had to sacrifice millions of dollars in profits and may have thrown the door open to other debtors, notably Argentina and Brazil, to claim even finer spreads than Mexico's.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9817524563302272</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Ongpin said the country should not have a financing gap before the end of next year at the earliest, depending on the success of the Philippine Investment Note issues which are planned, but some bankers say they are already braced for new loan requests for 1988 and 1989.</str>
-        <int name="index">17</int>
+        <str name="text">Bankers said they insisted on the principal repayments so that they could justify a margin of 7/8 pct by drawing a direct parallel between the Philippines and Venezuela, which won a 7/8 pct spread on a 21 billion dlr debt rescheduling package last month.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">272</int>
-        <double name="strength">0.9365131930813765</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The prepayments, although modest, were not apparently something that the Philippine negotiators wanted to dwell upon as they sought to portray their 17-year rescheduling agreement as better than Mexico's.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">0.894972797819042</double>
+        <int name="end">255</int>
+        <double name="strength">0.9749602080428875</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers could&lt;/em&gt; not back down &lt;em&gt;either because&lt;/em&gt; they &lt;em&gt;would&lt;/em&gt; have had to &lt;em&gt;sacrifice millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; in &lt;em&gt;profits&lt;/em&gt; and may have &lt;em&gt;thrown&lt;/em&gt; the door open to &lt;em&gt;other debtors, notably Argentina&lt;/em&gt; and &lt;em&gt;Brazil,&lt;/em&gt; to &lt;em&gt;claim&lt;/em&gt; even &lt;em&gt;finer spreads&lt;/em&gt; than &lt;em&gt;Mexico's&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance minister Jaime Ongpin&lt;/em&gt; did not &lt;em&gt;refer&lt;/em&gt; to the &lt;em&gt;prepayments&lt;/em&gt; at a news &lt;em&gt;conference&lt;/em&gt; he held in New York on &lt;em&gt;Friday&lt;/em&gt; to &lt;em&gt;announce&lt;/em&gt; the &lt;em&gt;rescheduling agreement&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; could not back down either because they would have had to &lt;em&gt;sacrifice millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; in &lt;em&gt;profits&lt;/em&gt; and may have thrown the door open to &lt;em&gt;other debtors,&lt;/em&gt; notably Argentina and &lt;em&gt;Brazil,&lt;/em&gt; to &lt;em&gt;claim&lt;/em&gt; even finer &lt;em&gt;spreads&lt;/em&gt; than Mexico's.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ongpin&lt;/em&gt; said the &lt;em&gt;country should&lt;/em&gt; not have a &lt;em&gt;financing&lt;/em&gt; gap &lt;em&gt;before&lt;/em&gt; the end of next year at the &lt;em&gt;earliest, depending&lt;/em&gt; on the &lt;em&gt;success&lt;/em&gt; of the &lt;em&gt;Philippine Investment&lt;/em&gt; Note &lt;em&gt;issues which&lt;/em&gt; are &lt;em&gt;planned,&lt;/em&gt; but some &lt;em&gt;bankers&lt;/em&gt; say they are &lt;em&gt;already braced&lt;/em&gt; for new loan &lt;em&gt;requests&lt;/em&gt; for 1988 and 1989.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;prepayments, although modest,&lt;/em&gt; were not &lt;em&gt;apparently something&lt;/em&gt; that the &lt;em&gt;Philippine negotiators wanted&lt;/em&gt; to &lt;em&gt;dwell&lt;/em&gt; upon as they &lt;em&gt;sought&lt;/em&gt; to &lt;em&gt;portray their 17&lt;/em&gt;-year &lt;em&gt;rescheduling agreement&lt;/em&gt; as &lt;em&gt;better&lt;/em&gt; than &lt;em&gt;Mexico's&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; said they insisted on the &lt;em&gt;principal repayments&lt;/em&gt; so that they could &lt;em&gt;justify&lt;/em&gt; a &lt;em&gt;margin&lt;/em&gt; of 7/8 pct by drawing a &lt;em&gt;direct parallel&lt;/em&gt; between the &lt;em&gt;Philippines&lt;/em&gt; and &lt;em&gt;Venezuela,&lt;/em&gt; which won a 7/8 pct &lt;em&gt;spread&lt;/em&gt; on a 21 &lt;em&gt;billion&lt;/em&gt; dlr debt &lt;em&gt;rescheduling package&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

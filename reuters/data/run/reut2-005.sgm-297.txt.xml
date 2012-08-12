@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-297.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">203</int>
+        <int name="count">144</int>
       </lst>
       <lst name="stems">
-        <int name="count">140</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">privately</str>
+        <str name="text">officials</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">contributed</str>
-        <double name="strength">1.0</double>
+        <str name="text">concessions</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">decline</str>
-        <double name="strength">1.0</double>
+        <str name="text">leaders</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">customer</str>
-        <double name="strength">1.0</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">service</str>
-        <double name="strength">1.0</double>
+        <str name="text">miami</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">233</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Since the beginning of the year, at least a dozen flight attendants have been fired as a result of such audits, some for having as little as two dlrs missing from liquor sales and movie headset rentals, Tauss said.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9983521850102363</double>
+        <double name="strength">0.9818188346788956</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the conflict has escalated sharply since January 21, when Eastern president Philip Bakes called for a reduction of 490 mln dlrs, or 29 pct, in annual labor costs, mostly through union concessions.</str>
-        <int name="index">17</int>
+        <str name="text">Eastern has begun hiring other Texas Air carriers to repair its planes in several cities and plans to shut down some maintenance bases, according to a recent internal memo.</str>
+        <int name="index">25</int>
         <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.9253367616374043</double>
+        <int name="end">173</int>
+        <double name="strength">0.9607510541154174</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It's a &lt;em&gt;trump&lt;/em&gt; card that &lt;em&gt;Texas&lt;/em&gt; Air &lt;em&gt;could resort&lt;/em&gt; to if &lt;em&gt;things&lt;/em&gt; get bad &lt;em&gt;enough -- repainting Eastern planes&lt;/em&gt; and &lt;em&gt;shifting&lt;/em&gt; them over &lt;em&gt;Continental Airlines,"&lt;/em&gt; said &lt;em&gt;Louis Marckesano,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; for &lt;em&gt;Janney Montgomery Scott&lt;/em&gt; Inc of &lt;em&gt;Philadelphia&lt;/em&gt;.</str>
+        <str name="text">"It's a &lt;em&gt;trump&lt;/em&gt; card that Texas Air could &lt;em&gt;resort&lt;/em&gt; to if &lt;em&gt;things&lt;/em&gt; get bad enough -- repainting &lt;em&gt;Eastern planes&lt;/em&gt; and shifting them over &lt;em&gt;Continental Airlines,"&lt;/em&gt; said &lt;em&gt;Louis Marckesano,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; for &lt;em&gt;Janney Montgomery Scott&lt;/em&gt; Inc of &lt;em&gt;Philadelphia&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Since&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of the year, at &lt;em&gt;least&lt;/em&gt; a &lt;em&gt;dozen flight attendants&lt;/em&gt; have been &lt;em&gt;fired&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of such &lt;em&gt;audits,&lt;/em&gt; some for &lt;em&gt;having&lt;/em&gt; as &lt;em&gt;little&lt;/em&gt; as two dlrs &lt;em&gt;missing&lt;/em&gt; from &lt;em&gt;liquor sales&lt;/em&gt; and &lt;em&gt;movie headset rentals, Tauss said&lt;/em&gt;.</str>
+        <str name="text">Since the &lt;em&gt;beginning&lt;/em&gt; of the year, at least a &lt;em&gt;dozen flight attendants&lt;/em&gt; have been fired as a &lt;em&gt;result&lt;/em&gt; of such &lt;em&gt;audits,&lt;/em&gt; some for having as &lt;em&gt;little&lt;/em&gt; as two dlrs missing from &lt;em&gt;liquor sales&lt;/em&gt; and &lt;em&gt;movie headset rentals,&lt;/em&gt; Tauss said.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the &lt;em&gt;conflict&lt;/em&gt; has &lt;em&gt;escalated sharply since January 21,&lt;/em&gt; when &lt;em&gt;Eastern president Philip Bakes called&lt;/em&gt; for a &lt;em&gt;reduction&lt;/em&gt; of 490 mln dlrs, or 29 pct, in &lt;em&gt;annual labor costs, mostly through union concessions&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Eastern&lt;/em&gt; has begun hiring &lt;em&gt;other Texas&lt;/em&gt; Air &lt;em&gt;carriers&lt;/em&gt; to &lt;em&gt;repair&lt;/em&gt; its &lt;em&gt;planes&lt;/em&gt; in &lt;em&gt;several cities&lt;/em&gt; and &lt;em&gt;plans&lt;/em&gt; to shut down some &lt;em&gt;maintenance bases,&lt;/em&gt; according to a &lt;em&gt;recent internal memo&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

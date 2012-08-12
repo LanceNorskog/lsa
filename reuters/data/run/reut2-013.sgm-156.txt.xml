@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-156.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">154</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">assumed</str>
+        <str name="text">easing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">future</str>
-        <double name="strength">1.0</double>
+        <str name="text">recent</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">fluctuations</str>
-        <double name="strength">1.0</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">sufficient</str>
-        <double name="strength">1.0</double>
+        <str name="text">target</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">magnitude</str>
-        <double name="strength">1.0</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">405</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In this view, the FOMC said somewhat greater reserve restraint would be warranted if monetary growth did not slow in line with current expectations and there were concurrent indications of intensifying inflationary pressures against the background of stronger economic data.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">275</int>
-        <double name="strength">0.7362856158300612</double>
+        <int name="terms">24</int>
       </lst>
       <lst name="sentence">
         <str name="text">The FOMC members assumed that future fluctuations in the dollar's value would not be of sufficient magnitude to have any significant effect on the Fed's economic projections.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">175</int>
-        <double name="strength">0.6830427514633756</double>
+        <double name="strength">0.9726630174954709</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In this view, the FOMC said somewhat greater reserve restraint would be warranted if monetary growth did not slow in line with current expectations and there were concurrent indications of intensifying inflationary pressures against the background of stronger economic data.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">275</int>
+        <double name="strength">0.9110445141332849</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In its &lt;em&gt;inter-meeting policy directive,&lt;/em&gt; the &lt;em&gt;February&lt;/em&gt; FOMC said that "&lt;em&gt;somewhat greater reserve restraint would,&lt;/em&gt; or &lt;em&gt;slightly lesser reserve restraint might,&lt;/em&gt; be &lt;em&gt;acceptable depending&lt;/em&gt; on the &lt;em&gt;behavior&lt;/em&gt; of the &lt;em&gt;aggregates, taking&lt;/em&gt; into &lt;em&gt;account&lt;/em&gt; the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;business expansion, developments&lt;/em&gt; in &lt;em&gt;foreign exchange markets, progress against inflation,&lt;/em&gt; and &lt;em&gt;conditions&lt;/em&gt; in &lt;em&gt;domestic&lt;/em&gt; and &lt;em&gt;international credit markets.&lt;/em&gt;"</str>
+        <str name="text">In its &lt;em&gt;inter-meeting policy directive,&lt;/em&gt; the &lt;em&gt;February&lt;/em&gt; FOMC said that "somewhat greater &lt;em&gt;reserve restraint&lt;/em&gt; would, or slightly lesser &lt;em&gt;reserve restraint&lt;/em&gt; might, be &lt;em&gt;acceptable&lt;/em&gt; depending on the &lt;em&gt;behavior&lt;/em&gt; of the &lt;em&gt;aggregates,&lt;/em&gt; taking into &lt;em&gt;account&lt;/em&gt; the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;business expansion, developments&lt;/em&gt; in &lt;em&gt;foreign exchange markets, progress&lt;/em&gt; against &lt;em&gt;inflation,&lt;/em&gt; and &lt;em&gt;conditions&lt;/em&gt; in &lt;em&gt;domestic&lt;/em&gt; and &lt;em&gt;international credit markets.&lt;/em&gt;"</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In this view, the FOMC said &lt;em&gt;somewhat greater reserve restraint would&lt;/em&gt; be &lt;em&gt;warranted&lt;/em&gt; if &lt;em&gt;monetary growth&lt;/em&gt; did not slow in line with &lt;em&gt;current expectations&lt;/em&gt; and &lt;em&gt;there&lt;/em&gt; were &lt;em&gt;concurrent indications&lt;/em&gt; of &lt;em&gt;intensifying inflationary pressures against&lt;/em&gt; the &lt;em&gt;background&lt;/em&gt; of &lt;em&gt;stronger economic data&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">The FOMC &lt;em&gt;members&lt;/em&gt; assumed that &lt;em&gt;future fluctuations&lt;/em&gt; in the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;value&lt;/em&gt; would not be of &lt;em&gt;sufficient magnitude&lt;/em&gt; to have any &lt;em&gt;significant effect&lt;/em&gt; on the Fed's &lt;em&gt;economic projections&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The FOMC &lt;em&gt;members assumed&lt;/em&gt; that &lt;em&gt;future fluctuations&lt;/em&gt; in the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;value would&lt;/em&gt; not be of &lt;em&gt;sufficient magnitude&lt;/em&gt; to have any &lt;em&gt;significant effect&lt;/em&gt; on the Fed's &lt;em&gt;economic projections&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">In this view, the FOMC said somewhat greater &lt;em&gt;reserve restraint&lt;/em&gt; would be warranted if &lt;em&gt;monetary growth&lt;/em&gt; did not slow in line with &lt;em&gt;current expectations&lt;/em&gt; and there were &lt;em&gt;concurrent indications&lt;/em&gt; of intensifying &lt;em&gt;inflationary pressures&lt;/em&gt; against the &lt;em&gt;background&lt;/em&gt; of stronger &lt;em&gt;economic data&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

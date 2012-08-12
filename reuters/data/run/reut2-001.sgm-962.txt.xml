@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">27</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-962.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">48</int>
       </lst>
       <lst name="terms">
-        <int name="count">257</int>
+        <int name="count">177</int>
       </lst>
       <lst name="stems">
-        <int name="count">188</int>
+        <int name="count">126</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">based</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">booming</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">internal</str>
+        <double name="strength">0.9748505958209563</double>
       </lst>
       <lst name="term">
-        <str name="text">still</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">cooperate</str>
+        <double name="strength">0.9748505958209561</double>
       </lst>
       <lst name="term">
-        <str name="text">flowed</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9748505958209549</double>
       </lst>
       <lst name="term">
-        <str name="text">freely</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">credits</str>
+        <double name="strength">0.9552486587271397</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"There's a limit to how much you can go on giving someone who has no hope of repaying it," another said, adding that Poland had benefited from a global phenomenon of easy credits in the 1970s which were no longer today's reality.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Describing the 15 billion dlr assessment as "nebulous," one diplomat said it also included losses of hypothetical orders and setbacks to Polish research through the curbing of scientific links and exchanges.</str>
         <int name="index">25</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.9884721017037396</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">"As a major superpower the United States can influence international organisations," he said, citing recent meetings aimed at stabilising currencies as an example of the extent to which Western nations were prepared to cooperate.</str>
         <int name="index">46</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.9770147403120208</double>
+        <double name="strength">0.989881327153717</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Western officials say the lifting of sanctions and new MFN status will have little impact on Poland, which has a hard currency debt of 33.5 billion dlrs and lacks the means to modernise its industry.</str>
+        <int name="index">26</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
+        <double name="strength">0.8902728594873477</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt;'s a &lt;em&gt;limit&lt;/em&gt; to how much you can go on &lt;em&gt;giving someone&lt;/em&gt; who has no hope of &lt;em&gt;repaying&lt;/em&gt; it," &lt;em&gt;another&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;Poland&lt;/em&gt; had &lt;em&gt;benefited&lt;/em&gt; from a &lt;em&gt;global phenomenon&lt;/em&gt; of easy &lt;em&gt;credits&lt;/em&gt; in the 1970s &lt;em&gt;which&lt;/em&gt; were no &lt;em&gt;longer today&lt;/em&gt;'s &lt;em&gt;reality&lt;/em&gt;.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Describing&lt;/em&gt; the 15 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;assessment&lt;/em&gt; as "&lt;em&gt;nebulous,"&lt;/em&gt; one &lt;em&gt;diplomat&lt;/em&gt; said it also &lt;em&gt;included losses&lt;/em&gt; of &lt;em&gt;hypothetical orders&lt;/em&gt; and &lt;em&gt;setbacks&lt;/em&gt; to &lt;em&gt;Polish research through&lt;/em&gt; the &lt;em&gt;curbing&lt;/em&gt; of &lt;em&gt;scientific links&lt;/em&gt; and &lt;em&gt;exchanges&lt;/em&gt;.</str>
+        <str name="text">Describing the 15 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;assessment&lt;/em&gt; as "&lt;em&gt;nebulous,"&lt;/em&gt; one &lt;em&gt;diplomat&lt;/em&gt; said it also included &lt;em&gt;losses&lt;/em&gt; of &lt;em&gt;hypothetical orders&lt;/em&gt; and &lt;em&gt;setbacks&lt;/em&gt; to &lt;em&gt;Polish research&lt;/em&gt; through the curbing of &lt;em&gt;scientific links&lt;/em&gt; and &lt;em&gt;exchanges&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"As a &lt;em&gt;major superpower&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; can &lt;em&gt;influence international organisations,"&lt;/em&gt; he said, &lt;em&gt;citing recent meetings aimed&lt;/em&gt; at &lt;em&gt;stabilising currencies&lt;/em&gt; as an &lt;em&gt;example&lt;/em&gt; of the &lt;em&gt;extent&lt;/em&gt; to &lt;em&gt;which Western nations&lt;/em&gt; were &lt;em&gt;prepared&lt;/em&gt; to &lt;em&gt;cooperate&lt;/em&gt;.</str>
+        <str name="text">"As a &lt;em&gt;major superpower&lt;/em&gt; the United &lt;em&gt;States&lt;/em&gt; can &lt;em&gt;influence international organisations,"&lt;/em&gt; he said, citing &lt;em&gt;recent meetings&lt;/em&gt; aimed at stabilising &lt;em&gt;currencies&lt;/em&gt; as an &lt;em&gt;example&lt;/em&gt; of the &lt;em&gt;extent&lt;/em&gt; to which &lt;em&gt;Western nations&lt;/em&gt; were prepared to &lt;em&gt;cooperate&lt;/em&gt;.</str>
         <int name="index">46</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Western officials&lt;/em&gt; say the &lt;em&gt;lifting&lt;/em&gt; of &lt;em&gt;sanctions&lt;/em&gt; and new MFN &lt;em&gt;status&lt;/em&gt; will have &lt;em&gt;little impact&lt;/em&gt; on &lt;em&gt;Poland,&lt;/em&gt; which has a hard &lt;em&gt;currency&lt;/em&gt; debt of 33.5 &lt;em&gt;billion&lt;/em&gt; dlrs and lacks the &lt;em&gt;means&lt;/em&gt; to &lt;em&gt;modernise&lt;/em&gt; its &lt;em&gt;industry&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

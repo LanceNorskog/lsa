@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">26</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-825.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">50</int>
       </lst>
       <lst name="terms">
-        <int name="count">220</int>
+        <int name="count">173</int>
       </lst>
       <lst name="stems">
-        <int name="count">126</int>
+        <int name="count">98</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">australia</str>
+        <str name="text">imports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">aware</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">electronics</str>
+        <double name="strength">0.9942095226973157</double>
       </lst>
       <lst name="term">
-        <str name="text">seriousness</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">businessmen</str>
+        <double name="strength">0.9942095226973154</double>
       </lst>
       <lst name="term">
-        <str name="text">damage</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">short</str>
+        <double name="strength">0.9700101258500007</double>
       </lst>
       <lst name="term">
-        <str name="text">ruling</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">products</str>
+        <double name="strength">0.97001012585</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">161</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The measures proposed include a large supplementary budget and record public works spending in the first half of the financial year.</str>
-        <int name="index">45</int>
+        <str name="text">In Malaysia, trade officers and businessmen said tough curbs against Japan might allow hard-hit producers of semiconductors in third countries to expand their sales to the U.</str>
+        <int name="index">26</int>
         <int name="start">1</int>
-        <int name="end">133</int>
-        <double name="strength">0.9457718606884151</double>
+        <int name="end">175</int>
+        <double name="strength">0.9555811410059935</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Trade Representative Michael Smith and Makoto Kuroda, Japan's deputy minister of International Trade and Industry (MITI), are due to meet in Washington this week in an effort to end the dispute.</str>
-        <int name="index">48</int>
-        <int name="start">0</int>
-        <int name="end">197</int>
-        <double name="strength">0.8671288944390633</double>
+        <str name="text">Unofficial Japanese estimates put the impact of the tariffs at 10 billion dlrs and spokesmen for major electronics firms said they would virtually halt exports of products hit by the new taxes.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">194</int>
+        <double name="strength">0.915983265561704</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">They also call for &lt;em&gt;stepped&lt;/em&gt;-up &lt;em&gt;spending&lt;/em&gt; as an &lt;em&gt;emergency measure&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;economy despite Prime Minister Yasuhiro Nakasone&lt;/em&gt;'s &lt;em&gt;avowed fiscal reform program&lt;/em&gt;.</str>
+        <str name="text">They also call for stepped-up &lt;em&gt;spending&lt;/em&gt; as an &lt;em&gt;emergency measure&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; despite &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt;'s avowed &lt;em&gt;fiscal reform program&lt;/em&gt;.</str>
         <int name="index">46</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;measures proposed include&lt;/em&gt; a &lt;em&gt;large supplementary budget&lt;/em&gt; and &lt;em&gt;record public works spending&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of the &lt;em&gt;financial year&lt;/em&gt;.</str>
-        <int name="index">45</int>
+        <str name="text">In &lt;em&gt;Malaysia, trade officers&lt;/em&gt; and &lt;em&gt;businessmen&lt;/em&gt; said &lt;em&gt;tough curbs&lt;/em&gt; against &lt;em&gt;Japan&lt;/em&gt; might &lt;em&gt;allow&lt;/em&gt; hard-hit &lt;em&gt;producers&lt;/em&gt; of &lt;em&gt;semiconductors&lt;/em&gt; in &lt;em&gt;third countries&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; their &lt;em&gt;sales&lt;/em&gt; to the U.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Trade Representative Michael Smith&lt;/em&gt; and &lt;em&gt;Makoto Kuroda, Japan&lt;/em&gt;'s &lt;em&gt;deputy minister&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI), are due to meet in &lt;em&gt;Washington&lt;/em&gt; this week in an &lt;em&gt;effort&lt;/em&gt; to end the &lt;em&gt;dispute&lt;/em&gt;.</str>
-        <int name="index">48</int>
+        <str name="text">&lt;em&gt;Unofficial Japanese estimates&lt;/em&gt; put the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;tariffs&lt;/em&gt; at 10 &lt;em&gt;billion&lt;/em&gt; dlrs and &lt;em&gt;spokesmen&lt;/em&gt; for &lt;em&gt;major electronics firms&lt;/em&gt; said they would virtually halt &lt;em&gt;exports&lt;/em&gt; of &lt;em&gt;products&lt;/em&gt; hit by the new &lt;em&gt;taxes&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

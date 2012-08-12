@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-021.sgm-524.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">years</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sector</str>
-        <double name="strength">0.999999999999997</double>
+        <str name="text">businessmen</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">political</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">policies</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">leaders</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">fiscal</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">ordinary</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">corporate</str>
+        <double name="strength">0.9475739487142979</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Malaysia's recovery from the worst recession in 20 years should receive a boost on Friday when the government announces a reflationary budget for calendar 1988 after seven years of austerity, economists said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Political leaders have said the budget will not hurt ordinary people as taxes on basic food and other essential goods are unlikely to change.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">142</int>
-        <double name="strength">0.8196170660081726</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The government has said it expects 1987 growth to be under two pct but some analysts believe it will be nearer three pct because prices for commodity exports have risen sharply.</str>
-        <int name="index">6</int>
+        <str name="text">Businessmen said they hope the government also will cut the corporate tax, now between 45 and 48 pct, to enable Malaysia to compete for investors with neighbouring states.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.8020111091243931</double>
+        <int name="end">172</int>
+        <double name="strength">0.7729250925930163</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Malaysia is a leading exporter of rubber, palm oil, tin and semiconductors and a major producer of cocoa, timber and oil.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">121</int>
+        <double name="strength">0.7681897755550479</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt;'s &lt;em&gt;recovery&lt;/em&gt; from the &lt;em&gt;worst recession&lt;/em&gt; in 20 &lt;em&gt;years should receive&lt;/em&gt; a &lt;em&gt;boost&lt;/em&gt; on &lt;em&gt;Friday&lt;/em&gt; when the &lt;em&gt;government announces&lt;/em&gt; a &lt;em&gt;reflationary budget&lt;/em&gt; for &lt;em&gt;calendar 1988 after seven years&lt;/em&gt; of &lt;em&gt;austerity, economists said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
       <lst name="sentence">
         <str name="text">&lt;em&gt;Political leaders&lt;/em&gt; have said the &lt;em&gt;budget&lt;/em&gt; will not hurt &lt;em&gt;ordinary people&lt;/em&gt; as &lt;em&gt;taxes&lt;/em&gt; on &lt;em&gt;basic&lt;/em&gt; food and &lt;em&gt;other essential goods&lt;/em&gt; are &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; has said it &lt;em&gt;expects 1987 growth&lt;/em&gt; to be &lt;em&gt;under&lt;/em&gt; two pct but some &lt;em&gt;analysts believe&lt;/em&gt; it will be &lt;em&gt;nearer three&lt;/em&gt; pct &lt;em&gt;because prices&lt;/em&gt; for &lt;em&gt;commodity exports&lt;/em&gt; have &lt;em&gt;risen sharply&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Businessmen&lt;/em&gt; said they hope the &lt;em&gt;government&lt;/em&gt; also will cut the &lt;em&gt;corporate&lt;/em&gt; tax, now between 45 and 48 pct, to &lt;em&gt;enable Malaysia&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; for &lt;em&gt;investors&lt;/em&gt; with &lt;em&gt;neighbouring states&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt; is a leading &lt;em&gt;exporter&lt;/em&gt; of &lt;em&gt;rubber,&lt;/em&gt; palm oil, tin and &lt;em&gt;semiconductors&lt;/em&gt; and a &lt;em&gt;major producer&lt;/em&gt; of &lt;em&gt;cocoa, timber&lt;/em&gt; and oil.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

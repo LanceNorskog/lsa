@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-249.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">220</int>
+        <int name="count">152</int>
       </lst>
       <lst name="stems">
-        <int name="count">152</int>
+        <int name="count">106</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prices</str>
+        <str name="text">economists</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">expressed</str>
-        <double name="strength">0.5000000000000033</double>
+        <str name="text">group</str>
+        <double name="strength">0.9883990800936792</double>
       </lst>
       <lst name="term">
-        <str name="text">uncertainty</str>
-        <double name="strength">0.5000000000000026</double>
+        <str name="text">lomax</str>
+        <double name="strength">0.9883990800936792</double>
       </lst>
       <lst name="term">
-        <str name="text">reagan</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9883990800936792</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">S. Federal Reserve Chairman Paul Volcker for his achievements over the past eight years but expressed some uncertainty about economist Alan Greenspan, nominated by President Reagan to succeed him.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">196</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"One of Volcker's greatest achievements was the sense of continuity and stability he gave to the international markets," said Carlos Santistevan, executive director of Libra Bank Plc.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">0.9282434475980552</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">S. Treasury Secretary James Baker's debt initiative which called for greater contributions by banks, governments and multilateral organization, government's have done little to try to improve the situation, leaving the bulk of the responsibility in the hands of the bankers.</str>
         <int name="index">17</int>
         <int name="start">0</int>
         <int name="end">274</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Officials have said the dollar has fallen far enough and at a White House briefing today announcing his nomination Greenspan said "there certainly is evidence" that the dollar had bottomed out.</str>
-        <int name="index">26</int>
-        <int name="start">0</int>
-        <int name="end">196</int>
-        <double name="strength">0.8217287236296982</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Dollar fell sharply on foreign exchange markets before reported concerted central bank intervention by the Fed and the Bundesbank helped it recover somewhat.</str>
-        <int name="index">21</int>
-        <int name="start">0</int>
-        <int name="end">160</int>
-        <double name="strength">0.8141306049862673</double>
+        <double name="strength">0.9101383691381737</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt;'s debt &lt;em&gt;initiative which called&lt;/em&gt; for &lt;em&gt;greater contributions&lt;/em&gt; by &lt;em&gt;banks, governments&lt;/em&gt; and &lt;em&gt;multilateral organization, government&lt;/em&gt;'s have done &lt;em&gt;little&lt;/em&gt; to try to &lt;em&gt;improve&lt;/em&gt; the &lt;em&gt;situation, leaving&lt;/em&gt; the bulk of the &lt;em&gt;responsibility&lt;/em&gt; in the &lt;em&gt;hands&lt;/em&gt; of the &lt;em&gt;bankers&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;Federal Reserve Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; for his &lt;em&gt;achievements&lt;/em&gt; over the past &lt;em&gt;eight years&lt;/em&gt; but expressed some &lt;em&gt;uncertainty&lt;/em&gt; about &lt;em&gt;economist&lt;/em&gt; Alan &lt;em&gt;Greenspan,&lt;/em&gt; nominated by &lt;em&gt;President Reagan&lt;/em&gt; to &lt;em&gt;succeed him&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"One of &lt;em&gt;Volcker&lt;/em&gt;'s greatest &lt;em&gt;achievements&lt;/em&gt; was the &lt;em&gt;sense&lt;/em&gt; of &lt;em&gt;continuity&lt;/em&gt; and &lt;em&gt;stability&lt;/em&gt; he gave to the &lt;em&gt;international markets,"&lt;/em&gt; said &lt;em&gt;Carlos&lt;/em&gt; Santistevan, &lt;em&gt;executive director&lt;/em&gt; of &lt;em&gt;Libra&lt;/em&gt; Bank Plc.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt;'s debt &lt;em&gt;initiative&lt;/em&gt; which called for greater &lt;em&gt;contributions&lt;/em&gt; by &lt;em&gt;banks, governments&lt;/em&gt; and &lt;em&gt;multilateral organization, government&lt;/em&gt;'s have done little to try to &lt;em&gt;improve&lt;/em&gt; the &lt;em&gt;situation,&lt;/em&gt; leaving the bulk of the &lt;em&gt;responsibility&lt;/em&gt; in the &lt;em&gt;hands&lt;/em&gt; of the &lt;em&gt;bankers&lt;/em&gt;.</str>
         <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Officials&lt;/em&gt; have said the &lt;em&gt;dollar&lt;/em&gt; has &lt;em&gt;fallen&lt;/em&gt; far &lt;em&gt;enough&lt;/em&gt; and at a &lt;em&gt;White House briefing today announcing&lt;/em&gt; his &lt;em&gt;nomination Greenspan&lt;/em&gt; said "&lt;em&gt;there certainly&lt;/em&gt; is &lt;em&gt;evidence"&lt;/em&gt; that the &lt;em&gt;dollar&lt;/em&gt; had &lt;em&gt;bottomed out&lt;/em&gt;.</str>
-        <int name="index">26</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Dollar&lt;/em&gt; fell &lt;em&gt;sharply&lt;/em&gt; on &lt;em&gt;foreign exchange markets before reported concerted central&lt;/em&gt; bank &lt;em&gt;intervention&lt;/em&gt; by the Fed and the &lt;em&gt;Bundesbank helped&lt;/em&gt; it &lt;em&gt;recover somewhat&lt;/em&gt;.</str>
-        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

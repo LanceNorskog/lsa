@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-78.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">159</int>
+        <int name="count">116</int>
       </lst>
       <lst name="stems">
-        <int name="count">102</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">listing</str>
+        <str name="text">quebec</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stock</str>
-        <double name="strength">1.0</double>
+        <str name="text">canada</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">exchange</str>
-        <double name="strength">1.0</double>
+        <str name="text">joint</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">french</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">newsprint</str>
+        <double name="strength">0.9962467211771694</double>
       </lst>
       <lst name="term">
-        <str name="text">stake</str>
-        <double name="strength">0.9999999999999972</double>
+        <str name="text">venture</str>
+        <double name="strength">0.9962467211771681</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Peladeau said Quebecor may also consider trading in its listing on the American stock exchange for a New York Stock Exchange listing.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">134</int>
+        <str name="text">Quebecor Inc, one of Canada's largest publishing and printing companies, is likely to launch a new daily newspaper in Montreal, probably this fall, president Pierre Peladeau told Reuters in an interview.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Maxwell's sons, who are French citizens, would provide an entree into the French market, where foreigners are prevented from buying newspapers.</str>
-        <int name="index">26</int>
+        <str name="text">Quebecor, which had revenues of 446 mln Canadian dlrs last year and profit of 16.2 mln dlrs, already publishes three daily newspapers, including the tabloid Le Journal de Montreal, the second-largest circulation paper in Canada.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.8182498044036733</double>
+        <int name="end">229</int>
+        <double name="strength">0.9704610832466642</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Peladeau, who together with family members owns about 55 pct of Quebecor, said he has recieved offers from the heads of two major Canadian companies who are interested in the project but has not decided whether he would take partners in the newspaper venture.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">260</int>
-        <double name="strength">0.8056986333132425</double>
+        <double name="strength">0.9438582554004017</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Peladeau&lt;/em&gt; said &lt;em&gt;Quebecor&lt;/em&gt; may also &lt;em&gt;consider trading&lt;/em&gt; in its &lt;em&gt;listing&lt;/em&gt; on the &lt;em&gt;American stock exchange&lt;/em&gt; for a New York &lt;em&gt;Stock Exchange listing&lt;/em&gt;.</str>
-        <int name="index">32</int>
+        <str name="text">&lt;em&gt;Quebecor&lt;/em&gt; Inc, one of &lt;em&gt;Canada&lt;/em&gt;'s largest &lt;em&gt;publishing&lt;/em&gt; and &lt;em&gt;printing companies,&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;launch&lt;/em&gt; a new &lt;em&gt;daily newspaper&lt;/em&gt; in &lt;em&gt;Montreal,&lt;/em&gt; probably this fall, &lt;em&gt;president Pierre Peladeau&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Maxwell&lt;/em&gt;'s sons, who are &lt;em&gt;French citizens, would provide&lt;/em&gt; an &lt;em&gt;entree&lt;/em&gt; into the &lt;em&gt;French market, where foreigners&lt;/em&gt; are &lt;em&gt;prevented&lt;/em&gt; from &lt;em&gt;buying newspapers&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">&lt;em&gt;Quebecor,&lt;/em&gt; which had &lt;em&gt;revenues&lt;/em&gt; of 446 mln &lt;em&gt;Canadian&lt;/em&gt; dlrs last year and &lt;em&gt;profit&lt;/em&gt; of 16.2 mln dlrs, already publishes &lt;em&gt;three daily newspapers,&lt;/em&gt; including the &lt;em&gt;tabloid&lt;/em&gt; Le &lt;em&gt;Journal&lt;/em&gt; de &lt;em&gt;Montreal,&lt;/em&gt; the &lt;em&gt;second&lt;/em&gt;-largest &lt;em&gt;circulation paper&lt;/em&gt; in &lt;em&gt;Canada&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Peladeau,&lt;/em&gt; who &lt;em&gt;together&lt;/em&gt; with &lt;em&gt;family members&lt;/em&gt; owns &lt;em&gt;about 55&lt;/em&gt; pct of &lt;em&gt;Quebecor,&lt;/em&gt; said he has &lt;em&gt;recieved offers&lt;/em&gt; from the &lt;em&gt;heads&lt;/em&gt; of two &lt;em&gt;major Canadian companies&lt;/em&gt; who are &lt;em&gt;interested&lt;/em&gt; in the &lt;em&gt;project&lt;/em&gt; but has not &lt;em&gt;decided whether&lt;/em&gt; he &lt;em&gt;would&lt;/em&gt; take &lt;em&gt;partners&lt;/em&gt; in the &lt;em&gt;newspaper venture&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Peladeau,&lt;/em&gt; who together with &lt;em&gt;family members&lt;/em&gt; owns about 55 pct of &lt;em&gt;Quebecor,&lt;/em&gt; said he has recieved &lt;em&gt;offers&lt;/em&gt; from the &lt;em&gt;heads&lt;/em&gt; of two &lt;em&gt;major Canadian companies&lt;/em&gt; who are interested in the &lt;em&gt;project&lt;/em&gt; but has not decided whether he would take &lt;em&gt;partners&lt;/em&gt; in the &lt;em&gt;newspaper venture&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
     </lst>

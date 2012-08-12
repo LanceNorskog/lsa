@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-808.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">132</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">94</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">trusts</str>
+        <str name="text">record</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">purchased</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">inventory</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">treasury</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.9999999999999982</double>
+        <double name="strength">0.987741544795626</double>
       </lst>
       <lst name="term">
-        <str name="text">underway</str>
-        <double name="strength">0.8944271909999169</double>
-      </lst>
-      <lst name="term">
-        <str name="text">marks</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">assets</str>
+        <double name="strength">0.9877415447956258</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">They seem undecided on what to do with the fresh yen cash positions resulting from their dollar sales today, and are sidelined until the currency market stabilises and the interest rates outlook clarifies, a Nikko Securities Co Ltd currency trader said.</str>
-        <int name="index">6</int>
+        <str name="text">"Diversification of foreign portfolios is underway and we have bought bonds in currencies such as marks, the Canadian dollar, the ECU and French franc," a fund manager at &lt;Yasuda Trust and Banking Co Ltd&gt; said.</str>
+        <int name="index">26</int>
         <int name="start">1</int>
-        <int name="end">254</int>
+        <int name="end">211</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Since late last year, Japanese investors, seeking substantial liquidity and attractive yields, have used fresh funds to buy mark and Canadian dollar bonds and, after the Paris currency pact, actively bought French franc bonds and gilts while gradually lightening U.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">266</int>
-        <double name="strength">0.9368230886639891</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Japanese net purchases of foreign securities in the first half of March fell an estimated one billion dlrs compared with average monthly net purchases of 7.7 billion for the whole of 1986, Finance Ministry sources said.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">220</int>
-        <double name="strength">0.8419267841473288</double>
+        <double name="strength">0.9048050415863114</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They seem undecided on what to do with the fresh yen cash positions resulting from their dollar sales today, and are sidelined until the currency market stabilises and the interest rates outlook clarifies, a Nikko Securities Co Ltd currency trader said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">254</int>
+        <double name="strength">0.8719737270439691</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">They seem &lt;em&gt;undecided&lt;/em&gt; on what to do with the &lt;em&gt;fresh&lt;/em&gt; yen cash &lt;em&gt;positions resulting&lt;/em&gt; from &lt;em&gt;their dollar sales today,&lt;/em&gt; and are &lt;em&gt;sidelined until&lt;/em&gt; the &lt;em&gt;currency market stabilises&lt;/em&gt; and the &lt;em&gt;interest rates outlook clarifies,&lt;/em&gt; a &lt;em&gt;Nikko Securities&lt;/em&gt; Co Ltd &lt;em&gt;currency trader said&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;"Diversification&lt;/em&gt; of &lt;em&gt;foreign portfolios&lt;/em&gt; is underway and we have bought &lt;em&gt;bonds&lt;/em&gt; in &lt;em&gt;currencies&lt;/em&gt; such as &lt;em&gt;marks,&lt;/em&gt; the &lt;em&gt;Canadian dollar,&lt;/em&gt; the ECU and &lt;em&gt;French franc,"&lt;/em&gt; a fund &lt;em&gt;manager&lt;/em&gt; at &lt;&lt;em&gt;Yasuda Trust&lt;/em&gt; and &lt;em&gt;Banking&lt;/em&gt; Co Ltd&gt; said.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Since&lt;/em&gt; late last year, &lt;em&gt;Japanese investors, seeking substantial liquidity&lt;/em&gt; and &lt;em&gt;attractive yields,&lt;/em&gt; have used &lt;em&gt;fresh funds&lt;/em&gt; to buy mark and &lt;em&gt;Canadian dollar bonds&lt;/em&gt; and, &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;Paris currency&lt;/em&gt; pact, &lt;em&gt;actively bought French franc bonds&lt;/em&gt; and &lt;em&gt;gilts while gradually lightening U&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese&lt;/em&gt; net &lt;em&gt;purchases&lt;/em&gt; of &lt;em&gt;foreign securities&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of &lt;em&gt;March&lt;/em&gt; fell an &lt;em&gt;estimated&lt;/em&gt; one &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;compared&lt;/em&gt; with &lt;em&gt;average monthly&lt;/em&gt; net &lt;em&gt;purchases&lt;/em&gt; of 7.7 &lt;em&gt;billion&lt;/em&gt; for the &lt;em&gt;whole&lt;/em&gt; of 1986, &lt;em&gt;Finance Ministry sources said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Japanese&lt;/em&gt; net &lt;em&gt;purchases&lt;/em&gt; of &lt;em&gt;foreign securities&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of &lt;em&gt;March&lt;/em&gt; fell an estimated one &lt;em&gt;billion&lt;/em&gt; dlrs compared with &lt;em&gt;average monthly&lt;/em&gt; net &lt;em&gt;purchases&lt;/em&gt; of 7.7 &lt;em&gt;billion&lt;/em&gt; for the &lt;em&gt;whole&lt;/em&gt; of 1986, &lt;em&gt;Finance Ministry sources said&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They seem undecided on what to do with the &lt;em&gt;fresh&lt;/em&gt; yen cash &lt;em&gt;positions&lt;/em&gt; resulting from their &lt;em&gt;dollar sales today,&lt;/em&gt; and are sidelined until the &lt;em&gt;currency market stabilises&lt;/em&gt; and the &lt;em&gt;interest rates outlook&lt;/em&gt; clarifies, a &lt;em&gt;Nikko Securities&lt;/em&gt; Co Ltd &lt;em&gt;currency trader said&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-853.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">171</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">representing</str>
+        <str name="text">recommendation</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">major</str>
+        <double name="strength">0.9877415447956256</double>
       </lst>
       <lst name="term">
-        <str name="text">obligation</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">other</str>
+        <double name="strength">0.9877415447956241</double>
       </lst>
       <lst name="term">
-        <str name="text">travel</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">small</str>
+        <double name="strength">0.9877415447956241</double>
       </lst>
       <lst name="term">
-        <str name="text">effective</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">force</str>
+        <double name="strength">0.987741544795624</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Most recently, when prices of perpetual floating rates notes (FRNs) suddenly plunged, most market makers abandoned the securities altogether, leaving investors stuck with about 17 billion dlrs worth of unmarketable securities on their books.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Sibson defended the new rules saying "We have to steer a course between representing the interests of the major market makers and the less desirable goal of representing everybody."</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.9514859878421226</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Currently, while there is an implied obligation on the part of firms to make markets in issues they underwrite, there is no formal obligation to do so.</str>
-        <int name="index">1</int>
+        <str name="text">"Belonging to IPMA carries a certain amount of prestige with borrowers," said a dealer at a small foreign bank.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.9404632904094907</double>
+        <int name="end">112</int>
+        <double name="strength">0.9204612598671326</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lead managers have occasionally abandoned efforts to support an unprofitable issue just a short while after it has been offered, leaving investors and smaller firms with no one to buy it back from them.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">203</int>
+        <double name="strength">0.9149489253883051</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Most &lt;em&gt;recently,&lt;/em&gt; when &lt;em&gt;prices&lt;/em&gt; of &lt;em&gt;perpetual floating rates notes &lt;/em&gt;(FRNs) &lt;em&gt;suddenly plunged,&lt;/em&gt; most &lt;em&gt;market makers abandoned&lt;/em&gt; the &lt;em&gt;securities altogether, leaving investors stuck&lt;/em&gt; with &lt;em&gt;about 17 billion&lt;/em&gt; dlrs &lt;em&gt;worth&lt;/em&gt; of &lt;em&gt;unmarketable securities&lt;/em&gt; on &lt;em&gt;their books&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Sibson defended&lt;/em&gt; the new &lt;em&gt;rules saying &lt;/em&gt;"We have to &lt;em&gt;steer&lt;/em&gt; a &lt;em&gt;course between representing&lt;/em&gt; the &lt;em&gt;interests&lt;/em&gt; of the &lt;em&gt;major market makers&lt;/em&gt; and the less &lt;em&gt;desirable&lt;/em&gt; goal of &lt;em&gt;representing everybody.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Sibson&lt;/em&gt; defended the new &lt;em&gt;rules&lt;/em&gt; saying "We have to &lt;em&gt;steer&lt;/em&gt; a &lt;em&gt;course&lt;/em&gt; between representing the &lt;em&gt;interests&lt;/em&gt; of the &lt;em&gt;major market makers&lt;/em&gt; and the less &lt;em&gt;desirable&lt;/em&gt; goal of representing &lt;em&gt;everybody.&lt;/em&gt;"</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Currently, while there&lt;/em&gt; is an &lt;em&gt;implied obligation&lt;/em&gt; on the part of &lt;em&gt;firms&lt;/em&gt; to make &lt;em&gt;markets&lt;/em&gt; in &lt;em&gt;issues&lt;/em&gt; they &lt;em&gt;underwrite, there&lt;/em&gt; is no &lt;em&gt;formal obligation&lt;/em&gt; to do so.</str>
-        <int name="index">1</int>
+        <str name="text">"Belonging to IPMA carries a &lt;em&gt;certain amount&lt;/em&gt; of &lt;em&gt;prestige&lt;/em&gt; with &lt;em&gt;borrowers,"&lt;/em&gt; said a &lt;em&gt;dealer&lt;/em&gt; at a &lt;em&gt;small foreign bank&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Lead &lt;em&gt;managers&lt;/em&gt; have occasionally abandoned &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; an &lt;em&gt;unprofitable issue&lt;/em&gt; just a &lt;em&gt;short while&lt;/em&gt; after it has been offered, leaving &lt;em&gt;investors&lt;/em&gt; and smaller &lt;em&gt;firms&lt;/em&gt; with no one to buy it back from them.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-717.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">114</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">production</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shied</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">notion</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">canada</str>
+        <double name="strength">0.9668760164118332</double>
       </lst>
       <lst name="term">
-        <str name="text">arrangement</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9668760164118324</double>
       </lst>
       <lst name="term">
-        <str name="text">fearing</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">rejection</str>
+        <double name="strength">0.9475739487142978</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">But at the same time, it added, Canadians realized their domestic market was too small to permit the mass production and sales needed to raise productivity to the level demanded by an increasingly competitive world.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
+        <str name="text">"It suggests the Canada of the immediate post-war period, when it was a major player in the process of building a postwar world," the Washington-based Atlantic Council said.</str>
+        <int name="index">2</int>
+        <int name="start">2</int>
+        <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. and Canadian negotiators opened talks last summer aimed at dismantling trade barriers between the two countries, the world's biggest trading partners with crossborder shipments of about 150 billion dlrs annually.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.904065322903549</double>
+        <str name="text">S. banking, insurance, telecommunications, and the so-called "cultural industries" - publishing, broadcasting and films.</str>
+        <int name="index">15</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">0.9203076745646067</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">The council said "in the past most Canadians have shied away from the notion of a free-trade arrangement, fearing to be overwhelmed economically and politically by a closer association with a country 10 times their size in population."</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">236</int>
-        <double name="strength">0.8410640448170542</double>
+        <double name="strength">0.8264081060226545</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But at the same time, it &lt;em&gt;added, Canadians realized their domestic market&lt;/em&gt; was too &lt;em&gt;small&lt;/em&gt; to &lt;em&gt;permit&lt;/em&gt; the mass &lt;em&gt;production&lt;/em&gt; and &lt;em&gt;sales needed&lt;/em&gt; to &lt;em&gt;raise productivity&lt;/em&gt; to the &lt;em&gt;level demanded&lt;/em&gt; by an &lt;em&gt;increasingly competitive world&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">"It suggests the &lt;em&gt;Canada&lt;/em&gt; of the &lt;em&gt;immediate&lt;/em&gt; post-war &lt;em&gt;period,&lt;/em&gt; when it was a &lt;em&gt;major player&lt;/em&gt; in the &lt;em&gt;process&lt;/em&gt; of building a &lt;em&gt;postwar world,"&lt;/em&gt; the &lt;em&gt;Washington&lt;/em&gt;-based &lt;em&gt;Atlantic Council said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.S. and &lt;em&gt;Canadian negotiators opened talks&lt;/em&gt; last &lt;em&gt;summer aimed&lt;/em&gt; at &lt;em&gt;dismantling trade barriers between&lt;/em&gt; the two &lt;em&gt;countries,&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;biggest trading partners&lt;/em&gt; with &lt;em&gt;crossborder shipments&lt;/em&gt; of &lt;em&gt;about 150 billion&lt;/em&gt; dlrs &lt;em&gt;annually&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">S. &lt;em&gt;banking, insurance, telecommunications,&lt;/em&gt; and the so-called "&lt;em&gt;cultural industries" -&lt;/em&gt; publishing, &lt;em&gt;broadcasting&lt;/em&gt; and &lt;em&gt;films&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;council&lt;/em&gt; said "in the past most &lt;em&gt;Canadians&lt;/em&gt; have &lt;em&gt;shied&lt;/em&gt; away from the &lt;em&gt;notion&lt;/em&gt; of a free-&lt;em&gt;trade arrangement, fearing&lt;/em&gt; to be &lt;em&gt;overwhelmed economically&lt;/em&gt; and &lt;em&gt;politically&lt;/em&gt; by a &lt;em&gt;closer association&lt;/em&gt; with a &lt;em&gt;country 10 times their&lt;/em&gt; size in &lt;em&gt;population.&lt;/em&gt;"</str>
+        <str name="text">The &lt;em&gt;council&lt;/em&gt; said "in the past most &lt;em&gt;Canadians&lt;/em&gt; have shied away from the &lt;em&gt;notion&lt;/em&gt; of a free-&lt;em&gt;trade arrangement,&lt;/em&gt; fearing to be &lt;em&gt;overwhelmed&lt;/em&gt; economically and politically by a closer &lt;em&gt;association&lt;/em&gt; with a &lt;em&gt;country 10&lt;/em&gt; times their size in &lt;em&gt;population.&lt;/em&gt;"</str>
         <int name="index">7</int>
       </lst>
     </lst>

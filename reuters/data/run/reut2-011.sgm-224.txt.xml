@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">34</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-224.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">51</int>
       </lst>
       <lst name="terms">
-        <int name="count">164</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">103</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">consumer</str>
+        <str name="text">april</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">medium</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">boost</str>
+        <double name="strength">0.9954939545511462</double>
       </lst>
       <lst name="term">
-        <str name="text">develop</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">company</str>
+        <double name="strength">0.9953709094093977</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9945219824099415</double>
       </lst>
       <lst name="term">
-        <str name="text">skills</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">semiconductors</str>
+        <double name="strength">0.9930548502027804</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">166</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In announcing the sanctions last Friday, President Reagan said Japan had not fulfilled its promise to halt predatory pricing and open Japan's market to foreign products.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.8384141408665172</double>
+        <str name="text">T&gt;, said the firm's reduced output of 256 kilobit dynamic random access memory (256K DRAM) was unrelated to MITI's efforts to ward off the trade sanctions.</str>
+        <int name="index">26</int>
+        <int name="start">0</int>
+        <int name="end">155</int>
+        <double name="strength">0.8701584326875466</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">It has rattled its sword and shown that it can and will do business," said analyst Nick Edwards at Jardine Fleming Securities Ltd in Tokyo.</str>
         <int name="index">16</int>
         <int name="start">0</int>
         <int name="end">139</int>
-        <double name="strength">0.8180072141913772</double>
+        <double name="strength">0.8436855467541008</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;moves could encourage Washington&lt;/em&gt; to &lt;em&gt;cancel&lt;/em&gt; the &lt;em&gt;tariffs ahead&lt;/em&gt; of next &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;meeting between Prime Minister Yasuhiro Nakasone&lt;/em&gt; and &lt;em&gt;President Reagan&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;moves&lt;/em&gt; could &lt;em&gt;encourage&lt;/em&gt; Washington to &lt;em&gt;cancel&lt;/em&gt; the &lt;em&gt;tariffs&lt;/em&gt; ahead of next &lt;em&gt;month&lt;/em&gt;'s meeting between &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt; and &lt;em&gt;President Reagan&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;announcing&lt;/em&gt; the &lt;em&gt;sanctions&lt;/em&gt; last &lt;em&gt;Friday, President Reagan&lt;/em&gt; said &lt;em&gt;Japan&lt;/em&gt; had not &lt;em&gt;fulfilled&lt;/em&gt; its &lt;em&gt;promise&lt;/em&gt; to halt &lt;em&gt;predatory pricing&lt;/em&gt; and open &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;market&lt;/em&gt; to &lt;em&gt;foreign products&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">T&gt;, said the firm's reduced &lt;em&gt;output&lt;/em&gt; of 256 &lt;em&gt;kilobit dynamic random access memory (25&lt;/em&gt;6K DRAM) was &lt;em&gt;unrelated&lt;/em&gt; to MITI's &lt;em&gt;efforts&lt;/em&gt; to ward off the &lt;em&gt;trade sanctions&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It has &lt;em&gt;rattled&lt;/em&gt; its &lt;em&gt;sword&lt;/em&gt; and &lt;em&gt;shown&lt;/em&gt; that it can and will do &lt;em&gt;business,"&lt;/em&gt; said &lt;em&gt;analyst&lt;/em&gt; Nick &lt;em&gt;Edwards&lt;/em&gt; at &lt;em&gt;Jardine Fleming Securities&lt;/em&gt; Ltd in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
+        <str name="text">It has rattled its &lt;em&gt;sword&lt;/em&gt; and shown that it can and will do &lt;em&gt;business,"&lt;/em&gt; said &lt;em&gt;analyst&lt;/em&gt; Nick &lt;em&gt;Edwards&lt;/em&gt; at &lt;em&gt;Jardine Fleming Securities&lt;/em&gt; Ltd in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
     </lst>

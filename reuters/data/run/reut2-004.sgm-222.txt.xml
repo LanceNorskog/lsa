@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-222.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">income</str>
+        <str name="text">turning</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">ended</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">income</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">resulted</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">performance</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">refurbishing</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">expense</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">263</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We were forced to pay a temporary price in the form of slower earnings growth and a lower rating by the investment community.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">127</int>
+        <double name="strength">0.8067276668740719</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">K Mart Chairman Bernard Fauber said "the success of these programs is better illustrated by the strong 35.9 pct increase in 1986 income from continuing operations before income taxes to 1.03 billion dlrs, the first time K Mart Corp has reached this milestone."</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">261</int>
-        <double name="strength">0.943952804543276</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Fauber said the sales growth came from greater consumer acceptance of K Mart's apparel merchandise, "a marked increase in hardline merchandise sales and a growing contribution from specialty retailing operations."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.7689004866129285</double>
+        <double name="strength">0.7848287782073753</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K Mart, he said, &lt;em&gt;committed billion&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; for &lt;em&gt;store remodeling&lt;/em&gt; and &lt;em&gt;installing&lt;/em&gt; a &lt;em&gt;centralized point&lt;/em&gt; of sale &lt;em&gt;system, upgraded&lt;/em&gt; its &lt;em&gt;merchandise&lt;/em&gt; mix, &lt;em&gt;acquired three large specialty retailers, divested underperforming businesses&lt;/em&gt; and &lt;em&gt;restructured&lt;/em&gt; its long-term debt.</str>
+        <str name="text">K Mart, he said, committed &lt;em&gt;billion&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; for &lt;em&gt;store remodeling&lt;/em&gt; and installing a &lt;em&gt;centralized point&lt;/em&gt; of sale &lt;em&gt;system,&lt;/em&gt; upgraded its &lt;em&gt;merchandise&lt;/em&gt; mix, acquired &lt;em&gt;three large specialty retailers,&lt;/em&gt; divested underperforming &lt;em&gt;businesses&lt;/em&gt; and restructured its long-term debt.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K Mart &lt;em&gt;Chairman Bernard Fauber&lt;/em&gt; said "the &lt;em&gt;success&lt;/em&gt; of &lt;em&gt;these programs&lt;/em&gt; is &lt;em&gt;better illustrated&lt;/em&gt; by the &lt;em&gt;strong 35.9&lt;/em&gt; pct &lt;em&gt;increase&lt;/em&gt; in 1986 &lt;em&gt;income&lt;/em&gt; from &lt;em&gt;continuing operations before income taxes&lt;/em&gt; to 1.03 &lt;em&gt;billion&lt;/em&gt; dlrs, the &lt;em&gt;first&lt;/em&gt; time K Mart Corp has &lt;em&gt;reached&lt;/em&gt; this &lt;em&gt;milestone.&lt;/em&gt;"</str>
-        <int name="index">4</int>
+        <str name="text">"We were forced to pay a &lt;em&gt;temporary price&lt;/em&gt; in the form of slower &lt;em&gt;earnings growth&lt;/em&gt; and a lower &lt;em&gt;rating&lt;/em&gt; by the &lt;em&gt;investment community&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fauber&lt;/em&gt; said the &lt;em&gt;sales growth&lt;/em&gt; came from &lt;em&gt;greater consumer acceptance&lt;/em&gt; of K Mart's &lt;em&gt;apparel merchandise, &lt;/em&gt;"a &lt;em&gt;marked increase&lt;/em&gt; in &lt;em&gt;hardline merchandise sales&lt;/em&gt; and a &lt;em&gt;growing contribution&lt;/em&gt; from &lt;em&gt;specialty retailing operations.&lt;/em&gt;"</str>
-        <int name="index">8</int>
+        <str name="text">K Mart &lt;em&gt;Chairman Bernard Fauber&lt;/em&gt; said "the &lt;em&gt;success&lt;/em&gt; of these &lt;em&gt;programs&lt;/em&gt; is better illustrated by the &lt;em&gt;strong 35.9&lt;/em&gt; pct &lt;em&gt;increase&lt;/em&gt; in 1986 &lt;em&gt;income&lt;/em&gt; from continuing &lt;em&gt;operations&lt;/em&gt; before &lt;em&gt;income taxes&lt;/em&gt; to 1.03 &lt;em&gt;billion&lt;/em&gt; dlrs, the &lt;em&gt;first&lt;/em&gt; time K Mart Corp has reached this &lt;em&gt;milestone.&lt;/em&gt;"</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

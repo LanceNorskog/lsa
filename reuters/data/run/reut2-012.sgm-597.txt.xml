@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-597.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">243</int>
+        <int name="count">162</int>
       </lst>
       <lst name="stems">
-        <int name="count">163</int>
+        <int name="count">105</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">levels</str>
+        <str name="text">repayments</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">experience</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">administration</str>
+        <double name="strength">0.994172809205743</double>
       </lst>
       <lst name="term">
-        <str name="text">indeed</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">relief</str>
+        <double name="strength">0.9941728092057414</double>
       </lst>
       <lst name="term">
-        <str name="text">managing</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">industrial</str>
+        <double name="strength">0.9941728092057414</double>
       </lst>
       <lst name="term">
-        <str name="text">director</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">country</str>
+        <double name="strength">0.9858611115600728</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Camdessus' experience as former chairman of the so-called "Paris Club" of western creditor governments, has given him extensive first-hand experience of the debt crisis.</str>
-        <int name="index">19</int>
+        <str name="text">And the Reagan administration is not inclined to bow to Congressional pressure for changes in regulations governing foreign loans, to make it easier for banks to account for delays in interest and principal repayments.</str>
+        <int name="index">36</int>
         <int name="start">1</int>
-        <int name="end">170</int>
+        <int name="end">219</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Such flexibility would include less rigid economic targets -- which often lead to artificial crises when they are not met -- and more reliance on ranges and benchmarks to monitor economic performance.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">201</int>
-        <double name="strength">0.9782209983131838</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. officials, who are fighting off demands for change by Congress, are confident they will retain support for their strategy which will probably be endorsed in a communique issued by the IMF's policy-making Interim Committee.</str>
         <int name="index">3</int>
         <int name="start">0</int>
         <int name="end">225</int>
-        <double name="strength">0.9674595573511208</double>
+        <double name="strength">0.998345983122576</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The IMF was to retain a "central role" in the strategy, shifting its economic reform programs from emphasizing austerity to stressing growth, freer trade policies and foreign investment in debtor nations.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">205</int>
+        <double name="strength">0.9614535163975372</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Camdessus' experience&lt;/em&gt; as &lt;em&gt;former chairman&lt;/em&gt; of the so-&lt;em&gt;called "Paris&lt;/em&gt; Club" of &lt;em&gt;western creditor governments,&lt;/em&gt; has &lt;em&gt;given&lt;/em&gt; him &lt;em&gt;extensive first&lt;/em&gt;-hand &lt;em&gt;experience&lt;/em&gt; of the debt &lt;em&gt;crisis&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">And the &lt;em&gt;Reagan administration&lt;/em&gt; is not inclined to bow to &lt;em&gt;Congressional pressure&lt;/em&gt; for &lt;em&gt;changes&lt;/em&gt; in &lt;em&gt;regulations&lt;/em&gt; governing &lt;em&gt;foreign loans,&lt;/em&gt; to make it easier for &lt;em&gt;banks&lt;/em&gt; to &lt;em&gt;account&lt;/em&gt; for &lt;em&gt;delays&lt;/em&gt; in &lt;em&gt;interest&lt;/em&gt; and &lt;em&gt;principal repayments&lt;/em&gt;.</str>
+        <int name="index">36</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Such &lt;em&gt;flexibility would include&lt;/em&gt; less &lt;em&gt;rigid economic targets -- which often&lt;/em&gt; lead to &lt;em&gt;artificial crises&lt;/em&gt; when they are not met -- and more &lt;em&gt;reliance&lt;/em&gt; on &lt;em&gt;ranges&lt;/em&gt; and &lt;em&gt;benchmarks&lt;/em&gt; to &lt;em&gt;monitor economic performance&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;officials,&lt;/em&gt; who are &lt;em&gt;fighting&lt;/em&gt; off &lt;em&gt;demands&lt;/em&gt; for &lt;em&gt;change&lt;/em&gt; by &lt;em&gt;Congress,&lt;/em&gt; are &lt;em&gt;confident&lt;/em&gt; they will &lt;em&gt;retain support&lt;/em&gt; for &lt;em&gt;their strategy which&lt;/em&gt; will &lt;em&gt;probably&lt;/em&gt; be &lt;em&gt;endorsed&lt;/em&gt; in a &lt;em&gt;communique issued&lt;/em&gt; by the IMF's &lt;em&gt;policy-making Interim Committee&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;officials,&lt;/em&gt; who are fighting off &lt;em&gt;demands&lt;/em&gt; for &lt;em&gt;change&lt;/em&gt; by &lt;em&gt;Congress,&lt;/em&gt; are &lt;em&gt;confident&lt;/em&gt; they will &lt;em&gt;retain support&lt;/em&gt; for their &lt;em&gt;strategy&lt;/em&gt; which will probably be endorsed in a &lt;em&gt;communique&lt;/em&gt; issued by the IMF's &lt;em&gt;policy-making Interim Committee&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The IMF was to &lt;em&gt;retain&lt;/em&gt; a "&lt;em&gt;central&lt;/em&gt; role" in the &lt;em&gt;strategy,&lt;/em&gt; shifting its &lt;em&gt;economic reform programs&lt;/em&gt; from emphasizing &lt;em&gt;austerity&lt;/em&gt; to stressing &lt;em&gt;growth, freer trade policies&lt;/em&gt; and &lt;em&gt;foreign investment&lt;/em&gt; in &lt;em&gt;debtor nations&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

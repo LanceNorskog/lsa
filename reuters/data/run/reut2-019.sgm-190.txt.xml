@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-190.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">171</int>
+        <int name="count">112</int>
       </lst>
       <lst name="stems">
-        <int name="count">115</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">1.0</double>
+        <str name="text">company</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">early</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">cheap</str>
+        <double name="strength">0.9999999999999969</double>
       </lst>
       <lst name="term">
-        <str name="text">soared</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">business</str>
+        <double name="strength">0.9699093237314372</double>
       </lst>
       <lst name="term">
-        <str name="text">everybody</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">fixed</str>
+        <double name="strength">0.9576013682834456</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Household Mortgage Co had planned to offer a 25 year fixed rate mortgage after the June 11 elections on the assumption that a Conservative Party victory would help money market rates fall further, according to Duncan Young, managing director.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The rash of advertising to solicit new business has helped homebuyers to become even choosier about loans and lenders concede they are being forced to undercut each other still more.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">183</int>
-        <double name="strength">0.9607694069616294</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Young explained that the company had planned to protect itself against the chance of rising interest rates by buying a complicated hedging instrument.</str>
-        <int name="index">25</int>
+        <str name="text">Household Mortgage Co had planned to offer a 25 year fixed rate mortgage after the June 11 elections on the assumption that a Conservative Party victory would help money market rates fall further, according to Duncan Young, managing director.</str>
+        <int name="index">24</int>
         <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">0.9313433232118186</double>
+        <int name="end">243</int>
+        <double name="strength">0.9204261423920439</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In short, the appeal of fixed rate mortgages is that they offer an opportunity to gamble on the direction of interest rates.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">125</int>
+        <double name="strength">0.9129222735663289</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Household Mortgage&lt;/em&gt; Co had &lt;em&gt;planned&lt;/em&gt; to &lt;em&gt;offer&lt;/em&gt; a 25 year &lt;em&gt;fixed&lt;/em&gt; rate &lt;em&gt;mortgage after&lt;/em&gt; the June 11 &lt;em&gt;elections&lt;/em&gt; on the &lt;em&gt;assumption&lt;/em&gt; that a &lt;em&gt;Conservative Party victory would&lt;/em&gt; help &lt;em&gt;money market rates&lt;/em&gt; fall &lt;em&gt;further, according&lt;/em&gt; to &lt;em&gt;Duncan Young, managing director&lt;/em&gt;.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The rash of &lt;em&gt;advertising&lt;/em&gt; to &lt;em&gt;solicit&lt;/em&gt; new &lt;em&gt;business&lt;/em&gt; has &lt;em&gt;helped homebuyers&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; even &lt;em&gt;choosier about loans&lt;/em&gt; and &lt;em&gt;lenders concede&lt;/em&gt; they are &lt;em&gt;being forced&lt;/em&gt; to &lt;em&gt;undercut&lt;/em&gt; each &lt;em&gt;other still more&lt;/em&gt;.</str>
+        <str name="text">The rash of &lt;em&gt;advertising&lt;/em&gt; to &lt;em&gt;solicit&lt;/em&gt; new &lt;em&gt;business&lt;/em&gt; has helped &lt;em&gt;homebuyers&lt;/em&gt; to &lt;em&gt;become&lt;/em&gt; even choosier about &lt;em&gt;loans&lt;/em&gt; and &lt;em&gt;lenders concede&lt;/em&gt; they are being forced to &lt;em&gt;undercut&lt;/em&gt; each &lt;em&gt;other&lt;/em&gt; still more.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Young explained&lt;/em&gt; that the &lt;em&gt;company&lt;/em&gt; had &lt;em&gt;planned&lt;/em&gt; to &lt;em&gt;protect itself against&lt;/em&gt; the &lt;em&gt;chance&lt;/em&gt; of &lt;em&gt;rising interest rates&lt;/em&gt; by &lt;em&gt;buying&lt;/em&gt; a &lt;em&gt;complicated hedging instrument&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;Household Mortgage&lt;/em&gt; Co had planned to &lt;em&gt;offer&lt;/em&gt; a 25 year fixed rate &lt;em&gt;mortgage&lt;/em&gt; after the June 11 &lt;em&gt;elections&lt;/em&gt; on the &lt;em&gt;assumption&lt;/em&gt; that a &lt;em&gt;Conservative Party victory&lt;/em&gt; would help &lt;em&gt;money market rates&lt;/em&gt; fall further, according to &lt;em&gt;Duncan Young, managing director&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;short,&lt;/em&gt; the &lt;em&gt;appeal&lt;/em&gt; of &lt;em&gt;fixed&lt;/em&gt; rate &lt;em&gt;mortgages&lt;/em&gt; is that they &lt;em&gt;offer&lt;/em&gt; an &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;gamble&lt;/em&gt; on the &lt;em&gt;direction&lt;/em&gt; of &lt;em&gt;interest rates&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

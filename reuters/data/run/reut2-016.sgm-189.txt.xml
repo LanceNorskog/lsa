@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-189.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">explanation</str>
+        <str name="text">european</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foreigners</str>
-        <double name="strength">0.9999999999999949</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9871765030415258</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9775433528668053</double>
       </lst>
       <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.5590169943749446</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9775433528668029</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5</double>
+        <str name="text">senior</str>
+        <double name="strength">0.9775433528667988</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Industrialists such as Eishiro Saito, chairman of the Keidanren business group, and Sony Corp chairman Akio Morita repeatedly accuse foreign firms of not making enough effort to understand Japan's markets, and some foreigners agree.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The real issue is the inability of major sectors of American and European industry to compete not only internationally but even in their home markets," Peter Huggler, President of Interallianz Bank Zurich, told a recent conference in Switzerland.</str>
         <int name="index">29</int>
         <int name="start">0</int>
         <int name="end">246</int>
-        <double name="strength">0.9938863022228156</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Industrialists such as Eishiro Saito, chairman of the Keidanren business group, and Sony Corp chairman Akio Morita repeatedly accuse foreign firms of not making enough effort to understand Japan's markets, and some foreigners agree.</str>
+        <int name="index">27</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">0.7524823004396178</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">They cite restrictive trade practices, protected Japanese trade sectors, such as agriculture, and non-tariff barriers, such as unreasonable checking and customs procedures for car imports.</str>
         <int name="index">19</int>
         <int name="start">0</int>
         <int name="end">188</int>
-        <double name="strength">0.8523257569378248</double>
+        <double name="strength">0.7025465527220878</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Industrialists&lt;/em&gt; such as &lt;em&gt;Eishiro Saito, chairman&lt;/em&gt; of the &lt;em&gt;Keidanren business group,&lt;/em&gt; and Sony Corp &lt;em&gt;chairman&lt;/em&gt; Akio &lt;em&gt;Morita repeatedly accuse foreign firms&lt;/em&gt; of not &lt;em&gt;making enough effort&lt;/em&gt; to &lt;em&gt;understand Japan&lt;/em&gt;'s &lt;em&gt;markets,&lt;/em&gt; and some &lt;em&gt;foreigners agree&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The real &lt;em&gt;issue&lt;/em&gt; is the &lt;em&gt;inability&lt;/em&gt; of &lt;em&gt;major sectors&lt;/em&gt; of &lt;em&gt;American&lt;/em&gt; and &lt;em&gt;European industry&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; not only &lt;em&gt;internationally&lt;/em&gt; but even in &lt;em&gt;their&lt;/em&gt; home &lt;em&gt;markets," Peter Huggler, President&lt;/em&gt; of &lt;em&gt;Interallianz&lt;/em&gt; Bank &lt;em&gt;Zurich,&lt;/em&gt; told a &lt;em&gt;recent conference&lt;/em&gt; in &lt;em&gt;Switzerland&lt;/em&gt;.</str>
+        <str name="text">The real &lt;em&gt;issue&lt;/em&gt; is the &lt;em&gt;inability&lt;/em&gt; of &lt;em&gt;major sectors&lt;/em&gt; of &lt;em&gt;American&lt;/em&gt; and &lt;em&gt;European industry&lt;/em&gt; to &lt;em&gt;compete&lt;/em&gt; not only internationally but even in their home &lt;em&gt;markets," Peter&lt;/em&gt; Huggler, &lt;em&gt;President&lt;/em&gt; of &lt;em&gt;Interallianz&lt;/em&gt; Bank Zurich, told a &lt;em&gt;recent conference&lt;/em&gt; in &lt;em&gt;Switzerland&lt;/em&gt;.</str>
         <int name="index">29</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They cite &lt;em&gt;restrictive trade practices, protected Japanese trade sectors,&lt;/em&gt; such as &lt;em&gt;agriculture,&lt;/em&gt; and non-&lt;em&gt;tariff barriers,&lt;/em&gt; such as &lt;em&gt;unreasonable checking&lt;/em&gt; and &lt;em&gt;customs procedures&lt;/em&gt; for car &lt;em&gt;imports&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Industrialists&lt;/em&gt; such as Eishiro &lt;em&gt;Saito, chairman&lt;/em&gt; of the &lt;em&gt;Keidanren business group,&lt;/em&gt; and Sony Corp &lt;em&gt;chairman&lt;/em&gt; Akio &lt;em&gt;Morita&lt;/em&gt; repeatedly &lt;em&gt;accuse foreign firms&lt;/em&gt; of not making enough &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;understand Japan&lt;/em&gt;'s &lt;em&gt;markets,&lt;/em&gt; and some &lt;em&gt;foreigners agree&lt;/em&gt;.</str>
+        <int name="index">27</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They cite &lt;em&gt;restrictive trade practices,&lt;/em&gt; protected &lt;em&gt;Japanese trade sectors,&lt;/em&gt; such as &lt;em&gt;agriculture,&lt;/em&gt; and non-&lt;em&gt;tariff barriers,&lt;/em&gt; such as &lt;em&gt;unreasonable checking&lt;/em&gt; and &lt;em&gt;customs procedures&lt;/em&gt; for car &lt;em&gt;imports&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
     </lst>

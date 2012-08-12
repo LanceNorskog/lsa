@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-569.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">126</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">points</str>
+        <str name="text">exchange</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">index</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">president</str>
+        <double name="strength">0.9840539975201785</double>
       </lst>
       <lst name="term">
-        <str name="text">closing</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">robert</str>
+        <double name="strength">0.9840539975201785</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">birnbaum</str>
+        <double name="strength">0.9840539975201785</double>
       </lst>
       <lst name="term">
-        <str name="text">exchange</str>
-        <double name="strength">0.5590169943749461</double>
+        <str name="text">director</str>
+        <double name="strength">0.9840539975201785</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Expiration Fridays, or triple witching hours, occur every three months when stock options, stock index options and futures on index options expire simultaneously.</str>
-        <int name="index">2</int>
+        <str name="text">But in a March 12 letter to NYSE President Robert Birnbaum, SEC Director of Market Regulation cited problems in the experimental procedure during the Dec 19 expiration Friday.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">163</int>
+        <int name="end">176</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A large number of MOC buy orders were not placed until after 1530 EST on Dec 19, which helped send the Dow Jones Industrial Average up 21 points in the final minutes of the day to a 14.20-point gain on the day, Ketchum said.</str>
-        <int name="index">7</int>
+        <str name="text">The huge sell orders, which usually entered the market in the final frantic minutes on expiration Fridays triggered wild price swings in the 50 stocks which serve as the basis for the options and futures.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9968484445147223</double>
+        <int name="end">205</int>
+        <double name="strength">0.9445548941969983</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Big Board has been collecting and publicizing information on large imbalances of "market-on-close" (MOC) orders placed on 50 major stocks one-half-hour before closing on so-called expiration Fridays in September and December.</str>
-        <int name="index">1</int>
+        <str name="text">The gyrations prompted the SEC last September to request that the Big Board ask its members submit all MOCs by 1530 hrs on expiration Fridays, which would then be made public, giving the market a half-hour to settle order imbalances.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.9669947190313403</double>
+        <int name="end">234</int>
+        <double name="strength">0.9082316945954105</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Expiration Fridays,&lt;/em&gt; or &lt;em&gt;triple witching hours, occur every three months&lt;/em&gt; when &lt;em&gt;stock options, stock index options&lt;/em&gt; and &lt;em&gt;futures&lt;/em&gt; on &lt;em&gt;index options expire simultaneously&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">But in a &lt;em&gt;March 12 letter&lt;/em&gt; to NYSE &lt;em&gt;President Robert Birnbaum,&lt;/em&gt; SEC &lt;em&gt;Director&lt;/em&gt; of &lt;em&gt;Market Regulation&lt;/em&gt; cited &lt;em&gt;problems&lt;/em&gt; in the &lt;em&gt;experimental procedure&lt;/em&gt; during the Dec 19 &lt;em&gt;expiration Friday&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;large number&lt;/em&gt; of MOC buy &lt;em&gt;orders&lt;/em&gt; were not &lt;em&gt;placed until after 1530&lt;/em&gt; EST on Dec 19, &lt;em&gt;which helped&lt;/em&gt; send the Dow &lt;em&gt;Jones Industrial Average&lt;/em&gt; up 21 &lt;em&gt;points&lt;/em&gt; in the &lt;em&gt;final minutes&lt;/em&gt; of the day to a 14.20-&lt;em&gt;point&lt;/em&gt; gain on the day, &lt;em&gt;Ketchum said&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The huge sell &lt;em&gt;orders,&lt;/em&gt; which usually entered the &lt;em&gt;market&lt;/em&gt; in the &lt;em&gt;final frantic minutes&lt;/em&gt; on &lt;em&gt;expiration Fridays&lt;/em&gt; triggered wild &lt;em&gt;price swings&lt;/em&gt; in the 50 &lt;em&gt;stocks&lt;/em&gt; which &lt;em&gt;serve&lt;/em&gt; as the &lt;em&gt;basis&lt;/em&gt; for the &lt;em&gt;options&lt;/em&gt; and &lt;em&gt;futures&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Big &lt;em&gt;Board&lt;/em&gt; has been &lt;em&gt;collecting&lt;/em&gt; and &lt;em&gt;publicizing information&lt;/em&gt; on &lt;em&gt;large imbalances&lt;/em&gt; of "&lt;em&gt;market&lt;/em&gt;-on-&lt;em&gt;close" &lt;/em&gt;(MOC) &lt;em&gt;orders placed&lt;/em&gt; on 50 &lt;em&gt;major stocks&lt;/em&gt; one-half-hour &lt;em&gt;before closing&lt;/em&gt; on so-&lt;em&gt;called expiration Fridays&lt;/em&gt; in &lt;em&gt;September&lt;/em&gt; and &lt;em&gt;December&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;gyrations&lt;/em&gt; prompted the SEC last &lt;em&gt;September&lt;/em&gt; to &lt;em&gt;request&lt;/em&gt; that the Big &lt;em&gt;Board&lt;/em&gt; ask its &lt;em&gt;members submit&lt;/em&gt; all MOCs by 1530 hrs on &lt;em&gt;expiration Fridays,&lt;/em&gt; which would then be made &lt;em&gt;public,&lt;/em&gt; giving the &lt;em&gt;market&lt;/em&gt; a half-hour to &lt;em&gt;settle order imbalances&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

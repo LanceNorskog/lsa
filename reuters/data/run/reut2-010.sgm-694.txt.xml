@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-694.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">final</str>
+        <str name="text">states</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">economy</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">official</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">ordered</str>
-        <double name="strength">0.9999999999999979</double>
+        <str name="text">ministry</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">semiconductors</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">chips</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
       <lst name="term">
-        <str name="text">settle</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">microchips</str>
+        <double name="strength">0.9999999999999966</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Carole Ryavec, an analyst at Salomon Brothers Asia Ltd, said "The major overall issue is to stimulate the domestic economy and move away from an export-dependent economy."</str>
-        <int name="index">29</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Analysts noted Japan's Ministry of International Trade and Industry (MITI) has already ordered chipmakers to cut production in order to dry up the source of cheap chips sold in third countries at non-regulated prices.</str>
         <int name="index">11</int>
         <int name="start">2</int>
         <int name="end">219</int>
-        <double name="strength">0.9853162363632268</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">"If the tariffs remain in place for any length of time, there will be complete erosion of exports to the United States," said Tom Murtha, analyst at James Capel and Co.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">169</int>
-        <double name="strength">0.8141547184278787</double>
+        <double name="strength">0.9148722986993673</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But a Matsushita Electric Industrial Co spokesman said a rapid increase in imports was not likely.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">98</int>
+        <double name="strength">0.8179795591820266</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Carole Ryavec,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; at &lt;em&gt;Salomon Brothers&lt;/em&gt; Asia Ltd, said "The &lt;em&gt;major overall issue&lt;/em&gt; is to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;domestic economy&lt;/em&gt; and move away from an &lt;em&gt;export-dependent economy.&lt;/em&gt;"</str>
-        <int name="index">29</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts noted Japan&lt;/em&gt;'s &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) has &lt;em&gt;already ordered chipmakers&lt;/em&gt; to cut &lt;em&gt;production&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to dry up the &lt;em&gt;source&lt;/em&gt; of &lt;em&gt;cheap chips&lt;/em&gt; sold in &lt;em&gt;third countries&lt;/em&gt; at non-&lt;em&gt;regulated prices&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; noted &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) has already ordered &lt;em&gt;chipmakers&lt;/em&gt; to cut &lt;em&gt;production&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to dry up the &lt;em&gt;source&lt;/em&gt; of &lt;em&gt;cheap chips&lt;/em&gt; sold in &lt;em&gt;third countries&lt;/em&gt; at non-&lt;em&gt;regulated prices&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"If the &lt;em&gt;tariffs remain&lt;/em&gt; in &lt;em&gt;place&lt;/em&gt; for any &lt;em&gt;length&lt;/em&gt; of time, &lt;em&gt;there&lt;/em&gt; will be &lt;em&gt;complete erosion&lt;/em&gt; of &lt;em&gt;exports&lt;/em&gt; to the &lt;em&gt;United States,"&lt;/em&gt; said Tom &lt;em&gt;Murtha, analyst&lt;/em&gt; at &lt;em&gt;James Capel&lt;/em&gt; and Co.</str>
+        <str name="text">"If the &lt;em&gt;tariffs remain&lt;/em&gt; in &lt;em&gt;place&lt;/em&gt; for any &lt;em&gt;length&lt;/em&gt; of time, there will be &lt;em&gt;complete erosion&lt;/em&gt; of &lt;em&gt;exports&lt;/em&gt; to the United &lt;em&gt;States,"&lt;/em&gt; said Tom &lt;em&gt;Murtha, analyst&lt;/em&gt; at &lt;em&gt;James Capel&lt;/em&gt; and Co.</str>
         <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But a &lt;em&gt;Matsushita Electric Industrial&lt;/em&gt; Co &lt;em&gt;spokesman&lt;/em&gt; said a &lt;em&gt;rapid increase&lt;/em&gt; in &lt;em&gt;imports&lt;/em&gt; was not &lt;em&gt;likely&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

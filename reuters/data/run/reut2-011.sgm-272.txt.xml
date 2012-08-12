@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-272.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prices</str>
+        <str name="text">adjust</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tonnes</str>
-        <double name="strength">0.9258200997725511</double>
+        <str name="text">change</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consumption</str>
-        <double name="strength">0.8964214570007953</double>
+        <str name="text">transition</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">imports</str>
-        <double name="strength">0.8017837257372739</double>
+        <str name="text">danger</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">countries</str>
-        <double name="strength">0.8017837257372739</double>
+        <str name="text">strategies</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Such a price development is not expected to cause any marked competitive problems for the metal because of the likely rise in commodity prices as a whole and cost pressures in the pipeline for steel and copper.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Aluminium companies were slow to adjust to the pace of change after 1973, the review said, and now they have completed this transition they may be in danger of remaining preoccupied with the strategies of retrenchment and survival which have served them well in recent years.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">276</int>
-        <double name="strength">0.9997330129441123</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Aluminium capacity expansion planned for the period after 1990 will be insufficient to supply any acceleration in demand growth, let alone an increase on the scale which seems likely, according to analyst Anthony Bird Associates' 1987 Aluminium Review.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">252</int>
-        <double name="strength">0.9892643159502919</double>
+        <str name="text">In order to encourage the construction of additional smelters aluminium prices will need to settle at a higher level.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">118</int>
+        <double name="strength">0.8895786756930648</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Such a price development is not expected to cause any marked competitive problems for the metal because of the likely rise in commodity prices as a whole and cost pressures in the pipeline for steel and copper.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.8769660090310203</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Such a &lt;em&gt;price development&lt;/em&gt; is not &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;cause&lt;/em&gt; any &lt;em&gt;marked competitive problems&lt;/em&gt; for the &lt;em&gt;metal because&lt;/em&gt; of the &lt;em&gt;likely&lt;/em&gt; rise in &lt;em&gt;commodity prices&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; and cost &lt;em&gt;pressures&lt;/em&gt; in the &lt;em&gt;pipeline&lt;/em&gt; for &lt;em&gt;steel&lt;/em&gt; and &lt;em&gt;copper&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Aluminium companies&lt;/em&gt; were slow to &lt;em&gt;adjust&lt;/em&gt; to the pace of &lt;em&gt;change after 1973,&lt;/em&gt; the &lt;em&gt;review&lt;/em&gt; said, and now they have &lt;em&gt;completed&lt;/em&gt; this &lt;em&gt;transition&lt;/em&gt; they may be in &lt;em&gt;danger&lt;/em&gt; of &lt;em&gt;remaining preoccupied&lt;/em&gt; with the &lt;em&gt;strategies&lt;/em&gt; of &lt;em&gt;retrenchment&lt;/em&gt; and &lt;em&gt;survival which&lt;/em&gt; have &lt;em&gt;served&lt;/em&gt; them well in &lt;em&gt;recent years&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Aluminium companies&lt;/em&gt; were slow to &lt;em&gt;adjust&lt;/em&gt; to the pace of &lt;em&gt;change&lt;/em&gt; after 1973, the &lt;em&gt;review&lt;/em&gt; said, and now they have completed this &lt;em&gt;transition&lt;/em&gt; they may be in &lt;em&gt;danger&lt;/em&gt; of remaining preoccupied with the &lt;em&gt;strategies&lt;/em&gt; of &lt;em&gt;retrenchment&lt;/em&gt; and &lt;em&gt;survival&lt;/em&gt; which have served them well in &lt;em&gt;recent years&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Aluminium capacity expansion planned&lt;/em&gt; for the &lt;em&gt;period after 1990&lt;/em&gt; will be &lt;em&gt;insufficient&lt;/em&gt; to &lt;em&gt;supply&lt;/em&gt; any &lt;em&gt;acceleration&lt;/em&gt; in &lt;em&gt;demand growth,&lt;/em&gt; let &lt;em&gt;alone&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; on the &lt;em&gt;scale which seems likely, according&lt;/em&gt; to &lt;em&gt;analyst Anthony&lt;/em&gt; Bird &lt;em&gt;Associates' 1987 Aluminium Review&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">In &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;encourage&lt;/em&gt; the &lt;em&gt;construction&lt;/em&gt; of &lt;em&gt;additional smelters aluminium prices&lt;/em&gt; will need to &lt;em&gt;settle&lt;/em&gt; at a higher &lt;em&gt;level&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Such a &lt;em&gt;price development&lt;/em&gt; is not expected to &lt;em&gt;cause&lt;/em&gt; any &lt;em&gt;marked competitive problems&lt;/em&gt; for the &lt;em&gt;metal&lt;/em&gt; because of the &lt;em&gt;likely&lt;/em&gt; rise in &lt;em&gt;commodity prices&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; and cost &lt;em&gt;pressures&lt;/em&gt; in the &lt;em&gt;pipeline&lt;/em&gt; for &lt;em&gt;steel&lt;/em&gt; and &lt;em&gt;copper&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

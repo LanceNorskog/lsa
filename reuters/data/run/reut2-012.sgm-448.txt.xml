@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-448.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">42</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">issue</str>
+        <str name="text">payment</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">mcdougall</str>
-        <double name="strength">0.5000000000000013</double>
+        <str name="text">receive</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">equivalent</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">interim</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">group</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">dividend</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">final</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">addition</str>
+        <double name="strength">0.9730077661055201</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">For cash alternatives of more than 10 mln Avana shares, Morgan Grenfell, as agent for participants, will make a separate offer to purchase at 300p per share, net of expenses, up to 46.3 mln Ranks Hovis new shares to which such shareholders will be entitled under the increased offer.</str>
-        <int name="index">12</int>
+        <str name="text">Accepting Avana shareholders will also be entitled to receive Ranks Hovis's forecast net interim dividend of 2.65p for the financial year ending 5 September 1987.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">284</int>
+        <int name="end">163</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Ranks Hovis said that full acceptance of the increased offer would result in the issue of a maximum of 72.3 mln new Ranks Hovis shares or about 20 pct of the enlarged issued ordinary share capital of the company.</str>
-        <int name="index">7</int>
+        <str name="text">Avana shareholders will be entitled to receive and retain the net interim dividend of 5.25p per Avana share for the year ending 28 March 1987.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.9685862468844637</double>
+        <int name="end">143</int>
+        <double name="strength">0.9980486216453596</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Avana shares traded at 800p after the announcement, 32p up from last night's close of 768p.</str>
-        <int name="index">15</int>
-        <int name="start">0</int>
-        <int name="end">91</int>
-        <double name="strength">0.7217855619501723</double>
+        <str name="text">In addition, Ranks Hovis will make a further cash payment of 20p per Avana ordinary.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">85</int>
+        <double name="strength">0.974911420098941</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">For cash &lt;em&gt;alternatives&lt;/em&gt; of more than 10 mln &lt;em&gt;Avana shares, Morgan Grenfell,&lt;/em&gt; as &lt;em&gt;agent&lt;/em&gt; for &lt;em&gt;participants,&lt;/em&gt; will make a &lt;em&gt;separate offer&lt;/em&gt; to &lt;em&gt;purchase&lt;/em&gt; at 300p per &lt;em&gt;share,&lt;/em&gt; net of &lt;em&gt;expenses,&lt;/em&gt; up to 46.3 mln &lt;em&gt;Ranks Hovis&lt;/em&gt; new &lt;em&gt;shares&lt;/em&gt; to &lt;em&gt;which&lt;/em&gt; such &lt;em&gt;shareholders&lt;/em&gt; will be &lt;em&gt;entitled under&lt;/em&gt; the &lt;em&gt;increased offer&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">Accepting Avana &lt;em&gt;shareholders&lt;/em&gt; will also be entitled to &lt;em&gt;receive Ranks&lt;/em&gt; Hovis's forecast net &lt;em&gt;interim dividend&lt;/em&gt; of 2.65p for the &lt;em&gt;financial&lt;/em&gt; year ending 5 &lt;em&gt;September 1987&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ranks Hovis&lt;/em&gt; said that full &lt;em&gt;acceptance&lt;/em&gt; of the &lt;em&gt;increased offer would result&lt;/em&gt; in the &lt;em&gt;issue&lt;/em&gt; of a &lt;em&gt;maximum&lt;/em&gt; of 72.3 mln new &lt;em&gt;Ranks Hovis shares&lt;/em&gt; or &lt;em&gt;about 20&lt;/em&gt; pct of the &lt;em&gt;enlarged issued ordinary share capital&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">Avana &lt;em&gt;shareholders&lt;/em&gt; will be entitled to &lt;em&gt;receive&lt;/em&gt; and &lt;em&gt;retain&lt;/em&gt; the net &lt;em&gt;interim dividend&lt;/em&gt; of 5.25p per Avana &lt;em&gt;share&lt;/em&gt; for the year ending 28 &lt;em&gt;March 1987&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Avana shares traded&lt;/em&gt; at 800p &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;announcement, 3&lt;/em&gt;2p up from last &lt;em&gt;night&lt;/em&gt;'s &lt;em&gt;close&lt;/em&gt; of 768p.</str>
-        <int name="index">15</int>
+        <str name="text">In &lt;em&gt;addition, Ranks Hovis&lt;/em&gt; will make a &lt;em&gt;further&lt;/em&gt; cash &lt;em&gt;payment&lt;/em&gt; of 20p per &lt;em&gt;Avana ordinary&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

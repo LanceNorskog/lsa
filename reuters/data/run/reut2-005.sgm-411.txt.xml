@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-411.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">149</int>
+        <int name="count">101</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">provision</str>
+        <str name="text">restriction</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">statement</str>
-        <double name="strength">0.5</double>
+        <str name="text">controls</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">included</str>
-        <double name="strength">0.5</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">increased</str>
-        <double name="strength">0.5</double>
+        <str name="text">bankers</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">future</str>
-        <double name="strength">0.5</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">230</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The central bank said in a statement the measures included increased provisions for high-risk borrowers and a provision for future pension fund obligations.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">157</int>
-        <double name="strength">0.9398754295088378</double>
+        <str name="text">The Bank of Spain is relaxing exchange controls to help put Spanish banks on an equal footing with European Community competitors by the 1993 deadline for the ending of restrictions, a central bank spokesman said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">213</int>
+        <double name="strength">0.8451824068175349</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Spanish banks will also be allowed to expand their foreign currency funding, formerly obtainable through deposits, by issuing certificates of deposit, bonds and commercial paper.</str>
-        <int name="index">11</int>
+        <str name="text">The latest deregulation measures were welcomed by most bankers, in contrast to rulings issued earlier this month which imposed a 19 pct reserve requirement on new convertible peseta funds held by banks and freed short term deposit rates.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.9186889118370228</double>
+        <int name="end">238</int>
+        <double name="strength">0.8367340837105541</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;reserve requirement, which&lt;/em&gt; was &lt;em&gt;already&lt;/em&gt; in &lt;em&gt;place&lt;/em&gt; on &lt;em&gt;normal peseta deposits,&lt;/em&gt; was &lt;em&gt;intended&lt;/em&gt; to curb &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;foreign speculative capital which&lt;/em&gt; is &lt;em&gt;entering&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt; and &lt;em&gt;threatening&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;money supply growth target&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;reserve requirement,&lt;/em&gt; which was already in &lt;em&gt;place&lt;/em&gt; on &lt;em&gt;normal peseta deposits,&lt;/em&gt; was intended to curb &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;foreign speculative capital&lt;/em&gt; which is entering the &lt;em&gt;country&lt;/em&gt; and threatening the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;money supply growth target&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;central&lt;/em&gt; bank said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;measures included increased provisions&lt;/em&gt; for high-risk &lt;em&gt;borrowers&lt;/em&gt; and a &lt;em&gt;provision&lt;/em&gt; for &lt;em&gt;future pension&lt;/em&gt; fund &lt;em&gt;obligations&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The Bank of &lt;em&gt;Spain&lt;/em&gt; is relaxing &lt;em&gt;exchange controls&lt;/em&gt; to help put &lt;em&gt;Spanish banks&lt;/em&gt; on an &lt;em&gt;equal footing&lt;/em&gt; with &lt;em&gt;European Community competitors&lt;/em&gt; by the 1993 &lt;em&gt;deadline&lt;/em&gt; for the ending of &lt;em&gt;restrictions,&lt;/em&gt; a &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;spokesman said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Spanish banks&lt;/em&gt; will also be &lt;em&gt;allowed&lt;/em&gt; to &lt;em&gt;expand their foreign currency funding, formerly obtainable through deposits,&lt;/em&gt; by &lt;em&gt;issuing certificates&lt;/em&gt; of &lt;em&gt;deposit, bonds&lt;/em&gt; and &lt;em&gt;commercial paper&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">The latest &lt;em&gt;deregulation measures&lt;/em&gt; were welcomed by most &lt;em&gt;bankers,&lt;/em&gt; in &lt;em&gt;contrast&lt;/em&gt; to &lt;em&gt;rulings&lt;/em&gt; issued earlier this &lt;em&gt;month&lt;/em&gt; which imposed a 19 pct &lt;em&gt;reserve requirement&lt;/em&gt; on new &lt;em&gt;convertible peseta funds&lt;/em&gt; held by &lt;em&gt;banks&lt;/em&gt; and freed &lt;em&gt;short&lt;/em&gt; term &lt;em&gt;deposit rates&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

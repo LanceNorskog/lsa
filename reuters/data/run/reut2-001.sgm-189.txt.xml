@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-189.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">space</str>
+        <str name="text">contracts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">conservative</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">march</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">analyst</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">conference</str>
+        <double name="strength">0.940927607234482</double>
       </lst>
       <lst name="term">
-        <str name="text">predicting</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">previous</str>
+        <double name="strength">0.940927607234482</double>
       </lst>
       <lst name="term">
-        <str name="text">continuing</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">seven</str>
+        <double name="strength">0.940927607234482</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The floor space could be used for a purpose-built options market, but Chamberlain said that it was unlikely that the options market would need more than half of the available space.</str>
-        <int name="index">19</int>
+        <str name="text">Chamberlain said the daily average volume of contracts traded in February this year almost tripled to 53,056 from 19,034 in the same month last year, and further rapid growth was expected.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">182</int>
+        <int name="end">189</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The floor has been left almost empty in the wake of the recent regulatory changes in the equity and gilts (government bond) markets, which have encouraged a move to electronic off-floor trading.</str>
-        <int name="index">17</int>
-        <int name="start">0</int>
-        <int name="end">194</int>
-        <double name="strength">0.9746533349274407</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Chamberlain said the Stock Exchange aimed to consolidate the London options market's leading position in Europe, especially important with French and Swiss equity options trading planned to start this year.</str>
-        <int name="index">12</int>
+        <str name="text">He told a news conference that more options contracts were traded in 1986 than in the previous seven years of the market's existence.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.9690837348661665</double>
+        <int name="end">134</int>
+        <double name="strength">0.9206608199102032</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These would correspond to the eligible constituents of the FT-SE 100 share index.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">81</int>
+        <double name="strength">0.8311988918112336</double>
+        <int name="terms">5</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;floor space could&lt;/em&gt; be used for a &lt;em&gt;purpose-built options market,&lt;/em&gt; but &lt;em&gt;Chamberlain&lt;/em&gt; said that it was &lt;em&gt;unlikely&lt;/em&gt; that the &lt;em&gt;options market would&lt;/em&gt; need more than half of the &lt;em&gt;available space&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Chamberlain&lt;/em&gt; said the &lt;em&gt;daily average volume&lt;/em&gt; of &lt;em&gt;contracts&lt;/em&gt; traded in &lt;em&gt;February&lt;/em&gt; this year almost tripled to 53,056 from 19,034 in the same &lt;em&gt;month&lt;/em&gt; last year, and &lt;em&gt;further rapid growth&lt;/em&gt; was expected.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;floor&lt;/em&gt; has been left &lt;em&gt;almost empty&lt;/em&gt; in the wake of the &lt;em&gt;recent regulatory changes&lt;/em&gt; in the &lt;em&gt;equity&lt;/em&gt; and &lt;em&gt;gilts (government&lt;/em&gt; bond) &lt;em&gt;markets, which&lt;/em&gt; have &lt;em&gt;encouraged&lt;/em&gt; a move to &lt;em&gt;electronic&lt;/em&gt; off-&lt;em&gt;floor trading&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">He told a news &lt;em&gt;conference&lt;/em&gt; that more &lt;em&gt;options contracts&lt;/em&gt; were traded in 1986 than in the &lt;em&gt;previous seven years&lt;/em&gt; of the &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;existence&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chamberlain&lt;/em&gt; said the &lt;em&gt;Stock Exchange aimed&lt;/em&gt; to &lt;em&gt;consolidate&lt;/em&gt; the &lt;em&gt;London options market&lt;/em&gt;'s &lt;em&gt;leading position&lt;/em&gt; in &lt;em&gt;Europe, especially important&lt;/em&gt; with &lt;em&gt;French&lt;/em&gt; and &lt;em&gt;Swiss equity options trading planned&lt;/em&gt; to &lt;em&gt;start&lt;/em&gt; this year.</str>
-        <int name="index">12</int>
+        <str name="text">These would &lt;em&gt;correspond&lt;/em&gt; to the &lt;em&gt;eligible constituents&lt;/em&gt; of the FT-SE 100 &lt;em&gt;share index&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

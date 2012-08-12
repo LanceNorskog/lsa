@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-835.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">46</int>
       </lst>
       <lst name="terms">
-        <int name="count">180</int>
+        <int name="count">117</int>
       </lst>
       <lst name="stems">
-        <int name="count">111</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">coast</str>
+        <str name="text">think</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9991568514748879</double>
       </lst>
       <lst name="term">
-        <str name="text">shareholder</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">pettee</str>
+        <double name="strength">0.9801208474332026</double>
       </lst>
       <lst name="term">
-        <str name="text">board</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">arrangement</str>
+        <double name="strength">0.9793954074825628</double>
       </lst>
       <lst name="term">
-        <str name="text">aviation</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">sources</str>
+        <double name="strength">0.956858277241795</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">One way to accomplish that specific objective is to go out and acquire other airlines," said Andrew Kim of Eberstadt Fleming.</str>
+        <int name="index">29</int>
+        <int name="start">0</int>
+        <int name="end">125</int>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Some Wall street sources said the financier's USX plan was impacted by the cloud hanging over his adviser, Drexel Burnham Lambert Inc, because of Wall Street's insider trading scandal.</str>
         <int name="index">35</int>
         <int name="start">1</int>
         <int name="end">185</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8964690232640915</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the executive conceded a merged TWA-USAir would be a strong contender with USAir's east coast route system and planned west coast presence from PSA.</str>
-        <int name="index">39</int>
+        <str name="text">Market sources and analysts speculated that TWA chairman Carl Icahn made the offer in order to put his own airline into the takeover arena.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">153</int>
-        <double name="strength">0.9727672329047913</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Trans World Airlines Inc complicated the bidding for Piedmont Aviation Inc by offering either to buy Piedmont suitor USAir Group or, alternatively, to merge with Piedmont and USAir.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">181</int>
-        <double name="strength">0.9021416768645948</double>
+        <int name="end">140</int>
+        <double name="strength">0.8868173891308376</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some Wall &lt;em&gt;street sources&lt;/em&gt; said the &lt;em&gt;financier&lt;/em&gt;'s USX plan was &lt;em&gt;impacted&lt;/em&gt; by the &lt;em&gt;cloud hanging&lt;/em&gt; over his &lt;em&gt;adviser, Drexel Burnham Lambert&lt;/em&gt; Inc, &lt;em&gt;because&lt;/em&gt; of Wall &lt;em&gt;Street&lt;/em&gt;'s &lt;em&gt;insider trading scandal&lt;/em&gt;.</str>
+        <str name="text">One way to &lt;em&gt;accomplish&lt;/em&gt; that &lt;em&gt;specific objective&lt;/em&gt; is to go out and &lt;em&gt;acquire other airlines,"&lt;/em&gt; said Andrew Kim of &lt;em&gt;Eberstadt Fleming&lt;/em&gt;.</str>
+        <int name="index">29</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Some Wall &lt;em&gt;street sources&lt;/em&gt; said the &lt;em&gt;financier&lt;/em&gt;'s USX plan was impacted by the &lt;em&gt;cloud&lt;/em&gt; hanging over his &lt;em&gt;adviser, Drexel Burnham Lambert&lt;/em&gt; Inc, because of Wall &lt;em&gt;Street&lt;/em&gt;'s &lt;em&gt;insider trading scandal&lt;/em&gt;.</str>
         <int name="index">35</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the &lt;em&gt;executive conceded&lt;/em&gt; a &lt;em&gt;merged&lt;/em&gt; TWA-&lt;em&gt;USAir would&lt;/em&gt; be a &lt;em&gt;strong contender&lt;/em&gt; with &lt;em&gt;USAir&lt;/em&gt;'s east &lt;em&gt;coast route system&lt;/em&gt; and &lt;em&gt;planned&lt;/em&gt; west &lt;em&gt;coast presence&lt;/em&gt; from PSA.</str>
-        <int name="index">39</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Trans World Airlines&lt;/em&gt; Inc &lt;em&gt;complicated&lt;/em&gt; the &lt;em&gt;bidding&lt;/em&gt; for &lt;em&gt;Piedmont Aviation&lt;/em&gt; Inc by &lt;em&gt;offering either&lt;/em&gt; to buy &lt;em&gt;Piedmont suitor USAir Group&lt;/em&gt; or, &lt;em&gt;alternatively,&lt;/em&gt; to &lt;em&gt;merge&lt;/em&gt; with &lt;em&gt;Piedmont&lt;/em&gt; and &lt;em&gt;USAir&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Market sources&lt;/em&gt; and &lt;em&gt;analysts&lt;/em&gt; speculated that TWA &lt;em&gt;chairman&lt;/em&gt; Carl Icahn made the &lt;em&gt;offer&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to put his own &lt;em&gt;airline&lt;/em&gt; into the &lt;em&gt;takeover arena&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-373.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">named</str>
+        <str name="text">products</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exceed</str>
-        <double name="strength">0.8569010722631698</double>
+        <str name="text">tariffs</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">rising</str>
-        <double name="strength">0.8337083554690071</double>
+        <str name="text">funds</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">attribute</str>
-        <double name="strength">0.8318895010263018</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">surging</str>
-        <double name="strength">0.8294010321433842</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">277</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">"The latest government moves to open (the domestic) market, cut import tariffs and lift foreign exchange controls have achieved little success," he said.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">154</int>
-        <double name="strength">0.84902894962358</double>
+        <double name="strength">0.8231225684821809</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">About three billion of the funds were remitted through different channels, including the black market, since the start of this year, they said.</str>
-        <int name="index">11</int>
+        <str name="text">S. Dlrs of products, including machinery, power equipment, grains and precision tools.</str>
+        <int name="index">20</int>
         <int name="start">0</int>
-        <int name="end">143</int>
-        <double name="strength">0.8263994350607837</double>
+        <int name="end">86</int>
+        <double name="strength">0.7718149577291001</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Wang Chao-ming, vice &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;Council&lt;/em&gt; for &lt;em&gt;Economic Planning&lt;/em&gt; and &lt;em&gt;Development,&lt;/em&gt; said he &lt;em&gt;expects&lt;/em&gt; the &lt;em&gt;reserves&lt;/em&gt; to rise in the next few &lt;em&gt;months because&lt;/em&gt; of the &lt;em&gt;continuing&lt;/em&gt; high &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;exports&lt;/em&gt; and the &lt;em&gt;steady appreciation&lt;/em&gt; of the &lt;em&gt;local dollar against&lt;/em&gt; the U.</str>
+        <str name="text">Wang Chao-ming, vice &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;Council&lt;/em&gt; for &lt;em&gt;Economic Planning&lt;/em&gt; and &lt;em&gt;Development,&lt;/em&gt; said he expects the &lt;em&gt;reserves&lt;/em&gt; to rise in the next few &lt;em&gt;months&lt;/em&gt; because of the continuing high &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;exports&lt;/em&gt; and the &lt;em&gt;steady appreciation&lt;/em&gt; of the &lt;em&gt;local dollar&lt;/em&gt; against the U.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;latest government moves&lt;/em&gt; to open (the &lt;em&gt;domestic) market,&lt;/em&gt; cut &lt;em&gt;import tariffs&lt;/em&gt; and lift &lt;em&gt;foreign exchange controls&lt;/em&gt; have &lt;em&gt;achieved little success,"&lt;/em&gt; he said.</str>
+        <str name="text">"The latest &lt;em&gt;government&lt;/em&gt; moves to open (the &lt;em&gt;domestic) market,&lt;/em&gt; cut &lt;em&gt;import tariffs&lt;/em&gt; and lift &lt;em&gt;foreign exchange controls&lt;/em&gt; have achieved &lt;em&gt;little success,"&lt;/em&gt; he said.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;About three billion&lt;/em&gt; of the &lt;em&gt;funds&lt;/em&gt; were &lt;em&gt;remitted through different channels, including&lt;/em&gt; the &lt;em&gt;black market, since&lt;/em&gt; the &lt;em&gt;start&lt;/em&gt; of this year, they said.</str>
-        <int name="index">11</int>
+        <str name="text">S. Dlrs of &lt;em&gt;products,&lt;/em&gt; including &lt;em&gt;machinery, power equipment, grains&lt;/em&gt; and &lt;em&gt;precision tools&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

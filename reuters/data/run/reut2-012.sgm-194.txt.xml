@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-194.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">115</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">midnight</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">latest</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">gardner</str>
+        <double name="strength">0.9986518881316708</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">arbitrager</str>
+        <double name="strength">0.9986518881316702</double>
       </lst>
       <lst name="term">
-        <str name="text">question</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">parker</str>
+        <double name="strength">0.9986518881316663</double>
       </lst>
       <lst name="term">
-        <str name="text">shareholder</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9809884441448274</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Analysts said the acquisition could cost Emery earnings in the short term, but long term, after eliminating redundancies and selling other Purolator assets, it should boost Emery's profitability.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"This will make Emery a bigger factor in the light weight (delivery) business, but it will not make them a power house," said Douglas Arthur of Kidder, Peabody and Co.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">168</int>
-        <double name="strength">0.9944042326250335</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">E.F.Hutton LBO also declined comment on the Emery offer, but said it extended the expiration and withdrawal period on its offer to April six at midnight from today at midnight EST.</str>
-        <int name="index">19</int>
+        <str name="text">Analysts said the acquisition could cost Emery earnings in the short term, but long term, after eliminating redundancies and selling other Purolator assets, it should boost Emery's profitability.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">0.9595148070043454</double>
+        <int name="end">196</int>
+        <double name="strength">0.9258104828518439</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A spokesman for Gardner today said the former director had no contact with Emery, nor did he have any other buyers lined up for Purolator.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">139</int>
+        <double name="strength">0.8271777812179799</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;acquisition could&lt;/em&gt; cost &lt;em&gt;Emery earnings&lt;/em&gt; in the &lt;em&gt;short&lt;/em&gt; term, but long term, &lt;em&gt;after eliminating redundancies&lt;/em&gt; and &lt;em&gt;selling other Purolator assets,&lt;/em&gt; it &lt;em&gt;should boost Emery&lt;/em&gt;'s &lt;em&gt;profitability&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"This will make &lt;em&gt;Emery&lt;/em&gt; a &lt;em&gt;bigger factor&lt;/em&gt; in the &lt;em&gt;light weight (delivery) business,&lt;/em&gt; but it will not make them a &lt;em&gt;power house,"&lt;/em&gt; said &lt;em&gt;Douglas Arthur&lt;/em&gt; of &lt;em&gt;Kidder, Peabody&lt;/em&gt; and Co.</str>
+        <str name="text">"This will make &lt;em&gt;Emery&lt;/em&gt; a bigger &lt;em&gt;factor&lt;/em&gt; in the &lt;em&gt;light weight (delivery) business,&lt;/em&gt; but it will not make them a &lt;em&gt;power house,"&lt;/em&gt; said Douglas &lt;em&gt;Arthur&lt;/em&gt; of &lt;em&gt;Kidder, Peabody&lt;/em&gt; and Co.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">E.F.&lt;em&gt;Hutton&lt;/em&gt; LBO also &lt;em&gt;declined comment&lt;/em&gt; on the &lt;em&gt;Emery offer,&lt;/em&gt; but said it &lt;em&gt;extended&lt;/em&gt; the &lt;em&gt;expiration&lt;/em&gt; and &lt;em&gt;withdrawal period&lt;/em&gt; on its &lt;em&gt;offer&lt;/em&gt; to &lt;em&gt;April&lt;/em&gt; six at &lt;em&gt;midnight&lt;/em&gt; from &lt;em&gt;today&lt;/em&gt; at &lt;em&gt;midnight EST&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the &lt;em&gt;acquisition&lt;/em&gt; could cost &lt;em&gt;Emery earnings&lt;/em&gt; in the &lt;em&gt;short&lt;/em&gt; term, but long term, after eliminating &lt;em&gt;redundancies&lt;/em&gt; and selling &lt;em&gt;other Purolator assets,&lt;/em&gt; it should &lt;em&gt;boost&lt;/em&gt; Emery's &lt;em&gt;profitability&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;spokesman&lt;/em&gt; for &lt;em&gt;Gardner today&lt;/em&gt; said the &lt;em&gt;former director&lt;/em&gt; had no &lt;em&gt;contact&lt;/em&gt; with &lt;em&gt;Emery,&lt;/em&gt; nor did he have any &lt;em&gt;other buyers&lt;/em&gt; lined up for &lt;em&gt;Purolator&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

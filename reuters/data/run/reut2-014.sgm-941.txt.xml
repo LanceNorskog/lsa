@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-941.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">154</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">111</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">sharp</str>
+        <str name="text">measures</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">nations</str>
-        <double name="strength">1.0</double>
+        <str name="text">appreciation</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749462</double>
+        <str name="text">neighbours</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">buffeted</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">unfavourable</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">factors</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">A sharp oil price decline and sharp fluctuations of exchange and interest rates in 1986 produced a mixed economic performance by the Association of Southeast Asian Nations (ASEAN), a United Nations study said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">209</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The two countries, buffeted by unfavourable external factors in the past few years, were forced to curb aggregate domestic consumption demands last year to avoid severe balance of payments pressures and to resort to extensive commercial borrowings.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">249</int>
-        <double name="strength">0.9684365238447372</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Singapore economic revival was hampered by its own adjustment measures especially its two-year wage freeze enforced last April, a glut of its property market and depressed conditions in its ASEAN neighbours which hurt Singapore because they take about a quarter of its total exports.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">288</int>
-        <double name="strength">0.8522502883026358</double>
+        <double name="strength">0.7728952052466532</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It said the most favourable factor benefiting the three was the realignment of key currencies, especially the appreciation of the yen, which has resulted in the increased competitiveness of their exports against those from Japan.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">229</int>
+        <double name="strength">0.6889390784909318</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;sharp&lt;/em&gt; oil &lt;em&gt;price decline&lt;/em&gt; and &lt;em&gt;sharp fluctuations&lt;/em&gt; of &lt;em&gt;exchange&lt;/em&gt; and &lt;em&gt;interest rates&lt;/em&gt; in 1986 &lt;em&gt;produced&lt;/em&gt; a &lt;em&gt;mixed economic performance&lt;/em&gt; by the &lt;em&gt;Association&lt;/em&gt; of &lt;em&gt;Southeast Asian Nations (ASEAN),&lt;/em&gt; a &lt;em&gt;United Nations study said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The two &lt;em&gt;countries, buffeted&lt;/em&gt; by &lt;em&gt;unfavourable external factors&lt;/em&gt; in the past few &lt;em&gt;years,&lt;/em&gt; were &lt;em&gt;forced&lt;/em&gt; to curb &lt;em&gt;aggregate domestic consumption demands&lt;/em&gt; last year to &lt;em&gt;avoid severe balance&lt;/em&gt; of &lt;em&gt;payments pressures&lt;/em&gt; and to &lt;em&gt;resort&lt;/em&gt; to &lt;em&gt;extensive commercial borrowings&lt;/em&gt;.</str>
+        <str name="text">The two &lt;em&gt;countries,&lt;/em&gt; buffeted by &lt;em&gt;unfavourable external factors&lt;/em&gt; in the past few &lt;em&gt;years,&lt;/em&gt; were forced to curb &lt;em&gt;aggregate domestic consumption demands&lt;/em&gt; last year to &lt;em&gt;avoid severe balance&lt;/em&gt; of &lt;em&gt;payments pressures&lt;/em&gt; and to &lt;em&gt;resort&lt;/em&gt; to &lt;em&gt;extensive commercial borrowings&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Singapore economic revival&lt;/em&gt; was &lt;em&gt;hampered&lt;/em&gt; by its own &lt;em&gt;adjustment measures especially&lt;/em&gt; its two-year wage &lt;em&gt;freeze enforced&lt;/em&gt; last &lt;em&gt;April,&lt;/em&gt; a glut of its &lt;em&gt;property market&lt;/em&gt; and &lt;em&gt;depressed conditions&lt;/em&gt; in its &lt;em&gt;ASEAN neighbours which&lt;/em&gt; hurt &lt;em&gt;Singapore because&lt;/em&gt; they take &lt;em&gt;about&lt;/em&gt; a &lt;em&gt;quarter&lt;/em&gt; of its &lt;em&gt;total exports&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Singapore economic revival&lt;/em&gt; was hampered by its own &lt;em&gt;adjustment measures&lt;/em&gt; especially its two-year wage &lt;em&gt;freeze&lt;/em&gt; enforced last April, a glut of its &lt;em&gt;property market&lt;/em&gt; and &lt;em&gt;depressed conditions&lt;/em&gt; in its &lt;em&gt;ASEAN neighbours&lt;/em&gt; which hurt Singapore because they take about a &lt;em&gt;quarter&lt;/em&gt; of its &lt;em&gt;total exports&lt;/em&gt;.</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It said the most &lt;em&gt;favourable factor&lt;/em&gt; benefiting the &lt;em&gt;three&lt;/em&gt; was the &lt;em&gt;realignment&lt;/em&gt; of key &lt;em&gt;currencies,&lt;/em&gt; especially the &lt;em&gt;appreciation&lt;/em&gt; of the yen, which has resulted in the &lt;em&gt;increased competitiveness&lt;/em&gt; of their &lt;em&gt;exports&lt;/em&gt; against those from &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

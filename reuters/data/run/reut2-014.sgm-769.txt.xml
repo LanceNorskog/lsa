@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-769.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">147</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">because</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">depreciation</str>
-        <double name="strength">0.999999999999997</double>
+        <str name="text">damage</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">value</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">institute</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">correction</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">contempory</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">280</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Poehl said the Bundesbank had tolerated rapid money supply growth last year because the country enjoyed low inflation and because external factors, including low oil prices and favourable terms of trade, had given some extra leeway.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">0.941681667280837</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Poehl welcomed the so-called Louvre accord of monetary officials of major industrialized countries, saying the importance of the February 22 agreement to stabilize exchange rates had been underestimated.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.8905517203963019</double>
+        <double name="strength">0.9537043579992064</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Poehl said the Bundesbank had tolerated rapid money supply growth last year because the country enjoyed low inflation and because external factors, including low oil prices and favourable terms of trade, had given some extra leeway.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">0.9192504733892637</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said he &lt;em&gt;would&lt;/em&gt; have been &lt;em&gt;happy&lt;/em&gt; to have &lt;em&gt;brought forward&lt;/em&gt; five &lt;em&gt;billion marks&lt;/em&gt; of tax cuts now &lt;em&gt;planned&lt;/em&gt; for &lt;em&gt;January 1988&lt;/em&gt; to the &lt;em&gt;beginning&lt;/em&gt; of this year, but he said the &lt;em&gt;government faced political constraints getting&lt;/em&gt; such &lt;em&gt;measures through&lt;/em&gt; the &lt;em&gt;upper house&lt;/em&gt; of the West &lt;em&gt;German parliament&lt;/em&gt;.</str>
+        <str name="text">He said he would have been &lt;em&gt;happy&lt;/em&gt; to have brought forward five &lt;em&gt;billion marks&lt;/em&gt; of tax cuts now planned for &lt;em&gt;January 1988&lt;/em&gt; to the &lt;em&gt;beginning&lt;/em&gt; of this year, but he said the &lt;em&gt;government&lt;/em&gt; faced &lt;em&gt;political constraints&lt;/em&gt; getting such &lt;em&gt;measures&lt;/em&gt; through the &lt;em&gt;upper house&lt;/em&gt; of the West &lt;em&gt;German parliament&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Poehl&lt;/em&gt; said the &lt;em&gt;Bundesbank&lt;/em&gt; had &lt;em&gt;tolerated rapid money supply growth&lt;/em&gt; last year &lt;em&gt;because&lt;/em&gt; the &lt;em&gt;country enjoyed&lt;/em&gt; low &lt;em&gt;inflation&lt;/em&gt; and &lt;em&gt;because external factors, including&lt;/em&gt; low oil &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;favourable terms&lt;/em&gt; of &lt;em&gt;trade,&lt;/em&gt; had &lt;em&gt;given&lt;/em&gt; some &lt;em&gt;extra leeway&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Poehl&lt;/em&gt; welcomed the so-called &lt;em&gt;Louvre accord&lt;/em&gt; of &lt;em&gt;monetary officials&lt;/em&gt; of &lt;em&gt;major industrialized countries,&lt;/em&gt; saying the &lt;em&gt;importance&lt;/em&gt; of the &lt;em&gt;February 22 agreement&lt;/em&gt; to &lt;em&gt;stabilize exchange rates&lt;/em&gt; had been underestimated.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Poehl welcomed&lt;/em&gt; the so-&lt;em&gt;called Louvre accord&lt;/em&gt; of &lt;em&gt;monetary officials&lt;/em&gt; of &lt;em&gt;major industrialized countries, saying&lt;/em&gt; the &lt;em&gt;importance&lt;/em&gt; of the &lt;em&gt;February 22 agreement&lt;/em&gt; to &lt;em&gt;stabilize exchange rates&lt;/em&gt; had been &lt;em&gt;underestimated&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Poehl&lt;/em&gt; said the &lt;em&gt;Bundesbank&lt;/em&gt; had tolerated &lt;em&gt;rapid money supply growth&lt;/em&gt; last year because the &lt;em&gt;country&lt;/em&gt; enjoyed low &lt;em&gt;inflation&lt;/em&gt; and because &lt;em&gt;external factors,&lt;/em&gt; including low oil &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;favourable terms&lt;/em&gt; of &lt;em&gt;trade,&lt;/em&gt; had given some &lt;em&gt;extra leeway&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

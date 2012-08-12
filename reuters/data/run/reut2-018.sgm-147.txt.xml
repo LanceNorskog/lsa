@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-147.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">month</str>
+        <str name="text">problem</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">budget</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">deficit</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
         <str name="text">computer</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">talked</str>
-        <double name="strength">0.5000000000000064</double>
-      </lst>
-      <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.5000000000000064</double>
-      </lst>
-      <lst name="term">
-        <str name="text">prime</str>
-        <double name="strength">0.5000000000000064</double>
+        <str name="text">tokyo</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Imposed 100 pct import duties on personal computers, colour televisions and power tools, alleging that Japan had violated last September's bilateral agreement by selling computer chips at below fair market value.</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">215</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. Could reasonably ask its allies to take action to stimulate the world economy without a bold American initiative to reduce the size of the federal budget deficit, Shultz said moves were already underway to tackle the problem.</str>
         <int name="index">19</int>
         <int name="start">0</int>
         <int name="end">228</int>
-        <double name="strength">0.938336001949593</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"These sanctions were undertaken on the basis of an agreement that had been reached between the United States and Japan on various sale practices and prices relating to the chip market.</str>
-        <int name="index">11</int>
+        <str name="text">Speaking in a televised news conference linking several European capitals, Shultz said it was heartening that the Japanese had confronted the problem of stimulating domestic and global demand.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">186</int>
-        <double name="strength">0.8436105927006807</double>
+        <int name="end">193</int>
+        <double name="strength">0.8367342450055206</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Would not lift the selective economic sanctions it imposed on Japanese imports in April until Tokyo changed its sales policies concerning computer microchips.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.8138537766441133</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Imposed 100&lt;/em&gt; pct &lt;em&gt;import duties&lt;/em&gt; on &lt;em&gt;personal computers, colour televisions&lt;/em&gt; and &lt;em&gt;power tools, alleging&lt;/em&gt; that &lt;em&gt;Japan&lt;/em&gt; had &lt;em&gt;violated&lt;/em&gt; last &lt;em&gt;September&lt;/em&gt;'s &lt;em&gt;bilateral agreement&lt;/em&gt; by &lt;em&gt;selling computer chips&lt;/em&gt; at &lt;em&gt;below&lt;/em&gt; fair &lt;em&gt;market value&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Could reasonably&lt;/em&gt; ask its &lt;em&gt;allies&lt;/em&gt; to take &lt;em&gt;action&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;world economy without&lt;/em&gt; a bold &lt;em&gt;American initiative&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the size of the &lt;em&gt;federal budget deficit, Shultz&lt;/em&gt; said &lt;em&gt;moves&lt;/em&gt; were &lt;em&gt;already underway&lt;/em&gt; to &lt;em&gt;tackle&lt;/em&gt; the &lt;em&gt;problem&lt;/em&gt;.</str>
+        <str name="text">S. Could reasonably ask its &lt;em&gt;allies&lt;/em&gt; to take &lt;em&gt;action&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;world economy&lt;/em&gt; without a bold &lt;em&gt;American initiative&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the size of the &lt;em&gt;federal budget deficit, Shultz&lt;/em&gt; said &lt;em&gt;moves&lt;/em&gt; were already underway to &lt;em&gt;tackle&lt;/em&gt; the &lt;em&gt;problem&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"These sanctions&lt;/em&gt; were &lt;em&gt;undertaken&lt;/em&gt; on the &lt;em&gt;basis&lt;/em&gt; of an &lt;em&gt;agreement&lt;/em&gt; that had been &lt;em&gt;reached between&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; on &lt;em&gt;various&lt;/em&gt; sale &lt;em&gt;practices&lt;/em&gt; and &lt;em&gt;prices relating&lt;/em&gt; to the chip &lt;em&gt;market&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Speaking in a &lt;em&gt;televised&lt;/em&gt; news &lt;em&gt;conference&lt;/em&gt; linking &lt;em&gt;several European capitals, Shultz&lt;/em&gt; said it was heartening that the &lt;em&gt;Japanese&lt;/em&gt; had confronted the &lt;em&gt;problem&lt;/em&gt; of &lt;em&gt;stimulating domestic&lt;/em&gt; and &lt;em&gt;global demand&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Would not lift the &lt;em&gt;selective economic sanctions&lt;/em&gt; it imposed on &lt;em&gt;Japanese imports&lt;/em&gt; in &lt;em&gt;April&lt;/em&gt; until &lt;em&gt;Tokyo&lt;/em&gt; changed its &lt;em&gt;sales policies&lt;/em&gt; concerning &lt;em&gt;computer microchips&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

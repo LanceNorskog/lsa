@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">35</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-503.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">46</int>
       </lst>
       <lst name="terms">
-        <int name="count">204</int>
+        <int name="count">142</int>
       </lst>
       <lst name="stems">
-        <int name="count">127</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">equipment</str>
+        <str name="text">jacobs</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tender</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">speculate</str>
+        <double name="strength">0.9999604826487348</double>
       </lst>
       <lst name="term">
-        <str name="text">board</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">think</str>
+        <double name="strength">0.9999547410553564</double>
       </lst>
       <lst name="term">
-        <str name="text">services</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">transaction</str>
+        <double name="strength">0.9999150268932707</double>
       </lst>
       <lst name="term">
-        <str name="text">leading</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9745161493915758</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">GAF said it would make a tender offer following a merger agreement approved by the Borg-WArner board and conditioned on the board's recommendation of the tender offer and merger.</str>
-        <int name="index">27</int>
-        <int name="start">0</int>
-        <int name="end">178</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">GAF's net earnings included an after tax gain of 201.4 mln from its participation in a Union Carbide exchange offer, a special union carbide dividend, and the sale of its Union Carbide shares.</str>
-        <int name="index">44</int>
-        <int name="start">1</int>
-        <int name="end">193</int>
-        <double name="strength">0.8338034140690593</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Analysts predicted feisty GAF Chairman Samuel Heyman will stage a tough campaign to gain control of Borg-Warner so he can add its profitable plastics and chemical business to GAF.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.7735588328131918</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The battle, however, has heated up, and the range of breakup values on Wall Street span from the current market price to almost 60 dlrs per share.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.8235602800777213</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Analysts who know GAF predict Heyman will either end up with Borg-Warner or enrich his chemicals and building materials company in some other way.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.7821802945071414</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">GAF said it &lt;em&gt;would&lt;/em&gt; make a &lt;em&gt;tender offer following&lt;/em&gt; a &lt;em&gt;merger agreement approved&lt;/em&gt; by the Borg-&lt;em&gt;WArner board&lt;/em&gt; and &lt;em&gt;conditioned&lt;/em&gt; on the &lt;em&gt;board&lt;/em&gt;'s &lt;em&gt;recommendation&lt;/em&gt; of the &lt;em&gt;tender offer&lt;/em&gt; and &lt;em&gt;merger&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">GAF's net &lt;em&gt;earnings included&lt;/em&gt; an &lt;em&gt;after&lt;/em&gt; tax gain of 201.4 mln from its &lt;em&gt;participation&lt;/em&gt; in a &lt;em&gt;Union Carbide exchange offer,&lt;/em&gt; a &lt;em&gt;special union carbide dividend,&lt;/em&gt; and the sale of its &lt;em&gt;Union Carbide shares&lt;/em&gt;.</str>
-        <int name="index">44</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts predicted feisty&lt;/em&gt; GAF &lt;em&gt;Chairman Samuel Heyman&lt;/em&gt; will &lt;em&gt;stage&lt;/em&gt; a &lt;em&gt;tough campaign&lt;/em&gt; to gain &lt;em&gt;control&lt;/em&gt; of Borg-&lt;em&gt;Warner&lt;/em&gt; so he can add its &lt;em&gt;profitable plastics&lt;/em&gt; and &lt;em&gt;chemical business&lt;/em&gt; to GAF.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; predicted &lt;em&gt;feisty&lt;/em&gt; GAF &lt;em&gt;Chairman Samuel Heyman&lt;/em&gt; will &lt;em&gt;stage&lt;/em&gt; a &lt;em&gt;tough campaign&lt;/em&gt; to gain &lt;em&gt;control&lt;/em&gt; of Borg-&lt;em&gt;Warner&lt;/em&gt; so he can add its &lt;em&gt;profitable plastics&lt;/em&gt; and &lt;em&gt;chemical business&lt;/em&gt; to GAF.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;battle,&lt;/em&gt; however, has heated up, and the &lt;em&gt;range&lt;/em&gt; of &lt;em&gt;breakup values&lt;/em&gt; on Wall &lt;em&gt;Street&lt;/em&gt; span from the &lt;em&gt;current market price&lt;/em&gt; to almost 60 dlrs per &lt;em&gt;share&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; who know GAF &lt;em&gt;predict Heyman&lt;/em&gt; will either end up with Borg-&lt;em&gt;Warner&lt;/em&gt; or &lt;em&gt;enrich&lt;/em&gt; his &lt;em&gt;chemicals&lt;/em&gt; and &lt;em&gt;building materials company&lt;/em&gt; in some &lt;em&gt;other way&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

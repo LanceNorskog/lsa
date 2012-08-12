@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-415.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">growth</str>
+        <str name="text">american</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">michael</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">advantage</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">significant</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">compete</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">larry</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">deliveries</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Natural gas is not free to compete," said Larry Makovich, director of utilities service at Data Resources Inc, "problems on pipeline open access and take-or-pay liabilities still weigh heavily on end-users' decision to switch to natural gas."</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">244</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Michael German, an economist with the American Gas Association, said while a significant amount of gas was now replacing oil in dual-fuel boilers, the progress of expanding the marketshare of gas was slow.</str>
-        <int name="index">4</int>
-        <int name="start">2</int>
-        <int name="end">207</int>
-        <double name="strength">0.8244121417703111</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Michael German of AGA agreed and said, "Nevertheless, outlet for several hundred billion cubic feet of gas a year is significant in a glutted market."</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">151</int>
-        <double name="strength">0.8187894869605545</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AGA's German said that while industrial consumers were concerned with regulatory issues in their long-range capital investment decisions, in the dual-fuel boiler market relied on spot purchases.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.9967616876848892</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Demand for natural gas has failed to grow in proportion to the decline in oil deliveries because of concerns over unresolved regulatory issues in the United States, said industry analysts and gas utility company sources.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">220</int>
+        <double name="strength">0.9752853704477299</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Natural&lt;/em&gt; gas is not free to &lt;em&gt;compete,"&lt;/em&gt; said &lt;em&gt;Larry Makovich, director&lt;/em&gt; of &lt;em&gt;utilities service&lt;/em&gt; at Data &lt;em&gt;Resources&lt;/em&gt; Inc, "&lt;em&gt;problems&lt;/em&gt; on &lt;em&gt;pipeline&lt;/em&gt; open &lt;em&gt;access&lt;/em&gt; and take-or-pay &lt;em&gt;liabilities still weigh heavily&lt;/em&gt; on end-&lt;em&gt;users' decision&lt;/em&gt; to &lt;em&gt;switch&lt;/em&gt; to &lt;em&gt;natural gas.&lt;/em&gt;"</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Michael German,&lt;/em&gt; an &lt;em&gt;economist&lt;/em&gt; with the &lt;em&gt;American&lt;/em&gt; Gas &lt;em&gt;Association,&lt;/em&gt; said &lt;em&gt;while&lt;/em&gt; a &lt;em&gt;significant amount&lt;/em&gt; of gas was now &lt;em&gt;replacing&lt;/em&gt; oil in dual-fuel &lt;em&gt;boilers,&lt;/em&gt; the &lt;em&gt;progress&lt;/em&gt; of &lt;em&gt;expanding&lt;/em&gt; the &lt;em&gt;marketshare&lt;/em&gt; of gas was slow.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Michael German&lt;/em&gt; of AGA &lt;em&gt;agreed&lt;/em&gt; and said, "&lt;em&gt;Nevertheless, outlet&lt;/em&gt; for &lt;em&gt;several hundred billion cubic&lt;/em&gt; feet of gas a year is &lt;em&gt;significant&lt;/em&gt; in a &lt;em&gt;glutted market.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Michael German&lt;/em&gt; of AGA agreed and said, "Nevertheless, &lt;em&gt;outlet&lt;/em&gt; for &lt;em&gt;several hundred billion cubic&lt;/em&gt; feet of gas a year is &lt;em&gt;significant&lt;/em&gt; in a &lt;em&gt;glutted market.&lt;/em&gt;"</str>
         <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AGA's &lt;em&gt;German&lt;/em&gt; said that while &lt;em&gt;industrial consumers&lt;/em&gt; were concerned with &lt;em&gt;regulatory issues&lt;/em&gt; in their long-&lt;em&gt;range capital investment decisions,&lt;/em&gt; in the dual-fuel &lt;em&gt;boiler market&lt;/em&gt; relied on spot &lt;em&gt;purchases&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Demand&lt;/em&gt; for &lt;em&gt;natural&lt;/em&gt; gas has failed to grow in &lt;em&gt;proportion&lt;/em&gt; to the &lt;em&gt;decline&lt;/em&gt; in oil &lt;em&gt;deliveries&lt;/em&gt; because of &lt;em&gt;concerns&lt;/em&gt; over &lt;em&gt;unresolved regulatory issues&lt;/em&gt; in the United &lt;em&gt;States,&lt;/em&gt; said &lt;em&gt;industry analysts&lt;/em&gt; and gas &lt;em&gt;utility company sources&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

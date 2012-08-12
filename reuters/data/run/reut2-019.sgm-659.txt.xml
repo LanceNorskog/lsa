@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-659.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">189</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">127</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">world</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">really</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">things</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">opposition</str>
-        <double name="strength">0.9999999999999971</double>
+        <str name="text">service</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">earlier</str>
-        <double name="strength">0.9999999999999947</double>
+        <str name="text">package</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.5590169943749447</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">He cautioned Congress about the political repercussions of certain moves, such as raising excise taxes on beer, cigarettes or telephone service, or raising corporate or personal income tax rates.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">196</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">After returning to the United States from the economic summit in Venice earlier this month, President Reagan revived an earlier unsuccessful campaign for budget reform, calling for a constitutional amendment requiring a balanced budget and the power -- called a "line-item veto" -- to block individual items in congressional spending bills.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">341</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9190024350549942</double>
+        <int name="terms">20</int>
       </lst>
       <lst name="sentence">
         <str name="text">Miller is in Beaver Creek attending the sixth annual World Forum, a gathering of current and former government officials and business representatives discussing world economic and political issues.</str>
         <int name="index">28</int>
         <int name="start">0</int>
         <int name="end">197</int>
-        <double name="strength">0.8975286123723786</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">What they don't really realize is that the political opposition they are going to feel to excise taxes is going to be a lot hotter tahn the political opposition to user fees, in certain ways, or asset sales," he continued.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">222</int>
-        <double name="strength">0.7461626158830388</double>
+        <double name="strength">0.8979766679480555</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After returning&lt;/em&gt; to the &lt;em&gt;United States&lt;/em&gt; from the &lt;em&gt;economic summit&lt;/em&gt; in &lt;em&gt;Venice earlier&lt;/em&gt; this &lt;em&gt;month, President Reagan revived&lt;/em&gt; an &lt;em&gt;earlier unsuccessful campaign&lt;/em&gt; for &lt;em&gt;budget reform, calling&lt;/em&gt; for a &lt;em&gt;constitutional amendment requiring&lt;/em&gt; a &lt;em&gt;balanced budget&lt;/em&gt; and the &lt;em&gt;power -- called&lt;/em&gt; a "line-item veto" -- to &lt;em&gt;block individual items&lt;/em&gt; in &lt;em&gt;congressional spending bills&lt;/em&gt;.</str>
+        <str name="text">He cautioned &lt;em&gt;Congress&lt;/em&gt; about the &lt;em&gt;political repercussions&lt;/em&gt; of &lt;em&gt;certain moves,&lt;/em&gt; such as raising &lt;em&gt;excise taxes&lt;/em&gt; on beer, &lt;em&gt;cigarettes&lt;/em&gt; or &lt;em&gt;telephone service,&lt;/em&gt; or raising &lt;em&gt;corporate&lt;/em&gt; or &lt;em&gt;personal income&lt;/em&gt; tax &lt;em&gt;rates&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After returning to the United &lt;em&gt;States&lt;/em&gt; from the &lt;em&gt;economic summit&lt;/em&gt; in &lt;em&gt;Venice&lt;/em&gt; earlier this &lt;em&gt;month, President&lt;/em&gt; Reagan revived an earlier &lt;em&gt;unsuccessful campaign&lt;/em&gt; for &lt;em&gt;budget reform,&lt;/em&gt; calling for a &lt;em&gt;constitutional amendment&lt;/em&gt; requiring a &lt;em&gt;balanced budget&lt;/em&gt; and the &lt;em&gt;power --&lt;/em&gt; called a "line-item veto" -- to &lt;em&gt;block individual items&lt;/em&gt; in &lt;em&gt;congressional spending bills&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Miller&lt;/em&gt; is in &lt;em&gt;Beaver Creek attending&lt;/em&gt; the &lt;em&gt;sixth annual World Forum,&lt;/em&gt; a &lt;em&gt;gathering&lt;/em&gt; of &lt;em&gt;current&lt;/em&gt; and &lt;em&gt;former government officials&lt;/em&gt; and &lt;em&gt;business representatives discussing world economic&lt;/em&gt; and &lt;em&gt;political issues&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Miller&lt;/em&gt; is in &lt;em&gt;Beaver Creek&lt;/em&gt; attending the &lt;em&gt;sixth annual World Forum,&lt;/em&gt; a &lt;em&gt;gathering&lt;/em&gt; of &lt;em&gt;current&lt;/em&gt; and &lt;em&gt;former government officials&lt;/em&gt; and &lt;em&gt;business representatives&lt;/em&gt; discussing &lt;em&gt;world economic&lt;/em&gt; and &lt;em&gt;political issues&lt;/em&gt;.</str>
         <int name="index">28</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">What they don't &lt;em&gt;really realize&lt;/em&gt; is that the &lt;em&gt;political opposition&lt;/em&gt; they are &lt;em&gt;going&lt;/em&gt; to feel to &lt;em&gt;excise taxes&lt;/em&gt; is &lt;em&gt;going&lt;/em&gt; to be a lot &lt;em&gt;hotter&lt;/em&gt; tahn the &lt;em&gt;political opposition&lt;/em&gt; to user fees, in &lt;em&gt;certain&lt;/em&gt; ways, or &lt;em&gt;asset sales,"&lt;/em&gt; he &lt;em&gt;continued&lt;/em&gt;.</str>
-        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

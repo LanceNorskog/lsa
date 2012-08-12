@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-934.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">75</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">business</str>
+        <str name="text">worldwide</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">operate</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">development</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">manufacture</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">criticized</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">division</str>
+        <double name="strength">0.9475739487142976</double>
       </lst>
       <lst name="term">
-        <str name="text">moving</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">retain</str>
+        <double name="strength">0.9475739487142972</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Lucente, an IBM vice president and group executive of the Information Systems Group, said in a statement, "This is an important step toward providing a single IBM marketing and service organization to increase our focus on our customers' telecommunications products needs."</str>
-        <int name="index">7</int>
-        <int name="start">0</int>
-        <int name="end">273</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">IBM acquired Rolm, a Santa Clara, Calif.-based maker of telephone swichboards and other telecommunications equipment, in 1984.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">127</int>
-        <double name="strength">0.9620532276508349</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Analysts in the past have criticized IBM for not moving faster to integrate Rolm's telecommunications products with its computer systems.</str>
-        <int name="index">5</int>
+        <str name="text">Lucente, an IBM vice president and group executive of the Information Systems Group, said in a statement, "This is an important step toward providing a single IBM marketing and service organization to increase our focus on our customers' telecommunications products needs."</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">273</int>
+        <double name="strength">0.8439483920934912</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time, IBM said its Communications Products Division will continue to direct the worldwide development and U.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">138</int>
-        <double name="strength">0.7784719350127559</double>
+        <int name="end">121</int>
+        <double name="strength">0.6549862544392309</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Lucente,&lt;/em&gt; an IBM vice &lt;em&gt;president&lt;/em&gt; and &lt;em&gt;group executive&lt;/em&gt; of the &lt;em&gt;Information Systems Group,&lt;/em&gt; said in a &lt;em&gt;statement, &lt;/em&gt;"This is an &lt;em&gt;important&lt;/em&gt; step &lt;em&gt;toward providing&lt;/em&gt; a &lt;em&gt;single&lt;/em&gt; IBM &lt;em&gt;marketing&lt;/em&gt; and &lt;em&gt;service organization&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; our &lt;em&gt;focus&lt;/em&gt; on our &lt;em&gt;customers' telecommunications products needs.&lt;/em&gt;"</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">IBM &lt;em&gt;acquired&lt;/em&gt; Rolm, a &lt;em&gt;Santa Clara, Calif.-based maker&lt;/em&gt; of &lt;em&gt;telephone swichboards&lt;/em&gt; and &lt;em&gt;other telecommunications equipment, in 1984&lt;/em&gt;.</str>
+        <str name="text">IBM acquired Rolm, a &lt;em&gt;Santa Clara, Calif.&lt;/em&gt;-based &lt;em&gt;maker&lt;/em&gt; of &lt;em&gt;telephone swichboards&lt;/em&gt; and &lt;em&gt;other telecommunications equipment, in 1984&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; in the past have &lt;em&gt;criticized&lt;/em&gt; IBM for not &lt;em&gt;moving faster&lt;/em&gt; to &lt;em&gt;integrate&lt;/em&gt; Rolm's &lt;em&gt;telecommunications products&lt;/em&gt; with its &lt;em&gt;computer systems&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Lucente,&lt;/em&gt; an IBM vice &lt;em&gt;president&lt;/em&gt; and &lt;em&gt;group executive&lt;/em&gt; of the &lt;em&gt;Information Systems Group,&lt;/em&gt; said in a &lt;em&gt;statement, &lt;/em&gt;"This is an &lt;em&gt;important&lt;/em&gt; step toward providing a &lt;em&gt;single&lt;/em&gt; IBM &lt;em&gt;marketing&lt;/em&gt; and &lt;em&gt;service organization&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; our &lt;em&gt;focus&lt;/em&gt; on our &lt;em&gt;customers' telecommunications products needs.&lt;/em&gt;"</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time, IBM said its &lt;em&gt;Communications Products Division&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;direct&lt;/em&gt; the &lt;em&gt;worldwide development&lt;/em&gt; and U.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

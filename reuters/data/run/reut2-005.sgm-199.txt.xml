@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-199.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">192</int>
+        <int name="count">131</int>
       </lst>
       <lst name="stems">
-        <int name="count">132</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">major</str>
+        <str name="text">prosecutors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.9999999999999991</double>
-      </lst>
-      <lst name="term">
-        <str name="text">hungarian</str>
-        <double name="strength">0.5590169943749489</double>
-      </lst>
-      <lst name="term">
-        <str name="text">longer</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">investigate</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
         <str name="text">dollars</str>
-        <double name="strength">0.5527707983925663</double>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">board</str>
+        <double name="strength">0.9877415447956257</double>
+      </lst>
+      <lst name="term">
+        <str name="text">involve</str>
+        <double name="strength">0.987741544795625</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Being one of Germany's most diversified multi-nationals, VW has exposure in a large number of currencies and dealt in these with most banks in Frankfurt and also abroad, sometimes through currency brokers, although it has the reputation of doing relatively little hedging, currency sources said.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">296</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Selowksy's resignation followed a VW announcement on Friday that foreign exchange chief Burkhard Junger had been dismissed and Guenther Borchert, head of the financial transfer department, had been suspended along with Siegfried Mueller, head of the central cash and currency clearing.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">286</int>
-        <double name="strength">0.9534430588819175</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Der Spiegel magazine said VW financial controllers discovered the uncovered positions on February 18 when VW expected a currency forward contract with the Hungarian National Bank to mature, but Hungarian bank officials said they knew nothing of the transaction and the supposed contracts were forgeries.</str>
-        <int name="index">11</int>
+        <str name="text">BKA has the mandate to handle criminal cases that may involve foreign police forces or supranational services such as Interpol.</str>
+        <int name="index">25</int>
         <int name="start">1</int>
-        <int name="end">304</int>
-        <double name="strength">0.864380012625787</double>
+        <int name="end">128</int>
+        <double name="strength">0.7798248288869367</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW Supervisory board chairman Karl Gustaf Ratjen said entire data tapes had been erased and programs altered in forged transactions.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.7767256894339304</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Being&lt;/em&gt; one of &lt;em&gt;Germany&lt;/em&gt;'s most &lt;em&gt;diversified multi-nationals,&lt;/em&gt; VW has &lt;em&gt;exposure&lt;/em&gt; in a &lt;em&gt;large number&lt;/em&gt; of &lt;em&gt;currencies&lt;/em&gt; and &lt;em&gt;dealt&lt;/em&gt; in &lt;em&gt;these&lt;/em&gt; with most &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;Frankfurt&lt;/em&gt; and also &lt;em&gt;abroad, sometimes through currency brokers, although&lt;/em&gt; it has the &lt;em&gt;reputation&lt;/em&gt; of &lt;em&gt;doing relatively little hedging, currency sources said&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Selowksy&lt;/em&gt;'s &lt;em&gt;resignation followed&lt;/em&gt; a VW &lt;em&gt;announcement&lt;/em&gt; on &lt;em&gt;Friday&lt;/em&gt; that &lt;em&gt;foreign exchange chief Burkhard Junger&lt;/em&gt; had been &lt;em&gt;dismissed&lt;/em&gt; and &lt;em&gt;Guenther Borchert,&lt;/em&gt; head of the &lt;em&gt;financial transfer department,&lt;/em&gt; had been &lt;em&gt;suspended along&lt;/em&gt; with &lt;em&gt;Siegfried Mueller,&lt;/em&gt; head of the &lt;em&gt;central&lt;/em&gt; cash and &lt;em&gt;currency clearing&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Selowksy&lt;/em&gt;'s &lt;em&gt;resignation&lt;/em&gt; followed a VW &lt;em&gt;announcement&lt;/em&gt; on &lt;em&gt;Friday&lt;/em&gt; that &lt;em&gt;foreign exchange chief Burkhard Junger&lt;/em&gt; had been dismissed and &lt;em&gt;Guenther Borchert,&lt;/em&gt; head of the &lt;em&gt;financial transfer department,&lt;/em&gt; had been suspended along with &lt;em&gt;Siegfried Mueller,&lt;/em&gt; head of the &lt;em&gt;central&lt;/em&gt; cash and &lt;em&gt;currency clearing&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Der &lt;em&gt;Spiegel magazine&lt;/em&gt; said VW &lt;em&gt;financial controllers discovered&lt;/em&gt; the &lt;em&gt;uncovered positions&lt;/em&gt; on &lt;em&gt;February 18&lt;/em&gt; when VW &lt;em&gt;expected&lt;/em&gt; a &lt;em&gt;currency forward contract&lt;/em&gt; with the &lt;em&gt;Hungarian National&lt;/em&gt; Bank to &lt;em&gt;mature,&lt;/em&gt; but &lt;em&gt;Hungarian&lt;/em&gt; bank &lt;em&gt;officials&lt;/em&gt; said they knew &lt;em&gt;nothing&lt;/em&gt; of the &lt;em&gt;transaction&lt;/em&gt; and the &lt;em&gt;supposed contracts&lt;/em&gt; were &lt;em&gt;forgeries&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">BKA has the &lt;em&gt;mandate&lt;/em&gt; to &lt;em&gt;handle criminal cases&lt;/em&gt; that may &lt;em&gt;involve foreign police forces&lt;/em&gt; or &lt;em&gt;supranational services&lt;/em&gt; such as &lt;em&gt;Interpol&lt;/em&gt;.</str>
+        <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">VW &lt;em&gt;Supervisory board chairman&lt;/em&gt; Karl &lt;em&gt;Gustaf Ratjen&lt;/em&gt; said &lt;em&gt;entire&lt;/em&gt; data &lt;em&gt;tapes&lt;/em&gt; had been erased and &lt;em&gt;programs&lt;/em&gt; altered in &lt;em&gt;forged transactions&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

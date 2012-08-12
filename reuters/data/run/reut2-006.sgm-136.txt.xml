@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-136.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">88</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">bankers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">decision</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">expect</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forwarded</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">issues</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">final</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">emirates</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">approval</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">include</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The general assembly of the Gulf Investment Corporation met in Abu Dhabi earlier under the chairmanship of Bahrain's Finance and National Economy Minister, Ibrahim Abdul-Karim</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">176</int>
+        <str name="text">Saudi Arabia, Bahrain, Qatar and the UAE are linked in theory to the International Monetary Fund's basket of currencies -- the special drawing right (SDR) -- but in practice to the dollar.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Opening the meeting, Ahmed al-Tayer, the UAE's Minister of State for Finance and Industry, said implementation of joint economic agreements "is increasingly linking the interests of GCC citizens together."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">206</int>
-        <double name="strength">0.9673663553016764</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">They said issues to be discussed by the ministers from Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates (UAE) would include a recommendation by central bank governors on a common currency exchange rate.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.9436111885872154</double>
+        <double name="strength">0.9891324288462008</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The general assembly of the Gulf Investment Corporation met in Abu Dhabi earlier under the chairmanship of Bahrain's Finance and National Economy Minister, Ibrahim Abdul-Karim</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">0.9848323735385691</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;general assembly&lt;/em&gt; of the Gulf &lt;em&gt;Investment Corporation&lt;/em&gt; met in Abu &lt;em&gt;Dhabi earlier under&lt;/em&gt; the &lt;em&gt;chairmanship&lt;/em&gt; of &lt;em&gt;Bahrain&lt;/em&gt;'s &lt;em&gt;Finance&lt;/em&gt; and &lt;em&gt;National Economy Minister, Ibrahim Abdul-Kari&lt;/em&gt;m</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Saudi Arabia, Bahrain, Qatar&lt;/em&gt; and the UAE are linked in &lt;em&gt;theory&lt;/em&gt; to the &lt;em&gt;International Monetary&lt;/em&gt; Fund's &lt;em&gt;basket&lt;/em&gt; of &lt;em&gt;currencies --&lt;/em&gt; the &lt;em&gt;special drawing right &lt;/em&gt;(SDR) -- but in &lt;em&gt;practice&lt;/em&gt; to the &lt;em&gt;dollar&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Opening&lt;/em&gt; the &lt;em&gt;meeting, Ahmed&lt;/em&gt; al-&lt;em&gt;Tayer,&lt;/em&gt; the UAE's &lt;em&gt;Minister&lt;/em&gt; of &lt;em&gt;State&lt;/em&gt; for &lt;em&gt;Finance&lt;/em&gt; and &lt;em&gt;Industry,&lt;/em&gt; said &lt;em&gt;implementation&lt;/em&gt; of &lt;em&gt;joint economic agreements &lt;/em&gt;"is &lt;em&gt;increasingly linking&lt;/em&gt; the &lt;em&gt;interests&lt;/em&gt; of GCC &lt;em&gt;citizens together.&lt;/em&gt;"</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">They said &lt;em&gt;issues&lt;/em&gt; to be &lt;em&gt;discussed&lt;/em&gt; by the &lt;em&gt;ministers&lt;/em&gt; from &lt;em&gt;Bahrain, Kuwait,&lt;/em&gt; Oman, &lt;em&gt;Qatar, Saudi Arabia&lt;/em&gt; and the &lt;em&gt;United&lt;/em&gt; Arab &lt;em&gt;Emirates &lt;/em&gt;(UAE) &lt;em&gt;would include&lt;/em&gt; a &lt;em&gt;recommendation&lt;/em&gt; by &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; on a &lt;em&gt;common currency exchange rate&lt;/em&gt;.</str>
+        <str name="text">They said &lt;em&gt;issues&lt;/em&gt; to be discussed by the &lt;em&gt;ministers&lt;/em&gt; from &lt;em&gt;Bahrain, Kuwait,&lt;/em&gt; Oman, &lt;em&gt;Qatar, Saudi Arabia&lt;/em&gt; and the United Arab &lt;em&gt;Emirates &lt;/em&gt;(UAE) would &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;recommendation&lt;/em&gt; by &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; on a &lt;em&gt;common currency exchange rate&lt;/em&gt;.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;general assembly&lt;/em&gt; of the Gulf &lt;em&gt;Investment Corporation&lt;/em&gt; met in Abu &lt;em&gt;Dhabi&lt;/em&gt; earlier under the &lt;em&gt;chairmanship&lt;/em&gt; of &lt;em&gt;Bahrain&lt;/em&gt;'s &lt;em&gt;Finance&lt;/em&gt; and &lt;em&gt;National Economy Minister,&lt;/em&gt; Ibrahim &lt;em&gt;Abdul-Kari&lt;/em&gt;m</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

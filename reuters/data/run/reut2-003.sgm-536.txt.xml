@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-536.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">common</str>
+        <str name="text">speech</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">community</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">recent</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">market</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">allow</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">target</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">additional</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">genuine</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">reply</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Others called for major spending cut in the EC's controversial farm policy in order to free money for regional and social development.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">135</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Delors has proposed that payments by member states to the EC should be based on their gross national product instead of on the amount of value added tax they receive.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He added, "I was forced to say to some heads of government - Do you want to destroy this common market in agriculture when you are asking for a common market in goods and services?"</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">182</int>
-        <double name="strength">0.9496679203166273</double>
+        <double name="strength">0.9718575404631632</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Delors said he agreed with leaders who argued the need to reform the EC farm policy, which currently accounts for over two thirds of the 41 billion dlr annual budget."</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">168</int>
-        <double name="strength">0.9347896959749501</double>
+        <double name="strength">0.8238367986707757</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Delors&lt;/em&gt; has &lt;em&gt;proposed&lt;/em&gt; that &lt;em&gt;payments&lt;/em&gt; by &lt;em&gt;member states&lt;/em&gt; to the EC &lt;em&gt;should&lt;/em&gt; be &lt;em&gt;based&lt;/em&gt; on &lt;em&gt;their gross national product instead&lt;/em&gt; of on the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;value added&lt;/em&gt; tax they &lt;em&gt;receive&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Others&lt;/em&gt; called for &lt;em&gt;major spending&lt;/em&gt; cut in the EC's &lt;em&gt;controversial&lt;/em&gt; farm &lt;em&gt;policy&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to free &lt;em&gt;money&lt;/em&gt; for &lt;em&gt;regional&lt;/em&gt; and &lt;em&gt;social development&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Delors&lt;/em&gt; has proposed that &lt;em&gt;payments&lt;/em&gt; by &lt;em&gt;member states&lt;/em&gt; to the EC should be based on their &lt;em&gt;gross national product&lt;/em&gt; instead of on the &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;value&lt;/em&gt; added tax they &lt;em&gt;receive&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;added, &lt;/em&gt;"I was &lt;em&gt;forced&lt;/em&gt; to say to some &lt;em&gt;heads&lt;/em&gt; of &lt;em&gt;government -&lt;/em&gt; Do you want to &lt;em&gt;destroy&lt;/em&gt; this &lt;em&gt;common market&lt;/em&gt; in &lt;em&gt;agriculture&lt;/em&gt; when you are &lt;em&gt;asking&lt;/em&gt; for a &lt;em&gt;common market&lt;/em&gt; in &lt;em&gt;goods&lt;/em&gt; and &lt;em&gt;services?&lt;/em&gt;"</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Delors&lt;/em&gt; said he &lt;em&gt;agreed&lt;/em&gt; with &lt;em&gt;leaders&lt;/em&gt; who &lt;em&gt;argued&lt;/em&gt; the need to &lt;em&gt;reform&lt;/em&gt; the EC farm &lt;em&gt;policy, which currently accounts&lt;/em&gt; for over two &lt;em&gt;thirds&lt;/em&gt; of the 41 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;annual budget.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Delors&lt;/em&gt; said he agreed with &lt;em&gt;leaders&lt;/em&gt; who argued the need to &lt;em&gt;reform&lt;/em&gt; the EC farm &lt;em&gt;policy,&lt;/em&gt; which currently accounts for over two &lt;em&gt;thirds&lt;/em&gt; of the 41 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;annual budget.&lt;/em&gt;"</str>
         <int name="index">7</int>
       </lst>
     </lst>

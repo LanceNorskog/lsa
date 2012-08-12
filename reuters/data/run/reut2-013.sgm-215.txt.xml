@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-215.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">149</int>
+        <int name="count">94</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">below</str>
+        <str name="text">demand</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">american</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">january</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">production</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">carmaker</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">slowly</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9836823252851268</double>
       </lst>
       <lst name="term">
-        <str name="text">expanding</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">general</str>
+        <double name="strength">0.9836823252851268</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"While GM has just taken 100,00 units out of second quarter production already because of weak sales, the continuation of this weakening market share suggests another production cutback is likely," Glantz said.</str>
-        <int name="index">26</int>
+        <str name="text">"Imports will need more and more sales incentives, a phenomenon unheard of two years ago," said Scott Merlis at Morgan Stanley.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">211</int>
+        <int name="end">128</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Falling market share at General Motors apparently prompted the company to decide this week to close six plants for a week to bring supply into line with demand.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.9706319214497392</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">But a slowly expanding economy, an exploding stock market and a growing array of incentives have lured customers to dealers' showrooms, analysts said.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">151</int>
-        <double name="strength">0.9176843165080205</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S plants posted these results during the March 21 to 31 period -- American Motors Corp &lt;AMC&gt; 1,198, down 50 pct, Volkswagen 2,145, down from 3,342, American Honda 16,635, up from 6,358, and Nissan 4,635, up from 2,536.</str>
-        <int name="index">28</int>
-        <int name="start">0</int>
-        <int name="end">218</int>
-        <double name="strength">0.9093183704727844</double>
+        <double name="strength">0.9408778779262158</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"While&lt;/em&gt; GM has just &lt;em&gt;taken 100,00 units&lt;/em&gt; out of &lt;em&gt;second quarter production already because&lt;/em&gt; of weak &lt;em&gt;sales,&lt;/em&gt; the &lt;em&gt;continuation&lt;/em&gt; of this &lt;em&gt;weakening market share suggests another production cutback&lt;/em&gt; is &lt;em&gt;likely," Glantz said&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">&lt;em&gt;"Imports&lt;/em&gt; will need more and more &lt;em&gt;sales incentives,&lt;/em&gt; a &lt;em&gt;phenomenon unheard&lt;/em&gt; of two &lt;em&gt;years&lt;/em&gt; ago," said &lt;em&gt;Scott Merlis&lt;/em&gt; at &lt;em&gt;Morgan Stanley&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But a &lt;em&gt;slowly expanding economy,&lt;/em&gt; an &lt;em&gt;exploding stock market&lt;/em&gt; and a &lt;em&gt;growing array&lt;/em&gt; of &lt;em&gt;incentives&lt;/em&gt; have &lt;em&gt;lured customers&lt;/em&gt; to &lt;em&gt;dealers' showrooms, analysts said&lt;/em&gt;.</str>
+        <str name="text">Falling &lt;em&gt;market share&lt;/em&gt; at &lt;em&gt;General Motors&lt;/em&gt; apparently prompted the &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;decide&lt;/em&gt; this week to &lt;em&gt;close&lt;/em&gt; six &lt;em&gt;plants&lt;/em&gt; for a week to &lt;em&gt;bring supply&lt;/em&gt; into line with &lt;em&gt;demand&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But a slowly expanding &lt;em&gt;economy,&lt;/em&gt; an exploding &lt;em&gt;stock market&lt;/em&gt; and a growing &lt;em&gt;array&lt;/em&gt; of &lt;em&gt;incentives&lt;/em&gt; have lured &lt;em&gt;customers&lt;/em&gt; to &lt;em&gt;dealers' showrooms, analysts said&lt;/em&gt;.</str>
         <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S &lt;em&gt;plants posted these results during&lt;/em&gt; the &lt;em&gt;March 21&lt;/em&gt; to 31 &lt;em&gt;period -- American Motors&lt;/em&gt; Corp &lt;AMC&gt; 1,198, down 50 pct, &lt;em&gt;Volkswagen 2,145,&lt;/em&gt; down from 3,342, &lt;em&gt;American Honda 16,635,&lt;/em&gt; up from 6,358, and &lt;em&gt;Nissan 4,635,&lt;/em&gt; up from 2,536.</str>
-        <int name="index">28</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-63.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">130</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">could</str>
+        <str name="text">assets</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">japan</str>
         <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">losses</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">concern</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">value</str>
+        <double name="strength">0.9960900316910977</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">holdings</str>
+        <double name="strength">0.9960900316910977</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Many companies, mainly export-oriented companies, were planning on selling their shares for a profit to reinvest in real businesses as the economy begins to pick up," said one analyst at a foreign brokerage.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The massive plunge in Tokyo stock prices on Tuesday could rob the Government of much-needed revenue to spur Japan's economy, and may hurt banks' ability to lend abroad, analysts polled by Reuters said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">201</int>
-        <double name="strength">0.9603866679427345</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">There is also concern that Japanese companies, which have invested heavily in Tokyo's stocks as their real business declined over the last two years, have sustained heavy losses.</str>
-        <int name="index">13</int>
+        <str name="text">T&gt;) shares for much of its public spending budget," said Shigeo Suzuki, a deputy general manager at the Industrial Bank of Japan.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">129</int>
+        <double name="strength">0.9742498929058139</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Japanese banks make loans using perhaps as much as 60 to 70 pct of the market value of their unrealised stock holdings as assets," said Industrial Bank's Suzuki.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.9432232984140183</double>
+        <int name="end">163</int>
+        <double name="strength">0.9136445688280648</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"Many &lt;em&gt;companies, mainly export-oriented companies,&lt;/em&gt; were &lt;em&gt;planning&lt;/em&gt; on &lt;em&gt;selling their shares&lt;/em&gt; for a &lt;em&gt;profit&lt;/em&gt; to &lt;em&gt;reinvest&lt;/em&gt; in real &lt;em&gt;businesses&lt;/em&gt; as the &lt;em&gt;economy begins&lt;/em&gt; to pick up," said one &lt;em&gt;analyst&lt;/em&gt; at a &lt;em&gt;foreign brokerage&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;massive plunge&lt;/em&gt; in &lt;em&gt;Tokyo stock prices&lt;/em&gt; on &lt;em&gt;Tuesday could&lt;/em&gt; rob the &lt;em&gt;Government&lt;/em&gt; of much-&lt;em&gt;needed revenue&lt;/em&gt; to spur &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;economy,&lt;/em&gt; and may hurt &lt;em&gt;banks' ability&lt;/em&gt; to lend &lt;em&gt;abroad, analysts polled&lt;/em&gt; by &lt;em&gt;Reuters said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;massive plunge&lt;/em&gt; in &lt;em&gt;Tokyo stock prices&lt;/em&gt; on &lt;em&gt;Tuesday&lt;/em&gt; could rob the &lt;em&gt;Government&lt;/em&gt; of much-needed &lt;em&gt;revenue&lt;/em&gt; to spur &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;economy,&lt;/em&gt; and may hurt &lt;em&gt;banks' ability&lt;/em&gt; to lend abroad, &lt;em&gt;analysts&lt;/em&gt; polled by &lt;em&gt;Reuters said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; is also &lt;em&gt;concern&lt;/em&gt; that &lt;em&gt;Japanese companies, which&lt;/em&gt; have &lt;em&gt;invested heavily&lt;/em&gt; in &lt;em&gt;Tokyo&lt;/em&gt;'s &lt;em&gt;stocks&lt;/em&gt; as &lt;em&gt;their&lt;/em&gt; real &lt;em&gt;business declined&lt;/em&gt; over the last two &lt;em&gt;years,&lt;/em&gt; have &lt;em&gt;sustained heavy losses&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">T&gt;) &lt;em&gt;shares&lt;/em&gt; for much of its &lt;em&gt;public spending budget,"&lt;/em&gt; said &lt;em&gt;Shigeo&lt;/em&gt; Suzuki, a &lt;em&gt;deputy general manager&lt;/em&gt; at the &lt;em&gt;Industrial&lt;/em&gt; Bank of &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Japanese banks&lt;/em&gt; make &lt;em&gt;loans&lt;/em&gt; using perhaps as much as 60 to 70 pct of the &lt;em&gt;market value&lt;/em&gt; of their &lt;em&gt;unrealised stock holdings&lt;/em&gt; as &lt;em&gt;assets,"&lt;/em&gt; said &lt;em&gt;Industrial&lt;/em&gt; Bank's &lt;em&gt;Suzuki&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

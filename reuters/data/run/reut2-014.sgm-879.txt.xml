@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-879.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">within</str>
+        <str name="text">measures</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">opening</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">funds</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">capital</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">minister</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">korea</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">removed</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">deficit</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Kim said mergers of some financial companies and the upgrading of others to merchant banks or full banks were being considered by the financial development committee of the finance ministry.</str>
-        <int name="index">9</int>
+        <str name="text">He said liberalisation was possible because South Korea's current account had turned from a deficit to a surplus, which had brought in foreign funds and increased domestic savings.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">191</int>
+        <int name="end">181</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This could be achieved within several years, though not within one year.</str>
-        <int name="index">5</int>
-        <int name="start">0</int>
-        <int name="end">72</int>
-        <double name="strength">0.9527143980957056</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">On liberalisation of the country's stock market, Kim said despite Seoul's determination to open it up, free investments there by foreigners would not be allowed in the near future because the market was currently "over-heated."</str>
-        <int name="index">11</int>
+        <str name="text">He said two major factors had hampered the development of the financial sector -- high inflation and heavy government intervention in bank decision-making.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.9262501092597142</double>
+        <int name="end">156</int>
+        <double name="strength">0.9992570928205867</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Kim said the market was extremely vulnerable to a sudden influx of foreign funds because it was still very small in terms of size and numbers of shareholders.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">159</int>
+        <double name="strength">0.9962021101953861</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Kim said &lt;em&gt;mergers&lt;/em&gt; of some &lt;em&gt;financial companies&lt;/em&gt; and the &lt;em&gt;upgrading&lt;/em&gt; of &lt;em&gt;others&lt;/em&gt; to &lt;em&gt;merchant banks&lt;/em&gt; or full &lt;em&gt;banks&lt;/em&gt; were &lt;em&gt;being considered&lt;/em&gt; by the &lt;em&gt;financial development committee&lt;/em&gt; of the &lt;em&gt;finance ministry&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">He said &lt;em&gt;liberalisation&lt;/em&gt; was &lt;em&gt;possible&lt;/em&gt; because &lt;em&gt;South Korea&lt;/em&gt;'s &lt;em&gt;current account&lt;/em&gt; had turned from a &lt;em&gt;deficit&lt;/em&gt; to a &lt;em&gt;surplus,&lt;/em&gt; which had brought in &lt;em&gt;foreign funds&lt;/em&gt; and increased &lt;em&gt;domestic savings&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;could&lt;/em&gt; be &lt;em&gt;achieved within several years, though&lt;/em&gt; not &lt;em&gt;within&lt;/em&gt; one year.</str>
-        <int name="index">5</int>
+        <str name="text">He said two &lt;em&gt;major factors&lt;/em&gt; had hampered the &lt;em&gt;development&lt;/em&gt; of the &lt;em&gt;financial sector --&lt;/em&gt; high &lt;em&gt;inflation&lt;/em&gt; and &lt;em&gt;heavy government intervention&lt;/em&gt; in bank &lt;em&gt;decision-making&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On &lt;em&gt;liberalisation&lt;/em&gt; of the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;stock market,&lt;/em&gt; Kim said &lt;em&gt;despite Seoul&lt;/em&gt;'s &lt;em&gt;determination&lt;/em&gt; to open it up, free &lt;em&gt;investments there&lt;/em&gt; by &lt;em&gt;foreigners would&lt;/em&gt; not be &lt;em&gt;allowed&lt;/em&gt; in the near &lt;em&gt;future because&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; was &lt;em&gt;currently &lt;/em&gt;"over-&lt;em&gt;heated.&lt;/em&gt;"</str>
-        <int name="index">11</int>
+        <str name="text">Kim said the &lt;em&gt;market&lt;/em&gt; was extremely &lt;em&gt;vulnerable&lt;/em&gt; to a &lt;em&gt;sudden influx&lt;/em&gt; of &lt;em&gt;foreign funds&lt;/em&gt; because it was still very &lt;em&gt;small&lt;/em&gt; in &lt;em&gt;terms&lt;/em&gt; of size and &lt;em&gt;numbers&lt;/em&gt; of &lt;em&gt;shareholders&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

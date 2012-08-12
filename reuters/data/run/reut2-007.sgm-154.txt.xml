@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-154.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">50</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">group</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">corporate</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">distron</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">expense</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">distribution</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">spending</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">points</str>
-        <double name="strength">0.9999999999999964</double>
+        <str name="text">concepts</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Pillsbury said corporate expense showed a 4.3 mln dlr profit in the quarter reflecting a 10.5 mln dlr gain on the sale of a joint interest in an Australian food company and lower corporate expenses, largely as a result of an early retirement program initiated a year ago.</str>
-        <int name="index">6</int>
+        <str name="text">It said Foods operating profit, excluding unusual items, rose 10 pct with international operations and domestic breads and baking products major contributors to improvement in the quarter.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">272</int>
+        <int name="end">189</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Pillsbury Corp, reporting lower earnings for the third quarter ended February 28, said a strong performance by its Foods Group was offset by Restaurants Group declines.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">168</int>
-        <double name="strength">0.7830464115410679</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Pillsbury also reported lower profits at Distron, Burger King's distribution arm, and said increased investment spending on developing concepts - QuikWok, Bay Street and Key West Grill - hurt results.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.7140776426529507</double>
+        <double name="strength">0.9028964208084086</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Pillsbury said corporate expense showed a 4.3 mln dlr profit in the quarter reflecting a 10.5 mln dlr gain on the sale of a joint interest in an Australian food company and lower corporate expenses, largely as a result of an early retirement program initiated a year ago.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">272</int>
+        <double name="strength">0.8339696679907334</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pillsbury&lt;/em&gt; said &lt;em&gt;corporate expense showed&lt;/em&gt; a 4.3 mln dlr &lt;em&gt;profit&lt;/em&gt; in the &lt;em&gt;quarter reflecting&lt;/em&gt; a 10.5 mln dlr gain on the sale of a &lt;em&gt;joint interest&lt;/em&gt; in an &lt;em&gt;Australian&lt;/em&gt; food &lt;em&gt;company&lt;/em&gt; and &lt;em&gt;lower corporate expenses, largely&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of an &lt;em&gt;early retirement program initiated&lt;/em&gt; a year ago.</str>
-        <int name="index">6</int>
+        <str name="text">It said &lt;em&gt;Foods&lt;/em&gt; operating &lt;em&gt;profit,&lt;/em&gt; excluding &lt;em&gt;unusual items,&lt;/em&gt; rose 10 pct with &lt;em&gt;international operations&lt;/em&gt; and &lt;em&gt;domestic breads&lt;/em&gt; and &lt;em&gt;baking products major contributors&lt;/em&gt; to &lt;em&gt;improvement&lt;/em&gt; in the &lt;em&gt;quarter&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pillsbury&lt;/em&gt; Corp, &lt;em&gt;reporting lower earnings&lt;/em&gt; for the &lt;em&gt;third quarter ended February 28,&lt;/em&gt; said a &lt;em&gt;strong performance&lt;/em&gt; by its &lt;em&gt;Foods Group&lt;/em&gt; was &lt;em&gt;offset&lt;/em&gt; by &lt;em&gt;Restaurants Group declines&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Pillsbury&lt;/em&gt; also &lt;em&gt;reported lower profits&lt;/em&gt; at &lt;em&gt;Distron, Burger&lt;/em&gt; King's &lt;em&gt;distribution&lt;/em&gt; arm, and said &lt;em&gt;increased investment spending&lt;/em&gt; on &lt;em&gt;developing concepts - QuikWok,&lt;/em&gt; Bay &lt;em&gt;Street&lt;/em&gt; and Key West &lt;em&gt;Grill -&lt;/em&gt; hurt &lt;em&gt;results&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Pillsbury&lt;/em&gt; also reported lower &lt;em&gt;profits&lt;/em&gt; at &lt;em&gt;Distron, Burger&lt;/em&gt; King's &lt;em&gt;distribution&lt;/em&gt; arm, and said increased &lt;em&gt;investment spending&lt;/em&gt; on developing &lt;em&gt;concepts -&lt;/em&gt; QuikWok, Bay &lt;em&gt;Street&lt;/em&gt; and Key West &lt;em&gt;Grill -&lt;/em&gt; hurt &lt;em&gt;results&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Pillsbury&lt;/em&gt; said &lt;em&gt;corporate expense&lt;/em&gt; showed a 4.3 mln dlr &lt;em&gt;profit&lt;/em&gt; in the &lt;em&gt;quarter&lt;/em&gt; reflecting a 10.5 mln dlr gain on the sale of a &lt;em&gt;joint interest&lt;/em&gt; in an &lt;em&gt;Australian&lt;/em&gt; food &lt;em&gt;company&lt;/em&gt; and lower &lt;em&gt;corporate expenses,&lt;/em&gt; largely as a &lt;em&gt;result&lt;/em&gt; of an &lt;em&gt;early retirement program&lt;/em&gt; initiated a year ago.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

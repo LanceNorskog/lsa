@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">113</int>
+  <int name="QTime">107</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-870.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">715</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">domestic</str>
+        <str name="text">totals</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">holds</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">unnamed</str>
+        <double name="strength">0.9564921432210107</double>
       </lst>
       <lst name="term">
-        <str name="text">supplies</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">other</str>
+        <double name="strength">0.880168840487606</double>
       </lst>
       <lst name="term">
-        <str name="text">bulgur</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">wheat</str>
+        <double name="strength">0.8610055888305531</double>
       </lst>
       <lst name="term">
-        <str name="text">semolina</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">usdaprj</str>
+        <double name="strength">0.8400304206291271</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. Agriculture Department gave the net change in export commitments, including sales, cancellations, foreign purchases and cumulative exports, in the current seasons through the week ended April 2, with comparisons, as follows, in tonnes, except as noted --</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">257</int>
+        <str name="text">Country and destinations of the identified sales of commodities reported by exporters in week ended April 2 for the respective marketing seasons were detailed by the USDA as follows, with comparisons for the previous week, in thousands of tonnes, except where noted--   ALL WHEAT</str>
+        <int name="index">502</int>
+        <int name="start">1</int>
+        <int name="end">280</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The USDA cautions that reported outstanding sales are subject to modification, deferral or cancellation and it is unlikely that all reported quantities will be exported.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.8661433900657824</double>
+        <double name="strength">0.9102494042158953</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Country and destinations of the identified sales of commodities reported by exporters in week ended April 2 for the respective marketing seasons were detailed by the USDA as follows, with comparisons for the previous week, in thousands of tonnes, except where noted--   ALL WHEAT</str>
-        <int name="index">502</int>
-        <int name="start">1</int>
-        <int name="end">280</int>
-        <double name="strength">0.8625993472803052</double>
+        <str name="text">S. Agriculture Department gave the net change in export commitments, including sales, cancellations, foreign purchases and cumulative exports, in the current seasons through the week ended April 2, with comparisons, as follows, in tonnes, except as noted --</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">257</int>
+        <double name="strength">0.8425452497172341</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; gave the net &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;export commitments, including sales, cancellations, foreign purchases&lt;/em&gt; and &lt;em&gt;cumulative exports,&lt;/em&gt; in the &lt;em&gt;current seasons through&lt;/em&gt; the week &lt;em&gt;ended April 2,&lt;/em&gt; with &lt;em&gt;comparisons,&lt;/em&gt; as &lt;em&gt;follows,&lt;/em&gt; in &lt;em&gt;tonnes, except&lt;/em&gt; as &lt;em&gt;noted -&lt;/em&gt;-</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Country&lt;/em&gt; and &lt;em&gt;destinations&lt;/em&gt; of the identified &lt;em&gt;sales&lt;/em&gt; of &lt;em&gt;commodities&lt;/em&gt; reported by &lt;em&gt;exporters&lt;/em&gt; in week ended &lt;em&gt;April 2&lt;/em&gt; for the &lt;em&gt;respective marketing seasons&lt;/em&gt; were detailed by the USDA as follows, with &lt;em&gt;comparisons&lt;/em&gt; for the &lt;em&gt;previous&lt;/em&gt; week, in &lt;em&gt;thousands&lt;/em&gt; of &lt;em&gt;tonnes,&lt;/em&gt; except where noted--   ALL &lt;em&gt;WHEA&lt;/em&gt;T</str>
+        <int name="index">502</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The USDA &lt;em&gt;cautions&lt;/em&gt; that &lt;em&gt;reported outstanding sales&lt;/em&gt; are &lt;em&gt;subject&lt;/em&gt; to &lt;em&gt;modification, deferral&lt;/em&gt; or &lt;em&gt;cancellation&lt;/em&gt; and it is &lt;em&gt;unlikely&lt;/em&gt; that all &lt;em&gt;reported quantities&lt;/em&gt; will be &lt;em&gt;exported&lt;/em&gt;.</str>
+        <str name="text">The USDA &lt;em&gt;cautions&lt;/em&gt; that reported &lt;em&gt;outstanding sales&lt;/em&gt; are &lt;em&gt;subject&lt;/em&gt; to &lt;em&gt;modification, deferral&lt;/em&gt; or &lt;em&gt;cancellation&lt;/em&gt; and it is &lt;em&gt;unlikely&lt;/em&gt; that all reported &lt;em&gt;quantities&lt;/em&gt; will be exported.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Country&lt;/em&gt; and &lt;em&gt;destinations&lt;/em&gt; of the &lt;em&gt;identified sales&lt;/em&gt; of &lt;em&gt;commodities reported&lt;/em&gt; by &lt;em&gt;exporters&lt;/em&gt; in week &lt;em&gt;ended April 2&lt;/em&gt; for the &lt;em&gt;respective marketing seasons&lt;/em&gt; were &lt;em&gt;detailed&lt;/em&gt; by the USDA as &lt;em&gt;follows,&lt;/em&gt; with &lt;em&gt;comparisons&lt;/em&gt; for the &lt;em&gt;previous&lt;/em&gt; week, in &lt;em&gt;thousands&lt;/em&gt; of &lt;em&gt;tonnes, except where noted--  &lt;/em&gt; ALL &lt;em&gt;WHEA&lt;/em&gt;T</str>
-        <int name="index">502</int>
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; gave the net &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;export commitments,&lt;/em&gt; including &lt;em&gt;sales, cancellations, foreign purchases&lt;/em&gt; and &lt;em&gt;cumulative exports,&lt;/em&gt; in the &lt;em&gt;current seasons&lt;/em&gt; through the week ended &lt;em&gt;April 2,&lt;/em&gt; with &lt;em&gt;comparisons,&lt;/em&gt; as follows, in &lt;em&gt;tonnes,&lt;/em&gt; except as noted --</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

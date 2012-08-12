@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-68.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">changes</str>
+        <str name="text">concern</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">simply</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">impacts</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">september</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">legitimate</str>
+        <double name="strength">0.963424230965385</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">caribbean</str>
+        <double name="strength">0.963424230965385</double>
       </lst>
       <lst name="term">
-        <str name="text">period</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">countries</str>
+        <double name="strength">0.963424230965385</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Asked about possible quota changes, A USDA official said "As far as I know, changing the quota volume or the quota year is not under active consideration."</str>
-        <int name="index">16</int>
+        <str name="text">Following the refiners' request, representatives of the Florida sugarcane producers met with USDA to express opposition to any quota expansion, industry sources said.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">156</int>
+        <int name="end">167</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The United States may soon ease its 1987 sugar import quota of one mln short tons by bringing forward to the third quarter some shipments scheduled for the fourth quarter of 1987, Jerry Huckaby, a leading Congressman representing sugar growers told Reuters in an interview.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">273</int>
-        <double name="strength">0.9884781513512246</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Huckaby, a Louisiana Democrat and chairman of the House subcommittee which deals with the sugar program, indicated the easing of the quota might be a way to calm the concern about the impact of the severe cut in U.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9547243843857445</double>
+        <double name="strength">0.9830873297577399</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Any final decision on easing the quota must be made by the Reagan administration's interagency sugar policy group.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">0.9262334494646277</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked about possible quota changes,&lt;/em&gt; A USDA &lt;em&gt;official&lt;/em&gt; said "As far as I know, &lt;em&gt;changing&lt;/em&gt; the &lt;em&gt;quota volume&lt;/em&gt; or the &lt;em&gt;quota&lt;/em&gt; year is not &lt;em&gt;under active consideration.&lt;/em&gt;"</str>
-        <int name="index">16</int>
+        <str name="text">Following the &lt;em&gt;refiners' request, representatives&lt;/em&gt; of the &lt;em&gt;Florida sugarcane producers&lt;/em&gt; met with USDA to &lt;em&gt;express opposition&lt;/em&gt; to any &lt;em&gt;quota expansion, industry sources said&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; may soon ease its 1987 &lt;em&gt;sugar import quota&lt;/em&gt; of one mln &lt;em&gt;short&lt;/em&gt; tons by &lt;em&gt;bringing forward&lt;/em&gt; to the &lt;em&gt;third quarter&lt;/em&gt; some &lt;em&gt;shipments scheduled&lt;/em&gt; for the &lt;em&gt;fourth quarter&lt;/em&gt; of 1987, &lt;em&gt;Jerry Huckaby,&lt;/em&gt; a &lt;em&gt;leading Congressman representing sugar growers&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Huckaby,&lt;/em&gt; a &lt;em&gt;Louisiana Democrat&lt;/em&gt; and &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;House subcommittee which deals&lt;/em&gt; with the &lt;em&gt;sugar program, indicated&lt;/em&gt; the &lt;em&gt;easing&lt;/em&gt; of the &lt;em&gt;quota might&lt;/em&gt; be a way to calm the &lt;em&gt;concern about&lt;/em&gt; the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;severe&lt;/em&gt; cut in U.</str>
+        <str name="text">&lt;em&gt;Huckaby,&lt;/em&gt; a &lt;em&gt;Louisiana Democrat&lt;/em&gt; and &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;House subcommittee&lt;/em&gt; which deals with the &lt;em&gt;sugar program,&lt;/em&gt; indicated the &lt;em&gt;easing&lt;/em&gt; of the &lt;em&gt;quota&lt;/em&gt; might be a way to calm the &lt;em&gt;concern&lt;/em&gt; about the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;severe&lt;/em&gt; cut in U.</str>
         <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Any &lt;em&gt;final decision&lt;/em&gt; on easing the &lt;em&gt;quota&lt;/em&gt; must be made by the &lt;em&gt;Reagan administration&lt;/em&gt;'s &lt;em&gt;interagency sugar policy group&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

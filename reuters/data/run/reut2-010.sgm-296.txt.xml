@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-296.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">39</int>
+        <int name="count">29</int>
       </lst>
       <lst name="stems">
-        <int name="count">25</int>
+        <int name="count">17</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">dropped</str>
+        <str name="text">january</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">widened</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">billion</str>
+        <double name="strength">0.7238465367953419</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.5693636945976415</double>
       </lst>
       <lst name="term">
-        <str name="text">transfer</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">figures</str>
+        <double name="strength">0.5693636945976414</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">rounding</str>
+        <double name="strength">0.5693636945976414</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">50</int>
         <double name="strength">1.0</double>
+        <int name="terms">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Errors and omissions were 2.65 billion dlrs in surplus, compared with a 1.27 billion surplus a year earlier and a 1.10 billion deficit in January.</str>
-        <int name="index">10</int>
+        <str name="text">The seasonally adjusted trade surplus fell to 9.16 billion dlrs in February from the record 9.58 billion in January, the Ministry said.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.8040180051086293</double>
+        <int name="end">136</int>
+        <double name="strength">0.8740603802219677</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Short-term capital account payments swung to a 1.28 billion dlr deficit in February from a 1.60 billion surplus a year earlier and a 1.44 billion dlr surplus in January.</str>
-        <int name="index">9</int>
+        <str name="text">Japan's current account surplus rose to 7.38 billion dlrs in February from 3.89 billion a year ago and from 4.95 billion in January, the Finance Ministry said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">169</int>
-        <double name="strength">0.7242720155707094</double>
+        <int name="end">159</int>
+        <double name="strength">0.8379633132240182</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Figures&lt;/em&gt; do not &lt;em&gt;tally exactly because&lt;/em&gt; of &lt;em&gt;rounding&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Figures&lt;/em&gt; do not tally exactly because of &lt;em&gt;rounding&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Errors&lt;/em&gt; and &lt;em&gt;omissions&lt;/em&gt; were 2.65 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;surplus, compared&lt;/em&gt; with a 1.27 &lt;em&gt;billion surplus&lt;/em&gt; a year &lt;em&gt;earlier&lt;/em&gt; and a 1.10 &lt;em&gt;billion deficit&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The seasonally &lt;em&gt;adjusted trade surplus&lt;/em&gt; fell to 9.16 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;February&lt;/em&gt; from the &lt;em&gt;record 9.58 billion&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; the &lt;em&gt;Ministry said&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Short&lt;/em&gt;-term &lt;em&gt;capital account payments swung&lt;/em&gt; to a 1.28 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;deficit&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; from a 1.60 &lt;em&gt;billion surplus&lt;/em&gt; a year &lt;em&gt;earlier&lt;/em&gt; and a 1.44 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;surplus&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;current account surplus&lt;/em&gt; rose to 7.38 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;February&lt;/em&gt; from 3.89 &lt;em&gt;billion&lt;/em&gt; a year ago and from 4.95 &lt;em&gt;billion&lt;/em&gt; in &lt;em&gt;January,&lt;/em&gt; the &lt;em&gt;Finance Ministry said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

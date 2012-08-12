@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-866.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">minister</str>
+        <str name="text">proposal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">clearly</str>
-        <double name="strength">0.6324555320336763</double>
+        <str name="text">brussels</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">budge</str>
-        <double name="strength">0.6324555320336763</double>
+        <str name="text">executive</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reporters</str>
-        <double name="strength">0.6324555320336763</double>
+        <str name="text">overhaul</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">hoped</str>
-        <double name="strength">0.6324555320336763</double>
+        <str name="text">complex</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">228</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The meeting was attended by farm ministers and foreign ministers from both countries and by French President Francois Mitterand, his Prime Minister Jacques Chirac, and by Chancellor Helmut Kohl of West Germany.</str>
-        <int name="index">1</int>
+        <str name="text">The summit has been dominated by lengthy talks on moves to alter the entire system of financing the 12-nation group, and plugging a 5.7 billion dollar budget shortfall for 1987.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">0.8918825850158444</double>
+        <int name="end">178</int>
+        <double name="strength">0.8496912962030799</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">A specially convened Franco-German meeting in the sidelines of a summit of EC leaders failed to make any progress over a 1987-88 farm price package that has deeply split the two former EC allies, diplomats said</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">210</int>
-        <double name="strength">0.8754661648531642</double>
+        <double name="strength">0.7834959018304005</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Bonn and &lt;em&gt;Paris&lt;/em&gt; are &lt;em&gt;diametrically opposed&lt;/em&gt; to a &lt;em&gt;proposal&lt;/em&gt; for the &lt;em&gt;Brussels Executive Commission&lt;/em&gt; to &lt;em&gt;overhaul radically&lt;/em&gt; the EC's &lt;em&gt;complex "green" currrency system, designed&lt;/em&gt; to &lt;em&gt;translate common&lt;/em&gt; EC farm &lt;em&gt;prices&lt;/em&gt; into &lt;em&gt;national currencies&lt;/em&gt;.</str>
+        <str name="text">Bonn and &lt;em&gt;Paris&lt;/em&gt; are diametrically opposed to a &lt;em&gt;proposal&lt;/em&gt; for the &lt;em&gt;Brussels Executive Commission&lt;/em&gt; to &lt;em&gt;overhaul&lt;/em&gt; radically the EC's &lt;em&gt;complex "green" currrency system,&lt;/em&gt; designed to &lt;em&gt;translate common&lt;/em&gt; EC farm &lt;em&gt;prices&lt;/em&gt; into &lt;em&gt;national currencies&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;meeting&lt;/em&gt; was &lt;em&gt;attended&lt;/em&gt; by farm &lt;em&gt;ministers&lt;/em&gt; and &lt;em&gt;foreign ministers&lt;/em&gt; from both &lt;em&gt;countries&lt;/em&gt; and by &lt;em&gt;French President Francois Mitterand,&lt;/em&gt; his &lt;em&gt;Prime Minister Jacques Chirac,&lt;/em&gt; and by &lt;em&gt;Chancellor Helmut&lt;/em&gt; Kohl of West &lt;em&gt;Germany&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;summit&lt;/em&gt; has been dominated by &lt;em&gt;lengthy talks&lt;/em&gt; on &lt;em&gt;moves&lt;/em&gt; to &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;entire system&lt;/em&gt; of financing the 12-&lt;em&gt;nation group,&lt;/em&gt; and plugging a 5.7 &lt;em&gt;billion dollar budget shortfall for 1987&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;specially convened Franco-German meeting&lt;/em&gt; in the &lt;em&gt;sidelines&lt;/em&gt; of a &lt;em&gt;summit&lt;/em&gt; of EC &lt;em&gt;leaders failed&lt;/em&gt; to make any &lt;em&gt;progress&lt;/em&gt; over a 1987-88 farm &lt;em&gt;price package&lt;/em&gt; that has &lt;em&gt;deeply split&lt;/em&gt; the two &lt;em&gt;former&lt;/em&gt; EC &lt;em&gt;allies, diplomats sai&lt;/em&gt;d</str>
+        <str name="text">A specially convened &lt;em&gt;Franco-German meeting&lt;/em&gt; in the &lt;em&gt;sidelines&lt;/em&gt; of a &lt;em&gt;summit&lt;/em&gt; of EC &lt;em&gt;leaders&lt;/em&gt; failed to make any &lt;em&gt;progress&lt;/em&gt; over a 1987-88 farm &lt;em&gt;price package&lt;/em&gt; that has deeply split the two &lt;em&gt;former&lt;/em&gt; EC &lt;em&gt;allies, diplomats sai&lt;/em&gt;d</str>
         <int name="index">0</int>
       </lst>
     </lst>

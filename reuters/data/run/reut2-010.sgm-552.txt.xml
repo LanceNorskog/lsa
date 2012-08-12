@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-552.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">december</str>
+        <str name="text">consumer</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consumer</str>
-        <double name="strength">0.7905694150420942</double>
+        <str name="text">become</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">upward</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">pressure</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">import</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">moderate</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">result</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">expectations</str>
+        <double name="strength">0.9999999999999972</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"As long as those price rises do not become entrenched in cost of living adjustments contained in labor contracts, thus reducing international competitiveness, then the Federal Reserve would probably be willing to tolerate four pct inflation," said Larry Leuzzi of S.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">268</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Economists said that upward pressure on import prices as a result of the dollar's drop as well as the volatile energy component warrant attention in case gains in these areas become factored into the wider economic picture.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.8739686512204125</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Among the key components of the report, transportation prices rose 0.5 pct in February after a 1.5 pct January gain reflecting smaller price appreciation for motor fuels and declines in new car prices and finance charges.</str>
-        <int name="index">7</int>
+        <str name="text">"As long as those price rises do not become entrenched in cost of living adjustments contained in labor contracts, thus reducing international competitiveness, then the Federal Reserve would probably be willing to tolerate four pct inflation," said Larry Leuzzi of S.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.7796184993558042</double>
+        <int name="end">268</int>
+        <double name="strength">0.9874022087725798</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Inflation is not such a constructive factor as this time last year, but it's not building up a large head of steam," said Allan Leslie of Discount Corp.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">0.6882133538748182</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"As long as &lt;em&gt;those price rises&lt;/em&gt; do not &lt;em&gt;become entrenched&lt;/em&gt; in cost of &lt;em&gt;living adjustments contained&lt;/em&gt; in &lt;em&gt;labor contracts,&lt;/em&gt; thus &lt;em&gt;reducing international competitiveness,&lt;/em&gt; then the &lt;em&gt;Federal Reserve would probably&lt;/em&gt; be &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;tolerate&lt;/em&gt; four pct &lt;em&gt;inflation,"&lt;/em&gt; said &lt;em&gt;Larry Leuzzi&lt;/em&gt; of S.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said that &lt;em&gt;upward pressure&lt;/em&gt; on &lt;em&gt;import prices&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt;'s drop as well as the &lt;em&gt;volatile energy component warrant attention&lt;/em&gt; in case &lt;em&gt;gains&lt;/em&gt; in &lt;em&gt;these areas become factored&lt;/em&gt; into the &lt;em&gt;wider economic picture&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said that &lt;em&gt;upward pressure&lt;/em&gt; on &lt;em&gt;import prices&lt;/em&gt; as a &lt;em&gt;result&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt;'s drop as well as the &lt;em&gt;volatile energy component warrant attention&lt;/em&gt; in case &lt;em&gt;gains&lt;/em&gt; in these &lt;em&gt;areas become&lt;/em&gt; factored into the wider &lt;em&gt;economic picture&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Among&lt;/em&gt; the key &lt;em&gt;components&lt;/em&gt; of the &lt;em&gt;report, transportation prices&lt;/em&gt; rose 0.5 pct in &lt;em&gt;February after&lt;/em&gt; a 1.5 pct &lt;em&gt;January&lt;/em&gt; gain &lt;em&gt;reflecting smaller price appreciation&lt;/em&gt; for &lt;em&gt;motor fuels&lt;/em&gt; and &lt;em&gt;declines&lt;/em&gt; in new car &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;finance charges&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">"As long as those &lt;em&gt;price rises&lt;/em&gt; do not &lt;em&gt;become&lt;/em&gt; entrenched in cost of living &lt;em&gt;adjustments&lt;/em&gt; contained in &lt;em&gt;labor contracts,&lt;/em&gt; thus reducing &lt;em&gt;international competitiveness,&lt;/em&gt; then the &lt;em&gt;Federal Reserve&lt;/em&gt; would probably be &lt;em&gt;willing&lt;/em&gt; to &lt;em&gt;tolerate&lt;/em&gt; four pct &lt;em&gt;inflation,"&lt;/em&gt; said &lt;em&gt;Larry Leuzzi&lt;/em&gt; of S.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Inflation&lt;/em&gt; is not such a &lt;em&gt;constructive factor&lt;/em&gt; as this time last year, but it's not building up a &lt;em&gt;large&lt;/em&gt; head of &lt;em&gt;steam,"&lt;/em&gt; said Allan &lt;em&gt;Leslie&lt;/em&gt; of &lt;em&gt;Discount Corp&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

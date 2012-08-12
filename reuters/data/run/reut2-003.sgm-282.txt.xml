@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-282.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stores</str>
+        <str name="text">attractive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">baring</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">deals</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">brothers</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">strength</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">convertible</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">chain</str>
-        <double name="strength">0.5</double>
+        <str name="text">dealers</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">245</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This accounts for the wide variety of borrowers who have tapped the sector recently, ranging from sovereigns such as the Kingdom of Sweden today, continental banks including Commerzbank and Deutsche Bank and British corporations.</str>
-        <int name="index">7</int>
+        <str name="text">This is the first entry into the long term international capital markets by Storehouse, British designer Terence Conran's retail conglomerate which incorporates U.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.9578211822438645</double>
+        <int name="end">164</int>
+        <double name="strength">0.973737251796565</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">K. Merchant bank analyst noted that the current vogue for eurosterling enabled several corporate borrowers last month to offer paper priced below comparative gilt yields.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">170</int>
-        <double name="strength">0.9440780218851647</double>
+        <double name="strength">0.9547086185839594</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Bank of &lt;em&gt;England finally&lt;/em&gt; gave way to a 1/2 &lt;em&gt;point&lt;/em&gt; cut in &lt;em&gt;banks'&lt;/em&gt; base &lt;em&gt;lending rates earlier today,&lt;/em&gt; but &lt;em&gt;dealers&lt;/em&gt; said this had been &lt;em&gt;largely discounted&lt;/em&gt; and was not &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;detract&lt;/em&gt; from the &lt;em&gt;current popularity&lt;/em&gt; of &lt;em&gt;sterling-denominated investments&lt;/em&gt;.</str>
+        <str name="text">The Bank of &lt;em&gt;England&lt;/em&gt; finally gave way to a 1/2 &lt;em&gt;point&lt;/em&gt; cut in &lt;em&gt;banks'&lt;/em&gt; base &lt;em&gt;lending rates&lt;/em&gt; earlier &lt;em&gt;today,&lt;/em&gt; but &lt;em&gt;dealers&lt;/em&gt; said this had been largely discounted and was not &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;detract&lt;/em&gt; from the &lt;em&gt;current popularity&lt;/em&gt; of &lt;em&gt;sterling&lt;/em&gt;-denominated &lt;em&gt;investments&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;accounts&lt;/em&gt; for the wide &lt;em&gt;variety&lt;/em&gt; of &lt;em&gt;borrowers&lt;/em&gt; who have &lt;em&gt;tapped&lt;/em&gt; the &lt;em&gt;sector recently, ranging&lt;/em&gt; from &lt;em&gt;sovereigns&lt;/em&gt; such as the &lt;em&gt;Kingdom&lt;/em&gt; of &lt;em&gt;Sweden today, continental banks including Commerzbank&lt;/em&gt; and &lt;em&gt;Deutsche&lt;/em&gt; Bank and &lt;em&gt;British corporations&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">This is the &lt;em&gt;first entry&lt;/em&gt; into the long term &lt;em&gt;international capital markets&lt;/em&gt; by &lt;em&gt;Storehouse, British designer Terence Conran&lt;/em&gt;'s &lt;em&gt;retail conglomerate&lt;/em&gt; which incorporates U.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Merchant&lt;/em&gt; bank &lt;em&gt;analyst noted&lt;/em&gt; that the &lt;em&gt;current vogue&lt;/em&gt; for &lt;em&gt;eurosterling enabled several corporate borrowers&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;offer paper priced below comparative&lt;/em&gt; gilt &lt;em&gt;yields&lt;/em&gt;.</str>
+        <str name="text">K. &lt;em&gt;Merchant&lt;/em&gt; bank &lt;em&gt;analyst&lt;/em&gt; noted that the &lt;em&gt;current vogue&lt;/em&gt; for eurosterling enabled &lt;em&gt;several corporate borrowers&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;offer paper&lt;/em&gt; priced below &lt;em&gt;comparative&lt;/em&gt; gilt &lt;em&gt;yields&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-244.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">72</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">adding</str>
+        <str name="text">problems</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">1.0</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9917320401144646</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">1.0</double>
+        <str name="text">nakasone</str>
+        <double name="strength">0.9917320401144646</double>
       </lst>
       <lst name="term">
-        <str name="text">bilateral</str>
-        <double name="strength">1.0</double>
+        <str name="text">alleged</str>
+        <double name="strength">0.9917320401144637</double>
       </lst>
       <lst name="term">
-        <str name="text">discontinued</str>
-        <double name="strength">1.0</double>
+        <str name="text">violations</str>
+        <double name="strength">0.9917320401144637</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">139</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Dlrs of duties it imposed on Japanese electronics goods on April 17.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">71</int>
+        <double name="strength">0.7273454252152802</double>
+        <int name="terms">5</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We have not seen that yet," he said, adding that it would take about one month to determine whether the alleged violations of a bilateral semiconductor pact had been discontinued.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.8965958472688316</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But the New York Times today quoted administration sources as saying that the U.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">81</int>
-        <double name="strength">0.874121198750528</double>
+        <double name="strength">0.7185339287874443</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;Commerce Malcolm Baldrige&lt;/em&gt; said he &lt;em&gt;hopes Japanese Prime Minister Yasuhiro Nakasone&lt;/em&gt; will make &lt;em&gt;specific proposals&lt;/em&gt; to ease U.</str>
+        <str name="text">U.S. &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;Commerce Malcolm Baldrige&lt;/em&gt; said he hopes &lt;em&gt;Japanese Prime Minister Yasuhiro Nakasone&lt;/em&gt; will make &lt;em&gt;specific proposals&lt;/em&gt; to ease U.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We have not seen that yet," he said, &lt;em&gt;adding&lt;/em&gt; that it &lt;em&gt;would&lt;/em&gt; take &lt;em&gt;about&lt;/em&gt; one &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;determine whether&lt;/em&gt; the &lt;em&gt;alleged violations&lt;/em&gt; of a &lt;em&gt;bilateral semiconductor&lt;/em&gt; pact had been &lt;em&gt;discontinued&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">S. Dlrs of &lt;em&gt;duties&lt;/em&gt; it imposed on &lt;em&gt;Japanese electronics goods&lt;/em&gt; on &lt;em&gt;April 17&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the New York &lt;em&gt;Times today quoted administration sources&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; that the U.</str>
-        <int name="index">14</int>
+        <str name="text">"We have not seen that yet," he said, adding that it would take about one &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;determine&lt;/em&gt; whether the &lt;em&gt;alleged violations&lt;/em&gt; of a &lt;em&gt;bilateral semiconductor&lt;/em&gt; pact had been discontinued.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

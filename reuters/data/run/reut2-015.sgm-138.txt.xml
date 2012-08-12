@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-138.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">103</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">chairman</str>
+        <str name="text">investigators</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">investigators</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">standard</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">recent</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">index</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">letter</str>
-        <double name="strength">0.5</double>
+        <str name="text">division</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In a letter dated March 12, CME chairman John Sandner and Executive committee chairman Leo Melamed urged members to reject the referendum in favor a series of new rules.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Included in the rule changes was the requirement that futures brokers in the S and P pit manually record all personal trades to the nearest minute, intended to "enhance the effectiveness of surveillance and compliance functions,"</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.9230924353108481</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The expanded compliance program, which calls for an increase in the exchange's compliance budget and addition of staff, was in response to recent criticisms that the CME's current surveillance was not able to keep up with increased demands of recent volatility and volume, the CME said.</str>
-        <int name="index">2</int>
+        <str name="text">A special membership referendum to prohibit CME members from filling customer orders and trading for their own account in S and P 500 futures and options will be voted on April 13.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">287</int>
-        <double name="strength">0.9006620735983626</double>
+        <int name="end">181</int>
+        <double name="strength">0.9519156354918787</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In addition, three computer programmers will be added to assist in regulatory support for the exchange's management information system department.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.9244089415391495</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;letter dated March 12,&lt;/em&gt; CME &lt;em&gt;chairman&lt;/em&gt; John &lt;em&gt;Sandner&lt;/em&gt; and &lt;em&gt;Executive committee chairman&lt;/em&gt; Leo &lt;em&gt;Melamed urged members&lt;/em&gt; to &lt;em&gt;reject&lt;/em&gt; the &lt;em&gt;referendum&lt;/em&gt; in &lt;em&gt;favor&lt;/em&gt; a &lt;em&gt;series&lt;/em&gt; of new &lt;em&gt;rules&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Included&lt;/em&gt; in the rule &lt;em&gt;changes&lt;/em&gt; was the &lt;em&gt;requirement&lt;/em&gt; that &lt;em&gt;futures brokers&lt;/em&gt; in the S and P pit &lt;em&gt;manually record&lt;/em&gt; all &lt;em&gt;personal trades&lt;/em&gt; to the &lt;em&gt;nearest minute, intended&lt;/em&gt; to "&lt;em&gt;enhance&lt;/em&gt; the &lt;em&gt;effectiveness&lt;/em&gt; of &lt;em&gt;surveillance&lt;/em&gt; and &lt;em&gt;compliance functions,&lt;/em&gt;"</str>
+        <str name="text">Included in the rule &lt;em&gt;changes&lt;/em&gt; was the &lt;em&gt;requirement&lt;/em&gt; that &lt;em&gt;futures brokers&lt;/em&gt; in the S and P pit manually &lt;em&gt;record&lt;/em&gt; all &lt;em&gt;personal trades&lt;/em&gt; to the nearest &lt;em&gt;minute,&lt;/em&gt; intended to "&lt;em&gt;enhance&lt;/em&gt; the &lt;em&gt;effectiveness&lt;/em&gt; of &lt;em&gt;surveillance&lt;/em&gt; and &lt;em&gt;compliance functions,&lt;/em&gt;"</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;expanded compliance program, which calls&lt;/em&gt; for an &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;exchange&lt;/em&gt;'s &lt;em&gt;compliance budget&lt;/em&gt; and &lt;em&gt;addition&lt;/em&gt; of &lt;em&gt;staff,&lt;/em&gt; was in &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;recent criticisms&lt;/em&gt; that the CME's &lt;em&gt;current surveillance&lt;/em&gt; was not able to keep up with &lt;em&gt;increased demands&lt;/em&gt; of &lt;em&gt;recent volatility&lt;/em&gt; and &lt;em&gt;volume,&lt;/em&gt; the CME said.</str>
-        <int name="index">2</int>
+        <str name="text">A &lt;em&gt;special membership referendum&lt;/em&gt; to &lt;em&gt;prohibit&lt;/em&gt; CME &lt;em&gt;members&lt;/em&gt; from filling &lt;em&gt;customer orders&lt;/em&gt; and &lt;em&gt;trading&lt;/em&gt; for their own &lt;em&gt;account&lt;/em&gt; in S and P 500 &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;options&lt;/em&gt; will be voted on &lt;em&gt;April 13&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;addition, three computer programmers&lt;/em&gt; will be added to &lt;em&gt;assist&lt;/em&gt; in &lt;em&gt;regulatory support&lt;/em&gt; for the &lt;em&gt;exchange&lt;/em&gt;'s &lt;em&gt;management information system department&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

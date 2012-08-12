@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-79.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">47</int>
       </lst>
       <lst name="terms">
-        <int name="count">172</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">94</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">revenues</str>
+        <str name="text">think</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">believe</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
       <lst name="term">
-        <str name="text">hearts</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">market</str>
+        <double name="strength">0.9999999999999959</double>
       </lst>
       <lst name="term">
-        <str name="text">courted</str>
-        <double name="strength">0.9999999999999972</double>
+        <str name="text">british</str>
+        <double name="strength">0.9910835905811824</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">years</str>
+        <double name="strength">0.979313895019009</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">187</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">I believe they are looking at 18 dlrs (long-term)...also in their heart of hearts they believe that will be exceeded," Margoshes said.</str>
-        <int name="index">26</int>
-        <int name="start">0</int>
-        <int name="end">134</int>
-        <double name="strength">0.8305900068740572</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said most of the majors found partners in the last round of matchmaking which ended two years ago, and others restructured to the point that they have become unattractive.</str>
         <int name="index">12</int>
         <int name="start">0</int>
         <int name="end">174</int>
-        <double name="strength">0.804546200773056</double>
+        <double name="strength">0.8533136039379277</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S., and they think the barrel of oil in the ground is going to go higher," said Sanford Margoshes of Shearson Lehman Brothers Inc.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">130</int>
+        <double name="strength">0.8502555060237208</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">One of &lt;em&gt;those mentioned&lt;/em&gt; by &lt;em&gt;Lazier&lt;/em&gt; was USX Corp, an &lt;em&gt;energy-steel concern which&lt;/em&gt; had been &lt;em&gt;courted&lt;/em&gt; by &lt;em&gt;investor&lt;/em&gt; Carl &lt;em&gt;Icahn&lt;/em&gt; and drew the &lt;em&gt;attention&lt;/em&gt; of &lt;em&gt;Australian Robert Holmes&lt;/em&gt; a &lt;em&gt;Court&lt;/em&gt; last year.</str>
+        <str name="text">One of those mentioned by Lazier was USX Corp, an &lt;em&gt;energy-steel concern&lt;/em&gt; which had been courted by &lt;em&gt;investor&lt;/em&gt; Carl &lt;em&gt;Icahn&lt;/em&gt; and drew the &lt;em&gt;attention&lt;/em&gt; of &lt;em&gt;Australian Robert&lt;/em&gt; Holmes a &lt;em&gt;Court&lt;/em&gt; last year.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">I &lt;em&gt;believe&lt;/em&gt; they are &lt;em&gt;looking&lt;/em&gt; at 18 dlrs (long-term)...also in &lt;em&gt;their heart&lt;/em&gt; of &lt;em&gt;hearts&lt;/em&gt; they &lt;em&gt;believe&lt;/em&gt; that will be &lt;em&gt;exceeded," Margoshes said&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">He said most of the &lt;em&gt;majors&lt;/em&gt; found &lt;em&gt;partners&lt;/em&gt; in the last &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;matchmaking&lt;/em&gt; which ended two &lt;em&gt;years&lt;/em&gt; ago, and &lt;em&gt;others&lt;/em&gt; restructured to the &lt;em&gt;point&lt;/em&gt; that they have become &lt;em&gt;unattractive&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said most of the &lt;em&gt;majors found partners&lt;/em&gt; in the last &lt;em&gt;round&lt;/em&gt; of &lt;em&gt;matchmaking which ended&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; ago, and &lt;em&gt;others restructured&lt;/em&gt; to the &lt;em&gt;point&lt;/em&gt; that they have &lt;em&gt;become unattractive&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">S., and they &lt;em&gt;think&lt;/em&gt; the &lt;em&gt;barrel&lt;/em&gt; of oil in the &lt;em&gt;ground&lt;/em&gt; is going to go higher," said &lt;em&gt;Sanford Margoshes&lt;/em&gt; of &lt;em&gt;Shearson Lehman Brothers Inc&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

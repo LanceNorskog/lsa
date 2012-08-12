@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-021.sgm-367.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">national</str>
+        <str name="text">large</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">western</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">resources</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">governments</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">improve</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">official</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">national</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">estimates</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">178</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Western governments view official Soviet estimates for defense spending as highly understated, but say the real figure is hard to calculate because Soviet military industries are intertwined with the civilian economy.</str>
-        <int name="index">16</int>
+        <str name="text">Finance Minister Boris Gostev told the Supreme Soviet that defense spending in 1988 would total 32 billion dlrs, the same figure as was announced last year.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.9016847564203834</double>
+        <int name="end">157</int>
+        <double name="strength">0.8087441854659375</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Talyzin said the ruling Politburo had concluded at a recent meeting that an improvement in economic performance depended to a large extent on conserving resources better.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">171</int>
-        <double name="strength">0.8653489860122385</double>
+        <double name="strength">0.8070177899340939</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Kremlin leader Mikhail Gorbachev&lt;/em&gt; has &lt;em&gt;described machine-builing&lt;/em&gt; as a &lt;em&gt;sector whose rapid modernization&lt;/em&gt; is &lt;em&gt;essential&lt;/em&gt; if the &lt;em&gt;Soviet Union&lt;/em&gt; is to &lt;em&gt;compete effectively&lt;/em&gt; on &lt;em&gt;world markets&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Kremlin leader Mikhail Gorbachev&lt;/em&gt; has described &lt;em&gt;machine-builing&lt;/em&gt; as a &lt;em&gt;sector&lt;/em&gt; whose &lt;em&gt;rapid modernization&lt;/em&gt; is &lt;em&gt;essential&lt;/em&gt; if the &lt;em&gt;Soviet Union&lt;/em&gt; is to &lt;em&gt;compete&lt;/em&gt; effectively on &lt;em&gt;world markets&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Western governments&lt;/em&gt; view &lt;em&gt;official Soviet estimates&lt;/em&gt; for &lt;em&gt;defense spending&lt;/em&gt; as &lt;em&gt;highly understated,&lt;/em&gt; but say the real &lt;em&gt;figure&lt;/em&gt; is hard to &lt;em&gt;calculate because Soviet military industries&lt;/em&gt; are &lt;em&gt;intertwined&lt;/em&gt; with the &lt;em&gt;civilian economy&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Finance Minister Boris Gostev&lt;/em&gt; told the &lt;em&gt;Supreme Soviet&lt;/em&gt; that &lt;em&gt;defense spending&lt;/em&gt; in 1988 would &lt;em&gt;total 32 billion&lt;/em&gt; dlrs, the same &lt;em&gt;figure&lt;/em&gt; as was announced last year.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Talyzin&lt;/em&gt; said the &lt;em&gt;ruling Politburo&lt;/em&gt; had &lt;em&gt;concluded&lt;/em&gt; at a &lt;em&gt;recent meeting&lt;/em&gt; that an &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;economic performance depended&lt;/em&gt; to a &lt;em&gt;large extent&lt;/em&gt; on &lt;em&gt;conserving resources better&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Talyzin&lt;/em&gt; said the &lt;em&gt;ruling Politburo&lt;/em&gt; had concluded at a &lt;em&gt;recent meeting&lt;/em&gt; that an &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;economic performance&lt;/em&gt; depended to a &lt;em&gt;large extent&lt;/em&gt; on conserving &lt;em&gt;resources better&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
     </lst>

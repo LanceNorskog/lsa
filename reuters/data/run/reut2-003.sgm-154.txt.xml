@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-154.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">failed</str>
+        <str name="text">international</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">manager</str>
+        <str name="text">natural</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">funds</str>
+        <str name="text">issues</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">support</str>
-        <double name="strength">1.0</double>
+        <str name="text">outstanding</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">representatives</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">settle</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The INRA renegotiation conference, which resumed today under the auspices of the United Nations Conference on Trade and Development (UNCTAD), is scheduled to last until March 20.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Xuto said in his consultations with representatives of major exporting and importing countries over the last few months, "I have found a constructive attitude and willingness to be flexible on the part of all concerned."</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">221</int>
-        <double name="strength">0.9163823395788969</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Consumer demands for tighter buffer stock controls, aimed at preventing INRA from following the collapse of the International Tin Agreement (ITA), were rejected by producers who argued for unchanged INRA terms.</str>
-        <int name="index">7</int>
+        <str name="text">"It is imperative that we try to settle the major outstanding issues in the course of this week, since a considerable amount of technical drafting work will remain to be completed."</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">0.8654396577561261</double>
+        <int name="end">182</int>
+        <double name="strength">0.9723695219149123</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Xuto told delegates this session of the conference presented a promising opportunity to conclude a new pact but it had to be the last before the current accord expires in October.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">180</int>
+        <double name="strength">0.8707068176312743</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The INRA &lt;em&gt;renegotiation conference, which resumed today under&lt;/em&gt; the &lt;em&gt;auspices&lt;/em&gt; of the &lt;em&gt;United Nations Conference&lt;/em&gt; on &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Development (UNCTAD),&lt;/em&gt; is &lt;em&gt;scheduled&lt;/em&gt; to last &lt;em&gt;until March 20&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Xuto said in his &lt;em&gt;consultations&lt;/em&gt; with &lt;em&gt;representatives&lt;/em&gt; of &lt;em&gt;major exporting&lt;/em&gt; and &lt;em&gt;importing countries&lt;/em&gt; over the last few &lt;em&gt;months, &lt;/em&gt;"I have &lt;em&gt;found&lt;/em&gt; a &lt;em&gt;constructive attitude&lt;/em&gt; and &lt;em&gt;willingness&lt;/em&gt; to be &lt;em&gt;flexible&lt;/em&gt; on the part of all &lt;em&gt;concerned.&lt;/em&gt;"</str>
+        <str name="text">Xuto said in his &lt;em&gt;consultations&lt;/em&gt; with &lt;em&gt;representatives&lt;/em&gt; of &lt;em&gt;major exporting&lt;/em&gt; and importing &lt;em&gt;countries&lt;/em&gt; over the last few &lt;em&gt;months, &lt;/em&gt;"I have found a &lt;em&gt;constructive attitude&lt;/em&gt; and &lt;em&gt;willingness&lt;/em&gt; to be &lt;em&gt;flexible&lt;/em&gt; on the part of all concerned."</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Consumer demands&lt;/em&gt; for &lt;em&gt;tighter buffer stock controls, aimed&lt;/em&gt; at &lt;em&gt;preventing&lt;/em&gt; INRA from &lt;em&gt;following&lt;/em&gt; the &lt;em&gt;collapse&lt;/em&gt; of the &lt;em&gt;International&lt;/em&gt; Tin &lt;em&gt;Agreement &lt;/em&gt;(ITA), were &lt;em&gt;rejected&lt;/em&gt; by &lt;em&gt;producers&lt;/em&gt; who &lt;em&gt;argued&lt;/em&gt; for &lt;em&gt;unchanged&lt;/em&gt; INRA &lt;em&gt;terms&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">"It is &lt;em&gt;imperative&lt;/em&gt; that we try to &lt;em&gt;settle&lt;/em&gt; the &lt;em&gt;major outstanding issues&lt;/em&gt; in the &lt;em&gt;course&lt;/em&gt; of this week, since a &lt;em&gt;considerable amount&lt;/em&gt; of &lt;em&gt;technical drafting&lt;/em&gt; work will &lt;em&gt;remain&lt;/em&gt; to be completed."</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Xuto told &lt;em&gt;delegates&lt;/em&gt; this &lt;em&gt;session&lt;/em&gt; of the &lt;em&gt;conference&lt;/em&gt; presented a &lt;em&gt;promising opportunity&lt;/em&gt; to &lt;em&gt;conclude&lt;/em&gt; a new pact but it had to be the last before the &lt;em&gt;current accord&lt;/em&gt; expires in &lt;em&gt;October&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-636.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">party</str>
+        <str name="text">minister</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">minister</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">april</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">priming</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">treated</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">measures</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">emergency</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Ito said revenue sources for the additional pump-priming measures should include the issue of construction bonds and the use of part of the proceeds from sales of the privatized Nippon Telegraph and Telephone Corp stocks.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The guideline will be the basis for a more detailed reflationary plan to be worked out by the LDP before Prime Minister Yasuhiro Nakasone leaves for Washington on April 29 for talks with President Reagan, Ito said.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.9466766665884148</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The official, the LDP Policy Affairs Research Council's Chairman Masayoshi Ito, told a press conference the proposed supplementary budget will probably be compiled no earlier than August but before November.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">These measures should be treated as an emergency, partly because of the urgent need for Japan to redress its external trade imbalance with the U.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.8780329087942561</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The ruling Liberal Democratic Party has drawn up the guidelines of an economic package including a supplementary budget of more than 5,000 billion yen, a senior party official said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">181</int>
-        <double name="strength">0.8715408943505302</double>
+        <double name="strength">0.9079877731232796</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;official,&lt;/em&gt; the LDP &lt;em&gt;Policy Affairs Research Council&lt;/em&gt;'s &lt;em&gt;Chairman Masayoshi&lt;/em&gt; Ito, told a &lt;em&gt;press conference&lt;/em&gt; the &lt;em&gt;proposed supplementary budget&lt;/em&gt; will &lt;em&gt;probably&lt;/em&gt; be &lt;em&gt;compiled&lt;/em&gt; no &lt;em&gt;earlier&lt;/em&gt; than &lt;em&gt;August&lt;/em&gt; but &lt;em&gt;before November&lt;/em&gt;.</str>
+        <str name="text">Ito said &lt;em&gt;revenue sources&lt;/em&gt; for the &lt;em&gt;additional&lt;/em&gt; pump-&lt;em&gt;priming measures&lt;/em&gt; should &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;issue&lt;/em&gt; of &lt;em&gt;construction bonds&lt;/em&gt; and the use of part of the &lt;em&gt;proceeds&lt;/em&gt; from &lt;em&gt;sales&lt;/em&gt; of the privatized &lt;em&gt;Nippon Telegraph&lt;/em&gt; and &lt;em&gt;Telephone&lt;/em&gt; Corp &lt;em&gt;stocks&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;guideline&lt;/em&gt; will be the &lt;em&gt;basis&lt;/em&gt; for a more &lt;em&gt;detailed reflationary&lt;/em&gt; plan to be worked out by the LDP before &lt;em&gt;Prime Minister Yasuhiro Nakasone&lt;/em&gt; leaves for &lt;em&gt;Washington&lt;/em&gt; on &lt;em&gt;April 29&lt;/em&gt; for &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;President Reagan,&lt;/em&gt; Ito said.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;official,&lt;/em&gt; the LDP &lt;em&gt;Policy Affairs Research Council&lt;/em&gt;'s &lt;em&gt;Chairman Masayoshi&lt;/em&gt; Ito, told a &lt;em&gt;press conference&lt;/em&gt; the proposed &lt;em&gt;supplementary budget&lt;/em&gt; will probably be compiled no earlier than August but before &lt;em&gt;November&lt;/em&gt;.</str>
         <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;These measures should&lt;/em&gt; be &lt;em&gt;treated&lt;/em&gt; as an &lt;em&gt;emergency, partly because&lt;/em&gt; of the &lt;em&gt;urgent&lt;/em&gt; need for &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;redress&lt;/em&gt; its &lt;em&gt;external trade imbalance&lt;/em&gt; with the U.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; has &lt;em&gt;drawn&lt;/em&gt; up the &lt;em&gt;guidelines&lt;/em&gt; of an &lt;em&gt;economic package including&lt;/em&gt; a &lt;em&gt;supplementary budget&lt;/em&gt; of more than 5,000 &lt;em&gt;billion&lt;/em&gt; yen, a &lt;em&gt;senior party official said&lt;/em&gt;.</str>
-        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

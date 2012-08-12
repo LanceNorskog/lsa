@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-51.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">exports</str>
+        <str name="text">countries</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">economy</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">seats</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">bilateral</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">resemblance</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">markka</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">235</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said Finnish conservatives bore little resemblance to other European conservative movements and had, for example, shelved privatisation policies to increase their popularity.</str>
-        <int name="index">4</int>
+        <str name="text">Finnish trade affairs are dominated by its special ties with its neighbour, The Soviet Union, and a new centre-right coalition could alter this relationship, the analysts said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">180</int>
-        <double name="strength">0.9210938137475629</double>
+        <int name="end">177</int>
+        <double name="strength">0.8637398404948841</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Securities analysts said the market would respond positively if a centre-right coalition was formed, but added it was too early to exclude the possibility that social democrats would hang on to power.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.8530682184125037</double>
+        <double name="strength">0.8359940468852429</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;conservatives gained&lt;/em&gt; nine new &lt;em&gt;seats&lt;/em&gt; in &lt;em&gt;parliament after&lt;/em&gt; the two-day &lt;em&gt;elections, which ended yesterday,&lt;/em&gt; and &lt;em&gt;political commentators&lt;/em&gt; say &lt;em&gt;social democrat Prime Minister Kalevi Sorsa&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;replaced&lt;/em&gt; by a &lt;em&gt;centre-right coalition&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;conservatives&lt;/em&gt; gained nine new &lt;em&gt;seats&lt;/em&gt; in &lt;em&gt;parliament&lt;/em&gt; after the two-day &lt;em&gt;elections,&lt;/em&gt; which ended &lt;em&gt;yesterday,&lt;/em&gt; and &lt;em&gt;political commentators&lt;/em&gt; say &lt;em&gt;social democrat Prime Minister Kalevi Sorsa&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be replaced by a &lt;em&gt;centre-right coalition&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said &lt;em&gt;Finnish conservatives&lt;/em&gt; bore &lt;em&gt;little resemblance&lt;/em&gt; to &lt;em&gt;other European conservative movements&lt;/em&gt; and had, for &lt;em&gt;example, shelved privatisation policies&lt;/em&gt; to &lt;em&gt;increase their popularity&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Finnish trade affairs&lt;/em&gt; are dominated by its &lt;em&gt;special&lt;/em&gt; ties with its &lt;em&gt;neighbour,&lt;/em&gt; The &lt;em&gt;Soviet Union,&lt;/em&gt; and a new &lt;em&gt;centre-right coalition&lt;/em&gt; could &lt;em&gt;alter&lt;/em&gt; this &lt;em&gt;relationship,&lt;/em&gt; the &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Securities analysts&lt;/em&gt; said the &lt;em&gt;market would respond positively&lt;/em&gt; if a &lt;em&gt;centre-right coalition&lt;/em&gt; was &lt;em&gt;formed,&lt;/em&gt; but &lt;em&gt;added&lt;/em&gt; it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;exclude&lt;/em&gt; the &lt;em&gt;possibility&lt;/em&gt; that &lt;em&gt;social democrats would&lt;/em&gt; hang on to &lt;em&gt;power&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Securities analysts&lt;/em&gt; said the &lt;em&gt;market&lt;/em&gt; would &lt;em&gt;respond&lt;/em&gt; positively if a &lt;em&gt;centre-right coalition&lt;/em&gt; was formed, but added it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;exclude&lt;/em&gt; the &lt;em&gt;possibility&lt;/em&gt; that &lt;em&gt;social democrats&lt;/em&gt; would hang on to &lt;em&gt;power&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
     </lst>

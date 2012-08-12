@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-685.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">55</int>
+        <int name="count">44</int>
       </lst>
       <lst name="stems">
-        <int name="count">34</int>
+        <int name="count">28</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">germany</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">heavy</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">marks</str>
+        <double name="strength">0.5711389409483034</double>
       </lst>
       <lst name="term">
-        <str name="text">lombard</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">position</str>
+        <double name="strength">0.48180384324798387</double>
       </lst>
       <lst name="term">
-        <str name="text">emergency</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">public</str>
+        <double name="strength">0.48180384324798387</double>
       </lst>
       <lst name="term">
-        <str name="text">funding</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">authorities</str>
+        <double name="strength">0.48180384324798387</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Cash in circulation is one of two components of the West German money supply which the German central bank is targeting to grow between three and six pct this year.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">165</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Banks made heavy use of the Lombard emergency funding facility to meet month-end payments and borrowed 3.1 billion marks, a rise of 2.9 billion over the week before.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">166</int>
-        <double name="strength">0.9944008921000987</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The federal government drew down 3.8 billion marks of its Bundesbank cash deposits, which had stood at 4.1 billion in the third week of February, and also borrowed a 1.8 billion in credit from the central bank.</str>
-        <int name="index">8</int>
+        <str name="text">The net position of public authorities at the Bundesbank declined 6.7 billion marks in the last week of February.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">211</int>
-        <double name="strength">0.7781386771496086</double>
+        <int name="end">114</int>
+        <double name="strength">0.9314789937640952</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cash in circulation is one of two components of the West German money supply which the German central bank is targeting to grow between three and six pct this year.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.8621386994990357</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Cash in &lt;em&gt;circulation&lt;/em&gt; is one of two &lt;em&gt;components&lt;/em&gt; of the West &lt;em&gt;German money supply which&lt;/em&gt; the &lt;em&gt;German central&lt;/em&gt; bank is &lt;em&gt;targeting&lt;/em&gt; to grow &lt;em&gt;between three&lt;/em&gt; and six pct this year.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Banks&lt;/em&gt; made &lt;em&gt;heavy&lt;/em&gt; use of the &lt;em&gt;Lombard emergency funding facility&lt;/em&gt; to meet &lt;em&gt;month&lt;/em&gt;-end &lt;em&gt;payments&lt;/em&gt; and &lt;em&gt;borrowed 3.1 billion marks,&lt;/em&gt; a rise of 2.9 &lt;em&gt;billion&lt;/em&gt; over the week &lt;em&gt;before&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Banks&lt;/em&gt; made &lt;em&gt;heavy&lt;/em&gt; use of the &lt;em&gt;Lombard emergency funding facility&lt;/em&gt; to meet &lt;em&gt;month&lt;/em&gt;-end &lt;em&gt;payments&lt;/em&gt; and borrowed 3.1 &lt;em&gt;billion marks,&lt;/em&gt; a rise of 2.9 &lt;em&gt;billion&lt;/em&gt; over the week before.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;federal government&lt;/em&gt; drew down 3.8 &lt;em&gt;billion marks&lt;/em&gt; of its &lt;em&gt;Bundesbank&lt;/em&gt; cash &lt;em&gt;deposits, which&lt;/em&gt; had &lt;em&gt;stood&lt;/em&gt; at 4.1 &lt;em&gt;billion&lt;/em&gt; in the &lt;em&gt;third&lt;/em&gt; week of &lt;em&gt;February,&lt;/em&gt; and also &lt;em&gt;borrowed&lt;/em&gt; a 1.8 &lt;em&gt;billion&lt;/em&gt; in &lt;em&gt;credit&lt;/em&gt; from the &lt;em&gt;central bank&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The net &lt;em&gt;position&lt;/em&gt; of &lt;em&gt;public authorities&lt;/em&gt; at the &lt;em&gt;Bundesbank&lt;/em&gt; declined 6.7 &lt;em&gt;billion marks&lt;/em&gt; in the last week of &lt;em&gt;February&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Cash in &lt;em&gt;circulation&lt;/em&gt; is one of two &lt;em&gt;components&lt;/em&gt; of the West &lt;em&gt;German money supply&lt;/em&gt; which the &lt;em&gt;German central&lt;/em&gt; bank is targeting to grow between &lt;em&gt;three&lt;/em&gt; and six pct this year.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

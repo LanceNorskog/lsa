@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-918.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">44</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">135</int>
       </lst>
       <lst name="stems">
-        <int name="count">110</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cents</str>
+        <str name="text">wardley</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">group</str>
-        <double name="strength">0.3726779962499636</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.37267799624996256</double>
+        <str name="text">provisions</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">adjusted</str>
-        <double name="strength">0.3333333333333333</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">still</str>
-        <double name="strength">0.3333333333333323</double>
+        <str name="text">profits</str>
+        <double name="strength">0.9726120421203795</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Analysts said that while the use of undisclosed inner reserves by banks here makes forecasting very imprecise, Hongkong Bank benefited from the unexpected strength of the Hong Kong economy in 1986, when gross domestic product grew by nearly nine pct against an initial forecast of 4.5 pct.</str>
-        <int name="index">12</int>
+        <str name="text">Former Hongkong Bank chairman Michael Sandberg said the bank wrote off hundreds of millions of dollars against its shipping exposure in 1985.</str>
+        <int name="index">35</int>
         <int name="start">1</int>
-        <int name="end">290</int>
+        <int name="end">142</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They forecast a final dividend of 29 cents for a total of 42 cents for the year against 38 cents in 1985, adjusted for a one-for-five bonus issue.</str>
-        <int name="index">6</int>
+        <str name="text">The high level of activity on the capital and equities markets in 1986 contributed to a sharp improvement in Hongkong Bank subsidiaries Wardley Ltd &lt;WAIA.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.9471881513077606</double>
+        <int name="end">155</int>
+        <double name="strength">0.9691570560751231</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The Hongkong Bank group is still the leader in mortgage business despite tough competition from the Bank of China group and other foreign banks," one analyst said.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">165</int>
-        <double name="strength">0.8730719965194874</double>
+        <str name="text">It also sold its entire 48.8 pct stake in &lt;South China Morning Post Ltd&gt;, the larger of two English-language daily newspapers here, for 1.18 billion dlrs.</str>
+        <int name="index">29</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.9371250412065688</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said that &lt;em&gt;while&lt;/em&gt; the use of &lt;em&gt;undisclosed inner reserves&lt;/em&gt; by &lt;em&gt;banks&lt;/em&gt; here &lt;em&gt;makes forecasting&lt;/em&gt; very &lt;em&gt;imprecise, Hongkong&lt;/em&gt; Bank &lt;em&gt;benefited&lt;/em&gt; from the &lt;em&gt;unexpected strength&lt;/em&gt; of the Hong Kong &lt;em&gt;economy&lt;/em&gt; in 1986, when &lt;em&gt;gross domestic product&lt;/em&gt; grew by &lt;em&gt;nearly&lt;/em&gt; nine pct &lt;em&gt;against&lt;/em&gt; an &lt;em&gt;initial forecast&lt;/em&gt; of 4.5 pct.</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Former Hongkong&lt;/em&gt; Bank &lt;em&gt;chairman Michael Sandberg&lt;/em&gt; said the bank wrote off &lt;em&gt;hundreds&lt;/em&gt; of &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; against its &lt;em&gt;shipping exposure in 1985&lt;/em&gt;.</str>
+        <int name="index">35</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;forecast&lt;/em&gt; a &lt;em&gt;final dividend&lt;/em&gt; of 29 &lt;em&gt;cents&lt;/em&gt; for a &lt;em&gt;total&lt;/em&gt; of 42 &lt;em&gt;cents&lt;/em&gt; for the year &lt;em&gt;against 38 cents&lt;/em&gt; in 1985, &lt;em&gt;adjusted&lt;/em&gt; for a one-for-five &lt;em&gt;bonus issue&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The high &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;activity&lt;/em&gt; on the &lt;em&gt;capital&lt;/em&gt; and &lt;em&gt;equities markets&lt;/em&gt; in 1986 contributed to a &lt;em&gt;sharp improvement&lt;/em&gt; in &lt;em&gt;Hongkong&lt;/em&gt; Bank &lt;em&gt;subsidiaries Wardley&lt;/em&gt; Ltd &lt;WAIA.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;Hongkong&lt;/em&gt; Bank &lt;em&gt;group&lt;/em&gt; is &lt;em&gt;still&lt;/em&gt; the &lt;em&gt;leader&lt;/em&gt; in &lt;em&gt;mortgage business despite tough competition&lt;/em&gt; from the Bank of &lt;em&gt;China group&lt;/em&gt; and &lt;em&gt;other foreign banks,"&lt;/em&gt; one &lt;em&gt;analyst said&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">It also sold its &lt;em&gt;entire 48.8&lt;/em&gt; pct &lt;em&gt;stake&lt;/em&gt; in &lt;&lt;em&gt;South China Morning&lt;/em&gt; Post Ltd&gt;, the larger of two &lt;em&gt;English-language&lt;/em&gt; daily &lt;em&gt;newspapers&lt;/em&gt; here, for 1.18 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
     </lst>
   </lst>

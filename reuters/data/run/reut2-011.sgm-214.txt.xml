@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-214.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">217</int>
+        <int name="count">172</int>
       </lst>
       <lst name="stems">
-        <int name="count">135</int>
+        <int name="count">105</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">world</str>
+        <str name="text">analyst</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">spare</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">discount</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
       <lst name="term">
-        <str name="text">unwilling</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">domestic</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">plant</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">expect</str>
+        <double name="strength">0.9999999999999969</double>
       </lst>
       <lst name="term">
-        <str name="text">machinery</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">securities</str>
+        <double name="strength">0.9962467211771681</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Brokers said their optimism about the market was based on the current low interest rates, the increasing propensity of the Japanese to save as the economy stagnates, the imminent introduction of taxes on traditionally untaxed post office savings and the allure of quick and easy profits from stocks.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">300</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">President Reagan's threat to impose tariffs on Japanese electronics exports because of Japan's alleged refusal to abide by a bilateral agreement on computer chips, was unlikely to cause the market to crash, the brokers said on the eve of the new fiscal year starting April 1.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">276</int>
-        <double name="strength">0.9934384550636636</double>
+        <double name="strength">1.0</double>
+        <int name="terms">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Brokers said their optimism about the market was based on the current low interest rates, the increasing propensity of the Japanese to save as the economy stagnates, the imminent introduction of taxes on traditionally untaxed post office savings and the allure of quick and easy profits from stocks.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">300</int>
+        <double name="strength">0.8938630611392815</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
         <str name="text">Brokers said they believe there would be more reports in the coming year of scientific discoveries to combat or diagnose Aquired Immune Deficiency Syndrome (AIDS), and these would propel related companies' shares even higher than they had risen already.</str>
         <int name="index">30</int>
         <int name="start">1</int>
         <int name="end">254</int>
-        <double name="strength">0.9810132788474669</double>
+        <double name="strength">0.8084627656741267</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; said &lt;em&gt;their optimism about&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; was &lt;em&gt;based&lt;/em&gt; on the &lt;em&gt;current&lt;/em&gt; low &lt;em&gt;interest rates,&lt;/em&gt; the &lt;em&gt;increasing propensity&lt;/em&gt; of the &lt;em&gt;Japanese&lt;/em&gt; to save as the &lt;em&gt;economy stagnates,&lt;/em&gt; the &lt;em&gt;imminent introduction&lt;/em&gt; of &lt;em&gt;taxes&lt;/em&gt; on &lt;em&gt;traditionally untaxed&lt;/em&gt; post &lt;em&gt;office savings&lt;/em&gt; and the &lt;em&gt;allure&lt;/em&gt; of &lt;em&gt;quick&lt;/em&gt; and easy &lt;em&gt;profits&lt;/em&gt; from &lt;em&gt;stocks&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;threat&lt;/em&gt; to &lt;em&gt;impose tariffs&lt;/em&gt; on &lt;em&gt;Japanese electronics exports because&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;alleged refusal&lt;/em&gt; to &lt;em&gt;abide&lt;/em&gt; by a &lt;em&gt;bilateral agreement&lt;/em&gt; on &lt;em&gt;computer chips,&lt;/em&gt; was &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;cause&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; to &lt;em&gt;crash,&lt;/em&gt; the &lt;em&gt;brokers&lt;/em&gt; said on the eve of the new &lt;em&gt;fiscal&lt;/em&gt; year &lt;em&gt;starting April 1&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;threat&lt;/em&gt; to &lt;em&gt;impose tariffs&lt;/em&gt; on &lt;em&gt;Japanese electronics exports&lt;/em&gt; because of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;alleged refusal&lt;/em&gt; to &lt;em&gt;abide&lt;/em&gt; by a &lt;em&gt;bilateral agreement&lt;/em&gt; on &lt;em&gt;computer chips,&lt;/em&gt; was &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;cause&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; to &lt;em&gt;crash,&lt;/em&gt; the &lt;em&gt;brokers&lt;/em&gt; said on the eve of the new &lt;em&gt;fiscal&lt;/em&gt; year starting &lt;em&gt;April 1&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; said they &lt;em&gt;believe there would&lt;/em&gt; be more &lt;em&gt;reports&lt;/em&gt; in the &lt;em&gt;coming&lt;/em&gt; year of &lt;em&gt;scientific discoveries&lt;/em&gt; to &lt;em&gt;combat&lt;/em&gt; or &lt;em&gt;diagnose Aquired Immune Deficiency Syndrome &lt;/em&gt;(AIDS), and &lt;em&gt;these would propel related companies' shares&lt;/em&gt; even &lt;em&gt;higher&lt;/em&gt; than they had &lt;em&gt;risen already&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; said their &lt;em&gt;optimism&lt;/em&gt; about the &lt;em&gt;market&lt;/em&gt; was based on the &lt;em&gt;current&lt;/em&gt; low &lt;em&gt;interest rates,&lt;/em&gt; the increasing &lt;em&gt;propensity&lt;/em&gt; of the &lt;em&gt;Japanese&lt;/em&gt; to save as the &lt;em&gt;economy&lt;/em&gt; stagnates, the &lt;em&gt;imminent introduction&lt;/em&gt; of &lt;em&gt;taxes&lt;/em&gt; on traditionally &lt;em&gt;untaxed&lt;/em&gt; post &lt;em&gt;office savings&lt;/em&gt; and the &lt;em&gt;allure&lt;/em&gt; of &lt;em&gt;quick&lt;/em&gt; and easy &lt;em&gt;profits&lt;/em&gt; from &lt;em&gt;stocks&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Brokers&lt;/em&gt; said they &lt;em&gt;believe&lt;/em&gt; there would be more &lt;em&gt;reports&lt;/em&gt; in the &lt;em&gt;coming&lt;/em&gt; year of &lt;em&gt;scientific discoveries&lt;/em&gt; to &lt;em&gt;combat&lt;/em&gt; or &lt;em&gt;diagnose&lt;/em&gt; Aquired &lt;em&gt;Immune Deficiency Syndrome &lt;/em&gt;(AIDS), and these would &lt;em&gt;propel&lt;/em&gt; related &lt;em&gt;companies' shares&lt;/em&gt; even higher than they had risen already.</str>
         <int name="index">30</int>
       </lst>
     </lst>

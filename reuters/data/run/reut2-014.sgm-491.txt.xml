@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-491.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">political</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">diplomats</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">payments</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">intended</str>
-        <double name="strength">0.5</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">underscore</str>
-        <double name="strength">0.5</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">brazilian</str>
-        <double name="strength">0.5</double>
+        <str name="text">yesterday</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The creation of the commission is intended to underscore the Brazilian government's contention that the debt issue is essentially political and that a political solution must be found to the problem.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But the new commission has diplomats among its members and the chief negotiator, Saraiva Guerreiro, is a seasoned envoy with a long diplomatic career.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">0.9143382471910231</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Funaro was due to hold talks in New York today with the private sector, before travelling to Washington for the semi- annual meeting of the International Monetary Fund and the World Bank.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.9124580824535861</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Yesterday Funaro travelled to the United States for fresh debt negotiations with creditors deeply angered by Brasilia's suspension of interest payments.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">153</int>
+        <double name="strength">0.773295186970898</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The principal negotiator on the commission, created by President Jose Sarney, will be former foreign minister Ramiro Saraiva Guerreiro.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">136</int>
+        <double name="strength">0.7682284133250843</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;creation&lt;/em&gt; of the &lt;em&gt;commission&lt;/em&gt; is &lt;em&gt;intended&lt;/em&gt; to &lt;em&gt;underscore&lt;/em&gt; the &lt;em&gt;Brazilian government&lt;/em&gt;'s &lt;em&gt;contention&lt;/em&gt; that the debt &lt;em&gt;issue&lt;/em&gt; is &lt;em&gt;essentially political&lt;/em&gt; and that a &lt;em&gt;political solution&lt;/em&gt; must be &lt;em&gt;found&lt;/em&gt; to the &lt;em&gt;problem&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But the new &lt;em&gt;commission&lt;/em&gt; has &lt;em&gt;diplomats among&lt;/em&gt; its &lt;em&gt;members&lt;/em&gt; and the &lt;em&gt;chief negotiator, Saraiva Guerreiro,&lt;/em&gt; is a &lt;em&gt;seasoned envoy&lt;/em&gt; with a long &lt;em&gt;diplomatic career&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; was due to hold &lt;em&gt;talks&lt;/em&gt; in New York &lt;em&gt;today&lt;/em&gt; with the &lt;em&gt;private sector, before travelling&lt;/em&gt; to &lt;em&gt;Washington&lt;/em&gt; for the semi- &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;International Monetary&lt;/em&gt; Fund and the &lt;em&gt;World Bank&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; was due to hold &lt;em&gt;talks&lt;/em&gt; in New York &lt;em&gt;today&lt;/em&gt; with the &lt;em&gt;private sector,&lt;/em&gt; before travelling to &lt;em&gt;Washington&lt;/em&gt; for the semi- &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;International Monetary&lt;/em&gt; Fund and the &lt;em&gt;World Bank&lt;/em&gt;.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Yesterday Funaro&lt;/em&gt; travelled to the United &lt;em&gt;States&lt;/em&gt; for &lt;em&gt;fresh&lt;/em&gt; debt &lt;em&gt;negotiations&lt;/em&gt; with &lt;em&gt;creditors&lt;/em&gt; deeply angered by &lt;em&gt;Brasilia&lt;/em&gt;'s &lt;em&gt;suspension&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;principal negotiator&lt;/em&gt; on the &lt;em&gt;commission,&lt;/em&gt; created by &lt;em&gt;President&lt;/em&gt; Jose &lt;em&gt;Sarney,&lt;/em&gt; will be &lt;em&gt;former foreign minister&lt;/em&gt; Ramiro &lt;em&gt;Saraiva Guerreiro&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

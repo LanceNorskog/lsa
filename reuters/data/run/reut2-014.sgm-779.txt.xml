@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-779.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">86</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">levels</str>
+        <str name="text">positive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">moderately</str>
-        <double name="strength">0.8944271909999214</double>
+        <str name="text">finish</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">0.8944271909999211</double>
+        <str name="text">selling</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">persisted</str>
-        <double name="strength">0.8944271909999199</double>
+        <str name="text">sentiment</str>
+        <double name="strength">0.9917320401144661</double>
       </lst>
       <lst name="term">
-        <str name="text">slightly</str>
-        <double name="strength">0.8944271909999199</double>
+        <str name="text">markets</str>
+        <double name="strength">0.991732040114466</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Participants tended to keep their positions small and Bank of Japan intervention shortly after Tokyo's opening at around 145.30 yen failed to have a strong impact on the market, they said.</str>
-        <int name="index">3</int>
-        <int name="start">0</int>
-        <int name="end">188</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Dealers said supportive remarks yesterday from Federal Reserve chairman Paul Volcker and Japanese Finance Minister Kiichi Miyazawa were ignored as players squared positions.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">0.9952236610528783</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dealers said the dollar appeared to be holding comfortably above the critical 145 yen level now as yesterday's attempt to break that level failed for lack of momentum.</str>
-        <int name="index">8</int>
+        <str name="text">Participants tended to keep their positions small and Bank of Japan intervention shortly after Tokyo's opening at around 145.30 yen failed to have a strong impact on the market, they said.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
+        <double name="strength">0.8861809164991417</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Dealers said sterling sentiment remains positive as the ruling Conservative party maintained its lead in opinion polls.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">168</int>
-        <double name="strength">0.9474921328487488</double>
+        <int name="end">120</int>
+        <double name="strength">0.8387213529053655</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Participants tended&lt;/em&gt; to keep &lt;em&gt;their positions small&lt;/em&gt; and Bank of &lt;em&gt;Japan intervention shortly after Tokyo&lt;/em&gt;'s &lt;em&gt;opening&lt;/em&gt; at &lt;em&gt;around 145.30&lt;/em&gt; yen &lt;em&gt;failed&lt;/em&gt; to have a &lt;em&gt;strong impact&lt;/em&gt; on the &lt;em&gt;market,&lt;/em&gt; they said.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said &lt;em&gt;supportive remarks yesterday&lt;/em&gt; from &lt;em&gt;Federal Reserve chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; and &lt;em&gt;Japanese Finance Minister Kiichi Miyazawa&lt;/em&gt; were &lt;em&gt;ignored&lt;/em&gt; as &lt;em&gt;players squared positions&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said &lt;em&gt;supportive remarks yesterday&lt;/em&gt; from &lt;em&gt;Federal Reserve chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; and &lt;em&gt;Japanese Finance Minister&lt;/em&gt; Kiichi &lt;em&gt;Miyazawa&lt;/em&gt; were ignored as &lt;em&gt;players&lt;/em&gt; squared &lt;em&gt;positions&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said the &lt;em&gt;dollar appeared&lt;/em&gt; to be &lt;em&gt;holding comfortably above&lt;/em&gt; the &lt;em&gt;critical 145&lt;/em&gt; yen &lt;em&gt;level&lt;/em&gt; now as &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;break&lt;/em&gt; that &lt;em&gt;level failed&lt;/em&gt; for lack of &lt;em&gt;momentum&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Participants&lt;/em&gt; tended to keep their &lt;em&gt;positions small&lt;/em&gt; and Bank of &lt;em&gt;Japan intervention&lt;/em&gt; shortly after &lt;em&gt;Tokyo&lt;/em&gt;'s opening at around 145.30 yen failed to have a &lt;em&gt;strong impact&lt;/em&gt; on the &lt;em&gt;market,&lt;/em&gt; they said.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said &lt;em&gt;sterling sentiment&lt;/em&gt; remains &lt;em&gt;positive&lt;/em&gt; as the &lt;em&gt;ruling Conservative party&lt;/em&gt; maintained its lead in &lt;em&gt;opinion polls&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

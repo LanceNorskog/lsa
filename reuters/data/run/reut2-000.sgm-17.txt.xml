@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-17.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">73</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">41</int>
+        <int name="count">30</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">major</str>
-        <double name="strength">0.4999999999999999</double>
-      </lst>
-      <lst name="term">
-        <str name="text">shareholder</str>
-        <double name="strength">0.4999999999999999</double>
-      </lst>
-      <lst name="term">
         <str name="text">reuter</str>
-        <double name="strength">0.4999999999999998</double>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">early</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">anticipated</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">performance</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">160</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">B.I. Foods Ltd, a United Kingdom blender, and has licensing arrangements in Australia, Canada, Brazil and Japan.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">112</int>
-        <double name="strength">0.9794118893003207</double>
+        <double name="strength">0.9553331488043603</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Douglas said it was too early to project whether the anticipated fourth quarter performance would be "enough for us to exceed the prior year's overall earnings" of 1.53 dlrs a share.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">183</int>
-        <double name="strength">0.9500701178545329</double>
+        <double name="strength">0.8744101856250827</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;President Howard&lt;/em&gt; Dean said in &lt;em&gt;fiscal 1988&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; will &lt;em&gt;derive  benefits&lt;/em&gt; of &lt;em&gt;various dairy&lt;/em&gt; and &lt;em&gt;frozen vegetable acquisitions&lt;/em&gt; from Ryan Milk to the &lt;em&gt;Larsen Co&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;President&lt;/em&gt; Howard Dean said in &lt;em&gt;fiscal 1988&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; will &lt;em&gt;derive  benefits&lt;/em&gt; of &lt;em&gt;various dairy&lt;/em&gt; and frozen &lt;em&gt;vegetable acquisitions&lt;/em&gt; from Ryan Milk to the &lt;em&gt;Larsen Co&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">B.I. &lt;em&gt;Foods&lt;/em&gt; Ltd, a &lt;em&gt;United Kingdom blender,&lt;/em&gt; and has &lt;em&gt;licensing arrangements&lt;/em&gt; in &lt;em&gt;Australia, Canada, Brazil&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
+        <str name="text">B.I. &lt;em&gt;Foods&lt;/em&gt; Ltd, a United &lt;em&gt;Kingdom blender,&lt;/em&gt; and has licensing &lt;em&gt;arrangements&lt;/em&gt; in &lt;em&gt;Australia, Canada, Brazil&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Douglas&lt;/em&gt; said it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;project whether&lt;/em&gt; the &lt;em&gt;anticipated fourth quarter performance would&lt;/em&gt; be "&lt;em&gt;enough&lt;/em&gt; for us to &lt;em&gt;exceed&lt;/em&gt; the &lt;em&gt;prior&lt;/em&gt; year's &lt;em&gt;overall earnings"&lt;/em&gt; of 1.53 dlrs a &lt;em&gt;share&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Douglas&lt;/em&gt; said it was too &lt;em&gt;early&lt;/em&gt; to &lt;em&gt;project&lt;/em&gt; whether the &lt;em&gt;anticipated fourth quarter performance&lt;/em&gt; would be "enough for us to &lt;em&gt;exceed&lt;/em&gt; the &lt;em&gt;prior&lt;/em&gt; year's &lt;em&gt;overall earnings"&lt;/em&gt; of 1.53 dlrs a &lt;em&gt;share&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
     </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-968.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">69</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">finance</str>
+        <str name="text">commercial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">today</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">future</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">negotiation</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">confrontation</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">crisis</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">mechanisms</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Finance Minister Dilson Funaro said in a television interview it was "absolutely important" for Brazil and its creditors to renew the short-term credit lines, as Brazil must finance its exports.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Funaro said currently debt negotiations are "very complex and complicated," mentioning cases of countries which had to wait some 10 months before getting a reply from creditors.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">178</int>
-        <double name="strength">0.9613890676747601</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The spokesman declined to give details of what was included in the statement, but said Central Bank president Francisco Gros was seeking a 60-day extension of the short-term credit lines from its commercial bank creditors.</str>
-        <int name="index">3</int>
+        <str name="text">Brazil last month suspended interest payments on its 68- billion dlrs debt to commercial banks and froze short-term trade and money market lines.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.8186887559417776</double>
+        <int name="end">146</int>
+        <double name="strength">0.9336934124001967</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The amount of these credit lines totals 15 billion dollars, and deadline for payment is set for March 31.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">106</int>
+        <double name="strength">0.8278287084769007</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Dilson Funaro&lt;/em&gt; said in a &lt;em&gt;television interview&lt;/em&gt; it was "&lt;em&gt;absolutely important"&lt;/em&gt; for &lt;em&gt;Brazil&lt;/em&gt; and its &lt;em&gt;creditors&lt;/em&gt; to &lt;em&gt;renew&lt;/em&gt; the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;credit lines,&lt;/em&gt; as &lt;em&gt;Brazil&lt;/em&gt; must &lt;em&gt;finance&lt;/em&gt; its &lt;em&gt;exports&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; said &lt;em&gt;currently&lt;/em&gt; debt &lt;em&gt;negotiations&lt;/em&gt; are "very &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;complicated," mentioning cases&lt;/em&gt; of &lt;em&gt;countries which&lt;/em&gt; had to wait some 10 &lt;em&gt;months before getting&lt;/em&gt; a &lt;em&gt;reply&lt;/em&gt; from &lt;em&gt;creditors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Funaro&lt;/em&gt; said currently debt &lt;em&gt;negotiations&lt;/em&gt; are "very &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;complicated," mentioning cases&lt;/em&gt; of &lt;em&gt;countries&lt;/em&gt; which had to wait some 10 &lt;em&gt;months&lt;/em&gt; before getting a &lt;em&gt;reply&lt;/em&gt; from &lt;em&gt;creditors&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;spokesman declined&lt;/em&gt; to give &lt;em&gt;details&lt;/em&gt; of what was &lt;em&gt;included&lt;/em&gt; in the &lt;em&gt;statement,&lt;/em&gt; but said &lt;em&gt;Central&lt;/em&gt; Bank &lt;em&gt;president Francisco&lt;/em&gt; Gros was &lt;em&gt;seeking&lt;/em&gt; a 60-day &lt;em&gt;extension&lt;/em&gt; of the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;credit lines&lt;/em&gt; from its &lt;em&gt;commercial&lt;/em&gt; bank &lt;em&gt;creditors&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; suspended &lt;em&gt;interest payments&lt;/em&gt; on its 68- &lt;em&gt;billion&lt;/em&gt; dlrs debt to &lt;em&gt;commercial banks&lt;/em&gt; and froze short-term &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;money market lines&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;amount&lt;/em&gt; of these &lt;em&gt;credit lines&lt;/em&gt; totals 15 &lt;em&gt;billion dollars,&lt;/em&gt; and &lt;em&gt;deadline&lt;/em&gt; for &lt;em&gt;payment&lt;/em&gt; is set for &lt;em&gt;March 31&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

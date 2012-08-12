@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-27.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">152</int>
+        <int name="count">110</int>
       </lst>
       <lst name="stems">
-        <int name="count">94</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">equipment</str>
+        <str name="text">gumport</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">thinks</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">strong</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.5527707983925664</double>
+        <str name="text">inventory</str>
+        <double name="strength">0.9775433528668039</double>
       </lst>
       <lst name="term">
-        <str name="text">nevertheless</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">president</str>
+        <double name="strength">0.9775433528668029</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Beedle said while he thinks the semiconductor industry will have a very good second quarter, he still thinks positive shifts in exports and industrial production are needed to sustain a recovery.</str>
-        <int name="index">29</int>
-        <int name="start">1</int>
-        <int name="end">196</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We believe that the bookings increase reflects growing confidence by electronic equipment manufacturers that some end-equipment market segments have improved substantially during the first quarter," Procassini said in a statement.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.9984459844943424</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Kubiak attributed the stong semiconductor orders to strength in the personal computer market, inventory restocking and strong buying by distributors.</str>
         <int name="index">21</int>
         <int name="start">1</int>
         <int name="end">150</int>
-        <double name="strength">0.8310192929687431</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Drexel Burnham Lambert Inc analyst Michael Gumport said association numbers indicate March orders were up 20 pct above the normal seasonal level.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">146</int>
+        <double name="strength">0.9884871890115977</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I still believe caution should be the word, rather than euphoria," said Beedle, adding that he has yet to see strong indications from the general economy or the computer industry that support a solid, long-term recovery.</str>
+        <int name="index">28</int>
+        <int name="start">1</int>
+        <int name="end">222</int>
+        <double name="strength">0.9158429262787543</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Beedle&lt;/em&gt; said &lt;em&gt;while&lt;/em&gt; he &lt;em&gt;thinks&lt;/em&gt; the &lt;em&gt;semiconductor industry&lt;/em&gt; will have a very good &lt;em&gt;second quarter,&lt;/em&gt; he &lt;em&gt;still thinks positive shifts&lt;/em&gt; in &lt;em&gt;exports&lt;/em&gt; and &lt;em&gt;industrial production&lt;/em&gt; are &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;sustain&lt;/em&gt; a &lt;em&gt;recovery&lt;/em&gt;.</str>
-        <int name="index">29</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;bookings increase reflects growing confidence&lt;/em&gt; by &lt;em&gt;electronic equipment manufacturers&lt;/em&gt; that some end-&lt;em&gt;equipment market segments&lt;/em&gt; have &lt;em&gt;improved substantially during&lt;/em&gt; the &lt;em&gt;first quarter," Procassini&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Kubiak attributed&lt;/em&gt; the &lt;em&gt;stong semiconductor orders&lt;/em&gt; to &lt;em&gt;strength&lt;/em&gt; in the &lt;em&gt;personal computer market, inventory restocking&lt;/em&gt; and &lt;em&gt;strong buying&lt;/em&gt; by &lt;em&gt;distributors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Kubiak&lt;/em&gt; attributed the &lt;em&gt;stong semiconductor orders&lt;/em&gt; to &lt;em&gt;strength&lt;/em&gt; in the &lt;em&gt;personal computer market, inventory restocking&lt;/em&gt; and &lt;em&gt;strong buying&lt;/em&gt; by &lt;em&gt;distributors&lt;/em&gt;.</str>
         <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc &lt;em&gt;analyst Michael Gumport&lt;/em&gt; said &lt;em&gt;association numbers indicate March orders&lt;/em&gt; were up 20 pct above the &lt;em&gt;normal seasonal level&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I still &lt;em&gt;believe caution&lt;/em&gt; should be the word, rather than &lt;em&gt;euphoria,"&lt;/em&gt; said Beedle, adding that he has yet to see &lt;em&gt;strong indications&lt;/em&gt; from the &lt;em&gt;general economy&lt;/em&gt; or the &lt;em&gt;computer industry&lt;/em&gt; that &lt;em&gt;support&lt;/em&gt; a &lt;em&gt;solid,&lt;/em&gt; long-term &lt;em&gt;recovery&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
     </lst>
   </lst>

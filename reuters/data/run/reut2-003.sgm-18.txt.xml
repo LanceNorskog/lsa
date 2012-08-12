@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-18.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">105</int>
       </lst>
       <lst name="stems">
-        <int name="count">92</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">average</str>
+        <str name="text">policy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">crisis</str>
-        <double name="strength">0.9999999999999992</double>
-      </lst>
-      <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.9999999999999991</double>
-      </lst>
-      <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.7905694150420939</double>
-      </lst>
-      <lst name="term">
         <str name="text">billion</str>
-        <double name="strength">0.6236095644623231</double>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">three</str>
+        <double name="strength">0.996090031691098</double>
+      </lst>
+      <lst name="term">
+        <str name="text">barrel</str>
+        <double name="strength">0.9960900316910979</double>
+      </lst>
+      <lst name="term">
+        <str name="text">prices</str>
+        <double name="strength">0.9960900316910979</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">251</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The 24 nations of the Organisation for Economic Cooperation and Development (OECD), hampered by sluggish industrial output and trade, face slower economic growth, and their joint balance of payments will swing into deficit in 1987, the Economist Intelligence Unit (EIU ) said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">276</int>
-        <double name="strength">0.9189107648654524</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">"This is not a crash scenario but the dollar's steeper angle of descent increases the risk of ending with a fireball rather than a three-point landing," the EIU said.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.8345580433054578</double>
+        <double name="strength">0.7752650451321295</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It said the dollar is poised to resume its decline in foreign exchange markets, and will lose a further 13 pct on its trade-weighted index this year and five pct in 1988 after last year's 18.4 pct drop.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">203</int>
+        <double name="strength">0.7591318865774567</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Talking&lt;/em&gt; will not stop the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;slide&lt;/em&gt; for long and the &lt;em&gt;February meeting &lt;/em&gt;(of &lt;em&gt;finance ministers&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five and &lt;em&gt;Canada) produced scant promise&lt;/em&gt; of &lt;em&gt;either&lt;/em&gt; a &lt;em&gt;decisive shift&lt;/em&gt; to more &lt;em&gt;expansive policies&lt;/em&gt; in West &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;Japan,&lt;/em&gt; or a &lt;em&gt;tighter U&lt;/em&gt;.</str>
+        <str name="text">"Talking will not stop the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;slide&lt;/em&gt; for long and the &lt;em&gt;February meeting &lt;/em&gt;(of &lt;em&gt;finance ministers&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five and &lt;em&gt;Canada)&lt;/em&gt; produced &lt;em&gt;scant promise&lt;/em&gt; of either a &lt;em&gt;decisive shift&lt;/em&gt; to more &lt;em&gt;expansive policies&lt;/em&gt; in West &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;Japan,&lt;/em&gt; or a tighter U.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The 24 &lt;em&gt;nations&lt;/em&gt; of the &lt;em&gt;Organisation&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD), &lt;em&gt;hampered&lt;/em&gt; by &lt;em&gt;sluggish industrial output&lt;/em&gt; and &lt;em&gt;trade,&lt;/em&gt; face &lt;em&gt;slower economic growth,&lt;/em&gt; and &lt;em&gt;their joint balance&lt;/em&gt; of &lt;em&gt;payments&lt;/em&gt; will &lt;em&gt;swing&lt;/em&gt; into &lt;em&gt;deficit&lt;/em&gt; in 1987, the &lt;em&gt;Economist Intelligence&lt;/em&gt; Unit (EIU ) said.</str>
-        <int name="index">0</int>
+        <str name="text">"This is not a &lt;em&gt;crash scenario&lt;/em&gt; but the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;steeper angle&lt;/em&gt; of &lt;em&gt;descent&lt;/em&gt; increases the risk of ending with a &lt;em&gt;fireball&lt;/em&gt; rather than a &lt;em&gt;three-point&lt;/em&gt; landing," the EIU said.</str>
+        <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"This is not a &lt;em&gt;crash scenario&lt;/em&gt; but the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;steeper angle&lt;/em&gt; of &lt;em&gt;descent increases&lt;/em&gt; the risk of &lt;em&gt;ending&lt;/em&gt; with a &lt;em&gt;fireball rather&lt;/em&gt; than a &lt;em&gt;three-point landing,"&lt;/em&gt; the EIU said.</str>
-        <int name="index">11</int>
+        <str name="text">It said the &lt;em&gt;dollar&lt;/em&gt; is poised to &lt;em&gt;resume&lt;/em&gt; its &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;foreign exchange markets,&lt;/em&gt; and will lose a &lt;em&gt;further 13&lt;/em&gt; pct on its &lt;em&gt;trade&lt;/em&gt;-weighted &lt;em&gt;index&lt;/em&gt; this year and five pct in 1988 after last year's 18.4 pct drop.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

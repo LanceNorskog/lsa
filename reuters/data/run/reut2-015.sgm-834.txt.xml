@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-834.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">yield</str>
+        <str name="text">partner</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">conversion</str>
-        <double name="strength">0.9999999999999962</double>
       </lst>
       <lst name="term">
         <str name="text">shares</str>
-        <double name="strength">0.559016994374946</double>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">priced</str>
-        <double name="strength">0.5590169943749452</double>
+        <str name="text">partnership</str>
+        <double name="strength">0.974750684057348</double>
       </lst>
       <lst name="term">
-        <str name="text">instead</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">markets</str>
+        <double name="strength">0.974750684057348</double>
+      </lst>
+      <lst name="term">
+        <str name="text">unique</str>
+        <double name="strength">0.9409276072344841</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Nivison said that the deal contains a convenent which states that if the company's debt to equity ratio exceeds two to one the debentures cannot be converted unless the company obtains a bank guarantee or a letter of credit.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">IRT Property Co, a real estate investment trust based in Atlanta, Georgia, has launched a 30 mln dlr convertible subordinated debenture in the Euromarket, a partner of Chandler Partnership Ltd said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">198</int>
-        <double name="strength">0.9409864382126619</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In addition, holders will be able to surrender half the bonds during May 1991 at 123 pct for a semi-annual yield of 7.043 pct and the other half in May 1993 at 140 pct, for a yield of 7.383 pct.</str>
-        <int name="index">13</int>
+        <str name="text">Instead, IRT mandated Chandler Partnership to find potential investors with whom the issue can be preplaced and to then place on a "best efforts" basis what ever amount may not be subscribed.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">191</int>
+        <double name="strength">0.9095359586200984</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The deal has two sponsors who assist in the placement-- Interallianz Bank Zurich AG and Nivison Cantrade Ltd, a small U.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.9269620107100162</double>
+        <int name="end">121</int>
+        <double name="strength">0.863485728145604</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nivison&lt;/em&gt; said that the deal &lt;em&gt;contains&lt;/em&gt; a &lt;em&gt;convenent which states&lt;/em&gt; that if the &lt;em&gt;company&lt;/em&gt;'s debt to &lt;em&gt;equity ratio exceeds&lt;/em&gt; two to one the &lt;em&gt;debentures cannot&lt;/em&gt; be &lt;em&gt;converted unless&lt;/em&gt; the &lt;em&gt;company obtains&lt;/em&gt; a bank &lt;em&gt;guarantee&lt;/em&gt; or a &lt;em&gt;letter&lt;/em&gt; of &lt;em&gt;credit&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">IRT &lt;em&gt;Property&lt;/em&gt; Co, a real &lt;em&gt;estate investment trust based&lt;/em&gt; in &lt;em&gt;Atlanta, Georgia,&lt;/em&gt; has &lt;em&gt;launched&lt;/em&gt; a 30 mln dlr &lt;em&gt;convertible subordinated debenture&lt;/em&gt; in the &lt;em&gt;Euromarket,&lt;/em&gt; a &lt;em&gt;partner&lt;/em&gt; of &lt;em&gt;Chandler Partnership&lt;/em&gt; Ltd said.</str>
+        <str name="text">IRT &lt;em&gt;Property&lt;/em&gt; Co, a real &lt;em&gt;estate investment trust&lt;/em&gt; based in Atlanta, &lt;em&gt;Georgia,&lt;/em&gt; has launched a 30 mln dlr &lt;em&gt;convertible&lt;/em&gt; subordinated &lt;em&gt;debenture&lt;/em&gt; in the &lt;em&gt;Euromarket,&lt;/em&gt; a &lt;em&gt;partner&lt;/em&gt; of &lt;em&gt;Chandler Partnership&lt;/em&gt; Ltd said.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition, holders&lt;/em&gt; will be able to &lt;em&gt;surrender&lt;/em&gt; half the &lt;em&gt;bonds during&lt;/em&gt; May 1991 at 123 pct for a semi-&lt;em&gt;annual yield&lt;/em&gt; of 7.043 pct and the &lt;em&gt;other&lt;/em&gt; half in May 1993 at 140 pct, for a &lt;em&gt;yield&lt;/em&gt; of 7.383 pct.</str>
-        <int name="index">13</int>
+        <str name="text">Instead, IRT mandated &lt;em&gt;Chandler Partnership&lt;/em&gt; to find &lt;em&gt;potential investors&lt;/em&gt; with whom the &lt;em&gt;issue&lt;/em&gt; can be preplaced and to then &lt;em&gt;place&lt;/em&gt; on a "best &lt;em&gt;efforts" basis&lt;/em&gt; what ever &lt;em&gt;amount&lt;/em&gt; may not be subscribed.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The deal has two &lt;em&gt;sponsors&lt;/em&gt; who &lt;em&gt;assist&lt;/em&gt; in the &lt;em&gt;placement-- Interallianz&lt;/em&gt; Bank Zurich AG and &lt;em&gt;Nivison Cantrade&lt;/em&gt; Ltd, a &lt;em&gt;small U&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-100.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tonnes</str>
+        <str name="text">barter</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">contract</str>
-        <double name="strength">0.8017837257372743</double>
+        <str name="text">provision</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">included</str>
-        <double name="strength">0.8017837257372743</double>
+        <str name="text">trade</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">intervention</str>
-        <double name="strength">0.8017837257372739</double>
+        <str name="text">fresh</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">stock</str>
-        <double name="strength">0.8017837257372739</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Negotiations with the Iranians for 1987 shipments were currently under way, with Iran again seeking credit and barter provisions, he said.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">139</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He told Reuters an improvement in the economic climate and less competition from the European Community should lead in the Gulf area to higher beef sales, which dropped from 33,000 tonnes in 1980 to just 2,300 tonnes last year.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.9497161598676356</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Australia is in an ideal position to provide the supplies if the market is willing to pay a premium for a fresh, young product," he said.</str>
         <int name="index">17</int>
         <int name="start">0</int>
         <int name="end">137</int>
-        <double name="strength">0.9423491260763369</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Negotiations with the Iranians for 1987 shipments were currently under way, with Iran again seeking credit and barter provisions, he said.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">139</int>
+        <double name="strength">0.7882296483471859</double>
+        <int name="terms">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Frawley is on a Gulf tour which will also take him to Saudi Arabia, the United Arab Emirates and Kuwait to assess market potential.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">132</int>
+        <double name="strength">0.7639867290401958</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Negotiations&lt;/em&gt; with the &lt;em&gt;Iranians&lt;/em&gt; for 1987 &lt;em&gt;shipments&lt;/em&gt; were &lt;em&gt;currently under&lt;/em&gt; way, with Iran &lt;em&gt;again seeking credit&lt;/em&gt; and &lt;em&gt;barter provisions,&lt;/em&gt; he said.</str>
+        <str name="text">&lt;em&gt;Australia&lt;/em&gt; is in an &lt;em&gt;ideal position&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; the &lt;em&gt;supplies&lt;/em&gt; if the &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;willing&lt;/em&gt; to pay a &lt;em&gt;premium&lt;/em&gt; for a &lt;em&gt;fresh, young product,"&lt;/em&gt; he said.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Negotiations&lt;/em&gt; with the &lt;em&gt;Iranians&lt;/em&gt; for 1987 &lt;em&gt;shipments&lt;/em&gt; were currently under way, with Iran again seeking &lt;em&gt;credit&lt;/em&gt; and &lt;em&gt;barter provisions,&lt;/em&gt; he said.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He told &lt;em&gt;Reuters&lt;/em&gt; an &lt;em&gt;improvement&lt;/em&gt; in the &lt;em&gt;economic climate&lt;/em&gt; and less &lt;em&gt;competition&lt;/em&gt; from the &lt;em&gt;European Community should&lt;/em&gt; lead in the Gulf area to &lt;em&gt;higher&lt;/em&gt; beef &lt;em&gt;sales, which dropped&lt;/em&gt; from 33,000 &lt;em&gt;tonnes&lt;/em&gt; in 1980 to just 2,300 &lt;em&gt;tonnes&lt;/em&gt; last year.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Australia&lt;/em&gt; is in an &lt;em&gt;ideal position&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; the &lt;em&gt;supplies&lt;/em&gt; if the &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;willing&lt;/em&gt; to pay a &lt;em&gt;premium&lt;/em&gt; for a &lt;em&gt;fresh, young product,"&lt;/em&gt; he said.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Frawley&lt;/em&gt; is on a Gulf tour which will also take him to &lt;em&gt;Saudi Arabia,&lt;/em&gt; the United Arab &lt;em&gt;Emirates&lt;/em&gt; and &lt;em&gt;Kuwait&lt;/em&gt; to &lt;em&gt;assess market potential&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

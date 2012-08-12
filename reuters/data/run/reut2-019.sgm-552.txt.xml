@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-552.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">61</int>
+        <int name="count">46</int>
       </lst>
       <lst name="stems">
-        <int name="count">40</int>
+        <int name="count">29</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">france</str>
+        <str name="text">consideration</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">april</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">medical</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">annual</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">pharmaceuticals</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">meeting</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">merignac</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">agreed</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">bordeaux</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Degussa said last week it intended to buy 100 pct of the capital of the medical pharmaceuticals group Sarget, based in Merignac near Bordeaux.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company said in a statement it would also raise nominal share capital by 20 mln marks in a share swap as part of its planned takeover of French medicine group &lt;Laboratoires Sarget SA&gt;.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">189</int>
+        <double name="strength">0.8804811163008677</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Sarget had 1986 sales in France, Belgium, the Netherlands, Spain, Portugal and Italy of 730 mln French francs.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">111</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The April 10 annual meeting agreed that there would be no rights issue on this capital, which was already authorized but unissued.</str>
-        <int name="index">9</int>
-        <int name="start">0</int>
-        <int name="end">130</int>
-        <double name="strength">0.8604581636386391</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Degussa has not said how much it would pay for Sarget, but 20 mln marks nominal of 50-mark shares, at today's Frankfurt opening price of 494.70 marks, would be worth nearly 198 mln marks.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.788769171657213</double>
+        <double name="strength">0.8728236789356484</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sarget&lt;/em&gt; had 1986 &lt;em&gt;sales&lt;/em&gt; in &lt;em&gt;France, Belgium,&lt;/em&gt; the &lt;em&gt;Netherlands, Spain, Portugal&lt;/em&gt; and &lt;em&gt;Italy&lt;/em&gt; of 730 mln &lt;em&gt;French francs&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Degussa&lt;/em&gt; said last week it intended to buy 100 pct of the &lt;em&gt;capital&lt;/em&gt; of the &lt;em&gt;medical pharmaceuticals group Sarget,&lt;/em&gt; based in &lt;em&gt;Merignac&lt;/em&gt; near &lt;em&gt;Bordeaux&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; it would also &lt;em&gt;raise nominal share capital&lt;/em&gt; by 20 mln &lt;em&gt;marks&lt;/em&gt; in a &lt;em&gt;share&lt;/em&gt; swap as part of its &lt;em&gt;planned takeover&lt;/em&gt; of &lt;em&gt;French medicine group &lt;/em&gt;&lt;Laboratoires &lt;em&gt;Sarget SA&gt;&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Sarget&lt;/em&gt; had 1986 &lt;em&gt;sales&lt;/em&gt; in &lt;em&gt;France,&lt;/em&gt; Belgium, the &lt;em&gt;Netherlands, Spain, Portugal&lt;/em&gt; and Italy of 730 mln &lt;em&gt;French francs&lt;/em&gt;.</str>
         <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;April 10 annual meeting agreed&lt;/em&gt; that &lt;em&gt;there would&lt;/em&gt; be no &lt;em&gt;rights issue&lt;/em&gt; on this &lt;em&gt;capital, which&lt;/em&gt; was &lt;em&gt;already authorized&lt;/em&gt; but &lt;em&gt;unissued&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Degussa&lt;/em&gt; has not said how much it &lt;em&gt;would&lt;/em&gt; pay for &lt;em&gt;Sarget,&lt;/em&gt; but 20 mln &lt;em&gt;marks nominal&lt;/em&gt; of 50-mark &lt;em&gt;shares,&lt;/em&gt; at &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;Frankfurt opening price&lt;/em&gt; of 494.70 &lt;em&gt;marks, would&lt;/em&gt; be &lt;em&gt;worth nearly 198&lt;/em&gt; mln &lt;em&gt;marks&lt;/em&gt;.</str>
-        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

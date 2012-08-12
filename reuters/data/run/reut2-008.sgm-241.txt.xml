@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-241.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">84</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">53</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">peking</str>
+        <str name="text">statement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">foreign</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">republic</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">communist</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">nationality</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Details of today's agreement to hand over Portuguese-ruled Macao to China will be released after the official signing in Peking on Thursday, Portuguese Ambassador to Peking Octavio Valerio said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">194</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It said: "Macao should be returned to the Republic of China on Taiwan because communist China, a rebel entity, has no right to represent China and all the Chinese people.</str>
-        <int name="index">9</int>
+        <str name="text">"The handover by the Portuguese government is in disregard of the freedom, welfare and safety of more than 400,000 Chinese people there.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.8725912703632535</double>
+        <int name="end">137</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The talks were the fourth in a series on the Macao question and had been expected to focus on the status of the 40,000 Portuguese passport-holders among Macao's 400,000 residents.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.828984084209187</double>
+        <double name="strength">0.8472174738398373</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Valerio earlier told reporters that the tiny territory would be returned to Chinese rule on December 20, 1999, but gave no further details.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">140</int>
+        <double name="strength">0.839735368595187</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Details&lt;/em&gt; of &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;agreement&lt;/em&gt; to hand over &lt;em&gt;Portuguese-ruled Macao&lt;/em&gt; to &lt;em&gt;China&lt;/em&gt; will be &lt;em&gt;released after&lt;/em&gt; the &lt;em&gt;official signing&lt;/em&gt; in &lt;em&gt;Peking&lt;/em&gt; on &lt;em&gt;Thursday, Portuguese Ambassador&lt;/em&gt; to &lt;em&gt;Peking Octavio Valerio said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">"The &lt;em&gt;handover&lt;/em&gt; by the &lt;em&gt;Portuguese government&lt;/em&gt; is in &lt;em&gt;disregard&lt;/em&gt; of the &lt;em&gt;freedom, welfare&lt;/em&gt; and &lt;em&gt;safety&lt;/em&gt; of more than 400,000 &lt;em&gt;Chinese people there&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said: "&lt;em&gt;Macao should&lt;/em&gt; be &lt;em&gt;returned&lt;/em&gt; to the &lt;em&gt;Republic&lt;/em&gt; of &lt;em&gt;China&lt;/em&gt; on &lt;em&gt;Taiwan because communist China,&lt;/em&gt; a &lt;em&gt;rebel entity,&lt;/em&gt; has no &lt;em&gt;right&lt;/em&gt; to &lt;em&gt;represent China&lt;/em&gt; and all the &lt;em&gt;Chinese people&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;talks&lt;/em&gt; were the &lt;em&gt;fourth&lt;/em&gt; in a &lt;em&gt;series&lt;/em&gt; on the &lt;em&gt;Macao question&lt;/em&gt; and had been &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;focus&lt;/em&gt; on the &lt;em&gt;status&lt;/em&gt; of the 40,000 &lt;em&gt;Portuguese passport-holders among Macao&lt;/em&gt;'s 400,000 &lt;em&gt;residents&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;talks&lt;/em&gt; were the &lt;em&gt;fourth&lt;/em&gt; in a &lt;em&gt;series&lt;/em&gt; on the &lt;em&gt;Macao question&lt;/em&gt; and had been expected to &lt;em&gt;focus&lt;/em&gt; on the &lt;em&gt;status&lt;/em&gt; of the 40,000 &lt;em&gt;Portuguese passport-holders&lt;/em&gt; among &lt;em&gt;Macao&lt;/em&gt;'s 400,000 &lt;em&gt;residents&lt;/em&gt;.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Valerio&lt;/em&gt; earlier told &lt;em&gt;reporters&lt;/em&gt; that the tiny &lt;em&gt;territory&lt;/em&gt; would be returned to &lt;em&gt;Chinese&lt;/em&gt; rule on &lt;em&gt;December 20, 1999,&lt;/em&gt; but gave no &lt;em&gt;further details&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

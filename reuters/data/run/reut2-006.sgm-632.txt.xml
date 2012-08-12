@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-632.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">116</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">offered</str>
+        <str name="text">executive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">wanted</str>
-        <double name="strength">0.8944271909999182</double>
+        <str name="text">financial</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">question</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">february</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">based</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">light</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">further</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">newsletter</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">182</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The newsletter reported on November 3 last year that VW had incurred losses in the "three-figure millions" because it had not protected itself against a fall in the value of the dollar.</str>
-        <int name="index">10</int>
+        <str name="text">The financial newsletter, Platow, said today the state prosecutor, called in when suspicion of fraud first came to light on February 18, had to date been able to find no evidence of personal enrichment by VW employees.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">186</int>
-        <double name="strength">0.9197825830053531</double>
+        <int name="end">219</int>
+        <double name="strength">0.8730790460786392</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">A Frankfurt business lawyer, Egon Geis, said yesterday that on February 10 he had offered VW information about the currency fraud and offered to provide a written confession by someone involved.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">195</int>
-        <double name="strength">0.8834591105421904</double>
+        <double name="strength">0.775723610762612</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brokerage firms fulfill&lt;/em&gt; a &lt;em&gt;middle&lt;/em&gt;-man &lt;em&gt;function&lt;/em&gt; in &lt;em&gt;currency&lt;/em&gt; and &lt;em&gt;money markets, matching&lt;/em&gt; buy and sell &lt;em&gt;orders between banks&lt;/em&gt; and &lt;em&gt;other large customers&lt;/em&gt; who may &lt;em&gt;prefer&lt;/em&gt; to &lt;em&gt;remain anonymous&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brokerage firms fulfill&lt;/em&gt; a &lt;em&gt;middle&lt;/em&gt;-man &lt;em&gt;function&lt;/em&gt; in &lt;em&gt;currency&lt;/em&gt; and &lt;em&gt;money markets,&lt;/em&gt; matching buy and sell &lt;em&gt;orders&lt;/em&gt; between &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;other large customers&lt;/em&gt; who may &lt;em&gt;prefer&lt;/em&gt; to &lt;em&gt;remain anonymous&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;newsletter reported&lt;/em&gt; on &lt;em&gt;November 3&lt;/em&gt; last year that VW had &lt;em&gt;incurred losses&lt;/em&gt; in the "&lt;em&gt;three-figure millions" because&lt;/em&gt; it had not &lt;em&gt;protected itself against&lt;/em&gt; a fall in the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The &lt;em&gt;financial newsletter, Platow,&lt;/em&gt; said &lt;em&gt;today&lt;/em&gt; the &lt;em&gt;state prosecutor,&lt;/em&gt; called in when &lt;em&gt;suspicion&lt;/em&gt; of &lt;em&gt;fraud&lt;/em&gt; first came to &lt;em&gt;light&lt;/em&gt; on &lt;em&gt;February 18,&lt;/em&gt; had to date been able to find no &lt;em&gt;evidence&lt;/em&gt; of &lt;em&gt;personal enrichment&lt;/em&gt; by VW &lt;em&gt;employees&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Frankfurt business lawyer,&lt;/em&gt; Egon Geis, said &lt;em&gt;yesterday&lt;/em&gt; that on &lt;em&gt;February 10&lt;/em&gt; he had &lt;em&gt;offered&lt;/em&gt; VW &lt;em&gt;information about&lt;/em&gt; the &lt;em&gt;currency fraud&lt;/em&gt; and &lt;em&gt;offered&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;written confession&lt;/em&gt; by &lt;em&gt;someone involved&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;Frankfurt business lawyer,&lt;/em&gt; Egon Geis, said &lt;em&gt;yesterday&lt;/em&gt; that on &lt;em&gt;February 10&lt;/em&gt; he had offered VW &lt;em&gt;information&lt;/em&gt; about the &lt;em&gt;currency fraud&lt;/em&gt; and offered to &lt;em&gt;provide&lt;/em&gt; a written &lt;em&gt;confession&lt;/em&gt; by &lt;em&gt;someone involved&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
     </lst>

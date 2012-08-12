@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-546.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">87</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">adverse</str>
+        <str name="text">consumption</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consequences</str>
-        <double name="strength">1.0</double>
+        <str name="text">severe</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">combination</str>
-        <double name="strength">1.0</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">1.0</double>
+        <str name="text">budget</str>
+        <double name="strength">0.9999999999999963</double>
       </lst>
       <lst name="term">
-        <str name="text">escaped</str>
-        <double name="strength">1.0</double>
+        <str name="text">deficits</str>
+        <double name="strength">0.9999999999999963</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">166</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said oil exploration and development, as well as agricultural prices, have been heavily affected by worldwide surpluses.</str>
-        <int name="index">3</int>
+        <str name="text">"Severe problems in some sectors of the economy are all too obvious," he said in remarks prepared for delivery to a luncheon of business leaders here.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">124</int>
-        <double name="strength">0.8143785576948598</double>
+        <int name="end">151</int>
+        <double name="strength">0.8118839808114747</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Volcker said the adverse consequences of the combination of low savings rates and high Federal budget deficits have been escaped by drawing on capital from abroad.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">164</int>
-        <double name="strength">0.8136713247714514</double>
+        <double name="strength">0.7519209596666465</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"That is a &lt;em&gt;graphic demonstration&lt;/em&gt; of the &lt;em&gt;extent&lt;/em&gt; to &lt;em&gt;which&lt;/em&gt; our &lt;em&gt;financial markets&lt;/em&gt; are &lt;em&gt;hostage&lt;/em&gt; to &lt;em&gt;possible changes&lt;/em&gt; in &lt;em&gt;external attitudes&lt;/em&gt; and &lt;em&gt;circumstances," Volcker said&lt;/em&gt;.</str>
+        <str name="text">"That is a &lt;em&gt;graphic demonstration&lt;/em&gt; of the &lt;em&gt;extent&lt;/em&gt; to which our &lt;em&gt;financial markets&lt;/em&gt; are &lt;em&gt;hostage&lt;/em&gt; to &lt;em&gt;possible changes&lt;/em&gt; in &lt;em&gt;external attitudes&lt;/em&gt; and &lt;em&gt;circumstances," Volcker said&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said oil &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development,&lt;/em&gt; as well as &lt;em&gt;agricultural prices,&lt;/em&gt; have been &lt;em&gt;heavily affected&lt;/em&gt; by &lt;em&gt;worldwide surpluses&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;"Severe problems&lt;/em&gt; in some &lt;em&gt;sectors&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; are all too &lt;em&gt;obvious,"&lt;/em&gt; he said in &lt;em&gt;remarks&lt;/em&gt; prepared for &lt;em&gt;delivery&lt;/em&gt; to a &lt;em&gt;luncheon&lt;/em&gt; of &lt;em&gt;business leaders here&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volcker&lt;/em&gt; said the &lt;em&gt;adverse consequences&lt;/em&gt; of the &lt;em&gt;combination&lt;/em&gt; of low &lt;em&gt;savings rates&lt;/em&gt; and high &lt;em&gt;Federal budget deficits&lt;/em&gt; have been &lt;em&gt;escaped&lt;/em&gt; by &lt;em&gt;drawing&lt;/em&gt; on &lt;em&gt;capital&lt;/em&gt; from &lt;em&gt;abroad&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Volcker&lt;/em&gt; said the &lt;em&gt;adverse consequences&lt;/em&gt; of the &lt;em&gt;combination&lt;/em&gt; of low &lt;em&gt;savings rates&lt;/em&gt; and high &lt;em&gt;Federal budget deficits&lt;/em&gt; have been escaped by drawing on &lt;em&gt;capital&lt;/em&gt; from abroad.</str>
         <int name="index">12</int>
       </lst>
     </lst>

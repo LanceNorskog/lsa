@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-758.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">dollar</str>
+        <str name="text">interest</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">worth</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">quarter</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">firms</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">willing</str>
-        <double name="strength">0.8944271909999202</double>
+        <str name="text">korean</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">South Korea has decided on major changes in its trade, investment and finance policies aimed at reducing the growth of its balance of payments surplus and avoiding a trade war with the United States, Deputy Prime Minister Kim Mahn-je said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">239</int>
+        <str name="text">The government would make foreign currency loans worth 2.5 billion dlrs to firms willing to import capital goods, raw materials and equipment, preferably from the U.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">"The foreign currency-based loans, which carry interest at 1.5 points above LIBOR (London Interbank Offered Rate), are considerable incentives given to increase imports," Koo said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.902296263928638</double>
+        <double name="strength">0.9501760307299056</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Kim, who is also Economic Planning Minister, said the current account surplus, previously expected to exceed eight billion dlrs this year, would be held at about five billion dlrs by increasing imports, accelerating market liberalisation and rationalising exports.</str>
-        <int name="index">3</int>
+        <str name="text">"This will gradually reduce the ratio of the surplus to GNP (gross national product) from the current five pct level to three pct by 1991," he added.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">265</int>
-        <double name="strength">0.8965809852096499</double>
+        <int name="end">150</int>
+        <double name="strength">0.8737843225155176</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;South Korea&lt;/em&gt; has &lt;em&gt;decided&lt;/em&gt; on &lt;em&gt;major changes&lt;/em&gt; in its &lt;em&gt;trade, investment&lt;/em&gt; and &lt;em&gt;finance policies aimed&lt;/em&gt; at &lt;em&gt;reducing&lt;/em&gt; the &lt;em&gt;growth&lt;/em&gt; of its &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments surplus&lt;/em&gt; and &lt;em&gt;avoiding&lt;/em&gt; a &lt;em&gt;trade&lt;/em&gt; war with the &lt;em&gt;United States, Deputy Prime Minister&lt;/em&gt; Kim Mahn-je said.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;government&lt;/em&gt; would make &lt;em&gt;foreign currency loans worth 2.5 billion&lt;/em&gt; dlrs to &lt;em&gt;firms willing&lt;/em&gt; to &lt;em&gt;import capital goods,&lt;/em&gt; raw &lt;em&gt;materials&lt;/em&gt; and &lt;em&gt;equipment,&lt;/em&gt; preferably from the U.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;foreign currency-based loans, which carry interest&lt;/em&gt; at 1.5 &lt;em&gt;points above LIBOR (London Interbank Offered&lt;/em&gt; Rate), are &lt;em&gt;considerable incentives given&lt;/em&gt; to &lt;em&gt;increase imports,"&lt;/em&gt; Koo said.</str>
+        <str name="text">"The &lt;em&gt;foreign currency&lt;/em&gt;-based &lt;em&gt;loans,&lt;/em&gt; which &lt;em&gt;carry interest&lt;/em&gt; at 1.5 &lt;em&gt;points&lt;/em&gt; above &lt;em&gt;LIBOR &lt;/em&gt;(London &lt;em&gt;Interbank&lt;/em&gt; Offered Rate), are &lt;em&gt;considerable incentives&lt;/em&gt; given to &lt;em&gt;increase imports,"&lt;/em&gt; Koo said.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Kim, who is also &lt;em&gt;Economic Planning Minister,&lt;/em&gt; said the &lt;em&gt;current account surplus, previously expected&lt;/em&gt; to &lt;em&gt;exceed eight billion&lt;/em&gt; dlrs this year, &lt;em&gt;would&lt;/em&gt; be held at &lt;em&gt;about&lt;/em&gt; five &lt;em&gt;billion&lt;/em&gt; dlrs by &lt;em&gt;increasing imports, accelerating market liberalisation&lt;/em&gt; and &lt;em&gt;rationalising exports&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">"This will gradually &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;ratio&lt;/em&gt; of the &lt;em&gt;surplus&lt;/em&gt; to GNP (&lt;em&gt;gross national product)&lt;/em&gt; from the &lt;em&gt;current&lt;/em&gt; five pct &lt;em&gt;level&lt;/em&gt; to &lt;em&gt;three&lt;/em&gt; pct by 1991," he added.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

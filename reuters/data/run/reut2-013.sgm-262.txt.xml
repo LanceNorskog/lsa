@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-262.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">108</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increase</str>
+        <str name="text">results</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">approximately</str>
+        <str name="text">income</str>
         <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">income</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">board</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">interested</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">offer</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">common</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">sosnoff</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Henry Gluck, chairman and chief executive officer of the hotel, casino and resorts company, said in a statement the board believes the recapitalization plan is financially superior to a 28 dlr a share tender offer by Martin Sosnoff.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">233</int>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
+      </lst>
       <lst name="sentence">
         <str name="text">"Our ability to restructure along these lines is possible primarily because of the financial stability and the strong operating results achieved by management in recent years," Gluck said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">189</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9196824173079242</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Commenting on the company's longer term earnings outlook, Gluck said "we project net income to increase to 86.2 mln dlrs in 1992, reflecting increased operating income and lower interest expense due to the retirement of 267 mln dlrs of debt incurred in connection with the recapitalization."</str>
-        <int name="index">10</int>
+        <str name="text">The plan will require the approval of stockholders and that of the Nevada and New Jersey gaming regulatory authorities.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">292</int>
-        <double name="strength">0.9571771701073666</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The new incorporation certificate and bylaws will provide for, among other things, a "fair price" provision requiring that certain transactions with interested 15 pct stockholders be approved by an 80 pct vote of stockholders, excluding shares held by such interested stockholders.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">282</int>
-        <double name="strength">0.9411519341042865</double>
+        <int name="end">120</int>
+        <double name="strength">0.7063616130988043</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"Our &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;restructure along these lines&lt;/em&gt; is &lt;em&gt;possible primarily because&lt;/em&gt; of the &lt;em&gt;financial stability&lt;/em&gt; and the &lt;em&gt;strong operating results achieved&lt;/em&gt; by &lt;em&gt;management&lt;/em&gt; in &lt;em&gt;recent years," Gluck said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Henry Gluck, chairman&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt; of the &lt;em&gt;hotel, casino&lt;/em&gt; and &lt;em&gt;resorts company,&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;board&lt;/em&gt; believes the &lt;em&gt;recapitalization&lt;/em&gt; plan is financially &lt;em&gt;superior&lt;/em&gt; to a 28 dlr a &lt;em&gt;share tender offer&lt;/em&gt; by Martin &lt;em&gt;Sosnoff&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Our &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;restructure&lt;/em&gt; along these &lt;em&gt;lines&lt;/em&gt; is &lt;em&gt;possible&lt;/em&gt; primarily because of the &lt;em&gt;financial stability&lt;/em&gt; and the &lt;em&gt;strong operating results&lt;/em&gt; achieved by &lt;em&gt;management&lt;/em&gt; in &lt;em&gt;recent years," Gluck said&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commenting&lt;/em&gt; on the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;longer&lt;/em&gt; term &lt;em&gt;earnings outlook, Gluck&lt;/em&gt; said "we &lt;em&gt;project&lt;/em&gt; net &lt;em&gt;income&lt;/em&gt; to &lt;em&gt;increase&lt;/em&gt; to 86.2 mln dlrs in 1992, &lt;em&gt;reflecting increased operating income&lt;/em&gt; and &lt;em&gt;lower interest expense&lt;/em&gt; due to the &lt;em&gt;retirement&lt;/em&gt; of 267 mln dlrs of debt &lt;em&gt;incurred&lt;/em&gt; in &lt;em&gt;connection&lt;/em&gt; with the &lt;em&gt;recapitalization.&lt;/em&gt;"</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The new &lt;em&gt;incorporation certificate&lt;/em&gt; and &lt;em&gt;bylaws&lt;/em&gt; will &lt;em&gt;provide&lt;/em&gt; for, &lt;em&gt;among other things,&lt;/em&gt; a "fair &lt;em&gt;price" provision requiring&lt;/em&gt; that &lt;em&gt;certain transactions&lt;/em&gt; with &lt;em&gt;interested 15&lt;/em&gt; pct &lt;em&gt;stockholders&lt;/em&gt; be &lt;em&gt;approved&lt;/em&gt; by an 80 pct vote of &lt;em&gt;stockholders, excluding shares&lt;/em&gt; held by such &lt;em&gt;interested stockholders&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">The plan will &lt;em&gt;require&lt;/em&gt; the &lt;em&gt;approval&lt;/em&gt; of &lt;em&gt;stockholders&lt;/em&gt; and that of the &lt;em&gt;Nevada&lt;/em&gt; and New &lt;em&gt;Jersey gaming regulatory authorities&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

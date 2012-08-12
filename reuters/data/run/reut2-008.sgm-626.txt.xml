@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-626.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">219</int>
+        <int name="count">167</int>
       </lst>
       <lst name="stems">
-        <int name="count">140</int>
+        <int name="count">109</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">materials</str>
+        <str name="text">policy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">budget</str>
-        <double name="strength">0.5590169943749488</double>
+        <str name="text">reforms</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">excessive</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">visit</str>
+        <double name="strength">0.9986518881316764</double>
       </lst>
       <lst name="term">
-        <str name="text">growth</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">control</str>
+        <double name="strength">0.9986518881316729</double>
       </lst>
       <lst name="term">
-        <str name="text">given</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">banquet</str>
+        <double name="strength">0.9634242309653864</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">213</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Normally, a foreign guest's visit is a chance for the boys to feast on Mao Tai (a strong liquor), turtle and sea slugs, with one banquet given by them and one given in return by me.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">183</int>
-        <double name="strength">0.988439821131981</double>
+        <double name="strength">0.9626732702424399</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Wang will reaffirm themes repeated by leaders since the start of the year -- thrift, improved efficiency, cutting investment outside the state plan and reducing consumption to bring demand and supply into balance.</str>
-        <int name="index">17</int>
+        <str name="text">A Western diplomat said major factors for the deficit, which he estimated at up to nine billion yuan, were a drop in efficiency and wage rises in state firms, whose profits and taxes account for a substantial part of national revenue.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.9876952272233565</double>
+        <int name="end">235</int>
+        <double name="strength">0.9268549400670568</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;North American banker,&lt;/em&gt; who &lt;em&gt;estimated&lt;/em&gt; the &lt;em&gt;deficit&lt;/em&gt; at &lt;em&gt;about eight billion&lt;/em&gt; yuan, said &lt;em&gt;economic policy&lt;/em&gt; has been &lt;em&gt;affected&lt;/em&gt; by a &lt;em&gt;national drive against "bourgeois liberalism,"&lt;/em&gt; a &lt;em&gt;phrase meaning Western political ideas&lt;/em&gt;.</str>
+        <str name="text">A North &lt;em&gt;American banker,&lt;/em&gt; who estimated the &lt;em&gt;deficit&lt;/em&gt; at about &lt;em&gt;eight billion&lt;/em&gt; yuan, said &lt;em&gt;economic policy&lt;/em&gt; has been affected by a &lt;em&gt;national drive&lt;/em&gt; against "&lt;em&gt;bourgeois liberalism,"&lt;/em&gt; a &lt;em&gt;phrase meaning Western political ideas&lt;/em&gt;.</str>
         <int name="index">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Normally,&lt;/em&gt; a &lt;em&gt;foreign guest&lt;/em&gt;'s &lt;em&gt;visit&lt;/em&gt; is a &lt;em&gt;chance&lt;/em&gt; for the boys to &lt;em&gt;feast&lt;/em&gt; on Mao Tai (a &lt;em&gt;strong liquor), turtle&lt;/em&gt; and sea &lt;em&gt;slugs,&lt;/em&gt; with one &lt;em&gt;banquet given&lt;/em&gt; by them and one &lt;em&gt;given&lt;/em&gt; in &lt;em&gt;return&lt;/em&gt; by me.</str>
+        <str name="text">"Normally, a &lt;em&gt;foreign guest&lt;/em&gt;'s &lt;em&gt;visit&lt;/em&gt; is a &lt;em&gt;chance&lt;/em&gt; for the boys to &lt;em&gt;feast&lt;/em&gt; on Mao Tai (a &lt;em&gt;strong liquor), turtle&lt;/em&gt; and sea &lt;em&gt;slugs,&lt;/em&gt; with one &lt;em&gt;banquet&lt;/em&gt; given by them and one given in &lt;em&gt;return&lt;/em&gt; by me.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said Wang will &lt;em&gt;reaffirm themes repeated&lt;/em&gt; by &lt;em&gt;leaders since&lt;/em&gt; the &lt;em&gt;start&lt;/em&gt; of the year -- &lt;em&gt;thrift, improved efficiency, cutting investment outside&lt;/em&gt; the &lt;em&gt;state&lt;/em&gt; plan and &lt;em&gt;reducing consumption&lt;/em&gt; to &lt;em&gt;bring demand&lt;/em&gt; and &lt;em&gt;supply&lt;/em&gt; into &lt;em&gt;balance&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">A &lt;em&gt;Western diplomat&lt;/em&gt; said &lt;em&gt;major factors&lt;/em&gt; for the &lt;em&gt;deficit,&lt;/em&gt; which he estimated at up to nine &lt;em&gt;billion&lt;/em&gt; yuan, were a drop in &lt;em&gt;efficiency&lt;/em&gt; and wage &lt;em&gt;rises&lt;/em&gt; in &lt;em&gt;state firms,&lt;/em&gt; whose &lt;em&gt;profits&lt;/em&gt; and &lt;em&gt;taxes account&lt;/em&gt; for a &lt;em&gt;substantial&lt;/em&gt; part of &lt;em&gt;national revenue&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

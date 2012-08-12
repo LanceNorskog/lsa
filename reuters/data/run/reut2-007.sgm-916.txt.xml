@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-916.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">111</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">improve</str>
+        <str name="text">excessive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">excessive</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">damage</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">temperatures</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">several</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">areas</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">floods</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">three</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">intensity</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">However, the El Nino has resulted in a much improved supply of irrigation water in the major dams which will improve prospects for many crucial crops such as rice and corn, and slow the decline in sugar production, it said.</str>
-        <int name="index">8</int>
+        <str name="text">Continued heavy rains in the northern coastal area, flooding of several major rivers and mud slides have led to increased concern, the report, dated March 17, said.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">224</int>
+        <int name="end">165</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Water temperatures in the northern fishing areas are three to four degrees centigrade above normal but still not high enough to drive the fish to cooler southern waters, it said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">179</int>
-        <double name="strength">0.9596992900240824</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">There are heightened fears that "El Nino" may be returning to Peru with an intensity approaching the 1983 disaster, which affected the weather on several continents and caused widespread damage through floods and drought, the U.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">228</int>
-        <double name="strength">0.9534625892455925</double>
+        <double name="strength">0.9452090005086244</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It said there is still the outside chance that El Nino will intensify and carry on through late March, April and May causing problems as crops approach harvest.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.9328971633392933</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the El Nino has &lt;em&gt;resulted&lt;/em&gt; in a much &lt;em&gt;improved supply&lt;/em&gt; of &lt;em&gt;irrigation water&lt;/em&gt; in the &lt;em&gt;major&lt;/em&gt; dams &lt;em&gt;which&lt;/em&gt; will &lt;em&gt;improve prospects&lt;/em&gt; for many &lt;em&gt;crucial crops&lt;/em&gt; such as rice and corn, and slow the &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;sugar production,&lt;/em&gt; it said.</str>
-        <int name="index">8</int>
+        <str name="text">Continued &lt;em&gt;heavy rains&lt;/em&gt; in the &lt;em&gt;northern coastal&lt;/em&gt; area, &lt;em&gt;flooding&lt;/em&gt; of &lt;em&gt;several major rivers&lt;/em&gt; and mud &lt;em&gt;slides&lt;/em&gt; have led to &lt;em&gt;increased concern,&lt;/em&gt; the &lt;em&gt;report, dated March 17, said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Water temperatures&lt;/em&gt; in the &lt;em&gt;northern fishing areas&lt;/em&gt; are &lt;em&gt;three&lt;/em&gt; to four &lt;em&gt;degrees centigrade above normal&lt;/em&gt; but &lt;em&gt;still&lt;/em&gt; not high &lt;em&gt;enough&lt;/em&gt; to &lt;em&gt;drive&lt;/em&gt; the fish to &lt;em&gt;cooler southern waters,&lt;/em&gt; it said.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; are &lt;em&gt;heightened fears&lt;/em&gt; that "El Nino" may be &lt;em&gt;returning&lt;/em&gt; to Peru with an &lt;em&gt;intensity approaching&lt;/em&gt; the 1983 &lt;em&gt;disaster, which affected&lt;/em&gt; the &lt;em&gt;weather&lt;/em&gt; on &lt;em&gt;several continents&lt;/em&gt; and &lt;em&gt;caused widespread damage through floods&lt;/em&gt; and &lt;em&gt;drought,&lt;/em&gt; the U.</str>
+        <str name="text">There are &lt;em&gt;heightened fears&lt;/em&gt; that "El Nino" may be returning to Peru with an &lt;em&gt;intensity&lt;/em&gt; approaching the 1983 &lt;em&gt;disaster,&lt;/em&gt; which affected the &lt;em&gt;weather&lt;/em&gt; on &lt;em&gt;several continents&lt;/em&gt; and caused &lt;em&gt;widespread damage&lt;/em&gt; through &lt;em&gt;floods&lt;/em&gt; and &lt;em&gt;drought,&lt;/em&gt; the U.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It said there is still the &lt;em&gt;outside chance&lt;/em&gt; that El Nino will &lt;em&gt;intensify&lt;/em&gt; and &lt;em&gt;carry&lt;/em&gt; on through late &lt;em&gt;March, April&lt;/em&gt; and May causing &lt;em&gt;problems&lt;/em&gt; as &lt;em&gt;crops approach harvest&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

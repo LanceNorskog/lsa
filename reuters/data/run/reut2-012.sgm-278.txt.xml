@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-278.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">181</int>
+        <int name="count">128</int>
       </lst>
       <lst name="stems">
-        <int name="count">123</int>
+        <int name="count">86</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">added</str>
+        <str name="text">common</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">shares</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">money</str>
-        <double name="strength">0.5</double>
+        <str name="text">swiss</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">spent</str>
-        <double name="strength">0.5</double>
+        <str name="text">legal</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">unrecoverable</str>
-        <double name="strength">0.5</double>
+        <str name="text">reduction</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">After several months of negotiations with a group of 56 major creditors and other unsecured public debt holders, Dome submitted a complex proposal earlier this month that includes converting debt to equity and extending repayment time.</str>
-        <int name="index">4</int>
+        <str name="text">Analysts said the huge loss improves the appeal of a debt accord by underlining company statements that creditors would receive little or nothing under a forced liquidation that could take several years to complete.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">236</int>
+        <int name="end">216</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"What this writedown says is that a lot of the money that was spent in the past is unrecoverable, but the shareholders have already recognized that through the writedown in the stock price," Gobert said, adding, "The financial statements have come out and said that what has happened in the past has been a disaster for Dome," Gobert added.</str>
-        <int name="index">16</int>
+        <str name="text">"To a large extent, these writeoffs of the carrying value of assets is really just the bookkeepers catching up to what the stock market has been telling us for a long time, reflecting the collapse in oil prices," Peters and Co Ltd analyst Wilf Gobert said.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">341</int>
-        <double name="strength">0.8798165647562088</double>
+        <int name="end">257</int>
+        <double name="strength">0.929346277510042</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The extraordinary loss conformed with new Canadian Institute of Chartered Accountants guidelines that require Dome to use average 1986 oil prices to value its holdings, instead of an escalating price method used in prior years.</str>
-        <int name="index">10</int>
+        <str name="text">Analysts said six individual Swiss noteholders, who initiated legal action against Dome to recover debt of 408,500 dlrs, will also be pressed to adopt a more lenient stand by the 1986 results.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.8689524348145844</double>
+        <int name="end">193</int>
+        <double name="strength">0.9207322389339041</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After several months&lt;/em&gt; of &lt;em&gt;negotiations&lt;/em&gt; with a &lt;em&gt;group&lt;/em&gt; of 56 &lt;em&gt;major creditors&lt;/em&gt; and &lt;em&gt;other unsecured public&lt;/em&gt; debt &lt;em&gt;holders,&lt;/em&gt; Dome &lt;em&gt;submitted&lt;/em&gt; a &lt;em&gt;complex proposal earlier&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; that &lt;em&gt;includes converting&lt;/em&gt; debt to &lt;em&gt;equity&lt;/em&gt; and &lt;em&gt;extending repayment time&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said the huge loss improves the &lt;em&gt;appeal&lt;/em&gt; of a debt &lt;em&gt;accord&lt;/em&gt; by underlining &lt;em&gt;company statements&lt;/em&gt; that &lt;em&gt;creditors&lt;/em&gt; would &lt;em&gt;receive little&lt;/em&gt; or &lt;em&gt;nothing&lt;/em&gt; under a &lt;em&gt;forced liquidation&lt;/em&gt; that could take &lt;em&gt;several years&lt;/em&gt; to &lt;em&gt;complete&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"What this &lt;em&gt;writedown&lt;/em&gt; says is that a lot of the &lt;em&gt;money&lt;/em&gt; that was &lt;em&gt;spent&lt;/em&gt; in the past is &lt;em&gt;unrecoverable,&lt;/em&gt; but the &lt;em&gt;shareholders&lt;/em&gt; have &lt;em&gt;already recognized&lt;/em&gt; that &lt;em&gt;through&lt;/em&gt; the &lt;em&gt;writedown&lt;/em&gt; in the &lt;em&gt;stock price," Gobert&lt;/em&gt; said, &lt;em&gt;adding, &lt;/em&gt;"The &lt;em&gt;financial statements&lt;/em&gt; have come out and said that what has &lt;em&gt;happened&lt;/em&gt; in the past has been a &lt;em&gt;disaster&lt;/em&gt; for Dome," &lt;em&gt;Gobert added&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">"To a &lt;em&gt;large extent,&lt;/em&gt; these &lt;em&gt;writeoffs&lt;/em&gt; of the carrying &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;assets&lt;/em&gt; is really just the &lt;em&gt;bookkeepers&lt;/em&gt; catching up to what the &lt;em&gt;stock market&lt;/em&gt; has been telling us for a long time, reflecting the &lt;em&gt;collapse&lt;/em&gt; in oil &lt;em&gt;prices," Peters&lt;/em&gt; and Co Ltd &lt;em&gt;analyst&lt;/em&gt; Wilf &lt;em&gt;Gobert said&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;extraordinary&lt;/em&gt; loss &lt;em&gt;conformed&lt;/em&gt; with new &lt;em&gt;Canadian Institute&lt;/em&gt; of &lt;em&gt;Chartered Accountants guidelines&lt;/em&gt; that &lt;em&gt;require&lt;/em&gt; Dome to use &lt;em&gt;average 1986&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; to &lt;em&gt;value&lt;/em&gt; its &lt;em&gt;holdings, instead&lt;/em&gt; of an &lt;em&gt;escalating price method&lt;/em&gt; used in &lt;em&gt;prior years&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said six &lt;em&gt;individual Swiss noteholders,&lt;/em&gt; who initiated &lt;em&gt;legal action&lt;/em&gt; against Dome to &lt;em&gt;recover&lt;/em&gt; debt of 408,500 dlrs, will also be pressed to &lt;em&gt;adopt&lt;/em&gt; a more &lt;em&gt;lenient stand&lt;/em&gt; by the 1986 &lt;em&gt;results&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

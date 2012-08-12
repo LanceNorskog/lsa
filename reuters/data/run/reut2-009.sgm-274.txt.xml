@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-274.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">182</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">since</str>
+        <str name="text">analysts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">managed</str>
-        <double name="strength">0.5</double>
+        <str name="text">british</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">dizzy</str>
-        <double name="strength">0.5</double>
+        <str name="text">conservative</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">leading</str>
-        <double name="strength">0.5</double>
+        <str name="text">correction</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">shares</str>
-        <double name="strength">0.5</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">235</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">K. Market has managed a dizzy rise since the New Year, with the FT-SE index of 100 leading shares lifting 22.5 pct since January 2 to current levels around 2050.</str>
-        <int name="index">3</int>
-        <int name="start">0</int>
-        <int name="end">161</int>
-        <double name="strength">0.967400786723653</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Also, market liquidity, a powerful driving force behind the recent rises, shows signs of drying up under the pressure of the government's privatisation campaign.</str>
         <int name="index">21</int>
         <int name="start">1</int>
         <int name="end">162</int>
-        <double name="strength">0.9264813033822027</double>
+        <double name="strength">0.8591755596221674</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">There would also be little new encouragement provided by general economic factors as much of the recent optimistic news, including this month's half point cut in base rates to 10 pct, is already built into prices.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">214</int>
+        <double name="strength">0.8408486551906906</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;belief&lt;/em&gt; that the &lt;em&gt;government itself&lt;/em&gt; is &lt;em&gt;worried about&lt;/em&gt; the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;Alliance party disrupting&lt;/em&gt; the &lt;em&gt;usual&lt;/em&gt; two-&lt;em&gt;corner fight&lt;/em&gt; of &lt;em&gt;Conservative&lt;/em&gt; and &lt;em&gt;Labour&lt;/em&gt; with &lt;em&gt;unpredictable results,&lt;/em&gt; is not &lt;em&gt;likely&lt;/em&gt; to give &lt;em&gt;reassurance,&lt;/em&gt; one &lt;em&gt;analyst noted&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;belief&lt;/em&gt; that the &lt;em&gt;government&lt;/em&gt; itself is worried about the &lt;em&gt;impact&lt;/em&gt; of the &lt;em&gt;Alliance party&lt;/em&gt; disrupting the &lt;em&gt;usual&lt;/em&gt; two-&lt;em&gt;corner fight&lt;/em&gt; of &lt;em&gt;Conservative&lt;/em&gt; and &lt;em&gt;Labour&lt;/em&gt; with &lt;em&gt;unpredictable results,&lt;/em&gt; is not &lt;em&gt;likely&lt;/em&gt; to give &lt;em&gt;reassurance,&lt;/em&gt; one &lt;em&gt;analyst noted&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Market&lt;/em&gt; has &lt;em&gt;managed&lt;/em&gt; a &lt;em&gt;dizzy&lt;/em&gt; rise &lt;em&gt;since&lt;/em&gt; the New Year, with the FT-SE &lt;em&gt;index&lt;/em&gt; of 100 &lt;em&gt;leading shares lifting 22.5&lt;/em&gt; pct &lt;em&gt;since January 2&lt;/em&gt; to &lt;em&gt;current levels around 2050&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Also, &lt;em&gt;market liquidity,&lt;/em&gt; a &lt;em&gt;powerful driving force&lt;/em&gt; behind the &lt;em&gt;recent rises,&lt;/em&gt; shows &lt;em&gt;signs&lt;/em&gt; of drying up under the &lt;em&gt;pressure&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;privatisation campaign&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Also, &lt;em&gt;market liquidity,&lt;/em&gt; a &lt;em&gt;powerful driving force behind&lt;/em&gt; the &lt;em&gt;recent rises, shows signs&lt;/em&gt; of &lt;em&gt;drying&lt;/em&gt; up &lt;em&gt;under&lt;/em&gt; the &lt;em&gt;pressure&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;privatisation campaign&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">There would also be &lt;em&gt;little&lt;/em&gt; new &lt;em&gt;encouragement&lt;/em&gt; provided by &lt;em&gt;general economic factors&lt;/em&gt; as much of the &lt;em&gt;recent optimistic&lt;/em&gt; news, including this &lt;em&gt;month&lt;/em&gt;'s half &lt;em&gt;point&lt;/em&gt; cut in base &lt;em&gt;rates&lt;/em&gt; to 10 pct, is already built into &lt;em&gt;prices&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

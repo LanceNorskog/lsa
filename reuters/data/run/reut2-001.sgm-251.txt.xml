@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">34</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-251.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">58</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">parts</str>
+        <str name="text">financial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">leavitt</str>
+        <double name="strength">0.9999999999999977</double>
+      </lst>
+      <lst name="term">
+        <str name="text">decline</str>
+        <double name="strength">0.9999999999999971</double>
+      </lst>
+      <lst name="term">
+        <str name="text">delivery</str>
+        <double name="strength">0.9999999999999971</double>
+      </lst>
+      <lst name="term">
         <str name="text">smith</str>
-        <double name="strength">0.5590169943749469</double>
-      </lst>
-      <lst name="term">
-        <str name="text">saying</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">suprised</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">believes</str>
-        <double name="strength">0.5</double>
+        <double name="strength">0.9999999999999959</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Saying many will be suprised by the results, he believes GE has shown through its acquisition of RCA Corp that it has a "unique ability" to buy a major business and reshape it, pruning some parts and recombining parts with other elements of its 14 business areas.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">263</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">And if for some reason AMR decides not to take the planes GE's financial arm, General Electric Financial Services Inc, would have little trouble rounding up another airline that wanted the fuel efficient planes.</str>
-        <int name="index">10</int>
+        <str name="text">Russell Leavitt, analyst at Salomon Brothers Inc, said the order "will help to maintain a good level of production and profitability in the aircraft engine business" for GE.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">0.7497089043120279</double>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Creative financial footwork helped GE get the order," said Nicholas Heymann, analyst at Drexel Burnham Lambert Inc.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">117</int>
-        <double name="strength">0.6387598124847049</double>
+        <double name="strength">0.9521358150133225</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AMR declined to go into detail on financing arrangements for its order of 15 Boeing Co &lt;BA&gt; and 25 &lt;Airbus Industrie&gt; twinjet long distance aircraft.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.8792819945084552</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Saying&lt;/em&gt; many will be &lt;em&gt;suprised&lt;/em&gt; by the &lt;em&gt;results,&lt;/em&gt; he &lt;em&gt;believes&lt;/em&gt; GE has &lt;em&gt;shown through&lt;/em&gt; its &lt;em&gt;acquisition&lt;/em&gt; of RCA Corp that it has a "&lt;em&gt;unique ability"&lt;/em&gt; to buy a &lt;em&gt;major business&lt;/em&gt; and &lt;em&gt;reshape&lt;/em&gt; it, &lt;em&gt;pruning&lt;/em&gt; some &lt;em&gt;parts&lt;/em&gt; and &lt;em&gt;recombining parts&lt;/em&gt; with &lt;em&gt;other elements&lt;/em&gt; of its 14 &lt;em&gt;business areas&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;Russell Leavitt, analyst&lt;/em&gt; at &lt;em&gt;Salomon Brothers&lt;/em&gt; Inc, said the &lt;em&gt;order &lt;/em&gt;"will help to &lt;em&gt;maintain&lt;/em&gt; a good &lt;em&gt;level&lt;/em&gt; of &lt;em&gt;production&lt;/em&gt; and &lt;em&gt;profitability&lt;/em&gt; in the &lt;em&gt;aircraft engine business"&lt;/em&gt; for GE.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">And if for some &lt;em&gt;reason&lt;/em&gt; AMR &lt;em&gt;decides&lt;/em&gt; not to take the &lt;em&gt;planes&lt;/em&gt; GE's &lt;em&gt;financial&lt;/em&gt; arm, &lt;em&gt;General Electric Financial Services&lt;/em&gt; Inc, &lt;em&gt;would&lt;/em&gt; have &lt;em&gt;little trouble rounding&lt;/em&gt; up &lt;em&gt;another airline&lt;/em&gt; that &lt;em&gt;wanted&lt;/em&gt; the fuel &lt;em&gt;efficient planes&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;"Creative financial footwork helped&lt;/em&gt; GE get the &lt;em&gt;order,"&lt;/em&gt; said &lt;em&gt;Nicholas Heymann, analyst&lt;/em&gt; at &lt;em&gt;Drexel Burnham Lambert Inc&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"Creative financial footwork&lt;/em&gt; helped GE get the &lt;em&gt;order,"&lt;/em&gt; said &lt;em&gt;Nicholas Heymann, analyst&lt;/em&gt; at &lt;em&gt;Drexel Burnham Lambert Inc&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AMR declined to go into &lt;em&gt;detail&lt;/em&gt; on financing &lt;em&gt;arrangements&lt;/em&gt; for its &lt;em&gt;order&lt;/em&gt; of 15 Boeing Co &lt;BA&gt; and 25 &lt;&lt;em&gt;Airbus Industrie&gt; twinjet&lt;/em&gt; long &lt;em&gt;distance aircraft&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-224.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">basis</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">central</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">francisco</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">sides</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">advisory</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">reached</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">cannot</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">At the same time, the two sides reached a stopgap arrangement on the short-term trade and money-market credit lines, whereby the committee agreed to transmit a Brazilian request to extend the lines for 60 days until May 31.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">224</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Brazil suspended interest payments on its 68 billion dlr foreign debt to commercial banks on February 20 and shortly after announced it was freezing some 16 billion dlrs in short-term credit lines.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">198</int>
-        <double name="strength">0.9078871648840208</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Banks are not obliged to declare these loans non-performing before 90 days have elapsed, but the move to announce a possible decision in this respect was viewed as a means of exerting pressure on Brazil.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.8897508116088165</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time, the two sides reached a stopgap arrangement on the short-term trade and money-market credit lines, whereby the committee agreed to transmit a Brazilian request to extend the lines for 60 days until May 31.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">224</int>
+        <double name="strength">0.9606176321913114</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Central Bank governor Francisco Gros said after a meeting with a 14-bank advisory committee that Brazil cannot make any interest payments at this time, though it would do so "as soon as we can."</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.9172375485592352</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">At the same time, the two &lt;em&gt;sides reached&lt;/em&gt; a &lt;em&gt;stopgap arrangement&lt;/em&gt; on the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;money-market credit lines, whereby&lt;/em&gt; the &lt;em&gt;committee agreed&lt;/em&gt; to &lt;em&gt;transmit&lt;/em&gt; a &lt;em&gt;Brazilian request&lt;/em&gt; to &lt;em&gt;extend&lt;/em&gt; the &lt;em&gt;lines&lt;/em&gt; for 60 days &lt;em&gt;until May 31&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Banks&lt;/em&gt; are not obliged to &lt;em&gt;declare&lt;/em&gt; these &lt;em&gt;loans&lt;/em&gt; non-performing before 90 days have elapsed, but the move to &lt;em&gt;announce&lt;/em&gt; a &lt;em&gt;possible decision&lt;/em&gt; in this &lt;em&gt;respect&lt;/em&gt; was viewed as a &lt;em&gt;means&lt;/em&gt; of exerting &lt;em&gt;pressure&lt;/em&gt; on &lt;em&gt;Brazil&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the same time, the two &lt;em&gt;sides&lt;/em&gt; reached a &lt;em&gt;stopgap arrangement&lt;/em&gt; on the &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;money-market credit lines,&lt;/em&gt; whereby the &lt;em&gt;committee&lt;/em&gt; agreed to &lt;em&gt;transmit&lt;/em&gt; a &lt;em&gt;Brazilian request&lt;/em&gt; to &lt;em&gt;extend&lt;/em&gt; the &lt;em&gt;lines&lt;/em&gt; for 60 days until May 31.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil suspended interest payments&lt;/em&gt; on its 68 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt to &lt;em&gt;commercial banks&lt;/em&gt; on &lt;em&gt;February 20&lt;/em&gt; and &lt;em&gt;shortly after announced&lt;/em&gt; it was &lt;em&gt;freezing&lt;/em&gt; some 16 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;credit lines&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Banks&lt;/em&gt; are not &lt;em&gt;obliged&lt;/em&gt; to &lt;em&gt;declare these loans&lt;/em&gt; non-&lt;em&gt;performing before 90&lt;/em&gt; days have &lt;em&gt;elapsed,&lt;/em&gt; but the move to &lt;em&gt;announce&lt;/em&gt; a &lt;em&gt;possible decision&lt;/em&gt; in this &lt;em&gt;respect&lt;/em&gt; was &lt;em&gt;viewed&lt;/em&gt; as a &lt;em&gt;means&lt;/em&gt; of &lt;em&gt;exerting pressure&lt;/em&gt; on &lt;em&gt;Brazil&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">&lt;em&gt;Central&lt;/em&gt; Bank &lt;em&gt;governor Francisco&lt;/em&gt; Gros said after a &lt;em&gt;meeting&lt;/em&gt; with a 14-bank &lt;em&gt;advisory committee&lt;/em&gt; that &lt;em&gt;Brazil cannot&lt;/em&gt; make any &lt;em&gt;interest payments&lt;/em&gt; at this time, though it would do so "as soon as we can."</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

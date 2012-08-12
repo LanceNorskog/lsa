@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-241.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">57</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">30</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">share</str>
+        <str name="text">difficulty</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">stores</str>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
         <str name="text">ballan</str>
-        <double name="strength">0.7905694150420949</double>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">reported</str>
-        <double name="strength">0.7905694150420945</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">gundie</str>
-        <double name="strength">0.707106781186548</double>
-      </lst>
-      <lst name="term">
-        <str name="text">center</str>
-        <double name="strength">0.707106781186548</double>
+        <str name="text">rickels</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">128</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The company later reached an accord under which it would buy 20 pct of the company after Kohlberg Kravis completed its leveraged buyout of the company.</str>
-        <int name="index">3</int>
+        <str name="text">Rickels, a home center business, has faced problems due to the state of that industry, and has reported lower returns as an operating unit, according to analysts.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">152</int>
-        <double name="strength">0.9796737123544245</double>
+        <int name="end">163</int>
+        <double name="strength">0.9203754372007102</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Jerry Ballan, analyst with Conner Ballan division of Edward Viner and Co, said, "They &lt;Dart&gt; has been rumored to be buying some other supermarkets as well, such as Stop and Shop."</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.9787946001373067</double>
+        <double name="strength">0.7281729872871314</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last year, Dart &lt;em&gt;Group, owner&lt;/em&gt; of Auto Trak INc and &lt;em&gt;Crown Books, competed against Kohlberg, Kravis&lt;/em&gt; to &lt;em&gt;acquire Safeway Stores INc&lt;/em&gt;.</str>
+        <str name="text">Last year, Dart &lt;em&gt;Group, owner&lt;/em&gt; of Auto Trak INc and &lt;em&gt;Crown Books,&lt;/em&gt; competed against &lt;em&gt;Kohlberg, Kravis&lt;/em&gt; to &lt;em&gt;acquire Safeway Stores INc&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company later reached&lt;/em&gt; an &lt;em&gt;accord under which&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; buy 20 pct of the &lt;em&gt;company after Kohlberg Kravis completed&lt;/em&gt; its &lt;em&gt;leveraged buyout&lt;/em&gt; of the &lt;em&gt;company&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Rickels,&lt;/em&gt; a home &lt;em&gt;center business,&lt;/em&gt; has faced &lt;em&gt;problems&lt;/em&gt; due to the &lt;em&gt;state&lt;/em&gt; of that &lt;em&gt;industry,&lt;/em&gt; and has reported lower &lt;em&gt;returns&lt;/em&gt; as an &lt;em&gt;operating&lt;/em&gt; unit, according to &lt;em&gt;analysts&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Jerry Ballan, analyst&lt;/em&gt; with &lt;em&gt;Conner Ballan division&lt;/em&gt; of &lt;em&gt;Edward Viner&lt;/em&gt; and Co, said, "They &lt;Dart&gt; has been &lt;em&gt;rumored&lt;/em&gt; to be &lt;em&gt;buying&lt;/em&gt; some &lt;em&gt;other supermarkets&lt;/em&gt; as well, such as Stop and Shop."</str>
+        <str name="text">&lt;em&gt;Jerry Ballan, analyst&lt;/em&gt; with &lt;em&gt;Conner Ballan division&lt;/em&gt; of &lt;em&gt;Edward Viner&lt;/em&gt; and Co, said, "They &lt;Dart&gt; has been rumored to be buying some &lt;em&gt;other supermarkets&lt;/em&gt; as well, such as Stop and Shop."</str>
         <int name="index">6</int>
       </lst>
     </lst>

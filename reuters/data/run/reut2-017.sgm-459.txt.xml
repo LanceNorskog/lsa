@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-459.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">53</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">report</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.8035016563283465</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">profit</str>
+        <double name="strength">0.7956608577505845</double>
       </lst>
       <lst name="term">
-        <str name="text">parent</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">market</str>
+        <double name="strength">0.7956608577505843</double>
       </lst>
       <lst name="term">
-        <str name="text">losses</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">three</str>
+        <double name="strength">0.7956608577505836</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The forecasts are based on expectations of improved sales of office automation equipment, a recovery in semiconductor market prices and an increase in plant exports.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">165</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Toshiba reduced the number of divisions to three from four in reaction to market changes, effective April 1.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">109</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9942560324113093</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Group sales of telecommunication and electronic devices, accounting for 36 pct of the total, rose five pct to 1,183 billion yen in 1987/88 from a year earlier, helped by good sales of word processors, workstations, medical equipment, point-of-sales systems and exports of personal computers.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">292</int>
-        <double name="strength">0.96020677375509</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Home appliance sales abroad fell 24 pct to 312.10 billion, mainly due to the yen's appreciation, lower sales to China, and increased competition with newly-industrialised countries.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">182</int>
-        <double name="strength">0.933857273075646</double>
+        <str name="text">T&gt; expects to report a group net profit of 38 billion yen for the year ending March 31, 1988, up 11.2 pct from a year earlier, assuming an exchange rate of 140 yen to the dollar, a company official said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">203</int>
+        <double name="strength">0.8276088858722294</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Toshiba reduced&lt;/em&gt; the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;divisions&lt;/em&gt; to &lt;em&gt;three&lt;/em&gt; from four in &lt;em&gt;reaction&lt;/em&gt; to &lt;em&gt;market changes, effective April 1&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;forecasts&lt;/em&gt; are based on &lt;em&gt;expectations&lt;/em&gt; of &lt;em&gt;improved sales&lt;/em&gt; of &lt;em&gt;office automation equipment,&lt;/em&gt; a &lt;em&gt;recovery&lt;/em&gt; in &lt;em&gt;semiconductor market prices&lt;/em&gt; and an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;plant exports&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Toshiba&lt;/em&gt; reduced the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;divisions&lt;/em&gt; to &lt;em&gt;three&lt;/em&gt; from four in &lt;em&gt;reaction&lt;/em&gt; to &lt;em&gt;market changes, effective April 1&lt;/em&gt;.</str>
         <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Group sales&lt;/em&gt; of &lt;em&gt;telecommunication&lt;/em&gt; and &lt;em&gt;electronic devices, accounting&lt;/em&gt; for 36 pct of the &lt;em&gt;total,&lt;/em&gt; rose five pct to 1,183 &lt;em&gt;billion&lt;/em&gt; yen in 1987/88 from a year &lt;em&gt;earlier, helped&lt;/em&gt; by good &lt;em&gt;sales&lt;/em&gt; of word &lt;em&gt;processors, workstations, medical equipment, point&lt;/em&gt;-of-&lt;em&gt;sales systems&lt;/em&gt; and &lt;em&gt;exports&lt;/em&gt; of &lt;em&gt;personal computers&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Home &lt;em&gt;appliance sales abroad&lt;/em&gt; fell 24 pct to 312.10 &lt;em&gt;billion, mainly&lt;/em&gt; due to the yen's &lt;em&gt;appreciation, lower sales&lt;/em&gt; to &lt;em&gt;China,&lt;/em&gt; and &lt;em&gt;increased competition&lt;/em&gt; with &lt;em&gt;newly-industrialised countries&lt;/em&gt;.</str>
-        <int name="index">21</int>
+        <str name="text">T&gt; expects to &lt;em&gt;report&lt;/em&gt; a &lt;em&gt;group&lt;/em&gt; net &lt;em&gt;profit&lt;/em&gt; of 38 &lt;em&gt;billion&lt;/em&gt; yen for the year ending &lt;em&gt;March 31, 1988,&lt;/em&gt; up 11.2 pct from a year earlier, assuming an &lt;em&gt;exchange&lt;/em&gt; rate of 140 yen to the &lt;em&gt;dollar,&lt;/em&gt; a &lt;em&gt;company official said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

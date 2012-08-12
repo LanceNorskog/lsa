@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-985.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">could</str>
+        <str name="text">include</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">owned</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">commodity</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">industry</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">prices</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">proportion</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">costs</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">product</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">policy</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Earlier studies indicated private investment could sustain a two pct long-term economic growth rate, but the latest figures suggested this could not be maintained, it said.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Firms have tended to finance expansion with debt rather than equity, leading to a 39 pct rise in the ratio of interest payments to gross cash flow between 1980/85, the survey found.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">182</int>
-        <double name="strength">0.992517750005003</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The outlook for Australian industrial investment is uncertain, with capital spending at an historical low and business overly dependent on domestic demand, the Australian Chamber of Manufactures and the National Institute of Economic and Industry Research said.</str>
-        <int name="index">0</int>
+        <str name="text">The Australian dollar's depreciation, coupled with research incentives, is increasing the profitability of investment for exports but several factors inhibit growth.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.9960999924167147</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These include weak commodity prices, high fixed capital costs, uncertain domestic economic policy and corporate debt.</str>
+        <int name="index">5</int>
         <int name="start">0</int>
-        <int name="end">261</int>
-        <double name="strength">0.9852363986566153</double>
+        <int name="end">117</int>
+        <double name="strength">0.9470270291965717</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earlier studies indicated private investment could sustain&lt;/em&gt; a two pct long-term &lt;em&gt;economic growth&lt;/em&gt; rate, but the &lt;em&gt;latest figures suggested&lt;/em&gt; this &lt;em&gt;could&lt;/em&gt; not be &lt;em&gt;maintained,&lt;/em&gt; it said.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Firms&lt;/em&gt; have &lt;em&gt;tended&lt;/em&gt; to &lt;em&gt;finance expansion&lt;/em&gt; with debt &lt;em&gt;rather&lt;/em&gt; than &lt;em&gt;equity, leading&lt;/em&gt; to a 39 pct rise in the &lt;em&gt;ratio&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt; to &lt;em&gt;gross&lt;/em&gt; cash flow &lt;em&gt;between 1980/85,&lt;/em&gt; the &lt;em&gt;survey found&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Firms&lt;/em&gt; have tended to &lt;em&gt;finance expansion&lt;/em&gt; with debt rather than &lt;em&gt;equity,&lt;/em&gt; leading to a 39 pct rise in the &lt;em&gt;ratio&lt;/em&gt; of &lt;em&gt;interest payments&lt;/em&gt; to &lt;em&gt;gross&lt;/em&gt; cash flow between 1980/85, the &lt;em&gt;survey found&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;outlook&lt;/em&gt; for &lt;em&gt;Australian industrial investment&lt;/em&gt; is &lt;em&gt;uncertain,&lt;/em&gt; with &lt;em&gt;capital spending&lt;/em&gt; at an &lt;em&gt;historical&lt;/em&gt; low and &lt;em&gt;business overly dependent&lt;/em&gt; on &lt;em&gt;domestic demand,&lt;/em&gt; the &lt;em&gt;Australian Chamber&lt;/em&gt; of &lt;em&gt;Manufactures&lt;/em&gt; and the &lt;em&gt;National Institute&lt;/em&gt; of &lt;em&gt;Economic&lt;/em&gt; and &lt;em&gt;Industry Research said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;Australian dollar&lt;/em&gt;'s &lt;em&gt;depreciation,&lt;/em&gt; coupled with &lt;em&gt;research incentives,&lt;/em&gt; is increasing the &lt;em&gt;profitability&lt;/em&gt; of &lt;em&gt;investment&lt;/em&gt; for &lt;em&gt;exports&lt;/em&gt; but &lt;em&gt;several factors inhibit growth&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">These &lt;em&gt;include&lt;/em&gt; weak &lt;em&gt;commodity prices,&lt;/em&gt; high fixed &lt;em&gt;capital costs, uncertain domestic economic policy&lt;/em&gt; and &lt;em&gt;corporate debt&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

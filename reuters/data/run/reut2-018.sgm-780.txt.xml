@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">67</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-780.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">83</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">43</int>
+        <int name="count">29</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">where</str>
+        <str name="text">malaysia</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">ending</str>
+        <str name="text">expansion</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">mature</str>
         <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">bushels</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">cottonseed</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
       <lst name="term">
-        <str name="text">weeks</str>
-        <double name="strength">0.6871842709362778</double>
-      </lst>
-      <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">sunflowerseed</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">156</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S., for which he estimated ending stocks next season at 10.7 mln tonnes, or 393 mln bushels, against anticipated ending stocks of 15 mln tonnes, or 551 mln bushels, at the end of this season.</str>
-        <int name="index">14</int>
+        <str name="text">The oils are soybean, cottonseed, sunflowerseed, coconut, rapeseed, palmkernel and palm.</str>
+        <int name="index">8</int>
         <int name="start">0</int>
-        <int name="end">191</int>
-        <double name="strength">0.8959786703810404</double>
+        <int name="end">88</int>
+        <double name="strength">0.8652433559765139</double>
+        <int name="terms">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rate of increase in world palm oil use is likely to slow next season despite an expected 800,000 tonne production rise to 8.13 mln tonnes, Siegfried Mielke, editor of the Hamburg-based newsletter Oil World said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">215</int>
-        <double name="strength">0.8267237883490605</double>
+        <str name="text">The increase in mature palm tree areas in Malaysia will slow down from this year on, but that will be offset by area expansion in Indonesia, he said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">150</int>
+        <double name="strength">0.7980593252766905</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt; also is &lt;em&gt;shifting plantings&lt;/em&gt; to &lt;em&gt;Sabah&lt;/em&gt; and &lt;em&gt;Sarawak, where&lt;/em&gt; the rate of &lt;em&gt;expansion&lt;/em&gt; is &lt;em&gt;higher&lt;/em&gt; than in the &lt;em&gt;Peninsula,&lt;/em&gt; but &lt;em&gt;where yields&lt;/em&gt; are &lt;em&gt;lower,&lt;/em&gt; he said.</str>
+        <str name="text">&lt;em&gt;Malaysia&lt;/em&gt; also is shifting &lt;em&gt;plantings&lt;/em&gt; to &lt;em&gt;Sabah&lt;/em&gt; and &lt;em&gt;Sarawak,&lt;/em&gt; where the rate of &lt;em&gt;expansion&lt;/em&gt; is higher than in the &lt;em&gt;Peninsula,&lt;/em&gt; but where &lt;em&gt;yields&lt;/em&gt; are lower, he said.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S., for &lt;em&gt;which&lt;/em&gt; he &lt;em&gt;estimated ending stocks&lt;/em&gt; next &lt;em&gt;season&lt;/em&gt; at 10.7 mln &lt;em&gt;tonnes,&lt;/em&gt; or 393 mln &lt;em&gt;bushels, against anticipated ending stocks&lt;/em&gt; of 15 mln &lt;em&gt;tonnes,&lt;/em&gt; or 551 mln &lt;em&gt;bushels,&lt;/em&gt; at the end of this &lt;em&gt;season&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The oils are &lt;em&gt;soybean, cottonseed, sunflowerseed, coconut,&lt;/em&gt; rapeseed, &lt;em&gt;palmkernel&lt;/em&gt; and palm.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The rate of &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;world&lt;/em&gt; palm oil use is &lt;em&gt;likely&lt;/em&gt; to slow next &lt;em&gt;season despite&lt;/em&gt; an &lt;em&gt;expected 800,000 tonne production&lt;/em&gt; rise to 8.13 mln &lt;em&gt;tonnes, Siegfried Mielke, editor&lt;/em&gt; of the &lt;em&gt;Hamburg-based newsletter&lt;/em&gt; Oil &lt;em&gt;World said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;mature&lt;/em&gt; palm tree &lt;em&gt;areas&lt;/em&gt; in &lt;em&gt;Malaysia&lt;/em&gt; will slow down from this year on, but that will be offset by area &lt;em&gt;expansion&lt;/em&gt; in &lt;em&gt;Indonesia,&lt;/em&gt; he said.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

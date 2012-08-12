@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-913.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">their</str>
+        <str name="text">revision</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">today</str>
-        <double name="strength">0.559016994374949</double>
+        <str name="text">summer</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">revision</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">negative</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">march</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">levitt</str>
+        <double name="strength">0.9371321078024232</double>
       </lst>
       <lst name="term">
-        <str name="text">yesterday</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">declines</str>
+        <double name="strength">0.9295398822652543</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In fact, hog operations on many mixed livestock/grain enterprises have been so profitable that it actually enabled some farmers to get back on their feet and refinance their loans just based on the hog operation alone."</str>
-        <int name="index">9</int>
+        <str name="text">Some traders and analysts expect limit declines in nearby contracts, with spillover selling likely in cattle.</str>
+        <int name="index">3</int>
         <int name="start">0</int>
-        <int name="end">219</int>
+        <int name="end">109</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Grimes said, "As far as the distant months are concerned, if our first quarter pig crop is up only six pct and under 60 lb inventories actually up only five pct, it would take a tremendous discount in price for each percent increase for us to push down to the prices that the current futures show for the July and August period."</str>
-        <int name="index">19</int>
+        <str name="text">University of Missouri agronomist Glen Grimes said,"The report shows that hog producers have responded to a very desirable feeding ratio that they enjoyed for the past 10 months."</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">330</int>
-        <double name="strength">0.9342624751939226</double>
+        <int name="end">180</int>
+        <double name="strength">0.9491123806643437</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Most analysts seemed to agree with Chicago Mercantile Exchange floor traders that the report will be viewed as bearish to pork futures and futures prices may open sharply lower today.</str>
-        <int name="index">2</int>
+        <str name="text">Shearson Lehman analyst Chuck Levitt said hog futures prices are above producers' break even points.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">184</int>
-        <double name="strength">0.8309701552148959</double>
+        <int name="end">101</int>
+        <double name="strength">0.9385812487982068</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In fact, hog &lt;em&gt;operations&lt;/em&gt; on many &lt;em&gt;mixed livestock/grain enterprises&lt;/em&gt; have been so &lt;em&gt;profitable&lt;/em&gt; that it &lt;em&gt;actually enabled&lt;/em&gt; some &lt;em&gt;farmers&lt;/em&gt; to get back on &lt;em&gt;their&lt;/em&gt; feet and &lt;em&gt;refinance their loans&lt;/em&gt; just &lt;em&gt;based&lt;/em&gt; on the hog &lt;em&gt;operation alone.&lt;/em&gt;"</str>
-        <int name="index">9</int>
+        <str name="text">Some &lt;em&gt;traders&lt;/em&gt; and &lt;em&gt;analysts expect limit declines&lt;/em&gt; in &lt;em&gt;nearby contracts,&lt;/em&gt; with &lt;em&gt;spillover&lt;/em&gt; selling &lt;em&gt;likely&lt;/em&gt; in &lt;em&gt;cattle&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Grimes&lt;/em&gt; said, "As far as the &lt;em&gt;distant months&lt;/em&gt; are &lt;em&gt;concerned,&lt;/em&gt; if our &lt;em&gt;first quarter&lt;/em&gt; pig crop is up only six pct and &lt;em&gt;under 60&lt;/em&gt; lb &lt;em&gt;inventories actually&lt;/em&gt; up only five pct, it &lt;em&gt;would&lt;/em&gt; take a &lt;em&gt;tremendous discount&lt;/em&gt; in &lt;em&gt;price&lt;/em&gt; for each &lt;em&gt;percent increase&lt;/em&gt; for us to push down to the &lt;em&gt;prices&lt;/em&gt; that the &lt;em&gt;current futures&lt;/em&gt; show for the July and &lt;em&gt;August period.&lt;/em&gt;"</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;University&lt;/em&gt; of &lt;em&gt;Missouri agronomist&lt;/em&gt; Glen &lt;em&gt;Grimes&lt;/em&gt; said,"The &lt;em&gt;report&lt;/em&gt; shows that hog &lt;em&gt;producers&lt;/em&gt; have responded to a very &lt;em&gt;desirable&lt;/em&gt; feeding &lt;em&gt;ratio&lt;/em&gt; that they enjoyed for the past 10 &lt;em&gt;months.&lt;/em&gt;"</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Most &lt;em&gt;analysts seemed&lt;/em&gt; to &lt;em&gt;agree&lt;/em&gt; with &lt;em&gt;Chicago Mercantile Exchange floor traders&lt;/em&gt; that the &lt;em&gt;report&lt;/em&gt; will be &lt;em&gt;viewed&lt;/em&gt; as &lt;em&gt;bearish&lt;/em&gt; to pork &lt;em&gt;futures&lt;/em&gt; and &lt;em&gt;futures prices&lt;/em&gt; may open &lt;em&gt;sharply lower today&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Shearson Lehman analyst Chuck Levitt&lt;/em&gt; said hog &lt;em&gt;futures prices&lt;/em&gt; are above &lt;em&gt;producers' break&lt;/em&gt; even &lt;em&gt;points&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-868.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">level</str>
+        <str name="text">traders</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">cautioned</str>
+        <str name="text">level</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">budget</str>
+        <double name="strength">0.9999999999999988</double>
+      </lst>
+      <lst name="term">
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
+        <str name="text">federal</str>
         <double name="strength">0.9999999999999982</double>
-      </lst>
-      <lst name="term">
-        <str name="text">single</str>
-        <double name="strength">0.9999999999999978</double>
-      </lst>
-      <lst name="term">
-        <str name="text">family</str>
-        <double name="strength">0.9999999999999978</double>
-      </lst>
-      <lst name="term">
-        <str name="text">shearson</str>
-        <double name="strength">0.5000000000000001</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Charles Lieberman of Manufacturers Hanover Securities Corp said single-family homes would account for most of the housing starts drop although Smith Barney's Greenbaum saw signs of stabilization in both the single- and multi-family sectors.</str>
-        <int name="index">9</int>
+        <str name="text">Economists at Shearson Lehman Brothers Inc were more succinct in a weekly newsletter: "a slight decline across the board, no particular economic reason, mostly weather."</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">241</int>
+        <int name="end">170</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Although underlying fundamentals remain strong -- mortgage rate stability, healthy income gains -- warmer than usual weather undoubtedly also had some influence in pushing starts higher in both months," he added.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">214</int>
-        <double name="strength">0.8748481298261589</double>
+        <double name="strength">0.9484277388926307</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Economists at Shearson Lehman Brothers Inc were more succinct in a weekly newsletter: "a slight decline across the board, no particular economic reason, mostly weather."</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.8248147268112616</double>
+        <str name="text">S. credit market will be pouring over latest housing starts data for fresh clues about current and future domestic growth trends, economists said.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.8161489989172246</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Charles Lieberman&lt;/em&gt; of &lt;em&gt;Manufacturers Hanover Securities&lt;/em&gt; Corp said &lt;em&gt;single-family homes would account&lt;/em&gt; for most of the &lt;em&gt;housing starts&lt;/em&gt; drop &lt;em&gt;although Smith Barney&lt;/em&gt;'s &lt;em&gt;Greenbaum&lt;/em&gt; saw &lt;em&gt;signs&lt;/em&gt; of &lt;em&gt;stabilization&lt;/em&gt; in both the &lt;em&gt;single-&lt;/em&gt; and &lt;em&gt;multi-family sectors&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Economists&lt;/em&gt; at &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; Inc were more &lt;em&gt;succinct&lt;/em&gt; in a &lt;em&gt;weekly newsletter: &lt;/em&gt;"a &lt;em&gt;slight decline&lt;/em&gt; across the &lt;em&gt;board,&lt;/em&gt; no &lt;em&gt;particular economic reason,&lt;/em&gt; mostly &lt;em&gt;weather.&lt;/em&gt;"</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Although underlying fundamentals remain strong -- mortgage&lt;/em&gt; rate &lt;em&gt;stability, healthy income gains -- warmer&lt;/em&gt; than &lt;em&gt;usual weather undoubtedly&lt;/em&gt; also had some &lt;em&gt;influence&lt;/em&gt; in &lt;em&gt;pushing starts higher&lt;/em&gt; in both &lt;em&gt;months,"&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
+        <str name="text">"Although &lt;em&gt;underlying fundamentals remain strong -- mortgage&lt;/em&gt; rate &lt;em&gt;stability, healthy income&lt;/em&gt; gains -- warmer than &lt;em&gt;usual weather&lt;/em&gt; undoubtedly also had some &lt;em&gt;influence&lt;/em&gt; in pushing &lt;em&gt;starts&lt;/em&gt; higher in both &lt;em&gt;months,"&lt;/em&gt; he added.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; at &lt;em&gt;Shearson Lehman Brothers&lt;/em&gt; Inc were more &lt;em&gt;succinct&lt;/em&gt; in a &lt;em&gt;weekly newsletter: &lt;/em&gt;"a &lt;em&gt;slight decline across&lt;/em&gt; the &lt;em&gt;board,&lt;/em&gt; no &lt;em&gt;particular economic reason, mostly weather.&lt;/em&gt;"</str>
-        <int name="index">8</int>
+        <str name="text">S. &lt;em&gt;credit market&lt;/em&gt; will be pouring over latest &lt;em&gt;housing&lt;/em&gt; starts data for &lt;em&gt;fresh clues&lt;/em&gt; about &lt;em&gt;current&lt;/em&gt; and &lt;em&gt;future domestic growth trends, economists said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

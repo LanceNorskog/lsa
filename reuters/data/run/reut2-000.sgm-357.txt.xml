@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-357.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">should</str>
+        <str name="text">vendor</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">significant</str>
+        <str name="text">deliveries</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">enough</str>
-        <double name="strength">1.0</double>
+        <str name="text">index</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">dampen</str>
-        <double name="strength">1.0</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">prospects</str>
-        <double name="strength">1.0</double>
+        <str name="text">composite</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">221</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">The slowing of new orders should not be significant enough to dampen prospects for a respectable first quarter."</str>
         <int name="index">15</int>
         <int name="start">0</int>
         <int name="end">112</int>
-        <double name="strength">0.9112325869865558</double>
+        <double name="strength">0.80018287449616</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, production remained vigorous as more than three times as many members reported it better rather than worse.</str>
-        <int name="index">8</int>
+        <str name="text">The composite index is a seasonally adjusted figure, based on five components of the NAPM business survey - new orders, production, vendor deliveries, inventories and employment.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">117</int>
-        <double name="strength">0.8602325267042608</double>
+        <int name="end">179</int>
+        <double name="strength">0.7864226272794966</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Robert Bretz, chairman&lt;/em&gt; of the NAPM's &lt;em&gt;business survey committee&lt;/em&gt; and &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;materials management&lt;/em&gt; at &lt;em&gt;Pitney Bowes&lt;/em&gt; Inc &lt;PBI&gt; said "the &lt;em&gt;economy continued&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; but at a more &lt;em&gt;subdued&lt;/em&gt; rate than in &lt;em&gt;January&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Robert Bretz, chairman&lt;/em&gt; of the NAPM's &lt;em&gt;business survey committee&lt;/em&gt; and &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;materials management&lt;/em&gt; at &lt;em&gt;Pitney Bowes&lt;/em&gt; Inc &lt;PBI&gt; said "the &lt;em&gt;economy&lt;/em&gt; continued to &lt;em&gt;expand&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; but at a more &lt;em&gt;subdued&lt;/em&gt; rate than in &lt;em&gt;January&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;slowing&lt;/em&gt; of new &lt;em&gt;orders should&lt;/em&gt; not be &lt;em&gt;significant enough&lt;/em&gt; to &lt;em&gt;dampen prospects&lt;/em&gt; for a &lt;em&gt;respectable first quarter.&lt;/em&gt;"</str>
+        <str name="text">The &lt;em&gt;slowing&lt;/em&gt; of new &lt;em&gt;orders&lt;/em&gt; should not be &lt;em&gt;significant&lt;/em&gt; enough to &lt;em&gt;dampen prospects&lt;/em&gt; for a &lt;em&gt;respectable first quarter.&lt;/em&gt;"</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, production remained vigorous&lt;/em&gt; as more than &lt;em&gt;three times&lt;/em&gt; as many &lt;em&gt;members reported&lt;/em&gt; it &lt;em&gt;better rather&lt;/em&gt; than &lt;em&gt;worse&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The &lt;em&gt;composite index&lt;/em&gt; is a seasonally adjusted &lt;em&gt;figure,&lt;/em&gt; based on five &lt;em&gt;components&lt;/em&gt; of the NAPM &lt;em&gt;business survey -&lt;/em&gt; new &lt;em&gt;orders, production, vendor deliveries, inventories&lt;/em&gt; and &lt;em&gt;employment&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

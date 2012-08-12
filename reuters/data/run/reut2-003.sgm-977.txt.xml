@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-977.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">panel</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">making</str>
-        <double name="strength">0.8944271909999223</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">progress</str>
-        <double name="strength">0.8944271909999223</double>
+        <str name="text">particular</str>
+        <double name="strength">0.9960900316910957</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.8944271909999223</double>
+        <str name="text">lawmakers</str>
+        <double name="strength">0.9664151434421546</double>
       </lst>
       <lst name="term">
-        <str name="text">talking</str>
-        <double name="strength">0.894427190999918</double>
+        <str name="text">spending</str>
+        <double name="strength">0.9287702611820327</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Congressional Democrats first hinted about two weeks ago that they would seek to reduce the deficit by about 36 billion dlrs and put aside the question of whether the effort would meet the 108 billion dlr deficit target set for fiscal year 1988 by the new federal balanced budget law.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">289</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">interviewed during a break in the lawmakers' secret deliberations, said the committee was still debating the shape of the overall budget and had come to no agreement on the size or precise form of the new revenues or spending cuts to be pursued.</str>
         <int name="index">9</int>
         <int name="start">48</int>
         <int name="end">293</int>
-        <double name="strength">0.9912335898562916</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a series of interviews, panel members conceded that the budget panel's drafting sessions, which began yesterday and were initially expected to end late tomorrow, will now extend into next week.</str>
-        <int name="index">1</int>
+        <str name="text">House Speaker Jim Wright (D-Texas) has urged passage of a tax on securities transactions to bring an estimated 20 billion dlrs in new revenues into the U.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">197</int>
-        <double name="strength">0.9360574181883292</double>
+        <int name="end">155</int>
+        <double name="strength">0.9248711947122701</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Members also acknowledged that the panel's preliminary  goal for spending cuts and new revenues would not be enough to enable the government to meet the 108 billion dlr deficit ceiling set for the coming year by federal law.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">225</int>
+        <double name="strength">0.8984394749183552</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Congressional Democrats first hinted about&lt;/em&gt; two &lt;em&gt;weeks&lt;/em&gt; ago that they &lt;em&gt;would&lt;/em&gt; seek to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;deficit&lt;/em&gt; by &lt;em&gt;about 36 billion&lt;/em&gt; dlrs and put &lt;em&gt;aside&lt;/em&gt; the &lt;em&gt;question&lt;/em&gt; of &lt;em&gt;whether&lt;/em&gt; the &lt;em&gt;effort would&lt;/em&gt; meet the 108 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;deficit target&lt;/em&gt; set for &lt;em&gt;fiscal&lt;/em&gt; year 1988 by the new &lt;em&gt;federal balanced budget law&lt;/em&gt;.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;interviewed during&lt;/em&gt; a &lt;em&gt;break&lt;/em&gt; in the &lt;em&gt;lawmakers' secret deliberations,&lt;/em&gt; said the &lt;em&gt;committee&lt;/em&gt; was &lt;em&gt;still debating&lt;/em&gt; the &lt;em&gt;shape&lt;/em&gt; of the &lt;em&gt;overall budget&lt;/em&gt; and had come to no &lt;em&gt;agreement&lt;/em&gt; on the size or &lt;em&gt;precise&lt;/em&gt; form of the new &lt;em&gt;revenues&lt;/em&gt; or &lt;em&gt;spending&lt;/em&gt; cuts to be &lt;em&gt;pursued&lt;/em&gt;.</str>
+        <str name="text">interviewed during a &lt;em&gt;break&lt;/em&gt; in the &lt;em&gt;lawmakers' secret deliberations,&lt;/em&gt; said the &lt;em&gt;committee&lt;/em&gt; was still debating the &lt;em&gt;shape&lt;/em&gt; of the &lt;em&gt;overall budget&lt;/em&gt; and had come to no &lt;em&gt;agreement&lt;/em&gt; on the size or &lt;em&gt;precise&lt;/em&gt; form of the new &lt;em&gt;revenues&lt;/em&gt; or &lt;em&gt;spending&lt;/em&gt; cuts to be pursued.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;interviews, panel members conceded&lt;/em&gt; that the &lt;em&gt;budget panel&lt;/em&gt;'s &lt;em&gt;drafting sessions, which began yesterday&lt;/em&gt; and were &lt;em&gt;initially expected&lt;/em&gt; to end late &lt;em&gt;tomorrow,&lt;/em&gt; will now &lt;em&gt;extend&lt;/em&gt; into next week.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;House Speaker&lt;/em&gt; Jim &lt;em&gt;Wright &lt;/em&gt;(D-&lt;em&gt;Texas)&lt;/em&gt; has urged &lt;em&gt;passage&lt;/em&gt; of a tax on &lt;em&gt;securities transactions&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; an estimated 20 &lt;em&gt;billion&lt;/em&gt; dlrs in new &lt;em&gt;revenues&lt;/em&gt; into the U.</str>
+        <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Members&lt;/em&gt; also acknowledged that the &lt;em&gt;panel&lt;/em&gt;'s &lt;em&gt;preliminary &lt;/em&gt; goal for spending cuts and new &lt;em&gt;revenues&lt;/em&gt; would not be enough to &lt;em&gt;enable&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; to meet the 108 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;deficit ceiling&lt;/em&gt; set for the &lt;em&gt;coming&lt;/em&gt; year by &lt;em&gt;federal law&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

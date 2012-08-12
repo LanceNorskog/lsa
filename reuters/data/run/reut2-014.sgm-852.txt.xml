@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-852.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">231</int>
+        <int name="count">164</int>
       </lst>
       <lst name="stems">
-        <int name="count">141</int>
+        <int name="count">91</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">exchange</str>
+        <str name="text">surplus</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.559016994374948</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">anonymity</str>
-        <double name="strength">0.5000000000000032</double>
+        <str name="text">money</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">segmented</str>
-        <double name="strength">0.5000000000000032</double>
+        <str name="text">small</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">approach</str>
-        <double name="strength">0.5000000000000032</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Somboon Chinsavananond, Thai Farmers' fund management executive, said liquidity has been aggravated by the central bank's policy of fixing a stable baht-dollar exchange rate which permits Thai companies to import dollar-denominated funds with a minimal risk of currency exchange losses.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">287</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">But the bright picture, together with a government program to help farmers cope with depressed commodity prices, coincides with sluggish investment by a private sector still feeling the lingering effects of the 1984-86 recession.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.948593990680308</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A foreign banker, who requested anonymity, said the "segmented market approach" used by Thai banks for setting different lending rates has caused dislocation of funds in the financial sector, eroded bank profits and prevented banks from taking a more logical move of further cutting interest rates.</str>
-        <int name="index">23</int>
+        <str name="text">Olarn Chaipravat, senior executive vice president of Siam Commercial Bank Ltd, told reporters last week the liquidity problem stems partly from the fact most loan demands come from businesses seeking funds for small, labour-intensive projects.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">299</int>
-        <double name="strength">0.8770115834220685</double>
+        <int name="end">244</int>
+        <double name="strength">0.9753097778569777</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Somboon Chinsavananond, Thai Farmers' fund management executive, said liquidity has been aggravated by the central bank's policy of fixing a stable baht-dollar exchange rate which permits Thai companies to import dollar-denominated funds with a minimal risk of currency exchange losses.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">287</int>
+        <double name="strength">0.8194435278307556</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Somboon Chinsavananond,&lt;/em&gt; Thai &lt;em&gt;Farmers'&lt;/em&gt; fund &lt;em&gt;management executive,&lt;/em&gt; said &lt;em&gt;liquidity&lt;/em&gt; has been &lt;em&gt;aggravated&lt;/em&gt; by the &lt;em&gt;central&lt;/em&gt; bank's &lt;em&gt;policy&lt;/em&gt; of &lt;em&gt;fixing&lt;/em&gt; a &lt;em&gt;stable&lt;/em&gt; baht-&lt;em&gt;dollar exchange&lt;/em&gt; rate &lt;em&gt;which permits&lt;/em&gt; Thai &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;import dollar-denominated funds&lt;/em&gt; with a &lt;em&gt;minimal&lt;/em&gt; risk of &lt;em&gt;currency exchange losses&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But the &lt;em&gt;bright picture, together&lt;/em&gt; with a &lt;em&gt;government program&lt;/em&gt; to help &lt;em&gt;farmers&lt;/em&gt; cope with &lt;em&gt;depressed commodity prices, coincides&lt;/em&gt; with &lt;em&gt;sluggish investment&lt;/em&gt; by a &lt;em&gt;private sector still feeling&lt;/em&gt; the &lt;em&gt;lingering effects&lt;/em&gt; of the 1984-86 &lt;em&gt;recession&lt;/em&gt;.</str>
+        <str name="text">But the &lt;em&gt;bright picture,&lt;/em&gt; together with a &lt;em&gt;government program&lt;/em&gt; to help &lt;em&gt;farmers&lt;/em&gt; cope with &lt;em&gt;depressed commodity prices,&lt;/em&gt; coincides with &lt;em&gt;sluggish investment&lt;/em&gt; by a &lt;em&gt;private sector&lt;/em&gt; still feeling the lingering &lt;em&gt;effects&lt;/em&gt; of the 1984-86 &lt;em&gt;recession&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;foreign banker,&lt;/em&gt; who &lt;em&gt;requested anonymity,&lt;/em&gt; said the "&lt;em&gt;segmented market approach"&lt;/em&gt; used by Thai &lt;em&gt;banks&lt;/em&gt; for &lt;em&gt;setting different lending rates&lt;/em&gt; has &lt;em&gt;caused dislocation&lt;/em&gt; of &lt;em&gt;funds&lt;/em&gt; in the &lt;em&gt;financial sector, eroded&lt;/em&gt; bank &lt;em&gt;profits&lt;/em&gt; and &lt;em&gt;prevented banks&lt;/em&gt; from &lt;em&gt;taking&lt;/em&gt; a more &lt;em&gt;logical&lt;/em&gt; move of &lt;em&gt;further cutting interest rates&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">&lt;em&gt;Olarn Chaipravat, senior executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of Siam &lt;em&gt;Commercial&lt;/em&gt; Bank Ltd, told &lt;em&gt;reporters&lt;/em&gt; last week the &lt;em&gt;liquidity problem&lt;/em&gt; stems partly from the fact most loan &lt;em&gt;demands&lt;/em&gt; come from &lt;em&gt;businesses&lt;/em&gt; seeking &lt;em&gt;funds&lt;/em&gt; for &lt;em&gt;small, labour-intensive projects&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Somboon Chinsavananond,&lt;/em&gt; Thai &lt;em&gt;Farmers'&lt;/em&gt; fund &lt;em&gt;management executive,&lt;/em&gt; said &lt;em&gt;liquidity&lt;/em&gt; has been aggravated by the &lt;em&gt;central&lt;/em&gt; bank's &lt;em&gt;policy&lt;/em&gt; of fixing a &lt;em&gt;stable&lt;/em&gt; baht-&lt;em&gt;dollar exchange&lt;/em&gt; rate which permits Thai &lt;em&gt;companies&lt;/em&gt; to &lt;em&gt;import dollar&lt;/em&gt;-denominated &lt;em&gt;funds&lt;/em&gt; with a &lt;em&gt;minimal&lt;/em&gt; risk of &lt;em&gt;currency exchange losses&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

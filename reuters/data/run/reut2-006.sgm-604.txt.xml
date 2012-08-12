@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-604.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">73</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">transfer</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">telephone</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">shareholders</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">result</str>
+        <double name="strength">0.9634242309653828</double>
       </lst>
       <lst name="term">
-        <str name="text">normal</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">fixed</str>
+        <double name="strength">0.9634242309653828</double>
       </lst>
       <lst name="term">
-        <str name="text">effective</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">charges</str>
+        <double name="strength">0.9634242309653828</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">136</int>
         <double name="strength">1.0</double>
+        <int name="terms">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">ATT said no transfer of the shares being called for redemption will be made after March 26, 1987 and the transfer books will close for those shares on that date.</str>
-        <int name="index">15</int>
+        <str name="text">American Transtech Inc, the paying agent for the shares,  will send notices of the redemption on March 30 to the preferred shareholders who were selected by lot, ATT said.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">162</int>
-        <double name="strength">0.9785273924088334</double>
+        <int name="end">172</int>
+        <double name="strength">0.9140232909867906</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The May one preferred stock redemption will save about 50 mln dlrs in dividends annually and will bring ATT's total debt and preferred stock reduction to more than 2.5 billion dlrs since the beginning of 1986, Predergast said.</str>
-        <int name="index">8</int>
+        <str name="text">The company said it will pay the May 1 dividend for all preferred shares, including those being redeemed, in a normal way to shareholders of record as of March 31, 1987.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">0.8770217365094127</double>
+        <int name="end">170</int>
+        <double name="strength">0.7907385245924149</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">As a &lt;em&gt;result&lt;/em&gt; our &lt;em&gt;annual fixed charges&lt;/em&gt; were &lt;em&gt;reduced&lt;/em&gt; by &lt;em&gt;almost 200&lt;/em&gt; mln dlrs and our &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;service&lt;/em&gt; our &lt;em&gt;existing&lt;/em&gt; debt was &lt;em&gt;strengthened.&lt;/em&gt;"</str>
+        <str name="text">As a &lt;em&gt;result&lt;/em&gt; our &lt;em&gt;annual fixed charges&lt;/em&gt; were reduced by almost 200 mln dlrs and our &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;service&lt;/em&gt; our existing debt was strengthened."</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">ATT said no &lt;em&gt;transfer&lt;/em&gt; of the &lt;em&gt;shares being called&lt;/em&gt; for &lt;em&gt;redemption&lt;/em&gt; will be made &lt;em&gt;after March 26, 1987&lt;/em&gt; and the &lt;em&gt;transfer books&lt;/em&gt; will &lt;em&gt;close&lt;/em&gt; for &lt;em&gt;those shares&lt;/em&gt; on that date.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;American Transtech&lt;/em&gt; Inc, the paying &lt;em&gt;agent&lt;/em&gt; for the &lt;em&gt;shares, &lt;/em&gt; will send &lt;em&gt;notices&lt;/em&gt; of the &lt;em&gt;redemption&lt;/em&gt; on &lt;em&gt;March 30&lt;/em&gt; to the &lt;em&gt;preferred shareholders&lt;/em&gt; who were selected by lot, ATT said.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The May one &lt;em&gt;preferred stock redemption&lt;/em&gt; will save &lt;em&gt;about 50&lt;/em&gt; mln dlrs in &lt;em&gt;dividends annually&lt;/em&gt; and will &lt;em&gt;bring&lt;/em&gt; ATT's &lt;em&gt;total&lt;/em&gt; debt and &lt;em&gt;preferred stock reduction&lt;/em&gt; to more than 2.5 &lt;em&gt;billion&lt;/em&gt; dlrs &lt;em&gt;since&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of 1986, &lt;em&gt;Predergast said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it will pay the May 1 &lt;em&gt;dividend&lt;/em&gt; for all &lt;em&gt;preferred shares,&lt;/em&gt; including those being redeemed, in a &lt;em&gt;normal&lt;/em&gt; way to &lt;em&gt;shareholders&lt;/em&gt; of &lt;em&gt;record&lt;/em&gt; as of &lt;em&gt;March 31, 1987&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-972.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">95</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">markets</str>
+        <str name="text">policy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sharing</str>
-        <double name="strength">1.0</double>
+        <str name="text">soybeans</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">cited</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">wheat</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">termed</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">credit</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">excessive</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">rates</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">S. would seek a world market sharing cartel with the European Community and other exporting nations, to share-out export markets, Harkin said during the first of several Senate Agriculture subcommittee hearings examining farm programs.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">235</int>
+        <str name="text">He said as a transition to the higher prices, he would allow livestock producers to purchase Commodity Credit Corp. grain stocks for three years.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">146</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Harkin proposal would set loan rates of 5.17 dlrs per bushel for wheat, 3.77 dlrs for corn and 9.32 dlrs for soybeans, all to be put in effect under strict controls on planted acreage reductions.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">200</int>
+        <double name="strength">0.9740773070662794</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Harkin cited what he termed "excessive" net returns on equity over five years of 33.4 pct at Kellogg, 31.9 pct Monfort, 22.8 pct Nabisco, 22.8 pct ConAgra, 21.2 pct H.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">168</int>
-        <double name="strength">0.888124932068591</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This would be done by seeking agreement among major exporting countries including the European Community on market sharing at agreed high prices.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.8304567039058965</double>
+        <double name="strength">0.9669802383169347</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;would&lt;/em&gt; seek a &lt;em&gt;world market sharing cartel&lt;/em&gt; with the &lt;em&gt;European Community&lt;/em&gt; and &lt;em&gt;other exporting nations,&lt;/em&gt; to &lt;em&gt;share&lt;/em&gt;-out &lt;em&gt;export markets, Harkin&lt;/em&gt; said &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;first&lt;/em&gt; of &lt;em&gt;several Senate Agriculture subcommittee hearings examining&lt;/em&gt; farm &lt;em&gt;programs&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">He said as a &lt;em&gt;transition&lt;/em&gt; to the higher &lt;em&gt;prices,&lt;/em&gt; he would &lt;em&gt;allow livestock producers&lt;/em&gt; to &lt;em&gt;purchase Commodity Credit&lt;/em&gt; Corp. &lt;em&gt;grain stocks&lt;/em&gt; for &lt;em&gt;three years&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Harkin cited&lt;/em&gt; what he &lt;em&gt;termed "excessive"&lt;/em&gt; net &lt;em&gt;returns&lt;/em&gt; on &lt;em&gt;equity&lt;/em&gt; over five &lt;em&gt;years&lt;/em&gt; of 33.4 pct at &lt;em&gt;Kellogg, 31.9&lt;/em&gt; pct &lt;em&gt;Monfort, 22.8&lt;/em&gt; pct &lt;em&gt;Nabisco, 22.8&lt;/em&gt; pct &lt;em&gt;ConAgra, 21.2&lt;/em&gt; pct H.</str>
+        <str name="text">The &lt;em&gt;Harkin proposal&lt;/em&gt; would set loan &lt;em&gt;rates&lt;/em&gt; of 5.17 dlrs per &lt;em&gt;bushel&lt;/em&gt; for &lt;em&gt;wheat, 3.77&lt;/em&gt; dlrs for corn and 9.32 dlrs for &lt;em&gt;soybeans,&lt;/em&gt; all to be put in &lt;em&gt;effect&lt;/em&gt; under &lt;em&gt;strict controls&lt;/em&gt; on planted &lt;em&gt;acreage reductions&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Harkin&lt;/em&gt; cited what he termed "&lt;em&gt;excessive"&lt;/em&gt; net &lt;em&gt;returns&lt;/em&gt; on &lt;em&gt;equity&lt;/em&gt; over five &lt;em&gt;years&lt;/em&gt; of 33.4 pct at &lt;em&gt;Kellogg, 31.9&lt;/em&gt; pct &lt;em&gt;Monfort, 22.8&lt;/em&gt; pct &lt;em&gt;Nabisco, 22.8&lt;/em&gt; pct &lt;em&gt;ConAgra, 21.2&lt;/em&gt; pct H.</str>
         <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This &lt;em&gt;would&lt;/em&gt; be done by &lt;em&gt;seeking agreement among major exporting countries including&lt;/em&gt; the &lt;em&gt;European Community&lt;/em&gt; on &lt;em&gt;market sharing&lt;/em&gt; at &lt;em&gt;agreed&lt;/em&gt; high &lt;em&gt;prices&lt;/em&gt;.</str>
-        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-4.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">85</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">exports</str>
+        <str name="text">buyers</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">described</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">criticism</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">quality</str>
+        <double name="strength">0.9234059616032917</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">believe</str>
+        <double name="strength">0.9201081508366428</double>
       </lst>
       <lst name="term">
-        <str name="text">politics</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">harvesting</str>
+        <double name="strength">0.9201081508366428</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">183</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">London traders said the Asian cocoa was considered unsuitable for western palates because of an acrid odour and a high level of free fatty acids.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">146</int>
-        <double name="strength">0.938870223620429</double>
+        <double name="strength">0.8981781416056102</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They were responding to comments by London traders that large tonnages of unwanted cocoa beans from Malaysia, Indonesia and Papua New Guinea (PNG) were helping to depress cocoa prices.</str>
-        <int name="index">5</int>
+        <str name="text">According to one Kuala Lumpur trader, world prices would have to fall another 1,000 ringgit per tonne (about 250 stg) to make cocoa production in Malaysia uneconomic.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.9226930553556377</double>
+        <int name="end">167</int>
+        <double name="strength">0.719468535532859</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;described criticism&lt;/em&gt; of the &lt;em&gt;quality&lt;/em&gt; of &lt;em&gt;Indonesian beans&lt;/em&gt; as "&lt;em&gt;trade politics"&lt;/em&gt; and said &lt;em&gt;Jakarta&lt;/em&gt;'s &lt;em&gt;traditional links&lt;/em&gt; with &lt;em&gt;Dutch buyers meant&lt;/em&gt; it did not have any &lt;em&gt;difficulty&lt;/em&gt; with &lt;em&gt;exports&lt;/em&gt;.</str>
+        <str name="text">He described &lt;em&gt;criticism&lt;/em&gt; of the &lt;em&gt;quality&lt;/em&gt; of &lt;em&gt;Indonesian beans&lt;/em&gt; as "&lt;em&gt;trade politics"&lt;/em&gt; and said &lt;em&gt;Jakarta&lt;/em&gt;'s &lt;em&gt;traditional links&lt;/em&gt; with &lt;em&gt;Dutch buyers&lt;/em&gt; meant it did not have any &lt;em&gt;difficulty&lt;/em&gt; with &lt;em&gt;exports&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;London traders&lt;/em&gt; said the &lt;em&gt;Asian cocoa&lt;/em&gt; was &lt;em&gt;considered unsuitable&lt;/em&gt; for &lt;em&gt;western palates because&lt;/em&gt; of an &lt;em&gt;acrid odour&lt;/em&gt; and a high &lt;em&gt;level&lt;/em&gt; of free &lt;em&gt;fatty acids&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;London traders&lt;/em&gt; said the &lt;em&gt;Asian cocoa&lt;/em&gt; was considered &lt;em&gt;unsuitable&lt;/em&gt; for &lt;em&gt;western palates&lt;/em&gt; because of an &lt;em&gt;acrid odour&lt;/em&gt; and a high &lt;em&gt;level&lt;/em&gt; of free &lt;em&gt;fatty acids&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They were &lt;em&gt;responding&lt;/em&gt; to &lt;em&gt;comments&lt;/em&gt; by &lt;em&gt;London traders&lt;/em&gt; that &lt;em&gt;large tonnages&lt;/em&gt; of &lt;em&gt;unwanted cocoa beans&lt;/em&gt; from &lt;em&gt;Malaysia, Indonesia&lt;/em&gt; and &lt;em&gt;Papua&lt;/em&gt; New &lt;em&gt;Guinea &lt;/em&gt;(PNG) were &lt;em&gt;helping&lt;/em&gt; to &lt;em&gt;depress cocoa prices&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">According to one &lt;em&gt;Kuala Lumpur trader, world prices&lt;/em&gt; would have to fall another 1,000 &lt;em&gt;ringgit&lt;/em&gt; per &lt;em&gt;tonne &lt;/em&gt;(about 250 stg) to make &lt;em&gt;cocoa production&lt;/em&gt; in &lt;em&gt;Malaysia uneconomic&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

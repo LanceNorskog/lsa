@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-153.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">197</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">119</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">european</str>
+        <str name="text">maturity</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">peter</str>
-        <double name="strength">0.8944271909999238</double>
+        <str name="text">tranche</str>
+        <double name="strength">0.9999999999999972</double>
       </lst>
       <lst name="term">
-        <str name="text">mortimer</str>
-        <double name="strength">0.8944271909999238</double>
+        <str name="text">president</str>
+        <double name="strength">0.9902130691945641</double>
       </lst>
       <lst name="term">
-        <str name="text">partner</str>
-        <double name="strength">0.8944271909999238</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9902130691945634</double>
       </lst>
       <lst name="term">
-        <str name="text">milbank</str>
-        <double name="strength">0.8944271909999238</double>
+        <str name="text">security</str>
+        <double name="strength">0.9902130691945621</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Market where total outstandings have grown to around 50 billion dlrs since 1983, the year they took hold as a new financing vehicle to bridge the gap between commercial paper and longer term bonds.</str>
-        <int name="index">2</int>
-        <int name="start">0</int>
-        <int name="end">200</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Ralph Bunche, a vice president of Morgan Stanley International, predicted at a recent Euromoney conference on MTNs here that they will become the predominant instrument for raising funds in the late 1980's and 1990's.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">218</int>
-        <double name="strength">0.883413655084835</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Peter Mortimer, a partner in the law firm Milbank, Tweed, Hadley and McCloy, noted that legal requirements could well determine which structure is chosen.</str>
         <int name="index">24</int>
         <int name="start">1</int>
         <int name="end">155</int>
-        <double name="strength">0.8419298114344987</double>
+        <double name="strength">0.9540641461007646</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Those who defend the continuously offered method, such as Wendy Dietze, a Salomon Brothers Inc vice president, point to the flexibility they offer in interest rate and maturity.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.9154715665479652</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Market where total outstandings&lt;/em&gt; have &lt;em&gt;grown&lt;/em&gt; to &lt;em&gt;around 50 billion&lt;/em&gt; dlrs &lt;em&gt;since 1983,&lt;/em&gt; the year they took hold as a new &lt;em&gt;financing vehicle&lt;/em&gt; to &lt;em&gt;bridge&lt;/em&gt; the gap &lt;em&gt;between commercial paper&lt;/em&gt; and &lt;em&gt;longer&lt;/em&gt; term &lt;em&gt;bonds&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Ralph Bunche,&lt;/em&gt; a vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Morgan Stanley International, predicted&lt;/em&gt; at a &lt;em&gt;recent Euromoney conference&lt;/em&gt; on MTNs here that they will &lt;em&gt;become&lt;/em&gt; the &lt;em&gt;predominant instrument&lt;/em&gt; for &lt;em&gt;raising funds&lt;/em&gt; in the late 1980's and 1990's.</str>
+        <str name="text">&lt;em&gt;Ralph Bunche,&lt;/em&gt; a vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;Morgan Stanley International,&lt;/em&gt; predicted at a &lt;em&gt;recent Euromoney conference&lt;/em&gt; on MTNs here that they will &lt;em&gt;become&lt;/em&gt; the &lt;em&gt;predominant instrument&lt;/em&gt; for raising &lt;em&gt;funds&lt;/em&gt; in the late 1980's and 1990's.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Peter Mortimer,&lt;/em&gt; a &lt;em&gt;partner&lt;/em&gt; in the law firm &lt;em&gt;Milbank, Tweed, Hadley&lt;/em&gt; and &lt;em&gt;McCloy, noted&lt;/em&gt; that &lt;em&gt;legal requirements could&lt;/em&gt; well &lt;em&gt;determine which structure&lt;/em&gt; is &lt;em&gt;chosen&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Peter Mortimer,&lt;/em&gt; a &lt;em&gt;partner&lt;/em&gt; in the law firm &lt;em&gt;Milbank, Tweed, Hadley&lt;/em&gt; and &lt;em&gt;McCloy,&lt;/em&gt; noted that &lt;em&gt;legal requirements&lt;/em&gt; could well &lt;em&gt;determine&lt;/em&gt; which &lt;em&gt;structure&lt;/em&gt; is chosen.</str>
         <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Those who &lt;em&gt;defend&lt;/em&gt; the continuously offered &lt;em&gt;method,&lt;/em&gt; such as &lt;em&gt;Wendy Dietze,&lt;/em&gt; a &lt;em&gt;Salomon Brothers&lt;/em&gt; Inc vice &lt;em&gt;president, point&lt;/em&gt; to the &lt;em&gt;flexibility&lt;/em&gt; they &lt;em&gt;offer&lt;/em&gt; in &lt;em&gt;interest&lt;/em&gt; rate and &lt;em&gt;maturity&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

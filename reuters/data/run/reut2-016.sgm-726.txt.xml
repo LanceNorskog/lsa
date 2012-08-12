@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-726.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">subordinated</str>
+        <str name="text">securities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">flexibility</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">receive</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">purposes</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">redistributing</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">dealer</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">assets</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">proposal</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">To finance the deal, Merrill Lynch said it expects to borrow 3.5 billion dlrs from a group of banks and sell 100 mln dlrs of common stock of the new company, sell 100 mln dlrs of non-voting preferred stock of the new company to Merrill Lynch and Co, sell up to 650 mln dlrs of subordinated notes to Merrill Lynch and Co and sell to the public 204 mln dlrs of subordinated discount debentures.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">393</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Borg-Warner also agreed to redeem all outstanding Series A preferred shares and to pay off on all options at a 48.50 dlr a share exercise price before the merger is effective, it said.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.785080313867541</double>
-      </lst>
       <lst name="sentence">
         <str name="text">But for flexibility purposes, Merrill Lynch said it is considering redistributing Borg-Warner's assets to a number of subsdiaries of an entity it created to carry out the merger.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">179</int>
-        <double name="strength">0.7789530676426211</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In a filing with the Securities and Exchange Commission, Merrill Lynch Capital Partners Inc said it would receive a 30 mln dlr fee from the surviving company for acting as dealer manager of the merger after the Borg-Warner deal is completed.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">242</int>
+        <double name="strength">0.9805705349051599</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To finance the deal, Merrill Lynch said it expects to borrow 3.5 billion dlrs from a group of banks and sell 100 mln dlrs of common stock of the new company, sell 100 mln dlrs of non-voting preferred stock of the new company to Merrill Lynch and Co, sell up to 650 mln dlrs of subordinated notes to Merrill Lynch and Co and sell to the public 204 mln dlrs of subordinated discount debentures.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">393</int>
+        <double name="strength">0.8687712952547163</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">To &lt;em&gt;finance&lt;/em&gt; the deal, &lt;em&gt;Merrill Lynch&lt;/em&gt; said it &lt;em&gt;expects&lt;/em&gt; to &lt;em&gt;borrow 3.5 billion&lt;/em&gt; dlrs from a &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; and sell 100 mln dlrs of &lt;em&gt;common stock&lt;/em&gt; of the new &lt;em&gt;company,&lt;/em&gt; sell 100 mln dlrs of non-&lt;em&gt;voting preferred stock&lt;/em&gt; of the new &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co, sell up to 650 mln dlrs of &lt;em&gt;subordinated notes&lt;/em&gt; to &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co and sell to the &lt;em&gt;public 204&lt;/em&gt; mln dlrs of &lt;em&gt;subordinated discount debentures&lt;/em&gt;.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Borg-&lt;em&gt;Warner&lt;/em&gt; also &lt;em&gt;agreed&lt;/em&gt; to &lt;em&gt;redeem&lt;/em&gt; all &lt;em&gt;outstanding Series&lt;/em&gt; A &lt;em&gt;preferred shares&lt;/em&gt; and to pay off on all &lt;em&gt;options&lt;/em&gt; at a 48.50 dlr a &lt;em&gt;share exercise price before&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt; is &lt;em&gt;effective,&lt;/em&gt; it said.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But for &lt;em&gt;flexibility purposes, Merrill Lynch&lt;/em&gt; said it is &lt;em&gt;considering redistributing&lt;/em&gt; Borg-&lt;em&gt;Warner&lt;/em&gt;'s &lt;em&gt;assets&lt;/em&gt; to a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;subsdiaries&lt;/em&gt; of an &lt;em&gt;entity&lt;/em&gt; it &lt;em&gt;created&lt;/em&gt; to &lt;em&gt;carry&lt;/em&gt; out the &lt;em&gt;merger&lt;/em&gt;.</str>
+        <str name="text">But for &lt;em&gt;flexibility purposes, Merrill Lynch&lt;/em&gt; said it is considering redistributing Borg-&lt;em&gt;Warner&lt;/em&gt;'s &lt;em&gt;assets&lt;/em&gt; to a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;subsdiaries&lt;/em&gt; of an &lt;em&gt;entity&lt;/em&gt; it created to &lt;em&gt;carry&lt;/em&gt; out the &lt;em&gt;merger&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In a &lt;em&gt;filing&lt;/em&gt; with the &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission, Merrill Lynch Capital Partners&lt;/em&gt; Inc said it would &lt;em&gt;receive&lt;/em&gt; a 30 mln dlr fee from the surviving &lt;em&gt;company&lt;/em&gt; for acting as &lt;em&gt;dealer manager&lt;/em&gt; of the &lt;em&gt;merger&lt;/em&gt; after the Borg-&lt;em&gt;Warner&lt;/em&gt; deal is completed.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To &lt;em&gt;finance&lt;/em&gt; the deal, &lt;em&gt;Merrill Lynch&lt;/em&gt; said it expects to &lt;em&gt;borrow 3.5 billion&lt;/em&gt; dlrs from a &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; and sell 100 mln dlrs of &lt;em&gt;common stock&lt;/em&gt; of the new &lt;em&gt;company,&lt;/em&gt; sell 100 mln dlrs of non-&lt;em&gt;voting&lt;/em&gt; preferred &lt;em&gt;stock&lt;/em&gt; of the new &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co, sell up to 650 mln dlrs of &lt;em&gt;subordinated notes&lt;/em&gt; to &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co and sell to the &lt;em&gt;public 204&lt;/em&gt; mln dlrs of &lt;em&gt;subordinated discount debentures&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

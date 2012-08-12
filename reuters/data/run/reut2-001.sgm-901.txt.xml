@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-901.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cooperation</str>
+        <str name="text">hulls</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999984</double>
+      </lst>
+      <lst name="term">
         <str name="text">ships</str>
-        <double name="strength">0.5590169943749477</double>
+        <double name="strength">0.999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">losses</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">heavy</str>
+        <double name="strength">0.9999999999999967</double>
       </lst>
       <lst name="term">
-        <str name="text">orders</str>
-        <double name="strength">0.5000000000000007</double>
-      </lst>
-      <lst name="term">
-        <str name="text">weight</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">industries</str>
+        <double name="strength">0.9999999999999967</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">196</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told Reuters in an interview that CSBC's first joint production venture, to build two hulls for &lt;Onomichi Dockyard Co Ltd&gt;, was a success.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">0.8437794857903133</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">But he said the company, which is Taiwan's largest shipbuilder, still has full government support and had begun diversifying into ship repairing and manufacture of pipes and other machinery.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">191</int>
-        <double name="strength">0.9873391247922192</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"We expect the successful cooperation between us and Onomichi will pave the way for further cooperation with other Japanese shipbuilders in the future," Lo said.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">162</int>
-        <double name="strength">0.8901786425207594</double>
+        <double name="strength">0.8065675426475698</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;state-owned China Shipbuilding&lt;/em&gt; Corp (CSBC) &lt;em&gt;plans&lt;/em&gt; to seek &lt;em&gt;joint production agreements&lt;/em&gt; with &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;further diversify&lt;/em&gt; into ship &lt;em&gt;repairing&lt;/em&gt; to try to trim its &lt;em&gt;debts, chairman Louis&lt;/em&gt; Lo said.</str>
+        <str name="text">&lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;state&lt;/em&gt;-owned &lt;em&gt;China Shipbuilding&lt;/em&gt; Corp (CSBC) &lt;em&gt;plans&lt;/em&gt; to seek &lt;em&gt;joint production agreements&lt;/em&gt; with &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;further diversify&lt;/em&gt; into ship repairing to try to trim its &lt;em&gt;debts, chairman Louis&lt;/em&gt; Lo said.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But he said the &lt;em&gt;company, which&lt;/em&gt; is &lt;em&gt;Taiwan&lt;/em&gt;'s &lt;em&gt;largest shipbuilder, still&lt;/em&gt; has full &lt;em&gt;government support&lt;/em&gt; and had &lt;em&gt;begun diversifying&lt;/em&gt; into ship &lt;em&gt;repairing&lt;/em&gt; and &lt;em&gt;manufacture&lt;/em&gt; of &lt;em&gt;pipes&lt;/em&gt; and &lt;em&gt;other machinery&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">He told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview&lt;/em&gt; that CSBC's &lt;em&gt;first joint production venture,&lt;/em&gt; to &lt;em&gt;build&lt;/em&gt; two &lt;em&gt;hulls&lt;/em&gt; for &lt;&lt;em&gt;Onomichi Dockyard&lt;/em&gt; Co Ltd&gt;, was a &lt;em&gt;success&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We &lt;em&gt;expect&lt;/em&gt; the &lt;em&gt;successful cooperation between&lt;/em&gt; us and &lt;em&gt;Onomichi&lt;/em&gt; will pave the way for &lt;em&gt;further cooperation&lt;/em&gt; with &lt;em&gt;other Japanese shipbuilders&lt;/em&gt; in the &lt;em&gt;future,"&lt;/em&gt; Lo said.</str>
-        <int name="index">6</int>
+        <str name="text">But he said the &lt;em&gt;company,&lt;/em&gt; which is &lt;em&gt;Taiwan&lt;/em&gt;'s largest &lt;em&gt;shipbuilder,&lt;/em&gt; still has full &lt;em&gt;government support&lt;/em&gt; and had begun diversifying into ship repairing and &lt;em&gt;manufacture&lt;/em&gt; of &lt;em&gt;pipes&lt;/em&gt; and &lt;em&gt;other machinery&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

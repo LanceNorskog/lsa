@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-859.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">equipment</str>
+        <str name="text">alternative</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">institutional</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">bankruptcy</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">profit</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">charge</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">equipment</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Allis-Chalmers said a bankruptcy filing "appears to represent the company's only alternative if agreement upon the terms of the plan cannot be reached."</str>
-        <int name="index">9</int>
+        <str name="text">The spokesman said in response to an inquiry that he was not aware of any extraordinary charge against earnings that would result from the restructuring.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">153</int>
+        <int name="end">154</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The company said it would sell all of its businesses other than the American Air Filter business, make a public financing of more than 100 mln dlrs and pay part of the currently outstanding debt with the proceeds.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.9906727220350295</double>
+        <str name="text">Solid materials processing, which makes equipment to crush stones for highway construction, accounted for 288 mln dlrs of Allis-Chalmers's total 1985 revenues of 886 mln dlrs.</str>
+        <int name="index">18</int>
+        <int name="start">0</int>
+        <int name="end">175</int>
+        <double name="strength">0.9729256957560217</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Allis-Chalmers, once one of the leading farm equipment companies, sold all of its farm equipment operations to Deutz of West Germany for 107 mln dlrs, leaving the company with businesses in lift trucks, air conditioning, fluids handling and solid materials processing.</str>
-        <int name="index">15</int>
+        <str name="text">Payment of health benefits for active and retired employees would be made "at substantially reduced levels."</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">269</int>
-        <double name="strength">0.9678138224406636</double>
+        <int name="end">109</int>
+        <double name="strength">0.8567725333284456</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Allis-Chalmers&lt;/em&gt; said a &lt;em&gt;bankruptcy filing "appears&lt;/em&gt; to &lt;em&gt;represent&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt;'s only &lt;em&gt;alternative&lt;/em&gt; if &lt;em&gt;agreement&lt;/em&gt; upon the &lt;em&gt;terms&lt;/em&gt; of the plan &lt;em&gt;cannot&lt;/em&gt; be &lt;em&gt;reached.&lt;/em&gt;"</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;spokesman&lt;/em&gt; said in &lt;em&gt;response&lt;/em&gt; to an &lt;em&gt;inquiry&lt;/em&gt; that he was not &lt;em&gt;aware&lt;/em&gt; of any &lt;em&gt;extraordinary charge&lt;/em&gt; against &lt;em&gt;earnings&lt;/em&gt; that would &lt;em&gt;result&lt;/em&gt; from the &lt;em&gt;restructuring&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it &lt;em&gt;would&lt;/em&gt; sell all of its &lt;em&gt;businesses other&lt;/em&gt; than the &lt;em&gt;American&lt;/em&gt; Air &lt;em&gt;Filter business,&lt;/em&gt; make a &lt;em&gt;public financing&lt;/em&gt; of more than 100 mln dlrs and pay part of the &lt;em&gt;currently outstanding&lt;/em&gt; debt with the &lt;em&gt;proceeds&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Solid materials processing,&lt;/em&gt; which makes &lt;em&gt;equipment&lt;/em&gt; to &lt;em&gt;crush stones&lt;/em&gt; for &lt;em&gt;highway construction,&lt;/em&gt; accounted for 288 mln dlrs of Allis-&lt;em&gt;Chalmers&lt;/em&gt;'s &lt;em&gt;total 1985 revenues&lt;/em&gt; of 886 mln dlrs.</str>
+        <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Allis-Chalmers,&lt;/em&gt; once one of the &lt;em&gt;leading&lt;/em&gt; farm &lt;em&gt;equipment companies,&lt;/em&gt; sold all of its farm &lt;em&gt;equipment operations&lt;/em&gt; to &lt;em&gt;Deutz&lt;/em&gt; of West &lt;em&gt;Germany&lt;/em&gt; for 107 mln dlrs, &lt;em&gt;leaving&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; with &lt;em&gt;businesses&lt;/em&gt; in lift &lt;em&gt;trucks,&lt;/em&gt; air &lt;em&gt;conditioning, fluids handling&lt;/em&gt; and &lt;em&gt;solid materials processing&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Payment&lt;/em&gt; of &lt;em&gt;health benefits&lt;/em&gt; for &lt;em&gt;active&lt;/em&gt; and &lt;em&gt;retired employees&lt;/em&gt; would be made "at substantially reduced &lt;em&gt;levels.&lt;/em&gt;"</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

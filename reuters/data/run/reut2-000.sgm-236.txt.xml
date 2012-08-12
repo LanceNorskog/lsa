@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-236.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">147</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">political</str>
+        <str name="text">reforms</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">1.0</double>
+        <str name="text">country</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">1.0</double>
+        <str name="text">general</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">1.0</double>
+        <str name="text">deregulate</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">coupled</str>
-        <double name="strength">1.0</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">It says that while many government officials and advisers are recommending further relaxation, "there are equally strong pressures being exerted to halt all such moves."</str>
-        <int name="index">8</int>
+        <str name="text">Indonesia, the only Asian member of OPEC and a leading primary commodity producer, has been severely hit by last year"s fall in world oil prices, which forced it to devalue its currency by 31 pct in September.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">170</int>
+        <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Indonesia"s economic changes have been welcomed by the World Bank and international bankers as steps in the right direction, though they say crucial areas of the economy like plastics and steel remain highly protected, and virtual monopolies.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">243</int>
-        <double name="strength">0.9864212911169796</double>
+        <double name="strength">0.8592411187353989</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Indonesia, the only Asian member of OPEC and a leading primary commodity producer, has been severely hit by last year"s fall in world oil prices, which forced it to devalue its currency by 31 pct in September.</str>
-        <int name="index">3</int>
+        <str name="text">Three sets of measures have been announced since last May, which broadened areas for foreign investment, reduced trade restrictions and liberalised imports.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">0.9747144024409597</double>
+        <int name="end">157</int>
+        <double name="strength">0.8525053100926917</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It says that &lt;em&gt;while&lt;/em&gt; many &lt;em&gt;government officials&lt;/em&gt; and &lt;em&gt;advisers&lt;/em&gt; are &lt;em&gt;recommending further relaxation, "there&lt;/em&gt; are &lt;em&gt;equally strong pressures being exerted&lt;/em&gt; to halt all such &lt;em&gt;moves.&lt;/em&gt;"</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Indonesia,&lt;/em&gt; the only &lt;em&gt;Asian member&lt;/em&gt; of OPEC and a leading &lt;em&gt;primary commodity producer,&lt;/em&gt; has been severely hit by last year"s fall in &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;prices,&lt;/em&gt; which forced it to &lt;em&gt;devalue&lt;/em&gt; its &lt;em&gt;currency&lt;/em&gt; by 31 pct in &lt;em&gt;September&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Indonesia&lt;/em&gt;"s &lt;em&gt;economic changes&lt;/em&gt; have been &lt;em&gt;welcomed&lt;/em&gt; by the &lt;em&gt;World&lt;/em&gt; Bank and &lt;em&gt;international bankers&lt;/em&gt; as &lt;em&gt;steps&lt;/em&gt; in the &lt;em&gt;right direction, though&lt;/em&gt; they say &lt;em&gt;crucial areas&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; like &lt;em&gt;plastics&lt;/em&gt; and &lt;em&gt;steel remain highly protected,&lt;/em&gt; and &lt;em&gt;virtual monopolies&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Indonesia&lt;/em&gt;"s &lt;em&gt;economic changes&lt;/em&gt; have been welcomed by the &lt;em&gt;World&lt;/em&gt; Bank and &lt;em&gt;international bankers&lt;/em&gt; as &lt;em&gt;steps&lt;/em&gt; in the &lt;em&gt;right direction,&lt;/em&gt; though they say &lt;em&gt;crucial areas&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt; like &lt;em&gt;plastics&lt;/em&gt; and &lt;em&gt;steel remain&lt;/em&gt; highly &lt;em&gt;protected,&lt;/em&gt; and &lt;em&gt;virtual monopolies&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Indonesia,&lt;/em&gt; the only &lt;em&gt;Asian member&lt;/em&gt; of OPEC and a &lt;em&gt;leading primary commodity producer,&lt;/em&gt; has been &lt;em&gt;severely&lt;/em&gt; hit by last year"s fall in &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;prices, which forced&lt;/em&gt; it to &lt;em&gt;devalue&lt;/em&gt; its &lt;em&gt;currency&lt;/em&gt; by 31 pct in &lt;em&gt;September&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Three&lt;/em&gt; sets of &lt;em&gt;measures&lt;/em&gt; have been announced since last May, which broadened &lt;em&gt;areas&lt;/em&gt; for &lt;em&gt;foreign investment, reduced trade restrictions&lt;/em&gt; and &lt;em&gt;liberalised imports&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

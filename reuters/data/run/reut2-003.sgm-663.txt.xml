@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-663.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">56</int>
+        <int name="count">44</int>
       </lst>
       <lst name="stems">
-        <int name="count">35</int>
+        <int name="count">25</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">capital</str>
+        <str name="text">stock</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">light</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9628677532899936</double>
       </lst>
       <lst name="term">
-        <str name="text">price</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9628677532899934</double>
       </lst>
       <lst name="term">
-        <str name="text">accumulated</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">cumulative</str>
+        <double name="strength">0.8894798951077287</double>
       </lst>
       <lst name="term">
-        <str name="text">dividends</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">additional</str>
+        <double name="strength">0.8894798951077287</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">184</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Pennsylvania Power and Light Co said it will offer 500,000 shares of 6-7/8 pct series preferred stock at 100 dlrs per share and 500,000 shares of 7-3/8 pct series preferred stock at the same price, plus accumulated dividends from the date of original issuance.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">260</int>
-        <double name="strength">0.6691543095711359</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">The company added that no optional redemption may be made prior to April 1, 1994, with or in anticipation of borrowed funds or senior or parity stock having an effective cost of less than 6.88 pct per annum.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.47327975691026675</double>
+        <double name="strength">0.6280511608399966</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The company said that no optional redemption may be made prior to April 1, 1992, with or in anticipation of borrowed funds or senior or parity stock having an effective cost of less than 7.38 pct per annum.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">207</int>
+        <double name="strength">0.6280511608399966</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;First Boston&lt;/em&gt; Corp, &lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc, &lt;em&gt;Merrill Lynch Capital Markets&lt;/em&gt; and &lt;em&gt;Prudential-Bache Capital Funding&lt;/em&gt; are the &lt;em&gt;underwriters offering&lt;/em&gt; the &lt;em&gt;stock,&lt;/em&gt; said &lt;em&gt;Pennsylvania Power&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;First Boston&lt;/em&gt; Corp, &lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc, &lt;em&gt;Merrill Lynch Capital Markets&lt;/em&gt; and &lt;em&gt;Prudential-Bache Capital Funding&lt;/em&gt; are the &lt;em&gt;underwriters&lt;/em&gt; offering the &lt;em&gt;stock,&lt;/em&gt; said &lt;em&gt;Pennsylvania Power&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pennsylvania Power&lt;/em&gt; and &lt;em&gt;Light&lt;/em&gt; Co said it will &lt;em&gt;offer 500,000 shares&lt;/em&gt; of 6-7/8 pct &lt;em&gt;series preferred stock&lt;/em&gt; at 100 dlrs per &lt;em&gt;share&lt;/em&gt; and 500,000 &lt;em&gt;shares&lt;/em&gt; of 7-3/8 pct &lt;em&gt;series preferred stock&lt;/em&gt; at the same &lt;em&gt;price,&lt;/em&gt; plus &lt;em&gt;accumulated dividends&lt;/em&gt; from the date of &lt;em&gt;original issuance&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; added that no &lt;em&gt;optional redemption&lt;/em&gt; may be made prior to &lt;em&gt;April 1, 1994,&lt;/em&gt; with or in &lt;em&gt;anticipation&lt;/em&gt; of borrowed &lt;em&gt;funds&lt;/em&gt; or &lt;em&gt;senior&lt;/em&gt; or &lt;em&gt;parity stock&lt;/em&gt; having an &lt;em&gt;effective&lt;/em&gt; cost of less than 6.88 pct per &lt;em&gt;annum&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company added&lt;/em&gt; that no &lt;em&gt;optional redemption&lt;/em&gt; may be made &lt;em&gt;prior&lt;/em&gt; to &lt;em&gt;April 1, 1994,&lt;/em&gt; with or in &lt;em&gt;anticipation&lt;/em&gt; of &lt;em&gt;borrowed funds&lt;/em&gt; or &lt;em&gt;senior&lt;/em&gt; or &lt;em&gt;parity stock having&lt;/em&gt; an &lt;em&gt;effective&lt;/em&gt; cost of less than 6.88 pct per &lt;em&gt;annum&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said that no &lt;em&gt;optional redemption&lt;/em&gt; may be made prior to &lt;em&gt;April 1, 1992,&lt;/em&gt; with or in &lt;em&gt;anticipation&lt;/em&gt; of borrowed &lt;em&gt;funds&lt;/em&gt; or &lt;em&gt;senior&lt;/em&gt; or &lt;em&gt;parity stock&lt;/em&gt; having an &lt;em&gt;effective&lt;/em&gt; cost of less than 7.38 pct per &lt;em&gt;annum&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

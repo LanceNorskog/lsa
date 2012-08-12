@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-135.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">212</int>
+        <int name="count">157</int>
       </lst>
       <lst name="stems">
-        <int name="count">131</int>
+        <int name="count">94</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">capital</str>
+        <str name="text">increase</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">losses</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">production</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">interview</str>
+        <double name="strength">0.9986518881316746</double>
       </lst>
       <lst name="term">
-        <str name="text">incoming</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">plants</str>
+        <double name="strength">0.9986518881316738</double>
       </lst>
       <lst name="term">
-        <str name="text">drawn</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">share</str>
+        <double name="strength">0.9986518881316734</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Hahn declined to comment directly on reports that 1986 losses at Spanish subsidiary Sociedad Espanola de Automoviles de Turismo (SEAT) totalled up to 27 billion pesetas or that these losses were twice as high as expected.</str>
-        <int name="index">9</int>
+        <str name="text">Wolfgang Lincke, head of car development at VW, said the increasing environmental awareness of West German consumers would allow VW to sell more "higher value" cars in future containing equipment such as catalytic converters, which cut exhaust emissions.</str>
+        <int name="index">29</int>
         <int name="start">1</int>
-        <int name="end">222</int>
+        <int name="end">255</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">VW, which traditionally releases its annual results in April or May, said last week 1986 profit and dividend would both be unchanged despite the need to make provision to cover the possible loss of 480 mln marks from allegedly fraudulent hedging operations.</str>
         <int name="index">33</int>
         <int name="start">1</int>
         <int name="end">258</int>
-        <double name="strength">0.8995528902176063</double>
+        <double name="strength">0.9314030194221795</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Wolfgang Lincke, head of car development at VW, said the increasing environmental awareness of West German consumers would allow VW to sell more "higher value" cars in future containing equipment such as catalytic converters, which cut exhaust emissions.</str>
-        <int name="index">29</int>
+        <str name="text">In a separate interview Karl-Heinz Briam, the management board member responsible for labour relations, said VW did not currently plan to increase its workforce further this year.</str>
+        <int name="index">21</int>
         <int name="start">1</int>
-        <int name="end">255</int>
-        <double name="strength">0.872746139352554</double>
+        <int name="end">180</int>
+        <double name="strength">0.8258305026261645</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Hahn &lt;em&gt;declined&lt;/em&gt; to &lt;em&gt;comment directly&lt;/em&gt; on &lt;em&gt;reports&lt;/em&gt; that 1986 &lt;em&gt;losses&lt;/em&gt; at &lt;em&gt;Spanish subsidiary Sociedad Espanola&lt;/em&gt; de &lt;em&gt;Automoviles&lt;/em&gt; de &lt;em&gt;Turismo &lt;/em&gt;(SEAT) &lt;em&gt;totalled&lt;/em&gt; up to 27 &lt;em&gt;billion pesetas&lt;/em&gt; or that &lt;em&gt;these losses&lt;/em&gt; were &lt;em&gt;twice&lt;/em&gt; as high as &lt;em&gt;expected&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Wolfgang Lincke,&lt;/em&gt; head of car &lt;em&gt;development&lt;/em&gt; at VW, said the increasing &lt;em&gt;environmental awareness&lt;/em&gt; of West &lt;em&gt;German consumers&lt;/em&gt; would &lt;em&gt;allow&lt;/em&gt; VW to sell more "higher &lt;em&gt;value"&lt;/em&gt; cars in &lt;em&gt;future&lt;/em&gt; containing &lt;em&gt;equipment&lt;/em&gt; such as &lt;em&gt;catalytic converters,&lt;/em&gt; which cut &lt;em&gt;exhaust emissions&lt;/em&gt;.</str>
+        <int name="index">29</int>
       </lst>
       <lst name="sentence">
-        <str name="text">VW, &lt;em&gt;which traditionally releases&lt;/em&gt; its &lt;em&gt;annual results&lt;/em&gt; in &lt;em&gt;April&lt;/em&gt; or May, said last week 1986 &lt;em&gt;profit&lt;/em&gt; and &lt;em&gt;dividend would&lt;/em&gt; both be &lt;em&gt;unchanged despite&lt;/em&gt; the need to make &lt;em&gt;provision&lt;/em&gt; to &lt;em&gt;cover&lt;/em&gt; the &lt;em&gt;possible&lt;/em&gt; loss of 480 mln &lt;em&gt;marks&lt;/em&gt; from &lt;em&gt;allegedly fraudulent hedging operations&lt;/em&gt;.</str>
+        <str name="text">VW, which traditionally releases its &lt;em&gt;annual results&lt;/em&gt; in &lt;em&gt;April&lt;/em&gt; or May, said last week 1986 &lt;em&gt;profit&lt;/em&gt; and &lt;em&gt;dividend&lt;/em&gt; would both be &lt;em&gt;unchanged&lt;/em&gt; despite the need to make &lt;em&gt;provision&lt;/em&gt; to &lt;em&gt;cover&lt;/em&gt; the &lt;em&gt;possible&lt;/em&gt; loss of 480 mln &lt;em&gt;marks&lt;/em&gt; from allegedly &lt;em&gt;fraudulent hedging operations&lt;/em&gt;.</str>
         <int name="index">33</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Wolfgang Lincke,&lt;/em&gt; head of car &lt;em&gt;development&lt;/em&gt; at VW, said the &lt;em&gt;increasing environmental awareness&lt;/em&gt; of West &lt;em&gt;German consumers would allow&lt;/em&gt; VW to sell more "&lt;em&gt;higher value"&lt;/em&gt; cars in &lt;em&gt;future containing equipment&lt;/em&gt; such as &lt;em&gt;catalytic converters, which&lt;/em&gt; cut &lt;em&gt;exhaust emissions&lt;/em&gt;.</str>
-        <int name="index">29</int>
+        <str name="text">In a &lt;em&gt;separate interview&lt;/em&gt; Karl-&lt;em&gt;Heinz&lt;/em&gt; Briam, the &lt;em&gt;management board member responsible&lt;/em&gt; for &lt;em&gt;labour relations,&lt;/em&gt; said VW did not currently plan to &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;workforce&lt;/em&gt; further this year.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

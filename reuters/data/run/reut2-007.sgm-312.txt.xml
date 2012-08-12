@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-312.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">172</int>
+        <int name="count">118</int>
       </lst>
       <lst name="stems">
-        <int name="count">108</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">practice</str>
+        <str name="text">narrow</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">likely</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">election</str>
-        <double name="strength">1.0</double>
+        <str name="text">figures</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">lloyds</str>
-        <double name="strength">1.0</double>
+        <str name="text">obstacle</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">merchant</str>
-        <double name="strength">1.0</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">245</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Such targets are believed to have been secretly agreed between finance ministers of the Group of Five and Canada at their Paris meeting last month, they added.</str>
-        <int name="index">16</int>
+        <str name="text">Richard Jeffrey, economist at stockbrokers Hoare Govett, said in a comment: "It is unlikely that (Lawson) will respond to signals from M0 alone ...</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">160</int>
-        <double name="strength">0.9784896440540659</double>
+        <int name="end">148</int>
+        <double name="strength">0.9984359549487577</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Thomas said the February figures seemed to indicate the improvement in sterling M3 growth witnessed over the past few months had been reversed, but firm conclusions could only be drawn after revised data are released on March 31.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.9567211414803668</double>
+        <str name="text">In practice, it is likely to be the exchange rate and the election which call the tune," Lloyds Merchant bank chief economist Roger Bootle wrote in a budget comment.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">165</int>
+        <double name="strength">0.9870548373573109</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.K. Base &lt;em&gt;rates&lt;/em&gt; have been cut &lt;em&gt;twice&lt;/em&gt; by half a &lt;em&gt;point since&lt;/em&gt; the &lt;em&gt;Paris agreement,&lt;/em&gt; once on &lt;em&gt;March 11,&lt;/em&gt; and &lt;em&gt;again yesterday&lt;/em&gt; when &lt;em&gt;foreign demand&lt;/em&gt; for &lt;em&gt;sterling surged&lt;/em&gt; in &lt;em&gt;reaction&lt;/em&gt; to a &lt;em&gt;sharp&lt;/em&gt; cut in 1987 &lt;em&gt;government borrowing targets contained&lt;/em&gt; in the &lt;em&gt;budget&lt;/em&gt;.</str>
+        <str name="text">U.K. Base &lt;em&gt;rates&lt;/em&gt; have been cut twice by half a &lt;em&gt;point&lt;/em&gt; since the &lt;em&gt;Paris agreement,&lt;/em&gt; once on &lt;em&gt;March 11,&lt;/em&gt; and again &lt;em&gt;yesterday&lt;/em&gt; when &lt;em&gt;foreign demand&lt;/em&gt; for &lt;em&gt;sterling&lt;/em&gt; surged in &lt;em&gt;reaction&lt;/em&gt; to a &lt;em&gt;sharp&lt;/em&gt; cut in 1987 &lt;em&gt;government borrowing targets&lt;/em&gt; contained in the &lt;em&gt;budget&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Such &lt;em&gt;targets&lt;/em&gt; are &lt;em&gt;believed&lt;/em&gt; to have been &lt;em&gt;secretly agreed between finance ministers&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five and &lt;em&gt;Canada&lt;/em&gt; at &lt;em&gt;their Paris meeting&lt;/em&gt; last &lt;em&gt;month,&lt;/em&gt; they &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Richard Jeffrey, economist&lt;/em&gt; at &lt;em&gt;stockbrokers Hoare Govett,&lt;/em&gt; said in a &lt;em&gt;comment: &lt;/em&gt;"It is &lt;em&gt;unlikely&lt;/em&gt; that (&lt;em&gt;Lawson)&lt;/em&gt; will &lt;em&gt;respond&lt;/em&gt; to &lt;em&gt;signals&lt;/em&gt; from M0 alone ...</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Thomas&lt;/em&gt; said the &lt;em&gt;February figures seemed&lt;/em&gt; to &lt;em&gt;indicate&lt;/em&gt; the &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;sterling&lt;/em&gt; M3 &lt;em&gt;growth witnessed&lt;/em&gt; over the past few &lt;em&gt;months&lt;/em&gt; had been &lt;em&gt;reversed,&lt;/em&gt; but firm &lt;em&gt;conclusions could&lt;/em&gt; only be &lt;em&gt;drawn after revised&lt;/em&gt; data are &lt;em&gt;released&lt;/em&gt; on &lt;em&gt;March 31&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">In &lt;em&gt;practice,&lt;/em&gt; it is &lt;em&gt;likely&lt;/em&gt; to be the &lt;em&gt;exchange&lt;/em&gt; rate and the &lt;em&gt;election&lt;/em&gt; which call the tune," Lloyds &lt;em&gt;Merchant&lt;/em&gt; bank &lt;em&gt;chief economist Roger Bootle&lt;/em&gt; wrote in a &lt;em&gt;budget comment&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

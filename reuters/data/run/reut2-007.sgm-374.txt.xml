@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-374.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">87</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">expenditure</str>
+        <str name="text">depreciation</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.5590169943749472</double>
-      </lst>
-      <lst name="term">
         <str name="text">reform</str>
-        <double name="strength">0.5590169943749468</double>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">asked</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999986</double>
+      </lst>
+      <lst name="term">
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"Reducing the federal government budget deficit by expenditure restraint is needed to preserve the low marginal tax rates achieved by tax reform," he said, adding that "a vote to increase to government expenditures is a vote against tax reform."</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">246</int>
+        <str name="text">Beryl Sprinkel, chairman of the president's council of economic advisors, said stronger domestic demand growth in Japan and Western Europe is needed to help stimulate U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">169</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Asked if Japan was not living up to commitments made last month to trading partners, he said recent figures showed Japan's economy grew by about 0.5 pct in the fourth quarter of 1986, "Not enough to sustain employment growth."</str>
-        <int name="index">6</int>
+        <str name="text">However, he said that "sole reliance on dollar depreciation to reduce our trade deficit is not desirable," as it risks inflation in the United States and recession abroad.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">0.8746582251395844</double>
+        <int name="end">172</int>
+        <double name="strength">0.9594537838189857</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He defended flexible exchange rates saying wide swings in rates were not a fault of the system but of the undesirable policies that produced them.</str>
-        <int name="index">23</int>
+        <str name="text">"Stronger domestic demand growth in the major foreign industrial countries is needed to engender the much needed expansion of U.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.7928912098063865</double>
+        <int name="end">129</int>
+        <double name="strength">0.8716707660701134</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Reducing&lt;/em&gt; the &lt;em&gt;federal government budget deficit&lt;/em&gt; by &lt;em&gt;expenditure restraint&lt;/em&gt; is &lt;em&gt;needed&lt;/em&gt; to &lt;em&gt;preserve&lt;/em&gt; the low &lt;em&gt;marginal&lt;/em&gt; tax &lt;em&gt;rates achieved&lt;/em&gt; by tax &lt;em&gt;reform,"&lt;/em&gt; he said, &lt;em&gt;adding&lt;/em&gt; that "a vote to &lt;em&gt;increase&lt;/em&gt; to &lt;em&gt;government expenditures&lt;/em&gt; is a vote &lt;em&gt;against&lt;/em&gt; tax &lt;em&gt;reform.&lt;/em&gt;"</str>
-        <int name="index">12</int>
+        <str name="text">&lt;em&gt;Beryl Sprinkel, chairman&lt;/em&gt; of the &lt;em&gt;president&lt;/em&gt;'s &lt;em&gt;council&lt;/em&gt; of &lt;em&gt;economic advisors,&lt;/em&gt; said stronger &lt;em&gt;domestic demand growth&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; and &lt;em&gt;Western Europe&lt;/em&gt; is needed to help &lt;em&gt;stimulate U&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked&lt;/em&gt; if &lt;em&gt;Japan&lt;/em&gt; was not &lt;em&gt;living&lt;/em&gt; up to &lt;em&gt;commitments&lt;/em&gt; made last &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;trading partners,&lt;/em&gt; he said &lt;em&gt;recent figures showed Japan&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt; grew by &lt;em&gt;about 0.5&lt;/em&gt; pct in the &lt;em&gt;fourth quarter&lt;/em&gt; of 1986, "Not &lt;em&gt;enough&lt;/em&gt; to &lt;em&gt;sustain employment growth.&lt;/em&gt;"</str>
-        <int name="index">6</int>
+        <str name="text">However, he said that "sole &lt;em&gt;reliance&lt;/em&gt; on &lt;em&gt;dollar depreciation&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; our &lt;em&gt;trade deficit&lt;/em&gt; is not &lt;em&gt;desirable,"&lt;/em&gt; as it risks &lt;em&gt;inflation&lt;/em&gt; in the United &lt;em&gt;States&lt;/em&gt; and &lt;em&gt;recession abroad&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;defended flexible exchange rates saying&lt;/em&gt; wide &lt;em&gt;swings&lt;/em&gt; in &lt;em&gt;rates&lt;/em&gt; were not a &lt;em&gt;fault&lt;/em&gt; of the &lt;em&gt;system&lt;/em&gt; but of the &lt;em&gt;undesirable policies&lt;/em&gt; that &lt;em&gt;produced them&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">"Stronger &lt;em&gt;domestic demand growth&lt;/em&gt; in the &lt;em&gt;major foreign industrial countries&lt;/em&gt; is needed to &lt;em&gt;engender&lt;/em&gt; the much &lt;em&gt;needed expansion&lt;/em&gt; of U.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

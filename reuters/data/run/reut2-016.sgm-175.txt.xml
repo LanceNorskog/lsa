@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-175.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">operate</str>
+        <str name="text">company</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">petroleum</str>
+        <double name="strength">0.9999999999999992</double>
+      </lst>
+      <lst name="term">
+        <str name="text">stock</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
         <str name="text">shares</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.991732040114465</double>
       </lst>
       <lst name="term">
-        <str name="text">seems</str>
-        <double name="strength">0.500000000000002</double>
-      </lst>
-      <lst name="term">
-        <str name="text">require</str>
-        <double name="strength">0.500000000000002</double>
-      </lst>
-      <lst name="term">
-        <str name="text">favourable</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">announce</str>
+        <double name="strength">0.9917320401144645</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">TransCanada, Canada's largest natural gas pipeline operator, said it is offering Dome a package of cash, common and preferred shares, and shares in a new subsidiary which would own and operate Dome's assets.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Dome's statement said the TransCanada announcement "violated the terms and spirit of a confidentiality agreement entered into with prospective purchasers" and was apparently timed to prevent Dome from considering other proposals.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.9824876637596567</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">It said the TransCanada bid "seems to require favourable and substantial taxation concessions from the federal and provincial governments."</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">140</int>
-        <double name="strength">0.8313902412372599</double>
+        <double name="strength">0.9757835293045087</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Companies mentioned in market speculation as potential buyers for Dome include Imperial Oil Ltd &lt;IMO.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">102</int>
+        <double name="strength">0.8649801762868554</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;TransCanada, Canada&lt;/em&gt;'s &lt;em&gt;largest natural&lt;/em&gt; gas &lt;em&gt;pipeline operator,&lt;/em&gt; said it is &lt;em&gt;offering&lt;/em&gt; Dome a &lt;em&gt;package&lt;/em&gt; of cash, &lt;em&gt;common&lt;/em&gt; and &lt;em&gt;preferred shares,&lt;/em&gt; and &lt;em&gt;shares&lt;/em&gt; in a new &lt;em&gt;subsidiary which would&lt;/em&gt; own and &lt;em&gt;operate&lt;/em&gt; Dome's &lt;em&gt;assets&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Dome's &lt;em&gt;statement&lt;/em&gt; said the &lt;em&gt;TransCanada announcement "violated&lt;/em&gt; the &lt;em&gt;terms&lt;/em&gt; and &lt;em&gt;spirit&lt;/em&gt; of a &lt;em&gt;confidentiality agreement entered&lt;/em&gt; into with &lt;em&gt;prospective purchasers"&lt;/em&gt; and was &lt;em&gt;apparently timed&lt;/em&gt; to &lt;em&gt;prevent&lt;/em&gt; Dome from &lt;em&gt;considering other proposals&lt;/em&gt;.</str>
+        <str name="text">Dome's &lt;em&gt;statement&lt;/em&gt; said the &lt;em&gt;TransCanada announcement &lt;/em&gt;"violated the &lt;em&gt;terms&lt;/em&gt; and &lt;em&gt;spirit&lt;/em&gt; of a &lt;em&gt;confidentiality agreement&lt;/em&gt; entered into with &lt;em&gt;prospective purchasers"&lt;/em&gt; and was apparently timed to &lt;em&gt;prevent&lt;/em&gt; Dome from considering &lt;em&gt;other proposals&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It said the &lt;em&gt;TransCanada&lt;/em&gt; bid "&lt;em&gt;seems&lt;/em&gt; to &lt;em&gt;require favourable&lt;/em&gt; and &lt;em&gt;substantial taxation concessions&lt;/em&gt; from the &lt;em&gt;federal&lt;/em&gt; and &lt;em&gt;provincial governments.&lt;/em&gt;"</str>
+        <str name="text">It said the &lt;em&gt;TransCanada&lt;/em&gt; bid "seems to &lt;em&gt;require favourable&lt;/em&gt; and &lt;em&gt;substantial taxation concessions&lt;/em&gt; from the &lt;em&gt;federal&lt;/em&gt; and &lt;em&gt;provincial governments.&lt;/em&gt;"</str>
         <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Companies&lt;/em&gt; mentioned in &lt;em&gt;market speculation&lt;/em&gt; as &lt;em&gt;potential buyers&lt;/em&gt; for Dome &lt;em&gt;include Imperial&lt;/em&gt; Oil Ltd &lt;IMO.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

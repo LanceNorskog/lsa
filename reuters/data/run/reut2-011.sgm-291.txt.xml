@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-291.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">still</str>
+        <str name="text">yesterday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">finance</str>
+        <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
         <str name="text">right</str>
-        <double name="strength">0.5590169943749467</double>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.5590169943749462</double>
-      </lst>
-      <lst name="term">
-        <str name="text">london</str>
-        <double name="strength">0.5</double>
+        <str name="text">reveal</str>
+        <double name="strength">0.9730077661055233</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">235</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Gardini could not reveal the date in question nor give any indication of the likely timing of an offering of shares in European Sugar, but it was announced last week that Ferruzzi's purchase of the CPC business was expected to be completed by September 30.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">257</int>
+        <double name="strength">0.8520966738585389</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">A Ferruzzi spokesman later confirmed that the group was studying the transfer of the CPC business to European Sugar along with a possible share offering in the Paris unit, but gave no details.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">193</int>
-        <double name="strength">0.794168971141674</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;Gruppo Ferruzzi&gt; is studying a project which could result in a public share offer of up to 49 pct of its French unit &lt;European Sugar (France)&gt; and could raise around 400 mln dlrs, Ferruzzi chairman Raul Gardini said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">217</int>
-        <double name="strength">0.7850919086439193</double>
+        <double name="strength">0.7921894590047504</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;London yesterday, chairman&lt;/em&gt; of &lt;em&gt;Belgian starch producer &lt;Amylum&lt;/em&gt; NV&gt; &lt;em&gt;Pierre Callebaut&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; that &lt;em&gt;since Ferruzzi&lt;/em&gt; was "&lt;em&gt;apparently still organising finance,"&lt;/em&gt; his &lt;em&gt;company might still succeed&lt;/em&gt; with its &lt;em&gt;rival&lt;/em&gt; bid for the CPC &lt;em&gt;business&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;London yesterday, chairman&lt;/em&gt; of &lt;em&gt;Belgian starch producer &lt;Amylum&lt;/em&gt; NV&gt; &lt;em&gt;Pierre Callebaut&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; that since &lt;em&gt;Ferruzzi&lt;/em&gt; was "apparently still organising &lt;em&gt;finance,"&lt;/em&gt; his &lt;em&gt;company&lt;/em&gt; might still &lt;em&gt;succeed&lt;/em&gt; with its &lt;em&gt;rival&lt;/em&gt; bid for the CPC &lt;em&gt;business&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Ferruzzi spokesman later confirmed&lt;/em&gt; that the &lt;em&gt;group&lt;/em&gt; was &lt;em&gt;studying&lt;/em&gt; the &lt;em&gt;transfer&lt;/em&gt; of the CPC &lt;em&gt;business&lt;/em&gt; to &lt;em&gt;European Sugar along&lt;/em&gt; with a &lt;em&gt;possible share offering&lt;/em&gt; in the &lt;em&gt;Paris&lt;/em&gt; unit, but gave no &lt;em&gt;details&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Gardini&lt;/em&gt; could not &lt;em&gt;reveal&lt;/em&gt; the date in &lt;em&gt;question&lt;/em&gt; nor give any &lt;em&gt;indication&lt;/em&gt; of the &lt;em&gt;likely timing&lt;/em&gt; of an &lt;em&gt;offering&lt;/em&gt; of &lt;em&gt;shares&lt;/em&gt; in &lt;em&gt;European Sugar,&lt;/em&gt; but it was announced last week that &lt;em&gt;Ferruzzi&lt;/em&gt;'s &lt;em&gt;purchase&lt;/em&gt; of the CPC &lt;em&gt;business&lt;/em&gt; was expected to be completed by &lt;em&gt;September 30&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;&lt;Gruppo Ferruzzi&gt;&lt;/em&gt; is &lt;em&gt;studying&lt;/em&gt; a &lt;em&gt;project which could result&lt;/em&gt; in a &lt;em&gt;public share offer&lt;/em&gt; of up to 49 pct of its &lt;em&gt;French&lt;/em&gt; unit &lt;&lt;em&gt;European Sugar (France)&gt;&lt;/em&gt; and &lt;em&gt;could raise around 400&lt;/em&gt; mln dlrs, &lt;em&gt;Ferruzzi chairman&lt;/em&gt; Raul &lt;em&gt;Gardini said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">A &lt;em&gt;Ferruzzi spokesman&lt;/em&gt; later confirmed that the &lt;em&gt;group&lt;/em&gt; was studying the &lt;em&gt;transfer&lt;/em&gt; of the CPC &lt;em&gt;business&lt;/em&gt; to &lt;em&gt;European Sugar&lt;/em&gt; along with a &lt;em&gt;possible share offering&lt;/em&gt; in the &lt;em&gt;Paris&lt;/em&gt; unit, but gave no &lt;em&gt;details&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

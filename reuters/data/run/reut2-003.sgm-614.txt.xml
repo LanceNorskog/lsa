@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-614.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">79</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">october</str>
+        <str name="text">payments</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fourth</str>
-        <double name="strength">1.0</double>
+        <str name="text">balance</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">december</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">basis</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">excludes</str>
+        <str name="text">third</str>
         <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">factors</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">average</str>
+        <double name="strength">0.9999999999999969</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The deficit with newly industrialized Far East countries, including Hong Kong, South Korea, Singapore and Taiwan, fell 500 mln dlrs to eight billion dlrs and with Canada the deficit decreased 200 mln dlrs to 3.3 billion dlrs in the quarter.</str>
-        <int name="index">14</int>
+        <str name="text">The trade report on a balance of payments basis excludes such factors as military sales and the costs of shipping and insurance.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">241</int>
+        <int name="end">129</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Soybean shipments to Western Europe rose sharply because supplies from Brazil, a traditional major exporter, were limited by drought.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">134</int>
-        <double name="strength">0.9893943237627444</double>
+        <double name="strength">0.9083520713821932</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The trade report on a balance of payments basis excludes such factors as military sales and the costs of shipping and insurance.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">129</int>
-        <double name="strength">0.9664581160880007</double>
+        <str name="text">S. merchandise trade deficit on a balance of payments basis was a record 38.37 billion dlrs in the October to December fourth quarter, the Commerce Department said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">164</int>
+        <double name="strength">0.8500279776494144</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;deficit&lt;/em&gt; with &lt;em&gt;newly industrialized&lt;/em&gt; Far East &lt;em&gt;countries, including&lt;/em&gt; Hong Kong, &lt;em&gt;South Korea, Singapore&lt;/em&gt; and &lt;em&gt;Taiwan,&lt;/em&gt; fell 500 mln dlrs to &lt;em&gt;eight billion&lt;/em&gt; dlrs and with &lt;em&gt;Canada&lt;/em&gt; the &lt;em&gt;deficit decreased 200&lt;/em&gt; mln dlrs to 3.3 &lt;em&gt;billion&lt;/em&gt; dlrs in the &lt;em&gt;quarter&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;trade report&lt;/em&gt; on a &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments basis&lt;/em&gt; excludes such &lt;em&gt;factors&lt;/em&gt; as &lt;em&gt;military sales&lt;/em&gt; and the &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;shipping&lt;/em&gt; and &lt;em&gt;insurance&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Soybean shipments&lt;/em&gt; to &lt;em&gt;Western Europe&lt;/em&gt; rose &lt;em&gt;sharply because supplies&lt;/em&gt; from &lt;em&gt;Brazil,&lt;/em&gt; a &lt;em&gt;traditional major exporter,&lt;/em&gt; were &lt;em&gt;limited&lt;/em&gt; by &lt;em&gt;drought&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Soybean shipments&lt;/em&gt; to &lt;em&gt;Western Europe&lt;/em&gt; rose sharply because &lt;em&gt;supplies&lt;/em&gt; from &lt;em&gt;Brazil,&lt;/em&gt; a &lt;em&gt;traditional major exporter,&lt;/em&gt; were limited by &lt;em&gt;drought&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;trade report&lt;/em&gt; on a &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments basis excludes&lt;/em&gt; such &lt;em&gt;factors&lt;/em&gt; as &lt;em&gt;military sales&lt;/em&gt; and the &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;shipping&lt;/em&gt; and &lt;em&gt;insurance&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">S. &lt;em&gt;merchandise trade deficit&lt;/em&gt; on a &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments basis&lt;/em&gt; was a &lt;em&gt;record 38.37 billion&lt;/em&gt; dlrs in the &lt;em&gt;October&lt;/em&gt; to &lt;em&gt;December fourth quarter,&lt;/em&gt; the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

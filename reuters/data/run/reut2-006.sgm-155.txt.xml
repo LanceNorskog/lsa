@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-155.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">194</int>
+        <int name="count">134</int>
       </lst>
       <lst name="stems">
-        <int name="count">126</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">monetary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">narrow</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">policy</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">measure</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">fellner</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">money</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">speech</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">supply</str>
-        <double name="strength">0.8944271909999166</double>
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">162</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The Bank of England will be loathe to take any action which it will have to reverse later," Jeffrey said, though he added a further half-point cut was quite possible in the near future.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">187</int>
-        <double name="strength">0.992286272946345</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Some believe it signals a poll this June, noting that the benefits, such as income tax cuts and the decision not to raise duties on alcohol and tobacco, become available immediately.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">183</int>
-        <double name="strength">0.9643881533831516</double>
+        <double name="strength">0.9925227186140839</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The main worry from today's speech is the outlook for inflation, given the signs of relaxed monetary policy contained in it, Scrimgeour Vickers economist Richard Holt said.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">173</int>
+        <double name="strength">0.9697520775975502</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Richard Jeffrey&lt;/em&gt; of &lt;em&gt;brokers Hoare Govett&lt;/em&gt; said it was a well-&lt;em&gt;balanced budget within&lt;/em&gt; the &lt;em&gt;confines&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;philosophy&lt;/em&gt; of &lt;em&gt;keeping expenditure levels flat&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Richard Jeffrey&lt;/em&gt; of &lt;em&gt;brokers Hoare Govett&lt;/em&gt; said it was a well-balanced &lt;em&gt;budget&lt;/em&gt; within the &lt;em&gt;confines&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;philosophy&lt;/em&gt; of keeping &lt;em&gt;expenditure levels flat&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The Bank of &lt;em&gt;England&lt;/em&gt; will be &lt;em&gt;loathe&lt;/em&gt; to take any &lt;em&gt;action which&lt;/em&gt; it will have to &lt;em&gt;reverse later," Jeffrey&lt;/em&gt; said, &lt;em&gt;though&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt; a &lt;em&gt;further&lt;/em&gt; half-&lt;em&gt;point&lt;/em&gt; cut was &lt;em&gt;quite possible&lt;/em&gt; in the near &lt;em&gt;future&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">Some &lt;em&gt;believe&lt;/em&gt; it signals a poll this June, noting that the &lt;em&gt;benefits,&lt;/em&gt; such as &lt;em&gt;income&lt;/em&gt; tax cuts and the &lt;em&gt;decision&lt;/em&gt; not to &lt;em&gt;raise duties&lt;/em&gt; on &lt;em&gt;alcohol&lt;/em&gt; and &lt;em&gt;tobacco,&lt;/em&gt; become &lt;em&gt;available immediately&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;believe&lt;/em&gt; it &lt;em&gt;signals&lt;/em&gt; a poll this June, &lt;em&gt;noting&lt;/em&gt; that the &lt;em&gt;benefits,&lt;/em&gt; such as &lt;em&gt;income&lt;/em&gt; tax cuts and the &lt;em&gt;decision&lt;/em&gt; not to &lt;em&gt;raise duties&lt;/em&gt; on &lt;em&gt;alcohol&lt;/em&gt; and &lt;em&gt;tobacco, become available immediately&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The main &lt;em&gt;worry&lt;/em&gt; from &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;speech&lt;/em&gt; is the &lt;em&gt;outlook&lt;/em&gt; for &lt;em&gt;inflation,&lt;/em&gt; given the &lt;em&gt;signs&lt;/em&gt; of &lt;em&gt;relaxed monetary policy&lt;/em&gt; contained in it, Scrimgeour &lt;em&gt;Vickers economist Richard&lt;/em&gt; Holt said.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

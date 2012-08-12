@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-13.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">european</str>
+        <str name="text">overcome</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">mistake</str>
-        <double name="strength">1.0</double>
+        <str name="text">increase</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">enough</str>
-        <double name="strength">1.0</double>
+        <str name="text">order</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">future</str>
-        <double name="strength">1.0</double>
+        <str name="text">dollar</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">1.0</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Morita said that to overcome the same currency problems, Japan needs to restructure its economy in order to live less from exports and more from domestic demand.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">162</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Speaking of difficulties foreign firms experience in penetrating the Japanese market, Morita said "Naturally, I have to admit that there are still many obstacles in Japan."</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">173</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8847239092014991</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">T&gt; will increase production abroad to overcome falling profits caused by the yen's rise against the dollar, managing board chairman Akio Morita told the West German newspaper Die Welt.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">184</int>
-        <double name="strength">0.9674277769362093</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He was quoted as saying that Sony, whose latest profit figures had been affected strongly by dollar fluctuations, would increase production in the U.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">150</int>
-        <double name="strength">0.952135650078988</double>
+        <double name="strength">0.8549531763612662</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; of &lt;em&gt;difficulties foreign firms experience&lt;/em&gt; in &lt;em&gt;penetrating&lt;/em&gt; the &lt;em&gt;Japanese market, Morita&lt;/em&gt; said "&lt;em&gt;Naturally,&lt;/em&gt; I have to &lt;em&gt;admit&lt;/em&gt; that &lt;em&gt;there&lt;/em&gt; are &lt;em&gt;still&lt;/em&gt; many &lt;em&gt;obstacles&lt;/em&gt; in &lt;em&gt;Japan.&lt;/em&gt;"</str>
+        <str name="text">&lt;em&gt;Morita&lt;/em&gt; said that to &lt;em&gt;overcome&lt;/em&gt; the same &lt;em&gt;currency problems, Japan&lt;/em&gt; needs to &lt;em&gt;restructure&lt;/em&gt; its &lt;em&gt;economy&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to live less from &lt;em&gt;exports&lt;/em&gt; and more from &lt;em&gt;domestic demand&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Speaking of &lt;em&gt;difficulties foreign firms experience&lt;/em&gt; in penetrating the &lt;em&gt;Japanese market, Morita&lt;/em&gt; said "Naturally, I have to &lt;em&gt;admit&lt;/em&gt; that there are still many &lt;em&gt;obstacles&lt;/em&gt; in &lt;em&gt;Japan.&lt;/em&gt;"</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">T&gt; will &lt;em&gt;increase production abroad&lt;/em&gt; to &lt;em&gt;overcome falling profits caused&lt;/em&gt; by the yen's rise &lt;em&gt;against&lt;/em&gt; the &lt;em&gt;dollar, managing board chairman&lt;/em&gt; Akio &lt;em&gt;Morita&lt;/em&gt; told the West &lt;em&gt;German newspaper&lt;/em&gt; Die Welt.</str>
+        <str name="text">T&gt; will &lt;em&gt;increase production&lt;/em&gt; abroad to &lt;em&gt;overcome&lt;/em&gt; falling &lt;em&gt;profits&lt;/em&gt; caused by the yen's rise against the &lt;em&gt;dollar,&lt;/em&gt; managing &lt;em&gt;board chairman&lt;/em&gt; Akio &lt;em&gt;Morita&lt;/em&gt; told the West &lt;em&gt;German newspaper&lt;/em&gt; Die Welt.</str>
         <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He was &lt;em&gt;quoted&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt; that Sony, &lt;em&gt;whose latest profit figures&lt;/em&gt; had been &lt;em&gt;affected strongly&lt;/em&gt; by &lt;em&gt;dollar fluctuations, would increase production&lt;/em&gt; in the U.</str>
-        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

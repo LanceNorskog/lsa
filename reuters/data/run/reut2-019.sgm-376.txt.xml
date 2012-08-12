@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-376.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">mexico</str>
+        <str name="text">committee</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">american</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">causes</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">congress</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">strong</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">continue</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">dollar</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">caribbean</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Mexico, Brazil and Venezuela are the only Latin nations with large trade surpluses last year with the United States, but even Mexico, with the largest, had a surplus of only 5.2 billion dlrs, against Japan's of 58.6 billion dlrs.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Rodriguez said the Latin and Caribbean nations backed the Reagan Administration's opposition to many of the sections in the legislation, including those to curb imports and to require retaliation for foreign unfair trade practices.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">0.9917813179810381</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">A group of Latin American and Caribbean nations formally opposed trade legislation pending in Congress, saying it would curb their exports, slow development and hinder its ability to repay foreign debt.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">202</int>
-        <double name="strength">0.9704804221590332</double>
+        <double name="strength">0.9163644277578961</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told reporters the committee would likely mount a campaign to fight the legislation when it comes up for debate on the Senate floor, expected next week.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">156</int>
+        <double name="strength">0.8990813217149215</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Mexico, Brazil&lt;/em&gt; and &lt;em&gt;Venezuela&lt;/em&gt; are the only &lt;em&gt;Latin nations&lt;/em&gt; with &lt;em&gt;large trade surpluses&lt;/em&gt; last year with the &lt;em&gt;United States,&lt;/em&gt; but even &lt;em&gt;Mexico,&lt;/em&gt; with the &lt;em&gt;largest,&lt;/em&gt; had a &lt;em&gt;surplus&lt;/em&gt; of only 5.2 &lt;em&gt;billion&lt;/em&gt; dlrs, &lt;em&gt;against Japan&lt;/em&gt;'s of 58.6 &lt;em&gt;billion dlrs&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Rodriguez&lt;/em&gt; said the &lt;em&gt;Latin&lt;/em&gt; and &lt;em&gt;Caribbean nations backed&lt;/em&gt; the &lt;em&gt;Reagan Administration&lt;/em&gt;'s &lt;em&gt;opposition&lt;/em&gt; to many of the &lt;em&gt;sections&lt;/em&gt; in the &lt;em&gt;legislation, including those&lt;/em&gt; to curb &lt;em&gt;imports&lt;/em&gt; and to &lt;em&gt;require retaliation&lt;/em&gt; for &lt;em&gt;foreign unfair trade practices&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Rodriguez&lt;/em&gt; said the &lt;em&gt;Latin&lt;/em&gt; and &lt;em&gt;Caribbean nations&lt;/em&gt; backed the &lt;em&gt;Reagan Administration&lt;/em&gt;'s &lt;em&gt;opposition&lt;/em&gt; to many of the &lt;em&gt;sections&lt;/em&gt; in the &lt;em&gt;legislation,&lt;/em&gt; including those to curb &lt;em&gt;imports&lt;/em&gt; and to &lt;em&gt;require retaliation&lt;/em&gt; for &lt;em&gt;foreign unfair trade practices&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;Latin American&lt;/em&gt; and &lt;em&gt;Caribbean nations formally opposed trade legislation pending&lt;/em&gt; in &lt;em&gt;Congress, saying&lt;/em&gt; it &lt;em&gt;would&lt;/em&gt; curb &lt;em&gt;their exports,&lt;/em&gt; slow &lt;em&gt;development&lt;/em&gt; and &lt;em&gt;hinder&lt;/em&gt; its &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;repay foreign debt&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;Latin American&lt;/em&gt; and &lt;em&gt;Caribbean nations&lt;/em&gt; formally opposed &lt;em&gt;trade legislation&lt;/em&gt; pending in &lt;em&gt;Congress,&lt;/em&gt; saying it would curb their &lt;em&gt;exports,&lt;/em&gt; slow &lt;em&gt;development&lt;/em&gt; and &lt;em&gt;hinder&lt;/em&gt; its &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;repay foreign debt&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told &lt;em&gt;reporters&lt;/em&gt; the &lt;em&gt;committee&lt;/em&gt; would likely &lt;em&gt;mount&lt;/em&gt; a &lt;em&gt;campaign&lt;/em&gt; to &lt;em&gt;fight&lt;/em&gt; the &lt;em&gt;legislation&lt;/em&gt; when it comes up for &lt;em&gt;debate&lt;/em&gt; on the &lt;em&gt;Senate floor,&lt;/em&gt; expected next week.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-457.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">effort</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">effort</str>
+        <double name="strength">0.9840539975201787</double>
       </lst>
       <lst name="term">
-        <str name="text">foreign</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">sustain</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">import</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Brazil, whose 108 billion dlr foreign debt is the largest in the developing world, has been under pressure from official and private creditors to work out an economic adjustment program with the IMF to combat rocketing inflation and foreign payments problems.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">260</int>
+        <str name="text">S., Europe and Japan to explain Brazil's decision last month to suspend interest payments on 68 billion dlrs of commercial debt, he stressed the country's commitment to growth.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Domestically, Funaro said economies had led to a reduction in the public sector deficit to 2.7 pct of gross domestic product in 1986, the lowest for many years and that this should fall to 1.5 pct this year.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.9371030393452052</double>
+        <double name="strength">0.9152910754453059</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We need to and will make the effort (to solve the debt problem) but we cannot make an effort that means we stop growing," he said, adding that political and not purely commercial solutions were needed to the debt crisis.</str>
-        <int name="index">7</int>
+        <str name="text">To sustain internal growth Brazil would have to import more machinery and equipment this year and export fewer raw materials.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.9114087877110831</double>
+        <int name="end">126</int>
+        <double name="strength">0.828507676251421</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil, whose 108 billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt is the &lt;em&gt;largest&lt;/em&gt; in the &lt;em&gt;developing world,&lt;/em&gt; has been &lt;em&gt;under pressure&lt;/em&gt; from &lt;em&gt;official&lt;/em&gt; and &lt;em&gt;private creditors&lt;/em&gt; to work out an &lt;em&gt;economic adjustment program&lt;/em&gt; with the IMF to &lt;em&gt;combat rocketing inflation&lt;/em&gt; and &lt;em&gt;foreign payments problems&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">S., &lt;em&gt;Europe&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; to &lt;em&gt;explain Brazil&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;suspend interest payments&lt;/em&gt; on 68 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;commercial&lt;/em&gt; debt, he stressed the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;commitment&lt;/em&gt; to &lt;em&gt;growth&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Domestically, Funaro&lt;/em&gt; said &lt;em&gt;economies&lt;/em&gt; had led to a &lt;em&gt;reduction&lt;/em&gt; in the &lt;em&gt;public sector deficit&lt;/em&gt; to 2.7 pct of &lt;em&gt;gross domestic product&lt;/em&gt; in 1986, the &lt;em&gt;lowest&lt;/em&gt; for many &lt;em&gt;years&lt;/em&gt; and that this &lt;em&gt;should&lt;/em&gt; fall to 1.5 pct this year.</str>
+        <str name="text">Domestically, &lt;em&gt;Funaro&lt;/em&gt; said &lt;em&gt;economies&lt;/em&gt; had led to a &lt;em&gt;reduction&lt;/em&gt; in the &lt;em&gt;public sector deficit&lt;/em&gt; to 2.7 pct of &lt;em&gt;gross domestic product&lt;/em&gt; in 1986, the lowest for many &lt;em&gt;years&lt;/em&gt; and that this should fall to 1.5 pct this year.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We need to and will make the &lt;em&gt;effort &lt;/em&gt;(to &lt;em&gt;solve&lt;/em&gt; the debt &lt;em&gt;problem)&lt;/em&gt; but we &lt;em&gt;cannot&lt;/em&gt; make an &lt;em&gt;effort&lt;/em&gt; that &lt;em&gt;means&lt;/em&gt; we stop &lt;em&gt;growing,"&lt;/em&gt; he said, &lt;em&gt;adding&lt;/em&gt; that &lt;em&gt;political&lt;/em&gt; and not &lt;em&gt;purely commercial solutions&lt;/em&gt; were &lt;em&gt;needed&lt;/em&gt; to the debt &lt;em&gt;crisis&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">To &lt;em&gt;sustain internal growth Brazil&lt;/em&gt; would have to &lt;em&gt;import&lt;/em&gt; more &lt;em&gt;machinery&lt;/em&gt; and &lt;em&gt;equipment&lt;/em&gt; this year and &lt;em&gt;export&lt;/em&gt; fewer raw &lt;em&gt;materials&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

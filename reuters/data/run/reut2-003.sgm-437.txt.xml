@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-437.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">72</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">clones</str>
-        <double name="strength">0.3849001794597509</double>
+        <str name="text">countries</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fungus</str>
-        <double name="strength">0.3333333333333337</double>
+        <str name="text">seven</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">cannot</str>
-        <double name="strength">0.3333333333333337</double>
+        <str name="text">cause</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">saved</str>
-        <double name="strength">0.3333333333333337</double>
+        <str name="text">target</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The report said the Sri Lankan Rubber Research Institute may ask estates to remove trees seriously affected by the disease and added that most estates affected belong to the State Plantations Corp and Janatha Estates Development Board.</str>
-        <int name="index">3</int>
+        <str name="text">Fungicide may be used to curb the disease, which also affects leaves of 30 other species of plants, but experience has proven that it is uneconomical and expensive, he added.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">236</int>
+        <int name="end">175</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Trees with leaves hit by the fungus disease cannot be saved and must be felled, Chee Kheng Hoy, Head of the Crop Protection and Microbiology Division in the Rubber Research Institute of Malaysia (RRIM), told Reuters.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">217</int>
-        <double name="strength">0.697252229276864</double>
+        <double name="strength">0.9166808314367232</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Fungicide may be used to curb the disease, which also affects leaves of 30 other species of plants, but experience has proven that it is uneconomical and expensive, he added.</str>
-        <int name="index">7</int>
+        <str name="text">He was commenting on a Reuter report which said corenes pora had hit seven pct of Sri Lanka's plantations and may cause output to drop below its 1987 target of 143,000 tonnes.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">0.6547378461778945</double>
+        <int name="end">176</int>
+        <double name="strength">0.8767219819280884</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;report&lt;/em&gt; said the Sri &lt;em&gt;Lankan Rubber Research Institute&lt;/em&gt; may ask &lt;em&gt;estates&lt;/em&gt; to &lt;em&gt;remove trees seriously affected&lt;/em&gt; by the &lt;em&gt;disease&lt;/em&gt; and &lt;em&gt;added&lt;/em&gt; that most &lt;em&gt;estates affected belong&lt;/em&gt; to the &lt;em&gt;State Plantations&lt;/em&gt; Corp and &lt;em&gt;Janatha Estates Development Board&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Fungicide&lt;/em&gt; may be used to curb the &lt;em&gt;disease,&lt;/em&gt; which also affects &lt;em&gt;leaves&lt;/em&gt; of 30 &lt;em&gt;other species&lt;/em&gt; of &lt;em&gt;plants,&lt;/em&gt; but &lt;em&gt;experience&lt;/em&gt; has proven that it is &lt;em&gt;uneconomical&lt;/em&gt; and &lt;em&gt;expensive,&lt;/em&gt; he added.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Trees&lt;/em&gt; with &lt;em&gt;leaves&lt;/em&gt; hit by the &lt;em&gt;fungus disease cannot&lt;/em&gt; be &lt;em&gt;saved&lt;/em&gt; and must be &lt;em&gt;felled,&lt;/em&gt; Chee &lt;em&gt;Kheng&lt;/em&gt; Hoy, Head of the Crop &lt;em&gt;Protection&lt;/em&gt; and &lt;em&gt;Microbiology Division&lt;/em&gt; in the &lt;em&gt;Rubber Research Institute&lt;/em&gt; of &lt;em&gt;Malaysia &lt;/em&gt;(RRIM), told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Trees&lt;/em&gt; with &lt;em&gt;leaves&lt;/em&gt; hit by the &lt;em&gt;fungus disease&lt;/em&gt; cannot be saved and must be felled, Chee &lt;em&gt;Kheng&lt;/em&gt; Hoy, Head of the Crop &lt;em&gt;Protection&lt;/em&gt; and &lt;em&gt;Microbiology Division&lt;/em&gt; in the &lt;em&gt;Rubber Research Institute&lt;/em&gt; of &lt;em&gt;Malaysia &lt;/em&gt;(RRIM), told &lt;em&gt;Reuters&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fungicide&lt;/em&gt; may be used to curb the &lt;em&gt;disease, which&lt;/em&gt; also &lt;em&gt;affects leaves&lt;/em&gt; of 30 &lt;em&gt;other species&lt;/em&gt; of &lt;em&gt;plants,&lt;/em&gt; but &lt;em&gt;experience&lt;/em&gt; has &lt;em&gt;proven&lt;/em&gt; that it is &lt;em&gt;uneconomical&lt;/em&gt; and &lt;em&gt;expensive,&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">He was commenting on a &lt;em&gt;Reuter report&lt;/em&gt; which said &lt;em&gt;corenes&lt;/em&gt; pora had hit &lt;em&gt;seven&lt;/em&gt; pct of Sri &lt;em&gt;Lanka&lt;/em&gt;'s &lt;em&gt;plantations&lt;/em&gt; and may &lt;em&gt;cause output&lt;/em&gt; to drop below its 1987 &lt;em&gt;target&lt;/em&gt; of 143,000 &lt;em&gt;tonnes&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

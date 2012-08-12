@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-842.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">186</int>
+        <int name="count">132</int>
       </lst>
       <lst name="stems">
-        <int name="count">116</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cases</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">related</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">heiwa</str>
+        <double name="strength">0.9883990800936783</double>
       </lst>
       <lst name="term">
-        <str name="text">while</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">years</str>
+        <double name="strength">0.9883990800936767</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">three</str>
+        <double name="strength">0.9883990800936767</double>
       </lst>
       <lst name="term">
-        <str name="text">efficiency</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9709265561522971</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Osaka-based Sumitomo, with desposits of around 23.9 trillion yen, merged with Heiwa Sogo, a small, struggling bank with an estimated 1.29 billion dlrs in unrecoverable loans, in October.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">187</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Sumitomo last August agreed to pay 500 mln dlrs for a 12.5 pct limited partnership in the bank, but for the time being at least, the Federal Reserve Board has forbidden them to exchange personnel, or increase the business they do with each other.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">247</int>
-        <double name="strength">0.9699077414700257</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said that while the merger will initially reduce Sumitomo's profitability and efficiency, it will vastly expand Sumitomo's branch network in the Tokyo metropolitan area where it has been relatively weak.</str>
-        <int name="index">5</int>
+        <str name="text">Osaka-based Sumitomo, with desposits of around 23.9 trillion yen, merged with Heiwa Sogo, a small, struggling bank with an estimated 1.29 billion dlrs in unrecoverable loans, in October.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.8848885133082729</double>
+        <int name="end">187</int>
+        <double name="strength">0.9910844943097483</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Others argue the merger was more cost effective than creating a comparable branch network from scratch.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">103</int>
+        <double name="strength">0.8590170319397972</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Osaka-based Sumitomo,&lt;/em&gt; with &lt;em&gt;desposits&lt;/em&gt; of &lt;em&gt;around 23.9 trillion&lt;/em&gt; yen, &lt;em&gt;merged&lt;/em&gt; with &lt;em&gt;Heiwa&lt;/em&gt; Sogo, a &lt;em&gt;small, struggling&lt;/em&gt; bank with an &lt;em&gt;estimated 1.29 billion&lt;/em&gt; dlrs in &lt;em&gt;unrecoverable loans,&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Sumitomo&lt;/em&gt; last &lt;em&gt;August agreed&lt;/em&gt; to pay 500 mln dlrs for a 12.5 pct &lt;em&gt;limited partnership&lt;/em&gt; in the bank, but for the time &lt;em&gt;being&lt;/em&gt; at &lt;em&gt;least,&lt;/em&gt; the &lt;em&gt;Federal Reserve Board&lt;/em&gt; has &lt;em&gt;forbidden&lt;/em&gt; them to &lt;em&gt;exchange personnel,&lt;/em&gt; or &lt;em&gt;increase&lt;/em&gt; the &lt;em&gt;business&lt;/em&gt; they do with each &lt;em&gt;other&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sumitomo&lt;/em&gt; last &lt;em&gt;August&lt;/em&gt; agreed to pay 500 mln dlrs for a 12.5 pct limited &lt;em&gt;partnership&lt;/em&gt; in the bank, but for the time being at least, the &lt;em&gt;Federal Reserve Board&lt;/em&gt; has forbidden them to &lt;em&gt;exchange personnel,&lt;/em&gt; or &lt;em&gt;increase&lt;/em&gt; the &lt;em&gt;business&lt;/em&gt; they do with each &lt;em&gt;other&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said that &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt; will &lt;em&gt;initially reduce Sumitomo&lt;/em&gt;'s &lt;em&gt;profitability&lt;/em&gt; and &lt;em&gt;efficiency,&lt;/em&gt; it will &lt;em&gt;vastly expand Sumitomo&lt;/em&gt;'s &lt;em&gt;branch network&lt;/em&gt; in the &lt;em&gt;Tokyo metropolitan&lt;/em&gt; area &lt;em&gt;where&lt;/em&gt; it has been &lt;em&gt;relatively weak&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Osaka&lt;/em&gt;-based &lt;em&gt;Sumitomo,&lt;/em&gt; with &lt;em&gt;desposits&lt;/em&gt; of around 23.9 &lt;em&gt;trillion&lt;/em&gt; yen, merged with &lt;em&gt;Heiwa&lt;/em&gt; Sogo, a &lt;em&gt;small,&lt;/em&gt; struggling bank with an estimated 1.29 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;unrecoverable loans,&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Others argue&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt; was more cost &lt;em&gt;effective&lt;/em&gt; than creating a &lt;em&gt;comparable branch network&lt;/em&gt; from &lt;em&gt;scratch&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

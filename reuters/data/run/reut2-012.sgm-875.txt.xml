@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-875.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">46</int>
       </lst>
       <lst name="terms">
-        <int name="count">230</int>
+        <int name="count">164</int>
       </lst>
       <lst name="stems">
-        <int name="count">159</int>
+        <int name="count">111</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">swiss</str>
+        <str name="text">tokyo</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">equity</str>
-        <double name="strength">0.5527707983925683</double>
+        <str name="text">operation</str>
+        <double name="strength">0.9995246557750389</double>
       </lst>
       <lst name="term">
-        <str name="text">particularly</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">miller</str>
+        <double name="strength">0.9995246557750384</double>
       </lst>
       <lst name="term">
-        <str name="text">optimistic</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">source</str>
+        <double name="strength">0.9876703041078218</double>
       </lst>
       <lst name="term">
-        <str name="text">continental</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">brokerage</str>
+        <double name="strength">0.9801806877148315</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">200</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The firm, 50 pct owned by &lt;Swiss Bank Corp&gt;, gave guests gifts of Swiss chocolates and Swatch watches.</str>
-        <int name="index">34</int>
-        <int name="start">0</int>
-        <int name="end">102</int>
-        <double name="strength">0.9080882086575837</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"I am not particularly optimistic for the prospects in the Japanese equity market for continental European banks who have little experience in equities outside their domestic equity market," he said.</str>
-        <int name="index">41</int>
+        <str name="text">To inaugurate its Japan operation, &lt;SBCI Securities (Asia) Ltd&gt; flew out the Basel Ballet last January for receptions in Tokyo and Osaka.</str>
+        <int name="index">33</int>
         <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.906826097959184</double>
+        <int name="end">138</int>
+        <double name="strength">0.7461261789695034</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They come in here with too glib ideas about how they can survive," said David Miller, director and general manager of Jardine Fleming (Securities) Ltd's Tokyo branch.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">166</int>
+        <double name="strength">0.7385981645508758</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But, as &lt;em&gt;deregulation erodes brokers' profits&lt;/em&gt; and the &lt;em&gt;global share-buying spree&lt;/em&gt; is &lt;em&gt;predicted&lt;/em&gt; to &lt;em&gt;subside,&lt;/em&gt; only &lt;em&gt;those securities traders&lt;/em&gt; with &lt;em&gt;first-class financial muscle&lt;/em&gt; will &lt;em&gt;survive,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <str name="text">But, as &lt;em&gt;deregulation erodes brokers' profits&lt;/em&gt; and the &lt;em&gt;global share-buying spree&lt;/em&gt; is predicted to &lt;em&gt;subside,&lt;/em&gt; only those &lt;em&gt;securities traders&lt;/em&gt; with &lt;em&gt;first-class financial muscle&lt;/em&gt; will &lt;em&gt;survive,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The firm, 50 pct &lt;em&gt;owned&lt;/em&gt; by &lt;&lt;em&gt;Swiss&lt;/em&gt; Bank Corp&gt;, gave &lt;em&gt;guests gifts&lt;/em&gt; of &lt;em&gt;Swiss chocolates&lt;/em&gt; and &lt;em&gt;Swatch watches&lt;/em&gt;.</str>
-        <int name="index">34</int>
+        <str name="text">To &lt;em&gt;inaugurate&lt;/em&gt; its &lt;em&gt;Japan operation, &lt;/em&gt;&lt;SBCI &lt;em&gt;Securities &lt;/em&gt;(Asia) Ltd&gt; flew out the &lt;em&gt;Basel Ballet&lt;/em&gt; last &lt;em&gt;January&lt;/em&gt; for &lt;em&gt;receptions&lt;/em&gt; in &lt;em&gt;Tokyo&lt;/em&gt; and &lt;em&gt;Osaka&lt;/em&gt;.</str>
+        <int name="index">33</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I am not &lt;em&gt;particularly optimistic&lt;/em&gt; for the &lt;em&gt;prospects&lt;/em&gt; in the &lt;em&gt;Japanese equity market&lt;/em&gt; for &lt;em&gt;continental European banks&lt;/em&gt; who have &lt;em&gt;little experience&lt;/em&gt; in &lt;em&gt;equities outside their domestic equity market,"&lt;/em&gt; he said.</str>
-        <int name="index">41</int>
+        <str name="text">They come in here with too glib &lt;em&gt;ideas&lt;/em&gt; about how they can &lt;em&gt;survive,"&lt;/em&gt; said &lt;em&gt;David Miller, director&lt;/em&gt; and &lt;em&gt;general manager&lt;/em&gt; of &lt;em&gt;Jardine&lt;/em&gt; Fleming (&lt;em&gt;Securities)&lt;/em&gt; Ltd's Tokyo &lt;em&gt;branch&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

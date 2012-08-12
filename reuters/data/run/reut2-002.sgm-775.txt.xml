@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-775.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">weeks</str>
+        <str name="text">tight</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">january</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">stream</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">higher</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">considering</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">consensus</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">stick</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Cartledge said domestic linerboard shipments in January hit about 1.6 mln tons, six pct higher than January 1986, while exports hit 170,000 tons, three to four pct higher.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The operating rates in linerboard are running at about 97 to 98 pct of capacity, but demand continues to climb," Gene Cartledge, chairman and chief executive officer of Union Camp said "The industry is essentially sold out."</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.8328543019097673</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Rates of return in the industry have been too low in recent years to merit inventment in new capocity, Rogers said, adding that he sees prices climbing to the 400 dlrs-a-ton range this year.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">191</int>
-        <double name="strength">0.7898786596327505</double>
+        <double name="strength">0.9603672437964714</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The attempt by International Paper Co &lt;IP&gt; and Stone Container Co &lt;STO&gt; to raise linerboard prices could stick, industry analysts said, citing strong demand and tight capacity.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">176</int>
+        <double name="strength">0.9472261168729988</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Cartledge&lt;/em&gt; said &lt;em&gt;domestic linerboard shipments&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; hit &lt;em&gt;about 1.6&lt;/em&gt; mln tons, six pct &lt;em&gt;higher&lt;/em&gt; than &lt;em&gt;January 1986, while exports&lt;/em&gt; hit 170,000 tons, &lt;em&gt;three&lt;/em&gt; to four pct &lt;em&gt;higher&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;operating rates&lt;/em&gt; in &lt;em&gt;linerboard&lt;/em&gt; are &lt;em&gt;running&lt;/em&gt; at &lt;em&gt;about 97&lt;/em&gt; to 98 pct of &lt;em&gt;capacity,&lt;/em&gt; but &lt;em&gt;demand continues&lt;/em&gt; to &lt;em&gt;climb,"&lt;/em&gt; Gene &lt;em&gt;Cartledge, chairman&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt; of &lt;em&gt;Union&lt;/em&gt; Camp said "The &lt;em&gt;industry&lt;/em&gt; is &lt;em&gt;essentially&lt;/em&gt; sold out."</str>
+        <str name="text">"The &lt;em&gt;operating rates&lt;/em&gt; in &lt;em&gt;linerboard&lt;/em&gt; are running at about 97 to 98 pct of &lt;em&gt;capacity,&lt;/em&gt; but &lt;em&gt;demand&lt;/em&gt; continues to &lt;em&gt;climb,"&lt;/em&gt; Gene &lt;em&gt;Cartledge, chairman&lt;/em&gt; and &lt;em&gt;chief executive officer&lt;/em&gt; of &lt;em&gt;Union&lt;/em&gt; Camp said "The &lt;em&gt;industry&lt;/em&gt; is essentially sold out."</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rates&lt;/em&gt; of &lt;em&gt;return&lt;/em&gt; in the &lt;em&gt;industry&lt;/em&gt; have been too low in &lt;em&gt;recent years&lt;/em&gt; to &lt;em&gt;merit inventment&lt;/em&gt; in new &lt;em&gt;capocity, Rogers&lt;/em&gt; said, &lt;em&gt;adding&lt;/em&gt; that he sees &lt;em&gt;prices climbing&lt;/em&gt; to the 400 dlrs-a-ton &lt;em&gt;range&lt;/em&gt; this year.</str>
+        <str name="text">&lt;em&gt;Rates&lt;/em&gt; of &lt;em&gt;return&lt;/em&gt; in the &lt;em&gt;industry&lt;/em&gt; have been too low in &lt;em&gt;recent years&lt;/em&gt; to &lt;em&gt;merit inventment&lt;/em&gt; in new &lt;em&gt;capocity, Rogers&lt;/em&gt; said, adding that he sees &lt;em&gt;prices&lt;/em&gt; climbing to the 400 dlrs-a-ton &lt;em&gt;range&lt;/em&gt; this year.</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;attempt&lt;/em&gt; by &lt;em&gt;International Paper&lt;/em&gt; Co &lt;IP&gt; and &lt;em&gt;Stone Container&lt;/em&gt; Co &lt;STO&gt; to &lt;em&gt;raise linerboard prices&lt;/em&gt; could &lt;em&gt;stick, industry analysts&lt;/em&gt; said, citing &lt;em&gt;strong demand&lt;/em&gt; and &lt;em&gt;tight capacity&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

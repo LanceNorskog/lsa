@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-862.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">three</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">granted</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">circuit</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">injuction</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">midnight</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">allowing</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9668760164118345</double>
       </lst>
       <lst name="term">
-        <str name="text">worth</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">plans</str>
+        <double name="strength">0.9475739487142978</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Appeals Court ruling surprised officials of Atlanta-based Delta, which had been preparing for the merger for months and had already painted Delta logos on airplanes belonging to Western, which has headquartera in Los Angeles.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The ruling in San Francisco came in a lawsuit that had been filed in a Los Angeles federal court in which the Air Transport Employees union sought to force Western's management to fulfill a promise that it would honor union contracts if a merger took place.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">258</int>
-        <double name="strength">0.9212019099878368</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Each of the nine Supreme Court justices has jurisdiction over a particular regional Appellate circuit and has the power to provisionally overturn its rulings without comment.</str>
         <int name="index">5</int>
         <int name="start">0</int>
         <int name="end">174</int>
-        <double name="strength">0.8969982691064148</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Our plans were to finalize the merger at midnight tonight," Delta spokesman Bill Berry told the Atlanta Constitution late last night.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">135</int>
+        <double name="strength">0.8950897668797808</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Delta had maintained that the three unions having contracts with Western -- The Association of Flight Attendants and the Teamsters, as well as the Air Transport Employees -- would be "extinguished" after today.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.8584283218640185</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Appeals Court ruling surprised officials&lt;/em&gt; of &lt;em&gt;Atlanta-based Delta, which&lt;/em&gt; had been &lt;em&gt;preparing&lt;/em&gt; for the &lt;em&gt;merger&lt;/em&gt; for &lt;em&gt;months&lt;/em&gt; and had &lt;em&gt;already painted Delta logos&lt;/em&gt; on &lt;em&gt;airplanes belonging&lt;/em&gt; to &lt;em&gt;Western, which&lt;/em&gt; has &lt;em&gt;headquartera&lt;/em&gt; in Los &lt;em&gt;Angeles&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;ruling&lt;/em&gt; in San &lt;em&gt;Francisco&lt;/em&gt; came in a &lt;em&gt;lawsuit&lt;/em&gt; that had been &lt;em&gt;filed&lt;/em&gt; in a Los &lt;em&gt;Angeles federal court&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; the Air &lt;em&gt;Transport Employees union sought&lt;/em&gt; to &lt;em&gt;force Western&lt;/em&gt;'s &lt;em&gt;management&lt;/em&gt; to &lt;em&gt;fulfill&lt;/em&gt; a &lt;em&gt;promise&lt;/em&gt; that it &lt;em&gt;would honor union contracts&lt;/em&gt; if a &lt;em&gt;merger&lt;/em&gt; took &lt;em&gt;place&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Each of the nine &lt;em&gt;Supreme Court justices&lt;/em&gt; has &lt;em&gt;jurisdiction&lt;/em&gt; over a &lt;em&gt;particular regional Appellate circuit&lt;/em&gt; and has the &lt;em&gt;power&lt;/em&gt; to &lt;em&gt;provisionally overturn&lt;/em&gt; its &lt;em&gt;rulings without comment&lt;/em&gt;.</str>
+        <str name="text">Each of the nine &lt;em&gt;Supreme Court justices&lt;/em&gt; has &lt;em&gt;jurisdiction&lt;/em&gt; over a &lt;em&gt;particular regional Appellate circuit&lt;/em&gt; and has the &lt;em&gt;power&lt;/em&gt; to provisionally &lt;em&gt;overturn&lt;/em&gt; its &lt;em&gt;rulings&lt;/em&gt; without &lt;em&gt;comment&lt;/em&gt;.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Our &lt;em&gt;plans&lt;/em&gt; were to &lt;em&gt;finalize&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt; at &lt;em&gt;midnight tonight," Delta spokesman&lt;/em&gt; Bill &lt;em&gt;Berry&lt;/em&gt; told the &lt;em&gt;Atlanta Constitution&lt;/em&gt; late last &lt;em&gt;night&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Delta&lt;/em&gt; had maintained that the &lt;em&gt;three unions&lt;/em&gt; having &lt;em&gt;contracts&lt;/em&gt; with &lt;em&gt;Western --&lt;/em&gt; The &lt;em&gt;Association&lt;/em&gt; of &lt;em&gt;Flight Attendants&lt;/em&gt; and the &lt;em&gt;Teamsters,&lt;/em&gt; as well as the Air &lt;em&gt;Transport Employees --&lt;/em&gt; would be "extinguished" after &lt;em&gt;today&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

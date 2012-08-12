@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-789.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">right</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">beghin</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">direction</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">equates</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">weeks</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">every</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">kilos</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">failure</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">amount</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">One source at a leading French sugar house said it seemed the commission had understood the protest action and was now moving towards adapting the situation accordingly, thereby allowing the operators to withdraw their sugar from intervention once they got satisfaction.</str>
-        <int name="index">18</int>
+        <str name="text">Vernes said he was satisfied the European Commission has started to move in the right direction, but said his company had no plans to change its decision to put sugar into intervention.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">271</int>
+        <int name="end">186</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">But Vernes said he hoped that in the next few weeks a final agreement would be reached with the commission which would allow operators to withdraw the sugar from intervention.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.7960774663971509</double>
+        <double name="strength">0.8572925665915246</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sugar producers here said the volume of sugar authorised for export since the begining of the current campaign had been inadequate and that more should be exported now to compensate.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.7835220527615969</double>
+        <str name="text">Ecus short of what producers say is needed to get an equivalent price to that for sales into intervention, traders said.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">120</int>
+        <double name="strength">0.8418202729562588</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">One &lt;em&gt;source&lt;/em&gt; at a &lt;em&gt;leading French sugar house&lt;/em&gt; said it &lt;em&gt;seemed&lt;/em&gt; the &lt;em&gt;commission&lt;/em&gt; had &lt;em&gt;understood&lt;/em&gt; the &lt;em&gt;protest action&lt;/em&gt; and was now &lt;em&gt;moving towards adapting&lt;/em&gt; the &lt;em&gt;situation accordingly, thereby allowing&lt;/em&gt; the &lt;em&gt;operators&lt;/em&gt; to &lt;em&gt;withdraw their sugar&lt;/em&gt; from &lt;em&gt;intervention&lt;/em&gt; once they got &lt;em&gt;satisfaction&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;Vernes&lt;/em&gt; said he was satisfied the &lt;em&gt;European Commission&lt;/em&gt; has started to move in the &lt;em&gt;right direction,&lt;/em&gt; but said his &lt;em&gt;company&lt;/em&gt; had no &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt; its &lt;em&gt;decision&lt;/em&gt; to put &lt;em&gt;sugar&lt;/em&gt; into &lt;em&gt;intervention&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;Vernes&lt;/em&gt; said he &lt;em&gt;hoped&lt;/em&gt; that in the next few &lt;em&gt;weeks&lt;/em&gt; a &lt;em&gt;final agreement would&lt;/em&gt; be &lt;em&gt;reached&lt;/em&gt; with the &lt;em&gt;commission which would allow operators&lt;/em&gt; to &lt;em&gt;withdraw&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; from &lt;em&gt;intervention&lt;/em&gt;.</str>
+        <str name="text">But &lt;em&gt;Vernes&lt;/em&gt; said he hoped that in the next few &lt;em&gt;weeks&lt;/em&gt; a &lt;em&gt;final agreement&lt;/em&gt; would be reached with the &lt;em&gt;commission&lt;/em&gt; which would &lt;em&gt;allow operators&lt;/em&gt; to &lt;em&gt;withdraw&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; from &lt;em&gt;intervention&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sugar producers&lt;/em&gt; here said the &lt;em&gt;volume&lt;/em&gt; of &lt;em&gt;sugar authorised&lt;/em&gt; for &lt;em&gt;export since&lt;/em&gt; the &lt;em&gt;begining&lt;/em&gt; of the &lt;em&gt;current campaign&lt;/em&gt; had been &lt;em&gt;inadequate&lt;/em&gt; and that more &lt;em&gt;should&lt;/em&gt; be &lt;em&gt;exported&lt;/em&gt; now to &lt;em&gt;compensate&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">Ecus &lt;em&gt;short&lt;/em&gt; of what &lt;em&gt;producers&lt;/em&gt; say is needed to get an &lt;em&gt;equivalent price&lt;/em&gt; to that for &lt;em&gt;sales&lt;/em&gt; into &lt;em&gt;intervention, traders said&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

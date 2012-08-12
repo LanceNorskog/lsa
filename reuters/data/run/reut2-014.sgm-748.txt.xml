@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-748.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">228</int>
+        <int name="count">165</int>
       </lst>
       <lst name="stems">
-        <int name="count">142</int>
+        <int name="count">102</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">teachers</str>
+        <str name="text">budget</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">bullock</str>
-        <double name="strength">0.5590169943749448</double>
+        <str name="text">source</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">educated</str>
-        <double name="strength">0.5590169943749448</double>
+        <str name="text">balance</str>
+        <double name="strength">0.9840716504496501</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">John Kennedy, senior research associate at the Austin-based Texas Research League said, "There is a great deal of popular sentiment against it, plus the first plank of Governor Clements' platform was no tax increases, let alone a new tax."</str>
-        <int name="index">13</int>
+        <str name="text">Steve Pejovich, director of the Center for Free Enterprise at Texas A and M University and an opponent of income taxes, said he favored reforming the present tax system to take account of the changed structure of the economy.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">240</int>
+        <int name="end">226</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"There is a strong independent streak in Texans and five years ago I would never have dreamed the State Legislature would institute an income tax," said George Bland, Assistant Professor of Political Science at North Texas State University, adding, "Now my contacts at the Legislature tell me it's coming, it's inevitable, it's only a matter of time."</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">352</int>
-        <double name="strength">0.9604015976080027</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Earlier this year, both houses of the Legislature, citing financial restraints as well as teacher morale, passed bills abandoning plans to require teachers to take competency tests.</str>
-        <int name="index">25</int>
+        <str name="text">Leung said it was the first time Texas' rating had been lowered since 1962, adding the report noted that while "the Legislature is now considering proposals to restore budget balance, medium term prospects for full recovery are weak."</str>
+        <int name="index">5</int>
         <int name="start">0</int>
-        <int name="end">181</int>
-        <double name="strength">0.8937792071835555</double>
+        <int name="end">234</int>
+        <double name="strength">0.9003018102534011</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Both Moody's Investor Services and Standard and Poor's cut their credit ratings of the state to double A from the top triple A in early March.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">143</int>
+        <double name="strength">0.8730726643456221</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">John &lt;em&gt;Kennedy, senior research associate&lt;/em&gt; at the &lt;em&gt;Austin-based Texas Research League&lt;/em&gt; said, "&lt;em&gt;There&lt;/em&gt; is a &lt;em&gt;great&lt;/em&gt; deal of &lt;em&gt;popular sentiment against&lt;/em&gt; it, plus the &lt;em&gt;first plank&lt;/em&gt; of &lt;em&gt;Governor Clements' platform&lt;/em&gt; was no tax &lt;em&gt;increases,&lt;/em&gt; let &lt;em&gt;alone&lt;/em&gt; a new tax."</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Steve Pejovich, director&lt;/em&gt; of the &lt;em&gt;Center&lt;/em&gt; for Free &lt;em&gt;Enterprise&lt;/em&gt; at &lt;em&gt;Texas&lt;/em&gt; A and M &lt;em&gt;University&lt;/em&gt; and an &lt;em&gt;opponent&lt;/em&gt; of &lt;em&gt;income taxes,&lt;/em&gt; said he favored reforming the &lt;em&gt;present&lt;/em&gt; tax &lt;em&gt;system&lt;/em&gt; to take &lt;em&gt;account&lt;/em&gt; of the &lt;em&gt;changed structure&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; is a &lt;em&gt;strong independent streak&lt;/em&gt; in &lt;em&gt;Texans&lt;/em&gt; and five &lt;em&gt;years&lt;/em&gt; ago I &lt;em&gt;would never&lt;/em&gt; have &lt;em&gt;dreamed&lt;/em&gt; the &lt;em&gt;State Legislature would institute&lt;/em&gt; an &lt;em&gt;income&lt;/em&gt; tax," said &lt;em&gt;George Bland, Assistant Professor&lt;/em&gt; of &lt;em&gt;Political Science&lt;/em&gt; at &lt;em&gt;North Texas State University, adding, &lt;/em&gt;"Now my &lt;em&gt;contacts&lt;/em&gt; at the &lt;em&gt;Legislature&lt;/em&gt; tell me it's &lt;em&gt;coming,&lt;/em&gt; it's &lt;em&gt;inevitable,&lt;/em&gt; it's only a &lt;em&gt;matter&lt;/em&gt; of time."</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Leung&lt;/em&gt; said it was the &lt;em&gt;first&lt;/em&gt; time Texas' &lt;em&gt;rating&lt;/em&gt; had been lowered since 1962, adding the &lt;em&gt;report&lt;/em&gt; noted that while "the &lt;em&gt;Legislature&lt;/em&gt; is now considering &lt;em&gt;proposals&lt;/em&gt; to &lt;em&gt;restore budget balance, medium&lt;/em&gt; term &lt;em&gt;prospects&lt;/em&gt; for full &lt;em&gt;recovery&lt;/em&gt; are weak."</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Earlier&lt;/em&gt; this year, both &lt;em&gt;houses&lt;/em&gt; of the &lt;em&gt;Legislature, citing financial restraints&lt;/em&gt; as well as &lt;em&gt;teacher morale, passed bills abandoning plans&lt;/em&gt; to &lt;em&gt;require teachers&lt;/em&gt; to take &lt;em&gt;competency tests&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">Both &lt;em&gt;Moody&lt;/em&gt;'s &lt;em&gt;Investor Services&lt;/em&gt; and &lt;em&gt;Standard&lt;/em&gt; and Poor's cut their &lt;em&gt;credit ratings&lt;/em&gt; of the &lt;em&gt;state&lt;/em&gt; to &lt;em&gt;double&lt;/em&gt; A from the top &lt;em&gt;triple&lt;/em&gt; A in &lt;em&gt;early March&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

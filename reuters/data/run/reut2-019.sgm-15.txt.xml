@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-15.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">117</int>
+        <int name="count">90</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">arbitrary</str>
+        <str name="text">interim</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">capricious</str>
-        <double name="strength">1.0</double>
+        <str name="text">reforms</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">deparment</str>
-        <double name="strength">1.0</double>
+        <str name="text">changes</str>
+        <double name="strength">0.974750684057348</double>
       </lst>
       <lst name="term">
-        <str name="text">drawback</str>
-        <double name="strength">1.0</double>
+        <str name="text">government</str>
+        <double name="strength">0.9747506840573453</double>
       </lst>
       <lst name="term">
-        <str name="text">complex</str>
-        <double name="strength">1.0</double>
+        <str name="text">offset</str>
+        <double name="strength">0.9409276072344811</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Canada will broaden a federal sales tax levied on manufacturers before scrapping the system in favor of a broad based, multi-staged sales tax, finance minister Michael Wilson said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">180</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The existing federal sales tax system hurts the Canadian economy by putting more tax on Canadian produced goods than imported goods and adding a hidden tax on Canadian exports that makes them less competitive, Wilson said.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.9692636985320642</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The finance deparment said the main drawback of a value added tax is that it would be more complex and costly to implement than the other two proposals.</str>
         <int name="index">19</int>
         <int name="start">0</int>
         <int name="end">152</int>
-        <double name="strength">0.8961332740437654</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A federal value-added tax, similar to European tax systems, would also be broad based but would allow more flexibility to exempt selected goods and services, the department said.</str>
+        <int name="index">18</int>
+        <int name="start">2</int>
+        <int name="end">180</int>
+        <double name="strength">0.9344676059049485</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To offset these changes for low income Canadians, refundable tax credits will be increased to 70 dlrs from 50 dlrs for adults and to 35 dlrs from 25 dlrs for children, the finance department said.</str>
+        <int name="index">11</int>
+        <int name="start">2</int>
+        <int name="end">198</int>
+        <double name="strength">0.8713698387909998</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Canada&lt;/em&gt; will &lt;em&gt;broaden&lt;/em&gt; a &lt;em&gt;federal sales&lt;/em&gt; tax &lt;em&gt;levied&lt;/em&gt; on &lt;em&gt;manufacturers before scrapping&lt;/em&gt; the &lt;em&gt;system&lt;/em&gt; in &lt;em&gt;favor&lt;/em&gt; of a &lt;em&gt;broad based, multi-staged sales&lt;/em&gt; tax, &lt;em&gt;finance minister Michael Wilson said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;existing federal sales&lt;/em&gt; tax &lt;em&gt;system hurts&lt;/em&gt; the &lt;em&gt;Canadian economy&lt;/em&gt; by &lt;em&gt;putting&lt;/em&gt; more tax on &lt;em&gt;Canadian produced goods&lt;/em&gt; than &lt;em&gt;imported goods&lt;/em&gt; and &lt;em&gt;adding&lt;/em&gt; a &lt;em&gt;hidden&lt;/em&gt; tax on &lt;em&gt;Canadian exports&lt;/em&gt; that &lt;em&gt;makes&lt;/em&gt; them less &lt;em&gt;competitive, Wilson said&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;finance deparment&lt;/em&gt; said the main &lt;em&gt;drawback&lt;/em&gt; of a &lt;em&gt;value added&lt;/em&gt; tax is that it &lt;em&gt;would&lt;/em&gt; be more &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;costly&lt;/em&gt; to &lt;em&gt;implement&lt;/em&gt; than the &lt;em&gt;other&lt;/em&gt; two &lt;em&gt;proposals&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;finance deparment&lt;/em&gt; said the main &lt;em&gt;drawback&lt;/em&gt; of a &lt;em&gt;value&lt;/em&gt; added tax is that it would be more &lt;em&gt;complex&lt;/em&gt; and &lt;em&gt;costly&lt;/em&gt; to &lt;em&gt;implement&lt;/em&gt; than the &lt;em&gt;other&lt;/em&gt; two &lt;em&gt;proposals&lt;/em&gt;.</str>
         <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;federal value&lt;/em&gt;-added tax, &lt;em&gt;similar&lt;/em&gt; to &lt;em&gt;European&lt;/em&gt; tax &lt;em&gt;systems,&lt;/em&gt; would also be &lt;em&gt;broad&lt;/em&gt; based but would &lt;em&gt;allow&lt;/em&gt; more &lt;em&gt;flexibility&lt;/em&gt; to &lt;em&gt;exempt&lt;/em&gt; selected &lt;em&gt;goods&lt;/em&gt; and &lt;em&gt;services,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">To &lt;em&gt;offset&lt;/em&gt; these &lt;em&gt;changes&lt;/em&gt; for low &lt;em&gt;income Canadians, refundable&lt;/em&gt; tax &lt;em&gt;credits&lt;/em&gt; will be increased to 70 dlrs from 50 dlrs for &lt;em&gt;adults&lt;/em&gt; and to 35 dlrs from 25 dlrs for &lt;em&gt;children,&lt;/em&gt; the &lt;em&gt;finance department said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

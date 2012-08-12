@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-769.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">64</int>
+        <int name="count">44</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">28</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">invisibles</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">volume</str>
-        <double name="strength">0.7905694150420955</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">rising</str>
-        <double name="strength">0.7905694150420949</double>
+        <str name="text">improvement</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">0.7905694150420944</double>
+        <str name="text">private</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">value</str>
-        <double name="strength">0.7071067811865482</double>
+        <str name="text">forecasts</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">241</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Department said exceptionally cold weather in January reduced exports that month and that there had been an element of catching up in the February figures.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">160</int>
-        <double name="strength">0.7767402150944642</double>
+        <double name="strength">0.726846778607816</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Department said the upward trend in non-oil export volume continues and the underlying level of non-oil import volume seems to have stablised.</str>
-        <int name="index">9</int>
+        <str name="text">The seasonally adjusted volume index, base 1980, a guide to underlying non-oil trade, showed exports rising to 131.0 from 114.6 in January and imports rising to 142.2 from 136.5.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">147</int>
-        <double name="strength">0.7766972613555854</double>
+        <int name="end">179</int>
+        <double name="strength">0.688447429933841</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Trade Department officials&lt;/em&gt; said the &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;current account contrasted&lt;/em&gt; with most &lt;em&gt;private forecasts&lt;/em&gt; and they &lt;em&gt;attributed&lt;/em&gt; much of the &lt;em&gt;strength&lt;/em&gt; to &lt;em&gt;imports rising&lt;/em&gt; less &lt;em&gt;quickly&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; than &lt;em&gt;might otherwise&lt;/em&gt; have been &lt;em&gt;expected&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Trade Department officials&lt;/em&gt; said the &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;Britain&lt;/em&gt;'s &lt;em&gt;current account&lt;/em&gt; contrasted with most &lt;em&gt;private forecasts&lt;/em&gt; and they attributed much of the &lt;em&gt;strength&lt;/em&gt; to &lt;em&gt;imports&lt;/em&gt; rising less quickly in &lt;em&gt;February&lt;/em&gt; than might otherwise have been expected.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Department&lt;/em&gt; said &lt;em&gt;exceptionally&lt;/em&gt; cold &lt;em&gt;weather&lt;/em&gt; in &lt;em&gt;January reduced exports&lt;/em&gt; that &lt;em&gt;month&lt;/em&gt; and that &lt;em&gt;there&lt;/em&gt; had been an &lt;em&gt;element&lt;/em&gt; of &lt;em&gt;catching&lt;/em&gt; up in the &lt;em&gt;February figures&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Department&lt;/em&gt; said exceptionally cold &lt;em&gt;weather&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; reduced &lt;em&gt;exports&lt;/em&gt; that &lt;em&gt;month&lt;/em&gt; and that there had been an &lt;em&gt;element&lt;/em&gt; of catching up in the &lt;em&gt;February figures&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Department&lt;/em&gt; said the &lt;em&gt;upward trend&lt;/em&gt; in non-oil &lt;em&gt;export volume continues&lt;/em&gt; and the &lt;em&gt;underlying level&lt;/em&gt; of non-oil &lt;em&gt;import volume seems&lt;/em&gt; to have &lt;em&gt;stablised&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The seasonally &lt;em&gt;adjusted volume index,&lt;/em&gt; base 1980, a &lt;em&gt;guide&lt;/em&gt; to underlying non-oil &lt;em&gt;trade,&lt;/em&gt; showed &lt;em&gt;exports&lt;/em&gt; rising to 131.0 from 114.6 in &lt;em&gt;January&lt;/em&gt; and &lt;em&gt;imports&lt;/em&gt; rising to 142.2 from 136.5.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

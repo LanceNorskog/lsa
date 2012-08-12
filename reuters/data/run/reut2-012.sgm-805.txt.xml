@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-805.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">205</int>
+        <int name="count">136</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">agreement</str>
+        <str name="text">secretary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">strength</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">years</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.9999999999999972</double>
+        <str name="text">gould</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">departure</str>
+        <double name="strength">0.9934327593756564</double>
       </lst>
       <lst name="term">
-        <str name="text">indications</str>
-        <double name="strength">0.8944271909999183</double>
+        <str name="text">cooperation</str>
+        <double name="strength">0.971901761725938</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Before joining the Treasury in November 1985, Gould was a partner at the Wall Steet firm of Wertheim and Co and formerly headed Donaldson, Lufkin and Jenrette Securities Corp.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">176</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He helped Baker devise the September, 1985 Plaza Agreement, when the United States, Japan, West Germany, France and Britain curbed the dollar's strength.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">154</int>
+        <double name="strength">0.9925713665811162</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Darman also worked on some other Baker initiatives, like the Tokyo Summit agreement to intensify coordination of economic policies among the leading industrial countries and the recent Paris Agreement to stabilise currencies and stimulate global growth.</str>
         <int name="index">29</int>
         <int name="start">1</int>
         <int name="end">254</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But they flatly dismissed suggestions that his departure, to the investment banking firm of Shearson Lehman Brothers, signaled the Baker team was breaking up, or that the Treasury Secretary himself might leave soon.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.9116143559316694</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Baker is widely thought to want a more stable currency system and Darman is generally credited by officials of other nations as Baker's leading theorist on this issue, favouring target zones to limit currency fluctuations.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">223</int>
-        <double name="strength">0.8867715124783496</double>
+        <double name="strength">0.9842952039709817</double>
+        <int name="terms">20</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Darman&lt;/em&gt; also &lt;em&gt;worked&lt;/em&gt; on some &lt;em&gt;other Baker initiatives,&lt;/em&gt; like the &lt;em&gt;Tokyo Summit agreement&lt;/em&gt; to &lt;em&gt;intensify coordination&lt;/em&gt; of &lt;em&gt;economic policies among&lt;/em&gt; the &lt;em&gt;leading industrial countries&lt;/em&gt; and the &lt;em&gt;recent Paris Agreement&lt;/em&gt; to &lt;em&gt;stabilise currencies&lt;/em&gt; and &lt;em&gt;stimulate global growth&lt;/em&gt;.</str>
+        <str name="text">Before joining the &lt;em&gt;Treasury&lt;/em&gt; in &lt;em&gt;November 1985, Gould&lt;/em&gt; was a &lt;em&gt;partner&lt;/em&gt; at the Wall &lt;em&gt;Steet&lt;/em&gt; firm of &lt;em&gt;Wertheim&lt;/em&gt; and Co and formerly headed &lt;em&gt;Donaldson, Lufkin&lt;/em&gt; and &lt;em&gt;Jenrette Securities Corp&lt;/em&gt;.</str>
+        <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He helped &lt;em&gt;Baker devise&lt;/em&gt; the &lt;em&gt;September, 1985 Plaza Agreement,&lt;/em&gt; when the United &lt;em&gt;States,&lt;/em&gt; Japan, West &lt;em&gt;Germany, France&lt;/em&gt; and &lt;em&gt;Britain&lt;/em&gt; curbed the &lt;em&gt;dollar&lt;/em&gt;'s &lt;em&gt;strength&lt;/em&gt;.</str>
+        <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Darman&lt;/em&gt; also worked on some &lt;em&gt;other Baker initiatives,&lt;/em&gt; like the &lt;em&gt;Tokyo Summit agreement&lt;/em&gt; to &lt;em&gt;intensify coordination&lt;/em&gt; of &lt;em&gt;economic policies&lt;/em&gt; among the leading &lt;em&gt;industrial countries&lt;/em&gt; and the &lt;em&gt;recent Paris Agreement&lt;/em&gt; to &lt;em&gt;stabilise currencies&lt;/em&gt; and &lt;em&gt;stimulate global growth&lt;/em&gt;.</str>
         <int name="index">29</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But they &lt;em&gt;flatly dismissed suggestions&lt;/em&gt; that his &lt;em&gt;departure,&lt;/em&gt; to the &lt;em&gt;investment banking&lt;/em&gt; firm of &lt;em&gt;Shearson Lehman Brothers, signaled&lt;/em&gt; the &lt;em&gt;Baker&lt;/em&gt; team was &lt;em&gt;breaking&lt;/em&gt; up, or that the &lt;em&gt;Treasury Secretary himself might leave soon&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Baker&lt;/em&gt; is &lt;em&gt;widely thought&lt;/em&gt; to want a more &lt;em&gt;stable currency system&lt;/em&gt; and &lt;em&gt;Darman&lt;/em&gt; is &lt;em&gt;generally credited&lt;/em&gt; by &lt;em&gt;officials&lt;/em&gt; of &lt;em&gt;other nations&lt;/em&gt; as &lt;em&gt;Baker&lt;/em&gt;'s &lt;em&gt;leading theorist&lt;/em&gt; on this &lt;em&gt;issue, favouring target zones&lt;/em&gt; to &lt;em&gt;limit currency fluctuations&lt;/em&gt;.</str>
-        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

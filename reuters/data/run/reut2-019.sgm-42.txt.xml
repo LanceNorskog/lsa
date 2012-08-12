@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-42.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">should</str>
+        <str name="text">people</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">design</str>
-        <double name="strength">0.9999999999999999</double>
+        <str name="text">government</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">mount</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">pressurised</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">osutaka</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">cabin</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">north</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9747506840573468</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The lawyers said Boeing had showed it believed the crash was due to design defects by specifying two design modifications to prevent a recurrence in a memorandum filed in King County, Washington, Superior Court last March 24.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The aircraft hit Mount Osutaka, north of Tokyo, on August 12, 1985, after a bulkhead separating the pressurised cabin from the unpressurised tail suddenly burst, fracturing key navigation systems.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.7842653605647104</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said similar official recommendations for fail-safe systems following two air disasters involving DC-10 aircraft, near Paris in 1974 and at Chicago in 1979, had been rejected after objections from aircraft manufacturers.</str>
-        <int name="index">12</int>
+        <str name="text">The lawyers said Boeing had showed it believed the crash was due to design defects by specifying two design modifications to prevent a recurrence in a memorandum filed in King County, Washington, Superior Court last March 24.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.7328371919545921</double>
+        <double name="strength">0.9028489334182848</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A press statement by a group of lawyers representing victims of the crash criticised the report for not dealing in greater depth with the fail-safe aspect.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">156</int>
+        <double name="strength">0.8753609077149214</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;lawyers&lt;/em&gt; said &lt;em&gt;Boeing&lt;/em&gt; had &lt;em&gt;showed&lt;/em&gt; it &lt;em&gt;believed&lt;/em&gt; the &lt;em&gt;crash&lt;/em&gt; was due to &lt;em&gt;design defects&lt;/em&gt; by &lt;em&gt;specifying&lt;/em&gt; two &lt;em&gt;design modifications&lt;/em&gt; to &lt;em&gt;prevent&lt;/em&gt; a &lt;em&gt;recurrence&lt;/em&gt; in a &lt;em&gt;memorandum filed&lt;/em&gt; in King &lt;em&gt;County, Washington, Superior Court&lt;/em&gt; last &lt;em&gt;March 24&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;aircraft&lt;/em&gt; hit &lt;em&gt;Mount Osutaka, north&lt;/em&gt; of &lt;em&gt;Tokyo,&lt;/em&gt; on &lt;em&gt;August 12, 1985, after&lt;/em&gt; a &lt;em&gt;bulkhead separating&lt;/em&gt; the &lt;em&gt;pressurised cabin&lt;/em&gt; from the &lt;em&gt;unpressurised&lt;/em&gt; tail &lt;em&gt;suddenly burst, fracturing&lt;/em&gt; key &lt;em&gt;navigation systems&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;aircraft&lt;/em&gt; hit &lt;em&gt;Mount Osutaka,&lt;/em&gt; north of &lt;em&gt;Tokyo,&lt;/em&gt; on &lt;em&gt;August 12, 1985,&lt;/em&gt; after a &lt;em&gt;bulkhead&lt;/em&gt; separating the &lt;em&gt;pressurised cabin&lt;/em&gt; from the &lt;em&gt;unpressurised&lt;/em&gt; tail suddenly burst, fracturing key &lt;em&gt;navigation systems&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said &lt;em&gt;similar official recommendations&lt;/em&gt; for fail-safe &lt;em&gt;systems following&lt;/em&gt; two air &lt;em&gt;disasters involving&lt;/em&gt; DC-10 &lt;em&gt;aircraft,&lt;/em&gt; near &lt;em&gt;Paris&lt;/em&gt; in 1974 and at &lt;em&gt;Chicago&lt;/em&gt; in 1979, had been &lt;em&gt;rejected after objections&lt;/em&gt; from &lt;em&gt;aircraft manufacturers&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">The &lt;em&gt;lawyers&lt;/em&gt; said &lt;em&gt;Boeing&lt;/em&gt; had showed it believed the &lt;em&gt;crash&lt;/em&gt; was due to &lt;em&gt;design defects&lt;/em&gt; by specifying two &lt;em&gt;design modifications&lt;/em&gt; to &lt;em&gt;prevent&lt;/em&gt; a &lt;em&gt;recurrence&lt;/em&gt; in a &lt;em&gt;memorandum&lt;/em&gt; filed in King &lt;em&gt;County,&lt;/em&gt; Washington, &lt;em&gt;Superior Court&lt;/em&gt; last &lt;em&gt;March 24&lt;/em&gt;.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;press statement&lt;/em&gt; by a &lt;em&gt;group&lt;/em&gt; of &lt;em&gt;lawyers&lt;/em&gt; representing &lt;em&gt;victims&lt;/em&gt; of the &lt;em&gt;crash&lt;/em&gt; criticised the &lt;em&gt;report&lt;/em&gt; for not dealing in greater &lt;em&gt;depth&lt;/em&gt; with the fail-safe &lt;em&gt;aspect&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

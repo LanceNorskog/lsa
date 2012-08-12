@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-162.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">161</int>
+        <int name="count">118</int>
       </lst>
       <lst name="stems">
-        <int name="count">110</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rights</str>
+        <str name="text">transaction</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">service</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">amount</str>
+        <double name="strength">0.9917320401144681</double>
       </lst>
       <lst name="term">
-        <str name="text">maturity</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">principal</str>
+        <double name="strength">0.9917320401144681</double>
       </lst>
       <lst name="term">
-        <str name="text">committed</str>
-        <double name="strength">0.999999999999996</double>
+        <str name="text">complete</str>
+        <double name="strength">0.9917320401144663</double>
       </lst>
       <lst name="term">
-        <str name="text">taken</str>
-        <double name="strength">0.5</double>
+        <str name="text">manager</str>
+        <double name="strength">0.9917320401144656</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Borg-Warner's spokeswoman said the company still plans to sell its financial services unit, which includes Wells Fargo security guards, and the Chilton Corp, a credit rating service.</str>
-        <int name="index">8</int>
+        <str name="text">Merrill Lynch will be the dealer-manager for the offer, which expires at midnight EDT May 8 (0400 GMT, May 9), subject to conditions, including the completion of necessary financing arrangements.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">183</int>
+        <int name="end">196</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The board of Borg-Warner has also taken steps to redeem its poison pill or share purchase rights for five cents per right, effective immediately.</str>
-        <int name="index">25</int>
+        <str name="text">Merrill Lynch said that following discussions with commercial banks it is confident it can obtain the rest of the financing required to complete the transaction.</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.9071684208476367</double>
+        <int name="end">162</int>
+        <double name="strength">0.9431135348203138</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The junior subordinated discount debentures have a maturity of 20 years and are entitled to a sinking fund commencing in the 16th year designed to retire 60 pct of the issue before maturity.</str>
-        <int name="index">22</int>
+        <str name="text">Merrill Lynch and certain affiliates have committed to provide 200 mln dlrs in AV Holdings equity and 870 mln in subordinated financing and forward underwriting commitments.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">191</int>
-        <double name="strength">0.8854342927888492</double>
+        <int name="end">174</int>
+        <double name="strength">0.9205238619431398</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Borg-&lt;em&gt;Warner&lt;/em&gt;'s &lt;em&gt;spokeswoman&lt;/em&gt; said the &lt;em&gt;company still plans&lt;/em&gt; to sell its &lt;em&gt;financial services&lt;/em&gt; unit, &lt;em&gt;which includes Wells Fargo security guards,&lt;/em&gt; and the &lt;em&gt;Chilton&lt;/em&gt; Corp, a &lt;em&gt;credit rating service&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Merrill Lynch&lt;/em&gt; will be the &lt;em&gt;dealer-manager&lt;/em&gt; for the &lt;em&gt;offer,&lt;/em&gt; which expires at &lt;em&gt;midnight&lt;/em&gt; EDT May 8 (0400 GMT, May 9), &lt;em&gt;subject&lt;/em&gt; to &lt;em&gt;conditions,&lt;/em&gt; including the &lt;em&gt;completion&lt;/em&gt; of &lt;em&gt;necessary financing arrangements&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;board&lt;/em&gt; of Borg-&lt;em&gt;Warner&lt;/em&gt; has also &lt;em&gt;taken steps&lt;/em&gt; to &lt;em&gt;redeem&lt;/em&gt; its &lt;em&gt;poison&lt;/em&gt; pill or &lt;em&gt;share purchase rights&lt;/em&gt; for five &lt;em&gt;cents&lt;/em&gt; per &lt;em&gt;right, effective immediately&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;Merrill Lynch&lt;/em&gt; said that following &lt;em&gt;discussions&lt;/em&gt; with &lt;em&gt;commercial banks&lt;/em&gt; it is &lt;em&gt;confident&lt;/em&gt; it can &lt;em&gt;obtain&lt;/em&gt; the rest of the &lt;em&gt;financing&lt;/em&gt; required to &lt;em&gt;complete&lt;/em&gt; the &lt;em&gt;transaction&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;junior subordinated discount debentures&lt;/em&gt; have a &lt;em&gt;maturity&lt;/em&gt; of 20 &lt;em&gt;years&lt;/em&gt; and are &lt;em&gt;entitled&lt;/em&gt; to a &lt;em&gt;sinking&lt;/em&gt; fund &lt;em&gt;commencing&lt;/em&gt; in the 16th year &lt;em&gt;designed&lt;/em&gt; to &lt;em&gt;retire 60&lt;/em&gt; pct of the &lt;em&gt;issue before maturity&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">&lt;em&gt;Merrill Lynch&lt;/em&gt; and &lt;em&gt;certain affiliates&lt;/em&gt; have committed to &lt;em&gt;provide 200&lt;/em&gt; mln dlrs in AV &lt;em&gt;Holdings equity&lt;/em&gt; and 870 mln in &lt;em&gt;subordinated financing&lt;/em&gt; and forward underwriting &lt;em&gt;commitments&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

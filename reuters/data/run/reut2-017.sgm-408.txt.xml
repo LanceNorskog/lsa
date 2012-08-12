@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-408.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">148</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">rates</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">piasters</str>
-        <double name="strength">0.9999999999999981</double>
+        <str name="text">dollars</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
         <str name="text">energy</str>
-        <double name="strength">0.5590169943749487</double>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">political</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9668760164118344</double>
       </lst>
       <lst name="term">
-        <str name="text">condition</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9668760164118342</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">There was no announcement of increases in more politically sensitive products such as gasoline or natural gas, used for cooking, and the mass-circulation Al-Akhbar newspaper said they would stay the same.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">205</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Official comment was not available on speculation among bankers and diplomats that the Central Bank would soon tinker with the pound's exchange rates to try to channel more dollars into the banking system away from the illegal but tolerated free market.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">254</int>
+        <double name="strength">0.9760099939903024</double>
+        <int name="terms">16</int>
+      </lst>
       <lst name="sentence">
         <str name="text">S. And Western Europe have pledged political backing for President Hosni Mubarak's government, committed to a multi-party political system and peace with Israel and strategically poised in control of the Suez Canal.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">215</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In return, Egypt stands to receive up to one billion dlrs in IMF standby credits phased over three years to help it repay its 38.6 billion dlr foreign debt and guarantee rescheduling by western governments, the main creditors.</str>
-        <int name="index">7</int>
-        <int name="start">0</int>
-        <int name="end">226</int>
-        <double name="strength">0.9410399369240577</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Fuel price rises, postponed at least once and likely to lead to higher retail prices of basic goods, were a test of the government's resolve to pursue economic reform, diplomats said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">184</int>
-        <double name="strength">0.8362842895537149</double>
+        <double name="strength">0.9050456395757488</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. And &lt;em&gt;Western Europe&lt;/em&gt; have &lt;em&gt;pledged political backing&lt;/em&gt; for &lt;em&gt;President Hosni Mubarak&lt;/em&gt;'s &lt;em&gt;government, committed&lt;/em&gt; to a &lt;em&gt;multi-party political system&lt;/em&gt; and &lt;em&gt;peace&lt;/em&gt; with &lt;em&gt;Israel&lt;/em&gt; and &lt;em&gt;strategically poised&lt;/em&gt; in &lt;em&gt;control&lt;/em&gt; of the Suez &lt;em&gt;Canal&lt;/em&gt;.</str>
+        <str name="text">There was no &lt;em&gt;announcement&lt;/em&gt; of &lt;em&gt;increases&lt;/em&gt; in more politically &lt;em&gt;sensitive products&lt;/em&gt; such as &lt;em&gt;gasoline&lt;/em&gt; or &lt;em&gt;natural&lt;/em&gt; gas, used for &lt;em&gt;cooking,&lt;/em&gt; and the mass-&lt;em&gt;circulation&lt;/em&gt; Al-&lt;em&gt;Akhbar newspaper&lt;/em&gt; said they would stay the same.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Official comment&lt;/em&gt; was not &lt;em&gt;available&lt;/em&gt; on &lt;em&gt;speculation&lt;/em&gt; among &lt;em&gt;bankers&lt;/em&gt; and &lt;em&gt;diplomats&lt;/em&gt; that the &lt;em&gt;Central&lt;/em&gt; Bank would soon tinker with the &lt;em&gt;pound&lt;/em&gt;'s &lt;em&gt;exchange rates&lt;/em&gt; to try to &lt;em&gt;channel&lt;/em&gt; more &lt;em&gt;dollars&lt;/em&gt; into the &lt;em&gt;banking system&lt;/em&gt; away from the &lt;em&gt;illegal&lt;/em&gt; but tolerated free &lt;em&gt;market&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. And &lt;em&gt;Western Europe&lt;/em&gt; have pledged &lt;em&gt;political backing&lt;/em&gt; for &lt;em&gt;President Hosni Mubarak&lt;/em&gt;'s &lt;em&gt;government,&lt;/em&gt; committed to a &lt;em&gt;multi-party political system&lt;/em&gt; and &lt;em&gt;peace&lt;/em&gt; with &lt;em&gt;Israel&lt;/em&gt; and strategically poised in &lt;em&gt;control&lt;/em&gt; of the Suez &lt;em&gt;Canal&lt;/em&gt;.</str>
         <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;return, Egypt stands&lt;/em&gt; to &lt;em&gt;receive&lt;/em&gt; up to one &lt;em&gt;billion&lt;/em&gt; dlrs in IMF &lt;em&gt;standby credits phased&lt;/em&gt; over &lt;em&gt;three years&lt;/em&gt; to help it &lt;em&gt;repay&lt;/em&gt; its 38.6 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt and &lt;em&gt;guarantee rescheduling&lt;/em&gt; by &lt;em&gt;western governments,&lt;/em&gt; the main &lt;em&gt;creditors&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Fuel &lt;em&gt;price rises, postponed&lt;/em&gt; at &lt;em&gt;least&lt;/em&gt; once and &lt;em&gt;likely&lt;/em&gt; to lead to &lt;em&gt;higher retail prices&lt;/em&gt; of &lt;em&gt;basic goods,&lt;/em&gt; were a test of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;resolve&lt;/em&gt; to &lt;em&gt;pursue economic reform, diplomats said&lt;/em&gt;.</str>
-        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

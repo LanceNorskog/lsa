@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">43</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-937.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">165</int>
+        <int name="count">108</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">agreed</str>
+        <str name="text">unwiling</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">three</str>
-        <double name="strength">0.8850421960342529</double>
+        <str name="text">board</str>
+        <double name="strength">0.9335850976761033</double>
       </lst>
       <lst name="term">
-        <str name="text">interested</str>
-        <double name="strength">0.8847354965332435</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.932917932153923</double>
       </lst>
       <lst name="term">
-        <str name="text">needed</str>
-        <double name="strength">0.8203866518586406</double>
+        <str name="text">other</str>
+        <double name="strength">0.9324144747906836</double>
       </lst>
       <lst name="term">
-        <str name="text">permission</str>
-        <double name="strength">0.8083395132640152</double>
+        <str name="text">street</str>
+        <double name="strength">0.9324109560416808</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">198</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Several hours before a regularly scheduled board of directors meeting, Gillette disclosed that Perelman requested consent of its board for an offer of at least 40.50 dlrs per share.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">182</int>
-        <double name="strength">0.8039956145369558</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said Perelman, in the process of taking Revlon private after acquiring control of the cosmetics company two years ago, probably wants to concentrate on improving Revlon's operations.</str>
-        <int name="index">13</int>
+        <str name="text">Ronald Perelman, head of Revlon Group Inc &lt;REV&gt;, may be trying to ignite a bidding war for Gillette Co that could draw some big international players and in the process make a lot of money for himself, Wall Street analysts said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">185</int>
-        <double name="strength">0.7815197728887033</double>
+        <int name="end">228</int>
+        <double name="strength">0.8173246386679636</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Revlon stands to make a substantial amount of money if someone else takes over Gillette," said Analyst Deepak Raj of Merrill Lynch and Co. "</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">142</int>
+        <double name="strength">0.7566248503801752</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Shore mentioned&lt;/em&gt; half a &lt;em&gt;dozen other potential buyers&lt;/em&gt; for &lt;em&gt;Gillette including&lt;/em&gt; Sir &lt;em&gt;James Goldsmith, Hanson Trust&lt;/em&gt; plc &lt;HAN&gt;, RJR &lt;em&gt;Nabisco&lt;/em&gt; Inc &lt;RJR&gt;, &lt;em&gt;American Brands&lt;/em&gt; Inc &lt;AMB&gt; and &lt;em&gt;Ralston Purina&lt;/em&gt; Co &lt;RAL&gt;.</str>
+        <str name="text">&lt;em&gt;Shore&lt;/em&gt; mentioned half a &lt;em&gt;dozen other potential buyers&lt;/em&gt; for &lt;em&gt;Gillette&lt;/em&gt; including Sir &lt;em&gt;James&lt;/em&gt; Goldsmith, &lt;em&gt;Hanson Trust&lt;/em&gt; plc &lt;HAN&gt;, RJR &lt;em&gt;Nabisco&lt;/em&gt; Inc &lt;RJR&gt;, &lt;em&gt;American Brands&lt;/em&gt; Inc &lt;AMB&gt; and &lt;em&gt;Ralston Purina&lt;/em&gt; Co &lt;RAL&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Several hours before&lt;/em&gt; a &lt;em&gt;regularly scheduled board&lt;/em&gt; of &lt;em&gt;directors meeting, Gillette disclosed&lt;/em&gt; that &lt;em&gt;Perelman requested consent&lt;/em&gt; of its &lt;em&gt;board&lt;/em&gt; for an &lt;em&gt;offer&lt;/em&gt; of at &lt;em&gt;least 40.50&lt;/em&gt; dlrs per &lt;em&gt;share&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Ronald Perelman,&lt;/em&gt; head of &lt;em&gt;Revlon Group&lt;/em&gt; Inc &lt;REV&gt;, may be trying to &lt;em&gt;ignite&lt;/em&gt; a &lt;em&gt;bidding&lt;/em&gt; war for &lt;em&gt;Gillette&lt;/em&gt; Co that could draw some big &lt;em&gt;international players&lt;/em&gt; and in the &lt;em&gt;process&lt;/em&gt; make a lot of &lt;em&gt;money&lt;/em&gt; for himself, Wall &lt;em&gt;Street analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Perelman,&lt;/em&gt; in the &lt;em&gt;process&lt;/em&gt; of &lt;em&gt;taking Revlon private after acquiring control&lt;/em&gt; of the &lt;em&gt;cosmetics company&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; ago, &lt;em&gt;probably wants&lt;/em&gt; to &lt;em&gt;concentrate&lt;/em&gt; on &lt;em&gt;improving Revlon&lt;/em&gt;'s &lt;em&gt;operations&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;"Revlon&lt;/em&gt; stands to make a &lt;em&gt;substantial amount&lt;/em&gt; of &lt;em&gt;money&lt;/em&gt; if &lt;em&gt;someone&lt;/em&gt; else takes over &lt;em&gt;Gillette,"&lt;/em&gt; said &lt;em&gt;Analyst Deepak&lt;/em&gt; Raj of &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co. "</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

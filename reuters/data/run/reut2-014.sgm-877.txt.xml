@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-877.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">92</int>
+        <int name="count">56</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">decision</str>
+        <str name="text">group</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">affect</str>
-        <double name="strength">1.0</double>
+        <str name="text">airbus</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">programme</str>
-        <double name="strength">1.0</double>
+        <str name="text">available</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">itself</str>
-        <double name="strength">1.0</double>
+        <str name="text">state</str>
+        <double name="strength">0.9730077661055216</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">pathfinder</str>
+        <double name="strength">0.9730077661055216</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said a group board meeting had concluded that a launch would have been premature given the risks involved in trying to meet an availability date of Spring, 1992 required by airlines.</str>
-        <int name="index">1</int>
+        <str name="text">Analysts said that the timing of the postponement of Superfan -- an 30,000 pound thrust upgrade of the consortium's V2500 engine fitted to the A320 -- was embarrassing but should not be considered a serious blow.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">186</int>
+        <int name="end">213</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Rolls, which has been state-owned since 1971, launches its "pathfinder" prospectus giving preliminary details of its public flotation later today.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">147</int>
-        <double name="strength">0.9930633896661885</double>
+        <double name="strength">0.9880218311004441</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Analysts said that the timing of the postponement of Superfan -- an 30,000 pound thrust upgrade of the consortium's V2500 engine fitted to the A320 -- was embarrassing but should not be considered a serious blow.</str>
-        <int name="index">10</int>
+        <str name="text">He said a group board meeting had concluded that a launch would have been premature given the risks involved in trying to meet an availability date of Spring, 1992 required by airlines.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.9404518766540915</double>
+        <int name="end">186</int>
+        <double name="strength">0.9851200856797748</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said a &lt;em&gt;group board meeting&lt;/em&gt; had &lt;em&gt;concluded&lt;/em&gt; that a &lt;em&gt;launch would&lt;/em&gt; have been &lt;em&gt;premature given&lt;/em&gt; the &lt;em&gt;risks involved&lt;/em&gt; in &lt;em&gt;trying&lt;/em&gt; to meet an &lt;em&gt;availability&lt;/em&gt; date of &lt;em&gt;Spring, 1992 required&lt;/em&gt; by &lt;em&gt;airlines&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said that the &lt;em&gt;timing&lt;/em&gt; of the &lt;em&gt;postponement&lt;/em&gt; of &lt;em&gt;Superfan --&lt;/em&gt; an 30,000 &lt;em&gt;pound&lt;/em&gt; thrust &lt;em&gt;upgrade&lt;/em&gt; of the &lt;em&gt;consortium&lt;/em&gt;'s V2500 &lt;em&gt;engine&lt;/em&gt; fitted to the A320 -- was &lt;em&gt;embarrassing&lt;/em&gt; but should not be considered a &lt;em&gt;serious blow&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Rolls, which&lt;/em&gt; has been &lt;em&gt;state-owned since 1971, launches&lt;/em&gt; its "&lt;em&gt;pathfinder" prospectus giving preliminary details&lt;/em&gt; of its &lt;em&gt;public flotation later today&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Rolls,&lt;/em&gt; which has been &lt;em&gt;state&lt;/em&gt;-owned since 1971, &lt;em&gt;launches&lt;/em&gt; its "&lt;em&gt;pathfinder" prospectus&lt;/em&gt; giving &lt;em&gt;preliminary details&lt;/em&gt; of its &lt;em&gt;public flotation&lt;/em&gt; later today.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said that the &lt;em&gt;timing&lt;/em&gt; of the &lt;em&gt;postponement&lt;/em&gt; of &lt;em&gt;Superfan --&lt;/em&gt; an 30,000 &lt;em&gt;pound thrust upgrade&lt;/em&gt; of the &lt;em&gt;consortium&lt;/em&gt;'s V2500 &lt;em&gt;engine fitted&lt;/em&gt; to the A320 -- was &lt;em&gt;embarrassing&lt;/em&gt; but &lt;em&gt;should&lt;/em&gt; not be &lt;em&gt;considered&lt;/em&gt; a &lt;em&gt;serious blow&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">He said a &lt;em&gt;group board meeting&lt;/em&gt; had concluded that a &lt;em&gt;launch&lt;/em&gt; would have been &lt;em&gt;premature&lt;/em&gt; given the &lt;em&gt;risks&lt;/em&gt; involved in trying to meet an &lt;em&gt;availability&lt;/em&gt; date of &lt;em&gt;Spring, 1992&lt;/em&gt; required by &lt;em&gt;airlines&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

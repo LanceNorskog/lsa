@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-358.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">171</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">status</str>
+        <str name="text">reserve</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">veteran</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">mexican</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">england</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">crisis</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">deserves</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">hormats</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">credit</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Volcker's expertise will be all the more sorely missed because International Monetary Fund managing director Michel Camdessus is new to his job and Barber Conable is finding it hard to make a mark as World Bank president, bankers said.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">236</int>
+        <str name="text">Paul Volcker's resignation as Federal Reserve Board chairman creates a serious leadership vacuum at a time of deep uncertainty about the future management of the third-world debt crisis, bankers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">200</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That decision, since followed by Chase Manhattan and Security Pacific Corp, may profoundly alter the strategy of creditors and debtors alike for tackling the debt crisis.</str>
-        <int name="index">26</int>
+        <str name="text">Another critic was Citicorp chairman John Reed, who said the 13/16 pct interest margin would deter some bank lenders and thus delay Mexico's return to the voluntary markets.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.9763417484279932</double>
+        <int name="end">174</int>
+        <double name="strength">0.9909699546686818</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">It was a review of the fate of the Mexican deal - and of others that followed it for Chile, Venezuela, the Philippines and Argentina - that helped to convince Reed that the debt crisis was not about to be solved and that Citicorp needed to bolster its reserves in case some of the loans went bad.</str>
         <int name="index">24</int>
         <int name="start">1</int>
         <int name="end">297</int>
-        <double name="strength">0.9590395791102115</double>
+        <double name="strength">0.9783313491995167</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Volcker&lt;/em&gt;'s &lt;em&gt;expertise&lt;/em&gt; will be all the more &lt;em&gt;sorely missed because International Monetary&lt;/em&gt; Fund &lt;em&gt;managing director Michel Camdessus&lt;/em&gt; is new to his job and &lt;em&gt;Barber Conable&lt;/em&gt; is &lt;em&gt;finding&lt;/em&gt; it hard to make a mark as &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;president, bankers said&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Paul &lt;em&gt;Volcker&lt;/em&gt;'s &lt;em&gt;resignation&lt;/em&gt; as &lt;em&gt;Federal Reserve Board chairman&lt;/em&gt; creates a &lt;em&gt;serious leadership vacuum&lt;/em&gt; at a time of deep &lt;em&gt;uncertainty&lt;/em&gt; about the &lt;em&gt;future management&lt;/em&gt; of the &lt;em&gt;third-world&lt;/em&gt; debt &lt;em&gt;crisis, bankers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">That &lt;em&gt;decision, since followed&lt;/em&gt; by &lt;em&gt;Chase Manhattan&lt;/em&gt; and &lt;em&gt;Security Pacific&lt;/em&gt; Corp, may &lt;em&gt;profoundly alter&lt;/em&gt; the &lt;em&gt;strategy&lt;/em&gt; of &lt;em&gt;creditors&lt;/em&gt; and &lt;em&gt;debtors alike&lt;/em&gt; for &lt;em&gt;tackling&lt;/em&gt; the debt &lt;em&gt;crisis&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">Another &lt;em&gt;critic&lt;/em&gt; was &lt;em&gt;Citicorp chairman&lt;/em&gt; John Reed, who said the 13/16 pct &lt;em&gt;interest margin&lt;/em&gt; would &lt;em&gt;deter&lt;/em&gt; some bank &lt;em&gt;lenders&lt;/em&gt; and thus &lt;em&gt;delay Mexico&lt;/em&gt;'s &lt;em&gt;return&lt;/em&gt; to the &lt;em&gt;voluntary markets&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It was a &lt;em&gt;review&lt;/em&gt; of the fate of the &lt;em&gt;Mexican&lt;/em&gt; deal - and of &lt;em&gt;others&lt;/em&gt; that &lt;em&gt;followed&lt;/em&gt; it for &lt;em&gt;Chile, Venezuela,&lt;/em&gt; the &lt;em&gt;Philippines&lt;/em&gt; and &lt;em&gt;Argentina -&lt;/em&gt; that &lt;em&gt;helped&lt;/em&gt; to &lt;em&gt;convince&lt;/em&gt; Reed that the debt &lt;em&gt;crisis&lt;/em&gt; was not &lt;em&gt;about&lt;/em&gt; to be &lt;em&gt;solved&lt;/em&gt; and that &lt;em&gt;Citicorp needed&lt;/em&gt; to &lt;em&gt;bolster&lt;/em&gt; its &lt;em&gt;reserves&lt;/em&gt; in case some of the &lt;em&gt;loans&lt;/em&gt; went bad.</str>
+        <str name="text">It was a &lt;em&gt;review&lt;/em&gt; of the fate of the &lt;em&gt;Mexican&lt;/em&gt; deal - and of &lt;em&gt;others&lt;/em&gt; that followed it for &lt;em&gt;Chile, Venezuela,&lt;/em&gt; the &lt;em&gt;Philippines&lt;/em&gt; and &lt;em&gt;Argentina -&lt;/em&gt; that helped to &lt;em&gt;convince&lt;/em&gt; Reed that the debt &lt;em&gt;crisis&lt;/em&gt; was not about to be solved and that Citicorp needed to &lt;em&gt;bolster&lt;/em&gt; its &lt;em&gt;reserves&lt;/em&gt; in case some of the &lt;em&gt;loans&lt;/em&gt; went bad.</str>
         <int name="index">24</int>
       </lst>
     </lst>

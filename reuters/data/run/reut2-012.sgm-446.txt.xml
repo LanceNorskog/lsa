@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-446.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">188</int>
+        <int name="count">130</int>
       </lst>
       <lst name="stems">
-        <int name="count">120</int>
+        <int name="count">78</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">march</str>
+        <str name="text">skeoch</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.5590169943749497</double>
+        <str name="text">economist</str>
+        <double name="strength">0.9902130691945696</double>
       </lst>
       <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9902130691945671</double>
       </lst>
       <lst name="term">
-        <str name="text">february</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">brett</str>
+        <double name="strength">0.9902130691945671</double>
       </lst>
       <lst name="term">
-        <str name="text">agreement</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">capel</str>
+        <double name="strength">0.9902130691945659</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Base rates have been cut twice by one-half point in March, the last after the March 17 budget presentation, and analysts had been expecting another half point cut shortly afterwards.</str>
-        <int name="index">38</int>
-        <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In an apparent break with the previous policy of secrecy, Lawson told a National Economic Development Council meeting he was comfortable with sterling exchange rates around current levels, specifying rates of around 1.90 marks and 1.60 dlrs.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.9312004994003121</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The February 22 Paris agreement of the Group of Five and Canada to stabilise exchange rates is widely believed to include target ranges, but all participants to the meeting had so far refused to specify these.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.9227145546415565</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Chris Dunn, economist at Royal Bank of Canada, said the remarks may signal a decisive move to insulate sterling from the fortunes of the dollar.</str>
+        <int name="index">27</int>
+        <int name="start">0</int>
+        <int name="end">144</int>
+        <double name="strength">0.8867490966279912</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Chancellor of the Exchequer Nigel Lawson's remarks yesterday suggesting there are precise exchange rate targets for the pound undermined sterling, dashing hopes for an early cut in U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">183</int>
+        <double name="strength">0.8541629094084056</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Base &lt;em&gt;rates&lt;/em&gt; have been cut &lt;em&gt;twice&lt;/em&gt; by one-half &lt;em&gt;point&lt;/em&gt; in &lt;em&gt;March,&lt;/em&gt; the last &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;March 17 budget presentation,&lt;/em&gt; and &lt;em&gt;analysts&lt;/em&gt; had been &lt;em&gt;expecting another&lt;/em&gt; half &lt;em&gt;point&lt;/em&gt; cut &lt;em&gt;shortly afterwards&lt;/em&gt;.</str>
-        <int name="index">38</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In an &lt;em&gt;apparent break&lt;/em&gt; with the &lt;em&gt;previous policy&lt;/em&gt; of &lt;em&gt;secrecy, Lawson&lt;/em&gt; told a &lt;em&gt;National Economic Development Council meeting&lt;/em&gt; he was &lt;em&gt;comfortable&lt;/em&gt; with &lt;em&gt;sterling exchange rates around current levels, specifying rates&lt;/em&gt; of &lt;em&gt;around 1.90 marks&lt;/em&gt; and 1.60 dlrs.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;February 22 Paris agreement&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five and &lt;em&gt;Canada&lt;/em&gt; to &lt;em&gt;stabilise exchange rates&lt;/em&gt; is &lt;em&gt;widely believed&lt;/em&gt; to &lt;em&gt;include target ranges,&lt;/em&gt; but all &lt;em&gt;participants&lt;/em&gt; to the &lt;em&gt;meeting&lt;/em&gt; had so far &lt;em&gt;refused&lt;/em&gt; to &lt;em&gt;specify these&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;February 22 Paris agreement&lt;/em&gt; of the &lt;em&gt;Group&lt;/em&gt; of Five and &lt;em&gt;Canada&lt;/em&gt; to &lt;em&gt;stabilise exchange rates&lt;/em&gt; is widely believed to &lt;em&gt;include target ranges,&lt;/em&gt; but all &lt;em&gt;participants&lt;/em&gt; to the &lt;em&gt;meeting&lt;/em&gt; had so far refused to &lt;em&gt;specify these&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chris&lt;/em&gt; Dunn, &lt;em&gt;economist&lt;/em&gt; at &lt;em&gt;Royal&lt;/em&gt; Bank of &lt;em&gt;Canada,&lt;/em&gt; said the &lt;em&gt;remarks&lt;/em&gt; may &lt;em&gt;signal&lt;/em&gt; a &lt;em&gt;decisive&lt;/em&gt; move to &lt;em&gt;insulate sterling&lt;/em&gt; from the &lt;em&gt;fortunes&lt;/em&gt; of the &lt;em&gt;dollar&lt;/em&gt;.</str>
+        <int name="index">27</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chancellor&lt;/em&gt; of the &lt;em&gt;Exchequer Nigel Lawson&lt;/em&gt;'s &lt;em&gt;remarks yesterday&lt;/em&gt; suggesting there are &lt;em&gt;precise exchange&lt;/em&gt; rate &lt;em&gt;targets&lt;/em&gt; for the &lt;em&gt;pound&lt;/em&gt; undermined &lt;em&gt;sterling,&lt;/em&gt; dashing &lt;em&gt;hopes&lt;/em&gt; for an &lt;em&gt;early&lt;/em&gt; cut in U.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

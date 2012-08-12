@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-94.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">64</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">rates</str>
+        <str name="text">statement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forecasters</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">position</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">spokesman</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">added</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">intensification</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">external</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">168</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Bundesbank has also ruled out a quick cut in official interest rates although it sees market rates continuing low.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">119</int>
-        <double name="strength">0.9681727586366152</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The stance taken by the experts backs up the official position of the West German government ahead of next week's seven nation summit in Venice, where Bonn is expected to be pressed by the U.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">192</int>
-        <double name="strength">0.9440478881361578</double>
+        <double name="strength">0.8689824972917284</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A statement released by Ost after a meeting of Chancellor Helmut Kohl and senior government officials with the council said the experts believed 1987 ecomomic growth of 1-1/2 to two pct was achievable.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">202</int>
+        <double name="strength">0.8614897727940933</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Along&lt;/em&gt; with &lt;em&gt;other leading industrial countries,&lt;/em&gt; West &lt;em&gt;Germany agreed&lt;/em&gt; to a &lt;em&gt;package&lt;/em&gt; of &lt;em&gt;measures&lt;/em&gt; at a &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Paris&lt;/em&gt; in &lt;em&gt;February aimed&lt;/em&gt; at &lt;em&gt;stemming&lt;/em&gt; the fall of the &lt;em&gt;dollar&lt;/em&gt;.</str>
+        <str name="text">Along with &lt;em&gt;other&lt;/em&gt; leading &lt;em&gt;industrial countries,&lt;/em&gt; West &lt;em&gt;Germany&lt;/em&gt; agreed to a &lt;em&gt;package&lt;/em&gt; of &lt;em&gt;measures&lt;/em&gt; at a &lt;em&gt;meeting&lt;/em&gt; in &lt;em&gt;Paris&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; aimed at stemming the fall of the &lt;em&gt;dollar&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Bundesbank&lt;/em&gt; has also &lt;em&gt;ruled&lt;/em&gt; out a &lt;em&gt;quick&lt;/em&gt; cut in &lt;em&gt;official interest rates although&lt;/em&gt; it sees &lt;em&gt;market rates continuing low&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The &lt;em&gt;stance&lt;/em&gt; taken by the &lt;em&gt;experts&lt;/em&gt; backs up the &lt;em&gt;official position&lt;/em&gt; of the West &lt;em&gt;German government&lt;/em&gt; ahead of next week's &lt;em&gt;seven nation summit&lt;/em&gt; in &lt;em&gt;Venice,&lt;/em&gt; where Bonn is expected to be pressed by the U.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;stance taken&lt;/em&gt; by the &lt;em&gt;experts backs&lt;/em&gt; up the &lt;em&gt;official position&lt;/em&gt; of the West &lt;em&gt;German government ahead&lt;/em&gt; of next week's &lt;em&gt;seven nation summit&lt;/em&gt; in &lt;em&gt;Venice, where&lt;/em&gt; Bonn is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;pressed&lt;/em&gt; by the U.</str>
-        <int name="index">7</int>
+        <str name="text">A &lt;em&gt;statement&lt;/em&gt; released by Ost after a &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;Chancellor Helmut&lt;/em&gt; Kohl and &lt;em&gt;senior government officials&lt;/em&gt; with the &lt;em&gt;council&lt;/em&gt; said the &lt;em&gt;experts&lt;/em&gt; believed 1987 &lt;em&gt;ecomomic growth&lt;/em&gt; of 1-1/2 to two pct was achievable.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

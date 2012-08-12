@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-43.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">republican</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">wilson</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">duties</str>
+        <double name="strength">0.9840716504496528</double>
       </lst>
       <lst name="term">
-        <str name="text">clear</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9840716504496525</double>
       </lst>
       <lst name="term">
-        <str name="text">introduced</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9840716504496523</double>
       </lst>
       <lst name="term">
-        <str name="text">house</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">determination</str>
+        <double name="strength">0.9840716504496518</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Although the senators said Baldrige told them no decision would be taken until a final determination is made on whether Japanese microchips were dumped in the United States, they said they were virtually sure Japan would face penalties.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The semiconductor industry produces microprocessor chips which are used in high technology products ranging from radios to defence missile guidance systems.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">157</int>
-        <double name="strength">0.967344299489085</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The United States will likely impose sanctions soon on imports of Japanese microchips, senators said today after a private meeting with Commerce Secretary Malcolm Baldrige.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">172</int>
-        <double name="strength">0.880629803553368</double>
+        <double name="strength">0.9456308980330402</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">James McClure, an Idaho Republican, said Baldrige told them the administration had not made a final determination that Japanese companies had dumped semiconductor microchips below the cost of production in the United States or other countries.</str>
+        <int name="index">17</int>
+        <int name="start">0</int>
+        <int name="end">243</int>
+        <double name="strength">0.9421854921458069</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;senators&lt;/em&gt; said &lt;em&gt;Baldrige&lt;/em&gt; told them no &lt;em&gt;decision would&lt;/em&gt; be &lt;em&gt;taken until&lt;/em&gt; a &lt;em&gt;final determination&lt;/em&gt; is made on &lt;em&gt;whether Japanese microchips&lt;/em&gt; were &lt;em&gt;dumped&lt;/em&gt; in the &lt;em&gt;United States,&lt;/em&gt; they said they were &lt;em&gt;virtually&lt;/em&gt; sure &lt;em&gt;Japan would&lt;/em&gt; face &lt;em&gt;penalties&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;semiconductor industry produces microprocessor chips which&lt;/em&gt; are used in high &lt;em&gt;technology products ranging&lt;/em&gt; from &lt;em&gt;radios&lt;/em&gt; to &lt;em&gt;defence missile guidance systems&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;semiconductor industry&lt;/em&gt; produces &lt;em&gt;microprocessor chips&lt;/em&gt; which are used in high &lt;em&gt;technology products&lt;/em&gt; ranging from &lt;em&gt;radios&lt;/em&gt; to &lt;em&gt;defence missile guidance systems&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; will &lt;em&gt;likely impose sanctions&lt;/em&gt; soon on &lt;em&gt;imports&lt;/em&gt; of &lt;em&gt;Japanese microchips, senators&lt;/em&gt; said &lt;em&gt;today after&lt;/em&gt; a &lt;em&gt;private meeting&lt;/em&gt; with &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt;.</str>
+        <str name="text">The United &lt;em&gt;States&lt;/em&gt; will likely &lt;em&gt;impose sanctions&lt;/em&gt; soon on &lt;em&gt;imports&lt;/em&gt; of &lt;em&gt;Japanese microchips, senators&lt;/em&gt; said &lt;em&gt;today&lt;/em&gt; after a &lt;em&gt;private meeting&lt;/em&gt; with &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt;.</str>
         <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;James McClure,&lt;/em&gt; an &lt;em&gt;Idaho Republican,&lt;/em&gt; said &lt;em&gt;Baldrige&lt;/em&gt; told them the &lt;em&gt;administration&lt;/em&gt; had not made a &lt;em&gt;final determination&lt;/em&gt; that &lt;em&gt;Japanese companies&lt;/em&gt; had dumped &lt;em&gt;semiconductor microchips&lt;/em&gt; below the cost of &lt;em&gt;production&lt;/em&gt; in the United &lt;em&gt;States&lt;/em&gt; or &lt;em&gt;other countries&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-54.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">189</int>
+        <int name="count">134</int>
       </lst>
       <lst name="stems">
-        <int name="count">119</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">attractive</str>
+        <str name="text">state</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">facility</str>
-        <double name="strength">0.9999999999999999</double>
+        <str name="text">inflation</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">lender</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">estenssoro</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">agencies</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999962</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Bolivia, once Latin America's most delinquent debtor, is preparing for a second International Monetary Fund agreement after an economic stabilisation program has effectively slowed inflation and reduced public spending.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">219</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Nogales said Bolivia was expecting some 400 mln dlrs in disbursements this year from lender countries and international agencies, including the World Bank and the Inter-American Development Bank, although diplomatic and banking sources put the figure at closer to 300 mln dlrs.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">278</int>
-        <double name="strength">0.9480240384926897</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Paz estenssoro froze public sector wages, set a market- related rate for the peso, introduced tax reforms and laid off thousands of workers in state corporations.</str>
-        <int name="index">14</int>
+        <str name="text">The price of tin, which accounted for some 45 pct of Bolivia's exports in 1984, has collapsed on the world markets, and gas, the country's major revenue earner, is in abundant supply in the region.</str>
+        <int name="index">25</int>
         <int name="start">1</int>
-        <int name="end">163</int>
-        <double name="strength">0.879401416540683</double>
+        <int name="end">198</int>
+        <double name="strength">0.9536107040232707</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Bolivian government has yet to draw up proposals for debt-equity swaps, but the banker said it was planning to privatise more than 100 state companies and these could serve as a basis for such a scheme.</str>
+        <int name="index">21</int>
+        <int name="start">1</int>
+        <int name="end">207</int>
+        <double name="strength">0.9451432148385239</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bolivia,&lt;/em&gt; once &lt;em&gt;Latin America&lt;/em&gt;'s most &lt;em&gt;delinquent debtor,&lt;/em&gt; is &lt;em&gt;preparing&lt;/em&gt; for a &lt;em&gt;second International Monetary&lt;/em&gt; Fund &lt;em&gt;agreement after&lt;/em&gt; an &lt;em&gt;economic stabilisation program&lt;/em&gt; has &lt;em&gt;effectively slowed inflation&lt;/em&gt; and &lt;em&gt;reduced public spending&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Nogales&lt;/em&gt; said &lt;em&gt;Bolivia&lt;/em&gt; was &lt;em&gt;expecting&lt;/em&gt; some 400 mln dlrs in &lt;em&gt;disbursements&lt;/em&gt; this year from &lt;em&gt;lender countries&lt;/em&gt; and &lt;em&gt;international agencies, including&lt;/em&gt; the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;Inter-American Development&lt;/em&gt; Bank, &lt;em&gt;although diplomatic&lt;/em&gt; and &lt;em&gt;banking sources&lt;/em&gt; put the &lt;em&gt;figure&lt;/em&gt; at &lt;em&gt;closer&lt;/em&gt; to 300 mln dlrs.</str>
+        <str name="text">&lt;em&gt;Nogales&lt;/em&gt; said &lt;em&gt;Bolivia&lt;/em&gt; was expecting some 400 mln dlrs in &lt;em&gt;disbursements&lt;/em&gt; this year from &lt;em&gt;lender countries&lt;/em&gt; and &lt;em&gt;international agencies,&lt;/em&gt; including the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;Inter&lt;/em&gt;-American &lt;em&gt;Development&lt;/em&gt; Bank, although &lt;em&gt;diplomatic&lt;/em&gt; and &lt;em&gt;banking sources&lt;/em&gt; put the &lt;em&gt;figure&lt;/em&gt; at closer to 300 mln dlrs.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Paz &lt;em&gt;estenssoro froze public sector wages,&lt;/em&gt; set a &lt;em&gt;market- related&lt;/em&gt; rate for the peso, &lt;em&gt;introduced&lt;/em&gt; tax &lt;em&gt;reforms&lt;/em&gt; and laid off &lt;em&gt;thousands&lt;/em&gt; of &lt;em&gt;workers&lt;/em&gt; in &lt;em&gt;state corporations&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;price&lt;/em&gt; of tin, which accounted for some 45 pct of &lt;em&gt;Bolivia&lt;/em&gt;'s &lt;em&gt;exports&lt;/em&gt; in 1984, has collapsed on the &lt;em&gt;world markets,&lt;/em&gt; and gas, the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;major revenue earner,&lt;/em&gt; is in &lt;em&gt;abundant supply&lt;/em&gt; in the &lt;em&gt;region&lt;/em&gt;.</str>
+        <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Bolivian government&lt;/em&gt; has yet to draw up &lt;em&gt;proposals&lt;/em&gt; for debt-&lt;em&gt;equity swaps,&lt;/em&gt; but the &lt;em&gt;banker&lt;/em&gt; said it was planning to &lt;em&gt;privatise&lt;/em&gt; more than 100 &lt;em&gt;state companies&lt;/em&gt; and these could &lt;em&gt;serve&lt;/em&gt; as a &lt;em&gt;basis&lt;/em&gt; for such a &lt;em&gt;scheme&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
     </lst>
   </lst>

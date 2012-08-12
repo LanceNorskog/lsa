@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-749.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">163</int>
+        <int name="count">118</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">sugar</str>
+        <str name="text">change</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">clear</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">communists</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">proposal</str>
-        <double name="strength">0.8944271909999165</double>
+        <str name="text">diplomats</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">visit</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">leaders</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">refrain</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">western</str>
+        <double name="strength">0.9836823252851263</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">An official newspaper said earlier this year that over 40 pct of the country's sugar mills were losing money, or had closed because the price of sugar had not changed for 20 years, while the production costs have risen sharply over the same period.</str>
-        <int name="index">19</int>
+        <str name="text">The backtracking has occurred during a conservative backlash following the resignation in January of reformist Communist Party leader Hu Yaobang, western diplomats and Chinese sources say.</str>
+        <int name="index">2</int>
         <int name="start">0</int>
-        <int name="end">248</int>
+        <int name="end">188</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"A major review of all economic reforms is under way, the biggest since the reforms began in 1979, because many things are not going well -- a large budget deficit, too rapid price increases and no major improvement in productivity of state firms," the Chinese journalist said.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">278</int>
-        <double name="strength">0.9915078741575563</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Said a foreign lawyer, referring to the crisis sparked by student demonstrations which led to Hu's replacement, "The leadership here is a self-perpetuating oligarchy.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.9324504648847903</double>
+        <double name="strength">0.9495527333523609</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"In future, price changes should be only in small steps," it said, adding that wage increases and lax monetary policies had resulted in too much money chasing too few goods.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">0.9137995720955097</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;official newspaper&lt;/em&gt; said &lt;em&gt;earlier&lt;/em&gt; this year that over 40 pct of the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;sugar mills&lt;/em&gt; were &lt;em&gt;losing money,&lt;/em&gt; or had &lt;em&gt;closed because&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; of &lt;em&gt;sugar&lt;/em&gt; had not &lt;em&gt;changed&lt;/em&gt; for 20 &lt;em&gt;years, while&lt;/em&gt; the &lt;em&gt;production costs&lt;/em&gt; have &lt;em&gt;risen sharply&lt;/em&gt; over the same &lt;em&gt;period&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">The &lt;em&gt;backtracking&lt;/em&gt; has occurred during a &lt;em&gt;conservative backlash&lt;/em&gt; following the &lt;em&gt;resignation&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; of &lt;em&gt;reformist Communist Party leader&lt;/em&gt; Hu &lt;em&gt;Yaobang, western diplomats&lt;/em&gt; and &lt;em&gt;Chinese sources say&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"A &lt;em&gt;major review&lt;/em&gt; of all &lt;em&gt;economic reforms&lt;/em&gt; is &lt;em&gt;under&lt;/em&gt; way, the &lt;em&gt;biggest since&lt;/em&gt; the &lt;em&gt;reforms began&lt;/em&gt; in 1979, &lt;em&gt;because&lt;/em&gt; many &lt;em&gt;things&lt;/em&gt; are not &lt;em&gt;going&lt;/em&gt; well -- a &lt;em&gt;large budget deficit,&lt;/em&gt; too &lt;em&gt;rapid price increases&lt;/em&gt; and no &lt;em&gt;major improvement&lt;/em&gt; in &lt;em&gt;productivity&lt;/em&gt; of &lt;em&gt;state firms,"&lt;/em&gt; the &lt;em&gt;Chinese journalist said&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Said a &lt;em&gt;foreign lawyer, referring&lt;/em&gt; to the &lt;em&gt;crisis sparked&lt;/em&gt; by &lt;em&gt;student demonstrations which&lt;/em&gt; led to Hu's &lt;em&gt;replacement, &lt;/em&gt;"The &lt;em&gt;leadership&lt;/em&gt; here is a self-&lt;em&gt;perpetuating oligarchy&lt;/em&gt;.</str>
+        <str name="text">Said a &lt;em&gt;foreign lawyer,&lt;/em&gt; referring to the &lt;em&gt;crisis&lt;/em&gt; sparked by &lt;em&gt;student demonstrations&lt;/em&gt; which led to Hu's &lt;em&gt;replacement, &lt;/em&gt;"The &lt;em&gt;leadership&lt;/em&gt; here is a self-&lt;em&gt;perpetuating oligarchy&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"In &lt;em&gt;future, price changes&lt;/em&gt; should be only in &lt;em&gt;small steps,"&lt;/em&gt; it said, adding that wage &lt;em&gt;increases&lt;/em&gt; and lax &lt;em&gt;monetary policies&lt;/em&gt; had resulted in too much &lt;em&gt;money chasing&lt;/em&gt; too few &lt;em&gt;goods&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

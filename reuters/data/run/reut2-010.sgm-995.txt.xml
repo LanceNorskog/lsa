@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-995.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">182</int>
+        <int name="count">131</int>
       </lst>
       <lst name="stems">
-        <int name="count">114</int>
+        <int name="count">79</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">itself</str>
+        <str name="text">pullbacks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">usually</str>
-        <double name="strength">0.5000000000000043</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999964</double>
       </lst>
       <lst name="term">
-        <str name="text">strikes</str>
-        <double name="strength">0.5000000000000043</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9941728092057428</double>
       </lst>
       <lst name="term">
-        <str name="text">slowly</str>
-        <double name="strength">0.5000000000000043</double>
+        <str name="text">interests</str>
+        <double name="strength">0.9941728092057411</double>
       </lst>
       <lst name="term">
-        <str name="text">baird</str>
-        <double name="strength">0.5000000000000029</double>
+        <str name="text">investors</str>
+        <double name="strength">0.958004984527131</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"The market was looking for a reason to knock itself down a little bit, and with the trade sanctions coming largely as a surprise, this was the think the market attached itself to," said Gary Ciminero of Fleet Financial Group.</str>
-        <int name="index">36</int>
-        <int name="start">1</int>
-        <int name="end">227</int>
+        <str name="text">He said over the weekend, investors pondered President Reagan's decision to impose tariffs on Japanese electronic goods and some concluded the step could signal the beginning of a trade war.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">190</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Business conditions seem to be getting better according to what he hears from a broad cross-section of companies, from retailers to machinery manufacturers.</str>
         <int name="index">25</int>
         <int name="start">0</int>
         <int name="end">156</int>
-        <double name="strength">0.9089165946821607</double>
+        <double name="strength">0.8851126820397174</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said over the weekend, investors pondered President Reagan's decision to impose tariffs on Japanese electronic goods and some concluded the step could signal the beginning of a trade war.</str>
-        <int name="index">3</int>
-        <int name="start">0</int>
-        <int name="end">190</int>
-        <double name="strength">0.8843043652089025</double>
+        <str name="text">The Dow Jones Industrial Average plunged 79 points in 30 minutes before stabilizing and making a partial recovery.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">0.7603001589140103</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;market&lt;/em&gt; was &lt;em&gt;looking&lt;/em&gt; for a &lt;em&gt;reason&lt;/em&gt; to &lt;em&gt;knock itself&lt;/em&gt; down a &lt;em&gt;little&lt;/em&gt; bit, and with the &lt;em&gt;trade sanctions coming largely&lt;/em&gt; as a &lt;em&gt;surprise,&lt;/em&gt; this was the &lt;em&gt;think&lt;/em&gt; the &lt;em&gt;market attached itself&lt;/em&gt; to," said Gary &lt;em&gt;Ciminero&lt;/em&gt; of &lt;em&gt;Fleet Financial Group&lt;/em&gt;.</str>
-        <int name="index">36</int>
+        <str name="text">He said over the &lt;em&gt;weekend, investors&lt;/em&gt; pondered &lt;em&gt;President Reagan&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;impose tariffs&lt;/em&gt; on &lt;em&gt;Japanese electronic goods&lt;/em&gt; and some concluded the step could &lt;em&gt;signal&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of a &lt;em&gt;trade war&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Business conditions&lt;/em&gt; seem to be &lt;em&gt;getting better according&lt;/em&gt; to what he &lt;em&gt;hears&lt;/em&gt; from a &lt;em&gt;broad cross-section&lt;/em&gt; of &lt;em&gt;companies,&lt;/em&gt; from &lt;em&gt;retailers&lt;/em&gt; to &lt;em&gt;machinery manufacturers&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Business conditions&lt;/em&gt; seem to be getting better according to what he hears from a &lt;em&gt;broad cross-section&lt;/em&gt; of &lt;em&gt;companies,&lt;/em&gt; from &lt;em&gt;retailers&lt;/em&gt; to &lt;em&gt;machinery manufacturers&lt;/em&gt;.</str>
         <int name="index">25</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said over the &lt;em&gt;weekend, investors pondered President Reagan&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;impose tariffs&lt;/em&gt; on &lt;em&gt;Japanese electronic goods&lt;/em&gt; and some &lt;em&gt;concluded&lt;/em&gt; the step &lt;em&gt;could signal&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of a &lt;em&gt;trade war&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The Dow &lt;em&gt;Jones Industrial Average&lt;/em&gt; plunged 79 &lt;em&gt;points&lt;/em&gt; in 30 &lt;em&gt;minutes&lt;/em&gt; before stabilizing and making a &lt;em&gt;partial recovery&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

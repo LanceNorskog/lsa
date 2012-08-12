@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-309.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">61</int>
+        <int name="count">41</int>
       </lst>
       <lst name="stems">
-        <int name="count">37</int>
+        <int name="count">23</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">common</str>
+        <str name="text">spokeswoman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">announced</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">value</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">dividends</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">receiving</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">major</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">previously</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">regional</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Security Pacific said the Federal Reserve Board approved on Wednesday its purchase of the Portland, Ore.-based bank holding company and financial services concern.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">164</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">In anticipation of legislative changes that take effect in 1989, Security Pacific has also negotiated the future purchase of The Nevada Bank, with assets of 615 mln dlrs.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">170</int>
-        <double name="strength">0.953877379134797</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Security Pacific Corp said it completed its previously announced acquisition of Orbanco Financial Services Corp after receiving federal approval of the deal.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">157</int>
-        <double name="strength">0.9280932101937869</double>
+        <str name="text">Security Pacific said the Federal Reserve Board approved on Wednesday its purchase of the Portland, Ore.-based bank holding company and financial services concern.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">164</int>
+        <double name="strength">0.9853610729489755</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Security Pacific bought The Arizona Bank, with assets of four billion dlrs, in the fourth quarter of 1986.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">107</int>
+        <double name="strength">0.7615771616594035</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Security Pacific&lt;/em&gt; said the &lt;em&gt;Federal Reserve Board approved&lt;/em&gt; on &lt;em&gt;Wednesday&lt;/em&gt; its &lt;em&gt;purchase&lt;/em&gt; of the &lt;em&gt;Portland,&lt;/em&gt; Ore.-&lt;em&gt;based&lt;/em&gt; bank &lt;em&gt;holding company&lt;/em&gt; and &lt;em&gt;financial services concern&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;anticipation&lt;/em&gt; of &lt;em&gt;legislative changes&lt;/em&gt; that take &lt;em&gt;effect&lt;/em&gt; in 1989, &lt;em&gt;Security Pacific&lt;/em&gt; has also &lt;em&gt;negotiated&lt;/em&gt; the &lt;em&gt;future purchase&lt;/em&gt; of The &lt;em&gt;Nevada&lt;/em&gt; Bank, with &lt;em&gt;assets&lt;/em&gt; of 615 mln dlrs.</str>
+        <str name="text">In &lt;em&gt;anticipation&lt;/em&gt; of &lt;em&gt;legislative changes&lt;/em&gt; that take &lt;em&gt;effect&lt;/em&gt; in 1989, &lt;em&gt;Security Pacific&lt;/em&gt; has also negotiated the &lt;em&gt;future purchase&lt;/em&gt; of The &lt;em&gt;Nevada&lt;/em&gt; Bank, with &lt;em&gt;assets&lt;/em&gt; of 615 mln dlrs.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Security Pacific&lt;/em&gt; Corp said it &lt;em&gt;completed&lt;/em&gt; its &lt;em&gt;previously announced acquisition&lt;/em&gt; of &lt;em&gt;Orbanco Financial Services&lt;/em&gt; Corp &lt;em&gt;after receiving federal approval&lt;/em&gt; of the deal.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Security Pacific&lt;/em&gt; said the &lt;em&gt;Federal Reserve Board&lt;/em&gt; approved on Wednesday its &lt;em&gt;purchase&lt;/em&gt; of the &lt;em&gt;Portland,&lt;/em&gt; Ore.-based bank holding &lt;em&gt;company&lt;/em&gt; and &lt;em&gt;financial services concern&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Security&lt;/em&gt; Pacific bought The &lt;em&gt;Arizona&lt;/em&gt; Bank, with &lt;em&gt;assets&lt;/em&gt; of four &lt;em&gt;billion&lt;/em&gt; dlrs, in the &lt;em&gt;fourth quarter of 1986&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

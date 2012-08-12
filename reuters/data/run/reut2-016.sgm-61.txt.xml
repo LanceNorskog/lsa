@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-61.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">afford</str>
+        <str name="text">future</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">according</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">financial</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">economically</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">basis</str>
+        <double name="strength">0.9747506840573461</double>
       </lst>
       <lst name="term">
-        <str name="text">distressed</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">points</str>
+        <double name="strength">0.9747506840573461</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Presently, the FHLBB cannot afford to close failing institiutions "because we can't afford it with the current FSLIC fund," she said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">134</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">With the elimination in 1983 of regulations that had drawn strict lines between savings and loans and commercial banks, the gap widened to as much as 50 to 75 basis points as wary depositors demanded a higher premium to place their funds in thrift institutions, Fairbanks said.</str>
         <int name="index">15</int>
         <int name="start">1</int>
         <int name="end">278</int>
-        <double name="strength">0.9944808937641868</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Depositor confidence is also eroded by the existence of thrifts that are failing but manage to stay in business by paying deposit rates well above prevailing market rates.</str>
-        <int name="index">17</int>
+        <str name="text">The Administration's 15 billion dlr plan to recapitalize the Federal Savings and Loan Insurance Corporation is needed to ensure the future profitablity of the U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.9299091817973758</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fairbanks said that the public's confidence in thrift instititutions eroded with the financial difficulties of savings and loan associations in Ohio and Maryland in 1985.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.9685626954877211</double>
+        <int name="end">171</int>
+        <double name="strength">0.8787470909551318</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Presently,&lt;/em&gt; the &lt;em&gt;FHLBB cannot afford&lt;/em&gt; to &lt;em&gt;close failing institiutions "because&lt;/em&gt; we can't &lt;em&gt;afford&lt;/em&gt; it with the &lt;em&gt;current FSLIC&lt;/em&gt; fund," she said.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">With the &lt;em&gt;elimination&lt;/em&gt; in 1983 of &lt;em&gt;regulations&lt;/em&gt; that had &lt;em&gt;drawn strict lines between savings&lt;/em&gt; and &lt;em&gt;loans&lt;/em&gt; and &lt;em&gt;commercial banks,&lt;/em&gt; the gap &lt;em&gt;widened&lt;/em&gt; to as much as 50 to 75 &lt;em&gt;basis points&lt;/em&gt; as wary &lt;em&gt;depositors demanded&lt;/em&gt; a &lt;em&gt;higher premium&lt;/em&gt; to &lt;em&gt;place their funds&lt;/em&gt; in &lt;em&gt;thrift institutions, Fairbanks said&lt;/em&gt;.</str>
+        <str name="text">With the &lt;em&gt;elimination&lt;/em&gt; in 1983 of &lt;em&gt;regulations&lt;/em&gt; that had drawn &lt;em&gt;strict lines&lt;/em&gt; between &lt;em&gt;savings&lt;/em&gt; and &lt;em&gt;loans&lt;/em&gt; and &lt;em&gt;commercial banks,&lt;/em&gt; the gap widened to as much as 50 to 75 &lt;em&gt;basis points&lt;/em&gt; as wary &lt;em&gt;depositors&lt;/em&gt; demanded a higher &lt;em&gt;premium&lt;/em&gt; to &lt;em&gt;place&lt;/em&gt; their &lt;em&gt;funds&lt;/em&gt; in &lt;em&gt;thrift institutions,&lt;/em&gt; Fairbanks said.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Depositor confidence&lt;/em&gt; is also &lt;em&gt;eroded&lt;/em&gt; by the &lt;em&gt;existence&lt;/em&gt; of &lt;em&gt;thrifts&lt;/em&gt; that are &lt;em&gt;failing&lt;/em&gt; but &lt;em&gt;manage&lt;/em&gt; to stay in &lt;em&gt;business&lt;/em&gt; by &lt;em&gt;paying deposit rates&lt;/em&gt; well &lt;em&gt;above prevailing market rates&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">The &lt;em&gt;Administration&lt;/em&gt;'s 15 &lt;em&gt;billion&lt;/em&gt; dlr plan to &lt;em&gt;recapitalize&lt;/em&gt; the &lt;em&gt;Federal Savings&lt;/em&gt; and Loan &lt;em&gt;Insurance Corporation&lt;/em&gt; is needed to &lt;em&gt;ensure&lt;/em&gt; the &lt;em&gt;future profitablity&lt;/em&gt; of the U.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Fairbanks&lt;/em&gt; said that the &lt;em&gt;public&lt;/em&gt;'s &lt;em&gt;confidence&lt;/em&gt; in &lt;em&gt;thrift instititutions&lt;/em&gt; eroded with the &lt;em&gt;financial difficulties&lt;/em&gt; of &lt;em&gt;savings&lt;/em&gt; and loan &lt;em&gt;associations&lt;/em&gt; in Ohio and &lt;em&gt;Maryland in 1985&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

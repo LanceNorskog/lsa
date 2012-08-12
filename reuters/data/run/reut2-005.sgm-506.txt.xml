@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-506.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">113</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">under</str>
+        <str name="text">prosperity</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">offered</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">details</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">profile</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">while</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">sides</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">negotiations</str>
-        <double name="strength">0.5000000000000023</double>
+        <str name="text">bring</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Recent published reports in Canada, quoting senior trade sources, said the countries were close to reaching a trade deal and it will involve eliminating border trariffs and many non-tariff barriers over the next 10 to 12 years.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
+        <str name="text">In a 50-minute address, Mulroney made an often passionate defense of the initiative that he said would give poorer areas of the country a major economic boost.</str>
+        <int name="index">3</int>
+        <int name="start">0</int>
+        <int name="end">159</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"Because of our trading patterns over a period of decades, we are in the process of building two Canadas -- one that is rich and promising, one that is under-developed and under-employed," said Mulroney.</str>
-        <int name="index">4</int>
+        <str name="text">Opening a debate on free trade in the House of Commons, Mulroney said an accord would create thousands of jobs in Canada and bring greater economic prosperity to both countries.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.9768219974596208</double>
+        <int name="end">178</int>
+        <double name="strength">0.9889414406148529</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It has been reported a key stumbling block in the talks is a Canadian proposal to find a new way to settle trade disputes, something that would give Canada protection from Washington's tough trade remedy laws.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">0.9166974541420304</double>
+        <str name="text">Prime Minister Brian Mulroney said "significant progress" was being made in trade talks with the United States and a profile of a major deal was emerging.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.9288762159723618</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Recent published reports&lt;/em&gt; in &lt;em&gt;Canada, quoting senior trade sources,&lt;/em&gt; said the &lt;em&gt;countries&lt;/em&gt; were &lt;em&gt;close&lt;/em&gt; to &lt;em&gt;reaching&lt;/em&gt; a &lt;em&gt;trade&lt;/em&gt; deal and it will &lt;em&gt;involve eliminating border trariffs&lt;/em&gt; and many non-&lt;em&gt;tariff barriers&lt;/em&gt; over the next 10 to 12 &lt;em&gt;years&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">In a 50-&lt;em&gt;minute address, Mulroney&lt;/em&gt; made an often &lt;em&gt;passionate defense&lt;/em&gt; of the &lt;em&gt;initiative&lt;/em&gt; that he said would give poorer &lt;em&gt;areas&lt;/em&gt; of the &lt;em&gt;country&lt;/em&gt; a &lt;em&gt;major economic boost&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Because&lt;/em&gt; of our &lt;em&gt;trading patterns&lt;/em&gt; over a &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;decades,&lt;/em&gt; we are in the &lt;em&gt;process&lt;/em&gt; of &lt;em&gt;building&lt;/em&gt; two &lt;em&gt;Canadas --&lt;/em&gt; one that is rich and &lt;em&gt;promising,&lt;/em&gt; one that is &lt;em&gt;under-developed&lt;/em&gt; and &lt;em&gt;under-employed,"&lt;/em&gt; said &lt;em&gt;Mulroney&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Opening a &lt;em&gt;debate&lt;/em&gt; on free &lt;em&gt;trade&lt;/em&gt; in the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons, Mulroney&lt;/em&gt; said an &lt;em&gt;accord&lt;/em&gt; would &lt;em&gt;create thousands&lt;/em&gt; of jobs in &lt;em&gt;Canada&lt;/em&gt; and &lt;em&gt;bring&lt;/em&gt; greater &lt;em&gt;economic prosperity&lt;/em&gt; to both &lt;em&gt;countries&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It has been &lt;em&gt;reported&lt;/em&gt; a key &lt;em&gt;stumbling block&lt;/em&gt; in the &lt;em&gt;talks&lt;/em&gt; is a &lt;em&gt;Canadian proposal&lt;/em&gt; to find a new way to &lt;em&gt;settle trade disputes, something&lt;/em&gt; that &lt;em&gt;would&lt;/em&gt; give &lt;em&gt;Canada protection&lt;/em&gt; from &lt;em&gt;Washington&lt;/em&gt;'s &lt;em&gt;tough trade remedy laws&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Prime Minister Brian Mulroney&lt;/em&gt; said "&lt;em&gt;significant progress"&lt;/em&gt; was being made in &lt;em&gt;trade talks&lt;/em&gt; with the United &lt;em&gt;States&lt;/em&gt; and a &lt;em&gt;profile&lt;/em&gt; of a &lt;em&gt;major&lt;/em&gt; deal was emerging.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

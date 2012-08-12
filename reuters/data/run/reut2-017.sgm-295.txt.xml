@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-295.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">identified</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">cancellation</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">conclusion</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">talks</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">japan</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">press</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">united</str>
-        <double name="strength">0.8944271909999177</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">207</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Unless the Japanese prime minister brings with him measures to stimulate the Japanese economy by fiscal expansion or lower interest rates, the visit is likely to be considered by currency markets as an outright failure.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">219</int>
-        <double name="strength">0.9584900844011178</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">But the participation in the talks by Baker, the administration's top policy maker on international economic affairs, suggests that hard bargaining between the two sides may be in prospect.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">190</int>
-        <double name="strength">0.8116975223754377</double>
+        <double name="strength">0.8425310485630744</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Baker has been the driving force behind the administration's efforts to coordinate international economic policies and reduce global trade imbalances.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">151</int>
+        <double name="strength">0.8182762173136883</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tokyo&lt;/em&gt; and &lt;em&gt;Washington&lt;/em&gt; are &lt;em&gt;aware&lt;/em&gt; that &lt;em&gt;nervous currency  markets stand ready&lt;/em&gt; to bail out of &lt;em&gt;dollars&lt;/em&gt; and buy yen, &lt;em&gt;which economists&lt;/em&gt; fear &lt;em&gt;could&lt;/em&gt; send &lt;em&gt;world interest rates soaring&lt;/em&gt; and even lead to &lt;em&gt;global recession&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Tokyo&lt;/em&gt; and &lt;em&gt;Washington&lt;/em&gt; are &lt;em&gt;aware&lt;/em&gt; that &lt;em&gt;nervous currency  markets stand ready&lt;/em&gt; to bail out of &lt;em&gt;dollars&lt;/em&gt; and buy yen, which &lt;em&gt;economists&lt;/em&gt; fear could send &lt;em&gt;world interest rates&lt;/em&gt; soaring and even lead to &lt;em&gt;global recession&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Unless&lt;/em&gt; the &lt;em&gt;Japanese prime minister brings&lt;/em&gt; with him &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;stimulate&lt;/em&gt; the &lt;em&gt;Japanese economy&lt;/em&gt; by &lt;em&gt;fiscal expansion&lt;/em&gt; or &lt;em&gt;lower interest rates,&lt;/em&gt; the &lt;em&gt;visit&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be &lt;em&gt;considered&lt;/em&gt; by &lt;em&gt;currency markets&lt;/em&gt; as an &lt;em&gt;outright failure&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">But the &lt;em&gt;participation&lt;/em&gt; in the &lt;em&gt;talks&lt;/em&gt; by &lt;em&gt;Baker,&lt;/em&gt; the &lt;em&gt;administration&lt;/em&gt;'s top &lt;em&gt;policy maker&lt;/em&gt; on &lt;em&gt;international economic affairs,&lt;/em&gt; suggests that hard &lt;em&gt;bargaining&lt;/em&gt; between the two &lt;em&gt;sides&lt;/em&gt; may be in &lt;em&gt;prospect&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But the &lt;em&gt;participation&lt;/em&gt; in the &lt;em&gt;talks&lt;/em&gt; by &lt;em&gt;Baker,&lt;/em&gt; the &lt;em&gt;administration&lt;/em&gt;'s top &lt;em&gt;policy maker&lt;/em&gt; on &lt;em&gt;international economic affairs, suggests&lt;/em&gt; that hard &lt;em&gt;bargaining between&lt;/em&gt; the two &lt;em&gt;sides&lt;/em&gt; may be in &lt;em&gt;prospect&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Baker&lt;/em&gt; has been the driving &lt;em&gt;force&lt;/em&gt; behind the &lt;em&gt;administration&lt;/em&gt;'s &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;coordinate international economic policies&lt;/em&gt; and &lt;em&gt;reduce global trade imbalances&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

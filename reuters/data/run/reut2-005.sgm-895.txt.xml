@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-895.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">100</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">since</str>
+        <str name="text">decline</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">delivery</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">feedlots</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">forward</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">april</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">contracts</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">cents</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">gidel</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Strong daily fundamentals may add to nearby support while the current discount of deferred months to the cash market may offset much of the effect of the report, analysts said.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Placements are not that negative, especially since the technical correction in June and August live cattle futures since last week, GH Miller analyst Jerry Gidel said.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">168</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9430850166030831</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Contracts for June delivery forward could open 25 to 50 cents lower while April will likely open about steady, analysts said.</str>
-        <int name="index">3</int>
+        <str name="text">Chuck Levitt, analyst for Shearson Lehman said that with the number of cattle on feed down five pct at the beginning of the year, a three pct decline in marketings was expected.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">126</int>
-        <double name="strength">0.8725211629554539</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Cheap corn is still the main incentive for putting cattle on feed, according to Smith Barney livestock analyst Tom O'Hare.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">123</int>
-        <double name="strength">0.7959275342019626</double>
+        <int name="end">178</int>
+        <double name="strength">0.9206370057809451</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Placements&lt;/em&gt; are not that &lt;em&gt;negative, especially since&lt;/em&gt; the &lt;em&gt;technical correction&lt;/em&gt; in June and &lt;em&gt;August&lt;/em&gt; live &lt;em&gt;cattle futures since&lt;/em&gt; last week, GH &lt;em&gt;Miller analyst Jerry Gidel said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Strong daily fundamentals&lt;/em&gt; may add to &lt;em&gt;nearby support&lt;/em&gt; while the &lt;em&gt;current discount&lt;/em&gt; of &lt;em&gt;deferred months&lt;/em&gt; to the cash &lt;em&gt;market&lt;/em&gt; may &lt;em&gt;offset&lt;/em&gt; much of the &lt;em&gt;effect&lt;/em&gt; of the &lt;em&gt;report, analysts said&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Placements&lt;/em&gt; are not that &lt;em&gt;negative,&lt;/em&gt; especially since the &lt;em&gt;technical correction&lt;/em&gt; in June and &lt;em&gt;August&lt;/em&gt; live &lt;em&gt;cattle futures&lt;/em&gt; since last week, GH &lt;em&gt;Miller analyst Jerry Gidel said&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Contracts&lt;/em&gt; for June &lt;em&gt;delivery forward could&lt;/em&gt; open 25 to 50 &lt;em&gt;cents lower while April&lt;/em&gt; will &lt;em&gt;likely&lt;/em&gt; open &lt;em&gt;about steady, analysts said&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Cheap&lt;/em&gt; corn is &lt;em&gt;still&lt;/em&gt; the main &lt;em&gt;incentive&lt;/em&gt; for &lt;em&gt;putting cattle&lt;/em&gt; on feed, &lt;em&gt;according&lt;/em&gt; to &lt;em&gt;Smith Barney livestock analyst&lt;/em&gt; Tom O'Hare.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Chuck Levitt, analyst&lt;/em&gt; for &lt;em&gt;Shearson Lehman&lt;/em&gt; said that with the &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;cattle&lt;/em&gt; on feed down five pct at the &lt;em&gt;beginning&lt;/em&gt; of the year, a &lt;em&gt;three&lt;/em&gt; pct &lt;em&gt;decline&lt;/em&gt; in &lt;em&gt;marketings&lt;/em&gt; was expected.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

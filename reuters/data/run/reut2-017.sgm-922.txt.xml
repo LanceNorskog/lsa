@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-922.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">168</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">authority</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">demands</str>
-        <double name="strength">0.5527707983925669</double>
+        <str name="text">supply</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">communist</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">guangdong</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">better</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">harvest</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">173</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A foreign trader here said China accumulated large stocks in 1982-85 when provincial authorities were allowed to import sugar on their own authority.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">150</int>
-        <double name="strength">0.8400176406573585</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Farmers Daily said a peasant in the ortheast province of Heilongjiang could gross 108 yuan from one mu (0.0667 hectares) of soybeans and 112 yuan from one mu of corn but only 70 from one mu of sugarbeet.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.8343618796640019</double>
+        <double name="strength">0.9722171168723885</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Despite rapid increases in domestic production over the last 30 years, imbalances between supply and demand continue to be extremely serious," the Farmers Daily said.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9475658344294619</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;rural sectors&lt;/em&gt; in &lt;em&gt;Guangdong&lt;/em&gt; and &lt;em&gt;Fujian&lt;/em&gt; were wel &lt;em&gt;developed, enabling farmers&lt;/em&gt; to &lt;em&gt;choose crops according&lt;/em&gt; to the &lt;em&gt;maximum return, meaning&lt;/em&gt; that many had &lt;em&gt;avoided sugar&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;rural sectors&lt;/em&gt; in &lt;em&gt;Guangdong&lt;/em&gt; and &lt;em&gt;Fujian&lt;/em&gt; were wel developed, enabling &lt;em&gt;farmers&lt;/em&gt; to &lt;em&gt;choose crops&lt;/em&gt; according to the &lt;em&gt;maximum return, meaning&lt;/em&gt; that many had avoided &lt;em&gt;sugar&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;foreign trader&lt;/em&gt; here said &lt;em&gt;China accumulated large stocks&lt;/em&gt; in 1982-85 when &lt;em&gt;provincial authorities&lt;/em&gt; were &lt;em&gt;allowed&lt;/em&gt; to &lt;em&gt;import sugar&lt;/em&gt; on &lt;em&gt;their&lt;/em&gt; own &lt;em&gt;authority&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">The &lt;em&gt;Farmers&lt;/em&gt; Daily said a &lt;em&gt;peasant&lt;/em&gt; in the &lt;em&gt;ortheast province&lt;/em&gt; of &lt;em&gt;Heilongjiang&lt;/em&gt; could &lt;em&gt;gross 108&lt;/em&gt; yuan from one mu (0.0667 &lt;em&gt;hectares)&lt;/em&gt; of &lt;em&gt;soybeans&lt;/em&gt; and 112 yuan from one mu of corn but only 70 from one mu of &lt;em&gt;sugarbeet&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Farmers Daily&lt;/em&gt; said a &lt;em&gt;peasant&lt;/em&gt; in the &lt;em&gt;ortheast province&lt;/em&gt; of &lt;em&gt;Heilongjiang could gross 108&lt;/em&gt; yuan from one mu (0.0667 &lt;em&gt;hectares)&lt;/em&gt; of &lt;em&gt;soybeans&lt;/em&gt; and 112 yuan from one mu of corn but only 70 from one mu of &lt;em&gt;sugarbeet&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">"Despite &lt;em&gt;rapid increases&lt;/em&gt; in &lt;em&gt;domestic production&lt;/em&gt; over the last 30 &lt;em&gt;years, imbalances&lt;/em&gt; between &lt;em&gt;supply&lt;/em&gt; and &lt;em&gt;demand continue&lt;/em&gt; to be extremely &lt;em&gt;serious,"&lt;/em&gt; the &lt;em&gt;Farmers&lt;/em&gt; Daily said.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

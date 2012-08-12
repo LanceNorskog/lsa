@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-682.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">102</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">informed</str>
+        <str name="text">crazy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">proposal</str>
-        <double name="strength">0.9999999999999977</double>
+        <str name="text">eddie</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">purchase</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">retailer</str>
+        <double name="strength">0.793329777992678</double>
       </lst>
       <lst name="term">
-        <str name="text">shareholder</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">enetertainment</str>
+        <double name="strength">0.7933297779926767</double>
       </lst>
       <lst name="term">
-        <str name="text">stock</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">pursue</str>
+        <double name="strength">0.7933297779926767</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Entertainment Marketing, a Houston-based firm involved in electronics wholesaling and televised home shopping sales, proposed an eight dlr a share merger acquisition of Crazy Eddie on May 29, and modified the proposal on June 9 to include the possible participation of Crazy Eddie management.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">293</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Depending on its evaluation of the company, including actions by Crazy Eddie's board and any possible third party bids for the company, Entertainment Marketing and its president said they may hold their present stake in the company, sell some of their shares, or purchase more shares on the open market, through private purchases or in connection with a merger or tender offer.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">378</int>
-        <double name="strength">0.9523394453401056</double>
-      </lst>
       <lst name="sentence">
         <str name="text">In light of a June 17 announcement from Crazy Eddie that Chemical Bank would no longer fund a 52 mln dlr credit facility with the company, plus further declines in the price of its stock, Entertainment Marketing and Zinn said they are "continuing to evaluate their alternatives with respect to their investment" in Crazy Eddie stock.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">334</int>
-        <double name="strength">0.9198290311367855</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Entertainment Marketing also disclosed that it retained Drexel Burnham Lambert Inc as its financial advisor and investment banker.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">131</int>
+        <double name="strength">0.9580088043344875</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Entertainment Marketing, a Houston-based firm involved in electronics wholesaling and televised home shopping sales, proposed an eight dlr a share merger acquisition of Crazy Eddie on May 29, and modified the proposal on June 9 to include the possible participation of Crazy Eddie management.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">293</int>
+        <double name="strength">0.9283457097891497</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Entertainment Marketing,&lt;/em&gt; a &lt;em&gt;Houston-based&lt;/em&gt; firm &lt;em&gt;involved&lt;/em&gt; in &lt;em&gt;electronics wholesaling&lt;/em&gt; and &lt;em&gt;televised&lt;/em&gt; home &lt;em&gt;shopping sales, proposed&lt;/em&gt; an &lt;em&gt;eight&lt;/em&gt; dlr a &lt;em&gt;share merger acquisition&lt;/em&gt; of &lt;em&gt;Crazy Eddie&lt;/em&gt; on May 29, and &lt;em&gt;modified&lt;/em&gt; the &lt;em&gt;proposal&lt;/em&gt; on June 9 to &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;possible participation&lt;/em&gt; of &lt;em&gt;Crazy Eddie management&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Depending&lt;/em&gt; on its &lt;em&gt;evaluation&lt;/em&gt; of the &lt;em&gt;company, including actions&lt;/em&gt; by &lt;em&gt;Crazy Eddie&lt;/em&gt;'s &lt;em&gt;board&lt;/em&gt; and any &lt;em&gt;possible third party&lt;/em&gt; bids for the &lt;em&gt;company, Entertainment Marketing&lt;/em&gt; and its &lt;em&gt;president&lt;/em&gt; said they may hold &lt;em&gt;their present stake&lt;/em&gt; in the &lt;em&gt;company,&lt;/em&gt; sell some of &lt;em&gt;their shares,&lt;/em&gt; or &lt;em&gt;purchase&lt;/em&gt; more &lt;em&gt;shares&lt;/em&gt; on the open &lt;em&gt;market, through private purchases&lt;/em&gt; or in &lt;em&gt;connection&lt;/em&gt; with a &lt;em&gt;merger&lt;/em&gt; or &lt;em&gt;tender offer&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;light&lt;/em&gt; of a June 17 &lt;em&gt;announcement&lt;/em&gt; from &lt;em&gt;Crazy Eddie&lt;/em&gt; that &lt;em&gt;Chemical&lt;/em&gt; Bank &lt;em&gt;would&lt;/em&gt; no &lt;em&gt;longer&lt;/em&gt; fund a 52 mln dlr &lt;em&gt;credit facility&lt;/em&gt; with the &lt;em&gt;company,&lt;/em&gt; plus &lt;em&gt;further declines&lt;/em&gt; in the &lt;em&gt;price&lt;/em&gt; of its &lt;em&gt;stock, Entertainment Marketing&lt;/em&gt; and Zinn said they are "&lt;em&gt;continuing&lt;/em&gt; to &lt;em&gt;evaluate their alternatives&lt;/em&gt; with &lt;em&gt;respect&lt;/em&gt; to &lt;em&gt;their investment"&lt;/em&gt; in &lt;em&gt;Crazy Eddie stock&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;light&lt;/em&gt; of a June 17 &lt;em&gt;announcement&lt;/em&gt; from &lt;em&gt;Crazy Eddie&lt;/em&gt; that &lt;em&gt;Chemical&lt;/em&gt; Bank would no longer fund a 52 mln dlr &lt;em&gt;credit facility&lt;/em&gt; with the &lt;em&gt;company,&lt;/em&gt; plus &lt;em&gt;further declines&lt;/em&gt; in the &lt;em&gt;price&lt;/em&gt; of its &lt;em&gt;stock, Entertainment Marketing&lt;/em&gt; and Zinn said they are "continuing to &lt;em&gt;evaluate&lt;/em&gt; their &lt;em&gt;alternatives&lt;/em&gt; with &lt;em&gt;respect&lt;/em&gt; to their &lt;em&gt;investment"&lt;/em&gt; in &lt;em&gt;Crazy Eddie stock&lt;/em&gt;.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Entertainment Marketing&lt;/em&gt; also disclosed that it retained &lt;em&gt;Drexel Burnham Lambert&lt;/em&gt; Inc as its &lt;em&gt;financial advisor&lt;/em&gt; and &lt;em&gt;investment banker&lt;/em&gt;.</str>
+        <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Entertainment&lt;/em&gt; Marketing, a &lt;em&gt;Houston&lt;/em&gt;-based firm involved in &lt;em&gt;electronics&lt;/em&gt; wholesaling and televised home &lt;em&gt;shopping sales,&lt;/em&gt; proposed an &lt;em&gt;eight&lt;/em&gt; dlr a &lt;em&gt;share merger acquisition&lt;/em&gt; of &lt;em&gt;Crazy Eddie&lt;/em&gt; on May 29, and modified the &lt;em&gt;proposal&lt;/em&gt; on June 9 to &lt;em&gt;include&lt;/em&gt; the &lt;em&gt;possible participation&lt;/em&gt; of &lt;em&gt;Crazy Eddie management&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

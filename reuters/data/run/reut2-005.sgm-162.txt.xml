@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-162.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">39</int>
       </lst>
       <lst name="terms">
-        <int name="count">222</int>
+        <int name="count">153</int>
       </lst>
       <lst name="stems">
-        <int name="count">155</int>
+        <int name="count">105</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">points</str>
+        <str name="text">shares</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">achieve</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">street</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">millions</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">certificates</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">controlled</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">wealth</str>
+        <double name="strength">0.9921341663337702</double>
       </lst>
       <lst name="term">
-        <str name="text">before</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">illegal</str>
+        <double name="strength">0.9921341663337683</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Ramon Diaz, Chairman of the Presidential Commission on Good Government (PCGG) told Reuters in an interview: "There is every reason to believe that the cronies and President Marcos and his family were able to hide millions and millions of pesos before they fled.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">262</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Diaz said the PCGG would limit its probe to sequestered stock in brewery giant San Miguel Corp, the Philippine Long Distance Telephone Co, mining conglomerate Benguet Corp, and Oriental Petroleum and Minerals Corp.</str>
         <int name="index">35</int>
         <int name="start">1</int>
         <int name="end">215</int>
-        <double name="strength">0.9714339221165417</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Diaz said at a meeting with the heads of the two exchanges last Thursday that the PCGG would act prudently in its investigation of street certificates, adding the panel supported government efforts to create a favourable investment climate.</str>
         <int name="index">37</int>
         <int name="start">1</int>
         <int name="end">241</int>
-        <double name="strength">0.9415782046953426</double>
+        <double name="strength">0.9525947893808582</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Street certificates describe securities held in the name of a broker or another nominee instead of a customer so as to permit easy trading or transfer.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">0.8384886434149232</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ramon&lt;/em&gt; Diaz, &lt;em&gt;Chairman&lt;/em&gt; of the &lt;em&gt;Presidential Commission&lt;/em&gt; on Good &lt;em&gt;Government &lt;/em&gt;(PCGG) told &lt;em&gt;Reuters&lt;/em&gt; in an &lt;em&gt;interview: "There&lt;/em&gt; is &lt;em&gt;every reason&lt;/em&gt; to &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;cronies&lt;/em&gt; and &lt;em&gt;President Marcos&lt;/em&gt; and his &lt;em&gt;family&lt;/em&gt; were able to hide &lt;em&gt;millions&lt;/em&gt; and &lt;em&gt;millions&lt;/em&gt; of &lt;em&gt;pesos before&lt;/em&gt; they fled.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Diaz said the PCGG &lt;em&gt;would limit&lt;/em&gt; its &lt;em&gt;probe&lt;/em&gt; to &lt;em&gt;sequestered stock&lt;/em&gt; in &lt;em&gt;brewery giant&lt;/em&gt; San &lt;em&gt;Miguel&lt;/em&gt; Corp, the &lt;em&gt;Philippine&lt;/em&gt; Long &lt;em&gt;Distance Telephone&lt;/em&gt; Co, &lt;em&gt;mining conglomerate Benguet&lt;/em&gt; Corp, and &lt;em&gt;Oriental Petroleum&lt;/em&gt; and &lt;em&gt;Minerals Corp&lt;/em&gt;.</str>
+        <str name="text">Diaz said the PCGG would &lt;em&gt;limit&lt;/em&gt; its &lt;em&gt;probe&lt;/em&gt; to sequestered &lt;em&gt;stock&lt;/em&gt; in &lt;em&gt;brewery giant&lt;/em&gt; San &lt;em&gt;Miguel&lt;/em&gt; Corp, the &lt;em&gt;Philippine&lt;/em&gt; Long &lt;em&gt;Distance Telephone&lt;/em&gt; Co, mining &lt;em&gt;conglomerate Benguet&lt;/em&gt; Corp, and &lt;em&gt;Oriental Petroleum&lt;/em&gt; and &lt;em&gt;Minerals Corp&lt;/em&gt;.</str>
         <int name="index">35</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Diaz said at a &lt;em&gt;meeting&lt;/em&gt; with the &lt;em&gt;heads&lt;/em&gt; of the two &lt;em&gt;exchanges&lt;/em&gt; last &lt;em&gt;Thursday&lt;/em&gt; that the PCGG &lt;em&gt;would&lt;/em&gt; act &lt;em&gt;prudently&lt;/em&gt; in its &lt;em&gt;investigation&lt;/em&gt; of &lt;em&gt;street certificates, adding&lt;/em&gt; the &lt;em&gt;panel supported government efforts&lt;/em&gt; to &lt;em&gt;create&lt;/em&gt; a &lt;em&gt;favourable investment climate&lt;/em&gt;.</str>
+        <str name="text">Diaz said at a &lt;em&gt;meeting&lt;/em&gt; with the &lt;em&gt;heads&lt;/em&gt; of the two &lt;em&gt;exchanges&lt;/em&gt; last &lt;em&gt;Thursday&lt;/em&gt; that the PCGG would act prudently in its &lt;em&gt;investigation&lt;/em&gt; of &lt;em&gt;street certificates,&lt;/em&gt; adding the &lt;em&gt;panel&lt;/em&gt; supported &lt;em&gt;government efforts&lt;/em&gt; to &lt;em&gt;create&lt;/em&gt; a &lt;em&gt;favourable investment climate&lt;/em&gt;.</str>
         <int name="index">37</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Street certificates describe securities&lt;/em&gt; held in the name of a &lt;em&gt;broker&lt;/em&gt; or another &lt;em&gt;nominee&lt;/em&gt; instead of a &lt;em&gt;customer&lt;/em&gt; so as to &lt;em&gt;permit&lt;/em&gt; easy &lt;em&gt;trading&lt;/em&gt; or &lt;em&gt;transfer&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

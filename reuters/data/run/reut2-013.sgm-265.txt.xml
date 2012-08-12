@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-265.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">117</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">68</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">totalled</str>
+        <str name="text">fuels</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">supply</str>
-        <double name="strength">0.3726779962499644</double>
+        <str name="text">seasonal</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">tonnes</str>
-        <double name="strength">0.35355339059327384</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">organization</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">agency</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">cooperation</str>
-        <double name="strength">0.3333333333333335</double>
+        <str name="text">likely</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Total OPEC oil supply totalled 17.2 bpd in the first quarter of 1987 compare with 19.3 bpd in the last three months of 1986 while supply from non-OPEC countries totalled 28 bpd as against 28.2 bpd in the same 1986 period.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Oil use in the 24 member countries of the Organization for Economic Cooperation and Development (OECD) increased by around one pct in the first quarter of 1987 to 35.9 mln barrels a day, the IEA said in its latest monthly report.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.7977838753374424</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A drop in Saudi Arabian output to a tentatively forecast 3.3 bpd in march from 3.6 bpd in February was the largest factor behind the OPEC production decline, the IEA said.</str>
-        <int name="index">20</int>
+        <str name="text">The IEA said assuming crude and product prices remain nar current levels, some destocking by end-users can be expected.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">172</int>
-        <double name="strength">0.775146632203089</double>
+        <int name="end">120</int>
+        <double name="strength">0.8716274415693481</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If that takes place, natural gas will also regain some of the market share it lost to heavy fuel in 1986, it said.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">115</int>
+        <double name="strength">0.8585877797409845</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Total&lt;/em&gt; OPEC oil &lt;em&gt;supply totalled 17.2&lt;/em&gt; bpd in the &lt;em&gt;first quarter&lt;/em&gt; of 1987 &lt;em&gt;compare&lt;/em&gt; with 19.3 bpd in the last &lt;em&gt;three months&lt;/em&gt; of 1986 &lt;em&gt;while supply&lt;/em&gt; from non-OPEC &lt;em&gt;countries totalled 28&lt;/em&gt; bpd as &lt;em&gt;against 28.2&lt;/em&gt; bpd in the same 1986 &lt;em&gt;period&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Oil use in the 24 &lt;em&gt;member countries&lt;/em&gt; of the &lt;em&gt;Organization&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD) &lt;em&gt;increased&lt;/em&gt; by &lt;em&gt;around&lt;/em&gt; one pct in the &lt;em&gt;first quarter&lt;/em&gt; of 1987 to 35.9 mln &lt;em&gt;barrels&lt;/em&gt; a day, the IEA said in its &lt;em&gt;latest monthly report&lt;/em&gt;.</str>
+        <str name="text">Oil use in the 24 &lt;em&gt;member countries&lt;/em&gt; of the &lt;em&gt;Organization&lt;/em&gt; for &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD) increased by around one pct in the &lt;em&gt;first quarter&lt;/em&gt; of 1987 to 35.9 mln &lt;em&gt;barrels&lt;/em&gt; a day, the IEA said in its latest &lt;em&gt;monthly report&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A drop in &lt;em&gt;Saudi Arabian output&lt;/em&gt; to a &lt;em&gt;tentatively forecast 3.3&lt;/em&gt; bpd in &lt;em&gt;march&lt;/em&gt; from 3.6 bpd in &lt;em&gt;February&lt;/em&gt; was the &lt;em&gt;largest factor behind&lt;/em&gt; the OPEC &lt;em&gt;production decline,&lt;/em&gt; the IEA said.</str>
-        <int name="index">20</int>
+        <str name="text">The IEA said assuming &lt;em&gt;crude&lt;/em&gt; and &lt;em&gt;product prices remain&lt;/em&gt; nar &lt;em&gt;current levels,&lt;/em&gt; some &lt;em&gt;destocking&lt;/em&gt; by end-&lt;em&gt;users&lt;/em&gt; can be expected.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">If that takes &lt;em&gt;place, natural&lt;/em&gt; gas will also &lt;em&gt;regain&lt;/em&gt; some of the &lt;em&gt;market share&lt;/em&gt; it lost to &lt;em&gt;heavy&lt;/em&gt; fuel in 1986, it said.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

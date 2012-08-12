@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-197.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">95</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">should</str>
+        <str name="text">states</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">created</str>
-        <double name="strength">0.6666666666666653</double>
+        <str name="text">discussions</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">minister</str>
-        <double name="strength">0.3726779962499651</double>
+        <str name="text">developed</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">products</str>
-        <double name="strength">0.3726779962499648</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.3333333333333334</double>
+        <str name="text">issue</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Canada"s five point programme demands that farm product prices must reflect open world market prices, that any support for farmers incomes should not be linked to production incentives, that there should be no new farm subsidies, no new farm import barriers, and that any decisions should be implemented collectively.</str>
-        <int name="index">11</int>
+        <str name="text">Talks will now continue at the Organisation of Economic Cooperation and Development (OECD), which meets next month, and at the series of discussions on a new world trading framework, begun at Punta del Este, Uruguay, last year.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">318</int>
+        <int name="end">228</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The issue is of extreme importance to many indebted, developing nations which often rely totally on one or two farm sector exports to sustain their economies but which cannot compete with the subsidised U.</str>
+        <int name="index">5</int>
+        <int name="start">1</int>
+        <int name="end">206</int>
+        <double name="strength">0.9181681610454135</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The farm trade problem was almost completely ignored by the industrialised world until Canada raised it last year at the Tokyo summit of seven leading industrial powers.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.7085112326663439</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Talks will now continue at the Organisation of Economic Cooperation and Development (OECD), which meets next month, and at the series of discussions on a new world trading framework, begun at Punta del Este, Uruguay, last year.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">0.6851444756746481</double>
+        <double name="strength">0.8675158474667687</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Canada&lt;/em&gt;"s five &lt;em&gt;point programme demands&lt;/em&gt; that farm &lt;em&gt;product prices&lt;/em&gt; must &lt;em&gt;reflect&lt;/em&gt; open &lt;em&gt;world market prices,&lt;/em&gt; that any &lt;em&gt;support&lt;/em&gt; for &lt;em&gt;farmers incomes should&lt;/em&gt; not be &lt;em&gt;linked&lt;/em&gt; to &lt;em&gt;production incentives,&lt;/em&gt; that &lt;em&gt;there should&lt;/em&gt; be no new farm &lt;em&gt;subsidies,&lt;/em&gt; no new farm &lt;em&gt;import barriers,&lt;/em&gt; and that any &lt;em&gt;decisions should&lt;/em&gt; be &lt;em&gt;implemented collectively&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The farm &lt;em&gt;trade problem&lt;/em&gt; was &lt;em&gt;almost completely ignored&lt;/em&gt; by the &lt;em&gt;industrialised world until Canada raised&lt;/em&gt; it last year at the &lt;em&gt;Tokyo summit&lt;/em&gt; of &lt;em&gt;seven leading industrial powers&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Talks&lt;/em&gt; will now &lt;em&gt;continue&lt;/em&gt; at the &lt;em&gt;Organisation&lt;/em&gt; of &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD), &lt;em&gt;which meets&lt;/em&gt; next &lt;em&gt;month,&lt;/em&gt; and at the &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;discussions&lt;/em&gt; on a new &lt;em&gt;world trading framework, begun&lt;/em&gt; at &lt;em&gt;Punta&lt;/em&gt; del Este, &lt;em&gt;Uruguay,&lt;/em&gt; last year.</str>
+        <str name="text">&lt;em&gt;Talks&lt;/em&gt; will now &lt;em&gt;continue&lt;/em&gt; at the &lt;em&gt;Organisation&lt;/em&gt; of &lt;em&gt;Economic Cooperation&lt;/em&gt; and &lt;em&gt;Development &lt;/em&gt;(OECD), which meets next &lt;em&gt;month,&lt;/em&gt; and at the &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;discussions&lt;/em&gt; on a new &lt;em&gt;world trading framework,&lt;/em&gt; begun at Punta del Este, &lt;em&gt;Uruguay,&lt;/em&gt; last year.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;issue&lt;/em&gt; is of &lt;em&gt;extreme importance&lt;/em&gt; to many &lt;em&gt;indebted,&lt;/em&gt; developing &lt;em&gt;nations&lt;/em&gt; which often rely totally on one or two farm &lt;em&gt;sector&lt;/em&gt; exports to &lt;em&gt;sustain&lt;/em&gt; their &lt;em&gt;economies&lt;/em&gt; but which cannot &lt;em&gt;compete&lt;/em&gt; with the &lt;em&gt;subsidised U&lt;/em&gt;.</str>
+        <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The farm &lt;em&gt;trade problem&lt;/em&gt; was almost completely ignored by the &lt;em&gt;industrialised world&lt;/em&gt; until &lt;em&gt;Canada&lt;/em&gt; raised it last year at the &lt;em&gt;Tokyo summit&lt;/em&gt; of &lt;em&gt;seven&lt;/em&gt; leading &lt;em&gt;industrial powers&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

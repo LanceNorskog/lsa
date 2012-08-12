@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-351.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">144</int>
+        <int name="count">104</int>
       </lst>
       <lst name="stems">
-        <int name="count">92</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">japan</str>
+        <str name="text">dollar</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">financing</str>
-        <double name="strength">0.5000000000000048</double>
+        <str name="text">commerce</str>
+        <double name="strength">0.9902417144806026</double>
       </lst>
       <lst name="term">
-        <str name="text">securities</str>
-        <double name="strength">0.5000000000000036</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9902417144806023</double>
       </lst>
       <lst name="term">
-        <str name="text">large</str>
-        <double name="strength">0.5000000000000032</double>
+        <str name="text">capital</str>
+        <double name="strength">0.9902417144806022</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.5000000000000028</double>
+        <str name="text">overseas</str>
+        <double name="strength">0.990241714480602</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">219</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Commenting on Japan, which is running around a 80 billion dlr trade surplus with the United States, Yeutter said "Japan is just not doing the job on the import side."</str>
-        <int name="index">18</int>
-        <int name="start">0</int>
-        <int name="end">166</int>
-        <double name="strength">0.9490403933429095</double>
+        <str name="text">Yeutter declined to comment on statements relating to the dollar made earlier today by Commerce Dept undersecretary of Economic Affairs Robert Ortner.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">151</int>
+        <double name="strength">0.9514501789108915</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. trade representative said the Federal Reserve under Chairman Paul Volcker has done its part to improve the trade situation by getting interest rates down.</str>
-        <int name="index">15</int>
+        <str name="text">S. budget deficits requires heavy capital inflows from overseas investors through purchases of U.</str>
+        <int name="index">7</int>
         <int name="start">0</int>
-        <int name="end">157</int>
-        <double name="strength">0.8537183813762816</double>
+        <int name="end">97</int>
+        <double name="strength">0.7872317962715212</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;Washington address&lt;/em&gt; to an &lt;em&gt;Export-Import&lt;/em&gt; Bank &lt;em&gt;sponsored meeting, Ortner&lt;/em&gt; said he &lt;em&gt;believed&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; at &lt;em&gt;current levels&lt;/em&gt; was &lt;em&gt;fairly priced against&lt;/em&gt; most &lt;em&gt;European currencies,&lt;/em&gt; but that the yen is 10 or 15 pct &lt;em&gt;undervalued&lt;/em&gt;.</str>
+        <str name="text">In a &lt;em&gt;Washington address&lt;/em&gt; to an &lt;em&gt;Export-Import&lt;/em&gt; Bank sponsored &lt;em&gt;meeting, Ortner&lt;/em&gt; said he believed the &lt;em&gt;dollar&lt;/em&gt; at &lt;em&gt;current levels&lt;/em&gt; was fairly priced against most &lt;em&gt;European currencies,&lt;/em&gt; but that the yen is 10 or 15 pct undervalued.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Commenting&lt;/em&gt; on &lt;em&gt;Japan, which&lt;/em&gt; is &lt;em&gt;running around&lt;/em&gt; a 80 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;trade surplus&lt;/em&gt; with the &lt;em&gt;United States, Yeutter&lt;/em&gt; said "&lt;em&gt;Japan&lt;/em&gt; is just not &lt;em&gt;doing&lt;/em&gt; the job on the &lt;em&gt;import side.&lt;/em&gt;"</str>
-        <int name="index">18</int>
+        <str name="text">&lt;em&gt;Yeutter&lt;/em&gt; declined to &lt;em&gt;comment&lt;/em&gt; on &lt;em&gt;statements&lt;/em&gt; relating to the &lt;em&gt;dollar&lt;/em&gt; made earlier &lt;em&gt;today&lt;/em&gt; by &lt;em&gt;Commerce&lt;/em&gt; Dept &lt;em&gt;undersecretary&lt;/em&gt; of &lt;em&gt;Economic Affairs Robert Ortner&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;trade representative&lt;/em&gt; said the &lt;em&gt;Federal Reserve under Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; has done its part to &lt;em&gt;improve&lt;/em&gt; the &lt;em&gt;trade situation&lt;/em&gt; by &lt;em&gt;getting interest rates down&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">S. &lt;em&gt;budget deficits&lt;/em&gt; requires &lt;em&gt;heavy capital inflows&lt;/em&gt; from &lt;em&gt;overseas investors&lt;/em&gt; through &lt;em&gt;purchases&lt;/em&gt; of U.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-370.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">speech</str>
+        <str name="text">quality</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">iwasaki</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">proposals</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">criticism</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">dependent</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">supporters</str>
+        <double name="strength">0.9877415447956283</double>
       </lst>
       <lst name="term">
-        <str name="text">reforms</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">fujioka</str>
+        <double name="strength">0.9877415447956263</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">In speech after speech, the 20-year-old ADB was charged either with not doing enough to help countries in the region, or with funding projects which were not worthwhile.</str>
-        <int name="index">1</int>
+        <str name="text">"I am not 100 pct satisfied with the performance of the ADB," Japanese finance ministry deputy director-general Fumiya Iwasaki told Reuters.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">170</int>
+        <int name="end">141</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But supporters of the ADB said it already was changing, and Iwasaki made it clear Japan welcomed the steps being taken by the ADB's president Masao Fujioka.</str>
-        <int name="index">10</int>
+        <str name="text">There were also criticisms of proposals from developing countries that the ADB make more of its loans dependent on economic reforms in Third World nations.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">157</int>
-        <double name="strength">0.8883966600198999</double>
+        <int name="end">156</int>
+        <double name="strength">0.8574199481370958</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Although over the years the majority of ADB loans have been sound, we have had problems with some of the projects brought before the board of directors lately."</str>
-        <int name="index">18</int>
-        <int name="start">0</int>
-        <int name="end">160</int>
-        <double name="strength">0.8692816461480517</double>
+        <str name="text">"We have expressed our unhappiness with the insistence of multi-lateral agencies on global prescriptions," he said.</str>
+        <int name="index">26</int>
+        <int name="start">1</int>
+        <int name="end">116</int>
+        <double name="strength">0.8527954456459839</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;speech after speech,&lt;/em&gt; the 20-year-old ADB was &lt;em&gt;charged either&lt;/em&gt; with not &lt;em&gt;doing enough&lt;/em&gt; to help &lt;em&gt;countries&lt;/em&gt; in the &lt;em&gt;region,&lt;/em&gt; or with &lt;em&gt;funding projects which&lt;/em&gt; were not &lt;em&gt;worthwhile&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">"I am not 100 pct &lt;em&gt;satisfied&lt;/em&gt; with the &lt;em&gt;performance&lt;/em&gt; of the ADB," &lt;em&gt;Japanese finance ministry deputy director-general Fumiya Iwasaki&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;supporters&lt;/em&gt; of the ADB said it &lt;em&gt;already&lt;/em&gt; was &lt;em&gt;changing,&lt;/em&gt; and &lt;em&gt;Iwasaki&lt;/em&gt; made it &lt;em&gt;clear Japan welcomed&lt;/em&gt; the &lt;em&gt;steps being taken&lt;/em&gt; by the ADB's &lt;em&gt;president Masao Fujioka&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">There were also &lt;em&gt;criticisms&lt;/em&gt; of &lt;em&gt;proposals&lt;/em&gt; from developing &lt;em&gt;countries&lt;/em&gt; that the ADB make more of its &lt;em&gt;loans dependent&lt;/em&gt; on &lt;em&gt;economic reforms&lt;/em&gt; in &lt;em&gt;Third World nations&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; over the &lt;em&gt;years&lt;/em&gt; the &lt;em&gt;majority&lt;/em&gt; of ADB &lt;em&gt;loans&lt;/em&gt; have been &lt;em&gt;sound,&lt;/em&gt; we have had &lt;em&gt;problems&lt;/em&gt; with some of the &lt;em&gt;projects brought before&lt;/em&gt; the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors lately.&lt;/em&gt;"</str>
-        <int name="index">18</int>
+        <str name="text">"We have expressed our &lt;em&gt;unhappiness&lt;/em&gt; with the &lt;em&gt;insistence&lt;/em&gt; of &lt;em&gt;multi-lateral agencies&lt;/em&gt; on &lt;em&gt;global prescriptions,"&lt;/em&gt; he said.</str>
+        <int name="index">26</int>
       </lst>
     </lst>
   </lst>

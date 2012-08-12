@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-316.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">72</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">subsidiary</str>
+        <str name="text">disallowance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">electric</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">replace</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">making</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">electric</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
         <str name="text">share</str>
-        <double name="strength">0.5000000000000004</double>
+        <double name="strength">0.9840539975201782</double>
       </lst>
       <lst name="term">
-        <str name="text">before</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">income</str>
+        <double name="strength">0.9840539975201782</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">261</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The company said it spent considerable time testing and modifying the ball valves which, until recently, "demonstrated potential for both improvement in performance and in ease of maintenance."</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">194</int>
-        <double name="strength">0.9824959628894848</double>
+        <double name="strength">0.9917254735196567</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The ball valves were manufactured by a Gulf and Western Inc &lt;GW&gt; subsidiary which is now owned by Crosby Valve and Gauge Co, a subsidiary of Gearhart Industries Inc &lt;GOI&gt;, the spokesman said.</str>
-        <int name="index">10</int>
+        <str name="text">This has increased the minimum overall disallowances under the settlement Nine Mile Two's owners reached with New York state regulators to over 2.1 billion dlrs, it added.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">0.9171615713603121</double>
+        <int name="end">172</int>
+        <double name="strength">0.8879882398552401</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Since activities&lt;/em&gt; to date have not yet &lt;em&gt;proven&lt;/em&gt; to be &lt;em&gt;completely successful&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;timing&lt;/em&gt; and &lt;em&gt;resulting additional&lt;/em&gt; cost of &lt;em&gt;achieving&lt;/em&gt; the leak &lt;em&gt;tightness standard&lt;/em&gt; is &lt;em&gt;uncertain,&lt;/em&gt; we have no &lt;em&gt;choice&lt;/em&gt; but to &lt;em&gt;replace&lt;/em&gt; them," &lt;em&gt;Niagara Mohawk&lt;/em&gt; said of the ball &lt;em&gt;valves&lt;/em&gt;.</str>
+        <str name="text">"Since &lt;em&gt;activities&lt;/em&gt; to date have not yet proven to be completely &lt;em&gt;successful&lt;/em&gt; and because of &lt;em&gt;timing&lt;/em&gt; and resulting &lt;em&gt;additional&lt;/em&gt; cost of achieving the leak tightness &lt;em&gt;standard&lt;/em&gt; is &lt;em&gt;uncertain,&lt;/em&gt; we have no &lt;em&gt;choice&lt;/em&gt; but to &lt;em&gt;replace&lt;/em&gt; them," Niagara &lt;em&gt;Mohawk&lt;/em&gt; said of the ball &lt;em&gt;valves&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it &lt;em&gt;spent considerable&lt;/em&gt; time &lt;em&gt;testing&lt;/em&gt; and &lt;em&gt;modifying&lt;/em&gt; the ball &lt;em&gt;valves which, until recently, "demonstrated potential&lt;/em&gt; for both &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;performance&lt;/em&gt; and in ease of &lt;em&gt;maintenance.&lt;/em&gt;"</str>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said it spent &lt;em&gt;considerable&lt;/em&gt; time &lt;em&gt;testing&lt;/em&gt; and modifying the ball &lt;em&gt;valves&lt;/em&gt; which, until recently, "demonstrated &lt;em&gt;potential&lt;/em&gt; for both &lt;em&gt;improvement&lt;/em&gt; in &lt;em&gt;performance&lt;/em&gt; and in ease of &lt;em&gt;maintenance.&lt;/em&gt;"</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The ball &lt;em&gt;valves&lt;/em&gt; were &lt;em&gt;manufactured&lt;/em&gt; by a Gulf and &lt;em&gt;Western&lt;/em&gt; Inc &lt;GW&gt; &lt;em&gt;subsidiary which&lt;/em&gt; is now &lt;em&gt;owned&lt;/em&gt; by &lt;em&gt;Crosby Valve&lt;/em&gt; and &lt;em&gt;Gauge&lt;/em&gt; Co, a &lt;em&gt;subsidiary&lt;/em&gt; of &lt;em&gt;Gearhart Industries&lt;/em&gt; Inc &lt;GOI&gt;, the &lt;em&gt;spokesman said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">This has increased the &lt;em&gt;minimum overall disallowances&lt;/em&gt; under the &lt;em&gt;settlement&lt;/em&gt; Nine Mile Two's &lt;em&gt;owners&lt;/em&gt; reached with New York &lt;em&gt;state regulators&lt;/em&gt; to over 2.1 &lt;em&gt;billion&lt;/em&gt; dlrs, it added.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

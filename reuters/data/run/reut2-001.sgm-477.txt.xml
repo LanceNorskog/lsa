@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-477.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">106</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">turned</str>
+        <str name="text">vital</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">raise</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">demand</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">economy</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">share</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">pesetas</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">productive</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">The plan calls for providing soft loans, tax cuts and other fiscal benefits to exporters and raising Spain's presence in international trade fairs.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">148</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The problem is convincing businessmen that exports are vital to survival in the context of EC competition," he said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">118</int>
+        <double name="strength">0.8282792359618347</double>
+        <int name="terms">8</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Ruiz Ligero said INFE would double its annual budget to 20 billion pesetas to finance the four-year plan, while the government's development aid fund (FAD) would provide a special 25 billion peseta grant.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said Spanish businessmen traditionally turned to the domestic market to satisfy rises in consumer demand, while turning their backs on foreign markets.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.9070860704400098</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Spain unveils a 105 billion peseta plan this month aimed at boosting exports to reach European Community levels, director-general of the INFE export institute, Apolonio Ruiz Ligero, said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">187</int>
-        <double name="strength">0.9011650798109432</double>
+        <double name="strength">0.8089123180509955</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Ruiz &lt;em&gt;Ligero&lt;/em&gt; said INFE &lt;em&gt;would double&lt;/em&gt; its &lt;em&gt;annual budget&lt;/em&gt; to 20 &lt;em&gt;billion pesetas&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; the four-year plan, &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;development&lt;/em&gt; aid fund (FAD) &lt;em&gt;would provide&lt;/em&gt; a &lt;em&gt;special 25 billion peseta grant&lt;/em&gt;.</str>
+        <str name="text">The plan calls for providing soft &lt;em&gt;loans,&lt;/em&gt; tax cuts and &lt;em&gt;other fiscal benefits&lt;/em&gt; to &lt;em&gt;exporters&lt;/em&gt; and &lt;em&gt;raising Spain&lt;/em&gt;'s &lt;em&gt;presence&lt;/em&gt; in &lt;em&gt;international trade fairs&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The &lt;em&gt;problem&lt;/em&gt; is &lt;em&gt;convincing businessmen&lt;/em&gt; that &lt;em&gt;exports&lt;/em&gt; are &lt;em&gt;vital&lt;/em&gt; to &lt;em&gt;survival&lt;/em&gt; in the &lt;em&gt;context&lt;/em&gt; of EC &lt;em&gt;competition,"&lt;/em&gt; he said.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Ruiz &lt;em&gt;Ligero&lt;/em&gt; said INFE would &lt;em&gt;double&lt;/em&gt; its &lt;em&gt;annual budget&lt;/em&gt; to 20 &lt;em&gt;billion pesetas&lt;/em&gt; to &lt;em&gt;finance&lt;/em&gt; the four-year plan, while the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;development&lt;/em&gt; aid fund (FAD) would &lt;em&gt;provide&lt;/em&gt; a &lt;em&gt;special 25 billion peseta grant&lt;/em&gt;.</str>
         <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He said &lt;em&gt;Spanish businessmen traditionally turned&lt;/em&gt; to the &lt;em&gt;domestic market&lt;/em&gt; to &lt;em&gt;satisfy rises&lt;/em&gt; in &lt;em&gt;consumer demand, while turning their backs&lt;/em&gt; on &lt;em&gt;foreign markets&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Spain unveils&lt;/em&gt; a 105 &lt;em&gt;billion peseta&lt;/em&gt; plan this &lt;em&gt;month aimed&lt;/em&gt; at &lt;em&gt;boosting exports&lt;/em&gt; to &lt;em&gt;reach European Community levels, director-general&lt;/em&gt; of the INFE &lt;em&gt;export institute, Apolonio&lt;/em&gt; Ruiz &lt;em&gt;Ligero, said&lt;/em&gt;.</str>
-        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

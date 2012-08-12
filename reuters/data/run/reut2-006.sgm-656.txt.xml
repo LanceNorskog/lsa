@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">32</int>
+  <int name="QTime">43</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-656.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">51</int>
       </lst>
       <lst name="terms">
-        <int name="count">265</int>
+        <int name="count">191</int>
       </lst>
       <lst name="stems">
-        <int name="count">173</int>
+        <int name="count">126</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">progressive</str>
+        <str name="text">produce</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reductions</str>
-        <double name="strength">1.0</double>
+        <str name="text">geplacea</str>
+        <double name="strength">0.9945981461057807</double>
       </lst>
       <lst name="term">
-        <str name="text">negotiations</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">official</str>
+        <double name="strength">0.9945981461057801</double>
       </lst>
       <lst name="term">
-        <str name="text">delay</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9930307647996174</double>
       </lst>
       <lst name="term">
-        <str name="text">shipments</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9930307647996165</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">357</int>
         <double name="strength">1.0</double>
+        <int name="terms">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Brazilian sugar industry sources said new sugar export sales were expected to be extremely low for the next year, with the Institute wary of exposing itself to domestic shortages of either alcohol or sugar and because of the need to rebuild depleted reserve stockpiles.</str>
-        <int name="index">39</int>
+        <str name="text">"They have to realise that the more our economies suffer, the less capcity we have to buy their goods and repay the region's 360 billion dollar foreign debt," GEPLACEA's Latorre said.</str>
+        <int name="index">49</int>
         <int name="start">1</int>
-        <int name="end">270</int>
-        <double name="strength">0.9750039250589709</double>
+        <int name="end">184</int>
+        <double name="strength">0.7331600223771936</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Negotiations to delay shipments to next year have been indecisive so far, the main sticking point being how Brazil should compensate buyers for non-delivery of sugar it had sold at around five cents per lb and which would cost eight cents to replace.</str>
-        <int name="index">38</int>
-        <int name="start">0</int>
-        <int name="end">250</int>
-        <double name="strength">0.8939368633988298</double>
+        <str name="text">Cuba suffers from run down plantations, harvesting problems and poor processing facilities more than from low world prices, since much of its output is sold to Eastern Bloc countries under special deals.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">204</int>
+        <double name="strength">0.7267245766602464</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;agricultural policies&lt;/em&gt; of the &lt;em&gt;European Community&lt;/em&gt; and of the &lt;em&gt;United States&lt;/em&gt; have &lt;em&gt;caused&lt;/em&gt; our &lt;em&gt;economies incalculable&lt;/em&gt; harm by &lt;em&gt;closing their markets,&lt;/em&gt; by &lt;em&gt;price deterioration&lt;/em&gt; in &lt;em&gt;international commerce&lt;/em&gt; and &lt;em&gt;furthermore&lt;/em&gt; by the &lt;em&gt;unfair competition&lt;/em&gt; in &lt;em&gt;third countries," Brazil&lt;/em&gt;'s &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Industry Minister&lt;/em&gt; Jose Hugo &lt;em&gt;Castelo Branco&lt;/em&gt; told the &lt;em&gt;October GEPLACEA meeting&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;agricultural policies&lt;/em&gt; of the &lt;em&gt;European Community&lt;/em&gt; and of the United &lt;em&gt;States&lt;/em&gt; have caused our &lt;em&gt;economies incalculable&lt;/em&gt; harm by closing their &lt;em&gt;markets,&lt;/em&gt; by &lt;em&gt;price deterioration&lt;/em&gt; in &lt;em&gt;international commerce&lt;/em&gt; and furthermore by the &lt;em&gt;unfair competition&lt;/em&gt; in &lt;em&gt;third countries," Brazil&lt;/em&gt;'s &lt;em&gt;Trade&lt;/em&gt; and &lt;em&gt;Industry Minister&lt;/em&gt; Jose Hugo Castelo &lt;em&gt;Branco&lt;/em&gt; told the &lt;em&gt;October GEPLACEA meeting&lt;/em&gt;.</str>
         <int name="index">43</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazilian sugar industry sources&lt;/em&gt; said new &lt;em&gt;sugar export sales&lt;/em&gt; were &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;extremely&lt;/em&gt; low for the next year, with the &lt;em&gt;Institute&lt;/em&gt; wary of &lt;em&gt;exposing itself&lt;/em&gt; to &lt;em&gt;domestic shortages&lt;/em&gt; of &lt;em&gt;either alcohol&lt;/em&gt; or &lt;em&gt;sugar&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; of the need to &lt;em&gt;rebuild depleted reserve stockpiles&lt;/em&gt;.</str>
-        <int name="index">39</int>
+        <str name="text">"They have to &lt;em&gt;realise&lt;/em&gt; that the more our &lt;em&gt;economies suffer,&lt;/em&gt; the less &lt;em&gt;capcity&lt;/em&gt; we have to buy their &lt;em&gt;goods&lt;/em&gt; and &lt;em&gt;repay&lt;/em&gt; the &lt;em&gt;region&lt;/em&gt;'s 360 &lt;em&gt;billion dollar foreign&lt;/em&gt; debt," &lt;em&gt;GEPLACEA&lt;/em&gt;'s Latorre said.</str>
+        <int name="index">49</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Negotiations&lt;/em&gt; to &lt;em&gt;delay shipments&lt;/em&gt; to next year have been &lt;em&gt;indecisive&lt;/em&gt; so far, the main &lt;em&gt;sticking point being&lt;/em&gt; how &lt;em&gt;Brazil should compensate buyers&lt;/em&gt; for non-&lt;em&gt;delivery&lt;/em&gt; of &lt;em&gt;sugar&lt;/em&gt; it had sold at &lt;em&gt;around&lt;/em&gt; five &lt;em&gt;cents&lt;/em&gt; per lb and &lt;em&gt;which would&lt;/em&gt; cost &lt;em&gt;eight cents&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt;.</str>
-        <int name="index">38</int>
+        <str name="text">Cuba &lt;em&gt;suffers&lt;/em&gt; from run down &lt;em&gt;plantations,&lt;/em&gt; harvesting &lt;em&gt;problems&lt;/em&gt; and poor &lt;em&gt;processing facilities&lt;/em&gt; more than from low &lt;em&gt;world prices,&lt;/em&gt; since much of its &lt;em&gt;output&lt;/em&gt; is sold to &lt;em&gt;Eastern&lt;/em&gt; Bloc &lt;em&gt;countries&lt;/em&gt; under &lt;em&gt;special deals&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
     </lst>
   </lst>

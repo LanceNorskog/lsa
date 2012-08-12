@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-877.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">114</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">minister</str>
+        <str name="text">large</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">twenty</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">north</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">treated</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">major</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">fractures</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">force</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">after</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Prime Minister David Lange visited the region today before flying to Auckland to attend a South Pacific Forum conference of foreign ministers.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">143</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A state of civil defence emergency in the area was declared yesterday and is still in force, with schools closed and access to the worst-hit towns of Edgecumbe, Whakatane and the forestry town of Kawerau severely restricted.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">225</int>
-        <double name="strength">0.8658604308514677</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The seismologist said if the pattern of other large earthquakes was followed the shocks would continue for one to several weeks, declining in frequency and magnitude.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.6900655593423537</double>
+        <double name="strength">0.9269843396961865</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Earthquakes and aftershocks are still shaking areas of northern New Zealand following yesterday's strong tremor which left 3,000 people homeless.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">145</int>
+        <double name="strength">0.8283231517049877</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Prime Minister David Lange visited&lt;/em&gt; the &lt;em&gt;region today before flying&lt;/em&gt; to &lt;em&gt;Auckland&lt;/em&gt; to &lt;em&gt;attend&lt;/em&gt; a &lt;em&gt;South Pacific Forum conference&lt;/em&gt; of &lt;em&gt;foreign ministers&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;civil defence emergency&lt;/em&gt; in the area was &lt;em&gt;declared yesterday&lt;/em&gt; and is &lt;em&gt;still&lt;/em&gt; in &lt;em&gt;force,&lt;/em&gt; with &lt;em&gt;schools closed&lt;/em&gt; and &lt;em&gt;access&lt;/em&gt; to the &lt;em&gt;worst&lt;/em&gt;-hit &lt;em&gt;towns&lt;/em&gt; of &lt;em&gt;Edgecumbe, Whakatane&lt;/em&gt; and the &lt;em&gt;forestry&lt;/em&gt; town of &lt;em&gt;Kawerau severely restricted&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;civil defence emergency&lt;/em&gt; in the area was declared &lt;em&gt;yesterday&lt;/em&gt; and is still in &lt;em&gt;force,&lt;/em&gt; with &lt;em&gt;schools&lt;/em&gt; closed and &lt;em&gt;access&lt;/em&gt; to the worst-hit &lt;em&gt;towns&lt;/em&gt; of &lt;em&gt;Edgecumbe, Whakatane&lt;/em&gt; and the &lt;em&gt;forestry&lt;/em&gt; town of &lt;em&gt;Kawerau&lt;/em&gt; severely restricted.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;seismologist&lt;/em&gt; said if the &lt;em&gt;pattern&lt;/em&gt; of &lt;em&gt;other large earthquakes&lt;/em&gt; was &lt;em&gt;followed&lt;/em&gt; the &lt;em&gt;shocks would continue&lt;/em&gt; for one to &lt;em&gt;several weeks, declining&lt;/em&gt; in &lt;em&gt;frequency&lt;/em&gt; and &lt;em&gt;magnitude&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;seismologist&lt;/em&gt; said if the &lt;em&gt;pattern&lt;/em&gt; of &lt;em&gt;other large earthquakes&lt;/em&gt; was followed the &lt;em&gt;shocks&lt;/em&gt; would &lt;em&gt;continue&lt;/em&gt; for one to &lt;em&gt;several weeks,&lt;/em&gt; declining in &lt;em&gt;frequency&lt;/em&gt; and &lt;em&gt;magnitude&lt;/em&gt;.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Earthquakes&lt;/em&gt; and &lt;em&gt;aftershocks&lt;/em&gt; are still shaking &lt;em&gt;areas&lt;/em&gt; of &lt;em&gt;northern&lt;/em&gt; New &lt;em&gt;Zealand&lt;/em&gt; following &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;strong tremor&lt;/em&gt; which left 3,000 &lt;em&gt;people homeless&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

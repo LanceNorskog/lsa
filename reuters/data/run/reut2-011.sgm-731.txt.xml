@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-731.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">149</int>
+        <int name="count">117</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">trade</str>
+        <str name="text">western</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">meetings</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">american</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">overall</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">maintain</str>
-        <double name="strength">0.8944271909999172</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Washington has extracted promises from both West Germany and Japan that they will take measures to bolster their domestic economic growth, to help reduce the massive gap between their huge trade surpluses and the record American trade deficit.</str>
-        <int name="index">8</int>
+        <str name="text">In its recent annual report, the Inter-American Development Bank said Latin American nations need to expand between four and five pct this year to service their 382 billion dlrs of foreign debt.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">244</int>
+        <int name="end">195</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Western officials maintain the industrial world needs to expand at least three per cent annually -- against this year's initial IMF prediction of 2.5 pct -- in order to support the export drive of debtor nations.</str>
         <int name="index">18</int>
         <int name="start">0</int>
         <int name="end">212</int>
-        <double name="strength">0.8664493590196722</double>
+        <double name="strength">0.9902917416243744</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">In recent days, the dollar has come under heavy selling pressure as markets have grown cynical that Bonn and Tokyo will take early action.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">139</int>
-        <double name="strength">0.8645376365279898</double>
+        <double name="strength">0.9732628005682085</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Washington&lt;/em&gt; has &lt;em&gt;extracted promises&lt;/em&gt; from both West &lt;em&gt;Germany&lt;/em&gt; and &lt;em&gt;Japan&lt;/em&gt; that they will take &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;bolster their domestic economic growth,&lt;/em&gt; to help &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;massive&lt;/em&gt; gap &lt;em&gt;between their&lt;/em&gt; huge &lt;em&gt;trade surpluses&lt;/em&gt; and the &lt;em&gt;record American trade deficit&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">In its &lt;em&gt;recent annual report,&lt;/em&gt; the &lt;em&gt;Inter&lt;/em&gt;-American &lt;em&gt;Development&lt;/em&gt; Bank said &lt;em&gt;Latin American nations&lt;/em&gt; need to &lt;em&gt;expand&lt;/em&gt; between four and five pct this year to &lt;em&gt;service&lt;/em&gt; their 382 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;foreign debt&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Western officials maintain&lt;/em&gt; the &lt;em&gt;industrial world needs&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; at &lt;em&gt;least three&lt;/em&gt; per cent &lt;em&gt;annually -- against&lt;/em&gt; this year's &lt;em&gt;initial&lt;/em&gt; IMF &lt;em&gt;prediction&lt;/em&gt; of 2.5 pct -- in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;export drive&lt;/em&gt; of &lt;em&gt;debtor nations&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Western officials maintain&lt;/em&gt; the &lt;em&gt;industrial world&lt;/em&gt; needs to &lt;em&gt;expand&lt;/em&gt; at least &lt;em&gt;three&lt;/em&gt; per cent annually -- against this year's &lt;em&gt;initial&lt;/em&gt; IMF &lt;em&gt;prediction&lt;/em&gt; of 2.5 pct -- in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;support&lt;/em&gt; the &lt;em&gt;export drive&lt;/em&gt; of &lt;em&gt;debtor nations&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;recent&lt;/em&gt; days, the &lt;em&gt;dollar&lt;/em&gt; has come &lt;em&gt;under heavy selling pressure&lt;/em&gt; as &lt;em&gt;markets&lt;/em&gt; have &lt;em&gt;grown cynical&lt;/em&gt; that Bonn and &lt;em&gt;Tokyo&lt;/em&gt; will take &lt;em&gt;early action&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;recent&lt;/em&gt; days, the &lt;em&gt;dollar&lt;/em&gt; has come under &lt;em&gt;heavy selling pressure&lt;/em&gt; as &lt;em&gt;markets&lt;/em&gt; have grown &lt;em&gt;cynical&lt;/em&gt; that Bonn and &lt;em&gt;Tokyo&lt;/em&gt; will take &lt;em&gt;early action&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
     </lst>

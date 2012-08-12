@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">53</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-379.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">services</str>
+        <str name="text">alcatel</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">received</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">repurchase</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
         <str name="text">chairman</str>
-        <double name="strength">0.5590169943749467</double>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">spokesman</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">transfers</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">found</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">european</str>
+        <double name="strength">0.9634242309653828</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Breaking out operating earnings by divisions, ITT said diversified services, which consists of insurance, financial services, communications and hotels, saw the sharpest rise in operating income, to 454 mln dlrs, from 297 mln dlrs a year ago.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">243</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Araskog had told analysts last July that the company was considering repurchasing some shares, but a spokesman noted that ITT found it difficult to undertake the program because of the sharp appreciation in its stock price.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.8547878100218254</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Although the agreement was closed by the end of the year, Araskog said the final transfers of stock of a number of small companies was recently concluded.</str>
-        <int name="index">11</int>
+        <str name="text">Last year, the company transferred its European telecommunications businesses into a joint venture with Cie Generale d'Electricite, called Alcatel N.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">149</int>
+        <double name="strength">0.9156668023451463</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We are considering that as a very important way to increase earnings per share," Araskog said and noted the aim was not to boost ITT's stock short term in the market.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">155</int>
-        <double name="strength">0.7487598569202141</double>
+        <int name="end">168</int>
+        <double name="strength">0.8577325781443221</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Breaking&lt;/em&gt; out &lt;em&gt;operating earnings&lt;/em&gt; by &lt;em&gt;divisions,&lt;/em&gt; ITT said &lt;em&gt;diversified services, which consists&lt;/em&gt; of &lt;em&gt;insurance, financial services, communications&lt;/em&gt; and &lt;em&gt;hotels,&lt;/em&gt; saw the &lt;em&gt;sharpest&lt;/em&gt; rise in &lt;em&gt;operating income,&lt;/em&gt; to 454 mln dlrs, from 297 mln dlrs a year ago.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Araskog&lt;/em&gt; had told &lt;em&gt;analysts&lt;/em&gt; last July that the &lt;em&gt;company&lt;/em&gt; was &lt;em&gt;considering repurchasing&lt;/em&gt; some &lt;em&gt;shares,&lt;/em&gt; but a &lt;em&gt;spokesman noted&lt;/em&gt; that ITT &lt;em&gt;found&lt;/em&gt; it &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;undertake&lt;/em&gt; the &lt;em&gt;program because&lt;/em&gt; of the &lt;em&gt;sharp appreciation&lt;/em&gt; in its &lt;em&gt;stock price&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Araskog&lt;/em&gt; had told &lt;em&gt;analysts&lt;/em&gt; last July that the &lt;em&gt;company&lt;/em&gt; was considering repurchasing some &lt;em&gt;shares,&lt;/em&gt; but a &lt;em&gt;spokesman&lt;/em&gt; noted that ITT found it &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;undertake&lt;/em&gt; the &lt;em&gt;program&lt;/em&gt; because of the &lt;em&gt;sharp appreciation&lt;/em&gt; in its &lt;em&gt;stock price&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although&lt;/em&gt; the &lt;em&gt;agreement&lt;/em&gt; was &lt;em&gt;closed&lt;/em&gt; by the end of the year, &lt;em&gt;Araskog&lt;/em&gt; said the &lt;em&gt;final transfers&lt;/em&gt; of &lt;em&gt;stock&lt;/em&gt; of a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;small companies&lt;/em&gt; was &lt;em&gt;recently concluded&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Last year, the &lt;em&gt;company&lt;/em&gt; transferred its &lt;em&gt;European telecommunications businesses&lt;/em&gt; into a &lt;em&gt;joint venture&lt;/em&gt; with Cie &lt;em&gt;Generale&lt;/em&gt; d'&lt;em&gt;Electricite,&lt;/em&gt; called &lt;em&gt;Alcatel N&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We are considering that as a very &lt;em&gt;important&lt;/em&gt; way to &lt;em&gt;increase earnings&lt;/em&gt; per &lt;em&gt;share," Araskog&lt;/em&gt; said and noted the aim was not to &lt;em&gt;boost&lt;/em&gt; ITT's &lt;em&gt;stock short&lt;/em&gt; term in the &lt;em&gt;market&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

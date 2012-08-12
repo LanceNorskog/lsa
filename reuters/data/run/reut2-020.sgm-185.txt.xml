@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-185.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">gentleman</str>
+        <str name="text">nations</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">think</str>
+        <str name="text">authority</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">overburdened</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">situation</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">until</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">discounts</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"It would be naive to suggest that any agreement would not have some share of connivance, but I think the voluntary system seemed to suffice and, coupled with the fact that we have so much coffee, I don't think that it poses that much of a threat," one trader said.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">266</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"If there's that much of a discrepancy between prices for one country and another, producers may be teted to get rid of their stocks of coffee by selling to non-member nations and by circumventing the quota provisions," said Paine Webber analyst Bernie Savaiko.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">262</int>
-        <double name="strength">0.9258032066323925</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">According to customs officials, several green coffee importers confessed in 1985 that they had imported coffee fraudulently after buying it for non-member destinations, forging landing certificates and then relabelling it as navy beans.</str>
-        <int name="index">19</int>
+        <str name="text">"Customs can do a good job when given the tools, but when its hands are tied, it doesn't have the authority to demand Form O (documents tracking merchandise from source to destination)," he said.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">0.9100386682561227</double>
+        <int name="end">196</int>
+        <double name="strength">0.8372002216821774</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. government until Congress approves the monitoring authority, but if coffee arrives without valid certification, it will still be allowed entry.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.8109099618932629</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"It &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;naive&lt;/em&gt; to &lt;em&gt;suggest&lt;/em&gt; that any &lt;em&gt;agreement would&lt;/em&gt; not have some &lt;em&gt;share&lt;/em&gt; of &lt;em&gt;connivance,&lt;/em&gt; but I &lt;em&gt;think&lt;/em&gt; the &lt;em&gt;voluntary system seemed&lt;/em&gt; to &lt;em&gt;suffice&lt;/em&gt; and, &lt;em&gt;coupled&lt;/em&gt; with the fact that we have so much &lt;em&gt;coffee,&lt;/em&gt; I don't &lt;em&gt;think&lt;/em&gt; that it &lt;em&gt;poses&lt;/em&gt; that much of a &lt;em&gt;threat,"&lt;/em&gt; one &lt;em&gt;trader said&lt;/em&gt;.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"If &lt;em&gt;there&lt;/em&gt;'s that much of a &lt;em&gt;discrepancy between prices&lt;/em&gt; for one &lt;em&gt;country&lt;/em&gt; and &lt;em&gt;another, producers&lt;/em&gt; may be &lt;em&gt;teted&lt;/em&gt; to get rid of &lt;em&gt;their stocks&lt;/em&gt; of &lt;em&gt;coffee&lt;/em&gt; by &lt;em&gt;selling&lt;/em&gt; to non-&lt;em&gt;member nations&lt;/em&gt; and by &lt;em&gt;circumventing&lt;/em&gt; the &lt;em&gt;quota provisions,"&lt;/em&gt; said &lt;em&gt;Paine Webber analyst Bernie Savaiko&lt;/em&gt;.</str>
+        <str name="text">"If there's that much of a &lt;em&gt;discrepancy&lt;/em&gt; between &lt;em&gt;prices&lt;/em&gt; for one &lt;em&gt;country&lt;/em&gt; and another, &lt;em&gt;producers&lt;/em&gt; may be teted to get rid of their &lt;em&gt;stocks&lt;/em&gt; of &lt;em&gt;coffee&lt;/em&gt; by selling to non-&lt;em&gt;member nations&lt;/em&gt; and by circumventing the &lt;em&gt;quota provisions,"&lt;/em&gt; said &lt;em&gt;Paine Webber analyst Bernie Savaiko&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;According&lt;/em&gt; to &lt;em&gt;customs officials, several green coffee importers confessed&lt;/em&gt; in 1985 that they had &lt;em&gt;imported coffee fraudulently after buying&lt;/em&gt; it for non-&lt;em&gt;member destinations, forging landing certificates&lt;/em&gt; and then &lt;em&gt;relabelling&lt;/em&gt; it as navy &lt;em&gt;beans&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;"Customs&lt;/em&gt; can do a good job when given the &lt;em&gt;tools,&lt;/em&gt; but when its &lt;em&gt;hands&lt;/em&gt; are tied, it doesn't have the &lt;em&gt;authority&lt;/em&gt; to &lt;em&gt;demand&lt;/em&gt; Form O (&lt;em&gt;documents&lt;/em&gt; tracking &lt;em&gt;merchandise&lt;/em&gt; from &lt;em&gt;source&lt;/em&gt; to &lt;em&gt;destination),"&lt;/em&gt; he said.</str>
+        <int name="index">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;government&lt;/em&gt; until &lt;em&gt;Congress&lt;/em&gt; approves the &lt;em&gt;monitoring authority,&lt;/em&gt; but if &lt;em&gt;coffee&lt;/em&gt; arrives without &lt;em&gt;valid certification,&lt;/em&gt; it will still be allowed &lt;em&gt;entry&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

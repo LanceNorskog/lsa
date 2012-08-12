@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">8</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-945.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">addition</str>
+        <str name="text">creditors</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">united</str>
+        <str name="text">strong</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">states</str>
+        <str name="text">incentive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">1.0</double>
+        <str name="text">borrowing</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">budget</str>
-        <double name="strength">1.0</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">225</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"There is clearly a danger that adequate financing arrangements are not being negotiated and put in place in a timely way," Volcker told the Senate Banking Committee.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.9416751758181465</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">In addition, the United States must reduce its budget deficit and foreign nations need to provide stimulus to their domestic economies, Volcker said.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">150</int>
-        <double name="strength">0.8987170342729177</double>
+        <double name="strength">0.94345977406486</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"There is clearly a danger that adequate financing arrangements are not being negotiated and put in place in a timely way," Volcker told the Senate Banking Committee.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.8508271663782397</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Federal Reserve Board Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; said that &lt;em&gt;debtor nations&lt;/em&gt; have made much &lt;em&gt;progress&lt;/em&gt; in &lt;em&gt;laying&lt;/em&gt; the &lt;em&gt;groundwork&lt;/em&gt; for &lt;em&gt;economic growth,&lt;/em&gt; but a &lt;em&gt;solution&lt;/em&gt; to &lt;em&gt;world&lt;/em&gt; debt &lt;em&gt;difficulties&lt;/em&gt; was &lt;em&gt;endangered&lt;/em&gt; by &lt;em&gt;inaction&lt;/em&gt; on new &lt;em&gt;financing&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Federal Reserve Board Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; said that &lt;em&gt;debtor nations&lt;/em&gt; have made much &lt;em&gt;progress&lt;/em&gt; in laying the &lt;em&gt;groundwork&lt;/em&gt; for &lt;em&gt;economic growth,&lt;/em&gt; but a &lt;em&gt;solution&lt;/em&gt; to &lt;em&gt;world&lt;/em&gt; debt &lt;em&gt;difficulties&lt;/em&gt; was endangered by &lt;em&gt;inaction&lt;/em&gt; on new &lt;em&gt;financing&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"There&lt;/em&gt; is &lt;em&gt;clearly&lt;/em&gt; a &lt;em&gt;danger&lt;/em&gt; that &lt;em&gt;adequate financing arrangements&lt;/em&gt; are not &lt;em&gt;being negotiated&lt;/em&gt; and put in &lt;em&gt;place&lt;/em&gt; in a &lt;em&gt;timely&lt;/em&gt; way," &lt;em&gt;Volcker&lt;/em&gt; told the &lt;em&gt;Senate Banking Committee&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; must &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;budget deficit&lt;/em&gt; and &lt;em&gt;foreign nations&lt;/em&gt; need to &lt;em&gt;provide stimulus&lt;/em&gt; to their &lt;em&gt;domestic economies, Volcker said&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt; must &lt;em&gt;reduce&lt;/em&gt; its &lt;em&gt;budget deficit&lt;/em&gt; and &lt;em&gt;foreign nations&lt;/em&gt; need to &lt;em&gt;provide stimulus&lt;/em&gt; to &lt;em&gt;their domestic economies, Volcker said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">"There is clearly a &lt;em&gt;danger&lt;/em&gt; that &lt;em&gt;adequate financing arrangements&lt;/em&gt; are not being negotiated and put in &lt;em&gt;place&lt;/em&gt; in a &lt;em&gt;timely&lt;/em&gt; way," &lt;em&gt;Volcker&lt;/em&gt; told the &lt;em&gt;Senate Banking Committee&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

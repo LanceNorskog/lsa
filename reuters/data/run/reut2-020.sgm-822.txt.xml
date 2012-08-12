@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-822.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">156</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">109</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">telephone</str>
+        <str name="text">things</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">handle</str>
+        <double name="strength">0.9999999999999996</double>
+      </lst>
+      <lst name="term">
         <str name="text">quote</str>
-        <double name="strength">0.5590169943749476</double>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">people</str>
-        <double name="strength">0.5000000000000019</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">innovative</str>
-        <double name="strength">0.500000000000001</double>
-      </lst>
-      <lst name="term">
-        <str name="text">jointly</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">307</int>
         <double name="strength">1.0</double>
+        <int name="terms">22</int>
       </lst>
       <lst name="sentence">
         <str name="text">"The computers might turn out to be the heroes of this whole thing," added DuWayne Peterson, executive vice president of technology at Merrill Lynch and Co Inc.</str>
         <int name="index">14</int>
         <int name="start">2</int>
         <int name="end">162</int>
-        <double name="strength">0.8334422287149467</double>
+        <double name="strength">0.7757292407550536</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Meanwhile, New York Telephone Co said Monday's panic selling did not wreak havoc on its telephone system.</str>
-        <int name="index">20</int>
+        <str name="text">In fact, officials said the biggest constraint on trading was caused by some of the oldest machines on exchange floors, the card printers that issue the buy and sell orders.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">106</int>
-        <double name="strength">0.8178721046929399</double>
+        <int name="end">174</int>
+        <double name="strength">0.6637374593168736</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">And &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;financial instry&lt;/em&gt;'s hi-tech &lt;em&gt;resources&lt;/em&gt; have been able to &lt;em&gt;handle&lt;/em&gt; the &lt;em&gt;crisis,&lt;/em&gt; the &lt;em&gt;sudden surge&lt;/em&gt; in &lt;em&gt;trading volume&lt;/em&gt; will &lt;em&gt;likely force&lt;/em&gt; the &lt;em&gt;exchanges&lt;/em&gt; and &lt;em&gt;securities firms&lt;/em&gt; to &lt;em&gt;revamp their computer systems&lt;/em&gt; and &lt;em&gt;communications networks several years earlier&lt;/em&gt; than they had &lt;em&gt;planned, industry officials said&lt;/em&gt;.</str>
+        <str name="text">And while the &lt;em&gt;financial instry&lt;/em&gt;'s hi-tech &lt;em&gt;resources&lt;/em&gt; have been able to &lt;em&gt;handle&lt;/em&gt; the &lt;em&gt;crisis,&lt;/em&gt; the &lt;em&gt;sudden surge&lt;/em&gt; in &lt;em&gt;trading volume&lt;/em&gt; will likely &lt;em&gt;force&lt;/em&gt; the &lt;em&gt;exchanges&lt;/em&gt; and &lt;em&gt;securities firms&lt;/em&gt; to &lt;em&gt;revamp&lt;/em&gt; their &lt;em&gt;computer systems&lt;/em&gt; and &lt;em&gt;communications networks several years&lt;/em&gt; earlier than they had planned, &lt;em&gt;industry officials said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;computers might&lt;/em&gt; turn out to be the &lt;em&gt;heroes&lt;/em&gt; of this &lt;em&gt;whole thing," added DuWayne Peterson, executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;technology&lt;/em&gt; at &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co Inc.</str>
+        <str name="text">"The &lt;em&gt;computers&lt;/em&gt; might turn out to be the &lt;em&gt;heroes&lt;/em&gt; of this &lt;em&gt;whole thing,"&lt;/em&gt; added &lt;em&gt;DuWayne Peterson, executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of &lt;em&gt;technology&lt;/em&gt; at &lt;em&gt;Merrill Lynch&lt;/em&gt; and Co Inc.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Meanwhile,&lt;/em&gt; New York &lt;em&gt;Telephone&lt;/em&gt; Co said &lt;em&gt;Monday&lt;/em&gt;'s &lt;em&gt;panic selling&lt;/em&gt; did not &lt;em&gt;wreak havoc&lt;/em&gt; on its &lt;em&gt;telephone system&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">In fact, &lt;em&gt;officials&lt;/em&gt; said the biggest &lt;em&gt;constraint&lt;/em&gt; on &lt;em&gt;trading&lt;/em&gt; was caused by some of the oldest &lt;em&gt;machines&lt;/em&gt; on &lt;em&gt;exchange floors,&lt;/em&gt; the card &lt;em&gt;printers&lt;/em&gt; that &lt;em&gt;issue&lt;/em&gt; the buy and sell &lt;em&gt;orders&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

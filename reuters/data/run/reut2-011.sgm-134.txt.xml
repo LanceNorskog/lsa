@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-134.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">three</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">aimed</str>
-        <double name="strength">0.8944271909999174</double>
+        <str name="text">years</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">promoting</str>
-        <double name="strength">0.8944271909999174</double>
+        <str name="text">military</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">attributed</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">government</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">performance</str>
-        <double name="strength">0.894427190999917</double>
+        <str name="text">former</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He attributed the poor performance of Brazil's trade balance in 1986 to protectionist moves by industrialised countries, the fall in the prices of basic goods and the crisis faced by several of Brazil's Third World trade partners.</str>
-        <int name="index">11</int>
+        <str name="text">Tomorrow, Brazil was due to fulfill payment of 15 billion dollars in short range credit lines, but its economic officials have suggested a 60-day extension in the deadline in order to seek a renegotiation with its creditors.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">231</int>
+        <int name="end">225</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Sarney's decision means that Brazilian importers of machinery and industrial equipment can buy dollar currency in the parallel market without having to wait for the issuing of an official order from the Banco do Brasil's Foreign Trade Department (Cacex).</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">255</int>
-        <double name="strength">0.9823355801008753</double>
+        <double name="strength">0.9049552461486529</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Tomorrow, Brazil was due to fulfill payment of 15 billion dollars in short range credit lines, but its economic officials have suggested a 60-day extension in the deadline in order to seek a renegotiation with its creditors.</str>
-        <int name="index">9</int>
+        <str name="text">Sarney also announced measures to boost exports in an effort to strengthen the country's trade balance and alleviate the risk of a reduction of foreign loans for this sector of the economy.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9663478864022134</double>
+        <int name="end">190</int>
+        <double name="strength">0.8245657168505952</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;attributed&lt;/em&gt; the poor &lt;em&gt;performance&lt;/em&gt; of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;trade balance&lt;/em&gt; in 1986 to &lt;em&gt;protectionist moves&lt;/em&gt; by &lt;em&gt;industrialised countries,&lt;/em&gt; the fall in the &lt;em&gt;prices&lt;/em&gt; of &lt;em&gt;basic goods&lt;/em&gt; and the &lt;em&gt;crisis faced&lt;/em&gt; by &lt;em&gt;several&lt;/em&gt; of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;Third World trade partners&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Tomorrow, Brazil&lt;/em&gt; was due to &lt;em&gt;fulfill payment&lt;/em&gt; of 15 &lt;em&gt;billion dollars&lt;/em&gt; in &lt;em&gt;short range credit lines,&lt;/em&gt; but its &lt;em&gt;economic officials&lt;/em&gt; have suggested a 60-day &lt;em&gt;extension&lt;/em&gt; in the &lt;em&gt;deadline&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to seek a &lt;em&gt;renegotiation&lt;/em&gt; with its &lt;em&gt;creditors&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sarney&lt;/em&gt;'s &lt;em&gt;decision means&lt;/em&gt; that &lt;em&gt;Brazilian importers&lt;/em&gt; of &lt;em&gt;machinery&lt;/em&gt; and &lt;em&gt;industrial equipment&lt;/em&gt; can buy &lt;em&gt;dollar currency&lt;/em&gt; in the &lt;em&gt;parallel market without having&lt;/em&gt; to wait for the &lt;em&gt;issuing&lt;/em&gt; of an &lt;em&gt;official order&lt;/em&gt; from the &lt;em&gt;Banco&lt;/em&gt; do &lt;em&gt;Brasil&lt;/em&gt;'s &lt;em&gt;Foreign Trade Department (Cacex)&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Sarney&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; means that &lt;em&gt;Brazilian importers&lt;/em&gt; of &lt;em&gt;machinery&lt;/em&gt; and &lt;em&gt;industrial equipment&lt;/em&gt; can buy &lt;em&gt;dollar currency&lt;/em&gt; in the &lt;em&gt;parallel market&lt;/em&gt; without having to wait for the issuing of an &lt;em&gt;official order&lt;/em&gt; from the &lt;em&gt;Banco&lt;/em&gt; do &lt;em&gt;Brasil&lt;/em&gt;'s &lt;em&gt;Foreign Trade Department (Cacex)&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Tomorrow, Brazil&lt;/em&gt; was due to &lt;em&gt;fulfill payment&lt;/em&gt; of 15 &lt;em&gt;billion dollars&lt;/em&gt; in &lt;em&gt;short range credit lines,&lt;/em&gt; but its &lt;em&gt;economic officials&lt;/em&gt; have &lt;em&gt;suggested&lt;/em&gt; a 60-day &lt;em&gt;extension&lt;/em&gt; in the &lt;em&gt;deadline&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to seek a &lt;em&gt;renegotiation&lt;/em&gt; with its &lt;em&gt;creditors&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Sarney&lt;/em&gt; also announced &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;boost exports&lt;/em&gt; in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;strengthen&lt;/em&gt; the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;trade balance&lt;/em&gt; and &lt;em&gt;alleviate&lt;/em&gt; the risk of a &lt;em&gt;reduction&lt;/em&gt; of &lt;em&gt;foreign loans&lt;/em&gt; for this &lt;em&gt;sector&lt;/em&gt; of the &lt;em&gt;economy&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

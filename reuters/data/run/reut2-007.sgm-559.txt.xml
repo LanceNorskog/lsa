@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-559.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">engine</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.5590169943749473</double>
+        <str name="text">december</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">details</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">project</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">range</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">north</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">study</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">307</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In January, SAS officials said Airbus had made a revised offer that included larger, more powerful engines and two versions of the four-engine plane.</str>
-        <int name="index">11</int>
+        <str name="text">SAS signed a letter of intent for the MD-11s last December, but a company statement said the decision on whether to harden this up into a firm order would be linked to the outcome of negotiations with the United States on deregulating air fares across the North Atlantic.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">150</int>
-        <double name="strength">0.8948245166038448</double>
+        <int name="end">272</int>
+        <double name="strength">0.9176326756579424</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The SAS move, said by analysts to be a big blow to McDonnell Douglas, came following a Copenhagen board meeting of the airline in which the governments of Sweden, Denmark and Norway jointly own a 50 pct stake.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">210</int>
-        <double name="strength">0.8690343985226029</double>
+        <double name="strength">0.8923868212109413</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Swissair yesterday confirmed&lt;/em&gt; an &lt;em&gt;order&lt;/em&gt; for the MD-11 long haul jets &lt;em&gt;worth 1.2 billion Swiss francs&lt;/em&gt; and said it had &lt;em&gt;preferred&lt;/em&gt; the &lt;em&gt;McDonnell Douglas planes&lt;/em&gt; over the A340, a &lt;em&gt;project&lt;/em&gt; that has not yet been &lt;em&gt;formally launched,&lt;/em&gt; as it met the &lt;em&gt;airline&lt;/em&gt;'s &lt;em&gt;requirements better&lt;/em&gt; and &lt;em&gt;would&lt;/em&gt; be able to &lt;em&gt;enter service in 1990&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Swissair yesterday&lt;/em&gt; confirmed an &lt;em&gt;order&lt;/em&gt; for the MD-11 long haul jets &lt;em&gt;worth 1.2 billion Swiss francs&lt;/em&gt; and said it had preferred the &lt;em&gt;McDonnell Douglas planes&lt;/em&gt; over the A340, a &lt;em&gt;project&lt;/em&gt; that has not yet been formally launched, as it met the &lt;em&gt;airline&lt;/em&gt;'s &lt;em&gt;requirements&lt;/em&gt; better and would be able to &lt;em&gt;enter service in 1990&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;January,&lt;/em&gt; SAS &lt;em&gt;officials&lt;/em&gt; said &lt;em&gt;Airbus&lt;/em&gt; had made a &lt;em&gt;revised offer&lt;/em&gt; that &lt;em&gt;included larger,&lt;/em&gt; more &lt;em&gt;powerful engines&lt;/em&gt; and two &lt;em&gt;versions&lt;/em&gt; of the four-&lt;em&gt;engine plane&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">SAS signed a &lt;em&gt;letter&lt;/em&gt; of &lt;em&gt;intent&lt;/em&gt; for the MD-11s last &lt;em&gt;December,&lt;/em&gt; but a &lt;em&gt;company statement&lt;/em&gt; said the &lt;em&gt;decision&lt;/em&gt; on whether to &lt;em&gt;harden&lt;/em&gt; this up into a firm &lt;em&gt;order&lt;/em&gt; would be linked to the &lt;em&gt;outcome&lt;/em&gt; of &lt;em&gt;negotiations&lt;/em&gt; with the United &lt;em&gt;States&lt;/em&gt; on deregulating air &lt;em&gt;fares&lt;/em&gt; across the &lt;em&gt;North Atlantic&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The SAS move, said by &lt;em&gt;analysts&lt;/em&gt; to be a big blow to &lt;em&gt;McDonnell Douglas,&lt;/em&gt; came &lt;em&gt;following&lt;/em&gt; a &lt;em&gt;Copenhagen board meeting&lt;/em&gt; of the &lt;em&gt;airline&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; the &lt;em&gt;governments&lt;/em&gt; of &lt;em&gt;Sweden, Denmark&lt;/em&gt; and &lt;em&gt;Norway jointly&lt;/em&gt; own a 50 pct &lt;em&gt;stake&lt;/em&gt;.</str>
+        <str name="text">The SAS move, said by &lt;em&gt;analysts&lt;/em&gt; to be a big blow to &lt;em&gt;McDonnell Douglas,&lt;/em&gt; came following a &lt;em&gt;Copenhagen board meeting&lt;/em&gt; of the &lt;em&gt;airline&lt;/em&gt; in which the &lt;em&gt;governments&lt;/em&gt; of &lt;em&gt;Sweden, Denmark&lt;/em&gt; and Norway jointly own a 50 pct &lt;em&gt;stake&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
     </lst>

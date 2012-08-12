@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">26</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-866.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">48</int>
       </lst>
       <lst name="terms">
-        <int name="count">236</int>
+        <int name="count">167</int>
       </lst>
       <lst name="stems">
-        <int name="count">158</int>
+        <int name="count">109</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">division</str>
+        <str name="text">people</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">arbitrage</str>
-        <double name="strength">0.9934106764153285</double>
+        <str name="text">index</str>
+        <double name="strength">0.9752693365076506</double>
       </lst>
       <lst name="term">
-        <str name="text">misplaced</str>
-        <double name="strength">0.9895376722736006</double>
+        <str name="text">portfolios</str>
+        <double name="strength">0.9747831223026211</double>
       </lst>
       <lst name="term">
-        <str name="text">revived</str>
-        <double name="strength">0.9891223595330769</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9746951601447984</double>
       </lst>
       <lst name="term">
-        <str name="text">techniques</str>
-        <double name="strength">0.9890171842091976</double>
+        <str name="text">points</str>
+        <double name="strength">0.9730327397209396</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Wall Street's biggest one-day drop since 1914 has revived a bitter debate about whether modern investment techniques turn shifts in investor psychology into colossal moves in share prices.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">188</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Ike Kerridge, an economist with the oilfield service firm Baker Hughes Inc., was one of several analysts who said the evaporation of billions of dollars of paper profits could alter consumer behavior.</str>
         <int name="index">45</int>
         <int name="start">1</int>
         <int name="end">201</int>
-        <double name="strength">0.9787520353152084</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Fischer Black, head of the trading and arbitrage division at Goldman, Sachs and Co, says so-called program trading strategies involving opposite positions in futures on stock indices and the underlying stocks deserve almost no blame for today's decline.</str>
-        <int name="index">4</int>
+        <str name="text">Several years ago Miller's firm was one of the first to pursue program trading strategies, seeking to lock in an automatic profit by taking advantage of discrepancies in the prices of the futures and the underlying stocks.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">254</int>
-        <double name="strength">0.9406508764073885</double>
+        <int name="end">223</int>
+        <double name="strength">0.8411688159322855</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Wall Street's biggest one-day drop since 1914 has revived a bitter debate about whether modern investment techniques turn shifts in investor psychology into colossal moves in share prices.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">188</int>
+        <double name="strength">0.8304398816779244</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Wall &lt;em&gt;Street&lt;/em&gt;'s &lt;em&gt;biggest&lt;/em&gt; one-day drop &lt;em&gt;since 1914&lt;/em&gt; has &lt;em&gt;revived&lt;/em&gt; a &lt;em&gt;bitter debate about whether modern investment techniques&lt;/em&gt; turn &lt;em&gt;shifts&lt;/em&gt; in &lt;em&gt;investor psychology&lt;/em&gt; into &lt;em&gt;colossal moves&lt;/em&gt; in &lt;em&gt;share prices&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Ike &lt;em&gt;Kerridge,&lt;/em&gt; an &lt;em&gt;economist&lt;/em&gt; with the &lt;em&gt;oilfield service&lt;/em&gt; firm &lt;em&gt;Baker Hughes&lt;/em&gt; Inc., was one of &lt;em&gt;several analysts&lt;/em&gt; who said the &lt;em&gt;evaporation&lt;/em&gt; of &lt;em&gt;billions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; of &lt;em&gt;paper profits could alter consumer behavior&lt;/em&gt;.</str>
+        <str name="text">Ike &lt;em&gt;Kerridge,&lt;/em&gt; an &lt;em&gt;economist&lt;/em&gt; with the &lt;em&gt;oilfield service&lt;/em&gt; firm &lt;em&gt;Baker Hughes&lt;/em&gt; Inc., was one of &lt;em&gt;several analysts&lt;/em&gt; who said the &lt;em&gt;evaporation&lt;/em&gt; of &lt;em&gt;billions&lt;/em&gt; of &lt;em&gt;dollars&lt;/em&gt; of &lt;em&gt;paper profits&lt;/em&gt; could &lt;em&gt;alter consumer behavior&lt;/em&gt;.</str>
         <int name="index">45</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fischer Black,&lt;/em&gt; head of the &lt;em&gt;trading&lt;/em&gt; and &lt;em&gt;arbitrage division&lt;/em&gt; at &lt;em&gt;Goldman, Sachs&lt;/em&gt; and Co, says so-&lt;em&gt;called program trading strategies involving opposite positions&lt;/em&gt; in &lt;em&gt;futures&lt;/em&gt; on &lt;em&gt;stock indices&lt;/em&gt; and the &lt;em&gt;underlying stocks deserve almost&lt;/em&gt; no &lt;em&gt;blame&lt;/em&gt; for &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;decline&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">&lt;em&gt;Several years&lt;/em&gt; ago Miller's firm was one of the &lt;em&gt;first&lt;/em&gt; to &lt;em&gt;pursue program trading strategies,&lt;/em&gt; seeking to lock in an &lt;em&gt;automatic profit&lt;/em&gt; by taking &lt;em&gt;advantage&lt;/em&gt; of &lt;em&gt;discrepancies&lt;/em&gt; in the &lt;em&gt;prices&lt;/em&gt; of the &lt;em&gt;futures&lt;/em&gt; and the &lt;em&gt;underlying stocks&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Wall &lt;em&gt;Street&lt;/em&gt;'s biggest one-day drop since 1914 has revived a &lt;em&gt;bitter debate&lt;/em&gt; about whether &lt;em&gt;modern investment techniques&lt;/em&gt; turn shifts in &lt;em&gt;investor psychology&lt;/em&gt; into &lt;em&gt;colossal moves&lt;/em&gt; in &lt;em&gt;share prices&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

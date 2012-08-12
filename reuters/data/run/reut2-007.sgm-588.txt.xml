@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-588.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">265</int>
+        <int name="count">184</int>
       </lst>
       <lst name="stems">
-        <int name="count">167</int>
+        <int name="count">108</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">prices</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">pressure</str>
-        <double name="strength">0.8944271909999193</double>
+        <str name="text">venezuela</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">built</str>
-        <double name="strength">0.8944271909999193</double>
+        <str name="text">argentina</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">several</str>
-        <double name="strength">0.8944271909999193</double>
+        <str name="text">inflation</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">philippines</str>
-        <double name="strength">0.8944271909999193</double>
+        <str name="text">accept</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Latin American debtors feel they have complied with their side of the bargain, slashing public spending, devaluing currencies, cutting inflation, privatizing state enterprises and introducing debt equity schemes.</str>
-        <int name="index">19</int>
+        <str name="text">One Latin American debt official said he saw the Brazil and Ecuadorean announcements as spurring moves by other debtors to link debt service payments to macroeconomic indicators such as export earnings, GDP or raw materials prices.</str>
+        <int name="index">10</int>
         <int name="start">1</int>
-        <int name="end">213</int>
+        <int name="end">232</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">Pressure for new solutions has built up on several fronts, with the Philippines joining Brazil in seeking interest relief and Ecuador announcing force majeure on debt payments following a serious earthquake.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">208</int>
-        <double name="strength">0.9836585232755033</double>
+        <double name="strength">0.9917145020323569</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Around 200 billion dlrs in commercial bank debt have been rescheduled since 1983, with interest rate margins now below one pct, multi-year accords a norm and no financial crash in sight, but a lasting solution seems no nearer.</str>
-        <int name="index">3</int>
+        <str name="text">Private banks are being increasingly urged to renew lending and accept innovative repayment schemes, not only by debtors but also by official agencies which have stepped up their own credit flows as part of the U.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">0.9360113475952087</double>
+        <int name="end">214</int>
+        <double name="strength">0.9222724725078799</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Latin American debtors&lt;/em&gt; feel they have &lt;em&gt;complied&lt;/em&gt; with &lt;em&gt;their&lt;/em&gt; side of the &lt;em&gt;bargain, slashing public spending, devaluing currencies, cutting inflation, privatizing state enterprises&lt;/em&gt; and &lt;em&gt;introducing&lt;/em&gt; debt &lt;em&gt;equity schemes&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">One &lt;em&gt;Latin American&lt;/em&gt; debt &lt;em&gt;official&lt;/em&gt; said he saw the &lt;em&gt;Brazil&lt;/em&gt; and &lt;em&gt;Ecuadorean announcements&lt;/em&gt; as spurring &lt;em&gt;moves&lt;/em&gt; by &lt;em&gt;other debtors&lt;/em&gt; to link debt &lt;em&gt;service payments&lt;/em&gt; to &lt;em&gt;macroeconomic indicators&lt;/em&gt; such as &lt;em&gt;export earnings,&lt;/em&gt; GDP or raw &lt;em&gt;materials prices&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pressure&lt;/em&gt; for new &lt;em&gt;solutions&lt;/em&gt; has &lt;em&gt;built&lt;/em&gt; up on &lt;em&gt;several fronts,&lt;/em&gt; with the &lt;em&gt;Philippines joining Brazil&lt;/em&gt; in &lt;em&gt;seeking interest relief&lt;/em&gt; and &lt;em&gt;Ecuador announcing force majeure&lt;/em&gt; on debt &lt;em&gt;payments following&lt;/em&gt; a &lt;em&gt;serious earthquake&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Pressure&lt;/em&gt; for new &lt;em&gt;solutions&lt;/em&gt; has built up on &lt;em&gt;several fronts,&lt;/em&gt; with the &lt;em&gt;Philippines&lt;/em&gt; joining &lt;em&gt;Brazil&lt;/em&gt; in seeking &lt;em&gt;interest relief&lt;/em&gt; and &lt;em&gt;Ecuador&lt;/em&gt; announcing &lt;em&gt;force majeure&lt;/em&gt; on debt &lt;em&gt;payments&lt;/em&gt; following a &lt;em&gt;serious earthquake&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Around 200 billion&lt;/em&gt; dlrs in &lt;em&gt;commercial&lt;/em&gt; bank debt have been &lt;em&gt;rescheduled since 1983,&lt;/em&gt; with &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;margins&lt;/em&gt; now &lt;em&gt;below&lt;/em&gt; one pct, &lt;em&gt;multi&lt;/em&gt;-year &lt;em&gt;accords&lt;/em&gt; a norm and no &lt;em&gt;financial crash&lt;/em&gt; in &lt;em&gt;sight,&lt;/em&gt; but a &lt;em&gt;lasting solution seems&lt;/em&gt; no &lt;em&gt;nearer&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Private banks&lt;/em&gt; are being increasingly urged to &lt;em&gt;renew lending&lt;/em&gt; and &lt;em&gt;accept innovative repayment schemes,&lt;/em&gt; not only by &lt;em&gt;debtors&lt;/em&gt; but also by &lt;em&gt;official agencies&lt;/em&gt; which have stepped up their own &lt;em&gt;credit flows&lt;/em&gt; as part of the U.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

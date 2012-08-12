@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">38</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-540.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">161</int>
+        <int name="count">118</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reported</str>
+        <str name="text">international</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">deficits</str>
-        <double name="strength">1.0</double>
+        <str name="text">current</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">1.0</double>
+        <str name="text">commission</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">building</str>
-        <double name="strength">0.9999999999999983</double>
+        <str name="text">total</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">gross</str>
-        <double name="strength">0.9999999999999983</double>
+        <str name="text">month</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Under the cartel proposals, 33 yards each capable of building ships of more than 10,000 gross tonnes would build a maximum of three mln compensated gross registered tonnes (CGRT) in 1987/88.</str>
-        <int name="index">8</int>
+        <str name="text">The salvage measures, which include a government-sponsored rationalisation program, are aimed at clawing back some of the market which Japan, the world leader, has lost to South Korea through currency and labour cost disadvantages, they said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">191</int>
+        <int name="end">243</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said from September a semi-government body will assure repayment of about 50 billion yen in liabilities incurred through job losses and the sale of excess capacity, and another 30 billion for buying unneeded land and equipment.</str>
-        <int name="index">4</int>
+        <str name="text">A clampdown on output over one or two years combined with a planned cost-cutting and streamlining program and state support should help Japanese yards recover their international competitiveness, they said.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">0.8832502625520517</double>
+        <int name="end">207</int>
+        <double name="strength">0.9312732270874721</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Four of Japan's six major heavy machinery and shipbuilding companies reported current deficits in the first half of the year to March 31 and five of them are expected to report current deficits for the whole of 1986/7, they said.</str>
-        <int name="index">15</int>
+        <str name="text">Last Friday, the Shipbuilders Association of Japan applied to the Fair Trade Commission to form a cartel to slash tonnage built to about half of total capacity for a year from April 1.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.8817748404891621</double>
+        <int name="end">185</int>
+        <double name="strength">0.9189354721844912</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the &lt;em&gt;cartel proposals, 33 yards&lt;/em&gt; each &lt;em&gt;capable&lt;/em&gt; of &lt;em&gt;building ships&lt;/em&gt; of more than 10,000 &lt;em&gt;gross tonnes would build&lt;/em&gt; a &lt;em&gt;maximum&lt;/em&gt; of &lt;em&gt;three&lt;/em&gt; mln &lt;em&gt;compensated gross registered tonnes &lt;/em&gt;(CGRT) in 1987/88.</str>
-        <int name="index">8</int>
+        <str name="text">The &lt;em&gt;salvage measures,&lt;/em&gt; which &lt;em&gt;include&lt;/em&gt; a &lt;em&gt;government&lt;/em&gt;-sponsored &lt;em&gt;rationalisation program,&lt;/em&gt; are aimed at clawing back some of the &lt;em&gt;market&lt;/em&gt; which Japan, the &lt;em&gt;world leader,&lt;/em&gt; has lost to South Korea through &lt;em&gt;currency&lt;/em&gt; and &lt;em&gt;labour&lt;/em&gt; cost &lt;em&gt;disadvantages,&lt;/em&gt; they said.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They said from &lt;em&gt;September&lt;/em&gt; a semi-&lt;em&gt;government&lt;/em&gt; body will &lt;em&gt;assure repayment&lt;/em&gt; of &lt;em&gt;about 50 billion&lt;/em&gt; yen in &lt;em&gt;liabilities incurred through&lt;/em&gt; job &lt;em&gt;losses&lt;/em&gt; and the sale of &lt;em&gt;excess capacity,&lt;/em&gt; and &lt;em&gt;another 30 billion&lt;/em&gt; for &lt;em&gt;buying unneeded&lt;/em&gt; land and &lt;em&gt;equipment&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">A &lt;em&gt;clampdown&lt;/em&gt; on &lt;em&gt;output&lt;/em&gt; over one or two &lt;em&gt;years&lt;/em&gt; combined with a &lt;em&gt;planned&lt;/em&gt; cost-&lt;em&gt;cutting&lt;/em&gt; and streamlining &lt;em&gt;program&lt;/em&gt; and &lt;em&gt;state support&lt;/em&gt; should help Japanese &lt;em&gt;yards recover&lt;/em&gt; their &lt;em&gt;international competitiveness,&lt;/em&gt; they said.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Four of &lt;em&gt;Japan&lt;/em&gt;'s six &lt;em&gt;major heavy machinery&lt;/em&gt; and &lt;em&gt;shipbuilding companies reported current deficits&lt;/em&gt; in the &lt;em&gt;first&lt;/em&gt; half of the year to &lt;em&gt;March 31&lt;/em&gt; and five of them are &lt;em&gt;expected&lt;/em&gt; to &lt;em&gt;report current deficits&lt;/em&gt; for the &lt;em&gt;whole&lt;/em&gt; of 1986/7, they said.</str>
-        <int name="index">15</int>
+        <str name="text">Last &lt;em&gt;Friday,&lt;/em&gt; the &lt;em&gt;Shipbuilders Association&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt; applied to the Fair &lt;em&gt;Trade Commission&lt;/em&gt; to form a &lt;em&gt;cartel&lt;/em&gt; to &lt;em&gt;slash tonnage&lt;/em&gt; built to about half of &lt;em&gt;total capacity&lt;/em&gt; for a year from &lt;em&gt;April 1&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

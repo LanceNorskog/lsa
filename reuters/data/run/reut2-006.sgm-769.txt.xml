@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-769.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">55</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">failed</str>
+        <str name="text">banks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">twice</str>
-        <double name="strength">0.5</double>
+        <str name="text">freedom</str>
+        <double name="strength">0.8683359524411044</double>
       </lst>
       <lst name="term">
-        <str name="text">doubted</str>
-        <double name="strength">0.5</double>
+        <str name="text">reporting</str>
+        <double name="strength">0.8683359524411041</double>
       </lst>
       <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">0.5</double>
+        <str name="text">figures</str>
+        <double name="strength">0.868335952441104</double>
       </lst>
       <lst name="term">
-        <str name="text">provision</str>
-        <double name="strength">0.49999999999999944</double>
+        <str name="text">fourth</str>
+        <double name="strength">0.8683359524411035</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">But this freedom from regulatory restraints also has meant other banks that were better managed have gotten stronger, Seidman said.</str>
-        <int name="index">16</int>
+        <str name="text">He said that while the figures were not good, they showed the problem did not lie with the banking system as a whole but with regional differences in economic performance.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">132</int>
+        <int name="end">172</int>
         <double name="strength">1.0</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some 44 banks have failed so far this year, twice as many as failed by this time a year ago, but Seidman said he doubted the pace would continue.</str>
-        <int name="index">9</int>
+        <str name="text">Seidman said it was too early to say what effect Brazil's moratorium on debt interest payments would have on U.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">146</int>
-        <double name="strength">0.9832952258204778</double>
+        <int name="end">112</int>
+        <double name="strength">0.9852777000075341</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On a positive note, banks increased capital to a record 208 billion dlrs last year, and there has been a slowing in the number of new problem banks in all regions except the Southwest, Seidman said.</str>
-        <int name="index">10</int>
-        <int name="start">2</int>
-        <int name="end">200</int>
-        <double name="strength">0.960357792267417</double>
+        <str name="text">The figures reflected a radical split in the health of banks in the two halves of the country, the FDIC said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">110</int>
+        <double name="strength">0.9473764277511766</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But this &lt;em&gt;freedom&lt;/em&gt; from &lt;em&gt;regulatory restraints&lt;/em&gt; also has &lt;em&gt;meant other banks&lt;/em&gt; that were &lt;em&gt;better managed&lt;/em&gt; have &lt;em&gt;gotten stronger, Seidman said&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">He said that while the &lt;em&gt;figures&lt;/em&gt; were not good, they showed the &lt;em&gt;problem&lt;/em&gt; did not lie with the &lt;em&gt;banking system&lt;/em&gt; as a &lt;em&gt;whole&lt;/em&gt; but with &lt;em&gt;regional differences&lt;/em&gt; in &lt;em&gt;economic performance&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some 44 &lt;em&gt;banks&lt;/em&gt; have &lt;em&gt;failed&lt;/em&gt; so far this year, &lt;em&gt;twice&lt;/em&gt; as many as &lt;em&gt;failed&lt;/em&gt; by this time a year ago, but &lt;em&gt;Seidman&lt;/em&gt; said he &lt;em&gt;doubted&lt;/em&gt; the pace &lt;em&gt;would continue&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Seidman&lt;/em&gt; said it was too &lt;em&gt;early&lt;/em&gt; to say what &lt;em&gt;effect Brazil&lt;/em&gt;'s &lt;em&gt;moratorium&lt;/em&gt; on debt &lt;em&gt;interest payments&lt;/em&gt; would have on U.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">On a &lt;em&gt;positive&lt;/em&gt; note, &lt;em&gt;banks increased capital&lt;/em&gt; to a &lt;em&gt;record 208 billion&lt;/em&gt; dlrs last year, and &lt;em&gt;there&lt;/em&gt; has been a &lt;em&gt;slowing&lt;/em&gt; in the &lt;em&gt;number&lt;/em&gt; of new &lt;em&gt;problem banks&lt;/em&gt; in all &lt;em&gt;regions except&lt;/em&gt; the &lt;em&gt;Southwest, Seidman said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The &lt;em&gt;figures&lt;/em&gt; reflected a &lt;em&gt;radical split&lt;/em&gt; in the &lt;em&gt;health&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; in the two &lt;em&gt;halves&lt;/em&gt; of the &lt;em&gt;country,&lt;/em&gt; the FDIC said.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

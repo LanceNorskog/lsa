@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-279.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">61</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">total</str>
+        <str name="text">continue</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">1.0</double>
+        <str name="text">supply</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">depreciation</str>
-        <double name="strength">1.0</double>
+        <str name="text">yearley</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">1.0</double>
+        <str name="text">strong</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">corporate</str>
-        <double name="strength">1.0</double>
+        <str name="text">metal</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">267</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">New production later this year from a Bingham, Utah, mine owned by Kennecott Corp, a unit of British Petroleum Co PLC's &lt;BP&gt; Standard Oil Co, a mine in New Guinea and Phelps Dodge's own expanded Morenci, Ariz., mine will be offset by production shortfalls in Mexico and Zambia, he said.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">287</int>
-        <double name="strength">0.9544426543271328</double>
+        <str name="text">Robert Durham said continued strong demand and low inventories pushed prices up eight to nine pct on the New York Commodities Exchange last month.</str>
+        <int name="index">2</int>
+        <int name="start">0</int>
+        <int name="end">146</int>
+        <double name="strength">0.9367810513496877</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">The company's total production costs, including depreciation but before interest and corporate expense, should be below 50 cts a pound by late 1989 or 1990, he said.</str>
         <int name="index">16</int>
         <int name="start">0</int>
         <int name="end">165</int>
-        <double name="strength">0.730717079508103</double>
+        <double name="strength">0.8405400839543773</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;During&lt;/em&gt; the &lt;em&gt;interview, executive&lt;/em&gt; vice &lt;em&gt;president Douglas Yearley&lt;/em&gt; said he &lt;em&gt;believed&lt;/em&gt; it was only a &lt;em&gt;matter&lt;/em&gt; of time &lt;em&gt;before&lt;/em&gt; the &lt;em&gt;copper price&lt;/em&gt; rose "&lt;em&gt;because there&lt;/em&gt; aren't that many new &lt;em&gt;projects coming&lt;/em&gt; on, and &lt;em&gt;demand, short&lt;/em&gt; of a &lt;em&gt;major recession,&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to grow &lt;em&gt;modestly.&lt;/em&gt;"</str>
+        <str name="text">During the &lt;em&gt;interview, executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; Douglas &lt;em&gt;Yearley&lt;/em&gt; said he believed it was only a &lt;em&gt;matter&lt;/em&gt; of time before the &lt;em&gt;copper price&lt;/em&gt; rose "because there aren't that many new &lt;em&gt;projects&lt;/em&gt; coming on, and &lt;em&gt;demand, short&lt;/em&gt; of a &lt;em&gt;major recession,&lt;/em&gt; will &lt;em&gt;continue&lt;/em&gt; to grow modestly."</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">New &lt;em&gt;production later&lt;/em&gt; this year from a &lt;em&gt;Bingham,&lt;/em&gt; Utah, mine &lt;em&gt;owned&lt;/em&gt; by &lt;em&gt;Kennecott&lt;/em&gt; Corp, a unit of &lt;em&gt;British Petroleum&lt;/em&gt; Co PLC's &lt;BP&gt; &lt;em&gt;Standard&lt;/em&gt; Oil Co, a mine in New &lt;em&gt;Guinea&lt;/em&gt; and &lt;em&gt;Phelps Dodge&lt;/em&gt;'s own &lt;em&gt;expanded Morenci,&lt;/em&gt; Ariz., mine will be &lt;em&gt;offset&lt;/em&gt; by &lt;em&gt;production shortfalls&lt;/em&gt; in &lt;em&gt;Mexico&lt;/em&gt; and &lt;em&gt;Zambia,&lt;/em&gt; he said.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Robert Durham&lt;/em&gt; said continued &lt;em&gt;strong demand&lt;/em&gt; and low &lt;em&gt;inventories&lt;/em&gt; pushed &lt;em&gt;prices&lt;/em&gt; up &lt;em&gt;eight&lt;/em&gt; to nine pct on the New York &lt;em&gt;Commodities Exchange&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;total production costs, including depreciation&lt;/em&gt; but &lt;em&gt;before interest&lt;/em&gt; and &lt;em&gt;corporate expense, should&lt;/em&gt; be &lt;em&gt;below 50&lt;/em&gt; cts a &lt;em&gt;pound&lt;/em&gt; by late 1989 or 1990, he said.</str>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;total production costs,&lt;/em&gt; including &lt;em&gt;depreciation&lt;/em&gt; but before &lt;em&gt;interest&lt;/em&gt; and &lt;em&gt;corporate expense,&lt;/em&gt; should be below 50 cts a &lt;em&gt;pound&lt;/em&gt; by late 1989 or 1990, he said.</str>
         <int name="index">16</int>
       </lst>
     </lst>

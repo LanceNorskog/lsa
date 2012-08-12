@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-348.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,31 +21,31 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">71</int>
+        <int name="count">50</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">making</str>
+        <str name="text">energy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">payments</str>
+        <str name="text">provisions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">income</str>
+        <str name="text">stake</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">debenture</str>
+        <str name="text">existence</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">whose</str>
+        <str name="text">concern</str>
         <double name="strength">1.0</double>
       </lst>
     </lst>
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">217</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Dome Petroleum Ltd's proposal to restructure debt of more than 6.10 billion Canadian dlrs includes provisions that may force the company to sell its 42 pct stake in &lt;Encor Energy Corp Inc&gt;, Dome said in a U.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">207</int>
-        <double name="strength">0.8032289898899702</double>
+        <double name="strength">0.9696936851945601</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">After the five years are up, "under certain circumstances the shares of Encor may be required to be disposed," the company said.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">129</int>
-        <double name="strength">0.785666641270453</double>
+        <str name="text">Dome said in the filing it proposed lenders sign a letter of understanding in early April, with implementation to be effective July 1, 1987.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">140</int>
+        <double name="strength">0.9185824713458266</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Dome &lt;em&gt;Petroleum reiterated&lt;/em&gt; in the SEC &lt;em&gt;filing&lt;/em&gt; that its &lt;em&gt;existence&lt;/em&gt; as a &lt;em&gt;going concern&lt;/em&gt; is &lt;em&gt;dependent&lt;/em&gt; on &lt;em&gt;continuing&lt;/em&gt; the &lt;em&gt;interim&lt;/em&gt; debt plan, due to &lt;em&gt;expire&lt;/em&gt; on June 30, and &lt;em&gt;winning agreement&lt;/em&gt; for its &lt;em&gt;proposed restructuring plan&lt;/em&gt;.</str>
+        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; reiterated in the SEC &lt;em&gt;filing&lt;/em&gt; that its &lt;em&gt;existence&lt;/em&gt; as a going &lt;em&gt;concern&lt;/em&gt; is &lt;em&gt;dependent&lt;/em&gt; on continuing the &lt;em&gt;interim&lt;/em&gt; debt plan, due to &lt;em&gt;expire&lt;/em&gt; on June 30, and winning &lt;em&gt;agreement&lt;/em&gt; for its &lt;em&gt;proposed restructuring plan&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; Ltd's &lt;em&gt;proposal&lt;/em&gt; to &lt;em&gt;restructure&lt;/em&gt; debt of more than 6.10 &lt;em&gt;billion Canadian&lt;/em&gt; dlrs &lt;em&gt;includes provisions&lt;/em&gt; that may &lt;em&gt;force&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; to sell its 42 pct &lt;em&gt;stake&lt;/em&gt; in &lt;&lt;em&gt;Encor Energy&lt;/em&gt; Corp Inc&gt;, Dome said in a U.</str>
+        <str name="text">Dome &lt;em&gt;Petroleum&lt;/em&gt; Ltd's &lt;em&gt;proposal&lt;/em&gt; to &lt;em&gt;restructure&lt;/em&gt; debt of more than 6.10 &lt;em&gt;billion Canadian&lt;/em&gt; dlrs includes &lt;em&gt;provisions&lt;/em&gt; that may &lt;em&gt;force&lt;/em&gt; the &lt;em&gt;company&lt;/em&gt; to sell its 42 pct &lt;em&gt;stake&lt;/em&gt; in &lt;&lt;em&gt;Encor Energy&lt;/em&gt; Corp Inc&gt;, Dome said in a U.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;After&lt;/em&gt; the five &lt;em&gt;years&lt;/em&gt; are up, "&lt;em&gt;under certain circumstances&lt;/em&gt; the &lt;em&gt;shares&lt;/em&gt; of &lt;em&gt;Encor&lt;/em&gt; may be &lt;em&gt;required&lt;/em&gt; to be &lt;em&gt;disposed,"&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">Dome said in the &lt;em&gt;filing&lt;/em&gt; it proposed &lt;em&gt;lenders&lt;/em&gt; sign a &lt;em&gt;letter&lt;/em&gt; of &lt;em&gt;understanding&lt;/em&gt; in &lt;em&gt;early April,&lt;/em&gt; with &lt;em&gt;implementation&lt;/em&gt; to be &lt;em&gt;effective July 1, 1987&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

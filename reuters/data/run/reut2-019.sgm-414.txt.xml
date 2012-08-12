@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-414.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">145</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">68</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">absorbing</str>
+        <str name="text">savings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">robert</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">first</str>
+        <double name="strength">0.6864981529553256</double>
       </lst>
       <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">billion</str>
+        <double name="strength">0.6703744780801046</double>
       </lst>
       <lst name="term">
-        <str name="text">example</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">industry</str>
+        <double name="strength">0.6595008090186485</double>
       </lst>
       <lst name="term">
-        <str name="text">involves</str>
-        <double name="strength">0.8944271909999205</double>
+        <str name="text">kirnan</str>
+        <double name="strength">0.6582230326593422</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">194</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Kirnan said Chrysler may have some trouble digesting the Richardson, Texas, electronics firm because it is also buying American Motors Corp &lt;AMC&gt; for about two billion dlrs in a deal set to close later this year.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">213</int>
-        <double name="strength">0.8636494683550764</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Robert Miller Jr, Chrysler Corp vice chairman, said that Gulfstream's business, for example, involves electronics, composites and aerodynamic design.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">150</int>
-        <double name="strength">0.7888629330948643</double>
+        <double name="strength">0.7859805245836974</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"A chief goal of Chrysler is to gain military business for their Gulfstream planes and this should help that cause dramatically," said analyst Gary Glaser at First Boston Corp.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.7625911879560255</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;overall strategic thrust (within&lt;/em&gt; the car &lt;em&gt;industry)&lt;/em&gt; is to &lt;em&gt;become somewhat&lt;/em&gt; less &lt;em&gt;sensitive&lt;/em&gt; to the &lt;em&gt;vagaries&lt;/em&gt; of the &lt;em&gt;automobile sales cycle,"&lt;/em&gt; said &lt;em&gt;analyst&lt;/em&gt; Jack &lt;em&gt;Kirnan&lt;/em&gt; at &lt;em&gt;Kidder Peabody&lt;/em&gt; and Co. "</str>
+        <str name="text">"The &lt;em&gt;overall strategic thrust &lt;/em&gt;(within the car &lt;em&gt;industry)&lt;/em&gt; is to &lt;em&gt;become&lt;/em&gt; somewhat less &lt;em&gt;sensitive&lt;/em&gt; to the &lt;em&gt;vagaries&lt;/em&gt; of the &lt;em&gt;automobile sales cycle,"&lt;/em&gt; said &lt;em&gt;analyst&lt;/em&gt; Jack &lt;em&gt;Kirnan&lt;/em&gt; at &lt;em&gt;Kidder Peabody&lt;/em&gt; and Co. "</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Kirnan&lt;/em&gt; said &lt;em&gt;Chrysler&lt;/em&gt; may have some &lt;em&gt;trouble digesting&lt;/em&gt; the &lt;em&gt;Richardson, Texas, electronics&lt;/em&gt; firm &lt;em&gt;because&lt;/em&gt; it is also &lt;em&gt;buying American Motors&lt;/em&gt; Corp &lt;AMC&gt; for &lt;em&gt;about&lt;/em&gt; two &lt;em&gt;billion&lt;/em&gt; dlrs in a deal set to &lt;em&gt;close later&lt;/em&gt; this year.</str>
-        <int name="index">16</int>
+        <str name="text">&lt;em&gt;Robert&lt;/em&gt; Miller Jr, &lt;em&gt;Chrysler&lt;/em&gt; Corp vice &lt;em&gt;chairman,&lt;/em&gt; said that &lt;em&gt;Gulfstream&lt;/em&gt;'s &lt;em&gt;business,&lt;/em&gt; for &lt;em&gt;example,&lt;/em&gt; involves &lt;em&gt;electronics, composites&lt;/em&gt; and &lt;em&gt;aerodynamic design&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Robert Miller&lt;/em&gt; Jr, &lt;em&gt;Chrysler&lt;/em&gt; Corp vice &lt;em&gt;chairman,&lt;/em&gt; said that &lt;em&gt;Gulfstream&lt;/em&gt;'s &lt;em&gt;business,&lt;/em&gt; for &lt;em&gt;example, involves electronics, composites&lt;/em&gt; and &lt;em&gt;aerodynamic design&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">"A &lt;em&gt;chief&lt;/em&gt; goal of &lt;em&gt;Chrysler&lt;/em&gt; is to gain &lt;em&gt;military business&lt;/em&gt; for their &lt;em&gt;Gulfstream planes&lt;/em&gt; and this should help that &lt;em&gt;cause&lt;/em&gt; dramatically," said &lt;em&gt;analyst&lt;/em&gt; Gary &lt;em&gt;Glaser&lt;/em&gt; at &lt;em&gt;First Boston Corp&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

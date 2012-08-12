@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-746.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">voiced</str>
+        <str name="text">exports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">taken</str>
-        <double name="strength">1.0</double>
+        <str name="text">billion</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">including</str>
-        <double name="strength">1.0</double>
+        <str name="text">policy</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">september</str>
-        <double name="strength">1.0</double>
+        <str name="text">reduce</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">devaluation</str>
-        <double name="strength">1.0</double>
+        <str name="text">month</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">215</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">He voiced support for measures already taken, including September's 31 pct devaluation of the rupiah, and efforts to deregulate imports and stimulate exports.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">159</int>
-        <double name="strength">0.9063731708128826</double>
+        <double name="strength">0.7803738827206758</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">World Bank President Barber Conable linked increased borrowing by Indonesia, the Third World's sixth largest debtor, to fresh measures to deregulate trade and dismantle protectionist barriers.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">192</int>
-        <double name="strength">0.9025351460251908</double>
+        <str name="text">Indonesia, the only Asian member of Opec, has been badly hit by last year's slump in oil prices which cut its revenues from crude exports in half.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">147</int>
+        <double name="strength">0.7308978330089584</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;would probably&lt;/em&gt; like to see &lt;em&gt;further dismantling&lt;/em&gt; of &lt;em&gt;tarrif barriers&lt;/em&gt; and &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;reduce Indonesia&lt;/em&gt;'s &lt;em&gt;protected monopolies&lt;/em&gt; in &lt;em&gt;areas&lt;/em&gt; like &lt;em&gt;steel, plastics&lt;/em&gt; and &lt;em&gt;cement, western bankers&lt;/em&gt; and &lt;em&gt;diplomats said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank would probably like to see &lt;em&gt;further dismantling&lt;/em&gt; of &lt;em&gt;tarrif barriers&lt;/em&gt; and &lt;em&gt;measures&lt;/em&gt; to &lt;em&gt;reduce Indonesia&lt;/em&gt;'s &lt;em&gt;protected monopolies&lt;/em&gt; in &lt;em&gt;areas&lt;/em&gt; like &lt;em&gt;steel, plastics&lt;/em&gt; and &lt;em&gt;cement, western bankers&lt;/em&gt; and &lt;em&gt;diplomats said&lt;/em&gt;.</str>
         <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;voiced support&lt;/em&gt; for &lt;em&gt;measures already taken, including September&lt;/em&gt;'s 31 pct &lt;em&gt;devaluation&lt;/em&gt; of the &lt;em&gt;rupiah,&lt;/em&gt; and &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;deregulate imports&lt;/em&gt; and &lt;em&gt;stimulate exports&lt;/em&gt;.</str>
+        <str name="text">He voiced &lt;em&gt;support&lt;/em&gt; for &lt;em&gt;measures&lt;/em&gt; already taken, including &lt;em&gt;September&lt;/em&gt;'s 31 pct &lt;em&gt;devaluation&lt;/em&gt; of the &lt;em&gt;rupiah,&lt;/em&gt; and &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;deregulate imports&lt;/em&gt; and &lt;em&gt;stimulate exports&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;President Barber Conable linked increased borrowing&lt;/em&gt; by &lt;em&gt;Indonesia,&lt;/em&gt; the &lt;em&gt;Third World&lt;/em&gt;'s &lt;em&gt;sixth largest debtor,&lt;/em&gt; to &lt;em&gt;fresh measures&lt;/em&gt; to &lt;em&gt;deregulate trade&lt;/em&gt; and &lt;em&gt;dismantle protectionist barriers&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Indonesia,&lt;/em&gt; the only &lt;em&gt;Asian member&lt;/em&gt; of Opec, has been badly hit by last year's &lt;em&gt;slump&lt;/em&gt; in oil &lt;em&gt;prices&lt;/em&gt; which cut its &lt;em&gt;revenues&lt;/em&gt; from &lt;em&gt;crude exports&lt;/em&gt; in half.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

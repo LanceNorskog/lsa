@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-511.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stand</str>
+        <str name="text">further</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">country</str>
-        <double name="strength">0.5590169943749477</double>
-      </lst>
-      <lst name="term">
         <str name="text">industrialised</str>
-        <double name="strength">0.5590169943749472</double>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">chamber</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">commerce</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">official</str>
+        <double name="strength">0.9999999999999998</double>
+      </lst>
+      <lst name="term">
+        <str name="text">value</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The trade minister said yesterday should Seoul revalue the won suddenly Korea would run "a tremendous trade deficit and could degenerate into a country, like many other developing countries, which is reneging on its international obligations."</str>
-        <int name="index">13</int>
+        <str name="text">Deputy prime minister Kim Mahn-Je told a meeting of local businessmen "The government's policy on the question of revaluing the won is to maintain a steadfast position."</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">244</int>
+        <int name="end">170</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Chamber of Commerce "Demands that Korea carry out a drastic and sudden currency revaluation of five or 10 pct are, I believe, extremely ill-advised."</str>
-        <int name="index">4</int>
-        <int name="start">0</int>
-        <int name="end">152</int>
-        <double name="strength">0.9268050765541884</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Seoul announced in January the lifting of bans on 158 items, including sensitive agricultural products and large cars, effective from July.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">140</int>
-        <double name="strength">0.9018007419469926</double>
+        <double name="strength">0.9206440154421635</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Six industrialised nations agreed in Paris last month that newly industrialising countries, such as South Korea and Taiwan, should allow their currencies to appreciate.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">169</int>
+        <double name="strength">0.8815830307150699</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;trade minister&lt;/em&gt; said &lt;em&gt;yesterday should Seoul revalue&lt;/em&gt; the won &lt;em&gt;suddenly Korea would&lt;/em&gt; run "a &lt;em&gt;tremendous trade deficit&lt;/em&gt; and &lt;em&gt;could degenerate&lt;/em&gt; into a &lt;em&gt;country,&lt;/em&gt; like many &lt;em&gt;other developing countries, which&lt;/em&gt; is &lt;em&gt;reneging&lt;/em&gt; on its &lt;em&gt;international obligations.&lt;/em&gt;"</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Deputy prime minister&lt;/em&gt; Kim Mahn-Je told a &lt;em&gt;meeting&lt;/em&gt; of &lt;em&gt;local businessmen &lt;/em&gt;"The &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;policy&lt;/em&gt; on the &lt;em&gt;question&lt;/em&gt; of revaluing the won is to &lt;em&gt;maintain&lt;/em&gt; a &lt;em&gt;steadfast position.&lt;/em&gt;"</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Chamber&lt;/em&gt; of &lt;em&gt;Commerce "Demands&lt;/em&gt; that &lt;em&gt;Korea carry&lt;/em&gt; out a &lt;em&gt;drastic&lt;/em&gt; and &lt;em&gt;sudden currency revaluation&lt;/em&gt; of five or 10 pct are, I &lt;em&gt;believe, extremely&lt;/em&gt; ill-&lt;em&gt;advised.&lt;/em&gt;"</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Seoul announced&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; the &lt;em&gt;lifting&lt;/em&gt; of bans on 158 &lt;em&gt;items, including sensitive agricultural products&lt;/em&gt; and &lt;em&gt;large&lt;/em&gt; cars, &lt;em&gt;effective&lt;/em&gt; from July.</str>
+        <str name="text">&lt;em&gt;Seoul&lt;/em&gt; announced in &lt;em&gt;January&lt;/em&gt; the &lt;em&gt;lifting&lt;/em&gt; of bans on 158 &lt;em&gt;items,&lt;/em&gt; including &lt;em&gt;sensitive agricultural products&lt;/em&gt; and &lt;em&gt;large&lt;/em&gt; cars, &lt;em&gt;effective&lt;/em&gt; from July.</str>
         <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Six &lt;em&gt;industrialised nations&lt;/em&gt; agreed in &lt;em&gt;Paris&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; that newly industrialising &lt;em&gt;countries,&lt;/em&gt; such as &lt;em&gt;South Korea&lt;/em&gt; and &lt;em&gt;Taiwan,&lt;/em&gt; should &lt;em&gt;allow&lt;/em&gt; their &lt;em&gt;currencies&lt;/em&gt; to &lt;em&gt;appreciate&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

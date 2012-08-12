@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-603.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">190</int>
+        <int name="count">135</int>
       </lst>
       <lst name="stems">
-        <int name="count">122</int>
+        <int name="count">80</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">banks</str>
+        <str name="text">gossnab</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.6666666666666702</double>
+        <str name="text">soviet</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">research</str>
-        <double name="strength">0.6666666666666651</double>
+        <str name="text">orders</str>
+        <double name="strength">0.9840716504496533</double>
       </lst>
       <lst name="term">
-        <str name="text">plans</str>
-        <double name="strength">0.6009252125773304</double>
+        <str name="text">profitable</str>
+        <double name="strength">0.984071650449653</double>
       </lst>
       <lst name="term">
-        <str name="text">speech</str>
-        <double name="strength">0.37267799624996484</double>
+        <str name="text">increase</str>
+        <double name="strength">0.9840716504496524</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said there were proposals to replace the "cumbersome" banking system with six new banks -- a state bank and banks for foreign economic relations, agro-industry, construction, housing and commercial services, and credit.</str>
-        <int name="index">22</int>
+        <str name="text">In a speech to the 1,500 member body, Ryzhkov said excessive central control by Moscow-based ministries and wasteful use of resources had led to a situation where 13 pct of Soviet industrial enterprises were making a loss in 1986.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">223</int>
+        <int name="end">231</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the price system needed radical revision to accurately reflect supply and demand, with the state setting prices only for "products of national importance" in changes to be fully in place by the next five year plan beginning in 1991.</str>
-        <int name="index">19</int>
+        <str name="text">Under the law, all enterprises are to become financially self-supporting by taking charge of income and outlay, with wages tied to profit in order to increase worker incentive.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">241</int>
-        <double name="strength">0.9155503537234105</double>
+        <int name="end">177</int>
+        <double name="strength">0.9346020272686735</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Soviet Prime Minister Nikolai Ryzhkov described the Soviet Union's economic management system as obsolete and called on the Supreme Soviet, the nominal parliament, to adopt a draft law on major economic reform.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">210</int>
-        <double name="strength">0.8179427092912819</double>
+        <str name="text">Firms will compete for orders from the state, which are due to decline as direct contracts between enterprises expand.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">119</int>
+        <double name="strength">0.7906995995735803</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said &lt;em&gt;there&lt;/em&gt; were &lt;em&gt;proposals&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt; the "&lt;em&gt;cumbersome" banking system&lt;/em&gt; with six new &lt;em&gt;banks --&lt;/em&gt; a &lt;em&gt;state&lt;/em&gt; bank and &lt;em&gt;banks&lt;/em&gt; for &lt;em&gt;foreign economic relations,&lt;/em&gt; agro-&lt;em&gt;industry, construction, housing&lt;/em&gt; and &lt;em&gt;commercial services,&lt;/em&gt; and &lt;em&gt;credit&lt;/em&gt;.</str>
-        <int name="index">22</int>
+        <str name="text">In a &lt;em&gt;speech&lt;/em&gt; to the 1,500 &lt;em&gt;member&lt;/em&gt; body, &lt;em&gt;Ryzhkov&lt;/em&gt; said &lt;em&gt;excessive central control&lt;/em&gt; by &lt;em&gt;Moscow&lt;/em&gt;-based &lt;em&gt;ministries&lt;/em&gt; and &lt;em&gt;wasteful&lt;/em&gt; use of &lt;em&gt;resources&lt;/em&gt; had led to a &lt;em&gt;situation&lt;/em&gt; where 13 pct of &lt;em&gt;Soviet industrial enterprises&lt;/em&gt; were making a loss in 1986.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;price system needed radical revision&lt;/em&gt; to &lt;em&gt;accurately reflect supply&lt;/em&gt; and &lt;em&gt;demand,&lt;/em&gt; with the &lt;em&gt;state setting prices&lt;/em&gt; only for "&lt;em&gt;products&lt;/em&gt; of &lt;em&gt;national importance"&lt;/em&gt; in &lt;em&gt;changes&lt;/em&gt; to be &lt;em&gt;fully&lt;/em&gt; in &lt;em&gt;place&lt;/em&gt; by the next five year plan &lt;em&gt;beginning in 1991&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">Under the law, all &lt;em&gt;enterprises&lt;/em&gt; are to &lt;em&gt;become&lt;/em&gt; financially self-supporting by taking &lt;em&gt;charge&lt;/em&gt; of &lt;em&gt;income&lt;/em&gt; and &lt;em&gt;outlay,&lt;/em&gt; with &lt;em&gt;wages&lt;/em&gt; tied to &lt;em&gt;profit&lt;/em&gt; in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;increase worker incentive&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Soviet Prime Minister Nikolai Ryzhkov described&lt;/em&gt; the &lt;em&gt;Soviet Union&lt;/em&gt;'s &lt;em&gt;economic management system&lt;/em&gt; as &lt;em&gt;obsolete&lt;/em&gt; and &lt;em&gt;called&lt;/em&gt; on the &lt;em&gt;Supreme Soviet,&lt;/em&gt; the &lt;em&gt;nominal parliament,&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; a &lt;em&gt;draft&lt;/em&gt; law on &lt;em&gt;major economic reform&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">&lt;em&gt;Firms&lt;/em&gt; will &lt;em&gt;compete&lt;/em&gt; for &lt;em&gt;orders&lt;/em&gt; from the &lt;em&gt;state,&lt;/em&gt; which are due to &lt;em&gt;decline&lt;/em&gt; as &lt;em&gt;direct contracts&lt;/em&gt; between &lt;em&gt;enterprises expand&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

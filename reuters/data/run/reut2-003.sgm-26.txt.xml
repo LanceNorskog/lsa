@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">37</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-26.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">40</int>
       </lst>
       <lst name="terms">
-        <int name="count">226</int>
+        <int name="count">171</int>
       </lst>
       <lst name="stems">
-        <int name="count">146</int>
+        <int name="count">111</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">credit</str>
+        <str name="text">products</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
-        <double name="strength">0.9999999999999981</double>
+        <str name="text">megabyte</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">microsoft</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">eventually</str>
-        <double name="strength">0.5000000000000048</double>
+        <str name="text">technology</str>
+        <double name="strength">0.9902130691945669</double>
       </lst>
       <lst name="term">
-        <str name="text">right</str>
-        <double name="strength">0.5000000000000048</double>
+        <str name="text">international</str>
+        <double name="strength">0.9902130691945664</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Last week, Microsoft introduced Microsoft Bookshelf, a 300 dlr program that contains, on a single CD-ROM disk, a dictionary, thesaurus, national ZIP code directory, Bartlett's Familiar Quotations, the World Almanac and other reference works.</str>
-        <int name="index">14</int>
-        <int name="start">0</int>
-        <int name="end">241</int>
+        <str name="text">Scores of such products are already on the market, but most are specialty items, such as Lotus Development Corp's &lt;LOTS&gt; CD-ROM data base of stock information for financial analysts and investors.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">197</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Regardless of the specific application, the trend is toward converting information - documents, video or film or even sound recordings - into to the digital language of zeros and ones understood by computers.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">209</int>
-        <double name="strength">0.8870125921218238</double>
+        <double name="strength">0.9924972560993567</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Within the past few weeks, International Business Machines Corp &lt;IBM&gt;, Eastman Kodak Co &lt;EK&gt; and others have launched products that radically increase the amount of data that can be catalogued and shelved in computerized libraries.</str>
-        <int name="index">1</int>
+        <str name="text">"This flurry of new technology could yield systems that handle a multimedia blitz of data," said Ian Warhaftig, a senior analyst with International Data Corp, Framingham, Mass.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">232</int>
-        <double name="strength">0.854872555773183</double>
+        <int name="end">177</int>
+        <double name="strength">0.9593041612103992</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last week, &lt;em&gt;Microsoft introduced Microsoft Bookshelf,&lt;/em&gt; a 300 dlr &lt;em&gt;program&lt;/em&gt; that &lt;em&gt;contains,&lt;/em&gt; on a &lt;em&gt;single&lt;/em&gt; CD-ROM disk, a &lt;em&gt;dictionary, thesaurus, national&lt;/em&gt; ZIP code &lt;em&gt;directory, Bartlett&lt;/em&gt;'s &lt;em&gt;Familiar Quotations,&lt;/em&gt; the &lt;em&gt;World Almanac&lt;/em&gt; and &lt;em&gt;other reference works&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">&lt;em&gt;Scores&lt;/em&gt; of such &lt;em&gt;products&lt;/em&gt; are already on the &lt;em&gt;market,&lt;/em&gt; but most are &lt;em&gt;specialty items,&lt;/em&gt; such as &lt;em&gt;Lotus Development&lt;/em&gt; Corp's &lt;LOTS&gt; CD-ROM data base of &lt;em&gt;stock information&lt;/em&gt; for &lt;em&gt;financial analysts&lt;/em&gt; and &lt;em&gt;investors&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Regardless&lt;/em&gt; of the &lt;em&gt;specific application,&lt;/em&gt; the &lt;em&gt;trend&lt;/em&gt; is &lt;em&gt;toward converting information - documents, video&lt;/em&gt; or film or even &lt;em&gt;sound recordings -&lt;/em&gt; into to the &lt;em&gt;digital language&lt;/em&gt; of &lt;em&gt;zeros&lt;/em&gt; and ones &lt;em&gt;understood&lt;/em&gt; by &lt;em&gt;computers&lt;/em&gt;.</str>
+        <str name="text">Regardless of the &lt;em&gt;specific application,&lt;/em&gt; the &lt;em&gt;trend&lt;/em&gt; is toward converting &lt;em&gt;information - documents, video&lt;/em&gt; or film or even &lt;em&gt;sound recordings -&lt;/em&gt; into to the &lt;em&gt;digital language&lt;/em&gt; of &lt;em&gt;zeros&lt;/em&gt; and ones understood by &lt;em&gt;computers&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Within&lt;/em&gt; the past few &lt;em&gt;weeks, International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, &lt;em&gt;Eastman Kodak&lt;/em&gt; Co &lt;EK&gt; and &lt;em&gt;others&lt;/em&gt; have &lt;em&gt;launched products&lt;/em&gt; that &lt;em&gt;radically increase&lt;/em&gt; the &lt;em&gt;amount&lt;/em&gt; of data that can be &lt;em&gt;catalogued&lt;/em&gt; and &lt;em&gt;shelved&lt;/em&gt; in &lt;em&gt;computerized libraries&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">"This &lt;em&gt;flurry&lt;/em&gt; of new &lt;em&gt;technology&lt;/em&gt; could &lt;em&gt;yield systems&lt;/em&gt; that &lt;em&gt;handle&lt;/em&gt; a &lt;em&gt;multimedia blitz&lt;/em&gt; of data," said Ian &lt;em&gt;Warhaftig,&lt;/em&gt; a &lt;em&gt;senior analyst&lt;/em&gt; with &lt;em&gt;International&lt;/em&gt; Data Corp, &lt;em&gt;Framingham, Mass&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

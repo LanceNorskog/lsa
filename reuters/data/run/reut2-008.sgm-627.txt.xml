@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-627.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">143</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">historically</str>
+        <str name="text">competitive</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">banks</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">savings</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">assets</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
       <lst name="term">
-        <str name="text">happened</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">street</str>
+        <double name="strength">0.9877415447956247</double>
       </lst>
       <lst name="term">
-        <str name="text">manufacturing</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">firms</str>
+        <double name="strength">0.9877415447956247</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">179</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">It's part of a trend towards growing capital participation by Japanese insurance firms in foreign financial institutions," said Simon Smithson, an analyst with Kleinwort Benson International Inc in Tokyo.</str>
         <int name="index">3</int>
         <int name="start">0</int>
         <int name="end">204</int>
-        <double name="strength">0.9328630142897479</double>
+        <double name="strength">0.9607947229343461</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Smithson said Japanese banks started buying smaller and problem-plagued banks in 1984.</str>
-        <int name="index">16</int>
+        <str name="text">"It's a reflection of what has happened in manufacturing industries," said Brian Waterhouse at James Capel and Co. "</str>
+        <int name="index">19</int>
         <int name="start">1</int>
-        <int name="end">87</int>
-        <double name="strength">0.9280414618456646</double>
+        <int name="end">117</int>
+        <double name="strength">0.8301400006649684</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;agreement between&lt;/em&gt; the two &lt;em&gt;companies calls&lt;/em&gt; for a 50-50 &lt;em&gt;joint venture&lt;/em&gt; in &lt;em&gt;London focussing&lt;/em&gt; on &lt;em&gt;investment advisory asset management, market research,&lt;/em&gt; and &lt;em&gt;consulting&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;agreement&lt;/em&gt; between the two &lt;em&gt;companies&lt;/em&gt; calls for a 50-50 &lt;em&gt;joint venture&lt;/em&gt; in &lt;em&gt;London focussing&lt;/em&gt; on &lt;em&gt;investment advisory asset management, market research,&lt;/em&gt; and &lt;em&gt;consulting&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It's part of a &lt;em&gt;trend towards growing capital participation&lt;/em&gt; by &lt;em&gt;Japanese insurance firms&lt;/em&gt; in &lt;em&gt;foreign financial institutions,"&lt;/em&gt; said &lt;em&gt;Simon Smithson,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Kleinwort Benson International&lt;/em&gt; Inc in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
+        <str name="text">It's part of a &lt;em&gt;trend&lt;/em&gt; towards growing &lt;em&gt;capital participation&lt;/em&gt; by &lt;em&gt;Japanese insurance firms&lt;/em&gt; in &lt;em&gt;foreign financial institutions,"&lt;/em&gt; said &lt;em&gt;Simon Smithson,&lt;/em&gt; an &lt;em&gt;analyst&lt;/em&gt; with &lt;em&gt;Kleinwort&lt;/em&gt; Benson &lt;em&gt;International&lt;/em&gt; Inc in &lt;em&gt;Tokyo&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Smithson&lt;/em&gt; said &lt;em&gt;Japanese banks started buying smaller&lt;/em&gt; and &lt;em&gt;problem-plagued banks in 1984&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">"It's a &lt;em&gt;reflection&lt;/em&gt; of what has happened in &lt;em&gt;manufacturing industries,"&lt;/em&gt; said &lt;em&gt;Brian Waterhouse&lt;/em&gt; at &lt;em&gt;James Capel&lt;/em&gt; and Co. "</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

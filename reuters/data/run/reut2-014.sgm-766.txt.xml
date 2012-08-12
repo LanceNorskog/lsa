@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-766.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">141</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">which</str>
+        <str name="text">mills</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">another</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">people</str>
+        <double name="strength">0.9877415447956273</double>
+      </lst>
+      <lst name="term">
+        <str name="text">traders</str>
+        <double name="strength">0.9877415447956261</double>
       </lst>
       <lst name="term">
         <str name="text">agreement</str>
-        <double name="strength">0.5590169943749476</double>
+        <double name="strength">0.987741544795626</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.5590169943749476</double>
-      </lst>
-      <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.5527707983925679</double>
+        <str name="text">something</str>
+        <double name="strength">0.9877415447956259</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"If they (the finance ministers) give the market something really new to look at -- that is, some package that goes beyond the Paris agreement -- you could have a real boost in the dollar," said Shearson Lehman Brothers analyst Anne Mills.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">240</int>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">In particular, the June Canadian dollar, for which Sloane recently put out a buy recommendation, has hovered in a range between 0.7600 and 0.7660 in recent weeks, forming a triangle on the charts from which it may soon break out on the upside.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">244</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9670163242971335</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">What has helped the Canadian currency, she noted, is an increasing proportion of foreign funds flowing into the Canadian equity market, particularly from Japanese investors.</str>
-        <int name="index">16</int>
+        <str name="text">Traders and analysts agree a simple reaffirmation of the Paris accord will not be enough to halt the decline in the dollar, nor will central bank intervention.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">174</int>
-        <double name="strength">0.868449921252825</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But sterling futures may still make another run for new highs, up to 1.6300 to 1.6500 dlr in the June contract, on the positive atmosphere that will prevail before British elections and possibly another interest rate cut, Horner said.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.8166085379830681</double>
+        <int name="end">160</int>
+        <double name="strength">0.927366001442291</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;particular,&lt;/em&gt; the June &lt;em&gt;Canadian dollar,&lt;/em&gt; for &lt;em&gt;which Sloane recently&lt;/em&gt; put out a buy &lt;em&gt;recommendation,&lt;/em&gt; has &lt;em&gt;hovered&lt;/em&gt; in a &lt;em&gt;range between 0.7600&lt;/em&gt; and 0.7660 in &lt;em&gt;recent weeks, forming&lt;/em&gt; a &lt;em&gt;triangle&lt;/em&gt; on the &lt;em&gt;charts&lt;/em&gt; from &lt;em&gt;which&lt;/em&gt; it may soon &lt;em&gt;break&lt;/em&gt; out on the &lt;em&gt;upside&lt;/em&gt;.</str>
+        <str name="text">"If they (the &lt;em&gt;finance ministers)&lt;/em&gt; give the &lt;em&gt;market something&lt;/em&gt; really new to look at -- that is, some &lt;em&gt;package&lt;/em&gt; that goes beyond the &lt;em&gt;Paris agreement --&lt;/em&gt; you could have a real &lt;em&gt;boost&lt;/em&gt; in the &lt;em&gt;dollar,"&lt;/em&gt; said &lt;em&gt;Shearson Lehman Brothers analyst&lt;/em&gt; Anne &lt;em&gt;Mills&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;particular,&lt;/em&gt; the June &lt;em&gt;Canadian dollar,&lt;/em&gt; for which &lt;em&gt;Sloane&lt;/em&gt; recently put out a buy &lt;em&gt;recommendation,&lt;/em&gt; has hovered in a &lt;em&gt;range&lt;/em&gt; between 0.7600 and 0.7660 in &lt;em&gt;recent weeks,&lt;/em&gt; forming a &lt;em&gt;triangle&lt;/em&gt; on the &lt;em&gt;charts&lt;/em&gt; from which it may soon &lt;em&gt;break&lt;/em&gt; out on the &lt;em&gt;upside&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">What has &lt;em&gt;helped&lt;/em&gt; the &lt;em&gt;Canadian currency,&lt;/em&gt; she &lt;em&gt;noted,&lt;/em&gt; is an &lt;em&gt;increasing proportion&lt;/em&gt; of &lt;em&gt;foreign funds flowing&lt;/em&gt; into the &lt;em&gt;Canadian equity market, particularly&lt;/em&gt; from &lt;em&gt;Japanese investors&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But &lt;em&gt;sterling futures&lt;/em&gt; may &lt;em&gt;still&lt;/em&gt; make &lt;em&gt;another&lt;/em&gt; run for new &lt;em&gt;highs,&lt;/em&gt; up to 1.6300 to 1.6500 dlr in the June &lt;em&gt;contract,&lt;/em&gt; on the &lt;em&gt;positive atmosphere&lt;/em&gt; that will &lt;em&gt;prevail before British elections&lt;/em&gt; and &lt;em&gt;possibly another interest&lt;/em&gt; rate cut, &lt;em&gt;Horner said&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">&lt;em&gt;Traders&lt;/em&gt; and &lt;em&gt;analysts agree&lt;/em&gt; a &lt;em&gt;simple reaffirmation&lt;/em&gt; of the &lt;em&gt;Paris accord&lt;/em&gt; will not be enough to halt the &lt;em&gt;decline&lt;/em&gt; in the &lt;em&gt;dollar,&lt;/em&gt; nor will &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;intervention&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

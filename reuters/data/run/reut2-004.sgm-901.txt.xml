@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-901.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,31 +21,31 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">impact</str>
+        <str name="text">securities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">edged</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">equity</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">trades</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">likely</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">dealers</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">immensely</str>
+        <str name="text">losses</str>
         <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The operation has become the first major casualty in the London markets since deregulation last October abolished fixed commissions and allowed the merging of broking and jobbing operations into market making activities.</str>
-        <int name="index">2</int>
+        <str name="text">Dealers said the pace of withdrawals was likely to speed up in the next year, and would intensify if the three-month bull run on the London stock exchange petered out.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">221</int>
-        <double name="strength">0.8126456509017573</double>
+        <int name="end">168</int>
+        <double name="strength">0.8854664845068316</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a recent report, Greenwell Montagu Research said, "Those who have made profits are either immensely clever or immensely lucky.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">130</int>
-        <double name="strength">0.7844622983681084</double>
+        <str name="text">L&gt; said its Greenwell Montagu Securities unit would pull out of equity market making and concentrate instead on providing a broker dealer and agency service for its clients.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">173</int>
+        <double name="strength">0.8479725980595072</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said &lt;em&gt;commission rates&lt;/em&gt; on &lt;em&gt;institutional equity trades&lt;/em&gt; have &lt;em&gt;dropped sharply&lt;/em&gt; in the five &lt;em&gt;months since deregulation,&lt;/em&gt; with some &lt;em&gt;firms covering&lt;/em&gt; some of &lt;em&gt;their reduced profits&lt;/em&gt; by &lt;em&gt;trading&lt;/em&gt; on &lt;em&gt;their&lt;/em&gt; own &lt;em&gt;account&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said &lt;em&gt;commission rates&lt;/em&gt; on &lt;em&gt;institutional equity trades&lt;/em&gt; have dropped sharply in the five &lt;em&gt;months&lt;/em&gt; since &lt;em&gt;deregulation,&lt;/em&gt; with some &lt;em&gt;firms&lt;/em&gt; covering some of their &lt;em&gt;reduced profits&lt;/em&gt; by trading on their own &lt;em&gt;account&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;operation&lt;/em&gt; has &lt;em&gt;become&lt;/em&gt; the &lt;em&gt;first major casualty&lt;/em&gt; in the &lt;em&gt;London markets since deregulation&lt;/em&gt; last &lt;em&gt;October abolished fixed commissions&lt;/em&gt; and &lt;em&gt;allowed&lt;/em&gt; the &lt;em&gt;merging&lt;/em&gt; of &lt;em&gt;broking&lt;/em&gt; and &lt;em&gt;jobbing operations&lt;/em&gt; into &lt;em&gt;market making activities&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said the pace of &lt;em&gt;withdrawals&lt;/em&gt; was &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;speed&lt;/em&gt; up in the next year, and would &lt;em&gt;intensify&lt;/em&gt; if the &lt;em&gt;three-month&lt;/em&gt; bull run on the &lt;em&gt;London stock exchange&lt;/em&gt; petered out.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;recent report, Greenwell Montagu Research&lt;/em&gt; said, "&lt;em&gt;Those&lt;/em&gt; who have made &lt;em&gt;profits&lt;/em&gt; are &lt;em&gt;either immensely clever&lt;/em&gt; or &lt;em&gt;immensely lucky&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">L&gt; said its &lt;em&gt;Greenwell Montagu Securities&lt;/em&gt; unit would pull out of &lt;em&gt;equity market making&lt;/em&gt; and &lt;em&gt;concentrate&lt;/em&gt; instead on providing a &lt;em&gt;broker dealer&lt;/em&gt; and &lt;em&gt;agency service&lt;/em&gt; for its &lt;em&gt;clients&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

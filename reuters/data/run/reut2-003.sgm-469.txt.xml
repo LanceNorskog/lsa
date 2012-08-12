@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-469.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">partly</str>
+        <str name="text">authorities</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">money</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">pressure</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">strategy</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">announcement</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">succeeded</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">available</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">stemming</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">england</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">U.K. Money market rates declined again this morning by up to 1/8 point, strongly reinforcing yesterday's speculation that clearing bank base lending rates could drop into single figures after the budget next Tuesday, money market dealers said.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">244</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Dealers noted that the Bank of England last week issued one billion stg of nine pct Exchequer bonds due 2002 in an effort to dampen enthusiasm for an interest rate reduction caused by sterling's uptrend on foreign exchange markets.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">0.8969489908659856</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Sterling was briefly depressed by the rate cut but this morning opened very strongly again, starting on a trade-weighted basis at 72.6 against yesterday's final 72.1 and later edging up to 72.7.</str>
-        <int name="index">15</int>
+        <str name="text">Dealers noted that strong demand had been detected for the bonds yesterday afternoon and interest was further stimulated by sterling's surge at the opening this morning.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">195</int>
-        <double name="strength">0.8788954906061968</double>
+        <int name="end">170</int>
+        <double name="strength">0.7737329471325434</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.K. Money market rates declined again this morning by up to 1/8 point, strongly reinforcing yesterday's speculation that clearing bank base lending rates could drop into single figures after the budget next Tuesday, money market dealers said.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">244</int>
+        <double name="strength">0.7162801335634965</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.K. &lt;em&gt;Money market rates declined again&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt; by up to 1/8 &lt;em&gt;point, strongly reinforcing yesterday&lt;/em&gt;'s &lt;em&gt;speculation&lt;/em&gt; that &lt;em&gt;clearing&lt;/em&gt; bank base &lt;em&gt;lending rates could&lt;/em&gt; drop into &lt;em&gt;single figures after&lt;/em&gt; the &lt;em&gt;budget&lt;/em&gt; next &lt;em&gt;Tuesday, money market dealers said&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers noted&lt;/em&gt; that the Bank of &lt;em&gt;England&lt;/em&gt; last week &lt;em&gt;issued&lt;/em&gt; one &lt;em&gt;billion&lt;/em&gt; stg of nine pct &lt;em&gt;Exchequer bonds&lt;/em&gt; due 2002 in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;dampen enthusiasm&lt;/em&gt; for an &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;reduction caused&lt;/em&gt; by &lt;em&gt;sterling&lt;/em&gt;'s &lt;em&gt;uptrend&lt;/em&gt; on &lt;em&gt;foreign exchange markets&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; noted that the Bank of &lt;em&gt;England&lt;/em&gt; last week issued one &lt;em&gt;billion&lt;/em&gt; stg of nine pct &lt;em&gt;Exchequer bonds&lt;/em&gt; due 2002 in an &lt;em&gt;effort&lt;/em&gt; to &lt;em&gt;dampen enthusiasm&lt;/em&gt; for an &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;reduction&lt;/em&gt; caused by &lt;em&gt;sterling&lt;/em&gt;'s &lt;em&gt;uptrend&lt;/em&gt; on &lt;em&gt;foreign exchange markets&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Sterling&lt;/em&gt; was &lt;em&gt;briefly depressed&lt;/em&gt; by the rate cut but this &lt;em&gt;morning opened&lt;/em&gt; very &lt;em&gt;strongly again, starting&lt;/em&gt; on a &lt;em&gt;trade-weighted basis&lt;/em&gt; at 72.6 &lt;em&gt;against yesterday&lt;/em&gt;'s &lt;em&gt;final 72.1&lt;/em&gt; and &lt;em&gt;later edging&lt;/em&gt; up to 72.7.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; noted that &lt;em&gt;strong demand&lt;/em&gt; had been detected for the &lt;em&gt;bonds yesterday afternoon&lt;/em&gt; and &lt;em&gt;interest&lt;/em&gt; was further stimulated by &lt;em&gt;sterling&lt;/em&gt;'s &lt;em&gt;surge&lt;/em&gt; at the &lt;em&gt;opening&lt;/em&gt; this &lt;em&gt;morning&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.K. &lt;em&gt;Money market rates&lt;/em&gt; declined again this &lt;em&gt;morning&lt;/em&gt; by up to 1/8 &lt;em&gt;point,&lt;/em&gt; strongly reinforcing &lt;em&gt;yesterday&lt;/em&gt;'s &lt;em&gt;speculation&lt;/em&gt; that clearing bank base &lt;em&gt;lending rates&lt;/em&gt; could drop into &lt;em&gt;single figures&lt;/em&gt; after the &lt;em&gt;budget&lt;/em&gt; next &lt;em&gt;Tuesday, money market dealers said&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

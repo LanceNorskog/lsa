@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-141.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">first</str>
+        <str name="text">holdings</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">fujian</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">general</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">corporation</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">manager</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">agricultural</str>
-        <double name="strength">0.9999999999999983</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">parent</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">243</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Apart from Xiamen International Bank and the International Agricultural Development Bank planned by the World Bank and the state-owned Agricultural Bank of China, Xiamen has eight foreign bank branches or representative offices, mostly of Hong Kong or overseas Chinese banks.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">276</int>
-        <double name="strength">0.9955873567091152</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">General manager Liu Shuxun declined to give a 1987 profit forecast, saying targets were under study.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">101</int>
-        <double name="strength">0.7519445197271306</double>
+        <double name="strength">0.9773558299454379</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Apart from Xiamen International Bank and the International Agricultural Development Bank planned by the World Bank and the state-owned Agricultural Bank of China, Xiamen has eight foreign bank branches or representative offices, mostly of Hong Kong or overseas Chinese banks.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">276</int>
+        <double name="strength">0.9180818469455337</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Chinese partners&lt;/em&gt; are &lt;em&gt;Industrial&lt;/em&gt; and &lt;em&gt;Commercial&lt;/em&gt; Bank of &lt;em&gt;China, Fujian branch, whose share&lt;/em&gt; rose to 23.5 pct from 15, &lt;em&gt;Fujian Investment&lt;/em&gt; and &lt;em&gt;Enterprise Corporation 17.5&lt;/em&gt; pct (15) and &lt;em&gt;Xiamen Construction&lt;/em&gt; and &lt;em&gt;Development Corporation 10 pct (10)&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Chinese partners&lt;/em&gt; are &lt;em&gt;Industrial&lt;/em&gt; and &lt;em&gt;Commercial&lt;/em&gt; Bank of &lt;em&gt;China, Fujian branch,&lt;/em&gt; whose &lt;em&gt;share&lt;/em&gt; rose to 23.5 pct from 15, &lt;em&gt;Fujian Investment&lt;/em&gt; and &lt;em&gt;Enterprise Corporation 17.5&lt;/em&gt; pct (15) and &lt;em&gt;Xiamen Construction&lt;/em&gt; and &lt;em&gt;Development Corporation 10 pct (10)&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Apart&lt;/em&gt; from &lt;em&gt;Xiamen International&lt;/em&gt; Bank and the &lt;em&gt;International Agricultural Development&lt;/em&gt; Bank &lt;em&gt;planned&lt;/em&gt; by the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;state-owned Agricultural&lt;/em&gt; Bank of &lt;em&gt;China, Xiamen&lt;/em&gt; has &lt;em&gt;eight foreign&lt;/em&gt; bank &lt;em&gt;branches&lt;/em&gt; or &lt;em&gt;representative offices, mostly&lt;/em&gt; of Hong Kong or &lt;em&gt;overseas Chinese banks&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;General manager&lt;/em&gt; Liu &lt;em&gt;Shuxun&lt;/em&gt; declined to give a 1987 &lt;em&gt;profit forecast,&lt;/em&gt; saying &lt;em&gt;targets&lt;/em&gt; were under &lt;em&gt;study&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General manager&lt;/em&gt; Liu &lt;em&gt;Shuxun declined&lt;/em&gt; to give a 1987 &lt;em&gt;profit forecast, saying targets&lt;/em&gt; were &lt;em&gt;under study&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">Apart from &lt;em&gt;Xiamen International&lt;/em&gt; Bank and the &lt;em&gt;International Agricultural Development&lt;/em&gt; Bank planned by the &lt;em&gt;World&lt;/em&gt; Bank and the &lt;em&gt;state&lt;/em&gt;-owned &lt;em&gt;Agricultural&lt;/em&gt; Bank of &lt;em&gt;China, Xiamen&lt;/em&gt; has &lt;em&gt;eight foreign&lt;/em&gt; bank &lt;em&gt;branches&lt;/em&gt; or &lt;em&gt;representative offices,&lt;/em&gt; mostly of Hong Kong or overseas &lt;em&gt;Chinese banks&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

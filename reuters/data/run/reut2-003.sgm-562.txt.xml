@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-562.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">154</int>
+        <int name="count">126</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">value</str>
+        <str name="text">first</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">international</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">second</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">management</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">kerridge</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">shift</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">asset</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">begin</str>
+        <double name="strength">0.9917320401144659</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Halliburton is the best value," said Jeffrey Freedman, vice president at Smith Barney, Harris and Upham Inc, adding the company controls the greatest amount of liquidity of common stock market value, is diversifed in non-oil field businesess, and has the lowest multiple of stock price to operating cash flow including debt.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">326</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"Schlumberger's management shift, asset restructuring, including a pending merger of Fairchild Semiconductor, and its considerable cash horde sets the stage for the company to maximize its significant industry advantage and capitalize on the project upturn in exploration and development activity," according to a report by George Gaspar, first vice president at Robert W.</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">373</int>
-        <double name="strength">0.9231192131996552</double>
+        <double name="strength">1.0</double>
+        <int name="terms">27</int>
       </lst>
       <lst name="sentence">
         <str name="text">"People, however, cannot afford to wait for drilling to go up to start buying," said Sandi Haber Sweeney, senior research analyst at Sanford C.</str>
         <int name="index">2</int>
         <int name="start">2</int>
         <int name="end">145</int>
-        <double name="strength">0.6809204803111109</double>
+        <double name="strength">0.6780732860487066</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"Halliburton is the best value," said Jeffrey Freedman, vice president at Smith Barney, Harris and Upham Inc, adding the company controls the greatest amount of liquidity of common stock market value, is diversifed in non-oil field businesess, and has the lowest multiple of stock price to operating cash flow including debt.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">326</int>
+        <double name="strength">0.6665672160030351</double>
+        <int name="terms">19</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Halliburton&lt;/em&gt; is the best &lt;em&gt;value,"&lt;/em&gt; said &lt;em&gt;Jeffrey Freedman,&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Smith Barney, Harris&lt;/em&gt; and &lt;em&gt;Upham&lt;/em&gt; Inc, &lt;em&gt;adding&lt;/em&gt; the &lt;em&gt;company controls&lt;/em&gt; the &lt;em&gt;greatest amount&lt;/em&gt; of &lt;em&gt;liquidity&lt;/em&gt; of &lt;em&gt;common stock market value,&lt;/em&gt; is &lt;em&gt;diversifed&lt;/em&gt; in non-oil &lt;em&gt;field businesess,&lt;/em&gt; and has the &lt;em&gt;lowest multiple&lt;/em&gt; of &lt;em&gt;stock price&lt;/em&gt; to &lt;em&gt;operating&lt;/em&gt; cash flow &lt;em&gt;including debt&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;"Schlumberger&lt;/em&gt;'s &lt;em&gt;management shift, asset restructuring, including&lt;/em&gt; a &lt;em&gt;pending merger&lt;/em&gt; of &lt;em&gt;Fairchild Semiconductor,&lt;/em&gt; and its &lt;em&gt;considerable&lt;/em&gt; cash &lt;em&gt;horde&lt;/em&gt; sets the &lt;em&gt;stage&lt;/em&gt; for the &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;maximize&lt;/em&gt; its &lt;em&gt;significant industry advantage&lt;/em&gt; and &lt;em&gt;capitalize&lt;/em&gt; on the &lt;em&gt;project upturn&lt;/em&gt; in &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development activity," according&lt;/em&gt; to a &lt;em&gt;report&lt;/em&gt; by &lt;em&gt;George Gaspar, first&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Robert W&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"Schlumberger&lt;/em&gt;'s &lt;em&gt;management shift, asset&lt;/em&gt; restructuring, including a pending &lt;em&gt;merger&lt;/em&gt; of &lt;em&gt;Fairchild Semiconductor,&lt;/em&gt; and its &lt;em&gt;considerable&lt;/em&gt; cash &lt;em&gt;horde&lt;/em&gt; sets the &lt;em&gt;stage&lt;/em&gt; for the &lt;em&gt;company&lt;/em&gt; to &lt;em&gt;maximize&lt;/em&gt; its &lt;em&gt;significant industry advantage&lt;/em&gt; and &lt;em&gt;capitalize&lt;/em&gt; on the &lt;em&gt;project upturn&lt;/em&gt; in &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development activity,"&lt;/em&gt; according to a &lt;em&gt;report&lt;/em&gt; by &lt;em&gt;George Gaspar, first&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Robert W&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"People, however, cannot afford&lt;/em&gt; to wait for &lt;em&gt;drilling&lt;/em&gt; to go up to &lt;em&gt;start buying,"&lt;/em&gt; said &lt;em&gt;Sandi Haber Sweeney, senior research analyst&lt;/em&gt; at &lt;em&gt;Sanford C&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"People,&lt;/em&gt; however, cannot &lt;em&gt;afford&lt;/em&gt; to wait for &lt;em&gt;drilling&lt;/em&gt; to go up to &lt;em&gt;start buying,"&lt;/em&gt; said &lt;em&gt;Sandi Haber Sweeney, senior research analyst&lt;/em&gt; at &lt;em&gt;Sanford C&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;"Halliburton&lt;/em&gt; is the best &lt;em&gt;value,"&lt;/em&gt; said Jeffrey &lt;em&gt;Freedman,&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; at &lt;em&gt;Smith Barney, Harris&lt;/em&gt; and &lt;em&gt;Upham&lt;/em&gt; Inc, adding the &lt;em&gt;company&lt;/em&gt; controls the greatest &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;liquidity&lt;/em&gt; of &lt;em&gt;common stock market value,&lt;/em&gt; is diversifed in non-oil &lt;em&gt;field businesess,&lt;/em&gt; and has the lowest &lt;em&gt;multiple&lt;/em&gt; of &lt;em&gt;stock price&lt;/em&gt; to &lt;em&gt;operating&lt;/em&gt; cash flow including debt.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

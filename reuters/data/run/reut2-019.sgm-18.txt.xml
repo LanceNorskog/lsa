@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-18.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">dividend</str>
-        <double name="strength">0.5590169943749478</double>
+        <str name="text">minister</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">taxable</str>
-        <double name="strength">0.5590169943749462</double>
+        <str name="text">canadians</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">structure</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">taxes</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">federal</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">office</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Wilson introduced the exemption shortly after taking office in 1984 as a a way of stimulating investment, but it was sharply criticized by the opposition as over-generous to wealthy investors.</str>
-        <int name="index">8</int>
+        <str name="text">Wilson said tax treatment for registered retirement savings plan contributions will be maintained but the phase in of the increase in the maximum limit to 15,500 dlrs will be delayed  four years to 1994.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">193</int>
+        <int name="end">204</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">Finance Minister Michael Wilson unveiled a wide-ranging reform of the personal tax system that includes limiting the capital gains exemption and a sharp cut in the dividend tax credit.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">184</int>
-        <double name="strength">0.880051332699918</double>
+        <double name="strength">0.9428065082939736</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Wilson said tax treatment for registered retirement savings plan contributions will be maintained but the phase in of the increase in the maximum limit to 15,500 dlrs will be delayed  four years to 1994.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">204</int>
-        <double name="strength">0.8560995084641546</double>
+        <str name="text">A new structure of federal income tax rates and the conversion of exemptions and deductions to tax credits," Wilson told the House of Commons.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">142</int>
+        <double name="strength">0.9100781223988511</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Wilson introduced&lt;/em&gt; the &lt;em&gt;exemption shortly after taking office&lt;/em&gt; in 1984 as a a way of &lt;em&gt;stimulating investment,&lt;/em&gt; but it was &lt;em&gt;sharply criticized&lt;/em&gt; by the &lt;em&gt;opposition&lt;/em&gt; as over-&lt;em&gt;generous&lt;/em&gt; to &lt;em&gt;wealthy investors&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Wilson&lt;/em&gt; said tax &lt;em&gt;treatment&lt;/em&gt; for &lt;em&gt;registered retirement savings&lt;/em&gt; plan &lt;em&gt;contributions&lt;/em&gt; will be maintained but the &lt;em&gt;phase&lt;/em&gt; in of the &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;maximum limit&lt;/em&gt; to 15,500 dlrs will be delayed  four &lt;em&gt;years to 1994&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Michael Wilson unveiled&lt;/em&gt; a wide-&lt;em&gt;ranging reform&lt;/em&gt; of the &lt;em&gt;personal&lt;/em&gt; tax &lt;em&gt;system&lt;/em&gt; that &lt;em&gt;includes limiting&lt;/em&gt; the &lt;em&gt;capital gains exemption&lt;/em&gt; and a &lt;em&gt;sharp&lt;/em&gt; cut in the &lt;em&gt;dividend&lt;/em&gt; tax &lt;em&gt;credit&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance Minister Michael Wilson&lt;/em&gt; unveiled a wide-ranging &lt;em&gt;reform&lt;/em&gt; of the &lt;em&gt;personal&lt;/em&gt; tax &lt;em&gt;system&lt;/em&gt; that includes limiting the &lt;em&gt;capital gains exemption&lt;/em&gt; and a &lt;em&gt;sharp&lt;/em&gt; cut in the &lt;em&gt;dividend&lt;/em&gt; tax &lt;em&gt;credit&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Wilson&lt;/em&gt; said tax &lt;em&gt;treatment&lt;/em&gt; for &lt;em&gt;registered retirement savings&lt;/em&gt; plan &lt;em&gt;contributions&lt;/em&gt; will be &lt;em&gt;maintained&lt;/em&gt; but the &lt;em&gt;phase&lt;/em&gt; in of the &lt;em&gt;increase&lt;/em&gt; in the &lt;em&gt;maximum limit&lt;/em&gt; to 15,500 dlrs will be &lt;em&gt;delayed &lt;/em&gt; four &lt;em&gt;years to 1994&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">A new &lt;em&gt;structure&lt;/em&gt; of &lt;em&gt;federal income&lt;/em&gt; tax &lt;em&gt;rates&lt;/em&gt; and the &lt;em&gt;conversion&lt;/em&gt; of &lt;em&gt;exemptions&lt;/em&gt; and &lt;em&gt;deductions&lt;/em&gt; to tax &lt;em&gt;credits,"&lt;/em&gt; Wilson told the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

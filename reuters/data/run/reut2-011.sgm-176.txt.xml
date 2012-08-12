@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-176.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">148</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">93</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cents</str>
+        <str name="text">sales</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">prices</str>
-        <double name="strength">0.707106781186547</double>
+        <str name="text">basin</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">sharing</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">onshore</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">reported</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">revaluation</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">launched</str>
-        <double name="strength">0.5000000000000014</double>
+        <str name="text">barrels</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He also said that CSR is sufficiently encouraged by future prospects and the opportunity to reposition the group in core businesses to foreshadow an increase in final dividend payable in July to 10 cents from nine to make an annual 19 cents against 18 in 1985/86.</str>
-        <int name="index">22</int>
-        <int name="start">1</int>
-        <int name="end">264</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Kelman said the sale of Delhi would enable CSR to focus efforts on expanding business areas such as sugar and building materials in which CSR has had long and successful management experience and strong market leadership.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">222</int>
-        <double name="strength">0.9157943247711334</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">As reported separately, soon after announcing the Delhi sale CSR launched a takeover bid for the 68.26 pct of &lt;Pioneer Sugar Mills Ltd&gt; that it does not already hold, valuing its entire issued capital at 219.6 mln dlrs.</str>
-        <int name="index">10</int>
+        <str name="text">Kelman said a revaluation of CSR's investment in Delhi to net realisable value as of today, CSR's annual balance-date, will result in an extraordinary loss of 97 mln dlrs.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.7872809668439358</double>
+        <int name="end">172</int>
+        <double name="strength">0.8040429164752728</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After Bass Strait, the onshore Cooper and Eromanga Basin is Australia's largest oil and gas producing area with current gross oil production of 45,000 barrels per day (BDP), gas liquids output of 30,000 BPD and gas sales of 480 mln cubic feet a day, the CSR-Esso statement said.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">279</int>
+        <double name="strength">0.8016957130004285</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He also said that CSR is &lt;em&gt;sufficiently encouraged&lt;/em&gt; by &lt;em&gt;future prospects&lt;/em&gt; and the &lt;em&gt;opportunity&lt;/em&gt; to &lt;em&gt;reposition&lt;/em&gt; the &lt;em&gt;group&lt;/em&gt; in core &lt;em&gt;businesses&lt;/em&gt; to &lt;em&gt;foreshadow&lt;/em&gt; an &lt;em&gt;increase&lt;/em&gt; in &lt;em&gt;final dividend payable&lt;/em&gt; in July to 10 &lt;em&gt;cents&lt;/em&gt; from nine to make an &lt;em&gt;annual 19 cents against 18 in 1985/86&lt;/em&gt;.</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Kelman&lt;/em&gt; said the sale of &lt;em&gt;Delhi would enable&lt;/em&gt; CSR to &lt;em&gt;focus efforts&lt;/em&gt; on &lt;em&gt;expanding business areas&lt;/em&gt; such as &lt;em&gt;sugar&lt;/em&gt; and &lt;em&gt;building materials&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; CSR has had long and &lt;em&gt;successful management experience&lt;/em&gt; and &lt;em&gt;strong market leadership&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Kelman&lt;/em&gt; said the sale of &lt;em&gt;Delhi&lt;/em&gt; would &lt;em&gt;enable&lt;/em&gt; CSR to &lt;em&gt;focus efforts&lt;/em&gt; on expanding &lt;em&gt;business areas&lt;/em&gt; such as &lt;em&gt;sugar&lt;/em&gt; and &lt;em&gt;building materials&lt;/em&gt; in which CSR has had long and &lt;em&gt;successful management experience&lt;/em&gt; and &lt;em&gt;strong market leadership&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">As &lt;em&gt;reported separately,&lt;/em&gt; soon &lt;em&gt;after announcing&lt;/em&gt; the &lt;em&gt;Delhi&lt;/em&gt; sale CSR &lt;em&gt;launched&lt;/em&gt; a &lt;em&gt;takeover&lt;/em&gt; bid for the 68.26 pct of &lt;&lt;em&gt;Pioneer Sugar Mills&lt;/em&gt; Ltd&gt; that it does not &lt;em&gt;already&lt;/em&gt; hold, &lt;em&gt;valuing&lt;/em&gt; its &lt;em&gt;entire issued capital&lt;/em&gt; at 219.6 mln dlrs.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Kelman&lt;/em&gt; said a &lt;em&gt;revaluation&lt;/em&gt; of CSR's &lt;em&gt;investment&lt;/em&gt; in &lt;em&gt;Delhi&lt;/em&gt; to net &lt;em&gt;realisable value&lt;/em&gt; as of &lt;em&gt;today,&lt;/em&gt; CSR's &lt;em&gt;annual balance&lt;/em&gt;-date, will &lt;em&gt;result&lt;/em&gt; in an &lt;em&gt;extraordinary&lt;/em&gt; loss of 97 mln dlrs.</str>
+        <int name="index">20</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">After Bass &lt;em&gt;Strait,&lt;/em&gt; the &lt;em&gt;onshore Cooper&lt;/em&gt; and &lt;em&gt;Eromanga Basin&lt;/em&gt; is &lt;em&gt;Australia&lt;/em&gt;'s largest oil and gas producing area with &lt;em&gt;current gross&lt;/em&gt; oil &lt;em&gt;production&lt;/em&gt; of 45,000 &lt;em&gt;barrels&lt;/em&gt; per day (BDP), gas &lt;em&gt;liquids output&lt;/em&gt; of 30,000 BPD and gas &lt;em&gt;sales&lt;/em&gt; of 480 mln &lt;em&gt;cubic&lt;/em&gt; feet a day, the CSR-Esso &lt;em&gt;statement said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

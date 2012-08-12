@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-461.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">cereals</str>
+        <str name="text">proposal</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">association</str>
-        <double name="strength">0.9363197746831452</double>
+        <str name="text">correct</str>
+        <double name="strength">0.9902417144806029</double>
+      </lst>
+      <lst name="term">
+        <str name="text">community</str>
+        <double name="strength">0.9902417144806018</double>
+      </lst>
+      <lst name="term">
+        <str name="text">hormone</str>
+        <double name="strength">0.9902417144806015</double>
       </lst>
       <lst name="term">
         <str name="text">oilseed</str>
-        <double name="strength">0.5590197561744005</double>
-      </lst>
-      <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590197561744005</double>
-      </lst>
-      <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.5316257589089383</double>
+        <double name="strength">0.9902417144806015</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The EC scheme involves emergency measures to reduce tensions in troubled surplus sectors of cereals and cereals substitutes, dairy and sugar.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">142</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Samuels cited the animal hormones complaint, the EC oilseeds regime and an EC regulation concerning meat imports to third countries as three crucial barriers to trade which the U.</str>
         <int name="index">28</int>
         <int name="start">1</int>
         <int name="end">180</int>
-        <double name="strength">0.8256996744689484</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Those rights are now being challenged by the European Community's (EC) agricultural support policies, he told a conference sponsored by the American Soybean Association.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">170</int>
-        <double name="strength">0.8142626599673596</double>
+        <double name="strength">0.9249340902461524</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We will consider its relation to the Punta del Este declaration to correct trade problems and expand market access," the U.</str>
+        <int name="index">20</int>
+        <int name="start">1</int>
+        <int name="end">125</int>
+        <double name="strength">0.9068914840156904</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The EC &lt;em&gt;scheme involves emergency measures&lt;/em&gt; to &lt;em&gt;reduce tensions&lt;/em&gt; in &lt;em&gt;troubled surplus sectors&lt;/em&gt; of &lt;em&gt;cereals&lt;/em&gt; and &lt;em&gt;cereals substitutes, dairy&lt;/em&gt; and &lt;em&gt;sugar&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Samuels cited&lt;/em&gt; the &lt;em&gt;animal hormones complaint,&lt;/em&gt; the EC &lt;em&gt;oilseeds regime&lt;/em&gt; and an EC &lt;em&gt;regulation concerning&lt;/em&gt; meat &lt;em&gt;imports&lt;/em&gt; to &lt;em&gt;third countries&lt;/em&gt; as &lt;em&gt;three crucial barriers&lt;/em&gt; to &lt;em&gt;trade which&lt;/em&gt; the U.</str>
+        <str name="text">&lt;em&gt;Samuels&lt;/em&gt; cited the &lt;em&gt;animal hormones complaint,&lt;/em&gt; the EC &lt;em&gt;oilseeds regime&lt;/em&gt; and an EC &lt;em&gt;regulation&lt;/em&gt; concerning meat &lt;em&gt;imports&lt;/em&gt; to &lt;em&gt;third countries&lt;/em&gt; as &lt;em&gt;three crucial barriers&lt;/em&gt; to &lt;em&gt;trade&lt;/em&gt; which the U.</str>
         <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Those rights&lt;/em&gt; are now &lt;em&gt;being challenged&lt;/em&gt; by the &lt;em&gt;European Community&lt;/em&gt;'s (EC) &lt;em&gt;agricultural support policies,&lt;/em&gt; he told a &lt;em&gt;conference sponsored&lt;/em&gt; by the &lt;em&gt;American Soybean Association&lt;/em&gt;.</str>
+        <str name="text">Those &lt;em&gt;rights&lt;/em&gt; are now being challenged by the &lt;em&gt;European Community&lt;/em&gt;'s (EC) &lt;em&gt;agricultural support policies,&lt;/em&gt; he told a &lt;em&gt;conference&lt;/em&gt; sponsored by the &lt;em&gt;American Soybean Association&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We will &lt;em&gt;consider&lt;/em&gt; its &lt;em&gt;relation&lt;/em&gt; to the &lt;em&gt;Punta&lt;/em&gt; del Este &lt;em&gt;declaration&lt;/em&gt; to &lt;em&gt;correct trade problems&lt;/em&gt; and &lt;em&gt;expand market access,"&lt;/em&gt; the U.</str>
+        <int name="index">20</int>
       </lst>
     </lst>
   </lst>

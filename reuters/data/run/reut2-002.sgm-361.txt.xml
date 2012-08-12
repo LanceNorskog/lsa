@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-361.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">112</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">possible</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">metall</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">wolfsburg</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">states</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">group</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">seven</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">situation</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
       <lst name="term">
-        <str name="text">strike</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">relations</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">This could only be done if capital-intensive plants were used as fully as possible, if the workers' qualifications were raised through comprehensive training and if working hours were arranged so that expensive production plants operated as efficiently and soundly as possible.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">278</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A seven-week strike by IG Metall in the summer of 1984 for a 35-hour week in the West German metal industry ended in a compromise that cut hours to 38.5 hours but also allowed each company in the industry to decide, in consultation with the workforce, how the reductions should be made.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">287</int>
-        <double name="strength">0.7751302533126693</double>
-      </lst>
       <lst name="sentence">
         <str name="text">He told the plant's workforce that an internationally-active company like VW must be able to adjust to changed economic conditions and manage situations in which unfavourable currency relations restrict its room for financial maneuver.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">236</int>
-        <double name="strength">0.7621383997900121</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Summing up his predictions, Briam said limits to growth were becoming apparent on the VW group's most important markets but there were no grounds for great worries.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">165</int>
+        <double name="strength">0.8683647653128717</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Walter Hiller, the chairman of VW's works council, told the same Wolfsburg meeting that a cut in the working week to 35 hours was necessary to help reduce unemployment.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">169</int>
+        <double name="strength">0.8629765481229569</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">This &lt;em&gt;could&lt;/em&gt; only be done if &lt;em&gt;capital-intensive plants&lt;/em&gt; were used as &lt;em&gt;fully&lt;/em&gt; as &lt;em&gt;possible,&lt;/em&gt; if the &lt;em&gt;workers' qualifications&lt;/em&gt; were &lt;em&gt;raised through comprehensive training&lt;/em&gt; and if &lt;em&gt;working hours&lt;/em&gt; were &lt;em&gt;arranged&lt;/em&gt; so that &lt;em&gt;expensive production plants operated&lt;/em&gt; as &lt;em&gt;efficiently&lt;/em&gt; and &lt;em&gt;soundly&lt;/em&gt; as &lt;em&gt;possible&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;seven&lt;/em&gt;-week &lt;em&gt;strike&lt;/em&gt; by IG &lt;em&gt;Metall&lt;/em&gt; in the &lt;em&gt;summer&lt;/em&gt; of 1984 for a 35-hour week in the West &lt;em&gt;German metal industry ended&lt;/em&gt; in a &lt;em&gt;compromise&lt;/em&gt; that cut &lt;em&gt;hours&lt;/em&gt; to 38.5 &lt;em&gt;hours&lt;/em&gt; but also &lt;em&gt;allowed&lt;/em&gt; each &lt;em&gt;company&lt;/em&gt; in the &lt;em&gt;industry&lt;/em&gt; to &lt;em&gt;decide,&lt;/em&gt; in &lt;em&gt;consultation&lt;/em&gt; with the &lt;em&gt;workforce,&lt;/em&gt; how the &lt;em&gt;reductions should&lt;/em&gt; be made.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He told the &lt;em&gt;plant&lt;/em&gt;'s &lt;em&gt;workforce&lt;/em&gt; that an &lt;em&gt;internationally-active company&lt;/em&gt; like VW must be able to &lt;em&gt;adjust&lt;/em&gt; to &lt;em&gt;changed economic conditions&lt;/em&gt; and &lt;em&gt;manage situations&lt;/em&gt; in &lt;em&gt;which unfavourable currency relations restrict&lt;/em&gt; its room for &lt;em&gt;financial maneuver&lt;/em&gt;.</str>
+        <str name="text">He told the &lt;em&gt;plant&lt;/em&gt;'s &lt;em&gt;workforce&lt;/em&gt; that an internationally-&lt;em&gt;active company&lt;/em&gt; like VW must be able to &lt;em&gt;adjust&lt;/em&gt; to changed &lt;em&gt;economic conditions&lt;/em&gt; and &lt;em&gt;manage situations&lt;/em&gt; in which &lt;em&gt;unfavourable currency relations restrict&lt;/em&gt; its room for &lt;em&gt;financial maneuver&lt;/em&gt;.</str>
         <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Summing up his &lt;em&gt;predictions, Briam&lt;/em&gt; said &lt;em&gt;limits&lt;/em&gt; to &lt;em&gt;growth&lt;/em&gt; were becoming &lt;em&gt;apparent&lt;/em&gt; on the VW &lt;em&gt;group&lt;/em&gt;'s most &lt;em&gt;important markets&lt;/em&gt; but there were no &lt;em&gt;grounds&lt;/em&gt; for &lt;em&gt;great worries&lt;/em&gt;.</str>
+        <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Walter Hiller,&lt;/em&gt; the &lt;em&gt;chairman&lt;/em&gt; of VW's &lt;em&gt;works council,&lt;/em&gt; told the same &lt;em&gt;Wolfsburg meeting&lt;/em&gt; that a cut in the working week to 35 &lt;em&gt;hours&lt;/em&gt; was &lt;em&gt;necessary&lt;/em&gt; to help &lt;em&gt;reduce unemployment&lt;/em&gt;.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

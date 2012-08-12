@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-934.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">likely</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
         <str name="text">commercial</str>
-        <double name="strength">0.5590169943749473</double>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">reserves</str>
-        <double name="strength">0.5590169943749459</double>
+        <str name="text">title</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">outstanding</str>
-        <double name="strength">0.5</double>
+        <str name="text">debts</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">totalling</str>
-        <double name="strength">0.5</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">239</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Last week's announcement by Brazil that it would indefinitely suspend interest payments on an estimated 68 billion dlrs owed to commercial banks prompted Japanese creditors to finalise the project, the sources said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">216</int>
-        <double name="strength">0.8824581312245734</double>
+        <double name="strength">0.9011912343207586</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">About 30 Japanese commercial banks have outstanding loans totalling over 10 billion dlrs to Brazil, accounting for about 15 pct of all commercial loans to that country.</str>
-        <int name="index">6</int>
+        <str name="text">The scheme is intended to improve financial management at the banks and reduce the risk of problems in the event of debts turning bad, the sources said.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.854797052261799</double>
+        <int name="end">153</int>
+        <double name="strength">0.8336028887381499</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese creditor banks&lt;/em&gt; are &lt;em&gt;close&lt;/em&gt; to a &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;jointly establish&lt;/em&gt; an &lt;em&gt;offshore&lt;/em&gt; firm to &lt;em&gt;which&lt;/em&gt; they will &lt;em&gt;transfer&lt;/em&gt; part of &lt;em&gt;their title&lt;/em&gt; to &lt;em&gt;possibly unrecoverable debts&lt;/em&gt; owed by &lt;em&gt;developing nations, international financial sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Japanese creditor banks&lt;/em&gt; are close to a &lt;em&gt;decision&lt;/em&gt; to jointly &lt;em&gt;establish&lt;/em&gt; an &lt;em&gt;offshore&lt;/em&gt; firm to which they will &lt;em&gt;transfer&lt;/em&gt; part of their &lt;em&gt;title&lt;/em&gt; to possibly &lt;em&gt;unrecoverable debts&lt;/em&gt; owed by developing &lt;em&gt;nations, international financial sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Last week's &lt;em&gt;announcement&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt; that it &lt;em&gt;would indefinitely suspend interest payments&lt;/em&gt; on an &lt;em&gt;estimated 68 billion&lt;/em&gt; dlrs owed to &lt;em&gt;commercial banks prompted Japanese creditors&lt;/em&gt; to &lt;em&gt;finalise&lt;/em&gt; the &lt;em&gt;project,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <str name="text">Last week's &lt;em&gt;announcement&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt; that it would indefinitely &lt;em&gt;suspend interest payments&lt;/em&gt; on an estimated 68 &lt;em&gt;billion&lt;/em&gt; dlrs owed to &lt;em&gt;commercial banks&lt;/em&gt; prompted &lt;em&gt;Japanese creditors&lt;/em&gt; to &lt;em&gt;finalise&lt;/em&gt; the &lt;em&gt;project,&lt;/em&gt; the &lt;em&gt;sources said&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;About 30 Japanese commercial banks&lt;/em&gt; have &lt;em&gt;outstanding loans totalling&lt;/em&gt; over 10 &lt;em&gt;billion&lt;/em&gt; dlrs to &lt;em&gt;Brazil, accounting&lt;/em&gt; for &lt;em&gt;about 15&lt;/em&gt; pct of all &lt;em&gt;commercial loans&lt;/em&gt; to that &lt;em&gt;country&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;scheme&lt;/em&gt; is intended to &lt;em&gt;improve financial management&lt;/em&gt; at the &lt;em&gt;banks&lt;/em&gt; and &lt;em&gt;reduce&lt;/em&gt; the risk of &lt;em&gt;problems&lt;/em&gt; in the &lt;em&gt;event&lt;/em&gt; of &lt;em&gt;debts&lt;/em&gt; turning bad, the &lt;em&gt;sources said&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

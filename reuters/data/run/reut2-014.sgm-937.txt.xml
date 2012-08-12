@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-937.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">101</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">basically</str>
+        <str name="text">individuals</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">charged</str>
+        <str name="text">partners</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">conducted</str>
-        <double name="strength">1.0</double>
+        <str name="text">severe</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">accordance</str>
-        <double name="strength">1.0</double>
+        <str name="text">liquidity</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">generally</str>
-        <double name="strength">1.0</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">230</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We basically charged that the Technical Equities audit was not conducted in accordance with generally accepted auditing standards," Della Bousquet, executive officer for the board, told Reuters in a telephone interview.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">221</int>
-        <double name="strength">0.9066738063791445</double>
+        <str name="text">Penalties could range from censure to revocation of KMG Main Hurdman's license to do business in California.</str>
+        <int name="index">4</int>
+        <int name="start">0</int>
+        <int name="end">108</int>
+        <double name="strength">0.8472360699516069</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">She said a hearing would probably be held before an administrative law judge within three months.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">98</int>
-        <double name="strength">0.7790237160068643</double>
+        <str name="text">California regulators said they were seeking disciplinary action against the accounting firm KMG Main Hurdman as the result of a 1985 audit of Technical Equities Corp., an investment firm that filed for bankruptcy last year.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">224</int>
+        <double name="strength">0.8310522938703719</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bousquet&lt;/em&gt; said the &lt;em&gt;company, among other things,&lt;/em&gt; was &lt;em&gt;accused&lt;/em&gt; of not &lt;em&gt;properly investigating financial transactions&lt;/em&gt; and of &lt;em&gt;issuing&lt;/em&gt; a &lt;em&gt;favorable opinion&lt;/em&gt; in &lt;em&gt;August 1985&lt;/em&gt; that &lt;em&gt;relied&lt;/em&gt; on &lt;em&gt;misrepresentations&lt;/em&gt; of &lt;em&gt;Technical Equities management&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Bousquet&lt;/em&gt; said the &lt;em&gt;company,&lt;/em&gt; among &lt;em&gt;other things,&lt;/em&gt; was accused of not properly investigating &lt;em&gt;financial transactions&lt;/em&gt; and of issuing a &lt;em&gt;favorable opinion&lt;/em&gt; in August 1985 that relied on &lt;em&gt;misrepresentations&lt;/em&gt; of &lt;em&gt;Technical Equities management&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We &lt;em&gt;basically charged&lt;/em&gt; that the &lt;em&gt;Technical Equities audit&lt;/em&gt; was not &lt;em&gt;conducted&lt;/em&gt; in &lt;em&gt;accordance&lt;/em&gt; with &lt;em&gt;generally accepted auditing standards," Della Bousquet, executive officer&lt;/em&gt; for the &lt;em&gt;board,&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; in a &lt;em&gt;telephone interview&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Penalties&lt;/em&gt; could &lt;em&gt;range&lt;/em&gt; from &lt;em&gt;censure&lt;/em&gt; to &lt;em&gt;revocation&lt;/em&gt; of KMG Main &lt;em&gt;Hurdman&lt;/em&gt;'s &lt;em&gt;license&lt;/em&gt; to do &lt;em&gt;business&lt;/em&gt; in &lt;em&gt;California&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">She said a &lt;em&gt;hearing would probably&lt;/em&gt; be held &lt;em&gt;before&lt;/em&gt; an &lt;em&gt;administrative&lt;/em&gt; law &lt;em&gt;judge within three months&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;California regulators&lt;/em&gt; said they were seeking &lt;em&gt;disciplinary action&lt;/em&gt; against the &lt;em&gt;accounting&lt;/em&gt; firm KMG Main &lt;em&gt;Hurdman&lt;/em&gt; as the &lt;em&gt;result&lt;/em&gt; of a 1985 &lt;em&gt;audit&lt;/em&gt; of &lt;em&gt;Technical Equities&lt;/em&gt; Corp., an &lt;em&gt;investment&lt;/em&gt; firm that filed for &lt;em&gt;bankruptcy&lt;/em&gt; last year.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

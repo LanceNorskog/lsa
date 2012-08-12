@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-37.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">139</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">100</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">tenders</str>
+        <str name="text">criticism</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">rises</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">deficits</str>
+        <double name="strength">0.9960900316910977</double>
       </lst>
       <lst name="term">
         <str name="text">trading</str>
-        <double name="strength">0.9999999999999994</double>
+        <double name="strength">0.9960900316910977</double>
       </lst>
       <lst name="term">
-        <str name="text">treasury</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9960900316910973</double>
       </lst>
       <lst name="term">
-        <str name="text">secretary</str>
-        <double name="strength">0.8944271909999181</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9960900316910972</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Officials said afterwards the three men had reaffirmed their commitment to the Louvre accord on currency stability.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">116</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Over the weekend, criticism by Baker of the tightening in West German monetary policy had prompted a sharp fall of the dollar on speculation that Louvre cooperation had ended.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.938466277629816</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Trade balance is definitely underway," he said, noting that this was not so noticeable in absolute figures.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">110</int>
-        <double name="strength">0.9235481451827974</double>
+        <str name="text">Officials said afterwards the three men had reaffirmed their commitment to the Louvre accord on currency stability.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">116</int>
+        <double name="strength">0.9444871001015337</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We consider the interest rate increase that has occurred here and internationally to be a problem and cause for concern," Poehl told an investment conference.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">160</int>
+        <double name="strength">0.9162257991026153</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Officials&lt;/em&gt; said &lt;em&gt;afterwards&lt;/em&gt; the &lt;em&gt;three&lt;/em&gt; men had &lt;em&gt;reaffirmed their commitment&lt;/em&gt; to the &lt;em&gt;Louvre accord&lt;/em&gt; on &lt;em&gt;currency stability&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Over the &lt;em&gt;weekend, criticism&lt;/em&gt; by &lt;em&gt;Baker&lt;/em&gt; of the &lt;em&gt;tightening&lt;/em&gt; in West &lt;em&gt;German monetary policy&lt;/em&gt; had &lt;em&gt;prompted&lt;/em&gt; a &lt;em&gt;sharp&lt;/em&gt; fall of the &lt;em&gt;dollar&lt;/em&gt; on &lt;em&gt;speculation&lt;/em&gt; that &lt;em&gt;Louvre cooperation&lt;/em&gt; had &lt;em&gt;ended&lt;/em&gt;.</str>
+        <str name="text">Over the &lt;em&gt;weekend, criticism&lt;/em&gt; by &lt;em&gt;Baker&lt;/em&gt; of the tightening in West &lt;em&gt;German monetary policy&lt;/em&gt; had prompted a &lt;em&gt;sharp&lt;/em&gt; fall of the &lt;em&gt;dollar&lt;/em&gt; on &lt;em&gt;speculation&lt;/em&gt; that &lt;em&gt;Louvre cooperation&lt;/em&gt; had ended.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Trade balance&lt;/em&gt; is &lt;em&gt;definitely underway,"&lt;/em&gt; he said, &lt;em&gt;noting&lt;/em&gt; that this was not so &lt;em&gt;noticeable&lt;/em&gt; in &lt;em&gt;absolute figures&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">&lt;em&gt;Officials&lt;/em&gt; said afterwards the &lt;em&gt;three&lt;/em&gt; men had reaffirmed their &lt;em&gt;commitment&lt;/em&gt; to the &lt;em&gt;Louvre accord&lt;/em&gt; on &lt;em&gt;currency stability&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"We &lt;em&gt;consider&lt;/em&gt; the &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;increase&lt;/em&gt; that has occurred here and internationally to be a &lt;em&gt;problem&lt;/em&gt; and &lt;em&gt;cause&lt;/em&gt; for &lt;em&gt;concern,"&lt;/em&gt; Poehl told an &lt;em&gt;investment conference&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

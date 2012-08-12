@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-991.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">83</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">institute</str>
+        <str name="text">agreement</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
         <str name="text">deadline</str>
-        <double name="strength">0.5000000000000008</double>
+        <double name="strength">0.9969511504682479</double>
       </lst>
       <lst name="term">
         <str name="text">october</str>
-        <double name="strength">0.5000000000000008</double>
-      </lst>
-      <lst name="term">
-        <str name="text">sides</str>
-        <double name="strength">0.5000000000000008</double>
-      </lst>
-      <lst name="term">
-        <str name="text">likely</str>
-        <double name="strength">0.5000000000000008</double>
+        <double name="strength">0.9969511504682479</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Niskanen said the goal of a pact should be to end all tariffs within 10 years, lower subsidies on exports, set rules for trade in services and investments, end curbs on government procurement and agree ways to resolve trade disputes.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">234</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A free trade pact, backed by President Reagan and Prime Minister Brian Mulroney, would open new markets for Canada and enable its industries to achieve economies of scale, which would also help it widen exports worldwide, he said.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">231</int>
-        <double name="strength">0.990664984896238</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The United States and Canada, whose cross-border trade totaled about 125 billion dlrs last year, have been holding talks since last June on a pact to end the few trade barriers remaining between their two countries.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
-        <double name="strength">0.9651687946359606</double>
+        <str name="text">U.S.-Canadian ties could worsen if the two nations are unable to reach a free trade pact, according to a study published by two nonpartisan public policy research groups.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">170</int>
+        <double name="strength">0.87571229127767</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. put a deadline on the talks of October 1, but both sides have said an agreement is likely despite tough bargaining remained.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">127</int>
+        <double name="strength">0.7550048785243386</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Niskanen&lt;/em&gt; said the goal of a pact &lt;em&gt;should&lt;/em&gt; be to end all &lt;em&gt;tariffs within 10 years, lower subsidies&lt;/em&gt; on &lt;em&gt;exports,&lt;/em&gt; set &lt;em&gt;rules&lt;/em&gt; for &lt;em&gt;trade&lt;/em&gt; in &lt;em&gt;services&lt;/em&gt; and &lt;em&gt;investments,&lt;/em&gt; end &lt;em&gt;curbs&lt;/em&gt; on &lt;em&gt;government procurement&lt;/em&gt; and &lt;em&gt;agree&lt;/em&gt; ways to &lt;em&gt;resolve trade disputes&lt;/em&gt;.</str>
-        <int name="index">13</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A free &lt;em&gt;trade&lt;/em&gt; pact, &lt;em&gt;backed&lt;/em&gt; by &lt;em&gt;President Reagan&lt;/em&gt; and &lt;em&gt;Prime Minister Brian Mulroney, would&lt;/em&gt; open new &lt;em&gt;markets&lt;/em&gt; for &lt;em&gt;Canada&lt;/em&gt; and &lt;em&gt;enable&lt;/em&gt; its &lt;em&gt;industries&lt;/em&gt; to &lt;em&gt;achieve economies&lt;/em&gt; of &lt;em&gt;scale, which would&lt;/em&gt; also help it &lt;em&gt;widen exports worldwide,&lt;/em&gt; he said.</str>
+        <str name="text">A free &lt;em&gt;trade&lt;/em&gt; pact, backed by &lt;em&gt;President Reagan&lt;/em&gt; and &lt;em&gt;Prime Minister Brian Mulroney,&lt;/em&gt; would open new &lt;em&gt;markets&lt;/em&gt; for &lt;em&gt;Canada&lt;/em&gt; and &lt;em&gt;enable&lt;/em&gt; its &lt;em&gt;industries&lt;/em&gt; to &lt;em&gt;achieve economies&lt;/em&gt; of &lt;em&gt;scale,&lt;/em&gt; which would also help it &lt;em&gt;widen exports&lt;/em&gt; worldwide, he said.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Canada, whose cross-border trade totaled about 125 billion&lt;/em&gt; dlrs last year, have been &lt;em&gt;holding talks since&lt;/em&gt; last June on a pact to end the few &lt;em&gt;trade barriers remaining between their&lt;/em&gt; two &lt;em&gt;countries&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">U.S.-&lt;em&gt;Canadian&lt;/em&gt; ties could &lt;em&gt;worsen&lt;/em&gt; if the two &lt;em&gt;nations&lt;/em&gt; are &lt;em&gt;unable&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; a free &lt;em&gt;trade&lt;/em&gt; pact, according to a &lt;em&gt;study&lt;/em&gt; published by two &lt;em&gt;nonpartisan public policy research groups&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. put a &lt;em&gt;deadline&lt;/em&gt; on the &lt;em&gt;talks&lt;/em&gt; of &lt;em&gt;October 1,&lt;/em&gt; but both &lt;em&gt;sides&lt;/em&gt; have said an &lt;em&gt;agreement&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; despite &lt;em&gt;tough bargaining remained&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

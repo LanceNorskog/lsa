@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-421.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">98</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">credit</str>
+        <str name="text">system</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">itself</str>
-        <double name="strength">0.6324555320336767</double>
+        <str name="text">begin</str>
+        <double name="strength">0.9949664351726238</double>
       </lst>
       <lst name="term">
-        <str name="text">reach</str>
-        <double name="strength">0.6324555320336767</double>
+        <str name="text">easter</str>
+        <double name="strength">0.9949664351726238</double>
       </lst>
       <lst name="term">
-        <str name="text">lender</str>
-        <double name="strength">0.6324555320336762</double>
+        <str name="text">regulator</str>
+        <double name="strength">0.9949664351726237</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.6324555320336761</double>
+        <str name="text">credit</str>
+        <double name="strength">0.9949664351726233</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Speaking to the House subcommittee responsible for farm credit issues, Farm Credit Administration (FCA) board member Jim Billington said "My recommendation is that legislation (aiding the system) must be moved prior to June, 30, 1987, or it will be difficult to close the (farm credit system) books."</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">301</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The Senate Democratic leadership indicated last month that it would begin drafting a bailout bill by Easter.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">109</int>
-        <double name="strength">0.7323021843583104</double>
+        <double name="strength">1.0</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">FCA chairman Naylor said a federal guarantee of both borrower stock and system bonds held by investors might avoid the need to provide "hard capital" to the system.</str>
-        <int name="index">13</int>
+        <str name="text">Chairman of the FCA board, Frank Naylor, urged that Congress begin to consider legislation rescuing the system by Easter and that a bill be completed by the fall.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">163</int>
+        <double name="strength">0.9292618415843347</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A member of the board which regulates the Farm Credit System predicted the troubled farm lender may lose about 900 mln dlrs in the first half of 1987, hastening the need for a federal rescue this year.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">164</int>
-        <double name="strength">0.6621235842491058</double>
+        <int name="end">201</int>
+        <double name="strength">0.8926790865674759</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speaking&lt;/em&gt; to the &lt;em&gt;House subcommittee responsible&lt;/em&gt; for farm &lt;em&gt;credit issues,&lt;/em&gt; Farm &lt;em&gt;Credit Administration &lt;/em&gt;(FCA) &lt;em&gt;board member&lt;/em&gt; Jim &lt;em&gt;Billington&lt;/em&gt; said "My &lt;em&gt;recommendation&lt;/em&gt; is that &lt;em&gt;legislation (aiding&lt;/em&gt; the &lt;em&gt;system)&lt;/em&gt; must be &lt;em&gt;moved prior&lt;/em&gt; to June, 30, 1987, or it will be &lt;em&gt;difficult&lt;/em&gt; to &lt;em&gt;close&lt;/em&gt; the (farm &lt;em&gt;credit system) books.&lt;/em&gt;"</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Senate Democratic leadership indicated&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt; that it &lt;em&gt;would begin drafting&lt;/em&gt; a &lt;em&gt;bailout&lt;/em&gt; bill by &lt;em&gt;Easter&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Senate Democratic leadership&lt;/em&gt; indicated last &lt;em&gt;month&lt;/em&gt; that it would &lt;em&gt;begin&lt;/em&gt; drafting a &lt;em&gt;bailout&lt;/em&gt; bill by &lt;em&gt;Easter&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">FCA &lt;em&gt;chairman Naylor&lt;/em&gt; said a &lt;em&gt;federal guarantee&lt;/em&gt; of both &lt;em&gt;borrower stock&lt;/em&gt; and &lt;em&gt;system bonds&lt;/em&gt; held by &lt;em&gt;investors might avoid&lt;/em&gt; the need to &lt;em&gt;provide &lt;/em&gt;"hard &lt;em&gt;capital"&lt;/em&gt; to the &lt;em&gt;system&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">&lt;em&gt;Chairman&lt;/em&gt; of the FCA &lt;em&gt;board, Frank Naylor,&lt;/em&gt; urged that &lt;em&gt;Congress begin&lt;/em&gt; to &lt;em&gt;consider legislation&lt;/em&gt; rescuing the &lt;em&gt;system&lt;/em&gt; by &lt;em&gt;Easter&lt;/em&gt; and that a bill be completed by the fall.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">A &lt;em&gt;member&lt;/em&gt; of the &lt;em&gt;board&lt;/em&gt; which regulates the Farm &lt;em&gt;Credit System&lt;/em&gt; predicted the &lt;em&gt;troubled&lt;/em&gt; farm &lt;em&gt;lender&lt;/em&gt; may lose about 900 mln dlrs in the &lt;em&gt;first&lt;/em&gt; half of 1987, hastening the need for a &lt;em&gt;federal rescue&lt;/em&gt; this year.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-716.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">42</int>
       </lst>
       <lst name="terms">
-        <int name="count">201</int>
+        <int name="count">135</int>
       </lst>
       <lst name="stems">
-        <int name="count">140</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">three</str>
+        <str name="text">training</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999964</double>
+        <str name="text">engineer</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">stepped</str>
-        <double name="strength">0.5</double>
+        <str name="text">firms</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">seven</str>
-        <double name="strength">0.5</double>
+        <str name="text">officials</str>
+        <double name="strength">0.9939727357525007</double>
       </lst>
       <lst name="term">
-        <str name="text">problem</str>
-        <double name="strength">0.5</double>
+        <str name="text">programs</str>
+        <double name="strength">0.9939727357525003</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Under the industry department program, companies would be funded to train engineers overseas but those employees would be required to apply their new skills locally for an as yet unspecified period.</str>
-        <int name="index">31</int>
+        <str name="text">It offers no special tax incentives for foreign investors, believing that its low corporate profits tax of 18 pct and personal income tax of 16.5 pct are sufficient.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">199</int>
+        <int name="end">166</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In the last three years it has stepped in to aid seven problem banks, taking over three of them, to protect depositors whose funds were not insured.</str>
-        <int name="index">22</int>
-        <int name="start">0</int>
-        <int name="end">148</int>
-        <double name="strength">0.8906962798168278</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Hong Kong likes to call its policy "positive non-intervention," meaning that it helps industry mainly by maintaining economic stability and ensuring that needed roads and harbour facilities are in place.</str>
         <int name="index">19</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.8902910196581851</double>
+        <double name="strength">0.9759732198259939</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The engineers will learn design of application specific integrated circuits (ASIC) used in products ranging from personal computers to high-technology toys that talk.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">167</int>
+        <double name="strength">0.9712344864686587</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the &lt;em&gt;industry department program, companies would&lt;/em&gt; be &lt;em&gt;funded&lt;/em&gt; to &lt;em&gt;train engineers overseas&lt;/em&gt; but &lt;em&gt;those employees would&lt;/em&gt; be &lt;em&gt;required&lt;/em&gt; to &lt;em&gt;apply their&lt;/em&gt; new &lt;em&gt;skills locally&lt;/em&gt; for an as yet &lt;em&gt;unspecified period&lt;/em&gt;.</str>
-        <int name="index">31</int>
+        <str name="text">It offers no &lt;em&gt;special&lt;/em&gt; tax &lt;em&gt;incentives&lt;/em&gt; for &lt;em&gt;foreign investors,&lt;/em&gt; believing that its low &lt;em&gt;corporate profits&lt;/em&gt; tax of 18 pct and &lt;em&gt;personal income&lt;/em&gt; tax of 16.5 pct are &lt;em&gt;sufficient&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In the last &lt;em&gt;three years&lt;/em&gt; it has &lt;em&gt;stepped&lt;/em&gt; in to aid &lt;em&gt;seven problem banks, taking&lt;/em&gt; over &lt;em&gt;three&lt;/em&gt; of them, to &lt;em&gt;protect depositors whose funds&lt;/em&gt; were not &lt;em&gt;insured&lt;/em&gt;.</str>
-        <int name="index">22</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Hong Kong &lt;em&gt;likes&lt;/em&gt; to call its &lt;em&gt;policy "positive&lt;/em&gt; non-&lt;em&gt;intervention," meaning&lt;/em&gt; that it &lt;em&gt;helps industry mainly&lt;/em&gt; by &lt;em&gt;maintaining economic stability&lt;/em&gt; and &lt;em&gt;ensuring&lt;/em&gt; that &lt;em&gt;needed roads&lt;/em&gt; and &lt;em&gt;harbour facilities&lt;/em&gt; are in &lt;em&gt;place&lt;/em&gt;.</str>
+        <str name="text">Hong Kong likes to call its &lt;em&gt;policy "positive&lt;/em&gt; non-&lt;em&gt;intervention," meaning&lt;/em&gt; that it helps &lt;em&gt;industry&lt;/em&gt; mainly by maintaining &lt;em&gt;economic stability&lt;/em&gt; and ensuring that needed &lt;em&gt;roads&lt;/em&gt; and &lt;em&gt;harbour facilities&lt;/em&gt; are in &lt;em&gt;place&lt;/em&gt;.</str>
         <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;engineers&lt;/em&gt; will &lt;em&gt;learn design&lt;/em&gt; of &lt;em&gt;application specific integrated circuits &lt;/em&gt;(ASIC) used in &lt;em&gt;products&lt;/em&gt; ranging from &lt;em&gt;personal computers&lt;/em&gt; to high-&lt;em&gt;technology&lt;/em&gt; toys that talk.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

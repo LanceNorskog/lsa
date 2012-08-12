@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-619.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">150</int>
+        <int name="count">103</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">economic</str>
+        <str name="text">tariff</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">three</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">depend</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">around</str>
-        <double name="strength">0.5590169943749462</double>
+        <str name="text">trigger</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">outlook</str>
-        <double name="strength">0.5</double>
+        <str name="text">yields</str>
+        <double name="strength">0.9999999999999976</double>
       </lst>
       <lst name="term">
-        <str name="text">negative</str>
-        <double name="strength">0.5</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">297</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In the Netherlands, the inflation outlook for 1987 is nil, or even negative, while the latest official economic forecasts point to a falling rate of economic growth.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.8681333362046937</double>
+        <str name="text">A cut of about half a percentage point in Dutch official interest rates is still in prospect, although economists said the timing would depend on Bundesbank moves.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">163</int>
+        <double name="strength">0.7392257100175655</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In February, when the Bundesbank cut its discount rate to three pct from 3.5 pct, the Central Bank only lowered money market rates and removed a surcharge over the secured loans rate on lending under its three month credit quota.</str>
-        <int name="index">5</int>
+        <str name="text">Technically, analysts said, there has to be a difference between the secured loans rate which applies to lending under the credit quota, and the tariff on special advances which add extra liquidity to the money market.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">230</int>
-        <double name="strength">0.8469735725271504</double>
+        <int name="end">219</int>
+        <double name="strength">0.7385072080009375</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;April, Central&lt;/em&gt; Bank &lt;em&gt;President&lt;/em&gt; Wim &lt;em&gt;Duisenberg&lt;/em&gt; said he &lt;em&gt;would follow&lt;/em&gt; any &lt;em&gt;Bundesbank&lt;/em&gt; cut, and last week the &lt;em&gt;Finance Ministry expressed satisfaction&lt;/em&gt; when it &lt;em&gt;raised 2.25 billion guilders&lt;/em&gt; with a six pct &lt;em&gt;coupon state&lt;/em&gt; loan &lt;em&gt;priced&lt;/em&gt; at 100.10 pct for an &lt;em&gt;effective yield&lt;/em&gt; of 5.98 pct, the &lt;em&gt;lowest since 1965&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;April, Central&lt;/em&gt; Bank &lt;em&gt;President&lt;/em&gt; Wim &lt;em&gt;Duisenberg&lt;/em&gt; said he would &lt;em&gt;follow&lt;/em&gt; any &lt;em&gt;Bundesbank&lt;/em&gt; cut, and last week the &lt;em&gt;Finance Ministry&lt;/em&gt; expressed &lt;em&gt;satisfaction&lt;/em&gt; when it raised 2.25 &lt;em&gt;billion guilders&lt;/em&gt; with a six pct &lt;em&gt;coupon state&lt;/em&gt; loan priced at 100.10 pct for an &lt;em&gt;effective yield&lt;/em&gt; of 5.98 pct, the lowest since 1965.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In the &lt;em&gt;Netherlands,&lt;/em&gt; the &lt;em&gt;inflation outlook&lt;/em&gt; for 1987 is nil, or even &lt;em&gt;negative, while&lt;/em&gt; the &lt;em&gt;latest official economic forecasts point&lt;/em&gt; to a &lt;em&gt;falling&lt;/em&gt; rate of &lt;em&gt;economic growth&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">A cut of about half a &lt;em&gt;percentage point&lt;/em&gt; in &lt;em&gt;Dutch official interest rates&lt;/em&gt; is still in &lt;em&gt;prospect,&lt;/em&gt; although &lt;em&gt;economists&lt;/em&gt; said the &lt;em&gt;timing&lt;/em&gt; would &lt;em&gt;depend&lt;/em&gt; on &lt;em&gt;Bundesbank moves&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;February,&lt;/em&gt; when the &lt;em&gt;Bundesbank&lt;/em&gt; cut its &lt;em&gt;discount&lt;/em&gt; rate to &lt;em&gt;three&lt;/em&gt; pct from 3.5 pct, the &lt;em&gt;Central&lt;/em&gt; Bank only &lt;em&gt;lowered money market rates&lt;/em&gt; and &lt;em&gt;removed&lt;/em&gt; a &lt;em&gt;surcharge&lt;/em&gt; over the &lt;em&gt;secured loans&lt;/em&gt; rate on &lt;em&gt;lending under&lt;/em&gt; its &lt;em&gt;three month credit quota&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">Technically, &lt;em&gt;analysts&lt;/em&gt; said, there has to be a &lt;em&gt;difference&lt;/em&gt; between the secured &lt;em&gt;loans&lt;/em&gt; rate which applies to lending under the &lt;em&gt;credit quota,&lt;/em&gt; and the &lt;em&gt;tariff&lt;/em&gt; on &lt;em&gt;special advances&lt;/em&gt; which add &lt;em&gt;extra liquidity&lt;/em&gt; to the &lt;em&gt;money market&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

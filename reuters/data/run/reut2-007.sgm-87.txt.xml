@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-87.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">189</int>
+        <int name="count">120</int>
       </lst>
       <lst name="stems">
-        <int name="count">123</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">credit</str>
+        <str name="text">morgan</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">suisse</str>
-        <double name="strength">1.0</double>
+        <str name="text">vehicle</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">investment</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">prices</str>
+        <double name="strength">0.9871165243893649</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.9999999999999969</double>
+        <str name="text">shares</str>
+        <double name="strength">0.9626110313265798</double>
       </lst>
       <lst name="term">
-        <str name="text">understand</str>
-        <double name="strength">0.9999999999999964</double>
+        <str name="text">guaranty</str>
+        <double name="strength">0.9626110313265788</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Citicorp (Switzerland) pioneered warrants with a series of equity-linked covered issues based on Japanese company shares over the past two years, and last autumn, Swiss banks launched covered warrants in Swiss registered shares in a bid to give foreign investors a chance to play in a market otherwise closed to all but Swiss citizens, and to play it with higher leverage.</str>
-        <int name="index">24</int>
+        <str name="text">Over the past three weeks, Swiss offices of American banks have launched a total of four issues of warrants with varying conditions, drawing on renewed inflationary worries and the recovery of the gold price last year.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">373</int>
+        <int name="end">219</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">And Credit Suisse and Credit Suisse-First Boston each issued Swiss franc bonds with warrants for gold which have a similar character, though they are aimed at a less professional market.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">187</int>
-        <double name="strength">0.9041942983955075</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">The issues are being marketed not on the basis of simple premiums, but on implicit volatility models devised to provide scientific comparisons between titles in the options market.</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.7063270882485018</double>
+        <double name="strength">0.9468802394473685</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Citicorp (Switzerland) pioneered warrants with a series of equity-linked covered issues based on Japanese company shares over the past two years, and last autumn, Swiss banks launched covered warrants in Swiss registered shares in a bid to give foreign investors a chance to play in a market otherwise closed to all but Swiss citizens, and to play it with higher leverage.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">373</int>
+        <double name="strength">0.9056881567869721</double>
+        <int name="terms">20</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Citicorp (Switzerland) pioneered warrants&lt;/em&gt; with a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;equity-linked covered issues based&lt;/em&gt; on &lt;em&gt;Japanese company shares&lt;/em&gt; over the past two &lt;em&gt;years,&lt;/em&gt; and last &lt;em&gt;autumn, Swiss banks launched covered warrants&lt;/em&gt; in &lt;em&gt;Swiss registered shares&lt;/em&gt; in a bid to give &lt;em&gt;foreign investors&lt;/em&gt; a &lt;em&gt;chance&lt;/em&gt; to play in a &lt;em&gt;market otherwise closed&lt;/em&gt; to all but &lt;em&gt;Swiss citizens,&lt;/em&gt; and to play it with &lt;em&gt;higher leverage&lt;/em&gt;.</str>
-        <int name="index">24</int>
+        <str name="text">Over the past &lt;em&gt;three weeks, Swiss offices&lt;/em&gt; of &lt;em&gt;American banks&lt;/em&gt; have launched a &lt;em&gt;total&lt;/em&gt; of four &lt;em&gt;issues&lt;/em&gt; of &lt;em&gt;warrants&lt;/em&gt; with varying &lt;em&gt;conditions,&lt;/em&gt; drawing on renewed &lt;em&gt;inflationary worries&lt;/em&gt; and the &lt;em&gt;recovery&lt;/em&gt; of the gold &lt;em&gt;price&lt;/em&gt; last year.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">And &lt;em&gt;Credit Suisse&lt;/em&gt; and &lt;em&gt;Credit Suisse-First Boston&lt;/em&gt; each &lt;em&gt;issued Swiss franc bonds&lt;/em&gt; with &lt;em&gt;warrants&lt;/em&gt; for gold &lt;em&gt;which&lt;/em&gt; have a &lt;em&gt;similar character, though&lt;/em&gt; they are &lt;em&gt;aimed&lt;/em&gt; at a less &lt;em&gt;professional market&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;issues&lt;/em&gt; are &lt;em&gt;being marketed&lt;/em&gt; not on the &lt;em&gt;basis&lt;/em&gt; of &lt;em&gt;simple premiums,&lt;/em&gt; but on &lt;em&gt;implicit volatility models devised&lt;/em&gt; to &lt;em&gt;provide scientific comparisons between titles&lt;/em&gt; in the &lt;em&gt;options market&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;issues&lt;/em&gt; are being marketed not on the &lt;em&gt;basis&lt;/em&gt; of &lt;em&gt;simple premiums,&lt;/em&gt; but on &lt;em&gt;implicit volatility models&lt;/em&gt; devised to &lt;em&gt;provide scientific comparisons&lt;/em&gt; between &lt;em&gt;titles&lt;/em&gt; in the &lt;em&gt;options market&lt;/em&gt;.</str>
         <int name="index">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Citicorp (Switzerland)&lt;/em&gt; pioneered &lt;em&gt;warrants&lt;/em&gt; with a &lt;em&gt;series&lt;/em&gt; of &lt;em&gt;equity&lt;/em&gt;-linked covered &lt;em&gt;issues&lt;/em&gt; based on &lt;em&gt;Japanese company shares&lt;/em&gt; over the past two &lt;em&gt;years,&lt;/em&gt; and last &lt;em&gt;autumn,&lt;/em&gt; Swiss &lt;em&gt;banks&lt;/em&gt; launched covered &lt;em&gt;warrants&lt;/em&gt; in &lt;em&gt;Swiss registered shares&lt;/em&gt; in a bid to give &lt;em&gt;foreign investors&lt;/em&gt; a &lt;em&gt;chance&lt;/em&gt; to play in a &lt;em&gt;market&lt;/em&gt; otherwise closed to all but &lt;em&gt;Swiss citizens,&lt;/em&gt; and to play it with higher &lt;em&gt;leverage&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

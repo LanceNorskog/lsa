@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-768.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">51</int>
       </lst>
       <lst name="stems">
-        <int name="count">41</int>
+        <int name="count">30</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">japan</str>
+        <str name="text">central</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
+        <str name="text">statistics</str>
+        <double name="strength">0.9840539975201782</double>
+      </lst>
+      <lst name="term">
+        <str name="text">current</str>
+        <double name="strength">0.9840539975201782</double>
+      </lst>
+      <lst name="term">
+        <str name="text">system</str>
+        <double name="strength">0.9840539975201782</double>
+      </lst>
+      <lst name="term">
         <str name="text">export</str>
-        <double name="strength">0.9999999999999989</double>
-      </lst>
-      <lst name="term">
-        <str name="text">month</str>
-        <double name="strength">0.5994789404140896</double>
-      </lst>
-      <lst name="term">
-        <str name="text">overall</str>
-        <double name="strength">0.5000000000000001</double>
-      </lst>
-      <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.4999999999999999</double>
+        <double name="strength">0.9840539975201774</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">169</int>
         <double name="strength">1.0</double>
+        <int name="terms">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The domestic price index fell 0.1 pct to 91.9 in February, its 24th straight monthly drop, mainly reflecting falls in prices of home appliances such as colour televisions due to severe sales competition at home.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">212</int>
+        <double name="strength">0.9795248868173803</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The export price index in February fell 0.7 pct from a month earlier reflecting price cuts in export products like cars and precision instruments due to severe foreign competition.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">181</int>
-        <double name="strength">0.9657312234125828</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Japan's overall wholesale price index (base 1980) fell 0.1 pct in February from a month earlier to 86.4 for the second consecutive month-on-month fall, the Bank of Japan said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">175</int>
-        <double name="strength">0.8999014997897731</double>
+        <double name="strength">0.9733397219197274</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;domestic index marked&lt;/em&gt; its &lt;em&gt;largest&lt;/em&gt; year-on-year drop of 7.1 pct in &lt;em&gt;January since&lt;/em&gt; the &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;started compiling&lt;/em&gt; such &lt;em&gt;statistics&lt;/em&gt; in 1960 &lt;em&gt;under&lt;/em&gt; its &lt;em&gt;current system&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;domestic index&lt;/em&gt; marked its largest year-on-year drop of 7.1 pct in &lt;em&gt;January&lt;/em&gt; since the &lt;em&gt;central&lt;/em&gt; bank started compiling such &lt;em&gt;statistics&lt;/em&gt; in 1960 under its &lt;em&gt;current system&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;export price index&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; fell 0.7 pct from a &lt;em&gt;month earlier reflecting price&lt;/em&gt; cuts in &lt;em&gt;export products&lt;/em&gt; like cars and &lt;em&gt;precision instruments&lt;/em&gt; due to &lt;em&gt;severe foreign competition&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;domestic price index&lt;/em&gt; fell 0.1 pct to 91.9 in &lt;em&gt;February,&lt;/em&gt; its 24th &lt;em&gt;straight monthly&lt;/em&gt; drop, mainly reflecting falls in &lt;em&gt;prices&lt;/em&gt; of home &lt;em&gt;appliances&lt;/em&gt; such as &lt;em&gt;colour televisions&lt;/em&gt; due to &lt;em&gt;severe sales competition&lt;/em&gt; at home.</str>
+        <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;overall wholesale price index &lt;/em&gt;(base 1980) fell 0.1 pct in &lt;em&gt;February&lt;/em&gt; from a &lt;em&gt;month earlier&lt;/em&gt; to 86.4 for the &lt;em&gt;second consecutive month&lt;/em&gt;-on-&lt;em&gt;month&lt;/em&gt; fall, the Bank of &lt;em&gt;Japan said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;export price index&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; fell 0.7 pct from a &lt;em&gt;month&lt;/em&gt; earlier reflecting &lt;em&gt;price&lt;/em&gt; cuts in &lt;em&gt;export products&lt;/em&gt; like cars and &lt;em&gt;precision instruments&lt;/em&gt; due to &lt;em&gt;severe foreign competition&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

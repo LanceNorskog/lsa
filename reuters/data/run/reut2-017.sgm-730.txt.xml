@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-730.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">205</int>
+        <int name="count">143</int>
       </lst>
       <lst name="stems">
-        <int name="count">131</int>
+        <int name="count">88</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">analysts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">significant</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">producer</str>
-        <double name="strength">0.5527707983925653</double>
+        <str name="text">holdings</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">overhang</str>
-        <double name="strength">0.5</double>
+        <str name="text">months</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">reduced</str>
-        <double name="strength">0.5</double>
+        <str name="text">december</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Association of Tin Producing Countries, ATPC, has made efforts since the collapse of the ITA to achieve higher world prices by attempting to bring all major producers under an export control umbrella, but to date Brazil and China, two major producers, remain unaffected by the ATPC argument and apparently are continuing to offer material at discounts to consumers in main European trading centres, dealers said.</str>
-        <int name="index">18</int>
-        <int name="start">1</int>
-        <int name="end">417</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Some traders expressed a preference for a resumption of trading on the London Metal Exchange, but they added that while there has been some behind the scenes discussion on the subject a definite move is unlikely until outstanding High Court litigation actions have been resolved.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">280</int>
-        <double name="strength">0.8267539788501349</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">There is also a view among European traders that, while the proposed Kuala Lumpur tin futures market would provide another useful reference point, a market inaugurated by the Malaysian government -- in the past viewed as a major player at times by the trade -- would make participants uncomfortable.</str>
-        <int name="index">3</int>
+        <str name="text">The Association of Tin Producing Countries, ATPC, has made efforts since the collapse of the ITA to achieve higher world prices by attempting to bring all major producers under an export control umbrella, but to date Brazil and China, two major producers, remain unaffected by the ATPC argument and apparently are continuing to offer material at discounts to consumers in main European trading centres, dealers said.</str>
+        <int name="index">18</int>
         <int name="start">1</int>
-        <int name="end">300</int>
-        <double name="strength">0.8008519674529465</double>
+        <int name="end">417</int>
+        <double name="strength">0.982672909488828</double>
+        <int name="terms">26</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Traders say the 15 ITC creditor banks' original tin holdings of nearly 45,000 tonnes have now been almost halved, and the bulk of material still available is being held by Malaysian and Japanese firms which are reluctant to depress the market with unwanted metal.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">264</int>
+        <double name="strength">0.9629513324522335</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Association&lt;/em&gt; of Tin &lt;em&gt;Producing Countries,&lt;/em&gt; ATPC, has made &lt;em&gt;efforts since&lt;/em&gt; the &lt;em&gt;collapse&lt;/em&gt; of the ITA to &lt;em&gt;achieve higher world prices&lt;/em&gt; by &lt;em&gt;attempting&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; all &lt;em&gt;major producers under&lt;/em&gt; an &lt;em&gt;export control umbrella,&lt;/em&gt; but to date &lt;em&gt;Brazil&lt;/em&gt; and &lt;em&gt;China,&lt;/em&gt; two &lt;em&gt;major producers, remain unaffected&lt;/em&gt; by the ATPC &lt;em&gt;argument&lt;/em&gt; and &lt;em&gt;apparently&lt;/em&gt; are &lt;em&gt;continuing&lt;/em&gt; to &lt;em&gt;offer material&lt;/em&gt; at &lt;em&gt;discounts&lt;/em&gt; to &lt;em&gt;consumers&lt;/em&gt; in main &lt;em&gt;European trading centres, dealers said&lt;/em&gt;.</str>
-        <int name="index">18</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Some &lt;em&gt;traders expressed&lt;/em&gt; a &lt;em&gt;preference&lt;/em&gt; for a &lt;em&gt;resumption&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt; on the &lt;em&gt;London Metal Exchange,&lt;/em&gt; but they &lt;em&gt;added&lt;/em&gt; that &lt;em&gt;while there&lt;/em&gt; has been some &lt;em&gt;behind&lt;/em&gt; the &lt;em&gt;scenes discussion&lt;/em&gt; on the &lt;em&gt;subject&lt;/em&gt; a &lt;em&gt;definite&lt;/em&gt; move is &lt;em&gt;unlikely until outstanding&lt;/em&gt; High &lt;em&gt;Court litigation actions&lt;/em&gt; have been &lt;em&gt;resolved&lt;/em&gt;.</str>
+        <str name="text">Some &lt;em&gt;traders&lt;/em&gt; expressed a &lt;em&gt;preference&lt;/em&gt; for a &lt;em&gt;resumption&lt;/em&gt; of &lt;em&gt;trading&lt;/em&gt; on the &lt;em&gt;London Metal Exchange,&lt;/em&gt; but they added that while there has been some behind the &lt;em&gt;scenes discussion&lt;/em&gt; on the &lt;em&gt;subject&lt;/em&gt; a &lt;em&gt;definite&lt;/em&gt; move is &lt;em&gt;unlikely&lt;/em&gt; until &lt;em&gt;outstanding&lt;/em&gt; High &lt;em&gt;Court litigation actions&lt;/em&gt; have been resolved.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;There&lt;/em&gt; is also a view &lt;em&gt;among European traders&lt;/em&gt; that, &lt;em&gt;while&lt;/em&gt; the &lt;em&gt;proposed Kuala Lumpur&lt;/em&gt; tin &lt;em&gt;futures market would provide another useful reference point,&lt;/em&gt; a &lt;em&gt;market inaugurated&lt;/em&gt; by the &lt;em&gt;Malaysian government --&lt;/em&gt; in the past &lt;em&gt;viewed&lt;/em&gt; as a &lt;em&gt;major player&lt;/em&gt; at &lt;em&gt;times&lt;/em&gt; by the &lt;em&gt;trade -- would&lt;/em&gt; make &lt;em&gt;participants uncomfortable&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;Association&lt;/em&gt; of Tin Producing &lt;em&gt;Countries,&lt;/em&gt; ATPC, has made &lt;em&gt;efforts&lt;/em&gt; since the &lt;em&gt;collapse&lt;/em&gt; of the ITA to &lt;em&gt;achieve&lt;/em&gt; higher &lt;em&gt;world prices&lt;/em&gt; by attempting to &lt;em&gt;bring&lt;/em&gt; all &lt;em&gt;major producers&lt;/em&gt; under an &lt;em&gt;export control umbrella,&lt;/em&gt; but to date &lt;em&gt;Brazil&lt;/em&gt; and &lt;em&gt;China,&lt;/em&gt; two &lt;em&gt;major producers, remain unaffected&lt;/em&gt; by the ATPC &lt;em&gt;argument&lt;/em&gt; and apparently are continuing to &lt;em&gt;offer material&lt;/em&gt; at &lt;em&gt;discounts&lt;/em&gt; to &lt;em&gt;consumers&lt;/em&gt; in main &lt;em&gt;European trading centres, dealers said&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Traders&lt;/em&gt; say the 15 ITC &lt;em&gt;creditor banks' original&lt;/em&gt; tin &lt;em&gt;holdings&lt;/em&gt; of nearly 45,000 &lt;em&gt;tonnes&lt;/em&gt; have now been almost &lt;em&gt;halved,&lt;/em&gt; and the bulk of &lt;em&gt;material&lt;/em&gt; still &lt;em&gt;available&lt;/em&gt; is being held by &lt;em&gt;Malaysian&lt;/em&gt; and &lt;em&gt;Japanese firms&lt;/em&gt; which are &lt;em&gt;reluctant&lt;/em&gt; to &lt;em&gt;depress&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; with &lt;em&gt;unwanted metal&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

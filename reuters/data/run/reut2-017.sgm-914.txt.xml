@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-914.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">32</int>
       </lst>
       <lst name="terms">
-        <int name="count">210</int>
+        <int name="count">148</int>
       </lst>
       <lst name="stems">
-        <int name="count">145</int>
+        <int name="count">97</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">markets</str>
+        <str name="text">democrats</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
+        <str name="text">chancellor</str>
         <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">economist</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">declined</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">exchange</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">identified</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">states</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">260</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An economist at a German bank, who declined to be identified, said "If Poehl is confirmed in his post, it will certainly be a plus for the pragmatic course which is not so rigidly oriented towards money supply."</str>
-        <int name="index">16</int>
+        <str name="text">"I am of the opinion that efforts to stabilise the dollar/mark rate have reached a high priority, also for the Bundesbank, because a further massive revaluation of the mark would endanger the economy in West Germany," he told business journalists in Frankfurt recently.</str>
+        <int name="index">13</int>
         <int name="start">1</int>
-        <int name="end">212</int>
-        <double name="strength">0.9693021402706304</double>
+        <int name="end">270</int>
+        <double name="strength">0.9963513502446203</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">But with consumer prices falling for much of 1986, and inflation negligible so far this year, Poehl thinks it is safe to relax the monetary reins a little and concentrate on the dangers to the German economy of a bloated exchange rate.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">236</int>
-        <double name="strength">0.9403088469154971</double>
+        <double name="strength">0.9940662077958751</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;recent months,&lt;/em&gt; with the mark's &lt;em&gt;strong&lt;/em&gt; rise &lt;em&gt;against&lt;/em&gt; the &lt;em&gt;dollar, Poehl&lt;/em&gt; has made &lt;em&gt;exchange rates&lt;/em&gt; the &lt;em&gt;central concern&lt;/em&gt; of the &lt;em&gt;Bundesbank&lt;/em&gt;'s &lt;em&gt;council,&lt;/em&gt; a &lt;em&gt;highly conservative institution which&lt;/em&gt; has &lt;em&gt;doggedly pursued monetary policies&lt;/em&gt; to &lt;em&gt;prevent inflation catching hold&lt;/em&gt;.</str>
+        <str name="text">In &lt;em&gt;recent months,&lt;/em&gt; with the mark's &lt;em&gt;strong&lt;/em&gt; rise against the &lt;em&gt;dollar, Poehl&lt;/em&gt; has made &lt;em&gt;exchange rates&lt;/em&gt; the &lt;em&gt;central concern&lt;/em&gt; of the &lt;em&gt;Bundesbank&lt;/em&gt;'s &lt;em&gt;council,&lt;/em&gt; a highly &lt;em&gt;conservative institution&lt;/em&gt; which has doggedly pursued &lt;em&gt;monetary policies&lt;/em&gt; to &lt;em&gt;prevent inflation&lt;/em&gt; catching hold.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;economist&lt;/em&gt; at a &lt;em&gt;German&lt;/em&gt; bank, who &lt;em&gt;declined&lt;/em&gt; to be &lt;em&gt;identified,&lt;/em&gt; said "If &lt;em&gt;Poehl&lt;/em&gt; is &lt;em&gt;confirmed&lt;/em&gt; in his post, it will &lt;em&gt;certainly&lt;/em&gt; be a plus for the &lt;em&gt;pragmatic course which&lt;/em&gt; is not so &lt;em&gt;rigidly oriented towards money supply.&lt;/em&gt;"</str>
-        <int name="index">16</int>
+        <str name="text">"I am of the &lt;em&gt;opinion&lt;/em&gt; that &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt;/mark rate have reached a high &lt;em&gt;priority,&lt;/em&gt; also for the &lt;em&gt;Bundesbank,&lt;/em&gt; because a &lt;em&gt;further massive revaluation&lt;/em&gt; of the mark would &lt;em&gt;endanger&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; in West &lt;em&gt;Germany,"&lt;/em&gt; he told &lt;em&gt;business journalists&lt;/em&gt; in &lt;em&gt;Frankfurt recently&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But with &lt;em&gt;consumer prices falling&lt;/em&gt; for much of 1986, and &lt;em&gt;inflation negligible&lt;/em&gt; so far this year, &lt;em&gt;Poehl thinks&lt;/em&gt; it is safe to &lt;em&gt;relax&lt;/em&gt; the &lt;em&gt;monetary reins&lt;/em&gt; a &lt;em&gt;little&lt;/em&gt; and &lt;em&gt;concentrate&lt;/em&gt; on the &lt;em&gt;dangers&lt;/em&gt; to the &lt;em&gt;German economy&lt;/em&gt; of a &lt;em&gt;bloated exchange rate&lt;/em&gt;.</str>
+        <str name="text">But with &lt;em&gt;consumer prices&lt;/em&gt; falling for much of 1986, and &lt;em&gt;inflation negligible&lt;/em&gt; so far this year, &lt;em&gt;Poehl&lt;/em&gt; thinks it is safe to &lt;em&gt;relax&lt;/em&gt; the &lt;em&gt;monetary reins&lt;/em&gt; a &lt;em&gt;little&lt;/em&gt; and &lt;em&gt;concentrate&lt;/em&gt; on the &lt;em&gt;dangers&lt;/em&gt; to the &lt;em&gt;German economy&lt;/em&gt; of a &lt;em&gt;bloated exchange rate&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
     </lst>

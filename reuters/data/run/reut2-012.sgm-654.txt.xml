@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-654.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">191</int>
+        <int name="count">134</int>
       </lst>
       <lst name="stems">
-        <int name="count">119</int>
+        <int name="count">77</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">according</str>
+        <str name="text">spokesman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">supportive</str>
+        <str name="text">bullish</str>
         <double name="strength">0.9999999999999971</double>
       </lst>
       <lst name="term">
-        <str name="text">dipped</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">producer</str>
+        <double name="strength">0.9999999999999963</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">today</str>
+        <double name="strength">0.9871765030415239</double>
       </lst>
       <lst name="term">
-        <str name="text">debate</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">trading</str>
+        <double name="strength">0.987176503041522</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">However, the overall trend remains downwards and a test of support at 1,200 stg should be expected soon, with the only possible supportive influence on the horizon being the approach of Brazil's frost season, they said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Robusta coffee futures dipped sharply to 4-1/2 year lows yesterday at 1,220 stg per tonne, basis the May position, when the lack of new debate on quotas at ICO talks here confirmed expectations that efforts to restore quotas would not be revived at this stage, they said.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">272</int>
-        <double name="strength">0.9173773468868764</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Quotas will not now be renegotiated before the ICO's annual September council session, and in the interim the Brazilian frost season from June to August may prove the only bullish factor to stem further price weakness, they said.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">230</int>
-        <double name="strength">0.9025285204569483</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Steep declines towards the 1,100/1,050 stg area could foster a "three figure mentality," and speculators may elect to push for coffee prices below the psychological 1,000 stg level, he added.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">191</int>
+        <double name="strength">0.9114074099240129</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This had been widely anticipated by the market and came as no surprise, but it did remove some prevailing uncertainty and light trade buying was seen this morning as a consequence.</str>
+        <int name="index">10</int>
+        <int name="start">2</int>
+        <int name="end">182</int>
+        <double name="strength">0.8759599210563491</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the &lt;em&gt;overall trend remains downwards&lt;/em&gt; and a test of &lt;em&gt;support&lt;/em&gt; at 1,200 stg &lt;em&gt;should&lt;/em&gt; be &lt;em&gt;expected&lt;/em&gt; soon, with the only &lt;em&gt;possible supportive influence&lt;/em&gt; on the &lt;em&gt;horizon being&lt;/em&gt; the &lt;em&gt;approach&lt;/em&gt; of &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;frost season,&lt;/em&gt; they said.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Robusta coffee futures dipped sharply&lt;/em&gt; to 4-1/2 year lows &lt;em&gt;yesterday&lt;/em&gt; at 1,220 stg per &lt;em&gt;tonne, basis&lt;/em&gt; the May &lt;em&gt;position,&lt;/em&gt; when the lack of new &lt;em&gt;debate&lt;/em&gt; on &lt;em&gt;quotas&lt;/em&gt; at ICO &lt;em&gt;talks&lt;/em&gt; here &lt;em&gt;confirmed expectations&lt;/em&gt; that &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;restore quotas would&lt;/em&gt; not be &lt;em&gt;revived&lt;/em&gt; at this &lt;em&gt;stage,&lt;/em&gt; they said.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Quotas&lt;/em&gt; will not now be &lt;em&gt;renegotiated before&lt;/em&gt; the ICO's &lt;em&gt;annual September council session,&lt;/em&gt; and in the &lt;em&gt;interim&lt;/em&gt; the &lt;em&gt;Brazilian frost season&lt;/em&gt; from June to &lt;em&gt;August&lt;/em&gt; may &lt;em&gt;prove&lt;/em&gt; the only &lt;em&gt;bullish factor&lt;/em&gt; to stem &lt;em&gt;further price weakness,&lt;/em&gt; they said.</str>
+        <str name="text">&lt;em&gt;Quotas&lt;/em&gt; will not now be renegotiated before the ICO's &lt;em&gt;annual September council session,&lt;/em&gt; and in the &lt;em&gt;interim&lt;/em&gt; the &lt;em&gt;Brazilian frost season&lt;/em&gt; from June to &lt;em&gt;August&lt;/em&gt; may &lt;em&gt;prove&lt;/em&gt; the only &lt;em&gt;bullish factor&lt;/em&gt; to stem further &lt;em&gt;price weakness,&lt;/em&gt; they said.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Steep declines&lt;/em&gt; towards the 1,100/1,050 stg area could &lt;em&gt;foster&lt;/em&gt; a "&lt;em&gt;three figure mentality,"&lt;/em&gt; and &lt;em&gt;speculators&lt;/em&gt; may &lt;em&gt;elect&lt;/em&gt; to push for &lt;em&gt;coffee prices&lt;/em&gt; below the &lt;em&gt;psychological 1,000&lt;/em&gt; stg &lt;em&gt;level,&lt;/em&gt; he added.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">This had been widely anticipated by the &lt;em&gt;market&lt;/em&gt; and came as no &lt;em&gt;surprise,&lt;/em&gt; but it did &lt;em&gt;remove&lt;/em&gt; some &lt;em&gt;prevailing uncertainty&lt;/em&gt; and &lt;em&gt;light trade buying&lt;/em&gt; was seen this &lt;em&gt;morning&lt;/em&gt; as a &lt;em&gt;consequence&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

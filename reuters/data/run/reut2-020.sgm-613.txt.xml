@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-613.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">204</int>
+        <int name="count">145</int>
       </lst>
       <lst name="stems">
-        <int name="count">138</int>
+        <int name="count">92</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">panic</str>
+        <str name="text">present</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">percent</str>
-        <double name="strength">0.9999999999999963</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">swept</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">repeat</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">nation</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">avoid</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">franklin</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">But happy days soon collapsed into a nationwide, hysterical panic with the stock market crash, wiping out paper millions and losing the life savings of many average investors as panic set in.</str>
-        <int name="index">24</int>
-        <int name="start">1</int>
-        <int name="end">192</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">As the depression swept the nation, President Franklin Roosevelt steered into law sweeping banking and securities reforms to deal with many of the problems that led to the crash and hurt people afterwards.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">206</int>
-        <double name="strength">0.9016114605562926</double>
-      </lst>
       <lst name="sentence">
         <str name="text">And analysts caution that while new laws can deal with some problems, lawmakers can't legislate away fear--which  helped drive the New York Stock Exchange to its record 508-point Dow Jones index loss on Monday.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">211</int>
-        <double name="strength">0.8808020871430404</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Charles Schultze, chairman of the president's Council of Economic Advisers under Jimmy Carter, said in an interview that "the safeguards should be adequate to avoid a repeat of 1929 to 1933."</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">192</int>
+        <double name="strength">0.9722069213188804</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Marvin Kosters, director of economic policy studies at the conservative American Enterprise Institute, thinks the present safeguards will work.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">144</int>
+        <double name="strength">0.9605045704574993</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;happy&lt;/em&gt; days soon &lt;em&gt;collapsed&lt;/em&gt; into a &lt;em&gt;nationwide, hysterical panic&lt;/em&gt; with the &lt;em&gt;stock market crash, wiping&lt;/em&gt; out &lt;em&gt;paper millions&lt;/em&gt; and &lt;em&gt;losing&lt;/em&gt; the life &lt;em&gt;savings&lt;/em&gt; of many &lt;em&gt;average investors&lt;/em&gt; as &lt;em&gt;panic&lt;/em&gt; set in.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">As the &lt;em&gt;depression swept&lt;/em&gt; the &lt;em&gt;nation, President Franklin Roosevelt steered&lt;/em&gt; into law &lt;em&gt;sweeping banking&lt;/em&gt; and &lt;em&gt;securities reforms&lt;/em&gt; to deal with many of the &lt;em&gt;problems&lt;/em&gt; that led to the &lt;em&gt;crash&lt;/em&gt; and hurt &lt;em&gt;people afterwards&lt;/em&gt;.</str>
-        <int name="index">32</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">And &lt;em&gt;analysts caution&lt;/em&gt; that &lt;em&gt;while&lt;/em&gt; new laws can deal with some &lt;em&gt;problems, lawmakers&lt;/em&gt; can't &lt;em&gt;legislate&lt;/em&gt; away fear--&lt;em&gt;which  helped drive&lt;/em&gt; the New York &lt;em&gt;Stock Exchange&lt;/em&gt; to its &lt;em&gt;record 508-point&lt;/em&gt; Dow &lt;em&gt;Jones index&lt;/em&gt; loss on &lt;em&gt;Monday&lt;/em&gt;.</str>
+        <str name="text">And &lt;em&gt;analysts caution&lt;/em&gt; that while new laws can deal with some &lt;em&gt;problems, lawmakers&lt;/em&gt; can't &lt;em&gt;legislate&lt;/em&gt; away fear--which  helped &lt;em&gt;drive&lt;/em&gt; the New York &lt;em&gt;Stock Exchange&lt;/em&gt; to its &lt;em&gt;record 508-point&lt;/em&gt; Dow &lt;em&gt;Jones index&lt;/em&gt; loss on &lt;em&gt;Monday&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Charles Schultze, chairman&lt;/em&gt; of the &lt;em&gt;president&lt;/em&gt;'s &lt;em&gt;Council&lt;/em&gt; of &lt;em&gt;Economic Advisers&lt;/em&gt; under &lt;em&gt;Jimmy Carter,&lt;/em&gt; said in an &lt;em&gt;interview&lt;/em&gt; that "the &lt;em&gt;safeguards&lt;/em&gt; should be &lt;em&gt;adequate&lt;/em&gt; to &lt;em&gt;avoid&lt;/em&gt; a &lt;em&gt;repeat&lt;/em&gt; of 1929 to 1933."</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Marvin Kosters, director&lt;/em&gt; of &lt;em&gt;economic policy studies&lt;/em&gt; at the &lt;em&gt;conservative American Enterprise Institute,&lt;/em&gt; thinks the &lt;em&gt;present safeguards&lt;/em&gt; will work.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

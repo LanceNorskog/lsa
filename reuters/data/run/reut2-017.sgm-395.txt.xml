@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">25</int>
+  <int name="QTime">40</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-395.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">45</int>
       </lst>
       <lst name="terms">
-        <int name="count">230</int>
+        <int name="count">164</int>
       </lst>
       <lst name="stems">
-        <int name="count">130</int>
+        <int name="count">85</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">allowing</str>
+        <str name="text">japan</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">treasury</str>
+        <str name="text">likely</str>
         <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">dutch</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9820446799306292</double>
       </lst>
       <lst name="term">
-        <str name="text">attractive</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9820446799306289</double>
       </lst>
       <lst name="term">
-        <str name="text">france</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">pressure</str>
+        <double name="strength">0.9820446799306288</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Some Bundesbank officials have argued recently that the monetary overshoot was due to strong currency inflows rather than credit growth, and therefore a more appropriate response to excessive money supply growth would be to cut rates, to make the mark and mark investments less attractive.</str>
-        <int name="index">33</int>
-        <int name="start">1</int>
-        <int name="end">290</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Werner Rein, chief economist at Union Bank of Switzerland in Zurich, said he thought it likely that interest rates would continue to drift lower in many European countries.</str>
         <int name="index">39</int>
         <int name="start">1</int>
         <int name="end">173</int>
-        <double name="strength">0.8159944841857867</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Treasury bill rate rose to six pct this week from 5.6 pct at the start of April, and the yield on the 30-year benchmark treasury bonds rose this week in Tokyo to a 14-month high of 8.86 pct from 7.66 pct in late March.</str>
-        <int name="index">10</int>
-        <int name="start">0</int>
-        <int name="end">221</int>
-        <double name="strength">0.8073738830725374</double>
+        <str name="text">Talks this week between Japanese Prime Minister Yasuhiro Nakasone and President Reagan, if successful, could take pressure off the dollar, dealers and economists said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9908204402062762</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Reid said taking 30 basis points off the repurchase rate would have little impact on the German economy or fundamental exchange rates, but could change market currency perceptions.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.9793610589430503</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Some &lt;em&gt;Bundesbank officials&lt;/em&gt; have &lt;em&gt;argued recently&lt;/em&gt; that the &lt;em&gt;monetary overshoot&lt;/em&gt; was due to &lt;em&gt;strong currency inflows rather&lt;/em&gt; than &lt;em&gt;credit growth,&lt;/em&gt; and &lt;em&gt;therefore&lt;/em&gt; a more &lt;em&gt;appropriate response&lt;/em&gt; to &lt;em&gt;excessive money supply growth would&lt;/em&gt; be to cut &lt;em&gt;rates,&lt;/em&gt; to make the mark and mark &lt;em&gt;investments&lt;/em&gt; less &lt;em&gt;attractive&lt;/em&gt;.</str>
-        <int name="index">33</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Werner&lt;/em&gt; Rein, &lt;em&gt;chief economist&lt;/em&gt; at &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland&lt;/em&gt; in &lt;em&gt;Zurich,&lt;/em&gt; said he &lt;em&gt;thought&lt;/em&gt; it &lt;em&gt;likely&lt;/em&gt; that &lt;em&gt;interest rates would continue&lt;/em&gt; to &lt;em&gt;drift lower&lt;/em&gt; in many &lt;em&gt;European countries&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Werner&lt;/em&gt; Rein, &lt;em&gt;chief economist&lt;/em&gt; at &lt;em&gt;Union&lt;/em&gt; Bank of &lt;em&gt;Switzerland&lt;/em&gt; in &lt;em&gt;Zurich,&lt;/em&gt; said he thought it &lt;em&gt;likely&lt;/em&gt; that &lt;em&gt;interest rates&lt;/em&gt; would &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;drift&lt;/em&gt; lower in many &lt;em&gt;European countries&lt;/em&gt;.</str>
         <int name="index">39</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Treasury&lt;/em&gt; bill rate rose to six pct this week from 5.6 pct at the &lt;em&gt;start&lt;/em&gt; of &lt;em&gt;April,&lt;/em&gt; and the &lt;em&gt;yield&lt;/em&gt; on the 30-year &lt;em&gt;benchmark treasury bonds&lt;/em&gt; rose this week in &lt;em&gt;Tokyo&lt;/em&gt; to a 14-&lt;em&gt;month&lt;/em&gt; high of 8.86 pct from 7.66 pct in late &lt;em&gt;March&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Talks&lt;/em&gt; this week between &lt;em&gt;Japanese Prime Minister Yasuhiro Nakasone&lt;/em&gt; and &lt;em&gt;President Reagan,&lt;/em&gt; if &lt;em&gt;successful,&lt;/em&gt; could take &lt;em&gt;pressure&lt;/em&gt; off the &lt;em&gt;dollar, dealers&lt;/em&gt; and &lt;em&gt;economists said&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Reid said taking 30 &lt;em&gt;basis points&lt;/em&gt; off the &lt;em&gt;repurchase&lt;/em&gt; rate would have &lt;em&gt;little impact&lt;/em&gt; on the &lt;em&gt;German economy&lt;/em&gt; or &lt;em&gt;fundamental exchange rates,&lt;/em&gt; but could &lt;em&gt;change market currency perceptions&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
     </lst>
   </lst>

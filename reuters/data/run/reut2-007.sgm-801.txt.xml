@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-801.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">96</int>
+        <int name="count">71</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">meeting</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">proceedings</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">member</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">subsidise</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">industrie</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">unfair</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">spokesman</str>
-        <double name="strength">0.8944271909999169</double>
+        <str name="text">practices</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">164</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Position appeared to give such broad interpretation to the rules as to suggest that the civil aircraft accord needed re-negotiating.</str>
-        <int name="index">20</int>
-        <int name="start">0</int>
-        <int name="end">135</int>
-        <double name="strength">0.9469297944851724</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Washington presented its reading of rules on inducement to purchase aircraft and support for development of airlines during the special session and asked the committee to confirm its view.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">189</int>
-        <double name="strength">0.9435036796164783</double>
+        <double name="strength">0.994620785454983</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The tension has eased," the permanent trade ambassador of the 12-member European Community Tran Van Thinh told reporters.</str>
+        <int name="index">7</int>
+        <int name="start">1</int>
+        <int name="end">123</int>
+        <double name="strength">0.9400695170603097</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Trade officials again&lt;/em&gt; made &lt;em&gt;clear their anger&lt;/em&gt; over what they call &lt;em&gt;unfair government support&lt;/em&gt; for &lt;em&gt;Airbus, voiced during&lt;/em&gt; a &lt;em&gt;visit&lt;/em&gt; to &lt;em&gt;European capitals&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt;.</str>
+        <str name="text">U.S. &lt;em&gt;Trade officials&lt;/em&gt; again made &lt;em&gt;clear&lt;/em&gt; their &lt;em&gt;anger&lt;/em&gt; over what they call &lt;em&gt;unfair government support&lt;/em&gt; for &lt;em&gt;Airbus,&lt;/em&gt; voiced during a &lt;em&gt;visit&lt;/em&gt; to &lt;em&gt;European capitals&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Position appeared&lt;/em&gt; to give such &lt;em&gt;broad interpretation&lt;/em&gt; to the &lt;em&gt;rules&lt;/em&gt; as to &lt;em&gt;suggest&lt;/em&gt; that the &lt;em&gt;civil aircraft accord needed&lt;/em&gt; re-&lt;em&gt;negotiating&lt;/em&gt;.</str>
-        <int name="index">20</int>
+        <str name="text">Washington presented its &lt;em&gt;reading&lt;/em&gt; of &lt;em&gt;rules&lt;/em&gt; on &lt;em&gt;inducement&lt;/em&gt; to &lt;em&gt;purchase aircraft&lt;/em&gt; and &lt;em&gt;support&lt;/em&gt; for &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;airlines&lt;/em&gt; during the &lt;em&gt;special session&lt;/em&gt; and asked the &lt;em&gt;committee&lt;/em&gt; to &lt;em&gt;confirm&lt;/em&gt; its view.</str>
+        <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Washington presented&lt;/em&gt; its &lt;em&gt;reading&lt;/em&gt; of &lt;em&gt;rules&lt;/em&gt; on &lt;em&gt;inducement&lt;/em&gt; to &lt;em&gt;purchase aircraft&lt;/em&gt; and &lt;em&gt;support&lt;/em&gt; for &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;airlines during&lt;/em&gt; the &lt;em&gt;special session&lt;/em&gt; and &lt;em&gt;asked&lt;/em&gt; the &lt;em&gt;committee&lt;/em&gt; to &lt;em&gt;confirm&lt;/em&gt; its view.</str>
-        <int name="index">16</int>
+        <str name="text">"The &lt;em&gt;tension&lt;/em&gt; has eased," the &lt;em&gt;permanent trade ambassador&lt;/em&gt; of the 12-&lt;em&gt;member European Community&lt;/em&gt; Tran Van &lt;em&gt;Thinh&lt;/em&gt; told &lt;em&gt;reporters&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

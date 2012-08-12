@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-934.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">105</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">69</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">countries</str>
+        <str name="text">talks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">producer</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">chinese</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">agreement</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">three</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">signed</str>
-        <double name="strength">0.5590169943749463</double>
+        <str name="text">months</str>
+        <double name="strength">0.9668760164118334</double>
       </lst>
       <lst name="term">
-        <str name="text">first</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">diplomat</str>
+        <double name="strength">0.9668760164118334</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">China took a serious view of a Multi-Fibre Agreement (MFA) protocol which it said infringed principles of the General Agreement on Tariffs and Trade (GATT), the People's Daily overseas edition said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">198</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Fifty major textile trading countries adopted the new MFA last July in Geneva, limiting Third World exports of textiles to industrialised countries.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">149</int>
-        <double name="strength">0.8533894471089121</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. Market the previous two years with goods made from both and from linen because these three categories were not under quota, the diplomat said.</str>
         <int name="index">9</int>
         <int name="start">0</int>
         <int name="end">145</int>
-        <double name="strength">0.808551367646953</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">China took a serious view of a Multi-Fibre Agreement (MFA) protocol which it said infringed principles of the General Agreement on Tariffs and Trade (GATT), the People's Daily overseas edition said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">198</int>
+        <double name="strength">0.9506259086595628</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Due to counterfeit licences, a problem the Ministry of Foreign Economic Relations and Trade admitted to last week, he said, but gave no more details.</str>
+        <int name="index">18</int>
+        <int name="start">0</int>
+        <int name="end">152</int>
+        <double name="strength">0.9297320010571135</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;China&lt;/em&gt; took a &lt;em&gt;serious&lt;/em&gt; view of a &lt;em&gt;Multi-Fibre Agreement &lt;/em&gt;(MFA) &lt;em&gt;protocol which&lt;/em&gt; it said &lt;em&gt;infringed principles&lt;/em&gt; of the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT), the &lt;em&gt;People&lt;/em&gt;'s &lt;em&gt;Daily overseas edition said&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;Market&lt;/em&gt; the &lt;em&gt;previous&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; with &lt;em&gt;goods&lt;/em&gt; made from both and from &lt;em&gt;linen&lt;/em&gt; because these &lt;em&gt;three categories&lt;/em&gt; were not under &lt;em&gt;quota,&lt;/em&gt; the &lt;em&gt;diplomat said&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;China&lt;/em&gt; took a &lt;em&gt;serious&lt;/em&gt; view of a &lt;em&gt;Multi-Fibre Agreement &lt;/em&gt;(MFA) &lt;em&gt;protocol&lt;/em&gt; which it said infringed &lt;em&gt;principles&lt;/em&gt; of the &lt;em&gt;General Agreement&lt;/em&gt; on &lt;em&gt;Tariffs&lt;/em&gt; and &lt;em&gt;Trade &lt;/em&gt;(GATT), the &lt;em&gt;People&lt;/em&gt;'s &lt;em&gt;Daily overseas edition said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fifty major textile trading countries adopted&lt;/em&gt; the new MFA last July in &lt;em&gt;Geneva, limiting Third World exports&lt;/em&gt; of &lt;em&gt;textiles&lt;/em&gt; to &lt;em&gt;industrialised countries&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Market&lt;/em&gt; the &lt;em&gt;previous&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; with &lt;em&gt;goods&lt;/em&gt; made from both and from &lt;em&gt;linen because these three categories&lt;/em&gt; were not &lt;em&gt;under quota,&lt;/em&gt; the &lt;em&gt;diplomat said&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">S. Due to &lt;em&gt;counterfeit licences,&lt;/em&gt; a &lt;em&gt;problem&lt;/em&gt; the &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;Foreign Economic Relations&lt;/em&gt; and &lt;em&gt;Trade&lt;/em&gt; admitted to last week, he said, but gave no more &lt;em&gt;details&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

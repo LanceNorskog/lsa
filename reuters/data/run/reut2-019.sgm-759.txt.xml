@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-759.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">127</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">later</str>
+        <str name="text">majority</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">legal</str>
+        <double name="strength">0.9999999999999993</double>
+      </lst>
+      <lst name="term">
+        <str name="text">acquisition</str>
+        <double name="strength">0.9999999999999991</double>
+      </lst>
+      <lst name="term">
+        <str name="text">agency</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
         <str name="text">merger</str>
-        <double name="strength">0.5590169943749466</double>
-      </lst>
-      <lst name="term">
-        <str name="text">administrative</str>
-        <double name="strength">0.5590169943749458</double>
-      </lst>
-      <lst name="term">
-        <str name="text">steps</str>
-        <double name="strength">0.5</double>
-      </lst>
-      <lst name="term">
-        <str name="text">bitter</str>
-        <double name="strength">0.5</double>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">DeBartolo and Campeau later engaged in a bitter battle for control of Allied, with Campeau winning out later in October when it bought a block of 25.8 mln shares of Allied stock, or 48 pct of the total, in a controversial move made only minutes after it dropped its hostile tender offer.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">288</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Although Allied is no longer publicly traded since it became a subsidiary of Campeau, it still files annual and quarterly reports to the SEC because it has outstanding debt.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">174</int>
-        <double name="strength">0.8902777560810511</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Allied legal advisor and director George Kern, who heads the merger and acquisitions group at the New York law firm of Sullivan and Cromwell, decided against amending Allied's SEC filing to disclose the talks even though they had resulted in sales price of 405 mln dlrs for the shopping centers, it said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">305</int>
-        <double name="strength">0.8804972189209056</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an administrative complaint, the SEC said Allied and its legal adviser failed to promptly inform shareholders and the agency that it had begun talks with Youngstown, Ohio, shopping center developer Edward DeBartolo in response to Campeau's takeover offer.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">259</int>
+        <double name="strength">0.8518562230293771</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Securities and Exchange Commission charged Allied Stores Corp with failing to promptly disclose key steps it was taking last September to thwart a takeover attempt by Campeau Corp.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">184</int>
+        <double name="strength">0.7782836334102581</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;DeBartolo&lt;/em&gt; and &lt;em&gt;Campeau later engaged&lt;/em&gt; in a &lt;em&gt;bitter battle&lt;/em&gt; for &lt;em&gt;control&lt;/em&gt; of &lt;em&gt;Allied,&lt;/em&gt; with &lt;em&gt;Campeau winning&lt;/em&gt; out &lt;em&gt;later&lt;/em&gt; in &lt;em&gt;October&lt;/em&gt; when it &lt;em&gt;bought&lt;/em&gt; a &lt;em&gt;block&lt;/em&gt; of 25.8 mln &lt;em&gt;shares&lt;/em&gt; of &lt;em&gt;Allied stock,&lt;/em&gt; or 48 pct of the &lt;em&gt;total,&lt;/em&gt; in a &lt;em&gt;controversial&lt;/em&gt; move made only &lt;em&gt;minutes after&lt;/em&gt; it &lt;em&gt;dropped&lt;/em&gt; its &lt;em&gt;hostile tender offer&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Although Allied&lt;/em&gt; is no &lt;em&gt;longer publicly traded since&lt;/em&gt; it &lt;em&gt;became&lt;/em&gt; a &lt;em&gt;subsidiary&lt;/em&gt; of &lt;em&gt;Campeau,&lt;/em&gt; it &lt;em&gt;still files annual&lt;/em&gt; and &lt;em&gt;quarterly reports&lt;/em&gt; to the SEC &lt;em&gt;because&lt;/em&gt; it has &lt;em&gt;outstanding debt&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Allied legal advisor&lt;/em&gt; and &lt;em&gt;director George&lt;/em&gt; Kern, who &lt;em&gt;heads&lt;/em&gt; the &lt;em&gt;merger&lt;/em&gt; and &lt;em&gt;acquisitions group&lt;/em&gt; at the New York law firm of &lt;em&gt;Sullivan&lt;/em&gt; and &lt;em&gt;Cromwell, decided against amending Allied&lt;/em&gt;'s SEC &lt;em&gt;filing&lt;/em&gt; to &lt;em&gt;disclose&lt;/em&gt; the &lt;em&gt;talks&lt;/em&gt; even &lt;em&gt;though&lt;/em&gt; they had &lt;em&gt;resulted&lt;/em&gt; in &lt;em&gt;sales price&lt;/em&gt; of 405 mln dlrs for the &lt;em&gt;shopping centers,&lt;/em&gt; it said.</str>
+        <str name="text">Allied &lt;em&gt;legal advisor&lt;/em&gt; and &lt;em&gt;director George&lt;/em&gt; Kern, who heads the &lt;em&gt;merger&lt;/em&gt; and &lt;em&gt;acquisitions group&lt;/em&gt; at the New York law firm of &lt;em&gt;Sullivan&lt;/em&gt; and &lt;em&gt;Cromwell,&lt;/em&gt; decided against &lt;em&gt;amending&lt;/em&gt; Allied's SEC &lt;em&gt;filing&lt;/em&gt; to &lt;em&gt;disclose&lt;/em&gt; the &lt;em&gt;talks&lt;/em&gt; even though they had resulted in &lt;em&gt;sales price&lt;/em&gt; of 405 mln dlrs for the &lt;em&gt;shopping centers,&lt;/em&gt; it said.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In an &lt;em&gt;administrative complaint,&lt;/em&gt; the SEC said Allied and its &lt;em&gt;legal adviser&lt;/em&gt; failed to promptly &lt;em&gt;inform shareholders&lt;/em&gt; and the &lt;em&gt;agency&lt;/em&gt; that it had begun &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;Youngstown,&lt;/em&gt; Ohio, &lt;em&gt;shopping center developer&lt;/em&gt; Edward &lt;em&gt;DeBartolo&lt;/em&gt; in &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;Campeau&lt;/em&gt;'s &lt;em&gt;takeover offer&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt; charged Allied &lt;em&gt;Stores&lt;/em&gt; Corp with failing to promptly &lt;em&gt;disclose&lt;/em&gt; key &lt;em&gt;steps&lt;/em&gt; it was taking last &lt;em&gt;September&lt;/em&gt; to &lt;em&gt;thwart&lt;/em&gt; a &lt;em&gt;takeover attempt&lt;/em&gt; by &lt;em&gt;Campeau Corp&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-905.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">153</int>
       </lst>
       <lst name="terms">
-        <int name="count">45</int>
+        <int name="count">39</int>
       </lst>
       <lst name="stems">
-        <int name="count">32</int>
+        <int name="count">29</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">coarse</str>
+        <str name="text">imports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">produc</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">exports</str>
+        <double name="strength">0.9993752926254514</double>
       </lst>
       <lst name="term">
-        <str name="text">bales</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">stocks</str>
+        <double name="strength">0.9870577118391859</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">production</str>
+        <double name="strength">0.9534425634731688</double>
       </lst>
       <lst name="term">
-        <str name="text">countries</str>
-        <double name="strength">0.999999999999998</double>
+        <str name="text">start</str>
+        <double name="strength">0.9534425634731688</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">154</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">342.34  X-Based on export estimate.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">35</int>
-        <double name="strength">0.4579406021895812</double>
+        <str name="text">Note - World imports/exports may not balance due to differing marketing years, grain in transit and reporting discrepancies.</str>
+        <int name="index">59</int>
+        <int name="start">17</int>
+        <int name="end">141</int>
+        <double name="strength">0.7503291401694626</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rice (Milled Basis)</str>
-        <int name="index">137</int>
-        <int name="start">1</int>
-        <int name="end">20</int>
-        <double name="strength">0.45749404859513454</double>
+        <str name="text">Note - World imports/exports may not balance due to differing marketing years, grain in transit and reporting discrepancies.</str>
+        <int name="index">75</int>
+        <int name="start">17</int>
+        <int name="end">141</int>
+        <double name="strength">0.7503291401694626</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; made the &lt;em&gt;following 1986/87 projections&lt;/em&gt; in its &lt;em&gt;world Supply/Demand report,&lt;/em&gt; with &lt;em&gt;comparisons,&lt;/em&gt; in mln &lt;em&gt;tonnes, except where noted -&lt;/em&gt;-</str>
+        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt; made the &lt;em&gt;following 1986/87 projections&lt;/em&gt; in its &lt;em&gt;world Supply/Demand report,&lt;/em&gt; with &lt;em&gt;comparisons,&lt;/em&gt; in mln &lt;em&gt;tonnes,&lt;/em&gt; except where noted --</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">342.34  X-&lt;em&gt;Based&lt;/em&gt; on &lt;em&gt;export estimate&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">Note - &lt;em&gt;World imports/exports&lt;/em&gt; may not &lt;em&gt;balance&lt;/em&gt; due to &lt;em&gt;differing marketing years, grain&lt;/em&gt; in &lt;em&gt;transit&lt;/em&gt; and &lt;em&gt;reporting discrepancies&lt;/em&gt;.</str>
+        <int name="index">59</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Rice (&lt;em&gt;Milled Basis&lt;/em&gt;)</str>
-        <int name="index">137</int>
+        <str name="text">Note - &lt;em&gt;World imports/exports&lt;/em&gt; may not &lt;em&gt;balance&lt;/em&gt; due to &lt;em&gt;differing marketing years, grain&lt;/em&gt; in &lt;em&gt;transit&lt;/em&gt; and &lt;em&gt;reporting discrepancies&lt;/em&gt;.</str>
+        <int name="index">75</int>
       </lst>
     </lst>
   </lst>

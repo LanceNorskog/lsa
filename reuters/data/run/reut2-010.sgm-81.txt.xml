@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-81.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">93</int>
+        <int name="count">66</int>
       </lst>
       <lst name="stems">
-        <int name="count">66</int>
+        <int name="count">48</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">generic</str>
+        <str name="text">undersecretary</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">farmers</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">daniel</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">grain</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">billion</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">improved</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">fiscal</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">budget</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">years</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said the cost of using certificates must be weighed against immediate benefits, including greater market liquidity, improved market price competitiveness, higher farm income, improved debt situation and decreased carrying charges, especially pertaining to 1985 crop loans.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">276</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">However, GAO Senior Associate Director Brian Crowley, in testimony prepared for delivery to the Senate Agriculture Committee, said short-term commodity storage cost savings related to the use of payment-in-kind certificates could be from about 169 mln 253 mln dlrs.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">266</int>
-        <double name="strength">0.8418691373457566</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In his prepared remarks to the Senate panel, Amstutz stressed that USDA was "very pleased with the success of using commodity certificates" and looked forward to their continued use.</str>
-        <int name="index">5</int>
+        <str name="text">U.S. Agriculture Undersecretary Daniel Amstutz said the issuance of 8.5 billion dlrs of certificates in fiscal years 1986-88 could cost as much as 550 mln dlrs more than cash outlays.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.7266399221850108</double>
+        <int name="end">184</int>
+        <double name="strength">0.7872847888539324</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the cost of using certificates must be weighed against immediate benefits, including greater market liquidity, improved market price competitiveness, higher farm income, improved debt situation and decreased carrying charges, especially pertaining to 1985 crop loans.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">276</int>
+        <double name="strength">0.7143577450578048</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said the cost of &lt;em&gt;using certificates&lt;/em&gt; must be &lt;em&gt;weighed against immediate benefits, including greater market liquidity, improved market price competitiveness, higher&lt;/em&gt; farm &lt;em&gt;income, improved&lt;/em&gt; debt &lt;em&gt;situation&lt;/em&gt; and &lt;em&gt;decreased carrying charges, especially pertaining&lt;/em&gt; to 1985 crop &lt;em&gt;loans&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; GAO &lt;em&gt;Senior Associate Director Brian Crowley,&lt;/em&gt; in &lt;em&gt;testimony prepared&lt;/em&gt; for &lt;em&gt;delivery&lt;/em&gt; to the &lt;em&gt;Senate Agriculture Committee,&lt;/em&gt; said &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;commodity storage&lt;/em&gt; cost &lt;em&gt;savings related&lt;/em&gt; to the use of &lt;em&gt;payment&lt;/em&gt;-in-kind &lt;em&gt;certificates could&lt;/em&gt; be from &lt;em&gt;about 169&lt;/em&gt; mln 253 mln dlrs.</str>
+        <str name="text">However, GAO &lt;em&gt;Senior Associate Director Brian Crowley,&lt;/em&gt; in &lt;em&gt;testimony&lt;/em&gt; prepared for &lt;em&gt;delivery&lt;/em&gt; to the &lt;em&gt;Senate Agriculture Committee,&lt;/em&gt; said &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;commodity storage&lt;/em&gt; cost &lt;em&gt;savings&lt;/em&gt; related to the use of &lt;em&gt;payment&lt;/em&gt;-in-kind &lt;em&gt;certificates&lt;/em&gt; could be from about 169 mln 253 mln dlrs.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In his &lt;em&gt;prepared remarks&lt;/em&gt; to the &lt;em&gt;Senate panel, Amstutz stressed&lt;/em&gt; that USDA was "very &lt;em&gt;pleased&lt;/em&gt; with the &lt;em&gt;success&lt;/em&gt; of &lt;em&gt;using commodity certificates"&lt;/em&gt; and &lt;em&gt;looked forward&lt;/em&gt; to &lt;em&gt;their continued use&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">U.S. &lt;em&gt;Agriculture Undersecretary Daniel Amstutz&lt;/em&gt; said the &lt;em&gt;issuance&lt;/em&gt; of 8.5 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;certificates&lt;/em&gt; in &lt;em&gt;fiscal years 1986-88&lt;/em&gt; could cost as much as 550 mln dlrs more than cash &lt;em&gt;outlays&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the cost of using &lt;em&gt;certificates&lt;/em&gt; must be weighed against &lt;em&gt;immediate benefits,&lt;/em&gt; including greater &lt;em&gt;market liquidity,&lt;/em&gt; improved &lt;em&gt;market price competitiveness,&lt;/em&gt; higher farm &lt;em&gt;income,&lt;/em&gt; improved debt &lt;em&gt;situation&lt;/em&gt; and decreased carrying &lt;em&gt;charges,&lt;/em&gt; especially &lt;em&gt;pertaining&lt;/em&gt; to 1985 crop &lt;em&gt;loans&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-450.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">59</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">increase</str>
+        <str name="text">billion</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">damage</str>
-        <double name="strength">0.999999999999999</double>
+        <str name="text">initial</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.7071067811865464</double>
+        <str name="text">large</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">annuities</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">total</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">dutch</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Insurer which merged with AEGON in May 1986, saw its profits almost completely eroded by these costs and made only a small contribution to the group's profits.</str>
-        <int name="index">19</int>
-        <int name="start">0</int>
-        <int name="end">162</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">AEGON said incidental negative influences on net profits were slightly higher, being the lower dollar rate, high initial costs for new products, and the cost of new headquarters in The Hague.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">192</int>
-        <double name="strength">0.9249848121883265</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">AS&gt; reported a 6.4 pct increase in 1986 net profits to 327.1 mln guilders and said it expected a moderate increase in profits for 1987.</str>
-        <int name="index">1</int>
+        <str name="text">The company said its revenues were down due to lower foreign exchange rates and a change in accounting practice.</str>
+        <int name="index">3</int>
         <int name="start">0</int>
-        <int name="end">135</int>
-        <double name="strength">0.9169329614780632</double>
+        <int name="end">112</int>
+        <double name="strength">0.8656855189868634</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AEGON said annuities are subject to such strong personal investment influences that it should be accounted differently from the more traditional insurances.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">157</int>
+        <double name="strength">0.8218722048948914</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Insurer which merged&lt;/em&gt; with &lt;em&gt;AEGON&lt;/em&gt; in May 1986, saw its &lt;em&gt;profits almost completely eroded&lt;/em&gt; by &lt;em&gt;these costs&lt;/em&gt; and made only a &lt;em&gt;small contribution&lt;/em&gt; to the &lt;em&gt;group&lt;/em&gt;'s &lt;em&gt;profits&lt;/em&gt;.</str>
-        <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;AEGON&lt;/em&gt; said &lt;em&gt;incidental negative influences&lt;/em&gt; on net &lt;em&gt;profits&lt;/em&gt; were &lt;em&gt;slightly higher, being&lt;/em&gt; the &lt;em&gt;lower dollar&lt;/em&gt; rate, high &lt;em&gt;initial costs&lt;/em&gt; for new &lt;em&gt;products,&lt;/em&gt; and the cost of new &lt;em&gt;headquarters&lt;/em&gt; in The &lt;em&gt;Hague&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;AEGON&lt;/em&gt; said &lt;em&gt;incidental negative influences&lt;/em&gt; on net &lt;em&gt;profits&lt;/em&gt; were slightly higher, being the lower &lt;em&gt;dollar&lt;/em&gt; rate, high &lt;em&gt;initial costs&lt;/em&gt; for new &lt;em&gt;products,&lt;/em&gt; and the cost of new &lt;em&gt;headquarters&lt;/em&gt; in The &lt;em&gt;Hague&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">AS&gt; &lt;em&gt;reported&lt;/em&gt; a 6.4 pct &lt;em&gt;increase&lt;/em&gt; in 1986 net &lt;em&gt;profits&lt;/em&gt; to 327.1 mln &lt;em&gt;guilders&lt;/em&gt; and said it &lt;em&gt;expected&lt;/em&gt; a &lt;em&gt;moderate increase&lt;/em&gt; in &lt;em&gt;profits for 1987&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;company&lt;/em&gt; said its &lt;em&gt;revenues&lt;/em&gt; were down due to lower &lt;em&gt;foreign exchange rates&lt;/em&gt; and a &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;accounting practice&lt;/em&gt;.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;AEGON&lt;/em&gt; said &lt;em&gt;annuities&lt;/em&gt; are &lt;em&gt;subject&lt;/em&gt; to such &lt;em&gt;strong personal investment&lt;/em&gt; influences that it should be accounted differently from the more &lt;em&gt;traditional insurances&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

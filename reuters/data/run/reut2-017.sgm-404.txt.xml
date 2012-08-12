@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-404.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">190</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">89</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">could</str>
+        <str name="text">projects</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">production</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">world</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">venezuela</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">economic</str>
+        <double name="strength">0.9999999999999974</double>
       </lst>
       <lst name="term">
-        <str name="text">secretary</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">operate</str>
+        <double name="strength">0.9999999999999973</double>
       </lst>
       <lst name="term">
-        <str name="text">herrington</str>
-        <double name="strength">0.5000000000000018</double>
+        <str name="text">outlook</str>
+        <double name="strength">0.9999999999999971</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Willmon also said, "Public policy could best help by providing financial support to offset the high cost of technology developmemt which would help generate projects that could survive even at low oil prices for extended periods of time."</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">239</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">U.S. Energy Secretary John Herrington said, "The Reagan Administration is firmly committed, without equivocation, to continuing our efforts to improve conditions and incentives in the marketplace that will spur oil and gas exploration and development."</str>
         <int name="index">26</int>
         <int name="start">1</int>
         <int name="end">253</int>
-        <double name="strength">0.933810419617535</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Willmon said these technologies included enhanced recovery by steam injection and oil-and-water emulsion to reduce the viscocity of the heavy oils so they can flow easily through a pipeline.</str>
-        <int name="index">19</int>
+        <str name="text">"Improved technology has the potential for reducing the capital investment and operating costs of typical heavy oil development projects by 30 pct or more," Gordon Willmon, VP and general manager, oil sands and coal department, Esso Resources Canada Ltd said at the World Petroleum Congress.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">191</int>
-        <double name="strength">0.8382202513325256</double>
+        <int name="end">292</int>
+        <double name="strength">0.9881197534073034</double>
+        <int name="terms">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Willmon also said, "Public policy could best help by providing financial support to offset the high cost of technology developmemt which would help generate projects that could survive even at low oil prices for extended periods of time."</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">239</int>
+        <double name="strength">0.9706843177288291</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Willmon&lt;/em&gt; also said, "&lt;em&gt;Public policy could&lt;/em&gt; best help by &lt;em&gt;providing financial support&lt;/em&gt; to &lt;em&gt;offset&lt;/em&gt; the high cost of &lt;em&gt;technology developmemt which would&lt;/em&gt; help &lt;em&gt;generate projects&lt;/em&gt; that &lt;em&gt;could survive&lt;/em&gt; even at low oil &lt;em&gt;prices&lt;/em&gt; for &lt;em&gt;extended periods&lt;/em&gt; of time."</str>
-        <int name="index">25</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;Energy Secretary&lt;/em&gt; John &lt;em&gt;Herrington&lt;/em&gt; said, "The &lt;em&gt;Reagan Administration&lt;/em&gt; is &lt;em&gt;firmly committed, without equivocation,&lt;/em&gt; to &lt;em&gt;continuing&lt;/em&gt; our &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;improve conditions&lt;/em&gt; and &lt;em&gt;incentives&lt;/em&gt; in the &lt;em&gt;marketplace&lt;/em&gt; that will spur oil and gas &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development.&lt;/em&gt;"</str>
+        <str name="text">U.S. &lt;em&gt;Energy Secretary&lt;/em&gt; John Herrington said, "The &lt;em&gt;Reagan Administration&lt;/em&gt; is firmly committed, without &lt;em&gt;equivocation,&lt;/em&gt; to continuing our &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;improve conditions&lt;/em&gt; and &lt;em&gt;incentives&lt;/em&gt; in the &lt;em&gt;marketplace&lt;/em&gt; that will spur oil and gas &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development.&lt;/em&gt;"</str>
         <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Willmon&lt;/em&gt; said &lt;em&gt;these technologies included enhanced recovery&lt;/em&gt; by &lt;em&gt;steam injection&lt;/em&gt; and oil-and-&lt;em&gt;water emulsion&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;viscocity&lt;/em&gt; of the &lt;em&gt;heavy&lt;/em&gt; oils so they can flow &lt;em&gt;easily through&lt;/em&gt; a &lt;em&gt;pipeline&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">"Improved &lt;em&gt;technology&lt;/em&gt; has the &lt;em&gt;potential&lt;/em&gt; for reducing the &lt;em&gt;capital investment&lt;/em&gt; and operating &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;typical heavy&lt;/em&gt; oil &lt;em&gt;development projects&lt;/em&gt; by 30 pct or more," &lt;em&gt;Gordon&lt;/em&gt; Willmon, VP and &lt;em&gt;general manager,&lt;/em&gt; oil &lt;em&gt;sands&lt;/em&gt; and coal &lt;em&gt;department,&lt;/em&gt; Esso &lt;em&gt;Resources Canada&lt;/em&gt; Ltd said at the &lt;em&gt;World Petroleum Congress&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Willmon&lt;/em&gt; also said, "&lt;em&gt;Public policy&lt;/em&gt; could best help by providing &lt;em&gt;financial support&lt;/em&gt; to &lt;em&gt;offset&lt;/em&gt; the high cost of &lt;em&gt;technology developmemt&lt;/em&gt; which would help &lt;em&gt;generate projects&lt;/em&gt; that could &lt;em&gt;survive&lt;/em&gt; even at low oil &lt;em&gt;prices&lt;/em&gt; for extended &lt;em&gt;periods&lt;/em&gt; of time."</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

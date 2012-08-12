@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-478.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">68</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">34</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">opportunities</str>
+        <str name="text">placement</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">britain</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">bring</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">consider</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">jardine</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">additional</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">holdings</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">capital</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">raise</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">K. Market "offers attractive opportunities for competitively priced food retailers" and that "a strategic investment in Kwik Save offers the best vehicle to pursue those opportunities."</str>
-        <int name="index">16</int>
-        <int name="start">0</int>
-        <int name="end">185</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">It will consider raising additional capital, most probably through a placement of convertible preference shares in the Euromarket, it added.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">141</int>
-        <double name="strength">0.8416585705401572</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;Dairy Farm International Holdings Ltd&gt; said in a statement it is making a tender offer for 22 pct of Kwik Save Discount Group Plc &lt;KWIK.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">137</int>
+        <double name="strength">0.9332570030838212</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Dairy Farm said it would reduce its bank borrowings by the proceeds from the previously announced sale of its office building in Sydney for 625 mln dlrs.</str>
         <int name="index">13</int>
         <int name="start">1</int>
         <int name="end">154</int>
-        <double name="strength">0.753147003295732</double>
+        <double name="strength">0.9173759617184266</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Market "offers attractive opportunities&lt;/em&gt; for &lt;em&gt;competitively priced&lt;/em&gt; food &lt;em&gt;retailers"&lt;/em&gt; and that "a &lt;em&gt;strategic investment&lt;/em&gt; in Kwik Save &lt;em&gt;offers&lt;/em&gt; the best &lt;em&gt;vehicle&lt;/em&gt; to &lt;em&gt;pursue those opportunities.&lt;/em&gt;"</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It will &lt;em&gt;consider raising additional capital,&lt;/em&gt; most &lt;em&gt;probably through&lt;/em&gt; a &lt;em&gt;placement&lt;/em&gt; of &lt;em&gt;convertible preference shares&lt;/em&gt; in the &lt;em&gt;Euromarket,&lt;/em&gt; it &lt;em&gt;added&lt;/em&gt;.</str>
+        <str name="text">It will &lt;em&gt;consider&lt;/em&gt; raising &lt;em&gt;additional capital,&lt;/em&gt; most probably through a &lt;em&gt;placement&lt;/em&gt; of &lt;em&gt;convertible preference shares&lt;/em&gt; in the &lt;em&gt;Euromarket,&lt;/em&gt; it added.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dairy&lt;/em&gt; Farm said it &lt;em&gt;would reduce&lt;/em&gt; its bank &lt;em&gt;borrowings&lt;/em&gt; by the &lt;em&gt;proceeds&lt;/em&gt; from the &lt;em&gt;previously announced&lt;/em&gt; sale of its &lt;em&gt;office building&lt;/em&gt; in &lt;em&gt;Sydney&lt;/em&gt; for 625 mln dlrs.</str>
+        <str name="text">&lt;em&gt;&lt;Dairy&lt;/em&gt; Farm &lt;em&gt;International Holdings&lt;/em&gt; Ltd&gt; said in a &lt;em&gt;statement&lt;/em&gt; it is making a &lt;em&gt;tender offer&lt;/em&gt; for 22 pct of Kwik Save &lt;em&gt;Discount Group&lt;/em&gt; Plc &lt;KWIK.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Dairy&lt;/em&gt; Farm said it would &lt;em&gt;reduce&lt;/em&gt; its bank &lt;em&gt;borrowings&lt;/em&gt; by the &lt;em&gt;proceeds&lt;/em&gt; from the previously announced sale of its &lt;em&gt;office building&lt;/em&gt; in &lt;em&gt;Sydney&lt;/em&gt; for 625 mln dlrs.</str>
         <int name="index">13</int>
       </lst>
     </lst>

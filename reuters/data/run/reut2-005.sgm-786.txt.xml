@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">28</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-786.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">30</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">kilometres</str>
+        <str name="text">dollar</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">flown</str>
-        <double name="strength">1.0</double>
+        <str name="text">competition</str>
+        <double name="strength">0.9999999999999968</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.5590169943749482</double>
+        <str name="text">prospectus</str>
+        <double name="strength">0.9836823252851268</double>
       </lst>
       <lst name="term">
-        <str name="text">reflected</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">currency</str>
+        <double name="strength">0.9836823252851266</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">yields</str>
+        <double name="strength">0.9806832258882877</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">James Capel estimated Cathay's passenger-kilometres flown last year rose six pct from 1985 and freight-kilometres flown climbed 17 pct, though the airline's load factor probably fell to 68.8 pct from 70 pct.</str>
-        <int name="index">24</int>
+        <str name="text">A general improvement in air traffic last year contributed to Cathay's revenue increase, but the company's load factor declined because of increased competition and an expansion of its fleet and services.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">208</int>
+        <int name="end">205</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fear of possible competition from fledgling carrier &lt;Hong Kong Dragon Airways Ltd&gt; may have contributed to Cathay's decision to resume service to New Zealand last year, analysts said.</str>
+        <int name="index">28</int>
+        <int name="start">1</int>
+        <int name="end">184</int>
+        <double name="strength">0.9918761740083745</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">"This is reflected in their interim results which showed that profit margin has increased," said Frederick Tsang of Mansion House Securities (F.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">145</int>
-        <double name="strength">0.8987395365566533</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A general improvement in air traffic last year contributed to Cathay's revenue increase, but the company's load factor declined because of increased competition and an expansion of its fleet and services.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">0.806982372223378</double>
+        <double name="strength">0.9019399200957277</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;James Capel estimated Cathay&lt;/em&gt;'s &lt;em&gt;passenger-kilometres flown&lt;/em&gt; last year rose six pct from 1985 and &lt;em&gt;freight-kilometres flown climbed 17&lt;/em&gt; pct, &lt;em&gt;though&lt;/em&gt; the &lt;em&gt;airline&lt;/em&gt;'s load &lt;em&gt;factor probably&lt;/em&gt; fell to 68.8 pct from 70 pct.</str>
-        <int name="index">24</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"This is &lt;em&gt;reflected&lt;/em&gt; in &lt;em&gt;their interim results which showed&lt;/em&gt; that &lt;em&gt;profit margin&lt;/em&gt; has &lt;em&gt;increased,"&lt;/em&gt; said &lt;em&gt;Frederick Tsang&lt;/em&gt; of &lt;em&gt;Mansion House Securities (F&lt;/em&gt;.</str>
-        <int name="index">14</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;general improvement&lt;/em&gt; in air &lt;em&gt;traffic&lt;/em&gt; last year &lt;em&gt;contributed&lt;/em&gt; to &lt;em&gt;Cathay&lt;/em&gt;'s &lt;em&gt;revenue increase,&lt;/em&gt; but the &lt;em&gt;company&lt;/em&gt;'s load &lt;em&gt;factor declined because&lt;/em&gt; of &lt;em&gt;increased competition&lt;/em&gt; and an &lt;em&gt;expansion&lt;/em&gt; of its &lt;em&gt;fleet&lt;/em&gt; and &lt;em&gt;services&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;general improvement&lt;/em&gt; in air &lt;em&gt;traffic&lt;/em&gt; last year contributed to &lt;em&gt;Cathay&lt;/em&gt;'s &lt;em&gt;revenue increase,&lt;/em&gt; but the &lt;em&gt;company&lt;/em&gt;'s load &lt;em&gt;factor&lt;/em&gt; declined because of increased &lt;em&gt;competition&lt;/em&gt; and an &lt;em&gt;expansion&lt;/em&gt; of its &lt;em&gt;fleet&lt;/em&gt; and &lt;em&gt;services&lt;/em&gt;.</str>
         <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Fear of &lt;em&gt;possible competition&lt;/em&gt; from &lt;em&gt;fledgling carrier &lt;/em&gt;&lt;Hong Kong &lt;em&gt;Dragon Airways&lt;/em&gt; Ltd&gt; may have contributed to &lt;em&gt;Cathay&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; to &lt;em&gt;resume service&lt;/em&gt; to New &lt;em&gt;Zealand&lt;/em&gt; last year, &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">28</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"This is reflected in their &lt;em&gt;interim results&lt;/em&gt; which showed that &lt;em&gt;profit margin&lt;/em&gt; has increased," said &lt;em&gt;Frederick Tsang&lt;/em&gt; of &lt;em&gt;Mansion House Securities (F&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

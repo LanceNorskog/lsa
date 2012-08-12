@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-287.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">47</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">economy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">september</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">defer</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">euroloan</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">following</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">state</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">payments</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">218</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Iraq is estimated to have foreign debt of about 50 billion dlrs, although about half is thought to be in the form of loans from its Gulf Arab allies, particularly Saudi Arabia and Kuwait.</str>
-        <int name="index">9</int>
-        <int name="start">0</int>
-        <int name="end">187</int>
-        <double name="strength">0.9092055103567257</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Bank reaction to Iraq's rescheduling request has been one of resignation, with many bankers seeing little alternative for Baghdad's economic planners.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">151</int>
-        <double name="strength">0.7848176643791052</double>
+        <double name="strength">0.8195040204418254</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The only other major eurocredit, a 500 mln dlr deal under the agency of Gulf International Bank, was signed in October, 1985 and is still in a two year grace period.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">165</int>
+        <double name="strength">0.7698884187290549</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The 500 mln dlr &lt;em&gt;credit, under&lt;/em&gt; the lead &lt;em&gt;management&lt;/em&gt; of &lt;em&gt;Paris-based Union&lt;/em&gt; de &lt;em&gt;Banques Arabes&lt;/em&gt; et &lt;em&gt;Francaises &lt;/em&gt;(UBAF), has a five-year &lt;em&gt;maturity&lt;/em&gt; and a &lt;em&gt;margin&lt;/em&gt; of one &lt;em&gt;percentage point&lt;/em&gt; over &lt;em&gt;London Interbank Offered Rates (LIBOR)&lt;/em&gt;.</str>
+        <str name="text">The 500 mln dlr &lt;em&gt;credit,&lt;/em&gt; under the lead &lt;em&gt;management&lt;/em&gt; of &lt;em&gt;Paris&lt;/em&gt;-based &lt;em&gt;Union&lt;/em&gt; de &lt;em&gt;Banques Arabes&lt;/em&gt; et &lt;em&gt;Francaises &lt;/em&gt;(UBAF), has a five-year &lt;em&gt;maturity&lt;/em&gt; and a &lt;em&gt;margin&lt;/em&gt; of one &lt;em&gt;percentage point&lt;/em&gt; over London &lt;em&gt;Interbank&lt;/em&gt; Offered &lt;em&gt;Rates (LIBOR)&lt;/em&gt;.</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Iraq is &lt;em&gt;estimated&lt;/em&gt; to have &lt;em&gt;foreign&lt;/em&gt; debt of &lt;em&gt;about 50 billion&lt;/em&gt; dlrs, &lt;em&gt;although about&lt;/em&gt; half is &lt;em&gt;thought&lt;/em&gt; to be in the form of &lt;em&gt;loans&lt;/em&gt; from its Gulf Arab &lt;em&gt;allies, particularly Saudi Arabia&lt;/em&gt; and &lt;em&gt;Kuwait&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">Bank &lt;em&gt;reaction&lt;/em&gt; to Iraq's rescheduling &lt;em&gt;request&lt;/em&gt; has been one of &lt;em&gt;resignation,&lt;/em&gt; with many &lt;em&gt;bankers&lt;/em&gt; seeing &lt;em&gt;little alternative&lt;/em&gt; for &lt;em&gt;Baghdad&lt;/em&gt;'s &lt;em&gt;economic planners&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bank &lt;em&gt;reaction&lt;/em&gt; to Iraq's &lt;em&gt;rescheduling request&lt;/em&gt; has been one of &lt;em&gt;resignation,&lt;/em&gt; with many &lt;em&gt;bankers seeing little alternative&lt;/em&gt; for &lt;em&gt;Baghdad&lt;/em&gt;'s &lt;em&gt;economic planners&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The only &lt;em&gt;other major eurocredit,&lt;/em&gt; a 500 mln dlr deal under the &lt;em&gt;agency&lt;/em&gt; of Gulf &lt;em&gt;International&lt;/em&gt; Bank, was signed in &lt;em&gt;October, 1985&lt;/em&gt; and is still in a two year &lt;em&gt;grace period&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

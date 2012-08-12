@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-925.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">29</int>
       </lst>
       <lst name="terms">
-        <int name="count">142</int>
+        <int name="count">102</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">recording</str>
+        <str name="text">imports</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commerce</str>
-        <double name="strength">0.5590169943749486</double>
+        <str name="text">retaliate</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">today</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">security</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">portions</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">restrictive</str>
+        <double name="strength">0.9840716504496505</double>
       </lst>
       <lst name="term">
-        <str name="text">wideranging</str>
-        <double name="strength">0.500000000000002</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9840716504496503</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Meeting in closed session, the House Ways and Means Committee agreed to allow President Reagan to retaliate against foreign countries that refuse to open their markets to U.</str>
+        <int name="index">23</int>
+        <int name="start">1</int>
+        <int name="end">174</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The House Foreign Affairs Subcommittee on International Economic Policy voted to direct the administration to cut the list of controlled exports by 40 per cent by removing items no longer considered important to U.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.8919597888125589</double>
+        <int name="terms">13</int>
+      </lst>
       <lst name="sentence">
         <str name="text">S. companies were treated unfairly and whether they have been barred from bids on lucrative public works projects such as the eight billion dlr Kansai airport construction.</str>
         <int name="index">19</int>
         <int name="start">0</int>
         <int name="end">172</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A key House panel voted to greatly ease government controls on exports as several House committees moved rapidly toward approval of major changes in trade laws they hope will help solve U.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">188</int>
-        <double name="strength">0.9330826187979229</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Sparked by the proposal of Fujitsu Ltd. to take controlling interest in Schlumberger Ltd's Fairchild Semiconductor Corp., the House Energy and Commerce subcommittee on Commerce voted to expand Reagan's authority to block foreign takeovers of U.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">245</int>
-        <double name="strength">0.9146753750850742</double>
+        <double name="strength">0.8390867055040337</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;companies&lt;/em&gt; were &lt;em&gt;treated unfairly&lt;/em&gt; and &lt;em&gt;whether&lt;/em&gt; they have been &lt;em&gt;barred&lt;/em&gt; from bids on &lt;em&gt;lucrative public works projects&lt;/em&gt; such as the &lt;em&gt;eight billion&lt;/em&gt; dlr &lt;em&gt;Kansai airport construction&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Meeting&lt;/em&gt; in closed &lt;em&gt;session,&lt;/em&gt; the &lt;em&gt;House&lt;/em&gt; Ways and &lt;em&gt;Means Committee&lt;/em&gt; agreed to &lt;em&gt;allow President Reagan&lt;/em&gt; to &lt;em&gt;retaliate&lt;/em&gt; against &lt;em&gt;foreign countries&lt;/em&gt; that &lt;em&gt;refuse&lt;/em&gt; to open their &lt;em&gt;markets&lt;/em&gt; to U.</str>
+        <int name="index">23</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;House Foreign Affairs Subcommittee&lt;/em&gt; on &lt;em&gt;International Economic Policy&lt;/em&gt; voted to &lt;em&gt;direct&lt;/em&gt; the &lt;em&gt;administration&lt;/em&gt; to cut the list of &lt;em&gt;controlled exports&lt;/em&gt; by 40 per cent by removing &lt;em&gt;items&lt;/em&gt; no longer considered &lt;em&gt;important&lt;/em&gt; to U.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;companies&lt;/em&gt; were treated unfairly and whether they have been barred from bids on &lt;em&gt;lucrative public&lt;/em&gt; works &lt;em&gt;projects&lt;/em&gt; such as the &lt;em&gt;eight billion&lt;/em&gt; dlr Kansai &lt;em&gt;airport construction&lt;/em&gt;.</str>
         <int name="index">19</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A key &lt;em&gt;House panel voted&lt;/em&gt; to &lt;em&gt;greatly&lt;/em&gt; ease &lt;em&gt;government controls&lt;/em&gt; on &lt;em&gt;exports&lt;/em&gt; as &lt;em&gt;several House committees moved rapidly toward approval&lt;/em&gt; of &lt;em&gt;major changes&lt;/em&gt; in &lt;em&gt;trade&lt;/em&gt; laws they hope will help &lt;em&gt;solve U&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Sparked&lt;/em&gt; by the &lt;em&gt;proposal&lt;/em&gt; of &lt;em&gt;Fujitsu&lt;/em&gt; Ltd. to take &lt;em&gt;controlling interest&lt;/em&gt; in &lt;em&gt;Schlumberger&lt;/em&gt; Ltd's &lt;em&gt;Fairchild Semiconductor&lt;/em&gt; Corp., the &lt;em&gt;House Energy&lt;/em&gt; and &lt;em&gt;Commerce subcommittee&lt;/em&gt; on &lt;em&gt;Commerce voted&lt;/em&gt; to &lt;em&gt;expand Reagan&lt;/em&gt;'s &lt;em&gt;authority&lt;/em&gt; to &lt;em&gt;block foreign takeovers&lt;/em&gt; of U.</str>
-        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

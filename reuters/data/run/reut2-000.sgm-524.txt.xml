@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-524.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,17 +21,13 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">112</int>
+        <int name="count">80</int>
       </lst>
       <lst name="stems">
-        <int name="count">71</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
-      <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="term">
         <str name="text">decade</str>
         <double name="strength">1.0</double>
@@ -41,49 +37,56 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">forced</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">insufficient</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">reluctantly</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">coils</str>
+        <double name="strength">0.9999999999999989</double>
+      </lst>
+      <lst name="term">
+        <str name="text">further</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Under the plan steel output would remain subject to restrictive quotas and imports would be firmly controlled for years to come while steel firms undertook a massive slimming-down operation to adjust capacity to lower demand.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">But diplomats said some ministers who meet to discuss this idea on March 19 will argue that steel firms are in crisis in their countries, with orders falling as customers switch to alternative products and accounts firmly in the red.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">234</int>
-        <double name="strength">0.8563997859459341</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Eurofer added the industry would need the support of the Commission and governments in carrying out a closure program, particularly with social costs such as redundancy payments.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">179</int>
-        <double name="strength">0.821822772960854</double>
+        <double name="strength">0.8769844434182049</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">European Community steelmakers presented the Executive Commission with a controversial plan for the future of the industry which diplomats say it may be forced reluctantly to accept.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">182</int>
+        <double name="strength">0.8349200554290134</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the plan &lt;em&gt;steel output would remain subject&lt;/em&gt; to &lt;em&gt;restrictive quotas&lt;/em&gt; and &lt;em&gt;imports would&lt;/em&gt; be &lt;em&gt;firmly controlled&lt;/em&gt; for &lt;em&gt;years&lt;/em&gt; to come &lt;em&gt;while steel firms undertook&lt;/em&gt; a &lt;em&gt;massive slimming&lt;/em&gt;-down &lt;em&gt;operation&lt;/em&gt; to &lt;em&gt;adjust capacity&lt;/em&gt; to &lt;em&gt;lower demand&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But &lt;em&gt;diplomats&lt;/em&gt; said some &lt;em&gt;ministers&lt;/em&gt; who meet to &lt;em&gt;discuss&lt;/em&gt; this idea on &lt;em&gt;March 19&lt;/em&gt; will &lt;em&gt;argue&lt;/em&gt; that &lt;em&gt;steel firms&lt;/em&gt; are in &lt;em&gt;crisis&lt;/em&gt; in &lt;em&gt;their countries,&lt;/em&gt; with &lt;em&gt;orders falling&lt;/em&gt; as &lt;em&gt;customers switch&lt;/em&gt; to &lt;em&gt;alternative products&lt;/em&gt; and &lt;em&gt;accounts firmly&lt;/em&gt; in the red.</str>
+        <str name="text">But &lt;em&gt;diplomats&lt;/em&gt; said some &lt;em&gt;ministers&lt;/em&gt; who meet to &lt;em&gt;discuss&lt;/em&gt; this idea on &lt;em&gt;March 19&lt;/em&gt; will &lt;em&gt;argue&lt;/em&gt; that &lt;em&gt;steel firms&lt;/em&gt; are in &lt;em&gt;crisis&lt;/em&gt; in their &lt;em&gt;countries,&lt;/em&gt; with &lt;em&gt;orders&lt;/em&gt; falling as &lt;em&gt;customers switch&lt;/em&gt; to &lt;em&gt;alternative products&lt;/em&gt; and &lt;em&gt;accounts&lt;/em&gt; firmly in the red.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Eurofer added&lt;/em&gt; the &lt;em&gt;industry would&lt;/em&gt; need the &lt;em&gt;support&lt;/em&gt; of the &lt;em&gt;Commission&lt;/em&gt; and &lt;em&gt;governments&lt;/em&gt; in &lt;em&gt;carrying&lt;/em&gt; out a &lt;em&gt;closure program, particularly&lt;/em&gt; with &lt;em&gt;social costs&lt;/em&gt; such as &lt;em&gt;redundancy payments&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Eurofer&lt;/em&gt; added the &lt;em&gt;industry&lt;/em&gt; would need the &lt;em&gt;support&lt;/em&gt; of the &lt;em&gt;Commission&lt;/em&gt; and &lt;em&gt;governments&lt;/em&gt; in carrying out a &lt;em&gt;closure program,&lt;/em&gt; particularly with &lt;em&gt;social costs&lt;/em&gt; such as &lt;em&gt;redundancy payments&lt;/em&gt;.</str>
         <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;European Community steelmakers&lt;/em&gt; presented the &lt;em&gt;Executive Commission&lt;/em&gt; with a &lt;em&gt;controversial&lt;/em&gt; plan for the &lt;em&gt;future&lt;/em&gt; of the &lt;em&gt;industry&lt;/em&gt; which &lt;em&gt;diplomats&lt;/em&gt; say it may be forced reluctantly to &lt;em&gt;accept&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

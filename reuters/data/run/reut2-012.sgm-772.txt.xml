@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-772.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">191</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">122</int>
+        <int name="count">84</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">legislative</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">consecutive</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">presidential</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">strength</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">defied</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">controlled</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">whose</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">political</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">337</int>
         <double name="strength">1.0</double>
+        <int name="terms">25</int>
       </lst>
       <lst name="sentence">
         <str name="text">It was the third consecutive fight over a presidential veto on which Congress had defied Reagan, whose clout with the legislature has been greatly diminished by the arms-for-Iran scandal and the capture of a majority in the Senate by the opposition Democratic party in the November 1986 election.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">297</int>
-        <double name="strength">0.807738359427781</double>
+        <double name="strength">0.7751005539525815</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The president slumped from about 65 pct last autumn to about 42 pct after the Tower Commission report in February said he had failed to exercise proper control over the dealings with Iran.</str>
-        <int name="index">21</int>
-        <int name="start">0</int>
-        <int name="end">188</int>
-        <double name="strength">0.7899122765515433</double>
+        <str name="text">"President Reagan, he ain't going to be running in 1988, but I am," Congressman Arthur Ravenel, a South Carolina Republican, said on Tuesday of his decision to back a bill that means money and jobs for his home district in new highway construction.</str>
+        <int name="index">18</int>
+        <int name="start">1</int>
+        <int name="end">249</int>
+        <double name="strength">0.7093603724820439</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;defeat interrupted&lt;/em&gt; a good &lt;em&gt;streak&lt;/em&gt; for &lt;em&gt;Reagan,&lt;/em&gt; who won &lt;em&gt;applause&lt;/em&gt; for his &lt;em&gt;selection&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; of &lt;em&gt;former Senate majority leader Howard Baker&lt;/em&gt; to &lt;em&gt;replace Donald Regan&lt;/em&gt; as &lt;em&gt;White House chief&lt;/em&gt; of &lt;em&gt;staff,&lt;/em&gt; and was &lt;em&gt;believed&lt;/em&gt; by most &lt;em&gt;political analysts&lt;/em&gt; to have &lt;em&gt;benefitted&lt;/em&gt; from a &lt;em&gt;televised speech&lt;/em&gt; and a news &lt;em&gt;conference&lt;/em&gt; on the Iran &lt;em&gt;affair&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;defeat&lt;/em&gt; interrupted a good &lt;em&gt;streak&lt;/em&gt; for &lt;em&gt;Reagan,&lt;/em&gt; who won &lt;em&gt;applause&lt;/em&gt; for his &lt;em&gt;selection&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; of &lt;em&gt;former Senate majority leader&lt;/em&gt; Howard &lt;em&gt;Baker&lt;/em&gt; to &lt;em&gt;replace Donald Regan&lt;/em&gt; as &lt;em&gt;White House chief&lt;/em&gt; of &lt;em&gt;staff,&lt;/em&gt; and was believed by most &lt;em&gt;political analysts&lt;/em&gt; to have benefitted from a &lt;em&gt;televised speech&lt;/em&gt; and a news &lt;em&gt;conference&lt;/em&gt; on the Iran &lt;em&gt;affair&lt;/em&gt; last &lt;em&gt;month&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It was the &lt;em&gt;third consecutive fight&lt;/em&gt; over a &lt;em&gt;presidential&lt;/em&gt; veto on &lt;em&gt;which Congress&lt;/em&gt; had &lt;em&gt;defied Reagan, whose clout&lt;/em&gt; with the &lt;em&gt;legislature&lt;/em&gt; has been &lt;em&gt;greatly diminished&lt;/em&gt; by the arms-for-Iran &lt;em&gt;scandal&lt;/em&gt; and the &lt;em&gt;capture&lt;/em&gt; of a &lt;em&gt;majority&lt;/em&gt; in the &lt;em&gt;Senate&lt;/em&gt; by the &lt;em&gt;opposition Democratic party&lt;/em&gt; in the &lt;em&gt;November 1986 election&lt;/em&gt;.</str>
+        <str name="text">It was the &lt;em&gt;third consecutive fight&lt;/em&gt; over a &lt;em&gt;presidential&lt;/em&gt; veto on which &lt;em&gt;Congress&lt;/em&gt; had defied Reagan, whose &lt;em&gt;clout&lt;/em&gt; with the &lt;em&gt;legislature&lt;/em&gt; has been greatly diminished by the arms-for-Iran &lt;em&gt;scandal&lt;/em&gt; and the &lt;em&gt;capture&lt;/em&gt; of a &lt;em&gt;majority&lt;/em&gt; in the &lt;em&gt;Senate&lt;/em&gt; by the &lt;em&gt;opposition Democratic party&lt;/em&gt; in the &lt;em&gt;November 1986 election&lt;/em&gt;.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;president slumped&lt;/em&gt; from &lt;em&gt;about 65&lt;/em&gt; pct last &lt;em&gt;autumn&lt;/em&gt; to &lt;em&gt;about 42&lt;/em&gt; pct &lt;em&gt;after&lt;/em&gt; the &lt;em&gt;Tower Commission report&lt;/em&gt; in &lt;em&gt;February&lt;/em&gt; said he had &lt;em&gt;failed&lt;/em&gt; to &lt;em&gt;exercise proper control&lt;/em&gt; over the &lt;em&gt;dealings&lt;/em&gt; with Iran.</str>
-        <int name="index">21</int>
+        <str name="text">&lt;em&gt;"President&lt;/em&gt; Reagan, he ain't going to be running in 1988, but I am," &lt;em&gt;Congressman Arthur&lt;/em&gt; Ravenel, a &lt;em&gt;South Carolina Republican,&lt;/em&gt; said on &lt;em&gt;Tuesday&lt;/em&gt; of his &lt;em&gt;decision&lt;/em&gt; to back a bill that means &lt;em&gt;money&lt;/em&gt; and jobs for his home &lt;em&gt;district&lt;/em&gt; in new &lt;em&gt;highway construction&lt;/em&gt;.</str>
+        <int name="index">18</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">24</int>
+  <int name="QTime">33</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-634.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">43</int>
       </lst>
       <lst name="terms">
-        <int name="count">253</int>
+        <int name="count">181</int>
       </lst>
       <lst name="stems">
-        <int name="count">163</int>
+        <int name="count">117</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">explosion</str>
+        <str name="text">government</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">thrown</str>
-        <double name="strength">1.0</double>
+        <str name="text">supporter</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">thousands</str>
-        <double name="strength">1.0</double>
+        <str name="text">cruzados</str>
+        <double name="strength">0.9957279453415534</double>
       </lst>
       <lst name="term">
-        <str name="text">families</str>
-        <double name="strength">1.0</double>
+        <str name="text">paulo</str>
+        <double name="strength">0.9850565994738684</double>
       </lst>
       <lst name="term">
-        <str name="text">streets</str>
-        <double name="strength">1.0</double>
+        <str name="text">criticism</str>
+        <double name="strength">0.985056599473866</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">161</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">An explosion in rents in Sao Paulo has thrown tens of thousands of families onto the streets because they can no longer afford to pay even for a wooden shack in the slums.</str>
         <int name="index">36</int>
         <int name="start">1</int>
         <int name="end">172</int>
-        <double name="strength">0.9503016816001182</double>
+        <double name="strength">0.8815524998657011</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But one PMDB leader, Senator Affonso Camargo, pointedly said yesterday that it was the sovereign right of the Consituent Assembly to call direct elections for the presidency whenever it wished.</str>
-        <int name="index">25</int>
+        <str name="text">Many businessmen are unhappy with Sarney's decision announced on February 20 to suspend interest payments on 68 billion dlrs of foreign debt.</str>
+        <int name="index">16</int>
         <int name="start">1</int>
-        <int name="end">194</int>
-        <double name="strength">0.9247511886663529</double>
+        <int name="end">142</int>
+        <double name="strength">0.8762481311376419</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Since&lt;/em&gt; the end of &lt;em&gt;February&lt;/em&gt; they have &lt;em&gt;organized national strikes&lt;/em&gt; of &lt;em&gt;seamen, bankworkers&lt;/em&gt; and &lt;em&gt;federal university teachers&lt;/em&gt; and &lt;em&gt;countless local stoppages&lt;/em&gt; and &lt;em&gt;protests&lt;/em&gt;.</str>
+        <str name="text">Since the end of &lt;em&gt;February&lt;/em&gt; they have organized &lt;em&gt;national strikes&lt;/em&gt; of &lt;em&gt;seamen, bankworkers&lt;/em&gt; and &lt;em&gt;federal university teachers&lt;/em&gt; and &lt;em&gt;countless local stoppages&lt;/em&gt; and &lt;em&gt;protests&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;explosion&lt;/em&gt; in &lt;em&gt;rents&lt;/em&gt; in Sao &lt;em&gt;Paulo&lt;/em&gt; has &lt;em&gt;thrown&lt;/em&gt; tens of &lt;em&gt;thousands&lt;/em&gt; of &lt;em&gt;families&lt;/em&gt; onto the &lt;em&gt;streets because&lt;/em&gt; they can no &lt;em&gt;longer afford&lt;/em&gt; to pay even for a &lt;em&gt;wooden shack&lt;/em&gt; in the &lt;em&gt;slums&lt;/em&gt;.</str>
+        <str name="text">An &lt;em&gt;explosion&lt;/em&gt; in &lt;em&gt;rents&lt;/em&gt; in Sao &lt;em&gt;Paulo&lt;/em&gt; has thrown tens of &lt;em&gt;thousands&lt;/em&gt; of &lt;em&gt;families&lt;/em&gt; onto the &lt;em&gt;streets&lt;/em&gt; because they can no longer &lt;em&gt;afford&lt;/em&gt; to pay even for a &lt;em&gt;wooden shack&lt;/em&gt; in the &lt;em&gt;slums&lt;/em&gt;.</str>
         <int name="index">36</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But one PMDB &lt;em&gt;leader, Senator Affonso Camargo, pointedly&lt;/em&gt; said &lt;em&gt;yesterday&lt;/em&gt; that it was the &lt;em&gt;sovereign right&lt;/em&gt; of the &lt;em&gt;Consituent Assembly&lt;/em&gt; to call &lt;em&gt;direct elections&lt;/em&gt; for the &lt;em&gt;presidency whenever&lt;/em&gt; it &lt;em&gt;wished&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">Many &lt;em&gt;businessmen&lt;/em&gt; are &lt;em&gt;unhappy&lt;/em&gt; with &lt;em&gt;Sarney&lt;/em&gt;'s &lt;em&gt;decision&lt;/em&gt; announced on &lt;em&gt;February 20&lt;/em&gt; to &lt;em&gt;suspend interest payments&lt;/em&gt; on 68 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;foreign debt&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

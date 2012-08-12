@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-975.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">155</int>
+        <int name="count">117</int>
       </lst>
       <lst name="stems">
-        <int name="count">99</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">prime</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">against</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">minister</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">alert</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">speech</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">permit</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">timely</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">financial</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Chirac said he hoped concrete steps could be reached on these issues at forthcoming international meetings -- the International Monetary Fund/World Bank session in Washington and the June summit of seven leading western nations in Venice.</str>
-        <int name="index">20</int>
-        <int name="start">1</int>
-        <int name="end">239</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Reagan administration is seeking to tone down a tough trade bill which if passed would require the president to retaliate against countries deemed to discriminate against U.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">178</int>
-        <double name="strength">0.7439142971164312</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The industrialized states should agree to set up a monetary framework which would provide the necessary stability as well as sufficient flexibility to allow ajustments when needed," Chirac said.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">196</int>
-        <double name="strength">0.714937539834799</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The prime minister, on the first day of a three-day visit to the United States, said the February 22 Paris accords agreed by the "Group of Five" industrial nations should serve as a basis for the new mechanism.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">211</int>
+        <double name="strength">0.9768064202602897</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In other points of his speech, Chirac called on countries with high trade surpluses -- an apparent reference to Japan -- to open up their markets and stimulate demand.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.9460747264497745</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Chirac&lt;/em&gt; said he &lt;em&gt;hoped concrete steps could&lt;/em&gt; be &lt;em&gt;reached&lt;/em&gt; on &lt;em&gt;these issues&lt;/em&gt; at &lt;em&gt;forthcoming international meetings --&lt;/em&gt; the &lt;em&gt;International Monetary&lt;/em&gt; Fund/&lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;session&lt;/em&gt; in &lt;em&gt;Washington&lt;/em&gt; and the June &lt;em&gt;summit&lt;/em&gt; of &lt;em&gt;seven leading western nations&lt;/em&gt; in &lt;em&gt;Venice&lt;/em&gt;.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;Reagan administration&lt;/em&gt; is &lt;em&gt;seeking&lt;/em&gt; to tone down a &lt;em&gt;tough trade&lt;/em&gt; bill &lt;em&gt;which&lt;/em&gt; if &lt;em&gt;passed would require&lt;/em&gt; the &lt;em&gt;president&lt;/em&gt; to &lt;em&gt;retaliate against countries deemed&lt;/em&gt; to &lt;em&gt;discriminate against U&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;industrialized states should agree&lt;/em&gt; to set up a &lt;em&gt;monetary framework which would provide&lt;/em&gt; the &lt;em&gt;necessary stability&lt;/em&gt; as well as &lt;em&gt;sufficient flexibility&lt;/em&gt; to &lt;em&gt;allow ajustments&lt;/em&gt; when &lt;em&gt;needed," Chirac said&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;industrialized states&lt;/em&gt; should &lt;em&gt;agree&lt;/em&gt; to set up a &lt;em&gt;monetary framework&lt;/em&gt; which would &lt;em&gt;provide&lt;/em&gt; the &lt;em&gt;necessary stability&lt;/em&gt; as well as &lt;em&gt;sufficient flexibility&lt;/em&gt; to &lt;em&gt;allow ajustments&lt;/em&gt; when needed," &lt;em&gt;Chirac said&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;prime minister,&lt;/em&gt; on the &lt;em&gt;first&lt;/em&gt; day of a &lt;em&gt;three&lt;/em&gt;-day &lt;em&gt;visit&lt;/em&gt; to the United &lt;em&gt;States,&lt;/em&gt; said the &lt;em&gt;February 22 Paris&lt;/em&gt; accords agreed by the "&lt;em&gt;Group&lt;/em&gt; of Five" &lt;em&gt;industrial nations&lt;/em&gt; should &lt;em&gt;serve&lt;/em&gt; as a &lt;em&gt;basis&lt;/em&gt; for the new &lt;em&gt;mechanism&lt;/em&gt;.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In &lt;em&gt;other points&lt;/em&gt; of his &lt;em&gt;speech, Chirac&lt;/em&gt; called on &lt;em&gt;countries&lt;/em&gt; with high &lt;em&gt;trade surpluses --&lt;/em&gt; an &lt;em&gt;apparent reference&lt;/em&gt; to &lt;em&gt;Japan --&lt;/em&gt; to open up their &lt;em&gt;markets&lt;/em&gt; and &lt;em&gt;stimulate demand&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

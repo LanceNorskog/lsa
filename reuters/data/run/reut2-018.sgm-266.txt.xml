@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-266.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">113</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">networks</str>
+        <str name="text">president</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">number</str>
+        <double name="strength">0.9999999999999999</double>
+      </lst>
+      <lst name="term">
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999997</double>
+      </lst>
+      <lst name="term">
+        <str name="text">demand</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
         <str name="text">share</str>
-        <double name="strength">0.5590169943749476</double>
-      </lst>
-      <lst name="term">
-        <str name="text">finding</str>
-        <double name="strength">0.5000000000000011</double>
-      </lst>
-      <lst name="term">
-        <str name="text">aggressive</str>
-        <double name="strength">0.5000000000000011</double>
-      </lst>
-      <lst name="term">
-        <str name="text">pricing</str>
-        <double name="strength">0.5000000000000011</double>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Wall Street analysts said they were not surprised by the less than confident message from Data General which earlier today announced computer networking products to link personal computers with networks of its minicomputers and computers from other vendors.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">258</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Despite reports of an upturn in sales at rivals Digital Equipment Corp &lt;DEC&gt; and International Business Machines Corp &lt;IBM&gt;, Data General said it was not convinced that the minicomputer market had emerged from a two-year slump.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">228</int>
-        <double name="strength">0.950757988435025</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the products are part of a new strategy of providing industry-standard systems that allow computers from different vendors to share and exchange information.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.9054808126853688</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Lyons said new hardware and software introduced by the company are a response to customers who want to tie together their growing number of PCs and to connect them with larger mini and mainframe computers.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">206</int>
-        <double name="strength">0.9114242556416811</double>
+        <double name="strength">0.8412850769842352</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Wall &lt;em&gt;Street analysts&lt;/em&gt; said they were not &lt;em&gt;surprised&lt;/em&gt; by the less than &lt;em&gt;confident message&lt;/em&gt; from Data &lt;em&gt;General which earlier today announced computer networking products&lt;/em&gt; to link &lt;em&gt;personal computers&lt;/em&gt; with &lt;em&gt;networks&lt;/em&gt; of its &lt;em&gt;minicomputers&lt;/em&gt; and &lt;em&gt;computers&lt;/em&gt; from &lt;em&gt;other vendors&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Despite reports&lt;/em&gt; of an &lt;em&gt;upturn&lt;/em&gt; in &lt;em&gt;sales&lt;/em&gt; at &lt;em&gt;rivals Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt; and &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, Data &lt;em&gt;General&lt;/em&gt; said it was not &lt;em&gt;convinced&lt;/em&gt; that the &lt;em&gt;minicomputer market&lt;/em&gt; had &lt;em&gt;emerged&lt;/em&gt; from a two-year &lt;em&gt;slump&lt;/em&gt;.</str>
+        <str name="text">Despite &lt;em&gt;reports&lt;/em&gt; of an &lt;em&gt;upturn&lt;/em&gt; in &lt;em&gt;sales&lt;/em&gt; at &lt;em&gt;rivals Digital Equipment&lt;/em&gt; Corp &lt;DEC&gt; and &lt;em&gt;International Business Machines&lt;/em&gt; Corp &lt;IBM&gt;, Data &lt;em&gt;General&lt;/em&gt; said it was not convinced that the &lt;em&gt;minicomputer market&lt;/em&gt; had emerged from a two-year &lt;em&gt;slump&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Lyons&lt;/em&gt; said new &lt;em&gt;hardware&lt;/em&gt; and &lt;em&gt;software introduced&lt;/em&gt; by the &lt;em&gt;company&lt;/em&gt; are a &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;customers&lt;/em&gt; who want to tie &lt;em&gt;together their growing number&lt;/em&gt; of PCs and to &lt;em&gt;connect&lt;/em&gt; them with &lt;em&gt;larger&lt;/em&gt; mini and &lt;em&gt;mainframe computers&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;products&lt;/em&gt; are part of a new &lt;em&gt;strategy&lt;/em&gt; of providing &lt;em&gt;industry-standard systems&lt;/em&gt; that &lt;em&gt;allow computers&lt;/em&gt; from &lt;em&gt;different vendors&lt;/em&gt; to &lt;em&gt;share&lt;/em&gt; and &lt;em&gt;exchange information&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Lyons&lt;/em&gt; said new &lt;em&gt;hardware&lt;/em&gt; and &lt;em&gt;software&lt;/em&gt; introduced by the &lt;em&gt;company&lt;/em&gt; are a &lt;em&gt;response&lt;/em&gt; to &lt;em&gt;customers&lt;/em&gt; who want to tie together their growing &lt;em&gt;number&lt;/em&gt; of PCs and to &lt;em&gt;connect&lt;/em&gt; them with larger mini and &lt;em&gt;mainframe computers&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
     </lst>

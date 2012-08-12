@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-497.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">82</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">45</int>
+        <int name="count">33</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">opened</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">continue</str>
-        <double name="strength">0.9999999999999991</double>
-      </lst>
-      <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
         <str name="text">branches</str>
-        <double name="strength">0.7905694150420949</double>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">network</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">exposure</str>
+        <double name="strength">0.9999999999999987</double>
+      </lst>
+      <lst name="term">
+        <str name="text">operating</str>
+        <double name="strength">0.9999999999999983</double>
+      </lst>
+      <lst name="term">
+        <str name="text">total</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He told a news conference on 1986 results that branches in Hamburg and Schleswig-Holstein would be merged or closed, a branch in Frankfurt opened and that the bank was considering opening a branch in London.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">208</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">F&gt; plans to streamline its branch network to improve its distribution of financial services, management board member Eberhard-Rainer Luckey said.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">145</int>
-        <double name="strength">0.8187123152075249</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The group balance sheet, including for the first time VereinWest Overseas Finance (Jersey), rose 9.2 pct to 17.9 billion marks, Luckey said.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">141</int>
-        <double name="strength">0.6363897771572145</double>
+        <double name="strength">0.7779449490866175</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The bank's exposure in Latin America was less than two pct of its total foreign credit and in Africa less than one pct.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">120</int>
+        <double name="strength">0.6138304957041077</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He told a news &lt;em&gt;conference&lt;/em&gt; on 1986 &lt;em&gt;results&lt;/em&gt; that &lt;em&gt;branches&lt;/em&gt; in &lt;em&gt;Hamburg&lt;/em&gt; and &lt;em&gt;Schleswig-Holstein would&lt;/em&gt; be &lt;em&gt;merged&lt;/em&gt; or &lt;em&gt;closed,&lt;/em&gt; a &lt;em&gt;branch&lt;/em&gt; in &lt;em&gt;Frankfurt opened&lt;/em&gt; and that the bank was &lt;em&gt;considering opening&lt;/em&gt; a &lt;em&gt;branch&lt;/em&gt; in &lt;em&gt;London&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">F&gt; &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;streamline&lt;/em&gt; its &lt;em&gt;branch network&lt;/em&gt; to &lt;em&gt;improve&lt;/em&gt; its &lt;em&gt;distribution&lt;/em&gt; of &lt;em&gt;financial services, management board member Eberhard-Rainer Luckey said&lt;/em&gt;.</str>
+        <str name="text">F&gt; plans to &lt;em&gt;streamline&lt;/em&gt; its &lt;em&gt;branch network&lt;/em&gt; to &lt;em&gt;improve&lt;/em&gt; its &lt;em&gt;distribution&lt;/em&gt; of &lt;em&gt;financial services, management board member&lt;/em&gt; Eberhard-&lt;em&gt;Rainer Luckey said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;group balance sheet, including&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time &lt;em&gt;VereinWest Overseas Finance (Jersey),&lt;/em&gt; rose 9.2 pct to 17.9 &lt;em&gt;billion marks, Luckey said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;group balance sheet,&lt;/em&gt; including for the &lt;em&gt;first&lt;/em&gt; time VereinWest &lt;em&gt;Overseas Finance (Jersey),&lt;/em&gt; rose 9.2 pct to 17.9 &lt;em&gt;billion marks, Luckey said&lt;/em&gt;.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The bank's &lt;em&gt;exposure&lt;/em&gt; in &lt;em&gt;Latin America&lt;/em&gt; was less than two pct of its &lt;em&gt;total foreign credit&lt;/em&gt; and in Africa less than one pct.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

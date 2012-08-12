@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-751.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">151</int>
+        <int name="count">112</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pesetas</str>
+        <str name="text">likely</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">communists</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">manager</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">workers</str>
-        <double name="strength">0.9999999999999987</double>
+        <str name="text">country</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">unions</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">compete</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">deficit</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">analysts</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The communist-led Workers' Commissions recently rejected a call by its leadership for a general strike while the ruling Socialist Party's trade union arm, the General Workers' Union, has refused to demonstrate with the communists on May 1.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">240</int>
+        <str name="text">Widespread strikes have not seriously disrupted Spain's economy and wage restrictions are likely to continue as policy makers call for more austerity to help the country compete in the European Community (EC), foreign bankers and analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">244</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Bankers say tight-money policies have attracted an avalanche of foreign capital that is cashing in on the strong peseta and high interest rates and those funds, converted into pesetas, are swelling money supply still further.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">226</int>
-        <double name="strength">0.9315102631009463</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">"The money supply should be back on track by the summer and we will begin to see lower interest rates," said Andres Trujillo, general manager of Hong Kong and Shanghai Banking Corp's Madrid branch.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">198</int>
-        <double name="strength">0.7931007164009403</double>
+        <double name="strength">0.9650721751928103</double>
+        <int name="terms">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told Reuters the labour protests, despite occasional outbursts of violence, are not having a serious impact on foreign investment.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">134</int>
+        <double name="strength">0.8255091597580005</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;communist&lt;/em&gt;-led &lt;em&gt;Workers' Commissions recently rejected&lt;/em&gt; a call by its &lt;em&gt;leadership&lt;/em&gt; for a &lt;em&gt;general strike while&lt;/em&gt; the &lt;em&gt;ruling Socialist Party&lt;/em&gt;'s &lt;em&gt;trade union&lt;/em&gt; arm, the &lt;em&gt;General Workers' Union,&lt;/em&gt; has &lt;em&gt;refused&lt;/em&gt; to &lt;em&gt;demonstrate&lt;/em&gt; with the &lt;em&gt;communists&lt;/em&gt; on May 1.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Widespread strikes&lt;/em&gt; have not seriously disrupted &lt;em&gt;Spain&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt; and wage &lt;em&gt;restrictions&lt;/em&gt; are &lt;em&gt;likely&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; as &lt;em&gt;policy makers&lt;/em&gt; call for more &lt;em&gt;austerity&lt;/em&gt; to help the &lt;em&gt;country compete&lt;/em&gt; in the &lt;em&gt;European Community &lt;/em&gt;(EC), &lt;em&gt;foreign bankers&lt;/em&gt; and &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; say &lt;em&gt;tight-money policies&lt;/em&gt; have &lt;em&gt;attracted&lt;/em&gt; an &lt;em&gt;avalanche&lt;/em&gt; of &lt;em&gt;foreign capital&lt;/em&gt; that is &lt;em&gt;cashing&lt;/em&gt; in on the &lt;em&gt;strong peseta&lt;/em&gt; and high &lt;em&gt;interest rates&lt;/em&gt; and &lt;em&gt;those funds, converted&lt;/em&gt; into &lt;em&gt;pesetas,&lt;/em&gt; are &lt;em&gt;swelling money supply still further&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;money supply should&lt;/em&gt; be back on &lt;em&gt;track&lt;/em&gt; by the &lt;em&gt;summer&lt;/em&gt; and we will &lt;em&gt;begin&lt;/em&gt; to see &lt;em&gt;lower interest rates,"&lt;/em&gt; said &lt;em&gt;Andres Trujillo, general manager&lt;/em&gt; of Hong Kong and &lt;em&gt;Shanghai Banking&lt;/em&gt; Corp's &lt;em&gt;Madrid branch&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;money supply&lt;/em&gt; should be back on &lt;em&gt;track&lt;/em&gt; by the &lt;em&gt;summer&lt;/em&gt; and we will &lt;em&gt;begin&lt;/em&gt; to see lower &lt;em&gt;interest rates,"&lt;/em&gt; said &lt;em&gt;Andres&lt;/em&gt; Trujillo, &lt;em&gt;general manager&lt;/em&gt; of Hong Kong and &lt;em&gt;Shanghai Banking&lt;/em&gt; Corp's &lt;em&gt;Madrid branch&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told &lt;em&gt;Reuters&lt;/em&gt; the &lt;em&gt;labour&lt;/em&gt; protests, despite &lt;em&gt;occasional outbursts&lt;/em&gt; of &lt;em&gt;violence,&lt;/em&gt; are not having a &lt;em&gt;serious impact&lt;/em&gt; on &lt;em&gt;foreign investment&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

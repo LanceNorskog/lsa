@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-29.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">88</int>
+        <int name="count">59</int>
       </lst>
       <lst name="stems">
-        <int name="count">49</int>
+        <int name="count">32</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">members</str>
+        <str name="text">subroto</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">worst</str>
-        <double name="strength">0.9999999999999999</double>
+        <str name="text">conflict</str>
+        <double name="strength">0.6824761997150127</double>
       </lst>
       <lst name="term">
-        <str name="text">explicit</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">energy</str>
+        <double name="strength">0.6700924568007671</double>
       </lst>
       <lst name="term">
-        <str name="text">reference</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">minister</str>
+        <double name="strength">0.6683363268048053</double>
       </lst>
       <lst name="term">
-        <str name="text">latest</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">members</str>
+        <double name="strength">0.6624656328320939</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Subroto, a member of Opec's three-man quota committee which has been touring cartel members, said speculation may play havoc with spot prices, but Opec was trying to stabilize the situation by urging cooperation by non-Opec producers.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">But in an address to a conference of the Indonesian Petroleum Association, he said, "If worst comes to worst and say the flow of oil through the Straits of Hormuz is completely shut off, I believe the world oil supply, given time to adjust, can take care of the situation."</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">274</int>
-        <double name="strength">0.9277949215867111</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Assessing future price trends, he said, "Short-term spot prices will probably still fluctuate, but they will most likely hover around the official Opec price basket of 18 dlrs per barrel.</str>
-        <int name="index">6</int>
+        <str name="text">Oil prices would skyrocket for a time if conflict in the Gulf closed the Strait of Hormuz, but oil supplies could be adjusted to take care of world demand, Indonesian Energy Minister Subroto said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">196</int>
+        <double name="strength">0.8720979916624574</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Subroto, a member of Opec's three-man quota committee which has been touring cartel members, said speculation may play havoc with spot prices, but Opec was trying to stabilize the situation by urging cooperation by non-Opec producers.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.8047490994333812</double>
+        <int name="end">235</int>
+        <double name="strength">0.8693536812333228</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Subroto,&lt;/em&gt; a &lt;em&gt;member&lt;/em&gt; of Opec's &lt;em&gt;three&lt;/em&gt;-man &lt;em&gt;quota committee which&lt;/em&gt; has been &lt;em&gt;touring cartel members,&lt;/em&gt; said &lt;em&gt;speculation&lt;/em&gt; may play &lt;em&gt;havoc&lt;/em&gt; with spot &lt;em&gt;prices,&lt;/em&gt; but Opec was &lt;em&gt;trying&lt;/em&gt; to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;situation&lt;/em&gt; by &lt;em&gt;urging cooperation&lt;/em&gt; by non-Opec &lt;em&gt;producers&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But in an &lt;em&gt;address&lt;/em&gt; to a &lt;em&gt;conference&lt;/em&gt; of the &lt;em&gt;Indonesian Petroleum Association,&lt;/em&gt; he said, "If &lt;em&gt;worst comes&lt;/em&gt; to &lt;em&gt;worst&lt;/em&gt; and say the flow of oil &lt;em&gt;through&lt;/em&gt; the &lt;em&gt;Straits&lt;/em&gt; of &lt;em&gt;Hormuz&lt;/em&gt; is &lt;em&gt;completely&lt;/em&gt; shut off, I &lt;em&gt;believe&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;supply, given&lt;/em&gt; time to &lt;em&gt;adjust,&lt;/em&gt; can take care of the &lt;em&gt;situation.&lt;/em&gt;"</str>
+        <str name="text">But in an &lt;em&gt;address&lt;/em&gt; to a &lt;em&gt;conference&lt;/em&gt; of the &lt;em&gt;Indonesian Petroleum Association,&lt;/em&gt; he said, "If worst comes to worst and say the flow of oil through the &lt;em&gt;Straits&lt;/em&gt; of &lt;em&gt;Hormuz&lt;/em&gt; is completely shut off, I &lt;em&gt;believe&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;supply,&lt;/em&gt; given time to &lt;em&gt;adjust,&lt;/em&gt; can take care of the &lt;em&gt;situation.&lt;/em&gt;"</str>
         <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Assessing future price trends,&lt;/em&gt; he said, "&lt;em&gt;Short&lt;/em&gt;-term spot &lt;em&gt;prices&lt;/em&gt; will &lt;em&gt;probably still fluctuate,&lt;/em&gt; but they will most &lt;em&gt;likely hover around&lt;/em&gt; the &lt;em&gt;official&lt;/em&gt; Opec &lt;em&gt;price basket&lt;/em&gt; of 18 dlrs per &lt;em&gt;barrel&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">Oil &lt;em&gt;prices&lt;/em&gt; would &lt;em&gt;skyrocket&lt;/em&gt; for a time if &lt;em&gt;conflict&lt;/em&gt; in the Gulf closed the &lt;em&gt;Strait&lt;/em&gt; of &lt;em&gt;Hormuz,&lt;/em&gt; but oil &lt;em&gt;supplies&lt;/em&gt; could be adjusted to take care of &lt;em&gt;world demand, Indonesian Energy Minister Subroto said&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Subroto,&lt;/em&gt; a &lt;em&gt;member&lt;/em&gt; of Opec's &lt;em&gt;three&lt;/em&gt;-man &lt;em&gt;quota committee&lt;/em&gt; which has been touring &lt;em&gt;cartel members,&lt;/em&gt; said &lt;em&gt;speculation&lt;/em&gt; may play &lt;em&gt;havoc&lt;/em&gt; with spot &lt;em&gt;prices,&lt;/em&gt; but Opec was trying to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;situation&lt;/em&gt; by urging &lt;em&gt;cooperation&lt;/em&gt; by non-Opec &lt;em&gt;producers&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

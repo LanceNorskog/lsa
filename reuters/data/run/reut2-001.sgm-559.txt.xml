@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-559.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">120</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">83</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">value</str>
+        <str name="text">arrangements</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">currency</str>
+        <str name="text">certain</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">require</str>
-        <double name="strength">0.9999999999999988</double>
+        <str name="text">circumstances</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">single</str>
-        <double name="strength">0.7071067811865458</double>
+        <str name="text">reduce</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">interest</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">further</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">"On the one hand (we) are determined to require adequate capital support for potential future exposure -- on the other hand (we) are concerned that overly stringent capital requirements might unnecessarily affect the ability of U.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">231</int>
+        <str name="text">S. Federal Reserve Board have agreed new proposals for joint standards to measure the risk of an array of credit exposures that do not show up in bank balance sheets, the Bank of England said.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">192</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">At the basis of the new proposals lies the concept of the so-called credit equivalent amount - the current value of a currency or interest rate contract and an estimate of its potential change in value due to currency or interest rate fluctuations until the contract matures.</str>
         <int name="index">10</int>
         <int name="start">2</int>
         <int name="end">277</int>
-        <double name="strength">0.9638512498694217</double>
+        <double name="strength">0.8958206843756734</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In treatment similar to that agreed in January for balance sheet assets, the credit equivalent will be assigned one of five risk weights between zero and 100 pct, depending on the quality of the counterparty, the remaining maturity of the contract and on collaterals or guarantees to the contract, the plans showed.</str>
-        <int name="index">11</int>
+        <str name="text">"On the one hand (we) are determined to require adequate capital support for potential future exposure -- on the other hand (we) are concerned that overly stringent capital requirements might unnecessarily affect the ability of U.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">316</int>
-        <double name="strength">0.7318026489818537</double>
+        <int name="end">231</int>
+        <double name="strength">0.8173317572647099</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"On the one hand (we) are &lt;em&gt;determined&lt;/em&gt; to &lt;em&gt;require adequate capital support&lt;/em&gt; for &lt;em&gt;potential future exposure --&lt;/em&gt; on the &lt;em&gt;other&lt;/em&gt; hand (we) are &lt;em&gt;concerned&lt;/em&gt; that &lt;em&gt;overly stringent capital requirements might unnecessarily affect&lt;/em&gt; the &lt;em&gt;ability&lt;/em&gt; of U.</str>
-        <int name="index">6</int>
+        <str name="text">S. &lt;em&gt;Federal Reserve Board&lt;/em&gt; have agreed new &lt;em&gt;proposals&lt;/em&gt; for &lt;em&gt;joint standards&lt;/em&gt; to &lt;em&gt;measure&lt;/em&gt; the risk of an &lt;em&gt;array&lt;/em&gt; of &lt;em&gt;credit exposures&lt;/em&gt; that do not show up in bank &lt;em&gt;balance sheets,&lt;/em&gt; the Bank of &lt;em&gt;England said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">At the &lt;em&gt;basis&lt;/em&gt; of the new &lt;em&gt;proposals&lt;/em&gt; lies the &lt;em&gt;concept&lt;/em&gt; of the so-&lt;em&gt;called credit equivalent amount -&lt;/em&gt; the &lt;em&gt;current value&lt;/em&gt; of a &lt;em&gt;currency&lt;/em&gt; or &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;contract&lt;/em&gt; and an &lt;em&gt;estimate&lt;/em&gt; of its &lt;em&gt;potential change&lt;/em&gt; in &lt;em&gt;value&lt;/em&gt; due to &lt;em&gt;currency&lt;/em&gt; or &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;fluctuations until&lt;/em&gt; the &lt;em&gt;contract matures&lt;/em&gt;.</str>
+        <str name="text">At the &lt;em&gt;basis&lt;/em&gt; of the new &lt;em&gt;proposals&lt;/em&gt; lies the &lt;em&gt;concept&lt;/em&gt; of the so-called &lt;em&gt;credit equivalent amount -&lt;/em&gt; the &lt;em&gt;current value&lt;/em&gt; of a &lt;em&gt;currency&lt;/em&gt; or &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;contract&lt;/em&gt; and an &lt;em&gt;estimate&lt;/em&gt; of its &lt;em&gt;potential change&lt;/em&gt; in &lt;em&gt;value&lt;/em&gt; due to &lt;em&gt;currency&lt;/em&gt; or &lt;em&gt;interest&lt;/em&gt; rate &lt;em&gt;fluctuations&lt;/em&gt; until the &lt;em&gt;contract matures&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In &lt;em&gt;treatment similar&lt;/em&gt; to that &lt;em&gt;agreed&lt;/em&gt; in &lt;em&gt;January&lt;/em&gt; for &lt;em&gt;balance sheet assets,&lt;/em&gt; the &lt;em&gt;credit equivalent&lt;/em&gt; will be &lt;em&gt;assigned&lt;/em&gt; one of five risk &lt;em&gt;weights between&lt;/em&gt; zero and 100 pct, &lt;em&gt;depending&lt;/em&gt; on the &lt;em&gt;quality&lt;/em&gt; of the &lt;em&gt;counterparty,&lt;/em&gt; the &lt;em&gt;remaining maturity&lt;/em&gt; of the &lt;em&gt;contract&lt;/em&gt; and on &lt;em&gt;collaterals&lt;/em&gt; or &lt;em&gt;guarantees&lt;/em&gt; to the &lt;em&gt;contract,&lt;/em&gt; the &lt;em&gt;plans showed&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">"On the one hand (we) are determined to &lt;em&gt;require adequate capital support&lt;/em&gt; for &lt;em&gt;potential future exposure --&lt;/em&gt; on the &lt;em&gt;other&lt;/em&gt; hand (we) are concerned that overly &lt;em&gt;stringent capital requirements&lt;/em&gt; might unnecessarily &lt;em&gt;affect&lt;/em&gt; the &lt;em&gt;ability&lt;/em&gt; of U.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

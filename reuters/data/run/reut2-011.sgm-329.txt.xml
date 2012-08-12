@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-329.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">62</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">states</str>
+        <str name="text">production</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">output</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">weather</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.9999999999999963</double>
+        <str name="text">areas</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">major</str>
-        <double name="strength">0.5</double>
+        <str name="text">representatives</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">michigan</str>
-        <double name="strength">0.5</double>
+        <str name="text">processors</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Jerry Huckaby, D-La., chairman of the House agriculture subcommittee responsible for the sugar program, has threatened to offer legislation next year to curb domestic sweetener output if growers fail to restrain output in 1987.</str>
-        <int name="index">23</int>
-        <int name="start">0</int>
-        <int name="end">227</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. beet sugar association, said plantings may be up in two major beet growing states, California and Michigan, while sowings could be down slightly in the largest producing state of Minnesota.</str>
-        <int name="index">3</int>
-        <int name="start">0</int>
-        <int name="end">192</int>
-        <double name="strength">0.8973297476185288</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. sugar program offers a loan rate of 18 cents per pound and because payments to farmers from beet processors are spread evenly over the growing season, said Luther Markwart, executive vice president of the American sugarbeet growers association.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">247</int>
-        <double name="strength">0.8369610518305904</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Horis Godfrey, a consultant representing Florida and Texas cane growers, said Florida cane is off to a good start  because for the first time in several years there was no winter freeze.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">187</int>
+        <double name="strength">0.9789190862625642</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The acreage planted to sugarbeets will receive more than the usual amount of attention this year because of mounting concern that continued increases in domestic sugar production threaten the U.</str>
+        <int name="index">17</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.9596158184496874</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Jerry Huckaby,&lt;/em&gt; D-La., &lt;em&gt;chairman&lt;/em&gt; of the &lt;em&gt;House agriculture subcommittee responsible&lt;/em&gt; for the &lt;em&gt;sugar program,&lt;/em&gt; has &lt;em&gt;threatened&lt;/em&gt; to &lt;em&gt;offer legislation&lt;/em&gt; next year to curb &lt;em&gt;domestic sweetener output&lt;/em&gt; if &lt;em&gt;growers&lt;/em&gt; fail to &lt;em&gt;restrain output in 1987&lt;/em&gt;.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. beet &lt;em&gt;sugar association,&lt;/em&gt; said &lt;em&gt;plantings&lt;/em&gt; may be up in two &lt;em&gt;major&lt;/em&gt; beet &lt;em&gt;growing states, California&lt;/em&gt; and &lt;em&gt;Michigan, while sowings could&lt;/em&gt; be down &lt;em&gt;slightly&lt;/em&gt; in the &lt;em&gt;largest producing state&lt;/em&gt; of &lt;em&gt;Minnesota&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;sugar program offers&lt;/em&gt; a loan rate of 18 &lt;em&gt;cents&lt;/em&gt; per &lt;em&gt;pound&lt;/em&gt; and &lt;em&gt;because payments&lt;/em&gt; to &lt;em&gt;farmers&lt;/em&gt; from beet &lt;em&gt;processors&lt;/em&gt; are &lt;em&gt;spread evenly&lt;/em&gt; over the &lt;em&gt;growing season,&lt;/em&gt; said &lt;em&gt;Luther Markwart, executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of the &lt;em&gt;American sugarbeet growers association&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;sugar program&lt;/em&gt; offers a loan rate of 18 &lt;em&gt;cents&lt;/em&gt; per &lt;em&gt;pound&lt;/em&gt; and because &lt;em&gt;payments&lt;/em&gt; to &lt;em&gt;farmers&lt;/em&gt; from beet &lt;em&gt;processors&lt;/em&gt; are spread evenly over the growing &lt;em&gt;season,&lt;/em&gt; said &lt;em&gt;Luther Markwart, executive&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; of the &lt;em&gt;American sugarbeet growers association&lt;/em&gt;.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Horis Godfrey,&lt;/em&gt; a &lt;em&gt;consultant&lt;/em&gt; representing &lt;em&gt;Florida&lt;/em&gt; and &lt;em&gt;Texas&lt;/em&gt; cane &lt;em&gt;growers,&lt;/em&gt; said Florida cane is off to a good &lt;em&gt;start &lt;/em&gt; because for the &lt;em&gt;first&lt;/em&gt; time in &lt;em&gt;several years&lt;/em&gt; there was no &lt;em&gt;winter freeze&lt;/em&gt;.</str>
+        <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;acreage&lt;/em&gt; planted to &lt;em&gt;sugarbeets&lt;/em&gt; will &lt;em&gt;receive&lt;/em&gt; more than the &lt;em&gt;usual amount&lt;/em&gt; of &lt;em&gt;attention&lt;/em&gt; this year because of mounting &lt;em&gt;concern&lt;/em&gt; that &lt;em&gt;continued increases&lt;/em&gt; in &lt;em&gt;domestic sugar production threaten&lt;/em&gt; the U.</str>
+        <int name="index">17</int>
       </lst>
     </lst>
   </lst>

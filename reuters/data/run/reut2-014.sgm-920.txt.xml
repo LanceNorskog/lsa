@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">34</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-920.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">36</int>
       </lst>
       <lst name="terms">
-        <int name="count">196</int>
+        <int name="count">145</int>
       </lst>
       <lst name="stems">
-        <int name="count">131</int>
+        <int name="count">90</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">reached</str>
+        <str name="text">cojuangco</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">sales</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">sources</str>
+        <double name="strength">0.9986518881316774</double>
       </lst>
       <lst name="term">
-        <str name="text">yesterday</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">miguel</str>
+        <double name="strength">0.9986518881316753</double>
       </lst>
       <lst name="term">
-        <str name="text">injunction</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">statement</str>
+        <double name="strength">0.9986518881316753</double>
       </lst>
       <lst name="term">
-        <str name="text">barring</str>
-        <double name="strength">0.5000000000000011</double>
+        <str name="text">commission</str>
+        <double name="strength">0.9634242309653894</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"Coming as it does, when San Miguel Corp and UCPB have reached agreement on the price of the shares and the method of payment, this suit is in direct contravention of the government's expressed desire to reach an amicable settlement of the controversy by April 15," the statement added.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">287</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The amended suit filed by Eduardo de los Angeles is part of a continuing attempt by certain elements, in complete disregard of the facts and with questionable motives, to delay an early disposition of the sequestered shares," San Miguel Corp said in a statement.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">264</int>
-        <double name="strength">0.9679008416234934</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A Manila court yesterday issued an injunction barring UCPB from selling the shares, which represent 31 pct of SMC's outstanding capital stock of 121 mln shares, until hearings on April 21 on a petition filed by Eduardo Cojuangco, a former chairman of both SMC and UCPB.</str>
-        <int name="index">2</int>
+        <str name="text">"Coming as it does, when San Miguel Corp and UCPB have reached agreement on the price of the shares and the method of payment, this suit is in direct contravention of the government's expressed desire to reach an amicable settlement of the controversy by April 15," the statement added.</str>
+        <int name="index">17</int>
         <int name="start">1</int>
-        <int name="end">270</int>
-        <double name="strength">0.893872769265176</double>
+        <int name="end">287</int>
+        <double name="strength">0.9271469985707838</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An arbitration panel set up by President Corazon Aquino to resolve the ownership issue is expected to submit its report by April 15.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">133</int>
+        <double name="strength">0.8655669147042865</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Coming&lt;/em&gt; as it does, when San &lt;em&gt;Miguel&lt;/em&gt; Corp and UCPB have &lt;em&gt;reached agreement&lt;/em&gt; on the &lt;em&gt;price&lt;/em&gt; of the &lt;em&gt;shares&lt;/em&gt; and the &lt;em&gt;method&lt;/em&gt; of &lt;em&gt;payment,&lt;/em&gt; this suit is in &lt;em&gt;direct contravention&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;expressed desire&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; an &lt;em&gt;amicable settlement&lt;/em&gt; of the &lt;em&gt;controversy&lt;/em&gt; by &lt;em&gt;April 15,"&lt;/em&gt; the &lt;em&gt;statement added&lt;/em&gt;.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;amended&lt;/em&gt; suit &lt;em&gt;filed&lt;/em&gt; by &lt;em&gt;Eduardo&lt;/em&gt; de los &lt;em&gt;Angeles&lt;/em&gt; is part of a &lt;em&gt;continuing attempt&lt;/em&gt; by &lt;em&gt;certain elements,&lt;/em&gt; in &lt;em&gt;complete disregard&lt;/em&gt; of the &lt;em&gt;facts&lt;/em&gt; and with &lt;em&gt;questionable motives,&lt;/em&gt; to &lt;em&gt;delay&lt;/em&gt; an &lt;em&gt;early disposition&lt;/em&gt; of the &lt;em&gt;sequestered shares,"&lt;/em&gt; San &lt;em&gt;Miguel&lt;/em&gt; Corp said in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <str name="text">"The amended suit filed by &lt;em&gt;Eduardo&lt;/em&gt; de los &lt;em&gt;Angeles&lt;/em&gt; is part of a continuing &lt;em&gt;attempt&lt;/em&gt; by &lt;em&gt;certain elements,&lt;/em&gt; in &lt;em&gt;complete disregard&lt;/em&gt; of the &lt;em&gt;facts&lt;/em&gt; and with &lt;em&gt;questionable motives,&lt;/em&gt; to &lt;em&gt;delay&lt;/em&gt; an &lt;em&gt;early disposition&lt;/em&gt; of the &lt;em&gt;sequestered shares,"&lt;/em&gt; San &lt;em&gt;Miguel&lt;/em&gt; Corp said in a &lt;em&gt;statement&lt;/em&gt;.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Manila court yesterday issued&lt;/em&gt; an &lt;em&gt;injunction barring&lt;/em&gt; UCPB from &lt;em&gt;selling&lt;/em&gt; the &lt;em&gt;shares, which represent 31&lt;/em&gt; pct of SMC's &lt;em&gt;outstanding capital stock&lt;/em&gt; of 121 mln &lt;em&gt;shares, until hearings&lt;/em&gt; on &lt;em&gt;April 21&lt;/em&gt; on a &lt;em&gt;petition filed&lt;/em&gt; by &lt;em&gt;Eduardo Cojuangco,&lt;/em&gt; a &lt;em&gt;former chairman&lt;/em&gt; of both SMC and UCPB.</str>
-        <int name="index">2</int>
+        <str name="text">"Coming as it does, when San &lt;em&gt;Miguel&lt;/em&gt; Corp and UCPB have reached &lt;em&gt;agreement&lt;/em&gt; on the &lt;em&gt;price&lt;/em&gt; of the &lt;em&gt;shares&lt;/em&gt; and the &lt;em&gt;method&lt;/em&gt; of &lt;em&gt;payment,&lt;/em&gt; this suit is in &lt;em&gt;direct contravention&lt;/em&gt; of the &lt;em&gt;government&lt;/em&gt;'s expressed &lt;em&gt;desire&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; an &lt;em&gt;amicable settlement&lt;/em&gt; of the &lt;em&gt;controversy&lt;/em&gt; by April 15," the &lt;em&gt;statement added&lt;/em&gt;.</str>
+        <int name="index">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">An &lt;em&gt;arbitration panel&lt;/em&gt; set up by &lt;em&gt;President Corazon Aquino&lt;/em&gt; to &lt;em&gt;resolve&lt;/em&gt; the &lt;em&gt;ownership issue&lt;/em&gt; is expected to &lt;em&gt;submit&lt;/em&gt; its &lt;em&gt;report&lt;/em&gt; by &lt;em&gt;April 15&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

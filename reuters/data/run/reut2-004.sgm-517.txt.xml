@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-517.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">22</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">70</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">option</str>
+        <str name="text">spirits</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">could</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">acquisition</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">there</str>
-        <double name="strength">0.5590169943749468</double>
+        <str name="text">possible</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">shall</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">reichmanns</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">looking</str>
-        <double name="strength">0.5000000000000001</double>
+        <str name="text">change</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">230</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">He said the company is not currently negotiating any more acquisitions in Canada but has a team of officials evaluating possible purchases of wines, spirits, soft drinks or food concerns.</str>
         <int name="index">17</int>
         <int name="start">1</int>
         <int name="end">188</int>
-        <double name="strength">0.9196990225341235</double>
+        <double name="strength">0.927527470504476</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">I don't think we shall be looking at the brewery scene (which is) highly concentrated already," he added.</str>
-        <int name="index">19</int>
+        <str name="text">S. dlrs, while the Reichmanns' &lt;Gulf Canada Corp&gt; acquired 49 pct in an out-of-court pact after a hostile battle for the wine and spirits division of &lt;Hiram Walker Resources Ltd&gt;.</str>
+        <int name="index">3</int>
         <int name="start">0</int>
-        <int name="end">105</int>
-        <double name="strength">0.9058328287506656</double>
+        <int name="end">179</int>
+        <double name="strength">0.8508349836230558</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">L&gt; and &lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;Reichmann brothers&lt;/em&gt; are &lt;em&gt;working&lt;/em&gt; well &lt;em&gt;together&lt;/em&gt; as &lt;em&gt;partners&lt;/em&gt; and &lt;em&gt;currently&lt;/em&gt; do not plan any &lt;em&gt;change&lt;/em&gt; in &lt;em&gt;their joint ownership&lt;/em&gt; of &lt;em&gt;distiller Hiram Walker-Gooderham&lt;/em&gt; and &lt;em&gt;Worts, Allied-Lyons chairman Derrick Holden-Brown said&lt;/em&gt;.</str>
+        <str name="text">L&gt; and &lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;Reichmann brothers&lt;/em&gt; are working well together as &lt;em&gt;partners&lt;/em&gt; and currently do not plan any &lt;em&gt;change&lt;/em&gt; in their &lt;em&gt;joint ownership&lt;/em&gt; of &lt;em&gt;distiller Hiram Walker-Gooderham&lt;/em&gt; and &lt;em&gt;Worts,&lt;/em&gt; Allied-&lt;em&gt;Lyons chairman Derrick Holden-Brown said&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;company&lt;/em&gt; is not &lt;em&gt;currently negotiating&lt;/em&gt; any more &lt;em&gt;acquisitions&lt;/em&gt; in &lt;em&gt;Canada&lt;/em&gt; but has a team of &lt;em&gt;officials evaluating possible purchases&lt;/em&gt; of &lt;em&gt;wines, spirits,&lt;/em&gt; soft &lt;em&gt;drinks&lt;/em&gt; or food &lt;em&gt;concerns&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;company&lt;/em&gt; is not currently negotiating any more &lt;em&gt;acquisitions&lt;/em&gt; in &lt;em&gt;Canada&lt;/em&gt; but has a team of &lt;em&gt;officials&lt;/em&gt; evaluating &lt;em&gt;possible purchases&lt;/em&gt; of &lt;em&gt;wines, spirits,&lt;/em&gt; soft &lt;em&gt;drinks&lt;/em&gt; or food &lt;em&gt;concerns&lt;/em&gt;.</str>
         <int name="index">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">I don't &lt;em&gt;think&lt;/em&gt; we &lt;em&gt;shall&lt;/em&gt; be &lt;em&gt;looking&lt;/em&gt; at the &lt;em&gt;brewery scene (which&lt;/em&gt; is) &lt;em&gt;highly concentrated already,"&lt;/em&gt; he &lt;em&gt;added&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">S. dlrs, while the &lt;em&gt;Reichmanns' &lt;/em&gt;&lt;Gulf &lt;em&gt;Canada&lt;/em&gt; Corp&gt; acquired 49 pct in an out-of-&lt;em&gt;court&lt;/em&gt; pact after a &lt;em&gt;hostile battle&lt;/em&gt; for the wine and &lt;em&gt;spirits division&lt;/em&gt; of &lt;&lt;em&gt;Hiram Walker Resources Ltd&gt;&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
     </lst>
   </lst>

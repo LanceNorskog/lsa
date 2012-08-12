@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">10</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-374.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">129</int>
+        <int name="count">101</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">67</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">their</str>
+        <str name="text">britain</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">canada</str>
-        <double name="strength">0.894427190999919</double>
+        <str name="text">director</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">france</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">italy</str>
-        <double name="strength">0.8944271909999176</double>
+        <str name="text">monetary</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">following</str>
-        <double name="strength">0.8944271909999174</double>
+        <str name="text">domestic</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">349</int>
         <double name="strength">1.0</double>
+        <int name="terms">24</int>
       </lst>
       <lst name="sentence">
         <str name="text">They agreed, however, that further actions will be essential to resist rising protectionist pressures, sustain global economic expansion, and reduce trade imbalances.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">167</int>
-        <double name="strength">0.7274298041058316</double>
+        <double name="strength">0.9906052190521039</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They continued the process of multilateral surveillance of their economies pursuant to the arrangements for strengthened economic policy coordination agreed at the 1986 Tokyo summit of their heads of state or government.</str>
-        <int name="index">4</int>
+        <str name="text">They concluded that present and prospective progress in implementing the policy undertakings at the Louvre and in this statement provided a basis for continuing close cooperation to foster the stability of exchange rates.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">221</int>
-        <double name="strength">0.7112563345948003</double>
+        <int name="end">222</int>
+        <double name="strength">0.9145172505688377</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In this &lt;em&gt;connection&lt;/em&gt; they &lt;em&gt;welcomed&lt;/em&gt; the &lt;em&gt;proposals&lt;/em&gt; just &lt;em&gt;announced&lt;/em&gt; by the &lt;em&gt;governing Liberal Democratic Party&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; for &lt;em&gt;extraordinary&lt;/em&gt; and &lt;em&gt;urgent measures&lt;/em&gt; to &lt;em&gt;stimulate Japan&lt;/em&gt;'s &lt;em&gt;economy through early implementation&lt;/em&gt; of a &lt;em&gt;large supplementary budget exceeding those&lt;/em&gt; of &lt;em&gt;previous years,&lt;/em&gt; as well as &lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures&lt;/em&gt;.</str>
+        <str name="text">In this &lt;em&gt;connection&lt;/em&gt; they welcomed the &lt;em&gt;proposals&lt;/em&gt; just announced by the governing &lt;em&gt;Liberal Democratic Party&lt;/em&gt; in &lt;em&gt;Japan&lt;/em&gt; for &lt;em&gt;extraordinary&lt;/em&gt; and &lt;em&gt;urgent measures&lt;/em&gt; to &lt;em&gt;stimulate Japan&lt;/em&gt;'s &lt;em&gt;economy&lt;/em&gt; through &lt;em&gt;early implementation&lt;/em&gt; of a &lt;em&gt;large supplementary budget&lt;/em&gt; exceeding those of &lt;em&gt;previous years,&lt;/em&gt; as well as &lt;em&gt;unprecedented front&lt;/em&gt;-end &lt;em&gt;loading&lt;/em&gt; of &lt;em&gt;public works expenditures&lt;/em&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;agreed, however,&lt;/em&gt; that &lt;em&gt;further actions&lt;/em&gt; will be &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;resist rising protectionist pressures, sustain global economic expansion,&lt;/em&gt; and &lt;em&gt;reduce trade imbalances&lt;/em&gt;.</str>
+        <str name="text">They agreed, however, that &lt;em&gt;further actions&lt;/em&gt; will be &lt;em&gt;essential&lt;/em&gt; to &lt;em&gt;resist&lt;/em&gt; rising &lt;em&gt;protectionist pressures, sustain global economic expansion,&lt;/em&gt; and &lt;em&gt;reduce trade imbalances&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">They &lt;em&gt;continued&lt;/em&gt; the &lt;em&gt;process&lt;/em&gt; of &lt;em&gt;multilateral surveillance&lt;/em&gt; of &lt;em&gt;their economies pursuant&lt;/em&gt; to the &lt;em&gt;arrangements&lt;/em&gt; for &lt;em&gt;strengthened economic policy coordination agreed&lt;/em&gt; at the 1986 &lt;em&gt;Tokyo summit&lt;/em&gt; of &lt;em&gt;their heads&lt;/em&gt; of &lt;em&gt;state&lt;/em&gt; or &lt;em&gt;government&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">They concluded that &lt;em&gt;present&lt;/em&gt; and &lt;em&gt;prospective progress&lt;/em&gt; in implementing the &lt;em&gt;policy undertakings&lt;/em&gt; at the &lt;em&gt;Louvre&lt;/em&gt; and in this &lt;em&gt;statement&lt;/em&gt; provided a &lt;em&gt;basis&lt;/em&gt; for continuing &lt;em&gt;close cooperation&lt;/em&gt; to &lt;em&gt;foster&lt;/em&gt; the &lt;em&gt;stability&lt;/em&gt; of &lt;em&gt;exchange rates&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

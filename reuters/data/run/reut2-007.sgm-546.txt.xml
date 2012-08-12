@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-546.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">54</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">foreign</str>
+        <str name="text">nations</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">undermine</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">sharply</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">financing</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">profits</str>
-        <double name="strength">0.8944271909999173</double>
+        <str name="text">volcker</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Last week, Ecuador suspended interest payments to private foreign banks, which hold about two-thirds of its total 8.3 billion dlr foreign debt, citing severe damage to its oil industry caused by an earthquake.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Analysts said such a move would sharply reduce Citicorp's profits and might result in similar measures by Brazil's other bank creditors.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">137</int>
-        <double name="strength">0.8558441492168611</double>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Federal Reserve Board Chairman Paul Volcker said the suspension by Brazil of its foreign debt payments would not undermine U.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">125</int>
+        <double name="strength">0.9735242073399839</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. Bank, said last week that it might have to reclassify most of its 4.6 billion dlrs in Brazilian loans as non-performing, thus removing them as part of the bank's expected income-producing assets.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">198</int>
-        <double name="strength">0.8493823331840915</double>
+        <double name="strength">0.8510927849041712</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last week, &lt;em&gt;Ecuador suspended interest payments&lt;/em&gt; to &lt;em&gt;private foreign banks, which&lt;/em&gt; hold &lt;em&gt;about&lt;/em&gt; two-&lt;em&gt;thirds&lt;/em&gt; of its &lt;em&gt;total 8.3 billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt, &lt;em&gt;citing severe damage&lt;/em&gt; to its oil &lt;em&gt;industry caused&lt;/em&gt; by an &lt;em&gt;earthquake&lt;/em&gt;.</str>
-        <int name="index">8</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said such a move &lt;em&gt;would sharply reduce Citicorp&lt;/em&gt;'s &lt;em&gt;profits&lt;/em&gt; and &lt;em&gt;might result&lt;/em&gt; in &lt;em&gt;similar measures&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;other&lt;/em&gt; bank &lt;em&gt;creditors&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Analysts&lt;/em&gt; said such a move would sharply &lt;em&gt;reduce&lt;/em&gt; Citicorp's &lt;em&gt;profits&lt;/em&gt; and might &lt;em&gt;result&lt;/em&gt; in &lt;em&gt;similar measures&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt;'s &lt;em&gt;other&lt;/em&gt; bank &lt;em&gt;creditors&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Bank, said last week that it &lt;em&gt;might&lt;/em&gt; have to &lt;em&gt;reclassify&lt;/em&gt; most of its 4.6 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;Brazilian loans&lt;/em&gt; as non-&lt;em&gt;performing,&lt;/em&gt; thus &lt;em&gt;removing&lt;/em&gt; them as part of the bank's &lt;em&gt;expected income-producing assets&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Federal Reserve Board Chairman&lt;/em&gt; Paul &lt;em&gt;Volcker&lt;/em&gt; said the &lt;em&gt;suspension&lt;/em&gt; by &lt;em&gt;Brazil&lt;/em&gt; of its &lt;em&gt;foreign&lt;/em&gt; debt &lt;em&gt;payments&lt;/em&gt; would not &lt;em&gt;undermine U&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Bank, said last week that it might have to &lt;em&gt;reclassify&lt;/em&gt; most of its 4.6 &lt;em&gt;billion&lt;/em&gt; dlrs in &lt;em&gt;Brazilian loans&lt;/em&gt; as non-performing, thus removing them as part of the bank's expected &lt;em&gt;income&lt;/em&gt;-producing &lt;em&gt;assets&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
     </lst>

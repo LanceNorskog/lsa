@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-772.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">59</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">whether</str>
+        <str name="text">different</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">agreement</str>
-        <double name="strength">0.6666666666666687</double>
+        <str name="text">international</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.6666666666666675</double>
+        <str name="text">attitudes</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">mexico</str>
-        <double name="strength">0.6666666666666673</double>
+        <str name="text">nations</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.6666666666666673</double>
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He said in order to survive, the Philippines would have to try and stimulate new types of inflows, "whether this be direct investments, whether this be investments by institutions that now have chosen not to lend but to invest, or whether this be debt to equity conversions."</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">276</int>
+        <str name="text">International banks have radically changed their attitudes towards debt and lending and debtor nations will have to explore new methods of ensuring inflows, Philippine Central Bank Governor Jose Fernandez said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Argentina was granted a 19-year repayment at 13/16 points over Eurodollar rates, the same historically low spread that Mexico won last October, while the Philippines, which had insisted on a deal similar to Mexico's, restructured 10.3 billion dlrs of its 28.2 billion dlr foreign debt at 7/8.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">293</int>
-        <double name="strength">0.9632901577032369</double>
+        <double name="strength">0.9373389632129479</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Fernandez said the old type of new-money agreement, where hundreds of banks were forced into involuntary lending by an advisory committee that negotiated agreements with debtor countries, was becoming increasingly difficult.</str>
-        <int name="index">13</int>
+        <str name="text">"But the present tendency has been that more and more of the banks, specially the regionals or the small ones, have either sold off their portfolios or simply by policy will not put up any more money," Fernandez said.</str>
+        <int name="index">15</int>
         <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.7481201156071243</double>
+        <int name="end">218</int>
+        <double name="strength">0.9110302724058452</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;survive,&lt;/em&gt; the &lt;em&gt;Philippines would&lt;/em&gt; have to try and &lt;em&gt;stimulate&lt;/em&gt; new &lt;em&gt;types&lt;/em&gt; of &lt;em&gt;inflows, "whether&lt;/em&gt; this be &lt;em&gt;direct investments, whether&lt;/em&gt; this be &lt;em&gt;investments&lt;/em&gt; by &lt;em&gt;institutions&lt;/em&gt; that now have &lt;em&gt;chosen&lt;/em&gt; not to lend but to &lt;em&gt;invest,&lt;/em&gt; or &lt;em&gt;whether&lt;/em&gt; this be debt to &lt;em&gt;equity conversions.&lt;/em&gt;"</str>
-        <int name="index">23</int>
+        <str name="text">&lt;em&gt;International banks&lt;/em&gt; have radically changed their &lt;em&gt;attitudes&lt;/em&gt; towards debt and &lt;em&gt;lending&lt;/em&gt; and &lt;em&gt;debtor nations&lt;/em&gt; will have to &lt;em&gt;explore&lt;/em&gt; new &lt;em&gt;methods&lt;/em&gt; of ensuring &lt;em&gt;inflows, Philippine Central&lt;/em&gt; Bank &lt;em&gt;Governor&lt;/em&gt; Jose &lt;em&gt;Fernandez said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Argentina&lt;/em&gt; was &lt;em&gt;granted&lt;/em&gt; a 19-year &lt;em&gt;repayment&lt;/em&gt; at 13/16 &lt;em&gt;points&lt;/em&gt; over &lt;em&gt;Eurodollar rates,&lt;/em&gt; the same &lt;em&gt;historically&lt;/em&gt; low &lt;em&gt;spread&lt;/em&gt; that &lt;em&gt;Mexico&lt;/em&gt; won last &lt;em&gt;October, while&lt;/em&gt; the &lt;em&gt;Philippines, which&lt;/em&gt; had &lt;em&gt;insisted&lt;/em&gt; on a deal &lt;em&gt;similar&lt;/em&gt; to &lt;em&gt;Mexico&lt;/em&gt;'s, &lt;em&gt;restructured 10.3 billion&lt;/em&gt; dlrs of its 28.2 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt at 7/8.</str>
+        <str name="text">&lt;em&gt;Argentina&lt;/em&gt; was granted a 19-year &lt;em&gt;repayment&lt;/em&gt; at 13/16 &lt;em&gt;points&lt;/em&gt; over &lt;em&gt;Eurodollar rates,&lt;/em&gt; the same historically low &lt;em&gt;spread&lt;/em&gt; that &lt;em&gt;Mexico&lt;/em&gt; won last &lt;em&gt;October,&lt;/em&gt; while the &lt;em&gt;Philippines,&lt;/em&gt; which had insisted on a deal &lt;em&gt;similar&lt;/em&gt; to &lt;em&gt;Mexico&lt;/em&gt;'s, restructured 10.3 &lt;em&gt;billion&lt;/em&gt; dlrs of its 28.2 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;foreign&lt;/em&gt; debt at 7/8.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fernandez&lt;/em&gt; said the old type of new-&lt;em&gt;money agreement, where hundreds&lt;/em&gt; of &lt;em&gt;banks&lt;/em&gt; were &lt;em&gt;forced&lt;/em&gt; into &lt;em&gt;involuntary lending&lt;/em&gt; by an &lt;em&gt;advisory committee&lt;/em&gt; that &lt;em&gt;negotiated agreements&lt;/em&gt; with &lt;em&gt;debtor countries,&lt;/em&gt; was &lt;em&gt;becoming increasingly difficult&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">"But the &lt;em&gt;present tendency&lt;/em&gt; has been that more and more of the &lt;em&gt;banks,&lt;/em&gt; specially the &lt;em&gt;regionals&lt;/em&gt; or the &lt;em&gt;small&lt;/em&gt; ones, have either sold off their &lt;em&gt;portfolios&lt;/em&gt; or simply by &lt;em&gt;policy&lt;/em&gt; will not put up any more &lt;em&gt;money," Fernandez said&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-419.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">124</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">party</str>
+        <str name="text">trading</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">general</str>
-        <double name="strength">0.6201736729460416</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">shell</str>
-        <double name="strength">0.5547001962252298</double>
+        <str name="text">party</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">published</str>
-        <double name="strength">0.5547001962252289</double>
+        <str name="text">lloyds</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">times</str>
-        <double name="strength">0.5547001962252289</double>
+        <str name="text">fears</str>
+        <double name="strength">0.9634242309653845</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">222</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Dealers said the effect of news today of two opinion polls, one of which, conducted for the television programme TV-AM, placing the Conservative party 13 points ahead of the Opposition Labour Party was offset by a belief that the market's gains yesterday may have been overdone and that a period of consolidation is due.</str>
-        <int name="index">2</int>
+        <str name="text">Dealers also said fears of a trade war with Japan, although less acute, remain a nagging concern in the absence of fresh developments</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">321</int>
-        <double name="strength">0.8744613020639269</double>
+        <int name="end">134</int>
+        <double name="strength">0.8425959781927295</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An opinion poll published in the Times newspaper today which measured party support in marginal seats gave the ruling Conservative Party a lead of six points over the Labour Party.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">181</int>
-        <double name="strength">0.7674573771148947</double>
+        <str name="text">Press reports said Australian businessman Robert Holmes A'Court increased his stake in the company yesterday.</str>
+        <int name="index">13</int>
+        <int name="start">0</int>
+        <int name="end">109</int>
+        <double name="strength">0.7824076867664892</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Share prices opened mixed&lt;/em&gt; in &lt;em&gt;relatively quiet trading after early indications suggested&lt;/em&gt; a &lt;em&gt;positive&lt;/em&gt; move &lt;em&gt;forward&lt;/em&gt; on the back of the &lt;em&gt;latest opinion polls&lt;/em&gt; and &lt;em&gt;record closing highs&lt;/em&gt; on the &lt;em&gt;Tokyo&lt;/em&gt; and Wall &lt;em&gt;Street stock exchanges&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Share prices&lt;/em&gt; opened mixed in relatively &lt;em&gt;quiet trading&lt;/em&gt; after &lt;em&gt;early indications&lt;/em&gt; suggested a &lt;em&gt;positive&lt;/em&gt; move forward on the back of the latest &lt;em&gt;opinion polls&lt;/em&gt; and &lt;em&gt;record closing highs&lt;/em&gt; on the &lt;em&gt;Tokyo&lt;/em&gt; and Wall &lt;em&gt;Street stock exchanges&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; said the &lt;em&gt;effect&lt;/em&gt; of news &lt;em&gt;today&lt;/em&gt; of two &lt;em&gt;opinion polls,&lt;/em&gt; one of &lt;em&gt;which, conducted&lt;/em&gt; for the &lt;em&gt;television programme&lt;/em&gt; TV-AM, &lt;em&gt;placing&lt;/em&gt; the &lt;em&gt;Conservative party 13 points ahead&lt;/em&gt; of the &lt;em&gt;Opposition Labour Party&lt;/em&gt; was &lt;em&gt;offset&lt;/em&gt; by a &lt;em&gt;belief&lt;/em&gt; that the &lt;em&gt;market&lt;/em&gt;'s &lt;em&gt;gains yesterday&lt;/em&gt; may have been &lt;em&gt;overdone&lt;/em&gt; and that a &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;consolidation&lt;/em&gt; is due.</str>
-        <int name="index">2</int>
+        <str name="text">&lt;em&gt;Dealers&lt;/em&gt; also said &lt;em&gt;fears&lt;/em&gt; of a &lt;em&gt;trade&lt;/em&gt; war with &lt;em&gt;Japan,&lt;/em&gt; although less &lt;em&gt;acute, remain&lt;/em&gt; a &lt;em&gt;nagging concern&lt;/em&gt; in the &lt;em&gt;absence&lt;/em&gt; of &lt;em&gt;fresh development&lt;/em&gt;s</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;opinion&lt;/em&gt; poll &lt;em&gt;published&lt;/em&gt; in the &lt;em&gt;Times newspaper today which measured party support&lt;/em&gt; in &lt;em&gt;marginal seats&lt;/em&gt; gave the &lt;em&gt;ruling Conservative Party&lt;/em&gt; a lead of six &lt;em&gt;points&lt;/em&gt; over the &lt;em&gt;Labour Party&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Press reports&lt;/em&gt; said &lt;em&gt;Australian businessman Robert&lt;/em&gt; Holmes A'&lt;em&gt;Court&lt;/em&gt; increased his &lt;em&gt;stake&lt;/em&gt; in the &lt;em&gt;company yesterday&lt;/em&gt;.</str>
+        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

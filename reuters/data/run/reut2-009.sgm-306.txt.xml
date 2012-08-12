@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-306.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">146</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">101</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">service</str>
+        <str name="text">operational</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">interprofessional</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">modernisation</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">updated</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">order</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">short</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">transaction</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">provided</str>
-        <double name="strength">0.8944271909999171</double>
+        <str name="text">software</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The liberalisation, particularly the introduction of off-floor trading in stocks and bonds on a net-basis under the AIM system, has been described by bourse officials as Amsterdam's "little bang," a reference to sweeping reforms last October on the London Stock Exchange known as Big Bang.</str>
-        <int name="index">6</int>
+        <str name="text">The move, announced one day after news of a first step toward integration of financial market supervision in the Netherlands, will involve new transaction and clearing and settlement systems.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">290</int>
+        <int name="end">192</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Amsterdam Stock Exchange, engaged in a reform program to boost competitiveness, said it is launching a modernisation drive of its operational systems.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">154</int>
+        <double name="strength">0.9321929276811051</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">AIM, started in a trial run early last year and officially in force from January 1 this year, is already credited with halting the growth in Dutch stocks traded abroad, mainly London.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">184</int>
-        <double name="strength">0.9502184941818544</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Amsterdam, which feels an on-floor facility with fees is vital for smaller investors, said it needs to overhaul the floor to accommodate new technology and new members.</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8918154812211723</double>
+        <double name="strength">0.9032506692704333</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;liberalisation, particularly&lt;/em&gt; the &lt;em&gt;introduction&lt;/em&gt; of off-&lt;em&gt;floor trading&lt;/em&gt; in &lt;em&gt;stocks&lt;/em&gt; and &lt;em&gt;bonds&lt;/em&gt; on a net-&lt;em&gt;basis under&lt;/em&gt; the AIM &lt;em&gt;system,&lt;/em&gt; has been &lt;em&gt;described&lt;/em&gt; by &lt;em&gt;bourse officials&lt;/em&gt; as &lt;em&gt;Amsterdam&lt;/em&gt;'s "&lt;em&gt;little&lt;/em&gt; bang," a &lt;em&gt;reference&lt;/em&gt; to &lt;em&gt;sweeping reforms&lt;/em&gt; last &lt;em&gt;October&lt;/em&gt; on the &lt;em&gt;London Stock Exchange known&lt;/em&gt; as Big Bang.</str>
-        <int name="index">6</int>
+        <str name="text">The move, announced one day after news of a &lt;em&gt;first&lt;/em&gt; step toward &lt;em&gt;integration&lt;/em&gt; of &lt;em&gt;financial market supervision&lt;/em&gt; in the &lt;em&gt;Netherlands,&lt;/em&gt; will &lt;em&gt;involve&lt;/em&gt; new &lt;em&gt;transaction&lt;/em&gt; and &lt;em&gt;clearing&lt;/em&gt; and &lt;em&gt;settlement systems&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">AIM, &lt;em&gt;started&lt;/em&gt; in a &lt;em&gt;trial&lt;/em&gt; run &lt;em&gt;early&lt;/em&gt; last year and &lt;em&gt;officially&lt;/em&gt; in &lt;em&gt;force&lt;/em&gt; from &lt;em&gt;January 1&lt;/em&gt; this year, is &lt;em&gt;already credited&lt;/em&gt; with &lt;em&gt;halting&lt;/em&gt; the &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;Dutch stocks traded abroad, mainly London&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Amsterdam Stock Exchange,&lt;/em&gt; engaged in a &lt;em&gt;reform program&lt;/em&gt; to &lt;em&gt;boost competitiveness,&lt;/em&gt; said it is launching a &lt;em&gt;modernisation drive&lt;/em&gt; of its &lt;em&gt;operational systems&lt;/em&gt;.</str>
+        <int name="index">0</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">AIM, started in a &lt;em&gt;trial&lt;/em&gt; run early last year and officially in &lt;em&gt;force&lt;/em&gt; from &lt;em&gt;January 1&lt;/em&gt; this year, is already credited with halting the &lt;em&gt;growth&lt;/em&gt; in &lt;em&gt;Dutch stocks&lt;/em&gt; traded abroad, mainly &lt;em&gt;London&lt;/em&gt;.</str>
         <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Amsterdam, which feels&lt;/em&gt; an on-&lt;em&gt;floor facility&lt;/em&gt; with fees is &lt;em&gt;vital&lt;/em&gt; for &lt;em&gt;smaller investors,&lt;/em&gt; said it &lt;em&gt;needs&lt;/em&gt; to &lt;em&gt;overhaul&lt;/em&gt; the &lt;em&gt;floor&lt;/em&gt; to &lt;em&gt;accommodate&lt;/em&gt; new &lt;em&gt;technology&lt;/em&gt; and new &lt;em&gt;members&lt;/em&gt;.</str>
-        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

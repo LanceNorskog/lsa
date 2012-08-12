@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">17</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-460.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">24</int>
       </lst>
       <lst name="terms">
-        <int name="count">128</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">would</str>
+        <str name="text">trade</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">president</str>
-        <double name="strength">0.8944271909999156</double>
+        <str name="text">reserves</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">chiang</str>
-        <double name="strength">0.8944271909999156</double>
+        <str name="text">authorities</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">promulgated</str>
-        <double name="strength">0.8944271909999154</double>
+        <str name="text">surplus</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">within</str>
-        <double name="strength">0.8944271909999154</double>
+        <str name="text">world</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">189</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Bankers said that businessmen have been holding vast quantities of foreign exchange overseas for many years and also have been freely buying and exporting currency through a flourishing black-market.</str>
-        <int name="index">14</int>
+        <str name="text">The central bank and finance ministry proposed lifting currency restrictions to help reduce Taiwan's foreign exchange reserves, which stand at about 60 billion U.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">200</int>
-        <double name="strength">0.9915282861552608</double>
+        <int name="end">163</int>
+        <double name="strength">0.8413802802697212</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A government spokesman said the new law would be promulgated by President Chiang Ching-Kuo within 10 days and financial authorities would then be empowered to lift controls on currency outflows at any time.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.825528513258757</double>
+        <str name="text">But I don't think it's going to be much," said Danny Chan, director of Fidelity Securities Investment Consulting Corp.</str>
+        <int name="index">16</int>
+        <int name="start">0</int>
+        <int name="end">118</int>
+        <double name="strength">0.808771805425406</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;reserves,&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;third largest after Japan&lt;/em&gt; and West &lt;em&gt;Germany,&lt;/em&gt; also draw &lt;em&gt;attention&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt;'s huge &lt;em&gt;trade surplus&lt;/em&gt; and the &lt;em&gt;government fears&lt;/em&gt; they are &lt;em&gt;making&lt;/em&gt; the &lt;em&gt;island&lt;/em&gt; a &lt;em&gt;target&lt;/em&gt; for U.</str>
+        <str name="text">The &lt;em&gt;reserves,&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s &lt;em&gt;third&lt;/em&gt; largest after &lt;em&gt;Japan&lt;/em&gt; and West &lt;em&gt;Germany,&lt;/em&gt; also draw &lt;em&gt;attention&lt;/em&gt; to &lt;em&gt;Taiwan&lt;/em&gt;'s huge &lt;em&gt;trade surplus&lt;/em&gt; and the &lt;em&gt;government fears&lt;/em&gt; they are making the &lt;em&gt;island&lt;/em&gt; a &lt;em&gt;target&lt;/em&gt; for U.</str>
         <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Bankers&lt;/em&gt; said that &lt;em&gt;businessmen&lt;/em&gt; have been &lt;em&gt;holding&lt;/em&gt; vast &lt;em&gt;quantities&lt;/em&gt; of &lt;em&gt;foreign exchange overseas&lt;/em&gt; for many &lt;em&gt;years&lt;/em&gt; and also have been &lt;em&gt;freely buying&lt;/em&gt; and &lt;em&gt;exporting currency through&lt;/em&gt; a &lt;em&gt;flourishing black-market&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">The &lt;em&gt;central&lt;/em&gt; bank and &lt;em&gt;finance ministry&lt;/em&gt; proposed lifting &lt;em&gt;currency restrictions&lt;/em&gt; to help &lt;em&gt;reduce Taiwan&lt;/em&gt;'s &lt;em&gt;foreign exchange reserves,&lt;/em&gt; which &lt;em&gt;stand&lt;/em&gt; at about 60 &lt;em&gt;billion U&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;government spokesman&lt;/em&gt; said the new law &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;promulgated&lt;/em&gt; by &lt;em&gt;President Chiang Ching&lt;/em&gt;-Kuo &lt;em&gt;within 10&lt;/em&gt; days and &lt;em&gt;financial authorities would&lt;/em&gt; then be &lt;em&gt;empowered&lt;/em&gt; to lift &lt;em&gt;controls&lt;/em&gt; on &lt;em&gt;currency outflows&lt;/em&gt; at any time.</str>
-        <int name="index">1</int>
+        <str name="text">But I don't &lt;em&gt;think&lt;/em&gt; it's going to be much," said &lt;em&gt;Danny&lt;/em&gt; Chan, &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;Fidelity Securities Investment Consulting Corp&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

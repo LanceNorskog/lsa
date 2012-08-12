@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-975.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">215</int>
+        <int name="count">148</int>
       </lst>
       <lst name="stems">
-        <int name="count">153</int>
+        <int name="count">105</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">about</str>
+        <str name="text">measure</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">members</str>
-        <double name="strength">0.6666666666666673</double>
+        <str name="text">sympathy</str>
+        <double name="strength">0.987741544795628</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.3726779962499649</double>
+        <str name="text">poverty</str>
+        <double name="strength">0.987741544795628</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.3726779962499645</double>
+        <str name="text">systems</str>
+        <double name="strength">0.9877415447956268</double>
       </lst>
       <lst name="term">
-        <str name="text">cooperation</str>
-        <double name="strength">0.3333333333333338</double>
+        <str name="text">actions</str>
+        <double name="strength">0.9877415447956246</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">At the center of the controversy is Bank President Barber Conable, whose reorganization efforts are getting some  critical review from many Bank staff members and some member- countries including the United States.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">215</int>
+        <str name="text">The World Bank, in the throes of a painful reorganization, faces new strains because of actions by Citibank and others to set aside new Latin debt reserves, financial analysts and monetary sources said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">202</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But there are doubts about how well the Baker initiative has worked and about the World Bank's success at bringing about increased growth in the Third World under the U.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.9600433620234514</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">The IMF, however, which essentially forged the debt stategy following the disclosure by Mexico in 1982 that it was near default, is considered a stern taskmaster that has little sympathy or even understanding of poverty.</str>
         <int name="index">24</int>
         <int name="start">0</int>
         <int name="end">220</int>
-        <double name="strength">0.8723197217480194</double>
+        <double name="strength">0.9892512147580957</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In this he had the backing of many in the Reagan administration who viewed the Bank as a bloated and inefficient bureaucracy that gave money to countries when other free-market sources of assistance were available.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">215</int>
+        <double name="strength">0.948935477832746</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">At the &lt;em&gt;center&lt;/em&gt; of the &lt;em&gt;controversy&lt;/em&gt; is Bank &lt;em&gt;President Barber Conable, whose reorganization efforts&lt;/em&gt; are &lt;em&gt;getting&lt;/em&gt; some  &lt;em&gt;critical review&lt;/em&gt; from many Bank &lt;em&gt;staff members&lt;/em&gt; and some &lt;em&gt;member- countries including&lt;/em&gt; the &lt;em&gt;United States&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">The &lt;em&gt;World&lt;/em&gt; Bank, in the &lt;em&gt;throes&lt;/em&gt; of a &lt;em&gt;painful reorganization, faces&lt;/em&gt; new &lt;em&gt;strains&lt;/em&gt; because of &lt;em&gt;actions&lt;/em&gt; by &lt;em&gt;Citibank&lt;/em&gt; and &lt;em&gt;others&lt;/em&gt; to set aside new &lt;em&gt;Latin&lt;/em&gt; debt &lt;em&gt;reserves, financial analysts&lt;/em&gt; and &lt;em&gt;monetary sources said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But &lt;em&gt;there&lt;/em&gt; are &lt;em&gt;doubts about&lt;/em&gt; how well the &lt;em&gt;Baker initiative&lt;/em&gt; has &lt;em&gt;worked&lt;/em&gt; and &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;World&lt;/em&gt; Bank's &lt;em&gt;success&lt;/em&gt; at &lt;em&gt;bringing about increased growth&lt;/em&gt; in the &lt;em&gt;Third World under&lt;/em&gt; the U.</str>
-        <int name="index">25</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The IMF, &lt;em&gt;however, which essentially forged&lt;/em&gt; the debt &lt;em&gt;stategy following&lt;/em&gt; the &lt;em&gt;disclosure&lt;/em&gt; by &lt;em&gt;Mexico&lt;/em&gt; in 1982 that it was near &lt;em&gt;default,&lt;/em&gt; is &lt;em&gt;considered&lt;/em&gt; a &lt;em&gt;stern taskmaster&lt;/em&gt; that has &lt;em&gt;little sympathy&lt;/em&gt; or even &lt;em&gt;understanding&lt;/em&gt; of &lt;em&gt;poverty&lt;/em&gt;.</str>
+        <str name="text">The IMF, however, which essentially forged the debt &lt;em&gt;stategy&lt;/em&gt; following the &lt;em&gt;disclosure&lt;/em&gt; by &lt;em&gt;Mexico&lt;/em&gt; in 1982 that it was near &lt;em&gt;default,&lt;/em&gt; is considered a &lt;em&gt;stern taskmaster&lt;/em&gt; that has &lt;em&gt;little sympathy&lt;/em&gt; or even &lt;em&gt;understanding&lt;/em&gt; of &lt;em&gt;poverty&lt;/em&gt;.</str>
         <int name="index">24</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">In this he had the &lt;em&gt;backing&lt;/em&gt; of many in the &lt;em&gt;Reagan administration&lt;/em&gt; who viewed the Bank as a bloated and &lt;em&gt;inefficient bureaucracy&lt;/em&gt; that gave &lt;em&gt;money&lt;/em&gt; to &lt;em&gt;countries&lt;/em&gt; when &lt;em&gt;other&lt;/em&gt; free-&lt;em&gt;market sources&lt;/em&gt; of &lt;em&gt;assistance&lt;/em&gt; were &lt;em&gt;available&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">27</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-345.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">56</int>
       </lst>
       <lst name="terms">
-        <int name="count">225</int>
+        <int name="count">157</int>
       </lst>
       <lst name="stems">
-        <int name="count">149</int>
+        <int name="count">103</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">healthy</str>
+        <str name="text">acquisition</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">progression</str>
-        <double name="strength">1.0</double>
+        <str name="text">firms</str>
+        <double name="strength">0.9998946828685727</double>
       </lst>
       <lst name="term">
-        <str name="text">pounced</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9877415447956247</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9877415447956236</double>
       </lst>
       <lst name="term">
-        <str name="text">rates</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">banker</str>
+        <double name="strength">0.9877415447956233</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Major trading houses, which see their profits evaporating in the heat of increased competition in merchandise trade, all have foreign businesses on their shopping lists.</str>
-        <int name="index">11</int>
+        <str name="text">"Japanese interest in acquisitions has been continuous, but the recent economic factors have become a driving force," said a banking industry source.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">170</int>
+        <int name="end">150</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. And European firms will be falling prey to Japanese corporations bulging with cash and eager to extend their reach further overseas, according to merger and acquisitions specialists polled by Reuters.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">203</int>
-        <double name="strength">0.9989047229684188</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">But the yen's strength, which has also raised the costs of Japan's exports and allowed its Asian neighbours to move into its traditional markets, has frozen Japanese corporate growth, the specialists said.</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">206</int>
-        <double name="strength">0.9923327270313909</double>
+        <double name="strength">0.914286309123114</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Domestic interest rates, now at record lows, offer little investment opportunity.</str>
+        <int name="index">19</int>
+        <int name="start">0</int>
+        <int name="end">81</int>
+        <double name="strength">0.904533983102867</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Major trading houses, which&lt;/em&gt; see &lt;em&gt;their profits evaporating&lt;/em&gt; in the heat of &lt;em&gt;increased competition&lt;/em&gt; in &lt;em&gt;merchandise trade,&lt;/em&gt; all have &lt;em&gt;foreign businesses&lt;/em&gt; on &lt;em&gt;their shopping lists&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;"Japanese interest&lt;/em&gt; in &lt;em&gt;acquisitions&lt;/em&gt; has been &lt;em&gt;continuous,&lt;/em&gt; but the &lt;em&gt;recent economic factors&lt;/em&gt; have become a &lt;em&gt;driving force,"&lt;/em&gt; said a &lt;em&gt;banking industry source&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. And &lt;em&gt;European firms&lt;/em&gt; will be &lt;em&gt;falling&lt;/em&gt; prey to &lt;em&gt;Japanese corporations bulging&lt;/em&gt; with cash and &lt;em&gt;eager&lt;/em&gt; to &lt;em&gt;extend their reach further overseas, according&lt;/em&gt; to &lt;em&gt;merger&lt;/em&gt; and &lt;em&gt;acquisitions specialists polled&lt;/em&gt; by &lt;em&gt;Reuters&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But the yen's &lt;em&gt;strength, which&lt;/em&gt; has also &lt;em&gt;raised&lt;/em&gt; the &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;exports&lt;/em&gt; and &lt;em&gt;allowed&lt;/em&gt; its &lt;em&gt;Asian neighbours&lt;/em&gt; to move into its &lt;em&gt;traditional markets,&lt;/em&gt; has &lt;em&gt;frozen Japanese corporate growth,&lt;/em&gt; the &lt;em&gt;specialists said&lt;/em&gt;.</str>
+        <str name="text">But the yen's &lt;em&gt;strength,&lt;/em&gt; which has also raised the &lt;em&gt;costs&lt;/em&gt; of &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;exports&lt;/em&gt; and allowed its &lt;em&gt;Asian neighbours&lt;/em&gt; to move into its &lt;em&gt;traditional markets,&lt;/em&gt; has frozen &lt;em&gt;Japanese corporate growth,&lt;/em&gt; the &lt;em&gt;specialists said&lt;/em&gt;.</str>
         <int name="index">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Domestic interest rates,&lt;/em&gt; now at &lt;em&gt;record&lt;/em&gt; lows, &lt;em&gt;offer little investment opportunity&lt;/em&gt;.</str>
+        <int name="index">19</int>
       </lst>
     </lst>
   </lst>

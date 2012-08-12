@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-664.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">152</int>
+        <int name="count">117</int>
       </lst>
       <lst name="stems">
-        <int name="count">104</int>
+        <int name="count">73</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">bullied</str>
+        <str name="text">analysts</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.5590169943749457</double>
+        <str name="text">sales</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">national</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">security</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9963408654530976</double>
       </lst>
       <lst name="term">
-        <str name="text">since</str>
-        <double name="strength">0.5000000000000022</double>
+        <str name="text">microchips</str>
+        <double name="strength">0.9963408654530964</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">"The United States believes Japan will only react when bullied, and this is a bullying ploy," Salomon Brothers Asia analyst Carole Ryavec said.</str>
-        <int name="index">27</int>
-        <int name="start">1</int>
-        <int name="end">144</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">U.S.-Japanese tension over the semiconductor trade has failed to subside despite recent efforts by Japan's Ministry of International Trade and Industry (MITI) to get Japanese firms to abide by a bilateral pact aimed at halting predatory pricing and opening Japan's market.</str>
         <int name="index">32</int>
         <int name="start">1</int>
         <int name="end">273</int>
-        <double name="strength">0.9991380547170047</double>
+        <double name="strength">1.0</double>
+        <int name="terms">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Takemoto said national security should not be an issue since the planned purchase of Fairchild from its current owner, Schlumberger Ltd &lt;SLB&gt;, does not include Fairchild's main defence-related division.</str>
-        <int name="index">12</int>
+        <str name="text">"The United States believes Japan will only react when bullied, and this is a bullying ploy," Salomon Brothers Asia analyst Carole Ryavec said.</str>
+        <int name="index">27</int>
         <int name="start">1</int>
-        <int name="end">203</int>
-        <double name="strength">0.8857801916733911</double>
+        <int name="end">144</int>
+        <double name="strength">0.9920938631026188</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. Commerce Secretary Malcolm Baldrige has asked the White House to consider blocking the sale of &lt;Fairchild Semiconductor Corp&gt; to Japan's Fujitsu Ltd &lt;ITSU.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">161</int>
+        <double name="strength">0.967006157821694</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">"The &lt;em&gt;United States believes Japan&lt;/em&gt; will only &lt;em&gt;react&lt;/em&gt; when &lt;em&gt;bullied,&lt;/em&gt; and this is a &lt;em&gt;bullying&lt;/em&gt; ploy," &lt;em&gt;Salomon Brothers&lt;/em&gt; Asia &lt;em&gt;analyst Carole Ryavec said&lt;/em&gt;.</str>
-        <int name="index">27</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S.-&lt;em&gt;Japanese tension&lt;/em&gt; over the &lt;em&gt;semiconductor trade&lt;/em&gt; has &lt;em&gt;failed&lt;/em&gt; to &lt;em&gt;subside despite recent efforts&lt;/em&gt; by &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) to get &lt;em&gt;Japanese firms&lt;/em&gt; to &lt;em&gt;abide&lt;/em&gt; by a &lt;em&gt;bilateral&lt;/em&gt; pact &lt;em&gt;aimed&lt;/em&gt; at &lt;em&gt;halting predatory pricing&lt;/em&gt; and &lt;em&gt;opening Japan&lt;/em&gt;'s &lt;em&gt;market&lt;/em&gt;.</str>
+        <str name="text">U.S.-&lt;em&gt;Japanese tension&lt;/em&gt; over the &lt;em&gt;semiconductor trade&lt;/em&gt; has failed to &lt;em&gt;subside&lt;/em&gt; despite &lt;em&gt;recent efforts&lt;/em&gt; by &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry &lt;/em&gt;(MITI) to get &lt;em&gt;Japanese firms&lt;/em&gt; to &lt;em&gt;abide&lt;/em&gt; by a &lt;em&gt;bilateral&lt;/em&gt; pact aimed at halting &lt;em&gt;predatory pricing&lt;/em&gt; and &lt;em&gt;opening Japan&lt;/em&gt;'s &lt;em&gt;market&lt;/em&gt;.</str>
         <int name="index">32</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Takemoto&lt;/em&gt; said &lt;em&gt;national security should&lt;/em&gt; not be an &lt;em&gt;issue since&lt;/em&gt; the &lt;em&gt;planned purchase&lt;/em&gt; of &lt;em&gt;Fairchild&lt;/em&gt; from its &lt;em&gt;current owner, Schlumberger&lt;/em&gt; Ltd &lt;SLB&gt;, does not &lt;em&gt;include Fairchild&lt;/em&gt;'s main &lt;em&gt;defence-related division&lt;/em&gt;.</str>
-        <int name="index">12</int>
+        <str name="text">"The United &lt;em&gt;States&lt;/em&gt; believes &lt;em&gt;Japan&lt;/em&gt; will only &lt;em&gt;react&lt;/em&gt; when bullied, and this is a &lt;em&gt;bullying&lt;/em&gt; ploy," &lt;em&gt;Salomon Brothers&lt;/em&gt; Asia &lt;em&gt;analyst Carole Ryavec said&lt;/em&gt;.</str>
+        <int name="index">27</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">U.S. &lt;em&gt;Commerce Secretary Malcolm Baldrige&lt;/em&gt; has asked the &lt;em&gt;White House&lt;/em&gt; to &lt;em&gt;consider&lt;/em&gt; blocking the sale of &lt;&lt;em&gt;Fairchild Semiconductor&lt;/em&gt; Corp&gt; to &lt;em&gt;Japan&lt;/em&gt;'s Fujitsu Ltd &lt;ITSU.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

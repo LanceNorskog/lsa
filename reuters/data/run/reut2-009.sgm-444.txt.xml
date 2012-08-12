@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-444.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">70</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">benefits</str>
+        <str name="text">system</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">needed</str>
-        <double name="strength">0.707106781186548</double>
+        <str name="text">reporters</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">because</str>
-        <double name="strength">0.707106781186548</double>
+        <str name="text">benefits</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
         <str name="text">spending</str>
-        <double name="strength">0.707106781186548</double>
+        <double name="strength">0.9969511504682483</double>
       </lst>
       <lst name="term">
-        <str name="text">dropped</str>
-        <double name="strength">0.707106781186548</double>
+        <str name="text">world</str>
+        <double name="strength">0.9969511504682483</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">He said oil industry aid is needed because exploration and development spending dropped by at least 50 pct since world oil prices fell during the first half of 1986.</str>
-        <int name="index">6</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Energy Minister Masse said the federal government decided to provide cash incentives so a large number of non-tax paying companies, mainly small Canadian firms, will receive the full value of the incentive.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">207</int>
-        <double name="strength">0.9796632754534184</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Finance Minister Michael Wilson is now reviewing Canada's tax system and plans to announce tax reform proposals later this spring.</str>
         <int name="index">10</int>
         <int name="start">0</int>
         <int name="end">130</int>
-        <double name="strength">0.9768974161551056</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told reporters his department is still considering whether to allow partnerships and other entities to qualify for the subsidy.</str>
+        <int name="index">13</int>
+        <int name="start">1</int>
+        <int name="end">131</int>
+        <double name="strength">0.9326265580932751</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Canada's federal government will provide a 350 mln dlr oil industry aid package that includes cash incentives designed to cover one-third of a company's oil and gas exploration and development costs, Energy Minister Marcel Masse announced.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">239</int>
+        <double name="strength">0.9322001543402567</double>
+        <int name="terms">17</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said oil &lt;em&gt;industry&lt;/em&gt; aid is &lt;em&gt;needed because exploration&lt;/em&gt; and &lt;em&gt;development spending dropped&lt;/em&gt; by at &lt;em&gt;least 50&lt;/em&gt; pct &lt;em&gt;since world&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; fell &lt;em&gt;during&lt;/em&gt; the &lt;em&gt;first&lt;/em&gt; half of 1986.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Energy Minister Masse&lt;/em&gt; said the &lt;em&gt;federal government decided&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; cash &lt;em&gt;incentives&lt;/em&gt; so a &lt;em&gt;large number&lt;/em&gt; of non-tax &lt;em&gt;paying companies, mainly small Canadian firms,&lt;/em&gt; will &lt;em&gt;receive&lt;/em&gt; the full &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;incentive&lt;/em&gt;.</str>
-        <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Finance Minister Michael Wilson&lt;/em&gt; is now &lt;em&gt;reviewing Canada&lt;/em&gt;'s tax &lt;em&gt;system&lt;/em&gt; and &lt;em&gt;plans&lt;/em&gt; to &lt;em&gt;announce&lt;/em&gt; tax &lt;em&gt;reform proposals later&lt;/em&gt; this &lt;em&gt;spring&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Finance Minister Michael Wilson&lt;/em&gt; is now reviewing &lt;em&gt;Canada&lt;/em&gt;'s tax &lt;em&gt;system&lt;/em&gt; and plans to &lt;em&gt;announce&lt;/em&gt; tax &lt;em&gt;reform proposals&lt;/em&gt; later this &lt;em&gt;spring&lt;/em&gt;.</str>
         <int name="index">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He told &lt;em&gt;reporters&lt;/em&gt; his &lt;em&gt;department&lt;/em&gt; is still considering whether to &lt;em&gt;allow partnerships&lt;/em&gt; and &lt;em&gt;other entities&lt;/em&gt; to &lt;em&gt;qualify&lt;/em&gt; for the &lt;em&gt;subsidy&lt;/em&gt;.</str>
+        <int name="index">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Canada&lt;/em&gt;'s &lt;em&gt;federal government&lt;/em&gt; will &lt;em&gt;provide&lt;/em&gt; a 350 mln dlr oil &lt;em&gt;industry&lt;/em&gt; aid &lt;em&gt;package&lt;/em&gt; that includes cash &lt;em&gt;incentives&lt;/em&gt; designed to &lt;em&gt;cover&lt;/em&gt; one-&lt;em&gt;third&lt;/em&gt; of a &lt;em&gt;company&lt;/em&gt;'s oil and gas &lt;em&gt;exploration&lt;/em&gt; and &lt;em&gt;development costs, Energy Minister Marcel Masse announced&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

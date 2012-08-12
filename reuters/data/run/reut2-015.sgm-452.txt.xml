@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-452.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">110</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">their</str>
+        <str name="text">market</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">japan</str>
-        <double name="strength">0.5590169943749476</double>
+        <str name="text">japanese</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">fundamental</str>
-        <double name="strength">0.5590169943749472</double>
+        <str name="text">countries</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">sanctions</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">minister</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">semiconductor</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">agreement</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">210</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Asked why only Japan was committed to fresh measures in the statement, he said Japan was exceptional among the seven because the yen appreciated against the dollar while other major currencies largely have been stable.</str>
-        <int name="index">8</int>
+        <str name="text">At a news conference after today's G-7 meeting, Miyazawa said the ministers and central bank governors did not believe a totally new statement was needed.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.9637614159835611</double>
+        <int name="end">155</int>
+        <double name="strength">0.7950802035240311</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Japanese Finance Minister Kiichi Miyazawa said the Group of Seven (G-7) countries reaffirmed their Paris accord on stabilising currencies to convince the market of their resolve.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">178</int>
-        <double name="strength">0.9022792810935354</double>
+        <double name="strength">0.7812981462714325</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He also said &lt;em&gt;Japan&lt;/em&gt;'s &lt;em&gt;ruling Liberal Democratic Party&lt;/em&gt; has &lt;em&gt;justed adoped&lt;/em&gt; a &lt;em&gt;package&lt;/em&gt; to &lt;em&gt;reflate&lt;/em&gt; the &lt;em&gt;economy while other nations&lt;/em&gt; are not &lt;em&gt;supposed&lt;/em&gt; to &lt;em&gt;produce&lt;/em&gt; new &lt;em&gt;measures&lt;/em&gt; in a &lt;em&gt;short period since&lt;/em&gt; the &lt;em&gt;Paris agreement&lt;/em&gt;.</str>
+        <str name="text">He also said &lt;em&gt;Japan&lt;/em&gt;'s ruling &lt;em&gt;Liberal Democratic Party&lt;/em&gt; has justed adoped a &lt;em&gt;package&lt;/em&gt; to &lt;em&gt;reflate&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; while &lt;em&gt;other nations&lt;/em&gt; are not supposed to &lt;em&gt;produce&lt;/em&gt; new &lt;em&gt;measures&lt;/em&gt; in a &lt;em&gt;short period&lt;/em&gt; since the &lt;em&gt;Paris agreement&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked&lt;/em&gt; why only &lt;em&gt;Japan&lt;/em&gt; was &lt;em&gt;committed&lt;/em&gt; to &lt;em&gt;fresh measures&lt;/em&gt; in the &lt;em&gt;statement,&lt;/em&gt; he said &lt;em&gt;Japan&lt;/em&gt; was &lt;em&gt;exceptional among&lt;/em&gt; the &lt;em&gt;seven because&lt;/em&gt; the yen &lt;em&gt;appreciated against&lt;/em&gt; the &lt;em&gt;dollar while other major currencies largely&lt;/em&gt; have been &lt;em&gt;stable&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">At a news &lt;em&gt;conference&lt;/em&gt; after &lt;em&gt;today&lt;/em&gt;'s G-7 &lt;em&gt;meeting, Miyazawa&lt;/em&gt; said the &lt;em&gt;ministers&lt;/em&gt; and &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;governors&lt;/em&gt; did not &lt;em&gt;believe&lt;/em&gt; a totally new &lt;em&gt;statement&lt;/em&gt; was needed.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Japanese Finance Minister Kiichi Miyazawa&lt;/em&gt; said the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;countries reaffirmed their Paris accord&lt;/em&gt; on &lt;em&gt;stabilising currencies&lt;/em&gt; to &lt;em&gt;convince&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; of &lt;em&gt;their resolve&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Japanese Finance Minister&lt;/em&gt; Kiichi &lt;em&gt;Miyazawa&lt;/em&gt; said the &lt;em&gt;Group&lt;/em&gt; of &lt;em&gt;Seven &lt;/em&gt;(G-7) &lt;em&gt;countries&lt;/em&gt; reaffirmed their &lt;em&gt;Paris accord&lt;/em&gt; on stabilising &lt;em&gt;currencies&lt;/em&gt; to &lt;em&gt;convince&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; of their &lt;em&gt;resolve&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
     </lst>

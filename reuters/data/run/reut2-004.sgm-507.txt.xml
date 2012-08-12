@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-507.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">95</int>
+        <int name="count">61</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">35</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">assets</str>
+        <str name="text">deficit</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">commodity</str>
-        <double name="strength">0.9999999999999991</double>
+        <str name="text">agencies</str>
+        <double name="strength">0.9634242309653824</double>
       </lst>
       <lst name="term">
-        <str name="text">begin</str>
-        <double name="strength">0.6666666666666664</double>
+        <str name="text">calculate</str>
+        <double name="strength">0.9634242309653824</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.39965262694272635</double>
+        <str name="text">approximate</str>
+        <double name="strength">0.9634242309653824</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.3726779962499649</double>
+        <str name="text">comparable</str>
+        <double name="strength">0.9634242309653824</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Exempt from the sale requirement would be loans made under the Commodity Credit Corp commodity loan program, which the government considers to be a commodity purchase program rather than a credit program, and defaulted guaranteed loans, which the government considers to be the same as direct loans.</str>
-        <int name="index">8</int>
+        <str name="text">Officials said the reforms, if adopted across-the-board by all affected congressional committees, would lower the federal deficit by only 100 mln dlrs in fiscal 1988.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">300</int>
+        <int name="end">167</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Officials said the administration hopes to sell a total of 13.0 billion dlrs in loan assets during fiscal 1988, including 1.8 billion dlrs in loan assets under the credit reform program and 11.2 billion dlrs in loan assets already in the governemnt's portfolion.</str>
-        <int name="index">15</int>
+        <str name="text">White House officials estimated reinsurance premiums  could amount to six billion dlrs a year to private companies.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">263</int>
-        <double name="strength">0.9468112212113188</double>
+        <int name="end">116</int>
+        <double name="strength">0.9680792869467664</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The administration is asking Congress to begin reflecting the cost of these subsidies in the fiscal 1988 budget, which the House Budget Committee plans to begin marking up late next week.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.7063633351789375</double>
+        <str name="text">S. agencies were asked to calculate the approximate cost of their loan subsidies by looking at comparable loans in the marketplace.</str>
+        <int name="index">12</int>
+        <int name="start">0</int>
+        <int name="end">131</int>
+        <double name="strength">0.9557569573895449</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Exempt&lt;/em&gt; from the sale &lt;em&gt;requirement would&lt;/em&gt; be &lt;em&gt;loans&lt;/em&gt; made &lt;em&gt;under&lt;/em&gt; the &lt;em&gt;Commodity Credit&lt;/em&gt; Corp &lt;em&gt;commodity&lt;/em&gt; loan &lt;em&gt;program, which&lt;/em&gt; the &lt;em&gt;government considers&lt;/em&gt; to be a &lt;em&gt;commodity purchase program rather&lt;/em&gt; than a &lt;em&gt;credit program,&lt;/em&gt; and &lt;em&gt;defaulted guaranteed loans, which&lt;/em&gt; the &lt;em&gt;government considers&lt;/em&gt; to be the same as &lt;em&gt;direct loans&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">&lt;em&gt;Officials&lt;/em&gt; said the &lt;em&gt;reforms,&lt;/em&gt; if adopted across-the-&lt;em&gt;board&lt;/em&gt; by all &lt;em&gt;affected congressional committees,&lt;/em&gt; would &lt;em&gt;lower&lt;/em&gt; the &lt;em&gt;federal deficit&lt;/em&gt; by only 100 mln dlrs in &lt;em&gt;fiscal 1988&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Officials&lt;/em&gt; said the &lt;em&gt;administration hopes&lt;/em&gt; to sell a &lt;em&gt;total&lt;/em&gt; of 13.0 &lt;em&gt;billion&lt;/em&gt; dlrs in loan &lt;em&gt;assets during fiscal 1988, including 1.8 billion&lt;/em&gt; dlrs in loan &lt;em&gt;assets under&lt;/em&gt; the &lt;em&gt;credit reform program&lt;/em&gt; and 11.2 &lt;em&gt;billion&lt;/em&gt; dlrs in loan &lt;em&gt;assets already&lt;/em&gt; in the &lt;em&gt;governemnt&lt;/em&gt;'s &lt;em&gt;portfolion&lt;/em&gt;.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;White House officials&lt;/em&gt; estimated &lt;em&gt;reinsurance premiums &lt;/em&gt; could &lt;em&gt;amount&lt;/em&gt; to six &lt;em&gt;billion&lt;/em&gt; dlrs a year to &lt;em&gt;private companies&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;administration&lt;/em&gt; is &lt;em&gt;asking Congress&lt;/em&gt; to &lt;em&gt;begin reflecting&lt;/em&gt; the cost of &lt;em&gt;these subsidies&lt;/em&gt; in the &lt;em&gt;fiscal 1988 budget, which&lt;/em&gt; the &lt;em&gt;House Budget Committee plans&lt;/em&gt; to &lt;em&gt;begin marking&lt;/em&gt; up late next week.</str>
-        <int name="index">13</int>
+        <str name="text">S. &lt;em&gt;agencies&lt;/em&gt; were asked to &lt;em&gt;calculate&lt;/em&gt; the &lt;em&gt;approximate&lt;/em&gt; cost of their loan &lt;em&gt;subsidies&lt;/em&gt; by looking at &lt;em&gt;comparable loans&lt;/em&gt; in the &lt;em&gt;marketplace&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

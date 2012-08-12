@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-362.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">80</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">38</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">months</str>
+        <str name="text">offer</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">produced</str>
-        <double name="strength">0.5</double>
+        <str name="text">unconditional</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">raise</str>
-        <double name="strength">0.4999999999999999</double>
+        <str name="text">december</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">noted</str>
-        <double name="strength">0.4999999999999999</double>
+        <str name="text">negligible</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">involved</str>
-        <double name="strength">0.4999999999999999</double>
+        <str name="text">contribution</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">208</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">1986 operating profits were higher in all areas apart from Zimbabwe mines, which were hit by the strength of the local currency against the dollar.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">147</int>
-        <double name="strength">0.983039351382421</double>
+        <double name="strength">0.89952127190241</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">The rights issue would cut borrowings and also allow further development through investment and acquisition.</str>
         <int name="index">6</int>
         <int name="start">0</int>
         <int name="end">108</int>
-        <double name="strength">0.7624836925347215</double>
+        <double name="strength">0.8311037936758673</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">But it said that the &lt;em&gt;purchase&lt;/em&gt; of AE -- &lt;em&gt;which&lt;/em&gt; was won &lt;em&gt;after&lt;/em&gt; a long and &lt;em&gt;acrimonious battle&lt;/em&gt; last year -- &lt;em&gt;greatly strengthened&lt;/em&gt; the &lt;em&gt;group&lt;/em&gt;'s &lt;em&gt;position&lt;/em&gt; in the &lt;em&gt;automotive components&lt;/em&gt; and &lt;em&gt;engineering materials sectors&lt;/em&gt;.</str>
+        <str name="text">But it said that the &lt;em&gt;purchase&lt;/em&gt; of AE -- which was won after a long and &lt;em&gt;acrimonious battle&lt;/em&gt; last year -- greatly strengthened the &lt;em&gt;group&lt;/em&gt;'s &lt;em&gt;position&lt;/em&gt; in the &lt;em&gt;automotive components&lt;/em&gt; and &lt;em&gt;engineering materials sectors&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;1986 operating profits&lt;/em&gt; were &lt;em&gt;higher&lt;/em&gt; in all &lt;em&gt;areas apart&lt;/em&gt; from &lt;em&gt;Zimbabwe mines, which&lt;/em&gt; were hit by the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;local currency against&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt;.</str>
+        <str name="text">1986 operating &lt;em&gt;profits&lt;/em&gt; were higher in all &lt;em&gt;areas&lt;/em&gt; apart from &lt;em&gt;Zimbabwe mines,&lt;/em&gt; which were hit by the &lt;em&gt;strength&lt;/em&gt; of the &lt;em&gt;local currency&lt;/em&gt; against the &lt;em&gt;dollar&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;rights issue would&lt;/em&gt; cut &lt;em&gt;borrowings&lt;/em&gt; and also &lt;em&gt;allow further development through investment&lt;/em&gt; and &lt;em&gt;acquisition&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;rights issue&lt;/em&gt; would cut &lt;em&gt;borrowings&lt;/em&gt; and also &lt;em&gt;allow further development&lt;/em&gt; through &lt;em&gt;investment&lt;/em&gt; and &lt;em&gt;acquisition&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
     </lst>

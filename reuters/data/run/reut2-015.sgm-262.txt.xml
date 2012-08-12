@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-262.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">86</int>
+        <int name="count">60</int>
       </lst>
       <lst name="stems">
-        <int name="count">62</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">aerospace</str>
+        <str name="text">chairman</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">products</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">welch</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">technical</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">outlook</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">ahead</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">double</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">medical</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">digit</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">General Electric said restructuring provisions of 308 mln dlrs before taxes to implement various strategic moves were charged against operations in the first quarter of 1987.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">175</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">And technical products revenues and operating profit were ahead of last year, led by a strong increases in medical systems volume and the inclusion this year of RCA's communications and related services.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">204</int>
-        <double name="strength">0.9893565780937028</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">General Electric also attibuted continued strong performances in plastics, major appliances and the Employers Reinsurance Corp for its strong quarter.</str>
-        <int name="index">1</int>
+        <str name="text">General Electric chairman John Welch Jr reiterated the company's outlook for 1987 in which it expects double-digit GE earnings growth for the year.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">151</int>
-        <double name="strength">0.9404543171571195</double>
+        <int name="end">148</int>
+        <double name="strength">0.9019561368515681</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">General Electric said restructuring provisions of 308 mln dlrs before taxes to implement various strategic moves were charged against operations in the first quarter of 1987.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">175</int>
+        <double name="strength">0.8263428647778961</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Electric&lt;/em&gt; said &lt;em&gt;restructuring provisions&lt;/em&gt; of 308 mln dlrs &lt;em&gt;before taxes&lt;/em&gt; to &lt;em&gt;implement various strategic moves&lt;/em&gt; were &lt;em&gt;charged against operations&lt;/em&gt; in the &lt;em&gt;first quarter of 1987&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">And &lt;em&gt;technical products revenues&lt;/em&gt; and &lt;em&gt;operating profit&lt;/em&gt; were &lt;em&gt;ahead&lt;/em&gt; of last year, led by a &lt;em&gt;strong increases&lt;/em&gt; in &lt;em&gt;medical systems volume&lt;/em&gt; and the &lt;em&gt;inclusion&lt;/em&gt; this year of RCA's &lt;em&gt;communications&lt;/em&gt; and &lt;em&gt;related services&lt;/em&gt;.</str>
+        <str name="text">And &lt;em&gt;technical products revenues&lt;/em&gt; and &lt;em&gt;operating profit&lt;/em&gt; were ahead of last year, led by a &lt;em&gt;strong increases&lt;/em&gt; in &lt;em&gt;medical systems volume&lt;/em&gt; and the &lt;em&gt;inclusion&lt;/em&gt; this year of RCA's &lt;em&gt;communications&lt;/em&gt; and related &lt;em&gt;services&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;General Electric&lt;/em&gt; also &lt;em&gt;attibuted continued strong performances&lt;/em&gt; in &lt;em&gt;plastics, major appliances&lt;/em&gt; and the &lt;em&gt;Employers Reinsurance&lt;/em&gt; Corp for its &lt;em&gt;strong quarter&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;General Electric chairman&lt;/em&gt; John &lt;em&gt;Welch&lt;/em&gt; Jr reiterated the &lt;em&gt;company&lt;/em&gt;'s &lt;em&gt;outlook&lt;/em&gt; for 1987 in which it expects &lt;em&gt;double-digit&lt;/em&gt; GE &lt;em&gt;earnings growth&lt;/em&gt; for the year.</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;General Electric&lt;/em&gt; said restructuring &lt;em&gt;provisions&lt;/em&gt; of 308 mln dlrs before &lt;em&gt;taxes&lt;/em&gt; to &lt;em&gt;implement various strategic moves&lt;/em&gt; were charged against &lt;em&gt;operations&lt;/em&gt; in the &lt;em&gt;first quarter of 1987&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

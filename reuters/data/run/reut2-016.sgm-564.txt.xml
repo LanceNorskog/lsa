@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-564.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">37</int>
       </lst>
       <lst name="terms">
-        <int name="count">176</int>
+        <int name="count">106</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">61</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">quarters</str>
+        <str name="text">today</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">discount</str>
+        <double name="strength">0.9999999999999979</double>
       </lst>
       <lst name="term">
-        <str name="text">however</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">firming</str>
+        <double name="strength">0.9963408654530966</double>
       </lst>
       <lst name="term">
-        <str name="text">reluctant</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">leslie</str>
+        <double name="strength">0.9963408654530953</double>
       </lst>
       <lst name="term">
-        <str name="text">dampen</str>
-        <double name="strength">0.8944271909999186</double>
+        <str name="text">actions</str>
+        <double name="strength">0.9963408654530951</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">232</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In what was the first prime rate boost since mid-1984, most banks in early April lifted their rates a quarter point to 7-3/4 pct, citing a reduced gap between the prime and their own cost of money.</str>
-        <int name="index">2</int>
+        <str name="text">Bank funding costs and other short and long-term interest rates rose sharply Friday and today on heightened speculation that the Fed is gently firming monetary policy.</str>
+        <int name="index">22</int>
         <int name="start">1</int>
-        <int name="end">198</int>
-        <double name="strength">0.9880369186330394</double>
+        <int name="end">168</int>
+        <double name="strength">0.905879050253639</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said that spread had averaged around 1.4 percentage points since last October until it fell below one point and triggered the April prime rate rise at most banks.</str>
-        <int name="index">6</int>
+        <str name="text">"A prime rate increase could happen as soon as tonight," said Robert Brusca of Nikko Securities Co International Inc.</str>
+        <int name="index">4</int>
         <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.9242458085773563</double>
+        <int name="end">118</int>
+        <double name="strength">0.88154290445373</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; he said &lt;em&gt;banks&lt;/em&gt; may be &lt;em&gt;reluctant&lt;/em&gt; to lift the &lt;em&gt;prime because&lt;/em&gt; that &lt;em&gt;would dampen already fairly&lt;/em&gt; weak &lt;em&gt;business&lt;/em&gt; loan &lt;em&gt;demand&lt;/em&gt; and &lt;em&gt;because&lt;/em&gt; some are not sure the Fed will &lt;em&gt;maintain recent upward pressure&lt;/em&gt; on &lt;em&gt;money market interest rates&lt;/em&gt;.</str>
+        <str name="text">However, he said &lt;em&gt;banks&lt;/em&gt; may be &lt;em&gt;reluctant&lt;/em&gt; to lift the &lt;em&gt;prime&lt;/em&gt; because that would &lt;em&gt;dampen&lt;/em&gt; already fairly weak &lt;em&gt;business&lt;/em&gt; loan &lt;em&gt;demand&lt;/em&gt; and because some are not sure the Fed will &lt;em&gt;maintain recent upward pressure&lt;/em&gt; on &lt;em&gt;money market interest rates&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">In what was the &lt;em&gt;first prime&lt;/em&gt; rate &lt;em&gt;boost since&lt;/em&gt; mid-1984, most &lt;em&gt;banks&lt;/em&gt; in &lt;em&gt;early April lifted their rates&lt;/em&gt; a &lt;em&gt;quarter point&lt;/em&gt; to 7-3/4 pct, &lt;em&gt;citing&lt;/em&gt; a &lt;em&gt;reduced&lt;/em&gt; gap &lt;em&gt;between&lt;/em&gt; the &lt;em&gt;prime&lt;/em&gt; and &lt;em&gt;their&lt;/em&gt; own cost of &lt;em&gt;money&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">Bank &lt;em&gt;funding costs&lt;/em&gt; and &lt;em&gt;other short&lt;/em&gt; and long-term &lt;em&gt;interest rates&lt;/em&gt; rose sharply &lt;em&gt;Friday&lt;/em&gt; and &lt;em&gt;today&lt;/em&gt; on &lt;em&gt;heightened speculation&lt;/em&gt; that the Fed is gently &lt;em&gt;firming monetary policy&lt;/em&gt;.</str>
+        <int name="index">22</int>
       </lst>
       <lst name="sentence">
-        <str name="text">He said that &lt;em&gt;spread&lt;/em&gt; had &lt;em&gt;averaged around 1.4 percentage points since&lt;/em&gt; last &lt;em&gt;October until&lt;/em&gt; it fell &lt;em&gt;below&lt;/em&gt; one &lt;em&gt;point&lt;/em&gt; and &lt;em&gt;triggered&lt;/em&gt; the &lt;em&gt;April prime&lt;/em&gt; rate rise at most &lt;em&gt;banks&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">"A &lt;em&gt;prime&lt;/em&gt; rate &lt;em&gt;increase&lt;/em&gt; could &lt;em&gt;happen&lt;/em&gt; as soon as tonight," said &lt;em&gt;Robert Brusca&lt;/em&gt; of &lt;em&gt;Nikko Securities&lt;/em&gt; Co &lt;em&gt;International Inc&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

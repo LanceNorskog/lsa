@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">22</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-573.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">82</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">45</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stock</str>
+        <str name="text">consequence</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">votes</str>
-        <double name="strength">0.7888106377466154</double>
+        <str name="text">shareholders</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">effective</str>
-        <double name="strength">0.7071067811865479</double>
+        <str name="text">liable</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">issue</str>
-        <double name="strength">0.7071067811865476</double>
+        <str name="text">repay</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">court</str>
-        <double name="strength">0.6324555320336771</double>
+        <str name="text">stockholders</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">423</int>
         <double name="strength">1.0</double>
+        <int name="terms">24</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The suit, filed in Manhattan, also names First Boston Corp &lt;FBC&gt; and seeks to void the issue by Harcourt of 40,000 shares of super voting preferred stock to First Boston Securities Corp and the issue of convertible voting preferred stock with 4,700,000 votes in the Harcourt employee stock ownership plan.</str>
-        <int name="index">2</int>
+        <str name="text">The lawsuit also alleges that Harcourt failed to disclose that one consequence of the payment of the dividend, which it terms illegal, will be that shareholders will be liable to repay it.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">306</int>
-        <double name="strength">0.7001344245783748</double>
+        <int name="end">189</int>
+        <double name="strength">0.7686818231115813</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. district court against Harcourt Brace Jovanovich Inc, its directors and advisers to stop, among other things, payment of the special dividend Harcourt is paying as part of its recapitalization.</str>
-        <int name="index">1</int>
+        <str name="text">Harcourt also announced an extensive recapitalization plan, which analysts said was aimed at thwarting a takeover effort by British Printing.</str>
+        <int name="index">8</int>
         <int name="start">0</int>
-        <int name="end">196</int>
-        <double name="strength">0.6864868129738219</double>
+        <int name="end">141</int>
+        <double name="strength">0.6696543409008142</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The suit also &lt;em&gt;alleges&lt;/em&gt; that &lt;em&gt;management,&lt;/em&gt; the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors,&lt;/em&gt; and &lt;em&gt;First Boston engaged&lt;/em&gt; in an &lt;em&gt;illegal scheme&lt;/em&gt; of &lt;em&gt;entrenchment through&lt;/em&gt; a &lt;em&gt;combination&lt;/em&gt; of &lt;em&gt;selling&lt;/em&gt; to &lt;em&gt;First Boston Securities&lt;/em&gt; Corp the &lt;em&gt;super voting preferred&lt;/em&gt; at a &lt;em&gt;bargain price,&lt;/em&gt; the &lt;em&gt;grant&lt;/em&gt; to the &lt;em&gt;company employee stock&lt;/em&gt; plan of &lt;em&gt;convertible voting preferred,&lt;/em&gt; the six mln &lt;em&gt;share&lt;/em&gt; open &lt;em&gt;market repurchase program&lt;/em&gt; and the &lt;em&gt;manner&lt;/em&gt; in &lt;em&gt;which&lt;/em&gt; its &lt;em&gt;financing&lt;/em&gt; has been &lt;em&gt;structured&lt;/em&gt;.</str>
+        <str name="text">The suit also alleges that &lt;em&gt;management,&lt;/em&gt; the &lt;em&gt;board&lt;/em&gt; of &lt;em&gt;directors,&lt;/em&gt; and &lt;em&gt;First Boston&lt;/em&gt; engaged in an &lt;em&gt;illegal scheme&lt;/em&gt; of &lt;em&gt;entrenchment&lt;/em&gt; through a &lt;em&gt;combination&lt;/em&gt; of selling to &lt;em&gt;First Boston Securities&lt;/em&gt; Corp the &lt;em&gt;super voting&lt;/em&gt; preferred at a &lt;em&gt;bargain price,&lt;/em&gt; the &lt;em&gt;grant&lt;/em&gt; to the &lt;em&gt;company employee stock&lt;/em&gt; plan of &lt;em&gt;convertible voting&lt;/em&gt; preferred, the six mln &lt;em&gt;share&lt;/em&gt; open &lt;em&gt;market&lt;/em&gt; repurchase &lt;em&gt;program&lt;/em&gt; and the &lt;em&gt;manner&lt;/em&gt; in which its &lt;em&gt;financing&lt;/em&gt; has been structured.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The suit, &lt;em&gt;filed&lt;/em&gt; in &lt;em&gt;Manhattan,&lt;/em&gt; also &lt;em&gt;names First Boston&lt;/em&gt; Corp &lt;FBC&gt; and &lt;em&gt;seeks&lt;/em&gt; to void the &lt;em&gt;issue&lt;/em&gt; by &lt;em&gt;Harcourt&lt;/em&gt; of 40,000 &lt;em&gt;shares&lt;/em&gt; of &lt;em&gt;super voting preferred stock&lt;/em&gt; to &lt;em&gt;First Boston Securities&lt;/em&gt; Corp and the &lt;em&gt;issue&lt;/em&gt; of &lt;em&gt;convertible voting preferred stock&lt;/em&gt; with 4,700,000 &lt;em&gt;votes&lt;/em&gt; in the &lt;em&gt;Harcourt employee stock ownership plan&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">The &lt;em&gt;lawsuit&lt;/em&gt; also alleges that &lt;em&gt;Harcourt&lt;/em&gt; failed to &lt;em&gt;disclose&lt;/em&gt; that one &lt;em&gt;consequence&lt;/em&gt; of the &lt;em&gt;payment&lt;/em&gt; of the &lt;em&gt;dividend,&lt;/em&gt; which it terms &lt;em&gt;illegal,&lt;/em&gt; will be that &lt;em&gt;shareholders&lt;/em&gt; will be &lt;em&gt;liable&lt;/em&gt; to &lt;em&gt;repay it&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;district court against Harcourt Brace Jovanovich&lt;/em&gt; Inc, its &lt;em&gt;directors&lt;/em&gt; and &lt;em&gt;advisers&lt;/em&gt; to stop, &lt;em&gt;among other things, payment&lt;/em&gt; of the &lt;em&gt;special dividend Harcourt&lt;/em&gt; is &lt;em&gt;paying&lt;/em&gt; as part of its &lt;em&gt;recapitalization&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">&lt;em&gt;Harcourt&lt;/em&gt; also announced an &lt;em&gt;extensive recapitalization&lt;/em&gt; plan, which &lt;em&gt;analysts&lt;/em&gt; said was aimed at thwarting a &lt;em&gt;takeover effort&lt;/em&gt; by &lt;em&gt;British Printing&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

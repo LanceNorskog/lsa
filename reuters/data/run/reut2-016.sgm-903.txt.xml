@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-016.sgm-903.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">193</int>
+        <int name="count">125</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">75</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">within</str>
+        <str name="text">negotiate</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">years</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.9999999999999973</double>
+        <str name="text">banks</str>
+        <double name="strength">0.9988798280552027</double>
       </lst>
       <lst name="term">
-        <str name="text">bonds</str>
-        <double name="strength">0.9999999999999962</double>
+        <str name="text">politics</str>
+        <double name="strength">0.9771992955643828</double>
       </lst>
       <lst name="term">
-        <str name="text">fearing</str>
-        <double name="strength">0.5000000000000002</double>
+        <str name="text">clear</str>
+        <double name="strength">0.9669685826517935</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Argentine pact contains several features that were not in the Mexican accord such as "exit bonds," an option to provide new money via bearer bonds, a trade facility, onlending provisions and a debt-equity conversion scheme.</str>
-        <int name="index">25</int>
-        <int name="start">1</int>
-        <int name="end">228</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Because it is under fire for its human-rights record, the government of General Augusto Pinochet is unlikely to attract attention to itself by seeking to renegotiate its recent debt package, which carries interest of one pct, bankers said.</str>
         <int name="index">32</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.8626138699873369</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Fearing that an Argentine moratorium would stiffen the resolve of its neighbour Brazil, which has already suspended payments, the banks, at the urging of the Reagan Administration, bowed to Argentina's demands.</str>
         <int name="index">21</int>
         <int name="start">0</int>
         <int name="end">210</int>
-        <double name="strength">0.8069661978326312</double>
+        <double name="strength">0.8889781517800807</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Argentine pact contains several features that were not in the Mexican accord such as "exit bonds," an option to provide new money via bearer bonds, a trade facility, onlending provisions and a debt-equity conversion scheme.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">228</int>
+        <double name="strength">0.8260927390544454</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Argentine&lt;/em&gt; pact &lt;em&gt;contains several features&lt;/em&gt; that were not in the &lt;em&gt;Mexican accord&lt;/em&gt; such as "exit &lt;em&gt;bonds,"&lt;/em&gt; an &lt;em&gt;option&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; new &lt;em&gt;money&lt;/em&gt; via &lt;em&gt;bearer bonds,&lt;/em&gt; a &lt;em&gt;trade facility, onlending provisions&lt;/em&gt; and a debt-&lt;em&gt;equity conversion scheme&lt;/em&gt;.</str>
-        <int name="index">25</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Because&lt;/em&gt; it is &lt;em&gt;under&lt;/em&gt; fire for its &lt;em&gt;human-rights record,&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; of &lt;em&gt;General Augusto Pinochet&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;attract attention&lt;/em&gt; to &lt;em&gt;itself&lt;/em&gt; by &lt;em&gt;seeking&lt;/em&gt; to &lt;em&gt;renegotiate&lt;/em&gt; its &lt;em&gt;recent&lt;/em&gt; debt &lt;em&gt;package, which carries interest&lt;/em&gt; of one pct, &lt;em&gt;bankers said&lt;/em&gt;.</str>
+        <str name="text">Because it is under fire for its &lt;em&gt;human-rights record,&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; of &lt;em&gt;General Augusto Pinochet&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;attract attention&lt;/em&gt; to itself by seeking to &lt;em&gt;renegotiate&lt;/em&gt; its &lt;em&gt;recent&lt;/em&gt; debt &lt;em&gt;package,&lt;/em&gt; which carries &lt;em&gt;interest&lt;/em&gt; of one pct, &lt;em&gt;bankers said&lt;/em&gt;.</str>
         <int name="index">32</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Fearing&lt;/em&gt; that an &lt;em&gt;Argentine moratorium would stiffen&lt;/em&gt; the &lt;em&gt;resolve&lt;/em&gt; of its &lt;em&gt;neighbour Brazil, which&lt;/em&gt; has &lt;em&gt;already suspended payments,&lt;/em&gt; the &lt;em&gt;banks,&lt;/em&gt; at the &lt;em&gt;urging&lt;/em&gt; of the &lt;em&gt;Reagan Administration, bowed&lt;/em&gt; to &lt;em&gt;Argentina&lt;/em&gt;'s &lt;em&gt;demands&lt;/em&gt;.</str>
+        <str name="text">Fearing that an &lt;em&gt;Argentine moratorium&lt;/em&gt; would &lt;em&gt;stiffen&lt;/em&gt; the &lt;em&gt;resolve&lt;/em&gt; of its &lt;em&gt;neighbour Brazil,&lt;/em&gt; which has already suspended &lt;em&gt;payments,&lt;/em&gt; the &lt;em&gt;banks,&lt;/em&gt; at the urging of the &lt;em&gt;Reagan Administration,&lt;/em&gt; bowed to Argentina's &lt;em&gt;demands&lt;/em&gt;.</str>
         <int name="index">21</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Argentine&lt;/em&gt; pact contains &lt;em&gt;several features&lt;/em&gt; that were not in the &lt;em&gt;Mexican accord&lt;/em&gt; such as "exit &lt;em&gt;bonds,"&lt;/em&gt; an &lt;em&gt;option&lt;/em&gt; to &lt;em&gt;provide&lt;/em&gt; new &lt;em&gt;money&lt;/em&gt; via bearer &lt;em&gt;bonds,&lt;/em&gt; a &lt;em&gt;trade facility,&lt;/em&gt; onlending &lt;em&gt;provisions&lt;/em&gt; and a debt-&lt;em&gt;equity conversion scheme&lt;/em&gt;.</str>
+        <int name="index">25</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-192.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">136</int>
+        <int name="count">89</int>
       </lst>
       <lst name="stems">
-        <int name="count">80</int>
+        <int name="count">50</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">april</str>
+        <str name="text">neutral</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">hours</str>
-        <double name="strength">0.6666666666666677</double>
+        <str name="text">target</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">raised</str>
-        <double name="strength">0.666666666666666</double>
+        <str name="text">pressures</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">thinking</str>
-        <double name="strength">0.33333333333333437</double>
+        <str name="text">continue</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">course</str>
-        <double name="strength">0.33333333333333437</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">An agreement for four mln engineering workers raised pay by 3.7 pct from April 1, and then raises pay by another two pct from April 1, 1988 and by 2.5 pct from April 1, 1989.</str>
-        <int name="index">20</int>
-        <int name="start">0</int>
-        <int name="end">174</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">The improvement in West German terms of trade, providing room for non-inflationary expansion of domestic demand in excess of output growth, put the overshoot of central bank money stock in a more positive light, he said on Thursday.</str>
         <int name="index">5</int>
         <int name="start">1</int>
         <int name="end">233</int>
-        <double name="strength">0.9488109035791092</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">On Thursday Schlesinger said in a contribution to the Handelsblatt daily that the accommodative monetary stance in West Germany caused by outside pressures could not determine policy in the long term.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">201</int>
+        <double name="strength">0.7686815618561339</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
         <str name="text">"I am thinking above all of the fact that in the course of this year we will in all probability have a stronger mark against other currencies than last year," he said, adding "Without this mark revaluation effect, we would have had to say that the wage rise agreements were not neutral for prices."</str>
         <int name="index">16</int>
         <int name="start">1</int>
         <int name="end">299</int>
-        <double name="strength">0.8425029008938382</double>
+        <double name="strength">0.7240094621086839</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">An &lt;em&gt;agreement&lt;/em&gt; for four mln &lt;em&gt;engineering workers raised&lt;/em&gt; pay by 3.7 pct from &lt;em&gt;April 1,&lt;/em&gt; and then &lt;em&gt;raises&lt;/em&gt; pay by &lt;em&gt;another&lt;/em&gt; two pct from &lt;em&gt;April 1, 1988&lt;/em&gt; and by 2.5 pct from &lt;em&gt;April 1, 1989&lt;/em&gt;.</str>
-        <int name="index">20</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;improvement&lt;/em&gt; in West &lt;em&gt;German terms&lt;/em&gt; of &lt;em&gt;trade, providing&lt;/em&gt; room for non-&lt;em&gt;inflationary expansion&lt;/em&gt; of &lt;em&gt;domestic demand&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of &lt;em&gt;output growth,&lt;/em&gt; put the &lt;em&gt;overshoot&lt;/em&gt; of &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;money stock&lt;/em&gt; in a more &lt;em&gt;positive light,&lt;/em&gt; he said on &lt;em&gt;Thursday&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;improvement&lt;/em&gt; in West &lt;em&gt;German terms&lt;/em&gt; of &lt;em&gt;trade,&lt;/em&gt; providing room for non-&lt;em&gt;inflationary expansion&lt;/em&gt; of &lt;em&gt;domestic demand&lt;/em&gt; in &lt;em&gt;excess&lt;/em&gt; of &lt;em&gt;output growth,&lt;/em&gt; put the &lt;em&gt;overshoot&lt;/em&gt; of &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;money stock&lt;/em&gt; in a more &lt;em&gt;positive light,&lt;/em&gt; he said on Thursday.</str>
         <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"I am &lt;em&gt;thinking above&lt;/em&gt; all of the fact that in the &lt;em&gt;course&lt;/em&gt; of this year we will in all &lt;em&gt;probability&lt;/em&gt; have a &lt;em&gt;stronger&lt;/em&gt; mark &lt;em&gt;against other currencies&lt;/em&gt; than last year," he said, &lt;em&gt;adding "Without&lt;/em&gt; this mark &lt;em&gt;revaluation effect,&lt;/em&gt; we &lt;em&gt;would&lt;/em&gt; have had to say that the wage rise &lt;em&gt;agreements&lt;/em&gt; were not &lt;em&gt;neutral&lt;/em&gt; for &lt;em&gt;prices.&lt;/em&gt;"</str>
+        <str name="text">On Thursday &lt;em&gt;Schlesinger&lt;/em&gt; said in a &lt;em&gt;contribution&lt;/em&gt; to the &lt;em&gt;Handelsblatt&lt;/em&gt; daily that the &lt;em&gt;accommodative monetary stance&lt;/em&gt; in West &lt;em&gt;Germany&lt;/em&gt; caused by &lt;em&gt;outside pressures&lt;/em&gt; could not &lt;em&gt;determine policy&lt;/em&gt; in the long term.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"I am thinking above all of the fact that in the &lt;em&gt;course&lt;/em&gt; of this year we will in all &lt;em&gt;probability&lt;/em&gt; have a stronger mark against &lt;em&gt;other currencies&lt;/em&gt; than last year," he said, adding "Without this mark &lt;em&gt;revaluation effect,&lt;/em&gt; we would have had to say that the wage rise &lt;em&gt;agreements&lt;/em&gt; were not &lt;em&gt;neutral&lt;/em&gt; for &lt;em&gt;prices.&lt;/em&gt;"</str>
         <int name="index">16</int>
       </lst>
     </lst>

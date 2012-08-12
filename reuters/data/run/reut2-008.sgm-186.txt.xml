@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-186.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">118</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">79</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">foreign</str>
+        <str name="text">germany</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">foreign</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">regretted</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">effort</str>
-        <double name="strength">0.8944271909999187</double>
+        <str name="text">reports</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">great</str>
-        <double name="strength">0.8944271909999184</double>
+        <str name="text">interest</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The International Monetary Fund, which recently reviewed the Yugoslav economy, is said by Western diplomats to be alarmed at what it sees as a deteriorating economic crisis here and the possibility of balance of payments problems later this year.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">247</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Yugoslavia, whose economic crisis is under close scrutiny by foreign creditors, will not follow Brazil by suspending repayments on its large foreign debt, Prime Minister Branko Mikulic was quoted as saying.</str>
-        <int name="index">0</int>
+        <str name="text">Foreign Minister Raif Dizdarevic said in Caracas, "radical changes" in interest rates and repayment times were needed.</str>
+        <int name="index">12</int>
         <int name="start">0</int>
-        <int name="end">206</int>
-        <double name="strength">0.9844351527146491</double>
+        <int name="end">118</int>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">This month Makulic imposed partial freezes on wages and prices which led to widespread strikes.</str>
         <int name="index">5</int>
         <int name="start">0</int>
         <int name="end">95</int>
-        <double name="strength">0.8115684358323633</double>
+        <double name="strength">0.9872008304799879</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Mikulic visits West Germany next week, and debt is expected to figure high on the agenda of his talks with Chancellor Helmut Kohl.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">131</int>
+        <double name="strength">0.9371173545731185</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;International Monetary&lt;/em&gt; Fund, &lt;em&gt;which recently reviewed&lt;/em&gt; the &lt;em&gt;Yugoslav economy,&lt;/em&gt; is said by &lt;em&gt;Western diplomats&lt;/em&gt; to be &lt;em&gt;alarmed&lt;/em&gt; at what it sees as a &lt;em&gt;deteriorating economic crisis&lt;/em&gt; here and the &lt;em&gt;possibility&lt;/em&gt; of &lt;em&gt;balance&lt;/em&gt; of &lt;em&gt;payments problems later&lt;/em&gt; this year.</str>
-        <int name="index">15</int>
+        <str name="text">&lt;em&gt;Foreign Minister&lt;/em&gt; Raif &lt;em&gt;Dizdarevic&lt;/em&gt; said in &lt;em&gt;Caracas, "radical changes"&lt;/em&gt; in &lt;em&gt;interest rates&lt;/em&gt; and &lt;em&gt;repayment times&lt;/em&gt; were needed.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Yugoslavia, whose economic crisis&lt;/em&gt; is &lt;em&gt;under close scrutiny&lt;/em&gt; by &lt;em&gt;foreign creditors,&lt;/em&gt; will not &lt;em&gt;follow Brazil&lt;/em&gt; by &lt;em&gt;suspending repayments&lt;/em&gt; on its &lt;em&gt;large foreign&lt;/em&gt; debt, &lt;em&gt;Prime Minister Branko Mikulic&lt;/em&gt; was &lt;em&gt;quoted&lt;/em&gt; as &lt;em&gt;saying&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This &lt;em&gt;month Makulic imposed partial freezes&lt;/em&gt; on &lt;em&gt;wages&lt;/em&gt; and &lt;em&gt;prices which&lt;/em&gt; led to &lt;em&gt;widespread strikes&lt;/em&gt;.</str>
+        <str name="text">This &lt;em&gt;month Makulic&lt;/em&gt; imposed &lt;em&gt;partial freezes&lt;/em&gt; on &lt;em&gt;wages&lt;/em&gt; and &lt;em&gt;prices&lt;/em&gt; which led to &lt;em&gt;widespread strikes&lt;/em&gt;.</str>
         <int name="index">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Mikulic visits&lt;/em&gt; West &lt;em&gt;Germany&lt;/em&gt; next week, and debt is expected to &lt;em&gt;figure&lt;/em&gt; high on the &lt;em&gt;agenda&lt;/em&gt; of his &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;Chancellor Helmut Kohl&lt;/em&gt;.</str>
+        <int name="index">16</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-439.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">73</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">three</str>
+        <str name="text">raids</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">saturday</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">sorties</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">baghdad</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">against</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">others</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">iranan</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">command</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">It also followed celebrations yesterday of what Baghdad hailed as Iran's failure to achieve victory during the Iranian year which ended on Saturday.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">149</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A second high command communique today said Iraqi warplanes flew 94 sorties against Iranan targets and positions at the war front.</str>
         <int name="index">12</int>
         <int name="start">1</int>
         <int name="end">131</int>
-        <double name="strength">0.8455065147535938</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Iraqi warplanes also struck Iran's offshore oilfields at Nowruz, Cyrus and Ardeshir in northern gulf, some 80 km (50 miles) west of Kharg island, today's communique said.</str>
-        <int name="index">9</int>
+        <str name="text">The surprise escalation of attacks on oil installations broke more than a month-long lull in Iraqi air force action.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.8205635491895659</double>
+        <int name="end">117</int>
+        <double name="strength">0.9356387740045802</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It also followed celebrations yesterday of what Baghdad hailed as Iran's failure to achieve victory during the Iranian year which ended on Saturday.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">149</int>
+        <double name="strength">0.9219824620289179</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">It also &lt;em&gt;followed celebrations yesterday&lt;/em&gt; of what &lt;em&gt;Baghdad hailed&lt;/em&gt; as Iran's &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;achieve victory during&lt;/em&gt; the &lt;em&gt;Iranian&lt;/em&gt; year &lt;em&gt;which ended&lt;/em&gt; on &lt;em&gt;Saturday&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;second&lt;/em&gt; high &lt;em&gt;command communique today&lt;/em&gt; said &lt;em&gt;Iraqi warplanes&lt;/em&gt; flew 94 &lt;em&gt;sorties against Iranan targets&lt;/em&gt; and &lt;em&gt;positions&lt;/em&gt; at the war &lt;em&gt;front&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;second&lt;/em&gt; high &lt;em&gt;command communique today&lt;/em&gt; said Iraqi &lt;em&gt;warplanes&lt;/em&gt; flew 94 &lt;em&gt;sorties&lt;/em&gt; against &lt;em&gt;Iranan targets&lt;/em&gt; and &lt;em&gt;positions&lt;/em&gt; at the war &lt;em&gt;front&lt;/em&gt;.</str>
         <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Iraqi warplanes&lt;/em&gt; also &lt;em&gt;struck&lt;/em&gt; Iran's &lt;em&gt;offshore oilfields&lt;/em&gt; at &lt;em&gt;Nowruz, Cyrus&lt;/em&gt; and &lt;em&gt;Ardeshir&lt;/em&gt; in &lt;em&gt;northern&lt;/em&gt; gulf, some 80 km (50 &lt;em&gt;miles)&lt;/em&gt; west of &lt;em&gt;Kharg island, today&lt;/em&gt;'s &lt;em&gt;communique said&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">The &lt;em&gt;surprise escalation&lt;/em&gt; of &lt;em&gt;attacks&lt;/em&gt; on oil &lt;em&gt;installations&lt;/em&gt; broke more than a &lt;em&gt;month&lt;/em&gt;-long lull in &lt;em&gt;Iraqi&lt;/em&gt; air &lt;em&gt;force action&lt;/em&gt;.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">It also followed &lt;em&gt;celebrations yesterday&lt;/em&gt; of what &lt;em&gt;Baghdad&lt;/em&gt; hailed as Iran's &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;achieve victory&lt;/em&gt; during the &lt;em&gt;Iranian&lt;/em&gt; year which ended on &lt;em&gt;Saturday&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-231.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">58</int>
       </lst>
       <lst name="stems">
-        <int name="count">63</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">require</str>
-        <double name="strength">0.5</double>
+        <str name="text">efficient</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">steps</str>
-        <double name="strength">0.5</double>
+        <str name="text">light</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">spectrum</str>
-        <double name="strength">0.5</double>
+        <str name="text">possibilities</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">cannot</str>
-        <double name="strength">0.5</double>
+        <str name="text">solar</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">251</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">GTE Laboratories created "an entirely new electronic material and device form, which may open up a spectrum of uses that cannot even be imagined at this time," said David Decker, vice president and director of research for GTE Laboratories.</str>
-        <int name="index">3</int>
+        <str name="text">Decker said the scientists are still in the early stages of their research on the device, but prototypes of the new device compare favorably with conventionaly made transistors and show promise of superior performance.</str>
+        <int name="index">8</int>
         <int name="start">1</int>
-        <int name="end">241</int>
-        <double name="strength">0.8058108195651487</double>
+        <int name="end">219</int>
+        <double name="strength">0.5849841228287205</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The resulting device has microscopic metal rods extending througout the chips, creating a three dimensional transistor that should be superior to standard devics in high power applications, the scientists said.</str>
         <int name="index">6</int>
         <int name="start">1</int>
         <int name="end">211</int>
-        <double name="strength">0.71711358393568</double>
+        <double name="strength">0.5503223714007696</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He said the &lt;em&gt;prototype device&lt;/em&gt; also &lt;em&gt;proved&lt;/em&gt; to be &lt;em&gt;particularly efficient&lt;/em&gt; in &lt;em&gt;detecting light, which could&lt;/em&gt; open up new &lt;em&gt;possibilities&lt;/em&gt; in &lt;em&gt;solar energy conversion,&lt;/em&gt; the &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;electronic cameras&lt;/em&gt; and &lt;em&gt;greater efficiency&lt;/em&gt; in &lt;em&gt;optical communication systems&lt;/em&gt;.</str>
+        <str name="text">He said the &lt;em&gt;prototype device&lt;/em&gt; also proved to be particularly &lt;em&gt;efficient&lt;/em&gt; in detecting &lt;em&gt;light,&lt;/em&gt; which could open up new &lt;em&gt;possibilities&lt;/em&gt; in &lt;em&gt;solar energy conversion,&lt;/em&gt; the &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;electronic cameras&lt;/em&gt; and greater &lt;em&gt;efficiency&lt;/em&gt; in &lt;em&gt;optical communication systems&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">GTE &lt;em&gt;Laboratories created &lt;/em&gt;"an &lt;em&gt;entirely&lt;/em&gt; new &lt;em&gt;electronic material&lt;/em&gt; and &lt;em&gt;device&lt;/em&gt; form, &lt;em&gt;which&lt;/em&gt; may open up a &lt;em&gt;spectrum&lt;/em&gt; of uses that &lt;em&gt;cannot&lt;/em&gt; even be &lt;em&gt;imagined&lt;/em&gt; at this time," said &lt;em&gt;David Decker,&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; and &lt;em&gt;director&lt;/em&gt; of &lt;em&gt;research&lt;/em&gt; for GTE &lt;em&gt;Laboratories&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Decker&lt;/em&gt; said the &lt;em&gt;scientists&lt;/em&gt; are still in the &lt;em&gt;early stages&lt;/em&gt; of their &lt;em&gt;research&lt;/em&gt; on the &lt;em&gt;device,&lt;/em&gt; but &lt;em&gt;prototypes&lt;/em&gt; of the new &lt;em&gt;device compare&lt;/em&gt; favorably with &lt;em&gt;conventionaly&lt;/em&gt; made &lt;em&gt;transistors&lt;/em&gt; and show &lt;em&gt;promise&lt;/em&gt; of &lt;em&gt;superior performance&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;resulting device&lt;/em&gt; has &lt;em&gt;microscopic metal&lt;/em&gt; rods &lt;em&gt;extending througout&lt;/em&gt; the &lt;em&gt;chips, creating&lt;/em&gt; a &lt;em&gt;three dimensional transistor&lt;/em&gt; that &lt;em&gt;should&lt;/em&gt; be &lt;em&gt;superior&lt;/em&gt; to &lt;em&gt;standard devics&lt;/em&gt; in high &lt;em&gt;power applications,&lt;/em&gt; the &lt;em&gt;scientists said&lt;/em&gt;.</str>
+        <str name="text">The resulting &lt;em&gt;device&lt;/em&gt; has &lt;em&gt;microscopic metal&lt;/em&gt; rods extending througout the &lt;em&gt;chips,&lt;/em&gt; creating a &lt;em&gt;three dimensional transistor&lt;/em&gt; that should be &lt;em&gt;superior&lt;/em&gt; to &lt;em&gt;standard devics&lt;/em&gt; in high &lt;em&gt;power applications,&lt;/em&gt; the &lt;em&gt;scientists said&lt;/em&gt;.</str>
         <int name="index">6</int>
       </lst>
     </lst>

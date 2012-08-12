@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-3.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">66</int>
       </lst>
       <lst name="terms">
-        <int name="count">133</int>
+        <int name="count">91</int>
       </lst>
       <lst name="stems">
-        <int name="count">98</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">sweetener</str>
+        <str name="text">payments</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">enactment</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">growers</str>
+        <double name="strength">0.9682458365518533</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">income</str>
+        <double name="strength">0.9350170145706965</double>
       </lst>
       <lst name="term">
-        <str name="text">between</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">consumers</str>
+        <double name="strength">0.8690608191782757</double>
       </lst>
       <lst name="term">
-        <str name="text">correct</str>
-        <double name="strength">0.8944271909999163</double>
+        <str name="text">billion</str>
+        <double name="strength">0.8690608191782755</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In a letter to the Congressional leadership accompanying the "Sugar Program Improvements Act of 1987", Peter Myers, Deputy Agriculture Secretary, said the Reagan administration wants the sugar loan rate cut to 12 cents per pound beginning with the 1987 crop, down from 18 cts now.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">281</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Congressional sources said the program cut is so drastic it is unlikely to be adopted in either the House or Senate because politically-influential sugar and corn growers and high fructose corn syrup producers will strongly resist.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">0.9807291040984386</double>
+        <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">"Enactment of this bill will reduce the price gap between sweeteners and help to correct or stabilize the many adverse impacts and trends which the sugar industry is currently facing," Myers said.</str>
         <int name="index">22</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.8047484091856031</double>
+        <double name="strength">0.8981483733590059</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Agriculture Department  formally transmitted to Congress a long-awaited proposal to drastically slash the sugar loan rate and compensate growers for the cut with targeted income payments.</str>
+        <int name="index">1</int>
+        <int name="start">0</int>
+        <int name="end">190</int>
+        <double name="strength">0.7833458677268254</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In a &lt;em&gt;letter&lt;/em&gt; to the &lt;em&gt;Congressional leadership accompanying&lt;/em&gt; the "&lt;em&gt;Sugar Program Improvements&lt;/em&gt; Act of 1987", &lt;em&gt;Peter Myers, Deputy Agriculture Secretary,&lt;/em&gt; said the &lt;em&gt;Reagan administration wants&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; loan rate cut to 12 &lt;em&gt;cents&lt;/em&gt; per &lt;em&gt;pound beginning&lt;/em&gt; with the 1987 crop, down from 18 cts now.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Congressional sources&lt;/em&gt; said the &lt;em&gt;program&lt;/em&gt; cut is so &lt;em&gt;drastic&lt;/em&gt; it is &lt;em&gt;unlikely&lt;/em&gt; to be &lt;em&gt;adopted&lt;/em&gt; in &lt;em&gt;either&lt;/em&gt; the &lt;em&gt;House&lt;/em&gt; or &lt;em&gt;Senate because politically-influential sugar&lt;/em&gt; and corn &lt;em&gt;growers&lt;/em&gt; and high &lt;em&gt;fructose&lt;/em&gt; corn &lt;em&gt;syrup producers&lt;/em&gt; will &lt;em&gt;strongly resist&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Congressional sources&lt;/em&gt; said the &lt;em&gt;program&lt;/em&gt; cut is so &lt;em&gt;drastic&lt;/em&gt; it is &lt;em&gt;unlikely&lt;/em&gt; to be adopted in either the &lt;em&gt;House&lt;/em&gt; or &lt;em&gt;Senate&lt;/em&gt; because politically-&lt;em&gt;influential sugar&lt;/em&gt; and corn &lt;em&gt;growers&lt;/em&gt; and high &lt;em&gt;fructose&lt;/em&gt; corn &lt;em&gt;syrup producers&lt;/em&gt; will strongly &lt;em&gt;resist&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Enactment&lt;/em&gt; of this bill will &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; gap &lt;em&gt;between sweeteners&lt;/em&gt; and help to &lt;em&gt;correct&lt;/em&gt; or &lt;em&gt;stabilize&lt;/em&gt; the many &lt;em&gt;adverse impacts&lt;/em&gt; and &lt;em&gt;trends which&lt;/em&gt; the &lt;em&gt;sugar industry&lt;/em&gt; is &lt;em&gt;currently facing," Myers said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;"Enactment&lt;/em&gt; of this bill will &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;price&lt;/em&gt; gap between &lt;em&gt;sweeteners&lt;/em&gt; and help to &lt;em&gt;correct&lt;/em&gt; or &lt;em&gt;stabilize&lt;/em&gt; the many &lt;em&gt;adverse impacts&lt;/em&gt; and &lt;em&gt;trends&lt;/em&gt; which the &lt;em&gt;sugar industry&lt;/em&gt; is currently facing," &lt;em&gt;Myers said&lt;/em&gt;.</str>
         <int name="index">22</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. &lt;em&gt;Agriculture Department &lt;/em&gt; formally transmitted to &lt;em&gt;Congress&lt;/em&gt; a long-awaited &lt;em&gt;proposal&lt;/em&gt; to drastically &lt;em&gt;slash&lt;/em&gt; the &lt;em&gt;sugar&lt;/em&gt; loan rate and &lt;em&gt;compensate growers&lt;/em&gt; for the cut with &lt;em&gt;targeted income payments&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

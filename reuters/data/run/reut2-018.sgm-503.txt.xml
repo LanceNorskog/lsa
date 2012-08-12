@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-503.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">67</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">41</int>
+        <int name="count">31</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">confident</str>
+        <str name="text">gauge</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">excellent</str>
+        <str name="text">effect</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">profit</str>
+        <str name="text">proposed</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">announcement</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">issues</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">follows</str>
-        <double name="strength">0.9999999999999993</double>
+        <str name="text">enter</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">147</int>
         <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
         <str name="text">Prebble said in a statement the government would appoint an adviser to help it decide how the shares should be sold, the timing of any sales and the price.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">156</int>
-        <double name="strength">0.9409330632865429</double>
+        <double name="strength">0.9760963919623779</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The government has said it will also float part of the capital of other state-owned operations, including &lt;DFC New Zealand Ltd&gt;, formerly Development Finance Corp of New Zealand Ltd, and Petroleum Corp of New Zealand Ltd.</str>
-        <int name="index">11</int>
+        <str name="text">Prebble said access to new sources of capital would increase its ability to expand and develop.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">222</int>
-        <double name="strength">0.8430888544916529</double>
+        <int name="end">96</int>
+        <double name="strength">0.8381569079989267</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;"Clearly there&lt;/em&gt; will be a need to &lt;em&gt;gauge&lt;/em&gt; the &lt;em&gt;effect&lt;/em&gt; of &lt;em&gt;other proposed share issues&lt;/em&gt; so as to &lt;em&gt;enter&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; at the best &lt;em&gt;opportunity," Prebble said&lt;/em&gt;.</str>
+        <str name="text">"Clearly there will be a need to &lt;em&gt;gauge&lt;/em&gt; the &lt;em&gt;effect&lt;/em&gt; of &lt;em&gt;other proposed share issues&lt;/em&gt; so as to &lt;em&gt;enter&lt;/em&gt; the &lt;em&gt;market&lt;/em&gt; at the best &lt;em&gt;opportunity," Prebble said&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Prebble&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;government would appoint&lt;/em&gt; an &lt;em&gt;adviser&lt;/em&gt; to help it &lt;em&gt;decide&lt;/em&gt; how the &lt;em&gt;shares should&lt;/em&gt; be sold, the &lt;em&gt;timing&lt;/em&gt; of any &lt;em&gt;sales&lt;/em&gt; and the &lt;em&gt;price&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Prebble&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; would &lt;em&gt;appoint&lt;/em&gt; an &lt;em&gt;adviser&lt;/em&gt; to help it &lt;em&gt;decide&lt;/em&gt; how the &lt;em&gt;shares&lt;/em&gt; should be sold, the &lt;em&gt;timing&lt;/em&gt; of any &lt;em&gt;sales&lt;/em&gt; and the &lt;em&gt;price&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; has said it will also &lt;em&gt;float&lt;/em&gt; part of the &lt;em&gt;capital&lt;/em&gt; of &lt;em&gt;other state-owned operations, including &lt;/em&gt;&lt;DFC New &lt;em&gt;Zealand&lt;/em&gt; Ltd&gt;, &lt;em&gt;formerly Development Finance&lt;/em&gt; Corp of New &lt;em&gt;Zealand&lt;/em&gt; Ltd, and &lt;em&gt;Petroleum&lt;/em&gt; Corp of New &lt;em&gt;Zealand Ltd&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">&lt;em&gt;Prebble&lt;/em&gt; said &lt;em&gt;access&lt;/em&gt; to new &lt;em&gt;sources&lt;/em&gt; of &lt;em&gt;capital&lt;/em&gt; would &lt;em&gt;increase&lt;/em&gt; its &lt;em&gt;ability&lt;/em&gt; to &lt;em&gt;expand&lt;/em&gt; and &lt;em&gt;develop&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

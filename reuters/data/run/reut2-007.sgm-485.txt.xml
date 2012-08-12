@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-485.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">76</int>
+        <int name="count">52</int>
       </lst>
       <lst name="stems">
-        <int name="count">39</int>
+        <int name="count">25</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">company</str>
+        <str name="text">effect</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">product</str>
-        <double name="strength">1.0</double>
+        <str name="text">spokesman</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">motors</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">issues</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">michigan</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">division</str>
+        <double name="strength">0.9999999999999977</double>
       </lst>
       <lst name="term">
-        <str name="text">scheduled</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">serious</str>
+        <double name="strength">0.9730077661055212</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Under the proposed contract, workers in one area of the plant would be responsible for the entire product and would make some of their own decisions about assembling that product, said Kevin Woodward, a steward with the UAW local that represents the workers.</str>
-        <int name="index">3</int>
+        <str name="text">If the contract is ratified, it would go into effect as soon as the vote count is completed, said Ronald Catcher, a member of the local's executive board.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">259</int>
+        <int name="end">155</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">Some 3,000 members of the United Auto Workers at GM's Livonia, Mich., parts plant will vote in two shifts on a local contract to replace their current agreement with the company, according to officials of both the union and the company.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">237</int>
-        <double name="strength">0.8601850942969435</double>
+        <double name="strength">0.9641577422880422</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Workers at a General Motors Corp parts plant in Michigan are scheduled to vote tomorrow on a new contract that would change the way many of the workers do their job.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">165</int>
-        <double name="strength">0.6921590415542238</double>
+        <str name="text">The proposed accord would initiate the so-called "team concept" at the plant, which makes seat cushions and is part of GM's Inland Division.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">0.8859752385781546</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the &lt;em&gt;proposed contract, workers&lt;/em&gt; in one area of the &lt;em&gt;plant would&lt;/em&gt; be &lt;em&gt;responsible&lt;/em&gt; for the &lt;em&gt;entire product&lt;/em&gt; and &lt;em&gt;would&lt;/em&gt; make some of &lt;em&gt;their&lt;/em&gt; own &lt;em&gt;decisions about assembling&lt;/em&gt; that &lt;em&gt;product,&lt;/em&gt; said &lt;em&gt;Kevin Woodward,&lt;/em&gt; a &lt;em&gt;steward&lt;/em&gt; with the UAW &lt;em&gt;local&lt;/em&gt; that &lt;em&gt;represents&lt;/em&gt; the &lt;em&gt;workers&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">If the &lt;em&gt;contract&lt;/em&gt; is ratified, it would go into &lt;em&gt;effect&lt;/em&gt; as soon as the vote &lt;em&gt;count&lt;/em&gt; is completed, said &lt;em&gt;Ronald&lt;/em&gt; Catcher, a &lt;em&gt;member&lt;/em&gt; of the &lt;em&gt;local&lt;/em&gt;'s &lt;em&gt;executive board&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Some 3,000 &lt;em&gt;members&lt;/em&gt; of the &lt;em&gt;United&lt;/em&gt; Auto &lt;em&gt;Workers&lt;/em&gt; at GM's &lt;em&gt;Livonia,&lt;/em&gt; Mich., &lt;em&gt;parts plant&lt;/em&gt; will vote in two &lt;em&gt;shifts&lt;/em&gt; on a &lt;em&gt;local contract&lt;/em&gt; to &lt;em&gt;replace their current agreement&lt;/em&gt; with the &lt;em&gt;company, according&lt;/em&gt; to &lt;em&gt;officials&lt;/em&gt; of both the &lt;em&gt;union&lt;/em&gt; and the &lt;em&gt;company&lt;/em&gt;.</str>
+        <str name="text">Some 3,000 &lt;em&gt;members&lt;/em&gt; of the United Auto &lt;em&gt;Workers&lt;/em&gt; at GM's &lt;em&gt;Livonia,&lt;/em&gt; Mich., &lt;em&gt;parts plant&lt;/em&gt; will vote in two &lt;em&gt;shifts&lt;/em&gt; on a &lt;em&gt;local contract&lt;/em&gt; to &lt;em&gt;replace&lt;/em&gt; their &lt;em&gt;current agreement&lt;/em&gt; with the &lt;em&gt;company,&lt;/em&gt; according to &lt;em&gt;officials&lt;/em&gt; of both the &lt;em&gt;union&lt;/em&gt; and the &lt;em&gt;company&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Workers&lt;/em&gt; at a &lt;em&gt;General Motors&lt;/em&gt; Corp &lt;em&gt;parts plant&lt;/em&gt; in &lt;em&gt;Michigan&lt;/em&gt; are &lt;em&gt;scheduled&lt;/em&gt; to vote &lt;em&gt;tomorrow&lt;/em&gt; on a new &lt;em&gt;contract&lt;/em&gt; that &lt;em&gt;would change&lt;/em&gt; the way many of the &lt;em&gt;workers&lt;/em&gt; do &lt;em&gt;their job&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The proposed &lt;em&gt;accord&lt;/em&gt; would &lt;em&gt;initiate&lt;/em&gt; the so-called "team &lt;em&gt;concept"&lt;/em&gt; at the &lt;em&gt;plant,&lt;/em&gt; which makes seat &lt;em&gt;cushions&lt;/em&gt; and is part of GM's &lt;em&gt;Inland Division&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

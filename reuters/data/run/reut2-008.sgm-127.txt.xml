@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-127.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">160</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">107</int>
+        <int name="count">74</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">wants</str>
+        <str name="text">conditions</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">unwilling</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">other</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">meeting</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">voters</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">creditors</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">blocs</str>
-        <double name="strength">0.8944271909999167</double>
+        <str name="text">oblige</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">209</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">They said creditors are not ready to discuss debt forgiveness and prefer to look at schemes such as debt-equity swaps in combination with a continuing emphasis on economic reforms.</str>
+        <int name="index">14</int>
+        <int name="start">1</int>
+        <int name="end">181</int>
+        <double name="strength">0.9783898365962179</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">Washington wants to involve the IADB in its debt strategy through increased lending, but as the bank's largest single shareholder it also wants to require countries to adopt far-reaching economic reforms to qualify for loans.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">226</int>
-        <double name="strength">0.9301746606246356</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S.-backed reforms in the Inter-American Development Bank (IADB) underscores the mounting challenge to Washington's current debt strategy, according to Latin American officials and delegates to the IADB meeting that begins here today.</str>
-        <int name="index">1</int>
-        <int name="start">0</int>
-        <int name="end">233</int>
-        <double name="strength">0.8878965774286561</double>
+        <double name="strength">0.8969308783953678</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Brazil insists&lt;/em&gt; its debt &lt;em&gt;service obligations should&lt;/em&gt; in no way &lt;em&gt;interfere&lt;/em&gt; with &lt;em&gt;growth priorities,&lt;/em&gt; a &lt;em&gt;position putting&lt;/em&gt; the &lt;em&gt;issue&lt;/em&gt; of debt &lt;em&gt;relief squarely&lt;/em&gt; into &lt;em&gt;focus&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time, &lt;em&gt;officials&lt;/em&gt; and &lt;em&gt;delegates said&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Brazil&lt;/em&gt; insists its debt &lt;em&gt;service obligations&lt;/em&gt; should in no way &lt;em&gt;interfere&lt;/em&gt; with &lt;em&gt;growth priorities,&lt;/em&gt; a &lt;em&gt;position&lt;/em&gt; putting the &lt;em&gt;issue&lt;/em&gt; of debt &lt;em&gt;relief&lt;/em&gt; squarely into &lt;em&gt;focus&lt;/em&gt; for the &lt;em&gt;first&lt;/em&gt; time, &lt;em&gt;officials&lt;/em&gt; and &lt;em&gt;delegates said&lt;/em&gt;.</str>
         <int name="index">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Washington wants&lt;/em&gt; to &lt;em&gt;involve&lt;/em&gt; the IADB in its debt &lt;em&gt;strategy through increased lending,&lt;/em&gt; but as the bank's &lt;em&gt;largest single shareholder&lt;/em&gt; it also &lt;em&gt;wants&lt;/em&gt; to &lt;em&gt;require countries&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; far-&lt;em&gt;reaching economic reforms&lt;/em&gt; to &lt;em&gt;qualify&lt;/em&gt; for &lt;em&gt;loans&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">They said &lt;em&gt;creditors&lt;/em&gt; are not &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; debt &lt;em&gt;forgiveness&lt;/em&gt; and &lt;em&gt;prefer&lt;/em&gt; to look at &lt;em&gt;schemes&lt;/em&gt; such as debt-&lt;em&gt;equity swaps&lt;/em&gt; in &lt;em&gt;combination&lt;/em&gt; with a continuing &lt;em&gt;emphasis&lt;/em&gt; on &lt;em&gt;economic reforms&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S.-&lt;em&gt;backed reforms&lt;/em&gt; in the &lt;em&gt;Inter-American Development&lt;/em&gt; Bank (IADB) &lt;em&gt;underscores&lt;/em&gt; the &lt;em&gt;mounting challenge&lt;/em&gt; to &lt;em&gt;Washington&lt;/em&gt;'s &lt;em&gt;current&lt;/em&gt; debt &lt;em&gt;strategy, according&lt;/em&gt; to &lt;em&gt;Latin American officials&lt;/em&gt; and &lt;em&gt;delegates&lt;/em&gt; to the IADB &lt;em&gt;meeting&lt;/em&gt; that &lt;em&gt;begins&lt;/em&gt; here &lt;em&gt;today&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">Washington wants to &lt;em&gt;involve&lt;/em&gt; the IADB in its debt &lt;em&gt;strategy&lt;/em&gt; through increased &lt;em&gt;lending,&lt;/em&gt; but as the bank's largest &lt;em&gt;single shareholder&lt;/em&gt; it also wants to &lt;em&gt;require countries&lt;/em&gt; to &lt;em&gt;adopt&lt;/em&gt; far-reaching &lt;em&gt;economic reforms&lt;/em&gt; to &lt;em&gt;qualify&lt;/em&gt; for &lt;em&gt;loans&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

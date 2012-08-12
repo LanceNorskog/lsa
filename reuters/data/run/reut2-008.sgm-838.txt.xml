@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-838.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">43</int>
       </lst>
       <lst name="terms">
-        <int name="count">190</int>
+        <int name="count">139</int>
       </lst>
       <lst name="stems">
-        <int name="count">124</int>
+        <int name="count">87</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">shares</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stocks</str>
-        <double name="strength">0.5590169943749503</double>
+        <str name="text">industry</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">those</str>
-        <double name="strength">0.5590169943749469</double>
+        <str name="text">japan</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">prudential</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">american</str>
+        <double name="strength">0.9957279453415531</double>
       </lst>
       <lst name="term">
-        <str name="text">securities</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9957279453415523</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Analysts believe Nippon has willingly paid a premium for its stake, but it will also receive warrants for one mln American Express shares and the 13 mln shares in Shearson will be cumulative preferred, convertible to common after U.</str>
-        <int name="index">26</int>
-        <int name="start">1</int>
-        <int name="end">233</int>
+        <str name="text">I think the pattern has established itself here, and it's reasonable to expect further investment down the road," said Prudential-Bache Securities analyst Larry Eckenfelder.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">173</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Speculation of such partnerships spread to other brokerage stocks, resulting in rising stock prices in recent sessions.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">120</int>
-        <double name="strength">0.8082867403390186</double>
+        <str name="text">Wall Street's biggest brokerage firms, eager for funds and foreign ties to fuel international expansion, are expected to find more partnerships among Japan's cash-rich companies, analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">193</int>
+        <double name="strength">0.9485089930782834</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Nippon and Shearson have already said they would form a joint venture company in London to work on investment advisory, asset management, and consulting on financing.</str>
-        <int name="index">25</int>
+        <str name="text">"Morgan (Stanley), First Boston, Salomon (Brothers), Merrill (Lynch).</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">167</int>
-        <double name="strength">0.7681543002066765</double>
+        <int name="end">70</int>
+        <double name="strength">0.9409165641745093</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Analysts believe Nippon&lt;/em&gt; has &lt;em&gt;willingly&lt;/em&gt; paid a &lt;em&gt;premium&lt;/em&gt; for its &lt;em&gt;stake,&lt;/em&gt; but it will also &lt;em&gt;receive warrants&lt;/em&gt; for one mln &lt;em&gt;American Express shares&lt;/em&gt; and the 13 mln &lt;em&gt;shares&lt;/em&gt; in &lt;em&gt;Shearson&lt;/em&gt; will be &lt;em&gt;cumulative preferred, convertible&lt;/em&gt; to &lt;em&gt;common after U&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">I &lt;em&gt;think&lt;/em&gt; the &lt;em&gt;pattern&lt;/em&gt; has established itself here, and it's &lt;em&gt;reasonable&lt;/em&gt; to &lt;em&gt;expect further investment&lt;/em&gt; down the road," said &lt;em&gt;Prudential-Bache Securities analyst Larry Eckenfelder&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Speculation&lt;/em&gt; of such &lt;em&gt;partnerships spread&lt;/em&gt; to &lt;em&gt;other brokerage stocks, resulting&lt;/em&gt; in &lt;em&gt;rising stock prices&lt;/em&gt; in &lt;em&gt;recent sessions&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">Wall &lt;em&gt;Street&lt;/em&gt;'s biggest &lt;em&gt;brokerage firms, eager&lt;/em&gt; for &lt;em&gt;funds&lt;/em&gt; and &lt;em&gt;foreign&lt;/em&gt; ties to fuel &lt;em&gt;international expansion,&lt;/em&gt; are expected to find more &lt;em&gt;partnerships&lt;/em&gt; among &lt;em&gt;Japan&lt;/em&gt;'s cash-rich &lt;em&gt;companies, analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Nippon&lt;/em&gt; and &lt;em&gt;Shearson&lt;/em&gt; have &lt;em&gt;already&lt;/em&gt; said they &lt;em&gt;would&lt;/em&gt; form a &lt;em&gt;joint venture company&lt;/em&gt; in &lt;em&gt;London&lt;/em&gt; to work on &lt;em&gt;investment advisory, asset management,&lt;/em&gt; and &lt;em&gt;consulting&lt;/em&gt; on &lt;em&gt;financing&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">&lt;em&gt;"Morgan (Stanley), First Boston, Salomon (Brothers), Merrill (Lynch)&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-015.sgm-159.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">81</int>
+        <int name="count">67</int>
       </lst>
       <lst name="stems">
-        <int name="count">52</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">separate</str>
+        <str name="text">controller</str>
         <double name="strength">1.0</double>
+      </lst>
+      <lst name="term">
+        <str name="text">business</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">protocols</str>
+        <double name="strength">0.9999999999999994</double>
+      </lst>
+      <lst name="term">
+        <str name="text">separate</str>
+        <double name="strength">0.9969511504682479</double>
       </lst>
       <lst name="term">
         <str name="text">quantities</str>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="term">
-        <str name="text">reached</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">point</str>
-        <double name="strength">0.9999999999999996</double>
-      </lst>
-      <lst name="term">
-        <str name="text">implement</str>
-        <double name="strength">0.9999999999999996</double>
+        <double name="strength">0.9969511504682479</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">230</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Advanced Micro also said it has signed a licensing agreement with American Telephone and Telegraph Co &lt;T&gt; under which ATT has provided it with certain digital communications specifications.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">190</int>
-        <double name="strength">0.9175393671529146</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">"We have now reached a key point in the development of communications devices that implement a worldwide ISDN standard," said John East, group vice president for Advanced Micro's logic businesses.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">197</int>
-        <double name="strength">0.8143416484690875</double>
+        <double name="strength">0.9786708675933053</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Advanced Micro also said it has signed a licensing agreement with American Telephone and Telegraph Co &lt;T&gt; under which ATT has provided it with certain digital communications specifications.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">190</int>
+        <double name="strength">0.8837813555048065</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Similar&lt;/em&gt; chip sets for ISDN &lt;em&gt;communications&lt;/em&gt; are &lt;em&gt;already being&lt;/em&gt; sold by a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;companies including INTEL&lt;/em&gt; Corp &lt;INTC&gt;, ATT, &lt;em&gt;Rockwell International &lt;/em&gt;&lt;ROK&gt; and a &lt;em&gt;joint venture between Northern Telecom&lt;/em&gt; LTd &lt;NT&gt; and &lt;em&gt;Motorola&lt;/em&gt; Inc &lt;MOT&gt;.</str>
+        <str name="text">&lt;em&gt;Similar&lt;/em&gt; chip sets for ISDN &lt;em&gt;communications&lt;/em&gt; are already being sold by a &lt;em&gt;number&lt;/em&gt; of &lt;em&gt;companies&lt;/em&gt; including &lt;em&gt;INTEL&lt;/em&gt; Corp &lt;INTC&gt;, ATT, &lt;em&gt;Rockwell International &lt;/em&gt;&lt;ROK&gt; and a &lt;em&gt;joint venture&lt;/em&gt; between &lt;em&gt;Northern Telecom&lt;/em&gt; LTd &lt;NT&gt; and &lt;em&gt;Motorola&lt;/em&gt; Inc &lt;MOT&gt;.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Advanced Micro&lt;/em&gt; also said it has &lt;em&gt;signed&lt;/em&gt; a &lt;em&gt;licensing agreement&lt;/em&gt; with &lt;em&gt;American Telephone&lt;/em&gt; and &lt;em&gt;Telegraph&lt;/em&gt; Co &lt;T&gt; &lt;em&gt;under which&lt;/em&gt; ATT has &lt;em&gt;provided&lt;/em&gt; it with &lt;em&gt;certain digital communications specifications&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">"We have now reached a key &lt;em&gt;point&lt;/em&gt; in the &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;communications devices&lt;/em&gt; that &lt;em&gt;implement&lt;/em&gt; a &lt;em&gt;worldwide&lt;/em&gt; ISDN &lt;em&gt;standard,"&lt;/em&gt; said John East, &lt;em&gt;group&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Advanced Micro&lt;/em&gt;'s &lt;em&gt;logic businesses&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">"We have now &lt;em&gt;reached&lt;/em&gt; a key &lt;em&gt;point&lt;/em&gt; in the &lt;em&gt;development&lt;/em&gt; of &lt;em&gt;communications devices&lt;/em&gt; that &lt;em&gt;implement&lt;/em&gt; a &lt;em&gt;worldwide&lt;/em&gt; ISDN &lt;em&gt;standard,"&lt;/em&gt; said John East, &lt;em&gt;group&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Advanced Micro&lt;/em&gt;'s &lt;em&gt;logic businesses&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">Advanced &lt;em&gt;Micro&lt;/em&gt; also said it has signed a &lt;em&gt;licensing agreement&lt;/em&gt; with &lt;em&gt;American Telephone&lt;/em&gt; and &lt;em&gt;Telegraph&lt;/em&gt; Co &lt;T&gt; under which ATT has provided it with &lt;em&gt;certain digital communications specifications&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

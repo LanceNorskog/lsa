@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">9</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-795.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">91</int>
+        <int name="count">68</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">conference</str>
+        <str name="text">caribbean</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">policies</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">friday</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">recommended</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">approval</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">realistic</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">group</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exhange</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">month</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">SELA presented the document to a week-long conference of latin american financial and economic experts, meeting to lay the groundwork for this year's annual meeting of the united nations conference on trade and development (unctad).</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">233</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">SELA called for new efforts to break "the vicious circle of debt, stagnation and productive retrogression the region has been immersed in since the beginning of the decade."</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">174</int>
-        <double name="strength">0.98947180778845</double>
+        <double name="strength">1.0</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It notes that other favorable strategies include foreign investment/debt equity swaps, already successfully experimented with in some countries.</str>
-        <int name="index">5</int>
+        <str name="text">Other policies recommended include more realistic exhange rates and more producive capital investment programs.</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">145</int>
-        <double name="strength">0.8860917490147702</double>
+        <int name="end">112</int>
+        <double name="strength">0.9232272410367036</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the havana meeting delegates from latin america, asia and africa will attempt to hammer out a common position for presentation at unctad's annal meeting next july in geneva.</str>
+        <int name="index">9</int>
+        <int name="start">1</int>
+        <int name="end">177</int>
+        <double name="strength">0.7924643562374555</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">SELA &lt;em&gt;presented&lt;/em&gt; the &lt;em&gt;document&lt;/em&gt; to a week-long &lt;em&gt;conference&lt;/em&gt; of &lt;em&gt;latin american financial&lt;/em&gt; and &lt;em&gt;economic experts, meeting&lt;/em&gt; to lay the &lt;em&gt;groundwork&lt;/em&gt; for this year's &lt;em&gt;annual meeting&lt;/em&gt; of the &lt;em&gt;united nations conference&lt;/em&gt; on &lt;em&gt;trade&lt;/em&gt; and &lt;em&gt;development (unctad)&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">SELA &lt;em&gt;called&lt;/em&gt; for new &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;break &lt;/em&gt;"the &lt;em&gt;vicious circle&lt;/em&gt; of debt, &lt;em&gt;stagnation&lt;/em&gt; and &lt;em&gt;productive retrogression&lt;/em&gt; the &lt;em&gt;region&lt;/em&gt; has been &lt;em&gt;immersed&lt;/em&gt; in &lt;em&gt;since&lt;/em&gt; the &lt;em&gt;beginning&lt;/em&gt; of the &lt;em&gt;decade.&lt;/em&gt;"</str>
+        <str name="text">SELA called for new &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;break &lt;/em&gt;"the &lt;em&gt;vicious circle&lt;/em&gt; of debt, &lt;em&gt;stagnation&lt;/em&gt; and &lt;em&gt;productive retrogression&lt;/em&gt; the &lt;em&gt;region&lt;/em&gt; has been immersed in since the &lt;em&gt;beginning&lt;/em&gt; of the &lt;em&gt;decade.&lt;/em&gt;"</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">It &lt;em&gt;notes&lt;/em&gt; that &lt;em&gt;other favorable strategies include foreign investment&lt;/em&gt;/debt &lt;em&gt;equity swaps, already successfully experimented&lt;/em&gt; with in some &lt;em&gt;countries&lt;/em&gt;.</str>
-        <int name="index">5</int>
+        <str name="text">&lt;em&gt;Other policies&lt;/em&gt; recommended &lt;em&gt;include&lt;/em&gt; more &lt;em&gt;realistic exhange rates&lt;/em&gt; and more &lt;em&gt;producive capital investment programs&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">At the &lt;em&gt;havana meeting delegates&lt;/em&gt; from &lt;em&gt;latin america,&lt;/em&gt; asia and &lt;em&gt;africa&lt;/em&gt; will &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;hammer&lt;/em&gt; out a &lt;em&gt;common position&lt;/em&gt; for &lt;em&gt;presentation&lt;/em&gt; at &lt;em&gt;unctad&lt;/em&gt;'s &lt;em&gt;annal meeting&lt;/em&gt; next july in &lt;em&gt;geneva&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

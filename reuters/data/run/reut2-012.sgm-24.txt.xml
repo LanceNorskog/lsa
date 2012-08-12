@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">23</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-012.sgm-24.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">45</int>
       </lst>
       <lst name="terms">
-        <int name="count">209</int>
+        <int name="count">159</int>
       </lst>
       <lst name="stems">
-        <int name="count">141</int>
+        <int name="count">109</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">access</str>
+        <str name="text">reuters</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">telephone</str>
-        <double name="strength">0.5590169943749513</double>
+        <str name="text">trading</str>
+        <double name="strength">0.998972454227471</double>
       </lst>
       <lst name="term">
-        <str name="text">machine</str>
-        <double name="strength">0.500000000000004</double>
+        <str name="text">government</str>
+        <double name="strength">0.9850479428900655</double>
       </lst>
       <lst name="term">
-        <str name="text">sends</str>
-        <double name="strength">0.500000000000004</double>
+        <str name="text">britain</str>
+        <double name="strength">0.982044679930631</double>
       </lst>
       <lst name="term">
-        <str name="text">printed</str>
-        <double name="strength">0.500000000000004</double>
+        <str name="text">oftel</str>
+        <double name="strength">0.9820446799306275</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">212</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The minister will seek a clear timetable from Japan for easier access for British institutions to Japanese financial markets, reciprocating the easy access Japanese securities houses and banks have to the City of London.</str>
-        <int name="index">36</int>
-        <int name="start">1</int>
-        <int name="end">221</int>
-        <double name="strength">0.9897596445404745</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A facsimile machine sends printed data over telephone lines, while a key telephone system is used for switching calls within a business, industry sources said.</str>
-        <int name="index">8</int>
+        <str name="text">K. Exports and sharply alter the outlook for the next general election in which economic recovery will be one of the government's main themes, political analysts said.</str>
+        <int name="index">43</int>
         <int name="start">0</int>
-        <int name="end">159</int>
-        <double name="strength">0.9457735479802349</double>
+        <int name="end">167</int>
+        <double name="strength">0.9007055370948496</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The government, for which competition and the deregulation of markets are major political themes, is unlikely to make final decisions tomorrow on how to act against Japan, officials said.</str>
+        <int name="index">24</int>
+        <int name="start">1</int>
+        <int name="end">188</int>
+        <double name="strength">0.8854345696050974</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">T&gt;, the &lt;em&gt;Japanese electronics group which plans&lt;/em&gt; to &lt;em&gt;enter Britain&lt;/em&gt;'s &lt;em&gt;liberalised telecommunications equipment market, risks becoming&lt;/em&gt; the &lt;em&gt;first casualty&lt;/em&gt; in the &lt;em&gt;current&lt;/em&gt; war of &lt;em&gt;words&lt;/em&gt; over &lt;em&gt;trade between Japan&lt;/em&gt; and the U.</str>
+        <str name="text">T&gt;, the &lt;em&gt;Japanese electronics group&lt;/em&gt; which plans to &lt;em&gt;enter Britain&lt;/em&gt;'s &lt;em&gt;liberalised telecommunications equipment market, risks&lt;/em&gt; becoming the &lt;em&gt;first casualty&lt;/em&gt; in the &lt;em&gt;current&lt;/em&gt; war of &lt;em&gt;words&lt;/em&gt; over &lt;em&gt;trade&lt;/em&gt; between &lt;em&gt;Japan&lt;/em&gt; and the U.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;minister&lt;/em&gt; will seek a &lt;em&gt;clear timetable&lt;/em&gt; from &lt;em&gt;Japan&lt;/em&gt; for &lt;em&gt;easier access&lt;/em&gt; for &lt;em&gt;British institutions&lt;/em&gt; to &lt;em&gt;Japanese financial markets, reciprocating&lt;/em&gt; the easy &lt;em&gt;access Japanese securities houses&lt;/em&gt; and &lt;em&gt;banks&lt;/em&gt; have to the City of &lt;em&gt;London&lt;/em&gt;.</str>
-        <int name="index">36</int>
+        <str name="text">K. &lt;em&gt;Exports&lt;/em&gt; and sharply &lt;em&gt;alter&lt;/em&gt; the &lt;em&gt;outlook&lt;/em&gt; for the next &lt;em&gt;general election&lt;/em&gt; in which &lt;em&gt;economic recovery&lt;/em&gt; will be one of the &lt;em&gt;government&lt;/em&gt;'s main &lt;em&gt;themes, political analysts said&lt;/em&gt;.</str>
+        <int name="index">43</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;facsimile machine sends printed&lt;/em&gt; data over &lt;em&gt;telephone lines, while&lt;/em&gt; a key &lt;em&gt;telephone system&lt;/em&gt; is used for &lt;em&gt;switching calls within&lt;/em&gt; a &lt;em&gt;business, industry sources said&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The &lt;em&gt;government,&lt;/em&gt; for which &lt;em&gt;competition&lt;/em&gt; and the &lt;em&gt;deregulation&lt;/em&gt; of &lt;em&gt;markets&lt;/em&gt; are &lt;em&gt;major political themes,&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to make &lt;em&gt;final decisions tomorrow&lt;/em&gt; on how to act against &lt;em&gt;Japan, officials said&lt;/em&gt;.</str>
+        <int name="index">24</int>
       </lst>
     </lst>
   </lst>

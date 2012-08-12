@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">24</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-57.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">35</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">84</int>
       </lst>
       <lst name="stems">
-        <int name="count">72</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">there</str>
+        <str name="text">yields</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">lowest</str>
-        <double name="strength">0.9999999999999982</double>
+        <str name="text">government</str>
+        <double name="strength">0.9669685826517918</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.9999999999999952</double>
+        <str name="text">records</str>
+        <double name="strength">0.9669685826517912</double>
       </lst>
       <lst name="term">
-        <str name="text">severe</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">decrease</str>
+        <double name="strength">0.9669685826517891</double>
       </lst>
       <lst name="term">
-        <str name="text">drought</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9412879310968741</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Currently farmers enrolling in the program are required to set aside 20 pct of their base acreage and then are eligible for payments of two dlrs per bushel by idling an additional 15 pct of their acreage.</str>
-        <int name="index">32</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. corn acreage this year is  likely to drop to the lowest level since the unsurpassed acreage reductions of the 1983 PIK year and could rank as one of the lowest corn plantings in the United States in sixty years, Agriculture Department officials said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">255</int>
-        <double name="strength">0.9240090062296363</double>
-      </lst>
       <lst name="sentence">
         <str name="text">A severe drought that summer in major producing states caused yields to tumble and final crop production to total only 4.2 billion bushels.</str>
         <int name="index">15</int>
         <int name="start">0</int>
         <int name="end">139</int>
-        <double name="strength">0.8785891042423161</double>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. corn usage, so surplus stocks, while not decreasing, would not increase significantly, a specialist said.</str>
+        <int name="index">19</int>
+        <int name="start">0</int>
+        <int name="end">108</int>
+        <double name="strength">0.7692540217871962</double>
+        <int name="terms">5</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Neither does he expect any significant acreage cuts in higher-producing delta areas.</str>
+        <int name="index">23</int>
+        <int name="start">0</int>
+        <int name="end">84</int>
+        <double name="strength">0.7109354433034498</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Currently farmers enrolling&lt;/em&gt; in the &lt;em&gt;program&lt;/em&gt; are &lt;em&gt;required&lt;/em&gt; to set &lt;em&gt;aside 20&lt;/em&gt; pct of &lt;em&gt;their&lt;/em&gt; base &lt;em&gt;acreage&lt;/em&gt; and then are &lt;em&gt;eligible&lt;/em&gt; for &lt;em&gt;payments&lt;/em&gt; of two dlrs per &lt;em&gt;bushel&lt;/em&gt; by &lt;em&gt;idling&lt;/em&gt; an &lt;em&gt;additional 15&lt;/em&gt; pct of &lt;em&gt;their acreage&lt;/em&gt;.</str>
-        <int name="index">32</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">U.S. corn &lt;em&gt;acreage&lt;/em&gt; this year is  &lt;em&gt;likely&lt;/em&gt; to drop to the &lt;em&gt;lowest level since&lt;/em&gt; the &lt;em&gt;unsurpassed acreage reductions&lt;/em&gt; of the 1983 PIK year and &lt;em&gt;could&lt;/em&gt; rank as one of the &lt;em&gt;lowest&lt;/em&gt; corn &lt;em&gt;plantings&lt;/em&gt; in the &lt;em&gt;United States&lt;/em&gt; in &lt;em&gt;sixty years, Agriculture Department officials said&lt;/em&gt;.</str>
-        <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">A &lt;em&gt;severe drought&lt;/em&gt; that &lt;em&gt;summer&lt;/em&gt; in &lt;em&gt;major producing states caused yields&lt;/em&gt; to &lt;em&gt;tumble&lt;/em&gt; and &lt;em&gt;final&lt;/em&gt; crop &lt;em&gt;production&lt;/em&gt; to &lt;em&gt;total&lt;/em&gt; only 4.2 &lt;em&gt;billion bushels&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;severe drought&lt;/em&gt; that &lt;em&gt;summer&lt;/em&gt; in &lt;em&gt;major&lt;/em&gt; producing &lt;em&gt;states&lt;/em&gt; caused &lt;em&gt;yields&lt;/em&gt; to &lt;em&gt;tumble&lt;/em&gt; and &lt;em&gt;final&lt;/em&gt; crop &lt;em&gt;production&lt;/em&gt; to &lt;em&gt;total&lt;/em&gt; only 4.2 &lt;em&gt;billion bushels&lt;/em&gt;.</str>
         <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. corn &lt;em&gt;usage,&lt;/em&gt; so &lt;em&gt;surplus stocks,&lt;/em&gt; while not decreasing, would not &lt;em&gt;increase&lt;/em&gt; significantly, a &lt;em&gt;specialist said&lt;/em&gt;.</str>
+        <int name="index">19</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Neither does he &lt;em&gt;expect&lt;/em&gt; any &lt;em&gt;significant acreage&lt;/em&gt; cuts in higher-&lt;em&gt;producing delta areas&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
     </lst>
   </lst>

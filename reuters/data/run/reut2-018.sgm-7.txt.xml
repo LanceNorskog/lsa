@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-7.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">44</int>
+        <int name="count">26</int>
       </lst>
       <lst name="stems">
-        <int name="count">34</int>
+        <int name="count">20</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">seasonally</str>
+        <str name="text">orders</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">manufactured</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">april</str>
+        <double name="strength">0.5226949143565771</double>
       </lst>
       <lst name="term">
-        <str name="text">adjusted</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">electrical</str>
+        <double name="strength">0.37796447300922714</double>
       </lst>
       <lst name="term">
-        <str name="text">commerce</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">machinery</str>
+        <double name="strength">0.37796447300922714</double>
       </lst>
       <lst name="term">
-        <str name="text">these</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">capital</str>
+        <double name="strength">0.37796447300922714</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">123</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
         <str name="text">New orders for manufactured goods rose 401 mln dlrs, or 0.2 pct, in April to a seasonally adjusted 199.8 billion dlrs, the Commerce Department said.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">148</int>
-        <double name="strength">0.8254583167116342</double>
+        <double name="strength">0.7299202766578095</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">These figures compared with a March increase of 4.2 pct in durables orders and a 0.8 pct rise in non-durables orders.</str>
-        <int name="index">9</int>
+        <str name="text">Primary metals gained 5.4 pct in April after a 6.8 pct March orders increase.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">118</int>
-        <double name="strength">0.7395355062459232</double>
+        <int name="end">78</int>
+        <double name="strength">0.7099248952730138</double>
+        <int name="terms">6</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Within major industry categories orders&lt;/em&gt; for &lt;em&gt;transportation equipment&lt;/em&gt; fell 7.6 pct in &lt;em&gt;April after rising 10.8&lt;/em&gt; pct in &lt;em&gt;March&lt;/em&gt;.</str>
+        <str name="text">Within &lt;em&gt;major industry categories orders&lt;/em&gt; for &lt;em&gt;transportation equipment&lt;/em&gt; fell 7.6 pct in &lt;em&gt;April&lt;/em&gt; after rising 10.8 pct in &lt;em&gt;March&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">New &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;manufactured goods&lt;/em&gt; rose 401 mln dlrs, or 0.2 pct, in &lt;em&gt;April&lt;/em&gt; to a &lt;em&gt;seasonally adjusted 199.8 billion&lt;/em&gt; dlrs, the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
+        <str name="text">New &lt;em&gt;orders&lt;/em&gt; for &lt;em&gt;manufactured goods&lt;/em&gt; rose 401 mln dlrs, or 0.2 pct, in &lt;em&gt;April&lt;/em&gt; to a seasonally adjusted 199.8 &lt;em&gt;billion&lt;/em&gt; dlrs, the &lt;em&gt;Commerce Department said&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These figures compared&lt;/em&gt; with a &lt;em&gt;March increase&lt;/em&gt; of 4.2 pct in &lt;em&gt;durables orders&lt;/em&gt; and a 0.8 pct rise in non-&lt;em&gt;durables orders&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Primary metals&lt;/em&gt; gained 5.4 pct in &lt;em&gt;April&lt;/em&gt; after a 6.8 pct &lt;em&gt;March orders increase&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

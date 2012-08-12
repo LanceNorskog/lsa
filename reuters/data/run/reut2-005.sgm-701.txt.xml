@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-701.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">99</int>
+        <int name="count">65</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">association</str>
+        <str name="text">soybeans</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">options</str>
-        <double name="strength">1.0</double>
+        <str name="text">marketing</str>
+        <double name="strength">0.788986171096389</double>
       </lst>
       <lst name="term">
-        <str name="text">priced</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">certificates</str>
+        <double name="strength">0.7889861710963888</double>
       </lst>
       <lst name="term">
-        <str name="text">supports</str>
-        <double name="strength">0.5590169943749479</double>
+        <str name="text">anything</str>
+        <double name="strength">0.7889861710963887</double>
       </lst>
       <lst name="term">
-        <str name="text">prevailing</str>
-        <double name="strength">0.5000000000000017</double>
+        <str name="text">member</str>
+        <double name="strength">0.7889861710963887</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">This would have the effect of lowering the world price, maintaining domestic support levels and reducing the government's soybean inventory.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">141</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
       <lst name="sentence">
         <str name="text">Leaders of the American Soybean Association and the National Soybean Processors Association offered specific loan options to USDA Secretary Lyng in last week's meeting, but participants would not reveal what those options were.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">228</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8904544287836936</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">A high-level meeting last week which included the Secretary of Agriculture and other senior  USDA officials, along with leaders of the major soybean lobbying groups, failed to reach any decision on what should be done about the soybean loan level, participants at the meeting told Reuters.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">289</int>
-        <double name="strength">0.9677485660400784</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">At issue is the current soybean loan and the fact that at the present level of 4.77 dlrs (without Gramm-Rudman reductions) it encourages foreign soybean production by making soybeans more profitable to grow than corn.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">0.9045623789797772</double>
+        <double name="strength">0.8901981055139824</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Leaders&lt;/em&gt; of the &lt;em&gt;American Soybean Association&lt;/em&gt; and the &lt;em&gt;National Soybean Processors Association offered specific&lt;/em&gt; loan &lt;em&gt;options&lt;/em&gt; to USDA &lt;em&gt;Secretary&lt;/em&gt; Lyng in last week's &lt;em&gt;meeting,&lt;/em&gt; but &lt;em&gt;participants would&lt;/em&gt; not &lt;em&gt;reveal&lt;/em&gt; what &lt;em&gt;those options were&lt;/em&gt;.</str>
+        <str name="text">This would have the &lt;em&gt;effect&lt;/em&gt; of lowering the &lt;em&gt;world price,&lt;/em&gt; maintaining &lt;em&gt;domestic support levels&lt;/em&gt; and reducing the &lt;em&gt;government&lt;/em&gt;'s &lt;em&gt;soybean inventory&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Leaders&lt;/em&gt; of the &lt;em&gt;American Soybean Association&lt;/em&gt; and the &lt;em&gt;National Soybean Processors Association&lt;/em&gt; offered &lt;em&gt;specific&lt;/em&gt; loan &lt;em&gt;options&lt;/em&gt; to USDA &lt;em&gt;Secretary&lt;/em&gt; Lyng in last week's &lt;em&gt;meeting,&lt;/em&gt; but &lt;em&gt;participants&lt;/em&gt; would not &lt;em&gt;reveal&lt;/em&gt; what those &lt;em&gt;options were&lt;/em&gt;.</str>
         <int name="index">4</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A high-&lt;em&gt;level meeting&lt;/em&gt; last week &lt;em&gt;which included&lt;/em&gt; the &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;other senior &lt;/em&gt; USDA &lt;em&gt;officials, along&lt;/em&gt; with &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;major soybean lobbying groups, failed&lt;/em&gt; to &lt;em&gt;reach&lt;/em&gt; any &lt;em&gt;decision&lt;/em&gt; on what &lt;em&gt;should&lt;/em&gt; be done &lt;em&gt;about&lt;/em&gt; the &lt;em&gt;soybean&lt;/em&gt; loan &lt;em&gt;level, participants&lt;/em&gt; at the &lt;em&gt;meeting&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
+        <str name="text">A high-&lt;em&gt;level meeting&lt;/em&gt; last week which included the &lt;em&gt;Secretary&lt;/em&gt; of &lt;em&gt;Agriculture&lt;/em&gt; and &lt;em&gt;other senior &lt;/em&gt; USDA &lt;em&gt;officials,&lt;/em&gt; along with &lt;em&gt;leaders&lt;/em&gt; of the &lt;em&gt;major soybean&lt;/em&gt; lobbying &lt;em&gt;groups,&lt;/em&gt; failed to &lt;em&gt;reach&lt;/em&gt; any &lt;em&gt;decision&lt;/em&gt; on what should be done about the &lt;em&gt;soybean&lt;/em&gt; loan &lt;em&gt;level, participants&lt;/em&gt; at the &lt;em&gt;meeting&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt;.</str>
         <int name="index">0</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">At &lt;em&gt;issue&lt;/em&gt; is the &lt;em&gt;current soybean&lt;/em&gt; loan and the fact that at the &lt;em&gt;present level&lt;/em&gt; of 4.77 dlrs (&lt;em&gt;without Gramm-Rudman reductions)&lt;/em&gt; it &lt;em&gt;encourages foreign soybean production&lt;/em&gt; by &lt;em&gt;making soybeans&lt;/em&gt; more &lt;em&gt;profitable&lt;/em&gt; to grow than corn.</str>
-        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

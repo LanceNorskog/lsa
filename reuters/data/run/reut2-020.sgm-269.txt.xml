@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-269.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">65</int>
+        <int name="count">41</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,20 +33,20 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">ekofisk</str>
-        <double name="strength">0.9888264649460904</double>
+        <str name="text">reuter</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
       <lst name="term">
-        <str name="text">industry</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">north</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">analysts</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
       <lst name="term">
-        <str name="text">exceed</str>
-        <double name="strength">0.8944271909999191</double>
+        <str name="text">statoil</str>
+        <double name="strength">0.9999999999999978</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">238</int>
         <double name="strength">1.0</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Ekofisk and the nearby Valhall and Ula fields, which use the Ekofisk pipeline, were shut down for most of August while Phillips raised Ekofisk platforms to counter seabed subsidence.</str>
-        <int name="index">6</int>
+        <str name="text">Hydro said the drop was caused by failure to bring on stream a second well, cutting September production to just two days.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">183</int>
-        <double name="strength">0.8120760174600441</double>
+        <int name="end">123</int>
+        <double name="strength">0.6787907074222533</double>
+        <int name="terms">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Norway's 22.2 pct share of the Murchison field which, like Statfjord, extends into the British sector, yielded 15,388 bpd in September, a slight 920 bpd decrease from the previous month, Norwegian partners on the British-operated field said.</str>
-        <int name="index">11</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.7821682960229933</double>
+        <str name="text">Norway's 84 pct share of Statfjord, which extends into the British North Sea sector, was 611,138 bpd against 552,646 bpd in August, operator Den Norske Stats Oljeselskap A/S (Statoil) said.</str>
+        <int name="index">10</int>
+        <int name="start">0</int>
+        <int name="end">189</int>
+        <double name="strength">0.6736101513939308</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Industry analysts&lt;/em&gt; said the &lt;em&gt;increase&lt;/em&gt; did not &lt;em&gt;exceed Norway&lt;/em&gt;'s &lt;em&gt;voluntary&lt;/em&gt; move to curb by 7.5 pct &lt;em&gt;planned growth&lt;/em&gt; in its oil &lt;em&gt;output,&lt;/em&gt; a move &lt;em&gt;designed&lt;/em&gt; to back OPEC-led &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; by &lt;em&gt;limiting supplies&lt;/em&gt; to &lt;em&gt;world crude markets&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Industry analysts&lt;/em&gt; said the &lt;em&gt;increase&lt;/em&gt; did not &lt;em&gt;exceed&lt;/em&gt; Norway's &lt;em&gt;voluntary&lt;/em&gt; move to curb by 7.5 pct planned &lt;em&gt;growth&lt;/em&gt; in its oil &lt;em&gt;output,&lt;/em&gt; a move designed to back OPEC-led &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;stabilise&lt;/em&gt; oil &lt;em&gt;prices&lt;/em&gt; by limiting &lt;em&gt;supplies&lt;/em&gt; to &lt;em&gt;world crude markets&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ekofisk&lt;/em&gt; and the &lt;em&gt;nearby Valhall&lt;/em&gt; and Ula &lt;em&gt;fields, which&lt;/em&gt; use the &lt;em&gt;Ekofisk pipeline,&lt;/em&gt; were shut down for most of &lt;em&gt;August while Phillips raised Ekofisk platforms&lt;/em&gt; to &lt;em&gt;counter seabed subsidence&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Hydro&lt;/em&gt; said the drop was caused by &lt;em&gt;failure&lt;/em&gt; to &lt;em&gt;bring&lt;/em&gt; on &lt;em&gt;stream&lt;/em&gt; a &lt;em&gt;second&lt;/em&gt; well, &lt;em&gt;cutting September production&lt;/em&gt; to just two days.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Norway&lt;/em&gt;'s 22.2 pct &lt;em&gt;share&lt;/em&gt; of the &lt;em&gt;Murchison field which,&lt;/em&gt; like &lt;em&gt;Statfjord, extends&lt;/em&gt; into the &lt;em&gt;British sector, yielded 15,388&lt;/em&gt; bpd in &lt;em&gt;September,&lt;/em&gt; a &lt;em&gt;slight 920&lt;/em&gt; bpd &lt;em&gt;decrease&lt;/em&gt; from the &lt;em&gt;previous month, Norwegian partners&lt;/em&gt; on the &lt;em&gt;British-operated field said&lt;/em&gt;.</str>
-        <int name="index">11</int>
+        <str name="text">Norway's 84 pct &lt;em&gt;share&lt;/em&gt; of &lt;em&gt;Statfjord,&lt;/em&gt; which extends into the &lt;em&gt;British North&lt;/em&gt; Sea &lt;em&gt;sector,&lt;/em&gt; was 611,138 bpd against 552,646 bpd in August, &lt;em&gt;operator&lt;/em&gt; Den &lt;em&gt;Norske Stats Oljeselskap&lt;/em&gt; A/S (&lt;em&gt;Statoil) said&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">21</int>
+  <int name="QTime">28</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-485.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">31</int>
       </lst>
       <lst name="terms">
-        <int name="count">212</int>
+        <int name="count">159</int>
       </lst>
       <lst name="stems">
-        <int name="count">133</int>
+        <int name="count">93</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">trading</str>
+        <str name="text">haughey</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">surplus</str>
-        <double name="strength">1.0</double>
+        <str name="text">prime</str>
+        <double name="strength">0.9953848436180676</double>
       </lst>
       <lst name="term">
-        <str name="text">heinz</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">political</str>
+        <double name="strength">0.9945873287445659</double>
       </lst>
       <lst name="term">
-        <str name="text">chairman</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">majority</str>
+        <double name="strength">0.9933365819358676</double>
       </lst>
       <lst name="term">
-        <str name="text">reilly</str>
-        <double name="strength">0.5000000000000016</double>
+        <str name="text">government</str>
+        <double name="strength">0.9932824062461009</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The steady rise of sterling, the currency of one of Ireland's main trading partners, has been a boost to Irish exporters with the country recording a 31 mln punt trade surplus in February, the 10th surplus in a row.</str>
-        <int name="index">21</int>
-        <int name="start">1</int>
-        <int name="end">216</int>
+        <str name="text">New Irish Prime Minister Charles Haughey, faced with a debt-ridden economy, will have to produce a harsh budget next week to impress financial markets, appease political opponents and maintain his tenuous hold on power, analysts said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">234</int>
         <double name="strength">1.0</double>
+        <int name="terms">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But in today's climate of economic austerity, few politicians would risk returning to the polls so soon and Haughey could cling to power for at least another two years if he brings in a belt-tightening budget next week, political commentators say.</str>
-        <int name="index">25</int>
+        <str name="text">"Were there to be an uptick in world interest rates or a precipitous decline in our parities, the effect on our economy and on the provision of services by our government would be catastrophic," he said.</str>
+        <int name="index">28</int>
         <int name="start">1</int>
-        <int name="end">248</int>
-        <double name="strength">0.8808384948850729</double>
+        <int name="end">204</int>
+        <double name="strength">0.9039002003697185</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">H.J. Heinz chairman Tony O'Reilly, one of the most successful Irishmen in international business, stressed the need for a frontal attack on the national debt, arguing "many of our children have lost faith in the future."</str>
         <int name="index">27</int>
         <int name="start">1</int>
         <int name="end">221</int>
-        <double name="strength">0.851840225014688</double>
+        <double name="strength">0.9028454453953461</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;steady&lt;/em&gt; rise of &lt;em&gt;sterling,&lt;/em&gt; the &lt;em&gt;currency&lt;/em&gt; of one of &lt;em&gt;Ireland&lt;/em&gt;'s main &lt;em&gt;trading partners,&lt;/em&gt; has been a &lt;em&gt;boost&lt;/em&gt; to &lt;em&gt;Irish exporters&lt;/em&gt; with the &lt;em&gt;country recording&lt;/em&gt; a 31 mln punt &lt;em&gt;trade surplus&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; the 10th &lt;em&gt;surplus&lt;/em&gt; in a row.</str>
-        <int name="index">21</int>
+        <str name="text">New &lt;em&gt;Irish Prime Minister Charles&lt;/em&gt; Haughey, faced with a debt-&lt;em&gt;ridden economy,&lt;/em&gt; will have to &lt;em&gt;produce&lt;/em&gt; a &lt;em&gt;harsh budget&lt;/em&gt; next week to &lt;em&gt;impress financial markets, appease political opponents&lt;/em&gt; and &lt;em&gt;maintain&lt;/em&gt; his &lt;em&gt;tenuous&lt;/em&gt; hold on &lt;em&gt;power, analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But in &lt;em&gt;today&lt;/em&gt;'s &lt;em&gt;climate&lt;/em&gt; of &lt;em&gt;economic austerity,&lt;/em&gt; few &lt;em&gt;politicians would&lt;/em&gt; risk &lt;em&gt;returning&lt;/em&gt; to the &lt;em&gt;polls&lt;/em&gt; so soon and &lt;em&gt;Haughey could cling&lt;/em&gt; to &lt;em&gt;power&lt;/em&gt; for at &lt;em&gt;least another&lt;/em&gt; two &lt;em&gt;years&lt;/em&gt; if he &lt;em&gt;brings&lt;/em&gt; in a belt-&lt;em&gt;tightening budget&lt;/em&gt; next week, &lt;em&gt;political commentators say&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">"Were there to be an &lt;em&gt;uptick&lt;/em&gt; in &lt;em&gt;world interest rates&lt;/em&gt; or a &lt;em&gt;precipitous decline&lt;/em&gt; in our &lt;em&gt;parities,&lt;/em&gt; the &lt;em&gt;effect&lt;/em&gt; on our &lt;em&gt;economy&lt;/em&gt; and on the &lt;em&gt;provision&lt;/em&gt; of &lt;em&gt;services&lt;/em&gt; by our &lt;em&gt;government&lt;/em&gt; would be &lt;em&gt;catastrophic,"&lt;/em&gt; he said.</str>
+        <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">H.J. &lt;em&gt;Heinz chairman&lt;/em&gt; Tony O'&lt;em&gt;Reilly,&lt;/em&gt; one of the most &lt;em&gt;successful Irishmen&lt;/em&gt; in &lt;em&gt;international business, stressed&lt;/em&gt; the need for a &lt;em&gt;frontal attack&lt;/em&gt; on the &lt;em&gt;national&lt;/em&gt; debt, &lt;em&gt;arguing &lt;/em&gt;"many of our &lt;em&gt;children&lt;/em&gt; have lost &lt;em&gt;faith&lt;/em&gt; in the &lt;em&gt;future.&lt;/em&gt;"</str>
+        <str name="text">H.J. &lt;em&gt;Heinz chairman&lt;/em&gt; Tony O'Reilly, one of the most &lt;em&gt;successful Irishmen&lt;/em&gt; in &lt;em&gt;international business,&lt;/em&gt; stressed the need for a &lt;em&gt;frontal attack&lt;/em&gt; on the &lt;em&gt;national&lt;/em&gt; debt, arguing "many of our &lt;em&gt;children&lt;/em&gt; have lost &lt;em&gt;faith&lt;/em&gt; in the &lt;em&gt;future.&lt;/em&gt;"</str>
         <int name="index">27</int>
       </lst>
     </lst>

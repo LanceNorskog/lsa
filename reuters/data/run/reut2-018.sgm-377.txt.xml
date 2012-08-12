@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-377.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">140</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">96</int>
+        <int name="count">70</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">plans</str>
+        <str name="text">reforms</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">called</str>
+        <str name="text">position</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">emphasise</str>
-        <double name="strength">1.0</double>
+        <str name="text">agriculture</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">budgetary</str>
-        <double name="strength">1.0</double>
+        <str name="text">different</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">restraint</str>
-        <double name="strength">1.0</double>
+        <str name="text">package</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Eyskens was speaking at a news conference after chairing a joint meeting of EC finance and agriculture ministers which was designed to help break a deadlock over this year's EC farm price package which has endured since March.</str>
-        <int name="index">1</int>
-        <int name="start">1</int>
-        <int name="end">227</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Although Delors was said by aides to have found today's meeting very useful, diplomats said there was little sign of a major shift in the position of member states, or of finance ministers adopting a different line from that of their agriculture colleagues.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">258</int>
-        <double name="strength">0.9826800572078592</double>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">These issues are a Commission plan for a tax on marine and vegetable fats and oils, and proposals to change the system by which EC farm prices, expressed in European currency units (Ecus), are translated into the currencies of member states.</str>
-        <int name="index">3</int>
+        <str name="text">Diplomats quoted EC Executive Commission president Jacques Delors as saying at the same meeting that it would be a disaster if the two most difficult issues at the farm talks had to be referred to heads of government.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
-        <int name="end">242</int>
-        <double name="strength">0.9193725141722063</double>
+        <int name="end">218</int>
+        <double name="strength">0.9278656933512596</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Eyskens was speaking at a news conference after chairing a joint meeting of EC finance and agriculture ministers which was designed to help break a deadlock over this year's EC farm price package which has endured since March.</str>
+        <int name="index">1</int>
+        <int name="start">1</int>
+        <int name="end">227</int>
+        <double name="strength">0.8902541270595071</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Eyskens&lt;/em&gt; was &lt;em&gt;speaking&lt;/em&gt; at a news &lt;em&gt;conference after chairing&lt;/em&gt; a &lt;em&gt;joint meeting&lt;/em&gt; of EC &lt;em&gt;finance&lt;/em&gt; and &lt;em&gt;agriculture ministers which&lt;/em&gt; was &lt;em&gt;designed&lt;/em&gt; to help &lt;em&gt;break&lt;/em&gt; a &lt;em&gt;deadlock&lt;/em&gt; over this year's EC farm &lt;em&gt;price package which&lt;/em&gt; has &lt;em&gt;endured since March&lt;/em&gt;.</str>
-        <int name="index">1</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Although Delors&lt;/em&gt; was said by &lt;em&gt;aides&lt;/em&gt; to have &lt;em&gt;found today&lt;/em&gt;'s &lt;em&gt;meeting&lt;/em&gt; very &lt;em&gt;useful, diplomats&lt;/em&gt; said &lt;em&gt;there&lt;/em&gt; was &lt;em&gt;little&lt;/em&gt; sign of a &lt;em&gt;major shift&lt;/em&gt; in the &lt;em&gt;position&lt;/em&gt; of &lt;em&gt;member states,&lt;/em&gt; or of &lt;em&gt;finance ministers adopting&lt;/em&gt; a &lt;em&gt;different&lt;/em&gt; line from that of &lt;em&gt;their agriculture colleagues&lt;/em&gt;.</str>
+        <str name="text">Although &lt;em&gt;Delors&lt;/em&gt; was said by &lt;em&gt;aides&lt;/em&gt; to have found &lt;em&gt;today&lt;/em&gt;'s meeting very &lt;em&gt;useful, diplomats&lt;/em&gt; said there was &lt;em&gt;little&lt;/em&gt; sign of a &lt;em&gt;major shift&lt;/em&gt; in the &lt;em&gt;position&lt;/em&gt; of &lt;em&gt;member states,&lt;/em&gt; or of &lt;em&gt;finance ministers&lt;/em&gt; adopting a &lt;em&gt;different&lt;/em&gt; line from that of their &lt;em&gt;agriculture colleagues&lt;/em&gt;.</str>
         <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These issues&lt;/em&gt; are a &lt;em&gt;Commission&lt;/em&gt; plan for a tax on &lt;em&gt;marine&lt;/em&gt; and &lt;em&gt;vegetable&lt;/em&gt; fats and oils, and &lt;em&gt;proposals&lt;/em&gt; to &lt;em&gt;change&lt;/em&gt; the &lt;em&gt;system&lt;/em&gt; by &lt;em&gt;which&lt;/em&gt; EC farm &lt;em&gt;prices, expressed&lt;/em&gt; in &lt;em&gt;European currency units &lt;/em&gt;(Ecus), are &lt;em&gt;translated&lt;/em&gt; into the &lt;em&gt;currencies&lt;/em&gt; of &lt;em&gt;member states&lt;/em&gt;.</str>
-        <int name="index">3</int>
+        <str name="text">&lt;em&gt;Diplomats&lt;/em&gt; quoted EC &lt;em&gt;Executive Commission president Jacques Delors&lt;/em&gt; as saying at the same &lt;em&gt;meeting&lt;/em&gt; that it would be a &lt;em&gt;disaster&lt;/em&gt; if the two most &lt;em&gt;difficult issues&lt;/em&gt; at the farm &lt;em&gt;talks&lt;/em&gt; had to be referred to &lt;em&gt;heads&lt;/em&gt; of &lt;em&gt;government&lt;/em&gt;.</str>
+        <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Eyskens&lt;/em&gt; was speaking at a news &lt;em&gt;conference&lt;/em&gt; after chairing a &lt;em&gt;joint meeting&lt;/em&gt; of EC &lt;em&gt;finance&lt;/em&gt; and &lt;em&gt;agriculture ministers&lt;/em&gt; which was designed to help &lt;em&gt;break&lt;/em&gt; a &lt;em&gt;deadlock&lt;/em&gt; over this year's EC farm &lt;em&gt;price package&lt;/em&gt; which has endured since &lt;em&gt;March&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
     </lst>
   </lst>

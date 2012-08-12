@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">31</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-896.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">41</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">124</int>
       </lst>
       <lst name="stems">
-        <int name="count">105</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">getty</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">alleged</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">affect</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.8944271909999195</double>
+        <str name="text">sales</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">support</str>
-        <double name="strength">0.8944271909999195</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
       <lst name="term">
-        <str name="text">litigant</str>
-        <double name="strength">0.8944271909999195</double>
+        <str name="text">cohen</str>
+        <double name="strength">0.9999999999999982</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">143</int>
         <double name="strength">1.0</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Pennzoil said it knew of the SEC brief but it did not know whether the brief would support the view of one litigant or be an inquiry and request for clarification of the reasons for two lower state court decisions.</str>
-        <int name="index">6</int>
+        <str name="text">The Securities and Exchange Commission's entry into the battle between Texaco Inc and Pennzoil Co &lt;PZL&gt; could affect the outcome of the 10.3 billion dlr legal saga, some analysts said.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">214</int>
-        <double name="strength">0.9956213580829043</double>
+        <int name="end">184</int>
+        <double name="strength">0.9363128670419012</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If this friend of the court brief is potent and clearly pro-Texaco, and is taken into account by the Texas Supreme Court, there is a chance the entire judgment could be reversed and Pennzoil gets nothing," Leuffer said.</str>
-        <int name="index">13</int>
+        <str name="text">I think what the market sensed today is that there is a reminder here for Pennzoil that they may reach for the stars and fall on their face," Sales said.</str>
+        <int name="index">28</int>
         <int name="start">0</int>
-        <int name="end">219</int>
-        <double name="strength">0.9627794474430607</double>
+        <int name="end">153</int>
+        <double name="strength">0.8921116627666331</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Its &lt;em&gt;action&lt;/em&gt; was &lt;em&gt;designed&lt;/em&gt; to &lt;em&gt;avoid having&lt;/em&gt; a &lt;em&gt;Texas appeals court order&lt;/em&gt; it to post a &lt;em&gt;security&lt;/em&gt; bond for the &lt;em&gt;entire amount&lt;/em&gt; of the &lt;em&gt;Pennzoil judgement&lt;/em&gt;.</str>
+        <str name="text">Its &lt;em&gt;action&lt;/em&gt; was designed to &lt;em&gt;avoid&lt;/em&gt; having a &lt;em&gt;Texas appeals court order&lt;/em&gt; it to post a &lt;em&gt;security&lt;/em&gt; bond for the &lt;em&gt;entire amount&lt;/em&gt; of the &lt;em&gt;Pennzoil judgement&lt;/em&gt;.</str>
         <int name="index">18</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pennzoil&lt;/em&gt; said it knew of the SEC &lt;em&gt;brief&lt;/em&gt; but it did not know &lt;em&gt;whether&lt;/em&gt; the &lt;em&gt;brief would support&lt;/em&gt; the view of one &lt;em&gt;litigant&lt;/em&gt; or be an &lt;em&gt;inquiry&lt;/em&gt; and &lt;em&gt;request&lt;/em&gt; for &lt;em&gt;clarification&lt;/em&gt; of the &lt;em&gt;reasons&lt;/em&gt; for two &lt;em&gt;lower state court decisions&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;Securities&lt;/em&gt; and &lt;em&gt;Exchange Commission&lt;/em&gt;'s &lt;em&gt;entry&lt;/em&gt; into the &lt;em&gt;battle&lt;/em&gt; between &lt;em&gt;Texaco&lt;/em&gt; Inc and &lt;em&gt;Pennzoil&lt;/em&gt; Co &lt;PZL&gt; could &lt;em&gt;affect&lt;/em&gt; the &lt;em&gt;outcome&lt;/em&gt; of the 10.3 &lt;em&gt;billion&lt;/em&gt; dlr &lt;em&gt;legal&lt;/em&gt; saga, some &lt;em&gt;analysts said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">If this &lt;em&gt;friend&lt;/em&gt; of the &lt;em&gt;court brief&lt;/em&gt; is &lt;em&gt;potent&lt;/em&gt; and &lt;em&gt;clearly&lt;/em&gt; pro-&lt;em&gt;Texaco,&lt;/em&gt; and is &lt;em&gt;taken&lt;/em&gt; into &lt;em&gt;account&lt;/em&gt; by the &lt;em&gt;Texas Supreme Court, there&lt;/em&gt; is a &lt;em&gt;chance&lt;/em&gt; the &lt;em&gt;entire judgment could&lt;/em&gt; be &lt;em&gt;reversed&lt;/em&gt; and &lt;em&gt;Pennzoil&lt;/em&gt; gets &lt;em&gt;nothing," Leuffer said&lt;/em&gt;.</str>
-        <int name="index">13</int>
+        <str name="text">I &lt;em&gt;think&lt;/em&gt; what the &lt;em&gt;market&lt;/em&gt; sensed &lt;em&gt;today&lt;/em&gt; is that there is a &lt;em&gt;reminder&lt;/em&gt; here for &lt;em&gt;Pennzoil&lt;/em&gt; that they may &lt;em&gt;reach&lt;/em&gt; for the &lt;em&gt;stars&lt;/em&gt; and fall on their face," &lt;em&gt;Sales said&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
     </lst>
   </lst>

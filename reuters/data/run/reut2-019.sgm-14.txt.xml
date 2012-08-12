@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-14.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">11</int>
       </lst>
       <lst name="terms">
-        <int name="count">83</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">60</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">canadian</str>
+        <str name="text">finance</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">package</str>
-        <double name="strength">1.0</double>
+        <str name="text">inconsistent</str>
+        <double name="strength">0.8299984571808453</double>
       </lst>
       <lst name="term">
-        <str name="text">reform</str>
-        <double name="strength">1.0</double>
+        <str name="text">system</str>
+        <double name="strength">0.8299984571808453</double>
       </lst>
       <lst name="term">
-        <str name="text">effective</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">continue</str>
+        <double name="strength">0.8299984571808453</double>
       </lst>
       <lst name="term">
-        <str name="text">doubtful</str>
-        <double name="strength">0.9999999999999996</double>
+        <str name="text">provide</str>
+        <double name="strength">0.8299984571808453</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">"It would be inconsistent for the tax system to continue to provide different reserves for tax purposes for institutions competing in the same marketplace," the finance department said.</str>
+        <int name="index">9</int>
+        <int name="start">2</int>
+        <int name="end">187</int>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The amount of financial institutions' income that is taxed will also increase to 74.0 pct from 48.7 pct, it said in documents tabled with finance minister Michael Wilson's prepared speech to the House of Commons.</str>
         <int name="index">1</int>
         <int name="start">2</int>
         <int name="end">214</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.8485368237319757</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">Under Wilson's plan, the federal government will collect 1.36 billion dlrs more over the next five years from financial insitutions, including banks, trust mortgage and life insurance companies, according to finance department documents.</str>
         <int name="index">2</int>
         <int name="start">2</int>
         <int name="end">239</int>
-        <double name="strength">0.9905569178592405</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"It would be inconsistent for the tax system to continue to provide different reserves for tax purposes for institutions competing in the same marketplace," the finance department said.</str>
-        <int name="index">9</int>
-        <int name="start">2</int>
-        <int name="end">187</int>
-        <double name="strength">0.9652807453239877</double>
+        <double name="strength">0.8204698285653103</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;financial institutions' income&lt;/em&gt; that is &lt;em&gt;taxed&lt;/em&gt; will also &lt;em&gt;increase&lt;/em&gt; to 74.0 pct from 48.7 pct, it said in &lt;em&gt;documents tabled&lt;/em&gt; with &lt;em&gt;finance minister Michael Wilson&lt;/em&gt;'s &lt;em&gt;prepared speech&lt;/em&gt; to the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons&lt;/em&gt;.</str>
+        <str name="text">"It would be &lt;em&gt;inconsistent&lt;/em&gt; for the tax &lt;em&gt;system&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;provide different reserves&lt;/em&gt; for tax &lt;em&gt;purposes&lt;/em&gt; for &lt;em&gt;institutions&lt;/em&gt; competing in the same &lt;em&gt;marketplace,"&lt;/em&gt; the &lt;em&gt;finance department said&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;amount&lt;/em&gt; of &lt;em&gt;financial institutions' income&lt;/em&gt; that is taxed will also &lt;em&gt;increase&lt;/em&gt; to 74.0 pct from 48.7 pct, it said in &lt;em&gt;documents&lt;/em&gt; tabled with &lt;em&gt;finance minister Michael Wilson&lt;/em&gt;'s &lt;em&gt;prepared speech&lt;/em&gt; to the &lt;em&gt;House&lt;/em&gt; of &lt;em&gt;Commons&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under Wilson&lt;/em&gt;'s plan, the &lt;em&gt;federal government&lt;/em&gt; will &lt;em&gt;collect 1.36 billion&lt;/em&gt; dlrs more over the next five &lt;em&gt;years&lt;/em&gt; from &lt;em&gt;financial insitutions, including banks, trust mortgage&lt;/em&gt; and life &lt;em&gt;insurance companies, according&lt;/em&gt; to &lt;em&gt;finance department documents&lt;/em&gt;.</str>
+        <str name="text">Under &lt;em&gt;Wilson&lt;/em&gt;'s plan, the &lt;em&gt;federal government&lt;/em&gt; will &lt;em&gt;collect 1.36 billion&lt;/em&gt; dlrs more over the next five &lt;em&gt;years&lt;/em&gt; from &lt;em&gt;financial insitutions,&lt;/em&gt; including &lt;em&gt;banks, trust mortgage&lt;/em&gt; and life &lt;em&gt;insurance companies,&lt;/em&gt; according to &lt;em&gt;finance department documents&lt;/em&gt;.</str>
         <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"It &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;inconsistent&lt;/em&gt; for the tax &lt;em&gt;system&lt;/em&gt; to &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;provide different reserves&lt;/em&gt; for tax &lt;em&gt;purposes&lt;/em&gt; for &lt;em&gt;institutions competing&lt;/em&gt; in the same &lt;em&gt;marketplace,"&lt;/em&gt; the &lt;em&gt;finance department said&lt;/em&gt;.</str>
-        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

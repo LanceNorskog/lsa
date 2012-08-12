@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">28</int>
+  <int name="QTime">44</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-404.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">48</int>
       </lst>
       <lst name="terms">
-        <int name="count">278</int>
+        <int name="count">187</int>
       </lst>
       <lst name="stems">
-        <int name="count">184</int>
+        <int name="count">122</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">market</str>
+        <str name="text">package</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">payments</str>
-        <double name="strength">0.5590169943749488</double>
+        <str name="text">mexico</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">accounting</str>
-        <double name="strength">0.5590169943749483</double>
+        <str name="text">billion</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">committee</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">money</str>
+        <double name="strength">0.9967378039786159</double>
       </lst>
       <lst name="term">
-        <str name="text">assistant</str>
-        <double name="strength">0.5000000000000102</double>
+        <str name="text">small</str>
+        <double name="strength">0.996737803978614</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">S. Treasury Secretary James Baker's strategy of offering loans to countries willing to implement market-oriented, pro-growth policies, intense market scrutiny was only to be expected.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">183</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This issue of "national share" was defused on the Mexican committee but bankers say it will probably recur in talks with Argentina and Brazil, whose finance minister Dilson Funaro has already suggested separate negotiations with regional committees of creditors.</str>
-        <int name="index">37</int>
-        <int name="start">1</int>
-        <int name="end">263</int>
-        <double name="strength">0.9735301392385391</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Several tentative signing dates had to be scrapped and even now, five months after the loan was agreed with a 13-bank advisory committee on October 16, dozens of Mexico's some 400 creditor banks worldwide are still refusing to participate.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.9112947389739845</double>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He was echoed by Mexico's deputy planning minister, Pedro Aspe Armella, who said the delay in signing his country's loan has made it difficult to map economic policy with any certainty.</str>
+        <int name="index">25</int>
+        <int name="start">1</int>
+        <int name="end">186</int>
+        <double name="strength">0.9627465255317856</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Because the banks want to isolate hard-line Brazil by clinching a deal with Argentina as soon as practicable, bankers said the Argentine package is likely to be along the established lines of the Baker Plan.</str>
+        <int name="index">42</int>
+        <int name="start">1</int>
+        <int name="end">208</int>
+        <double name="strength">0.8963119245380399</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt;'s &lt;em&gt;strategy&lt;/em&gt; of &lt;em&gt;offering loans&lt;/em&gt; to &lt;em&gt;countries willing&lt;/em&gt; to &lt;em&gt;implement market-oriented,&lt;/em&gt; pro-&lt;em&gt;growth policies, intense market scrutiny&lt;/em&gt; was only to be &lt;em&gt;expected&lt;/em&gt;.</str>
-        <int name="index">6</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">This &lt;em&gt;issue&lt;/em&gt; of "&lt;em&gt;national share"&lt;/em&gt; was &lt;em&gt;defused&lt;/em&gt; on the &lt;em&gt;Mexican committee&lt;/em&gt; but &lt;em&gt;bankers&lt;/em&gt; say it will &lt;em&gt;probably recur&lt;/em&gt; in &lt;em&gt;talks&lt;/em&gt; with &lt;em&gt;Argentina&lt;/em&gt; and &lt;em&gt;Brazil, whose finance minister Dilson Funaro&lt;/em&gt; has &lt;em&gt;already suggested separate negotiations&lt;/em&gt; with &lt;em&gt;regional committees&lt;/em&gt; of &lt;em&gt;creditors&lt;/em&gt;.</str>
-        <int name="index">37</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Several tentative signing dates&lt;/em&gt; had to be &lt;em&gt;scrapped&lt;/em&gt; and even now, five &lt;em&gt;months after&lt;/em&gt; the loan was &lt;em&gt;agreed&lt;/em&gt; with a 13-bank &lt;em&gt;advisory committee&lt;/em&gt; on &lt;em&gt;October 16, dozens&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt;'s some 400 &lt;em&gt;creditor banks worldwide&lt;/em&gt; are &lt;em&gt;still refusing&lt;/em&gt; to &lt;em&gt;participate&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Several tentative signing dates&lt;/em&gt; had to be scrapped and even now, five &lt;em&gt;months&lt;/em&gt; after the loan was agreed with a 13-bank &lt;em&gt;advisory committee&lt;/em&gt; on &lt;em&gt;October 16, dozens&lt;/em&gt; of &lt;em&gt;Mexico&lt;/em&gt;'s some 400 &lt;em&gt;creditor banks&lt;/em&gt; worldwide are still refusing to &lt;em&gt;participate&lt;/em&gt;.</str>
         <int name="index">2</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He was echoed by Mexico's &lt;em&gt;deputy planning minister, Pedro&lt;/em&gt; Aspe &lt;em&gt;Armella,&lt;/em&gt; who said the &lt;em&gt;delay&lt;/em&gt; in signing his &lt;em&gt;country&lt;/em&gt;'s loan has made it &lt;em&gt;difficult&lt;/em&gt; to map &lt;em&gt;economic policy&lt;/em&gt; with any &lt;em&gt;certainty&lt;/em&gt;.</str>
+        <int name="index">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Because the &lt;em&gt;banks&lt;/em&gt; want to &lt;em&gt;isolate&lt;/em&gt; hard-line &lt;em&gt;Brazil&lt;/em&gt; by clinching a deal with &lt;em&gt;Argentina&lt;/em&gt; as soon as &lt;em&gt;practicable, bankers&lt;/em&gt; said the &lt;em&gt;Argentine package&lt;/em&gt; is &lt;em&gt;likely&lt;/em&gt; to be along the &lt;em&gt;established lines&lt;/em&gt; of the &lt;em&gt;Baker Plan&lt;/em&gt;.</str>
+        <int name="index">42</int>
       </lst>
     </lst>
   </lst>

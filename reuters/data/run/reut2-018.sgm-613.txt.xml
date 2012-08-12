@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">19</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-613.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,68 +21,71 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">101</int>
       </lst>
       <lst name="stems">
-        <int name="count">81</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">apply</str>
+        <str name="text">major</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">state</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">rates</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">already</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">lawmakers</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">manuevering</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">strong</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">unlikely</str>
-        <double name="strength">0.5000000000000004</double>
+        <str name="text">other</str>
+        <double name="strength">0.999999999999999</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Ultimately, Congressional sources said the agriculture committees may be forced to apply an across-the-board cut on all Commodity Credit Corp. payments to farmers, including price support loans and deficiency payments, similar to the Gramm-Rudman-Hollings budget cut applied in fiscal 1986.</str>
-        <int name="index">17</int>
-        <int name="start">1</int>
-        <int name="end">291</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">But Congressional sources said the proposal is unlikely to be approved because of opposition from Republican lawmakers and a strong stance by Agriculture Secretary Richard Lyng, who said freezing loan rates would send the wrong signal to other major grain export competitors and would not achieve the budget savings Glickman claims.</str>
         <int name="index">9</int>
         <int name="start">1</int>
         <int name="end">333</int>
-        <double name="strength">0.8946827377858234</double>
+        <double name="strength">1.0</double>
+        <int name="terms">25</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Congressional sources said the areas where Congress is most likely to eventually look for budget savings are some tightening of the payment limitation rules, and possible  adoption of a 0/92 program for the 1988 crops of major grains.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">235</int>
+        <double name="strength">0.7877614780247874</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
         <str name="text">However, on this issue also Lyng has taken a strong stand within the Reagan administration, arguing that the 1988 crop wheat acreage reduction should be left at 27.5 pct and not 30 pct as sought by the Office of Management and Budget, OMB.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.7972528185447202</double>
+        <double name="strength">0.7192500370904564</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Ultimately, Congressional sources&lt;/em&gt; said the &lt;em&gt;agriculture committees&lt;/em&gt; may be &lt;em&gt;forced&lt;/em&gt; to &lt;em&gt;apply&lt;/em&gt; an &lt;em&gt;across&lt;/em&gt;-the-&lt;em&gt;board&lt;/em&gt; cut on all &lt;em&gt;Commodity Credit&lt;/em&gt; Corp. &lt;em&gt;payments&lt;/em&gt; to &lt;em&gt;farmers, including price support loans&lt;/em&gt; and &lt;em&gt;deficiency payments, similar&lt;/em&gt; to the &lt;em&gt;Gramm-Rudman-Hollings budget&lt;/em&gt; cut &lt;em&gt;applied&lt;/em&gt; in &lt;em&gt;fiscal 1986&lt;/em&gt;.</str>
-        <int name="index">17</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But &lt;em&gt;Congressional sources&lt;/em&gt; said the &lt;em&gt;proposal&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to be &lt;em&gt;approved because&lt;/em&gt; of &lt;em&gt;opposition&lt;/em&gt; from &lt;em&gt;Republican lawmakers&lt;/em&gt; and a &lt;em&gt;strong stance&lt;/em&gt; by &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng, who said &lt;em&gt;freezing&lt;/em&gt; loan &lt;em&gt;rates would&lt;/em&gt; send the &lt;em&gt;wrong signal&lt;/em&gt; to &lt;em&gt;other major grain export competitors&lt;/em&gt; and &lt;em&gt;would&lt;/em&gt; not &lt;em&gt;achieve&lt;/em&gt; the &lt;em&gt;budget savings Glickman claims&lt;/em&gt;.</str>
+        <str name="text">But &lt;em&gt;Congressional sources&lt;/em&gt; said the &lt;em&gt;proposal&lt;/em&gt; is &lt;em&gt;unlikely&lt;/em&gt; to be approved because of &lt;em&gt;opposition&lt;/em&gt; from &lt;em&gt;Republican lawmakers&lt;/em&gt; and a &lt;em&gt;strong stance&lt;/em&gt; by &lt;em&gt;Agriculture Secretary Richard&lt;/em&gt; Lyng, who said freezing loan &lt;em&gt;rates&lt;/em&gt; would send the &lt;em&gt;wrong signal&lt;/em&gt; to &lt;em&gt;other major grain export competitors&lt;/em&gt; and would not &lt;em&gt;achieve&lt;/em&gt; the &lt;em&gt;budget savings Glickman claims&lt;/em&gt;.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; on this &lt;em&gt;issue&lt;/em&gt; also Lyng has &lt;em&gt;taken&lt;/em&gt; a &lt;em&gt;strong stand within&lt;/em&gt; the &lt;em&gt;Reagan administration, arguing&lt;/em&gt; that the 1988 crop &lt;em&gt;wheat acreage reduction should&lt;/em&gt; be left at 27.5 pct and not 30 pct as &lt;em&gt;sought&lt;/em&gt; by the &lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget, OMB&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Congressional sources&lt;/em&gt; said the &lt;em&gt;areas&lt;/em&gt; where &lt;em&gt;Congress&lt;/em&gt; is most &lt;em&gt;likely&lt;/em&gt; to eventually look for &lt;em&gt;budget savings&lt;/em&gt; are some tightening of the &lt;em&gt;payment limitation rules,&lt;/em&gt; and &lt;em&gt;possible  adoption&lt;/em&gt; of a 0/92 &lt;em&gt;program&lt;/em&gt; for the 1988 &lt;em&gt;crops&lt;/em&gt; of &lt;em&gt;major grains&lt;/em&gt;.</str>
+        <int name="index">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">However, on this &lt;em&gt;issue&lt;/em&gt; also Lyng has taken a &lt;em&gt;strong stand&lt;/em&gt; within the &lt;em&gt;Reagan administration,&lt;/em&gt; arguing that the 1988 crop &lt;em&gt;wheat acreage reduction&lt;/em&gt; should be left at 27.5 pct and not 30 pct as sought by the &lt;em&gt;Office&lt;/em&gt; of &lt;em&gt;Management&lt;/em&gt; and &lt;em&gt;Budget, OMB&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
     </lst>

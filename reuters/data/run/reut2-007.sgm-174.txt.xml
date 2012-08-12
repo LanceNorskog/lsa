@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-174.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">20</int>
       </lst>
       <lst name="terms">
-        <int name="count">68</int>
+        <int name="count">57</int>
       </lst>
       <lst name="stems">
-        <int name="count">46</int>
+        <int name="count">37</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">become</str>
+        <str name="text">manage</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">second</str>
-        <double name="strength">1.0</double>
+        <str name="text">other</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">domestic</str>
-        <double name="strength">1.0</double>
+        <str name="text">syndicate</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">following</str>
-        <double name="strength">1.0</double>
+        <str name="text">first</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">america</str>
-        <double name="strength">1.0</double>
+        <str name="text">basis</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">UBS bid the GTE debentures at 97.0025 and set a coupon of 8-1/2 pct and reoffering price of 97.50 to yield 112 basis points over the off-the-run 9-1/4 pct Treasury bonds of 2016.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">179</int>
+        <double name="strength">1.0</double>
+        <int name="terms">9</int>
+      </lst>
       <lst name="sentence">
         <str name="text">GTE last tapped the debt market when it sold on November 20, 1986, 250 mln dlrs of same-maturity, same-rated debt priced to yield 9.388 pct, or 174 basis points over comparable Treasury paper, underwriters noted.</str>
         <int name="index">10</int>
         <int name="start">1</int>
         <int name="end">213</int>
-        <double name="strength">1.0</double>
+        <double name="strength">0.9902944586410628</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">UBS has become the second foreign firm to manage an issue in the domestic debt market this year, following Daiwa Securities America Inc.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">137</int>
-        <double name="strength">0.9121034881575935</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Non-refundable for 10 years, the issue is rated A-3 by Moody's and A-minus by Standard and Poor's.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">99</int>
-        <double name="strength">0.8934871726729453</double>
+        <str name="text">S. unit of Daiwa Securities Co Ltd of Japan, ran the books for a March 11 offering of 200 mln dlrs of 10-year notes of Rockwell International Corp &lt;ROK&gt;, underwriters noted.</str>
+        <int name="index">14</int>
+        <int name="start">0</int>
+        <int name="end">173</int>
+        <double name="strength">0.9431370481235586</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">GTE last &lt;em&gt;tapped&lt;/em&gt; the debt &lt;em&gt;market&lt;/em&gt; when it sold on &lt;em&gt;November 20, 1986, 250&lt;/em&gt; mln dlrs of same-&lt;em&gt;maturity,&lt;/em&gt; same-&lt;em&gt;rated&lt;/em&gt; debt &lt;em&gt;priced&lt;/em&gt; to &lt;em&gt;yield 9.388&lt;/em&gt; pct, or 174 &lt;em&gt;basis points&lt;/em&gt; over &lt;em&gt;comparable Treasury paper, underwriters noted&lt;/em&gt;.</str>
+        <str name="text">UBS bid the GTE &lt;em&gt;debentures&lt;/em&gt; at 97.0025 and set a &lt;em&gt;coupon&lt;/em&gt; of 8-1/2 pct and &lt;em&gt;reoffering price&lt;/em&gt; of 97.50 to &lt;em&gt;yield 112 basis points&lt;/em&gt; over the off-the-run 9-1/4 pct &lt;em&gt;Treasury bonds of 2016&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">GTE last tapped the debt &lt;em&gt;market&lt;/em&gt; when it sold on &lt;em&gt;November 20, 1986, 250&lt;/em&gt; mln dlrs of same-&lt;em&gt;maturity,&lt;/em&gt; same-rated debt priced to &lt;em&gt;yield 9.388&lt;/em&gt; pct, or 174 &lt;em&gt;basis points&lt;/em&gt; over &lt;em&gt;comparable Treasury paper, underwriters noted&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">UBS has &lt;em&gt;become&lt;/em&gt; the &lt;em&gt;second foreign&lt;/em&gt; firm to &lt;em&gt;manage&lt;/em&gt; an &lt;em&gt;issue&lt;/em&gt; in the &lt;em&gt;domestic&lt;/em&gt; debt &lt;em&gt;market&lt;/em&gt; this year, &lt;em&gt;following Daiwa Securities America Inc&lt;/em&gt;.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Non-&lt;em&gt;refundable&lt;/em&gt; for 10 &lt;em&gt;years,&lt;/em&gt; the &lt;em&gt;issue&lt;/em&gt; is &lt;em&gt;rated&lt;/em&gt; A-3 by &lt;em&gt;Moody&lt;/em&gt;'s and A-&lt;em&gt;minus&lt;/em&gt; by &lt;em&gt;Standard&lt;/em&gt; and Poor's.</str>
-        <int name="index">9</int>
+        <str name="text">S. unit of &lt;em&gt;Daiwa Securities&lt;/em&gt; Co Ltd of &lt;em&gt;Japan,&lt;/em&gt; ran the &lt;em&gt;books&lt;/em&gt; for a &lt;em&gt;March 11 offering&lt;/em&gt; of 200 mln dlrs of 10-year &lt;em&gt;notes&lt;/em&gt; of &lt;em&gt;Rockwell International&lt;/em&gt; Corp &lt;ROK&gt;, &lt;em&gt;underwriters noted&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
     </lst>
   </lst>

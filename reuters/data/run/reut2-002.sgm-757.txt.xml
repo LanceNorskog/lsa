@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">11</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-757.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">15</int>
       </lst>
       <lst name="terms">
-        <int name="count">86</int>
+        <int name="count">62</int>
       </lst>
       <lst name="stems">
-        <int name="count">58</int>
+        <int name="count">44</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">addition</str>
+        <str name="text">energy</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">shocks</str>
-        <double name="strength">1.0</double>
+        <str name="text">agency</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">especially</str>
-        <double name="strength">1.0</double>
+        <str name="text">appear</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">magnitude</str>
-        <double name="strength">1.0</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">unexpected</str>
-        <double name="strength">1.0</double>
+        <str name="text">utilities</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">181</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S and P noted that 60 pct of 1986's downgrades were concentrated in the industrial sector, where the most negative factor was takeover fever that led to debt-financed mergers and acquisitions and costly defenses to fend off takeovers.</str>
-        <int name="index">4</int>
+        <str name="text">In addition, S and P does not expect any big shocks to hit the junk bond market this year, especially of the magnitude of 1986's unexpected LTV Corp &lt;LTV&gt; bankruptcy filing.</str>
+        <int name="index">7</int>
         <int name="start">1</int>
-        <int name="end">235</int>
-        <double name="strength">0.9964690790423613</double>
+        <int name="end">174</int>
+        <double name="strength">0.8670160216131183</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Utilities, which were a positive influence in the overall 1986 trend, should be a pocket of strength again this year.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">118</int>
-        <double name="strength">0.940245128662332</double>
+        <double name="strength">0.8481740297475567</double>
+        <int name="terms">7</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;narrowing&lt;/em&gt; of the gap &lt;em&gt;between downgrades&lt;/em&gt; and &lt;em&gt;upgrades would reflect&lt;/em&gt; a &lt;em&gt;calming&lt;/em&gt; in &lt;em&gt;takeover frenzy,&lt;/em&gt; less &lt;em&gt;volatile energy markets&lt;/em&gt; and slow but &lt;em&gt;steady economic growth,&lt;/em&gt; S and P said.</str>
+        <str name="text">The &lt;em&gt;narrowing&lt;/em&gt; of the gap between &lt;em&gt;downgrades&lt;/em&gt; and &lt;em&gt;upgrades&lt;/em&gt; would &lt;em&gt;reflect&lt;/em&gt; a calming in &lt;em&gt;takeover frenzy,&lt;/em&gt; less &lt;em&gt;volatile energy markets&lt;/em&gt; and slow but &lt;em&gt;steady economic growth,&lt;/em&gt; S and P said.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S and P &lt;em&gt;noted&lt;/em&gt; that 60 pct of 1986's &lt;em&gt;downgrades&lt;/em&gt; were &lt;em&gt;concentrated&lt;/em&gt; in the &lt;em&gt;industrial sector, where&lt;/em&gt; the most &lt;em&gt;negative factor&lt;/em&gt; was &lt;em&gt;takeover fever&lt;/em&gt; that led to debt-&lt;em&gt;financed mergers&lt;/em&gt; and &lt;em&gt;acquisitions&lt;/em&gt; and &lt;em&gt;costly defenses&lt;/em&gt; to fend off &lt;em&gt;takeovers&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">In &lt;em&gt;addition,&lt;/em&gt; S and P does not &lt;em&gt;expect&lt;/em&gt; any big &lt;em&gt;shocks&lt;/em&gt; to hit the junk bond &lt;em&gt;market&lt;/em&gt; this year, especially of the &lt;em&gt;magnitude&lt;/em&gt; of 1986's &lt;em&gt;unexpected&lt;/em&gt; LTV Corp &lt;LTV&gt; &lt;em&gt;bankruptcy filing&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Utilities, which&lt;/em&gt; were a &lt;em&gt;positive influence&lt;/em&gt; in the &lt;em&gt;overall 1986 trend, should&lt;/em&gt; be a &lt;em&gt;pocket&lt;/em&gt; of &lt;em&gt;strength again&lt;/em&gt; this year.</str>
+        <str name="text">&lt;em&gt;Utilities,&lt;/em&gt; which were a &lt;em&gt;positive influence&lt;/em&gt; in the &lt;em&gt;overall 1986 trend,&lt;/em&gt; should be a &lt;em&gt;pocket&lt;/em&gt; of &lt;em&gt;strength&lt;/em&gt; again this year.</str>
         <int name="index">8</int>
       </lst>
     </lst>

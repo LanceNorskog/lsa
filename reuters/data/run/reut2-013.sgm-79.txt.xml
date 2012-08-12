@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-013.sgm-79.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">99</int>
       </lst>
       <lst name="stems">
-        <int name="count">89</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">among</str>
+        <str name="text">kritchevsky</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">content</str>
-        <double name="strength">0.5590252984115678</double>
+        <str name="text">imports</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">support</str>
-        <double name="strength">0.5008414289913411</double>
+        <str name="text">kernel</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">factor</str>
-        <double name="strength">0.5006618019269478</double>
+        <str name="text">malaysian</str>
+        <double name="strength">0.9999999999999986</double>
       </lst>
       <lst name="term">
-        <str name="text">whose</str>
-        <double name="strength">0.5006116901093735</double>
+        <str name="text">growers</str>
+        <double name="strength">0.9999999999999984</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">243</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. Agriculture Department's Food and Consumer Services Division, said the health risk among consumers of vegetable oils with high saturated fat levels was highest among those who have heart disease.</str>
-        <int name="index">23</int>
+        <str name="text">U.S. scientists said some tropical vegetable oils can be hazardous to consumers whose health is at risk because of high levels of saturated fat, lending weight to a campaign by the American Soybean Association (ASA) for labelling changes.</str>
+        <int name="index">0</int>
         <int name="start">0</int>
-        <int name="end">198</int>
-        <double name="strength">0.8708087119759863</double>
+        <int name="end">238</int>
+        <double name="strength">0.8919666815688094</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The FDA responded to the ASA in a letter saying it would consider the petition as a comment to a proposed rule dealing with cholesterol and fatty acid labelling of foods.</str>
-        <int name="index">4</int>
+        <str name="text">But Steve Chang, Professor of Food Science at Rutgers University, said, "Palm oil is definitely not good for human health because it has a high content of saturated fatty acid."</str>
+        <int name="index">6</int>
         <int name="start">1</int>
-        <int name="end">171</int>
-        <double name="strength">0.8551082931452513</double>
+        <int name="end">178</int>
+        <double name="strength">0.8502089156212418</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;Malaysian&lt;/em&gt; Oil Palm &lt;em&gt;Growers Council official, Borge&lt;/em&gt; Bek-&lt;em&gt;Nielsen,&lt;/em&gt; has said &lt;em&gt;studies&lt;/em&gt; have &lt;em&gt;shown&lt;/em&gt; that palm oil is &lt;em&gt;cholesterol&lt;/em&gt;-free, low in &lt;em&gt;saturated&lt;/em&gt; fats, has anti-&lt;em&gt;cancer properties&lt;/em&gt; and &lt;em&gt;prevents blood clotting&lt;/em&gt; and &lt;em&gt;blocking&lt;/em&gt; of &lt;em&gt;arteries&lt;/em&gt; in &lt;em&gt;humans&lt;/em&gt;.</str>
+        <str name="text">A &lt;em&gt;Malaysian&lt;/em&gt; Oil Palm &lt;em&gt;Growers Council official, Borge&lt;/em&gt; Bek-&lt;em&gt;Nielsen,&lt;/em&gt; has said &lt;em&gt;studies&lt;/em&gt; have shown that palm oil is &lt;em&gt;cholesterol&lt;/em&gt;-free, low in &lt;em&gt;saturated&lt;/em&gt; fats, has anti-&lt;em&gt;cancer properties&lt;/em&gt; and prevents &lt;em&gt;blood clotting&lt;/em&gt; and blocking of &lt;em&gt;arteries&lt;/em&gt; in &lt;em&gt;humans&lt;/em&gt;.</str>
         <int name="index">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Agriculture Department&lt;/em&gt;'s Food and &lt;em&gt;Consumer Services Division,&lt;/em&gt; said the &lt;em&gt;health&lt;/em&gt; risk &lt;em&gt;among consumers&lt;/em&gt; of &lt;em&gt;vegetable&lt;/em&gt; oils with high &lt;em&gt;saturated&lt;/em&gt; fat &lt;em&gt;levels&lt;/em&gt; was &lt;em&gt;highest among those&lt;/em&gt; who have &lt;em&gt;heart disease&lt;/em&gt;.</str>
-        <int name="index">23</int>
+        <str name="text">U.S. &lt;em&gt;scientists&lt;/em&gt; said some &lt;em&gt;tropical vegetable&lt;/em&gt; oils can be &lt;em&gt;hazardous&lt;/em&gt; to &lt;em&gt;consumers&lt;/em&gt; whose &lt;em&gt;health&lt;/em&gt; is at risk because of high &lt;em&gt;levels&lt;/em&gt; of &lt;em&gt;saturated&lt;/em&gt; fat, &lt;em&gt;lending weight&lt;/em&gt; to a &lt;em&gt;campaign&lt;/em&gt; by the &lt;em&gt;American Soybean Association &lt;/em&gt;(ASA) for &lt;em&gt;labelling changes&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The FDA &lt;em&gt;responded&lt;/em&gt; to the ASA in a &lt;em&gt;letter saying&lt;/em&gt; it &lt;em&gt;would consider&lt;/em&gt; the &lt;em&gt;petition&lt;/em&gt; as a &lt;em&gt;comment&lt;/em&gt; to a &lt;em&gt;proposed&lt;/em&gt; rule &lt;em&gt;dealing&lt;/em&gt; with &lt;em&gt;cholesterol&lt;/em&gt; and &lt;em&gt;fatty&lt;/em&gt; acid &lt;em&gt;labelling&lt;/em&gt; of &lt;em&gt;foods&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">But &lt;em&gt;Steve Chang, Professor&lt;/em&gt; of Food &lt;em&gt;Science&lt;/em&gt; at &lt;em&gt;Rutgers University,&lt;/em&gt; said, "Palm oil is definitely not good for &lt;em&gt;human health&lt;/em&gt; because it has a high &lt;em&gt;content&lt;/em&gt; of &lt;em&gt;saturated fatty acid.&lt;/em&gt;"</str>
+        <int name="index">6</int>
       </lst>
     </lst>
   </lst>

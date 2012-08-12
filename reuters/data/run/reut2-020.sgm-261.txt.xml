@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">29</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-020.sgm-261.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">33</int>
       </lst>
       <lst name="terms">
-        <int name="count">174</int>
+        <int name="count">119</int>
       </lst>
       <lst name="stems">
-        <int name="count">111</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">doing</str>
+        <str name="text">sterling</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">government</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">temperton</str>
+        <double name="strength">0.999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">security</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">personal</str>
+        <double name="strength">0.9999999999999953</double>
       </lst>
       <lst name="term">
-        <str name="text">would</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">billion</str>
+        <double name="strength">0.9999999999999948</double>
       </lst>
       <lst name="term">
-        <str name="text">nudge</str>
-        <double name="strength">0.5000000000000021</double>
+        <str name="text">money</str>
+        <double name="strength">0.993432759375655</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">K. Government bonds (gilts) soared as investors continued to flee from plummetting equities into the relative security of government securities.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">144</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Noting that such a huge rise in credit extended by banks would under other circumstances have prompted market fears of a rise in clearing bank base rates from the current 10 pct, "With the financial markets doing what they're doing, that's the last thing the Bank of England would want to do," Spencer said.</str>
-        <int name="index">10</int>
+        <str name="text">Senior banking sources noted that the surge in bank lending was evidence of the continuing recent trend of fairly heavy personal sector borrowing.</str>
+        <int name="index">28</int>
         <int name="start">1</int>
-        <int name="end">308</int>
-        <double name="strength">0.9676800685803676</double>
+        <int name="end">147</int>
+        <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.K. Money market rates, in a similarly calm response, resumed the slightly easier trend of earlier in the morning after little more than a token blip as the figures came out.</str>
-        <int name="index">9</int>
+        <str name="text">An acute crisis of confidence in equity markets over the past two days will in any case subdue personal consumer credit demand which has largely been behind growth in lending.</str>
+        <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">176</int>
-        <double name="strength">0.8201298474029458</double>
+        <double name="strength">0.9012443433350764</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"The monetary situation is clearly very bad but as long as sterling is firm, the authorities are unlikely to put rates up," said Kevin Boakes, chief U.</str>
+        <int name="index">11</int>
+        <int name="start">1</int>
+        <int name="end">152</int>
+        <double name="strength">0.8964763323510537</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">K. &lt;em&gt;Government bonds (gilts) soared&lt;/em&gt; as &lt;em&gt;investors continued&lt;/em&gt; to flee from &lt;em&gt;plummetting equities&lt;/em&gt; into the &lt;em&gt;relative security&lt;/em&gt; of &lt;em&gt;government securities&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">&lt;em&gt;Senior banking sources&lt;/em&gt; noted that the &lt;em&gt;surge&lt;/em&gt; in bank &lt;em&gt;lending&lt;/em&gt; was &lt;em&gt;evidence&lt;/em&gt; of the continuing &lt;em&gt;recent trend&lt;/em&gt; of fairly &lt;em&gt;heavy personal sector borrowing&lt;/em&gt;.</str>
+        <int name="index">28</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Noting&lt;/em&gt; that such a huge rise in &lt;em&gt;credit extended&lt;/em&gt; by &lt;em&gt;banks would under other circumstances&lt;/em&gt; have &lt;em&gt;prompted market fears&lt;/em&gt; of a rise in &lt;em&gt;clearing&lt;/em&gt; bank base &lt;em&gt;rates&lt;/em&gt; from the &lt;em&gt;current 10&lt;/em&gt; pct, "With the &lt;em&gt;financial markets doing&lt;/em&gt; what they're &lt;em&gt;doing,&lt;/em&gt; that's the last &lt;em&gt;thing&lt;/em&gt; the Bank of &lt;em&gt;England would&lt;/em&gt; want to do," &lt;em&gt;Spencer said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">An &lt;em&gt;acute crisis&lt;/em&gt; of &lt;em&gt;confidence&lt;/em&gt; in &lt;em&gt;equity markets&lt;/em&gt; over the past two days will in any case &lt;em&gt;subdue personal consumer credit demand&lt;/em&gt; which has largely been behind &lt;em&gt;growth&lt;/em&gt; in lending.</str>
+        <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">U.K. &lt;em&gt;Money market rates,&lt;/em&gt; in a &lt;em&gt;similarly&lt;/em&gt; calm &lt;em&gt;response, resumed&lt;/em&gt; the &lt;em&gt;slightly easier trend&lt;/em&gt; of &lt;em&gt;earlier&lt;/em&gt; in the &lt;em&gt;morning after little&lt;/em&gt; more than a &lt;em&gt;token&lt;/em&gt; blip as the &lt;em&gt;figures&lt;/em&gt; came out.</str>
-        <int name="index">9</int>
+        <str name="text">"The &lt;em&gt;monetary situation&lt;/em&gt; is clearly very bad but as long as &lt;em&gt;sterling&lt;/em&gt; is firm, the &lt;em&gt;authorities&lt;/em&gt; are &lt;em&gt;unlikely&lt;/em&gt; to put &lt;em&gt;rates&lt;/em&gt; up," said &lt;em&gt;Kevin Boakes, chief U&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

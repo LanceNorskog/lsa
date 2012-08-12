@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-408.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">134</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">developing</str>
+        <str name="text">demand</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">plants</str>
-        <double name="strength">1.0</double>
+        <str name="text">levels</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">anticipating</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">forecasts</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">hotter</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">marketings</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">normal</str>
-        <double name="strength">0.500000000000003</double>
+        <str name="text">december</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The hot weather could stress developing corn and soybean plants in the Midwest, although some periods of dryness benefit young plants by encouraging the development of deep root systems, Bartholomew said.</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">205</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Strong grain futures ignored weakness in the value of the dollar, which can depress prices by making grains more expensive for foreign buyers.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">143</int>
-        <double name="strength">0.763875270807879</double>
-      </lst>
       <lst name="sentence">
         <str name="text">"The market is anticipating that it will stay hotter than normal for some time out," said David Bartholomew, assistant vice president for Merrill Lynch.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">153</int>
-        <double name="strength">0.7138811344094295</double>
+        <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Wheat posted more modest gains as dry weather improved harvest conditions in the southern Midwest.</str>
+        <int name="index">9</int>
+        <int name="start">0</int>
+        <int name="end">98</int>
+        <double name="strength">0.9253553085908922</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The hot weather could stress developing corn and soybean plants in the Midwest, although some periods of dryness benefit young plants by encouraging the development of deep root systems, Bartholomew said.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">205</int>
+        <double name="strength">0.8905379963979924</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The hot &lt;em&gt;weather could stress developing&lt;/em&gt; corn and &lt;em&gt;soybean plants&lt;/em&gt; in the &lt;em&gt;Midwest, although&lt;/em&gt; some &lt;em&gt;periods&lt;/em&gt; of &lt;em&gt;dryness benefit young plants&lt;/em&gt; by &lt;em&gt;encouraging&lt;/em&gt; the &lt;em&gt;development&lt;/em&gt; of deep root &lt;em&gt;systems, Bartholomew said&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Strong grain futures ignored weakness&lt;/em&gt; in the &lt;em&gt;value&lt;/em&gt; of the &lt;em&gt;dollar, which&lt;/em&gt; can &lt;em&gt;depress prices&lt;/em&gt; by &lt;em&gt;making grains&lt;/em&gt; more &lt;em&gt;expensive&lt;/em&gt; for &lt;em&gt;foreign buyers&lt;/em&gt;.</str>
-        <int name="index">16</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">"The &lt;em&gt;market&lt;/em&gt; is &lt;em&gt;anticipating&lt;/em&gt; that it will stay &lt;em&gt;hotter&lt;/em&gt; than &lt;em&gt;normal&lt;/em&gt; for some time out," said &lt;em&gt;David Bartholomew, assistant&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Merrill Lynch&lt;/em&gt;.</str>
+        <str name="text">"The &lt;em&gt;market&lt;/em&gt; is anticipating that it will stay hotter than &lt;em&gt;normal&lt;/em&gt; for some time out," said &lt;em&gt;David Bartholomew, assistant&lt;/em&gt; vice &lt;em&gt;president&lt;/em&gt; for &lt;em&gt;Merrill Lynch&lt;/em&gt;.</str>
         <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wheat&lt;/em&gt; posted more &lt;em&gt;modest gains&lt;/em&gt; as dry &lt;em&gt;weather&lt;/em&gt; improved &lt;em&gt;harvest conditions&lt;/em&gt; in the &lt;em&gt;southern Midwest&lt;/em&gt;.</str>
+        <int name="index">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The hot &lt;em&gt;weather&lt;/em&gt; could &lt;em&gt;stress&lt;/em&gt; developing corn and &lt;em&gt;soybean plants&lt;/em&gt; in the &lt;em&gt;Midwest,&lt;/em&gt; although some &lt;em&gt;periods&lt;/em&gt; of &lt;em&gt;dryness benefit young plants&lt;/em&gt; by encouraging the &lt;em&gt;development&lt;/em&gt; of deep root &lt;em&gt;systems, Bartholomew said&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

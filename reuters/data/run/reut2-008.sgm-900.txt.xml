@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">26</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-900.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">27</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">98</int>
       </lst>
       <lst name="stems">
-        <int name="count">86</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">unrest</str>
+        <str name="text">frozen</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">calendar</str>
-        <double name="strength">0.9999999999999994</double>
+        <str name="text">standstill</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">expiring</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">african</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">repay</str>
-        <double name="strength">0.5</double>
+        <str name="text">years</str>
+        <double name="strength">0.9917320401144657</double>
       </lst>
       <lst name="term">
-        <str name="text">showing</str>
-        <double name="strength">0.5</double>
+        <str name="text">barend</str>
+        <double name="strength">0.9917320401144655</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He attributed this to "restoration of law and order which has greatly reduced not only the extent of unrest but also the intensity of unrest."</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">143</int>
+        <str name="text">South Africa will repay 13 pct of its frozen 13 billion dollar debt to foreign creditors over the next three years under an agreement reached today in London, Finance Minister Barend du Plessis said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
         <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">South Africa has been under a state of emergency since June 1986 because of black political violence that has claimed over 2,400 lives in the past three years.</str>
         <int name="index">20</int>
         <int name="start">1</int>
         <int name="end">160</int>
-        <double name="strength">0.8740351913664779</double>
+        <double name="strength">0.9658830913167588</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Du Plessis said available foreign reserves of the Reserve Bank, which increased by about 800 mln dlrs in the past two months, and a continued current account surplus "will be sufficient" to meet terms of the new interim debt agreement.</str>
-        <int name="index">17</int>
+        <str name="text">Recent examples were the rise in the financial rand and the sharp increase in foreign exchange reserves.</str>
+        <int name="index">23</int>
         <int name="start">1</int>
-        <int name="end">236</int>
-        <double name="strength">0.8546013991401682</double>
+        <int name="end">105</int>
+        <double name="strength">0.9157713604583181</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;attributed&lt;/em&gt; this to "&lt;em&gt;restoration&lt;/em&gt; of law and &lt;em&gt;order which&lt;/em&gt; has &lt;em&gt;greatly reduced&lt;/em&gt; not only the &lt;em&gt;extent&lt;/em&gt; of &lt;em&gt;unrest&lt;/em&gt; but also the &lt;em&gt;intensity&lt;/em&gt; of &lt;em&gt;unrest.&lt;/em&gt;"</str>
-        <int name="index">19</int>
+        <str name="text">&lt;em&gt;South Africa&lt;/em&gt; will &lt;em&gt;repay 13&lt;/em&gt; pct of its &lt;em&gt;frozen 13 billion dollar&lt;/em&gt; debt to &lt;em&gt;foreign creditors&lt;/em&gt; over the next &lt;em&gt;three years&lt;/em&gt; under an &lt;em&gt;agreement&lt;/em&gt; reached &lt;em&gt;today&lt;/em&gt; in &lt;em&gt;London, Finance Minister Barend&lt;/em&gt; du &lt;em&gt;Plessis said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;South Africa&lt;/em&gt; has been &lt;em&gt;under&lt;/em&gt; a &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;emergency since&lt;/em&gt; June 1986 &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;black political violence&lt;/em&gt; that has &lt;em&gt;claimed&lt;/em&gt; over 2,400 &lt;em&gt;lives&lt;/em&gt; in the past &lt;em&gt;three years&lt;/em&gt;.</str>
+        <str name="text">South &lt;em&gt;Africa&lt;/em&gt; has been under a &lt;em&gt;state&lt;/em&gt; of &lt;em&gt;emergency&lt;/em&gt; since June 1986 because of &lt;em&gt;black political violence&lt;/em&gt; that has claimed over 2,400 &lt;em&gt;lives&lt;/em&gt; in the past &lt;em&gt;three years&lt;/em&gt;.</str>
         <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Du &lt;em&gt;Plessis&lt;/em&gt; said &lt;em&gt;available foreign reserves&lt;/em&gt; of the &lt;em&gt;Reserve&lt;/em&gt; Bank, &lt;em&gt;which increased&lt;/em&gt; by &lt;em&gt;about 800&lt;/em&gt; mln dlrs in the past two &lt;em&gt;months,&lt;/em&gt; and a &lt;em&gt;continued current account surplus &lt;/em&gt;"will be &lt;em&gt;sufficient"&lt;/em&gt; to meet &lt;em&gt;terms&lt;/em&gt; of the new &lt;em&gt;interim&lt;/em&gt; debt &lt;em&gt;agreement&lt;/em&gt;.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Recent examples&lt;/em&gt; were the rise in the &lt;em&gt;financial&lt;/em&gt; rand and the &lt;em&gt;sharp increase&lt;/em&gt; in &lt;em&gt;foreign exchange reserves&lt;/em&gt;.</str>
+        <int name="index">23</int>
       </lst>
     </lst>
   </lst>

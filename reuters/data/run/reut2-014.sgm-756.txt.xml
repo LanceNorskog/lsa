@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">22</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-014.sgm-756.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,10 +21,10 @@
         <int name="count">13</int>
       </lst>
       <lst name="terms">
-        <int name="count">107</int>
+        <int name="count">78</int>
       </lst>
       <lst name="stems">
-        <int name="count">75</int>
+        <int name="count">51</int>
       </lst>
     </lst>
     <lst name="terms">
@@ -33,57 +33,60 @@
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">benefit</str>
-        <double name="strength">1.0</double>
+        <str name="text">finance</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">ruling</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">minister</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">liberal</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">provide</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">democratic</str>
-        <double name="strength">0.5000000000000003</double>
+        <str name="text">democracies</str>
+        <double name="strength">0.9999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">However, the officials travelling with Japanese Finance Minister Kiichi Miyazawa and who asked not to be identified, would not provide any details of how they wanted the accord, which was signed by the six leading industrial democracies in February, to be strengthened.</str>
-        <int name="index">1</int>
+        <str name="text">The meeting, which is being held in conjunction with this week's International Monetary Fund/World Bank sessions, will reaffirm the currency pact and there is no need for changing  the language used in the Paris accord, the officials said.</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">270</int>
+        <int name="end">240</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The officials said such a money market action to stabilize the dollar is not only for the benefit of Japan, which is suffering from a sharp appreciation in its currency, but also for the benefit of the United States as well.</str>
-        <int name="index">7</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.9378495163894234</double>
+        <str name="text">S. Treasury Secretary James Baker early in this afternoon and discussed the dollar/yen exchange rates, officials said, but they declined to disclosed the details of that discussion.</str>
+        <int name="index">5</int>
+        <int name="start">0</int>
+        <int name="end">181</int>
+        <double name="strength">0.9909436875344542</double>
+        <int name="terms">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, Miyazawa failed to outline the size of the Japanese economic package in his meeting with Baker today because the Japanese 1987/88 budget has not been authorized by the Diet, or parliament, despite the new fiscal year which started April one, the officials said.</str>
-        <int name="index">10</int>
+        <str name="text">Japan's ruling liberal democratic party revealed its own economic package today calling for more than 5,000 billion yen in additional spending.</str>
+        <int name="index">11</int>
         <int name="start">1</int>
-        <int name="end">271</int>
-        <double name="strength">0.9194805362232533</double>
+        <int name="end">144</int>
+        <double name="strength">0.9568508906567783</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However,&lt;/em&gt; the &lt;em&gt;officials travelling&lt;/em&gt; with &lt;em&gt;Japanese Finance Minister Kiichi Miyazawa&lt;/em&gt; and who &lt;em&gt;asked&lt;/em&gt; not to be &lt;em&gt;identified, would&lt;/em&gt; not &lt;em&gt;provide&lt;/em&gt; any &lt;em&gt;details&lt;/em&gt; of how they &lt;em&gt;wanted&lt;/em&gt; the &lt;em&gt;accord, which&lt;/em&gt; was &lt;em&gt;signed&lt;/em&gt; by the six &lt;em&gt;leading industrial democracies&lt;/em&gt; in &lt;em&gt;February,&lt;/em&gt; to be &lt;em&gt;strengthened&lt;/em&gt;.</str>
-        <int name="index">1</int>
+        <str name="text">The &lt;em&gt;meeting,&lt;/em&gt; which is being held in &lt;em&gt;conjunction&lt;/em&gt; with this week's &lt;em&gt;International Monetary&lt;/em&gt; Fund/&lt;em&gt;World&lt;/em&gt; Bank &lt;em&gt;sessions,&lt;/em&gt; will &lt;em&gt;reaffirm&lt;/em&gt; the &lt;em&gt;currency&lt;/em&gt; pact and there is no need for changing  the &lt;em&gt;language&lt;/em&gt; used in the &lt;em&gt;Paris accord,&lt;/em&gt; the &lt;em&gt;officials said&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;officials&lt;/em&gt; said such a &lt;em&gt;money market action&lt;/em&gt; to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;dollar&lt;/em&gt; is not only for the &lt;em&gt;benefit&lt;/em&gt; of &lt;em&gt;Japan, which&lt;/em&gt; is &lt;em&gt;suffering&lt;/em&gt; from a &lt;em&gt;sharp appreciation&lt;/em&gt; in its &lt;em&gt;currency,&lt;/em&gt; but also for the &lt;em&gt;benefit&lt;/em&gt; of the &lt;em&gt;United States&lt;/em&gt; as well.</str>
-        <int name="index">7</int>
+        <str name="text">S. &lt;em&gt;Treasury Secretary James Baker&lt;/em&gt; early in this &lt;em&gt;afternoon&lt;/em&gt; and discussed the &lt;em&gt;dollar&lt;/em&gt;/yen &lt;em&gt;exchange rates, officials&lt;/em&gt; said, but they declined to disclosed the &lt;em&gt;details&lt;/em&gt; of that &lt;em&gt;discussion&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, Miyazawa failed&lt;/em&gt; to &lt;em&gt;outline&lt;/em&gt; the size of the &lt;em&gt;Japanese economic package&lt;/em&gt; in his &lt;em&gt;meeting&lt;/em&gt; with &lt;em&gt;Baker today because&lt;/em&gt; the &lt;em&gt;Japanese 1987/88 budget&lt;/em&gt; has not been &lt;em&gt;authorized&lt;/em&gt; by the Diet, or &lt;em&gt;parliament, despite&lt;/em&gt; the new &lt;em&gt;fiscal&lt;/em&gt; year &lt;em&gt;which started April&lt;/em&gt; one, the &lt;em&gt;officials said&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">&lt;em&gt;Japan&lt;/em&gt;'s ruling &lt;em&gt;liberal democratic party&lt;/em&gt; revealed its own &lt;em&gt;economic package today&lt;/em&gt; calling for more than 5,000 &lt;em&gt;billion&lt;/em&gt; yen in &lt;em&gt;additional spending&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

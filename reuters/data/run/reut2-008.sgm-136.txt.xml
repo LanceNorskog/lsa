@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">20</int>
+  <int name="QTime">30</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-008.sgm-136.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">38</int>
       </lst>
       <lst name="terms">
-        <int name="count">198</int>
+        <int name="count">146</int>
       </lst>
       <lst name="stems">
-        <int name="count">117</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">months</str>
+        <str name="text">borrowing</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">quarter</str>
-        <double name="strength">0.7071067811865478</double>
+        <str name="text">growth</str>
+        <double name="strength">0.9941728092057418</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.5590169943749483</double>
+        <str name="text">funds</str>
+        <double name="strength">0.9550178891756599</double>
       </lst>
       <lst name="term">
-        <str name="text">finance</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">economy</str>
+        <double name="strength">0.9550178891756594</double>
       </lst>
       <lst name="term">
-        <str name="text">demands</str>
-        <double name="strength">0.5590169943749466</double>
+        <str name="text">central</str>
+        <double name="strength">0.9550178891756594</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Economists said it appeared the government had already stepped up borrowing this year to accomodate revenue loss from other sources, including tax losses resulting from weaker than expected economic growth, and higher than expected spending.</str>
-        <int name="index">25</int>
+        <str name="text">It might also facilitate a further cut in leading rates, as the shift out of savings accounts into securities would slow growth of the Bundesbank's central bank money stock aggregate.</str>
+        <int name="index">20</int>
         <int name="start">1</int>
-        <int name="end">242</int>
+        <int name="end">184</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">West German bond yields could decline over the next few months if recent efforts to stabilize exchange rates, as seen in last month's Paris pact, extend to keeping down European interest rates, banking economists said.</str>
-        <int name="index">0</int>
+        <str name="text">The recent round of monetary accommodation by the Bundesbank and the Bank of Japan and the firming of the Federal Funds rate are significant.</str>
+        <int name="index">6</int>
         <int name="start">0</int>
-        <int name="end">218</int>
-        <double name="strength">0.9756282300072275</double>
+        <int name="end">141</int>
+        <double name="strength">0.9055856355480985</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Josef Koerner, chief economist of the West German Ifo-Institut, said in a newspaper interview he expected 1987 tax revenue to be some 11 billion marks below estimates by the West German government in November.</str>
-        <int name="index">26</int>
+        <str name="text">The Bundesbank said in its February report that it was wrong to believe that the first stage of the tax reform in 1986 could be managed without increasing deficits.</str>
+        <int name="index">34</int>
         <int name="start">1</int>
-        <int name="end">210</int>
-        <double name="strength">0.92560093662485</double>
+        <int name="end">165</int>
+        <double name="strength">0.8390131278404702</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Economists&lt;/em&gt; said it &lt;em&gt;appeared&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; had &lt;em&gt;already stepped&lt;/em&gt; up &lt;em&gt;borrowing&lt;/em&gt; this year to &lt;em&gt;accomodate revenue&lt;/em&gt; loss from &lt;em&gt;other sources, including&lt;/em&gt; tax &lt;em&gt;losses resulting&lt;/em&gt; from &lt;em&gt;weaker&lt;/em&gt; than &lt;em&gt;expected economic growth,&lt;/em&gt; and &lt;em&gt;higher&lt;/em&gt; than &lt;em&gt;expected spending&lt;/em&gt;.</str>
-        <int name="index">25</int>
+        <str name="text">It might also &lt;em&gt;facilitate&lt;/em&gt; a &lt;em&gt;further&lt;/em&gt; cut in leading &lt;em&gt;rates,&lt;/em&gt; as the &lt;em&gt;shift&lt;/em&gt; out of &lt;em&gt;savings accounts&lt;/em&gt; into &lt;em&gt;securities&lt;/em&gt; would slow &lt;em&gt;growth&lt;/em&gt; of the &lt;em&gt;Bundesbank&lt;/em&gt;'s &lt;em&gt;central&lt;/em&gt; bank &lt;em&gt;money stock aggregate&lt;/em&gt;.</str>
+        <int name="index">20</int>
       </lst>
       <lst name="sentence">
-        <str name="text">West &lt;em&gt;German&lt;/em&gt; bond &lt;em&gt;yields could decline&lt;/em&gt; over the next few &lt;em&gt;months&lt;/em&gt; if &lt;em&gt;recent efforts&lt;/em&gt; to &lt;em&gt;stabilize exchange rates,&lt;/em&gt; as seen in last &lt;em&gt;month&lt;/em&gt;'s &lt;em&gt;Paris&lt;/em&gt; pact, &lt;em&gt;extend&lt;/em&gt; to &lt;em&gt;keeping&lt;/em&gt; down &lt;em&gt;European interest rates, banking economists said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;recent round&lt;/em&gt; of &lt;em&gt;monetary accommodation&lt;/em&gt; by the &lt;em&gt;Bundesbank&lt;/em&gt; and the Bank of &lt;em&gt;Japan&lt;/em&gt; and the &lt;em&gt;firming&lt;/em&gt; of the &lt;em&gt;Federal Funds&lt;/em&gt; rate are &lt;em&gt;significant&lt;/em&gt;.</str>
+        <int name="index">6</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Josef Koerner, chief economist&lt;/em&gt; of the West &lt;em&gt;German&lt;/em&gt; Ifo-&lt;em&gt;Institut,&lt;/em&gt; said in a &lt;em&gt;newspaper interview&lt;/em&gt; he &lt;em&gt;expected 1987&lt;/em&gt; tax &lt;em&gt;revenue&lt;/em&gt; to be some 11 &lt;em&gt;billion marks below estimates&lt;/em&gt; by the West &lt;em&gt;German government&lt;/em&gt; in &lt;em&gt;November&lt;/em&gt;.</str>
-        <int name="index">26</int>
+        <str name="text">The &lt;em&gt;Bundesbank&lt;/em&gt; said in its &lt;em&gt;February report&lt;/em&gt; that it was &lt;em&gt;wrong&lt;/em&gt; to &lt;em&gt;believe&lt;/em&gt; that the &lt;em&gt;first stage&lt;/em&gt; of the tax &lt;em&gt;reform&lt;/em&gt; in 1986 could be managed without increasing &lt;em&gt;deficits&lt;/em&gt;.</str>
+        <int name="index">34</int>
       </lst>
     </lst>
   </lst>

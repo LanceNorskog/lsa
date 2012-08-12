@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-176.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">130</int>
+        <int name="count">85</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">60</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">warned</str>
+        <str name="text">output</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">outside</str>
-        <double name="strength">0.9999999999999976</double>
+        <str name="text">pressure</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">should</str>
-        <double name="strength">0.5590169943749458</double>
+        <str name="text">stability</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">defense</str>
-        <double name="strength">0.5</double>
+        <str name="text">sacrifices</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">caused</str>
-        <double name="strength">0.5</double>
+        <str name="text">seminar</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Al-Wattari said an 18 dlr a barrel price was optimal as it allowed investment in the oil industry outside OPEC to continue, while not generating excessive cash flow for otherwise unviable high-cost areas outside OPEC.</str>
-        <int name="index">16</int>
-        <int name="start">1</int>
-        <int name="end">218</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But he warned that defense of the 18 dlr a barrel level had caused hardship for OPEC countries, who had been forced to curtail production, and he warned that such cutbacks by OPEC states could not be sustained in some cases.</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.84426175594145</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Fadhil Al-Chalabi, OPEC Deputy Secretary General, also addressing the seminar, added that discipline was still needed to prevent violent fluctuations in the oil market.</str>
         <int name="index">18</int>
         <int name="start">1</int>
         <int name="end">169</int>
-        <double name="strength">0.826070305078507</double>
+        <double name="strength">1.0</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Al-Wattari said an 18 dlr a barrel price was optimal as it allowed investment in the oil industry outside OPEC to continue, while not generating excessive cash flow for otherwise unviable high-cost areas outside OPEC.</str>
+        <int name="index">16</int>
+        <int name="start">1</int>
+        <int name="end">218</int>
+        <double name="strength">0.9080477374015972</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">"For OPEC to stabilize the world oil price at what is now considered the optimal level of 18 dlrs a barrel, its member countries have had to undergo severe hardship in curtailing production," Al-Wattari said.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">0.8762750509221827</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Al-&lt;em&gt;Wattari&lt;/em&gt; said an 18 dlr a &lt;em&gt;barrel price&lt;/em&gt; was &lt;em&gt;optimal&lt;/em&gt; as it &lt;em&gt;allowed investment&lt;/em&gt; in the oil &lt;em&gt;industry outside&lt;/em&gt; OPEC to &lt;em&gt;continue, while&lt;/em&gt; not &lt;em&gt;generating excessive&lt;/em&gt; cash flow for &lt;em&gt;otherwise unviable&lt;/em&gt; high-cost &lt;em&gt;areas outside OPEC&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Fadhil&lt;/em&gt; Al-&lt;em&gt;Chalabi,&lt;/em&gt; OPEC &lt;em&gt;Deputy Secretary General,&lt;/em&gt; also addressing the &lt;em&gt;seminar,&lt;/em&gt; added that &lt;em&gt;discipline&lt;/em&gt; was still needed to &lt;em&gt;prevent violent fluctuations&lt;/em&gt; in the oil &lt;em&gt;market&lt;/em&gt;.</str>
+        <int name="index">18</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Al-&lt;em&gt;Wattari&lt;/em&gt; said an 18 dlr a &lt;em&gt;barrel price&lt;/em&gt; was &lt;em&gt;optimal&lt;/em&gt; as it allowed &lt;em&gt;investment&lt;/em&gt; in the oil &lt;em&gt;industry&lt;/em&gt; outside OPEC to &lt;em&gt;continue,&lt;/em&gt; while not generating &lt;em&gt;excessive&lt;/em&gt; cash flow for otherwise &lt;em&gt;unviable&lt;/em&gt; high-cost &lt;em&gt;areas&lt;/em&gt; outside OPEC.</str>
         <int name="index">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But he &lt;em&gt;warned&lt;/em&gt; that &lt;em&gt;defense&lt;/em&gt; of the 18 dlr a &lt;em&gt;barrel level&lt;/em&gt; had &lt;em&gt;caused hardship&lt;/em&gt; for OPEC &lt;em&gt;countries,&lt;/em&gt; who had been &lt;em&gt;forced&lt;/em&gt; to &lt;em&gt;curtail production,&lt;/em&gt; and he &lt;em&gt;warned&lt;/em&gt; that such &lt;em&gt;cutbacks&lt;/em&gt; by OPEC &lt;em&gt;states could&lt;/em&gt; not be &lt;em&gt;sustained&lt;/em&gt; in some &lt;em&gt;cases&lt;/em&gt;.</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Fadhil&lt;/em&gt; Al-&lt;em&gt;Chalabi,&lt;/em&gt; OPEC &lt;em&gt;Deputy Secretary General,&lt;/em&gt; also &lt;em&gt;addressing&lt;/em&gt; the &lt;em&gt;seminar, added&lt;/em&gt; that &lt;em&gt;discipline&lt;/em&gt; was &lt;em&gt;still needed&lt;/em&gt; to &lt;em&gt;prevent violent fluctuations&lt;/em&gt; in the oil &lt;em&gt;market&lt;/em&gt;.</str>
-        <int name="index">18</int>
+        <str name="text">"For OPEC to &lt;em&gt;stabilize&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt; oil &lt;em&gt;price&lt;/em&gt; at what is now considered the &lt;em&gt;optimal level&lt;/em&gt; of 18 dlrs a &lt;em&gt;barrel,&lt;/em&gt; its &lt;em&gt;member countries&lt;/em&gt; have had to &lt;em&gt;undergo severe hardship&lt;/em&gt; in curtailing &lt;em&gt;production,"&lt;/em&gt; Al-&lt;em&gt;Wattari said&lt;/em&gt;.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

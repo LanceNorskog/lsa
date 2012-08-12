@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-000.sgm-262.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">125</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">88</int>
+        <int name="count">65</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">stocks</str>
+        <str name="text">oilseeds</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">increase</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">trigger</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">about</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">fresh</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">billion</str>
-        <double name="strength">0.9999999999999986</double>
+        <str name="text">dispute</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">tonne</str>
-        <double name="strength">0.559016994374947</double>
+        <str name="text">states</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">EC farm policies now swallow two-thirds of an annual budget of about 36 billion European currency units (Ecu) and are mainly responsible for an expected shortfall this year of about five billion Ecus.</str>
-        <int name="index">8</int>
-        <int name="start">0</int>
-        <int name="end">200</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The tax, of up to 330 Ecus per tonne, would be levied on imported and domestically produced oilseeds, but could trigger a fresh trade dispute with the United States, which provides the EC with the bulk of its soybeans.</str>
-        <int name="index">10</int>
+        <str name="text">The common target for the farmers' wrath is the EC's Brussels Commission, which for the fourth year running has called for radical changes in the price support system.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">219</int>
-        <double name="strength">0.8168327953051334</double>
+        <int name="end">168</int>
+        <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">EC agriculture ministers try to fix the guaranteed prices paid to Community farmers before an April 1 deadline for the new marketing year, an increasingly difficult task as EC members cut funds and demand greater budget discipline.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">232</int>
-        <double name="strength">0.7839646001152961</double>
+        <double name="strength">0.9713081529853383</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">EC Agriculture Commissioner Frans Andriessen says huge food surpluses, which have alienated international trade partners and pushed the Community to the edge of bankruptcy, demand such action.</str>
+        <int name="index">2</int>
+        <int name="start">1</int>
+        <int name="end">193</int>
+        <double name="strength">0.9307435679798226</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">EC farm &lt;em&gt;policies&lt;/em&gt; now &lt;em&gt;swallow&lt;/em&gt; two-&lt;em&gt;thirds&lt;/em&gt; of an &lt;em&gt;annual budget&lt;/em&gt; of &lt;em&gt;about 36 billion European currency units &lt;/em&gt;(Ecu) and are &lt;em&gt;mainly responsible&lt;/em&gt; for an &lt;em&gt;expected shortfall&lt;/em&gt; this year of &lt;em&gt;about&lt;/em&gt; five &lt;em&gt;billion Ecus&lt;/em&gt;.</str>
-        <int name="index">8</int>
+        <str name="text">The &lt;em&gt;common target&lt;/em&gt; for the &lt;em&gt;farmers' wrath&lt;/em&gt; is the EC's &lt;em&gt;Brussels Commission,&lt;/em&gt; which for the &lt;em&gt;fourth&lt;/em&gt; year &lt;em&gt;running&lt;/em&gt; has called for &lt;em&gt;radical changes&lt;/em&gt; in the &lt;em&gt;price support system&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The tax, of up to 330 Ecus per &lt;em&gt;tonne, would&lt;/em&gt; be &lt;em&gt;levied&lt;/em&gt; on &lt;em&gt;imported&lt;/em&gt; and &lt;em&gt;domestically produced oilseeds,&lt;/em&gt; but &lt;em&gt;could trigger&lt;/em&gt; a &lt;em&gt;fresh trade dispute&lt;/em&gt; with the &lt;em&gt;United States, which provides&lt;/em&gt; the EC with the bulk of its &lt;em&gt;soybeans&lt;/em&gt;.</str>
-        <int name="index">10</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">EC &lt;em&gt;agriculture ministers&lt;/em&gt; try to fix the &lt;em&gt;guaranteed prices&lt;/em&gt; paid to &lt;em&gt;Community farmers before&lt;/em&gt; an &lt;em&gt;April 1 deadline&lt;/em&gt; for the new &lt;em&gt;marketing&lt;/em&gt; year, an &lt;em&gt;increasingly difficult&lt;/em&gt; task as EC &lt;em&gt;members&lt;/em&gt; cut &lt;em&gt;funds&lt;/em&gt; and &lt;em&gt;demand greater budget discipline&lt;/em&gt;.</str>
+        <str name="text">EC &lt;em&gt;agriculture ministers&lt;/em&gt; try to fix the &lt;em&gt;guaranteed prices&lt;/em&gt; paid to &lt;em&gt;Community farmers&lt;/em&gt; before an &lt;em&gt;April 1 deadline&lt;/em&gt; for the new &lt;em&gt;marketing&lt;/em&gt; year, an increasingly &lt;em&gt;difficult&lt;/em&gt; task as EC &lt;em&gt;members&lt;/em&gt; cut &lt;em&gt;funds&lt;/em&gt; and &lt;em&gt;demand&lt;/em&gt; greater &lt;em&gt;budget discipline&lt;/em&gt;.</str>
         <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">EC &lt;em&gt;Agriculture Commissioner Frans&lt;/em&gt; Andriessen says huge food &lt;em&gt;surpluses,&lt;/em&gt; which have alienated &lt;em&gt;international trade partners&lt;/em&gt; and pushed the &lt;em&gt;Community&lt;/em&gt; to the edge of &lt;em&gt;bankruptcy, demand&lt;/em&gt; such &lt;em&gt;action&lt;/em&gt;.</str>
+        <int name="index">2</int>
       </lst>
     </lst>
   </lst>

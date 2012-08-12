@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">13</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-005.sgm-381.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">89</int>
+        <int name="count">63</int>
       </lst>
       <lst name="stems">
-        <int name="count">56</int>
+        <int name="count">43</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">position</str>
+        <str name="text">flexible</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">european</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">friday</str>
+        <double name="strength">0.9999999999999992</double>
       </lst>
       <lst name="term">
-        <str name="text">community</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">commissioners</str>
+        <double name="strength">0.9634242309653825</double>
       </lst>
       <lst name="term">
-        <str name="text">split</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">informal</str>
+        <double name="strength">0.9634242309653825</double>
       </lst>
       <lst name="term">
-        <str name="text">effect</str>
-        <double name="strength">0.8944271909999179</double>
+        <str name="text">respond</str>
+        <double name="strength">0.9634242309653825</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Producers, who are in favour of the buffer stock buying a variety of grades of cocoa and oppose non-member cocoa being accepted, reviewed their position ahead of the working group meeting this afternoon.</str>
-        <int name="index">10</int>
+        <str name="text">The EC Commission met in Brussels on Friday to see whether the 12 EC cocoa consuming nations could narrow their differences at this month's meeting.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">204</int>
+        <int name="end">149</int>
         <double name="strength">1.0</double>
+        <int name="terms">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Commissioners came away from the Friday meeting with an informal agreement to respond to signs of flexibility among producers on the key buffer stock issues, delegates said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">178</int>
+        <double name="strength">0.9926018694628386</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
         <str name="text">The key issues to be addressed at this council session which divide ICCO members are whether non-member cocoa should be eligible for buffer stock purchases and what price differentials the buffer stock should pay for different types of cocoa, delegates said.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">259</int>
-        <double name="strength">0.9745038323395587</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Representatives of cocoa consuming countries at an International Cocoa Organization, ICCO, council meeting here have edged closer to a unified stance on buffer stock rules, delegates said.</str>
-        <int name="index">0</int>
-        <int name="start">0</int>
-        <int name="end">188</int>
-        <double name="strength">0.7933882354402322</double>
+        <double name="strength">0.904467668357576</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Producers,&lt;/em&gt; who are in &lt;em&gt;favour&lt;/em&gt; of the &lt;em&gt;buffer stock buying&lt;/em&gt; a &lt;em&gt;variety&lt;/em&gt; of &lt;em&gt;grades&lt;/em&gt; of &lt;em&gt;cocoa&lt;/em&gt; and &lt;em&gt;oppose&lt;/em&gt; non-&lt;em&gt;member cocoa being accepted, reviewed their position ahead&lt;/em&gt; of the &lt;em&gt;working group meeting&lt;/em&gt; this &lt;em&gt;afternoon&lt;/em&gt;.</str>
-        <int name="index">10</int>
+        <str name="text">The EC &lt;em&gt;Commission&lt;/em&gt; met in &lt;em&gt;Brussels&lt;/em&gt; on &lt;em&gt;Friday&lt;/em&gt; to see whether the 12 EC &lt;em&gt;cocoa&lt;/em&gt; consuming &lt;em&gt;nations&lt;/em&gt; could &lt;em&gt;narrow&lt;/em&gt; their &lt;em&gt;differences&lt;/em&gt; at this &lt;em&gt;month&lt;/em&gt;'s meeting.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The key &lt;em&gt;issues&lt;/em&gt; to be &lt;em&gt;addressed&lt;/em&gt; at this &lt;em&gt;council session which divide&lt;/em&gt; ICCO &lt;em&gt;members&lt;/em&gt; are &lt;em&gt;whether&lt;/em&gt; non-&lt;em&gt;member cocoa should&lt;/em&gt; be &lt;em&gt;eligible&lt;/em&gt; for &lt;em&gt;buffer stock purchases&lt;/em&gt; and what &lt;em&gt;price differentials&lt;/em&gt; the &lt;em&gt;buffer stock should&lt;/em&gt; pay for &lt;em&gt;different types&lt;/em&gt; of &lt;em&gt;cocoa, delegates said&lt;/em&gt;.</str>
+        <str name="text">The &lt;em&gt;Commissioners&lt;/em&gt; came away from the &lt;em&gt;Friday meeting&lt;/em&gt; with an &lt;em&gt;informal agreement&lt;/em&gt; to &lt;em&gt;respond&lt;/em&gt; to &lt;em&gt;signs&lt;/em&gt; of &lt;em&gt;flexibility&lt;/em&gt; among &lt;em&gt;producers&lt;/em&gt; on the key &lt;em&gt;buffer stock issues, delegates said&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The key &lt;em&gt;issues&lt;/em&gt; to be addressed at this &lt;em&gt;council session&lt;/em&gt; which &lt;em&gt;divide&lt;/em&gt; ICCO &lt;em&gt;members&lt;/em&gt; are whether non-&lt;em&gt;member cocoa&lt;/em&gt; should be &lt;em&gt;eligible&lt;/em&gt; for &lt;em&gt;buffer stock purchases&lt;/em&gt; and what &lt;em&gt;price differentials&lt;/em&gt; the &lt;em&gt;buffer stock&lt;/em&gt; should pay for &lt;em&gt;different types&lt;/em&gt; of &lt;em&gt;cocoa, delegates said&lt;/em&gt;.</str>
         <int name="index">7</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Representatives&lt;/em&gt; of &lt;em&gt;cocoa consuming countries&lt;/em&gt; at an &lt;em&gt;International Cocoa Organization,&lt;/em&gt; ICCO, &lt;em&gt;council meeting&lt;/em&gt; here have &lt;em&gt;edged closer&lt;/em&gt; to a &lt;em&gt;unified stance&lt;/em&gt; on &lt;em&gt;buffer stock rules, delegates said&lt;/em&gt;.</str>
-        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

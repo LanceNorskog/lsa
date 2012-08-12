@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">20</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-160.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">135</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">82</int>
+        <int name="count">57</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">german</str>
+        <str name="text">community</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">products</str>
-        <double name="strength">0.5590169943749481</double>
+        <str name="text">annual</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">split</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">tonnes</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">whether</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">strip</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">reduce</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">commission</str>
+        <double name="strength">0.9999999999999983</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">They said member states are split on whether to reduce the scope of a quota production system, which at present protects EC steelmakers from the full force of competition for 65 pct of their products, while talks on the closure plan proceed.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">242</int>
+        <str name="text">European Community (EC) industry ministers today declared there is a need for a massive round of closures of steel plants to bring capacity in the 12-country bloc into reasonable balance with demand.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">199</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">But EC Executive Commission sources said Industry Commissioner Karl-Heinz Narjes told ministers today that 30 mln tonnes of annual capacity was excess to requirements and should be closed by the end of 1990.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">208</int>
+        <double name="strength">0.988393217781064</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">Eurofer says it has identified scope for the closure of plants which have an annual capacity of 15.26 mln tonnes, provided the companies concerned can be fully repaid by the EC or national governments for redundancy and other social costs.</str>
         <int name="index">3</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.9060408435116069</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The state owned British Steel Corporation, benefitting from massive recent write-offs of its accumulated debts, is currently one of the few EC steel companies in the black.</str>
-        <int name="index">13</int>
-        <int name="start">1</int>
-        <int name="end">173</int>
-        <double name="strength">0.8582555731937302</double>
+        <double name="strength">0.943068030697487</double>
+        <int name="terms">14</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">They said &lt;em&gt;member states&lt;/em&gt; are &lt;em&gt;split&lt;/em&gt; on &lt;em&gt;whether&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;scope&lt;/em&gt; of a &lt;em&gt;quota production system, which&lt;/em&gt; at &lt;em&gt;present protects&lt;/em&gt; EC &lt;em&gt;steelmakers&lt;/em&gt; from the full &lt;em&gt;force&lt;/em&gt; of &lt;em&gt;competition&lt;/em&gt; for 65 pct of &lt;em&gt;their products, while talks&lt;/em&gt; on the &lt;em&gt;closure&lt;/em&gt; plan &lt;em&gt;proceed&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;European Community &lt;/em&gt;(EC) &lt;em&gt;industry ministers today&lt;/em&gt; declared there is a need for a &lt;em&gt;massive round&lt;/em&gt; of &lt;em&gt;closures&lt;/em&gt; of &lt;em&gt;steel plants&lt;/em&gt; to &lt;em&gt;bring capacity&lt;/em&gt; in the 12-&lt;em&gt;country&lt;/em&gt; bloc into &lt;em&gt;reasonable balance&lt;/em&gt; with &lt;em&gt;demand&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Eurofer&lt;/em&gt; says it has &lt;em&gt;identified scope&lt;/em&gt; for the &lt;em&gt;closure&lt;/em&gt; of &lt;em&gt;plants which&lt;/em&gt; have an &lt;em&gt;annual capacity&lt;/em&gt; of 15.26 mln &lt;em&gt;tonnes, provided&lt;/em&gt; the &lt;em&gt;companies concerned&lt;/em&gt; can be &lt;em&gt;fully repaid&lt;/em&gt; by the EC or &lt;em&gt;national governments&lt;/em&gt; for &lt;em&gt;redundancy&lt;/em&gt; and &lt;em&gt;other social costs&lt;/em&gt;.</str>
+        <str name="text">But EC &lt;em&gt;Executive Commission sources&lt;/em&gt; said &lt;em&gt;Industry Commissioner&lt;/em&gt; Karl-&lt;em&gt;Heinz Narjes&lt;/em&gt; told &lt;em&gt;ministers today&lt;/em&gt; that 30 mln &lt;em&gt;tonnes&lt;/em&gt; of &lt;em&gt;annual capacity&lt;/em&gt; was &lt;em&gt;excess&lt;/em&gt; to &lt;em&gt;requirements&lt;/em&gt; and should be closed by the end of 1990.</str>
+        <int name="index">4</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Eurofer&lt;/em&gt; says it has identified &lt;em&gt;scope&lt;/em&gt; for the &lt;em&gt;closure&lt;/em&gt; of &lt;em&gt;plants&lt;/em&gt; which have an &lt;em&gt;annual capacity&lt;/em&gt; of 15.26 mln &lt;em&gt;tonnes,&lt;/em&gt; provided the &lt;em&gt;companies&lt;/em&gt; concerned can be fully repaid by the EC or &lt;em&gt;national governments&lt;/em&gt; for &lt;em&gt;redundancy&lt;/em&gt; and &lt;em&gt;other social costs&lt;/em&gt;.</str>
         <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;state owned British Steel Corporation, benefitting&lt;/em&gt; from &lt;em&gt;massive recent write&lt;/em&gt;-offs of its &lt;em&gt;accumulated debts,&lt;/em&gt; is &lt;em&gt;currently&lt;/em&gt; one of the few EC &lt;em&gt;steel companies&lt;/em&gt; in the &lt;em&gt;black&lt;/em&gt;.</str>
-        <int name="index">13</int>
       </lst>
     </lst>
   </lst>

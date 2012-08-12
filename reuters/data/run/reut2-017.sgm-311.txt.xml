@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-017.sgm-311.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">19</int>
       </lst>
       <lst name="terms">
-        <int name="count">108</int>
+        <int name="count">79</int>
       </lst>
       <lst name="stems">
-        <int name="count">73</int>
+        <int name="count">55</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">dollars</str>
+        <str name="text">other</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">exports</str>
-        <double name="strength">0.9998002964377198</double>
-      </lst>
-      <lst name="term">
-        <str name="text">friction</str>
-        <double name="strength">0.5414683928783193</double>
-      </lst>
-      <lst name="term">
-        <str name="text">limiting</str>
-        <double name="strength">0.5142599800384828</double>
+        <str name="text">worth</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
         <str name="text">freeze</str>
-        <double name="strength">0.5040166893638922</double>
+        <double name="strength">0.9968819626205303</double>
+      </lst>
+      <lst name="term">
+        <str name="text">computers</str>
+        <double name="strength">0.9968819626205302</double>
+      </lst>
+      <lst name="term">
+        <str name="text">helicopters</str>
+        <double name="strength">0.9968819626205302</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">The government will also take steps to reduce tariffs, accelerate the opening of its markets, voluntarily restrain exports and cut export financing, the statement said.</str>
-        <int name="index">15</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
+        <str name="text">S. Commerce Secretary Malcolm Baldrige, who said that if South Korea wanted to avoid protectionist retaliation it should not falter in its policies to open its market and cut its surplus.</str>
+        <int name="index">6</int>
+        <int name="start">0</int>
+        <int name="end">187</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Cars, computers, helicopters, ambulances, motorcycles, medical and laboratory equipment and other products.</str>
+        <int name="index">8</int>
+        <int name="start">0</int>
+        <int name="end">110</int>
+        <double name="strength">0.8658756038516265</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">The list includes 1.13 billion dlrs of capital goods, 700 mln of farm products, 50 mln of aluminium, zinc, polyethylene and other raw materials, and 250 mln of steel, electronics and shipbuilding parts which would be shifted from other nations.</str>
         <int name="index">11</int>
         <int name="start">1</int>
         <int name="end">245</int>
-        <double name="strength">0.9813490541341396</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. Commerce Secretary Malcolm Baldrige, who said that if South Korea wanted to avoid protectionist retaliation it should not falter in its policies to open its market and cut its surplus.</str>
-        <int name="index">6</int>
-        <int name="start">0</int>
-        <int name="end">187</int>
-        <double name="strength">0.95674622633085</double>
+        <double name="strength">0.7654062002468689</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;government&lt;/em&gt; will also take &lt;em&gt;steps&lt;/em&gt; to &lt;em&gt;reduce tariffs, accelerate&lt;/em&gt; the &lt;em&gt;opening&lt;/em&gt; of its &lt;em&gt;markets, voluntarily restrain exports&lt;/em&gt; and cut &lt;em&gt;export financing,&lt;/em&gt; the &lt;em&gt;statement said&lt;/em&gt;.</str>
-        <int name="index">15</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The list &lt;em&gt;includes 1.13 billion&lt;/em&gt; dlrs of &lt;em&gt;capital goods, 700&lt;/em&gt; mln of farm &lt;em&gt;products, 50&lt;/em&gt; mln of &lt;em&gt;aluminium,&lt;/em&gt; zinc, &lt;em&gt;polyethylene&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; raw &lt;em&gt;materials,&lt;/em&gt; and 250 mln of &lt;em&gt;steel, electronics&lt;/em&gt; and &lt;em&gt;shipbuilding parts which would&lt;/em&gt; be &lt;em&gt;shifted&lt;/em&gt; from &lt;em&gt;other nations&lt;/em&gt;.</str>
-        <int name="index">11</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Commerce Secretary Malcolm Baldrige,&lt;/em&gt; who said that if &lt;em&gt;South Korea wanted&lt;/em&gt; to &lt;em&gt;avoid protectionist retaliation&lt;/em&gt; it &lt;em&gt;should&lt;/em&gt; not &lt;em&gt;falter&lt;/em&gt; in its &lt;em&gt;policies&lt;/em&gt; to open its &lt;em&gt;market&lt;/em&gt; and cut its &lt;em&gt;surplus&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;Commerce Secretary Malcolm Baldrige,&lt;/em&gt; who said that if &lt;em&gt;South Korea&lt;/em&gt; wanted to &lt;em&gt;avoid protectionist retaliation&lt;/em&gt; it should not &lt;em&gt;falter&lt;/em&gt; in its &lt;em&gt;policies&lt;/em&gt; to open its &lt;em&gt;market&lt;/em&gt; and cut its &lt;em&gt;surplus&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Cars, &lt;em&gt;computers, helicopters, ambulances, motorcycles, medical&lt;/em&gt; and &lt;em&gt;laboratory equipment&lt;/em&gt; and &lt;em&gt;other products&lt;/em&gt;.</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The list includes 1.13 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;capital goods, 700&lt;/em&gt; mln of farm &lt;em&gt;products, 50&lt;/em&gt; mln of &lt;em&gt;aluminium,&lt;/em&gt; zinc, &lt;em&gt;polyethylene&lt;/em&gt; and &lt;em&gt;other&lt;/em&gt; raw &lt;em&gt;materials,&lt;/em&gt; and 250 mln of &lt;em&gt;steel, electronics&lt;/em&gt; and &lt;em&gt;shipbuilding parts&lt;/em&gt; which would be shifted from &lt;em&gt;other nations&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

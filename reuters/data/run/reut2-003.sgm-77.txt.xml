@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">25</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-77.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">121</int>
+        <int name="count">96</int>
       </lst>
       <lst name="stems">
-        <int name="count">77</int>
+        <int name="count">64</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">america</str>
+        <str name="text">attempt</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">provision</str>
-        <double name="strength">1.0</double>
+        <str name="text">national</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">seven</str>
-        <double name="strength">0.5000000000000012</double>
+        <str name="text">gross</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">world</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">bilateral</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">biggest</str>
-        <double name="strength">0.5000000000000009</double>
+        <str name="text">producers</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">- Equal access to federal government procurement in the two countries, replacing current "Buy America" and "Buy Canada" provisions with a "Buy North America" provision;</str>
-        <int name="index">8</int>
-        <int name="start">1</int>
-        <int name="end">169</int>
+        <str name="text">S.-Canada pact in such areas as export subsidies and the creation of a dispute commission could set an example for the current attempt by GATT to write new and more liberal global trading regulations.</str>
+        <int name="index">21</int>
+        <int name="start">0</int>
+        <int name="end">200</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The United States and Canada - the world's two biggest trading partners with cross border shipments of about 150 billion dlrs a year - opened free trade talks last June.</str>
-        <int name="index">4</int>
-        <int name="start">1</int>
-        <int name="end">170</int>
-        <double name="strength">0.7863312480648159</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
         <str name="text">He proposed that any attempt to impose new duties to offset subsidies should go first a special disputes commission for resolution at an early stage.</str>
         <int name="index">14</int>
         <int name="start">1</int>
         <int name="end">150</int>
-        <double name="strength">0.7609790463021257</double>
+        <double name="strength">0.9435143323559311</double>
+        <int name="terms">11</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Wonnacott said "bilateral free trade would contribute to the efficiency of the North American economies and to their competitiveness in facing overseas producers.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">163</int>
+        <double name="strength">0.8957959214471514</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;- Equal access&lt;/em&gt; to &lt;em&gt;federal government procurement&lt;/em&gt; in the two &lt;em&gt;countries, replacing current &lt;/em&gt;"Buy &lt;em&gt;America"&lt;/em&gt; and "Buy &lt;em&gt;Canada" provisions&lt;/em&gt; with a "Buy &lt;em&gt;North America" provision&lt;/em&gt;;</str>
-        <int name="index">8</int>
+        <str name="text">S.-Canada pact in such &lt;em&gt;areas&lt;/em&gt; as &lt;em&gt;export subsidies&lt;/em&gt; and the &lt;em&gt;creation&lt;/em&gt; of a &lt;em&gt;dispute commission&lt;/em&gt; could set an &lt;em&gt;example&lt;/em&gt; for the &lt;em&gt;current attempt&lt;/em&gt; by GATT to &lt;em&gt;write&lt;/em&gt; new and more &lt;em&gt;liberal global trading regulations&lt;/em&gt;.</str>
+        <int name="index">21</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;United States&lt;/em&gt; and &lt;em&gt;Canada -&lt;/em&gt; the &lt;em&gt;world&lt;/em&gt;'s two &lt;em&gt;biggest trading partners&lt;/em&gt; with &lt;em&gt;cross border shipments&lt;/em&gt; of &lt;em&gt;about 150 billion&lt;/em&gt; dlrs a year - &lt;em&gt;opened&lt;/em&gt; free &lt;em&gt;trade talks&lt;/em&gt; last June.</str>
-        <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">He &lt;em&gt;proposed&lt;/em&gt; that any &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;impose&lt;/em&gt; new &lt;em&gt;duties&lt;/em&gt; to &lt;em&gt;offset subsidies should&lt;/em&gt; go &lt;em&gt;first&lt;/em&gt; a &lt;em&gt;special disputes commission&lt;/em&gt; for &lt;em&gt;resolution&lt;/em&gt; at an &lt;em&gt;early stage&lt;/em&gt;.</str>
+        <str name="text">He proposed that any &lt;em&gt;attempt&lt;/em&gt; to &lt;em&gt;impose&lt;/em&gt; new &lt;em&gt;duties&lt;/em&gt; to &lt;em&gt;offset subsidies&lt;/em&gt; should go first a &lt;em&gt;special disputes commission&lt;/em&gt; for &lt;em&gt;resolution&lt;/em&gt; at an &lt;em&gt;early stage&lt;/em&gt;.</str>
         <int name="index">14</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Wonnacott&lt;/em&gt; said "&lt;em&gt;bilateral&lt;/em&gt; free &lt;em&gt;trade&lt;/em&gt; would &lt;em&gt;contribute&lt;/em&gt; to the &lt;em&gt;efficiency&lt;/em&gt; of the &lt;em&gt;North American economies&lt;/em&gt; and to their &lt;em&gt;competitiveness&lt;/em&gt; in facing &lt;em&gt;overseas producers&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

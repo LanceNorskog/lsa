@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-006.sgm-890.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">104</int>
+        <int name="count">74</int>
       </lst>
       <lst name="stems">
-        <int name="count">74</int>
+        <int name="count">52</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">industry</str>
+        <str name="text">commercial</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">association</str>
-        <double name="strength">1.0</double>
+        <str name="text">paper</str>
+        <double name="strength">0.932067594115363</double>
       </lst>
       <lst name="term">
-        <str name="text">minimum</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">benefits</str>
+        <double name="strength">0.8852083482252063</double>
       </lst>
       <lst name="term">
-        <str name="text">denomination</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">public</str>
+        <double name="strength">0.8852083482252063</double>
       </lst>
       <lst name="term">
-        <str name="text">offered</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">competition</str>
+        <double name="strength">0.8852083482252063</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The Fed noted the Securities Industry Association, a trade association of the investment banking industry, had opposed Chase Manhattan's application for more powers.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But it added a bill adopted by the Senate Banking Committee last week could affect Chase Manhattan if it becomes law and might force it eventually to cease commercial paper underwriting activities.</str>
-        <int name="index">2</int>
-        <int name="start">0</int>
-        <int name="end">197</int>
-        <double name="strength">0.8944764092036462</double>
-      </lst>
       <lst name="sentence">
         <str name="text">In addition, Chase Manhattan will be able to place commercial paper as agents for issuers and advise them on rates and maturities of proposed issues just as Bankers Trust was given authority to do.</str>
         <int name="index">7</int>
         <int name="start">2</int>
         <int name="end">199</int>
-        <double name="strength">0.8747391280176136</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Among the benefits for the public will be increased competition in the commercial paper market and more convenient service for borrowers and investors, the Fed said.</str>
+        <int name="index">12</int>
+        <int name="start">1</int>
+        <int name="end">166</int>
+        <double name="strength">0.8877935042504845</double>
+        <int name="terms">10</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Chase Manhattan Corp, with consolidated assets of 90 billion dlrs, is the second largest banking organization in New York and operates in the United States and abroad.</str>
+        <int name="index">4</int>
+        <int name="start">1</int>
+        <int name="end">168</int>
+        <double name="strength">0.7883067019151125</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The Fed &lt;em&gt;noted&lt;/em&gt; the &lt;em&gt;Securities Industry Association,&lt;/em&gt; a &lt;em&gt;trade association&lt;/em&gt; of the &lt;em&gt;investment banking industry,&lt;/em&gt; had &lt;em&gt;opposed Chase Manhattan&lt;/em&gt;'s &lt;em&gt;application&lt;/em&gt; for more &lt;em&gt;powers&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">But it &lt;em&gt;added&lt;/em&gt; a bill &lt;em&gt;adopted&lt;/em&gt; by the &lt;em&gt;Senate Banking Committee&lt;/em&gt; last week &lt;em&gt;could affect Chase Manhattan&lt;/em&gt; if it &lt;em&gt;becomes&lt;/em&gt; law and &lt;em&gt;might force&lt;/em&gt; it &lt;em&gt;eventually&lt;/em&gt; to &lt;em&gt;cease commercial paper underwriting activities&lt;/em&gt;.</str>
-        <int name="index">2</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">In &lt;em&gt;addition, Chase Manhattan&lt;/em&gt; will be able to &lt;em&gt;place commercial paper&lt;/em&gt; as &lt;em&gt;agents&lt;/em&gt; for &lt;em&gt;issuers&lt;/em&gt; and &lt;em&gt;advise&lt;/em&gt; them on &lt;em&gt;rates&lt;/em&gt; and &lt;em&gt;maturities&lt;/em&gt; of &lt;em&gt;proposed issues&lt;/em&gt; just as &lt;em&gt;Bankers Trust&lt;/em&gt; was &lt;em&gt;given authority&lt;/em&gt; to do.</str>
+        <str name="text">In &lt;em&gt;addition, Chase Manhattan&lt;/em&gt; will be able to &lt;em&gt;place commercial paper&lt;/em&gt; as &lt;em&gt;agents&lt;/em&gt; for &lt;em&gt;issuers&lt;/em&gt; and &lt;em&gt;advise&lt;/em&gt; them on &lt;em&gt;rates&lt;/em&gt; and &lt;em&gt;maturities&lt;/em&gt; of proposed &lt;em&gt;issues&lt;/em&gt; just as &lt;em&gt;Bankers Trust&lt;/em&gt; was given &lt;em&gt;authority&lt;/em&gt; to do.</str>
         <int name="index">7</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Among the &lt;em&gt;benefits&lt;/em&gt; for the &lt;em&gt;public&lt;/em&gt; will be increased &lt;em&gt;competition&lt;/em&gt; in the &lt;em&gt;commercial paper market&lt;/em&gt; and more &lt;em&gt;convenient service&lt;/em&gt; for &lt;em&gt;borrowers&lt;/em&gt; and &lt;em&gt;investors,&lt;/em&gt; the Fed said.</str>
+        <int name="index">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Chase Manhattan&lt;/em&gt; Corp, with &lt;em&gt;consolidated assets&lt;/em&gt; of 90 &lt;em&gt;billion&lt;/em&gt; dlrs, is the &lt;em&gt;second&lt;/em&gt; largest &lt;em&gt;banking organization&lt;/em&gt; in New York and operates in the United &lt;em&gt;States&lt;/em&gt; and abroad.</str>
+        <int name="index">4</int>
       </lst>
     </lst>
   </lst>

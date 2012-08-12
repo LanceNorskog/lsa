@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">15</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-396.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">113</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">64</int>
+        <int name="count">40</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">talks</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">offered</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">today</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">multinational</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">accountants</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">investors</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">response</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">relatively</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">regulators</str>
+        <double name="strength">0.9840539975201784</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">292</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The Phillipines is asking the banks to reschedule 3.6 billion dlrs of debt falling due between 1987 and 1992 and to grant easier terms on 5.8 billion dlrs of previously restructured debt.</str>
-        <int name="index">14</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.9518980190395531</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
         <str name="text">These tradable, dollar-denominated zero-coupon notes would have a maturity of six years, but they would be redeemable at any time at par for pesos to fund investments approved as part of the government's debt-equity scheme.</str>
         <int name="index">7</int>
         <int name="start">1</int>
         <int name="end">224</int>
-        <double name="strength">0.9481054905508611</double>
+        <double name="strength">0.9670561929188909</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The Philippines' bank advisory committee meets tomorrow to discuss its response to a novel proposal by finance minister Jaime Ongpin to pay part of the country's interest bill with investment notes instead of cash, bankers said.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">228</int>
+        <double name="strength">0.895363439550749</double>
+        <int name="terms">16</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Although bankers&lt;/em&gt; are &lt;em&gt;eager&lt;/em&gt; to &lt;em&gt;foster foreign investment&lt;/em&gt; in the &lt;em&gt;Philippines,&lt;/em&gt; the PINs idea is &lt;em&gt;likely&lt;/em&gt; to run into &lt;em&gt;stiff resistance&lt;/em&gt; by at &lt;em&gt;least&lt;/em&gt; some &lt;em&gt;members&lt;/em&gt; of the bank &lt;em&gt;advisory committee because&lt;/em&gt; it &lt;em&gt;would establish&lt;/em&gt; the &lt;em&gt;precedent&lt;/em&gt; of some &lt;em&gt;interest payments being&lt;/em&gt; made with &lt;em&gt;paper rather&lt;/em&gt; than cash.</str>
+        <str name="text">Although &lt;em&gt;bankers&lt;/em&gt; are &lt;em&gt;eager&lt;/em&gt; to &lt;em&gt;foster foreign investment&lt;/em&gt; in the &lt;em&gt;Philippines,&lt;/em&gt; the PINs idea is &lt;em&gt;likely&lt;/em&gt; to run into &lt;em&gt;stiff resistance&lt;/em&gt; by at least some &lt;em&gt;members&lt;/em&gt; of the bank &lt;em&gt;advisory committee&lt;/em&gt; because it would &lt;em&gt;establish&lt;/em&gt; the &lt;em&gt;precedent&lt;/em&gt; of some &lt;em&gt;interest payments&lt;/em&gt; being made with &lt;em&gt;paper&lt;/em&gt; rather than cash.</str>
         <int name="index">9</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Phillipines&lt;/em&gt; is &lt;em&gt;asking&lt;/em&gt; the &lt;em&gt;banks&lt;/em&gt; to &lt;em&gt;reschedule 3.6 billion&lt;/em&gt; dlrs of debt &lt;em&gt;falling&lt;/em&gt; due &lt;em&gt;between 1987&lt;/em&gt; and 1992 and to &lt;em&gt;grant easier terms&lt;/em&gt; on 5.8 &lt;em&gt;billion&lt;/em&gt; dlrs of &lt;em&gt;previously restructured debt&lt;/em&gt;.</str>
-        <int name="index">14</int>
+        <str name="text">These &lt;em&gt;tradable, dollar&lt;/em&gt;-denominated zero-&lt;em&gt;coupon notes&lt;/em&gt; would have a &lt;em&gt;maturity&lt;/em&gt; of six &lt;em&gt;years,&lt;/em&gt; but they would be &lt;em&gt;redeemable&lt;/em&gt; at any time at par for &lt;em&gt;pesos&lt;/em&gt; to fund &lt;em&gt;investments&lt;/em&gt; approved as part of the &lt;em&gt;government&lt;/em&gt;'s debt-&lt;em&gt;equity scheme&lt;/em&gt;.</str>
+        <int name="index">7</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;These tradable, dollar-denominated&lt;/em&gt; zero-&lt;em&gt;coupon notes would&lt;/em&gt; have a &lt;em&gt;maturity&lt;/em&gt; of six &lt;em&gt;years,&lt;/em&gt; but they &lt;em&gt;would&lt;/em&gt; be &lt;em&gt;redeemable&lt;/em&gt; at any time at par for &lt;em&gt;pesos&lt;/em&gt; to fund &lt;em&gt;investments approved&lt;/em&gt; as part of the &lt;em&gt;government&lt;/em&gt;'s debt-&lt;em&gt;equity scheme&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">The &lt;em&gt;Philippines'&lt;/em&gt; bank &lt;em&gt;advisory committee&lt;/em&gt; meets &lt;em&gt;tomorrow&lt;/em&gt; to &lt;em&gt;discuss&lt;/em&gt; its &lt;em&gt;response&lt;/em&gt; to a &lt;em&gt;novel proposal&lt;/em&gt; by &lt;em&gt;finance minister Jaime&lt;/em&gt; Ongpin to pay part of the &lt;em&gt;country&lt;/em&gt;'s &lt;em&gt;interest&lt;/em&gt; bill with &lt;em&gt;investment notes&lt;/em&gt; instead of cash, &lt;em&gt;bankers said&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">19</int>
+  <int name="QTime">27</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-977.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">28</int>
       </lst>
       <lst name="terms">
-        <int name="count">188</int>
+        <int name="count">133</int>
       </lst>
       <lst name="stems">
-        <int name="count">120</int>
+        <int name="count">82</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">monitor</str>
+        <str name="text">acquisition</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">advantage</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">sector</str>
+        <double name="strength">0.9877415447956263</double>
       </lst>
       <lst name="term">
-        <str name="text">having</str>
-        <double name="strength">0.9999999999999989</double>
+        <str name="text">recent</str>
+        <double name="strength">0.9877415447956263</double>
       </lst>
       <lst name="term">
-        <str name="text">problems</str>
-        <double name="strength">0.9999999999999978</double>
+        <str name="text">citybank</str>
+        <double name="strength">0.9877415447956251</double>
       </lst>
       <lst name="term">
-        <str name="text">decision</str>
-        <double name="strength">0.5590169943749462</double>
+        <str name="text">company</str>
+        <double name="strength">0.9877415447956251</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">He added, however, First Interstate, at the moment, has the advantages of having owned and managed regional banks longer and has the recognition advantage of having given its regional banks a common name.</str>
-        <int name="index">19</int>
+        <str name="text">"The competition in this state is tough," he said, noting CityBank's recent purchase of 50 financial service branches from Sears Roebuck company.</str>
+        <int name="index">14</int>
         <int name="start">1</int>
-        <int name="end">205</int>
+        <int name="end">146</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Asked if he thought loan losses in those areas had peaked, he said, "I don't think it has bottomed out, because I think most of the problems are real estate-related and the real estate problems are going to be with us for several years."</str>
-        <int name="index">21</int>
+        <str name="text">In a wide-ranging interview, Pinola said he's looking for ways to improve profitability and capital between now and 1991, "so as to resist any potential look at us...to maintain our independence, if possible."</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.9117986694468891</double>
+        <int name="end">210</int>
+        <double name="strength">0.9299743445700677</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Pinola declined comment on what circumstances might move him to rekindle his bid for BankAmerica, saying only, "We continue to monitor and look at a lot of things and a lot of people continue to monitor and look at us."</str>
-        <int name="index">10</int>
-        <int name="start">1</int>
-        <int name="end">220</int>
-        <double name="strength">0.8456416225677944</double>
+        <str name="text">Less than two months after First Interstate Bancorp withdrew its bold attempt to buy BankAmerica Corp, Chairman Joseph Pinola is still looking for a good buy, but he is also looking at ways to avoid being bought.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">212</int>
+        <double name="strength">0.8203324310314364</double>
+        <int name="terms">10</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">He &lt;em&gt;added, however, First Interstate,&lt;/em&gt; at the &lt;em&gt;moment,&lt;/em&gt; has the &lt;em&gt;advantages&lt;/em&gt; of &lt;em&gt;having owned&lt;/em&gt; and &lt;em&gt;managed regional banks longer&lt;/em&gt; and has the &lt;em&gt;recognition advantage&lt;/em&gt; of &lt;em&gt;having given&lt;/em&gt; its &lt;em&gt;regional banks&lt;/em&gt; a &lt;em&gt;common name&lt;/em&gt;.</str>
-        <int name="index">19</int>
+        <str name="text">"The &lt;em&gt;competition&lt;/em&gt; in this &lt;em&gt;state&lt;/em&gt; is &lt;em&gt;tough,"&lt;/em&gt; he said, noting &lt;em&gt;CityBank&lt;/em&gt;'s &lt;em&gt;recent purchase&lt;/em&gt; of 50 &lt;em&gt;financial service branches&lt;/em&gt; from &lt;em&gt;Sears Roebuck company&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Asked&lt;/em&gt; if he &lt;em&gt;thought&lt;/em&gt; loan &lt;em&gt;losses&lt;/em&gt; in &lt;em&gt;those areas&lt;/em&gt; had &lt;em&gt;peaked,&lt;/em&gt; he said, "I don't &lt;em&gt;think&lt;/em&gt; it has &lt;em&gt;bottomed&lt;/em&gt; out, &lt;em&gt;because&lt;/em&gt; I &lt;em&gt;think&lt;/em&gt; most of the &lt;em&gt;problems&lt;/em&gt; are real &lt;em&gt;estate-related&lt;/em&gt; and the real &lt;em&gt;estate problems&lt;/em&gt; are &lt;em&gt;going&lt;/em&gt; to be with us for &lt;em&gt;several years.&lt;/em&gt;"</str>
-        <int name="index">21</int>
+        <str name="text">In a wide-ranging &lt;em&gt;interview, Pinola&lt;/em&gt; said he's looking for ways to &lt;em&gt;improve profitability&lt;/em&gt; and &lt;em&gt;capital&lt;/em&gt; between now and 1991, "so as to &lt;em&gt;resist&lt;/em&gt; any &lt;em&gt;potential&lt;/em&gt; look at us...to &lt;em&gt;maintain&lt;/em&gt; our &lt;em&gt;independence,&lt;/em&gt; if &lt;em&gt;possible.&lt;/em&gt;"</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Pinola declined comment&lt;/em&gt; on what &lt;em&gt;circumstances might&lt;/em&gt; move him to &lt;em&gt;rekindle&lt;/em&gt; his bid for &lt;em&gt;BankAmerica, saying&lt;/em&gt; only, "We &lt;em&gt;continue&lt;/em&gt; to &lt;em&gt;monitor&lt;/em&gt; and look at a lot of &lt;em&gt;things&lt;/em&gt; and a lot of &lt;em&gt;people continue&lt;/em&gt; to &lt;em&gt;monitor&lt;/em&gt; and look at us."</str>
-        <int name="index">10</int>
+        <str name="text">Less than two &lt;em&gt;months&lt;/em&gt; after &lt;em&gt;First Interstate Bancorp&lt;/em&gt; withdrew its bold &lt;em&gt;attempt&lt;/em&gt; to buy &lt;em&gt;BankAmerica&lt;/em&gt; Corp, &lt;em&gt;Chairman Joseph Pinola&lt;/em&gt; is still looking for a good buy, but he is also looking at ways to &lt;em&gt;avoid&lt;/em&gt; being bought.</str>
+        <int name="index">0</int>
       </lst>
     </lst>
   </lst>

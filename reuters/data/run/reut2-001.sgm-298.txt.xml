@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">21</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-001.sgm-298.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">23</int>
       </lst>
       <lst name="terms">
-        <int name="count">137</int>
+        <int name="count">93</int>
       </lst>
       <lst name="stems">
-        <int name="count">84</int>
+        <int name="count">56</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pasture</str>
+        <str name="text">forecaster</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">lower</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">temperatures</str>
+        <double name="strength">0.9999999999999996</double>
       </lst>
       <lst name="term">
-        <str name="text">spring</str>
-        <double name="strength">0.552770798392567</double>
+        <str name="text">dryness</str>
+        <double name="strength">0.9999999999999987</double>
       </lst>
       <lst name="term">
-        <str name="text">prospects</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">areas</str>
+        <double name="strength">0.9881400107553897</double>
       </lst>
       <lst name="term">
-        <str name="text">bears</str>
-        <double name="strength">0.500000000000001</double>
+        <str name="text">problems</str>
+        <double name="strength">0.9881400107553884</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">With a timely spring, Soviet farmers would probably be able to reseed the damaged acreage with spring crops, but analysts noted that spring crops normally yield lower than winter crops -- sometimes as much as 30-35 pct lower.</str>
-        <int name="index">9</int>
+        <str name="text">Prospects for another near-record grain harvest in the Soviet Union appear dim at this point, but it is premature to forecast any major crop problems, analysts said.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">226</int>
+        <int name="end">166</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But if the Soviets are worried about their winter crops and if they feel that last year's huge crop of 210 mln tonnes was a one-time fluke brought on by perfect conditions, more Soviet buying might occur to insure crop supplies, he said.</str>
-        <int name="index">19</int>
+        <str name="text">The next six weeks in the USSR's grain growing areas will be the crucial period that will determine the final outcome of the winter crops, Martell and other analysts said.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">238</int>
-        <double name="strength">0.9900363101557378</double>
+        <int name="end">172</int>
+        <double name="strength">0.9341191153179175</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The dry fall damaged pastures, the cold winter raised feed demands and a late spring would require longer off-pasture feeding, they said.</str>
-        <int name="index">17</int>
-        <int name="start">0</int>
-        <int name="end">137</int>
-        <double name="strength">0.9586871806537945</double>
+        <str name="text">Recent cold temperatures in grain areas in which the snowcover has been gradually melting could also have caused  problems of ice-crusting and winterkill, Jim Candor, senior forecaster for Accu Weather, said.</str>
+        <int name="index">15</int>
+        <int name="start">1</int>
+        <int name="end">209</int>
+        <double name="strength">0.8927988923887368</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">With a &lt;em&gt;timely spring, Soviet farmers would probably&lt;/em&gt; be able to &lt;em&gt;reseed&lt;/em&gt; the &lt;em&gt;damaged acreage&lt;/em&gt; with &lt;em&gt;spring crops,&lt;/em&gt; but &lt;em&gt;analysts noted&lt;/em&gt; that &lt;em&gt;spring crops normally yield lower&lt;/em&gt; than &lt;em&gt;winter crops -- sometimes&lt;/em&gt; as much as 30-35 pct &lt;em&gt;lower&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Prospects&lt;/em&gt; for another near-&lt;em&gt;record grain harvest&lt;/em&gt; in the &lt;em&gt;Soviet Union appear&lt;/em&gt; dim at this &lt;em&gt;point,&lt;/em&gt; but it is &lt;em&gt;premature&lt;/em&gt; to &lt;em&gt;forecast&lt;/em&gt; any &lt;em&gt;major&lt;/em&gt; crop &lt;em&gt;problems, analysts said&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">But if the &lt;em&gt;Soviets&lt;/em&gt; are &lt;em&gt;worried about their winter crops&lt;/em&gt; and if they feel that last year's huge crop of 210 mln &lt;em&gt;tonnes&lt;/em&gt; was a one-time &lt;em&gt;fluke brought&lt;/em&gt; on by &lt;em&gt;perfect conditions,&lt;/em&gt; more &lt;em&gt;Soviet buying might occur&lt;/em&gt; to &lt;em&gt;insure&lt;/em&gt; crop &lt;em&gt;supplies,&lt;/em&gt; he said.</str>
-        <int name="index">19</int>
+        <str name="text">The next six &lt;em&gt;weeks&lt;/em&gt; in the USSR's &lt;em&gt;grain&lt;/em&gt; growing &lt;em&gt;areas&lt;/em&gt; will be the &lt;em&gt;crucial period&lt;/em&gt; that will &lt;em&gt;determine&lt;/em&gt; the &lt;em&gt;final outcome&lt;/em&gt; of the &lt;em&gt;winter crops, Martell&lt;/em&gt; and &lt;em&gt;other analysts said&lt;/em&gt;.</str>
+        <int name="index">5</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The dry fall &lt;em&gt;damaged pastures,&lt;/em&gt; the cold &lt;em&gt;winter raised&lt;/em&gt; feed &lt;em&gt;demands&lt;/em&gt; and a late &lt;em&gt;spring would require longer&lt;/em&gt; off-&lt;em&gt;pasture feeding,&lt;/em&gt; they said.</str>
-        <int name="index">17</int>
+        <str name="text">&lt;em&gt;Recent&lt;/em&gt; cold &lt;em&gt;temperatures&lt;/em&gt; in &lt;em&gt;grain areas&lt;/em&gt; in which the &lt;em&gt;snowcover&lt;/em&gt; has been gradually melting could also have caused  &lt;em&gt;problems&lt;/em&gt; of ice-&lt;em&gt;crusting&lt;/em&gt; and &lt;em&gt;winterkill,&lt;/em&gt; Jim &lt;em&gt;Candor, senior forecaster&lt;/em&gt; for Accu &lt;em&gt;Weather, said&lt;/em&gt;.</str>
+        <int name="index">15</int>
       </lst>
     </lst>
   </lst>

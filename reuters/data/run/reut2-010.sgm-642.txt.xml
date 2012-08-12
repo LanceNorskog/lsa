@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">16</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-642.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">26</int>
       </lst>
       <lst name="terms">
-        <int name="count">131</int>
+        <int name="count">88</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">54</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">pleased</str>
+        <str name="text">washington</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">harmonious</str>
-        <double name="strength">0.37267799624996517</double>
+        <str name="text">french</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">recently</str>
-        <double name="strength">0.33333333333333376</double>
+        <str name="text">markets</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">although</str>
-        <double name="strength">0.3333333333333337</double>
+        <str name="text">dispute</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">relations</str>
-        <double name="strength">0.3333333333333337</double>
+        <str name="text">world</str>
+        <double name="strength">0.9960900316910983</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">Last week, the forces of President Hissene Habre of Chad, supported, trained and armed by Paris and Washington, scored a major success by pushing Libyan troops out of their last bases in northern Chad.</str>
-        <int name="index">19</int>
-        <int name="start">1</int>
-        <int name="end">202</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">To Washington, as one official put it, "CAP is the root of all evil" in international food trade because it subsidises farmers and sells vast amounts of excess produce at below world prices, thereby eating into U.</str>
-        <int name="index">23</int>
-        <int name="start">1</int>
-        <int name="end">214</int>
-        <double name="strength">0.9386448375472647</double>
-      </lst>
       <lst name="sentence">
         <str name="text">S. Expects more harmonious talks than usual during French Prime Minister Jacques Chirac's first official visit this week as frequently rancorous disputes between the two countries begin to fade.</str>
         <int name="index">1</int>
         <int name="start">0</int>
         <int name="end">194</int>
-        <double name="strength">0.885633283094131</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Last week, the forces of President Hissene Habre of Chad, supported, trained and armed by Paris and Washington, scored a major success by pushing Libyan troops out of their last bases in northern Chad.</str>
+        <int name="index">19</int>
+        <int name="start">1</int>
+        <int name="end">202</int>
+        <double name="strength">0.9822155176885845</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">S. Bombing of alleged terrorist targets in Libya last April, France refused to allow British-based U.</str>
+        <int name="index">7</int>
+        <int name="start">0</int>
+        <int name="end">101</int>
+        <double name="strength">0.8536031133216074</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">Last week, the &lt;em&gt;forces&lt;/em&gt; of &lt;em&gt;President Hissene Habre&lt;/em&gt; of Chad, &lt;em&gt;supported, trained&lt;/em&gt; and &lt;em&gt;armed&lt;/em&gt; by &lt;em&gt;Paris&lt;/em&gt; and &lt;em&gt;Washington, scored&lt;/em&gt; a &lt;em&gt;major success&lt;/em&gt; by &lt;em&gt;pushing Libyan troops&lt;/em&gt; out of &lt;em&gt;their&lt;/em&gt; last &lt;em&gt;bases&lt;/em&gt; in &lt;em&gt;northern Chad&lt;/em&gt;.</str>
+        <str name="text">S. Expects more &lt;em&gt;harmonious talks&lt;/em&gt; than &lt;em&gt;usual&lt;/em&gt; during &lt;em&gt;French Prime Minister Jacques Chirac&lt;/em&gt;'s &lt;em&gt;first official visit&lt;/em&gt; this week as frequently &lt;em&gt;rancorous disputes&lt;/em&gt; between the two &lt;em&gt;countries begin&lt;/em&gt; to fade.</str>
+        <int name="index">1</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Last week, the &lt;em&gt;forces&lt;/em&gt; of &lt;em&gt;President Hissene Habre&lt;/em&gt; of Chad, supported, trained and armed by &lt;em&gt;Paris&lt;/em&gt; and &lt;em&gt;Washington,&lt;/em&gt; scored a &lt;em&gt;major success&lt;/em&gt; by pushing &lt;em&gt;Libyan troops&lt;/em&gt; out of their last &lt;em&gt;bases&lt;/em&gt; in &lt;em&gt;northern Chad&lt;/em&gt;.</str>
         <int name="index">19</int>
       </lst>
       <lst name="sentence">
-        <str name="text">To &lt;em&gt;Washington,&lt;/em&gt; as one &lt;em&gt;official&lt;/em&gt; put it, "CAP is the root of all evil" in &lt;em&gt;international&lt;/em&gt; food &lt;em&gt;trade because&lt;/em&gt; it &lt;em&gt;subsidises farmers&lt;/em&gt; and &lt;em&gt;sells&lt;/em&gt; vast &lt;em&gt;amounts&lt;/em&gt; of &lt;em&gt;excess produce&lt;/em&gt; at &lt;em&gt;below world prices, thereby eating&lt;/em&gt; into U.</str>
-        <int name="index">23</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Expects&lt;/em&gt; more &lt;em&gt;harmonious talks&lt;/em&gt; than &lt;em&gt;usual during French Prime Minister Jacques Chirac&lt;/em&gt;'s &lt;em&gt;first official visit&lt;/em&gt; this week as &lt;em&gt;frequently rancorous disputes between&lt;/em&gt; the two &lt;em&gt;countries begin&lt;/em&gt; to fade.</str>
-        <int name="index">1</int>
+        <str name="text">S. Bombing of &lt;em&gt;alleged terrorist targets&lt;/em&gt; in &lt;em&gt;Libya&lt;/em&gt; last &lt;em&gt;April, France&lt;/em&gt; refused to &lt;em&gt;allow British&lt;/em&gt;-based U.</str>
+        <int name="index">7</int>
       </lst>
     </lst>
   </lst>

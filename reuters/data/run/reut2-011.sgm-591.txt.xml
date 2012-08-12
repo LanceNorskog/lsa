@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">12</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-011.sgm-591.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">12</int>
       </lst>
       <lst name="terms">
-        <int name="count">122</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">90</int>
+        <int name="count">63</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">billion</str>
+        <str name="text">issue</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">months</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">agenda</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">basis</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">group</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">stressed</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">financial</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">opposed</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">crises</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">The proposals from the EC's Brussels headquarters would slash guaranteed prices paid to producers and seek to peg farm spending at its current two-thirds share of a total budget of 36.2 billion European Currency Units (41 billion dlrs).</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">237</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">Braks told journalists he had rounded on his West German counter-part Ignaz Kiechle and accused Bonn of "lacking the courage to tell farmers their methods were outdated" during a private meeting of Christian Democrat politicians on Sunday.</str>
         <int name="index">1</int>
         <int name="start">1</int>
         <int name="end">240</int>
-        <double name="strength">0.9904942730737755</double>
+        <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">Kiechle, who yesterday denounced as totally unacceptable new limits on producers' rights to sell unlimited amounts of excess products into Community warehouses, warned the meeting the measures lead to political instability in his country.</str>
         <int name="index">8</int>
         <int name="start">1</int>
         <int name="end">239</int>
-        <double name="strength">0.8671867633028453</double>
+        <double name="strength">0.9773223281130659</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The issue of farm reform has been pushed to the top of the Community's agenda by the group's protracted financial crises and by growing international tension over farm surpluses and subsidies.</str>
+        <int name="index">10</int>
+        <int name="start">1</int>
+        <int name="end">193</int>
+        <double name="strength">0.8993991531183141</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;proposals&lt;/em&gt; from the EC's &lt;em&gt;Brussels headquarters would slash guaranteed prices&lt;/em&gt; paid to &lt;em&gt;producers&lt;/em&gt; and seek to peg farm &lt;em&gt;spending&lt;/em&gt; at its &lt;em&gt;current&lt;/em&gt; two-&lt;em&gt;thirds share&lt;/em&gt; of a &lt;em&gt;total budget&lt;/em&gt; of 36.2 &lt;em&gt;billion European Currency Units (41 billion dlrs)&lt;/em&gt;.</str>
-        <int name="index">5</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Braks&lt;/em&gt; told &lt;em&gt;journalists&lt;/em&gt; he had &lt;em&gt;rounded&lt;/em&gt; on his West &lt;em&gt;German counter&lt;/em&gt;-part &lt;em&gt;Ignaz Kiechle&lt;/em&gt; and &lt;em&gt;accused&lt;/em&gt; Bonn of "&lt;em&gt;lacking&lt;/em&gt; the &lt;em&gt;courage&lt;/em&gt; to tell &lt;em&gt;farmers their methods&lt;/em&gt; were &lt;em&gt;outdated" during&lt;/em&gt; a &lt;em&gt;private meeting&lt;/em&gt; of &lt;em&gt;Christian Democrat politicians&lt;/em&gt; on &lt;em&gt;Sunday&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Braks&lt;/em&gt; told &lt;em&gt;journalists&lt;/em&gt; he had rounded on his West &lt;em&gt;German counter&lt;/em&gt;-part &lt;em&gt;Ignaz Kiechle&lt;/em&gt; and accused Bonn of "lacking the &lt;em&gt;courage&lt;/em&gt; to tell &lt;em&gt;farmers&lt;/em&gt; their &lt;em&gt;methods&lt;/em&gt; were outdated" during a &lt;em&gt;private meeting&lt;/em&gt; of &lt;em&gt;Christian Democrat politicians&lt;/em&gt; on &lt;em&gt;Sunday&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Kiechle,&lt;/em&gt; who &lt;em&gt;yesterday denounced&lt;/em&gt; as &lt;em&gt;totally unacceptable&lt;/em&gt; new &lt;em&gt;limits&lt;/em&gt; on &lt;em&gt;producers' rights&lt;/em&gt; to sell &lt;em&gt;unlimited amounts&lt;/em&gt; of &lt;em&gt;excess products&lt;/em&gt; into &lt;em&gt;Community warehouses, warned&lt;/em&gt; the &lt;em&gt;meeting&lt;/em&gt; the &lt;em&gt;measures&lt;/em&gt; lead to &lt;em&gt;political instability&lt;/em&gt; in his &lt;em&gt;country&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Kiechle,&lt;/em&gt; who yesterday denounced as totally &lt;em&gt;unacceptable&lt;/em&gt; new &lt;em&gt;limits&lt;/em&gt; on &lt;em&gt;producers' rights&lt;/em&gt; to sell &lt;em&gt;unlimited amounts&lt;/em&gt; of &lt;em&gt;excess products&lt;/em&gt; into &lt;em&gt;Community warehouses,&lt;/em&gt; warned the &lt;em&gt;meeting&lt;/em&gt; the &lt;em&gt;measures&lt;/em&gt; lead to &lt;em&gt;political instability&lt;/em&gt; in his &lt;em&gt;country&lt;/em&gt;.</str>
         <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;issue&lt;/em&gt; of farm &lt;em&gt;reform&lt;/em&gt; has been pushed to the top of the &lt;em&gt;Community&lt;/em&gt;'s &lt;em&gt;agenda&lt;/em&gt; by the &lt;em&gt;group&lt;/em&gt;'s protracted &lt;em&gt;financial crises&lt;/em&gt; and by growing &lt;em&gt;international tension&lt;/em&gt; over farm &lt;em&gt;surpluses&lt;/em&gt; and &lt;em&gt;subsidies&lt;/em&gt;.</str>
+        <int name="index">10</int>
       </lst>
     </lst>
   </lst>

@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-007.sgm-709.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">17</int>
       </lst>
       <lst name="terms">
-        <int name="count">109</int>
+        <int name="count">81</int>
       </lst>
       <lst name="stems">
-        <int name="count">67</int>
+        <int name="count">49</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">maturity</str>
+        <str name="text">domestic</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">recent</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">bankers</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">introduction</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">deposits</str>
+        <double name="strength">0.9999999999999991</double>
       </lst>
       <lst name="term">
-        <str name="text">regulations</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999981</double>
       </lst>
       <lst name="term">
-        <str name="text">decreasing</str>
-        <double name="strength">0.5000000000000006</double>
+        <str name="text">korkman</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">171</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
       </lst>
       <lst name="sentence">
         <str name="text">The Bank of Finland said it has started dealings in banks' certificates of deposits (CDs) with immediate effect and that it was prepared to issue its own paper to stimulate operations on the domestic money market.</str>
         <int name="index">0</int>
         <int name="start">0</int>
         <int name="end">213</int>
-        <double name="strength">0.9990918338088188</double>
+        <double name="strength">0.9454084745205463</double>
+        <int name="terms">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Under the new rules banks are limited to call money credits to a maximum of 7.5 pct of the total of their equity capital and cash reserves.</str>
-        <int name="index">6</int>
+        <str name="text">The Bank of Finland introduced last December three-month credits and deposits at rates determined by the central bank and the commercial banks as a shift away from the traditional overnight call money market.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">140</int>
-        <double name="strength">0.9220792282235559</double>
+        <int name="end">209</int>
+        <double name="strength">0.8751875837225842</double>
+        <int name="terms">15</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Director Sixten Korkman&lt;/em&gt; at the Bank of &lt;em&gt;Finland&lt;/em&gt;'s &lt;em&gt;monetary department&lt;/em&gt; said he &lt;em&gt;expected&lt;/em&gt; the bank to &lt;em&gt;pursue&lt;/em&gt; an &lt;em&gt;active policy&lt;/em&gt; on the &lt;em&gt;interbank market&lt;/em&gt; as an &lt;em&gt;issuer&lt;/em&gt; of own-CDs.</str>
+        <str name="text">&lt;em&gt;Director Sixten Korkman&lt;/em&gt; at the Bank of &lt;em&gt;Finland&lt;/em&gt;'s &lt;em&gt;monetary department&lt;/em&gt; said he expected the bank to &lt;em&gt;pursue&lt;/em&gt; an &lt;em&gt;active policy&lt;/em&gt; on the &lt;em&gt;interbank market&lt;/em&gt; as an &lt;em&gt;issuer&lt;/em&gt; of own-CDs.</str>
         <int name="index">8</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The Bank of &lt;em&gt;Finland&lt;/em&gt; said it has &lt;em&gt;started dealings&lt;/em&gt; in &lt;em&gt;banks' certificates&lt;/em&gt; of &lt;em&gt;deposits &lt;/em&gt;(CDs) with &lt;em&gt;immediate effect&lt;/em&gt; and that it was &lt;em&gt;prepared&lt;/em&gt; to &lt;em&gt;issue&lt;/em&gt; its own &lt;em&gt;paper&lt;/em&gt; to &lt;em&gt;stimulate operations&lt;/em&gt; on the &lt;em&gt;domestic money market&lt;/em&gt;.</str>
+        <str name="text">The Bank of &lt;em&gt;Finland&lt;/em&gt; said it has started &lt;em&gt;dealings&lt;/em&gt; in &lt;em&gt;banks' certificates&lt;/em&gt; of &lt;em&gt;deposits &lt;/em&gt;(CDs) with &lt;em&gt;immediate effect&lt;/em&gt; and that it was prepared to &lt;em&gt;issue&lt;/em&gt; its own &lt;em&gt;paper&lt;/em&gt; to &lt;em&gt;stimulate operations&lt;/em&gt; on the &lt;em&gt;domestic money market&lt;/em&gt;.</str>
         <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the new &lt;em&gt;rules banks&lt;/em&gt; are &lt;em&gt;limited&lt;/em&gt; to call &lt;em&gt;money credits&lt;/em&gt; to a &lt;em&gt;maximum&lt;/em&gt; of 7.5 pct of the &lt;em&gt;total&lt;/em&gt; of &lt;em&gt;their equity capital&lt;/em&gt; and cash &lt;em&gt;reserves&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The Bank of &lt;em&gt;Finland&lt;/em&gt; introduced last &lt;em&gt;December three-month credits&lt;/em&gt; and &lt;em&gt;deposits&lt;/em&gt; at &lt;em&gt;rates&lt;/em&gt; determined by the &lt;em&gt;central&lt;/em&gt; bank and the &lt;em&gt;commercial banks&lt;/em&gt; as a &lt;em&gt;shift&lt;/em&gt; away from the &lt;em&gt;traditional overnight&lt;/em&gt; call &lt;em&gt;money market&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
     </lst>
   </lst>

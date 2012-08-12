@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">23</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-002.sgm-991.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">34</int>
       </lst>
       <lst name="terms">
-        <int name="count">152</int>
+        <int name="count">109</int>
       </lst>
       <lst name="stems">
-        <int name="count">102</int>
+        <int name="count">71</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">international</str>
+        <str name="text">april</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">makoto</str>
-        <double name="strength">0.5</double>
+        <str name="text">package</str>
+        <double name="strength">0.999999999999998</double>
       </lst>
       <lst name="term">
-        <str name="text">kuroda</str>
-        <double name="strength">0.5</double>
+        <str name="text">government</str>
+        <double name="strength">0.9999999999999969</double>
       </lst>
       <lst name="term">
-        <str name="text">minister</str>
-        <double name="strength">0.5</double>
+        <str name="text">shift</str>
+        <double name="strength">0.9999999999999964</double>
       </lst>
       <lst name="term">
-        <str name="text">trade</str>
-        <double name="strength">0.5</double>
+        <str name="text">measures</str>
+        <double name="strength">0.999999999999996</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,33 +56,36 @@
         <int name="start">1</int>
         <int name="end">223</int>
         <double name="strength">1.0</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Makoto Kuroda, vice minister for international affairs at the Ministry of International Trade and Industry, said Japan would stimulate the economy not in response to U.</str>
-        <int name="index">16</int>
+        <str name="text">At last week's talks, Japanese officials said, they argued Tokyo had been able to maintain a tight fiscal stance and boost the economy with funds from the giant postal savings system.</str>
+        <int name="index">26</int>
         <int name="start">1</int>
-        <int name="end">169</int>
-        <double name="strength">0.8753374756516593</double>
+        <int name="end">184</int>
+        <double name="strength">0.9134910639070943</double>
+        <int name="terms">15</int>
       </lst>
       <lst name="sentence">
         <str name="text">S. Attack represents a distinct shift by the conservative Reagan administration, which until recently has been sympathetic to Tokyo's efforts to reduce the government role in the economy, diplomats said.</str>
         <int name="index">7</int>
         <int name="start">0</int>
         <int name="end">203</int>
-        <double name="strength">0.8738901536712069</double>
+        <double name="strength">0.9118235310155525</double>
+        <int name="terms">13</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">That &lt;em&gt;means accelerated public investment, lower interest rates&lt;/em&gt; on &lt;em&gt;government housing loans&lt;/em&gt; and &lt;em&gt;measures&lt;/em&gt; to pass &lt;em&gt;along&lt;/em&gt; the &lt;em&gt;benefits&lt;/em&gt; of the &lt;em&gt;strong&lt;/em&gt; yen to &lt;em&gt;consumers,&lt;/em&gt; none of &lt;em&gt;which would&lt;/em&gt; have a &lt;em&gt;major immediate economic impact&lt;/em&gt;.</str>
+        <str name="text">That means accelerated &lt;em&gt;public investment,&lt;/em&gt; lower &lt;em&gt;interest rates&lt;/em&gt; on &lt;em&gt;government housing loans&lt;/em&gt; and &lt;em&gt;measures&lt;/em&gt; to pass along the &lt;em&gt;benefits&lt;/em&gt; of the &lt;em&gt;strong&lt;/em&gt; yen to &lt;em&gt;consumers,&lt;/em&gt; none of which would have a &lt;em&gt;major immediate economic impact&lt;/em&gt;.</str>
         <int name="index">11</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Makoto Kuroda,&lt;/em&gt; vice &lt;em&gt;minister&lt;/em&gt; for &lt;em&gt;international affairs&lt;/em&gt; at the &lt;em&gt;Ministry&lt;/em&gt; of &lt;em&gt;International Trade&lt;/em&gt; and &lt;em&gt;Industry,&lt;/em&gt; said &lt;em&gt;Japan would stimulate&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; not in &lt;em&gt;response&lt;/em&gt; to U.</str>
-        <int name="index">16</int>
+        <str name="text">At last week's &lt;em&gt;talks, Japanese officials&lt;/em&gt; said, they argued &lt;em&gt;Tokyo&lt;/em&gt; had been able to &lt;em&gt;maintain&lt;/em&gt; a &lt;em&gt;tight fiscal stance&lt;/em&gt; and &lt;em&gt;boost&lt;/em&gt; the &lt;em&gt;economy&lt;/em&gt; with &lt;em&gt;funds&lt;/em&gt; from the &lt;em&gt;giant postal savings system&lt;/em&gt;.</str>
+        <int name="index">26</int>
       </lst>
       <lst name="sentence">
-        <str name="text">S. &lt;em&gt;Attack represents&lt;/em&gt; a &lt;em&gt;distinct shift&lt;/em&gt; by the &lt;em&gt;conservative Reagan administration, which until recently&lt;/em&gt; has been &lt;em&gt;sympathetic&lt;/em&gt; to &lt;em&gt;Tokyo&lt;/em&gt;'s &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; role in the &lt;em&gt;economy, diplomats said&lt;/em&gt;.</str>
+        <str name="text">S. &lt;em&gt;Attack&lt;/em&gt; represents a &lt;em&gt;distinct shift&lt;/em&gt; by the &lt;em&gt;conservative Reagan administration,&lt;/em&gt; which until recently has been &lt;em&gt;sympathetic&lt;/em&gt; to &lt;em&gt;Tokyo&lt;/em&gt;'s &lt;em&gt;efforts&lt;/em&gt; to &lt;em&gt;reduce&lt;/em&gt; the &lt;em&gt;government&lt;/em&gt; role in the &lt;em&gt;economy, diplomats said&lt;/em&gt;.</str>
         <int name="index">7</int>
       </lst>
     </lst>

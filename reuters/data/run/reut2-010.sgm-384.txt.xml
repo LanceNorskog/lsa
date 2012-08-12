@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">14</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-010.sgm-384.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">18</int>
       </lst>
       <lst name="terms">
-        <int name="count">70</int>
+        <int name="count">53</int>
       </lst>
       <lst name="stems">
-        <int name="count">51</int>
+        <int name="count">39</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">consumer</str>
+        <str name="text">third</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">medical</str>
-        <double name="strength">0.6666666666666685</double>
+        <str name="text">consecutive</str>
+        <double name="strength">0.9999999999999999</double>
       </lst>
       <lst name="term">
-        <str name="text">prescription</str>
-        <double name="strength">0.6666666666666685</double>
+        <str name="text">energy</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">smaller</str>
-        <double name="strength">0.3333333333333343</double>
+        <str name="text">workers</str>
+        <double name="strength">0.9634242309653833</double>
       </lst>
       <lst name="term">
-        <str name="text">rises</str>
-        <double name="strength">0.3333333333333343</double>
+        <str name="text">clerical</str>
+        <double name="strength">0.9634242309653832</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">U.S. consumer prices, as measured by the Consumer Price Index for all urban consumers (CPI-U), rose a seasonally adjusted 0.4 pct in February after a 0.7 pct January gain, the Labor Department said.</str>
-        <int name="index">0</int>
+        <str name="text">The department said the introduction of higher priced spring merchandise, particularly men's clothing, was responsible for the advance.</str>
+        <int name="index">14</int>
         <int name="start">0</int>
-        <int name="end">198</int>
+        <int name="end">135</int>
         <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Medical care rose 0.3 pct in February to a level 7.1 pct above one year ago, because of higher costs for prescription and non-prescription drugs and medical supplies, the department said.</str>
-        <int name="index">12</int>
-        <int name="start">1</int>
-        <int name="end">188</int>
-        <double name="strength">0.9983993243340099</double>
+        <int name="terms">7</int>
       </lst>
       <lst name="sentence">
         <str name="text">Smaller price rises for motor fuels and declines in new car prices and finance charges were responsible for the moderation.</str>
         <int name="index">6</int>
         <int name="start">0</int>
         <int name="end">123</int>
-        <double name="strength">0.7849029998780204</double>
+        <double name="strength">0.8806558516073484</double>
+        <int name="terms">9</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Grocery store food prices were up 0.4 pct, the same as in January, but meat, poultry, fish and eggs cost less for a third consecutive month, the department said.</str>
+        <int name="index">11</int>
+        <int name="start">0</int>
+        <int name="end">161</int>
+        <double name="strength">0.876835525593615</double>
+        <int name="terms">9</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">U.S. &lt;em&gt;consumer prices,&lt;/em&gt; as &lt;em&gt;measured&lt;/em&gt; by the &lt;em&gt;Consumer Price Index&lt;/em&gt; for all &lt;em&gt;urban consumers &lt;/em&gt;(CPI-U), rose a &lt;em&gt;seasonally adjusted 0.4&lt;/em&gt; pct in &lt;em&gt;February after&lt;/em&gt; a 0.7 pct &lt;em&gt;January&lt;/em&gt; gain, the &lt;em&gt;Labor Department said&lt;/em&gt;.</str>
-        <int name="index">0</int>
+        <str name="text">The &lt;em&gt;department&lt;/em&gt; said the &lt;em&gt;introduction&lt;/em&gt; of higher priced &lt;em&gt;spring merchandise,&lt;/em&gt; particularly men's &lt;em&gt;clothing,&lt;/em&gt; was &lt;em&gt;responsible&lt;/em&gt; for the &lt;em&gt;advance&lt;/em&gt;.</str>
+        <int name="index">14</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Medical&lt;/em&gt; care rose 0.3 pct in &lt;em&gt;February&lt;/em&gt; to a &lt;em&gt;level 7.1&lt;/em&gt; pct &lt;em&gt;above&lt;/em&gt; one year ago, &lt;em&gt;because&lt;/em&gt; of &lt;em&gt;higher costs&lt;/em&gt; for &lt;em&gt;prescription&lt;/em&gt; and non-&lt;em&gt;prescription drugs&lt;/em&gt; and &lt;em&gt;medical supplies,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
-        <int name="index">12</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Smaller price rises&lt;/em&gt; for &lt;em&gt;motor fuels&lt;/em&gt; and &lt;em&gt;declines&lt;/em&gt; in new car &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;finance charges&lt;/em&gt; were &lt;em&gt;responsible&lt;/em&gt; for the &lt;em&gt;moderation&lt;/em&gt;.</str>
+        <str name="text">Smaller &lt;em&gt;price rises&lt;/em&gt; for &lt;em&gt;motor fuels&lt;/em&gt; and &lt;em&gt;declines&lt;/em&gt; in new car &lt;em&gt;prices&lt;/em&gt; and &lt;em&gt;finance charges&lt;/em&gt; were &lt;em&gt;responsible&lt;/em&gt; for the &lt;em&gt;moderation&lt;/em&gt;.</str>
         <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Grocery store&lt;/em&gt; food &lt;em&gt;prices&lt;/em&gt; were up 0.4 pct, the same as in &lt;em&gt;January,&lt;/em&gt; but meat, &lt;em&gt;poultry,&lt;/em&gt; fish and eggs cost less for a &lt;em&gt;third consecutive month,&lt;/em&gt; the &lt;em&gt;department said&lt;/em&gt;.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

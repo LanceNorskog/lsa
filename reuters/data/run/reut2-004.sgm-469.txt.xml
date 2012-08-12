@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">32</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-004.sgm-469.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">25</int>
       </lst>
       <lst name="terms">
-        <int name="count">169</int>
+        <int name="count">107</int>
       </lst>
       <lst name="stems">
-        <int name="count">113</int>
+        <int name="count">72</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">levels</str>
+        <str name="text">warehouses</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">might</str>
-        <double name="strength">0.5590169943749448</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999997</double>
       </lst>
       <lst name="term">
-        <str name="text">totalling</str>
-        <double name="strength">0.5590169943749447</double>
+        <str name="text">trade</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">reports</str>
-        <double name="strength">0.5</double>
+        <str name="text">cocoa</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">farms</str>
-        <double name="strength">0.5</double>
+        <str name="text">conditions</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">1</int>
         <int name="end">285</int>
         <double name="strength">1.0</double>
+        <int name="terms">16</int>
       </lst>
       <lst name="sentence">
-        <str name="text">However, reports from farms indicate moisture levels are now generally back to near normal levels and that current flowering and pod setting is good, which should result in mature fruit from August through September.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">217</int>
-        <double name="strength">0.8950572834101495</double>
+        <str name="text">Pessimism over the effects of a prolonged dry spell on the coming Bahian temporao cocoa crop is rising with trade forecasts generally in the 2.0 mln to 2.5 mln bag range against 2.5 mln to 3.0 mln a fortnight ago.</str>
+        <int name="index">0</int>
+        <int name="start">0</int>
+        <int name="end">213</int>
+        <double name="strength">0.8164612578628431</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Because of the increased exposure to pod rot damage, estimates of the final outcome of the temporao are extremely vulnerable and production could easily drop to below the 2.0 mln bag mark if the disease hits.</str>
-        <int name="index">7</int>
+        <str name="text">This year's crop is doubly susceptible because poor prices mean farmers were not encouraged to invest in fertilisers and insecticides and are also unlikely to treat against pod rot.</str>
+        <int name="index">5</int>
         <int name="start">1</int>
-        <int name="end">209</int>
-        <double name="strength">0.8145915986101587</double>
+        <int name="end">182</int>
+        <double name="strength">0.7861626100532779</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Trade sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; from the &lt;em&gt;state capital&lt;/em&gt; of &lt;em&gt;Salvador&lt;/em&gt; that &lt;em&gt;despite scattered rains since&lt;/em&gt; mid-&lt;em&gt;February, which broke&lt;/em&gt; a six week &lt;em&gt;drought, plantations&lt;/em&gt; have not &lt;em&gt;picked&lt;/em&gt; up as &lt;em&gt;hoped&lt;/em&gt; and very &lt;em&gt;little cocoa&lt;/em&gt; is &lt;em&gt;expected&lt;/em&gt; to be &lt;em&gt;gathered&lt;/em&gt; in the &lt;em&gt;first three months&lt;/em&gt; of the May/&lt;em&gt;September crop&lt;/em&gt;.</str>
+        <str name="text">&lt;em&gt;Trade sources&lt;/em&gt; told &lt;em&gt;Reuters&lt;/em&gt; from the &lt;em&gt;state capital&lt;/em&gt; of &lt;em&gt;Salvador&lt;/em&gt; that despite scattered &lt;em&gt;rains&lt;/em&gt; since mid-&lt;em&gt;February,&lt;/em&gt; which broke a six week &lt;em&gt;drought, plantations&lt;/em&gt; have not picked up as hoped and very &lt;em&gt;little cocoa&lt;/em&gt; is expected to be gathered in the &lt;em&gt;first three months&lt;/em&gt; of the May/&lt;em&gt;September crop&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;However, reports&lt;/em&gt; from &lt;em&gt;farms indicate moisture levels&lt;/em&gt; are now &lt;em&gt;generally&lt;/em&gt; back to near &lt;em&gt;normal levels&lt;/em&gt; and that &lt;em&gt;current flowering&lt;/em&gt; and pod &lt;em&gt;setting&lt;/em&gt; is good, &lt;em&gt;which should result&lt;/em&gt; in &lt;em&gt;mature fruit&lt;/em&gt; from &lt;em&gt;August through September&lt;/em&gt;.</str>
-        <int name="index">9</int>
+        <str name="text">&lt;em&gt;Pessimism&lt;/em&gt; over the &lt;em&gt;effects&lt;/em&gt; of a prolonged dry &lt;em&gt;spell&lt;/em&gt; on the coming &lt;em&gt;Bahian temporao cocoa&lt;/em&gt; crop is rising with &lt;em&gt;trade forecasts&lt;/em&gt; generally in the 2.0 mln to 2.5 mln bag &lt;em&gt;range&lt;/em&gt; against 2.5 mln to 3.0 mln a &lt;em&gt;fortnight ago&lt;/em&gt;.</str>
+        <int name="index">0</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Because&lt;/em&gt; of the &lt;em&gt;increased exposure&lt;/em&gt; to pod rot &lt;em&gt;damage, estimates&lt;/em&gt; of the &lt;em&gt;final outcome&lt;/em&gt; of the &lt;em&gt;temporao&lt;/em&gt; are &lt;em&gt;extremely vulnerable&lt;/em&gt; and &lt;em&gt;production could easily&lt;/em&gt; drop to &lt;em&gt;below&lt;/em&gt; the 2.0 mln bag mark if the &lt;em&gt;disease hits&lt;/em&gt;.</str>
-        <int name="index">7</int>
+        <str name="text">This year's crop is doubly &lt;em&gt;susceptible&lt;/em&gt; because poor &lt;em&gt;prices&lt;/em&gt; mean &lt;em&gt;farmers&lt;/em&gt; were not encouraged to &lt;em&gt;invest&lt;/em&gt; in &lt;em&gt;fertilisers&lt;/em&gt; and &lt;em&gt;insecticides&lt;/em&gt; and are also &lt;em&gt;unlikely&lt;/em&gt; to &lt;em&gt;treat&lt;/em&gt; against pod rot.</str>
+        <int name="index">5</int>
       </lst>
     </lst>
   </lst>

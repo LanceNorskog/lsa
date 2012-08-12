@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">18</int>
+  <int name="QTime">16</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-009.sgm-181.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,32 +21,32 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">97</int>
+        <int name="count">75</int>
       </lst>
       <lst name="stems">
-        <int name="count">57</int>
+        <int name="count">42</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">activities</str>
+        <str name="text">wiggins</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">better</str>
+        <str name="text">teape</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">underwriting</str>
+        <str name="text">paper</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">brown</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">sheehy</str>
+        <double name="strength">0.9999999999999993</double>
       </lst>
       <lst name="term">
-        <str name="text">williamson</str>
-        <double name="strength">0.9999999999999984</double>
+        <str name="text">level</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
     </lst>
     <lst name="sentences">
@@ -56,34 +56,37 @@
         <int name="start">0</int>
         <int name="end">163</int>
         <double name="strength">1.0</double>
+        <int name="terms">12</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Good results were achieved by its Argos and Saks Fifth Avenue in retailing and by Wiggins Teape and Appleton in paper.</str>
+        <int name="index">3</int>
+        <int name="start">1</int>
+        <int name="end">119</int>
+        <double name="strength">0.9008556266261883</double>
+        <int name="terms">9</int>
       </lst>
       <lst name="sentence">
         <str name="text">Its permanent health insurance was now the market leader and its Unit Trust group was now the second largest in the U.</str>
         <int name="index">11</int>
         <int name="start">0</int>
         <int name="end">118</int>
-        <double name="strength">0.8703757561160214</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The group earlier reported a 19 pct rise in profits to 1.39 billion, which Sheehy said was achieved without any help from exchange rate fluctuations or acquisitions.</str>
-        <int name="index">2</int>
-        <int name="start">1</int>
-        <int name="end">166</int>
-        <double name="strength">0.8370898544722858</double>
+        <double name="strength">0.8844865357021163</double>
+        <int name="terms">8</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">L&gt; &lt;em&gt;major sectors enabled&lt;/em&gt; the &lt;em&gt;group&lt;/em&gt;'s 1986 &lt;em&gt;pretax profits&lt;/em&gt; to pass the one &lt;em&gt;billion&lt;/em&gt; stg &lt;em&gt;level&lt;/em&gt; for the &lt;em&gt;third&lt;/em&gt; year &lt;em&gt;running, Chairman Patrick Sheehy&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt;.</str>
+        <str name="text">L&gt; &lt;em&gt;major sectors&lt;/em&gt; enabled the &lt;em&gt;group&lt;/em&gt;'s 1986 &lt;em&gt;pretax profits&lt;/em&gt; to pass the one &lt;em&gt;billion&lt;/em&gt; stg &lt;em&gt;level&lt;/em&gt; for the &lt;em&gt;third&lt;/em&gt; year running, &lt;em&gt;Chairman Patrick Sheehy&lt;/em&gt; said in a &lt;em&gt;statement&lt;/em&gt;.</str>
         <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Its &lt;em&gt;permanent health insurance&lt;/em&gt; was now the &lt;em&gt;market leader&lt;/em&gt; and its Unit &lt;em&gt;Trust group&lt;/em&gt; was now the &lt;em&gt;second largest&lt;/em&gt; in the U.</str>
-        <int name="index">11</int>
+        <str name="text">Good &lt;em&gt;results&lt;/em&gt; were achieved by its &lt;em&gt;Argos&lt;/em&gt; and Saks &lt;em&gt;Fifth Avenue&lt;/em&gt; in &lt;em&gt;retailing&lt;/em&gt; and by &lt;em&gt;Wiggins Teape&lt;/em&gt; and &lt;em&gt;Appleton&lt;/em&gt; in &lt;em&gt;paper&lt;/em&gt;.</str>
+        <int name="index">3</int>
       </lst>
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;group earlier reported&lt;/em&gt; a 19 pct rise in &lt;em&gt;profits&lt;/em&gt; to 1.39 &lt;em&gt;billion, which Sheehy&lt;/em&gt; said was &lt;em&gt;achieved without&lt;/em&gt; any help from &lt;em&gt;exchange&lt;/em&gt; rate &lt;em&gt;fluctuations&lt;/em&gt; or &lt;em&gt;acquisitions&lt;/em&gt;.</str>
-        <int name="index">2</int>
+        <str name="text">Its &lt;em&gt;permanent health insurance&lt;/em&gt; was now the &lt;em&gt;market leader&lt;/em&gt; and its Unit &lt;em&gt;Trust group&lt;/em&gt; was now the &lt;em&gt;second&lt;/em&gt; largest in the U.</str>
+        <int name="index">11</int>
       </lst>
     </lst>
   </lst>

@@ -8,10 +8,10 @@
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-003.sgm-111.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">14</int>
       </lst>
       <lst name="terms">
-        <int name="count">115</int>
+        <int name="count">76</int>
       </lst>
       <lst name="stems">
-        <int name="count">76</int>
+        <int name="count">46</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">deeply</str>
+        <str name="text">yesterday</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">knowledge</str>
+        <str name="text">november</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">white</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">transfer</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">house</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">ready</str>
+        <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">which</str>
-        <double name="strength">0.5590169943749471</double>
+        <str name="text">break</str>
+        <double name="strength">1.0</double>
       </lst>
     </lst>
     <lst name="sentences">
       <lst name="sentence">
-        <str name="text">Abshire, on the CBS television show "Face the Nation," did not comment directly on the Post story, but said: "He (Reagan) is deeply honest, he is deeply dedicated, he tells the truth and when he says he has no knowledge, he has no knowledge."</str>
-        <int name="index">7</int>
+        <str name="text">The Post's sources also said the Senate committee could grant immunity from prosecution this month to Oliver North, who was fired from the National Security Council on the same day that Poindexter resigned.</str>
+        <int name="index">12</int>
         <int name="start">1</int>
-        <int name="end">243</int>
+        <int name="end">207</int>
         <double name="strength">1.0</double>
+        <int name="terms">13</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A White House spokesman had no comment on the Post story, but David Abshire, who is coordinating White House handling of the affair, said Reagan would never approve any illegal action.</str>
-        <int name="index">6</int>
+        <str name="text">The paper said yesterday that John Poindexter, who resigned last November when the illegal transfer of up to 20 mln dlrs was disclosed, was ready to break the silence he has so far maintained over the affair.</str>
+        <int name="index">1</int>
         <int name="start">1</int>
-        <int name="end">185</int>
-        <double name="strength">0.8855482197499314</double>
+        <int name="end">209</int>
+        <double name="strength">0.9513684444934496</double>
+        <int name="terms">10</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Poindexter has so far invoked the Fifth Amendment to the Constitution which protects people from giving evidence which could be self-incriminating.</str>
-        <int name="index">4</int>
+        <str name="text">The paper said the former security adviser's testimony could damage the president's claim he was unaware of the funds diversion.</str>
+        <int name="index">9</int>
         <int name="start">1</int>
-        <int name="end">148</int>
-        <double name="strength">0.8468692643762469</double>
+        <int name="end">129</int>
+        <double name="strength">0.8985244888423288</double>
+        <int name="terms">11</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Abshire,&lt;/em&gt; on the CBS &lt;em&gt;television&lt;/em&gt; show "Face the &lt;em&gt;Nation,"&lt;/em&gt; did not &lt;em&gt;comment directly&lt;/em&gt; on the Post &lt;em&gt;story,&lt;/em&gt; but said: "He (&lt;em&gt;Reagan)&lt;/em&gt; is &lt;em&gt;deeply honest,&lt;/em&gt; he is &lt;em&gt;deeply dedicated,&lt;/em&gt; he &lt;em&gt;tells&lt;/em&gt; the &lt;em&gt;truth&lt;/em&gt; and when he says he has no &lt;em&gt;knowledge,&lt;/em&gt; he has no &lt;em&gt;knowledge.&lt;/em&gt;"</str>
-        <int name="index">7</int>
+        <str name="text">The Post's &lt;em&gt;sources&lt;/em&gt; also said the &lt;em&gt;Senate committee&lt;/em&gt; could &lt;em&gt;grant immunity&lt;/em&gt; from &lt;em&gt;prosecution&lt;/em&gt; this &lt;em&gt;month&lt;/em&gt; to &lt;em&gt;Oliver North,&lt;/em&gt; who was fired from the &lt;em&gt;National Security Council&lt;/em&gt; on the same day that &lt;em&gt;Poindexter resigned&lt;/em&gt;.</str>
+        <int name="index">12</int>
       </lst>
       <lst name="sentence">
-        <str name="text">A &lt;em&gt;White House spokesman&lt;/em&gt; had no &lt;em&gt;comment&lt;/em&gt; on the Post &lt;em&gt;story,&lt;/em&gt; but &lt;em&gt;David Abshire,&lt;/em&gt; who is &lt;em&gt;coordinating White House handling&lt;/em&gt; of the &lt;em&gt;affair,&lt;/em&gt; said &lt;em&gt;Reagan would never approve&lt;/em&gt; any &lt;em&gt;illegal action&lt;/em&gt;.</str>
-        <int name="index">6</int>
+        <str name="text">The &lt;em&gt;paper&lt;/em&gt; said &lt;em&gt;yesterday&lt;/em&gt; that John &lt;em&gt;Poindexter,&lt;/em&gt; who resigned last &lt;em&gt;November&lt;/em&gt; when the &lt;em&gt;illegal transfer&lt;/em&gt; of up to 20 mln dlrs was disclosed, was &lt;em&gt;ready&lt;/em&gt; to &lt;em&gt;break&lt;/em&gt; the &lt;em&gt;silence&lt;/em&gt; he has so far maintained over the &lt;em&gt;affair&lt;/em&gt;.</str>
+        <int name="index">1</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Poindexter&lt;/em&gt; has so far &lt;em&gt;invoked&lt;/em&gt; the &lt;em&gt;Fifth Amendment&lt;/em&gt; to the &lt;em&gt;Constitution which protects people&lt;/em&gt; from &lt;em&gt;giving evidence which could&lt;/em&gt; be self-&lt;em&gt;incriminating&lt;/em&gt;.</str>
-        <int name="index">4</int>
+        <str name="text">The &lt;em&gt;paper&lt;/em&gt; said the &lt;em&gt;former security adviser&lt;/em&gt;'s &lt;em&gt;testimony&lt;/em&gt; could &lt;em&gt;damage&lt;/em&gt; the &lt;em&gt;president&lt;/em&gt;'s &lt;em&gt;claim&lt;/em&gt; he was &lt;em&gt;unaware&lt;/em&gt; of the &lt;em&gt;funds diversion&lt;/em&gt;.</str>
+        <int name="index">9</int>
       </lst>
     </lst>
   </lst>

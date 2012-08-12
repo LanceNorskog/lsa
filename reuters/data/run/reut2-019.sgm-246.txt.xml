@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">15</int>
+  <int name="QTime">18</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-019.sgm-246.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">21</int>
       </lst>
       <lst name="terms">
-        <int name="count">122</int>
+        <int name="count">92</int>
       </lst>
       <lst name="stems">
-        <int name="count">87</int>
+        <int name="count">69</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">system</str>
+        <str name="text">eurobonds</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">separate</str>
-        <double name="strength">1.0</double>
+        <str name="text">trading</str>
+        <double name="strength">0.9999999999999994</double>
       </lst>
       <lst name="term">
-        <str name="text">under</str>
-        <double name="strength">0.5590169943749477</double>
+        <str name="text">operation</str>
+        <double name="strength">0.9999999999999989</double>
       </lst>
       <lst name="term">
-        <str name="text">expected</str>
-        <double name="strength">0.5000000000000008</double>
+        <str name="text">maintain</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
       <lst name="term">
-        <str name="text">bonds</str>
-        <double name="strength">0.5000000000000007</double>
+        <str name="text">reuters</str>
+        <double name="strength">0.9999999999999988</double>
       </lst>
     </lst>
     <lst name="sentences">
-      <lst name="sentence">
-        <str name="text">In the statement, Lloyds chief executive Brian Pitman said "We have a relatively small position in these two overcrowded markets and we have decided to reallocate the resources to opportunities which promise a better return on our shareholders' investment."</str>
-        <int name="index">3</int>
-        <int name="start">1</int>
-        <int name="end">258</int>
-        <double name="strength">1.0</double>
-      </lst>
       <lst name="sentence">
         <str name="text">It said in a statement it will maintain an active presence in short-term securities trading, swaps and other treasury products, building on its strengths in traditional foreign exchange and money markets.</str>
         <int name="index">2</int>
         <int name="start">1</int>
         <int name="end">205</int>
-        <double name="strength">0.940584260630079</double>
+        <double name="strength">1.0</double>
+        <int name="terms">17</int>
       </lst>
       <lst name="sentence">
-        <str name="text">Under the old system, the gilt market operated under a separate system which involved separate functions for jobbers and brokers.</str>
-        <int name="index">16</int>
+        <str name="text">In the statement, Lloyds chief executive Brian Pitman said "We have a relatively small position in these two overcrowded markets and we have decided to reallocate the resources to opportunities which promise a better return on our shareholders' investment."</str>
+        <int name="index">3</int>
         <int name="start">1</int>
-        <int name="end">130</int>
-        <double name="strength">0.8531143269448909</double>
+        <int name="end">258</int>
+        <double name="strength">0.9877611748028038</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the move was not a reaction to any losses sustained in the trading of Eurobonds or gilts but rather a result of a "strategic review" of the future of Lloyds involvement in these markets.</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">195</int>
+        <double name="strength">0.7936307219007597</double>
+        <int name="terms">12</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">In the &lt;em&gt;statement, Lloyds chief executive Brian Pitman&lt;/em&gt; said "We have a &lt;em&gt;relatively small position&lt;/em&gt; in &lt;em&gt;these&lt;/em&gt; two &lt;em&gt;overcrowded markets&lt;/em&gt; and we have &lt;em&gt;decided&lt;/em&gt; to &lt;em&gt;reallocate&lt;/em&gt; the &lt;em&gt;resources&lt;/em&gt; to &lt;em&gt;opportunities which promise&lt;/em&gt; a &lt;em&gt;better return&lt;/em&gt; on our &lt;em&gt;shareholders' investment.&lt;/em&gt;"</str>
-        <int name="index">3</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">It said in a &lt;em&gt;statement&lt;/em&gt; it will &lt;em&gt;maintain&lt;/em&gt; an &lt;em&gt;active presence&lt;/em&gt; in &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;securities trading, swaps&lt;/em&gt; and &lt;em&gt;other treasury products, building&lt;/em&gt; on its &lt;em&gt;strengths&lt;/em&gt; in &lt;em&gt;traditional foreign exchange&lt;/em&gt; and &lt;em&gt;money markets&lt;/em&gt;.</str>
+        <str name="text">It said in a &lt;em&gt;statement&lt;/em&gt; it will &lt;em&gt;maintain&lt;/em&gt; an &lt;em&gt;active presence&lt;/em&gt; in &lt;em&gt;short&lt;/em&gt;-term &lt;em&gt;securities trading, swaps&lt;/em&gt; and &lt;em&gt;other treasury products,&lt;/em&gt; building on its &lt;em&gt;strengths&lt;/em&gt; in &lt;em&gt;traditional foreign exchange&lt;/em&gt; and &lt;em&gt;money markets&lt;/em&gt;.</str>
         <int name="index">2</int>
       </lst>
       <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the old &lt;em&gt;system,&lt;/em&gt; the gilt &lt;em&gt;market operated under&lt;/em&gt; a &lt;em&gt;separate system which involved separate functions&lt;/em&gt; for &lt;em&gt;jobbers&lt;/em&gt; and &lt;em&gt;brokers&lt;/em&gt;.</str>
-        <int name="index">16</int>
+        <str name="text">In the &lt;em&gt;statement,&lt;/em&gt; Lloyds &lt;em&gt;chief executive Brian Pitman&lt;/em&gt; said "We have a relatively &lt;em&gt;small position&lt;/em&gt; in these two &lt;em&gt;overcrowded markets&lt;/em&gt; and we have decided to &lt;em&gt;reallocate&lt;/em&gt; the &lt;em&gt;resources&lt;/em&gt; to &lt;em&gt;opportunities&lt;/em&gt; which &lt;em&gt;promise&lt;/em&gt; a better &lt;em&gt;return&lt;/em&gt; on our &lt;em&gt;shareholders' investment.&lt;/em&gt;"</str>
+        <int name="index">3</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">He said the move was not a &lt;em&gt;reaction&lt;/em&gt; to any &lt;em&gt;losses&lt;/em&gt; sustained in the &lt;em&gt;trading&lt;/em&gt; of &lt;em&gt;Eurobonds&lt;/em&gt; or &lt;em&gt;gilts&lt;/em&gt; but rather a &lt;em&gt;result&lt;/em&gt; of a "&lt;em&gt;strategic review"&lt;/em&gt; of the &lt;em&gt;future&lt;/em&gt; of &lt;em&gt;Lloyds involvement&lt;/em&gt; in these &lt;em&gt;markets&lt;/em&gt;.</str>
+        <int name="index">8</int>
       </lst>
     </lst>
   </lst>

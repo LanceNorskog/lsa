@@ -3,15 +3,15 @@
 
 <lst name="responseHeader">
   <int name="status">0</int>
-  <int name="QTime">17</int>
+  <int name="QTime">88</int>
   <lst name="params">
     <str name="echoParams">explicit</str>
     <str name="indent">true</str>
     <str name="file">data-lines/./reut2-018.sgm-137.txt</str>
-    <str name="usePOS">false</str>
+    <str name="usePOS">true</str>
     <str name="sentences">3</str>
     <str name="wt">xml</str>
-    <str name="formula">tfidf</str>
+    <str name="formula">augNorm_inverse</str>
   </lst>
 </lst>
 <lst name="analysis">
@@ -21,69 +21,72 @@
         <int name="count">16</int>
       </lst>
       <lst name="terms">
-        <int name="count">138</int>
+        <int name="count">100</int>
       </lst>
       <lst name="stems">
-        <int name="count">91</int>
+        <int name="count">66</int>
       </lst>
     </lst>
     <lst name="terms">
       <lst name="term">
-        <str name="text">financial</str>
+        <str name="text">restructuring</str>
         <double name="strength">1.0</double>
       </lst>
       <lst name="term">
-        <str name="text">authorize</str>
-        <double name="strength">1.0</double>
+        <str name="text">order</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
       <lst name="term">
-        <str name="text">controls</str>
-        <double name="strength">1.0</double>
+        <str name="text">encourage</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
       <lst name="term">
-        <str name="text">violating</str>
-        <double name="strength">0.9999999999999998</double>
+        <str name="text">operating</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
       <lst name="term">
-        <str name="text">their</str>
-        <double name="strength">0.5590169943749475</double>
+        <str name="text">personnel</str>
+        <double name="strength">0.9840539975201807</double>
       </lst>
     </lst>
     <lst name="sentences">
+      <lst name="sentence">
+        <str name="text">Among the alternatives the special committee will consider are a sale of the company to a third party for more than 32 dlrs a share, a recapitalization or restructuring, including self tender offers and/or asset dispositions through the use of dividends, Spectra-Physics said.</str>
+        <int name="index">6</int>
+        <int name="start">1</int>
+        <int name="end">277</int>
+        <double name="strength">1.0</double>
+        <int name="terms">16</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">Spectra-Physics said its board approved the plan "in order to encourage key operating personnel to remain with the company during the period of turmoil and uncertainty engendered by the (Ciba-Geigy) offer."</str>
+        <int name="index">8</int>
+        <int name="start">1</int>
+        <int name="end">207</int>
+        <double name="strength">0.9406554495873739</double>
+        <int name="terms">14</int>
+      </lst>
       <lst name="sentence">
         <str name="text">The Spectra-Physics board voted unanimously, with two Ciba-Geigy representatives not participating, to reject the Swiss-based chemical and pharmaceutical company's takeover bid, citing an opinion from its financial advsior, Morgan Stanley and Co Inc, that it is "inadequate and unfair from a financial point of view to the holders of shares," the company said.</str>
         <int name="index">4</int>
         <int name="start">1</int>
         <int name="end">361</int>
-        <double name="strength">1.0</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">Under the plan, the executives would be entitled to their cash bonuses if they stay with the company through August 29, but could receive them earlier if they are fired for reasons other than gross and willful misconduct, or if they leave the company because their salaries have been sharply cut.</str>
-        <int name="index">9</int>
-        <int name="start">1</int>
-        <int name="end">297</int>
-        <double name="strength">0.9743099608503171</double>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The board also authorized a special committee and Morgan Stanley to "vigorously investigate, pursue and authorize any alternatives which would maximize the value of shareholders' investment in the company," the company said.</str>
-        <int name="index">5</int>
-        <int name="start">1</int>
-        <int name="end">225</int>
-        <double name="strength">0.866549451797628</double>
+        <double name="strength">0.8397599448548942</double>
+        <int name="terms">21</int>
       </lst>
     </lst>
     <lst name="highlighted">
       <lst name="sentence">
-        <str name="text">The &lt;em&gt;Spectra-Physics board voted unanimously,&lt;/em&gt; with two Ciba-&lt;em&gt;Geigy representatives&lt;/em&gt; not &lt;em&gt;participating,&lt;/em&gt; to &lt;em&gt;reject&lt;/em&gt; the &lt;em&gt;Swiss-based chemical&lt;/em&gt; and &lt;em&gt;pharmaceutical company&lt;/em&gt;'s &lt;em&gt;takeover&lt;/em&gt; bid, &lt;em&gt;citing&lt;/em&gt; an &lt;em&gt;opinion&lt;/em&gt; from its &lt;em&gt;financial advsior, Morgan Stanley&lt;/em&gt; and Co Inc, that it is "&lt;em&gt;inadequate&lt;/em&gt; and &lt;em&gt;unfair&lt;/em&gt; from a &lt;em&gt;financial point&lt;/em&gt; of view to the &lt;em&gt;holders&lt;/em&gt; of &lt;em&gt;shares,"&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
+        <str name="text">Among the &lt;em&gt;alternatives&lt;/em&gt; the &lt;em&gt;special committee&lt;/em&gt; will &lt;em&gt;consider&lt;/em&gt; are a sale of the &lt;em&gt;company&lt;/em&gt; to a &lt;em&gt;third party&lt;/em&gt; for more than 32 dlrs a &lt;em&gt;share,&lt;/em&gt; a &lt;em&gt;recapitalization&lt;/em&gt; or &lt;em&gt;restructuring,&lt;/em&gt; including self &lt;em&gt;tender&lt;/em&gt; offers and/or &lt;em&gt;asset dispositions&lt;/em&gt; through the use of &lt;em&gt;dividends, Spectra-Physics said&lt;/em&gt;.</str>
+        <int name="index">6</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">&lt;em&gt;Spectra-Physics&lt;/em&gt; said its &lt;em&gt;board&lt;/em&gt; approved the plan "in &lt;em&gt;order&lt;/em&gt; to &lt;em&gt;encourage&lt;/em&gt; key &lt;em&gt;operating personnel&lt;/em&gt; to &lt;em&gt;remain&lt;/em&gt; with the &lt;em&gt;company&lt;/em&gt; during the &lt;em&gt;period&lt;/em&gt; of &lt;em&gt;turmoil&lt;/em&gt; and &lt;em&gt;uncertainty&lt;/em&gt; engendered by the (Ciba-&lt;em&gt;Geigy) offer.&lt;/em&gt;"</str>
+        <int name="index">8</int>
+      </lst>
+      <lst name="sentence">
+        <str name="text">The &lt;em&gt;Spectra-Physics board&lt;/em&gt; voted unanimously, with two Ciba-&lt;em&gt;Geigy representatives&lt;/em&gt; not participating, to &lt;em&gt;reject&lt;/em&gt; the &lt;em&gt;Swiss&lt;/em&gt;-based &lt;em&gt;chemical&lt;/em&gt; and &lt;em&gt;pharmaceutical company&lt;/em&gt;'s &lt;em&gt;takeover&lt;/em&gt; bid, citing an &lt;em&gt;opinion&lt;/em&gt; from its &lt;em&gt;financial advsior, Morgan Stanley&lt;/em&gt; and Co Inc, that it is "&lt;em&gt;inadequate&lt;/em&gt; and &lt;em&gt;unfair&lt;/em&gt; from a &lt;em&gt;financial point&lt;/em&gt; of view to the &lt;em&gt;holders&lt;/em&gt; of &lt;em&gt;shares,"&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
         <int name="index">4</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">&lt;em&gt;Under&lt;/em&gt; the plan, the &lt;em&gt;executives would&lt;/em&gt; be &lt;em&gt;entitled&lt;/em&gt; to &lt;em&gt;their&lt;/em&gt; cash &lt;em&gt;bonuses&lt;/em&gt; if they stay with the &lt;em&gt;company through August 29,&lt;/em&gt; but &lt;em&gt;could receive&lt;/em&gt; them &lt;em&gt;earlier&lt;/em&gt; if they are &lt;em&gt;fired&lt;/em&gt; for &lt;em&gt;reasons other&lt;/em&gt; than &lt;em&gt;gross&lt;/em&gt; and &lt;em&gt;willful misconduct,&lt;/em&gt; or if they &lt;em&gt;leave&lt;/em&gt; the &lt;em&gt;company because their salaries&lt;/em&gt; have been &lt;em&gt;sharply cut&lt;/em&gt;.</str>
-        <int name="index">9</int>
-      </lst>
-      <lst name="sentence">
-        <str name="text">The &lt;em&gt;board&lt;/em&gt; also &lt;em&gt;authorized&lt;/em&gt; a &lt;em&gt;special committee&lt;/em&gt; and &lt;em&gt;Morgan Stanley&lt;/em&gt; to "&lt;em&gt;vigorously investigate, pursue&lt;/em&gt; and &lt;em&gt;authorize&lt;/em&gt; any &lt;em&gt;alternatives which would maximize&lt;/em&gt; the &lt;em&gt;value&lt;/em&gt; of &lt;em&gt;shareholders' investment&lt;/em&gt; in the &lt;em&gt;company,"&lt;/em&gt; the &lt;em&gt;company said&lt;/em&gt;.</str>
-        <int name="index">5</int>
       </lst>
     </lst>
   </lst>
