@@ -1,20 +1,22 @@
 package lsa.toolkit;
 
 import junit.framework.TestCase;
+import lsa.toolkit.LSAVectorizer;
 
 
 public class TestTermVectorizer extends TestCase {
   static String[][] DOC_TERMS = {{"one", "two", "three"}, {"two", "four", "two"}, {"two", "one"}};
   static double[][] DOC_MATRIX = {{1, 0, 1}, {1, 2, 1}, {1, 0, 0}, {0, 1, 0}};
-  
+ 
   public void testOne() {
-    TermVectorizer lsav = new TermVectorizer();
+    LSAVectorizer lsav = new LSAVectorizer();
     
     for(String[] sentence: DOC_TERMS) {
-      int dim = lsav.startColumn();
+      lsav.startColumn();
       for(String word: sentence) {
-        lsav.vectorizeTerm(word, dim);
+        lsav.vectorizeTerm(word);
       }
+      lsav.endColumn();
     }
     lsav.truncateVectors();
     Matrix vectorMat = lsav.getMatrix();

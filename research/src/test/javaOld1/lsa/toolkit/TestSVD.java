@@ -27,8 +27,9 @@ public class TestSVD extends TestCase {
   // TODO: Check these against SVD function in R
   public void testTF() {
     Matrix vectorMat = getMatrix(DOC_TERMS);
-    SVDSentences svd = new SVDSentences(vectorMat, null, "tf");
-    svd.doSVD();
+    SVDSentences svd = new SVDSentences();
+    Matrix docTermMatrix = svd.createMatrix(vectorMat, null, Formula.tf, null);
+    svd.doSVD(docTermMatrix);
     Matrix u = svd.getSingularU(true);
     u.hashCode();
     checkMatrix(u, DOC_TF_SVD);
@@ -36,8 +37,9 @@ public class TestSVD extends TestCase {
   
   public void testBinary() {
     Matrix vectorMat = getMatrix(DOC_TERMS);
-    SVDSentences svd = new SVDSentences(vectorMat, null, "binary");
-    svd.doSVD();
+    SVDSentences svd = new SVDSentences();
+    Matrix docTermMatrix = svd.createMatrix(vectorMat, null, Formula.binary, null);
+    svd.doSVD(docTermMatrix);
     Matrix u = svd.getSingularU(true);
     u.hashCode();
     checkMatrix(u, DOC_BINARY_SVD);
@@ -52,12 +54,13 @@ public class TestSVD extends TestCase {
   }
   
   private Matrix getMatrix(String[][] dOC_TERMS2) {
-    TermVectorizer lsav = new TermVectorizer();
+    LSAVectorizer lsav = new LSAVectorizer();
     for(String[] sentence: DOC_TERMS) {
-      int dim = lsav.startColumn();
+      lsav.startColumn();
       for(String word: sentence) {
-        lsav.vectorizeTerm(word, dim);
+        lsav.vectorizeTerm(word);
       }
+      lsav.endColumn();
     }
     lsav.truncateVectors();
     Matrix vectorMat = lsav.getMatrix();

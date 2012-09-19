@@ -1,12 +1,13 @@
-package lsa.toolkit;
+package org.apache.solr.summary.lsa;
 
-import junit.framework.TestCase;
+import org.apache.lucene.util.LuceneTestCase;
+import org.junit.Test;
 
-
-public class TestTermVectorizer extends TestCase {
+public class TestTermVectorizer extends LuceneTestCase {
   static String[][] DOC_TERMS = {{"one", "two", "three"}, {"two", "four", "two"}, {"two", "one"}};
   static double[][] DOC_MATRIX = {{1, 0, 1}, {1, 2, 1}, {1, 0, 0}, {0, 1, 0}};
   
+  @Test
   public void testOne() {
     TermVectorizer lsav = new TermVectorizer();
     

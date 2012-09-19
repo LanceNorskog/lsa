@@ -1,6 +1,5 @@
-package lsa.toolkit;
+package org.apache.solr.summary.lsa;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -15,7 +14,7 @@ import java.util.List;
 public class SVDSentences {
   public enum Formula {tf, binary, augNorm, log, normal, length, gfidf, tfidf, idf, entropy, inverse};
   private SingularValueDecomposition svd;
-  private final Matrix regular;
+  private Matrix regular;
   
   
   public SVDSentences(List<double[]> termvecs, double[] gfs, String ops) {
@@ -89,6 +88,9 @@ public class SVDSentences {
     }
   }
   
+  public void doTranspose() {
+    regular = regular.transpose();
+  }
   
   public void doSVD() {
     svd = new SingularValueDecomposition(regular);

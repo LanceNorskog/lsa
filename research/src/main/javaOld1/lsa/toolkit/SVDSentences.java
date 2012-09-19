@@ -1,7 +1,5 @@
 package lsa.toolkit;
 
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Given sentences decomposed into term vectors, run SVD.
@@ -10,54 +8,29 @@ import java.util.List;
  * http://www.amazon.com/Understanding-Search-Engines-Mathematical-Environments/dp/0898715814
  *  Section 3.2.1 Term Weighting
  *  page 34
+ *  
+ *  This file has no imports.
  */
 
 public class SVDSentences {
   public enum Formula {tf, binary, augNorm, log, normal, length, gfidf, tfidf, idf, entropy, inverse};
   private SingularValueDecomposition svd;
-  private final Matrix regular;
   
-  
-  public SVDSentences(List<double[]> termvecs, double[] gfs, String ops) {
-    this(new Matrix(termvecs), gfs, ops);
-  }
-  
-  public SVDSentences(Matrix mat, double[] gfs, String ops) {
+  public Matrix createMatrix(Matrix mat, double[] gfs, Formula local, Formula global) {
     Matrix localMat = null;
     Matrix globalMat = null;
     double[] globalFactors = null;
-//    System.err.println("Formulae: " + ops);
-
-    Formula local = Formula.tf;
-    Formula global = null;
-    if (ops != null) {
-      String[] parts = ops.split("[_,]");
-//      System.err.println("Operators: " + Arrays.toString(parts));
-      if (parts[0] != null) {
-        for(Formula f: SVDSentences.Formula.values()) {
-          if (f.toString().equals(parts[0])) {
-            local = f;
-          }
-        }
-      }      
-      if (parts.length > 1) {
-        for(Formula f: SVDSentences.Formula.values()) {
-          if (f.toString().equals(parts[1])) {
-            global = f;
-          }
-        }
-      }
-    }
+    
     if (local == Formula.tf || local == null) {
-      localMat = mat;
+      ;
     } else if (local == Formula.binary) {
       localMat = binary(mat);
-    } else if (local == Formula.log) {
+    } else if (global == Formula.log) {
       localMat = log(mat);    
     } else if (local == Formula.augNorm) {
       localMat = augNorm(mat);
     } else {
-      throw new IllegalStateException("Unknown local calculation formula: " + local.toString() + ". Use binary as the local formula.");
+      throw new IllegalStateException("Unknown local calculation formula: " + local.toString());
     }
     if (global == null) {
       ;
@@ -68,30 +41,36 @@ public class SVDSentences {
     } else if (global == Formula.entropy) {
       globalFactors = entropy(mat, gfs);
     } else if (global == Formula.normal) {
-      globalMat = normal(mat);
+      globalMat = normalTerm(mat);
     } else if (global == Formula.length) {
-      globalMat = length(mat);   
+      globalMat = normalDoc(mat);   
     } else if (global == Formula.inverse) {
-      globalFactors = probInverse(mat);
+        globalFactors = probInverse(mat);
     } else {
       throw new IllegalStateException("Unknown global calculation formula: " + global.toString());
     }
-    mat = null;
-    if (globalMat != null) {
-//      System.err.println("1");
-      regular = localMat.timesCell(globalMat);
-    } else if (globalFactors != null) {
-//      System.err.println("2");
-      regular = localMat.timesColumn(globalFactors);
+    if (localMat != null ) {
+      mat = null;
+      if (globalMat != null) {
+        return globalMat.timesCell(localMat);
+      } else if (globalFactors != null) {
+        return localMat.timesColumn(globalFactors);
+      } else {
+        return localMat;
+      }
     } else {
-      regular = localMat;
-//      System.err.println("3");
+      if (globalMat != null) {
+        return globalMat;
+      } else if (globalFactors != null) {
+        return mat.copy().timesColumn(globalFactors);
+      } else {
+        return mat.copy();
+      }
     }
   }
   
-  
-  public void doSVD() {
-    svd = new SingularValueDecomposition(regular);
+  public void doSVD(Matrix docTermMatrix) {
+    svd = new SingularValueDecomposition(docTermMatrix);
   }
   
   /* Local transforms */
@@ -148,7 +127,7 @@ public class SVDSentences {
    * ???
    */
   private double[] entropy(Matrix mat, double gfs[]) {
-    double[] globalFactors = new double[mat.numColumns()];
+    double[] globalFactors = new double[mat.numRows()];
     double logDocs = Math.log(mat.numRows());
     for(int term = 0; term < mat.numColumns(); term++) {
       double sum = 0;
@@ -168,7 +147,7 @@ public class SVDSentences {
    */
   private double[] idf(Matrix mat) {
     double[] dfs = getDocFrequencies(mat);
-    double[] globalFactors = new double[mat.numColumns()];
+    double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
       globalFactors[term] = Math.log(mat.numRows() / (1 + dfs[term]));
     }
@@ -182,7 +161,7 @@ public class SVDSentences {
    */
   private double[] gfidf(Matrix mat, double gfs[]) {
     double[] dfs = getDocFrequencies(mat);
-    double[] globalFactors = new double[mat.numColumns()];
+    double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
       globalFactors[term] = gfs[term] / dfs[term];
     }
@@ -193,7 +172,7 @@ public class SVDSentences {
    * Normal (L2) of document vector.
    * Prevent dominance by longer documents.
    */
-  private Matrix length(Matrix mat) {
+  private Matrix normalDoc(Matrix mat) {
     Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
     for(int doc = 0; doc < mat.numRows(); doc++) {
       double docNorm = 0;
@@ -216,26 +195,10 @@ public class SVDSentences {
   /**
    * Normalize (L2) length of term vector.
    * Prevent dominance by popular terms.
-   * Why is this a good idea?
    */
   
-  private Matrix normal(Matrix mat) {
-    Matrix globalMat = new Matrix(new double[mat.numRows()][mat.numColumns()]);
-    for(int term = 0; term < mat.numColumns(); term++) {
-      double norm = 0;
-      for(int doc = 0; doc < mat.numRows(); doc++) {
-        double tf = mat.m[doc][term];
-        if (tf > 0) {
-          norm += tf * tf;
-        }
-      }
-      norm = Math.sqrt(norm);
-      for(int doc = 0; doc < mat.numRows(); doc++) {
-        if (mat.m[doc][term] > 0) {
-          globalMat.m[doc][term] = norm;
-        }
-      }
-    }
+  private Matrix normalTerm(Matrix mat) {
+    Matrix globalMat = normalDoc(mat).transpose();
     return globalMat;
   }
   
@@ -245,13 +208,13 @@ public class SVDSentences {
    */
   private double[] probInverse(Matrix mat) {
     double[] dfs = getDocFrequencies(mat);
-    double[] globalFactors = new double[mat.numColumns()];
+    double[] globalFactors = new double[mat.numRows()];
     for(int term = 0; term < mat.numColumns(); term++) {
       globalFactors[term] = Math.log((mat.numRows() - dfs[term]) / dfs[term]);
     }
     return globalFactors;
   }
-  
+
   private double[] getDocFrequencies(Matrix mat) {
     double[] dfs = new double[mat.numColumns()];
     for(int term = 0; term < mat.numColumns(); term++) {

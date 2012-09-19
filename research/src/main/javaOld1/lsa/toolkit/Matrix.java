@@ -2,23 +2,17 @@ package lsa.toolkit;
 
 import java.util.List;
 
-/**
- * Very stripped-down dense double Matrix class.
- * Customized for this package.
- * Keep this package-visible.
- */
-
 class Matrix {
   public final double[][] m;
   
   Matrix(double[][] m) {
     this.m = m;
   }
-  
+
   public Matrix(int rows, int columns) {
     m = new double[rows][columns];
   }
-  
+
   public Matrix copy() {
     double[][] copy = new double[numRows()][numColumns()];
     for(int r = 0; r < numRows(); r++) {
@@ -28,11 +22,11 @@ class Matrix {
     }
     return new Matrix(copy);
   }
-  
+
   public void set(int r, int c, double value) {
     m[r][c] = value;
   }
-  
+
   /* standard matrix multiplication */
   public Matrix times(Matrix other) {
     int columns = m[0].length;
@@ -67,32 +61,12 @@ class Matrix {
     double[][] result = new double[rows][columns];
     for (int r = 0; r < rows; r++) {
       for (int c = 0; c < columns; c++) {
-        result[r][c] = m[r][c] * other.m[r][c];
+          result[r][c] = m[r][c] * other.m[r][c];
       }
     }
     return new Matrix(result);
   }
-  
-  public Matrix transpose() {
-    double[][] values = new double[numColumns()][numRows()];
-    for(int r = 0; r < numRows(); r++) {
-      for(int c = 0; c < numColumns(); c++) {
-        values[c][r] = m[r][c];
-      }
-    }
-    return new Matrix(values);
-  }
-  
-  public Matrix timesColumn(double[] columnVector) {
-    double[][] values = new double[numRows()][numColumns()];
-    for(int r = 0; r < numRows(); r++) {
-      for(int c = 0; c < numColumns(); c++) {
-        values[r][c] = m[r][c] * columnVector[c];
-      }
-    }
-    return new Matrix(values);
-  }
-  
+
   public int numRows() {
     return m.length;
   }
@@ -105,11 +79,32 @@ class Matrix {
     return "{" + numRows() + "," + numColumns() + "}";
   }
   
-  public Matrix(List<double[]> termvecs) {
-    m = new double[termvecs.size()][];
+  public static Matrix getMatrix(List<double[]> termvecs) {
+    Matrix mat = new Matrix(new double[termvecs.size()][termvecs.get(0).length]);
     for(int i = 0; i < termvecs.size(); i++) {
-      m[i] = termvecs.get(i);
+      mat.m[i] = termvecs.get(i);
     }
+    return mat;
+  }
+
+  public Matrix transpose() {
+    double[][] values = new double[numRows()][numColumns()];
+    for(int r = 0; r < numRows(); r++) {
+      for(int c = 0; c < numColumns(); c++) {
+        values[c][r] = m[r][c];
+      }
+    }
+    return new Matrix(values);
+  }
+
+  public Matrix timesColumn(double[] columnVector) {
+    double[][] values = new double[numRows()][numColumns()];
+    for(int r = 0; r < numRows(); r++) {
+      for(int c = 0; c < numColumns(); c++) {
+        values[c][r] = m[r][c] * columnVector[c];
+      }
+    }
+    return new Matrix(values);
   }
 }
 
