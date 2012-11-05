@@ -17,14 +17,11 @@ public class Sorter {
     int rows = u.numRows();
     
     double rowFV[] = new double[rows];
-    OnlineSummarizer summer = new OnlineSummarizer();
     int norm = u.numColumns();
     for(int r = 0; r < rows; r++) {
       double fv = squaredNorm(u, r, norm);
       rowFV[r] = fv;
-      summer.add(fv);
     }
-    double cut = summer.getSD();
     for(int r = 0; r < rows; r++) {
       double fv = squaredNorm(u, r, norm);
       dipairs.add(new DIPair(fv, r, true));
@@ -35,8 +32,6 @@ public class Sorter {
     List<Integer> indexes = new ArrayList<Integer>();
     for (int i = 0; i < rows; i++) {
       DIPair dip = dipairs.get(i);
-      //      if (dip.d < cut)
-      //        break;
       indexes.add(dip.i);
       if (fvec != null) {
         fvec.add(dip.d);
@@ -45,9 +40,6 @@ public class Sorter {
     return indexes;
   }
   
-  // TODO: push stdev into svdsentences
-  // does this have singular values?
-  
   public List<Integer> getTermList(SVDSentences svds, List<Double> fvec) {
     List<DIPair> dipairs = new ArrayList<DIPair>();
     
@@ -55,14 +47,11 @@ public class Sorter {
     int rows = v.numRows();
     
     double rowFV[] = new double[rows];
-    OnlineSummarizer summer = new OnlineSummarizer();
     int norm =  v.numColumns(); 
     for(int r = 0; r < rows; r++) {
       double fv = squaredNorm(v, r, norm);
       rowFV[r] = fv;
-      summer.add(fv);
     }
-    double cut = summer.getSD();
     for(int r = 0; r < rows; r++) {
       double fv = squaredNorm(v, r, norm);
       dipairs.add(new DIPair(fv, r, true));
@@ -73,8 +62,6 @@ public class Sorter {
     List<Integer> indexes = new ArrayList<Integer>();
     for (int i = 0; i < rows; i++) {
       DIPair dip = dipairs.get(i);
-      //      if (dip.d < cut)
-      //        break;
       indexes.add(dip.i);
       if (fvec != null) {
         fvec.add(dip.d);

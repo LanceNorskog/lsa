@@ -16,7 +16,7 @@
  */
 
 
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 /**
  * Class for storing start and end integer offsets.

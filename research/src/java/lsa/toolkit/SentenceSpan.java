@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -84,7 +84,8 @@ public class SentenceSpan {
     
     StringBuilder documentBuilder = new StringBuilder();
     
-    documentBuilder.append(document);
+    documentBuilder.append(section.toString() + ": ");
+    documentBuilder.append(document.substring(section.getStart(), section.getEnd()));
     
     for (WordSpan sentSpan : words) {
       documentBuilder.append(",");

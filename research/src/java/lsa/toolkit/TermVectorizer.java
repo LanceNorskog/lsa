@@ -1,10 +1,9 @@
 package lsa.toolkit;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.atomic.AtomicInteger;
+
 
 /**
  * One term at a time, build term vectors for documents or sentences
@@ -23,8 +22,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class TermVectorizer {
   // per-term array of entries per sentence
   LinkedHashMap<String,Integer> termIndex = new LinkedHashMap<String,Integer>();
-  Map<String, double[]> termVecs = new LinkedHashMap<String,double[]>();
-  Map<String, AtomicInteger> globalFreqs = new HashMap<String,AtomicInteger>();
+  LinkedHashMap<String, double[]> termVecs = new LinkedHashMap<String,double[]>();
+  LinkedHashMap<String, AtomicInteger> globalFreqs = new LinkedHashMap<String,AtomicInteger>();
   int columnIndex = -1;
   // expansion buffering - resize termvecs in this size jumps
   static final private int BUMP = 50;
@@ -41,7 +40,7 @@ public class TermVectorizer {
   public int startColumn() {
     columnIndex++;
     // make sure room for next sentence
-    if (columnIndex == BUMP) {
+    if (columnIndex == vecSize) {
       vecSize += BUMP;
       for(Entry<String,double[]> term: termVecs.entrySet()) {
         double[] vec = Arrays.copyOf(term.getValue(), vecSize);
@@ -93,6 +92,20 @@ public class TermVectorizer {
     }
   }
   
+  public int trimTerms(int nTerms) {
+    int count = 0;
+    for(String term: globalFreqs.keySet()) {
+      int freq = globalFreqs.get(term).get();
+      if (nTerms > freq) {
+        termVecs.remove(term);
+        globalFreqs.get(term).set(0);
+        termIndex.remove(term);
+        count++;
+      }
+    }
+    return count;
+  }
+  
   /**
    * Terms are rows
    * Documents are columns
@@ -138,10 +151,12 @@ public class TermVectorizer {
   } 
   
   public double[] getGlobalFreqs() {
-    double[] gf = new double[globalFreqs.size()];
+    // global freqs still contains trimmed terms
+    double[] gf = new double[termVecs.size()];
     int count = 0;
-    for(AtomicInteger freq: globalFreqs.values()) {
-      gf[count++] = freq.get();
+    for(String term: termVecs.keySet()) {
+      int freq = globalFreqs.get(term).get();
+      gf[count++] = freq;
     }
     return gf;
   }
@@ -157,6 +172,7 @@ public class TermVectorizer {
       return index;
   }
   
+  // before or after term trimming
   public int getTermCount() {
     return termVecs.size();
   }

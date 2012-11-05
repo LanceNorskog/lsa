@@ -1,4 +1,4 @@
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -15,7 +15,7 @@ import java.util.Set;
  * Base set never has unreferenced terms.
  */
 
-public class MultiTerms {
+public class TermSet {
   Map<String,String> alternates = new HashMap<String,String>();
   Set<String> baseSet = new HashSet<String>();
   

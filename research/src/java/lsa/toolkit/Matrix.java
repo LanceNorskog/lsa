@@ -4,7 +4,10 @@ import java.util.List;
 
 /**
  * Very stripped-down dense double Matrix class.
- * Customized for this package.
+ * Customized for this package. 
+ * If you want a general-purpose linear algebra library, use Colt.
+ * This could just be floats instead.
+ * 
  * Keep this package-visible.
  */
 
@@ -83,6 +86,10 @@ class Matrix {
     return new Matrix(values);
   }
   
+  /**
+   * Multiply all columns by column vector.
+   * Add timesRow when you need it.
+   */
   public Matrix timesColumn(double[] columnVector) {
     double[][] values = new double[numRows()][numColumns()];
     for(int r = 0; r < numRows(); r++) {
@@ -98,6 +105,8 @@ class Matrix {
   }
   
   public int numColumns() {
+    if (m.length == 0)
+      return 0;
     return m[0].length;
   }
   

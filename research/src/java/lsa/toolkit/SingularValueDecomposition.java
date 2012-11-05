@@ -21,14 +21,12 @@
  * CERN makes no representations about the suitability of this software for any purpose.
  * It is provided "as is" without expressed or implied warranty.
  */
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 
 /*
  * Singular Value Decomposition code stolen from Mahout
- * Stripped-down Matrix implementation.
- * 
- * This file as no imports.
+ * Stripped-down dense Matrix implementation.
  */
 
 public class SingularValueDecomposition {

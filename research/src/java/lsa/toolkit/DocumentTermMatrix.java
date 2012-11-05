@@ -1,23 +1,23 @@
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Build document/term matrix using LSAVectorizer term-vector toolkit.
+ * Build document/term matrix using TermVectorizer term-vector toolkit.
  * 
  * External to Lucene, 
  */
 
 public class DocumentTermMatrix {
   List<SentenceSpan> sentenceList;
-  TermVectorizer lsav = new TermVectorizer();
-  MultiTerms mt = new MultiTerms();
+  TermVectorizer tv = new TermVectorizer();
+  TermSet mt = new TermSet();
   // character ranges inside sentence for each term found
   private List<List<WordSpan>> spanLists = null;
   // index into global term array for each term found in order in sentence
   // in lockstep with spans
-  private List<List<Integer>> indexLists = null;
+  private List<List<String>> indexLists = null;
   private int current = -1;
   
   public DocumentTermMatrix(boolean saveSentences, boolean saveSpans, boolean saveIndexes) {
@@ -28,7 +28,7 @@ public class DocumentTermMatrix {
       spanLists = new ArrayList<List<WordSpan>>();
     }
     if (saveIndexes) {
-      indexLists = new ArrayList<List<Integer>>();
+      indexLists = new ArrayList<List<String>>();
     }
   }
   
@@ -36,11 +36,11 @@ public class DocumentTermMatrix {
    * Get dimension for sentence
    * Optionally save
    */
-  public int postSentence(String sentence, int start, int end) {
-    int dim = lsav.startColumn();
+  public int postSentence(SentenceSpan span) {
+    int dim = tv.startColumn();
     current = dim;
     if (sentenceList != null) {
-      sentenceList.add(new SentenceSpan(sentence, new WordSpan(start, end)));
+      sentenceList.add(span);
       if (sentenceList.size() - 1 != dim) {
         throw new IllegalStateException();
       }
@@ -52,36 +52,40 @@ public class DocumentTermMatrix {
     }
     if (indexLists != null) {
       if (indexLists.size() == dim) {
-        indexLists.add(new ArrayList<Integer>());
+        indexLists.add(new ArrayList<String>());
       }
     }
     return dim;
   }
   
   /**
-   * Add base term and optional extra terms 
-   * If a stem, base term is stem and extra is real word
-   * The base can become an alternate.
-   * 
+   * Vectorize term and add to optional tracking structures
    * position - start of base word
    * span - end of base word + 1
    */
-  public int addTerm(int dim, String base, String[] terms, WordSpan span) {
-    // register alternates, resolve base term
-    for(int i = 0; i < terms.length; i++) {
-      base = mt.addTerm(base, terms[i]);
-    }
-    int index = lsav.getOrAddIndex(base);
-    lsav.vectorizeTerm(base, dim);
+  public int addTerm(int dim, String term, WordSpan span) {
+    int index = tv.getOrAddIndex(term);
+    tv.vectorizeTerm(term, dim);
     if (spanLists != null) {
       spanLists.get(current).add(span);
     }
     if (indexLists != null) {
-      indexLists.get(current).add(index);
+      indexLists.get(current).add(term);
     }
     return index;
   }
   
+  public int trimTerms(int trimTerms) {
+    return tv.trimTerms(trimTerms);
+  }
+
+  /**
+   * Seal data after build phase.
+   */
+  public void finish() {
+    tv.truncateVectors();
+  }
+
   public SentenceSpan[] getSentences() {
     SentenceSpan[] sentences = new SentenceSpan[sentenceList.size()];
     for(int i = 0; i < sentences.length; i++) {
@@ -90,8 +94,8 @@ public class DocumentTermMatrix {
     return sentences;
   }
   
-  public WordSpan[] getSpans(int index) {
-    List<WordSpan> spanList = spanLists.get(index);
+  public WordSpan[] getSpans(int dim) {
+    List<WordSpan> spanList = spanLists.get(dim);
     WordSpan[] spans = new WordSpan[spanList.size()];
     for(int i = 0; i < spans.length; i++) {
       spans[i] = spanList.get(i);
@@ -99,23 +103,16 @@ public class DocumentTermMatrix {
     return spans;
   }
   
-  /**
-   * entry order of term or -1 if never added
-   */
-  public int getTermIndex(String term) {
-    return lsav.getTermIndex(term);
-  }
-  
   public String[] getTerms() {
-    return lsav.getTerms();
+    return tv.getTerms();
   }
   
   public double[] getGlobalFreqs() {
-    return lsav.getGlobalFreqs();
+    return tv.getGlobalFreqs();
   }
   
   public double[] getTermFreqs(String term) {
-    return lsav.getTermFreqs(term);
+    return tv.getTermFreqs(term);
   }
   
   public String getBase(String term) {
@@ -123,7 +120,7 @@ public class DocumentTermMatrix {
   }
   
   public int getTermCount() {
-    return lsav.getTermCount();
+    return tv.getTermCount();
   }
   
   public int getSentenceCount() {
@@ -134,11 +131,11 @@ public class DocumentTermMatrix {
     return sentenceList.get(index);
   }
 
-  public int[] getTermIndexes(int index) {
-    List<Integer> indexList = indexLists.get(index);
+  public int[] getTermIndexes(int dim) {
+    List<String> indexList = indexLists.get(dim);
     int[] indexes = new int[indexList.size()];
     for(int i = 0; i < indexes.length; i++) {
-      indexes[i] = indexList.get(i);
+      indexes[i] = tv.getTermIndex(indexList.get(i));
     }
     return indexes ;
   }

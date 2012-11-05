@@ -1,4 +1,4 @@
-package org.apache.solr.summary.lsa;
+package lsa.toolkit;
 
 import java.util.List;
 
